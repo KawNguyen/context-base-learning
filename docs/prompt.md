@@ -1,5 +1,7 @@
+Prompt:
+
 You are an AI coding agent inside my VS Code workspace.
-Please scaffold and implement a Next.js (App Router) web application for Context-Based English Learning (CBL) using TailwindCSS and shadcn/ui.
+Please scaffold and implement a Next.js (App Router) web application for Context-Based English Learning (CBL) using TailwindCSS and shadcn/ui, and use Bun as the runtime and package manager instead of Node/npm.
 
 The app has four main features:
 
@@ -15,17 +17,15 @@ POST https://libretranslate.com/translate with body { q, source: "en", target: "
 
 Implement /api/dictionary/[word] API route to combine dictionary lookup and translation.
 
-Frontend displays word, phonetics, English meanings, Vietnamese translations, and examples.
+Frontend displays word, phonetics, English meanings, Vietnamese translations, and examples with loading and error states.
 
 2) Quiz – Multiple Choice by CEFR Levels (A1 → A2 → B1 → B2 → C1 → C2)
 
 Add a /quiz page.
 
-Users choose level: A1, A2, B1, B2, C1, C2.
+Users choose CEFR level.
 
-Each question: a context-based sentence with a blank and 4 options.
-
-Show feedback, explanation, track score, and final summary.
+Context-based sentence with a blank, 4 options, feedback, explanations, score tracking.
 
 Use local question banks per level.
 
@@ -33,52 +33,50 @@ Use local question banks per level.
 
 Add a /grammar page.
 
-Organize grammar topics by CEFR level.
+Grammar topics by CEFR level with:
 
-For each topic: explanation (EN + VI), structure/formula, examples (EN + VI).
+EN + VI explanations.
 
-Include short practice exercises.
+Structures/formulas.
 
-4) Reading Comprehension – Choose the Correct Answer
+Example sentences (EN + VI).
 
-Add a /reading page for reading practice.
+Practice exercises.
 
-Provide short passages (paragraphs) by CEFR levels: A1 → C2.
+4) Reading Comprehension – Paragraph + Multiple Choice
 
-For each passage:
+Add a /reading page.
 
-Display the paragraph.
+Short passages by CEFR levels.
 
-Show 3–5 multiple-choice questions about main idea, details, vocabulary in context, or inference.
+3–5 questions per passage with 4 options.
 
-Each question has 4 options.
-
-After answering, show correct answers with explanations.
-
-Track score per passage and show summary.
-
-Use local reading passages and questions stored in code, extendable later.
+Show answers, explanations, and score summary.
 
 Technical requirements
+
+Use Bun for project setup and dependencies (e.g., bun create next-app, bun install, bun dev).
 
 Use TypeScript.
 
 Use shadcn/ui components (Button, Card, Input, Tabs, Accordion, RadioGroup, Progress).
 
-Responsive UI with TailwindCSS.
+TailwindCSS for styling.
 
-Clean structure with reusable components and hooks.
+Responsive UI.
+
+Clean structure with reusable components/hooks.
 
 Routes:
 
 / → dictionary
 
-/quiz → sentence quiz
+/quiz → quiz
 
-/grammar → grammar learning
+/grammar → grammar
 
-/reading → reading comprehension
+/reading → reading
 
-Provide sample data for quiz, grammar, and reading for each CEFR level.
+Provide sample data for quiz, grammar, and reading at all CEFR levels.
 
-Please generate all necessary files, components, API routes, and logic directly in the workspace.
+Please generate all necessary files, components, API routes, and working logic directly in the workspace, and include Bun commands for setup and running the project.

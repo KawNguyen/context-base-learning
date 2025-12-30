@@ -1,0 +1,100 @@
+"use client";
+
+import * as React from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { BookOpen, GraduationCap, PenTool, Search } from "lucide-react";
+
+import {
+  Sidebar,
+  SidebarContent,
+  SidebarFooter,
+  SidebarHeader,
+  SidebarMenu,
+  SidebarMenuButton,
+  SidebarMenuItem,
+} from "@/components/ui/sidebar";
+import NavMain from "@/components/nav-main";
+import { grammarTopics } from "@/constants/grammarTopics";
+import { getCategorySlug } from "@/lib/utils";
+
+export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
+  const pathname = usePathname();
+  const _first = pathname?.split("/")[1] || "";
+  const supportedLocales = ["en", "vi"];
+  const locale = supportedLocales.includes(_first) ? _first : "";
+  const homeHref = locale ? `/${locale}/` : "/";
+
+  const data = {
+    navMain: [
+      { title: "Dictionary", url: "/", icon: Search },
+      { title: "Grammar", url: "/grammar", icon: BookOpen },
+      { title: "Irregular Verbs", url: "/irregular-verbs", icon: BookOpen },
+      { title: "Quiz", url: "/quiz", icon: PenTool },
+      { title: "Reading", url: "/reading", icon: GraduationCap },
+    ],
+  };
+
+  const categories = Array.from(new Set(grammarTopics.map((t) => t.category)));
+
+  const navItems = data.navMain.map((it) => {
+    if (it.title !== "Grammar") {
+      const linkHref = locale ? `/${locale}${it.url}` : it.url;
+      return {
+        title: it.title,
+        url: linkHref,
+        icon: it.icon,
+        isActive: pathname === linkHref,
+      };
+    }
+
+    // Grammar item: build categories as subitems
+    const items = categories.map((c) => {
+      const catSlug = getCategorySlug(c);
+      const urlPath = `/grammar/${catSlug}`;
+      const url = locale ? `/${locale}${urlPath}` : urlPath;
+      return { title: c, url };
+    });
+
+    const isActive = pathname?.includes("/grammar") ?? false;
+    return { title: it.title, url: it.url, icon: it.icon, items, isActive };
+  });
+
+  return (
+    <Sidebar variant="inset" {...props} className="border-r">
+      <SidebarHeader>
+        <SidebarMenu>
+          <SidebarMenuItem>
+            <SidebarMenuButton size="lg" asChild>
+              <Link href={homeHref}>
+                <div className="flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
+                  <BookOpen className="size-4" />
+                </div>
+                <div className="grid flex-1 text-left text-sm leading-tight">
+                  <span className="truncate font-semibold">CBL App</span>
+                  <span className="truncate text-xs">English Learning</span>
+                </div>
+              </Link>
+            </SidebarMenuButton>
+          </SidebarMenuItem>
+        </SidebarMenu>
+      </SidebarHeader>
+
+      <SidebarContent>
+        <NavMain items={navItems} />
+      </SidebarContent>
+
+      <SidebarFooter>
+        <SidebarMenu>
+          <SidebarMenuItem>
+            <SidebarMenuButton>
+              <span>© 2025 CBL</span>
+            </SidebarMenuButton>
+          </SidebarMenuItem>
+        </SidebarMenu>
+      </SidebarFooter>
+    </Sidebar>
+  );
+}
+
+export default AppSidebar;
