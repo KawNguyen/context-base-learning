@@ -12,7 +12,6 @@ import {
 } from "@/components/ui/select";
 import { questions } from "@/constants/quizQuestions";
 import { generateQuizGrammarNote } from "@/lib/grammarNotes";
-import { useTranslations } from "next-intl";
 
 type CEFRLevel = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
 
@@ -23,10 +22,6 @@ export default function QuizPage() {
   const [showResult, setShowResult] = useState(false);
   const [score, setScore] = useState(0);
   const [quizStarted, setQuizStarted] = useState(false);
-
-  const t = useTranslations("quiz");
-  const tCommon = useTranslations("common");
-  const tLevels = useTranslations("levels");
 
   const startQuiz = () => {
     if (!level) return;
@@ -52,7 +47,6 @@ export default function QuizPage() {
       setSelectedAnswer(null);
       setShowResult(false);
     } else {
-      // Quiz finished
       setShowResult(true);
     }
   };
@@ -69,10 +63,10 @@ export default function QuizPage() {
   if (!quizStarted) {
     return (
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-3xl font-bold text-center mb-8">{t("title")}</h1>
+        <h1 className="text-3xl font-bold text-center mb-8">Quiz</h1>
         <Card>
           <CardHeader>
-            <CardTitle>{t("selectLevel")}</CardTitle>
+            <CardTitle>Select Level</CardTitle>
           </CardHeader>
           <CardContent>
             <Select
@@ -80,19 +74,19 @@ export default function QuizPage() {
               onValueChange={(value) => setLevel(value as CEFRLevel)}
             >
               <SelectTrigger>
-                <SelectValue placeholder={t("selectLevel")} />
+                <SelectValue placeholder="Select Level" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="A1">A1 - {tLevels("A1")}</SelectItem>
-                <SelectItem value="A2">A2 - {tLevels("A2")}</SelectItem>
-                <SelectItem value="B1">B1 - {tLevels("B1")}</SelectItem>
-                <SelectItem value="B2">B2 - {tLevels("B2")}</SelectItem>
-                <SelectItem value="C1">C1 - {tLevels("C1")}</SelectItem>
-                <SelectItem value="C2">C2 - {tLevels("C2")}</SelectItem>
+                <SelectItem value="A1">A1 - Beginner</SelectItem>
+                <SelectItem value="A2">A2 - Elementary</SelectItem>
+                <SelectItem value="B1">B1 - Intermediate</SelectItem>
+                <SelectItem value="B2">B2 - Upper Intermediate</SelectItem>
+                <SelectItem value="C1">C1 - Advanced</SelectItem>
+                <SelectItem value="C2">C2 - Proficient</SelectItem>
               </SelectContent>
             </Select>
             <Button onClick={startQuiz} disabled={!level} className="mt-4">
-              {t("startQuiz")}
+              Start Quiz
             </Button>
           </CardContent>
         </Card>
@@ -108,17 +102,16 @@ export default function QuizPage() {
   return (
     <div className="max-w-4xl mx-auto">
       <h1 className="text-3xl font-bold text-center mb-8">
-        {t("title")} - {level}
+        Quiz - {level}
       </h1>
 
       <Card>
         <CardHeader>
           <CardTitle>
-            {t("question")} {currentQuestion + 1} {t("of")}{" "}
-            {questions[level].length}
+            Question {currentQuestion + 1} of {questions[level].length}
           </CardTitle>
           <p className="text-lg">
-            {tCommon("score")}: {score}/
+            Score: {score}/
             {currentQuestion +
               (showResult && selectedAnswer === question.correct ? 1 : 0)}
           </p>
@@ -142,7 +135,7 @@ export default function QuizPage() {
 
           {!showResult ? (
             <Button onClick={submitAnswer} disabled={selectedAnswer === null}>
-              {t("yourAnswer")}
+              Your Answer
             </Button>
           ) : (
             <div>
@@ -154,8 +147,8 @@ export default function QuizPage() {
                 }`}
               >
                 {selectedAnswer === question.correct
-                  ? tCommon("correct")
-                  : `${tCommon("incorrect")} ${t("correctAnswer")}: ${
+                  ? "Correct"
+                  : `Incorrect. Correct Answer: ${
                       question.options[question.correct]
                     }`}
               </p>
@@ -164,22 +157,22 @@ export default function QuizPage() {
                   {generateQuizGrammarNote(question.sentence)}
                 </p>
                 <p className="mt-1">
-                  {tCommon("explanation")}: {question.explanation}
+                  Explanation: {question.explanation}
                 </p>
               </div>
               {isLastQuestion ? (
                 <div className="mt-4">
                   <p className="text-lg font-bold">
-                    {t("quizCompleted")} {tCommon("score")}: {score}/
+                    Quiz Completed! Score: {score}/
                     {questions[level].length}
                   </p>
                   <Button onClick={resetQuiz} className="mt-2">
-                    {t("chooseDifferentLevel")}
+                    Choose Different Level
                   </Button>
                 </div>
               ) : (
                 <Button onClick={nextQuestion} className="mt-4">
-                  {t("nextQuestion")}
+                  Next Question
                 </Button>
               )}
             </div>

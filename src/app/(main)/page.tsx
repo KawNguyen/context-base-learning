@@ -4,7 +4,8 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { useTranslations } from "next-intl";
+import { Volume2 } from "lucide-react";
+import { pronounceWord } from "@/lib/speech";
 
 interface Meaning {
   partOfSpeech: string;
@@ -19,6 +20,7 @@ interface Meaning {
 interface DictResult {
   word: string;
   phonetic?: string;
+  audio?: string;
   meanings: Meaning[];
 }
 
@@ -27,8 +29,6 @@ export default function Home() {
   const [result, setResult] = useState<DictResult | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-
-  const t = useTranslations('dictionary');
 
   const searchWord = async () => {
     if (!word.trim()) return;
@@ -53,24 +53,22 @@ export default function Home() {
 
   return (
     <div className="max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold text-center mb-8">
-        {t('title')}
-      </h1>
+      <h1 className="text-3xl font-bold text-center mb-8">Dictionary</h1>
 
       <Card className="mb-8">
         <CardHeader>
-          <CardTitle>{t('subtitle')}</CardTitle>
+          <CardTitle>Search a Word</CardTitle>
         </CardHeader>
         <CardContent>
           <div className="flex gap-2">
             <Input
               value={word}
               onChange={(e) => setWord(e.target.value)}
-              placeholder={t('placeholder')}
+              placeholder="Enter a word"
               onKeyPress={(e) => e.key === "Enter" && searchWord()}
             />
             <Button onClick={searchWord} disabled={loading}>
-              {loading ? t('loading') : t('search')}
+              {loading ? "Loading..." : "Search"}
             </Button>
           </div>
         </CardContent>
@@ -79,7 +77,7 @@ export default function Home() {
       {error && (
         <Card className="mb-4 border-red-200">
           <CardContent className="pt-6">
-            <p className="text-red-600">{t('noResults')}</p>
+            <p className="text-red-600">No results found.</p>
           </CardContent>
         </Card>
       )}
@@ -87,13 +85,23 @@ export default function Home() {
       {result && (
         <Card>
           <CardHeader>
-            <CardTitle className="flex items-center gap-2">
-              {result.word}
-              {result.phonetic && (
-                <span className="text-sm text-muted-foreground">
-                  /{result.phonetic}/
-                </span>
-              )}
+            <CardTitle className="flex items-center justify-between gap-2">
+              <div className="flex items-center gap-2">
+                {result.word}
+                {result.phonetic && (
+                  <span className="text-sm text-muted-foreground">
+                    /{result.phonetic}/
+                  </span>
+                )}
+              </div>
+              <Button
+                variant="outline"
+                size="icon"
+                className="rounded-full"
+                onClick={() => pronounceWord(result.word, result.audio)}
+              >
+                <Volume2 className="h-4 w-4" />
+              </Button>
             </CardTitle>
           </CardHeader>
           <CardContent>
@@ -106,18 +114,18 @@ export default function Home() {
                   {meaning.definitions.map((def, defIdx) => (
                     <li key={defIdx}>
                       <p>
-                        <strong>{t('definition')}:</strong> {def.definition}
+                        <strong>Definition:</strong> {def.definition}
                       </p>
                       <p>
-                        <strong>{t('translation')}:</strong> {def.definitionVi}
+                        <strong>Translation:</strong> {def.definitionVi}
                       </p>
                       {def.example && (
                         <>
                           <p className="mt-1">
-                            <em>{t('example')} EN:</em> {def.example}
+                            <em>Example EN:</em> {def.example}
                           </p>
                           <p>
-                            <em>{t('example')} VI:</em> {def.exampleVi}
+                            <em>Example VI:</em> {def.exampleVi}
                           </p>
                         </>
                       )}

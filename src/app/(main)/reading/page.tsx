@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { readingPassages } from "@/constants/readingPassages";
 import { generateReadingGrammarNote } from "@/lib/grammarNotes";
-import { useTranslations } from "next-intl";
 
 type CEFRLevel = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
 
@@ -18,10 +17,6 @@ export default function ReadingPage() {
   const [score, setScore] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [userAnswers, setUserAnswers] = useState<number[]>([]);
-
-  const t = useTranslations("reading");
-  const tCommon = useTranslations("common");
-  const tLevels = useTranslations("levels");
 
   const handleLevelSelect = (level: CEFRLevel) => {
     setLevel(level);
@@ -40,7 +35,6 @@ export default function ReadingPage() {
     setShowExplanation(false);
     setScore(0);
     setQuizCompleted(false);
-    // initialize user answers array for the selected passage
     if (level) {
       const len = readingPassages[level][index].questions.length;
       setUserAnswers(new Array(len).fill(-1));
@@ -55,7 +49,6 @@ export default function ReadingPage() {
 
     if (level && selectedPassage !== null) {
       const passage = readingPassages[level][selectedPassage];
-      // record user's answer
       setUserAnswers((prev) => {
         const copy = [...prev];
         copy[currentQuestion] = answerIndex;
@@ -96,10 +89,10 @@ export default function ReadingPage() {
         <Card className="max-w-2xl mx-auto">
           <CardHeader>
             <CardTitle className="text-2xl font-bold text-center">
-              {t("title")}
+              Select Level
             </CardTitle>
             <p className="text-center text-muted-foreground">
-              {t("selectLevel")}
+              Select the level you want to practice.
             </p>
           </CardHeader>
           <CardContent>
@@ -112,7 +105,17 @@ export default function ReadingPage() {
                     variant="outline"
                     className="h-16 text-lg font-semibold"
                   >
-                    {cefrLevel} - {tLevels(cefrLevel)}
+                    {cefrLevel} -{" "}
+                    {
+                      {
+                        A1: "Beginner",
+                        A2: "Elementary",
+                        B1: "Intermediate",
+                        B2: "Upper Intermediate",
+                        C1: "Advanced",
+                        C2: "Proficient",
+                      }[cefrLevel]
+                    }
                   </Button>
                 )
               )}
@@ -129,10 +132,10 @@ export default function ReadingPage() {
         <Card className="max-w-4xl mx-auto">
           <CardHeader>
             <CardTitle className="text-2xl font-bold text-center">
-              {level} {t("title")}
+              {level} Reading Passages
             </CardTitle>
             <p className="text-center text-muted-foreground">
-              {t("selectPassage")}
+              Select a passage to begin.
             </p>
           </CardHeader>
           <CardContent>
@@ -149,7 +152,7 @@ export default function ReadingPage() {
                       {passage.passage.substring(0, 150)}...
                     </p>
                     <p className="text-sm text-muted-foreground mt-2">
-                      {passage.questions.length} {tCommon("questions")}
+                      {passage.questions.length} questions
                     </p>
                   </CardContent>
                 </Card>
@@ -160,7 +163,7 @@ export default function ReadingPage() {
               variant="outline"
               className="mt-6"
             >
-              {tCommon("back")} {t("selectLevel")}
+              Back to Select Level
             </Button>
           </CardContent>
         </Card>
@@ -177,19 +180,18 @@ export default function ReadingPage() {
         <Card className="max-w-2xl mx-auto">
           <CardHeader>
             <CardTitle className="text-2xl font-bold text-center">
-              {t("quizCompleted")}
+              Quiz Completed!
             </CardTitle>
           </CardHeader>
           <CardContent className="text-center">
             <div className="text-6xl font-bold mb-4">{percentage}%</div>
             <p className="text-lg mb-4">
-              {t("youGot")} {score} {t("outOf")} {passage.questions.length}{" "}
-              {t("questionsCorrect")}
+              You got {score} out of {passage.questions.length} questions correct.
             </p>
             <div className="flex gap-4 justify-center">
-              <Button onClick={handleRestart}>{t("tryAgain")}</Button>
+              <Button onClick={handleRestart}>Try Again</Button>
               <Button onClick={() => setLevel("")} variant="outline">
-                {t("chooseDifferentLevel")}
+                Choose Different Level
               </Button>
             </div>
           </CardContent>
@@ -198,7 +200,7 @@ export default function ReadingPage() {
           <Card>
             <CardHeader>
               <CardTitle className="text-xl">
-                {t("reviewTitle") ?? "Review"}
+                Review
               </CardTitle>
             </CardHeader>
             <CardContent>
@@ -213,7 +215,7 @@ export default function ReadingPage() {
                       </p>
                       <div className="mt-2">
                         <p>
-                          <strong>{tCommon("yourAnswer")}:</strong>{" "}
+                          <strong>Your Answer:</strong>{" "}
                           {userAns >= 0 ? (
                             <span
                               className={
@@ -230,7 +232,7 @@ export default function ReadingPage() {
                           )}
                         </p>
                         <p>
-                          <strong>{tCommon("correctAnswer")}:</strong>{" "}
+                          <strong>Correct Answer:</strong>{" "}
                           <span className="text-green-700">
                             {String.fromCharCode(65 + correctIdx)}.{" "}
                             {q.options[correctIdx]}
@@ -244,7 +246,7 @@ export default function ReadingPage() {
                             )}
                           </p>
                           <p className="mt-1">
-                            <strong>{tCommon("explanation")}:</strong>{" "}
+                            <strong>Explanation:</strong>{" "}
                             {q.explanation}
                           </p>
                         </div>
@@ -273,7 +275,7 @@ export default function ReadingPage() {
 
           <div className="border-t pt-6">
             <h3 className="font-semibold text-lg mb-4">
-              {tCommon("question")} {currentQuestion + 1} {tCommon("of")}{" "}
+              Question {currentQuestion + 1} of {passage.questions.length}
               {passage.questions.length}
             </h3>
 
@@ -317,11 +319,11 @@ export default function ReadingPage() {
               <div className="bg-muted p-4 rounded-lg mb-4">
                 <p className="font-semibold text-green-700 mb-2">
                   {selectedAnswer === passage.questions[currentQuestion].correct
-                    ? tCommon("correct")
-                    : tCommon("incorrect")}
+                    ? "Correct"
+                    : "Incorrect"}
                 </p>
                 <p className="text-sm">
-                  {tCommon("explanation")}:{" "}
+                  Explanation:{" "}
                   {passage.questions[currentQuestion].explanation}
                 </p>
               </div>
@@ -332,14 +334,14 @@ export default function ReadingPage() {
                 onClick={() => setSelectedPassage(null)}
                 variant="outline"
               >
-                {t("backToPassages")}
+                Back to Passages
               </Button>
 
               {showExplanation && (
                 <Button onClick={handleNextQuestion}>
                   {currentQuestion < passage.questions.length - 1
-                    ? tCommon("next")
-                    : t("finishQuiz")}
+                    ? "Next Question"
+                    : "Finish Quiz"}
                 </Button>
               )}
             </div>

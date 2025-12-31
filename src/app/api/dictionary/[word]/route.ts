@@ -46,19 +46,20 @@ interface TranslatedMeaning {
 interface ApiResponse {
   word: string;
   phonetic?: string;
+  audio?: string;
   meanings: TranslatedMeaning[];
 }
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: Promise<{ word: string }> }
+  { params }: { params: Promise<{ word: string }> },
 ) {
   const { word } = await params;
 
   try {
     // Fetch from dictionary API
     const dictResponse = await fetch(
-      `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`
+      `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`,
     );
     if (!dictResponse.ok) {
       return NextResponse.json({ error: "Word not found" }, { status: 404 });
@@ -75,7 +76,7 @@ export async function GET(
             const translatedDef = await translateText(
               def.definition,
               "en",
-              "vi"
+              "vi",
             );
             const examples = def.example
               ? await translateText(def.example, "en", "vi")
@@ -86,18 +87,19 @@ export async function GET(
               example: def.example,
               exampleVi: examples,
             };
-          })
+          }),
         );
         return {
           partOfSpeech: meaning.partOfSpeech,
           definitions,
         };
-      })
+      }),
     );
 
     const result: ApiResponse = {
       word: entry.word,
       phonetic: entry.phonetic,
+      audio: entry.phonetics?.find((p) => p.audio)?.audio,
       meanings,
     };
 
@@ -106,7 +108,7 @@ export async function GET(
     console.error(error);
     return NextResponse.json(
       { error: "Internal server error" },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }
@@ -114,13 +116,13 @@ export async function GET(
 async function translateText(
   text: string,
   source: string,
-  target: string
+  target: string,
 ): Promise<string> {
   try {
     const response = await fetch(
       `https://api.mymemory.translated.net/get?q=${encodeURIComponent(
-        text
-      )}&langpair=${source}|${target}`
+        text,
+      )}&langpair=${source}|${target}`,
     );
     console.log("Translation response status:", response.status);
     if (!response.ok) {

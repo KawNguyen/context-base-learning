@@ -2,8 +2,12 @@ import { GrammarDetails } from "@/components/grammar/grammar-details";
 import { grammarTopics } from "@/constants/grammarTopics";
 import { notFound } from "next/navigation";
 
-export default async function TopicPage(props: { params: { topic: string } }) {
-  const { topic } = await props.params;
+export default async function TopicPage({
+  params,
+}: {
+  params: { topic: string };
+}) {
+  const { topic } = await params;
   const topicData = grammarTopics.find((t) => t.id === topic);
 
   if (!topicData) {

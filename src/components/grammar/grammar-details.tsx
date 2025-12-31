@@ -16,7 +16,7 @@ interface GrammarDetailsProps {
 }
 
 export function GrammarDetails({ topic }: GrammarDetailsProps) {
-  const lowercaseCategory = topic.category.toLowerCase().replace(/\s+/g, '-');
+  const lowercaseCategory = topic.category.toLowerCase().replace(/\s+/g, "-");
 
   return (
     <div className="space-y-10 py-4 animate-in fade-in duration-700">
@@ -28,7 +28,9 @@ export function GrammarDetails({ topic }: GrammarDetailsProps) {
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
-              <Link href={`/grammar/${lowercaseCategory}`}>{topic.category}</Link>
+              <Link href={`/grammar/${lowercaseCategory}`}>
+                {topic.category}
+              </Link>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
@@ -69,11 +71,19 @@ export function GrammarDetails({ topic }: GrammarDetailsProps) {
       {(topic.signalsEn || topic.signalsVi) && (
         <div className="p-6 rounded-2xl bg-white/5 border border-white/10 space-y-3">
           <h3 className="text-sm font-medium uppercase tracking-widest text-muted-foreground">
-            Signs of Identification / Dấu hiệu nhận biết
+            Signs
           </h3>
           <div className="space-y-2">
-            {topic.signalsEn && <div className="text-base text-foreground/90">{topic.signalsEn}</div>}
-            {topic.signalsVi && <div className="text-sm text-muted-foreground italic">{topic.signalsVi}</div>}
+            {topic.signalsEn && (
+              <div className="text-base text-foreground/90">
+                {topic.signalsEn}
+              </div>
+            )}
+            {topic.signalsVi && (
+              <div className="text-sm text-muted-foreground italic">
+                {topic.signalsVi}
+              </div>
+            )}
           </div>
         </div>
       )}

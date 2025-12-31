@@ -3,7 +3,12 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import { CheckCircle2, XCircle, RefreshCcw } from "lucide-react";
+import { CheckCircle2, XCircle, RefreshCcw, Languages } from "lucide-react";
+import {
+  Tooltip,
+  TooltipTrigger,
+  TooltipContent,
+} from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
 import { GrammarTopic } from "@/constants/grammarTopics";
 
@@ -36,9 +41,29 @@ export function QuizSection({ topic }: QuizSectionProps) {
     <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
       <div className="space-y-4">
         <h3 className="text-lg font-medium">Quick Quiz</h3>
-        <p className="text-foreground/90 font-medium leading-relaxed">
-          {topic.exercise.question}
-        </p>
+        <div className="space-y-1">
+          <div className="flex items-center gap-2">
+            <p className="text-foreground/90 font-medium leading-relaxed">
+              {topic.exercise.questionEn}
+            </p>
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <button
+                  type="button"
+                  aria-label="Hiển thị dịch"
+                  className="p-1 rounded-md hover:bg-white/5"
+                >
+                  <Languages className="w-4 h-4 text-muted-foreground" />
+                </button>
+              </TooltipTrigger>
+              <TooltipContent sideOffset={6} side="top" className="max-w-xs">
+                <span className="text-sm italic">
+                  {topic.exercise.questionVi}
+                </span>
+              </TooltipContent>
+            </Tooltip>
+          </div>
+        </div>
 
         <div className="grid gap-3">
           {topic.exercise.options.map((option, index) => (
@@ -106,8 +131,9 @@ export function QuizSection({ topic }: QuizSectionProps) {
             >
               {isCorrect ? "Correct!" : "Incorrect"}
             </AlertTitle>
-            <AlertDescription className="text-muted-foreground mt-1">
-              <p>{topic.exercise.explanation}</p>
+            <AlertDescription className="text-muted-foreground mt-1 space-y-1">
+              <p>{topic.exercise.explanationEn}</p>
+              <p className="text-sm italic">{topic.exercise.explanationVi}</p>
             </AlertDescription>
           </Alert>
           <Button

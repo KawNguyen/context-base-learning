@@ -3,12 +3,17 @@
 import * as React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BookOpen, GraduationCap, PenTool, Search } from "lucide-react";
+import {
+  BookA,
+  BookOpen,
+  GraduationCap,
+  PenTool,
+  WholeWord,
+} from "lucide-react";
 
 import {
   Sidebar,
   SidebarContent,
-  SidebarFooter,
   SidebarHeader,
   SidebarMenu,
   SidebarMenuButton,
@@ -27,18 +32,18 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 
   const data = {
     navMain: [
-      { title: "Dictionary", url: "/", icon: Search },
       { title: "Grammar", url: "/grammar", icon: BookOpen },
-      { title: "Irregular Verbs", url: "/irregular-verbs", icon: BookOpen },
+      { title: "Irregular Verbs", url: "/irregular-verbs", icon: WholeWord },
       { title: "Quiz", url: "/quiz", icon: PenTool },
       { title: "Reading", url: "/reading", icon: GraduationCap },
+      { title: "Vocabulary", url: "/vocabulary", icon: BookA },
     ],
   };
 
   const categories = Array.from(new Set(grammarTopics.map((t) => t.category)));
 
   const navItems = data.navMain.map((it) => {
-    if (it.title !== "Grammar") {
+    if (it.url !== "/grammar") {
       const linkHref = locale ? `/${locale}${it.url}` : it.url;
       return {
         title: it.title,
@@ -57,11 +62,12 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
     });
 
     const isActive = pathname?.includes("/grammar") ?? false;
-    return { title: it.title, url: it.url, icon: it.icon, items, isActive };
+    const itemUrl = locale ? `/${locale}${it.url}` : it.url;
+    return { title: it.title, url: itemUrl, icon: it.icon, items, isActive };
   });
 
   return (
-    <Sidebar variant="inset" {...props} className="border-r">
+    <Sidebar variant="inset" collapsible="icon" {...props} className="border-r">
       <SidebarHeader>
         <SidebarMenu>
           <SidebarMenuItem>
@@ -71,8 +77,8 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                   <BookOpen className="size-4" />
                 </div>
                 <div className="grid flex-1 text-left text-sm leading-tight">
-                  <span className="truncate font-semibold">CBL App</span>
-                  <span className="truncate text-xs">English Learning</span>
+                  <span className="truncate font-semibold">Brand</span>
+                  <span className="truncate text-xs">Brand Sub</span>
                 </div>
               </Link>
             </SidebarMenuButton>
@@ -83,16 +89,6 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       <SidebarContent>
         <NavMain items={navItems} />
       </SidebarContent>
-
-      <SidebarFooter>
-        <SidebarMenu>
-          <SidebarMenuItem>
-            <SidebarMenuButton>
-              <span>© 2025 CBL</span>
-            </SidebarMenuButton>
-          </SidebarMenuItem>
-        </SidebarMenu>
-      </SidebarFooter>
     </Sidebar>
   );
 }

@@ -5,7 +5,7 @@ Please scaffold and implement a Next.js (App Router) web application for Context
 
 The app has four main features:
 
-1) English Dictionary + EN → VI Translation
+1. English Dictionary + EN → VI Translation
 
 User can search an English word or phrase.
 
@@ -19,7 +19,7 @@ Implement /api/dictionary/[word] API route to combine dictionary lookup and tran
 
 Frontend displays word, phonetics, English meanings, Vietnamese translations, and examples with loading and error states.
 
-2) Quiz – Multiple Choice by CEFR Levels (A1 → A2 → B1 → B2 → C1 → C2)
+2. Quiz – Multiple Choice by CEFR Levels (A1 → A2 → B1 → B2 → C1 → C2)
 
 Add a /quiz page.
 
@@ -29,7 +29,7 @@ Context-based sentence with a blank, 4 options, feedback, explanations, score tr
 
 Use local question banks per level.
 
-3) Grammar Learning – English Structures
+3. Grammar Learning – English Structures
 
 Add a /grammar page.
 
@@ -43,7 +43,7 @@ Example sentences (EN + VI).
 
 Practice exercises.
 
-4) Reading Comprehension – Paragraph + Multiple Choice
+4. Reading Comprehension – Paragraph + Multiple Choice
 
 Add a /reading page.
 

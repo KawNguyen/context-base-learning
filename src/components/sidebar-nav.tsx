@@ -42,7 +42,7 @@ export function SidebarNav() {
               variant={pathname === linkHref ? "default" : "ghost"}
               className={cn(
                 "w-full justify-start",
-                pathname === linkHref && "bg-primary text-primary-foreground"
+                pathname === linkHref && "bg-primary text-primary-foreground",
               )}
             >
               <item.icon className="mr-2 h-4 w-4" />

@@ -16,12 +16,15 @@ interface GrammarTopicCardProps {
   categorySlug: string;
 }
 
-export function GrammarTopicCard({ topic, categorySlug }: GrammarTopicCardProps) {
+export function GrammarTopicCard({
+  topic,
+  categorySlug,
+}: GrammarTopicCardProps) {
   const router = useRouter();
   return (
     <Card
       className="group cursor-pointer transition-all hover:bg-muted/50 border-white/5 bg-white/5 backdrop-blur-sm"
-      onClick={()=> router.push(`/grammar/${categorySlug}/${topic.id}`)}
+      onClick={() => router.push(`/grammar/${categorySlug}/${topic.id}`)}
     >
       <CardHeader className="pb-3">
         <div className="flex justify-between items-start mb-2">

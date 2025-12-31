@@ -10,10 +10,6 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 
-interface CategoryPageProps {
-  params: Promise<{ categorySlug: string }>;
-}
-
 export async function generateStaticParams() {
   const categories = [...new Set(grammarTopics.map((topic) => topic.category))];
   return categories.map((category) => ({
@@ -21,7 +17,11 @@ export async function generateStaticParams() {
   }));
 }
 
-export default async function CategoryPage({ params }: CategoryPageProps) {
+export default async function CategoryPage({
+  params,
+}: {
+  params: { categorySlug: string };
+}) {
   const { categorySlug } = await params;
 
   const filteredTopics = grammarTopics.filter((topic) => {

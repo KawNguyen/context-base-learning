@@ -46,7 +46,7 @@ export function generateQuizGrammarNote(sentence: string): string {
 
 export function generateReadingGrammarNote(
   questionText: string,
-  passage: string
+  passage: string,
 ): string {
   const q = questionText.toLowerCase();
 
