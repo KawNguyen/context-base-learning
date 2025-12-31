@@ -13,7 +13,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { Volume2 } from "lucide-react";
+import { Volume1, Volume2 } from "lucide-react";
 import { pronounceWord, pronounceWordSlow } from "@/lib/speech";
 import { Input } from "../ui/input";
 import {
@@ -24,8 +24,10 @@ import {
   BreadcrumbSeparator,
 } from "../ui/breadcrumb";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
+  const router = useRouter();
   const [searchTerm, setSearchTerm] = useState("");
 
   const initialCategory: VocabularyCategory | "ALL" = (() => {
@@ -93,12 +95,18 @@ export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
               <TableHead>Phonetic</TableHead>
               <TableHead>Type</TableHead>
               <TableHead>Meaning</TableHead>
-              <TableHead></TableHead>
+              <TableHead>Speak(Low-Normal)</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
             {filteredVocabulary.map((word) => (
-              <TableRow key={word.id} className="group">
+              <TableRow
+                key={word.id}
+                className="group"
+                onClick={() =>
+                  router.push(`/vocabulary/word/${getCategorySlug(word.word)}`)
+                }
+              >
                 <TableCell className="font-bold">{word.word}</TableCell>
                 <TableCell className="text-muted-foreground italic text-sm">
                   {word.phonetic}
@@ -114,20 +122,26 @@ export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
                     </p>
                   </div>
                 </TableCell>
-                <TableCell>
+                <TableCell className="space-x-2">
                   <Button
-                    variant="ghost"
+                    variant="outline"
                     size="icon"
                     className="rounded-full h-8 w-8 hover:bg-primary/10 transition-colors"
-                    onClick={() => pronounceWordSlow(word.word)}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      pronounceWordSlow(word.word);
+                    }}
                   >
-                    <Volume2 className="h-4 w-4" />
+                    <Volume1 className="h-4 w-4" />
                   </Button>
                   <Button
-                    variant="ghost"
+                    variant="outline"
                     size="icon"
                     className="rounded-full h-8 w-8 hover:bg-primary/10 transition-colors"
-                    onClick={() => pronounceWord(word.word)}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      pronounceWord(word.word);
+                    }}
                   >
                     <Volume2 className="h-4 w-4" />
                   </Button>

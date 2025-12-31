@@ -51,9 +51,6 @@ export function GrammarDetails({ topic }: GrammarDetailsProps) {
         <h2 className="text-4xl font-bold tracking-tight">{topic.title}</h2>
         <div className="space-y-2">
           <p className="text-lg text-foreground/90 leading-relaxed">
-            {topic.explanationEn}
-          </p>
-          <p className="text-muted-foreground italic leading-relaxed">
             {topic.explanationVi}
           </p>
         </div>

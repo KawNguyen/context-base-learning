@@ -62,6 +62,7 @@ export const VOCABULARY_CATEGORIES: VocabularyCategory[] = [
 export interface VocabularyWord {
   id: string;
   word: string;
+  slug: string;
   phonetic: string;
   partOfSpeech: string;
   meaningEn: string;

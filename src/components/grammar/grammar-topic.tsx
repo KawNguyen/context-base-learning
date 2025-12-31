@@ -39,7 +39,7 @@ export function GrammarTopicCard({
           {topic.title}
         </CardTitle>
         <CardDescription className="line-clamp-2 text-sm text-muted-foreground/80 mt-1">
-          {topic.explanationEn}
+          {topic.explanationVi}
         </CardDescription>
       </CardHeader>
       <CardContent>

@@ -36,3 +36,11 @@ export function unslugify(slug: string) {
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
 }
+
+export function toSlug(text: string) {
+  return text
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9\s-]/g, "") // bỏ ký tự đặc biệt
+    .replace(/\s+/g, "-"); // space → -
+}

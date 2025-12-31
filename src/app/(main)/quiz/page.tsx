@@ -117,7 +117,7 @@ export default function QuizPage() {
           </p>
         </CardHeader>
         <CardContent>
-          <p className="text-xl mb-4">{question.sentence}</p>
+          <p className="text-xl mb-4">{question.questionEn}</p>
 
           <div className="space-y-2 mb-4">
             {question.options.map((option, idx) => (
@@ -140,24 +140,22 @@ export default function QuizPage() {
           ) : (
             <div>
               <p
-                className={`font-semibold ${
-                  selectedAnswer === question.correct
+                className={`font-semibold ${selectedAnswer === question.correct
                     ? "text-green-600"
                     : "text-red-600"
-                }`}
+                  }`}
               >
                 {selectedAnswer === question.correct
                   ? "Correct"
-                  : `Incorrect. Correct Answer: ${
-                      question.options[question.correct]
-                    }`}
+                  : `Incorrect. Correct Answer: ${question.options[question.correct]
+                  }`}
               </p>
               <div className="mt-2">
                 <p className="text-sm text-muted-foreground">
-                  {generateQuizGrammarNote(question.sentence)}
+                  {generateQuizGrammarNote(question.questionEn)}
                 </p>
                 <p className="mt-1">
-                  Explanation: {question.explanation}
+                  Explanation: {question.explanationVi}
                 </p>
               </div>
               {isLastQuestion ? (
