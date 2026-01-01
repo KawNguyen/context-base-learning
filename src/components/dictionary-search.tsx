@@ -36,7 +36,7 @@ export default function DictionarySearch() {
     setError("");
     try {
       const response = await fetch(
-        `/api/dictionary/${encodeURIComponent(word)}`
+        `/api/dictionary/${encodeURIComponent(word)}`,
       );
       if (!response.ok) {
         throw new Error("Word not found");

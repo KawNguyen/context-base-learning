@@ -33,12 +33,12 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 
   const data = {
     navMain: [
+      { title: "Vocabulary", url: "/vocabulary", icon: BookA },
       { title: "Grammar", url: "/grammar", icon: BookOpen },
       { title: "Irregular Verbs", url: "/irregular-verbs", icon: WholeWord },
       { title: "Quiz", url: "/quiz", icon: PenTool },
       { title: "Reading", url: "/reading", icon: GraduationCap },
       { title: "Dialogue", url: "/dialogue", icon: MessageSquare },
-      { title: "Vocabulary", url: "/vocabulary", icon: BookA },
     ],
   };
 

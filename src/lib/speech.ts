@@ -14,7 +14,7 @@ export const playAudio = (url: string): Promise<void> => {
 export const speakWithRate = (
   text: string,
   rate = 0.7,
-  lang: string = "en-US"
+  lang: string = "en-US",
 ): void => {
   if (typeof window !== "undefined" && window.speechSynthesis) {
     // Cancel any ongoing speech
@@ -41,7 +41,7 @@ export const speakFast = (text: string, lang: string = "en-US"): void =>
  */
 export const pronounceWord = async (
   word: string,
-  audioUrl?: string
+  audioUrl?: string,
 ): Promise<void> => {
   if (audioUrl) {
     try {
@@ -58,7 +58,7 @@ export const pronounceWord = async (
 
 export const pronounceWordSlow = async (
   word: string,
-  audioUrl?: string
+  audioUrl?: string,
 ): Promise<void> => {
   if (audioUrl) {
     try {
@@ -67,7 +67,7 @@ export const pronounceWordSlow = async (
     } catch (error) {
       console.error(
         "Audio playback failed, falling back to synthesis (slow):",
-        error
+        error,
       );
     }
   }
@@ -77,7 +77,7 @@ export const pronounceWordSlow = async (
 
 export const pronounceWordFast = async (
   word: string,
-  audioUrl?: string
+  audioUrl?: string,
 ): Promise<void> => {
   if (audioUrl) {
     try {
@@ -86,7 +86,7 @@ export const pronounceWordFast = async (
     } catch (error) {
       console.error(
         "Audio playback failed, falling back to synthesis (fast):",
-        error
+        error,
       );
     }
   }

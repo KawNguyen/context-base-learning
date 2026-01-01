@@ -61,7 +61,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Cô ấy ____ đến trường mỗi ngày.",
       options: ["go", "goes", "going", "gone"],
       correct: 1,
-      explanationVi: "Thì Hiện tại đơn với chủ ngữ ngôi thứ 3 số ít 'She': thêm 'es' vào sau 'go'.",
+      explanationVi:
+        "Thì Hiện tại đơn với chủ ngữ ngôi thứ 3 số ít 'She': thêm 'es' vào sau 'go'.",
       category: "Present Simple",
     },
     {
@@ -69,7 +70,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Anh ấy thường ____ đi làm bằng xe buýt.",
       options: ["go", "goes", "going", "went"],
       correct: 1,
-      explanationVi: "Với chủ ngữ 'He' (ngôi thứ 3 số ít), chúng ta thêm 'es' vào sau 'go' -> 'goes'.",
+      explanationVi:
+        "Với chủ ngữ 'He' (ngôi thứ 3 số ít), chúng ta thêm 'es' vào sau 'go' -> 'goes'.",
       category: "Present Simple",
     },
     {
@@ -85,7 +87,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Họ ____ đang chơi bóng đá bây giờ.",
       options: ["is", "am", "are", "be"],
       correct: 2,
-      explanationVi: "Thì Hiện tại tiếp diễn: S + am/is/are + V-ing. 'They' đi với 'are'.",
+      explanationVi:
+        "Thì Hiện tại tiếp diễn: S + am/is/are + V-ing. 'They' đi với 'are'.",
       category: "Present Continuous",
     },
     {
@@ -93,7 +96,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Cuốn sách đang ở ____ trên bàn.",
       options: ["in", "on", "at", "to"],
       correct: 1,
-      explanationVi: "Giới từ chỉ vị trí: 'on' chỉ vật ở trên một bề mặt (trên bàn).",
+      explanationVi:
+        "Giới từ chỉ vị trí: 'on' chỉ vật ở trên một bề mặt (trên bàn).",
       category: "Other",
     },
     {
@@ -101,7 +105,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Anh ấy ____ ăn sáng lúc 7 giờ sáng.",
       options: ["eat", "eats", "eating", "ate"],
       correct: 1,
-      explanationVi: "Thì Hiện tại đơn cho thói quen hàng ngày. 'He' yêu cầu thêm 's' vào động từ.",
+      explanationVi:
+        "Thì Hiện tại đơn cho thói quen hàng ngày. 'He' yêu cầu thêm 's' vào động từ.",
       category: "Present Simple",
     },
     {
@@ -109,7 +114,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Nghe kìa! Con chim ____.",
       options: ["sing", "sings", "is singing", "sang"],
       correct: 2,
-      explanationVi: "Dấu hiệu 'Listen!' cho thấy hành động đang diễn ra -> thì Hiện tại tiếp diễn.",
+      explanationVi:
+        "Dấu hiệu 'Listen!' cho thấy hành động đang diễn ra -> thì Hiện tại tiếp diễn.",
       category: "Present Continuous",
     },
     {
@@ -117,7 +123,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Nghe kìa! Ai đó ____ đàn piano.",
       options: ["play", "plays", "is playing", "played"],
       correct: 2,
-      explanationVi: "'Listen!' ngụ ý hành động đang xảy ra ngay bây giờ -> thì Hiện tại tiếp diễn.",
+      explanationVi:
+        "'Listen!' ngụ ý hành động đang xảy ra ngay bây giờ -> thì Hiện tại tiếp diễn.",
       category: "Present Continuous",
     },
     {
@@ -149,7 +156,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Cô ấy sống ____ ở đâu?",
       options: ["do", "does", "is", "are"],
       correct: 1,
-      explanationVi: "Câu hỏi Wh- với động từ thường ở hiện tại đơn: Where + does + S + V?",
+      explanationVi:
+        "Câu hỏi Wh- với động từ thường ở hiện tại đơn: Where + does + S + V?",
       category: "Present Simple",
     },
     {
@@ -165,7 +173,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Tôi thường ____ thức dậy lúc 6 giờ.",
       options: ["get", "gets", "getting", "got"],
       correct: 0,
-      explanationVi: "Trạng từ 'usually' dùng thì hiện tại đơn, 'I' + V nguyên thể.",
+      explanationVi:
+        "Trạng từ 'usually' dùng thì hiện tại đơn, 'I' + V nguyên thể.",
       category: "Present Simple",
     },
     {
@@ -197,7 +206,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Có ____ hai quả táo ở trên bàn làm việc.",
       options: ["is", "am", "are", "be"],
       correct: 2,
-      explanationVi: "Cấu trúc There is/There are. 'two apples' là số nhiều dùng 'are'.",
+      explanationVi:
+        "Cấu trúc There is/There are. 'two apples' là số nhiều dùng 'are'.",
       category: "Present Simple",
     },
     {
@@ -205,7 +215,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Anh ấy ____ không thích táo.",
       options: ["don't", "doesn't", "isn't", "aren't"],
       correct: 1,
-      explanationVi: "Phủ định thì hiện tại đơn với động từ thường: S + don't/doesn't + V.",
+      explanationVi:
+        "Phủ định thì hiện tại đơn với động từ thường: S + don't/doesn't + V.",
       category: "Present Simple",
     },
     {
@@ -277,7 +288,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Cô ấy có phải là ____ một học sinh không?",
       options: ["a", "an", "the", "-"],
       correct: 0,
-      explanationVi: "Mạo từ 'a' trước danh từ đếm được số ít bắt đầu bằng phụ âm.",
+      explanationVi:
+        "Mạo từ 'a' trước danh từ đếm được số ít bắt đầu bằng phụ âm.",
       category: "Articles",
     },
     {
@@ -389,7 +401,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Tôi ____ không thích đồ ăn nhanh.",
       options: ["do", "does", "is", "are"],
       correct: 0,
-      explanationVi: "Phủ định hiện tại đơn với động từ thường, chủ ngữ 'I' dùng 'do not'.",
+      explanationVi:
+        "Phủ định hiện tại đơn với động từ thường, chủ ngữ 'I' dùng 'do not'.",
       category: "Present Simple",
     },
     {
@@ -397,7 +410,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Mặt trời ____ mọc ở đằng Đông.",
       options: ["rise", "rises", "rising", "rose"],
       correct: 1,
-      explanationVi: "Sự thật hiển nhiên: Mặt trời mọc ở đằng Đông, dùng thì hiện tại đơn.",
+      explanationVi:
+        "Sự thật hiển nhiên: Mặt trời mọc ở đằng Đông, dùng thì hiện tại đơn.",
       category: "Present Simple",
     },
     {
@@ -554,7 +568,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "____ apple a day keeps the doctor away.",
-      questionVi: "____ Ăn một quả táo mỗi ngày giúp bạn không phải gặp bác sĩ.",
+      questionVi:
+        "____ Ăn một quả táo mỗi ngày giúp bạn không phải gặp bác sĩ.",
       options: ["A", "An", "The", "-"],
       correct: 1,
       explanationVi: "'Apple' bắt đầu bằng nguyên âm, dùng 'An'.",
@@ -610,7 +625,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "I can't find my keys. I lost ____.",
-      questionVi: "Tôi không thể tìm thấy chìa khóa của mình. Tôi đã làm mất ____ chúng rồi.",
+      questionVi:
+        "Tôi không thể tìm thấy chìa khóa của mình. Tôi đã làm mất ____ chúng rồi.",
       options: ["they", "their", "them", "it"],
       correct: 2,
       explanationVi: "'Keys' số nhiều, tân ngữ là 'them'.",
@@ -629,7 +645,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Chúng tôi ____ đang ăn tối thì anh ấy đến.",
       options: ["were having", "had", "have", "are having"],
       correct: 0,
-      explanationVi: "Hành động đang xảy ra (quá khứ tiếp diễn) thì hành động khác xen vào.",
+      explanationVi:
+        "Hành động đang xảy ra (quá khứ tiếp diễn) thì hành động khác xen vào.",
       category: "Past Continuous",
     },
     {
@@ -645,7 +662,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Tôi ____ bộ phim này ba lần rồi.",
       options: ["see", "saw", "have seen", "seeing"],
       correct: 2,
-      explanationVi: "Hành động lặp đi lặp lại tính đến thời điểm hiện tại sử dụng thì Hiện tại hoàn thành.",
+      explanationVi:
+        "Hành động lặp đi lặp lại tính đến thời điểm hiện tại sử dụng thì Hiện tại hoàn thành.",
       category: "Present Perfect",
     },
     {
@@ -837,7 +855,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Chúng tôi ____ sẽ đi biển vào tuần tới.",
       options: ["are going", "go", "went", "gone"],
       correct: 0,
-      explanationVi: "'Next week' dùng tương lai gần (be going to) hoặc HTTD diễn tả tương lai.",
+      explanationVi:
+        "'Next week' dùng tương lai gần (be going to) hoặc HTTD diễn tả tương lai.",
       category: "Future Simple (Will)",
     },
     {
@@ -996,7 +1015,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Chúng tôi ____ đã sống ở London trong 5 năm.",
       options: ["lived", "live", "living", "lives"],
       correct: 0,
-      explanationVi: "Kể lại sự kiện trong quá khứ (hoặc nếu vẫn sống thì dùng perfect, ở đây A2 often uses past for finished time or simple perfect context, but 'lived' is safe narration).",
+      explanationVi:
+        "Kể lại sự kiện trong quá khứ (hoặc nếu vẫn sống thì dùng perfect, ở đây A2 often uses past for finished time or simple perfect context, but 'lived' is safe narration).",
       category: "Past Simple",
     },
     {
@@ -1057,7 +1077,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Bạn ____ có đi dự tiệc không?",
       options: ["Did", "Do", "Does", "Were"],
       correct: 0,
-      explanationVi: "Hỏi về quá khứ (nếu có ngữ cảnh) hoặc thói quen. Ở đây 'Did' là lựa chọn phổ biến cho câu hỏi sự kiện.",
+      explanationVi:
+        "Hỏi về quá khứ (nếu có ngữ cảnh) hoặc thói quen. Ở đây 'Did' là lựa chọn phổ biến cho câu hỏi sự kiện.",
       category: "Past Simple",
     },
     {
@@ -1425,7 +1446,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Chẳng phải trước đây bạn ____ từng thích cà chua sao?",
       options: ["use", "used", "using", "uses"],
       correct: 0,
-      explanationVi: "Trong câu hỏi/phủ định của 'used to', 'use' về nguyên mẫu.",
+      explanationVi:
+        "Trong câu hỏi/phủ định của 'used to', 'use' về nguyên mẫu.",
       category: "Other",
     },
     {
@@ -1713,7 +1735,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Nhìn kìa! Anh ấy ____ ngã.",
       options: ["will", "is going to", "goes to", "go"],
       correct: 1,
-      explanationVi: "Dự đoán dựa trên bằng chứng (Nhìn kìa!) -> Cấu trúc Be going to.",
+      explanationVi:
+        "Dự đoán dựa trên bằng chứng (Nhìn kìa!) -> Cấu trúc Be going to.",
       category: "Near Future (Be going to)",
     },
   ],
@@ -1731,7 +1754,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Vào lúc chúng tôi đến rạp chiếu phim, bộ phim ____.",
       options: ["started", "starts", "had started", "has started"],
       correct: 2,
-      explanationVi: "Bộ phim đã bắt đầu TRƯỚC KHI chúng tôi đến (hành động quá khứ xảy ra trước 1 hành động khác) -> thì Quá khứ hoàn thành.",
+      explanationVi:
+        "Bộ phim đã bắt đầu TRƯỚC KHI chúng tôi đến (hành động quá khứ xảy ra trước 1 hành động khác) -> thì Quá khứ hoàn thành.",
       category: "Past Perfect",
     },
     {
@@ -1739,7 +1763,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Đừng gọi cho tôi lúc 8 giờ. Tôi ____ bữa tối.",
       options: ["will eat", "am eating", "will be eating", "ate"],
       correct: 2,
-      explanationVi: "Hành động sẽ đang diễn ra tại một thời điểm cụ thể trong tương lai -> thì Tương lai tiếp diễn.",
+      explanationVi:
+        "Hành động sẽ đang diễn ra tại một thời điểm cụ thể trong tương lai -> thì Tương lai tiếp diễn.",
       category: "Future Continuous",
     },
     {
@@ -1747,7 +1772,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Nếu bạn trộn màu đỏ và xanh dương, bạn ____ màu tím.",
       options: ["get", "got", "will get", "getting"],
       correct: 0,
-      explanationVi: "Sự thật hiển nhiên tương ứng với Câu điều kiện loại 0: thì Hiện tại đơn ở cả hai mệnh đề.",
+      explanationVi:
+        "Sự thật hiển nhiên tương ứng với Câu điều kiện loại 0: thì Hiện tại đơn ở cả hai mệnh đề.",
       category: "Zero Conditional",
     },
     {
@@ -1755,7 +1781,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Nếu anh ấy ____, chúng tôi sẽ đi mà không có anh ấy.",
       options: ["don't come", "doesn't come", "didn't come", "won't come"],
       correct: 1,
-      explanationVi: "Câu điều kiện loại 1: Mệnh đề If sử dụng thì Hiện tại đơn.",
+      explanationVi:
+        "Câu điều kiện loại 1: Mệnh đề If sử dụng thì Hiện tại đơn.",
       category: "First Conditional",
     },
     {
@@ -1779,12 +1806,14 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Họ ____ đã đến vào lúc chúng tôi tới đó.",
       options: ["had", "have", "has", "did"],
       correct: 0,
-      explanationVi: "Quá khứ hoàn thành diễn tả hành động xảy ra trước hành động khác trong quá khứ.",
+      explanationVi:
+        "Quá khứ hoàn thành diễn tả hành động xảy ra trước hành động khác trong quá khứ.",
       category: "Past Perfect",
     },
     {
       questionEn: "He said that he ____ the film before.",
-      questionVi: "Anh ấy nói rằng anh ấy ____ đã xem bộ phim đó trước đây rồi.",
+      questionVi:
+        "Anh ấy nói rằng anh ấy ____ đã xem bộ phim đó trước đây rồi.",
       options: ["had seen", "saw", "has seen", "sees"],
       correct: 0,
       explanationVi: "Câu tường thuật lùi thì: QKĐ/HTHT -> QKHT.",
@@ -1795,7 +1824,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Nếu tôi ____ là bạn, tôi sẽ học hành chăm chỉ hơn.",
       options: ["were", "was", "am", "be"],
       correct: 0,
-      explanationVi: "Câu điều kiện loại 2 (giả định trái ngược hiện tại): 'were' dùng cho mọi ngôi.",
+      explanationVi:
+        "Câu điều kiện loại 2 (giả định trái ngược hiện tại): 'were' dùng cho mọi ngôi.",
       category: "Second Conditional",
     },
     {
@@ -1835,7 +1865,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Chúng tôi ____ đã đi xem phim hai lần trong tháng này.",
       options: ["have been", "went", "go", "are going"],
       correct: 0,
-      explanationVi: "Hành động lặp lại nhiều lần trong khoảng thời gian chưa kết thúc.",
+      explanationVi:
+        "Hành động lặp lại nhiều lần trong khoảng thời gian chưa kết thúc.",
       category: "Present Perfect",
     },
     {
@@ -1872,7 +1903,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "Unless you ____ now, you will be late.",
-      questionVi: "Trừ khi bạn ____ rời đi ngay bây giờ, nếu không bạn sẽ bị muộn.",
+      questionVi:
+        "Trừ khi bạn ____ rời đi ngay bây giờ, nếu không bạn sẽ bị muộn.",
       options: ["leave", "don't leave", "left", "leaving"],
       correct: 0,
       explanationVi: "Unless = If not, đi với khẳng định.",
@@ -2195,7 +2227,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Cây cầu này ____ cần phải sửa chữa.",
       options: ["needs", "need", "needing", "needed"],
       correct: 0,
-      explanationVi: "Vật + need + V-ing/Noun (nghĩa bị động) hoặc needs + repair(noun).",
+      explanationVi:
+        "Vật + need + V-ing/Noun (nghĩa bị động) hoặc needs + repair(noun).",
       category: "Other",
     },
     {
@@ -2424,7 +2457,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "She caught him ____ her bag.",
-      questionVi: "Cô ấy đã bắt quả tang anh ta ____ đang lấy trộm túi xách của mình.",
+      questionVi:
+        "Cô ấy đã bắt quả tang anh ta ____ đang lấy trộm túi xách của mình.",
       options: ["stealing", "steal", "to steal", "stolen"],
       correct: 0,
       explanationVi: "Catch sb V-ing.",
@@ -2531,7 +2565,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Nếu tôi ____ xổ số, tôi sẽ đi du lịch khắp thế giới.",
       options: ["win", "won", "have won", "winning"],
       correct: 1,
-      explanationVi: "Câu điều kiện loại 2 sử dụng thì Quá khứ đơn trong mệnh đề If.",
+      explanationVi:
+        "Câu điều kiện loại 2 sử dụng thì Quá khứ đơn trong mệnh đề If.",
       category: "Second Conditional",
     },
     {
@@ -2539,15 +2574,18 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Nếu cô ấy đã học, cô ấy ____ kỳ thi.",
       options: ["would pass", "will pass", "would have passed", "passed"],
       correct: 2,
-      explanationVi: "Câu điều kiện loại 3 yêu cầu 'would have + V3' ở mệnh đề chính.",
+      explanationVi:
+        "Câu điều kiện loại 3 yêu cầu 'would have + V3' ở mệnh đề chính.",
       category: "Third Conditional",
     },
     {
       questionEn: "If he had taken the map, he ____ lost now.",
-      questionVi: "Nếu anh ấy đã mang theo bản đồ, bây giờ anh ấy ____ lạc đường.",
+      questionVi:
+        "Nếu anh ấy đã mang theo bản đồ, bây giờ anh ấy ____ lạc đường.",
       options: ["wouldn't be", "won't be", "wouldn't have been", "isn't"],
       correct: 0,
-      explanationVi: "Điều kiện trong quá khứ (had taken) + Kết quả ở hiện tại (now) -> Câu điều kiện hỗn hợp.",
+      explanationVi:
+        "Điều kiện trong quá khứ (had taken) + Kết quả ở hiện tại (now) -> Câu điều kiện hỗn hợp.",
       category: "Mixed Conditional",
     },
     {
@@ -2555,7 +2593,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Một cây cầu mới ____ xây qua sông.",
       options: ["is building", "is being built", "builds", "built"],
       correct: 1,
-      explanationVi: "Hành động đang xảy ra với đối tượng ngay lúc nói (bị động).",
+      explanationVi:
+        "Hành động đang xảy ra với đối tượng ngay lúc nói (bị động).",
       category: "Passive Voice (Present Continuous)",
     },
   ],
@@ -2578,7 +2617,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "I wish I ____ harder for the exam apart from English.",
-      questionVi: "Tôi ước gì mình ____ đã học tập chăm chỉ hơn cho kỳ thi ngoài môn tiếng Anh.",
+      questionVi:
+        "Tôi ước gì mình ____ đã học tập chăm chỉ hơn cho kỳ thi ngoài môn tiếng Anh.",
       options: ["had studied", "studied", "study", "have studied"],
       correct: 0,
       explanationVi: "Ước cho quá khứ: Wish + QKHT.",
@@ -2607,7 +2647,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "By next year, we ____ here for 20 years.",
-      questionVi: "Đến sang năm, chúng tôi ____ sẽ đã sống ở đây được 20 năm rồi.",
+      questionVi:
+        "Đến sang năm, chúng tôi ____ sẽ đã sống ở đây được 20 năm rồi.",
       options: ["will have lived", "have lived", "will live", "live"],
       correct: 0,
       explanationVi: "Tương lai hoàn thành: will have V3 + for + time.",
@@ -2674,7 +2715,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Nếu tôi đã biết chuyện, tôi ____ sẽ đã giúp bạn rồi.",
       options: ["would have", "will have", "would", "had"],
       correct: 0,
-      explanationVi: "Đảo ngữ điều kiện loại 3: Had + S + V3, S + would have V3.",
+      explanationVi:
+        "Đảo ngữ điều kiện loại 3: Had + S + V3, S + would have V3.",
       category: "Other",
     },
     {
@@ -2698,7 +2740,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Điều cốt yếu là anh ấy ____ phải có mặt ở đây đúng giờ.",
       options: ["be", "is", "was", "were"],
       correct: 0,
-      explanationVi: "Thức giả định (Subjunctive): It is essential that S + (should) V nguyên thể.",
+      explanationVi:
+        "Thức giả định (Subjunctive): It is essential that S + (should) V nguyên thể.",
       category: "Other",
     },
     {
@@ -2735,7 +2778,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "However rich he ____, he isn't happy.",
-      questionVi: "Dù anh ta có giàu ____ đến đâu, anh ta cũng không thấy hạnh phúc.",
+      questionVi:
+        "Dù anh ta có giàu ____ đến đâu, anh ta cũng không thấy hạnh phúc.",
       options: ["is", "be", "was", "been"],
       correct: 0,
       explanationVi: "However + adj + S + V.",
@@ -2743,7 +2787,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "No matter how ____ you try, you can't lift it.",
-      questionVi: "Dù bạn có cố gắng ____ đến thế nào, bạn cũng không thể nhấc nó lên.",
+      questionVi:
+        "Dù bạn có cố gắng ____ đến thế nào, bạn cũng không thể nhấc nó lên.",
       options: ["hard", "hardly", "hardness", "harder"],
       correct: 0,
       explanationVi: "No matter how + adj/adv.",
@@ -2751,7 +2796,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "Unless you ____ been there, you wouldn't understand.",
-      questionVi: "Trừ khi bạn ____ đã từng ở đó, nếu không bạn sẽ không hiểu được đâu.",
+      questionVi:
+        "Trừ khi bạn ____ đã từng ở đó, nếu không bạn sẽ không hiểu được đâu.",
       options: ["had", "have", "has", "did"],
       correct: 0,
       explanationVi: "Unless trong ngữ cảnh quá khứ (loại 3).",
@@ -2767,7 +2813,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "Provided that you ____ the money back, I will lend it.",
-      questionVi: "Với điều kiện là bạn ____ trả lại tiền, tôi sẽ cho bạn mượn.",
+      questionVi:
+        "Với điều kiện là bạn ____ trả lại tiền, tôi sẽ cho bạn mượn.",
       options: ["pay", "paying", "paid", "pays"],
       correct: 0,
       explanationVi: "Provided that = If (loại 1).",
@@ -2826,7 +2873,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Sau khi ____ làm xong việc, anh ấy đã đi về nhà.",
       options: ["finished", "finishing", "finish", "finishes"],
       correct: 0,
-      explanationVi: "Perfect Participle: Having V3 (nhấn mạnh hoàn tất trước).",
+      explanationVi:
+        "Perfect Participle: Having V3 (nhấn mạnh hoàn tất trước).",
       category: "Other",
     },
     {
@@ -2847,7 +2895,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "Seen from the distance, the mountain ____ like a giant.",
-      questionVi: "Nhìn từ xa, ngọn núi ____ trông giống như một người khổng lồ.",
+      questionVi:
+        "Nhìn từ xa, ngọn núi ____ trông giống như một người khổng lồ.",
       options: ["looks", "look", "looking", "looked"],
       correct: 0,
       explanationVi: "Rút gọn bị động: Seen from...",
@@ -2887,7 +2936,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "Considering ____ young he is, he is smart.",
-      questionVi: "Xét ____ thấy anh ấy còn trẻ như vậy, anh ấy thật thông minh.",
+      questionVi:
+        "Xét ____ thấy anh ấy còn trẻ như vậy, anh ấy thật thông minh.",
       options: ["how", "what", "that", "which"],
       correct: 0,
       explanationVi: "Considering how...",
@@ -3377,7 +3427,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "Under no circumstances ____ you open this door.",
-      questionVi: "Dù trong bất kỳ hoàn cảnh nào, bạn ____ không được mở cánh cửa này.",
+      questionVi:
+        "Dù trong bất kỳ hoàn cảnh nào, bạn ____ không được mở cánh cửa này.",
       options: ["should", "do", "are", "have"],
       correct: 0,
       explanationVi: "Đảo ngữ với Under no circumstances.",
@@ -3385,7 +3436,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "Little ____ that he was being watched.",
-      questionVi: "Anh ta hầu như ____ chẳng nhận ra rằng mình đang bị theo dõi.",
+      questionVi:
+        "Anh ta hầu như ____ chẳng nhận ra rằng mình đang bị theo dõi.",
       options: [
         "did he realize",
         "he realized",
@@ -3414,15 +3466,18 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "Were it not for your help, I ____.",
-      questionVi: "Nếu không nhờ có sự giúp đỡ của bạn, tôi ____ đã thất bại rồi.",
+      questionVi:
+        "Nếu không nhờ có sự giúp đỡ của bạn, tôi ____ đã thất bại rồi.",
       options: ["would have failed", "failed", "will fail", "had failed"],
       correct: 0,
-      explanationVi: "Câu điều kiện loại 3 đảo ngữ (Were it not for = If it hadn't been for).",
+      explanationVi:
+        "Câu điều kiện loại 3 đảo ngữ (Were it not for = If it hadn't been for).",
       category: "Other",
     },
     {
       questionEn: "But for his advice, I ____ lost.",
-      questionVi: "Nếu không nhờ có lời khuyên của anh ấy, tôi ____ đã bị lạc đường.",
+      questionVi:
+        "Nếu không nhờ có lời khuyên của anh ấy, tôi ____ đã bị lạc đường.",
       options: ["would be", "will be", "am", "was"],
       correct: 0,
       explanationVi: "But for + Noun phrase (~ If clause).",
@@ -3438,7 +3493,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "Should you need assistance, please ____ us.",
-      questionVi: "Nếu bạn cần sự trợ giúp, làm ơn hãy ____ liên hệ với chúng tôi.",
+      questionVi:
+        "Nếu bạn cần sự trợ giúp, làm ơn hãy ____ liên hệ với chúng tôi.",
       options: ["contact", "contacted", "contacting", "to contact"],
       correct: 0,
       explanationVi: "Đảo ngữ loại 1: Should + S + V.",
@@ -3502,7 +3558,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "On no account ____ be disturbed.",
-      questionVi: "Dù trong bất kỳ hoàn cảnh nào, quản lý ____ không được phép bị làm phiền.",
+      questionVi:
+        "Dù trong bất kỳ hoàn cảnh nào, quản lý ____ không được phép bị làm phiền.",
       options: [
         "must the manager",
         "the manager must",
@@ -3515,7 +3572,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "In no way ____ responsible for this.",
-      questionVi: "Dù thế nào đi nữa, tôi ____ không phải chịu trách nhiệm về việc này.",
+      questionVi:
+        "Dù thế nào đi nữa, tôi ____ không phải chịu trách nhiệm về việc này.",
       options: ["am I", "I am", "do I", "I do"],
       correct: 0,
       explanationVi: "Đảo ngữ với In no way.",
@@ -3560,7 +3618,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "Try ____ he might, he couldn't lift it.",
-      questionVi: "Dù anh ta có cố gắng ____ đến thế nào, anh ta cũng không thể nhấc nó lên.",
+      questionVi:
+        "Dù anh ta có cố gắng ____ đến thế nào, anh ta cũng không thể nhấc nó lên.",
       options: ["as", "so", "though", "although"],
       correct: 0,
       explanationVi: "Try as sbd might.",
@@ -3568,7 +3627,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "Much ____ I respect him, I disagree.",
-      questionVi: "Mặc dù ____ tôi rất tôn trọng anh ấy, nhưng tôi không đồng ý.",
+      questionVi:
+        "Mặc dù ____ tôi rất tôn trọng anh ấy, nhưng tôi không đồng ý.",
       options: ["as", "so", "though", "since"],
       correct: 0,
       explanationVi: "Much as (Mặc dù).",
@@ -3576,7 +3636,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "Never before ____ such a crisis.",
-      questionVi: "Chưa bao giờ ____ chúng ta phải đối mặt với một cuộc khủng hoảng như vậy.",
+      questionVi:
+        "Chưa bao giờ ____ chúng ta phải đối mặt với một cuộc khủng hoảng như vậy.",
       options: ["have we faced", "we have faced", "did we face", "we face"],
       correct: 0,
       explanationVi: "Đảo ngữ Never before.",
@@ -3688,7 +3749,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "Loudly ____ he shouted, no one heard.",
-      questionVi: "Dù anh ta ____ có hét to đến mức nào, cũng chẳng ai nghe thấy.",
+      questionVi:
+        "Dù anh ta ____ có hét to đến mức nào, cũng chẳng ai nghe thấy.",
       options: ["though", "as", "although", "even"],
       correct: 0,
       explanationVi: "Adv + though + S + V.",
@@ -3800,7 +3862,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "Contrary ____ popular belief, pigs are smart.",
-      questionVi: "Trái ____ ngược với quan niệm phổ biến, lợn là loài vật thông minh.",
+      questionVi:
+        "Trái ____ ngược với quan niệm phổ biến, lợn là loài vật thông minh.",
       options: ["to", "for", "with", "of"],
       correct: 0,
       explanationVi: "Contrary to.",
@@ -3816,7 +3879,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "As well ____ French, she speaks German.",
-      questionVi: "Cũng như ____ nói tiếng Pháp, cô ấy còn có thể nói tiếng Đức.",
+      questionVi:
+        "Cũng như ____ nói tiếng Pháp, cô ấy còn có thể nói tiếng Đức.",
       options: ["as", "to", "with", "of"],
       correct: 0,
       explanationVi: "As well as.",
@@ -3856,7 +3920,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "In the event ____ fire, use stairs.",
-      questionVi: "Trong trường ____ hợp xảy ra hỏa hoạn, hãy sử dụng cầu thang bộ.",
+      questionVi:
+        "Trong trường ____ hợp xảy ra hỏa hoạn, hãy sử dụng cầu thang bộ.",
       options: ["of", "for", "to", "with"],
       correct: 0,
       explanationVi: "In the event of.",
@@ -3875,7 +3940,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Cả ____ tôi và anh trai tôi đều không thích nó.",
       options: ["do", "does", "did", "have"],
       correct: 0,
-      explanationVi: "Neither ... nor (động từ theo chủ ngữ gần nhất 'my brother' - wait, 'brother' is singular, so 'likes' is fine. But inversion after Neither? No, 'Neither do I' is inversion. This structure is Subject).",
+      explanationVi:
+        "Neither ... nor (động từ theo chủ ngữ gần nhất 'my brother' - wait, 'brother' is singular, so 'likes' is fine. But inversion after Neither? No, 'Neither do I' is inversion. This structure is Subject).",
       category: "Other",
     },
     {
@@ -3888,7 +3954,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "Only by working hard ____ succeed.",
-      questionVi: "Chỉ bằng cách làm việc chăm chỉ, bạn ____ mới có thể thành công.",
+      questionVi:
+        "Chỉ bằng cách làm việc chăm chỉ, bạn ____ mới có thể thành công.",
       options: ["will you", "you will", "did you", "you did"],
       correct: 0,
       explanationVi: "Only by + V-ing + aux + S.",
@@ -3912,7 +3979,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "On no condition ____ you touch this.",
-      questionVi: "Dù trong bất kỳ điều kiện nào, bạn ____ không được chạm vào cái này.",
+      questionVi:
+        "Dù trong bất kỳ điều kiện nào, bạn ____ không được chạm vào cái này.",
       options: ["should", "do", "are", "have"],
       correct: 0,
       explanationVi: "On no condition.",
@@ -3952,7 +4020,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "Hardly a day goes by ____ I don't think of her.",
-      questionVi: "Hầu như không một ngày nào trôi qua ____ mà tôi không nghĩ về cô ấy.",
+      questionVi:
+        "Hầu như không một ngày nào trôi qua ____ mà tôi không nghĩ về cô ấy.",
       options: ["without", "when", "that", "but"],
       correct: 2,
       explanationVi: "Goes by that (mà).",
@@ -4139,7 +4208,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Anh ấy ____ có nhiệm vụ phải nộp thuế.",
       options: ["for", "to", "of", "in"],
       correct: 1,
-      explanationVi: "Liable to (có khả năng bị) / Liable for (chịu trách nhiệm về).",
+      explanationVi:
+        "Liable to (có khả năng bị) / Liable for (chịu trách nhiệm về).",
       category: "Other",
     },
     {
@@ -4194,7 +4264,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
   C2: [
     {
       questionEn: "Had it not been for the alarm, I ____ slept.",
-      questionVi: "Nếu không nhờ có tiếng chuông báo thức, tôi ____ đã ngủ quên rồi.",
+      questionVi:
+        "Nếu không nhờ có tiếng chuông báo thức, tôi ____ đã ngủ quên rồi.",
       options: ["would have", "would", "had", "will have"],
       correct: 0,
       explanationVi: "Đảo ngữ câu điều kiện loại 3 (Had it not been for).",
@@ -4218,7 +4289,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "Rarely ____ visited by such a dignitary.",
-      questionVi: "Hiếm khi ____ chúng ta được một vị chức sắc như vậy đến thăm.",
+      questionVi:
+        "Hiếm khi ____ chúng ta được một vị chức sắc như vậy đến thăm.",
       options: ["have we been", "we have been", "did we be", "we were"],
       correct: 0,
       explanationVi: "Đảo ngữ với Rarely (passive).",
@@ -4242,7 +4314,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "____ I to accept the offer, I would move.",
-      questionVi: "Nếu ____ tôi chấp nhận lời đề nghị đó, tôi sẽ chuyển đi nơi khác.",
+      questionVi:
+        "Nếu ____ tôi chấp nhận lời đề nghị đó, tôi sẽ chuyển đi nơi khác.",
       options: ["Were", "Was", "If", "Had"],
       correct: 0,
       explanationVi: "Đảo ngữ điều kiện loại 2: Were + S + to V.",
@@ -4274,7 +4347,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "It is essential that he ____ immediately.",
-      questionVi: "Việc anh ấy ____ phải được thông báo ngay lập tức là rất quan trọng.",
+      questionVi:
+        "Việc anh ấy ____ phải được thông báo ngay lập tức là rất quan trọng.",
       options: ["be informed", "is informed", "was informed", "informed"],
       correct: 0,
       explanationVi: "Subjunctive passive: be informed.",
@@ -4298,7 +4372,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "He is said ____ working on a new book.",
-      questionVi: "Người ta nói rằng anh ấy ____ đang thực hiện một cuốn sách mới.",
+      questionVi:
+        "Người ta nói rằng anh ấy ____ đang thực hiện một cuốn sách mới.",
       options: ["to be", "to have been", "being", "having been"],
       correct: 0,
       explanationVi: "Passive infinitive continuous.",
@@ -4386,7 +4461,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "____ warned, he persisted.",
-      questionVi: "Mặc dù ____ đã được cảnh báo, anh ta vẫn khăng khăng làm theo ý mình.",
+      questionVi:
+        "Mặc dù ____ đã được cảnh báo, anh ta vẫn khăng khăng làm theo ý mình.",
       options: ["Having been", "Being", "Been", "Have been"],
       correct: 0,
       explanationVi: "Perfect participle passive.",
@@ -4394,7 +4470,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "Buying a house involves ____ a mortgage.",
-      questionVi: "Mua nhà ____ bao gồm cả việc phải gánh một khoản nợ thế chấp.",
+      questionVi:
+        "Mua nhà ____ bao gồm cả việc phải gánh một khoản nợ thế chấp.",
       options: ["getting", "to get", "get", "got"],
       correct: 0,
       explanationVi: "Involve + V-ing.",
@@ -4474,7 +4551,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "The book, ____ in 1990, is a classic.",
-      questionVi: "Cuốn sách ____ được viết vào năm 1990, là một tác phẩm kinh điển.",
+      questionVi:
+        "Cuốn sách ____ được viết vào năm 1990, là một tác phẩm kinh điển.",
       options: ["written", "writing", "wrote", "write"],
       correct: 0,
       explanationVi: "Past participle phrase.",
@@ -4490,7 +4568,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "Strictly ____, spiders are not insects.",
-      questionVi: "Nói ____ một cách chính xác thì nhện không phải là côn trùng.",
+      questionVi:
+        "Nói ____ một cách chính xác thì nhện không phải là côn trùng.",
       options: ["speaking", "speak", "spoken", "spoke"],
       correct: 0,
       explanationVi: "Strictly speaking.",
@@ -4522,7 +4601,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "____ for his help, I would have failed.",
-      questionVi: "Nếu ____ không nhờ có sự giúp đỡ của anh ấy, tôi đã thất bại rồi.",
+      questionVi:
+        "Nếu ____ không nhờ có sự giúp đỡ của anh ấy, tôi đã thất bại rồi.",
       options: ["But", "If", "Only", "Except"],
       correct: 0,
       explanationVi: "But for.",
@@ -4538,7 +4618,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "On no account ____ you tell him.",
-      questionVi: "Dù trong bất kỳ hoàn cảnh nào, bạn ____ không được nói cho anh ta biết.",
+      questionVi:
+        "Dù trong bất kỳ hoàn cảnh nào, bạn ____ không được nói cho anh ta biết.",
       options: ["must", "should", "do", "have"],
       correct: 0,
       explanationVi: "On no account must you.",
@@ -4546,7 +4627,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "Whatever the reason ____ be, I don't care.",
-      questionVi: "Dù cho lý do ____ có là gì đi chăng nữa, tôi cũng không quan tâm.",
+      questionVi:
+        "Dù cho lý do ____ có là gì đi chăng nữa, tôi cũng không quan tâm.",
       options: ["may", "can", "will", "must"],
       correct: 0,
       explanationVi: "Whatever the reason may be.",
@@ -4674,7 +4756,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "Lest he ____ forget, remind him.",
-      questionVi: "Để phòng trường hợp anh ấy ____ quên, hãy nhắc nhở anh ấy nhé.",
+      questionVi:
+        "Để phòng trường hợp anh ấy ____ quên, hãy nhắc nhở anh ấy nhé.",
       options: ["should", "would", "could", "might"],
       correct: 0,
       explanationVi: "Lest he should.",
@@ -4690,7 +4773,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "Whether it ____ true or not, it's funny.",
-      questionVi: "Dù điều đó ____ có là thật hay không, nó vẫn thật buồn cười.",
+      questionVi:
+        "Dù điều đó ____ có là thật hay không, nó vẫn thật buồn cười.",
       options: ["be", "is", "was", "were"],
       correct: 0,
       explanationVi: "Whether it be (subjunctive).",
@@ -4882,7 +4966,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
     },
     {
       questionEn: "I would have lost ____ but for his help.",
-      questionVi: "Tôi ____ hẳn đã mất hết mọi thứ nếu không nhờ có sự giúp đỡ của anh ấy.",
+      questionVi:
+        "Tôi ____ hẳn đã mất hết mọi thứ nếu không nhờ có sự giúp đỡ của anh ấy.",
       options: ["everything", "nothing", "anything", "something"],
       correct: 0,
       explanationVi: "But for + Noun phrase (If it hadn't been for).",
@@ -5075,7 +5160,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Khi tôi còn trẻ, tôi ____ chạy rất nhanh.",
       options: ["can", "could", "will", "should"],
       correct: 1,
-      explanationVi: "'Could' là dạng quá khứ của 'Can', dùng cho khả năng trong quá khứ.",
+      explanationVi:
+        "'Could' là dạng quá khứ của 'Can', dùng cho khả năng trong quá khứ.",
       category: "Can / Could",
     },
     {
@@ -5155,7 +5241,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Anh ấy đề nghị ____ đi xem phim.",
       options: ["go", "to go", "going", "went"],
       correct: 2,
-      explanationVi: "Động từ 'Suggest' được theo sau bởi danh động từ (V-ing).",
+      explanationVi:
+        "Động từ 'Suggest' được theo sau bởi danh động từ (V-ing).",
       category: "Gerunds (V-ing)",
     },
     {
@@ -5163,7 +5250,8 @@ export const questions: Record<CEFRLevel, Question[]> = {
       questionVi: "Cô ấy đã quyết định ____ một chiếc xe mới.",
       options: ["buy", "to buy", "buying", "bought"],
       correct: 1,
-      explanationVi: "Động từ 'Decide' được theo sau bởi động từ nguyên mẫu có 'to' (to V).",
+      explanationVi:
+        "Động từ 'Decide' được theo sau bởi động từ nguyên mẫu có 'to' (to V).",
       category: "Infinitives (to V)",
     },
   ],

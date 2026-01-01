@@ -4,10 +4,11 @@ import { notFound } from "next/navigation";
 
 export default async function Page({ params }: { params: { word: string } }) {
   const vocab = await params;
-  const wordData = allVocabulary.find((w: VocabularyWord) => w.slug === vocab.word);
+  const wordData = allVocabulary.find(
+    (w: VocabularyWord) => w.slug === vocab.word,
+  );
 
   console.log(vocab.word);
-  
 
   if (!wordData) {
     notFound();

@@ -25,7 +25,7 @@ export function VerbList() {
         verb.base.toLowerCase().includes(query) ||
         verb.past.toLowerCase().includes(query) ||
         verb.participle.toLowerCase().includes(query) ||
-        verb.meaning.toLowerCase().includes(query)
+        verb.meaning.toLowerCase().includes(query),
     );
   }, [search]);
 

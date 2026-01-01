@@ -21,7 +21,7 @@ export function QuizSection({ topic }: QuizSectionProps) {
   // Get all questions matching this topic category
   const topicQuestions = useMemo(() => {
     const flatQuestions = Object.values(allQuestions).flat();
-    const filtered = flatQuestions.filter(q => q.category === topic.title);
+    const filtered = flatQuestions.filter((q) => q.category === topic.title);
     return filtered;
   }, [topic]);
 
@@ -65,7 +65,9 @@ export function QuizSection({ topic }: QuizSectionProps) {
   if (!currentQuestion) {
     return (
       <div className="p-8 text-center border border-dashed rounded-xl border-white/10">
-        <p className="text-muted-foreground italic">No quiz available for this topic yet.</p>
+        <p className="text-muted-foreground italic">
+          No quiz available for this topic yet.
+        </p>
       </div>
     );
   }
@@ -122,16 +124,16 @@ export function QuizSection({ topic }: QuizSectionProps) {
                   ? "border-primary bg-primary/10"
                   : "border-white/10 hover:border-white/20 hover:bg-white/5",
                 isSubmitted &&
-                index === currentQuestion.correct &&
-                "border-green-500 bg-green-500/10",
+                  index === currentQuestion.correct &&
+                  "border-green-500 bg-green-500/10",
                 isSubmitted &&
-                selectedOption === index &&
-                index !== currentQuestion.correct &&
-                "border-red-500 bg-red-500/10",
+                  selectedOption === index &&
+                  index !== currentQuestion.correct &&
+                  "border-red-500 bg-red-500/10",
                 isSubmitted &&
-                index !== currentQuestion.correct &&
-                index !== selectedOption &&
-                "opacity-50"
+                  index !== currentQuestion.correct &&
+                  index !== selectedOption &&
+                  "opacity-50",
               )}
             >
               <span>{option}</span>
@@ -163,7 +165,7 @@ export function QuizSection({ topic }: QuizSectionProps) {
               "border-2",
               isCorrect
                 ? "border-green-500/50 bg-green-500/5"
-                : "border-red-500/50 bg-red-500/5"
+                : "border-red-500/50 bg-red-500/5",
             )}
           >
             {isCorrect ? (

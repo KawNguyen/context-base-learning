@@ -1,3963 +1,8177 @@
 export type CEFRLevel = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
 
 export interface DialogueLine {
-    speaker: string;
-    text: string;
+  speaker: string;
+  text: string;
 }
 
 export interface Question {
-    question: string;
-    options: string[];
-    correct: number;
-    explanation: string;
+  question: string;
+  options: string[];
+  correct: number;
+  explanation: string;
 }
 
 export interface Dialogue {
-    title: string;
-    lines: DialogueLine[];
-    questions: Question[];
+  title: string;
+  lines: DialogueLine[];
+  questions: Question[];
 }
 
 export const dialogues: Record<CEFRLevel, Dialogue[]> = {
-    A1: [
-        {
-            title: "Saying Hello",
-            lines: [
-                { speaker: "John", text: "Hello! My name is John. What is your name?" },
-                { speaker: "Sarah", text: "Hi John! I'm Sarah. Nice to meet you." },
-                { speaker: "John", text: "Nice to meet you too, Sarah. Where are you from?" },
-                { speaker: "Sarah", text: "I'm from London. And you? Are you from England?" },
-                { speaker: "John", text: "No, I'm from New York. I'm a student here in London." },
-                { speaker: "Sarah", text: "That's cool! I'm a teacher at the language school." },
-                { speaker: "John", text: "Oh, really? Do you like your job?" },
-                { speaker: "Sarah", text: "Yes, I love it. My students are very friendly." },
-            ],
-            questions: [
-                {
-                    question: "Where is Sarah from?",
-                    options: ["New York", "London", "Paris", "Tokyo"],
-                    correct: 1,
-                    explanation: "Sarah says: 'I'm from London.'",
-                },
-                {
-                    question: "What is John's job?",
-                    options: ["Teacher", "Doctor", "Student", "Engineer"],
-                    correct: 2,
-                    explanation: "John says: 'I'm a student here in London.'",
-                },
-                {
-                    question: "What is Sarah's job?",
-                    options: ["Student", "Teacher", "Chef", "Nurse"],
-                    correct: 1,
-                    explanation: "Sarah says: 'I'm a teacher at the language school.'",
-                },
-            ],
-        },
-        {
-            title: "At the Cafe",
-            lines: [
-                { speaker: "Server", text: "Good morning. Can I help you?" },
-                { speaker: "Customer", text: "Yes, please. I'd like a coffee." },
-                { speaker: "Server", text: "Small or large?" },
-                { speaker: "Customer", text: "A large coffee, please. And a chocolate cake." },
-                { speaker: "Server", text: "Anything else? We have fresh croissants too." },
-                { speaker: "Customer", text: "No, thanks. Just the coffee and the cake. How much is that?" },
-                { speaker: "Server", text: "That's five pounds for the coffee and three pounds for the cake." },
-                { speaker: "Customer", text: "Eight pounds in total? Here is ten pounds." },
-                { speaker: "Server", text: "Thank you. And here is two pounds change." },
-            ],
-            questions: [
-                {
-                    question: "What does the Customer order?",
-                    options: ["Tea and cake", "Coffee and croissant", "Coffee and cake", "Water and bread"],
-                    correct: 2,
-                    explanation: "The Customer asks for 'A large coffee, please. And a chocolate cake.'",
-                },
-                {
-                    question: "How much is the cake?",
-                    options: ["Three pounds", "Five pounds", "Eight pounds", "Two pounds"],
-                    correct: 0,
-                    explanation: "The Server says: 'three pounds for the cake.'",
-                },
-                {
-                    question: "How much change does the Customer receive?",
-                    options: ["Five pounds", "Two pounds", "Three pounds", "Zero pounds"],
-                    correct: 1,
-                    explanation: "The Server says: 'And here is two pounds change.'",
-                },
-            ],
-        },
-        {
-            title: "My Family",
-            lines: [
-                { speaker: "Alice", text: "Do you have a big family?" },
-                { speaker: "Ben", text: "No, I have a small family. Just my parents and one brother." },
-                { speaker: "Alice", text: "How old is your brother? Is he a student?" },
-                { speaker: "Ben", text: "He is fifteen years old. He goes to high school." },
-                { speaker: "Alice", text: "What is his name? Does he live with you?" },
-                { speaker: "Ben", text: "His name is David. Yes, we all live in a small house." },
-                { speaker: "Alice", text: "Do you have any pets in your house?" },
-                { speaker: "Ben", text: "Yes, we have a white cat. Her name is Luna." },
-            ],
-            questions: [
-                {
-                    question: "How many brothers does Ben have?",
-                    options: ["None", "One", "Two", "Three"],
-                    correct: 1,
-                    explanation: "Ben says: 'Just my parents and one brother.'",
-                },
-                {
-                    question: "What is the brother's name?",
-                    options: ["John", "David", "Sarah", "Luna"],
-                    correct: 1,
-                    explanation: "Ben says: 'His name is David.'",
-                },
-                {
-                    question: "What pet does Ben's family have?",
-                    options: ["A dog", "A bird", "A cat", "A fish"],
-                    correct: 2,
-                    explanation: "Ben says: 'we have a white cat.'",
-                },
-            ],
-        },
+  A1: [
+    {
+      title: "Saying Hello",
+      lines: [
+        { speaker: "John", text: "Hello! My name is John. What is your name?" },
+        { speaker: "Sarah", text: "Hi John! I'm Sarah. Nice to meet you." },
         {
-            title: "What Time Is It?",
-            lines: [
-                { speaker: "Lily", text: "Excuse me, what time is it? I don't have a watch." },
-                { speaker: "Tom", text: "It is ten o'clock. Wait, my watch is five minutes slow." },
-                { speaker: "Lily", text: "Oh, I'm late for my class! It's actually ten o-five?" },
-                { speaker: "Tom", text: "Yes, ten o-five. When does your class start?" },
-                { speaker: "Lily", text: "It starts at ten fifteen. I have ten minutes!" },
-                { speaker: "Tom", text: "Is the classroom far from here?" },
-                { speaker: "Lily", text: "No, it is in Room 204. It's very close." },
-                { speaker: "Tom", text: "Okay, good luck! Run fast!" },
-            ],
-            questions: [
-                {
-                    question: "What time is it actually?",
-                    options: ["10:00", "10:05", "10:15", "10:20"],
-                    correct: 1,
-                    explanation: "Tom says it is actually ten o-five.",
-                },
-                {
-                    question: "When does the class start?",
-                    options: ["10:00", "10:05", "10:15", "10:30"],
-                    correct: 2,
-                    explanation: "Lily says: 'It starts at ten fifteen.'",
-                },
-                {
-                    question: "Where is the classroom?",
-                    options: ["Room 101", "Room 204", "Room 305", "The library"],
-                    correct: 1,
-                    explanation: "Lily says: 'It is in Room 204.'",
-                },
-            ],
-        },
-        {
-            title: "Buying a Shirt",
-            lines: [
-                { speaker: "Customer", text: "Hello. Do you have this shirt in blue? I only see green ones." },
-                { speaker: "Shop Assistant", text: "Yes, we do. They are on the second floor. What size do you need?" },
-                { speaker: "Customer", text: "A medium, please. Do you have small sizes too?" },
-                { speaker: "Shop Assistant", text: "Yes, we have all sizes. Let me check the blue ones... here is a medium." },
-                { speaker: "Customer", text: "Thank you. Where is the changing room?" },
-                { speaker: "Shop Assistant", text: "It is over there, next to the mirrors." },
-                { speaker: "Customer", text: "It fits perfectly. How much is it?" },
-                { speaker: "Shop Assistant", text: "It's twenty dollars. It's on sale today." },
-                { speaker: "Customer", text: "That's a great price. I'll take it." },
-                { speaker: "Shop Assistant", text: "Great. Would you like a bag?" },
-            ],
-            questions: [
-                {
-                    question: "What color shirt does the Customer want?",
-                    options: ["Green", "Blue", "Red", "Black"],
-                    correct: 1,
-                    explanation: "The Customer asks: 'Do you have this shirt in blue?'",
-                },
-                {
-                    question: "Where are the blue shirts?",
-                    options: ["First floor", "Second floor", "Near the door", "In the back"],
-                    correct: 1,
-                    explanation: "The Shop Assistant says: 'They are on the second floor.'",
-                },
-                {
-                    question: "How much is the shirt?",
-                    options: ["Ten dollars", "Fifteen dollars", "Twenty dollars", "Thirty dollars"],
-                    correct: 2,
-                    explanation: "The Shop Assistant says: 'It's twenty dollars.'",
-                },
-            ],
-        },
-        {
-            title: "Favorite Food",
-            lines: [
-                { speaker: "Mike", text: "What is your favorite food? I'm very hungry!" },
-                { speaker: "Emma", text: "I love pizza. It's delicious! My favorite is pepperoni." },
-                { speaker: "Mike", text: "Me too. What other toppings do you like? Do you like pineapple?" },
-                { speaker: "Emma", text: "No, I don't like pineapple on pizza. I like cheese and tomatoes." },
-                { speaker: "Mike", text: "I see. How often do you eat pizza? Every week?" },
-                { speaker: "Emma", text: "Usually on Friday nights with my family. We order from the Italian place." },
-                { speaker: "Mike", text: "That sounds nice. I prefer pasta, but pizza is great too." },
-                { speaker: "Emma", text: "Let's go eat now. I know a good restaurant nearby!" },
-            ],
-            questions: [
-                {
-                    question: "What food does Emma love?",
-                    options: ["Pasta", "Burgers", "Pizza", "Salad"],
-                    correct: 2,
-                    explanation: "Emma says: 'I love pizza.'",
-                },
-                {
-                    question: "Does Emma like pineapple on pizza?",
-                    options: ["Yes", "No", "Sometimes", "Only on Friday"],
-                    correct: 1,
-                    explanation: "Emma says: 'No, I don't like pineapple on pizza.'",
-                },
-                {
-                    question: "When does Emma usually eat pizza?",
-                    options: ["Monday", "Wednesday", "Friday night", "Sunday morning"],
-                    correct: 2,
-                    explanation: "Emma says: 'Usually on Friday nights with my family.'",
-                },
-            ],
-        },
-        {
-            title: "The Weather",
-            lines: [
-                { speaker: "Anna", text: "It's very sunny today. Look at the sky!" },
-                { speaker: "Jake", text: "Yes, it's a beautiful day. It's very hot too. Maybe thirty degrees?" },
-                { speaker: "Anna", text: "Yes, I think so. Do you like hot weather or cold weather?" },
-                { speaker: "Jake", text: "I like hot weather. I like going to the beach and swimming." },
-                { speaker: "Anna", text: "I prefer the winter. I like snow and winter clothes." },
-                { speaker: "Jake", text: "Really? But it's so dark in winter. Summer is much better." },
-                { speaker: "Anna", text: "It's okay. I like drinking hot chocolate by the fire." },
-                { speaker: "Jake", text: "Well, let's enjoy the sun now before it rains tomorrow!" },
-            ],
-            questions: [
-                {
-                    question: "What is the weather like today?",
-                    options: ["Cold and snowy", "Sunny and hot", "Cloudy and rainy", "Windy"],
-                    correct: 1,
-                    explanation: "Anna says: 'It's very sunny today' and Jake adds it is hot.",
-                },
-                {
-                    question: "What does Anna prefer?",
-                    options: ["Summer", "Spring", "Winter", "Autumn"],
-                    correct: 2,
-                    explanation: "Anna says: 'I prefer the winter. I like snow.'",
-                },
-                {
-                    question: "What does Jake like doing in hot weather?",
-                    options: ["Skiing", "Going to the beach", "Staying home", "Reading"],
-                    correct: 1,
-                    explanation: "Jake says: 'I like going to the beach and swimming.'",
-                },
-            ],
-        },
-        {
-            title: "My New Car",
-            lines: [
-                { speaker: "Mark", text: "Look at my new car! It's in the parking lot." },
-                { speaker: "Lucy", text: "Wow! It's very nice. Is it fast? I like the wheels." },
-                { speaker: "Mark", text: "Yes, it is very fast. And it's very comfortable inside." },
-                { speaker: "Lucy", text: "What color is it? Is it dark blue?" },
-                { speaker: "Mark", text: "No, it's bright red. You can see it from far away." },
-                { speaker: "Lucy", text: "That's exciting! Can we go for a drive later?" },
-                { speaker: "Mark", text: "Sure! Let's go to the park this afternoon." },
-                { speaker: "Lucy", text: "Perfect. Does it have a good radio?" },
-                { speaker: "Mark", text: "Yes, it has a great sound system. I love listening to music while driving." },
-            ],
-            questions: [
-                {
-                    question: "What color is the car?",
-                    options: ["Dark blue", "Bright red", "Green", "Yellow"],
-                    correct: 1,
-                    explanation: "Mark says: 'No, it's bright red.'",
-                },
-                {
-                    question: "Where is the car now?",
-                    options: ["In the garage", "In the parking lot", "On the street", "At the park"],
-                    correct: 1,
-                    explanation: "Mark says: 'It's in the parking lot.'",
-                },
-                {
-                    question: "What will they do this afternoon?",
-                    options: ["Go to the cinema", "Go to the park", "Wash the car", "Buy a new radio"],
-                    correct: 1,
-                    explanation: "Mark says: 'Let's go to the park this afternoon.'",
-                },
-            ],
-        },
-        {
-            title: "Daily Routine",
-            lines: [
-                { speaker: "Paul", text: "What time do you wake up usually?" },
-                { speaker: "Kate", text: "I wake up at seven o'clock every morning. Even on weekends!" },
-                { speaker: "Paul", text: "Seven? That's very early. Do you have breakfast immediately?" },
-                { speaker: "Kate", text: "Yes, I usually have toast and orange juice. Sometimes an egg." },
-                { speaker: "Paul", text: "What time do you go to work?" },
-                { speaker: "Kate", text: "I leave the house at eight-thirty. I take the bus." },
-                { speaker: "Paul", text: "And what time do you finish?" },
-                { speaker: "Kate", text: "I finish at five o'clock. Then I go to the gym." },
-            ],
-            questions: [
-                {
-                    question: "What time does Kate wake up?",
-                    options: ["Six o'clock", "Seven o'clock", "Eight o'clock", "Nine o'clock"],
-                    correct: 1,
-                    explanation: "Kate says: 'I wake up at seven o'clock every morning.'",
-                },
-                {
-                    question: "How does Kate go to work?",
-                    options: ["By car", "By bus", "On foot", "By train"],
-                    correct: 1,
-                    explanation: "Kate says: 'I take the bus.'",
-                },
-                {
-                    question: "What does Kate do after finishing work?",
-                    options: ["Goes home", "Goes to the gym", "Goes to a cafe", "Cooks dinner"],
-                    correct: 1,
-                    explanation: "Kate says: 'Then I go to the gym.'",
-                },
-            ],
-        },
-        {
-            title: "At the Library",
-            lines: [
-                { speaker: "Student", text: "Hello. I want to borrow this book about history." },
-                { speaker: "Librarian", text: "Hello. Do you have a library card? I need to see it." },
-                { speaker: "Student", text: "Yes, here it is. Is it still valid?" },
-                { speaker: "Librarian", text: "Let me check... Yes, it is. You can keep the book for two weeks." },
-                { speaker: "Student", text: "Can I renew it online if I need more time?" },
-                { speaker: "Librarian", text: "Yes, you can. But only if no one else wants it." },
-                { speaker: "Student", text: "Okay, thank you. Is the library open on Sundays?" },
-                { speaker: "Librarian", text: "No, we are closed on Sundays. We close at six on Saturdays." },
-            ],
-            questions: [
-                {
-                    question: "What is the book about?",
-                    options: ["Science", "Math", "History", "Art"],
-                    correct: 2,
-                    explanation: "The Student says: 'this book about history.'",
-                },
-                {
-                    question: "How long can the Student keep the book?",
-                    options: ["One week", "Two weeks", "Three weeks", "One month"],
-                    correct: 1,
-                    explanation: "The Librarian says: 'You can keep the book for two weeks.'",
-                },
-                {
-                    question: "Is the library open on Sundays?",
-                    options: ["Yes", "No", "Only in the morning", "Sometimes"],
-                    correct: 1,
-                    explanation: "The Librarian says: 'No, we are closed on Sundays.'",
-                },
-            ],
-        },
-        {
-            title: "Weekend Plans",
-            lines: [
-                { speaker: "Sam", text: "What are you doing on Sunday? Are you busy?" },
-                { speaker: "Lily", text: "I'm going to the park with my friends. We're meeting at noon." },
-                { speaker: "Sam", text: "Are you going to play football or basketball?" },
-                { speaker: "Lily", text: "No, we're going to have a picnic and listen to music." },
-                { speaker: "Sam", text: "That sounds fun! What food are you bringing?" },
-                { speaker: "Lily", text: "I'm making sandwiches and bringing some strawberries." },
-                { speaker: "Sam", text: "Do you need more drinks? I can bring some juice." },
-                { speaker: "Lily", text: "Yes, please! That would be great. Come join us!" },
-            ],
-            questions: [
-                {
-                    question: "Where is Lily going on Sunday?",
-                    options: ["To the cinema", "To the park", "To the school", "To work"],
-                    correct: 1,
-                    explanation: "Lily says: 'I'm going to the park...'",
-                },
-                {
-                    question: "What is the group going to do?",
-                    options: ["Play football", "Study", "Have a picnic", "Go shopping"],
-                    correct: 2,
-                    explanation: "Lily says: 'we're going to have a picnic.'",
-                },
-                {
-                    question: "What food is Lily bringing?",
-                    options: ["Pizza", "Burgers", "Sandwiches and strawberries", "Pasta"],
-                    correct: 2,
-                    explanation: "Lily says: 'I'm making sandwiches and bringing some strawberries.'",
-                },
-            ],
-        },
-        {
-            title: "Asking Directions",
-            lines: [
-                { speaker: "Tourist", text: "Excuse me, I'm lost. Where is the big supermarket?" },
-                { speaker: "Local", text: "Go straight for two blocks and turn left at the hospital." },
-                { speaker: "Tourist", text: "Turn left at the hospital? Is it a big building?" },
-                { speaker: "Local", text: "Yes, it is white and very tall. You can't miss it." },
-                { speaker: "Tourist", text: "Is the supermarket far from the hospital?" },
-                { speaker: "Local", text: "No, it's right across from the park, next to the bank." },
-                { speaker: "Tourist", text: "Thank you. Is it about five minutes on foot?" },
-                { speaker: "Local", text: "Yes, about five to ten minutes. It's a nice walk." },
-            ],
-            questions: [
-                {
-                    question: "Where should the Tourist turn left?",
-                    options: ["At the park", "At the hospital", "At the library", "At the bank"],
-                    correct: 1,
-                    explanation: "The Local says: 'turn left at the hospital.'",
-                },
-                {
-                    question: "What color is the hospital building?",
-                    options: ["Red", "Blue", "White", "Green"],
-                    correct: 2,
-                    explanation: "The Local says: 'it is white and very tall.'",
-                },
-                {
-                    question: "Where is the supermarket located?",
-                    options: ["Next to the hospital", "Inside the park", "Next to the bank", "Near the school"],
-                    correct: 2,
-                    explanation: "The Local says: 'next to the bank.'",
-                },
-            ],
-        },
-        {
-            title: "My Hobbies",
-            lines: [
-                { speaker: "Jack", text: "What do you do in your free time? Do you have any hobbies?" },
-                { speaker: "Jill", text: "I like listening to music and reading books. I have a lot of books." },
-                { speaker: "Jack", text: "What kind of music do you like? I love rock music." },
-                { speaker: "Jill", text: "I love pop music. It's very happy. Do you play any instruments?" },
-                { speaker: "Jack", text: "I play the guitar a little. I practice on Saturdays." },
-                { speaker: "Jill", text: "That's cool! I want to learn the piano one day." },
-                { speaker: "Jack", text: "The piano is difficult but very beautiful." },
-                { speaker: "Jill", text: "Yes, I agree. We should go to a concert together sometime!" },
-            ],
-            questions: [
-                {
-                    question: "What kind of music does Jill love?",
-                    options: ["Rock", "Pop", "Jazz", "Classical"],
-                    correct: 1,
-                    explanation: "Jill says: 'I love pop music.'",
-                },
-                {
-                    question: "What instrument does Jack play?",
-                    options: ["Piano", "Guitar", "Drums", "Violin"],
-                    correct: 1,
-                    explanation: "Jack says: 'I play the guitar a little.'",
-                },
-                {
-                    question: "When does Jack practice the instrument?",
-                    options: ["Every day", "On Saturdays", "On Sundays", "In the evening"],
-                    correct: 1,
-                    explanation: "Jack says: 'I practice on Saturdays.'",
-                },
-            ],
-        },
-        {
-            title: "Doctor's Visit",
-            lines: [
-                { speaker: "Patient", text: "Good morning, doctor. I don't feel very well." },
-                { speaker: "Doctor", text: "Good morning. What exactly is the problem? Sit down, please." },
-                { speaker: "Patient", text: "I have a headache and a very sore throat since yesterday." },
-                { speaker: "Doctor", text: "Do you have a fever too? Let me check your temperature." },
-                { speaker: "Patient", text: "Yes, I feel very hot. My head hurts a lot." },
-                { speaker: "Doctor", text: "Your temperature is a bit high. You should stay in bed." },
-                { speaker: "Patient", text: "Can I go to work tomorrow? I have an important meeting." },
-                { speaker: "Doctor", text: "No, you should rest for two days and drink lots of water." },
-            ],
-            questions: [
-                {
-                    question: "What are the Patient's symptoms?",
-                    options: ["Broken arm", "Toothache", "Headache and sore throat", "Stomach ache"],
-                    correct: 2,
-                    explanation: "The Patient says: 'I have a headache and a very sore throat.'",
-                },
-                {
-                    question: "How long has the Patient felt sick?",
-                    options: ["Since this morning", "Since yesterday", "For one week", "For three days"],
-                    correct: 1,
-                    explanation: "The Patient says: 'since yesterday.'",
-                },
-                {
-                    question: "What is the Doctor's advice?",
-                    options: ["Go to work", "Rest for two days", "Go to the gym", "Eat more fruit"],
-                    correct: 1,
-                    explanation: "The Doctor says: 'rest for two days and drink lots of water.'",
-                },
-            ],
-        },
-        {
-            title: "A New Job",
-            lines: [
-                { speaker: "Chris", text: "Hey! I have some great news. I have a new job!" },
-                { speaker: "Lisa", text: "That's amazing! Congratulations! Where are you working now?" },
-                { speaker: "Chris", text: "I'm working in a big bank in the city center. It's near the station." },
-                { speaker: "Lisa", text: "Is it a good office? Do you like your new colleagues?" },
-                { speaker: "Chris", text: "Yes, the office is very modern and everyone is very kind to me." },
-                { speaker: "Lisa", text: "What are your working hours? Do you start early?" },
-                { speaker: "Chris", text: "I start at nine o'clock and finish at five-thirty." },
-                { speaker: "Lisa", text: "Those are good hours. We should celebrate this weekend!" },
-            ],
-            questions: [
-                {
-                    question: "Where is the new job located?",
-                    options: ["In a school", "In a hospital", "In a bank", "In a library"],
-                    correct: 2,
-                    explanation: "Chris says: 'I'm working in a big bank.'",
-                },
-                {
-                    question: "Where in the city is the office?",
-                    options: ["In the suburbs", "Near the station", "Opposite the park", "In the mall"],
-                    correct: 1,
-                    explanation: "Chris says: 'It's near the station.'",
-                },
-                {
-                    question: "What time does Chris finish work?",
-                    options: ["5:00", "5:30", "6:00", "4:30"],
-                    correct: 1,
-                    explanation: "Chris says: 'finish at five-thirty.'",
-                },
-            ],
-        },
-        {
-            title: "Going to the Cinema",
-            lines: [
-                { speaker: "Harry", text: "Let's go to the cinema tonight. There are many good movies." },
-                { speaker: "Sally", text: "Okay, that's a great idea. What movie do you want to see?" },
-                { speaker: "Harry", text: "The new comedy film. It's called 'Summer Laughs'. It's very funny." },
-                { speaker: "Sally", text: "I heard about that. What time does it start? I'm free after six." },
-                { speaker: "Harry", text: "It starts at seven-thirty. We can meet at the cinema at seven." },
-                { speaker: "Sally", text: "Should we buy the tickets now? I think the cinema is busy on Fridays." },
-                { speaker: "Harry", text: "Yes, let's buy them online. It's safer and faster." },
-                { speaker: "Sally", text: "Perfect. I'll bring some popcorn too!" },
-            ],
-            questions: [
-                {
-                    question: "What kind of movie is it?",
-                    options: ["Action", "Comedy", "Horror", "Drama"],
-                    correct: 1,
-                    explanation: "Harry says: 'The new comedy film.'",
-                },
-                {
-                    question: "What time does the movie start?",
-                    options: ["6:00", "7:00", "7:30", "8:00"],
-                    correct: 2,
-                    explanation: "Harry says: 'It starts at seven-thirty.'",
-                },
-                {
-                    question: "How will they buy the tickets?",
-                    options: ["At the cinema", "Online", "By phone", "They won't buy them"],
-                    correct: 1,
-                    explanation: "Harry says: 'let's buy them online.'",
-                },
-            ],
-        },
-        {
-            title: "School Lunch",
-            lines: [
-                { speaker: "Kevin", text: "What do you have for lunch today? I'm getting hungry." },
-                { speaker: "Amy", text: "I have a ham sandwich and a red apple. My mom made it." },
-                { speaker: "Kevin", text: "I have pasta with tomato sauce and a banana. Do you want to swap?" },
-                { speaker: "Amy", text: "No, thanks. I love ham sandwiches! Is your pasta hot?" },
-                { speaker: "Kevin", text: "Yes, it's still warm. I have some cookies too. Do you want one?" },
-                { speaker: "Amy", text: "Yes, please! I love cookies. Are they chocolate?" },
-                { speaker: "Kevin", text: "Yes, they are chocolate chip. Here you go." },
-                { speaker: "Amy", text: "Thank you. This is a very good lunch today." },
-            ],
-            questions: [
-                {
-                    question: "What fruit does Amy have?",
-                    options: ["Apple", "Orange", "Banana", "Grape"],
-                    correct: 0,
-                    explanation: "Amy says: 'I have... a red apple.'",
-                },
-                {
-                    question: "What main dish does Kevin have?",
-                    options: ["Sandwich", "Pasta", "Pizza", "Salad"],
-                    correct: 1,
-                    explanation: "Kevin says: 'I have pasta with tomato sauce.'",
-                },
-                {
-                    question: "What does Kevin share with Amy?",
-                    options: ["Pasta", "Apple", "Cookies", "Sandwich"],
-                    correct: 2,
-                    explanation: "Kevin says: 'I have some cookies too. Do you want one?'",
-                },
-            ],
-        },
-        {
-            title: "In the Park",
-            lines: [
-                { speaker: "Steve", text: "Look at those flowers over there! They are beautiful." },
-                { speaker: "Diana", text: "Yes, they are yellow and purple. Spring is finally here." },
-                { speaker: "Steve", text: "I want to take a photo. My phone takes great pictures." },
-                { speaker: "Diana", text: "Wait, there's a small bee on that purple flower." },
-                { speaker: "Steve", text: "Oh, I see it. I'll be careful. Look at the trees too." },
-                { speaker: "Diana", text: "The trees are very green now. I like sitting under them." },
-                { speaker: "Steve", text: "Me too. It's very quiet and peaceful here today." },
-                { speaker: "Diana", text: "Let's walk to the small lake. There are ducks there." },
-                { speaker: "Steve", text: "Great idea! I love watching the ducks swim." },
-            ],
-            questions: [
-                {
-                    question: "What color are the flowers?",
-                    options: ["Red", "Yellow and purple", "Blue", "White"],
-                    correct: 1,
-                    explanation: "Diana says: 'they are yellow and purple.'",
-                },
-                {
-                    question: "What does Steve want to do with the phone?",
-                    options: ["Call a friend", "Play a game", "Take a photo", "Check the time"],
-                    correct: 2,
-                    explanation: "Steve says: 'I want to take a photo.'",
-                },
-                {
-                    question: "Where are they going next?",
-                    options: ["To a cafe", "To the lake", "To the library", "Home"],
-                    correct: 1,
-                    explanation: "Diana says: 'Let's walk to the small lake.'",
-                },
-            ],
-        },
-        {
-            title: "Learning English",
-            lines: [
-                { speaker: "Pedro", text: "How long do you study English every day? You're getting better!" },
-                { speaker: "Maria", text: "I study for one hour every evening after dinner." },
-                { speaker: "Pedro", text: "Do you use an app or do you read books?" },
-                { speaker: "Maria", text: "I use a popular app on my phone and I watch English movies." },
-                { speaker: "Pedro", text: "Movies are great for listening. Do you use subtitles?" },
-                { speaker: "Maria", text: "Yes, I use English subtitles. It helps me learn new words." },
-                { speaker: "Pedro", text: "That's a good tip. I should try that for my French class." },
-                { speaker: "Maria", text: "You should! It's difficult at first but it's very fun." },
-            ],
-            questions: [
-                {
-                    question: "When does Maria study English?",
-                    options: ["In the morning", "At lunch", "Every evening", "On weekends"],
-                    correct: 2,
-                    explanation: "Maria says: 'I study for one hour every evening.'",
-                },
-                {
-                    question: "What does Maria use to learn?",
-                    options: ["Only books", "An app and movies", "Only classes", "A dictionary"],
-                    correct: 1,
-                    explanation: "Maria says: 'I use a popular app... and I watch English movies.'",
-                },
-                {
-                    question: "How do subtitles help Maria?",
-                    options: ["They are funny", "To learn new words", "To read faster", "They don't help"],
-                    correct: 1,
-                    explanation: "Maria says: 'It helps me learn new words.'",
-                },
-            ],
-        },
-        {
-            title: "New Neighbors",
-            lines: [
-                { speaker: "James", text: "Did you meet our new neighbors in Apartment 4B yet?" },
-                { speaker: "Linda", text: "No, not yet. I saw them yesterday. Where are they from?" },
-                { speaker: "James", text: "They are from Spain. They moved here for work." },
-                { speaker: "Linda", text: "Oh, Spain is lovely. Do they speak English well?" },
-                { speaker: "James", text: "Yes, quite well. They have a small brown dog too." },
-                { speaker: "Linda", text: "I saw the dog! It's very friendly. What's his name?" },
-                { speaker: "James", text: "His name is Coco. They are very nice people." },
-                { speaker: "Linda", text: "We should invite them for coffee this weekend." },
-                { speaker: "James", text: "That's a very kind idea. I'll ask them tomorrow." },
-            ],
-            questions: [
-                {
-                    question: "Where are the new neighbors from?",
-                    options: ["France", "Italy", "Spain", "Germany"],
-                    correct: 2,
-                    explanation: "James says: 'They are from Spain.'",
-                },
-                {
-                    question: "What pet do they have?",
-                    options: ["A cat", "A big dog", "A small brown dog", "A bird"],
-                    correct: 2,
-                    explanation: "James says: 'They have a small brown dog too.'",
-                },
-                {
-                    question: "What is the dog's name?",
-                    options: ["Luna", "David", "Coco", "Sarah"],
-                    correct: 2,
-                    explanation: "James says: 'His name is Coco.'",
-                },
-            ],
-        },
-    ],
-    A2: [
-        {
-            title: "Planning a Weekend",
-            lines: [
-                { speaker: "David", text: "What are you doing this weekend? Do you have any plans?" },
-                { speaker: "Susan", text: "I'm not sure. Maybe stay at home and relax. I'm a bit tired." },
-                { speaker: "David", text: "Would you like to go to the cinema on Saturday afternoon?" },
-                { speaker: "Susan", text: "That sounds great! What's on? Is there anything funny?" },
-                { speaker: "David", text: "There's a new action movie at 7 PM and a comedy at 4 PM." },
-                { speaker: "Susan", text: "Let's see the comedy. I need a good laugh. Is it at the mall?" },
-                { speaker: "David", text: "Yes, at the city mall cinema. We can have dinner after." },
-                { speaker: "Susan", text: "Perfect. We can try that new pizza place nearby." },
-                { speaker: "David", text: "Great idea. I'll book the tickets online now." },
-            ],
-            questions: [
-                {
-                    question: "What time is the comedy movie?",
-                    options: ["4:00 PM", "7:00 PM", "6:00 PM", "9:00 PM"],
-                    correct: 0,
-                    explanation: "David says: 'a comedy at 4 PM.'",
-                },
-                {
-                    question: "Where is the cinema located?",
-                    options: ["At the park", "In the city center", "At the mall", "Near the station"],
-                    correct: 2,
-                    explanation: "Susan asks: 'Is it at the mall?' and David confirms.",
-                },
-                {
-                    question: "What will they do after the movie?",
-                    options: ["Go home", "Have dinner", "Go to a party", "Watch another movie"],
-                    correct: 1,
-                    explanation: "David says: 'We can have dinner after.'",
-                },
-            ],
-        },
-        {
-            title: "Lost in the City",
-            lines: [
-                { speaker: "Visitor", text: "Excuse me, I'm looking for the museum. Do you know where it is?" },
-                { speaker: "Resident", text: "Yes, it's not far. Go past the bank and then turn right at the corner." },
-                { speaker: "Visitor", text: "Turn right at the corner... Is it next to the big park?" },
-                { speaker: "Resident", text: "Exactly. It's a large white building with many windows." },
-                { speaker: "Visitor", text: "Is it open today? I think it might be a holiday." },
-                { speaker: "Resident", text: "Yes, it is open from 10 AM to 6 PM. It's free on Saturdays too." },
-                { speaker: "Visitor", text: "That's wonderful! Thank you for your help." },
-                { speaker: "Resident", text: "You're welcome. Enjoy your visit!" },
-            ],
-            questions: [
-                {
-                    question: "What color is the museum building?",
-                    options: ["Red", "White", "Blue", "Gray"],
-                    correct: 1,
-                    explanation: "The Resident says: 'It's a large white building.'",
-                },
-                {
-                    question: "Where should the Visitor turn right?",
-                    options: ["At the museum", "At the bank", "At the corner", "At the park"],
-                    correct: 2,
-                    explanation: "The Resident says: 'turn right at the corner.'",
-                },
-                {
-                    question: "Is the museum free today?",
-                    options: ["Yes, every day", "No, it costs money", "Yes, because it's Saturday", "Only for students"],
-                    correct: 2,
-                    explanation: "The Resident says: 'It's free on Saturdays too.'",
-                },
-            ],
-        },
-        {
-            title: "Booking a Room",
-            lines: [
-                { speaker: "Guest", text: "Hello, I'd like to book a room for two nights next week." },
-                { speaker: "Receptionist", text: "Certainly. For which dates exactly, sir?" },
-                { speaker: "Guest", text: "For the 15th and 16th of June. Is there a room with a view?" },
-                { speaker: "Receptionist", text: "Let me check... We have a double room available on the top floor." },
-                { speaker: "Guest", text: "That sounds perfect. Does it have free Wi-Fi?" },
-                { speaker: "Receptionist", text: "Yes, all our rooms have high-speed internet and a minibar." },
-                { speaker: "Guest", text: "Good. And what time is check-in?" },
-                { speaker: "Receptionist", text: "Check-in is at 2 PM. You can leave your bags if you arrive early." },
-                { speaker: "Guest", text: "Great. I'll also need a parking space for my car." },
-                { speaker: "Receptionist", text: "No problem. We have a secure garage under the hotel." },
-            ],
-            questions: [
-                {
-                    question: "Which month does the Guest want to book for?",
-                    options: ["May", "June", "July", "August"],
-                    correct: 1,
-                    explanation: "The Guest says: 'of June.'",
-                },
-                {
-                    question: "What floor is the available room on?",
-                    options: ["First floor", "Ground floor", "Top floor", "Basement"],
-                    correct: 2,
-                    explanation: "The Receptionist says: 'on the top floor.'",
-                },
-                {
-                    question: "What time can the Guest check in?",
-                    options: ["10 AM", "12 PM", "2 PM", "4 PM"],
-                    correct: 2,
-                    explanation: "The Receptionist says: 'Check-in is at 2 PM.'",
-                },
-            ],
-        },
-        {
-            title: "Talking about Hobbies",
-            lines: [
-                { speaker: "Leo", text: "What do you like doing in your spare time? Do you have any hobbies?" },
-                { speaker: "Mia", text: "I'm really into photography. I love taking pictures of nature and birds." },
-                { speaker: "Leo", text: "That's interesting. Do you have a professional camera or use your phone?" },
-                { speaker: "Mia", text: "Yes, I bought a new professional camera last month. It's very fast." },
-                { speaker: "Leo", text: "I'd love to see some of your photos. Do you post them online?" },
-                { speaker: "Mia", text: "I have a small blog where I share my best pictures every weekend." },
-                { speaker: "Leo", text: "That's cool! I enjoy cooking. I'm learning to make Italian food." },
-                { speaker: "Mia", text: "Maybe you can cook something while I take photos of the dishes!" },
-                { speaker: "Leo", text: "Haha, deal! Let's do that next time we meet." },
-            ],
-            questions: [
-                {
-                    question: "When did Mia buy the new camera?",
-                    options: ["Last week", "Last month", "Last year", "Yesterday"],
-                    correct: 1,
-                    explanation: "Mia says: 'I bought a new one last month.'",
-                },
-                {
-                    question: "What does Leo like doing?",
-                    options: ["Photography", "Cooking", "Swimming", "Gardening"],
-                    correct: 1,
-                    explanation: "Leo says: 'I enjoy cooking.'",
-                },
-                {
-                    question: "Where does Mia share the photos?",
-                    options: ["On social media", "On a blog", "In a magazine", "He doesn't share them"],
-                    correct: 1,
-                    explanation: "Mia says: 'I have a small blog where I share my best pictures.'",
-                },
-            ],
-        },
-        {
-            title: "A New Restaurant",
-            lines: [
-                { speaker: "Carl", text: "Have you tried the new Italian restaurant on Main Street yet?" },
-                { speaker: "Jenny", text: "No, I haven't. I heard it opened last Monday. Is it good?" },
-                { speaker: "Carl", text: "Yes, the pasta is amazing and the service is very fast and friendly." },
-                { speaker: "Jenny", text: "Is it expensive? I don't want to spend too much money." },
-                { speaker: "Carl", text: "It's not bad. About fifteen dollars for a main course." },
-                { speaker: "Jenny", text: "That's reasonable. Does it have outdoor seating?" },
-                { speaker: "Carl", text: "Yes, it has a beautiful terrace with lots of plants." },
-                { speaker: "Jenny", text: "Great! Let's go there for dinner this Friday." },
-            ],
-            questions: [
-                {
-                    question: "Where is the new restaurant located?",
-                    options: ["High Street", "Main Street", "Market Road", "Broad Street"],
-                    correct: 1,
-                    explanation: "Carl says: 'on Main Street.'",
-                },
-                {
-                    question: "When did the restaurant open?",
-                    options: ["Yesterday", "Last Friday", "Last Monday", "Today"],
-                    correct: 2,
-                    explanation: "Jenny says: 'I heard it opened last Monday.'",
-                },
-                {
-                    question: "What special feature does the restaurant have?",
-                    options: ["A pool", "Outdoor seating", "Live music", "A play area"],
-                    correct: 1,
-                    explanation: "Carl says: 'it has a beautiful terrace.'",
-                },
-            ],
-        },
-        {
-            title: "Job Interview Prep",
-            lines: [
-                { speaker: "Sarah", text: "I have a big job interview tomorrow morning. I'm so nervous!" },
-                { speaker: "Emily", text: "Don't worry, Sarah. You have a lot of experience in this field." },
-                { speaker: "Sarah", text: "I know, but I'm worried they will ask difficult technical questions." },
-                { speaker: "Emily", text: "Just be yourself and answer honestly. Have you practiced your presentation?" },
-                { speaker: "Sarah", text: "Yes, I practiced it three times today. I hope they like it." },
-                { speaker: "Emily", text: "I'm sure they will. What are you going to wear?" },
-                { speaker: "Sarah", text: "I'm thinking of wearing my blue suit. It looks professional." },
-                { speaker: "Emily", text: "That's a good choice. Go to bed early tonight and rest." },
-            ],
-            questions: [
-                {
-                    question: "When is the job interview?",
-                    options: ["Today", "Tomorrow morning", "Next week", "In two days"],
-                    correct: 1,
-                    explanation: "Sarah says: 'tomorrow morning.'",
-                },
-                {
-                    question: "How many times did Sarah practice the presentation?",
-                    options: ["Once", "Twice", "Three times", "Five times"],
-                    correct: 2,
-                    explanation: "Sarah says: 'I practiced it three times today.'",
-                },
-                {
-                    question: "What will Sarah wear to the interview?",
-                    options: ["A red dress", "A blue suit", "Jeans and a t-shirt", "A black skirt"],
-                    correct: 1,
-                    explanation: "Sarah says: 'I'm thinking of wearing my blue suit.'",
-                },
-            ],
-        },
-        {
-            title: "Buying a Gift",
-            lines: [
-                { speaker: "Robert", text: "It's my sister's birthday next week. I need to buy her a special gift." },
-                { speaker: "Julia", text: "What does she usually like doing in her free time?" },
-                { speaker: "Robert", text: "She loves reading novels and listening to classical music." },
-                { speaker: "Julia", text: "Why don't you get her a gift card for that new bookstore downtown?" },
-                { speaker: "Robert", text: "That's a great idea! Or maybe a set of nice headphones?" },
-                { speaker: "Julia", text: "Headphones are useful too. Let's go to the mall this afternoon and look." },
-                { speaker: "Robert", text: "Okay, I have my car. I'll pick you up at 3 PM." },
-                { speaker: "Julia", text: "Sounds perfect. I need to buy something for my mom too." },
-            ],
-            questions: [
-                {
-                    question: "When is the sister's birthday?",
-                    options: ["Today", "Tomorrow", "Next week", "Next month"],
-                    correct: 2,
-                    explanation: "Robert says: 'It's my sister's birthday next week.'",
-                },
-                {
-                    question: "What are the sister's hobbies?",
-                    options: ["Sports and cooking", "Reading and music", "Traveling and movies", "Painting and dancing"],
-                    correct: 1,
-                    explanation: "Robert says: 'She loves reading novels and listening to classical music.'",
-                },
-                {
-                    question: "Where are they going this afternoon?",
-                    options: ["To the library", "To the cinema", "To the mall", "To a cafe"],
-                    correct: 2,
-                    explanation: "Julia says: 'Let's go to the mall this afternoon.'",
-                },
-            ],
-        },
-        {
-            title: "Moving House",
-            lines: [
-                { speaker: "Frank", text: "I'm finally moving to a new apartment next month!" },
-                { speaker: "George", text: "Really? That's exciting news. Where exactly is it?" },
-                { speaker: "Frank", text: "It's in the suburbs, near the train station. It's very quiet there." },
-                { speaker: "George", text: "Is it bigger than your current place in the city center?" },
-                { speaker: "Frank", text: "Yes, it has two bedrooms and a small balcony with some plants." },
-                { speaker: "George", text: "That sounds lovely. Do you have a lot of furniture to move?" },
-                { speaker: "Frank", text: "Quite a lot. I'm going to rent a large van for the weekend." },
-                { speaker: "George", text: "If you need any help with the boxes, just let me know." },
-                { speaker: "Frank", text: "Thanks! I'll probably need help on Saturday morning." },
-                { speaker: "George", text: "I'll be there. I'm strong and I have some free time." },
-            ],
-            questions: [
-                {
-                    question: "Where is the new apartment located?",
-                    options: ["In the city center", "Near the airport", "In the suburbs", "Near the beach"],
-                    correct: 2,
-                    explanation: "Frank says: 'It's in the suburbs, near the train station.'",
-                },
-                {
-                    question: "How many bedrooms does the new apartment have?",
-                    options: ["One", "Two", "Three", "Four"],
-                    correct: 1,
-                    explanation: "Frank says: 'it has two bedrooms.'",
-                },
-                {
-                    question: "When will Frank move the furniture?",
-                    options: ["Next Friday", "On the weekend", "Next Monday", "This evening"],
-                    correct: 1,
-                    explanation: "Frank says: 'I'm going to rent a large van for the weekend.'",
-                },
-            ],
-        },
-        {
-            title: "Health and Fitness",
-            lines: [
-                { speaker: "Max", text: "I've started going to the gym three times a week recently." },
-                { speaker: "Phil", text: "That's a good habit. How do you feel after the first week?" },
-                { speaker: "Max", text: "I have much more energy, but my muscles are still quite sore." },
-                { speaker: "Phil", text: "That's normal when you start. Are you doing lifting or cardio?" },
-                { speaker: "Max", text: "A bit of both. I run on the treadmill for twenty minutes first." },
-                { speaker: "Phil", text: "Good. Do you go alone or with a friend?" },
-                { speaker: "Max", text: "I go with my brother. It's more fun that way and we help each other." },
-                { speaker: "Phil", text: "Keep it up! Consistency is the most important thing." },
-            ],
-            questions: [
-                {
-                    question: "How often does Max go to the gym?",
-                    options: ["Every day", "Three times a week", "Once a week", "Only on weekends"],
-                    correct: 1,
-                    explanation: "Max says: 'going to the gym three times a week.'",
-                },
-                {
-                    question: "What does Max do first at the gym?",
-                    options: ["Lift weights", "Swim", "Run on a treadmill", "Do yoga"],
-                    correct: 2,
-                    explanation: "Max says: 'I run on the treadmill for twenty minutes first.'",
-                },
-                {
-                    question: "Who does Max go to the gym with?",
-                    options: ["A friend", "His sister", "His brother", "His father"],
-                    correct: 2,
-                    explanation: "Max says: 'I go with my brother.'",
-                },
-            ],
-        },
-        {
-            title: "At the Airport",
-            lines: [
-                { speaker: "Agent", text: "Good morning. Can I see your passport and boarding pass, please?" },
-                { speaker: "Traveler", text: "Good morning. Here they are. I have them ready." },
-                { speaker: "Agent", text: "Thank you. How many bags are you checking in today?" },
-                { speaker: "Traveler", text: "Just this one large suitcase. And I have this backpack as carry-on." },
-                { speaker: "Agent", text: "Please place the suitcase on the scale... It's twenty-two kilograms." },
-                { speaker: "Traveler", text: "Oh, is that too heavy? I think the limit is twenty-three." },
-                { speaker: "Agent", text: "It's fine. Do you prefer a window seat or an aisle seat?" },
-                { speaker: "Traveler", text: "An aisle seat, please. I like to walk around during long flights." },
-                { speaker: "Agent", text: "Here is your boarding pass. Gate 12 opens at 9:30 AM." },
-            ],
-            questions: [
-                {
-                    question: "What documents does the Agent ask for?",
-                    options: ["ID card", "Passport and boarding pass", "Visa", "Driver's license"],
-                    correct: 1,
-                    explanation: "The Agent asks for 'passport and boarding pass.'",
-                },
-                {
-                    question: "How much does the suitcase weigh?",
-                    options: ["15 kg", "20 kg", "22 kg", "25 kg"],
-                    correct: 2,
-                    explanation: "The Agent says: 'It's twenty-two kilograms.'",
-                },
-                {
-                    question: "What kind of seat does the Traveler want?",
-                    options: ["Window seat", "Aisle seat", "Middle seat", "Extra legroom"],
-                    correct: 1,
-                    explanation: "The Traveler says: 'An aisle seat, please.'",
-                },
-            ],
-        },
-        {
-            title: "School Project",
-            lines: [
-                { speaker: "Oliver", text: "Have you finished the history project yet? The deadline is Friday." },
-                { speaker: "Lucas", text: "Not yet. I'm still looking for information about the Roman Empire." },
-                { speaker: "Oliver", text: "I found a great website with lots of pictures and maps today." },
-                { speaker: "Lucas", text: "Could you send me the link? I really need more primary sources." },
-                { speaker: "Oliver", text: "Sure! I'll email it to you after school. Do you want to work together?" },
-                { speaker: "Lucas", text: "That would be helpful. Can we meet at the library at 4 PM?" },
-                { speaker: "Oliver", text: "Yes, I'll bring my laptop. We can finish the first two pages." },
-                { speaker: "Lucas", text: "Great. I'll bring some snacks for our break!" },
-            ],
-            questions: [
-                {
-                    question: "What project are they working on?",
-                    options: ["Math", "Science", "History", "Art"],
-                    correct: 2,
-                    explanation: "Oliver asks: 'finished the history project yet?'",
-                },
-                {
-                    question: "When is the project deadline?",
-                    options: ["Today", "Friday", "Monday", "Next week"],
-                    correct: 1,
-                    explanation: "Oliver says: 'The deadline is Friday.'",
-                },
-                {
-                    question: "Where will they meet to work?",
-                    options: ["At A's house", "At the library", "In the classroom", "At a cafe"],
-                    correct: 1,
-                    explanation: "Lucas asks: 'Can we meet at the library?'",
-                },
-            ],
-        },
-        {
-            title: "Weekend Trip",
-            lines: [
-                { speaker: "Ethan", text: "We're planning a trip to the mountains this weekend. Are you coming?" },
-                { speaker: "Chloe", text: "That sounds exciting! Are you going to go hiking or skiing?" },
-                { speaker: "Ethan", text: "Hiking, definitely. The weather is perfect for it. Not too cold." },
-                { speaker: "Chloe", text: "Cool! Are you staying in a hotel near the village?" },
-                { speaker: "Ethan", text: "No, we're planning to stay in a small cabin in the woods." },
-                { speaker: "Chloe", text: "Is it far from the main road? Do you have a map?" },
-                { speaker: "Ethan", text: "It's about a twenty-minute walk. We have a digital map on our phones." },
-                { speaker: "Chloe", text: "Sounds like a real adventure. I'd love to join you guys!" },
-            ],
-            questions: [
-                {
-                    question: "Where are they going this weekend?",
-                    options: ["To the beach", "To the city", "To the mountains", "To a farm"],
-                    correct: 2,
-                    explanation: "Ethan says: 'We're planning a trip to the mountains.'",
-                },
-                {
-                    question: "Where are they staying?",
-                    options: ["In a hotel", "In a tent", "In a small cabin", "In a large villa"],
-                    correct: 2,
-                    explanation: "Ethan says: 'we're planning to stay in a small cabin.'",
-                },
-                {
-                    question: "How far is the cabin from the main road?",
-                    options: ["Five minutes", "Ten minutes", "Twenty minutes", "One hour"],
-                    correct: 2,
-                    explanation: "Ethan says: 'It's about a twenty-minute walk.'",
-                },
-            ],
-        },
-        {
-            title: "Social Media Discussion",
-            lines: [
-                { speaker: "Laura", text: "How much time do you spend on social media every day?" },
-                { speaker: "Ben", text: "Probably too much! I check it every hour on my phone." },
-                { speaker: "Laura", text: "I've started to limit myself to only thirty minutes a day recently." },
-                { speaker: "Ben", text: "Is it difficult? I feel like I'm missing out on news." },
-                { speaker: "Laura", text: "It was hard at first, but now I have more time for reading books." },
-                { speaker: "Ben", text: "That's true. What do you do when you're bored now?" },
-                { speaker: "Laura", text: "I exercise or call my friends for a real conversation." },
-                { speaker: "Ben", text: "Maybe I should try a 'digital detox' this Sunday too." },
-                { speaker: "Laura", text: "You should! You'll feel much more relaxed after." },
-            ],
-            questions: [
-                {
-                    question: "How often does Ben check social media?",
-                    options: ["Once a day", "Every hour", "Every morning", "Only on weekends"],
-                    correct: 1,
-                    explanation: "Ben says: 'I check it every hour.'",
-                },
-                {
-                    question: "What is Laura's new daily limit for social media?",
-                    options: ["Ten minutes", "Twenty minutes", "Thirty minutes", "One hour"],
-                    correct: 2,
-                    explanation: "Laura says: 'limit myself to only thirty minutes a day.'",
-                },
-                {
-                    question: "What does Laura do more of now?",
-                    options: ["Watching TV", "Sleeping", "Reading books", "Playing video games"],
-                    correct: 2,
-                    explanation: "Laura says: 'now I have more time for reading books.'",
-                },
-            ],
-        },
-        {
-            title: "In a Clothing Store",
-            lines: [
-                { speaker: "Shopper", text: "Hello! I'm looking for a warm jacket for the winter. It's getting cold." },
-                { speaker: "Clerk", text: "We have these wool coats here. They are very popular and very warm." },
-                { speaker: "Shopper", text: "They look nice. Do you have them in grey or dark blue?" },
-                { speaker: "Clerk", text: "Yes, here is a grey one in your size. Would you like to try it on?" },
-                { speaker: "Shopper", text: "Yes, please. Where are the changing rooms? I don't see them." },
-                { speaker: "Clerk", text: "They are in the back, next to the shoes. Let me show you." },
-                { speaker: "Shopper", text: "It fits well, but the sleeves are a bit long. Do you have a smaller size?" },
-                { speaker: "Clerk", text: "Let me check... Yes, here's a small. Try this one." },
-                { speaker: "Shopper", text: "This is much better. How much is it? Is there a discount?" },
-                { speaker: "Clerk", text: "It's sixty pounds. And yes, it's 10% off today!" },
-            ],
-            questions: [
-                {
-                    question: "What kind of coat does the Clerk suggest?",
-                    options: ["Leather", "Cotton", "Wool", "Denim"],
-                    correct: 2,
-                    explanation: "The Clerk mentions 'wool coats.'",
-                },
-                {
-                    question: "Where are the changing rooms?",
-                    options: ["Near the door", "Next to the shoes", "On the second floor", "In the basement"],
-                    correct: 1,
-                    explanation: "The Clerk says: 'They are in the back, next to the shoes.'",
-                },
-                {
-                    question: "How much is the discount today?",
-                    options: ["5%", "10%", "15%", "20%"],
-                    correct: 1,
-                    explanation: "The Clerk says: 'it's 10% off today!'",
-                },
-            ],
-        },
-        {
-            title: "Cooking at Home",
-            lines: [
-                { speaker: "Sam", text: "What are you cooking for dinner? It smells delicious from the hall!" },
-                { speaker: "Alex", text: "I'm making a vegetable stir-fry with brown rice. It's healthy." },
-                { speaker: "Sam", text: "Do you need any help with the vegetables? Or maybe the sauce?" },
-                { speaker: "Alex", text: "Yes, could you please chop the carrots and the broccoli?" },
-                { speaker: "Sam", text: "Sure! Where is the sharp knife? I only see the small one." },
-                { speaker: "Alex", text: "It's in the top drawer, under the spoons. Be careful!" },
-                { speaker: "Sam", text: "Found it. Should I chop them into small pieces or large ones?" },
-                { speaker: "Alex", text: "Thin slices for the carrots, and small pieces for the broccoli." },
-                { speaker: "Sam", text: "Done. Is there anything else? Should I set the table?" },
-            ],
-            questions: [
-                {
-                    question: "What is Alex making for dinner?",
-                    options: ["Pizza", "Pasta", "Vegetable stir-fry", "Chicken salad"],
-                    correct: 2,
-                    explanation: "Alex says: 'I'm making a vegetable stir-fry.'",
-                },
-                {
-                    question: "What does Alex need help with specifically?",
-                    options: ["Cooking the rice", "Washing dishes", "Chopping carrots and broccoli", "Buying groceries"],
-                    correct: 2,
-                    explanation: "Alex asks: 'could you please chop the carrots and the broccoli?'",
-                },
-                {
-                    question: "Where is the sharp knife?",
-                    options: ["On the table", "In the top drawer", "In the dishwasher", "In the sink"],
-                    correct: 1,
-                    explanation: "Alex says: 'It's in the top drawer, under the spoons.'",
-                },
-            ],
-        },
-        {
-            title: "At the Post Office",
-            lines: [
-                { speaker: "Customer", text: "I'd like to send this parcel to Germany, please. It's for my friend." },
-                { speaker: "Clerk", text: "Certainly. Please put it on the scales so I can check the weight." },
-                { speaker: "Customer", text: "How much will it cost to send it by express mail? I'm in a hurry." },
-                { speaker: "Clerk", text: "That will be fifteen pounds for express delivery. It takes two days." },
-                { speaker: "Customer", text: "And what about standard mail? Is it much cheaper?" },
-                { speaker: "Clerk", text: "Standard is nine pounds, but it takes about a week to arrive." },
-                { speaker: "Customer", text: "I'll take the express option, please. I need to buy some stamps too." },
-                { speaker: "Clerk", text: "We have some beautiful new stamps with flowers. How many do you need?" },
-                { speaker: "Customer", text: "Ten stamps, please. Here is my credit card." },
-            ],
-            questions: [
-                {
-                    question: "Where is the parcel being sent to?",
-                    options: ["France", "Spain", "Germany", "Italy"],
-                    correct: 2,
-                    explanation: "The Customer says: 'send this parcel to Germany.'",
-                },
-                {
-                    question: "How much does express mail cost?",
-                    options: ["Five pounds", "Nine pounds", "Fifteen pounds", "Twenty pounds"],
-                    correct: 2,
-                    explanation: "The Clerk says: 'That will be fifteen pounds for express delivery.'",
-                },
-                {
-                    question: "How long does standard mail take?",
-                    options: ["Two days", "Four days", "One week", "Two weeks"],
-                    correct: 2,
-                    explanation: "The Clerk says: 'Standard... takes about a week to arrive.'",
-                },
-            ],
-        },
-        {
-            title: "Discussing a Movie",
-            lines: [
-                { speaker: "Dan", text: "Did you see the new sci-fi movie 'Star Quest' last night?" },
-                { speaker: "Eve", text: "Yes, I did. The special effects and the music were incredible!" },
-                { speaker: "Dan", text: "I thought the story was a bit confusing and too long, though." },
-                { speaker: "Eve", text: "Really? I thought it was very clever and the ending was a surprise." },
-                { speaker: "Dan", text: "I didn't like the main actor. He didn't seem very heroic." },
-                { speaker: "Eve", text: "I disagree! I think he played the role perfectly. He's very talented." },
-                { speaker: "Dan", text: "Maybe I should watch it again. I was quite tired during the movie." },
-                { speaker: "Eve", text: "You definitely should. It's one of the best movies of the year." },
-            ],
-            questions: [
-                {
-                    question: "What kind of movie did they watch?",
-                    options: ["Horror", "Romance", "Sci-fi", "Documentary"],
-                    correct: 2,
-                    explanation: "Dan asks: 'see the new sci-fi movie...'",
-                },
-                {
-                    question: "Why does Eve like the movie?",
-                    options: ["It was short", "The story was simple", "Special effects and music were great", "It was free"],
-                    correct: 2,
-                    explanation: "Eve says: 'The special effects and the music were incredible!'",
-                },
-                {
-                    question: "What did Dan think of the main actor?",
-                    options: ["He was amazing", "He wasn't heroic enough", "He was too tall", "He was very funny"],
-                    correct: 1,
-                    explanation: "Dan says: 'He didn't seem very heroic.'",
-                },
-            ],
-        },
-        {
-            title: "Planning a Party",
-            lines: [
-                { speaker: "Fiona", text: "We should throw a surprise party for Sam's graduation next week." },
-                { speaker: "Greg", text: "That's a fantastic idea! He works so hard and deserves it." },
-                { speaker: "Fiona", text: "How about next Friday evening at my place? I have a big garden." },
-                { speaker: "Greg", text: "Friday is fine after 7 PM. I'll take care of the music and the drinks." },
-                { speaker: "Fiona", text: "Great! I'll order some sushi and make a big cake." },
-                { speaker: "Greg", text: "Should we invite his classmates too or just close friends?" },
-                { speaker: "Fiona", text: "Let's invite everyone! The more the merrier. I'll make a group chat." },
-                { speaker: "Greg", text: "Perfect. We just have to make sure he doesn't find out." },
-                { speaker: "Fiona", text: "Don't worry, I'm very good at keeping secrets. It'll be a total surprise." },
-                { speaker: "Greg", text: "I'll bring my old disco ball too. It'll be a great night!" },
-            ],
-            questions: [
-                {
-                    question: "What is the occasion for the party?",
-                    options: ["A birthday", "A wedding", "Graduation", "A new job"],
-                    correct: 2,
-                    explanation: "Fiona says: 'throw a surprise party for Sam's graduation.'",
-                },
-                {
-                    question: "When and where will the party be?",
-                    options: ["Friday at a restaurant", "Saturday at the park", "Friday at Fiona's house", "Sunday at Greg's house"],
-                    correct: 2,
-                    explanation: "Fiona suggests 'next Friday evening at my place.'",
-                },
-                {
-                    question: "What will Fiona provide for the party?",
-                    options: ["Music and drinks", "Sushi and cake", "The disco ball", "Only the garden"],
-                    correct: 1,
-                    explanation: "Fiona says: 'I'll order some sushi and make a big cake.'",
-                },
-            ],
-        },
-        {
-            title: "Volunteering",
-            lines: [
-                { speaker: "Grace", text: "I've decided to start volunteering at the animal shelter on weekends." },
-                { speaker: "Hank", text: "That's wonderful! I know you love animals. What will you be doing?" },
-                { speaker: "Grace", text: "I'll be walking the dogs and cleaning the cages for the kittens." },
-                { speaker: "Hank", text: "Do you have to go every day or just on Saturdays?" },
-                { speaker: "Grace", text: "Just four hours on Saturday mornings. It's not too much work." },
-                { speaker: "Hank", text: "Do they have many animals there right now? I might join you." },
-                { speaker: "Grace", text: "Yes, they have a lot of lonely puppies. They always need more help." },
-                { speaker: "Hank", text: "I'll come with you next week to see if I can help too." },
-                { speaker: "Grace", text: "That would be great! The puppies will be so happy to meet you." },
-            ],
-            questions: [
-                {
-                    question: "What will Grace be doing at the shelter?",
-                    options: ["Feeding cats", "Walking dogs", "Working at the desk", "Grooming animals"],
-                    correct: 1,
-                    explanation: "Grace says: 'I'll be walking the dogs...'",
-                },
-                {
-                    question: "How long does Grace volunteer on Saturdays?",
-                    options: ["Two hours", "Four hours", "Six hours", "The whole day"],
-                    correct: 1,
-                    explanation: "Grace says: 'Just four hours on Saturday mornings.'",
-                },
-                {
-                    question: "What kind of animals are mentioned as needing help?",
-                    options: ["Only cats", "Lonely puppies", "Old horses", "Wild birds"],
-                    correct: 1,
-                    explanation: "Grace says: 'they have a lot of lonely puppies.'",
-                },
-            ],
-        },
-        {
-            title: "Technology at Home",
-            lines: [
-                { speaker: "Ian", text: "I just bought a new smart speaker for my living room today!" },
-                { speaker: "Jane", text: "Cool! I've seen those in the stores. What can it actually do?" },
-                { speaker: "Ian", text: "It can play my favorite music and tell me the weather forecast." },
-                { speaker: "Jane", text: "Is it easy to use? I'm not very good with new gadgets." },
-                { speaker: "Ian", text: "It's very simple. You just talk to it. You don't need any buttons." },
-                { speaker: "Jane", text: "Does it work in other languages too or just English?" },
-                { speaker: "Ian", text: "It supports many languages. I'm using it to practice my Spanish!" },
-                { speaker: "Jane", text: "That's a very clever way to use it. I might buy one for myself." },
-            ],
-            questions: [
-                {
-                    question: "What can the smart speaker do?",
-                    options: ["Cook food", "Play music and tell weather", "Clean the floor", "Make phone calls"],
-                    correct: 1,
-                    explanation: "Ian says: 'It can play my favorite music and tell me the weather forecast.'",
-                },
-                {
-                    question: "How do you control the smart speaker?",
-                    options: ["With buttons", "With a remote", "By talking to it", "With a computer"],
-                    correct: 2,
-                    explanation: "Ian says: 'You just talk to it.'",
-                },
-                {
-                    question: "What is Ian using the speaker for besides music?",
-                    options: ["Playing games", "Practicing Spanish", "Writing emails", "Watching movies"],
-                    correct: 1,
-                    explanation: "Ian says: 'I'm using it to practice my Spanish!'",
-                },
-            ],
-        },
-    ],
-    B1: [
-        {
-            title: "Job Interview",
-            lines: [
-                { speaker: "Mr. Smith", text: "Good morning, Rose. Thank you for coming in today. Please take a seat." },
-                { speaker: "Rose", text: "Good morning, Mr. Smith. Thank you for the opportunity to interview." },
-                { speaker: "Mr. Smith", text: "I've reviewed your CV. Tell me about your previous experience in marketing." },
-                { speaker: "Rose", text: "I worked for three years at a boutique agency in Manchester, handling social media campaigns." },
-                { speaker: "Mr. Smith", text: "That's impressive. Why do you want to work for our company specifically?" },
-                { speaker: "Rose", text: "I admire your commitment to sustainability and your innovative digital strategies." },
-                { speaker: "Mr. Smith", text: "We do pride ourselves on that. How do you handle tight deadlines?" },
-                { speaker: "Rose", text: "I'm very organized and use project management tools to prioritize tasks effectively." },
-                { speaker: "Mr. Smith", text: "Excellent. Do you have any questions for us?" },
-                { speaker: "Rose", text: "Yes, could you tell me more about the team dynamic?" },
-            ],
-            questions: [
-                {
-                    question: "How long did Rose work at her previous job?",
-                    options: ["One year", "Two years", "Three years", "Five years"],
-                    correct: 2,
-                    explanation: "Rose mentions working for three years.",
-                },
-                {
-                    question: "What did Rose handle in her previous role?",
-                    options: ["Financial reports", "Social media campaigns", "Customer service", "Product design"],
-                    correct: 1,
-                    explanation: "She says she was 'handling social media campaigns'.",
-                },
-                {
-                    question: "Why does Rose want to work there?",
-                    options: ["High salary", "Convenient location", "Commitment to sustainability", "Friends work there"],
-                    correct: 2,
-                    explanation: "She mentions their 'commitment to sustainability'.",
-                },
-            ],
-        },
-        {
-            title: "Workplace Conflict",
-            lines: [
-                { speaker: "Manager", text: "Alex, I've noticed some tension between you and the design team recently." },
-                { speaker: "Alex", text: "Yes, we've had some disagreements about the new project deadlines. They feel rushed." },
-                { speaker: "Manager", text: "I understand. It's important that we find a way to communicate more effectively." },
-                { speaker: "Alex", text: "I agree. I feel like my feedback on the technical limitations isn't being heard." },
-                { speaker: "Manager", text: "Maybe we should have weekly alignment meetings to discuss progress and blockers." },
-                { speaker: "Alex", text: "That sounds like a good idea. It would help us stay on the same page." },
-                { speaker: "Manager", text: "I'll set one up for next Monday. I want everyone to feel supported." },
-                { speaker: "Alex", text: "Thank you. I think that will really help the team morale." },
-            ],
-            questions: [
-                {
-                    question: "What is the conflict about?",
-                    options: ["Salary issues", "Office space", "Project deadlines and communication", "Holiday leave"],
-                    correct: 2,
-                    explanation: "Alex mentions disagreements about 'project deadlines' and not being heard.",
-                },
-                {
-                    question: "What solution does the Manager propose?",
-                    options: ["Firing someone", "Weekly alignment meetings", "Ignoring the problem", "Extending the deadline"],
-                    correct: 1,
-                    explanation: "Manager suggests: 'Maybe we should have weekly alignment meetings'.",
-                },
-                {
-                    question: "How does Alex feel about the technical feedback?",
-                    options: ["It is accepted", "It isn't being heard", "It is wrong", "It is too technical"],
-                    correct: 1,
-                    explanation: "Alex says: 'my feedback... isn't being heard'.",
-                },
-            ],
-        },
-        {
-            title: "Travel Experience",
-            lines: [
-                { speaker: "Immigration Officer", text: "Good morning. Welcome to Japan. Is this your first visit?" },
-                { speaker: "Tourist", text: "Yes, it is. I've heard so many wonderful things about the culture and food." },
-                { speaker: "Immigration Officer", text: "I see. How long do you intend to stay in the country?" },
-                { speaker: "Tourist", text: "I'll be here for two weeks. I'm spending one week in Tokyo and one in Kyoto." },
-                { speaker: "Immigration Officer", text: "Do you have a return ticket booked?" },
-                { speaker: "Tourist", text: "Yes, I fly back to London on the 24th. Here is the confirmation." },
-                { speaker: "Immigration Officer", text: "Thank you. And where will you be staying?" },
-                { speaker: "Tourist", text: "I have a reservation at the Sakura Hotel in Shinjuku." },
-                { speaker: "Immigration Officer", text: "Everything looks in order. Enjoy your stay." },
-            ],
-            questions: [
-                {
-                    question: "Where is the tourist visiting?",
-                    options: ["China", "Japan", "Korea", "Thailand"],
-                    correct: 1,
-                    explanation: "The officer says: 'Welcome to Japan.'",
-                },
-                {
-                    question: "How long is the trip?",
-                    options: ["One week", "Two weeks", "One month", "Three days"],
-                    correct: 1,
-                    explanation: "The tourist says: 'I'll be here for two weeks.'",
-                },
-                {
-                    question: "Where is the tourist staying?",
-                    options: ["With friends", "At a hostel", "At the Sakura Hotel", "At an apartment"],
-                    correct: 2,
-                    explanation: "Tourist says: 'I have a reservation at the Sakura Hotel'.",
-                },
-            ],
-        },
-        {
-            title: "Environmental Concern",
-            lines: [
-                { speaker: "Resident", text: "Mr. Mayor, I'm extremely worried about the level of plastic waste in our local park." },
-                { speaker: "Mayor", text: "I share your concern. We are currently implementing a new recycling scheme to address this." },
-                { speaker: "Resident", text: "That's good to hear, but the bins are always overflowing. Will there be more available?" },
-                { speaker: "Mayor", text: "Yes, we plan to double the number of recycling bins by the end of the year." },
-                { speaker: "Resident", text: "What about fines for people who litter? Enforcement seems weak." },
-                { speaker: "Mayor", text: "We are increasing park patrols next month to catch offenders." },
-                { speaker: "Resident", text: "I hope that works. We want our children to play safely." },
-                { speaker: "Mayor", text: "Community involvement is key. We're also hosting a cleanup day on Saturday." },
-            ],
-            questions: [
-                {
-                    question: "What is the new scheme about?",
-                    options: ["Tree planting", "Recycling", "Road repairs", "Library building"],
-                    correct: 1,
-                    explanation: "The mayor mentions a 'new recycling scheme.'",
-                },
-                {
-                    question: "What is the resident's complaint about bins?",
-                    options: ["They are the wrong color", "They are broken", "They are always overflowing", "There are too many"],
-                    correct: 2,
-                    explanation: "Resident says: 'the bins are always overflowing'.",
-                },
-                {
-                    question: "What immediate action is happening on Saturday?",
-                    options: ["A cleanup day", "A protest", "A new park opening", "A festival"],
-                    correct: 0,
-                    explanation: "Mayor says: 'hosting a cleanup day on Saturday'.",
-                },
-            ],
-        },
-        {
-            title: "Technology Trends",
-            lines: [
-                { speaker: "Journalist", text: "Dr. Chen, are you surprised by the rapid adoption of AI in healthcare recently?" },
-                { speaker: "Expert", text: "Not really. The potential for improved diagnostics and personalized medicine is immense." },
-                { speaker: "Journalist", text: "What about the concerns regarding patient privacy and data security?" },
-                { speaker: "Expert", text: "That's a valid concern that must be addressed through strict global regulations." },
-                { speaker: "Journalist", text: "Do you think AI will eventually replace doctors?" },
-                { speaker: "Expert", text: "No, I view it as a powerful tool to assist doctors, not replace them." },
-                { speaker: "Journalist", text: "So, the human element remains essential?" },
-                { speaker: "Expert", text: "Absolutely. Empathy and complex decision-making are uniquely human traits." },
-            ],
-            questions: [
-                {
-                    question: "What sector is adopting AI rapidly?",
-                    options: ["Agriculture", "Education", "Healthcare", "Finance"],
-                    correct: 2,
-                    explanation: "The journalist asks about AI in 'healthcare.'",
-                },
-                {
-                    question: "What is the expert's view on replacing doctors?",
-                    options: ["It will happen soon", "It won't happen", "It's already happening", "It depends on the country"],
-                    correct: 1,
-                    explanation: "Expert says: 'No... assist doctors, not replace them.'",
-                },
-                {
-                    question: "What human traits does the expert highlight?",
-                    options: ["Speed and accuracy", "Memory and calculation", "Empathy and decision-making", "Strength and endurance"],
-                    correct: 2,
-                    explanation: "Expert mentions 'Empathy and complex decision-making'.",
-                },
-            ],
-        },
-        {
-            title: "Cultural Exchange",
-            lines: [
-                { speaker: "Host", text: "In England, a typical full breakfast consists of eggs, bacon, sausages, and baked beans." },
-                { speaker: "Student", text: "That sounds very heavy! In my country, we usually have rice, fish, and miso soup." },
-                { speaker: "Host", text: "That sounds very healthy. Do you eat that every single day?" },
-                { speaker: "Student", text: "Most days, yes. It gives us a lot of energy for the morning without feeling too full." },
-                { speaker: "Host", text: "I'd love to try it sometime. Do you know how to cook it?" },
-                { speaker: "Student", text: "Yes, I can make it for you this weekend. I just need to buy some fresh fish." },
-                { speaker: "Host", text: "Perfect! I'll drive us to the fish market on Saturday morning." },
-                { speaker: "Student", text: "Thank you. I'm excited to share my culture with you." },
-            ],
-            questions: [
-                {
-                    question: "What is in a typical English breakfast?",
-                    options: ["Rice and soup", "Eggs, bacon, and beans", "Bread and cheese", "Fruit salad"],
-                    correct: 1,
-                    explanation: "The host lists 'eggs, bacon, sausages, and baked beans.'",
-                },
-                {
-                    question: "Why does the student like their country's breakfast?",
-                    options: ["It is cheap", "It is sweet", "It is energy-giving but light", "It is easy to find"],
-                    correct: 2,
-                    explanation: "Student says: 'gives us a lot of energy... without feeling too full.'",
-                },
-                {
-                    question: "What will happen this weekend?",
-                    options: ["They will go to a restaurant", "The student will cook breakfast", "The host will cook dinner", "They will go fishing"],
-                    correct: 1,
-                    explanation: "Student says: 'I can make it for you this weekend.'",
-                },
-            ],
-        },
-        {
-            title: "Booking a Tour",
-            lines: [
-                { speaker: "Travel Agent", text: "Good afternoon. Which tour group are you interested in joining?" },
-                { speaker: "Customer", text: "I'm looking at the 'Historical Wonders' tour of Rome. Is it still available?" },
-                { speaker: "Travel Agent", text: "Yes, we have spaces for next Tuesday. It's a full-day tour starting at 8 AM." },
-                { speaker: "Customer", text: "Does it cover entry fees for the Colosseum and the Vatican Museum?" },
-                { speaker: "Travel Agent", text: "Yes, all entry fees and a buffet lunch are included in the price." },
-                { speaker: "Customer", text: "That sounds good. How much is it per person?" },
-                { speaker: "Travel Agent", text: "It's 120 Euros per adult. We also provide a professional English-speaking guide." },
-                { speaker: "Customer", text: "I'll take two tickets, please. Can I pay by card?" },
-                { speaker: "Travel Agent", text: "Certainly. Please insert your card here." },
-            ],
-            questions: [
-                {
-                    question: "Where is the tour located?",
-                    options: ["Paris", "Rome", "Athens", "London"],
-                    correct: 1,
-                    explanation: "The customer mentions the tour of 'Rome.'",
-                },
-                {
-                    question: "What is included in the price?",
-                    options: ["Flight tickets", "Hotel stay", "Entry fees and lunch", "Dinner and drinks"],
-                    correct: 2,
-                    explanation: "Agent says: 'all entry fees and a buffet lunch are included'.",
-                },
-                {
-                    question: "How much does the tour cost for one person?",
-                    options: ["80 Euros", "100 Euros", "120 Euros", "150 Euros"],
-                    correct: 2,
-                    explanation: "Agent says: 'It's 120 Euros per adult.'",
-                },
-            ],
-        },
-        {
-            title: "Office Technology",
-            lines: [
-                { speaker: "IT Support", text: "Hi Mark, is your computer still running slowly?" },
-                { speaker: "Employee", text: "Yes, it's very frustrating. Especially when I try to run video calls and spreadsheets." },
-                { speaker: "IT Support", text: "I suspect it's a memory issue. I'll need to upgrade your RAM." },
-                { speaker: "Employee", text: "How long will that take? I have a meeting in two hours." },
-                { speaker: "IT Support", text: "It should only take about thirty minutes. I have the parts here." },
-                { speaker: "Employee", text: "Okay, can I borrow a loaner laptop while you work on it?" },
-                { speaker: "IT Support", text: "Sure, use this one. It's connected to the cloud so you can access your files." },
-                { speaker: "Employee", text: "Thanks. You're a lifesaver!" },
-            ],
-            questions: [
-                {
-                    question: "What is the problem with the computer?",
-                    options: ["It won't turn on", "The screen is broken", "It is running slowly", "The internet is down"],
-                    correct: 2,
-                    explanation: "IT Support asks: 'Is your computer still running slowly?'",
-                },
-                {
-                    question: "What is the diagnosis?",
-                    options: ["Virus", "Memory issue", "Old battery", "Broken fan"],
-                    correct: 1,
-                    explanation: "IT Support says: 'I suspect it's a memory issue.'",
-                },
-                {
-                    question: "How will the employee continue working?",
-                    options: ["By using a phone", "By taking a break", "By using a loaner laptop", "By writing on paper"],
-                    correct: 2,
-                    explanation: "Employee asks: 'can I borrow a loaner laptop...'",
-                },
-            ],
-        },
-        {
-            title: "Discussing a Book",
-            lines: [
-                { speaker: "Reader A", text: "I just finished 'The Silent Ocean'. What did you think of the ending?" },
-                { speaker: "Reader B", text: "Honestly, I found it a bit disappointing. I expected a more dramatic climax." },
-                { speaker: "Reader A", text: "Really? I thought it was wonderful. It was a very subtle and emotional way to finish." },
-                { speaker: "Reader B", text: "I felt like the main character's journey was unresolved. We don't know if he survived." },
-                { speaker: "Reader A", text: "That ambiguity is the point! The author wants us to decide for ourselves." },
-                { speaker: "Reader B", text: "I suppose so. I just prefer more definite endings." },
-                { speaker: "Reader A", text: "Did you like the writing style, at least?" },
-                { speaker: "Reader B", text: "Yes, the descriptions of the sea were beautiful." },
-            ],
-            questions: [
-                {
-                    question: "How did Reader B feel about the ending?",
-                    options: ["Excited", "Happy", "Disappointed", "Confused"],
-                    correct: 2,
-                    explanation: "Reader B says: 'I found it a bit disappointing.'",
-                },
-                {
-                    question: "Why did Reader A like the ending?",
-                    options: ["It was action-packed", "It was subtle and emotional", "It was funny", "It was very long"],
-                    correct: 1,
-                    explanation: "Reader A says: 'It was a very subtle and emotional way to finish.'",
-                },
-                {
-                    question: "What did both readers agree was good?",
-                    options: ["The plot", "The characters", "The descriptions", "The dialogue"],
-                    correct: 2,
-                    explanation: "Reader B agrees: 'the descriptions of the sea were beautiful.'",
-                },
-            ],
-        },
-        {
-            title: "At the Bank",
-            lines: [
-                { speaker: "Banker", text: "Good morning, Mr. Jones. How can I assist you today?" },
-                { speaker: "Mr. Jones", text: "I'd like to open a savings account for my teenage daughter." },
-                { speaker: "Banker", text: "Excellent choice. We have a 'Junior Saver' account with a 4% interest rate." },
-                { speaker: "Mr. Jones", text: "That sounds perfect. Does it come with a debit card?" },
-                { speaker: "Banker", text: "Yes, a debit card with spending limits you can control via our app." },
-                { speaker: "Mr. Jones", text: "Great. What documents do I need to provide right now?" },
-                { speaker: "Banker", text: "I'll need your ID, proof of address, and her birth certificate." },
-                { speaker: "Mr. Jones", text: "I have them all here in this folder." },
-                { speaker: "Banker", text: "Perfect. Let's get the paperwork started." },
-            ],
-            questions: [
-                {
-                    question: "Why is Mr. Jones at the bank?",
-                    options: ["To withdraw cash", "To open a savings account", "To pay a mortgage", "To report a stolen card"],
-                    correct: 1,
-                    explanation: "Mr. Jones says: 'I'd like to open a savings account...'",
-                },
-                {
-                    question: "What feature does the debit card have?",
-                    options: ["Unlimited spending", "No pin code", "Spending limits controlled by app", "Free cinema tickets"],
-                    correct: 2,
-                    explanation: "Banker says: 'spending limits you can control via our app.'",
-                },
-                {
-                    question: "What documents are required?",
-                    options: ["Only ID", "ID, proof of address, birth certificate", "Passport only", "School report"],
-                    correct: 1,
-                    explanation: "Banker lists: 'your ID, proof of address, and her birth certificate.'",
-                },
-            ],
-        },
-        {
-            title: "Weather Warning",
-            lines: [
-                { speaker: "News Reporter", text: "We are interrupting this broadcast with a severe storm warning for the entire coastal region." },
-                { speaker: "Resident", text: "I saw the clouds gathering this morning. It looks very ominous." },
-                { speaker: "News Reporter", text: "Officials are advising all residents to board up windows and stay indoors until further notice." },
-                { speaker: "Resident", text: "We've already secured the loose garden furniture and bought extra batteries." },
-                { speaker: "News Reporter", text: "That is wise. Power outages are expected to last for at least 24 hours." },
-                { speaker: "Resident", text: "We have plenty of canned food and bottled water, so we should be safe." },
-                { speaker: "News Reporter", text: "Please monitor local radio stations for updates as the situation develops." },
-                { speaker: "Resident", text: "We will. Stay safe out there." },
-            ],
-            questions: [
-                {
-                    question: "What is the warning about?",
-                    options: ["A heatwave", "A severe storm", "A tsunami", "An earthquake"],
-                    correct: 1,
-                    explanation: "News Reporter says: 'severe storm warning'.",
-                },
-                {
-                    question: "What preparation has the resident already done?",
-                    options: ["Evacuated the house", "Bought a generator", "Secured garden furniture", "Called the police"],
-                    correct: 2,
-                    explanation: "Resident says: 'already secured the loose garden furniture'.",
-                },
-                {
-                    question: "How long might the power outage last?",
-                    options: ["One hour", "Six hours", "12 hours", "At least 24 hours"],
-                    correct: 3,
-                    explanation: "News Reporter says: 'expected to last for at least 24 hours.'",
-                },
-            ],
-        },
-        {
-            title: "New Product Idea",
-            lines: [
-                { speaker: "Product Designer", text: "I've been working on a concept for eco-friendly packaging for our fruit juices." },
-                { speaker: "CEO", text: "That aligns with our sustainability goals. What material are you proposing?" },
-                { speaker: "Product Designer", text: "It's a biodegradable plastic made from seaweed. It decomposes in just six weeks." },
-                { speaker: "CEO", text: "Impressive. How does the cost compare to our current plastic bottles?" },
-                { speaker: "Product Designer", text: "It's currently about 20% more expensive, but the price will drop with mass production." },
-                { speaker: "CEO", text: "The marketing benefits might outweigh the initial cost. Customers are demanding green solutions." },
-                { speaker: "Product Designer", text: "Exactly. I can have a prototype ready for the board meeting next Monday." },
-                { speaker: "CEO", text: "Please do. I'm very interested to see it." },
-            ],
-            questions: [
-                {
-                    question: "What is the new material made from?",
-                    options: ["Corn starch", "Recycled paper", "Seaweed", "Bamboo"],
-                    correct: 2,
-                    explanation: "Designer says: 'made from seaweed.'",
-                },
-                {
-                    question: "What is the main drawback currently?",
-                    options: ["It smells bad", "It is expensive", "It is weak", "It is ugly"],
-                    correct: 1,
-                    explanation: "Designer says: 'It's currently about 20% more expensive'.",
-                },
-                {
-                    question: "When will the prototype be ready?",
-                    options: ["Tomorrow", "Next Monday", "Next month", "In six weeks"],
-                    correct: 1,
-                    explanation: "Designer says: 'prototype ready for the board meeting next Monday.'",
-                },
-            ],
-        },
-        {
-            title: "Learning a Language",
-            lines: [
-                { speaker: "Teacher", text: "Sarah, you've made excellent progress with your speaking skills this semester." },
-                { speaker: "Student", text: "Thank you. I've been watching movies in English without subtitles." },
-                { speaker: "Teacher", text: "That's a great strategy. Now, we need to focus on expanding your vocabulary." },
-                { speaker: "Student", text: "I struggle with that. There are so many new words to learn." },
-                { speaker: "Teacher", text: "Try reading news articles about topics you enjoy. Underline the unknown words." },
-                { speaker: "Student", text: "Should I look them up in the dictionary immediately?" },
-                { speaker: "Teacher", text: "Try to guess the meaning from the context first, then check the dictionary." },
-                { speaker: "Student", text: "I'll try that. I usually check immediately." },
-            ],
-            questions: [
-                {
-                    question: "How has the student improved her speaking?",
-                    options: ["Reading books", "Watching movies without subtitles", "Listening to music", "Talking to tourists"],
-                    correct: 1,
-                    explanation: "Student says: 'watching movies in English without subtitles.'",
-                },
-                {
-                    question: "What does the teacher suggest for vocabulary?",
-                    options: ["Memorizing lists", "Reading news articles", "Playing games", "Writing essays"],
-                    correct: 1,
-                    explanation: "Teacher suggests: 'reading news articles about topics you enjoy.'",
-                },
-                {
-                    question: "What strategy does the teacher recommend for unknown words?",
-                    options: ["Ignore them", "Ask a friend", "Guess from context", "Use a translator immediately"],
-                    correct: 2,
-                    explanation: "Teacher says: 'Try to guess the meaning from the context first'.",
-                },
-            ],
-        },
-        {
-            title: "Team Building",
-            lines: [
-                { speaker: "Team Leader", text: "I want to arrange a team-building activity for next month to boost morale." },
-                { speaker: "Team Member", text: "That sounds fun. How about something active like an escape room?" },
-                { speaker: "Team Leader", text: "I like that idea. It forces everyone to communicate and solve problems together." },
-                { speaker: "Team Member", text: "Exactly. It's better than just going for a dinner where people sit in separate groups." },
-                { speaker: "Team Leader", text: "Do you know of any good venues in the city center?" },
-                { speaker: "Team Member", text: "There is a highly rated one near the station. They have a 'Bank Heist' room." },
-                { speaker: "Team Leader", text: "I'll check the budget and see if we can book it for Friday afternoon." },
-                { speaker: "Team Member", text: "Great. I'll ask the team which date works best for them." },
-            ],
-            questions: [
-                {
-                    question: "Why does the leader want a team-building activity?",
-                    options: ["To celebrate a win", "To boost morale", "To welcome a new member", "To spend budget"],
-                    correct: 1,
-                    explanation: "Leader says: 'to boost morale.'",
-                },
-                {
-                    question: "Why do they prefer an escape room over dinner?",
-                    options: ["It is cheaper", "The food is bad", "It encourages communication", "They are not hungry"],
-                    correct: 2,
-                    explanation: "Leader says: 'forces everyone to communicate'; Member agrees it prevents separate groups.",
-                },
-                {
-                    question: "What theme is the specific room mentioned?",
-                    options: ["Space Station", "Haunted House", "Bank Heist", "Jungle Adventure"],
-                    correct: 2,
-                    explanation: "Member mentions a ''Bank Heist' room.'",
-                },
-            ],
-        },
-        {
-            title: "Healthy Eating Discussion",
-            lines: [
-                { speaker: "Friend A", text: "I've decided to try going vegan for 'Veganuary' to see how I feel." },
-                { speaker: "Friend B", text: "That's a big change! Is it difficult to get enough protein?" },
-                { speaker: "Friend A", text: "Not really. I've been eating lots of lentils, chickpeas, and tofu curries." },
-                { speaker: "Friend B", text: "I do like lentils. Do you feel any different physically?" },
-                { speaker: "Friend A", text: "I actually have more energy in the mornings, and I sleep better." },
-                { speaker: "Friend B", text: "Maybe I should join you for a week. I need to eat more vegetables." },
-                { speaker: "Friend A", text: "You should! I can send you a great recipe for spicy bean burgers." },
-                { speaker: "Friend B", text: "That would be great. Let's send it to me now." },
-            ],
-            questions: [
-                {
-                    question: "When is Friend A trying the diet?",
-                    options: ["Summer", "Veganuary", "Christmas", "Easter"],
-                    correct: 1,
-                    explanation: "Friend A mentions 'going vegan for 'Veganuary''.",
-                },
-                {
-                    question: "What benefits has Friend A noticed?",
-                    options: ["Lost weight", "More energy and better sleep", "Better skin", "Saved money"],
-                    correct: 1,
-                    explanation: "Friend A says: 'more energy in the mornings, and I sleep better.'",
-                },
-                {
-                    question: "What recipe will Friend A share?",
-                    options: ["Lentil soup", "Tofu stir-fry", "Spicy bean burgers", "Vegetable pasta"],
-                    correct: 2,
-                    explanation: "Friend A offers a recipe for 'spicy bean burgers.'",
-                },
-            ],
-        },
-        {
-            title: "Public Transport Issues",
-            lines: [
-                { speaker: "Commuter", text: "Excuse me, the Number 10 bus has been very unreliable lately." },
-                { speaker: "Transport Clerk", text: "We apologize for the inconvenience. There are some major roadworks in the city center." },
-                { speaker: "Commuter", text: "I understand, but it's making me late for work almost every morning this week." },
-                { speaker: "Transport Clerk", text: "We are adding extra buses during peak hours to try to resolve the issue." },
-                { speaker: "Commuter", text: "When will the roadworks be finished? It's been a month already." },
-                { speaker: "Transport Clerk", text: "They are scheduled to finish by next Friday, according to the council." },
-                { speaker: "Commuter", text: "I hope so. Otherwise, I might have to start taking the train." },
-                { speaker: "Transport Clerk", text: "The train is a good alternative. It's unaffected by the traffic." },
-            ],
-            questions: [
-                {
-                    question: "What is causing the bus delays?",
-                    options: ["Lack of drivers", "Bad weather", "Roadworks", "Broken buses"],
-                    correct: 2,
-                    explanation: "The clerk mentions 'major roadworks in the city center.'",
-                },
-                {
-                    question: "How is the company trying to fix the problem?",
-                    options: ["Changing the route", "Adding extra buses", "Refunding tickets", "Canceling the service"],
-                    correct: 1,
-                    explanation: "Clerk says: 'adding extra buses during peak hours.'",
-                },
-                {
-                    question: "What alternative transport is suggested?",
-                    options: ["Taxi", "Bicycle", "Train", "Walking"],
-                    correct: 2,
-                    explanation: "Commuter mentions 'taking the train' and Clerk agrees it's a good alternative.",
-                },
-            ],
-        },
-        {
-            title: "Discussing Technology",
-            lines: [
-                { speaker: "Alice", text: "Do you think smartwatches will eventually replace professional cameras?" },
-                { speaker: "Bob", text: "You mean smartphones? Probably not for professionals. The sensor size is too small." },
-                { speaker: "Alice", text: "Yes, smartphones, sorry. But for everyday photos, they're becoming amazing." },
-                { speaker: "Bob", text: "Agreed. Convenience is their biggest advantage. The best camera is the one you have with you." },
-                { speaker: "Alice", text: "Exactly. I took some great photos of the sunset yesterday with my phone." },
-                { speaker: "Bob", text: "Did you use any editing apps? The colors look incredible." },
-                { speaker: "Alice", text: "No, that was the raw image. The software processing is getting really smart." },
-                { speaker: "Bob", text: "It's scary how fast technology moves. My old DSLR gathers dust now." },
-            ],
-            questions: [
-                {
-                    question: "What is the main advantage of smartphones mentioned?",
-                    options: ["Lens quality", "Sensor size", "Convenience", "Price"],
-                    correct: 2,
-                    explanation: "Bob says: 'Convenience is their biggest advantage.'",
-                },
-                {
-                    question: "Why won't they replace professional cameras soon?",
-                    options: ["They are too expensive", "The sensor size is too small", "They are hard to use", "They have no zoom"],
-                    correct: 1,
-                    explanation: "Bob says: 'The sensor size is too small.'",
-                },
-                {
-                    question: "What did Alice photograph?",
-                    options: ["A portrait", "A landscape", "A sunset", "A building"],
-                    correct: 2,
-                    explanation: "Alice says: 'took some great photos of the sunset.'",
-                },
-            ],
-        },
-        {
-            title: "Holiday Planning",
-            lines: [
-                { speaker: "Partner A", text: "Should we book our summer holiday soon? Prices are going up." },
-                { speaker: "Partner B", text: "Good idea. Do you prefer the seaside or the mountains this year?" },
-                { speaker: "Partner A", text: "I'd prefer the mountains. I want to escape the heat and do some hiking." },
-                { speaker: "Partner B", text: "That sounds nice. We could rent a small cottage with a view of the valley." },
-                { speaker: "Partner A", text: "Exactly. And we can take the dog with us if we drive." },
-                { speaker: "Partner B", text: "I'll check some travel websites tonight for rental cottages." },
-                { speaker: "Partner A", text: "Don't forget to check if they have a fireplace for the evenings." },
-                { speaker: "Partner B", text: "Will do. It will be very romantic." },
-            ],
-            questions: [
-                {
-                    question: "Where does Partner A want to go?",
-                    options: ["The seaside", "The mountains", "The city", "Except the desert"],
-                    correct: 1,
-                    explanation: "Partner A says: 'I'd prefer the mountains.'",
-                },
-                {
-                    question: "Why do they want to drive?",
-                    options: ["It is cheaper", "To take the dog", "To enjoy the view", "They hate flying"],
-                    correct: 1,
-                    explanation: "Partner A says: 'take the dog with us if we drive.'",
-                },
-                {
-                    question: "What feature do they want in the cottage?",
-                    options: ["A swimming pool", "A large kitchen", "A fireplace", "A garden"],
-                    correct: 2,
-                    explanation: "Partner A asks to check if they have a 'fireplace.'",
-                },
-            ],
-        },
-        {
-            title: "Science News",
-            lines: [
-                { speaker: "Scientist A", text: "Did you read the report about the new star discovery?" },
-                { speaker: "Scientist B", text: "Yes, the one suggesting the star is much older than we previously thought?" },
-                { speaker: "Scientist A", text: "Exactly. It challenges our current understanding of star formation." },
-                { speaker: "Scientist B", text: "Are you sure the data is correct? The chemical composition was unusual." },
-                { speaker: "Scientist A", text: "The team used the new space telescope. The images are very clear." },
-                { speaker: "Scientist B", text: "That is exciting. It means we might need to rewrite the textbooks." },
-                { speaker: "Scientist A", text: "I'm going to the conference next month to hear the presentation." },
-                { speaker: "Scientist B", text: "I'd love to go too. It will be a historic moment for astronomy." },
-            ],
-            questions: [
-                {
-                    question: "What is the discussion about?",
-                    options: ["A new planet", "An old star", "A black hole", "A comet"],
-                    correct: 1,
-                    explanation: "Scientist B mentions 'the star is much older than we previously thought.'",
-                },
-                {
-                    question: "What tool was used for the discovery?",
-                    options: ["A microscope", "A space telescope", "A computer simulation", "A satellite"],
-                    correct: 1,
-                    explanation: "Scientist A says: 'The team used the new space telescope.'",
-                },
-                {
-                    question: "What is the implication of this discovery?",
-                    options: ["Nothing changes", "Textbooks might be rewritten", "The star will explode", "Aliens exist"],
-                    correct: 1,
-                    explanation: "Scientist B says: 'might need to rewrite the textbooks.'",
-                },
-            ],
-        },
-        {
-            title: "At the Art Gallery",
-            lines: [
-                { speaker: "Guide", text: "This painting, 'The Blue Hour', was created during the artist's final years in Paris." },
-                { speaker: "Visitor", text: "It's beautiful. The use of blue is quite different from his earlier, brighter works." },
-                { speaker: "Guide", text: "Indeed. It reflects a more sombre and reflective mood during that period of his life." },
-                { speaker: "Visitor", text: "The figures look very lonely. Is there a story behind it?" },
-                { speaker: "Guide", text: "Yes, he had just lost his wife. He painted this to express his grief." },
-                { speaker: "Visitor", text: "That explains the emotion I feel. It's truly moving." },
-                { speaker: "Guide", text: "Many critics consider it his masterpiece because of that raw emotion." },
-                { speaker: "Visitor", text: "I can see why. I could look at it for hours." },
-            ],
-            questions: [
-                {
-                    question: "Where was the painting created?",
-                    options: ["London", "Paris", "New York", "Rome"],
-                    correct: 1,
-                    explanation: "The guide says: 'created during the artist's final years in Paris.'",
-                },
-                {
-                    question: "How does the painting compare to earlier works?",
-                    options: ["It is brighter", "It is bigger", "It is more sombre/blue", "It is abstract"],
-                    correct: 2,
-                    explanation: "Visitor mentions 'use of blue'; Guide confirms 'more sombre mood'.",
-                },
-                {
-                    question: "Why did the artist paint it?",
-                    options: ["To make money", "To express grief", "To celebrate a wedding", "To practice technique"],
-                    correct: 1,
-                    explanation: "Guide says: 'painted this to express his grief' after losing his wife.",
-                },
-            ],
-        },
-    ],
-    B2: [
-        {
-            title: "Remote Work Debate",
-            lines: [
-                { speaker: "Manager", text: "We need to consider bringing the team back to the office at least three days a week." },
-                { speaker: "Developer", text: "Given our current productivity levels, I'm not sure that's necessary. Remote work has been highly effective for us." },
-                { speaker: "Manager", text: "While productivity is high, I'm concerned about the erosion of our company culture and spontaneous collaboration." },
-                { speaker: "Developer", text: "We could implement virtual team-building sessions to address that, rather than mandating a commute." },
-                { speaker: "Manager", text: "True, but face-to-face interaction has a value that digital platforms can't fully replicate." },
-                { speaker: "Developer", text: "Perhaps we could try a flexible hybrid model where teams choose their own in-office days?" },
-                { speaker: "Manager", text: "That could work, provided we have core hours where everyone is available." },
-                { speaker: "Developer", text: "I think the team would be much more open to that suggestion." },
-            ],
-            questions: [
-                {
-                    question: "What is the Manager's main concern about remote work?",
-                    options: ["Decreased productivity", "High costs", "Erosion of company culture", "Internet connectivity issues"],
-                    correct: 2,
-                    explanation: "The manager says: 'I'm concerned about the erosion of our company culture...'",
-                },
-                {
-                    question: "What alternative does the Developer suggest first?",
-                    options: ["A hybrid model", "Virtual team-building sessions", "Longer hours", "More holidays"],
-                    correct: 1,
-                    explanation: "Developer suggests: 'We could implement virtual team-building sessions...'",
-                },
-                {
-                    question: "What requirement does the Manager add to the hybrid suggestion?",
-                    options: ["Core hours availability", "Specific dress code", "Fixed lunch breaks", "No meetings on Fridays"],
-                    correct: 0,
-                    explanation: "Manager says: 'provided we have core hours where everyone is available.'",
-                },
-            ],
-        },
-        {
-            title: "Ocean Plastic Pollution",
-            lines: [
-                { speaker: "Marine Biologist", text: "The concentration of microplastics in this area is significantly higher than our baseline data from last year." },
-                { speaker: "Volunteer", text: "It's devastating to see how it affects the local marine life. I found sea birds eating plastic caps." },
-                { speaker: "Marine Biologist", text: "We need more than just beach cleanups; we need systemic changes in how plastic is produced and disposed of." },
-                { speaker: "Volunteer", text: "Do you think the new international treaty will make a real difference?" },
-                { speaker: "Marine Biologist", text: "It's a step in the right direction, but enforcement remains a major hurdle. Countries need to commit funding." },
-                { speaker: "Volunteer", text: "What can we do as individuals in the meantime?" },
-                { speaker: "Marine Biologist", text: "Reduce single-use plastics and support businesses that prioritize sustainable packaging." },
-                { speaker: "Volunteer", text: "I'll start by auditing my own plastic consumption at home." },
-            ],
-            questions: [
-                {
-                    question: "What does the biologist believe is necessary to fix the problem?",
-                    options: ["More beach cleanups", "Systemic changes in production and disposal", "Higher taxes on fish", "Better telescopes"],
-                    correct: 1,
-                    explanation: "The biologist says: 'we need systemic changes in how plastic is produced and disposed of.'",
-                },
-                {
-                    question: "What is the hurdle for the international treaty?",
-                    options: ["Lack of interest", "Enforcement", "Scientific data", "Weather conditions"],
-                    correct: 1,
-                    explanation: "Biologist says: 'enforcement remains a major hurdle.'",
-                },
-                {
-                    question: "What personal action does the Volunteer decide to take?",
-                    options: ["Join a protest", "Audit their plastic consumption", "Write a letter", "Clean the beach"],
-                    correct: 1,
-                    explanation: "Volunteer says: 'audit my own plastic consumption at home.'",
-                },
-            ],
-        },
-        {
-            title: "Artificial Intelligence Ethics",
-            lines: [
-                { speaker: "Researcher", text: "We've developed an algorithm that can predict consumer health risks with 90% accuracy." },
-                { speaker: "Ethics Officer", text: "While technically impressive, we must consider the potential for insurance companies to misuse this data." },
-                { speaker: "Researcher", text: "Our primary goal is preventive care, allowing users to make lifestyle changes early." },
-                { speaker: "Ethics Officer", text: "The intention is noble, but the data privacy risks are substantial. We need robust safeguards." },
-                { speaker: "Researcher", text: "We can anonymize the data before it leaves our secure servers." },
-                { speaker: "Ethics Officer", text: "That helps, but re-identification is easier than you think. We need legal contracts preventing data sale." },
-                { speaker: "Researcher", text: "I agree. Trust is essential for user adoption." },
-            ],
-            questions: [
-                {
-                    question: "What is the potential misuse mentioned by the Ethics Officer?",
-                    options: ["Hacking by foreign governments", "Misuse of data by insurance companies", "Decreased accuracy of predictions", "Reduced funding for research"],
-                    correct: 1,
-                    explanation: "The Ethics Officer mentions 'the potential for insurance companies to misuse this data.'",
-                },
-                {
-                    question: "What is the researcher's primary goal?",
-                    options: ["Preventive care", "Maximizing profit", "Social control", "Political campaigning"],
-                    correct: 0,
-                    explanation: "Researcher says: 'Our primary goal is preventive care...'",
-                },
-                {
-                    question: "What safeguard does the Ethics Officer suggest?",
-                    options: ["Deleting the data", "Legal contracts preventing sale", "Shutting down the project", "Making it open source"],
-                    correct: 1,
-                    explanation: "Ethics Officer says: 'We need legal contracts preventing data sale.'",
-                },
-            ],
-        },
-        {
-            title: "Luxury Travel Trends",
-            lines: [
-                { speaker: "Travel Agent", text: "More of our high-end clients are requesting 'transformative travel' experiences rather than just luxury hotels." },
-                { speaker: "Client", text: "Exactly. I want to learn a new skill or contribute to a local conservation project during my stay." },
-                { speaker: "Travel Agent", text: "We have an exclusive partnership with a wildlife sanctuary in Namibia that offers just that." },
-                { speaker: "Client", text: "That sounds intriguing. Could you send me some more details about the accommodations?" },
-                { speaker: "Travel Agent", text: "It includes luxury tented camps with solar energy. You participate in rhino tracking." },
-                { speaker: "Client", text: "Rhino tracking sounds incredible. Is it safe?" },
-                { speaker: "Travel Agent", text: "Yes, you are accompanied by expert rangers at all times." },
-                { speaker: "Client", text: "Perfect. Please book it for me for the first week of September." },
-            ],
-            questions: [
-                {
-                    question: "What are 'transformative travel' experiences?",
-                    options: ["Fast-paced tours", "Cheap hostels", "Learning skills or contributing to conservation", "Staying only in luxury hotels"],
-                    correct: 2,
-                    explanation: "The client says: 'I want to learn a new skill or contribute to a local conservation project...'",
-                },
-                {
-                    question: "What specific activity is offered in Namibia?",
-                    options: ["Lion hunting", "Rhino tracking", "Elephant riding", "Bird watching"],
-                    correct: 1,
-                    explanation: "Agent mentions 'participate in rhino tracking.'",
-                },
-                {
-                    question: "What type of accommodation is provided?",
-                    options: ["A 5-star hotel", "A wooden cabin", "Luxury tented camps", "A cruise ship"],
-                    correct: 2,
-                    explanation: "Agent mentions 'luxury tented camps with solar energy.'",
-                },
-            ],
-        },
-        {
-            title: "Urban Planning for Cyclists",
-            lines: [
-                { speaker: "City Planner", text: "The new cycling lanes have successfully reduced traffic congestion in the city center by 15%." },
-                { speaker: "Cyclist Advocate", text: "That's great news, but the transition at the main junction remains quite dangerous." },
-                { speaker: "City Planner", text: "We're planning to install dedicated traffic lights for cyclists there by the end of next month." },
-                { speaker: "Cyclist Advocate", text: "That would be a massive improvement. Safety is the main reason more people don't cycle." },
-                { speaker: "City Planner", text: "We are also considering separated lanes with physical barriers for the main avenue." },
-                { speaker: "Cyclist Advocate", text: "Physical barriers are essential. Paint on the road isn't enough protection." },
-                { speaker: "City Planner", text: "I agree. We have secured funding for the pilot project starting in June." },
-            ],
-            questions: [
-                {
-                    question: "What has been the effect of the new cycling lanes?",
-                    options: ["Increased pollution", "Reduced traffic congestion by 15%", "More accidents", "Lower bus ticket prices"],
-                    correct: 1,
-                    explanation: "The planner mentions reducing traffic congestion by 15%.",
-                },
-                {
-                    question: "What is the cyclist's main concern?",
-                    options: ["The weather", "The cost of bikes", "Safety at the junction", "Lack of parking"],
-                    correct: 2,
-                    explanation: "Cyclist says: 'transition at the main junction remains quite dangerous.'",
-                },
-                {
-                    question: "What future improvement is discussed?",
-                    options: ["Removing lanes", "Physical barriers", "Tunnels", "Banning cars"],
-                    correct: 1,
-                    explanation: "Planner mentions 'separated lanes with physical barriers'.",
-                },
-            ],
-        },
-        {
-            title: "Future of Education",
-            lines: [
-                { speaker: "Professor", text: "I believe the traditional lecture model is becoming increasingly obsolete in the digital age." },
-                { speaker: "Dean", text: "So, you're suggesting we move entirely to a 'flipped classroom' approach? That's a radical shift." },
-                { speaker: "Professor", text: "Not entirely, but we should prioritize interactive workshops and collaborative projects over passive listening." },
-                { speaker: "Dean", text: "We'll need to invest heavily in training for our faculty to handle that shift in pedagogy." },
-                { speaker: "Professor", text: "True, but student engagement has been dropping. We need to adapt to how they learn today." },
-                { speaker: "Dean", text: "I agree in principle. Let's form a committee to pilot this in the Science department next semester." },
-                { speaker: "Professor", text: "Excellent. I'll draft a proposal for the curriculum changes." },
-                { speaker: "Dean", text: "Ensure you include a budget estimate for the new software tools we'll need." },
-            ],
-            questions: [
-                {
-                    question: "What approach does the professor prioritize?",
-                    options: ["Longer lectures", "Online-only testing", "Interactive workshops and collaborative projects", "Self-study books"],
-                    correct: 2,
-                    explanation: "The professor says: 'we should prioritize interactive workshops and collaborative projects.'",
-                },
-                {
-                    question: "What is the reason for the proposed change?",
-                    options: ["To save money", "To increase student engagement", "To reduce faculty work", "To use new buildings"],
-                    correct: 1,
-                    explanation: "Professor says: 'student engagement has been dropping.'",
-                },
-                {
-                    question: "What is the next step?",
-                    options: ["Cancel classes", "Form a committee to pilot the program", "Fire the professor", "Buy new furniture"],
-                    correct: 1,
-                    explanation: "Dean says: 'Let's form a committee to pilot this...'",
-                },
-            ],
-        },
-        {
-            title: "Sustainable Fashion",
-            lines: [
-                { speaker: "Designer", text: "This collection uses 100% recycled cotton and organic dyes sourced from local plants." },
-                { speaker: "Buyer", text: "The quality is impressive, but the price point is significantly higher than our standard range." },
-                { speaker: "Designer", text: "We're aiming for consumers who value durability and ethical production over fast fashion." },
-                { speaker: "Buyer", text: "It's a growing market, certainly. But will they buy a t-shirt that costs three times the average?" },
-                { speaker: "Designer", text: "Yes, because we offer a lifetime repair guarantee. It's an investment, not a disposable item." },
-                { speaker: "Buyer", text: "That is a unique selling point. Let's trial it in our flagship stores first." },
-                { speaker: "Designer", text: "I'm confident it will sell out. The narrative behind the product is very strong." },
-            ],
-            questions: [
-                {
-                    question: "What is the designer's target market?",
-                    options: ["Low-budget shoppers", "Fast fashion enthusiasts", "Consumers valuing durability and ethical production", "People who only wear silk"],
-                    correct: 2,
-                    explanation: "The designer mentions aiming for 'consumers who value durability and ethical production.'",
-                },
-                {
-                    question: "What is the buyer's main concern?",
-                    options: ["The color", "The style", "The price point", "The availability"],
-                    correct: 2,
-                    explanation: "Buyer says: 'price point is significantly higher than our standard range.'",
-                },
-                {
-                    question: "What guarantee does the designer offer?",
-                    options: ["Money back", "Lifetime repair", "Free shipping", "Buy one get one free"],
-                    correct: 1,
-                    explanation: "Designer says: 'we offer a lifetime repair guarantee.'",
-                },
-            ],
-        },
-        {
-            title: "Cryptocurrency Risks",
-            lines: [
-                { speaker: "Financial Analyst", text: "The volatility of the crypto market makes it a high-risk investment for the average person." },
-                { speaker: "Investor", text: "But the potential for high returns is what makes it so attractive compared to traditional stocks." },
-                { speaker: "Financial Analyst", text: "True, yet the lack of regulation means that if there's a platform failure, your assets are unprotected." },
-                { speaker: "Investor", text: "I only invest money that I'm prepared to lose, so I'm willing to take that gamble." },
-                { speaker: "Financial Analyst", text: "Just be careful of scams. A significant percentage of new coins are fraudulent." },
-                { speaker: "Investor", text: "I do my own research before buying. I check the whitepaper and the team behind it." },
-                { speaker: "Financial Analyst", text: "That's good diligence, but even legitimate projects can fail due to market sentiment." },
-            ],
-            questions: [
-                {
-                    question: "What is the analyst's main warning?",
-                    options: ["It's too slow", "High returns are guaranteed", "Lack of regulation and risk of losing assets", "It's better than gold"],
-                    correct: 2,
-                    explanation: "The analyst points out the 'lack of regulation' and unprotected assets.",
-                },
-                {
-                    question: "Why does the investor like cryptocurrency?",
-                    options: ["It is stable", "Potential for high returns", "It is government backed", "It is physical"],
-                    correct: 1,
-                    explanation: "Investor mentions 'potential for high returns is what makes it so attractive.'",
-                },
-                {
-                    question: "What does the investor do to stay safe?",
-                    options: ["Uses a bank", "Does their own research", "Ask friends", "Guesses"],
-                    correct: 1,
-                    explanation: "Investor says: 'I do my own research before buying.'",
-                },
-            ],
-        },
-        {
-            title: "Mental Health at Work",
-            lines: [
-                { speaker: "HR Manager", text: "We're introducing a new mental health support program for all employees starting next month." },
-                { speaker: "Staff Representative", text: "That's a very positive step. Burnout has been a major concern recently in the sales team." },
-                { speaker: "HR Manager", text: "The program includes access to anonymous counseling and weekly mindfulness workshops." },
-                { speaker: "Staff Representative", text: "Ensuring anonymity is crucial. Many people feel there's still a stigma around these topics." },
-                { speaker: "HR Manager", text: "Absolutely. The service is provided by an external third party so no data is shared with us." },
-                { speaker: "Staff Representative", text: "That's reassuring. We should emphasize that in the company-wide email." },
-                { speaker: "HR Manager", text: "Good point. I'll make sure the announcement highlights the privacy aspect." },
-            ],
-            questions: [
-                {
-                    question: "What does the new program include?",
-                    options: ["Free gym memberships", "Anonymous counseling and mindfulness workshops", "Extra pay for overtime", "A new cafeteria"],
-                    correct: 1,
-                    explanation: "The HR Manager lists 'anonymous counseling and mindfulness workshops.'",
-                },
-                {
-                    question: "Why is anonymity important?",
-                    options: ["To avoid taxes", "To prevent gossip", "To reduce stigma", "To save time"],
-                    correct: 2,
-                    explanation: "Staff says: 'Ensuring anonymity is crucial... stigma around these topics.'",
-                },
-                {
-                    question: "Who provides the service?",
-                    options: ["The CEO", "Internal HR", "An external third party", "The government"],
-                    correct: 2,
-                    explanation: "HR Manager says: 'provided by an external third party.'",
-                },
-            ],
-        },
-        {
-            title: "Space Exploration Debate",
-            lines: [
-                { speaker: "Space Enthusiast", text: "The privatization of space flight is accelerating our path to colonizing Mars." },
-                { speaker: "Skeptic", text: "But shouldn't we focus that funding and brilliance on urgent planetary issues like climate change?" },
-                { speaker: "Space Enthusiast", text: "Technology developed for space often has direct applications for sustainability on Earth, like solar panels." },
-                { speaker: "Skeptic", text: "Perhaps, but the immediate crisis requires more direct and focused investment, not side benefits." },
-                { speaker: "Space Enthusiast", text: "We can do both. Expanding our horizons inspires the next generation of scientists." },
-                { speaker: "Skeptic", text: "Inspiration is great, but it doesn't solve rising sea levels. We need practical solutions now." },
-                { speaker: "Space Enthusiast", text: "Moving heavy industry to space could actually save the Earth's environment." },
-                { speaker: "Skeptic", text: "That sounds like science fiction. Let's solve the problems we have here first." },
-            ],
-            questions: [
-                {
-                    question: "What is the skeptic's main argument?",
-                    options: ["Mars is too cold", "Space technology is useless", "Funding should be focused on urgent Earth issues", "Rockets are too loud"],
-                    correct: 2,
-                    explanation: "The skeptic asks: 'shouldn't we focus that funding on urgent planetary issues...?'",
-                },
-                {
-                    question: "What benefit does the enthusiast mention?",
-                    options: ["Finding aliens", "Technology applications for Earth", "Cheaper holidays", "More land"],
-                    correct: 1,
-                    explanation: "Enthusiast says: 'Technology developed for space often has direct applications for sustainability on Earth.'",
-                },
-                {
-                    question: "What radical solution does the enthusiast propose?",
-                    options: ["Moving everyone to Mars", "Moving heavy industry to space", "Stopping climate change", "Building a giant wall"],
-                    correct: 1,
-                    explanation: "Enthusiast says: 'Moving heavy industry to space could actually save the Earth's environment.'",
-                },
-            ],
-        },
-        {
-            title: "Smart City Infrastructure",
-            lines: [
-                { speaker: "Engineer", text: "The integration of IoT sensors into the traffic system has cut average commute times by 20% in the last quarter." },
-                { speaker: "Citizen", text: "That is noticeable, but there are rising concerns about how all that data is being stored and who has access to it." },
-                { speaker: "Engineer", text: "I understand the concern. We use end-to-end encryption and anonymize all personal identifiers before storage." },
-                { speaker: "Citizen", text: "I hope so. Privacy is a major concern when every move is tracked by a camera or sensor." },
-                { speaker: "Engineer", text: "We are also implementing a public dashboard so citizens can see exactly what data is collected." },
-                { speaker: "Citizen", text: "Transparency is key. If we can trust the system, we are more likely to support it." },
-                { speaker: "Engineer", text: "Agreed. The goal is to improve quality of life, not to monitor individuals." },
-            ],
-            questions: [
-                {
-                    question: "What has been the result of IoT integration in traffic?",
-                    options: ["Increased accidents", "Commute times cut by 20%", "Higher gas prices", "More traffic police"],
-                    correct: 1,
-                    explanation: "The engineer mentions cutting commute times by 20%.",
-                },
-                {
-                    question: "What is the citizen's main concern?",
-                    options: ["Traffic is still bad", "Data privacy", "Cost of sensors", "Ugly cameras"],
-                    correct: 1,
-                    explanation: "Citizen says: 'concerns about how all that data is being stored...'",
-                },
-                {
-                    question: "What solution does the engineer propose for trust?",
-                    options: ["A public dashboard", "Removing sensors", "Paying citizens", "Free wifi"],
-                    correct: 0,
-                    explanation: "Engineer mentions 'implementing a public dashboard'."
-                },
-            ],
-        },
-        {
-            title: "Renewable Energy Transition",
-            lines: [
-                { speaker: "Energy Executive", text: "We're aiming for 100% renewable energy for our manufacturing plants by 2030." },
-                { speaker: "Consultant", text: "That's an ambitious goal. Have you considered the stability of the grid during peak production hours?" },
-                { speaker: "Energy Executive", text: "We're investing in large-scale battery storage to mitigate any fluctuations in solar and wind supply." },
-                { speaker: "Consultant", text: "The initial investment will be high, but the long-term energy savings and tax incentives will be significant." },
-                { speaker: "Energy Executive", text: "Exactly. Plus, our customers are demanding greener supply chains." },
-                { speaker: "Consultant", text: "I'll conduct a feasibility study on the battery storage capacity you'll need." },
-                { speaker: "Energy Executive", text: "Please do. We need to present the plan to the board next month." },
-            ],
-            questions: [
-                {
-                    question: "When is the goal for 100% renewable energy?",
-                    options: ["2025", "2030", "2040", "2050"],
-                    correct: 1,
-                    explanation: "The executive says 'by 2030.'",
-                },
-                {
-                    question: "How will they handle supply fluctuations?",
-                    options: ["Buying more coal", "Shutting down plants", "Large-scale battery storage", "Using diesel generators"],
-                    correct: 2,
-                    explanation: "Executive says: 'investing in large-scale battery storage'."
-                },
-                {
-                    question: "What is driving the decision besides cost?",
-                    options: ["Government force", "Customer demand", "Employee strikes", "Accidents"],
-                    correct: 1,
-                    explanation: "Executive says: 'customers are demanding greener supply chains.'",
-                },
-            ],
-        },
-        {
-            title: "The Gig Economy",
-            lines: [
-                { speaker: "Freelancer", text: "I love the flexibility of being a gig worker, but the lack of benefits is creating a lot of anxiety." },
-                { speaker: "Policy Maker", text: "We're drafting legislation to ensure gig workers have access to basic health insurance and pension contributions." },
-                { speaker: "Freelancer", text: "That would be a game-changer. Currently, one sick week can be a financial disaster for me." },
-                { speaker: "Policy Maker", text: "We need to balance flexibility with security in the modern labor market. Companies can't just avoid their responsibilities." },
-                { speaker: "Freelancer", text: "Exactly. We are essentially employees without the protections." },
-                { speaker: "Policy Maker", text: "The new bill proposes a 'third worker status' to bridge that gap." },
-                { speaker: "Freelancer", text: "I hope it passes soon. It's overdue." },
-            ],
-            questions: [
-                {
-                    question: "What is the freelancer's main stressor?",
-                    options: ["Lack of work", "Low pay", "Lack of benefits", "Too many meetings"],
-                    correct: 2,
-                    explanation: "The freelancer mentions 'the lack of benefits is creating a lot of anxiety.'",
-                },
-                {
-                    question: "What is the policy maker proposing?",
-                    options: ["Banning gig work", "Legislation for health insurance and pensions", "Lower taxes", "Free laptops"],
-                    correct: 1,
-                    explanation: "Policy Maker says: 'ensure gig workers have access to basic health insurance and pension contributions.'",
-                },
-                {
-                    question: "What is the proposed new status called?",
-                    options: ["Super employee", "Third worker status", "Freelance plus", "Mini-job"],
-                    correct: 1,
-                    explanation: "Policy Maker mentions a ''third worker status''.",
-                },
-            ],
-        },
-        {
-            title: "Remote Learning Challenges",
-            lines: [
-                { speaker: "Parent", text: "My daughter is really struggling to stay focused during her online classes. It's affecting her grades." },
-                { speaker: "Teacher", text: "It's a common issue across the board. We're trying to incorporate more interactive elements like quizzes to keep them engaged." },
-                { speaker: "Parent", text: "She says she misses the social interaction with her peers the most. She feels isolated." },
-                { speaker: "Teacher", text: "We're setting up virtual breakout rooms for small group discussions to help with that connection." },
-                { speaker: "Parent", text: "That might help. Is there anything we can do at home to support her?" },
-                { speaker: "Teacher", text: "Creating a distraction-free environment and having a strict schedule really helps." },
-                { speaker: "Parent", text: "We'll try to set up a dedicated desk for her in the spare room." },
-            ],
-            questions: [
-                {
-                    question: "What is the daughter struggling with?",
-                    options: ["Technical issues", "Staying focused", "Too much homework", "Waking up early"],
-                    correct: 1,
-                    explanation: "The parent says: 'struggling to stay focused.'",
-                },
-                {
-                    question: "What social solution is the teacher suggesting?",
-                    options: ["Meeting in the park", "Virtual breakout rooms", "Phone calls", "Video games"],
-                    correct: 1,
-                    explanation: "Teacher mentions 'virtual breakout rooms for small group discussions.'",
-                },
-                {
-                    question: "What advice is given for the home environment?",
-                    options: ["Play music", "Distraction-free environment", "Let her study in bed", "Give her snacks"],
-                    correct: 1,
-                    explanation: "Teacher suggests: 'Creating a distraction-free environment'.",
-                },
-            ],
-        },
-        {
-            title: "Circular Economy in Retail",
-            lines: [
-                { speaker: "Store Manager", text: "We're launching a 'buy-back' program next month where customers can return used items for store credit." },
-                { speaker: "Customer", text: "That sounds interesting. What happens to the items once they are returned? Do you just throw them away?" },
-                { speaker: "Store Manager", text: "Not at all. They are either cleaned and resold as 'pre-loved', or broken down for raw materials if they are damaged." },
-                { speaker: "Customer", text: "It's good to see a large retailer taking sustainability seriously. I have a few old coats I could bring in." },
-                { speaker: "Store Manager", text: "Please do. We accept items from any brand, not just ours." },
-                { speaker: "Customer", text: "Really? That makes it much easier for me to declutter." },
-                { speaker: "Store Manager", text: "We want to encourage a circular habit regardless of the label." },
-            ],
-            questions: [
-                {
-                    question: "What is the 'buy-back' program?",
-                    options: ["Customers buy more items", "Customers return used items for credit", "Store buys back stocks", "Free repairs"],
-                    correct: 1,
-                    explanation: "The manager explains: 'customers can return used items for store credit.'",
-                },
-                {
-                    question: "What happens to the returned items?",
-                    options: ["Burned", "Sent to landfill", "Resold or recycled", "Given to staff"],
-                    correct: 2,
-                    explanation: "Manager says: 'either cleaned and resold... or broken down for raw materials'.",
-                },
-                {
-                    question: "Can the customer bring items from other brands?",
-                    options: ["No", "Yes", "Only expensive ones", "Only shoes"],
-                    correct: 1,
-                    explanation: "Manager says: 'We accept items from any brand'.",
-                },
-            ],
-        },
-        {
-            title: "Cybersecurity in Banking",
-            lines: [
-                { speaker: "CISO", text: "The increase in phishing attacks targeting our customers is quite concerning." },
-                { speaker: "Employee", text: "Should we implement multi-factor authentication for all transactions?" },
-                { speaker: "CISO", text: "Yes, and we need to launch a customer awareness campaign on how to spot fraudulent emails." },
-                { speaker: "Employee", text: "Prevention is definitely more efficient than trying to recover stolen funds." },
-                { speaker: "CISO", text: "Agreed. We also need to stress-test our own internal systems against breaches." },
-                { speaker: "Employee", text: "I'll schedule a penetration test with our external security partners for next week." },
-                { speaker: "CISO", text: "Good. We can't afford a data leak. The reputational damage would be irreversible." },
-            ],
-            questions: [
-                {
-                    question: "What type of attack is increasing?",
-                    options: ["Physical theft", "Phishing attacks", "System crashes", "Account closures"],
-                    correct: 1,
-                    explanation: "The CISO mentions 'the increase in phishing attacks.'",
-                },
-                {
-                    question: "What security measure is suggested?",
-                    options: ["Multi-factor authentication", "Closing branches", "Changing banks", "Paper records only"],
-                    correct: 0,
-                    explanation: "Employee asks: 'Should we implement multi-factor authentication...?'",
-                },
-                {
-                    question: "What is the CISO's main fear?",
-                    options: ["Losing money", "Data leak and reputational damage", "Getting fired", "Working late"],
-                    correct: 1,
-                    explanation: "CISO says: 'We can't afford a data leak. The reputational damage would be irreversible.'",
-                },
-            ],
-        },
-        {
-            title: "Work-Life Balance Policy",
-            lines: [
-                { speaker: "CEO", text: "I've decided to trial a four-day work week for the next six months." },
-                { speaker: "Director", text: "Will there be a reduction in salary for the employees? That's usually the tradeoff." },
-                { speaker: "CEO", text: "No, salary remains the same. We expect productivity to stay high due to better focus." },
-                { speaker: "Director", text: "The staff will be thrilled. It's a bold move for the industry." },
-                { speaker: "CEO", text: "We need to set clear KPIs to ensure we don't fall behind on deliverables." },
-                { speaker: "Director", text: "I'll work with the department heads to adjust the schedules and deadlines." },
-                { speaker: "CEO", text: "If this works, it could become our permanent competitive advantage in recruiting talent." },
-            ],
-            questions: [
-                {
-                    question: "What is the trial about?",
-                    options: ["Higher salaries", "A four-day work week", "Remote work only", "Longer vacations"],
-                    correct: 1,
-                    explanation: "The CEO says: 'trial a four-day work week.'",
-                },
-                {
-                    question: "Does the salary change?",
-                    options: ["Yes, it increases", "Yes, it decreases", "No, it remains the same", "It depends on performance"],
-                    correct: 2,
-                    explanation: "CEO says: 'No, salary remains the same.'",
-                },
-                {
-                    question: "What is the potential long-term benefit for the company?",
-                    options: ["Saving electricity", "Recruiting talent", "Less office rent", "Tax breaks"],
-                    correct: 1,
-                    explanation: "CEO mentions 'competitive advantage in recruiting talent.'",
-                },
-            ],
-        },
-        {
-            title: "Future of E-commerce",
-            lines: [
-                { speaker: "Analyst", text: "Augmented reality will soon allow customers to 'try on' clothes virtually from home." },
-                { speaker: "Retailer", text: "That should significantly reduce our return rates, which are currently very high." },
-                { speaker: "Analyst", text: "Exactly. It bridges the gap between digital convenience and physical experience." },
-                { speaker: "Retailer", text: "We need to start looking into the necessary software integrations immediately." },
-                { speaker: "Analyst", text: "There are several startups offering plug-and-play solutions for mobile apps." },
-                { speaker: "Retailer", text: "I'll ask our CTO to evaluate them. User experience must be seamless." },
-                { speaker: "Analyst", text: "If it's glitchy, customers will just abandon the cart." },
-            ],
-            questions: [
-                {
-                    question: "What technology will help with virtual 'try ons'?",
-                    options: ["Blockchain", "Virtual Reality", "Augmented Reality", "5G"],
-                    correct: 2,
-                    explanation: "The analyst mentions 'Augmented reality.'",
-                },
-                {
-                    question: "What problem will this solve for the retailer?",
-                    options: ["Low sales", "High return rates", "Slow shipping", "Bad reviews"],
-                    correct: 1,
-                    explanation: "Retailer says: 'significantly reduce our return rates'.",
-                },
-                {
-                    question: "What is the risk if the tech is not good?",
-                    options: ["Customers get lost", "Customers abandon cart", "Phone explodes", "Colors are wrong"],
-                    correct: 1,
-                    explanation: "Analyst says: 'If it's glitchy, customers will just abandon the cart.'",
-                },
-            ],
-        },
-        {
-            title: "Sustainable Agriculture",
-            lines: [
-                { speaker: "Farmer", text: "Regenerative farming has improved the health of our soil remarkably over the last three years." },
-                { speaker: "Buyer", text: "The produce certainly looks better. Are you using any chemical fertilizers?" },
-                { speaker: "Farmer", text: "None at all. We rely on crop rotation and natural compost. It traps more carbon too." },
-                { speaker: "Buyer", text: "Consumers are increasingly looking for 'soil-friendly' labels on their food." },
-                { speaker: "Farmer", text: "It requires more labor initially, but the yields are more stable against drought." },
-                { speaker: "Buyer", text: "I'd like to sign a long-term contract to supply our supermarket chain." },
-                { speaker: "Farmer", text: "That would give us the financial security to expand these practices to more acres." },
-            ],
-            questions: [
-                {
-                    question: "What does the farmer rely on instead of chemicals?",
-                    options: ["Better seeds", "Crop rotation and natural compost", "More water", "Magic"],
-                    correct: 1,
-                    explanation: "The farmer say: 'We rely on crop rotation and natural compost.'",
-                },
-                {
-                    question: "What is a benefit of this method mentioned by the farmer?",
-                    options: ["Cheaper labor", "Stable yields against drought", "Faster growth", "Larger fruits"],
-                    correct: 1,
-                    explanation: "Farmer mentions 'yields are more stable against drought.'",
-                },
-                {
-                    question: "What does the buyer propose?",
-                    options: ["Buying the farm", "A long-term contract", "Teaching the farmer", "Selling seeds"],
-                    correct: 1,
-                    explanation: "Buyer says: 'I'd like to sign a long-term contract...'",
-                },
-            ],
-        },
-        {
-            title: "Digital Nomad Lifestyle",
-            lines: [
-                { speaker: "Nomad", text: "Staying in one place for more than two months is starting to feel strange to me." },
-                { speaker: "Friend", text: "Don't you miss having a stable community and routine?" },
-                { speaker: "Nomad", text: "I have a global community now. And my routine travels with me, as long as I have WiFi." },
-                { speaker: "Friend", text: "It's an enviable freedom, but perhaps hard to maintain long-term." },
-                { speaker: "Nomad", text: "I do worry about burnout. Constantly planning the next visa and apartment is tiring." },
-                { speaker: "Friend", text: "Maybe you could find a 'home base' to return to for part of the year?" },
-                { speaker: "Nomad", text: "That's a good idea. Somewhere to leave my winter clothes and recharge." },
-            ],
-            questions: [
-                {
-                    question: "How long has the nomad stayed in one place?",
-                    options: ["One week", "Two months", "One year", "Five years"],
-                    correct: 1,
-                    explanation: "Nomad describes staying more than two months as 'strange'.",
-                },
-                {
-                    question: "What is the downside mentioned by the nomad?",
-                    options: ["Bad food", "Loneliness", "Burnout/planning logistics", "Expensive flights"],
-                    correct: 2,
-                    explanation: "Nomad says: 'I do worry about burnout. Constantly planning... is tiring.'",
-                },
-                {
-                    question: "What solution does the friend suggest?",
-                    options: ["Stop traveling", "Get a hotel", "Find a 'home base'", "Buy a van"],
-                    correct: 2,
-                    explanation: "Friend suggests: 'find a 'home base' to return to'.",
-                },
-            ],
-        },
-    ],
-    C1: [
-        {
-            title: "Debating Economic Policy",
-            lines: [
-                { speaker: "Economist", text: "The current fiscal strategy seems overly cautious given the sluggish growth in the manufacturing sector." },
-                { speaker: "Minister", text: "We must prioritize stability, especially with the volatile nature of the global markets at present." },
-                { speaker: "Economist", text: "True, but a targeted stimulus package could provide the necessary impetus for long-term revitalization." },
-                { speaker: "Minister", text: "The risk of inflation cannot be overlooked. We've seen how quickly it can erode purchasing power for the average citizen." },
-                { speaker: "Economist", text: "Inflation is manageable if we focus on supply-side investments rather than just printing money." },
-                { speaker: "Minister", text: "That is a valid point, but structural reforms take time to yield results, and we have an election approaching." },
-                { speaker: "Economist", text: "Short-term political gains shouldn't compromise long-term economic health." },
-            ],
-            questions: [
-                {
-                    question: "What is the Economist's view on the current fiscal strategy?",
-                    options: ["It's too aggressive", "It's overly cautious", "It's perfectly balanced", "It's non-existent"],
-                    correct: 1,
-                    explanation: "The economist describes it as 'overly cautious'.",
-                },
-                {
-                    question: "What is the Minister's primary concern?",
-                    options: ["Unemployment", "Inflation", "Deflation", "Foreign investment"],
-                    correct: 1,
-                    explanation: "Minister mentions: 'The risk of inflation cannot be overlooked.'",
-                },
-                {
-                    question: "What does the Economist suggest to avoid inflation?",
-                    options: ["Printing more money", "Raising taxes", "Supply-side investments", "Lowering interest rates"],
-                    correct: 2,
-                    explanation: "Economist suggests 'focus on supply-side investments'.",
-                },
-            ],
-        },
-        {
-            title: "Philosophical Inquiry: Free Will",
-            lines: [
-                { speaker: "Scholar A", text: "If every action is a result of prior causes, can we truly claim to possess free will?" },
-                { speaker: "Scholar B", text: "Compatibilism suggests that free will and determinism are not necessarily mutually exclusive." },
-                { speaker: "Scholar A", text: "Yet, if the neural precursors of a decision are detectable before conscious awareness, where is the agency?" },
-                { speaker: "Scholar B", text: "Agency might lie in the overarching cognitive structures rather than in the momentary spark of choice." },
-                { speaker: "Scholar A", text: "So you argue that our character determines our choices, and we are responsible for our character?" },
-                { speaker: "Scholar B", text: "Precisely. If we are free to align our desires with our second-order volitions, we have free will." },
-                { speaker: "Scholar A", text: "That seems like a redefined freedom, not the absolute liberty most people imagine." },
-            ],
-            questions: [
-                {
-                    question: "What concept suggests free will and determinism can coexist?",
-                    options: ["Existentialism", "Compatibilism", "Nihilism", "Dualism"],
-                    correct: 1,
-                    explanation: "Scholar B mentions 'Compatibilism.'",
-                },
-                {
-                    question: "What scientific challenge does Scholar A raise?",
-                    options: ["Quantum randomness", "Neural precursors detectable before awareness", "Genetic determinism", "Social conditioning"],
-                    correct: 1,
-                    explanation: "Scholar A asks about 'neural precursors... detectable before conscious awareness'.",
-                },
-                {
-                    question: "How does Scholar B define agency?",
-                    options: ["Momentary spark", "Overarching cognitive structures", "Divine intervention", "Random chance"],
-                    correct: 1,
-                    explanation: "Scholar B says agency might lie in 'overarching cognitive structures'.",
-                },
-            ],
-        },
-        {
-            title: "Ethical Implications of Biotechnology",
-            lines: [
-                { speaker: "Geneticist", text: "The ability to edit the germline opens up possibilities for eradicating hereditary diseases forever." },
-                { speaker: "Ethicist", text: "But it also risks creating a societal divide based on genetic enhancement, leading to a new form of inequality." },
-                { speaker: "Geneticist", text: "We could strictly regulate it to ensure it's only used for therapeutic purposes, not enhancement." },
-                { speaker: "Ethicist", text: "The line between therapy and enhancement is notoriously difficult to define and enforce. What counts as 'normal'?" },
-                { speaker: "Geneticist", text: "Is curing blindness therapy? Is improving vision beyond 20/20 enhancement?" },
-                { speaker: "Ethicist", text: "Exactly. And once we start down this path, there may be no turning back from 'designer babies'." },
-            ],
-            questions: [
-                {
-                    question: "What is the main concern of the Ethicist?",
-                    options: ["The cost of treatment", "Societal divide based on genetic enhancement", "Technological failure", "Environmental impact"],
-                    correct: 1,
-                    explanation: "The ethicist mentions the risk of 'creating a societal divide.'",
-                },
-                {
-                    question: "What is the proposed solution by the Geneticist?",
-                    options: ["Banning it", "Strict regulation", "Free market access", "Government funding"],
-                    correct: 1,
-                    explanation: "Geneticist suggests: 'We could strictly regulate it'.",
-                },
-                {
-                    question: "Why is regulation difficult?",
-                    options: ["Laws are slow", "Scientists are corrupt", "Line between therapy and enhancement is blurry", "Public ignores rules"],
-                    correct: 2,
-                    explanation: "Ethicist says: 'The line... is notoriously difficult to define'.",
-                },
-            ],
-        },
-        {
-            title: "Linguistic Relativity Theory",
-            lines: [
-                { speaker: "Linguist X", text: "The Sapir-Whorf hypothesis posits that the language we speak fundamentally shapes our perception of reality." },
-                { speaker: "Linguist Y", text: "While influential, modern research suggests a more 'weak' version of this relativity. It influences, but doesn't determine." },
-                { speaker: "Linguist X", text: "Take for example the way different cultures conceptualize time or color based on their vocabulary." },
-                { speaker: "Linguist Y", text: "Language influences thought, certainly, but it doesn't necessarily limit it. We can learn new concepts." },
-                { speaker: "Linguist X", text: "True, but the cognitive ease of processing certain ideas is definitely higher if your language has a word for it." },
-                { speaker: "Linguist Y", text: "That is the 'cognitive efficiency' argument, which is much more defensible than linguistic determinism." },
-            ],
-            questions: [
-                {
-                    question: "What does the Sapir-Whorf hypothesis suggest?",
-                    options: ["Language is universal", "Language shapes perception of reality", "All languages are equal", "Thought is independent of language"],
-                    correct: 1,
-                    explanation: "Linguist X says it 'posits that the language we speak fundamentally shapes our perception of reality.'",
-                },
-                {
-                    question: "What is Linguist Y's stance?",
-                    options: ["Strong determinism", "No influence at all", "Weak relativity / influence", "Language is genetic"],
-                    correct: 2,
-                    explanation: "Linguist Y suggests a 'weak version of this relativity.'",
-                },
-                {
-                    question: "What does Linguist X claim about cognitive ease?",
-                    options: ["It's unrelated to language", "It's higher if you have a word for it", "It's lower for bilinguals", "It depends on IQ"],
-                    correct: 1,
-                    explanation: "Linguist X says 'cognitive ease... is definitely higher if your language has a word for it.'",
-                },
-            ],
-        },
-        {
-            title: "Macroeconomic Regulation",
-            lines: [
-                { speaker: "Analyst", text: "The central bank's decision to raise interest rates is a direct response to the overheating housing market." },
-                { speaker: "Journalist", text: "Won't this disproportionately affect first-time buyers who are already struggling to secure a mortgage?" },
-                { speaker: "Analyst", text: "It's a necessary evil to prevent a much larger asset bubble from bursting later, which would be catastrophic." },
-                { speaker: "Journalist", text: "But the immediate impact on consumer spending could tip the economy into a recession." },
-                { speaker: "Analyst", text: "That is a risk, but hyperinflation is the greater enemy right now. We need to cool demand." },
-                { speaker: "Journalist", text: "It seems like a blunt instrument for a delicate problem." },
-                { speaker: "Analyst", text: "Unfortunately, monetary policy often lacks the precision of fiscal policy." },
-            ],
-            questions: [
-                {
-                    question: "Why did the central bank raise interest rates?",
-                    options: ["To encourage spending", "To cool down the overheating housing market", "To decrease taxes", "To increase exports"],
-                    correct: 1,
-                    explanation: "The analyst says it's a response to 'the overheating housing market.'",
-                },
-                {
-                    question: "Who might be most affected according to the Journalist?",
-                    options: ["Banks", "First-time buyers", "Car manufacturers", "Retirees"],
-                    correct: 1,
-                    explanation: "Journalist asks about 'first-time buyers who are already struggling'.",
-                },
-                {
-                    question: "What is the 'greater enemy' according to the Analyst?",
-                    options: ["Recession", "Hyperinflation", "Deflation", "Unemployment"],
-                    correct: 1,
-                    explanation: "Analyst states: 'hyperinflation is the greater enemy right now.'",
-                },
-            ],
-        },
-        {
-            title: "Literary Deconstruction",
-            lines: [
-                { speaker: "Critic A", text: "A deconstructive reading of the text reveals the inherent contradictions in the protagonist's moral arc." },
-                { speaker: "Critic B", text: "By focusing on the marginal elements, we can expose the prevailing ideologies of the author's era." },
-                { speaker: "Critic A", text: "Indeed, the 'unspoken' in a novel is often more telling than the explicit narrative." },
-                { speaker: "Critic B", text: "It challenges the notion of a single, unified 'truth' within a piece of literature." },
-                { speaker: "Critic A", text: "We must analyze what the text represses as much as what it expresses." },
-                { speaker: "Critic B", text: "Exactly. The silence is where the real meaning hides." },
-                { speaker: "Critic A", text: "And that silence often subverts the author's intended message." },
-            ],
-            questions: [
-                {
-                    question: "What does deconstructive reading focus on according to the critics?",
-                    options: ["Plot summaries", "Inherent contradictions and marginal elements", "The author's biography", "Grammar mistakes"],
-                    correct: 1,
-                    explanation: "Critic A mentions 'inherent contradictions' and Critic B mentions 'marginal elements.'",
-                },
-                {
-                    question: "What does Critic A say about the 'unspoken'?",
-                    options: ["It is irrelevant", "It is boring", "It is often more telling than the explicit narrative", "It is a typo"],
-                    correct: 2,
-                    explanation: "Critic A states: 'the 'unspoken' in a novel is often more telling than the explicit narrative.'",
-                },
-                {
-                    question: "What notion does Critic B challenge?",
-                    options: ["The printing press", "A single, unified 'truth'", "Paper quality", "Font choice"],
-                    correct: 1,
-                    explanation: "Critic B says: 'It challenges the notion of a single, unified 'truth'.' ",
-                },
-            ],
-        },
-        {
-            title: "Neuroscience and Criminal Justice",
-            lines: [
-                { speaker: "Lawyer", text: "We should admit brain scan evidence to show that the defendant has a compromised prefrontal cortex." },
-                { speaker: "Prosecutor", text: "Neuroscience should not be used as an excuse for criminal behavior and lack of self-control." },
-                { speaker: "Lawyer", text: "It's not an excuse, but a mitigating factor that explains the biological basis for impulsivity." },
-                { speaker: "Prosecutor", text: "If we go down that path, the concept of individual accountability becomes meaningless." },
-                { speaker: "Lawyer", text: "But isn't justice about fairness? Punishing someone for a biological deficit seems unjust." },
-                { speaker: "Prosecutor", text: "The law requires us to judge intent. Biology does not negate intent unless there is insanity." },
-                { speaker: "Lawyer", text: "The definition of insanity might need to evolve as our understanding of the brain deepens." },
-            ],
-            questions: [
-                {
-                    question: "What part of the brain is being discussed specifically?",
-                    options: ["Visual cortex", "Prefrontal cortex", "Cerebellum", "Brainstem"],
-                    correct: 1,
-                    explanation: "The lawyer mentions the 'prefrontal cortex.'",
-                },
-                {
-                    question: "What is the Prosecutor's concern?",
-                    options: ["Cost of scans", "Individual accountability becoming meaningless", "Jury confusion", "Long trials"],
-                    correct: 1,
-                    explanation: "Prosecutor says: 'the concept of individual accountability becomes meaningless.'",
-                },
-                {
-                    question: "What does the Lawyer argue brain scans represent?",
-                    options: ["An excuse", "A get out of jail card", "A mitigating factor", "A lie"],
-                    correct: 2,
-                    explanation: "Lawyer says: 'It's not an excuse, but a mitigating factor'.",
-                },
-            ],
-        },
-        {
-            title: "Post-Colonial Discourse",
-            lines: [
-                { speaker: "Professor", text: "The impact of colonial administrative structures persists in the geopolitical tensions of the region." },
-                { speaker: "Researcher", text: "We must also consider the subaltern voices that were silenced during that period." },
-                { speaker: "Professor", text: "Exactly. Re-writing history from their perspective is essential for genuine decolonization." },
-                { speaker: "Researcher", text: "It's a complex process that involves unlearning established Eurocentric narratives." },
-                { speaker: "Professor", text: "And recognizing that 'modernity' itself was often defined in opposition to the 'primitive' colony." },
-                { speaker: "Researcher", text: "So, the very tools we use to analyze history might be tainted by colonial bias?" },
-                { speaker: "Professor", text: "Precisely. We need new epistemological frameworks." },
-            ],
-            questions: [
-                {
-                    question: "What is essential for genuine decolonization according to the professor?",
-                    options: ["More trade", "Building new capitals", "Re-writing history from subaltern perspectives", "Ignoring the past"],
-                    correct: 2,
-                    explanation: "The professor says: 'Re-writing history from their perspective is essential...'",
-                },
-                {
-                    question: "What does the Researcher identify as a challenge?",
-                    options: ["Finding paper", "Unlearning Eurocentric narratives", "Learning new languages", "Funding"],
-                    correct: 1,
-                    explanation: "Researcher mentions 'unlearning established Eurocentric narratives.'",
-                },
-                {
-                    question: "What might be biased according to the Researcher?",
-                    options: ["The weather", "The tools used to analyze history", "The architecture", "The maps"],
-                    correct: 1,
-                    explanation: "Researcher asks if 'the very tools we use to analyze history might be tainted'.",
-                },
-            ],
-        },
-        {
-            title: "The Ethics of Space Colonization",
-            lines: [
-                { speaker: "Philosopher", text: "Do we have the moral right to alter the Martian environment to make it habitable?" },
-                { speaker: "Engineer", text: "If humanity's survival depends on it, terraforming becomes a survival imperative." },
-                { speaker: "Philosopher", text: "But what if there is indigenous microbial life? Our arrival would mean its destruction." },
-                { speaker: "Engineer", text: "We must develop protocols to detect and protect any existing biological entities." },
-                { speaker: "Philosopher", text: "Even if we protect them, occupying their world is a form of cosmic imperialism." },
-                { speaker: "Engineer", text: "Or it's the natural expansion of life. Earth has limited resources." },
-                { speaker: "Philosopher", text: "We should fix our own planet before we ruin another one." },
-            ],
-            questions: [
-                {
-                    question: "What is the philosopher concerned about regarding Mars?",
-                    options: ["The cost of fuel", "Potential destruction of indigenous microbial life", "The duration of the flight", "The lack of gravity"],
-                    correct: 1,
-                    explanation: "The philosopher asks about 'indigenous microbial life' and its destruction.",
-                },
-                {
-                    question: "What is the Engineer's justification for terraforming?",
-                    options: ["It's fun", "It's profitable", "Humanity's survival", "Curiosity"],
-                    correct: 2,
-                    explanation: "Engineer says: 'If humanity's survival depends on it...'",
-                },
-                {
-                    question: "What counter-argument does the Philosopher offer at the end?",
-                    options: ["Mars is too far", "We should fix Earth first", "Aliens will attack us", "It's too cold"],
-                    correct: 1,
-                    explanation: "Philosopher says: 'We should fix our own planet before we ruin another one.'",
-                },
-            ],
-        },
-        {
-            title: "Quantum Mechanics and Reality",
-            lines: [
-                { speaker: "Physicist A", text: "The Copenhagen interpretation suggests that reality is indeterminate until observed." },
-                { speaker: "Physicist B", text: "I prefer the Many-Worlds interpretation, where every quantum event branches into a new reality." },
-                { speaker: "Physicist A", text: "Both challenge our classical intuition of a single, objective universe." },
-                { speaker: "Physicist B", text: "Essentially, the observer and the observed are inextricably linked." },
-                { speaker: "Physicist A", text: "But Many-Worlds is ontologically extravagant. Billions of universes being created every second?" },
-                { speaker: "Physicist B", text: "It's mathematically simpler than assuming a 'collapse' of the wave function triggered by observation." },
-                { speaker: "Physicist A", text: "It solves the measurement problem, but at a high conceptual cost." },
-            ],
-            questions: [
-                {
-                    question: "Which interpretation suggests that reality is indeterminate until observed?",
-                    options: ["Many-Worlds", "Copenhagen", "Newtonian", "Relativity"],
-                    correct: 1,
-                    explanation: "Physicist A mentions the 'Copenhagen interpretation.'",
-                },
-                {
-                    question: "What does Physicist B prefer?",
-                    options: ["Copenhagen", "Many-Worlds", "String Theory", "Loop Quantum Gravity"],
-                    correct: 1,
-                    explanation: "Physicist B says: 'I prefer the Many-Worlds interpretation'.",
-                },
-                {
-                    question: "What is the criticism of Many-Worlds by Physicist A?",
-                    options: ["It's too simple", "It's ontologically extravagant", "It's old news", "It's boring"],
-                    correct: 1,
-                    explanation: "Physicist A says: 'But Many-Worlds is ontologically extravagant.'",
-                },
-            ],
-        },
-        {
-            title: "AI and Consciousness",
-            lines: [
-                { speaker: "Cognitive Scientist", text: "If an artificial intelligence can perfectly simulate emotional responses, does it truly 'feel' them?" },
-                { speaker: "Theologian", text: "Consciousness requires more than just biological or computational complexity; it requires a subjective 'soul' or essence." },
-                { speaker: "Cognitive Scientist", text: "Yet, if we cannot distinguish between a simulation and the real thing, the distinction becomes functionally irrelevant." },
-                { speaker: "Theologian", text: "Functionality is not the same as being. A mirror reflects light, but it does not see." },
-                { speaker: "Cognitive Scientist", text: "What if the mirror had memory and self-referential processing? At what point does it start 'seeing'?" },
-                { speaker: "Theologian", text: "That is the hard problem of consciousness. No amount of processing explains the qualia of experience." },
-                { speaker: "Cognitive Scientist", text: "Perhaps qualia are just illusions created by complex data processing." },
-            ],
-            questions: [
-                {
-                    question: "What is the theologians argument against AI consciousness?",
-                    options: ["AI is too slow", "Consciousness requires a subjective 'soul' or essence", "Computers can't simulate emotions", "AI is dangerous"],
-                    correct: 1,
-                    explanation: "The theologian says: 'Consciousness requires... a subjective soul or essence.'",
-                },
-                {
-                    question: "What does the Cognitive Scientist propose regarding the distinction?",
-                    options: ["It's obvious", "It's functionally irrelevant if indistinguishable", "It doesn't matter", "It's scary"],
-                    correct: 1,
-                    explanation: "Scientist says: 'the distinction becomes functionally irrelevant.'",
-                },
-                {
-                    question: "What is the 'hard problem of consciousness' mentioned?",
-                    options: ["Math puzzles", "Explaining the qualia of experience", "Building better robots", "Funding research"],
-                    correct: 1,
-                    explanation: "Theologian mentions 'No amount of processing explains the qualia of experience.'",
-                },
-            ],
-        },
-        {
-            title: "Globalization and Sovereignty",
-            lines: [
-                { speaker: "Political Scientist", text: "The rise of transnational corporations is increasingly undermining the regulatory power of the nation-state." },
-                { speaker: "Diplomat", text: "On the contrary, international agreements provide a framework for states to reclaim that power collectively." },
-                { speaker: "Political Scientist", text: "But the interests of the powerful states often dominate those agreements, leaving smaller nations vulnerable." },
-                { speaker: "Diplomat", text: "That is why institutional reform and multilateralism are more critical than ever." },
-                { speaker: "Political Scientist", text: "Multilateralism is slow and often paralyzed by veto players." },
-                { speaker: "Diplomat", text: "It's imperfect, but it's better than unilateral anarchy where might makes right." },
-                { speaker: "Political Scientist", text: "We need mechanisms to hold these global entities accountable directly to the people." },
-            ],
-            questions: [
-                {
-                    question: "What does the Political Scientist believe is undermining nation-state power?",
-                    options: ["Local farmers", "Transnational corporations", "Small libraries", "Public schools"],
-                    correct: 1,
-                    explanation: "The Political Scientist mentions 'transnational corporations.'",
-                },
-                {
-                    question: "What is the Diplomat's solution?",
-                    options: ["War", "International agreements and multilateralism", "Closing borders", "Printing money"],
-                    correct: 1,
-                    explanation: "Diplomat mentions 'international agreements provide a framework... institutional reform and multilateralism'.",
-                },
-                {
-                    question: "What is the criticism of multilateralism?",
-                    options: ["It's too fast", "It's too cheap", "It's slow and paralyzed by veto players", "It gives too much power to small nations"],
-                    correct: 2,
-                    explanation: "Political Scientist says: 'Multilateralism is slow and often paralyzed by veto players.'",
-                },
-            ],
-        },
-        {
-            title: "Cultural Heritage Preservation",
-            lines: [
-                { speaker: "Archaeologist", text: "Climate change and local conflict are posing an unprecedented threat to these Bronze Age sites." },
-                { speaker: "Curator", text: "Digital mapping and 3D scanning allow us to preserve the information, even if the physical site is lost." },
-                { speaker: "Archaeologist", text: "But the physical context—the very earth it rests in—contains data that digital models can't capture." },
-                { speaker: "Curator", text: "Agreed, but in a crisis, we must prioritize what we can save for future generations." },
-                { speaker: "Archaeologist", text: "We should also involve the local community in the preservation efforts. It's their heritage." },
-                { speaker: "Curator", text: "Absolutely. But funding is limited, and high-tech scanning is expensive." },
-                { speaker: "Archaeologist", text: "Maybe we can get a UNESCO grant to cover the equipment costs." },
-            ],
-            questions: [
-                {
-                    question: "What technologies are mentioned for preservation?",
-                    options: ["Photography", "Digital mapping and 3D scanning", "Oil painting", "Carbon dating"],
-                    correct: 1,
-                    explanation: "The curator mentions 'Digital mapping and 3D scanning.'",
-                },
-                {
-                    question: "What is the Archaeologist's main argument against purely digital preservation?",
-                    options: ["It's too cheap", "Physical context contains unique data", "Models are ugly", "Files get corrupted"],
-                    correct: 1,
-                    explanation: "Archaeologist says: 'physical context... contains data that digital models can't capture.'",
-                },
-                {
-                    question: "What solution is proposed for funding?",
-                    options: ["Selling artifacts", "UNESCO grant", "Crowdfunding", "Asking the government"],
-                    correct: 1,
-                    explanation: "Archaeologist suggests: 'Maybe we can get a UNESCO grant...'",
-                },
-            ],
-        },
-        {
-            title: "Professional Negotiation Strategy",
-            lines: [
-                { speaker: "Lead Negotiator", text: "Our target for the acquisition is 500 million, with a 10% contingency for intellectual property assets." },
-                { speaker: "Legal Counsel", text: "We should also insist on a non-compete clause for the senior management team for at least three years." },
-                { speaker: "Lead Negotiator", text: "That might be a deal-breaker for them. Perhaps we could offer performance-based incentives instead?" },
-                { speaker: "Legal Counsel", text: "It's a viable alternative, provided the benchmarks are clearly defined and legally binding." },
-                { speaker: "Lead Negotiator", text: "We can structure it as an earn-out over five years. That aligns their interests with ours." },
-                { speaker: "Legal Counsel", text: "Agreed. But we need strict auditing rights to ensure they don't manipulate the numbers." },
-                { speaker: "Lead Negotiator", text: "I'll have the finance team draft the preliminary terms." },
-            ],
-            questions: [
-                {
-                    question: "What is the target acquisition price?",
-                    options: ["100 million", "500 million", "1 billion", "50 million"],
-                    correct: 1,
-                    explanation: "The Lead Negotiator says: 'Our target for the acquisition is 500 million.'",
-                },
-                {
-                    question: "What clause does the Legal Counsel want to add initially?",
-                    options: ["Non-disclosure", "Non-compete", "Force majeure", "Arbitration"],
-                    correct: 1,
-                    explanation: "Legal Counsel mentions 'insist on a non-compete clause'.",
-                },
-                {
-                    question: "What alternative structure is proposed?",
-                    options: ["Cash upfront", "Earn-out over five years", "Stock swap", "Debt financing"],
-                    correct: 1,
-                    explanation: "Lead Negotiator suggests: 'We can structure it as an earn-out over five years.'",
-                },
-            ],
-        },
-        {
-            title: "The Future of Quantum Computing",
-            lines: [
-                { speaker: "Futurologist", text: "Universal quantum computers will render all current encryption methods obsolete within a decade." },
-                { speaker: "Cryptographer", text: "Hence the urgent focus on developing 'quantum-resistant' algorithms today." },
-                { speaker: "Futurologist", text: "It's a race between those who want to break security and those who want to redefine it." },
-                { speaker: "Cryptographer", text: "The fundamental laws of physics will eventually provide the ultimate security via quantum key distribution." },
-                { speaker: "Futurologist", text: "But infrastructure upgrades for QKD are expensive and technically challenging." },
-                { speaker: "Cryptographer", text: "True, but the cost of a total collapse of global financial security is far higher." },
-                { speaker: "Futurologist", text: "We need governments to subsidize the transition." },
-            ],
-            questions: [
-                {
-                    question: "What will quantum computers make obsolete according to the Futurologist?",
-                    options: ["Smartphones", "Current encryption methods", "The internet", "Banks"],
-                    correct: 1,
-                    explanation: "The Futurologist mentions rendering 'all current encryption methods obsolete.'",
-                },
-                {
-                    question: "What is the proposed technical solution?",
-                    options: ["Better passwords", "Quantum key distribution (QKD)", "Offline storage", "Paper records"],
-                    correct: 1,
-                    explanation: "Cryptographer mentions 'quantum key distribution.'",
-                },
-                {
-                    question: "What is the main barrier to QKD mentioned?",
-                    options: ["Lack of interest", "Laws of physics", "Infrastructure expense and technical challenge", "It doesn't work"],
-                    correct: 2,
-                    explanation: "Futurologist says: 'infrastructure upgrades for QKD are expensive and technically challenging.'",
-                },
-            ],
-        },
-        {
-            title: "Deep Sea Exploration Ethics",
-            lines: [
-                { speaker: "Oceanographer", text: "Rare earth minerals found near hydrothermal vents could be key to our green energy transition." },
-                { speaker: "Ecologist", text: "But these vents are home to unique ecosystems that we've barely begun to understand." },
-                { speaker: "Oceanographer", text: "We would use autonomous drones to minimize the environmental footprint of the extraction." },
-                { speaker: "Ecologist", text: "Even 'minimal' footprint can trigger a cascade of unforeseen biological consequences in such fragile environments." },
-                { speaker: "Oceanographer", text: "The trade-off is between destroying the ocean floor or continuing to burn fossil fuels." },
-                { speaker: "Ecologist", text: "False dichotomy. We should improve recycling of existing rare earth metals first." },
-                { speaker: "Oceanographer", text: "Recycling isn't efficient enough to meet the skyrocketing demand for batteries." },
-            ],
-            questions: [
-                {
-                    question: "What can be found near hydrothermal vents?",
-                    options: ["Gold", "Rare earth minerals", "Oil", "Plastic"],
-                    correct: 1,
-                    explanation: "The oceanographer mentions 'Rare earth minerals.'",
-                },
-                {
-                    question: "What is the Ecologist's fear?",
-                    options: ["Losing money", "Unforeseen biological consequences", "Drones breaking", "Water pressure"],
-                    correct: 1,
-                    explanation: "Ecologist mentions 'cascade of unforeseen biological consequences.'",
-                },
-                {
-                    question: "What alternative does the Ecologist suggest?",
-                    options: ["Nuclear power", "Recycling existing metals", "Burning more coal", "Wind farms"],
-                    correct: 1,
-                    explanation: "Ecologist says: 'We should improve recycling of existing rare earth metals first.'",
-                },
-            ],
-        },
-        {
-            title: "Cognitive Bias in Decision Making",
-            lines: [
-                { speaker: "Psychologist", text: "The 'sunk cost fallacy' often leads corporations to continue funding failing projects long after they should have been terminated." },
-                { speaker: "CEO", text: "It's difficult for a board to admit defeat when millions have already been invested." },
-                { speaker: "Psychologist", text: "That is precisely why external auditors and objective metrics are so essential for high-stakes decisions." },
-                { speaker: "CEO", text: "We need to foster a culture where 'pivoting' is seen as a strategic strength, not a failure of will." },
-                { speaker: "Psychologist", text: "Also, beware of confirmation bias. Don't just look for data that supports your original hypothesis." },
-                { speaker: "CEO", text: "Good point. We need a 'Red Team' to actively challenge our assumptions in every meeting." },
-                { speaker: "Psychologist", text: "That structural conflict can save you from disastrous groupthink." },
-            ],
-            questions: [
-                {
-                    question: "What fallacy is being discussed?",
-                    options: ["Confirmation bias", "Sunk cost fallacy", "Halo effect", "Availability heuristic"],
-                    correct: 1,
-                    explanation: "The psychologist mentions the 'sunk cost fallacy.'",
-                },
-                {
-                    question: "What solution does the Psychologist propose initially?",
-                    options: ["Fire the board", "External auditors and objective metrics", "More funding", "Meditation"],
-                    correct: 1,
-                    explanation: "Psychologist says: 'external auditors and objective metrics are so essential'.",
-                },
-                {
-                    question: "What is a 'Red Team' used for?",
-                    options: ["Marketing", "Challenging assumptions", "Playing sports", "Design"],
-                    correct: 1,
-                    explanation: "CEO says: 'Red Team' to actively challenge our assumptions'.",
-                },
-            ],
-        },
-        {
-            title: "The Evolution of Abstract Art",
-            lines: [
-                { speaker: "Art Historian", text: "The transition from representational art to pure abstraction reflected a fundamental shift in how we perceive the 'self'." },
-                { speaker: "Artist", text: "For me, it's about stripping away the 'known' to encounter the raw, pre-linguistic experience of color and form." },
-                { speaker: "Art Historian", text: "Pollock's drip paintings, for instance, were as much about the physical act of creation as the final image." },
-                { speaker: "Artist", text: "Exactly. The canvas becomes an arena for an event rather than a window onto a scene." },
-                { speaker: "Art Historian", text: "This shift alienated many viewers who sought narrative comfort in art." },
-                { speaker: "Artist", text: "Art shouldn't just comfort; it should challenge the viewer to confront the unknown." },
-                { speaker: "Art Historian", text: "It demands active participation rather than passive observation." },
-            ],
-            questions: [
-                {
-                    question: "What was Pollock's work about according to the Historian?",
-                    options: ["Portraits of kings", "The physical act of creation", "Landscape painting", "Political propaganda"],
-                    correct: 1,
-                    explanation: "The historian says they were 'as much about the physical act of creation as the final image.'",
-                },
-                {
-                    question: "How does the Artist describe their goal?",
-                    options: ["To paint realistic trees", "Stripping away the 'known'", "To make money", "To copy old masters"],
-                    correct: 1,
-                    explanation: "Artist says: 'stripping away the 'known' to encounter the raw... experience'.",
-                },
-                {
-                    question: "What does the Historian say about the viewers?",
-                    options: ["They loved it", "They were alienated", "They bought everything", "They stopped going to museums"],
-                    correct: 1,
-                    explanation: "Historian says: 'This shift alienated many viewers'.",
-                },
-            ],
-        },
-        {
-            title: "Sustainable Urban Design",
-            lines: [
-                { speaker: "Architect", text: "By integrating vertical forests into our skyscraper designs, we can significantly reduce the 'urban heat island' effect." },
-                { speaker: "Botanist", text: "Maintenance of such systems is high, and you have to consider the long-term structural impact of root growth." },
-                { speaker: "Architect", text: "We've developed modular planters that prevent root penetration into the primary structure." },
-                { speaker: "Botanist", text: "If the irrigation system fails even for a few days, the entire ecosystem could collapse." },
-                { speaker: "Architect", text: "We have redundant smart sensors and greywater recycling systems to mitigate that risk." },
-                { speaker: "Botanist", text: "It sounds impressive, but is it scalable for affordable housing?" },
-                { speaker: "Architect", text: "Not yet, but as the technology matures, the costs will come down." },
-            ],
-            questions: [
-                {
-                    question: "What effect do vertical forests help reduce?",
-                    options: ["Traffic", "Urban heat island effect", "Rent prices", "Wind speed"],
-                    correct: 1,
-                    explanation: "The architect mentions reducing the 'urban heat island' effect.",
-                },
-                {
-                    question: "What is the Botanist's concern regarding structure?",
-                    options: ["Wind load", "Root growth/penetration", "Earthquakes", "Visual appeal"],
-                    correct: 1,
-                    explanation: "Botanist mentions 'structural impact of root growth.'",
-                },
-                {
-                    question: "What happens if irrigation fails?",
-                    options: ["Nothing", "Ecosystem collapse", "Flood", "Structure falls"],
-                    correct: 1,
-                    explanation: "Botanist says: 'the entire ecosystem could collapse.'",
-                },
-            ],
-        },
-        {
-            title: "Universal Basic Income Debate",
-            lines: [
-                { speaker: "Sociologist", text: "UBI could provide the necessary safety net as automation replaces a vast range of traditional middle-class jobs." },
-                { speaker: "Economist", text: "The inflationary pressure of injecting that much cash into the system could negate the benefits and devalue the currency." },
-                { speaker: "Sociologist", text: "Early trials suggest that people don't stop working; they simply shift toward more meaningful, creative, or care-oriented roles." },
-                { speaker: "Economist", text: "Small-scale trials are not representative of a national or global economic ecosystem." },
-                { speaker: "Sociologist", text: "We need to rethink the social contract. Work shouldn't be the only justification for existence." },
-                { speaker: "Economist", text: "Philosophically appealing, but fiscally perilous. We should focus on targeted retraining programs instead." },
-                { speaker: "Sociologist", text: "Retraining for what? The robots will eventually learn those jobs too." },
-            ],
-            questions: [
-                {
-                    question: "What do early trials suggest according to the Sociologist?",
-                    options: ["People stop working entirely", "People shift toward more meaningful roles", "People spend all their money on luxuries", "Work productivity drops by 50%"],
-                    correct: 1,
-                    explanation: "The sociologist mentions: 'people don't stop working; they simply shift toward more meaningful... roles.'",
-                },
-                {
-                    question: "What is the Economist's concern?",
-                    options: ["Inflation and fiscal peril", "Too many happy people", "Lack of robots", "People will get bored"],
-                    correct: 0,
-                    explanation: "Economist mentions 'inflationary pressure' and says it is 'fiscally perilous.'",
-                },
-                {
-                    question: "What alternative does the Economist suggest?",
-                    options: ["UBI", "Targeted retraining programs", "Lower taxes", "More holidays"],
-                    correct: 1,
-                    explanation: "Economist suggests: 'We should focus on targeted retraining programs instead.'",
-                },
-            ],
-        },
-    ],
-    C2: [
-        {
-            title: "Epistemological Limits of Science",
-            lines: [
-                { speaker: "Philosopher", text: "Gödel's incompleteness theorems suggest that within any sufficiently complex logical system, there are truths that cannot be proven." },
-                { speaker: "Physicist", text: "Does this imply that a 'Theory of Everything' in physics is fundamentally unattainable through mathematics?" },
-                { speaker: "Philosopher", text: "Mathematics may describe the 'how', but it might be inherently limited in capturing the 'why' of existence." },
-                { speaker: "Physicist", text: "Yet, the uncanny efficacy of mathematics in describing the universe suggests a deep ontological connection." },
-                { speaker: "Philosopher", text: "That efficay might be a product of our selection bias; we only notice the math that works." },
-                { speaker: "Physicist", text: "Perhaps, but predicting the magnetic moment of an electron to twelve decimal places is hardly a coincidence." },
-                { speaker: "Philosopher", text: "Precision is not the same as truth. Ptolemaic astronomy was precise but geocentrically wrong." },
-            ],
-            questions: [
-                {
-                    question: "What do Gödel's theorems suggest?",
-                    options: ["All truths are provable", "There are truths that cannot be proven within a system", "Science is useless", "Everything is mathematics"],
-                    correct: 1,
-                    explanation: "The philosopher says they 'suggest that... there are truths that cannot be proven.'",
-                },
-                {
-                    question: "What is the Physicist's counter-argument regarding math?",
-                    options: ["It's too hard", "The uncanny efficacy suggests a deep ontological connection", "It's all luck", "It's wrong"],
-                    correct: 1,
-                    explanation: "Physicist mentions 'the uncanny efficacy of mathematics in describing the universe.'",
-                },
-                {
-                    question: "What example does the Philosopher use to distinguish precision from truth?",
-                    options: ["Newtonian physics", "Ptolemaic astronomy", "Quantum mechanics", "Chemistry"],
-                    correct: 1,
-                    explanation: "Philosopher mentions 'Ptolemaic astronomy was precise but geocentrically wrong.'",
-                },
-            ],
-        },
-        {
-            title: "Advanced Game Theory in Geopolitics",
-            lines: [
-                { speaker: "Strategist", text: "In a multi-polar nuclear world, the concept of 'Mutually Assured Destruction' becomes significantly more unstable." },
-                { speaker: "Academic", text: "The introduction of low-yield tactical weapons further blurs the threshold of nuclear use, inviting miscalculation." },
-                { speaker: "Strategist", text: "We must transition from a strategy of containment to one of complex interdependence to raise the cost of conflict." },
-                { speaker: "Academic", text: "Interdependence itself can be 'weaponized' through supply chain disruption and economic sanctions." },
-                { speaker: "Strategist", text: "True, but weaponized interdependence is preferable to kinetic warfare." },
-                { speaker: "Academic", text: "Unless the economic pain becomes an existential threat, triggering the very escalation we seek to avoid." },
-                { speaker: "Strategist", text: "That is the delicate equilibrium of deterrence in the 21st century." },
-            ],
-            questions: [
-                {
-                    question: "What is the Strategist's proposed solution?",
-                    options: ["More weapons", "Complex interdependence", "Isolationism", "A world government"],
-                    correct: 1,
-                    explanation: "The strategist suggests 'one of complex interdependence to raise the cost of conflict.'",
-                },
-                {
-                    question: "What risk does the Academic highlight regarding interdependence?",
-                    options: ["It's expensive", "It can be weaponized", "It's boring", "It takes too long"],
-                    correct: 1,
-                    explanation: "Academic says: 'Interdependence itself can be 'weaponized' through supply chain disruption'.",
-                },
-                {
-                    question: "What is the concern about economic pain?",
-                    options: ["It causes inflation", "It might trigger escalation", "It hurts the poor", "It stops trade"],
-                    correct: 1,
-                    explanation: "Academic says: 'Unless the economic pain... triggering the very escalation we seek to avoid.'",
-                },
-            ],
-        },
-        {
-            title: "The Phenomenology of Time",
-            lines: [
-                { speaker: "Husserlian", text: "Time is not a series of discrete units, but a continuous flow of 'retention' and 'protention'." },
-                { speaker: "Bergsonian", text: "Indeed, 'duree' or duration is the essence of life, which the intellect incorrectly spatializes into seconds and minutes." },
-                { speaker: "Husserlian", text: "Our consciousness of the present moment always includes the fading shadow of the past and the horizon of the future." },
-                { speaker: "Bergsonian", text: "To live is to be carried away by this indivisible flux, which measurement inevitably distorts." },
-                { speaker: "Husserlian", text: "So, the ticking clock is an abstraction that alienates us from our lived experience?" },
-                { speaker: "Bergsonian", text: "Precisely. Science measures time, but consciousness endures it." },
-                { speaker: "Husserlian", text: "And in that endurance, we find the continuity of the self." },
-            ],
-            questions: [
-                {
-                    question: "What is Bergson's term for the essence of life/time?",
-                    options: ["Moment", "Duree (Duration)", "Second", "Infinity"],
-                    correct: 1,
-                    explanation: "The Bergsonian speaker mentions 'duree' or duration.",
-                },
-                {
-                    question: "How does the Husserlian describe the present moment?",
-                    options: ["An isolated point", "Including past shadow and future horizon", "A dream", "An illusion"],
-                    correct: 1,
-                    explanation: "Husserlian says: 'includes the fading shadow of the past and the horizon of the future.'",
-                },
-                {
-                    question: "What is the criticism of the 'ticking clock'?",
-                    options: ["It's too loud", "It's an abstraction that alienates us", "It's inaccurate", "It's useful"],
-                    correct: 1,
-                    explanation: "Husserlian asks if it is 'an abstraction that alienates us from our lived experience.'",
-                },
-            ],
-        },
-        {
-            title: "Macro-Prudential Financial Regulation",
-            lines: [
-                { speaker: "Regulator", text: "The interconnectedness of the 'shadow banking' system poses a systemic risk that our current capital requirements don't address." },
-                { speaker: "Banker", text: "Over-regulation risks stifling liquidity and hampering the credit growth necessary for a robust recovery." },
-                { speaker: "Regulator", text: "Liquidity is irrelevant if the entire edifice collapses due to a lack of transparency in derivatives markets." },
-                { speaker: "Banker", text: "Standardizing those markets might drive innovation into even less regulated, more opaque jurisdictions." },
-                { speaker: "Regulator", text: "That is the argument for global regulatory convergence, specifically Basel III." },
-                { speaker: "Banker", text: "Convergence is ideal, but implementation varies wildly, creating arbitrage opportunities." },
-                { speaker: "Regulator", text: "We must close those loopholes before the next crisis hits." },
-            ],
-            questions: [
-                {
-                    question: "What does the Regulator believe is a systemic risk?",
-                    options: ["Small banks", "Interconnectedness of the 'shadow banking' system", "High interest rates", "Physical bank robberies"],
-                    correct: 1,
-                    explanation: "The regulator mentions 'the interconnectedness of the shadow banking system.'",
-                },
-                {
-                    question: "What is the Banker's concern about regulation?",
-                    options: ["It costs too much", "Stifling liquidity and credit growth", "It's boring", "It's necessary"],
-                    correct: 1,
-                    explanation: "Banker says: 'Over-regulation risks stifling liquidity and hampering the credit growth'.",
-                },
-                {
-                    question: "What problem does the Banker raise about standardization?",
-                    options: ["It makes things too simple", "Driving innovation to opaque jurisdictions", "It's illegal", "It takes too long"],
-                    correct: 1,
-                    explanation: "Banker says: 'Standardizing... might drive innovation into even less regulated, more opaque jurisdictions.'",
-                },
-            ],
-        },
-        {
-            title: "Post-Structuralist Theory",
-            lines: [
-                { speaker: "Foucauldian", text: "Power is not just repressive; it is productive, co-constituting the very subjects it appears to govern." },
-                { speaker: "Derridean", text: "And language, through 'différance', constantly defers meaning, ensuring that any fixed 'truth' remains elusive." },
-                { speaker: "Foucauldian", text: "Knowledge is inextricably linked to power; what a society deems 'true' is a function of its dominant discourses." },
-                { speaker: "Derridean", text: "To deconstruct is to expose the hierarchical oppositions that underpin Western metaphysics." },
-                { speaker: "Foucauldian", text: "So, the Asylum or the Prison are not just buildings, but technologies of the self?" },
-                { speaker: "Derridean", text: "Yes, just as the text is never innocent. It always carries the trace of what it excludes." },
-                { speaker: "Foucauldian", text: "Resistance, then, must be local and specific, challenging these micro-physics of power." },
-            ],
-            questions: [
-                {
-                    question: "According to the Foucauldian, what is the nature of power?",
-                    options: ["Solely repressive", "Productive and co-constituting subjects", "Non-existent", "Only held by kings"],
-                    correct: 1,
-                    explanation: "The Foucauldian says: 'Power is not just repressive; it is productive...'",
-                },
-                {
-                    question: "What does the Derridean say about 'truth'?",
-                    options: ["It is fixed", "It is elusive due to différance", "It is easy to find", "It is written in stone"],
-                    correct: 1,
-                    explanation: "Derridean says: 'ensuring that any fixed 'truth' remains elusive.'",
-                },
-                {
-                    question: "How does the Foucauldian describe knowledge?",
-                    options: ["Objective", "Linked to power", "Pure", "Divine"],
-                    correct: 1,
-                    explanation: "Foucauldian says: 'Knowledge is inextricably linked to power'.",
-                },
-            ],
-        },
-        {
-            title: "The Anthropic Principle in Cosmology",
-            lines: [
-                { speaker: "Researcher A", text: "The fundamental constants of physics seem 'fine-tuned' to allow the existence of carbon-based life." },
-                { speaker: "Researcher B", text: "The 'multiverse' hypothesis explains this without a designer: we simply happen to exist in one of the few viable universes." },
-                { speaker: "Researcher A", text: "But isn't the multiverse an ad hoc solution to avoid the statistical improbability of our own universe?" },
-                { speaker: "Researcher B", text: "It is an elegant consequence of string theory and eternal inflation, rather than a mere philosophical convenience." },
-                { speaker: "Researcher A", text: "Even so, it is empirically untestable, pushing it into the realm of metaphysics." },
-                { speaker: "Researcher B", text: "Perhaps indirect evidence, like confirming cosmic bubble collisions, could one day validate it." },
-                { speaker: "Researcher A", text: "Until then, it remains a mathematical fantasy." },
-            ],
-            questions: [
-                {
-                    question: "What does the 'multiverse' hypothesis explain in this context?",
-                    options: ["Why time travels", "Fine-tuned fundamental constants", "The speed of light", "The death of stars"],
-                    correct: 1,
-                    explanation: "Researcher B explains that the multiverse explains the fine-tuning without a designer.",
-                },
-                {
-                    question: "What is Researcher A's criticism of the multiverse?",
-                    options: ["It's too small", "It's an ad hoc solution and untestable", "It's proven wrong", "It's religious"],
-                    correct: 1,
-                    explanation: "Researcher A calls it an 'ad hoc solution' and 'empirically untestable.'",
-                },
-                {
-                    question: "What potential evidence does Researcher B mention?",
-                    options: ["Aliens", "Cosmic bubble collisions", "Black holes", "Time machines"],
-                    correct: 1,
-                    explanation: "Researcher B mentions 'confirming cosmic bubble collisions.'",
-                },
-            ],
-        },
-        {
-            title: "Complexity Theory in Biology",
-            lines: [
-                { speaker: "Systems Biologist", text: "We cannot understand a cell by merely listing its components; we must model the emergent properties of its signaling networks." },
-                { speaker: "Geneticist", text: "Reductionism has served us well in identifying the specific mutations that lead to disease." },
-                { speaker: "Systems Biologist", text: "True, but therapy often fails because the system compensates for a single targeted intervention in unpredictable ways." },
-                { speaker: "Geneticist", text: "Combining single-gene focus with system-wide mapping is indeed the future of personalized medicine." },
-                { speaker: "Systems Biologist", text: "Exactly. We need to treat the network, not just the node." },
-                { speaker: "Geneticist", text: "That requires computational power we are only just beginning to develop." },
-                { speaker: "Systems Biologist", text: "It is the only way to tackle complex diseases like cancer." },
-            ],
-            questions: [
-                {
-                    question: "What are 'emergent properties' in this context?",
-                    options: ["Components of a cell", "Properties that arise from the network of interactions", "Genetic mutations", "Chemical reactions"],
-                    correct: 1,
-                    explanation: "The systems biologist speaks about modeling 'emergent properties of its signaling networks.'",
-                },
-                {
-                    question: "Why does therapy often fail according to the Systems Biologist?",
-                    options: ["It's too expensive", "The system compensates unpredictably", "Wrong medicine", "Doctors are bad"],
-                    correct: 1,
-                    explanation: "Systems Biologist says: 'the system compensates for a single targeted intervention in unpredictable ways.'",
-                },
-                {
-                    question: "What is the agreed future of personalized medicine?",
-                    options: ["More pills", "Combining single-gene focus with system-wide mapping", "Surgery only", "Herbal remedies"],
-                    correct: 1,
-                    explanation: "Geneticist says: 'Combining single-gene focus with system-wide mapping is indeed the future'.",
-                },
-            ],
-        },
-        {
-            title: "Technological Singularity Discourse",
-            lines: [
-                { speaker: "Transhumanist", text: "The exponential growth of computing power will lead to a point where machine intelligence surpasses human intelligence in all domains." },
-                { speaker: "Critique", text: "This assumes that intelligence is merely a matter of processing power, ignoring the embodied and social nature of human cognition." },
-                { speaker: "Transhumanist", text: "Once we achieve whole-brain emulation, the hardware substrate will become irrelevant." },
-                { speaker: "Critique", text: "Even a perfect copy would lack the historical and biological continuity that defines a human person." },
-                { speaker: "Transhumanist", text: "Continuity is an illusion. You are not the same matter you were seven years ago." },
-                { speaker: "Critique", text: "But I am the same ongoing process. A copy is a new process with a separate trajectory." },
-                { speaker: "Transhumanist", text: "If the process is identical, the distinction is semantic." },
-            ],
-            questions: [
-                {
-                    question: "What does the Transhumanist believe will happen?",
-                    options: ["AI will fail", "Machine intelligence will surpass human intelligence", "Computers will get slower", "Robots will take over the world"],
-                    correct: 1,
-                    explanation: "The Transhumanist says machine intelligence will surpass human intelligence 'in all domains'.",
-                },
-                {
-                    question: "What is the Critique's main argument against pure processing power?",
-                    options: ["It uses too much electricity", "It ignores embodied and social nature of cognition", "It is too fast", "It is expensive"],
-                    correct: 1,
-                    explanation: "Critique says: 'ignoring the embodied and social nature of human cognition.'",
-                },
-                {
-                    question: "What is the debate about 'continuity'?",
-                    options: ["Whether time stops", "Whether a copy is the same person", "How long batteries last", "History books"],
-                    correct: 1,
-                    explanation: "Critique argues a copy lacks 'biological continuity that defines a human person.'",
-                },
-            ],
-        },
-        {
-            title: "Advanced Game Theory: The Prisoner's Dilemma",
-            lines: [
-                { speaker: "Professor", text: "In an iterated Prisoner's Dilemma, 'Tit-for-Tat' emerges as a robust strategy that encourages mutual cooperation." },
-                { speaker: "Student", text: "But 'Tit-for-Tat' is vulnerable to 'noise' or accidental defections that can trigger a long cycle of retaliation." },
-                { speaker: "Professor", text: "Correct. 'Generous Tit-for-Tat' or 'Tit-for-Two-Tats' were developed to be more forgiving and stable." },
-                { speaker: "Student", text: "It's fascinating how simple mathematical rules can model complex social behaviors like trust and betrayal." },
-                { speaker: "Professor", text: "Indeed. And in evolutionary biology, this explains how altruism can survive in a selfish world." },
-                { speaker: "Student", text: "So, being nice is actually a survival strategy?" },
-                { speaker: "Professor", text: "Yes, provided there is a high probability of future interaction." },
-            ],
-            questions: [
-                {
-                    question: "Which strategy encourages mutual cooperation in the iterated version?",
-                    options: ["Always defect", "Tit-for-Tat", "Always cooperate", "Random choice"],
-                    correct: 1,
-                    explanation: "The professor mentions 'Tit-for-Tat' as a robust strategy.",
-                },
-                {
-                    question: "What is the vulnerability of 'Tit-for-Tat'?",
-                    options: ["It's too nice", "Vulnerable to 'noise' or accidental defections", "It's too complicated", "It needs a computer"],
-                    correct: 1,
-                    explanation: "Student says: 'vulnerable to 'noise' or accidental defections'.",
-                },
-                {
-                    question: "What does this explain in evolutionary biology?",
-                    options: ["Why dinosaurs died", "How altruism can survive", "Why birds fly", "Photosynthesis"],
-                    correct: 1,
-                    explanation: "Professor says: 'explains how altruism can survive in a selfish world.'",
-                },
-            ],
-        },
-        {
-            title: "The Ethics of Predictive Policing",
-            lines: [
-                { speaker: "Data Scientist", text: "By analyzing historical crime data, our algorithm can predict 'hot spots' and optimize police patrol routes." },
-                { speaker: "Civil Libertarian", text: "This risks creating a feedback loop where over-policed communities are perpetually targeted based on biased data." },
-                { speaker: "Data Scientist", text: "The goal is to prevent crime and save lives, not to target individuals." },
-                { speaker: "Civil Libertarian", text: "The 'neutrality' of algorithms is a myth; they reflect the biases inherent in the data they are trained on." },
-                { speaker: "Data Scientist", text: "We can audit the algorithms for bias and adjust the parameters." },
-                { speaker: "Civil Libertarian", text: "Transparency is key. We cannot have 'black box' justice." },
-                { speaker: "Data Scientist", text: "Agreed. Accountability must be built into the system." },
-            ],
-            questions: [
-                {
-                    question: "What is the Civil Libertarian's main concern?",
-                    options: ["Algorithm speed", "Feedback loops and biased data targets", "The cost of the software", "Predictive accuracy"],
-                    correct: 1,
-                    explanation: "The Civil Libertarian mentions 'creating a feedback loop where over-policed communities are perpetually targeted.'",
-                },
-                {
-                    question: "What does the Data Scientist say is the goal?",
-                    options: ["To arrest everyone", "To prevent crime and save lives", "To make money", "To spy on people"],
-                    correct: 1,
-                    explanation: "Data Scientist says: 'The goal is to prevent crime and save lives'.",
-                },
-                {
-                    question: "What is the 'myth' mentioned?",
-                    options: ["Santa Claus", "Neutrality of algorithms", "Crime free city", "Flying cars"],
-                    correct: 1,
-                    explanation: "Civil Libertarian says: 'The 'neutrality' of algorithms is a myth'.",
-                },
-            ],
-        },
-        {
-            title: "Advanced Ethics in Biotechnology",
-            lines: [
-                { speaker: "Ethicist", text: "Germline editing doesn't just affect the individual; it alters the genetic heritage of all future generations." },
-                { speaker: "Geneticist", text: "But if we can eliminate hereditary diseases like Huntington's, do we not have a moral obligation to do so?" },
-                { speaker: "Ethicist", text: "The boundary between 'therapy' and 'enhancement' is dangerously porous in a market-driven society." },
-                { speaker: "Geneticist", text: "We must establish international protocols to ensure equitable access and prevent a genetic 'arms race'." },
-                { speaker: "Ethicist", text: "History suggests that enforcement of such protocols is nearly impossible given geopolitical rivalries." },
-                { speaker: "Geneticist", text: "The alternative is a black market for genetic modifications, which is far worse." },
-                { speaker: "Ethicist", text: "We are playing with the source code of life without understanding the long-term dependencies." },
-            ],
-            questions: [
-                {
-                    question: "What is the Ethicist's concern about germline editing?",
-                    options: ["It's too expensive", "It alters future generations' genetic heritage", "It doesn't work", "It's only for plants"],
-                    correct: 1,
-                    explanation: "The ethicist says: 'it alters the genetic heritage of all future generations.'",
-                },
-                {
-                    question: "What obligation does the Geneticist mention?",
-                    options: ["To make money", "To eliminate hereditary diseases", "To create super soldiers", "To live forever"],
-                    correct: 1,
-                    explanation: "Geneticist asks: 'do we not have a moral obligation to do so [eliminate hereditary diseases]?'",
-                },
-                {
-                    question: "Why does the Ethicist doubt the protocols?",
-                    options: ["Geopolitical rivalries", "Scientists are lazy", "Protocols are illegal", "No one cares"],
-                    correct: 0,
-                    explanation: "Ethicist says: 'enforcement of such protocols is nearly impossible given geopolitical rivalries.'",
-                },
-            ],
-        },
-        {
-            title: "Existential Risk from AI",
-            lines: [
-                { speaker: "Researcher A", text: "The 'orthogonality thesis' implies that an AI could be superintelligent while having goals that are completely indifferent to human survival." },
-                { speaker: "Researcher B", text: "This is why AI alignment is not just a technical challenge, but a fundamental existential one." },
-                { speaker: "Researcher A", text: "A simple goal like 'maximize paperclip production' could lead to the consumption of all terrestrial matter." },
-                { speaker: "Researcher B", text: "We need more than just 'off switches'; we need provably beneficial AI architectures." },
-                { speaker: "Researcher A", text: "But defining 'beneficial' is a philosophical minefield. Whose values do we encode?" },
-                { speaker: "Researcher B", text: "We might have to use 'Coherent Extrapolated Volition'—what we would want if we knew more and were better people." },
-                { speaker: "Researcher A", text: "That sounds dangerously abstract for a system that can outthink us in nanoseconds." },
-            ],
-            questions: [
-                {
-                    question: "What does the 'orthogonality thesis' imply?",
-                    options: ["AI will always be kind", "Intelligence and goals are independent", "AI cannot be superintelligent", "Paperclips are dangerous"],
-                    correct: 1,
-                    explanation: "Researcher A says it implies AI can be superintelligent while having indifferent goals.",
-                },
-                {
-                    question: "What is the 'paperclip' refence?",
-                    options: ["A game", "An office supply shortage", "A scenario where an AI consumes matter to maximize production", "A recycling program"],
-                    correct: 2,
-                    explanation: "Researcher A mentions 'maximize paperclip production' leading to consumption of matter.",
-                },
-                {
-                    question: "What solution does Researcher B propose for values?",
-                    options: ["Voting", "Coherent Extrapolated Volition", " Random selection", "Religious texts"],
-                    correct: 1,
-                    explanation: "Researcher B mentions 'Coherent Extrapolated Volition'.",
-                },
-            ],
-        },
-        {
-            title: "Post-Scarcity Economics",
-            lines: [
-                { speaker: "Futurist", text: "With advanced molecular manufacturing, the marginal cost of producing physical goods could drop to near zero." },
-                { speaker: "Economist", text: "If labor and resources are no longer scarce, the entire price mechanism of capitalism becomes obsolete." },
-                { speaker: "Futurist", text: "We would need a new social contract based on the distribution of 'intellectual capital' rather than material wealth." },
-                { speaker: "Economist", text: "The transition would be chaotic, as our current institutions are built entirely on the management of scarcity." },
-                { speaker: "Futurist", text: "We might see a shift to a reputation economy, where status determines access to unique non-replicable experiences." },
-                { speaker: "Economist", text: "Or we might see artificial scarcity imposed by monopolies to maintain control." },
-                { speaker: "Futurist", text: "That would lead to a techno-feudalism that we must avoid at all costs." },
-            ],
-            questions: [
-                {
-                    question: "What would happen to the price mechanism in post-scarcity?",
-                    options: ["Prices would rise", "It would become obsolete", "It would stay the same", "It would only apply to food"],
-                    correct: 1,
-                    explanation: "The economist says 'the entire price mechanism of capitalism becomes obsolete.'",
-                },
-                {
-                    question: "What is the Futurist's proposed basis for a new social contract?",
-                    options: ["Gold", "Land", "Intellectual capital", "Physical strength"],
-                    correct: 2,
-                    explanation: "Futurist mentions 'distribution of intellectual capital.'",
-                },
-                {
-                    question: "What negative outcome does the Futurist warn against?",
-                    options: ["Utopianism", "Techno-feudalism", "Socialism", "Anarchy"],
-                    correct: 1,
-                    explanation: "Futurist says: 'That would lead to a techno-feudalism that we must avoid'.",
-                },
-            ],
-        },
-        {
-            title: "Quantum Ontologies",
-            lines: [
-                { speaker: "Philosopher", text: "Quantum decoherence explains how the classical world emerges from the quantum one, but it doesn't solve the measurement problem." },
-                { speaker: "Physicist", text: "Perhaps the 'wavefunction' is not an objective reality, but a state of our knowledge about the system." },
-                { speaker: "Philosopher", text: "That leads us toward QBism (Quantum Bayesianism), which places the observer at the very center of physics." },
-                { speaker: "Physicist", text: "It's a radical shift from the traditional view of a mind-independent physical universe." },
-                { speaker: "Philosopher", text: "But if reality is agent-dependent, do we risk falling into solipsism?" },
-                { speaker: "Physicist", text: "Not if we assume consistency between different observers' experiences as a fundamental constraint." },
-                { speaker: "Philosopher", text: "So 'Intersubjectivity' replaces 'Objectivity'?" },
-            ],
-            questions: [
-                {
-                    question: "What does QBism emphasize?",
-                    options: ["The speed of light", "The observer's role in physics", "Gravity", "String theory"],
-                    correct: 1,
-                    explanation: "The philosopher mentions QBism 'places the observer at the very center of physics.'",
-                },
-                {
-                    question: "What problem does decoherence NOT solve according to the Philosopher?",
-                    options: ["The measurement problem", "The gravity problem", "The energy problem", "The time problem"],
-                    correct: 0,
-                    explanation: "Philosopher says: 'it doesn't solve the measurement problem.'",
-                },
-                {
-                    question: "What replaces Objectivity in the Philosopher's final question?",
-                    options: ["Subjectivity", "Intersubjectivity", "Relativity", "Negativity"],
-                    correct: 1,
-                    explanation: "Philosopher asks: 'So Intersubjectivity replaces Objectivity?'",
-                },
-            ],
-        },
-        {
-            title: "Meta-Ethics: Moral Realism",
-            lines: [
-                { speaker: "Realist", text: "Moral facts exist objectively, independent of our beliefs or cultural practices." },
-                { speaker: "Anti-Realist", text: "But morals seem to be social constructs, designed to facilitate cooperation and group survival." },
-                { speaker: "Realist", text: "If that were true, we could never say that a culture's practices are 'wrong', only different." },
-                { speaker: "Anti-Realist", text: "Our moral condemnations are expressions of our evolved values, not discoveries of universal truths." },
-                { speaker: "Realist", text: "But we perceive moral truth as binding. Killing an innocent feels wrong in a way that breaking a strict rule doesn't." },
-                { speaker: "Anti-Realist", text: "That phenomenological 'feel' is the result of deep evolutionary conditioning, not ontological reailty." },
-                { speaker: "Realist", text: "I find it hard to accept that justice is merely a useful fiction." },
-            ],
-            questions: [
-                {
-                    question: "What is the Realist's main claim?",
-                    options: ["Morals are fake", "Moral facts exist objectively", "Every culture is right", "Morals are just feelings"],
-                    correct: 1,
-                    explanation: "The realist says: 'Moral facts exist objectively, independent of our beliefs...' ",
-                },
-                {
-                    question: "How does the Anti-Realist explain morals?",
-                    options: ["God gave them", "Social constructs for survival", "Random chance", "Aliens"],
-                    correct: 1,
-                    explanation: "Anti-Realist says 'morals seem to be social constructs... to facilitate cooperation'.",
-                },
-                {
-                    question: "What distinction does the Realist make?",
-                    options: ["Between red and blue", "Between 'wrong' and 'different'", "Between hot and cold", "Between up and down"],
-                    correct: 1,
-                    explanation: "Realist argues if anti-realism were true, we could never say practices are 'wrong', only different.",
-                },
-            ],
-        },
-        {
-            title: "Geopolitical Dynamics: The Thucydides Trap",
-            lines: [
-                { speaker: "Historian", text: "The 'Thucydides Trap' refers to the structural stress that occurs when a rising power threatens to displace an established one." },
-                { speaker: "Strategist", text: "History shows that such transitions result in war in the majority of cases." },
-                { speaker: "Historian", text: "However, nuclear deterrence and economic interdependence provide new counter-pressures that didn't exist in the past." },
-                { speaker: "Strategist", text: "Avoiding conflict requires unprecedented diplomatic agility and a mutual recognition of 'red lines'." },
-                { speaker: "Historian", text: "And a willingness to accommodate the rising power's legitimate struggle for status." },
-                { speaker: "Strategist", text: "Accommodation is often perceived as appeasement, which can invite aggression." },
-                { speaker: "Historian", text: "That fear is exactly what drives the trap." },
-            ],
-            questions: [
-                {
-                    question: "What is the 'Thucydides Trap'?",
-                    options: ["A type of mouse trap", "Stress when a rising power threatens an established one", "A trade agreement", "A philosophical argument"],
-                    correct: 1,
-                    explanation: "The historian defines it as the stress when a rising power threatens to displace an established one.",
-                },
-                {
-                    question: "What prevents war now according to the Historian?",
-                    options: ["Aliens", "Nuclear deterrence and economic interdependence", "Better maps", "Ocean currents"],
-                    correct: 1,
-                    explanation: "Historian mentions 'nuclear deterrence and economic interdependence'.",
-                },
-                {
-                    question: "What determines if accommodation works?",
-                    options: ["If it's cheap", "If it's perceived as appeasement or respect", "If it's on a Tuesday", "If it involves food"],
-                    correct: 1,
-                    explanation: "Strategist warns that 'Accommodation is often perceived as appeasement'.",
-                },
-            ],
-        },
-        {
-            title: "The Integrated Information Theory (IIT)",
-            lines: [
-                { speaker: "Neuroscientist", text: "IIT suggests that consciousness is a fundamental property of any system with high levels of 'phi'—integrated information." },
-                { speaker: "Critic", text: "This implies that even simple circuits or social networks could possess some level of consciousness." },
-                { speaker: "Neuroscientist", text: "It's a bold prediction, but it offers a mathematical way to quantify the presence of experience." },
-                { speaker: "Critic", text: "Quantifying 'phi' is computationally intractable for any complex biological system, making it hard to falsify." },
-                { speaker: "Neuroscientist", text: "We can approximate it. And it solves the problem of why the cerebellum has more neurons than the cortex but contributes less to consciousness." },
-                { speaker: "Critic", text: "Because it's less integrated?" },
-                { speaker: "Neuroscientist", text: "Exactly. It's a feed-forward network, not a reintegrating one." },
-            ],
-            questions: [
-                {
-                    question: "What does IIT suggest consciousness is based on?",
-                    options: ["Brain size", "Integrated information (phi)", "Oxygen levels", "Language ability"],
-                    correct: 1,
-                    explanation: "The neuroscientist mentions consciousness being a property of systems with high 'integrated information'.",
-                },
-                {
-                    question: "What implies simple circuits have consciousness?",
-                    options: ["They are alive", "They have high 'phi'", "They are fast", "They are expensive"],
-                    correct: 1,
-                    explanation: "Critic notes this implies 'simple circuits... could possess some level of consciousness.'",
-                },
-                {
-                    question: "Why does cerebellum contribute less to consciousness?",
-                    options: ["It's too small", "It has too many neurons", "It is a feed-forward network (less integrated)", "It is asleep"],
-                    correct: 2,
-                    explanation: "Neuroscientist explains: 'It's a feed-forward network, not a reintegrating one.'",
-                },
-            ],
-        },
-        {
-            title: "The Private Language Argument",
-            lines: [
-                { speaker: "Wittgensteinian", text: "Language is essentially social; the idea of a 'private language' that only one person can understand is a logical impossibility." },
-                { speaker: "Dualist", text: "But I have direct access to my internal sensations that no one else can truly know." },
-                { speaker: "Wittgensteinian", text: "Even to name those sensations, you must follow rules, and rule-following requires a public context for correction." },
-                { speaker: "Dualist", text: "Surely my 'inner' experience is the foundation upon which the 'outer' world of language is built?" },
-                { speaker: "Wittgensteinian", text: "If you have a sensation 'S' and mark it in a diary, how do you know you're using 'S' correctly the next time?" },
-                { speaker: "Dualist", text: "Because it feels the same." },
-                { speaker: "Wittgensteinian", text: "But 'feeling the same' is not a criterion of correctness; it's just a memory, which can be faulty." },
-            ],
-            questions: [
-                {
-                    question: "What is the Wittgensteinian's view on language?",
-                    options: ["It is a private thing", "It is essentially social", "It is impossible to learn", "It is based on music"],
-                    correct: 1,
-                    explanation: "The Wittgensteinian says: 'Language is essentially social...'",
-                },
-                {
-                    question: "What is the 'diary' argument?",
-                    options: ["A way to keep secrets", "A proof that private language is impossible (memory check)", "A good habit", "A writing exercise"],
-                    correct: 1,
-                    explanation: "Wittgensteinian asks how you know you're using 'S' correctly, implying memory isn't a valid check.",
-                },
-                {
-                    question: "Why is 'feeling the same' not enough?",
-                    options: ["It's boring", "It's not a criterion of correctness", "It's too expensive", "It's rare"],
-                    correct: 1,
-                    explanation: "Wittgensteinian argues: 'feeling the same is not a criterion of correctness'.",
-                },
-            ],
-        },
-        {
-            title: "Mechanism Design in Economics",
-            lines: [
-                { speaker: "Economist", text: "Mechanism design is 'reverse game theory'; we start with the desired outcome and design the rules to achieve it." },
-                { speaker: "Student", text: "Like designing an auction to ensure the bidder who values the item most actually wins?" },
-                { speaker: "Economist", text: "Exactly. The challenge is making the mechanism 'incentive-compatible', where honesty is the best strategy for all participants." },
-                { speaker: "Student", text: "It's about engineering systems that work even when people are purely self-interested." },
-                { speaker: "Economist", text: "The Nobel Prize was awarded for realizing that private information is the main constraint." },
-                { speaker: "Student", text: "So we have to bribe people to tell the truth?" },
-                { speaker: "Economist", text: "In a sense. We structure the payoffs so that lying costs more than truth-telling." },
-            ],
-            questions: [
-                {
-                    question: "What is mechanism design often called?",
-                    options: ["Forward game theory", "Reverse game theory", "Simple economics", "Math puzzles"],
-                    correct: 1,
-                    explanation: "The economist calls it 'reverse game theory.'",
-                },
-                {
-                    question: "What is 'incentive-compatible'?",
-                    options: ["Everyone gets a prize", "Honesty is the best strategy", "Cheating is urged", "Costs are low"],
-                    correct: 1,
-                    explanation: "Economist defines it as 'where honesty is the best strategy for all participants.'",
-                },
-                {
-                    question: "What is the main constraint mentioned?",
-                    options: ["Time", "Money", "Private information", "Government rules"],
-                    correct: 2,
-                    explanation: "Economist mentions 'private information is the main constraint.'",
-                },
-            ],
-        },
-        {
-            title: "The Ethics of Terraforming",
-            lines: [
-                { speaker: "Space Ethicist", text: "If Mars possesses even microbial life, do we have the right to alter its ecosystem to make it habitable for humans?" },
-                { speaker: "Expansionist", text: "The preservation of the human species depends on becoming a multi-planetary civilization." },
-                { speaker: "Space Ethicist", text: "We must consider 'biocentrism'—the idea that all life has value, regardless of its utility to us." },
-                { speaker: "Expansionist", text: "A dead rock with microbes shouldn't outweigh the survival of trillions of future human beings." },
-                { speaker: "Space Ethicist", text: "But we don't know if that rock is truly 'dead' until we study it, and terraforming destroys the evidence." },
-                { speaker: "Expansionist", text: "We can study it while we build. The clock is ticking on Earth." },
-                { speaker: "Space Ethicist", text: "Rushing led us to ruin our first home. Let's not make the same mistake with the second." },
-            ],
-            questions: [
-                {
-                    question: "What is 'biocentrism' in this context?",
-                    options: ["Focusing on humans", "The idea that all life has value", "Moving to Mars", "Using machines instead of biology"],
-                    correct: 1,
-                    explanation: "The ethicist defines it as 'the idea that all life has value, regardless of its utility to us.'",
-                },
-                {
-                    question: "What is the Expansionist's main argument?",
-                    options: ["Mars is pretty", "Human species preservation", "Microbes are tasty", "Earth is full"],
-                    correct: 1,
-                    explanation: "Expansionist says: 'preservation of the human species depends on becoming a multi-planetary civilization.'",
-                },
-                {
-                    question: "What is the risk of rushing according to the Ethicist?",
-                    options: ["Missing the bus", "Ruining the second home like the first", "Spending too much money", "Getting lost"],
-                    correct: 1,
-                    explanation: "Ethicist warns: 'Rushing led us to ruin our first home. Let's not make the same mistake...'",
-                },
-            ],
-        },
-    ],
+          speaker: "John",
+          text: "Nice to meet you too, Sarah. Where are you from?",
+        },
+        {
+          speaker: "Sarah",
+          text: "I'm from London. And you? Are you from England?",
+        },
+        {
+          speaker: "John",
+          text: "No, I'm from New York. I'm a student here in London.",
+        },
+        {
+          speaker: "Sarah",
+          text: "That's cool! I'm a teacher at the language school.",
+        },
+        { speaker: "John", text: "Oh, really? Do you like your job?" },
+        {
+          speaker: "Sarah",
+          text: "Yes, I love it. My students are very friendly.",
+        },
+      ],
+      questions: [
+        {
+          question: "Where is Sarah from?",
+          options: ["New York", "London", "Paris", "Tokyo"],
+          correct: 1,
+          explanation: "Sarah says: 'I'm from London.'",
+        },
+        {
+          question: "What is John's job?",
+          options: ["Teacher", "Doctor", "Student", "Engineer"],
+          correct: 2,
+          explanation: "John says: 'I'm a student here in London.'",
+        },
+        {
+          question: "What is Sarah's job?",
+          options: ["Student", "Teacher", "Chef", "Nurse"],
+          correct: 1,
+          explanation: "Sarah says: 'I'm a teacher at the language school.'",
+        },
+      ],
+    },
+    {
+      title: "At the Cafe",
+      lines: [
+        { speaker: "Server", text: "Good morning. Can I help you?" },
+        { speaker: "Customer", text: "Yes, please. I'd like a coffee." },
+        { speaker: "Server", text: "Small or large?" },
+        {
+          speaker: "Customer",
+          text: "A large coffee, please. And a chocolate cake.",
+        },
+        {
+          speaker: "Server",
+          text: "Anything else? We have fresh croissants too.",
+        },
+        {
+          speaker: "Customer",
+          text: "No, thanks. Just the coffee and the cake. How much is that?",
+        },
+        {
+          speaker: "Server",
+          text: "That's five pounds for the coffee and three pounds for the cake.",
+        },
+        {
+          speaker: "Customer",
+          text: "Eight pounds in total? Here is ten pounds.",
+        },
+        {
+          speaker: "Server",
+          text: "Thank you. And here is two pounds change.",
+        },
+      ],
+      questions: [
+        {
+          question: "What does the Customer order?",
+          options: [
+            "Tea and cake",
+            "Coffee and croissant",
+            "Coffee and cake",
+            "Water and bread",
+          ],
+          correct: 2,
+          explanation:
+            "The Customer asks for 'A large coffee, please. And a chocolate cake.'",
+        },
+        {
+          question: "How much is the cake?",
+          options: [
+            "Three pounds",
+            "Five pounds",
+            "Eight pounds",
+            "Two pounds",
+          ],
+          correct: 0,
+          explanation: "The Server says: 'three pounds for the cake.'",
+        },
+        {
+          question: "How much change does the Customer receive?",
+          options: ["Five pounds", "Two pounds", "Three pounds", "Zero pounds"],
+          correct: 1,
+          explanation: "The Server says: 'And here is two pounds change.'",
+        },
+      ],
+    },
+    {
+      title: "My Family",
+      lines: [
+        { speaker: "Alice", text: "Do you have a big family?" },
+        {
+          speaker: "Ben",
+          text: "No, I have a small family. Just my parents and one brother.",
+        },
+        { speaker: "Alice", text: "How old is your brother? Is he a student?" },
+        {
+          speaker: "Ben",
+          text: "He is fifteen years old. He goes to high school.",
+        },
+        { speaker: "Alice", text: "What is his name? Does he live with you?" },
+        {
+          speaker: "Ben",
+          text: "His name is David. Yes, we all live in a small house.",
+        },
+        { speaker: "Alice", text: "Do you have any pets in your house?" },
+        { speaker: "Ben", text: "Yes, we have a white cat. Her name is Luna." },
+      ],
+      questions: [
+        {
+          question: "How many brothers does Ben have?",
+          options: ["None", "One", "Two", "Three"],
+          correct: 1,
+          explanation: "Ben says: 'Just my parents and one brother.'",
+        },
+        {
+          question: "What is the brother's name?",
+          options: ["John", "David", "Sarah", "Luna"],
+          correct: 1,
+          explanation: "Ben says: 'His name is David.'",
+        },
+        {
+          question: "What pet does Ben's family have?",
+          options: ["A dog", "A bird", "A cat", "A fish"],
+          correct: 2,
+          explanation: "Ben says: 'we have a white cat.'",
+        },
+      ],
+    },
+    {
+      title: "What Time Is It?",
+      lines: [
+        {
+          speaker: "Lily",
+          text: "Excuse me, what time is it? I don't have a watch.",
+        },
+        {
+          speaker: "Tom",
+          text: "It is ten o'clock. Wait, my watch is five minutes slow.",
+        },
+        {
+          speaker: "Lily",
+          text: "Oh, I'm late for my class! It's actually ten o-five?",
+        },
+        {
+          speaker: "Tom",
+          text: "Yes, ten o-five. When does your class start?",
+        },
+        {
+          speaker: "Lily",
+          text: "It starts at ten fifteen. I have ten minutes!",
+        },
+        { speaker: "Tom", text: "Is the classroom far from here?" },
+        { speaker: "Lily", text: "No, it is in Room 204. It's very close." },
+        { speaker: "Tom", text: "Okay, good luck! Run fast!" },
+      ],
+      questions: [
+        {
+          question: "What time is it actually?",
+          options: ["10:00", "10:05", "10:15", "10:20"],
+          correct: 1,
+          explanation: "Tom says it is actually ten o-five.",
+        },
+        {
+          question: "When does the class start?",
+          options: ["10:00", "10:05", "10:15", "10:30"],
+          correct: 2,
+          explanation: "Lily says: 'It starts at ten fifteen.'",
+        },
+        {
+          question: "Where is the classroom?",
+          options: ["Room 101", "Room 204", "Room 305", "The library"],
+          correct: 1,
+          explanation: "Lily says: 'It is in Room 204.'",
+        },
+      ],
+    },
+    {
+      title: "Buying a Shirt",
+      lines: [
+        {
+          speaker: "Customer",
+          text: "Hello. Do you have this shirt in blue? I only see green ones.",
+        },
+        {
+          speaker: "Shop Assistant",
+          text: "Yes, we do. They are on the second floor. What size do you need?",
+        },
+        {
+          speaker: "Customer",
+          text: "A medium, please. Do you have small sizes too?",
+        },
+        {
+          speaker: "Shop Assistant",
+          text: "Yes, we have all sizes. Let me check the blue ones... here is a medium.",
+        },
+        { speaker: "Customer", text: "Thank you. Where is the changing room?" },
+        {
+          speaker: "Shop Assistant",
+          text: "It is over there, next to the mirrors.",
+        },
+        { speaker: "Customer", text: "It fits perfectly. How much is it?" },
+        {
+          speaker: "Shop Assistant",
+          text: "It's twenty dollars. It's on sale today.",
+        },
+        { speaker: "Customer", text: "That's a great price. I'll take it." },
+        { speaker: "Shop Assistant", text: "Great. Would you like a bag?" },
+      ],
+      questions: [
+        {
+          question: "What color shirt does the Customer want?",
+          options: ["Green", "Blue", "Red", "Black"],
+          correct: 1,
+          explanation: "The Customer asks: 'Do you have this shirt in blue?'",
+        },
+        {
+          question: "Where are the blue shirts?",
+          options: [
+            "First floor",
+            "Second floor",
+            "Near the door",
+            "In the back",
+          ],
+          correct: 1,
+          explanation:
+            "The Shop Assistant says: 'They are on the second floor.'",
+        },
+        {
+          question: "How much is the shirt?",
+          options: [
+            "Ten dollars",
+            "Fifteen dollars",
+            "Twenty dollars",
+            "Thirty dollars",
+          ],
+          correct: 2,
+          explanation: "The Shop Assistant says: 'It's twenty dollars.'",
+        },
+      ],
+    },
+    {
+      title: "Favorite Food",
+      lines: [
+        {
+          speaker: "Mike",
+          text: "What is your favorite food? I'm very hungry!",
+        },
+        {
+          speaker: "Emma",
+          text: "I love pizza. It's delicious! My favorite is pepperoni.",
+        },
+        {
+          speaker: "Mike",
+          text: "Me too. What other toppings do you like? Do you like pineapple?",
+        },
+        {
+          speaker: "Emma",
+          text: "No, I don't like pineapple on pizza. I like cheese and tomatoes.",
+        },
+        {
+          speaker: "Mike",
+          text: "I see. How often do you eat pizza? Every week?",
+        },
+        {
+          speaker: "Emma",
+          text: "Usually on Friday nights with my family. We order from the Italian place.",
+        },
+        {
+          speaker: "Mike",
+          text: "That sounds nice. I prefer pasta, but pizza is great too.",
+        },
+        {
+          speaker: "Emma",
+          text: "Let's go eat now. I know a good restaurant nearby!",
+        },
+      ],
+      questions: [
+        {
+          question: "What food does Emma love?",
+          options: ["Pasta", "Burgers", "Pizza", "Salad"],
+          correct: 2,
+          explanation: "Emma says: 'I love pizza.'",
+        },
+        {
+          question: "Does Emma like pineapple on pizza?",
+          options: ["Yes", "No", "Sometimes", "Only on Friday"],
+          correct: 1,
+          explanation: "Emma says: 'No, I don't like pineapple on pizza.'",
+        },
+        {
+          question: "When does Emma usually eat pizza?",
+          options: ["Monday", "Wednesday", "Friday night", "Sunday morning"],
+          correct: 2,
+          explanation: "Emma says: 'Usually on Friday nights with my family.'",
+        },
+      ],
+    },
+    {
+      title: "The Weather",
+      lines: [
+        { speaker: "Anna", text: "It's very sunny today. Look at the sky!" },
+        {
+          speaker: "Jake",
+          text: "Yes, it's a beautiful day. It's very hot too. Maybe thirty degrees?",
+        },
+        {
+          speaker: "Anna",
+          text: "Yes, I think so. Do you like hot weather or cold weather?",
+        },
+        {
+          speaker: "Jake",
+          text: "I like hot weather. I like going to the beach and swimming.",
+        },
+        {
+          speaker: "Anna",
+          text: "I prefer the winter. I like snow and winter clothes.",
+        },
+        {
+          speaker: "Jake",
+          text: "Really? But it's so dark in winter. Summer is much better.",
+        },
+        {
+          speaker: "Anna",
+          text: "It's okay. I like drinking hot chocolate by the fire.",
+        },
+        {
+          speaker: "Jake",
+          text: "Well, let's enjoy the sun now before it rains tomorrow!",
+        },
+      ],
+      questions: [
+        {
+          question: "What is the weather like today?",
+          options: [
+            "Cold and snowy",
+            "Sunny and hot",
+            "Cloudy and rainy",
+            "Windy",
+          ],
+          correct: 1,
+          explanation:
+            "Anna says: 'It's very sunny today' and Jake adds it is hot.",
+        },
+        {
+          question: "What does Anna prefer?",
+          options: ["Summer", "Spring", "Winter", "Autumn"],
+          correct: 2,
+          explanation: "Anna says: 'I prefer the winter. I like snow.'",
+        },
+        {
+          question: "What does Jake like doing in hot weather?",
+          options: ["Skiing", "Going to the beach", "Staying home", "Reading"],
+          correct: 1,
+          explanation: "Jake says: 'I like going to the beach and swimming.'",
+        },
+      ],
+    },
+    {
+      title: "My New Car",
+      lines: [
+        {
+          speaker: "Mark",
+          text: "Look at my new car! It's in the parking lot.",
+        },
+        {
+          speaker: "Lucy",
+          text: "Wow! It's very nice. Is it fast? I like the wheels.",
+        },
+        {
+          speaker: "Mark",
+          text: "Yes, it is very fast. And it's very comfortable inside.",
+        },
+        { speaker: "Lucy", text: "What color is it? Is it dark blue?" },
+        {
+          speaker: "Mark",
+          text: "No, it's bright red. You can see it from far away.",
+        },
+        {
+          speaker: "Lucy",
+          text: "That's exciting! Can we go for a drive later?",
+        },
+        { speaker: "Mark", text: "Sure! Let's go to the park this afternoon." },
+        { speaker: "Lucy", text: "Perfect. Does it have a good radio?" },
+        {
+          speaker: "Mark",
+          text: "Yes, it has a great sound system. I love listening to music while driving.",
+        },
+      ],
+      questions: [
+        {
+          question: "What color is the car?",
+          options: ["Dark blue", "Bright red", "Green", "Yellow"],
+          correct: 1,
+          explanation: "Mark says: 'No, it's bright red.'",
+        },
+        {
+          question: "Where is the car now?",
+          options: [
+            "In the garage",
+            "In the parking lot",
+            "On the street",
+            "At the park",
+          ],
+          correct: 1,
+          explanation: "Mark says: 'It's in the parking lot.'",
+        },
+        {
+          question: "What will they do this afternoon?",
+          options: [
+            "Go to the cinema",
+            "Go to the park",
+            "Wash the car",
+            "Buy a new radio",
+          ],
+          correct: 1,
+          explanation: "Mark says: 'Let's go to the park this afternoon.'",
+        },
+      ],
+    },
+    {
+      title: "Daily Routine",
+      lines: [
+        { speaker: "Paul", text: "What time do you wake up usually?" },
+        {
+          speaker: "Kate",
+          text: "I wake up at seven o'clock every morning. Even on weekends!",
+        },
+        {
+          speaker: "Paul",
+          text: "Seven? That's very early. Do you have breakfast immediately?",
+        },
+        {
+          speaker: "Kate",
+          text: "Yes, I usually have toast and orange juice. Sometimes an egg.",
+        },
+        { speaker: "Paul", text: "What time do you go to work?" },
+        {
+          speaker: "Kate",
+          text: "I leave the house at eight-thirty. I take the bus.",
+        },
+        { speaker: "Paul", text: "And what time do you finish?" },
+        {
+          speaker: "Kate",
+          text: "I finish at five o'clock. Then I go to the gym.",
+        },
+      ],
+      questions: [
+        {
+          question: "What time does Kate wake up?",
+          options: [
+            "Six o'clock",
+            "Seven o'clock",
+            "Eight o'clock",
+            "Nine o'clock",
+          ],
+          correct: 1,
+          explanation: "Kate says: 'I wake up at seven o'clock every morning.'",
+        },
+        {
+          question: "How does Kate go to work?",
+          options: ["By car", "By bus", "On foot", "By train"],
+          correct: 1,
+          explanation: "Kate says: 'I take the bus.'",
+        },
+        {
+          question: "What does Kate do after finishing work?",
+          options: [
+            "Goes home",
+            "Goes to the gym",
+            "Goes to a cafe",
+            "Cooks dinner",
+          ],
+          correct: 1,
+          explanation: "Kate says: 'Then I go to the gym.'",
+        },
+      ],
+    },
+    {
+      title: "At the Library",
+      lines: [
+        {
+          speaker: "Student",
+          text: "Hello. I want to borrow this book about history.",
+        },
+        {
+          speaker: "Librarian",
+          text: "Hello. Do you have a library card? I need to see it.",
+        },
+        { speaker: "Student", text: "Yes, here it is. Is it still valid?" },
+        {
+          speaker: "Librarian",
+          text: "Let me check... Yes, it is. You can keep the book for two weeks.",
+        },
+        {
+          speaker: "Student",
+          text: "Can I renew it online if I need more time?",
+        },
+        {
+          speaker: "Librarian",
+          text: "Yes, you can. But only if no one else wants it.",
+        },
+        {
+          speaker: "Student",
+          text: "Okay, thank you. Is the library open on Sundays?",
+        },
+        {
+          speaker: "Librarian",
+          text: "No, we are closed on Sundays. We close at six on Saturdays.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is the book about?",
+          options: ["Science", "Math", "History", "Art"],
+          correct: 2,
+          explanation: "The Student says: 'this book about history.'",
+        },
+        {
+          question: "How long can the Student keep the book?",
+          options: ["One week", "Two weeks", "Three weeks", "One month"],
+          correct: 1,
+          explanation:
+            "The Librarian says: 'You can keep the book for two weeks.'",
+        },
+        {
+          question: "Is the library open on Sundays?",
+          options: ["Yes", "No", "Only in the morning", "Sometimes"],
+          correct: 1,
+          explanation: "The Librarian says: 'No, we are closed on Sundays.'",
+        },
+      ],
+    },
+    {
+      title: "Weekend Plans",
+      lines: [
+        { speaker: "Sam", text: "What are you doing on Sunday? Are you busy?" },
+        {
+          speaker: "Lily",
+          text: "I'm going to the park with my friends. We're meeting at noon.",
+        },
+        {
+          speaker: "Sam",
+          text: "Are you going to play football or basketball?",
+        },
+        {
+          speaker: "Lily",
+          text: "No, we're going to have a picnic and listen to music.",
+        },
+        {
+          speaker: "Sam",
+          text: "That sounds fun! What food are you bringing?",
+        },
+        {
+          speaker: "Lily",
+          text: "I'm making sandwiches and bringing some strawberries.",
+        },
+        {
+          speaker: "Sam",
+          text: "Do you need more drinks? I can bring some juice.",
+        },
+        {
+          speaker: "Lily",
+          text: "Yes, please! That would be great. Come join us!",
+        },
+      ],
+      questions: [
+        {
+          question: "Where is Lily going on Sunday?",
+          options: ["To the cinema", "To the park", "To the school", "To work"],
+          correct: 1,
+          explanation: "Lily says: 'I'm going to the park...'",
+        },
+        {
+          question: "What is the group going to do?",
+          options: ["Play football", "Study", "Have a picnic", "Go shopping"],
+          correct: 2,
+          explanation: "Lily says: 'we're going to have a picnic.'",
+        },
+        {
+          question: "What food is Lily bringing?",
+          options: ["Pizza", "Burgers", "Sandwiches and strawberries", "Pasta"],
+          correct: 2,
+          explanation:
+            "Lily says: 'I'm making sandwiches and bringing some strawberries.'",
+        },
+      ],
+    },
+    {
+      title: "Asking Directions",
+      lines: [
+        {
+          speaker: "Tourist",
+          text: "Excuse me, I'm lost. Where is the big supermarket?",
+        },
+        {
+          speaker: "Local",
+          text: "Go straight for two blocks and turn left at the hospital.",
+        },
+        {
+          speaker: "Tourist",
+          text: "Turn left at the hospital? Is it a big building?",
+        },
+        {
+          speaker: "Local",
+          text: "Yes, it is white and very tall. You can't miss it.",
+        },
+        {
+          speaker: "Tourist",
+          text: "Is the supermarket far from the hospital?",
+        },
+        {
+          speaker: "Local",
+          text: "No, it's right across from the park, next to the bank.",
+        },
+        {
+          speaker: "Tourist",
+          text: "Thank you. Is it about five minutes on foot?",
+        },
+        {
+          speaker: "Local",
+          text: "Yes, about five to ten minutes. It's a nice walk.",
+        },
+      ],
+      questions: [
+        {
+          question: "Where should the Tourist turn left?",
+          options: [
+            "At the park",
+            "At the hospital",
+            "At the library",
+            "At the bank",
+          ],
+          correct: 1,
+          explanation: "The Local says: 'turn left at the hospital.'",
+        },
+        {
+          question: "What color is the hospital building?",
+          options: ["Red", "Blue", "White", "Green"],
+          correct: 2,
+          explanation: "The Local says: 'it is white and very tall.'",
+        },
+        {
+          question: "Where is the supermarket located?",
+          options: [
+            "Next to the hospital",
+            "Inside the park",
+            "Next to the bank",
+            "Near the school",
+          ],
+          correct: 2,
+          explanation: "The Local says: 'next to the bank.'",
+        },
+      ],
+    },
+    {
+      title: "My Hobbies",
+      lines: [
+        {
+          speaker: "Jack",
+          text: "What do you do in your free time? Do you have any hobbies?",
+        },
+        {
+          speaker: "Jill",
+          text: "I like listening to music and reading books. I have a lot of books.",
+        },
+        {
+          speaker: "Jack",
+          text: "What kind of music do you like? I love rock music.",
+        },
+        {
+          speaker: "Jill",
+          text: "I love pop music. It's very happy. Do you play any instruments?",
+        },
+        {
+          speaker: "Jack",
+          text: "I play the guitar a little. I practice on Saturdays.",
+        },
+        {
+          speaker: "Jill",
+          text: "That's cool! I want to learn the piano one day.",
+        },
+        { speaker: "Jack", text: "The piano is difficult but very beautiful." },
+        {
+          speaker: "Jill",
+          text: "Yes, I agree. We should go to a concert together sometime!",
+        },
+      ],
+      questions: [
+        {
+          question: "What kind of music does Jill love?",
+          options: ["Rock", "Pop", "Jazz", "Classical"],
+          correct: 1,
+          explanation: "Jill says: 'I love pop music.'",
+        },
+        {
+          question: "What instrument does Jack play?",
+          options: ["Piano", "Guitar", "Drums", "Violin"],
+          correct: 1,
+          explanation: "Jack says: 'I play the guitar a little.'",
+        },
+        {
+          question: "When does Jack practice the instrument?",
+          options: [
+            "Every day",
+            "On Saturdays",
+            "On Sundays",
+            "In the evening",
+          ],
+          correct: 1,
+          explanation: "Jack says: 'I practice on Saturdays.'",
+        },
+      ],
+    },
+    {
+      title: "Doctor's Visit",
+      lines: [
+        {
+          speaker: "Patient",
+          text: "Good morning, doctor. I don't feel very well.",
+        },
+        {
+          speaker: "Doctor",
+          text: "Good morning. What exactly is the problem? Sit down, please.",
+        },
+        {
+          speaker: "Patient",
+          text: "I have a headache and a very sore throat since yesterday.",
+        },
+        {
+          speaker: "Doctor",
+          text: "Do you have a fever too? Let me check your temperature.",
+        },
+        {
+          speaker: "Patient",
+          text: "Yes, I feel very hot. My head hurts a lot.",
+        },
+        {
+          speaker: "Doctor",
+          text: "Your temperature is a bit high. You should stay in bed.",
+        },
+        {
+          speaker: "Patient",
+          text: "Can I go to work tomorrow? I have an important meeting.",
+        },
+        {
+          speaker: "Doctor",
+          text: "No, you should rest for two days and drink lots of water.",
+        },
+      ],
+      questions: [
+        {
+          question: "What are the Patient's symptoms?",
+          options: [
+            "Broken arm",
+            "Toothache",
+            "Headache and sore throat",
+            "Stomach ache",
+          ],
+          correct: 2,
+          explanation:
+            "The Patient says: 'I have a headache and a very sore throat.'",
+        },
+        {
+          question: "How long has the Patient felt sick?",
+          options: [
+            "Since this morning",
+            "Since yesterday",
+            "For one week",
+            "For three days",
+          ],
+          correct: 1,
+          explanation: "The Patient says: 'since yesterday.'",
+        },
+        {
+          question: "What is the Doctor's advice?",
+          options: [
+            "Go to work",
+            "Rest for two days",
+            "Go to the gym",
+            "Eat more fruit",
+          ],
+          correct: 1,
+          explanation:
+            "The Doctor says: 'rest for two days and drink lots of water.'",
+        },
+      ],
+    },
+    {
+      title: "A New Job",
+      lines: [
+        {
+          speaker: "Chris",
+          text: "Hey! I have some great news. I have a new job!",
+        },
+        {
+          speaker: "Lisa",
+          text: "That's amazing! Congratulations! Where are you working now?",
+        },
+        {
+          speaker: "Chris",
+          text: "I'm working in a big bank in the city center. It's near the station.",
+        },
+        {
+          speaker: "Lisa",
+          text: "Is it a good office? Do you like your new colleagues?",
+        },
+        {
+          speaker: "Chris",
+          text: "Yes, the office is very modern and everyone is very kind to me.",
+        },
+        {
+          speaker: "Lisa",
+          text: "What are your working hours? Do you start early?",
+        },
+        {
+          speaker: "Chris",
+          text: "I start at nine o'clock and finish at five-thirty.",
+        },
+        {
+          speaker: "Lisa",
+          text: "Those are good hours. We should celebrate this weekend!",
+        },
+      ],
+      questions: [
+        {
+          question: "Where is the new job located?",
+          options: [
+            "In a school",
+            "In a hospital",
+            "In a bank",
+            "In a library",
+          ],
+          correct: 2,
+          explanation: "Chris says: 'I'm working in a big bank.'",
+        },
+        {
+          question: "Where in the city is the office?",
+          options: [
+            "In the suburbs",
+            "Near the station",
+            "Opposite the park",
+            "In the mall",
+          ],
+          correct: 1,
+          explanation: "Chris says: 'It's near the station.'",
+        },
+        {
+          question: "What time does Chris finish work?",
+          options: ["5:00", "5:30", "6:00", "4:30"],
+          correct: 1,
+          explanation: "Chris says: 'finish at five-thirty.'",
+        },
+      ],
+    },
+    {
+      title: "Going to the Cinema",
+      lines: [
+        {
+          speaker: "Harry",
+          text: "Let's go to the cinema tonight. There are many good movies.",
+        },
+        {
+          speaker: "Sally",
+          text: "Okay, that's a great idea. What movie do you want to see?",
+        },
+        {
+          speaker: "Harry",
+          text: "The new comedy film. It's called 'Summer Laughs'. It's very funny.",
+        },
+        {
+          speaker: "Sally",
+          text: "I heard about that. What time does it start? I'm free after six.",
+        },
+        {
+          speaker: "Harry",
+          text: "It starts at seven-thirty. We can meet at the cinema at seven.",
+        },
+        {
+          speaker: "Sally",
+          text: "Should we buy the tickets now? I think the cinema is busy on Fridays.",
+        },
+        {
+          speaker: "Harry",
+          text: "Yes, let's buy them online. It's safer and faster.",
+        },
+        { speaker: "Sally", text: "Perfect. I'll bring some popcorn too!" },
+      ],
+      questions: [
+        {
+          question: "What kind of movie is it?",
+          options: ["Action", "Comedy", "Horror", "Drama"],
+          correct: 1,
+          explanation: "Harry says: 'The new comedy film.'",
+        },
+        {
+          question: "What time does the movie start?",
+          options: ["6:00", "7:00", "7:30", "8:00"],
+          correct: 2,
+          explanation: "Harry says: 'It starts at seven-thirty.'",
+        },
+        {
+          question: "How will they buy the tickets?",
+          options: [
+            "At the cinema",
+            "Online",
+            "By phone",
+            "They won't buy them",
+          ],
+          correct: 1,
+          explanation: "Harry says: 'let's buy them online.'",
+        },
+      ],
+    },
+    {
+      title: "School Lunch",
+      lines: [
+        {
+          speaker: "Kevin",
+          text: "What do you have for lunch today? I'm getting hungry.",
+        },
+        {
+          speaker: "Amy",
+          text: "I have a ham sandwich and a red apple. My mom made it.",
+        },
+        {
+          speaker: "Kevin",
+          text: "I have pasta with tomato sauce and a banana. Do you want to swap?",
+        },
+        {
+          speaker: "Amy",
+          text: "No, thanks. I love ham sandwiches! Is your pasta hot?",
+        },
+        {
+          speaker: "Kevin",
+          text: "Yes, it's still warm. I have some cookies too. Do you want one?",
+        },
+        {
+          speaker: "Amy",
+          text: "Yes, please! I love cookies. Are they chocolate?",
+        },
+        {
+          speaker: "Kevin",
+          text: "Yes, they are chocolate chip. Here you go.",
+        },
+        { speaker: "Amy", text: "Thank you. This is a very good lunch today." },
+      ],
+      questions: [
+        {
+          question: "What fruit does Amy have?",
+          options: ["Apple", "Orange", "Banana", "Grape"],
+          correct: 0,
+          explanation: "Amy says: 'I have... a red apple.'",
+        },
+        {
+          question: "What main dish does Kevin have?",
+          options: ["Sandwich", "Pasta", "Pizza", "Salad"],
+          correct: 1,
+          explanation: "Kevin says: 'I have pasta with tomato sauce.'",
+        },
+        {
+          question: "What does Kevin share with Amy?",
+          options: ["Pasta", "Apple", "Cookies", "Sandwich"],
+          correct: 2,
+          explanation:
+            "Kevin says: 'I have some cookies too. Do you want one?'",
+        },
+      ],
+    },
+    {
+      title: "In the Park",
+      lines: [
+        {
+          speaker: "Steve",
+          text: "Look at those flowers over there! They are beautiful.",
+        },
+        {
+          speaker: "Diana",
+          text: "Yes, they are yellow and purple. Spring is finally here.",
+        },
+        {
+          speaker: "Steve",
+          text: "I want to take a photo. My phone takes great pictures.",
+        },
+        {
+          speaker: "Diana",
+          text: "Wait, there's a small bee on that purple flower.",
+        },
+        {
+          speaker: "Steve",
+          text: "Oh, I see it. I'll be careful. Look at the trees too.",
+        },
+        {
+          speaker: "Diana",
+          text: "The trees are very green now. I like sitting under them.",
+        },
+        {
+          speaker: "Steve",
+          text: "Me too. It's very quiet and peaceful here today.",
+        },
+        {
+          speaker: "Diana",
+          text: "Let's walk to the small lake. There are ducks there.",
+        },
+        {
+          speaker: "Steve",
+          text: "Great idea! I love watching the ducks swim.",
+        },
+      ],
+      questions: [
+        {
+          question: "What color are the flowers?",
+          options: ["Red", "Yellow and purple", "Blue", "White"],
+          correct: 1,
+          explanation: "Diana says: 'they are yellow and purple.'",
+        },
+        {
+          question: "What does Steve want to do with the phone?",
+          options: [
+            "Call a friend",
+            "Play a game",
+            "Take a photo",
+            "Check the time",
+          ],
+          correct: 2,
+          explanation: "Steve says: 'I want to take a photo.'",
+        },
+        {
+          question: "Where are they going next?",
+          options: ["To a cafe", "To the lake", "To the library", "Home"],
+          correct: 1,
+          explanation: "Diana says: 'Let's walk to the small lake.'",
+        },
+      ],
+    },
+    {
+      title: "Learning English",
+      lines: [
+        {
+          speaker: "Pedro",
+          text: "How long do you study English every day? You're getting better!",
+        },
+        {
+          speaker: "Maria",
+          text: "I study for one hour every evening after dinner.",
+        },
+        { speaker: "Pedro", text: "Do you use an app or do you read books?" },
+        {
+          speaker: "Maria",
+          text: "I use a popular app on my phone and I watch English movies.",
+        },
+        {
+          speaker: "Pedro",
+          text: "Movies are great for listening. Do you use subtitles?",
+        },
+        {
+          speaker: "Maria",
+          text: "Yes, I use English subtitles. It helps me learn new words.",
+        },
+        {
+          speaker: "Pedro",
+          text: "That's a good tip. I should try that for my French class.",
+        },
+        {
+          speaker: "Maria",
+          text: "You should! It's difficult at first but it's very fun.",
+        },
+      ],
+      questions: [
+        {
+          question: "When does Maria study English?",
+          options: [
+            "In the morning",
+            "At lunch",
+            "Every evening",
+            "On weekends",
+          ],
+          correct: 2,
+          explanation: "Maria says: 'I study for one hour every evening.'",
+        },
+        {
+          question: "What does Maria use to learn?",
+          options: [
+            "Only books",
+            "An app and movies",
+            "Only classes",
+            "A dictionary",
+          ],
+          correct: 1,
+          explanation:
+            "Maria says: 'I use a popular app... and I watch English movies.'",
+        },
+        {
+          question: "How do subtitles help Maria?",
+          options: [
+            "They are funny",
+            "To learn new words",
+            "To read faster",
+            "They don't help",
+          ],
+          correct: 1,
+          explanation: "Maria says: 'It helps me learn new words.'",
+        },
+      ],
+    },
+    {
+      title: "New Neighbors",
+      lines: [
+        {
+          speaker: "James",
+          text: "Did you meet our new neighbors in Apartment 4B yet?",
+        },
+        {
+          speaker: "Linda",
+          text: "No, not yet. I saw them yesterday. Where are they from?",
+        },
+        {
+          speaker: "James",
+          text: "They are from Spain. They moved here for work.",
+        },
+        {
+          speaker: "Linda",
+          text: "Oh, Spain is lovely. Do they speak English well?",
+        },
+        {
+          speaker: "James",
+          text: "Yes, quite well. They have a small brown dog too.",
+        },
+        {
+          speaker: "Linda",
+          text: "I saw the dog! It's very friendly. What's his name?",
+        },
+        {
+          speaker: "James",
+          text: "His name is Coco. They are very nice people.",
+        },
+        {
+          speaker: "Linda",
+          text: "We should invite them for coffee this weekend.",
+        },
+        {
+          speaker: "James",
+          text: "That's a very kind idea. I'll ask them tomorrow.",
+        },
+      ],
+      questions: [
+        {
+          question: "Where are the new neighbors from?",
+          options: ["France", "Italy", "Spain", "Germany"],
+          correct: 2,
+          explanation: "James says: 'They are from Spain.'",
+        },
+        {
+          question: "What pet do they have?",
+          options: ["A cat", "A big dog", "A small brown dog", "A bird"],
+          correct: 2,
+          explanation: "James says: 'They have a small brown dog too.'",
+        },
+        {
+          question: "What is the dog's name?",
+          options: ["Luna", "David", "Coco", "Sarah"],
+          correct: 2,
+          explanation: "James says: 'His name is Coco.'",
+        },
+      ],
+    },
+  ],
+  A2: [
+    {
+      title: "Planning a Weekend",
+      lines: [
+        {
+          speaker: "David",
+          text: "What are you doing this weekend? Do you have any plans?",
+        },
+        {
+          speaker: "Susan",
+          text: "I'm not sure. Maybe stay at home and relax. I'm a bit tired.",
+        },
+        {
+          speaker: "David",
+          text: "Would you like to go to the cinema on Saturday afternoon?",
+        },
+        {
+          speaker: "Susan",
+          text: "That sounds great! What's on? Is there anything funny?",
+        },
+        {
+          speaker: "David",
+          text: "There's a new action movie at 7 PM and a comedy at 4 PM.",
+        },
+        {
+          speaker: "Susan",
+          text: "Let's see the comedy. I need a good laugh. Is it at the mall?",
+        },
+        {
+          speaker: "David",
+          text: "Yes, at the city mall cinema. We can have dinner after.",
+        },
+        {
+          speaker: "Susan",
+          text: "Perfect. We can try that new pizza place nearby.",
+        },
+        {
+          speaker: "David",
+          text: "Great idea. I'll book the tickets online now.",
+        },
+      ],
+      questions: [
+        {
+          question: "What time is the comedy movie?",
+          options: ["4:00 PM", "7:00 PM", "6:00 PM", "9:00 PM"],
+          correct: 0,
+          explanation: "David says: 'a comedy at 4 PM.'",
+        },
+        {
+          question: "Where is the cinema located?",
+          options: [
+            "At the park",
+            "In the city center",
+            "At the mall",
+            "Near the station",
+          ],
+          correct: 2,
+          explanation: "Susan asks: 'Is it at the mall?' and David confirms.",
+        },
+        {
+          question: "What will they do after the movie?",
+          options: [
+            "Go home",
+            "Have dinner",
+            "Go to a party",
+            "Watch another movie",
+          ],
+          correct: 1,
+          explanation: "David says: 'We can have dinner after.'",
+        },
+      ],
+    },
+    {
+      title: "Lost in the City",
+      lines: [
+        {
+          speaker: "Visitor",
+          text: "Excuse me, I'm looking for the museum. Do you know where it is?",
+        },
+        {
+          speaker: "Resident",
+          text: "Yes, it's not far. Go past the bank and then turn right at the corner.",
+        },
+        {
+          speaker: "Visitor",
+          text: "Turn right at the corner... Is it next to the big park?",
+        },
+        {
+          speaker: "Resident",
+          text: "Exactly. It's a large white building with many windows.",
+        },
+        {
+          speaker: "Visitor",
+          text: "Is it open today? I think it might be a holiday.",
+        },
+        {
+          speaker: "Resident",
+          text: "Yes, it is open from 10 AM to 6 PM. It's free on Saturdays too.",
+        },
+        {
+          speaker: "Visitor",
+          text: "That's wonderful! Thank you for your help.",
+        },
+        { speaker: "Resident", text: "You're welcome. Enjoy your visit!" },
+      ],
+      questions: [
+        {
+          question: "What color is the museum building?",
+          options: ["Red", "White", "Blue", "Gray"],
+          correct: 1,
+          explanation: "The Resident says: 'It's a large white building.'",
+        },
+        {
+          question: "Where should the Visitor turn right?",
+          options: [
+            "At the museum",
+            "At the bank",
+            "At the corner",
+            "At the park",
+          ],
+          correct: 2,
+          explanation: "The Resident says: 'turn right at the corner.'",
+        },
+        {
+          question: "Is the museum free today?",
+          options: [
+            "Yes, every day",
+            "No, it costs money",
+            "Yes, because it's Saturday",
+            "Only for students",
+          ],
+          correct: 2,
+          explanation: "The Resident says: 'It's free on Saturdays too.'",
+        },
+      ],
+    },
+    {
+      title: "Booking a Room",
+      lines: [
+        {
+          speaker: "Guest",
+          text: "Hello, I'd like to book a room for two nights next week.",
+        },
+        {
+          speaker: "Receptionist",
+          text: "Certainly. For which dates exactly, sir?",
+        },
+        {
+          speaker: "Guest",
+          text: "For the 15th and 16th of June. Is there a room with a view?",
+        },
+        {
+          speaker: "Receptionist",
+          text: "Let me check... We have a double room available on the top floor.",
+        },
+        {
+          speaker: "Guest",
+          text: "That sounds perfect. Does it have free Wi-Fi?",
+        },
+        {
+          speaker: "Receptionist",
+          text: "Yes, all our rooms have high-speed internet and a minibar.",
+        },
+        { speaker: "Guest", text: "Good. And what time is check-in?" },
+        {
+          speaker: "Receptionist",
+          text: "Check-in is at 2 PM. You can leave your bags if you arrive early.",
+        },
+        {
+          speaker: "Guest",
+          text: "Great. I'll also need a parking space for my car.",
+        },
+        {
+          speaker: "Receptionist",
+          text: "No problem. We have a secure garage under the hotel.",
+        },
+      ],
+      questions: [
+        {
+          question: "Which month does the Guest want to book for?",
+          options: ["May", "June", "July", "August"],
+          correct: 1,
+          explanation: "The Guest says: 'of June.'",
+        },
+        {
+          question: "What floor is the available room on?",
+          options: ["First floor", "Ground floor", "Top floor", "Basement"],
+          correct: 2,
+          explanation: "The Receptionist says: 'on the top floor.'",
+        },
+        {
+          question: "What time can the Guest check in?",
+          options: ["10 AM", "12 PM", "2 PM", "4 PM"],
+          correct: 2,
+          explanation: "The Receptionist says: 'Check-in is at 2 PM.'",
+        },
+      ],
+    },
+    {
+      title: "Talking about Hobbies",
+      lines: [
+        {
+          speaker: "Leo",
+          text: "What do you like doing in your spare time? Do you have any hobbies?",
+        },
+        {
+          speaker: "Mia",
+          text: "I'm really into photography. I love taking pictures of nature and birds.",
+        },
+        {
+          speaker: "Leo",
+          text: "That's interesting. Do you have a professional camera or use your phone?",
+        },
+        {
+          speaker: "Mia",
+          text: "Yes, I bought a new professional camera last month. It's very fast.",
+        },
+        {
+          speaker: "Leo",
+          text: "I'd love to see some of your photos. Do you post them online?",
+        },
+        {
+          speaker: "Mia",
+          text: "I have a small blog where I share my best pictures every weekend.",
+        },
+        {
+          speaker: "Leo",
+          text: "That's cool! I enjoy cooking. I'm learning to make Italian food.",
+        },
+        {
+          speaker: "Mia",
+          text: "Maybe you can cook something while I take photos of the dishes!",
+        },
+        {
+          speaker: "Leo",
+          text: "Haha, deal! Let's do that next time we meet.",
+        },
+      ],
+      questions: [
+        {
+          question: "When did Mia buy the new camera?",
+          options: ["Last week", "Last month", "Last year", "Yesterday"],
+          correct: 1,
+          explanation: "Mia says: 'I bought a new one last month.'",
+        },
+        {
+          question: "What does Leo like doing?",
+          options: ["Photography", "Cooking", "Swimming", "Gardening"],
+          correct: 1,
+          explanation: "Leo says: 'I enjoy cooking.'",
+        },
+        {
+          question: "Where does Mia share the photos?",
+          options: [
+            "On social media",
+            "On a blog",
+            "In a magazine",
+            "He doesn't share them",
+          ],
+          correct: 1,
+          explanation:
+            "Mia says: 'I have a small blog where I share my best pictures.'",
+        },
+      ],
+    },
+    {
+      title: "A New Restaurant",
+      lines: [
+        {
+          speaker: "Carl",
+          text: "Have you tried the new Italian restaurant on Main Street yet?",
+        },
+        {
+          speaker: "Jenny",
+          text: "No, I haven't. I heard it opened last Monday. Is it good?",
+        },
+        {
+          speaker: "Carl",
+          text: "Yes, the pasta is amazing and the service is very fast and friendly.",
+        },
+        {
+          speaker: "Jenny",
+          text: "Is it expensive? I don't want to spend too much money.",
+        },
+        {
+          speaker: "Carl",
+          text: "It's not bad. About fifteen dollars for a main course.",
+        },
+        {
+          speaker: "Jenny",
+          text: "That's reasonable. Does it have outdoor seating?",
+        },
+        {
+          speaker: "Carl",
+          text: "Yes, it has a beautiful terrace with lots of plants.",
+        },
+        {
+          speaker: "Jenny",
+          text: "Great! Let's go there for dinner this Friday.",
+        },
+      ],
+      questions: [
+        {
+          question: "Where is the new restaurant located?",
+          options: [
+            "High Street",
+            "Main Street",
+            "Market Road",
+            "Broad Street",
+          ],
+          correct: 1,
+          explanation: "Carl says: 'on Main Street.'",
+        },
+        {
+          question: "When did the restaurant open?",
+          options: ["Yesterday", "Last Friday", "Last Monday", "Today"],
+          correct: 2,
+          explanation: "Jenny says: 'I heard it opened last Monday.'",
+        },
+        {
+          question: "What special feature does the restaurant have?",
+          options: ["A pool", "Outdoor seating", "Live music", "A play area"],
+          correct: 1,
+          explanation: "Carl says: 'it has a beautiful terrace.'",
+        },
+      ],
+    },
+    {
+      title: "Job Interview Prep",
+      lines: [
+        {
+          speaker: "Sarah",
+          text: "I have a big job interview tomorrow morning. I'm so nervous!",
+        },
+        {
+          speaker: "Emily",
+          text: "Don't worry, Sarah. You have a lot of experience in this field.",
+        },
+        {
+          speaker: "Sarah",
+          text: "I know, but I'm worried they will ask difficult technical questions.",
+        },
+        {
+          speaker: "Emily",
+          text: "Just be yourself and answer honestly. Have you practiced your presentation?",
+        },
+        {
+          speaker: "Sarah",
+          text: "Yes, I practiced it three times today. I hope they like it.",
+        },
+        {
+          speaker: "Emily",
+          text: "I'm sure they will. What are you going to wear?",
+        },
+        {
+          speaker: "Sarah",
+          text: "I'm thinking of wearing my blue suit. It looks professional.",
+        },
+        {
+          speaker: "Emily",
+          text: "That's a good choice. Go to bed early tonight and rest.",
+        },
+      ],
+      questions: [
+        {
+          question: "When is the job interview?",
+          options: ["Today", "Tomorrow morning", "Next week", "In two days"],
+          correct: 1,
+          explanation: "Sarah says: 'tomorrow morning.'",
+        },
+        {
+          question: "How many times did Sarah practice the presentation?",
+          options: ["Once", "Twice", "Three times", "Five times"],
+          correct: 2,
+          explanation: "Sarah says: 'I practiced it three times today.'",
+        },
+        {
+          question: "What will Sarah wear to the interview?",
+          options: [
+            "A red dress",
+            "A blue suit",
+            "Jeans and a t-shirt",
+            "A black skirt",
+          ],
+          correct: 1,
+          explanation: "Sarah says: 'I'm thinking of wearing my blue suit.'",
+        },
+      ],
+    },
+    {
+      title: "Buying a Gift",
+      lines: [
+        {
+          speaker: "Robert",
+          text: "It's my sister's birthday next week. I need to buy her a special gift.",
+        },
+        {
+          speaker: "Julia",
+          text: "What does she usually like doing in her free time?",
+        },
+        {
+          speaker: "Robert",
+          text: "She loves reading novels and listening to classical music.",
+        },
+        {
+          speaker: "Julia",
+          text: "Why don't you get her a gift card for that new bookstore downtown?",
+        },
+        {
+          speaker: "Robert",
+          text: "That's a great idea! Or maybe a set of nice headphones?",
+        },
+        {
+          speaker: "Julia",
+          text: "Headphones are useful too. Let's go to the mall this afternoon and look.",
+        },
+        {
+          speaker: "Robert",
+          text: "Okay, I have my car. I'll pick you up at 3 PM.",
+        },
+        {
+          speaker: "Julia",
+          text: "Sounds perfect. I need to buy something for my mom too.",
+        },
+      ],
+      questions: [
+        {
+          question: "When is the sister's birthday?",
+          options: ["Today", "Tomorrow", "Next week", "Next month"],
+          correct: 2,
+          explanation: "Robert says: 'It's my sister's birthday next week.'",
+        },
+        {
+          question: "What are the sister's hobbies?",
+          options: [
+            "Sports and cooking",
+            "Reading and music",
+            "Traveling and movies",
+            "Painting and dancing",
+          ],
+          correct: 1,
+          explanation:
+            "Robert says: 'She loves reading novels and listening to classical music.'",
+        },
+        {
+          question: "Where are they going this afternoon?",
+          options: [
+            "To the library",
+            "To the cinema",
+            "To the mall",
+            "To a cafe",
+          ],
+          correct: 2,
+          explanation: "Julia says: 'Let's go to the mall this afternoon.'",
+        },
+      ],
+    },
+    {
+      title: "Moving House",
+      lines: [
+        {
+          speaker: "Frank",
+          text: "I'm finally moving to a new apartment next month!",
+        },
+        {
+          speaker: "George",
+          text: "Really? That's exciting news. Where exactly is it?",
+        },
+        {
+          speaker: "Frank",
+          text: "It's in the suburbs, near the train station. It's very quiet there.",
+        },
+        {
+          speaker: "George",
+          text: "Is it bigger than your current place in the city center?",
+        },
+        {
+          speaker: "Frank",
+          text: "Yes, it has two bedrooms and a small balcony with some plants.",
+        },
+        {
+          speaker: "George",
+          text: "That sounds lovely. Do you have a lot of furniture to move?",
+        },
+        {
+          speaker: "Frank",
+          text: "Quite a lot. I'm going to rent a large van for the weekend.",
+        },
+        {
+          speaker: "George",
+          text: "If you need any help with the boxes, just let me know.",
+        },
+        {
+          speaker: "Frank",
+          text: "Thanks! I'll probably need help on Saturday morning.",
+        },
+        {
+          speaker: "George",
+          text: "I'll be there. I'm strong and I have some free time.",
+        },
+      ],
+      questions: [
+        {
+          question: "Where is the new apartment located?",
+          options: [
+            "In the city center",
+            "Near the airport",
+            "In the suburbs",
+            "Near the beach",
+          ],
+          correct: 2,
+          explanation:
+            "Frank says: 'It's in the suburbs, near the train station.'",
+        },
+        {
+          question: "How many bedrooms does the new apartment have?",
+          options: ["One", "Two", "Three", "Four"],
+          correct: 1,
+          explanation: "Frank says: 'it has two bedrooms.'",
+        },
+        {
+          question: "When will Frank move the furniture?",
+          options: [
+            "Next Friday",
+            "On the weekend",
+            "Next Monday",
+            "This evening",
+          ],
+          correct: 1,
+          explanation:
+            "Frank says: 'I'm going to rent a large van for the weekend.'",
+        },
+      ],
+    },
+    {
+      title: "Health and Fitness",
+      lines: [
+        {
+          speaker: "Max",
+          text: "I've started going to the gym three times a week recently.",
+        },
+        {
+          speaker: "Phil",
+          text: "That's a good habit. How do you feel after the first week?",
+        },
+        {
+          speaker: "Max",
+          text: "I have much more energy, but my muscles are still quite sore.",
+        },
+        {
+          speaker: "Phil",
+          text: "That's normal when you start. Are you doing lifting or cardio?",
+        },
+        {
+          speaker: "Max",
+          text: "A bit of both. I run on the treadmill for twenty minutes first.",
+        },
+        { speaker: "Phil", text: "Good. Do you go alone or with a friend?" },
+        {
+          speaker: "Max",
+          text: "I go with my brother. It's more fun that way and we help each other.",
+        },
+        {
+          speaker: "Phil",
+          text: "Keep it up! Consistency is the most important thing.",
+        },
+      ],
+      questions: [
+        {
+          question: "How often does Max go to the gym?",
+          options: [
+            "Every day",
+            "Three times a week",
+            "Once a week",
+            "Only on weekends",
+          ],
+          correct: 1,
+          explanation: "Max says: 'going to the gym three times a week.'",
+        },
+        {
+          question: "What does Max do first at the gym?",
+          options: ["Lift weights", "Swim", "Run on a treadmill", "Do yoga"],
+          correct: 2,
+          explanation:
+            "Max says: 'I run on the treadmill for twenty minutes first.'",
+        },
+        {
+          question: "Who does Max go to the gym with?",
+          options: ["A friend", "His sister", "His brother", "His father"],
+          correct: 2,
+          explanation: "Max says: 'I go with my brother.'",
+        },
+      ],
+    },
+    {
+      title: "At the Airport",
+      lines: [
+        {
+          speaker: "Agent",
+          text: "Good morning. Can I see your passport and boarding pass, please?",
+        },
+        {
+          speaker: "Traveler",
+          text: "Good morning. Here they are. I have them ready.",
+        },
+        {
+          speaker: "Agent",
+          text: "Thank you. How many bags are you checking in today?",
+        },
+        {
+          speaker: "Traveler",
+          text: "Just this one large suitcase. And I have this backpack as carry-on.",
+        },
+        {
+          speaker: "Agent",
+          text: "Please place the suitcase on the scale... It's twenty-two kilograms.",
+        },
+        {
+          speaker: "Traveler",
+          text: "Oh, is that too heavy? I think the limit is twenty-three.",
+        },
+        {
+          speaker: "Agent",
+          text: "It's fine. Do you prefer a window seat or an aisle seat?",
+        },
+        {
+          speaker: "Traveler",
+          text: "An aisle seat, please. I like to walk around during long flights.",
+        },
+        {
+          speaker: "Agent",
+          text: "Here is your boarding pass. Gate 12 opens at 9:30 AM.",
+        },
+      ],
+      questions: [
+        {
+          question: "What documents does the Agent ask for?",
+          options: [
+            "ID card",
+            "Passport and boarding pass",
+            "Visa",
+            "Driver's license",
+          ],
+          correct: 1,
+          explanation: "The Agent asks for 'passport and boarding pass.'",
+        },
+        {
+          question: "How much does the suitcase weigh?",
+          options: ["15 kg", "20 kg", "22 kg", "25 kg"],
+          correct: 2,
+          explanation: "The Agent says: 'It's twenty-two kilograms.'",
+        },
+        {
+          question: "What kind of seat does the Traveler want?",
+          options: [
+            "Window seat",
+            "Aisle seat",
+            "Middle seat",
+            "Extra legroom",
+          ],
+          correct: 1,
+          explanation: "The Traveler says: 'An aisle seat, please.'",
+        },
+      ],
+    },
+    {
+      title: "School Project",
+      lines: [
+        {
+          speaker: "Oliver",
+          text: "Have you finished the history project yet? The deadline is Friday.",
+        },
+        {
+          speaker: "Lucas",
+          text: "Not yet. I'm still looking for information about the Roman Empire.",
+        },
+        {
+          speaker: "Oliver",
+          text: "I found a great website with lots of pictures and maps today.",
+        },
+        {
+          speaker: "Lucas",
+          text: "Could you send me the link? I really need more primary sources.",
+        },
+        {
+          speaker: "Oliver",
+          text: "Sure! I'll email it to you after school. Do you want to work together?",
+        },
+        {
+          speaker: "Lucas",
+          text: "That would be helpful. Can we meet at the library at 4 PM?",
+        },
+        {
+          speaker: "Oliver",
+          text: "Yes, I'll bring my laptop. We can finish the first two pages.",
+        },
+        {
+          speaker: "Lucas",
+          text: "Great. I'll bring some snacks for our break!",
+        },
+      ],
+      questions: [
+        {
+          question: "What project are they working on?",
+          options: ["Math", "Science", "History", "Art"],
+          correct: 2,
+          explanation: "Oliver asks: 'finished the history project yet?'",
+        },
+        {
+          question: "When is the project deadline?",
+          options: ["Today", "Friday", "Monday", "Next week"],
+          correct: 1,
+          explanation: "Oliver says: 'The deadline is Friday.'",
+        },
+        {
+          question: "Where will they meet to work?",
+          options: [
+            "At A's house",
+            "At the library",
+            "In the classroom",
+            "At a cafe",
+          ],
+          correct: 1,
+          explanation: "Lucas asks: 'Can we meet at the library?'",
+        },
+      ],
+    },
+    {
+      title: "Weekend Trip",
+      lines: [
+        {
+          speaker: "Ethan",
+          text: "We're planning a trip to the mountains this weekend. Are you coming?",
+        },
+        {
+          speaker: "Chloe",
+          text: "That sounds exciting! Are you going to go hiking or skiing?",
+        },
+        {
+          speaker: "Ethan",
+          text: "Hiking, definitely. The weather is perfect for it. Not too cold.",
+        },
+        {
+          speaker: "Chloe",
+          text: "Cool! Are you staying in a hotel near the village?",
+        },
+        {
+          speaker: "Ethan",
+          text: "No, we're planning to stay in a small cabin in the woods.",
+        },
+        {
+          speaker: "Chloe",
+          text: "Is it far from the main road? Do you have a map?",
+        },
+        {
+          speaker: "Ethan",
+          text: "It's about a twenty-minute walk. We have a digital map on our phones.",
+        },
+        {
+          speaker: "Chloe",
+          text: "Sounds like a real adventure. I'd love to join you guys!",
+        },
+      ],
+      questions: [
+        {
+          question: "Where are they going this weekend?",
+          options: [
+            "To the beach",
+            "To the city",
+            "To the mountains",
+            "To a farm",
+          ],
+          correct: 2,
+          explanation: "Ethan says: 'We're planning a trip to the mountains.'",
+        },
+        {
+          question: "Where are they staying?",
+          options: [
+            "In a hotel",
+            "In a tent",
+            "In a small cabin",
+            "In a large villa",
+          ],
+          correct: 2,
+          explanation: "Ethan says: 'we're planning to stay in a small cabin.'",
+        },
+        {
+          question: "How far is the cabin from the main road?",
+          options: [
+            "Five minutes",
+            "Ten minutes",
+            "Twenty minutes",
+            "One hour",
+          ],
+          correct: 2,
+          explanation: "Ethan says: 'It's about a twenty-minute walk.'",
+        },
+      ],
+    },
+    {
+      title: "Social Media Discussion",
+      lines: [
+        {
+          speaker: "Laura",
+          text: "How much time do you spend on social media every day?",
+        },
+        {
+          speaker: "Ben",
+          text: "Probably too much! I check it every hour on my phone.",
+        },
+        {
+          speaker: "Laura",
+          text: "I've started to limit myself to only thirty minutes a day recently.",
+        },
+        {
+          speaker: "Ben",
+          text: "Is it difficult? I feel like I'm missing out on news.",
+        },
+        {
+          speaker: "Laura",
+          text: "It was hard at first, but now I have more time for reading books.",
+        },
+        {
+          speaker: "Ben",
+          text: "That's true. What do you do when you're bored now?",
+        },
+        {
+          speaker: "Laura",
+          text: "I exercise or call my friends for a real conversation.",
+        },
+        {
+          speaker: "Ben",
+          text: "Maybe I should try a 'digital detox' this Sunday too.",
+        },
+        {
+          speaker: "Laura",
+          text: "You should! You'll feel much more relaxed after.",
+        },
+      ],
+      questions: [
+        {
+          question: "How often does Ben check social media?",
+          options: [
+            "Once a day",
+            "Every hour",
+            "Every morning",
+            "Only on weekends",
+          ],
+          correct: 1,
+          explanation: "Ben says: 'I check it every hour.'",
+        },
+        {
+          question: "What is Laura's new daily limit for social media?",
+          options: [
+            "Ten minutes",
+            "Twenty minutes",
+            "Thirty minutes",
+            "One hour",
+          ],
+          correct: 2,
+          explanation:
+            "Laura says: 'limit myself to only thirty minutes a day.'",
+        },
+        {
+          question: "What does Laura do more of now?",
+          options: [
+            "Watching TV",
+            "Sleeping",
+            "Reading books",
+            "Playing video games",
+          ],
+          correct: 2,
+          explanation: "Laura says: 'now I have more time for reading books.'",
+        },
+      ],
+    },
+    {
+      title: "In a Clothing Store",
+      lines: [
+        {
+          speaker: "Shopper",
+          text: "Hello! I'm looking for a warm jacket for the winter. It's getting cold.",
+        },
+        {
+          speaker: "Clerk",
+          text: "We have these wool coats here. They are very popular and very warm.",
+        },
+        {
+          speaker: "Shopper",
+          text: "They look nice. Do you have them in grey or dark blue?",
+        },
+        {
+          speaker: "Clerk",
+          text: "Yes, here is a grey one in your size. Would you like to try it on?",
+        },
+        {
+          speaker: "Shopper",
+          text: "Yes, please. Where are the changing rooms? I don't see them.",
+        },
+        {
+          speaker: "Clerk",
+          text: "They are in the back, next to the shoes. Let me show you.",
+        },
+        {
+          speaker: "Shopper",
+          text: "It fits well, but the sleeves are a bit long. Do you have a smaller size?",
+        },
+        {
+          speaker: "Clerk",
+          text: "Let me check... Yes, here's a small. Try this one.",
+        },
+        {
+          speaker: "Shopper",
+          text: "This is much better. How much is it? Is there a discount?",
+        },
+        {
+          speaker: "Clerk",
+          text: "It's sixty pounds. And yes, it's 10% off today!",
+        },
+      ],
+      questions: [
+        {
+          question: "What kind of coat does the Clerk suggest?",
+          options: ["Leather", "Cotton", "Wool", "Denim"],
+          correct: 2,
+          explanation: "The Clerk mentions 'wool coats.'",
+        },
+        {
+          question: "Where are the changing rooms?",
+          options: [
+            "Near the door",
+            "Next to the shoes",
+            "On the second floor",
+            "In the basement",
+          ],
+          correct: 1,
+          explanation:
+            "The Clerk says: 'They are in the back, next to the shoes.'",
+        },
+        {
+          question: "How much is the discount today?",
+          options: ["5%", "10%", "15%", "20%"],
+          correct: 1,
+          explanation: "The Clerk says: 'it's 10% off today!'",
+        },
+      ],
+    },
+    {
+      title: "Cooking at Home",
+      lines: [
+        {
+          speaker: "Sam",
+          text: "What are you cooking for dinner? It smells delicious from the hall!",
+        },
+        {
+          speaker: "Alex",
+          text: "I'm making a vegetable stir-fry with brown rice. It's healthy.",
+        },
+        {
+          speaker: "Sam",
+          text: "Do you need any help with the vegetables? Or maybe the sauce?",
+        },
+        {
+          speaker: "Alex",
+          text: "Yes, could you please chop the carrots and the broccoli?",
+        },
+        {
+          speaker: "Sam",
+          text: "Sure! Where is the sharp knife? I only see the small one.",
+        },
+        {
+          speaker: "Alex",
+          text: "It's in the top drawer, under the spoons. Be careful!",
+        },
+        {
+          speaker: "Sam",
+          text: "Found it. Should I chop them into small pieces or large ones?",
+        },
+        {
+          speaker: "Alex",
+          text: "Thin slices for the carrots, and small pieces for the broccoli.",
+        },
+        {
+          speaker: "Sam",
+          text: "Done. Is there anything else? Should I set the table?",
+        },
+      ],
+      questions: [
+        {
+          question: "What is Alex making for dinner?",
+          options: ["Pizza", "Pasta", "Vegetable stir-fry", "Chicken salad"],
+          correct: 2,
+          explanation: "Alex says: 'I'm making a vegetable stir-fry.'",
+        },
+        {
+          question: "What does Alex need help with specifically?",
+          options: [
+            "Cooking the rice",
+            "Washing dishes",
+            "Chopping carrots and broccoli",
+            "Buying groceries",
+          ],
+          correct: 2,
+          explanation:
+            "Alex asks: 'could you please chop the carrots and the broccoli?'",
+        },
+        {
+          question: "Where is the sharp knife?",
+          options: [
+            "On the table",
+            "In the top drawer",
+            "In the dishwasher",
+            "In the sink",
+          ],
+          correct: 1,
+          explanation: "Alex says: 'It's in the top drawer, under the spoons.'",
+        },
+      ],
+    },
+    {
+      title: "At the Post Office",
+      lines: [
+        {
+          speaker: "Customer",
+          text: "I'd like to send this parcel to Germany, please. It's for my friend.",
+        },
+        {
+          speaker: "Clerk",
+          text: "Certainly. Please put it on the scales so I can check the weight.",
+        },
+        {
+          speaker: "Customer",
+          text: "How much will it cost to send it by express mail? I'm in a hurry.",
+        },
+        {
+          speaker: "Clerk",
+          text: "That will be fifteen pounds for express delivery. It takes two days.",
+        },
+        {
+          speaker: "Customer",
+          text: "And what about standard mail? Is it much cheaper?",
+        },
+        {
+          speaker: "Clerk",
+          text: "Standard is nine pounds, but it takes about a week to arrive.",
+        },
+        {
+          speaker: "Customer",
+          text: "I'll take the express option, please. I need to buy some stamps too.",
+        },
+        {
+          speaker: "Clerk",
+          text: "We have some beautiful new stamps with flowers. How many do you need?",
+        },
+        {
+          speaker: "Customer",
+          text: "Ten stamps, please. Here is my credit card.",
+        },
+      ],
+      questions: [
+        {
+          question: "Where is the parcel being sent to?",
+          options: ["France", "Spain", "Germany", "Italy"],
+          correct: 2,
+          explanation: "The Customer says: 'send this parcel to Germany.'",
+        },
+        {
+          question: "How much does express mail cost?",
+          options: [
+            "Five pounds",
+            "Nine pounds",
+            "Fifteen pounds",
+            "Twenty pounds",
+          ],
+          correct: 2,
+          explanation:
+            "The Clerk says: 'That will be fifteen pounds for express delivery.'",
+        },
+        {
+          question: "How long does standard mail take?",
+          options: ["Two days", "Four days", "One week", "Two weeks"],
+          correct: 2,
+          explanation:
+            "The Clerk says: 'Standard... takes about a week to arrive.'",
+        },
+      ],
+    },
+    {
+      title: "Discussing a Movie",
+      lines: [
+        {
+          speaker: "Dan",
+          text: "Did you see the new sci-fi movie 'Star Quest' last night?",
+        },
+        {
+          speaker: "Eve",
+          text: "Yes, I did. The special effects and the music were incredible!",
+        },
+        {
+          speaker: "Dan",
+          text: "I thought the story was a bit confusing and too long, though.",
+        },
+        {
+          speaker: "Eve",
+          text: "Really? I thought it was very clever and the ending was a surprise.",
+        },
+        {
+          speaker: "Dan",
+          text: "I didn't like the main actor. He didn't seem very heroic.",
+        },
+        {
+          speaker: "Eve",
+          text: "I disagree! I think he played the role perfectly. He's very talented.",
+        },
+        {
+          speaker: "Dan",
+          text: "Maybe I should watch it again. I was quite tired during the movie.",
+        },
+        {
+          speaker: "Eve",
+          text: "You definitely should. It's one of the best movies of the year.",
+        },
+      ],
+      questions: [
+        {
+          question: "What kind of movie did they watch?",
+          options: ["Horror", "Romance", "Sci-fi", "Documentary"],
+          correct: 2,
+          explanation: "Dan asks: 'see the new sci-fi movie...'",
+        },
+        {
+          question: "Why does Eve like the movie?",
+          options: [
+            "It was short",
+            "The story was simple",
+            "Special effects and music were great",
+            "It was free",
+          ],
+          correct: 2,
+          explanation:
+            "Eve says: 'The special effects and the music were incredible!'",
+        },
+        {
+          question: "What did Dan think of the main actor?",
+          options: [
+            "He was amazing",
+            "He wasn't heroic enough",
+            "He was too tall",
+            "He was very funny",
+          ],
+          correct: 1,
+          explanation: "Dan says: 'He didn't seem very heroic.'",
+        },
+      ],
+    },
+    {
+      title: "Planning a Party",
+      lines: [
+        {
+          speaker: "Fiona",
+          text: "We should throw a surprise party for Sam's graduation next week.",
+        },
+        {
+          speaker: "Greg",
+          text: "That's a fantastic idea! He works so hard and deserves it.",
+        },
+        {
+          speaker: "Fiona",
+          text: "How about next Friday evening at my place? I have a big garden.",
+        },
+        {
+          speaker: "Greg",
+          text: "Friday is fine after 7 PM. I'll take care of the music and the drinks.",
+        },
+        {
+          speaker: "Fiona",
+          text: "Great! I'll order some sushi and make a big cake.",
+        },
+        {
+          speaker: "Greg",
+          text: "Should we invite his classmates too or just close friends?",
+        },
+        {
+          speaker: "Fiona",
+          text: "Let's invite everyone! The more the merrier. I'll make a group chat.",
+        },
+        {
+          speaker: "Greg",
+          text: "Perfect. We just have to make sure he doesn't find out.",
+        },
+        {
+          speaker: "Fiona",
+          text: "Don't worry, I'm very good at keeping secrets. It'll be a total surprise.",
+        },
+        {
+          speaker: "Greg",
+          text: "I'll bring my old disco ball too. It'll be a great night!",
+        },
+      ],
+      questions: [
+        {
+          question: "What is the occasion for the party?",
+          options: ["A birthday", "A wedding", "Graduation", "A new job"],
+          correct: 2,
+          explanation:
+            "Fiona says: 'throw a surprise party for Sam's graduation.'",
+        },
+        {
+          question: "When and where will the party be?",
+          options: [
+            "Friday at a restaurant",
+            "Saturday at the park",
+            "Friday at Fiona's house",
+            "Sunday at Greg's house",
+          ],
+          correct: 2,
+          explanation: "Fiona suggests 'next Friday evening at my place.'",
+        },
+        {
+          question: "What will Fiona provide for the party?",
+          options: [
+            "Music and drinks",
+            "Sushi and cake",
+            "The disco ball",
+            "Only the garden",
+          ],
+          correct: 1,
+          explanation:
+            "Fiona says: 'I'll order some sushi and make a big cake.'",
+        },
+      ],
+    },
+    {
+      title: "Volunteering",
+      lines: [
+        {
+          speaker: "Grace",
+          text: "I've decided to start volunteering at the animal shelter on weekends.",
+        },
+        {
+          speaker: "Hank",
+          text: "That's wonderful! I know you love animals. What will you be doing?",
+        },
+        {
+          speaker: "Grace",
+          text: "I'll be walking the dogs and cleaning the cages for the kittens.",
+        },
+        {
+          speaker: "Hank",
+          text: "Do you have to go every day or just on Saturdays?",
+        },
+        {
+          speaker: "Grace",
+          text: "Just four hours on Saturday mornings. It's not too much work.",
+        },
+        {
+          speaker: "Hank",
+          text: "Do they have many animals there right now? I might join you.",
+        },
+        {
+          speaker: "Grace",
+          text: "Yes, they have a lot of lonely puppies. They always need more help.",
+        },
+        {
+          speaker: "Hank",
+          text: "I'll come with you next week to see if I can help too.",
+        },
+        {
+          speaker: "Grace",
+          text: "That would be great! The puppies will be so happy to meet you.",
+        },
+      ],
+      questions: [
+        {
+          question: "What will Grace be doing at the shelter?",
+          options: [
+            "Feeding cats",
+            "Walking dogs",
+            "Working at the desk",
+            "Grooming animals",
+          ],
+          correct: 1,
+          explanation: "Grace says: 'I'll be walking the dogs...'",
+        },
+        {
+          question: "How long does Grace volunteer on Saturdays?",
+          options: ["Two hours", "Four hours", "Six hours", "The whole day"],
+          correct: 1,
+          explanation: "Grace says: 'Just four hours on Saturday mornings.'",
+        },
+        {
+          question: "What kind of animals are mentioned as needing help?",
+          options: ["Only cats", "Lonely puppies", "Old horses", "Wild birds"],
+          correct: 1,
+          explanation: "Grace says: 'they have a lot of lonely puppies.'",
+        },
+      ],
+    },
+    {
+      title: "Technology at Home",
+      lines: [
+        {
+          speaker: "Ian",
+          text: "I just bought a new smart speaker for my living room today!",
+        },
+        {
+          speaker: "Jane",
+          text: "Cool! I've seen those in the stores. What can it actually do?",
+        },
+        {
+          speaker: "Ian",
+          text: "It can play my favorite music and tell me the weather forecast.",
+        },
+        {
+          speaker: "Jane",
+          text: "Is it easy to use? I'm not very good with new gadgets.",
+        },
+        {
+          speaker: "Ian",
+          text: "It's very simple. You just talk to it. You don't need any buttons.",
+        },
+        {
+          speaker: "Jane",
+          text: "Does it work in other languages too or just English?",
+        },
+        {
+          speaker: "Ian",
+          text: "It supports many languages. I'm using it to practice my Spanish!",
+        },
+        {
+          speaker: "Jane",
+          text: "That's a very clever way to use it. I might buy one for myself.",
+        },
+      ],
+      questions: [
+        {
+          question: "What can the smart speaker do?",
+          options: [
+            "Cook food",
+            "Play music and tell weather",
+            "Clean the floor",
+            "Make phone calls",
+          ],
+          correct: 1,
+          explanation:
+            "Ian says: 'It can play my favorite music and tell me the weather forecast.'",
+        },
+        {
+          question: "How do you control the smart speaker?",
+          options: [
+            "With buttons",
+            "With a remote",
+            "By talking to it",
+            "With a computer",
+          ],
+          correct: 2,
+          explanation: "Ian says: 'You just talk to it.'",
+        },
+        {
+          question: "What is Ian using the speaker for besides music?",
+          options: [
+            "Playing games",
+            "Practicing Spanish",
+            "Writing emails",
+            "Watching movies",
+          ],
+          correct: 1,
+          explanation: "Ian says: 'I'm using it to practice my Spanish!'",
+        },
+      ],
+    },
+  ],
+  B1: [
+    {
+      title: "Job Interview",
+      lines: [
+        {
+          speaker: "Mr. Smith",
+          text: "Good morning, Rose. Thank you for coming in today. Please take a seat.",
+        },
+        {
+          speaker: "Rose",
+          text: "Good morning, Mr. Smith. Thank you for the opportunity to interview.",
+        },
+        {
+          speaker: "Mr. Smith",
+          text: "I've reviewed your CV. Tell me about your previous experience in marketing.",
+        },
+        {
+          speaker: "Rose",
+          text: "I worked for three years at a boutique agency in Manchester, handling social media campaigns.",
+        },
+        {
+          speaker: "Mr. Smith",
+          text: "That's impressive. Why do you want to work for our company specifically?",
+        },
+        {
+          speaker: "Rose",
+          text: "I admire your commitment to sustainability and your innovative digital strategies.",
+        },
+        {
+          speaker: "Mr. Smith",
+          text: "We do pride ourselves on that. How do you handle tight deadlines?",
+        },
+        {
+          speaker: "Rose",
+          text: "I'm very organized and use project management tools to prioritize tasks effectively.",
+        },
+        {
+          speaker: "Mr. Smith",
+          text: "Excellent. Do you have any questions for us?",
+        },
+        {
+          speaker: "Rose",
+          text: "Yes, could you tell me more about the team dynamic?",
+        },
+      ],
+      questions: [
+        {
+          question: "How long did Rose work at her previous job?",
+          options: ["One year", "Two years", "Three years", "Five years"],
+          correct: 2,
+          explanation: "Rose mentions working for three years.",
+        },
+        {
+          question: "What did Rose handle in her previous role?",
+          options: [
+            "Financial reports",
+            "Social media campaigns",
+            "Customer service",
+            "Product design",
+          ],
+          correct: 1,
+          explanation: "She says she was 'handling social media campaigns'.",
+        },
+        {
+          question: "Why does Rose want to work there?",
+          options: [
+            "High salary",
+            "Convenient location",
+            "Commitment to sustainability",
+            "Friends work there",
+          ],
+          correct: 2,
+          explanation: "She mentions their 'commitment to sustainability'.",
+        },
+      ],
+    },
+    {
+      title: "Workplace Conflict",
+      lines: [
+        {
+          speaker: "Manager",
+          text: "Alex, I've noticed some tension between you and the design team recently.",
+        },
+        {
+          speaker: "Alex",
+          text: "Yes, we've had some disagreements about the new project deadlines. They feel rushed.",
+        },
+        {
+          speaker: "Manager",
+          text: "I understand. It's important that we find a way to communicate more effectively.",
+        },
+        {
+          speaker: "Alex",
+          text: "I agree. I feel like my feedback on the technical limitations isn't being heard.",
+        },
+        {
+          speaker: "Manager",
+          text: "Maybe we should have weekly alignment meetings to discuss progress and blockers.",
+        },
+        {
+          speaker: "Alex",
+          text: "That sounds like a good idea. It would help us stay on the same page.",
+        },
+        {
+          speaker: "Manager",
+          text: "I'll set one up for next Monday. I want everyone to feel supported.",
+        },
+        {
+          speaker: "Alex",
+          text: "Thank you. I think that will really help the team morale.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is the conflict about?",
+          options: [
+            "Salary issues",
+            "Office space",
+            "Project deadlines and communication",
+            "Holiday leave",
+          ],
+          correct: 2,
+          explanation:
+            "Alex mentions disagreements about 'project deadlines' and not being heard.",
+        },
+        {
+          question: "What solution does the Manager propose?",
+          options: [
+            "Firing someone",
+            "Weekly alignment meetings",
+            "Ignoring the problem",
+            "Extending the deadline",
+          ],
+          correct: 1,
+          explanation:
+            "Manager suggests: 'Maybe we should have weekly alignment meetings'.",
+        },
+        {
+          question: "How does Alex feel about the technical feedback?",
+          options: [
+            "It is accepted",
+            "It isn't being heard",
+            "It is wrong",
+            "It is too technical",
+          ],
+          correct: 1,
+          explanation: "Alex says: 'my feedback... isn't being heard'.",
+        },
+      ],
+    },
+    {
+      title: "Travel Experience",
+      lines: [
+        {
+          speaker: "Immigration Officer",
+          text: "Good morning. Welcome to Japan. Is this your first visit?",
+        },
+        {
+          speaker: "Tourist",
+          text: "Yes, it is. I've heard so many wonderful things about the culture and food.",
+        },
+        {
+          speaker: "Immigration Officer",
+          text: "I see. How long do you intend to stay in the country?",
+        },
+        {
+          speaker: "Tourist",
+          text: "I'll be here for two weeks. I'm spending one week in Tokyo and one in Kyoto.",
+        },
+        {
+          speaker: "Immigration Officer",
+          text: "Do you have a return ticket booked?",
+        },
+        {
+          speaker: "Tourist",
+          text: "Yes, I fly back to London on the 24th. Here is the confirmation.",
+        },
+        {
+          speaker: "Immigration Officer",
+          text: "Thank you. And where will you be staying?",
+        },
+        {
+          speaker: "Tourist",
+          text: "I have a reservation at the Sakura Hotel in Shinjuku.",
+        },
+        {
+          speaker: "Immigration Officer",
+          text: "Everything looks in order. Enjoy your stay.",
+        },
+      ],
+      questions: [
+        {
+          question: "Where is the tourist visiting?",
+          options: ["China", "Japan", "Korea", "Thailand"],
+          correct: 1,
+          explanation: "The officer says: 'Welcome to Japan.'",
+        },
+        {
+          question: "How long is the trip?",
+          options: ["One week", "Two weeks", "One month", "Three days"],
+          correct: 1,
+          explanation: "The tourist says: 'I'll be here for two weeks.'",
+        },
+        {
+          question: "Where is the tourist staying?",
+          options: [
+            "With friends",
+            "At a hostel",
+            "At the Sakura Hotel",
+            "At an apartment",
+          ],
+          correct: 2,
+          explanation:
+            "Tourist says: 'I have a reservation at the Sakura Hotel'.",
+        },
+      ],
+    },
+    {
+      title: "Environmental Concern",
+      lines: [
+        {
+          speaker: "Resident",
+          text: "Mr. Mayor, I'm extremely worried about the level of plastic waste in our local park.",
+        },
+        {
+          speaker: "Mayor",
+          text: "I share your concern. We are currently implementing a new recycling scheme to address this.",
+        },
+        {
+          speaker: "Resident",
+          text: "That's good to hear, but the bins are always overflowing. Will there be more available?",
+        },
+        {
+          speaker: "Mayor",
+          text: "Yes, we plan to double the number of recycling bins by the end of the year.",
+        },
+        {
+          speaker: "Resident",
+          text: "What about fines for people who litter? Enforcement seems weak.",
+        },
+        {
+          speaker: "Mayor",
+          text: "We are increasing park patrols next month to catch offenders.",
+        },
+        {
+          speaker: "Resident",
+          text: "I hope that works. We want our children to play safely.",
+        },
+        {
+          speaker: "Mayor",
+          text: "Community involvement is key. We're also hosting a cleanup day on Saturday.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is the new scheme about?",
+          options: [
+            "Tree planting",
+            "Recycling",
+            "Road repairs",
+            "Library building",
+          ],
+          correct: 1,
+          explanation: "The mayor mentions a 'new recycling scheme.'",
+        },
+        {
+          question: "What is the resident's complaint about bins?",
+          options: [
+            "They are the wrong color",
+            "They are broken",
+            "They are always overflowing",
+            "There are too many",
+          ],
+          correct: 2,
+          explanation: "Resident says: 'the bins are always overflowing'.",
+        },
+        {
+          question: "What immediate action is happening on Saturday?",
+          options: [
+            "A cleanup day",
+            "A protest",
+            "A new park opening",
+            "A festival",
+          ],
+          correct: 0,
+          explanation: "Mayor says: 'hosting a cleanup day on Saturday'.",
+        },
+      ],
+    },
+    {
+      title: "Technology Trends",
+      lines: [
+        {
+          speaker: "Journalist",
+          text: "Dr. Chen, are you surprised by the rapid adoption of AI in healthcare recently?",
+        },
+        {
+          speaker: "Expert",
+          text: "Not really. The potential for improved diagnostics and personalized medicine is immense.",
+        },
+        {
+          speaker: "Journalist",
+          text: "What about the concerns regarding patient privacy and data security?",
+        },
+        {
+          speaker: "Expert",
+          text: "That's a valid concern that must be addressed through strict global regulations.",
+        },
+        {
+          speaker: "Journalist",
+          text: "Do you think AI will eventually replace doctors?",
+        },
+        {
+          speaker: "Expert",
+          text: "No, I view it as a powerful tool to assist doctors, not replace them.",
+        },
+        {
+          speaker: "Journalist",
+          text: "So, the human element remains essential?",
+        },
+        {
+          speaker: "Expert",
+          text: "Absolutely. Empathy and complex decision-making are uniquely human traits.",
+        },
+      ],
+      questions: [
+        {
+          question: "What sector is adopting AI rapidly?",
+          options: ["Agriculture", "Education", "Healthcare", "Finance"],
+          correct: 2,
+          explanation: "The journalist asks about AI in 'healthcare.'",
+        },
+        {
+          question: "What is the expert's view on replacing doctors?",
+          options: [
+            "It will happen soon",
+            "It won't happen",
+            "It's already happening",
+            "It depends on the country",
+          ],
+          correct: 1,
+          explanation: "Expert says: 'No... assist doctors, not replace them.'",
+        },
+        {
+          question: "What human traits does the expert highlight?",
+          options: [
+            "Speed and accuracy",
+            "Memory and calculation",
+            "Empathy and decision-making",
+            "Strength and endurance",
+          ],
+          correct: 2,
+          explanation: "Expert mentions 'Empathy and complex decision-making'.",
+        },
+      ],
+    },
+    {
+      title: "Cultural Exchange",
+      lines: [
+        {
+          speaker: "Host",
+          text: "In England, a typical full breakfast consists of eggs, bacon, sausages, and baked beans.",
+        },
+        {
+          speaker: "Student",
+          text: "That sounds very heavy! In my country, we usually have rice, fish, and miso soup.",
+        },
+        {
+          speaker: "Host",
+          text: "That sounds very healthy. Do you eat that every single day?",
+        },
+        {
+          speaker: "Student",
+          text: "Most days, yes. It gives us a lot of energy for the morning without feeling too full.",
+        },
+        {
+          speaker: "Host",
+          text: "I'd love to try it sometime. Do you know how to cook it?",
+        },
+        {
+          speaker: "Student",
+          text: "Yes, I can make it for you this weekend. I just need to buy some fresh fish.",
+        },
+        {
+          speaker: "Host",
+          text: "Perfect! I'll drive us to the fish market on Saturday morning.",
+        },
+        {
+          speaker: "Student",
+          text: "Thank you. I'm excited to share my culture with you.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is in a typical English breakfast?",
+          options: [
+            "Rice and soup",
+            "Eggs, bacon, and beans",
+            "Bread and cheese",
+            "Fruit salad",
+          ],
+          correct: 1,
+          explanation:
+            "The host lists 'eggs, bacon, sausages, and baked beans.'",
+        },
+        {
+          question: "Why does the student like their country's breakfast?",
+          options: [
+            "It is cheap",
+            "It is sweet",
+            "It is energy-giving but light",
+            "It is easy to find",
+          ],
+          correct: 2,
+          explanation:
+            "Student says: 'gives us a lot of energy... without feeling too full.'",
+        },
+        {
+          question: "What will happen this weekend?",
+          options: [
+            "They will go to a restaurant",
+            "The student will cook breakfast",
+            "The host will cook dinner",
+            "They will go fishing",
+          ],
+          correct: 1,
+          explanation: "Student says: 'I can make it for you this weekend.'",
+        },
+      ],
+    },
+    {
+      title: "Booking a Tour",
+      lines: [
+        {
+          speaker: "Travel Agent",
+          text: "Good afternoon. Which tour group are you interested in joining?",
+        },
+        {
+          speaker: "Customer",
+          text: "I'm looking at the 'Historical Wonders' tour of Rome. Is it still available?",
+        },
+        {
+          speaker: "Travel Agent",
+          text: "Yes, we have spaces for next Tuesday. It's a full-day tour starting at 8 AM.",
+        },
+        {
+          speaker: "Customer",
+          text: "Does it cover entry fees for the Colosseum and the Vatican Museum?",
+        },
+        {
+          speaker: "Travel Agent",
+          text: "Yes, all entry fees and a buffet lunch are included in the price.",
+        },
+        {
+          speaker: "Customer",
+          text: "That sounds good. How much is it per person?",
+        },
+        {
+          speaker: "Travel Agent",
+          text: "It's 120 Euros per adult. We also provide a professional English-speaking guide.",
+        },
+        {
+          speaker: "Customer",
+          text: "I'll take two tickets, please. Can I pay by card?",
+        },
+        {
+          speaker: "Travel Agent",
+          text: "Certainly. Please insert your card here.",
+        },
+      ],
+      questions: [
+        {
+          question: "Where is the tour located?",
+          options: ["Paris", "Rome", "Athens", "London"],
+          correct: 1,
+          explanation: "The customer mentions the tour of 'Rome.'",
+        },
+        {
+          question: "What is included in the price?",
+          options: [
+            "Flight tickets",
+            "Hotel stay",
+            "Entry fees and lunch",
+            "Dinner and drinks",
+          ],
+          correct: 2,
+          explanation:
+            "Agent says: 'all entry fees and a buffet lunch are included'.",
+        },
+        {
+          question: "How much does the tour cost for one person?",
+          options: ["80 Euros", "100 Euros", "120 Euros", "150 Euros"],
+          correct: 2,
+          explanation: "Agent says: 'It's 120 Euros per adult.'",
+        },
+      ],
+    },
+    {
+      title: "Office Technology",
+      lines: [
+        {
+          speaker: "IT Support",
+          text: "Hi Mark, is your computer still running slowly?",
+        },
+        {
+          speaker: "Employee",
+          text: "Yes, it's very frustrating. Especially when I try to run video calls and spreadsheets.",
+        },
+        {
+          speaker: "IT Support",
+          text: "I suspect it's a memory issue. I'll need to upgrade your RAM.",
+        },
+        {
+          speaker: "Employee",
+          text: "How long will that take? I have a meeting in two hours.",
+        },
+        {
+          speaker: "IT Support",
+          text: "It should only take about thirty minutes. I have the parts here.",
+        },
+        {
+          speaker: "Employee",
+          text: "Okay, can I borrow a loaner laptop while you work on it?",
+        },
+        {
+          speaker: "IT Support",
+          text: "Sure, use this one. It's connected to the cloud so you can access your files.",
+        },
+        { speaker: "Employee", text: "Thanks. You're a lifesaver!" },
+      ],
+      questions: [
+        {
+          question: "What is the problem with the computer?",
+          options: [
+            "It won't turn on",
+            "The screen is broken",
+            "It is running slowly",
+            "The internet is down",
+          ],
+          correct: 2,
+          explanation:
+            "IT Support asks: 'Is your computer still running slowly?'",
+        },
+        {
+          question: "What is the diagnosis?",
+          options: ["Virus", "Memory issue", "Old battery", "Broken fan"],
+          correct: 1,
+          explanation: "IT Support says: 'I suspect it's a memory issue.'",
+        },
+        {
+          question: "How will the employee continue working?",
+          options: [
+            "By using a phone",
+            "By taking a break",
+            "By using a loaner laptop",
+            "By writing on paper",
+          ],
+          correct: 2,
+          explanation: "Employee asks: 'can I borrow a loaner laptop...'",
+        },
+      ],
+    },
+    {
+      title: "Discussing a Book",
+      lines: [
+        {
+          speaker: "Reader A",
+          text: "I just finished 'The Silent Ocean'. What did you think of the ending?",
+        },
+        {
+          speaker: "Reader B",
+          text: "Honestly, I found it a bit disappointing. I expected a more dramatic climax.",
+        },
+        {
+          speaker: "Reader A",
+          text: "Really? I thought it was wonderful. It was a very subtle and emotional way to finish.",
+        },
+        {
+          speaker: "Reader B",
+          text: "I felt like the main character's journey was unresolved. We don't know if he survived.",
+        },
+        {
+          speaker: "Reader A",
+          text: "That ambiguity is the point! The author wants us to decide for ourselves.",
+        },
+        {
+          speaker: "Reader B",
+          text: "I suppose so. I just prefer more definite endings.",
+        },
+        {
+          speaker: "Reader A",
+          text: "Did you like the writing style, at least?",
+        },
+        {
+          speaker: "Reader B",
+          text: "Yes, the descriptions of the sea were beautiful.",
+        },
+      ],
+      questions: [
+        {
+          question: "How did Reader B feel about the ending?",
+          options: ["Excited", "Happy", "Disappointed", "Confused"],
+          correct: 2,
+          explanation: "Reader B says: 'I found it a bit disappointing.'",
+        },
+        {
+          question: "Why did Reader A like the ending?",
+          options: [
+            "It was action-packed",
+            "It was subtle and emotional",
+            "It was funny",
+            "It was very long",
+          ],
+          correct: 1,
+          explanation:
+            "Reader A says: 'It was a very subtle and emotional way to finish.'",
+        },
+        {
+          question: "What did both readers agree was good?",
+          options: [
+            "The plot",
+            "The characters",
+            "The descriptions",
+            "The dialogue",
+          ],
+          correct: 2,
+          explanation:
+            "Reader B agrees: 'the descriptions of the sea were beautiful.'",
+        },
+      ],
+    },
+    {
+      title: "At the Bank",
+      lines: [
+        {
+          speaker: "Banker",
+          text: "Good morning, Mr. Jones. How can I assist you today?",
+        },
+        {
+          speaker: "Mr. Jones",
+          text: "I'd like to open a savings account for my teenage daughter.",
+        },
+        {
+          speaker: "Banker",
+          text: "Excellent choice. We have a 'Junior Saver' account with a 4% interest rate.",
+        },
+        {
+          speaker: "Mr. Jones",
+          text: "That sounds perfect. Does it come with a debit card?",
+        },
+        {
+          speaker: "Banker",
+          text: "Yes, a debit card with spending limits you can control via our app.",
+        },
+        {
+          speaker: "Mr. Jones",
+          text: "Great. What documents do I need to provide right now?",
+        },
+        {
+          speaker: "Banker",
+          text: "I'll need your ID, proof of address, and her birth certificate.",
+        },
+        { speaker: "Mr. Jones", text: "I have them all here in this folder." },
+        {
+          speaker: "Banker",
+          text: "Perfect. Let's get the paperwork started.",
+        },
+      ],
+      questions: [
+        {
+          question: "Why is Mr. Jones at the bank?",
+          options: [
+            "To withdraw cash",
+            "To open a savings account",
+            "To pay a mortgage",
+            "To report a stolen card",
+          ],
+          correct: 1,
+          explanation:
+            "Mr. Jones says: 'I'd like to open a savings account...'",
+        },
+        {
+          question: "What feature does the debit card have?",
+          options: [
+            "Unlimited spending",
+            "No pin code",
+            "Spending limits controlled by app",
+            "Free cinema tickets",
+          ],
+          correct: 2,
+          explanation:
+            "Banker says: 'spending limits you can control via our app.'",
+        },
+        {
+          question: "What documents are required?",
+          options: [
+            "Only ID",
+            "ID, proof of address, birth certificate",
+            "Passport only",
+            "School report",
+          ],
+          correct: 1,
+          explanation:
+            "Banker lists: 'your ID, proof of address, and her birth certificate.'",
+        },
+      ],
+    },
+    {
+      title: "Weather Warning",
+      lines: [
+        {
+          speaker: "News Reporter",
+          text: "We are interrupting this broadcast with a severe storm warning for the entire coastal region.",
+        },
+        {
+          speaker: "Resident",
+          text: "I saw the clouds gathering this morning. It looks very ominous.",
+        },
+        {
+          speaker: "News Reporter",
+          text: "Officials are advising all residents to board up windows and stay indoors until further notice.",
+        },
+        {
+          speaker: "Resident",
+          text: "We've already secured the loose garden furniture and bought extra batteries.",
+        },
+        {
+          speaker: "News Reporter",
+          text: "That is wise. Power outages are expected to last for at least 24 hours.",
+        },
+        {
+          speaker: "Resident",
+          text: "We have plenty of canned food and bottled water, so we should be safe.",
+        },
+        {
+          speaker: "News Reporter",
+          text: "Please monitor local radio stations for updates as the situation develops.",
+        },
+        { speaker: "Resident", text: "We will. Stay safe out there." },
+      ],
+      questions: [
+        {
+          question: "What is the warning about?",
+          options: [
+            "A heatwave",
+            "A severe storm",
+            "A tsunami",
+            "An earthquake",
+          ],
+          correct: 1,
+          explanation: "News Reporter says: 'severe storm warning'.",
+        },
+        {
+          question: "What preparation has the resident already done?",
+          options: [
+            "Evacuated the house",
+            "Bought a generator",
+            "Secured garden furniture",
+            "Called the police",
+          ],
+          correct: 2,
+          explanation:
+            "Resident says: 'already secured the loose garden furniture'.",
+        },
+        {
+          question: "How long might the power outage last?",
+          options: ["One hour", "Six hours", "12 hours", "At least 24 hours"],
+          correct: 3,
+          explanation:
+            "News Reporter says: 'expected to last for at least 24 hours.'",
+        },
+      ],
+    },
+    {
+      title: "New Product Idea",
+      lines: [
+        {
+          speaker: "Product Designer",
+          text: "I've been working on a concept for eco-friendly packaging for our fruit juices.",
+        },
+        {
+          speaker: "CEO",
+          text: "That aligns with our sustainability goals. What material are you proposing?",
+        },
+        {
+          speaker: "Product Designer",
+          text: "It's a biodegradable plastic made from seaweed. It decomposes in just six weeks.",
+        },
+        {
+          speaker: "CEO",
+          text: "Impressive. How does the cost compare to our current plastic bottles?",
+        },
+        {
+          speaker: "Product Designer",
+          text: "It's currently about 20% more expensive, but the price will drop with mass production.",
+        },
+        {
+          speaker: "CEO",
+          text: "The marketing benefits might outweigh the initial cost. Customers are demanding green solutions.",
+        },
+        {
+          speaker: "Product Designer",
+          text: "Exactly. I can have a prototype ready for the board meeting next Monday.",
+        },
+        { speaker: "CEO", text: "Please do. I'm very interested to see it." },
+      ],
+      questions: [
+        {
+          question: "What is the new material made from?",
+          options: ["Corn starch", "Recycled paper", "Seaweed", "Bamboo"],
+          correct: 2,
+          explanation: "Designer says: 'made from seaweed.'",
+        },
+        {
+          question: "What is the main drawback currently?",
+          options: [
+            "It smells bad",
+            "It is expensive",
+            "It is weak",
+            "It is ugly",
+          ],
+          correct: 1,
+          explanation:
+            "Designer says: 'It's currently about 20% more expensive'.",
+        },
+        {
+          question: "When will the prototype be ready?",
+          options: ["Tomorrow", "Next Monday", "Next month", "In six weeks"],
+          correct: 1,
+          explanation:
+            "Designer says: 'prototype ready for the board meeting next Monday.'",
+        },
+      ],
+    },
+    {
+      title: "Learning a Language",
+      lines: [
+        {
+          speaker: "Teacher",
+          text: "Sarah, you've made excellent progress with your speaking skills this semester.",
+        },
+        {
+          speaker: "Student",
+          text: "Thank you. I've been watching movies in English without subtitles.",
+        },
+        {
+          speaker: "Teacher",
+          text: "That's a great strategy. Now, we need to focus on expanding your vocabulary.",
+        },
+        {
+          speaker: "Student",
+          text: "I struggle with that. There are so many new words to learn.",
+        },
+        {
+          speaker: "Teacher",
+          text: "Try reading news articles about topics you enjoy. Underline the unknown words.",
+        },
+        {
+          speaker: "Student",
+          text: "Should I look them up in the dictionary immediately?",
+        },
+        {
+          speaker: "Teacher",
+          text: "Try to guess the meaning from the context first, then check the dictionary.",
+        },
+        {
+          speaker: "Student",
+          text: "I'll try that. I usually check immediately.",
+        },
+      ],
+      questions: [
+        {
+          question: "How has the student improved her speaking?",
+          options: [
+            "Reading books",
+            "Watching movies without subtitles",
+            "Listening to music",
+            "Talking to tourists",
+          ],
+          correct: 1,
+          explanation:
+            "Student says: 'watching movies in English without subtitles.'",
+        },
+        {
+          question: "What does the teacher suggest for vocabulary?",
+          options: [
+            "Memorizing lists",
+            "Reading news articles",
+            "Playing games",
+            "Writing essays",
+          ],
+          correct: 1,
+          explanation:
+            "Teacher suggests: 'reading news articles about topics you enjoy.'",
+        },
+        {
+          question:
+            "What strategy does the teacher recommend for unknown words?",
+          options: [
+            "Ignore them",
+            "Ask a friend",
+            "Guess from context",
+            "Use a translator immediately",
+          ],
+          correct: 2,
+          explanation:
+            "Teacher says: 'Try to guess the meaning from the context first'.",
+        },
+      ],
+    },
+    {
+      title: "Team Building",
+      lines: [
+        {
+          speaker: "Team Leader",
+          text: "I want to arrange a team-building activity for next month to boost morale.",
+        },
+        {
+          speaker: "Team Member",
+          text: "That sounds fun. How about something active like an escape room?",
+        },
+        {
+          speaker: "Team Leader",
+          text: "I like that idea. It forces everyone to communicate and solve problems together.",
+        },
+        {
+          speaker: "Team Member",
+          text: "Exactly. It's better than just going for a dinner where people sit in separate groups.",
+        },
+        {
+          speaker: "Team Leader",
+          text: "Do you know of any good venues in the city center?",
+        },
+        {
+          speaker: "Team Member",
+          text: "There is a highly rated one near the station. They have a 'Bank Heist' room.",
+        },
+        {
+          speaker: "Team Leader",
+          text: "I'll check the budget and see if we can book it for Friday afternoon.",
+        },
+        {
+          speaker: "Team Member",
+          text: "Great. I'll ask the team which date works best for them.",
+        },
+      ],
+      questions: [
+        {
+          question: "Why does the leader want a team-building activity?",
+          options: [
+            "To celebrate a win",
+            "To boost morale",
+            "To welcome a new member",
+            "To spend budget",
+          ],
+          correct: 1,
+          explanation: "Leader says: 'to boost morale.'",
+        },
+        {
+          question: "Why do they prefer an escape room over dinner?",
+          options: [
+            "It is cheaper",
+            "The food is bad",
+            "It encourages communication",
+            "They are not hungry",
+          ],
+          correct: 2,
+          explanation:
+            "Leader says: 'forces everyone to communicate'; Member agrees it prevents separate groups.",
+        },
+        {
+          question: "What theme is the specific room mentioned?",
+          options: [
+            "Space Station",
+            "Haunted House",
+            "Bank Heist",
+            "Jungle Adventure",
+          ],
+          correct: 2,
+          explanation: "Member mentions a ''Bank Heist' room.'",
+        },
+      ],
+    },
+    {
+      title: "Healthy Eating Discussion",
+      lines: [
+        {
+          speaker: "Friend A",
+          text: "I've decided to try going vegan for 'Veganuary' to see how I feel.",
+        },
+        {
+          speaker: "Friend B",
+          text: "That's a big change! Is it difficult to get enough protein?",
+        },
+        {
+          speaker: "Friend A",
+          text: "Not really. I've been eating lots of lentils, chickpeas, and tofu curries.",
+        },
+        {
+          speaker: "Friend B",
+          text: "I do like lentils. Do you feel any different physically?",
+        },
+        {
+          speaker: "Friend A",
+          text: "I actually have more energy in the mornings, and I sleep better.",
+        },
+        {
+          speaker: "Friend B",
+          text: "Maybe I should join you for a week. I need to eat more vegetables.",
+        },
+        {
+          speaker: "Friend A",
+          text: "You should! I can send you a great recipe for spicy bean burgers.",
+        },
+        {
+          speaker: "Friend B",
+          text: "That would be great. Let's send it to me now.",
+        },
+      ],
+      questions: [
+        {
+          question: "When is Friend A trying the diet?",
+          options: ["Summer", "Veganuary", "Christmas", "Easter"],
+          correct: 1,
+          explanation: "Friend A mentions 'going vegan for 'Veganuary''.",
+        },
+        {
+          question: "What benefits has Friend A noticed?",
+          options: [
+            "Lost weight",
+            "More energy and better sleep",
+            "Better skin",
+            "Saved money",
+          ],
+          correct: 1,
+          explanation:
+            "Friend A says: 'more energy in the mornings, and I sleep better.'",
+        },
+        {
+          question: "What recipe will Friend A share?",
+          options: [
+            "Lentil soup",
+            "Tofu stir-fry",
+            "Spicy bean burgers",
+            "Vegetable pasta",
+          ],
+          correct: 2,
+          explanation: "Friend A offers a recipe for 'spicy bean burgers.'",
+        },
+      ],
+    },
+    {
+      title: "Public Transport Issues",
+      lines: [
+        {
+          speaker: "Commuter",
+          text: "Excuse me, the Number 10 bus has been very unreliable lately.",
+        },
+        {
+          speaker: "Transport Clerk",
+          text: "We apologize for the inconvenience. There are some major roadworks in the city center.",
+        },
+        {
+          speaker: "Commuter",
+          text: "I understand, but it's making me late for work almost every morning this week.",
+        },
+        {
+          speaker: "Transport Clerk",
+          text: "We are adding extra buses during peak hours to try to resolve the issue.",
+        },
+        {
+          speaker: "Commuter",
+          text: "When will the roadworks be finished? It's been a month already.",
+        },
+        {
+          speaker: "Transport Clerk",
+          text: "They are scheduled to finish by next Friday, according to the council.",
+        },
+        {
+          speaker: "Commuter",
+          text: "I hope so. Otherwise, I might have to start taking the train.",
+        },
+        {
+          speaker: "Transport Clerk",
+          text: "The train is a good alternative. It's unaffected by the traffic.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is causing the bus delays?",
+          options: [
+            "Lack of drivers",
+            "Bad weather",
+            "Roadworks",
+            "Broken buses",
+          ],
+          correct: 2,
+          explanation:
+            "The clerk mentions 'major roadworks in the city center.'",
+        },
+        {
+          question: "How is the company trying to fix the problem?",
+          options: [
+            "Changing the route",
+            "Adding extra buses",
+            "Refunding tickets",
+            "Canceling the service",
+          ],
+          correct: 1,
+          explanation: "Clerk says: 'adding extra buses during peak hours.'",
+        },
+        {
+          question: "What alternative transport is suggested?",
+          options: ["Taxi", "Bicycle", "Train", "Walking"],
+          correct: 2,
+          explanation:
+            "Commuter mentions 'taking the train' and Clerk agrees it's a good alternative.",
+        },
+      ],
+    },
+    {
+      title: "Discussing Technology",
+      lines: [
+        {
+          speaker: "Alice",
+          text: "Do you think smartwatches will eventually replace professional cameras?",
+        },
+        {
+          speaker: "Bob",
+          text: "You mean smartphones? Probably not for professionals. The sensor size is too small.",
+        },
+        {
+          speaker: "Alice",
+          text: "Yes, smartphones, sorry. But for everyday photos, they're becoming amazing.",
+        },
+        {
+          speaker: "Bob",
+          text: "Agreed. Convenience is their biggest advantage. The best camera is the one you have with you.",
+        },
+        {
+          speaker: "Alice",
+          text: "Exactly. I took some great photos of the sunset yesterday with my phone.",
+        },
+        {
+          speaker: "Bob",
+          text: "Did you use any editing apps? The colors look incredible.",
+        },
+        {
+          speaker: "Alice",
+          text: "No, that was the raw image. The software processing is getting really smart.",
+        },
+        {
+          speaker: "Bob",
+          text: "It's scary how fast technology moves. My old DSLR gathers dust now.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is the main advantage of smartphones mentioned?",
+          options: ["Lens quality", "Sensor size", "Convenience", "Price"],
+          correct: 2,
+          explanation: "Bob says: 'Convenience is their biggest advantage.'",
+        },
+        {
+          question: "Why won't they replace professional cameras soon?",
+          options: [
+            "They are too expensive",
+            "The sensor size is too small",
+            "They are hard to use",
+            "They have no zoom",
+          ],
+          correct: 1,
+          explanation: "Bob says: 'The sensor size is too small.'",
+        },
+        {
+          question: "What did Alice photograph?",
+          options: ["A portrait", "A landscape", "A sunset", "A building"],
+          correct: 2,
+          explanation: "Alice says: 'took some great photos of the sunset.'",
+        },
+      ],
+    },
+    {
+      title: "Holiday Planning",
+      lines: [
+        {
+          speaker: "Partner A",
+          text: "Should we book our summer holiday soon? Prices are going up.",
+        },
+        {
+          speaker: "Partner B",
+          text: "Good idea. Do you prefer the seaside or the mountains this year?",
+        },
+        {
+          speaker: "Partner A",
+          text: "I'd prefer the mountains. I want to escape the heat and do some hiking.",
+        },
+        {
+          speaker: "Partner B",
+          text: "That sounds nice. We could rent a small cottage with a view of the valley.",
+        },
+        {
+          speaker: "Partner A",
+          text: "Exactly. And we can take the dog with us if we drive.",
+        },
+        {
+          speaker: "Partner B",
+          text: "I'll check some travel websites tonight for rental cottages.",
+        },
+        {
+          speaker: "Partner A",
+          text: "Don't forget to check if they have a fireplace for the evenings.",
+        },
+        { speaker: "Partner B", text: "Will do. It will be very romantic." },
+      ],
+      questions: [
+        {
+          question: "Where does Partner A want to go?",
+          options: [
+            "The seaside",
+            "The mountains",
+            "The city",
+            "Except the desert",
+          ],
+          correct: 1,
+          explanation: "Partner A says: 'I'd prefer the mountains.'",
+        },
+        {
+          question: "Why do they want to drive?",
+          options: [
+            "It is cheaper",
+            "To take the dog",
+            "To enjoy the view",
+            "They hate flying",
+          ],
+          correct: 1,
+          explanation: "Partner A says: 'take the dog with us if we drive.'",
+        },
+        {
+          question: "What feature do they want in the cottage?",
+          options: [
+            "A swimming pool",
+            "A large kitchen",
+            "A fireplace",
+            "A garden",
+          ],
+          correct: 2,
+          explanation: "Partner A asks to check if they have a 'fireplace.'",
+        },
+      ],
+    },
+    {
+      title: "Science News",
+      lines: [
+        {
+          speaker: "Scientist A",
+          text: "Did you read the report about the new star discovery?",
+        },
+        {
+          speaker: "Scientist B",
+          text: "Yes, the one suggesting the star is much older than we previously thought?",
+        },
+        {
+          speaker: "Scientist A",
+          text: "Exactly. It challenges our current understanding of star formation.",
+        },
+        {
+          speaker: "Scientist B",
+          text: "Are you sure the data is correct? The chemical composition was unusual.",
+        },
+        {
+          speaker: "Scientist A",
+          text: "The team used the new space telescope. The images are very clear.",
+        },
+        {
+          speaker: "Scientist B",
+          text: "That is exciting. It means we might need to rewrite the textbooks.",
+        },
+        {
+          speaker: "Scientist A",
+          text: "I'm going to the conference next month to hear the presentation.",
+        },
+        {
+          speaker: "Scientist B",
+          text: "I'd love to go too. It will be a historic moment for astronomy.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is the discussion about?",
+          options: ["A new planet", "An old star", "A black hole", "A comet"],
+          correct: 1,
+          explanation:
+            "Scientist B mentions 'the star is much older than we previously thought.'",
+        },
+        {
+          question: "What tool was used for the discovery?",
+          options: [
+            "A microscope",
+            "A space telescope",
+            "A computer simulation",
+            "A satellite",
+          ],
+          correct: 1,
+          explanation:
+            "Scientist A says: 'The team used the new space telescope.'",
+        },
+        {
+          question: "What is the implication of this discovery?",
+          options: [
+            "Nothing changes",
+            "Textbooks might be rewritten",
+            "The star will explode",
+            "Aliens exist",
+          ],
+          correct: 1,
+          explanation:
+            "Scientist B says: 'might need to rewrite the textbooks.'",
+        },
+      ],
+    },
+    {
+      title: "At the Art Gallery",
+      lines: [
+        {
+          speaker: "Guide",
+          text: "This painting, 'The Blue Hour', was created during the artist's final years in Paris.",
+        },
+        {
+          speaker: "Visitor",
+          text: "It's beautiful. The use of blue is quite different from his earlier, brighter works.",
+        },
+        {
+          speaker: "Guide",
+          text: "Indeed. It reflects a more sombre and reflective mood during that period of his life.",
+        },
+        {
+          speaker: "Visitor",
+          text: "The figures look very lonely. Is there a story behind it?",
+        },
+        {
+          speaker: "Guide",
+          text: "Yes, he had just lost his wife. He painted this to express his grief.",
+        },
+        {
+          speaker: "Visitor",
+          text: "That explains the emotion I feel. It's truly moving.",
+        },
+        {
+          speaker: "Guide",
+          text: "Many critics consider it his masterpiece because of that raw emotion.",
+        },
+        {
+          speaker: "Visitor",
+          text: "I can see why. I could look at it for hours.",
+        },
+      ],
+      questions: [
+        {
+          question: "Where was the painting created?",
+          options: ["London", "Paris", "New York", "Rome"],
+          correct: 1,
+          explanation:
+            "The guide says: 'created during the artist's final years in Paris.'",
+        },
+        {
+          question: "How does the painting compare to earlier works?",
+          options: [
+            "It is brighter",
+            "It is bigger",
+            "It is more sombre/blue",
+            "It is abstract",
+          ],
+          correct: 2,
+          explanation:
+            "Visitor mentions 'use of blue'; Guide confirms 'more sombre mood'.",
+        },
+        {
+          question: "Why did the artist paint it?",
+          options: [
+            "To make money",
+            "To express grief",
+            "To celebrate a wedding",
+            "To practice technique",
+          ],
+          correct: 1,
+          explanation:
+            "Guide says: 'painted this to express his grief' after losing his wife.",
+        },
+      ],
+    },
+  ],
+  B2: [
+    {
+      title: "Remote Work Debate",
+      lines: [
+        {
+          speaker: "Manager",
+          text: "We need to consider bringing the team back to the office at least three days a week.",
+        },
+        {
+          speaker: "Developer",
+          text: "Given our current productivity levels, I'm not sure that's necessary. Remote work has been highly effective for us.",
+        },
+        {
+          speaker: "Manager",
+          text: "While productivity is high, I'm concerned about the erosion of our company culture and spontaneous collaboration.",
+        },
+        {
+          speaker: "Developer",
+          text: "We could implement virtual team-building sessions to address that, rather than mandating a commute.",
+        },
+        {
+          speaker: "Manager",
+          text: "True, but face-to-face interaction has a value that digital platforms can't fully replicate.",
+        },
+        {
+          speaker: "Developer",
+          text: "Perhaps we could try a flexible hybrid model where teams choose their own in-office days?",
+        },
+        {
+          speaker: "Manager",
+          text: "That could work, provided we have core hours where everyone is available.",
+        },
+        {
+          speaker: "Developer",
+          text: "I think the team would be much more open to that suggestion.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is the Manager's main concern about remote work?",
+          options: [
+            "Decreased productivity",
+            "High costs",
+            "Erosion of company culture",
+            "Internet connectivity issues",
+          ],
+          correct: 2,
+          explanation:
+            "The manager says: 'I'm concerned about the erosion of our company culture...'",
+        },
+        {
+          question: "What alternative does the Developer suggest first?",
+          options: [
+            "A hybrid model",
+            "Virtual team-building sessions",
+            "Longer hours",
+            "More holidays",
+          ],
+          correct: 1,
+          explanation:
+            "Developer suggests: 'We could implement virtual team-building sessions...'",
+        },
+        {
+          question:
+            "What requirement does the Manager add to the hybrid suggestion?",
+          options: [
+            "Core hours availability",
+            "Specific dress code",
+            "Fixed lunch breaks",
+            "No meetings on Fridays",
+          ],
+          correct: 0,
+          explanation:
+            "Manager says: 'provided we have core hours where everyone is available.'",
+        },
+      ],
+    },
+    {
+      title: "Ocean Plastic Pollution",
+      lines: [
+        {
+          speaker: "Marine Biologist",
+          text: "The concentration of microplastics in this area is significantly higher than our baseline data from last year.",
+        },
+        {
+          speaker: "Volunteer",
+          text: "It's devastating to see how it affects the local marine life. I found sea birds eating plastic caps.",
+        },
+        {
+          speaker: "Marine Biologist",
+          text: "We need more than just beach cleanups; we need systemic changes in how plastic is produced and disposed of.",
+        },
+        {
+          speaker: "Volunteer",
+          text: "Do you think the new international treaty will make a real difference?",
+        },
+        {
+          speaker: "Marine Biologist",
+          text: "It's a step in the right direction, but enforcement remains a major hurdle. Countries need to commit funding.",
+        },
+        {
+          speaker: "Volunteer",
+          text: "What can we do as individuals in the meantime?",
+        },
+        {
+          speaker: "Marine Biologist",
+          text: "Reduce single-use plastics and support businesses that prioritize sustainable packaging.",
+        },
+        {
+          speaker: "Volunteer",
+          text: "I'll start by auditing my own plastic consumption at home.",
+        },
+      ],
+      questions: [
+        {
+          question:
+            "What does the biologist believe is necessary to fix the problem?",
+          options: [
+            "More beach cleanups",
+            "Systemic changes in production and disposal",
+            "Higher taxes on fish",
+            "Better telescopes",
+          ],
+          correct: 1,
+          explanation:
+            "The biologist says: 'we need systemic changes in how plastic is produced and disposed of.'",
+        },
+        {
+          question: "What is the hurdle for the international treaty?",
+          options: [
+            "Lack of interest",
+            "Enforcement",
+            "Scientific data",
+            "Weather conditions",
+          ],
+          correct: 1,
+          explanation: "Biologist says: 'enforcement remains a major hurdle.'",
+        },
+        {
+          question: "What personal action does the Volunteer decide to take?",
+          options: [
+            "Join a protest",
+            "Audit their plastic consumption",
+            "Write a letter",
+            "Clean the beach",
+          ],
+          correct: 1,
+          explanation:
+            "Volunteer says: 'audit my own plastic consumption at home.'",
+        },
+      ],
+    },
+    {
+      title: "Artificial Intelligence Ethics",
+      lines: [
+        {
+          speaker: "Researcher",
+          text: "We've developed an algorithm that can predict consumer health risks with 90% accuracy.",
+        },
+        {
+          speaker: "Ethics Officer",
+          text: "While technically impressive, we must consider the potential for insurance companies to misuse this data.",
+        },
+        {
+          speaker: "Researcher",
+          text: "Our primary goal is preventive care, allowing users to make lifestyle changes early.",
+        },
+        {
+          speaker: "Ethics Officer",
+          text: "The intention is noble, but the data privacy risks are substantial. We need robust safeguards.",
+        },
+        {
+          speaker: "Researcher",
+          text: "We can anonymize the data before it leaves our secure servers.",
+        },
+        {
+          speaker: "Ethics Officer",
+          text: "That helps, but re-identification is easier than you think. We need legal contracts preventing data sale.",
+        },
+        {
+          speaker: "Researcher",
+          text: "I agree. Trust is essential for user adoption.",
+        },
+      ],
+      questions: [
+        {
+          question:
+            "What is the potential misuse mentioned by the Ethics Officer?",
+          options: [
+            "Hacking by foreign governments",
+            "Misuse of data by insurance companies",
+            "Decreased accuracy of predictions",
+            "Reduced funding for research",
+          ],
+          correct: 1,
+          explanation:
+            "The Ethics Officer mentions 'the potential for insurance companies to misuse this data.'",
+        },
+        {
+          question: "What is the researcher's primary goal?",
+          options: [
+            "Preventive care",
+            "Maximizing profit",
+            "Social control",
+            "Political campaigning",
+          ],
+          correct: 0,
+          explanation:
+            "Researcher says: 'Our primary goal is preventive care...'",
+        },
+        {
+          question: "What safeguard does the Ethics Officer suggest?",
+          options: [
+            "Deleting the data",
+            "Legal contracts preventing sale",
+            "Shutting down the project",
+            "Making it open source",
+          ],
+          correct: 1,
+          explanation:
+            "Ethics Officer says: 'We need legal contracts preventing data sale.'",
+        },
+      ],
+    },
+    {
+      title: "Luxury Travel Trends",
+      lines: [
+        {
+          speaker: "Travel Agent",
+          text: "More of our high-end clients are requesting 'transformative travel' experiences rather than just luxury hotels.",
+        },
+        {
+          speaker: "Client",
+          text: "Exactly. I want to learn a new skill or contribute to a local conservation project during my stay.",
+        },
+        {
+          speaker: "Travel Agent",
+          text: "We have an exclusive partnership with a wildlife sanctuary in Namibia that offers just that.",
+        },
+        {
+          speaker: "Client",
+          text: "That sounds intriguing. Could you send me some more details about the accommodations?",
+        },
+        {
+          speaker: "Travel Agent",
+          text: "It includes luxury tented camps with solar energy. You participate in rhino tracking.",
+        },
+        {
+          speaker: "Client",
+          text: "Rhino tracking sounds incredible. Is it safe?",
+        },
+        {
+          speaker: "Travel Agent",
+          text: "Yes, you are accompanied by expert rangers at all times.",
+        },
+        {
+          speaker: "Client",
+          text: "Perfect. Please book it for me for the first week of September.",
+        },
+      ],
+      questions: [
+        {
+          question: "What are 'transformative travel' experiences?",
+          options: [
+            "Fast-paced tours",
+            "Cheap hostels",
+            "Learning skills or contributing to conservation",
+            "Staying only in luxury hotels",
+          ],
+          correct: 2,
+          explanation:
+            "The client says: 'I want to learn a new skill or contribute to a local conservation project...'",
+        },
+        {
+          question: "What specific activity is offered in Namibia?",
+          options: [
+            "Lion hunting",
+            "Rhino tracking",
+            "Elephant riding",
+            "Bird watching",
+          ],
+          correct: 1,
+          explanation: "Agent mentions 'participate in rhino tracking.'",
+        },
+        {
+          question: "What type of accommodation is provided?",
+          options: [
+            "A 5-star hotel",
+            "A wooden cabin",
+            "Luxury tented camps",
+            "A cruise ship",
+          ],
+          correct: 2,
+          explanation:
+            "Agent mentions 'luxury tented camps with solar energy.'",
+        },
+      ],
+    },
+    {
+      title: "Urban Planning for Cyclists",
+      lines: [
+        {
+          speaker: "City Planner",
+          text: "The new cycling lanes have successfully reduced traffic congestion in the city center by 15%.",
+        },
+        {
+          speaker: "Cyclist Advocate",
+          text: "That's great news, but the transition at the main junction remains quite dangerous.",
+        },
+        {
+          speaker: "City Planner",
+          text: "We're planning to install dedicated traffic lights for cyclists there by the end of next month.",
+        },
+        {
+          speaker: "Cyclist Advocate",
+          text: "That would be a massive improvement. Safety is the main reason more people don't cycle.",
+        },
+        {
+          speaker: "City Planner",
+          text: "We are also considering separated lanes with physical barriers for the main avenue.",
+        },
+        {
+          speaker: "Cyclist Advocate",
+          text: "Physical barriers are essential. Paint on the road isn't enough protection.",
+        },
+        {
+          speaker: "City Planner",
+          text: "I agree. We have secured funding for the pilot project starting in June.",
+        },
+      ],
+      questions: [
+        {
+          question: "What has been the effect of the new cycling lanes?",
+          options: [
+            "Increased pollution",
+            "Reduced traffic congestion by 15%",
+            "More accidents",
+            "Lower bus ticket prices",
+          ],
+          correct: 1,
+          explanation:
+            "The planner mentions reducing traffic congestion by 15%.",
+        },
+        {
+          question: "What is the cyclist's main concern?",
+          options: [
+            "The weather",
+            "The cost of bikes",
+            "Safety at the junction",
+            "Lack of parking",
+          ],
+          correct: 2,
+          explanation:
+            "Cyclist says: 'transition at the main junction remains quite dangerous.'",
+        },
+        {
+          question: "What future improvement is discussed?",
+          options: [
+            "Removing lanes",
+            "Physical barriers",
+            "Tunnels",
+            "Banning cars",
+          ],
+          correct: 1,
+          explanation:
+            "Planner mentions 'separated lanes with physical barriers'.",
+        },
+      ],
+    },
+    {
+      title: "Future of Education",
+      lines: [
+        {
+          speaker: "Professor",
+          text: "I believe the traditional lecture model is becoming increasingly obsolete in the digital age.",
+        },
+        {
+          speaker: "Dean",
+          text: "So, you're suggesting we move entirely to a 'flipped classroom' approach? That's a radical shift.",
+        },
+        {
+          speaker: "Professor",
+          text: "Not entirely, but we should prioritize interactive workshops and collaborative projects over passive listening.",
+        },
+        {
+          speaker: "Dean",
+          text: "We'll need to invest heavily in training for our faculty to handle that shift in pedagogy.",
+        },
+        {
+          speaker: "Professor",
+          text: "True, but student engagement has been dropping. We need to adapt to how they learn today.",
+        },
+        {
+          speaker: "Dean",
+          text: "I agree in principle. Let's form a committee to pilot this in the Science department next semester.",
+        },
+        {
+          speaker: "Professor",
+          text: "Excellent. I'll draft a proposal for the curriculum changes.",
+        },
+        {
+          speaker: "Dean",
+          text: "Ensure you include a budget estimate for the new software tools we'll need.",
+        },
+      ],
+      questions: [
+        {
+          question: "What approach does the professor prioritize?",
+          options: [
+            "Longer lectures",
+            "Online-only testing",
+            "Interactive workshops and collaborative projects",
+            "Self-study books",
+          ],
+          correct: 2,
+          explanation:
+            "The professor says: 'we should prioritize interactive workshops and collaborative projects.'",
+        },
+        {
+          question: "What is the reason for the proposed change?",
+          options: [
+            "To save money",
+            "To increase student engagement",
+            "To reduce faculty work",
+            "To use new buildings",
+          ],
+          correct: 1,
+          explanation:
+            "Professor says: 'student engagement has been dropping.'",
+        },
+        {
+          question: "What is the next step?",
+          options: [
+            "Cancel classes",
+            "Form a committee to pilot the program",
+            "Fire the professor",
+            "Buy new furniture",
+          ],
+          correct: 1,
+          explanation: "Dean says: 'Let's form a committee to pilot this...'",
+        },
+      ],
+    },
+    {
+      title: "Sustainable Fashion",
+      lines: [
+        {
+          speaker: "Designer",
+          text: "This collection uses 100% recycled cotton and organic dyes sourced from local plants.",
+        },
+        {
+          speaker: "Buyer",
+          text: "The quality is impressive, but the price point is significantly higher than our standard range.",
+        },
+        {
+          speaker: "Designer",
+          text: "We're aiming for consumers who value durability and ethical production over fast fashion.",
+        },
+        {
+          speaker: "Buyer",
+          text: "It's a growing market, certainly. But will they buy a t-shirt that costs three times the average?",
+        },
+        {
+          speaker: "Designer",
+          text: "Yes, because we offer a lifetime repair guarantee. It's an investment, not a disposable item.",
+        },
+        {
+          speaker: "Buyer",
+          text: "That is a unique selling point. Let's trial it in our flagship stores first.",
+        },
+        {
+          speaker: "Designer",
+          text: "I'm confident it will sell out. The narrative behind the product is very strong.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is the designer's target market?",
+          options: [
+            "Low-budget shoppers",
+            "Fast fashion enthusiasts",
+            "Consumers valuing durability and ethical production",
+            "People who only wear silk",
+          ],
+          correct: 2,
+          explanation:
+            "The designer mentions aiming for 'consumers who value durability and ethical production.'",
+        },
+        {
+          question: "What is the buyer's main concern?",
+          options: [
+            "The color",
+            "The style",
+            "The price point",
+            "The availability",
+          ],
+          correct: 2,
+          explanation:
+            "Buyer says: 'price point is significantly higher than our standard range.'",
+        },
+        {
+          question: "What guarantee does the designer offer?",
+          options: [
+            "Money back",
+            "Lifetime repair",
+            "Free shipping",
+            "Buy one get one free",
+          ],
+          correct: 1,
+          explanation: "Designer says: 'we offer a lifetime repair guarantee.'",
+        },
+      ],
+    },
+    {
+      title: "Cryptocurrency Risks",
+      lines: [
+        {
+          speaker: "Financial Analyst",
+          text: "The volatility of the crypto market makes it a high-risk investment for the average person.",
+        },
+        {
+          speaker: "Investor",
+          text: "But the potential for high returns is what makes it so attractive compared to traditional stocks.",
+        },
+        {
+          speaker: "Financial Analyst",
+          text: "True, yet the lack of regulation means that if there's a platform failure, your assets are unprotected.",
+        },
+        {
+          speaker: "Investor",
+          text: "I only invest money that I'm prepared to lose, so I'm willing to take that gamble.",
+        },
+        {
+          speaker: "Financial Analyst",
+          text: "Just be careful of scams. A significant percentage of new coins are fraudulent.",
+        },
+        {
+          speaker: "Investor",
+          text: "I do my own research before buying. I check the whitepaper and the team behind it.",
+        },
+        {
+          speaker: "Financial Analyst",
+          text: "That's good diligence, but even legitimate projects can fail due to market sentiment.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is the analyst's main warning?",
+          options: [
+            "It's too slow",
+            "High returns are guaranteed",
+            "Lack of regulation and risk of losing assets",
+            "It's better than gold",
+          ],
+          correct: 2,
+          explanation:
+            "The analyst points out the 'lack of regulation' and unprotected assets.",
+        },
+        {
+          question: "Why does the investor like cryptocurrency?",
+          options: [
+            "It is stable",
+            "Potential for high returns",
+            "It is government backed",
+            "It is physical",
+          ],
+          correct: 1,
+          explanation:
+            "Investor mentions 'potential for high returns is what makes it so attractive.'",
+        },
+        {
+          question: "What does the investor do to stay safe?",
+          options: [
+            "Uses a bank",
+            "Does their own research",
+            "Ask friends",
+            "Guesses",
+          ],
+          correct: 1,
+          explanation: "Investor says: 'I do my own research before buying.'",
+        },
+      ],
+    },
+    {
+      title: "Mental Health at Work",
+      lines: [
+        {
+          speaker: "HR Manager",
+          text: "We're introducing a new mental health support program for all employees starting next month.",
+        },
+        {
+          speaker: "Staff Representative",
+          text: "That's a very positive step. Burnout has been a major concern recently in the sales team.",
+        },
+        {
+          speaker: "HR Manager",
+          text: "The program includes access to anonymous counseling and weekly mindfulness workshops.",
+        },
+        {
+          speaker: "Staff Representative",
+          text: "Ensuring anonymity is crucial. Many people feel there's still a stigma around these topics.",
+        },
+        {
+          speaker: "HR Manager",
+          text: "Absolutely. The service is provided by an external third party so no data is shared with us.",
+        },
+        {
+          speaker: "Staff Representative",
+          text: "That's reassuring. We should emphasize that in the company-wide email.",
+        },
+        {
+          speaker: "HR Manager",
+          text: "Good point. I'll make sure the announcement highlights the privacy aspect.",
+        },
+      ],
+      questions: [
+        {
+          question: "What does the new program include?",
+          options: [
+            "Free gym memberships",
+            "Anonymous counseling and mindfulness workshops",
+            "Extra pay for overtime",
+            "A new cafeteria",
+          ],
+          correct: 1,
+          explanation:
+            "The HR Manager lists 'anonymous counseling and mindfulness workshops.'",
+        },
+        {
+          question: "Why is anonymity important?",
+          options: [
+            "To avoid taxes",
+            "To prevent gossip",
+            "To reduce stigma",
+            "To save time",
+          ],
+          correct: 2,
+          explanation:
+            "Staff says: 'Ensuring anonymity is crucial... stigma around these topics.'",
+        },
+        {
+          question: "Who provides the service?",
+          options: [
+            "The CEO",
+            "Internal HR",
+            "An external third party",
+            "The government",
+          ],
+          correct: 2,
+          explanation:
+            "HR Manager says: 'provided by an external third party.'",
+        },
+      ],
+    },
+    {
+      title: "Space Exploration Debate",
+      lines: [
+        {
+          speaker: "Space Enthusiast",
+          text: "The privatization of space flight is accelerating our path to colonizing Mars.",
+        },
+        {
+          speaker: "Skeptic",
+          text: "But shouldn't we focus that funding and brilliance on urgent planetary issues like climate change?",
+        },
+        {
+          speaker: "Space Enthusiast",
+          text: "Technology developed for space often has direct applications for sustainability on Earth, like solar panels.",
+        },
+        {
+          speaker: "Skeptic",
+          text: "Perhaps, but the immediate crisis requires more direct and focused investment, not side benefits.",
+        },
+        {
+          speaker: "Space Enthusiast",
+          text: "We can do both. Expanding our horizons inspires the next generation of scientists.",
+        },
+        {
+          speaker: "Skeptic",
+          text: "Inspiration is great, but it doesn't solve rising sea levels. We need practical solutions now.",
+        },
+        {
+          speaker: "Space Enthusiast",
+          text: "Moving heavy industry to space could actually save the Earth's environment.",
+        },
+        {
+          speaker: "Skeptic",
+          text: "That sounds like science fiction. Let's solve the problems we have here first.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is the skeptic's main argument?",
+          options: [
+            "Mars is too cold",
+            "Space technology is useless",
+            "Funding should be focused on urgent Earth issues",
+            "Rockets are too loud",
+          ],
+          correct: 2,
+          explanation:
+            "The skeptic asks: 'shouldn't we focus that funding on urgent planetary issues...?'",
+        },
+        {
+          question: "What benefit does the enthusiast mention?",
+          options: [
+            "Finding aliens",
+            "Technology applications for Earth",
+            "Cheaper holidays",
+            "More land",
+          ],
+          correct: 1,
+          explanation:
+            "Enthusiast says: 'Technology developed for space often has direct applications for sustainability on Earth.'",
+        },
+        {
+          question: "What radical solution does the enthusiast propose?",
+          options: [
+            "Moving everyone to Mars",
+            "Moving heavy industry to space",
+            "Stopping climate change",
+            "Building a giant wall",
+          ],
+          correct: 1,
+          explanation:
+            "Enthusiast says: 'Moving heavy industry to space could actually save the Earth's environment.'",
+        },
+      ],
+    },
+    {
+      title: "Smart City Infrastructure",
+      lines: [
+        {
+          speaker: "Engineer",
+          text: "The integration of IoT sensors into the traffic system has cut average commute times by 20% in the last quarter.",
+        },
+        {
+          speaker: "Citizen",
+          text: "That is noticeable, but there are rising concerns about how all that data is being stored and who has access to it.",
+        },
+        {
+          speaker: "Engineer",
+          text: "I understand the concern. We use end-to-end encryption and anonymize all personal identifiers before storage.",
+        },
+        {
+          speaker: "Citizen",
+          text: "I hope so. Privacy is a major concern when every move is tracked by a camera or sensor.",
+        },
+        {
+          speaker: "Engineer",
+          text: "We are also implementing a public dashboard so citizens can see exactly what data is collected.",
+        },
+        {
+          speaker: "Citizen",
+          text: "Transparency is key. If we can trust the system, we are more likely to support it.",
+        },
+        {
+          speaker: "Engineer",
+          text: "Agreed. The goal is to improve quality of life, not to monitor individuals.",
+        },
+      ],
+      questions: [
+        {
+          question: "What has been the result of IoT integration in traffic?",
+          options: [
+            "Increased accidents",
+            "Commute times cut by 20%",
+            "Higher gas prices",
+            "More traffic police",
+          ],
+          correct: 1,
+          explanation: "The engineer mentions cutting commute times by 20%.",
+        },
+        {
+          question: "What is the citizen's main concern?",
+          options: [
+            "Traffic is still bad",
+            "Data privacy",
+            "Cost of sensors",
+            "Ugly cameras",
+          ],
+          correct: 1,
+          explanation:
+            "Citizen says: 'concerns about how all that data is being stored...'",
+        },
+        {
+          question: "What solution does the engineer propose for trust?",
+          options: [
+            "A public dashboard",
+            "Removing sensors",
+            "Paying citizens",
+            "Free wifi",
+          ],
+          correct: 0,
+          explanation: "Engineer mentions 'implementing a public dashboard'.",
+        },
+      ],
+    },
+    {
+      title: "Renewable Energy Transition",
+      lines: [
+        {
+          speaker: "Energy Executive",
+          text: "We're aiming for 100% renewable energy for our manufacturing plants by 2030.",
+        },
+        {
+          speaker: "Consultant",
+          text: "That's an ambitious goal. Have you considered the stability of the grid during peak production hours?",
+        },
+        {
+          speaker: "Energy Executive",
+          text: "We're investing in large-scale battery storage to mitigate any fluctuations in solar and wind supply.",
+        },
+        {
+          speaker: "Consultant",
+          text: "The initial investment will be high, but the long-term energy savings and tax incentives will be significant.",
+        },
+        {
+          speaker: "Energy Executive",
+          text: "Exactly. Plus, our customers are demanding greener supply chains.",
+        },
+        {
+          speaker: "Consultant",
+          text: "I'll conduct a feasibility study on the battery storage capacity you'll need.",
+        },
+        {
+          speaker: "Energy Executive",
+          text: "Please do. We need to present the plan to the board next month.",
+        },
+      ],
+      questions: [
+        {
+          question: "When is the goal for 100% renewable energy?",
+          options: ["2025", "2030", "2040", "2050"],
+          correct: 1,
+          explanation: "The executive says 'by 2030.'",
+        },
+        {
+          question: "How will they handle supply fluctuations?",
+          options: [
+            "Buying more coal",
+            "Shutting down plants",
+            "Large-scale battery storage",
+            "Using diesel generators",
+          ],
+          correct: 2,
+          explanation:
+            "Executive says: 'investing in large-scale battery storage'.",
+        },
+        {
+          question: "What is driving the decision besides cost?",
+          options: [
+            "Government force",
+            "Customer demand",
+            "Employee strikes",
+            "Accidents",
+          ],
+          correct: 1,
+          explanation:
+            "Executive says: 'customers are demanding greener supply chains.'",
+        },
+      ],
+    },
+    {
+      title: "The Gig Economy",
+      lines: [
+        {
+          speaker: "Freelancer",
+          text: "I love the flexibility of being a gig worker, but the lack of benefits is creating a lot of anxiety.",
+        },
+        {
+          speaker: "Policy Maker",
+          text: "We're drafting legislation to ensure gig workers have access to basic health insurance and pension contributions.",
+        },
+        {
+          speaker: "Freelancer",
+          text: "That would be a game-changer. Currently, one sick week can be a financial disaster for me.",
+        },
+        {
+          speaker: "Policy Maker",
+          text: "We need to balance flexibility with security in the modern labor market. Companies can't just avoid their responsibilities.",
+        },
+        {
+          speaker: "Freelancer",
+          text: "Exactly. We are essentially employees without the protections.",
+        },
+        {
+          speaker: "Policy Maker",
+          text: "The new bill proposes a 'third worker status' to bridge that gap.",
+        },
+        { speaker: "Freelancer", text: "I hope it passes soon. It's overdue." },
+      ],
+      questions: [
+        {
+          question: "What is the freelancer's main stressor?",
+          options: [
+            "Lack of work",
+            "Low pay",
+            "Lack of benefits",
+            "Too many meetings",
+          ],
+          correct: 2,
+          explanation:
+            "The freelancer mentions 'the lack of benefits is creating a lot of anxiety.'",
+        },
+        {
+          question: "What is the policy maker proposing?",
+          options: [
+            "Banning gig work",
+            "Legislation for health insurance and pensions",
+            "Lower taxes",
+            "Free laptops",
+          ],
+          correct: 1,
+          explanation:
+            "Policy Maker says: 'ensure gig workers have access to basic health insurance and pension contributions.'",
+        },
+        {
+          question: "What is the proposed new status called?",
+          options: [
+            "Super employee",
+            "Third worker status",
+            "Freelance plus",
+            "Mini-job",
+          ],
+          correct: 1,
+          explanation: "Policy Maker mentions a ''third worker status''.",
+        },
+      ],
+    },
+    {
+      title: "Remote Learning Challenges",
+      lines: [
+        {
+          speaker: "Parent",
+          text: "My daughter is really struggling to stay focused during her online classes. It's affecting her grades.",
+        },
+        {
+          speaker: "Teacher",
+          text: "It's a common issue across the board. We're trying to incorporate more interactive elements like quizzes to keep them engaged.",
+        },
+        {
+          speaker: "Parent",
+          text: "She says she misses the social interaction with her peers the most. She feels isolated.",
+        },
+        {
+          speaker: "Teacher",
+          text: "We're setting up virtual breakout rooms for small group discussions to help with that connection.",
+        },
+        {
+          speaker: "Parent",
+          text: "That might help. Is there anything we can do at home to support her?",
+        },
+        {
+          speaker: "Teacher",
+          text: "Creating a distraction-free environment and having a strict schedule really helps.",
+        },
+        {
+          speaker: "Parent",
+          text: "We'll try to set up a dedicated desk for her in the spare room.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is the daughter struggling with?",
+          options: [
+            "Technical issues",
+            "Staying focused",
+            "Too much homework",
+            "Waking up early",
+          ],
+          correct: 1,
+          explanation: "The parent says: 'struggling to stay focused.'",
+        },
+        {
+          question: "What social solution is the teacher suggesting?",
+          options: [
+            "Meeting in the park",
+            "Virtual breakout rooms",
+            "Phone calls",
+            "Video games",
+          ],
+          correct: 1,
+          explanation:
+            "Teacher mentions 'virtual breakout rooms for small group discussions.'",
+        },
+        {
+          question: "What advice is given for the home environment?",
+          options: [
+            "Play music",
+            "Distraction-free environment",
+            "Let her study in bed",
+            "Give her snacks",
+          ],
+          correct: 1,
+          explanation:
+            "Teacher suggests: 'Creating a distraction-free environment'.",
+        },
+      ],
+    },
+    {
+      title: "Circular Economy in Retail",
+      lines: [
+        {
+          speaker: "Store Manager",
+          text: "We're launching a 'buy-back' program next month where customers can return used items for store credit.",
+        },
+        {
+          speaker: "Customer",
+          text: "That sounds interesting. What happens to the items once they are returned? Do you just throw them away?",
+        },
+        {
+          speaker: "Store Manager",
+          text: "Not at all. They are either cleaned and resold as 'pre-loved', or broken down for raw materials if they are damaged.",
+        },
+        {
+          speaker: "Customer",
+          text: "It's good to see a large retailer taking sustainability seriously. I have a few old coats I could bring in.",
+        },
+        {
+          speaker: "Store Manager",
+          text: "Please do. We accept items from any brand, not just ours.",
+        },
+        {
+          speaker: "Customer",
+          text: "Really? That makes it much easier for me to declutter.",
+        },
+        {
+          speaker: "Store Manager",
+          text: "We want to encourage a circular habit regardless of the label.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is the 'buy-back' program?",
+          options: [
+            "Customers buy more items",
+            "Customers return used items for credit",
+            "Store buys back stocks",
+            "Free repairs",
+          ],
+          correct: 1,
+          explanation:
+            "The manager explains: 'customers can return used items for store credit.'",
+        },
+        {
+          question: "What happens to the returned items?",
+          options: [
+            "Burned",
+            "Sent to landfill",
+            "Resold or recycled",
+            "Given to staff",
+          ],
+          correct: 2,
+          explanation:
+            "Manager says: 'either cleaned and resold... or broken down for raw materials'.",
+        },
+        {
+          question: "Can the customer bring items from other brands?",
+          options: ["No", "Yes", "Only expensive ones", "Only shoes"],
+          correct: 1,
+          explanation: "Manager says: 'We accept items from any brand'.",
+        },
+      ],
+    },
+    {
+      title: "Cybersecurity in Banking",
+      lines: [
+        {
+          speaker: "CISO",
+          text: "The increase in phishing attacks targeting our customers is quite concerning.",
+        },
+        {
+          speaker: "Employee",
+          text: "Should we implement multi-factor authentication for all transactions?",
+        },
+        {
+          speaker: "CISO",
+          text: "Yes, and we need to launch a customer awareness campaign on how to spot fraudulent emails.",
+        },
+        {
+          speaker: "Employee",
+          text: "Prevention is definitely more efficient than trying to recover stolen funds.",
+        },
+        {
+          speaker: "CISO",
+          text: "Agreed. We also need to stress-test our own internal systems against breaches.",
+        },
+        {
+          speaker: "Employee",
+          text: "I'll schedule a penetration test with our external security partners for next week.",
+        },
+        {
+          speaker: "CISO",
+          text: "Good. We can't afford a data leak. The reputational damage would be irreversible.",
+        },
+      ],
+      questions: [
+        {
+          question: "What type of attack is increasing?",
+          options: [
+            "Physical theft",
+            "Phishing attacks",
+            "System crashes",
+            "Account closures",
+          ],
+          correct: 1,
+          explanation: "The CISO mentions 'the increase in phishing attacks.'",
+        },
+        {
+          question: "What security measure is suggested?",
+          options: [
+            "Multi-factor authentication",
+            "Closing branches",
+            "Changing banks",
+            "Paper records only",
+          ],
+          correct: 0,
+          explanation:
+            "Employee asks: 'Should we implement multi-factor authentication...?'",
+        },
+        {
+          question: "What is the CISO's main fear?",
+          options: [
+            "Losing money",
+            "Data leak and reputational damage",
+            "Getting fired",
+            "Working late",
+          ],
+          correct: 1,
+          explanation:
+            "CISO says: 'We can't afford a data leak. The reputational damage would be irreversible.'",
+        },
+      ],
+    },
+    {
+      title: "Work-Life Balance Policy",
+      lines: [
+        {
+          speaker: "CEO",
+          text: "I've decided to trial a four-day work week for the next six months.",
+        },
+        {
+          speaker: "Director",
+          text: "Will there be a reduction in salary for the employees? That's usually the tradeoff.",
+        },
+        {
+          speaker: "CEO",
+          text: "No, salary remains the same. We expect productivity to stay high due to better focus.",
+        },
+        {
+          speaker: "Director",
+          text: "The staff will be thrilled. It's a bold move for the industry.",
+        },
+        {
+          speaker: "CEO",
+          text: "We need to set clear KPIs to ensure we don't fall behind on deliverables.",
+        },
+        {
+          speaker: "Director",
+          text: "I'll work with the department heads to adjust the schedules and deadlines.",
+        },
+        {
+          speaker: "CEO",
+          text: "If this works, it could become our permanent competitive advantage in recruiting talent.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is the trial about?",
+          options: [
+            "Higher salaries",
+            "A four-day work week",
+            "Remote work only",
+            "Longer vacations",
+          ],
+          correct: 1,
+          explanation: "The CEO says: 'trial a four-day work week.'",
+        },
+        {
+          question: "Does the salary change?",
+          options: [
+            "Yes, it increases",
+            "Yes, it decreases",
+            "No, it remains the same",
+            "It depends on performance",
+          ],
+          correct: 2,
+          explanation: "CEO says: 'No, salary remains the same.'",
+        },
+        {
+          question: "What is the potential long-term benefit for the company?",
+          options: [
+            "Saving electricity",
+            "Recruiting talent",
+            "Less office rent",
+            "Tax breaks",
+          ],
+          correct: 1,
+          explanation:
+            "CEO mentions 'competitive advantage in recruiting talent.'",
+        },
+      ],
+    },
+    {
+      title: "Future of E-commerce",
+      lines: [
+        {
+          speaker: "Analyst",
+          text: "Augmented reality will soon allow customers to 'try on' clothes virtually from home.",
+        },
+        {
+          speaker: "Retailer",
+          text: "That should significantly reduce our return rates, which are currently very high.",
+        },
+        {
+          speaker: "Analyst",
+          text: "Exactly. It bridges the gap between digital convenience and physical experience.",
+        },
+        {
+          speaker: "Retailer",
+          text: "We need to start looking into the necessary software integrations immediately.",
+        },
+        {
+          speaker: "Analyst",
+          text: "There are several startups offering plug-and-play solutions for mobile apps.",
+        },
+        {
+          speaker: "Retailer",
+          text: "I'll ask our CTO to evaluate them. User experience must be seamless.",
+        },
+        {
+          speaker: "Analyst",
+          text: "If it's glitchy, customers will just abandon the cart.",
+        },
+      ],
+      questions: [
+        {
+          question: "What technology will help with virtual 'try ons'?",
+          options: ["Blockchain", "Virtual Reality", "Augmented Reality", "5G"],
+          correct: 2,
+          explanation: "The analyst mentions 'Augmented reality.'",
+        },
+        {
+          question: "What problem will this solve for the retailer?",
+          options: [
+            "Low sales",
+            "High return rates",
+            "Slow shipping",
+            "Bad reviews",
+          ],
+          correct: 1,
+          explanation:
+            "Retailer says: 'significantly reduce our return rates'.",
+        },
+        {
+          question: "What is the risk if the tech is not good?",
+          options: [
+            "Customers get lost",
+            "Customers abandon cart",
+            "Phone explodes",
+            "Colors are wrong",
+          ],
+          correct: 1,
+          explanation:
+            "Analyst says: 'If it's glitchy, customers will just abandon the cart.'",
+        },
+      ],
+    },
+    {
+      title: "Sustainable Agriculture",
+      lines: [
+        {
+          speaker: "Farmer",
+          text: "Regenerative farming has improved the health of our soil remarkably over the last three years.",
+        },
+        {
+          speaker: "Buyer",
+          text: "The produce certainly looks better. Are you using any chemical fertilizers?",
+        },
+        {
+          speaker: "Farmer",
+          text: "None at all. We rely on crop rotation and natural compost. It traps more carbon too.",
+        },
+        {
+          speaker: "Buyer",
+          text: "Consumers are increasingly looking for 'soil-friendly' labels on their food.",
+        },
+        {
+          speaker: "Farmer",
+          text: "It requires more labor initially, but the yields are more stable against drought.",
+        },
+        {
+          speaker: "Buyer",
+          text: "I'd like to sign a long-term contract to supply our supermarket chain.",
+        },
+        {
+          speaker: "Farmer",
+          text: "That would give us the financial security to expand these practices to more acres.",
+        },
+      ],
+      questions: [
+        {
+          question: "What does the farmer rely on instead of chemicals?",
+          options: [
+            "Better seeds",
+            "Crop rotation and natural compost",
+            "More water",
+            "Magic",
+          ],
+          correct: 1,
+          explanation:
+            "The farmer say: 'We rely on crop rotation and natural compost.'",
+        },
+        {
+          question: "What is a benefit of this method mentioned by the farmer?",
+          options: [
+            "Cheaper labor",
+            "Stable yields against drought",
+            "Faster growth",
+            "Larger fruits",
+          ],
+          correct: 1,
+          explanation:
+            "Farmer mentions 'yields are more stable against drought.'",
+        },
+        {
+          question: "What does the buyer propose?",
+          options: [
+            "Buying the farm",
+            "A long-term contract",
+            "Teaching the farmer",
+            "Selling seeds",
+          ],
+          correct: 1,
+          explanation: "Buyer says: 'I'd like to sign a long-term contract...'",
+        },
+      ],
+    },
+    {
+      title: "Digital Nomad Lifestyle",
+      lines: [
+        {
+          speaker: "Nomad",
+          text: "Staying in one place for more than two months is starting to feel strange to me.",
+        },
+        {
+          speaker: "Friend",
+          text: "Don't you miss having a stable community and routine?",
+        },
+        {
+          speaker: "Nomad",
+          text: "I have a global community now. And my routine travels with me, as long as I have WiFi.",
+        },
+        {
+          speaker: "Friend",
+          text: "It's an enviable freedom, but perhaps hard to maintain long-term.",
+        },
+        {
+          speaker: "Nomad",
+          text: "I do worry about burnout. Constantly planning the next visa and apartment is tiring.",
+        },
+        {
+          speaker: "Friend",
+          text: "Maybe you could find a 'home base' to return to for part of the year?",
+        },
+        {
+          speaker: "Nomad",
+          text: "That's a good idea. Somewhere to leave my winter clothes and recharge.",
+        },
+      ],
+      questions: [
+        {
+          question: "How long has the nomad stayed in one place?",
+          options: ["One week", "Two months", "One year", "Five years"],
+          correct: 1,
+          explanation:
+            "Nomad describes staying more than two months as 'strange'.",
+        },
+        {
+          question: "What is the downside mentioned by the nomad?",
+          options: [
+            "Bad food",
+            "Loneliness",
+            "Burnout/planning logistics",
+            "Expensive flights",
+          ],
+          correct: 2,
+          explanation:
+            "Nomad says: 'I do worry about burnout. Constantly planning... is tiring.'",
+        },
+        {
+          question: "What solution does the friend suggest?",
+          options: [
+            "Stop traveling",
+            "Get a hotel",
+            "Find a 'home base'",
+            "Buy a van",
+          ],
+          correct: 2,
+          explanation: "Friend suggests: 'find a 'home base' to return to'.",
+        },
+      ],
+    },
+  ],
+  C1: [
+    {
+      title: "Debating Economic Policy",
+      lines: [
+        {
+          speaker: "Economist",
+          text: "The current fiscal strategy seems overly cautious given the sluggish growth in the manufacturing sector.",
+        },
+        {
+          speaker: "Minister",
+          text: "We must prioritize stability, especially with the volatile nature of the global markets at present.",
+        },
+        {
+          speaker: "Economist",
+          text: "True, but a targeted stimulus package could provide the necessary impetus for long-term revitalization.",
+        },
+        {
+          speaker: "Minister",
+          text: "The risk of inflation cannot be overlooked. We've seen how quickly it can erode purchasing power for the average citizen.",
+        },
+        {
+          speaker: "Economist",
+          text: "Inflation is manageable if we focus on supply-side investments rather than just printing money.",
+        },
+        {
+          speaker: "Minister",
+          text: "That is a valid point, but structural reforms take time to yield results, and we have an election approaching.",
+        },
+        {
+          speaker: "Economist",
+          text: "Short-term political gains shouldn't compromise long-term economic health.",
+        },
+      ],
+      questions: [
+        {
+          question:
+            "What is the Economist's view on the current fiscal strategy?",
+          options: [
+            "It's too aggressive",
+            "It's overly cautious",
+            "It's perfectly balanced",
+            "It's non-existent",
+          ],
+          correct: 1,
+          explanation: "The economist describes it as 'overly cautious'.",
+        },
+        {
+          question: "What is the Minister's primary concern?",
+          options: [
+            "Unemployment",
+            "Inflation",
+            "Deflation",
+            "Foreign investment",
+          ],
+          correct: 1,
+          explanation:
+            "Minister mentions: 'The risk of inflation cannot be overlooked.'",
+        },
+        {
+          question: "What does the Economist suggest to avoid inflation?",
+          options: [
+            "Printing more money",
+            "Raising taxes",
+            "Supply-side investments",
+            "Lowering interest rates",
+          ],
+          correct: 2,
+          explanation: "Economist suggests 'focus on supply-side investments'.",
+        },
+      ],
+    },
+    {
+      title: "Philosophical Inquiry: Free Will",
+      lines: [
+        {
+          speaker: "Scholar A",
+          text: "If every action is a result of prior causes, can we truly claim to possess free will?",
+        },
+        {
+          speaker: "Scholar B",
+          text: "Compatibilism suggests that free will and determinism are not necessarily mutually exclusive.",
+        },
+        {
+          speaker: "Scholar A",
+          text: "Yet, if the neural precursors of a decision are detectable before conscious awareness, where is the agency?",
+        },
+        {
+          speaker: "Scholar B",
+          text: "Agency might lie in the overarching cognitive structures rather than in the momentary spark of choice.",
+        },
+        {
+          speaker: "Scholar A",
+          text: "So you argue that our character determines our choices, and we are responsible for our character?",
+        },
+        {
+          speaker: "Scholar B",
+          text: "Precisely. If we are free to align our desires with our second-order volitions, we have free will.",
+        },
+        {
+          speaker: "Scholar A",
+          text: "That seems like a redefined freedom, not the absolute liberty most people imagine.",
+        },
+      ],
+      questions: [
+        {
+          question:
+            "What concept suggests free will and determinism can coexist?",
+          options: ["Existentialism", "Compatibilism", "Nihilism", "Dualism"],
+          correct: 1,
+          explanation: "Scholar B mentions 'Compatibilism.'",
+        },
+        {
+          question: "What scientific challenge does Scholar A raise?",
+          options: [
+            "Quantum randomness",
+            "Neural precursors detectable before awareness",
+            "Genetic determinism",
+            "Social conditioning",
+          ],
+          correct: 1,
+          explanation:
+            "Scholar A asks about 'neural precursors... detectable before conscious awareness'.",
+        },
+        {
+          question: "How does Scholar B define agency?",
+          options: [
+            "Momentary spark",
+            "Overarching cognitive structures",
+            "Divine intervention",
+            "Random chance",
+          ],
+          correct: 1,
+          explanation:
+            "Scholar B says agency might lie in 'overarching cognitive structures'.",
+        },
+      ],
+    },
+    {
+      title: "Ethical Implications of Biotechnology",
+      lines: [
+        {
+          speaker: "Geneticist",
+          text: "The ability to edit the germline opens up possibilities for eradicating hereditary diseases forever.",
+        },
+        {
+          speaker: "Ethicist",
+          text: "But it also risks creating a societal divide based on genetic enhancement, leading to a new form of inequality.",
+        },
+        {
+          speaker: "Geneticist",
+          text: "We could strictly regulate it to ensure it's only used for therapeutic purposes, not enhancement.",
+        },
+        {
+          speaker: "Ethicist",
+          text: "The line between therapy and enhancement is notoriously difficult to define and enforce. What counts as 'normal'?",
+        },
+        {
+          speaker: "Geneticist",
+          text: "Is curing blindness therapy? Is improving vision beyond 20/20 enhancement?",
+        },
+        {
+          speaker: "Ethicist",
+          text: "Exactly. And once we start down this path, there may be no turning back from 'designer babies'.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is the main concern of the Ethicist?",
+          options: [
+            "The cost of treatment",
+            "Societal divide based on genetic enhancement",
+            "Technological failure",
+            "Environmental impact",
+          ],
+          correct: 1,
+          explanation:
+            "The ethicist mentions the risk of 'creating a societal divide.'",
+        },
+        {
+          question: "What is the proposed solution by the Geneticist?",
+          options: [
+            "Banning it",
+            "Strict regulation",
+            "Free market access",
+            "Government funding",
+          ],
+          correct: 1,
+          explanation: "Geneticist suggests: 'We could strictly regulate it'.",
+        },
+        {
+          question: "Why is regulation difficult?",
+          options: [
+            "Laws are slow",
+            "Scientists are corrupt",
+            "Line between therapy and enhancement is blurry",
+            "Public ignores rules",
+          ],
+          correct: 2,
+          explanation:
+            "Ethicist says: 'The line... is notoriously difficult to define'.",
+        },
+      ],
+    },
+    {
+      title: "Linguistic Relativity Theory",
+      lines: [
+        {
+          speaker: "Linguist X",
+          text: "The Sapir-Whorf hypothesis posits that the language we speak fundamentally shapes our perception of reality.",
+        },
+        {
+          speaker: "Linguist Y",
+          text: "While influential, modern research suggests a more 'weak' version of this relativity. It influences, but doesn't determine.",
+        },
+        {
+          speaker: "Linguist X",
+          text: "Take for example the way different cultures conceptualize time or color based on their vocabulary.",
+        },
+        {
+          speaker: "Linguist Y",
+          text: "Language influences thought, certainly, but it doesn't necessarily limit it. We can learn new concepts.",
+        },
+        {
+          speaker: "Linguist X",
+          text: "True, but the cognitive ease of processing certain ideas is definitely higher if your language has a word for it.",
+        },
+        {
+          speaker: "Linguist Y",
+          text: "That is the 'cognitive efficiency' argument, which is much more defensible than linguistic determinism.",
+        },
+      ],
+      questions: [
+        {
+          question: "What does the Sapir-Whorf hypothesis suggest?",
+          options: [
+            "Language is universal",
+            "Language shapes perception of reality",
+            "All languages are equal",
+            "Thought is independent of language",
+          ],
+          correct: 1,
+          explanation:
+            "Linguist X says it 'posits that the language we speak fundamentally shapes our perception of reality.'",
+        },
+        {
+          question: "What is Linguist Y's stance?",
+          options: [
+            "Strong determinism",
+            "No influence at all",
+            "Weak relativity / influence",
+            "Language is genetic",
+          ],
+          correct: 2,
+          explanation:
+            "Linguist Y suggests a 'weak version of this relativity.'",
+        },
+        {
+          question: "What does Linguist X claim about cognitive ease?",
+          options: [
+            "It's unrelated to language",
+            "It's higher if you have a word for it",
+            "It's lower for bilinguals",
+            "It depends on IQ",
+          ],
+          correct: 1,
+          explanation:
+            "Linguist X says 'cognitive ease... is definitely higher if your language has a word for it.'",
+        },
+      ],
+    },
+    {
+      title: "Macroeconomic Regulation",
+      lines: [
+        {
+          speaker: "Analyst",
+          text: "The central bank's decision to raise interest rates is a direct response to the overheating housing market.",
+        },
+        {
+          speaker: "Journalist",
+          text: "Won't this disproportionately affect first-time buyers who are already struggling to secure a mortgage?",
+        },
+        {
+          speaker: "Analyst",
+          text: "It's a necessary evil to prevent a much larger asset bubble from bursting later, which would be catastrophic.",
+        },
+        {
+          speaker: "Journalist",
+          text: "But the immediate impact on consumer spending could tip the economy into a recession.",
+        },
+        {
+          speaker: "Analyst",
+          text: "That is a risk, but hyperinflation is the greater enemy right now. We need to cool demand.",
+        },
+        {
+          speaker: "Journalist",
+          text: "It seems like a blunt instrument for a delicate problem.",
+        },
+        {
+          speaker: "Analyst",
+          text: "Unfortunately, monetary policy often lacks the precision of fiscal policy.",
+        },
+      ],
+      questions: [
+        {
+          question: "Why did the central bank raise interest rates?",
+          options: [
+            "To encourage spending",
+            "To cool down the overheating housing market",
+            "To decrease taxes",
+            "To increase exports",
+          ],
+          correct: 1,
+          explanation:
+            "The analyst says it's a response to 'the overheating housing market.'",
+        },
+        {
+          question: "Who might be most affected according to the Journalist?",
+          options: [
+            "Banks",
+            "First-time buyers",
+            "Car manufacturers",
+            "Retirees",
+          ],
+          correct: 1,
+          explanation:
+            "Journalist asks about 'first-time buyers who are already struggling'.",
+        },
+        {
+          question: "What is the 'greater enemy' according to the Analyst?",
+          options: ["Recession", "Hyperinflation", "Deflation", "Unemployment"],
+          correct: 1,
+          explanation:
+            "Analyst states: 'hyperinflation is the greater enemy right now.'",
+        },
+      ],
+    },
+    {
+      title: "Literary Deconstruction",
+      lines: [
+        {
+          speaker: "Critic A",
+          text: "A deconstructive reading of the text reveals the inherent contradictions in the protagonist's moral arc.",
+        },
+        {
+          speaker: "Critic B",
+          text: "By focusing on the marginal elements, we can expose the prevailing ideologies of the author's era.",
+        },
+        {
+          speaker: "Critic A",
+          text: "Indeed, the 'unspoken' in a novel is often more telling than the explicit narrative.",
+        },
+        {
+          speaker: "Critic B",
+          text: "It challenges the notion of a single, unified 'truth' within a piece of literature.",
+        },
+        {
+          speaker: "Critic A",
+          text: "We must analyze what the text represses as much as what it expresses.",
+        },
+        {
+          speaker: "Critic B",
+          text: "Exactly. The silence is where the real meaning hides.",
+        },
+        {
+          speaker: "Critic A",
+          text: "And that silence often subverts the author's intended message.",
+        },
+      ],
+      questions: [
+        {
+          question:
+            "What does deconstructive reading focus on according to the critics?",
+          options: [
+            "Plot summaries",
+            "Inherent contradictions and marginal elements",
+            "The author's biography",
+            "Grammar mistakes",
+          ],
+          correct: 1,
+          explanation:
+            "Critic A mentions 'inherent contradictions' and Critic B mentions 'marginal elements.'",
+        },
+        {
+          question: "What does Critic A say about the 'unspoken'?",
+          options: [
+            "It is irrelevant",
+            "It is boring",
+            "It is often more telling than the explicit narrative",
+            "It is a typo",
+          ],
+          correct: 2,
+          explanation:
+            "Critic A states: 'the 'unspoken' in a novel is often more telling than the explicit narrative.'",
+        },
+        {
+          question: "What notion does Critic B challenge?",
+          options: [
+            "The printing press",
+            "A single, unified 'truth'",
+            "Paper quality",
+            "Font choice",
+          ],
+          correct: 1,
+          explanation:
+            "Critic B says: 'It challenges the notion of a single, unified 'truth'.' ",
+        },
+      ],
+    },
+    {
+      title: "Neuroscience and Criminal Justice",
+      lines: [
+        {
+          speaker: "Lawyer",
+          text: "We should admit brain scan evidence to show that the defendant has a compromised prefrontal cortex.",
+        },
+        {
+          speaker: "Prosecutor",
+          text: "Neuroscience should not be used as an excuse for criminal behavior and lack of self-control.",
+        },
+        {
+          speaker: "Lawyer",
+          text: "It's not an excuse, but a mitigating factor that explains the biological basis for impulsivity.",
+        },
+        {
+          speaker: "Prosecutor",
+          text: "If we go down that path, the concept of individual accountability becomes meaningless.",
+        },
+        {
+          speaker: "Lawyer",
+          text: "But isn't justice about fairness? Punishing someone for a biological deficit seems unjust.",
+        },
+        {
+          speaker: "Prosecutor",
+          text: "The law requires us to judge intent. Biology does not negate intent unless there is insanity.",
+        },
+        {
+          speaker: "Lawyer",
+          text: "The definition of insanity might need to evolve as our understanding of the brain deepens.",
+        },
+      ],
+      questions: [
+        {
+          question: "What part of the brain is being discussed specifically?",
+          options: [
+            "Visual cortex",
+            "Prefrontal cortex",
+            "Cerebellum",
+            "Brainstem",
+          ],
+          correct: 1,
+          explanation: "The lawyer mentions the 'prefrontal cortex.'",
+        },
+        {
+          question: "What is the Prosecutor's concern?",
+          options: [
+            "Cost of scans",
+            "Individual accountability becoming meaningless",
+            "Jury confusion",
+            "Long trials",
+          ],
+          correct: 1,
+          explanation:
+            "Prosecutor says: 'the concept of individual accountability becomes meaningless.'",
+        },
+        {
+          question: "What does the Lawyer argue brain scans represent?",
+          options: [
+            "An excuse",
+            "A get out of jail card",
+            "A mitigating factor",
+            "A lie",
+          ],
+          correct: 2,
+          explanation:
+            "Lawyer says: 'It's not an excuse, but a mitigating factor'.",
+        },
+      ],
+    },
+    {
+      title: "Post-Colonial Discourse",
+      lines: [
+        {
+          speaker: "Professor",
+          text: "The impact of colonial administrative structures persists in the geopolitical tensions of the region.",
+        },
+        {
+          speaker: "Researcher",
+          text: "We must also consider the subaltern voices that were silenced during that period.",
+        },
+        {
+          speaker: "Professor",
+          text: "Exactly. Re-writing history from their perspective is essential for genuine decolonization.",
+        },
+        {
+          speaker: "Researcher",
+          text: "It's a complex process that involves unlearning established Eurocentric narratives.",
+        },
+        {
+          speaker: "Professor",
+          text: "And recognizing that 'modernity' itself was often defined in opposition to the 'primitive' colony.",
+        },
+        {
+          speaker: "Researcher",
+          text: "So, the very tools we use to analyze history might be tainted by colonial bias?",
+        },
+        {
+          speaker: "Professor",
+          text: "Precisely. We need new epistemological frameworks.",
+        },
+      ],
+      questions: [
+        {
+          question:
+            "What is essential for genuine decolonization according to the professor?",
+          options: [
+            "More trade",
+            "Building new capitals",
+            "Re-writing history from subaltern perspectives",
+            "Ignoring the past",
+          ],
+          correct: 2,
+          explanation:
+            "The professor says: 'Re-writing history from their perspective is essential...'",
+        },
+        {
+          question: "What does the Researcher identify as a challenge?",
+          options: [
+            "Finding paper",
+            "Unlearning Eurocentric narratives",
+            "Learning new languages",
+            "Funding",
+          ],
+          correct: 1,
+          explanation:
+            "Researcher mentions 'unlearning established Eurocentric narratives.'",
+        },
+        {
+          question: "What might be biased according to the Researcher?",
+          options: [
+            "The weather",
+            "The tools used to analyze history",
+            "The architecture",
+            "The maps",
+          ],
+          correct: 1,
+          explanation:
+            "Researcher asks if 'the very tools we use to analyze history might be tainted'.",
+        },
+      ],
+    },
+    {
+      title: "The Ethics of Space Colonization",
+      lines: [
+        {
+          speaker: "Philosopher",
+          text: "Do we have the moral right to alter the Martian environment to make it habitable?",
+        },
+        {
+          speaker: "Engineer",
+          text: "If humanity's survival depends on it, terraforming becomes a survival imperative.",
+        },
+        {
+          speaker: "Philosopher",
+          text: "But what if there is indigenous microbial life? Our arrival would mean its destruction.",
+        },
+        {
+          speaker: "Engineer",
+          text: "We must develop protocols to detect and protect any existing biological entities.",
+        },
+        {
+          speaker: "Philosopher",
+          text: "Even if we protect them, occupying their world is a form of cosmic imperialism.",
+        },
+        {
+          speaker: "Engineer",
+          text: "Or it's the natural expansion of life. Earth has limited resources.",
+        },
+        {
+          speaker: "Philosopher",
+          text: "We should fix our own planet before we ruin another one.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is the philosopher concerned about regarding Mars?",
+          options: [
+            "The cost of fuel",
+            "Potential destruction of indigenous microbial life",
+            "The duration of the flight",
+            "The lack of gravity",
+          ],
+          correct: 1,
+          explanation:
+            "The philosopher asks about 'indigenous microbial life' and its destruction.",
+        },
+        {
+          question: "What is the Engineer's justification for terraforming?",
+          options: [
+            "It's fun",
+            "It's profitable",
+            "Humanity's survival",
+            "Curiosity",
+          ],
+          correct: 2,
+          explanation:
+            "Engineer says: 'If humanity's survival depends on it...'",
+        },
+        {
+          question:
+            "What counter-argument does the Philosopher offer at the end?",
+          options: [
+            "Mars is too far",
+            "We should fix Earth first",
+            "Aliens will attack us",
+            "It's too cold",
+          ],
+          correct: 1,
+          explanation:
+            "Philosopher says: 'We should fix our own planet before we ruin another one.'",
+        },
+      ],
+    },
+    {
+      title: "Quantum Mechanics and Reality",
+      lines: [
+        {
+          speaker: "Physicist A",
+          text: "The Copenhagen interpretation suggests that reality is indeterminate until observed.",
+        },
+        {
+          speaker: "Physicist B",
+          text: "I prefer the Many-Worlds interpretation, where every quantum event branches into a new reality.",
+        },
+        {
+          speaker: "Physicist A",
+          text: "Both challenge our classical intuition of a single, objective universe.",
+        },
+        {
+          speaker: "Physicist B",
+          text: "Essentially, the observer and the observed are inextricably linked.",
+        },
+        {
+          speaker: "Physicist A",
+          text: "But Many-Worlds is ontologically extravagant. Billions of universes being created every second?",
+        },
+        {
+          speaker: "Physicist B",
+          text: "It's mathematically simpler than assuming a 'collapse' of the wave function triggered by observation.",
+        },
+        {
+          speaker: "Physicist A",
+          text: "It solves the measurement problem, but at a high conceptual cost.",
+        },
+      ],
+      questions: [
+        {
+          question:
+            "Which interpretation suggests that reality is indeterminate until observed?",
+          options: ["Many-Worlds", "Copenhagen", "Newtonian", "Relativity"],
+          correct: 1,
+          explanation: "Physicist A mentions the 'Copenhagen interpretation.'",
+        },
+        {
+          question: "What does Physicist B prefer?",
+          options: [
+            "Copenhagen",
+            "Many-Worlds",
+            "String Theory",
+            "Loop Quantum Gravity",
+          ],
+          correct: 1,
+          explanation:
+            "Physicist B says: 'I prefer the Many-Worlds interpretation'.",
+        },
+        {
+          question: "What is the criticism of Many-Worlds by Physicist A?",
+          options: [
+            "It's too simple",
+            "It's ontologically extravagant",
+            "It's old news",
+            "It's boring",
+          ],
+          correct: 1,
+          explanation:
+            "Physicist A says: 'But Many-Worlds is ontologically extravagant.'",
+        },
+      ],
+    },
+    {
+      title: "AI and Consciousness",
+      lines: [
+        {
+          speaker: "Cognitive Scientist",
+          text: "If an artificial intelligence can perfectly simulate emotional responses, does it truly 'feel' them?",
+        },
+        {
+          speaker: "Theologian",
+          text: "Consciousness requires more than just biological or computational complexity; it requires a subjective 'soul' or essence.",
+        },
+        {
+          speaker: "Cognitive Scientist",
+          text: "Yet, if we cannot distinguish between a simulation and the real thing, the distinction becomes functionally irrelevant.",
+        },
+        {
+          speaker: "Theologian",
+          text: "Functionality is not the same as being. A mirror reflects light, but it does not see.",
+        },
+        {
+          speaker: "Cognitive Scientist",
+          text: "What if the mirror had memory and self-referential processing? At what point does it start 'seeing'?",
+        },
+        {
+          speaker: "Theologian",
+          text: "That is the hard problem of consciousness. No amount of processing explains the qualia of experience.",
+        },
+        {
+          speaker: "Cognitive Scientist",
+          text: "Perhaps qualia are just illusions created by complex data processing.",
+        },
+      ],
+      questions: [
+        {
+          question:
+            "What is the theologians argument against AI consciousness?",
+          options: [
+            "AI is too slow",
+            "Consciousness requires a subjective 'soul' or essence",
+            "Computers can't simulate emotions",
+            "AI is dangerous",
+          ],
+          correct: 1,
+          explanation:
+            "The theologian says: 'Consciousness requires... a subjective soul or essence.'",
+        },
+        {
+          question:
+            "What does the Cognitive Scientist propose regarding the distinction?",
+          options: [
+            "It's obvious",
+            "It's functionally irrelevant if indistinguishable",
+            "It doesn't matter",
+            "It's scary",
+          ],
+          correct: 1,
+          explanation:
+            "Scientist says: 'the distinction becomes functionally irrelevant.'",
+        },
+        {
+          question: "What is the 'hard problem of consciousness' mentioned?",
+          options: [
+            "Math puzzles",
+            "Explaining the qualia of experience",
+            "Building better robots",
+            "Funding research",
+          ],
+          correct: 1,
+          explanation:
+            "Theologian mentions 'No amount of processing explains the qualia of experience.'",
+        },
+      ],
+    },
+    {
+      title: "Globalization and Sovereignty",
+      lines: [
+        {
+          speaker: "Political Scientist",
+          text: "The rise of transnational corporations is increasingly undermining the regulatory power of the nation-state.",
+        },
+        {
+          speaker: "Diplomat",
+          text: "On the contrary, international agreements provide a framework for states to reclaim that power collectively.",
+        },
+        {
+          speaker: "Political Scientist",
+          text: "But the interests of the powerful states often dominate those agreements, leaving smaller nations vulnerable.",
+        },
+        {
+          speaker: "Diplomat",
+          text: "That is why institutional reform and multilateralism are more critical than ever.",
+        },
+        {
+          speaker: "Political Scientist",
+          text: "Multilateralism is slow and often paralyzed by veto players.",
+        },
+        {
+          speaker: "Diplomat",
+          text: "It's imperfect, but it's better than unilateral anarchy where might makes right.",
+        },
+        {
+          speaker: "Political Scientist",
+          text: "We need mechanisms to hold these global entities accountable directly to the people.",
+        },
+      ],
+      questions: [
+        {
+          question:
+            "What does the Political Scientist believe is undermining nation-state power?",
+          options: [
+            "Local farmers",
+            "Transnational corporations",
+            "Small libraries",
+            "Public schools",
+          ],
+          correct: 1,
+          explanation:
+            "The Political Scientist mentions 'transnational corporations.'",
+        },
+        {
+          question: "What is the Diplomat's solution?",
+          options: [
+            "War",
+            "International agreements and multilateralism",
+            "Closing borders",
+            "Printing money",
+          ],
+          correct: 1,
+          explanation:
+            "Diplomat mentions 'international agreements provide a framework... institutional reform and multilateralism'.",
+        },
+        {
+          question: "What is the criticism of multilateralism?",
+          options: [
+            "It's too fast",
+            "It's too cheap",
+            "It's slow and paralyzed by veto players",
+            "It gives too much power to small nations",
+          ],
+          correct: 2,
+          explanation:
+            "Political Scientist says: 'Multilateralism is slow and often paralyzed by veto players.'",
+        },
+      ],
+    },
+    {
+      title: "Cultural Heritage Preservation",
+      lines: [
+        {
+          speaker: "Archaeologist",
+          text: "Climate change and local conflict are posing an unprecedented threat to these Bronze Age sites.",
+        },
+        {
+          speaker: "Curator",
+          text: "Digital mapping and 3D scanning allow us to preserve the information, even if the physical site is lost.",
+        },
+        {
+          speaker: "Archaeologist",
+          text: "But the physical context—the very earth it rests in—contains data that digital models can't capture.",
+        },
+        {
+          speaker: "Curator",
+          text: "Agreed, but in a crisis, we must prioritize what we can save for future generations.",
+        },
+        {
+          speaker: "Archaeologist",
+          text: "We should also involve the local community in the preservation efforts. It's their heritage.",
+        },
+        {
+          speaker: "Curator",
+          text: "Absolutely. But funding is limited, and high-tech scanning is expensive.",
+        },
+        {
+          speaker: "Archaeologist",
+          text: "Maybe we can get a UNESCO grant to cover the equipment costs.",
+        },
+      ],
+      questions: [
+        {
+          question: "What technologies are mentioned for preservation?",
+          options: [
+            "Photography",
+            "Digital mapping and 3D scanning",
+            "Oil painting",
+            "Carbon dating",
+          ],
+          correct: 1,
+          explanation:
+            "The curator mentions 'Digital mapping and 3D scanning.'",
+        },
+        {
+          question:
+            "What is the Archaeologist's main argument against purely digital preservation?",
+          options: [
+            "It's too cheap",
+            "Physical context contains unique data",
+            "Models are ugly",
+            "Files get corrupted",
+          ],
+          correct: 1,
+          explanation:
+            "Archaeologist says: 'physical context... contains data that digital models can't capture.'",
+        },
+        {
+          question: "What solution is proposed for funding?",
+          options: [
+            "Selling artifacts",
+            "UNESCO grant",
+            "Crowdfunding",
+            "Asking the government",
+          ],
+          correct: 1,
+          explanation:
+            "Archaeologist suggests: 'Maybe we can get a UNESCO grant...'",
+        },
+      ],
+    },
+    {
+      title: "Professional Negotiation Strategy",
+      lines: [
+        {
+          speaker: "Lead Negotiator",
+          text: "Our target for the acquisition is 500 million, with a 10% contingency for intellectual property assets.",
+        },
+        {
+          speaker: "Legal Counsel",
+          text: "We should also insist on a non-compete clause for the senior management team for at least three years.",
+        },
+        {
+          speaker: "Lead Negotiator",
+          text: "That might be a deal-breaker for them. Perhaps we could offer performance-based incentives instead?",
+        },
+        {
+          speaker: "Legal Counsel",
+          text: "It's a viable alternative, provided the benchmarks are clearly defined and legally binding.",
+        },
+        {
+          speaker: "Lead Negotiator",
+          text: "We can structure it as an earn-out over five years. That aligns their interests with ours.",
+        },
+        {
+          speaker: "Legal Counsel",
+          text: "Agreed. But we need strict auditing rights to ensure they don't manipulate the numbers.",
+        },
+        {
+          speaker: "Lead Negotiator",
+          text: "I'll have the finance team draft the preliminary terms.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is the target acquisition price?",
+          options: ["100 million", "500 million", "1 billion", "50 million"],
+          correct: 1,
+          explanation:
+            "The Lead Negotiator says: 'Our target for the acquisition is 500 million.'",
+        },
+        {
+          question: "What clause does the Legal Counsel want to add initially?",
+          options: [
+            "Non-disclosure",
+            "Non-compete",
+            "Force majeure",
+            "Arbitration",
+          ],
+          correct: 1,
+          explanation:
+            "Legal Counsel mentions 'insist on a non-compete clause'.",
+        },
+        {
+          question: "What alternative structure is proposed?",
+          options: [
+            "Cash upfront",
+            "Earn-out over five years",
+            "Stock swap",
+            "Debt financing",
+          ],
+          correct: 1,
+          explanation:
+            "Lead Negotiator suggests: 'We can structure it as an earn-out over five years.'",
+        },
+      ],
+    },
+    {
+      title: "The Future of Quantum Computing",
+      lines: [
+        {
+          speaker: "Futurologist",
+          text: "Universal quantum computers will render all current encryption methods obsolete within a decade.",
+        },
+        {
+          speaker: "Cryptographer",
+          text: "Hence the urgent focus on developing 'quantum-resistant' algorithms today.",
+        },
+        {
+          speaker: "Futurologist",
+          text: "It's a race between those who want to break security and those who want to redefine it.",
+        },
+        {
+          speaker: "Cryptographer",
+          text: "The fundamental laws of physics will eventually provide the ultimate security via quantum key distribution.",
+        },
+        {
+          speaker: "Futurologist",
+          text: "But infrastructure upgrades for QKD are expensive and technically challenging.",
+        },
+        {
+          speaker: "Cryptographer",
+          text: "True, but the cost of a total collapse of global financial security is far higher.",
+        },
+        {
+          speaker: "Futurologist",
+          text: "We need governments to subsidize the transition.",
+        },
+      ],
+      questions: [
+        {
+          question:
+            "What will quantum computers make obsolete according to the Futurologist?",
+          options: [
+            "Smartphones",
+            "Current encryption methods",
+            "The internet",
+            "Banks",
+          ],
+          correct: 1,
+          explanation:
+            "The Futurologist mentions rendering 'all current encryption methods obsolete.'",
+        },
+        {
+          question: "What is the proposed technical solution?",
+          options: [
+            "Better passwords",
+            "Quantum key distribution (QKD)",
+            "Offline storage",
+            "Paper records",
+          ],
+          correct: 1,
+          explanation: "Cryptographer mentions 'quantum key distribution.'",
+        },
+        {
+          question: "What is the main barrier to QKD mentioned?",
+          options: [
+            "Lack of interest",
+            "Laws of physics",
+            "Infrastructure expense and technical challenge",
+            "It doesn't work",
+          ],
+          correct: 2,
+          explanation:
+            "Futurologist says: 'infrastructure upgrades for QKD are expensive and technically challenging.'",
+        },
+      ],
+    },
+    {
+      title: "Deep Sea Exploration Ethics",
+      lines: [
+        {
+          speaker: "Oceanographer",
+          text: "Rare earth minerals found near hydrothermal vents could be key to our green energy transition.",
+        },
+        {
+          speaker: "Ecologist",
+          text: "But these vents are home to unique ecosystems that we've barely begun to understand.",
+        },
+        {
+          speaker: "Oceanographer",
+          text: "We would use autonomous drones to minimize the environmental footprint of the extraction.",
+        },
+        {
+          speaker: "Ecologist",
+          text: "Even 'minimal' footprint can trigger a cascade of unforeseen biological consequences in such fragile environments.",
+        },
+        {
+          speaker: "Oceanographer",
+          text: "The trade-off is between destroying the ocean floor or continuing to burn fossil fuels.",
+        },
+        {
+          speaker: "Ecologist",
+          text: "False dichotomy. We should improve recycling of existing rare earth metals first.",
+        },
+        {
+          speaker: "Oceanographer",
+          text: "Recycling isn't efficient enough to meet the skyrocketing demand for batteries.",
+        },
+      ],
+      questions: [
+        {
+          question: "What can be found near hydrothermal vents?",
+          options: ["Gold", "Rare earth minerals", "Oil", "Plastic"],
+          correct: 1,
+          explanation: "The oceanographer mentions 'Rare earth minerals.'",
+        },
+        {
+          question: "What is the Ecologist's fear?",
+          options: [
+            "Losing money",
+            "Unforeseen biological consequences",
+            "Drones breaking",
+            "Water pressure",
+          ],
+          correct: 1,
+          explanation:
+            "Ecologist mentions 'cascade of unforeseen biological consequences.'",
+        },
+        {
+          question: "What alternative does the Ecologist suggest?",
+          options: [
+            "Nuclear power",
+            "Recycling existing metals",
+            "Burning more coal",
+            "Wind farms",
+          ],
+          correct: 1,
+          explanation:
+            "Ecologist says: 'We should improve recycling of existing rare earth metals first.'",
+        },
+      ],
+    },
+    {
+      title: "Cognitive Bias in Decision Making",
+      lines: [
+        {
+          speaker: "Psychologist",
+          text: "The 'sunk cost fallacy' often leads corporations to continue funding failing projects long after they should have been terminated.",
+        },
+        {
+          speaker: "CEO",
+          text: "It's difficult for a board to admit defeat when millions have already been invested.",
+        },
+        {
+          speaker: "Psychologist",
+          text: "That is precisely why external auditors and objective metrics are so essential for high-stakes decisions.",
+        },
+        {
+          speaker: "CEO",
+          text: "We need to foster a culture where 'pivoting' is seen as a strategic strength, not a failure of will.",
+        },
+        {
+          speaker: "Psychologist",
+          text: "Also, beware of confirmation bias. Don't just look for data that supports your original hypothesis.",
+        },
+        {
+          speaker: "CEO",
+          text: "Good point. We need a 'Red Team' to actively challenge our assumptions in every meeting.",
+        },
+        {
+          speaker: "Psychologist",
+          text: "That structural conflict can save you from disastrous groupthink.",
+        },
+      ],
+      questions: [
+        {
+          question: "What fallacy is being discussed?",
+          options: [
+            "Confirmation bias",
+            "Sunk cost fallacy",
+            "Halo effect",
+            "Availability heuristic",
+          ],
+          correct: 1,
+          explanation: "The psychologist mentions the 'sunk cost fallacy.'",
+        },
+        {
+          question: "What solution does the Psychologist propose initially?",
+          options: [
+            "Fire the board",
+            "External auditors and objective metrics",
+            "More funding",
+            "Meditation",
+          ],
+          correct: 1,
+          explanation:
+            "Psychologist says: 'external auditors and objective metrics are so essential'.",
+        },
+        {
+          question: "What is a 'Red Team' used for?",
+          options: [
+            "Marketing",
+            "Challenging assumptions",
+            "Playing sports",
+            "Design",
+          ],
+          correct: 1,
+          explanation:
+            "CEO says: 'Red Team' to actively challenge our assumptions'.",
+        },
+      ],
+    },
+    {
+      title: "The Evolution of Abstract Art",
+      lines: [
+        {
+          speaker: "Art Historian",
+          text: "The transition from representational art to pure abstraction reflected a fundamental shift in how we perceive the 'self'.",
+        },
+        {
+          speaker: "Artist",
+          text: "For me, it's about stripping away the 'known' to encounter the raw, pre-linguistic experience of color and form.",
+        },
+        {
+          speaker: "Art Historian",
+          text: "Pollock's drip paintings, for instance, were as much about the physical act of creation as the final image.",
+        },
+        {
+          speaker: "Artist",
+          text: "Exactly. The canvas becomes an arena for an event rather than a window onto a scene.",
+        },
+        {
+          speaker: "Art Historian",
+          text: "This shift alienated many viewers who sought narrative comfort in art.",
+        },
+        {
+          speaker: "Artist",
+          text: "Art shouldn't just comfort; it should challenge the viewer to confront the unknown.",
+        },
+        {
+          speaker: "Art Historian",
+          text: "It demands active participation rather than passive observation.",
+        },
+      ],
+      questions: [
+        {
+          question: "What was Pollock's work about according to the Historian?",
+          options: [
+            "Portraits of kings",
+            "The physical act of creation",
+            "Landscape painting",
+            "Political propaganda",
+          ],
+          correct: 1,
+          explanation:
+            "The historian says they were 'as much about the physical act of creation as the final image.'",
+        },
+        {
+          question: "How does the Artist describe their goal?",
+          options: [
+            "To paint realistic trees",
+            "Stripping away the 'known'",
+            "To make money",
+            "To copy old masters",
+          ],
+          correct: 1,
+          explanation:
+            "Artist says: 'stripping away the 'known' to encounter the raw... experience'.",
+        },
+        {
+          question: "What does the Historian say about the viewers?",
+          options: [
+            "They loved it",
+            "They were alienated",
+            "They bought everything",
+            "They stopped going to museums",
+          ],
+          correct: 1,
+          explanation: "Historian says: 'This shift alienated many viewers'.",
+        },
+      ],
+    },
+    {
+      title: "Sustainable Urban Design",
+      lines: [
+        {
+          speaker: "Architect",
+          text: "By integrating vertical forests into our skyscraper designs, we can significantly reduce the 'urban heat island' effect.",
+        },
+        {
+          speaker: "Botanist",
+          text: "Maintenance of such systems is high, and you have to consider the long-term structural impact of root growth.",
+        },
+        {
+          speaker: "Architect",
+          text: "We've developed modular planters that prevent root penetration into the primary structure.",
+        },
+        {
+          speaker: "Botanist",
+          text: "If the irrigation system fails even for a few days, the entire ecosystem could collapse.",
+        },
+        {
+          speaker: "Architect",
+          text: "We have redundant smart sensors and greywater recycling systems to mitigate that risk.",
+        },
+        {
+          speaker: "Botanist",
+          text: "It sounds impressive, but is it scalable for affordable housing?",
+        },
+        {
+          speaker: "Architect",
+          text: "Not yet, but as the technology matures, the costs will come down.",
+        },
+      ],
+      questions: [
+        {
+          question: "What effect do vertical forests help reduce?",
+          options: [
+            "Traffic",
+            "Urban heat island effect",
+            "Rent prices",
+            "Wind speed",
+          ],
+          correct: 1,
+          explanation:
+            "The architect mentions reducing the 'urban heat island' effect.",
+        },
+        {
+          question: "What is the Botanist's concern regarding structure?",
+          options: [
+            "Wind load",
+            "Root growth/penetration",
+            "Earthquakes",
+            "Visual appeal",
+          ],
+          correct: 1,
+          explanation: "Botanist mentions 'structural impact of root growth.'",
+        },
+        {
+          question: "What happens if irrigation fails?",
+          options: [
+            "Nothing",
+            "Ecosystem collapse",
+            "Flood",
+            "Structure falls",
+          ],
+          correct: 1,
+          explanation: "Botanist says: 'the entire ecosystem could collapse.'",
+        },
+      ],
+    },
+    {
+      title: "Universal Basic Income Debate",
+      lines: [
+        {
+          speaker: "Sociologist",
+          text: "UBI could provide the necessary safety net as automation replaces a vast range of traditional middle-class jobs.",
+        },
+        {
+          speaker: "Economist",
+          text: "The inflationary pressure of injecting that much cash into the system could negate the benefits and devalue the currency.",
+        },
+        {
+          speaker: "Sociologist",
+          text: "Early trials suggest that people don't stop working; they simply shift toward more meaningful, creative, or care-oriented roles.",
+        },
+        {
+          speaker: "Economist",
+          text: "Small-scale trials are not representative of a national or global economic ecosystem.",
+        },
+        {
+          speaker: "Sociologist",
+          text: "We need to rethink the social contract. Work shouldn't be the only justification for existence.",
+        },
+        {
+          speaker: "Economist",
+          text: "Philosophically appealing, but fiscally perilous. We should focus on targeted retraining programs instead.",
+        },
+        {
+          speaker: "Sociologist",
+          text: "Retraining for what? The robots will eventually learn those jobs too.",
+        },
+      ],
+      questions: [
+        {
+          question:
+            "What do early trials suggest according to the Sociologist?",
+          options: [
+            "People stop working entirely",
+            "People shift toward more meaningful roles",
+            "People spend all their money on luxuries",
+            "Work productivity drops by 50%",
+          ],
+          correct: 1,
+          explanation:
+            "The sociologist mentions: 'people don't stop working; they simply shift toward more meaningful... roles.'",
+        },
+        {
+          question: "What is the Economist's concern?",
+          options: [
+            "Inflation and fiscal peril",
+            "Too many happy people",
+            "Lack of robots",
+            "People will get bored",
+          ],
+          correct: 0,
+          explanation:
+            "Economist mentions 'inflationary pressure' and says it is 'fiscally perilous.'",
+        },
+        {
+          question: "What alternative does the Economist suggest?",
+          options: [
+            "UBI",
+            "Targeted retraining programs",
+            "Lower taxes",
+            "More holidays",
+          ],
+          correct: 1,
+          explanation:
+            "Economist suggests: 'We should focus on targeted retraining programs instead.'",
+        },
+      ],
+    },
+  ],
+  C2: [
+    {
+      title: "Epistemological Limits of Science",
+      lines: [
+        {
+          speaker: "Philosopher",
+          text: "Gödel's incompleteness theorems suggest that within any sufficiently complex logical system, there are truths that cannot be proven.",
+        },
+        {
+          speaker: "Physicist",
+          text: "Does this imply that a 'Theory of Everything' in physics is fundamentally unattainable through mathematics?",
+        },
+        {
+          speaker: "Philosopher",
+          text: "Mathematics may describe the 'how', but it might be inherently limited in capturing the 'why' of existence.",
+        },
+        {
+          speaker: "Physicist",
+          text: "Yet, the uncanny efficacy of mathematics in describing the universe suggests a deep ontological connection.",
+        },
+        {
+          speaker: "Philosopher",
+          text: "That efficay might be a product of our selection bias; we only notice the math that works.",
+        },
+        {
+          speaker: "Physicist",
+          text: "Perhaps, but predicting the magnetic moment of an electron to twelve decimal places is hardly a coincidence.",
+        },
+        {
+          speaker: "Philosopher",
+          text: "Precision is not the same as truth. Ptolemaic astronomy was precise but geocentrically wrong.",
+        },
+      ],
+      questions: [
+        {
+          question: "What do Gödel's theorems suggest?",
+          options: [
+            "All truths are provable",
+            "There are truths that cannot be proven within a system",
+            "Science is useless",
+            "Everything is mathematics",
+          ],
+          correct: 1,
+          explanation:
+            "The philosopher says they 'suggest that... there are truths that cannot be proven.'",
+        },
+        {
+          question: "What is the Physicist's counter-argument regarding math?",
+          options: [
+            "It's too hard",
+            "The uncanny efficacy suggests a deep ontological connection",
+            "It's all luck",
+            "It's wrong",
+          ],
+          correct: 1,
+          explanation:
+            "Physicist mentions 'the uncanny efficacy of mathematics in describing the universe.'",
+        },
+        {
+          question:
+            "What example does the Philosopher use to distinguish precision from truth?",
+          options: [
+            "Newtonian physics",
+            "Ptolemaic astronomy",
+            "Quantum mechanics",
+            "Chemistry",
+          ],
+          correct: 1,
+          explanation:
+            "Philosopher mentions 'Ptolemaic astronomy was precise but geocentrically wrong.'",
+        },
+      ],
+    },
+    {
+      title: "Advanced Game Theory in Geopolitics",
+      lines: [
+        {
+          speaker: "Strategist",
+          text: "In a multi-polar nuclear world, the concept of 'Mutually Assured Destruction' becomes significantly more unstable.",
+        },
+        {
+          speaker: "Academic",
+          text: "The introduction of low-yield tactical weapons further blurs the threshold of nuclear use, inviting miscalculation.",
+        },
+        {
+          speaker: "Strategist",
+          text: "We must transition from a strategy of containment to one of complex interdependence to raise the cost of conflict.",
+        },
+        {
+          speaker: "Academic",
+          text: "Interdependence itself can be 'weaponized' through supply chain disruption and economic sanctions.",
+        },
+        {
+          speaker: "Strategist",
+          text: "True, but weaponized interdependence is preferable to kinetic warfare.",
+        },
+        {
+          speaker: "Academic",
+          text: "Unless the economic pain becomes an existential threat, triggering the very escalation we seek to avoid.",
+        },
+        {
+          speaker: "Strategist",
+          text: "That is the delicate equilibrium of deterrence in the 21st century.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is the Strategist's proposed solution?",
+          options: [
+            "More weapons",
+            "Complex interdependence",
+            "Isolationism",
+            "A world government",
+          ],
+          correct: 1,
+          explanation:
+            "The strategist suggests 'one of complex interdependence to raise the cost of conflict.'",
+        },
+        {
+          question:
+            "What risk does the Academic highlight regarding interdependence?",
+          options: [
+            "It's expensive",
+            "It can be weaponized",
+            "It's boring",
+            "It takes too long",
+          ],
+          correct: 1,
+          explanation:
+            "Academic says: 'Interdependence itself can be 'weaponized' through supply chain disruption'.",
+        },
+        {
+          question: "What is the concern about economic pain?",
+          options: [
+            "It causes inflation",
+            "It might trigger escalation",
+            "It hurts the poor",
+            "It stops trade",
+          ],
+          correct: 1,
+          explanation:
+            "Academic says: 'Unless the economic pain... triggering the very escalation we seek to avoid.'",
+        },
+      ],
+    },
+    {
+      title: "The Phenomenology of Time",
+      lines: [
+        {
+          speaker: "Husserlian",
+          text: "Time is not a series of discrete units, but a continuous flow of 'retention' and 'protention'.",
+        },
+        {
+          speaker: "Bergsonian",
+          text: "Indeed, 'duree' or duration is the essence of life, which the intellect incorrectly spatializes into seconds and minutes.",
+        },
+        {
+          speaker: "Husserlian",
+          text: "Our consciousness of the present moment always includes the fading shadow of the past and the horizon of the future.",
+        },
+        {
+          speaker: "Bergsonian",
+          text: "To live is to be carried away by this indivisible flux, which measurement inevitably distorts.",
+        },
+        {
+          speaker: "Husserlian",
+          text: "So, the ticking clock is an abstraction that alienates us from our lived experience?",
+        },
+        {
+          speaker: "Bergsonian",
+          text: "Precisely. Science measures time, but consciousness endures it.",
+        },
+        {
+          speaker: "Husserlian",
+          text: "And in that endurance, we find the continuity of the self.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is Bergson's term for the essence of life/time?",
+          options: ["Moment", "Duree (Duration)", "Second", "Infinity"],
+          correct: 1,
+          explanation: "The Bergsonian speaker mentions 'duree' or duration.",
+        },
+        {
+          question: "How does the Husserlian describe the present moment?",
+          options: [
+            "An isolated point",
+            "Including past shadow and future horizon",
+            "A dream",
+            "An illusion",
+          ],
+          correct: 1,
+          explanation:
+            "Husserlian says: 'includes the fading shadow of the past and the horizon of the future.'",
+        },
+        {
+          question: "What is the criticism of the 'ticking clock'?",
+          options: [
+            "It's too loud",
+            "It's an abstraction that alienates us",
+            "It's inaccurate",
+            "It's useful",
+          ],
+          correct: 1,
+          explanation:
+            "Husserlian asks if it is 'an abstraction that alienates us from our lived experience.'",
+        },
+      ],
+    },
+    {
+      title: "Macro-Prudential Financial Regulation",
+      lines: [
+        {
+          speaker: "Regulator",
+          text: "The interconnectedness of the 'shadow banking' system poses a systemic risk that our current capital requirements don't address.",
+        },
+        {
+          speaker: "Banker",
+          text: "Over-regulation risks stifling liquidity and hampering the credit growth necessary for a robust recovery.",
+        },
+        {
+          speaker: "Regulator",
+          text: "Liquidity is irrelevant if the entire edifice collapses due to a lack of transparency in derivatives markets.",
+        },
+        {
+          speaker: "Banker",
+          text: "Standardizing those markets might drive innovation into even less regulated, more opaque jurisdictions.",
+        },
+        {
+          speaker: "Regulator",
+          text: "That is the argument for global regulatory convergence, specifically Basel III.",
+        },
+        {
+          speaker: "Banker",
+          text: "Convergence is ideal, but implementation varies wildly, creating arbitrage opportunities.",
+        },
+        {
+          speaker: "Regulator",
+          text: "We must close those loopholes before the next crisis hits.",
+        },
+      ],
+      questions: [
+        {
+          question: "What does the Regulator believe is a systemic risk?",
+          options: [
+            "Small banks",
+            "Interconnectedness of the 'shadow banking' system",
+            "High interest rates",
+            "Physical bank robberies",
+          ],
+          correct: 1,
+          explanation:
+            "The regulator mentions 'the interconnectedness of the shadow banking system.'",
+        },
+        {
+          question: "What is the Banker's concern about regulation?",
+          options: [
+            "It costs too much",
+            "Stifling liquidity and credit growth",
+            "It's boring",
+            "It's necessary",
+          ],
+          correct: 1,
+          explanation:
+            "Banker says: 'Over-regulation risks stifling liquidity and hampering the credit growth'.",
+        },
+        {
+          question: "What problem does the Banker raise about standardization?",
+          options: [
+            "It makes things too simple",
+            "Driving innovation to opaque jurisdictions",
+            "It's illegal",
+            "It takes too long",
+          ],
+          correct: 1,
+          explanation:
+            "Banker says: 'Standardizing... might drive innovation into even less regulated, more opaque jurisdictions.'",
+        },
+      ],
+    },
+    {
+      title: "Post-Structuralist Theory",
+      lines: [
+        {
+          speaker: "Foucauldian",
+          text: "Power is not just repressive; it is productive, co-constituting the very subjects it appears to govern.",
+        },
+        {
+          speaker: "Derridean",
+          text: "And language, through 'différance', constantly defers meaning, ensuring that any fixed 'truth' remains elusive.",
+        },
+        {
+          speaker: "Foucauldian",
+          text: "Knowledge is inextricably linked to power; what a society deems 'true' is a function of its dominant discourses.",
+        },
+        {
+          speaker: "Derridean",
+          text: "To deconstruct is to expose the hierarchical oppositions that underpin Western metaphysics.",
+        },
+        {
+          speaker: "Foucauldian",
+          text: "So, the Asylum or the Prison are not just buildings, but technologies of the self?",
+        },
+        {
+          speaker: "Derridean",
+          text: "Yes, just as the text is never innocent. It always carries the trace of what it excludes.",
+        },
+        {
+          speaker: "Foucauldian",
+          text: "Resistance, then, must be local and specific, challenging these micro-physics of power.",
+        },
+      ],
+      questions: [
+        {
+          question:
+            "According to the Foucauldian, what is the nature of power?",
+          options: [
+            "Solely repressive",
+            "Productive and co-constituting subjects",
+            "Non-existent",
+            "Only held by kings",
+          ],
+          correct: 1,
+          explanation:
+            "The Foucauldian says: 'Power is not just repressive; it is productive...'",
+        },
+        {
+          question: "What does the Derridean say about 'truth'?",
+          options: [
+            "It is fixed",
+            "It is elusive due to différance",
+            "It is easy to find",
+            "It is written in stone",
+          ],
+          correct: 1,
+          explanation:
+            "Derridean says: 'ensuring that any fixed 'truth' remains elusive.'",
+        },
+        {
+          question: "How does the Foucauldian describe knowledge?",
+          options: ["Objective", "Linked to power", "Pure", "Divine"],
+          correct: 1,
+          explanation:
+            "Foucauldian says: 'Knowledge is inextricably linked to power'.",
+        },
+      ],
+    },
+    {
+      title: "The Anthropic Principle in Cosmology",
+      lines: [
+        {
+          speaker: "Researcher A",
+          text: "The fundamental constants of physics seem 'fine-tuned' to allow the existence of carbon-based life.",
+        },
+        {
+          speaker: "Researcher B",
+          text: "The 'multiverse' hypothesis explains this without a designer: we simply happen to exist in one of the few viable universes.",
+        },
+        {
+          speaker: "Researcher A",
+          text: "But isn't the multiverse an ad hoc solution to avoid the statistical improbability of our own universe?",
+        },
+        {
+          speaker: "Researcher B",
+          text: "It is an elegant consequence of string theory and eternal inflation, rather than a mere philosophical convenience.",
+        },
+        {
+          speaker: "Researcher A",
+          text: "Even so, it is empirically untestable, pushing it into the realm of metaphysics.",
+        },
+        {
+          speaker: "Researcher B",
+          text: "Perhaps indirect evidence, like confirming cosmic bubble collisions, could one day validate it.",
+        },
+        {
+          speaker: "Researcher A",
+          text: "Until then, it remains a mathematical fantasy.",
+        },
+      ],
+      questions: [
+        {
+          question:
+            "What does the 'multiverse' hypothesis explain in this context?",
+          options: [
+            "Why time travels",
+            "Fine-tuned fundamental constants",
+            "The speed of light",
+            "The death of stars",
+          ],
+          correct: 1,
+          explanation:
+            "Researcher B explains that the multiverse explains the fine-tuning without a designer.",
+        },
+        {
+          question: "What is Researcher A's criticism of the multiverse?",
+          options: [
+            "It's too small",
+            "It's an ad hoc solution and untestable",
+            "It's proven wrong",
+            "It's religious",
+          ],
+          correct: 1,
+          explanation:
+            "Researcher A calls it an 'ad hoc solution' and 'empirically untestable.'",
+        },
+        {
+          question: "What potential evidence does Researcher B mention?",
+          options: [
+            "Aliens",
+            "Cosmic bubble collisions",
+            "Black holes",
+            "Time machines",
+          ],
+          correct: 1,
+          explanation:
+            "Researcher B mentions 'confirming cosmic bubble collisions.'",
+        },
+      ],
+    },
+    {
+      title: "Complexity Theory in Biology",
+      lines: [
+        {
+          speaker: "Systems Biologist",
+          text: "We cannot understand a cell by merely listing its components; we must model the emergent properties of its signaling networks.",
+        },
+        {
+          speaker: "Geneticist",
+          text: "Reductionism has served us well in identifying the specific mutations that lead to disease.",
+        },
+        {
+          speaker: "Systems Biologist",
+          text: "True, but therapy often fails because the system compensates for a single targeted intervention in unpredictable ways.",
+        },
+        {
+          speaker: "Geneticist",
+          text: "Combining single-gene focus with system-wide mapping is indeed the future of personalized medicine.",
+        },
+        {
+          speaker: "Systems Biologist",
+          text: "Exactly. We need to treat the network, not just the node.",
+        },
+        {
+          speaker: "Geneticist",
+          text: "That requires computational power we are only just beginning to develop.",
+        },
+        {
+          speaker: "Systems Biologist",
+          text: "It is the only way to tackle complex diseases like cancer.",
+        },
+      ],
+      questions: [
+        {
+          question: "What are 'emergent properties' in this context?",
+          options: [
+            "Components of a cell",
+            "Properties that arise from the network of interactions",
+            "Genetic mutations",
+            "Chemical reactions",
+          ],
+          correct: 1,
+          explanation:
+            "The systems biologist speaks about modeling 'emergent properties of its signaling networks.'",
+        },
+        {
+          question:
+            "Why does therapy often fail according to the Systems Biologist?",
+          options: [
+            "It's too expensive",
+            "The system compensates unpredictably",
+            "Wrong medicine",
+            "Doctors are bad",
+          ],
+          correct: 1,
+          explanation:
+            "Systems Biologist says: 'the system compensates for a single targeted intervention in unpredictable ways.'",
+        },
+        {
+          question: "What is the agreed future of personalized medicine?",
+          options: [
+            "More pills",
+            "Combining single-gene focus with system-wide mapping",
+            "Surgery only",
+            "Herbal remedies",
+          ],
+          correct: 1,
+          explanation:
+            "Geneticist says: 'Combining single-gene focus with system-wide mapping is indeed the future'.",
+        },
+      ],
+    },
+    {
+      title: "Technological Singularity Discourse",
+      lines: [
+        {
+          speaker: "Transhumanist",
+          text: "The exponential growth of computing power will lead to a point where machine intelligence surpasses human intelligence in all domains.",
+        },
+        {
+          speaker: "Critique",
+          text: "This assumes that intelligence is merely a matter of processing power, ignoring the embodied and social nature of human cognition.",
+        },
+        {
+          speaker: "Transhumanist",
+          text: "Once we achieve whole-brain emulation, the hardware substrate will become irrelevant.",
+        },
+        {
+          speaker: "Critique",
+          text: "Even a perfect copy would lack the historical and biological continuity that defines a human person.",
+        },
+        {
+          speaker: "Transhumanist",
+          text: "Continuity is an illusion. You are not the same matter you were seven years ago.",
+        },
+        {
+          speaker: "Critique",
+          text: "But I am the same ongoing process. A copy is a new process with a separate trajectory.",
+        },
+        {
+          speaker: "Transhumanist",
+          text: "If the process is identical, the distinction is semantic.",
+        },
+      ],
+      questions: [
+        {
+          question: "What does the Transhumanist believe will happen?",
+          options: [
+            "AI will fail",
+            "Machine intelligence will surpass human intelligence",
+            "Computers will get slower",
+            "Robots will take over the world",
+          ],
+          correct: 1,
+          explanation:
+            "The Transhumanist says machine intelligence will surpass human intelligence 'in all domains'.",
+        },
+        {
+          question:
+            "What is the Critique's main argument against pure processing power?",
+          options: [
+            "It uses too much electricity",
+            "It ignores embodied and social nature of cognition",
+            "It is too fast",
+            "It is expensive",
+          ],
+          correct: 1,
+          explanation:
+            "Critique says: 'ignoring the embodied and social nature of human cognition.'",
+        },
+        {
+          question: "What is the debate about 'continuity'?",
+          options: [
+            "Whether time stops",
+            "Whether a copy is the same person",
+            "How long batteries last",
+            "History books",
+          ],
+          correct: 1,
+          explanation:
+            "Critique argues a copy lacks 'biological continuity that defines a human person.'",
+        },
+      ],
+    },
+    {
+      title: "Advanced Game Theory: The Prisoner's Dilemma",
+      lines: [
+        {
+          speaker: "Professor",
+          text: "In an iterated Prisoner's Dilemma, 'Tit-for-Tat' emerges as a robust strategy that encourages mutual cooperation.",
+        },
+        {
+          speaker: "Student",
+          text: "But 'Tit-for-Tat' is vulnerable to 'noise' or accidental defections that can trigger a long cycle of retaliation.",
+        },
+        {
+          speaker: "Professor",
+          text: "Correct. 'Generous Tit-for-Tat' or 'Tit-for-Two-Tats' were developed to be more forgiving and stable.",
+        },
+        {
+          speaker: "Student",
+          text: "It's fascinating how simple mathematical rules can model complex social behaviors like trust and betrayal.",
+        },
+        {
+          speaker: "Professor",
+          text: "Indeed. And in evolutionary biology, this explains how altruism can survive in a selfish world.",
+        },
+        {
+          speaker: "Student",
+          text: "So, being nice is actually a survival strategy?",
+        },
+        {
+          speaker: "Professor",
+          text: "Yes, provided there is a high probability of future interaction.",
+        },
+      ],
+      questions: [
+        {
+          question:
+            "Which strategy encourages mutual cooperation in the iterated version?",
+          options: [
+            "Always defect",
+            "Tit-for-Tat",
+            "Always cooperate",
+            "Random choice",
+          ],
+          correct: 1,
+          explanation:
+            "The professor mentions 'Tit-for-Tat' as a robust strategy.",
+        },
+        {
+          question: "What is the vulnerability of 'Tit-for-Tat'?",
+          options: [
+            "It's too nice",
+            "Vulnerable to 'noise' or accidental defections",
+            "It's too complicated",
+            "It needs a computer",
+          ],
+          correct: 1,
+          explanation:
+            "Student says: 'vulnerable to 'noise' or accidental defections'.",
+        },
+        {
+          question: "What does this explain in evolutionary biology?",
+          options: [
+            "Why dinosaurs died",
+            "How altruism can survive",
+            "Why birds fly",
+            "Photosynthesis",
+          ],
+          correct: 1,
+          explanation:
+            "Professor says: 'explains how altruism can survive in a selfish world.'",
+        },
+      ],
+    },
+    {
+      title: "The Ethics of Predictive Policing",
+      lines: [
+        {
+          speaker: "Data Scientist",
+          text: "By analyzing historical crime data, our algorithm can predict 'hot spots' and optimize police patrol routes.",
+        },
+        {
+          speaker: "Civil Libertarian",
+          text: "This risks creating a feedback loop where over-policed communities are perpetually targeted based on biased data.",
+        },
+        {
+          speaker: "Data Scientist",
+          text: "The goal is to prevent crime and save lives, not to target individuals.",
+        },
+        {
+          speaker: "Civil Libertarian",
+          text: "The 'neutrality' of algorithms is a myth; they reflect the biases inherent in the data they are trained on.",
+        },
+        {
+          speaker: "Data Scientist",
+          text: "We can audit the algorithms for bias and adjust the parameters.",
+        },
+        {
+          speaker: "Civil Libertarian",
+          text: "Transparency is key. We cannot have 'black box' justice.",
+        },
+        {
+          speaker: "Data Scientist",
+          text: "Agreed. Accountability must be built into the system.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is the Civil Libertarian's main concern?",
+          options: [
+            "Algorithm speed",
+            "Feedback loops and biased data targets",
+            "The cost of the software",
+            "Predictive accuracy",
+          ],
+          correct: 1,
+          explanation:
+            "The Civil Libertarian mentions 'creating a feedback loop where over-policed communities are perpetually targeted.'",
+        },
+        {
+          question: "What does the Data Scientist say is the goal?",
+          options: [
+            "To arrest everyone",
+            "To prevent crime and save lives",
+            "To make money",
+            "To spy on people",
+          ],
+          correct: 1,
+          explanation:
+            "Data Scientist says: 'The goal is to prevent crime and save lives'.",
+        },
+        {
+          question: "What is the 'myth' mentioned?",
+          options: [
+            "Santa Claus",
+            "Neutrality of algorithms",
+            "Crime free city",
+            "Flying cars",
+          ],
+          correct: 1,
+          explanation:
+            "Civil Libertarian says: 'The 'neutrality' of algorithms is a myth'.",
+        },
+      ],
+    },
+    {
+      title: "Advanced Ethics in Biotechnology",
+      lines: [
+        {
+          speaker: "Ethicist",
+          text: "Germline editing doesn't just affect the individual; it alters the genetic heritage of all future generations.",
+        },
+        {
+          speaker: "Geneticist",
+          text: "But if we can eliminate hereditary diseases like Huntington's, do we not have a moral obligation to do so?",
+        },
+        {
+          speaker: "Ethicist",
+          text: "The boundary between 'therapy' and 'enhancement' is dangerously porous in a market-driven society.",
+        },
+        {
+          speaker: "Geneticist",
+          text: "We must establish international protocols to ensure equitable access and prevent a genetic 'arms race'.",
+        },
+        {
+          speaker: "Ethicist",
+          text: "History suggests that enforcement of such protocols is nearly impossible given geopolitical rivalries.",
+        },
+        {
+          speaker: "Geneticist",
+          text: "The alternative is a black market for genetic modifications, which is far worse.",
+        },
+        {
+          speaker: "Ethicist",
+          text: "We are playing with the source code of life without understanding the long-term dependencies.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is the Ethicist's concern about germline editing?",
+          options: [
+            "It's too expensive",
+            "It alters future generations' genetic heritage",
+            "It doesn't work",
+            "It's only for plants",
+          ],
+          correct: 1,
+          explanation:
+            "The ethicist says: 'it alters the genetic heritage of all future generations.'",
+        },
+        {
+          question: "What obligation does the Geneticist mention?",
+          options: [
+            "To make money",
+            "To eliminate hereditary diseases",
+            "To create super soldiers",
+            "To live forever",
+          ],
+          correct: 1,
+          explanation:
+            "Geneticist asks: 'do we not have a moral obligation to do so [eliminate hereditary diseases]?'",
+        },
+        {
+          question: "Why does the Ethicist doubt the protocols?",
+          options: [
+            "Geopolitical rivalries",
+            "Scientists are lazy",
+            "Protocols are illegal",
+            "No one cares",
+          ],
+          correct: 0,
+          explanation:
+            "Ethicist says: 'enforcement of such protocols is nearly impossible given geopolitical rivalries.'",
+        },
+      ],
+    },
+    {
+      title: "Existential Risk from AI",
+      lines: [
+        {
+          speaker: "Researcher A",
+          text: "The 'orthogonality thesis' implies that an AI could be superintelligent while having goals that are completely indifferent to human survival.",
+        },
+        {
+          speaker: "Researcher B",
+          text: "This is why AI alignment is not just a technical challenge, but a fundamental existential one.",
+        },
+        {
+          speaker: "Researcher A",
+          text: "A simple goal like 'maximize paperclip production' could lead to the consumption of all terrestrial matter.",
+        },
+        {
+          speaker: "Researcher B",
+          text: "We need more than just 'off switches'; we need provably beneficial AI architectures.",
+        },
+        {
+          speaker: "Researcher A",
+          text: "But defining 'beneficial' is a philosophical minefield. Whose values do we encode?",
+        },
+        {
+          speaker: "Researcher B",
+          text: "We might have to use 'Coherent Extrapolated Volition'—what we would want if we knew more and were better people.",
+        },
+        {
+          speaker: "Researcher A",
+          text: "That sounds dangerously abstract for a system that can outthink us in nanoseconds.",
+        },
+      ],
+      questions: [
+        {
+          question: "What does the 'orthogonality thesis' imply?",
+          options: [
+            "AI will always be kind",
+            "Intelligence and goals are independent",
+            "AI cannot be superintelligent",
+            "Paperclips are dangerous",
+          ],
+          correct: 1,
+          explanation:
+            "Researcher A says it implies AI can be superintelligent while having indifferent goals.",
+        },
+        {
+          question: "What is the 'paperclip' refence?",
+          options: [
+            "A game",
+            "An office supply shortage",
+            "A scenario where an AI consumes matter to maximize production",
+            "A recycling program",
+          ],
+          correct: 2,
+          explanation:
+            "Researcher A mentions 'maximize paperclip production' leading to consumption of matter.",
+        },
+        {
+          question: "What solution does Researcher B propose for values?",
+          options: [
+            "Voting",
+            "Coherent Extrapolated Volition",
+            " Random selection",
+            "Religious texts",
+          ],
+          correct: 1,
+          explanation:
+            "Researcher B mentions 'Coherent Extrapolated Volition'.",
+        },
+      ],
+    },
+    {
+      title: "Post-Scarcity Economics",
+      lines: [
+        {
+          speaker: "Futurist",
+          text: "With advanced molecular manufacturing, the marginal cost of producing physical goods could drop to near zero.",
+        },
+        {
+          speaker: "Economist",
+          text: "If labor and resources are no longer scarce, the entire price mechanism of capitalism becomes obsolete.",
+        },
+        {
+          speaker: "Futurist",
+          text: "We would need a new social contract based on the distribution of 'intellectual capital' rather than material wealth.",
+        },
+        {
+          speaker: "Economist",
+          text: "The transition would be chaotic, as our current institutions are built entirely on the management of scarcity.",
+        },
+        {
+          speaker: "Futurist",
+          text: "We might see a shift to a reputation economy, where status determines access to unique non-replicable experiences.",
+        },
+        {
+          speaker: "Economist",
+          text: "Or we might see artificial scarcity imposed by monopolies to maintain control.",
+        },
+        {
+          speaker: "Futurist",
+          text: "That would lead to a techno-feudalism that we must avoid at all costs.",
+        },
+      ],
+      questions: [
+        {
+          question:
+            "What would happen to the price mechanism in post-scarcity?",
+          options: [
+            "Prices would rise",
+            "It would become obsolete",
+            "It would stay the same",
+            "It would only apply to food",
+          ],
+          correct: 1,
+          explanation:
+            "The economist says 'the entire price mechanism of capitalism becomes obsolete.'",
+        },
+        {
+          question:
+            "What is the Futurist's proposed basis for a new social contract?",
+          options: [
+            "Gold",
+            "Land",
+            "Intellectual capital",
+            "Physical strength",
+          ],
+          correct: 2,
+          explanation:
+            "Futurist mentions 'distribution of intellectual capital.'",
+        },
+        {
+          question: "What negative outcome does the Futurist warn against?",
+          options: ["Utopianism", "Techno-feudalism", "Socialism", "Anarchy"],
+          correct: 1,
+          explanation:
+            "Futurist says: 'That would lead to a techno-feudalism that we must avoid'.",
+        },
+      ],
+    },
+    {
+      title: "Quantum Ontologies",
+      lines: [
+        {
+          speaker: "Philosopher",
+          text: "Quantum decoherence explains how the classical world emerges from the quantum one, but it doesn't solve the measurement problem.",
+        },
+        {
+          speaker: "Physicist",
+          text: "Perhaps the 'wavefunction' is not an objective reality, but a state of our knowledge about the system.",
+        },
+        {
+          speaker: "Philosopher",
+          text: "That leads us toward QBism (Quantum Bayesianism), which places the observer at the very center of physics.",
+        },
+        {
+          speaker: "Physicist",
+          text: "It's a radical shift from the traditional view of a mind-independent physical universe.",
+        },
+        {
+          speaker: "Philosopher",
+          text: "But if reality is agent-dependent, do we risk falling into solipsism?",
+        },
+        {
+          speaker: "Physicist",
+          text: "Not if we assume consistency between different observers' experiences as a fundamental constraint.",
+        },
+        {
+          speaker: "Philosopher",
+          text: "So 'Intersubjectivity' replaces 'Objectivity'?",
+        },
+      ],
+      questions: [
+        {
+          question: "What does QBism emphasize?",
+          options: [
+            "The speed of light",
+            "The observer's role in physics",
+            "Gravity",
+            "String theory",
+          ],
+          correct: 1,
+          explanation:
+            "The philosopher mentions QBism 'places the observer at the very center of physics.'",
+        },
+        {
+          question:
+            "What problem does decoherence NOT solve according to the Philosopher?",
+          options: [
+            "The measurement problem",
+            "The gravity problem",
+            "The energy problem",
+            "The time problem",
+          ],
+          correct: 0,
+          explanation:
+            "Philosopher says: 'it doesn't solve the measurement problem.'",
+        },
+        {
+          question:
+            "What replaces Objectivity in the Philosopher's final question?",
+          options: [
+            "Subjectivity",
+            "Intersubjectivity",
+            "Relativity",
+            "Negativity",
+          ],
+          correct: 1,
+          explanation:
+            "Philosopher asks: 'So Intersubjectivity replaces Objectivity?'",
+        },
+      ],
+    },
+    {
+      title: "Meta-Ethics: Moral Realism",
+      lines: [
+        {
+          speaker: "Realist",
+          text: "Moral facts exist objectively, independent of our beliefs or cultural practices.",
+        },
+        {
+          speaker: "Anti-Realist",
+          text: "But morals seem to be social constructs, designed to facilitate cooperation and group survival.",
+        },
+        {
+          speaker: "Realist",
+          text: "If that were true, we could never say that a culture's practices are 'wrong', only different.",
+        },
+        {
+          speaker: "Anti-Realist",
+          text: "Our moral condemnations are expressions of our evolved values, not discoveries of universal truths.",
+        },
+        {
+          speaker: "Realist",
+          text: "But we perceive moral truth as binding. Killing an innocent feels wrong in a way that breaking a strict rule doesn't.",
+        },
+        {
+          speaker: "Anti-Realist",
+          text: "That phenomenological 'feel' is the result of deep evolutionary conditioning, not ontological reailty.",
+        },
+        {
+          speaker: "Realist",
+          text: "I find it hard to accept that justice is merely a useful fiction.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is the Realist's main claim?",
+          options: [
+            "Morals are fake",
+            "Moral facts exist objectively",
+            "Every culture is right",
+            "Morals are just feelings",
+          ],
+          correct: 1,
+          explanation:
+            "The realist says: 'Moral facts exist objectively, independent of our beliefs...' ",
+        },
+        {
+          question: "How does the Anti-Realist explain morals?",
+          options: [
+            "God gave them",
+            "Social constructs for survival",
+            "Random chance",
+            "Aliens",
+          ],
+          correct: 1,
+          explanation:
+            "Anti-Realist says 'morals seem to be social constructs... to facilitate cooperation'.",
+        },
+        {
+          question: "What distinction does the Realist make?",
+          options: [
+            "Between red and blue",
+            "Between 'wrong' and 'different'",
+            "Between hot and cold",
+            "Between up and down",
+          ],
+          correct: 1,
+          explanation:
+            "Realist argues if anti-realism were true, we could never say practices are 'wrong', only different.",
+        },
+      ],
+    },
+    {
+      title: "Geopolitical Dynamics: The Thucydides Trap",
+      lines: [
+        {
+          speaker: "Historian",
+          text: "The 'Thucydides Trap' refers to the structural stress that occurs when a rising power threatens to displace an established one.",
+        },
+        {
+          speaker: "Strategist",
+          text: "History shows that such transitions result in war in the majority of cases.",
+        },
+        {
+          speaker: "Historian",
+          text: "However, nuclear deterrence and economic interdependence provide new counter-pressures that didn't exist in the past.",
+        },
+        {
+          speaker: "Strategist",
+          text: "Avoiding conflict requires unprecedented diplomatic agility and a mutual recognition of 'red lines'.",
+        },
+        {
+          speaker: "Historian",
+          text: "And a willingness to accommodate the rising power's legitimate struggle for status.",
+        },
+        {
+          speaker: "Strategist",
+          text: "Accommodation is often perceived as appeasement, which can invite aggression.",
+        },
+        {
+          speaker: "Historian",
+          text: "That fear is exactly what drives the trap.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is the 'Thucydides Trap'?",
+          options: [
+            "A type of mouse trap",
+            "Stress when a rising power threatens an established one",
+            "A trade agreement",
+            "A philosophical argument",
+          ],
+          correct: 1,
+          explanation:
+            "The historian defines it as the stress when a rising power threatens to displace an established one.",
+        },
+        {
+          question: "What prevents war now according to the Historian?",
+          options: [
+            "Aliens",
+            "Nuclear deterrence and economic interdependence",
+            "Better maps",
+            "Ocean currents",
+          ],
+          correct: 1,
+          explanation:
+            "Historian mentions 'nuclear deterrence and economic interdependence'.",
+        },
+        {
+          question: "What determines if accommodation works?",
+          options: [
+            "If it's cheap",
+            "If it's perceived as appeasement or respect",
+            "If it's on a Tuesday",
+            "If it involves food",
+          ],
+          correct: 1,
+          explanation:
+            "Strategist warns that 'Accommodation is often perceived as appeasement'.",
+        },
+      ],
+    },
+    {
+      title: "The Integrated Information Theory (IIT)",
+      lines: [
+        {
+          speaker: "Neuroscientist",
+          text: "IIT suggests that consciousness is a fundamental property of any system with high levels of 'phi'—integrated information.",
+        },
+        {
+          speaker: "Critic",
+          text: "This implies that even simple circuits or social networks could possess some level of consciousness.",
+        },
+        {
+          speaker: "Neuroscientist",
+          text: "It's a bold prediction, but it offers a mathematical way to quantify the presence of experience.",
+        },
+        {
+          speaker: "Critic",
+          text: "Quantifying 'phi' is computationally intractable for any complex biological system, making it hard to falsify.",
+        },
+        {
+          speaker: "Neuroscientist",
+          text: "We can approximate it. And it solves the problem of why the cerebellum has more neurons than the cortex but contributes less to consciousness.",
+        },
+        { speaker: "Critic", text: "Because it's less integrated?" },
+        {
+          speaker: "Neuroscientist",
+          text: "Exactly. It's a feed-forward network, not a reintegrating one.",
+        },
+      ],
+      questions: [
+        {
+          question: "What does IIT suggest consciousness is based on?",
+          options: [
+            "Brain size",
+            "Integrated information (phi)",
+            "Oxygen levels",
+            "Language ability",
+          ],
+          correct: 1,
+          explanation:
+            "The neuroscientist mentions consciousness being a property of systems with high 'integrated information'.",
+        },
+        {
+          question: "What implies simple circuits have consciousness?",
+          options: [
+            "They are alive",
+            "They have high 'phi'",
+            "They are fast",
+            "They are expensive",
+          ],
+          correct: 1,
+          explanation:
+            "Critic notes this implies 'simple circuits... could possess some level of consciousness.'",
+        },
+        {
+          question: "Why does cerebellum contribute less to consciousness?",
+          options: [
+            "It's too small",
+            "It has too many neurons",
+            "It is a feed-forward network (less integrated)",
+            "It is asleep",
+          ],
+          correct: 2,
+          explanation:
+            "Neuroscientist explains: 'It's a feed-forward network, not a reintegrating one.'",
+        },
+      ],
+    },
+    {
+      title: "The Private Language Argument",
+      lines: [
+        {
+          speaker: "Wittgensteinian",
+          text: "Language is essentially social; the idea of a 'private language' that only one person can understand is a logical impossibility.",
+        },
+        {
+          speaker: "Dualist",
+          text: "But I have direct access to my internal sensations that no one else can truly know.",
+        },
+        {
+          speaker: "Wittgensteinian",
+          text: "Even to name those sensations, you must follow rules, and rule-following requires a public context for correction.",
+        },
+        {
+          speaker: "Dualist",
+          text: "Surely my 'inner' experience is the foundation upon which the 'outer' world of language is built?",
+        },
+        {
+          speaker: "Wittgensteinian",
+          text: "If you have a sensation 'S' and mark it in a diary, how do you know you're using 'S' correctly the next time?",
+        },
+        { speaker: "Dualist", text: "Because it feels the same." },
+        {
+          speaker: "Wittgensteinian",
+          text: "But 'feeling the same' is not a criterion of correctness; it's just a memory, which can be faulty.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is the Wittgensteinian's view on language?",
+          options: [
+            "It is a private thing",
+            "It is essentially social",
+            "It is impossible to learn",
+            "It is based on music",
+          ],
+          correct: 1,
+          explanation:
+            "The Wittgensteinian says: 'Language is essentially social...'",
+        },
+        {
+          question: "What is the 'diary' argument?",
+          options: [
+            "A way to keep secrets",
+            "A proof that private language is impossible (memory check)",
+            "A good habit",
+            "A writing exercise",
+          ],
+          correct: 1,
+          explanation:
+            "Wittgensteinian asks how you know you're using 'S' correctly, implying memory isn't a valid check.",
+        },
+        {
+          question: "Why is 'feeling the same' not enough?",
+          options: [
+            "It's boring",
+            "It's not a criterion of correctness",
+            "It's too expensive",
+            "It's rare",
+          ],
+          correct: 1,
+          explanation:
+            "Wittgensteinian argues: 'feeling the same is not a criterion of correctness'.",
+        },
+      ],
+    },
+    {
+      title: "Mechanism Design in Economics",
+      lines: [
+        {
+          speaker: "Economist",
+          text: "Mechanism design is 'reverse game theory'; we start with the desired outcome and design the rules to achieve it.",
+        },
+        {
+          speaker: "Student",
+          text: "Like designing an auction to ensure the bidder who values the item most actually wins?",
+        },
+        {
+          speaker: "Economist",
+          text: "Exactly. The challenge is making the mechanism 'incentive-compatible', where honesty is the best strategy for all participants.",
+        },
+        {
+          speaker: "Student",
+          text: "It's about engineering systems that work even when people are purely self-interested.",
+        },
+        {
+          speaker: "Economist",
+          text: "The Nobel Prize was awarded for realizing that private information is the main constraint.",
+        },
+        {
+          speaker: "Student",
+          text: "So we have to bribe people to tell the truth?",
+        },
+        {
+          speaker: "Economist",
+          text: "In a sense. We structure the payoffs so that lying costs more than truth-telling.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is mechanism design often called?",
+          options: [
+            "Forward game theory",
+            "Reverse game theory",
+            "Simple economics",
+            "Math puzzles",
+          ],
+          correct: 1,
+          explanation: "The economist calls it 'reverse game theory.'",
+        },
+        {
+          question: "What is 'incentive-compatible'?",
+          options: [
+            "Everyone gets a prize",
+            "Honesty is the best strategy",
+            "Cheating is urged",
+            "Costs are low",
+          ],
+          correct: 1,
+          explanation:
+            "Economist defines it as 'where honesty is the best strategy for all participants.'",
+        },
+        {
+          question: "What is the main constraint mentioned?",
+          options: ["Time", "Money", "Private information", "Government rules"],
+          correct: 2,
+          explanation:
+            "Economist mentions 'private information is the main constraint.'",
+        },
+      ],
+    },
+    {
+      title: "The Ethics of Terraforming",
+      lines: [
+        {
+          speaker: "Space Ethicist",
+          text: "If Mars possesses even microbial life, do we have the right to alter its ecosystem to make it habitable for humans?",
+        },
+        {
+          speaker: "Expansionist",
+          text: "The preservation of the human species depends on becoming a multi-planetary civilization.",
+        },
+        {
+          speaker: "Space Ethicist",
+          text: "We must consider 'biocentrism'—the idea that all life has value, regardless of its utility to us.",
+        },
+        {
+          speaker: "Expansionist",
+          text: "A dead rock with microbes shouldn't outweigh the survival of trillions of future human beings.",
+        },
+        {
+          speaker: "Space Ethicist",
+          text: "But we don't know if that rock is truly 'dead' until we study it, and terraforming destroys the evidence.",
+        },
+        {
+          speaker: "Expansionist",
+          text: "We can study it while we build. The clock is ticking on Earth.",
+        },
+        {
+          speaker: "Space Ethicist",
+          text: "Rushing led us to ruin our first home. Let's not make the same mistake with the second.",
+        },
+      ],
+      questions: [
+        {
+          question: "What is 'biocentrism' in this context?",
+          options: [
+            "Focusing on humans",
+            "The idea that all life has value",
+            "Moving to Mars",
+            "Using machines instead of biology",
+          ],
+          correct: 1,
+          explanation:
+            "The ethicist defines it as 'the idea that all life has value, regardless of its utility to us.'",
+        },
+        {
+          question: "What is the Expansionist's main argument?",
+          options: [
+            "Mars is pretty",
+            "Human species preservation",
+            "Microbes are tasty",
+            "Earth is full",
+          ],
+          correct: 1,
+          explanation:
+            "Expansionist says: 'preservation of the human species depends on becoming a multi-planetary civilization.'",
+        },
+        {
+          question: "What is the risk of rushing according to the Ethicist?",
+          options: [
+            "Missing the bus",
+            "Ruining the second home like the first",
+            "Spending too much money",
+            "Getting lost",
+          ],
+          correct: 1,
+          explanation:
+            "Ethicist warns: 'Rushing led us to ruin our first home. Let's not make the same mistake...'",
+        },
+      ],
+    },
+  ],
 };

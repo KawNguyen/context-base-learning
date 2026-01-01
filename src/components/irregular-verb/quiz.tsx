@@ -105,7 +105,7 @@ export function Quiz() {
                     (answers.past.toLowerCase().trim() ===
                     currentVerb.past.split("/")[0].toLowerCase().trim()
                       ? "border-green-500 bg-green-500/5"
-                      : "border-destructive bg-destructive/5")
+                      : "border-destructive bg-destructive/5"),
                 )}
                 value={answers.past}
                 onChange={(e) =>
@@ -131,9 +131,7 @@ export function Quiz() {
           </div>
 
           <div className="space-y-2">
-            <label className="text-sm font-semibold ml-1">
-              Participle
-            </label>
+            <label className="text-sm font-semibold ml-1">Participle</label>
             <div className="relative">
               <Input
                 placeholder="..."
@@ -143,7 +141,7 @@ export function Quiz() {
                     (answers.participle.toLowerCase().trim() ===
                     currentVerb.participle.split("/")[0].toLowerCase().trim()
                       ? "border-green-500 bg-green-500/5"
-                      : "border-destructive bg-destructive/5")
+                      : "border-destructive bg-destructive/5"),
                 )}
                 value={answers.participle}
                 onChange={(e) =>

@@ -174,10 +174,10 @@ export function QuizInterface({ level }: QuizInterfaceProps) {
                     !isSelected
                       ? "default"
                       : isCorrect
-                      ? "success"
-                      : isWrong
-                      ? "destructive"
-                      : "secondary"
+                        ? "success"
+                        : isWrong
+                          ? "destructive"
+                          : "secondary"
                   }
                   type="button"
                   onClick={() => handleOptionSelect(index)}
@@ -206,7 +206,7 @@ export function QuizInterface({ level }: QuizInterfaceProps) {
                   "border-l-4",
                   selectedOption === currentQuestion.correct
                     ? "border-l-green-500 "
-                    : "border-l-destructive bg-destructive/5"
+                    : "border-l-destructive bg-destructive/5",
                 )}
               >
                 <AlertTitle

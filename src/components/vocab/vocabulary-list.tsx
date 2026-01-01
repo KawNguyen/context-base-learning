@@ -34,7 +34,7 @@ export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
   const initialCategory: VocabularyCategory | "ALL" = (() => {
     if (!categorySlug) return "ALL";
     const matched = VOCABULARY_CATEGORIES.find(
-      (c) => getCategorySlug(c) === categorySlug
+      (c) => getCategorySlug(c) === categorySlug,
     );
     return (matched as VocabularyCategory) ?? "ALL";
   })();
@@ -51,8 +51,7 @@ export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
     const cached = getCachedState();
     if (cached) {
       if (cached.searchTerm) setSearchTerm(cached.searchTerm);
-      if (cached.selectedCategory)
-        setSelectedCategory(cached.selectedCategory);
+      if (cached.selectedCategory) setSelectedCategory(cached.selectedCategory);
 
       // Restore scroll position after a short delay to allow the list to render
       if (cached.scrollPosition) {
@@ -71,7 +70,8 @@ export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
         searchTerm,
         selectedCategory,
         lastTopicSlug: categorySlug,
-        lastTopicName: selectedCategory === "ALL" ? undefined : selectedCategory,
+        lastTopicName:
+          selectedCategory === "ALL" ? undefined : selectedCategory,
       });
     }
   }, [searchTerm, selectedCategory, saveCache, isRestored, categorySlug]);
