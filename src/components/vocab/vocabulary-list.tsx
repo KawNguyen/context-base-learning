@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
+import { useVocabCache } from "@/hooks/use-vocab-cache";
 import { allVocabulary, VOCABULARY_CATEGORIES } from "@/constants/vocabulary";
 import type { VocabularyCategory } from "@/constants/vocabulary";
 import { getCategorySlug } from "@/lib/utils";
@@ -41,6 +42,49 @@ export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
   const [selectedCategory, setSelectedCategory] = useState<
     VocabularyCategory | "ALL"
   >(initialCategory);
+
+  const { getCachedState, saveCache } = useVocabCache();
+  const [isRestored, setIsRestored] = useState(false);
+
+  // Restore state from cache on mount
+  useEffect(() => {
+    const cached = getCachedState();
+    if (cached) {
+      if (cached.searchTerm) setSearchTerm(cached.searchTerm);
+      if (cached.selectedCategory)
+        setSelectedCategory(cached.selectedCategory);
+
+      // Restore scroll position after a short delay to allow the list to render
+      if (cached.scrollPosition) {
+        setTimeout(() => {
+          window.scrollTo(0, cached.scrollPosition);
+        }, 100);
+      }
+    }
+    setIsRestored(true);
+  }, [getCachedState]);
+
+  // Save state when it changes
+  useEffect(() => {
+    if (isRestored) {
+      saveCache({
+        searchTerm,
+        selectedCategory,
+        lastTopicSlug: categorySlug,
+        lastTopicName: selectedCategory === "ALL" ? undefined : selectedCategory,
+      });
+    }
+  }, [searchTerm, selectedCategory, saveCache, isRestored, categorySlug]);
+
+  // Save scroll position on scroll - debounced effectively by the scroll event itself
+  useEffect(() => {
+    const handleScroll = () => {
+      saveCache({ scrollPosition: window.scrollY });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [saveCache]);
 
   const filteredVocabulary = useMemo(() => {
     return allVocabulary
@@ -92,10 +136,12 @@ export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
           <TableHeader>
             <TableRow>
               <TableHead>Word</TableHead>
-              <TableHead>Phonetic</TableHead>
-              <TableHead>Type</TableHead>
+              <TableHead className="hidden md:table-cell">Phonetic</TableHead>
+              <TableHead className="hidden md:table-cell">Type</TableHead>
               <TableHead>Meaning</TableHead>
-              <TableHead>Speak(Low-Normal)</TableHead>
+              <TableHead className="hidden md:table-cell">
+                Speak(Low-Normal)
+              </TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
@@ -108,7 +154,7 @@ export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
                 }
               >
                 <TableCell className="font-bold">{word.word}</TableCell>
-                <TableCell className="text-muted-foreground italic text-sm">
+                <TableCell className="hidden md:table-cell text-muted-foreground italic text-sm">
                   {word.phonetic}
                 </TableCell>
                 <TableCell className="hidden md:table-cell text-sm">
@@ -122,7 +168,7 @@ export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
                     </p>
                   </div>
                 </TableCell>
-                <TableCell className="space-x-2">
+                <TableCell className="hidden md:table-cell space-x-2">
                   <Button
                     variant="outline"
                     size="icon"

@@ -12,12 +12,57 @@ import {
 import { Badge } from "../ui/badge";
 import { VocabularyWord } from "@/constants/vocabulary";
 import { Separator } from "../ui/separator";
-import Link from "next/link";
 import { speakSlow, speakText } from "@/lib/speech";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
+import { useVocabCache } from "@/hooks/use-vocab-cache";
+import { useState, useEffect } from "react";
+import Link from "next/link";
 
 export default function WordDetail({ word }: { word: VocabularyWord }) {
+  const { getCachedState } = useVocabCache();
+  const [breadcrumbInfo, setBreadcrumbInfo] = useState<{
+    label: string;
+    href: string;
+  }>({ label: "Vocabulary", href: "/vocabulary" });
+
+  useEffect(() => {
+    const cached = getCachedState();
+    if (cached?.lastTopicSlug && cached?.lastTopicName) {
+      setBreadcrumbInfo({
+        label: cached.lastTopicName,
+        href: `/vocabulary/topic/${cached.lastTopicSlug}`,
+      });
+    }
+  }, [getCachedState]);
+
   return (
-    <main className="container mx-auto px-4 py-8 max-w-3xl">
+    <main className="container space-y-4">
+      <Breadcrumb>
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <BreadcrumbLink asChild>
+              <Link href="/vocabulary">Vocabulary</Link>
+            </BreadcrumbLink>
+          </BreadcrumbItem>
+          <BreadcrumbSeparator />
+          <BreadcrumbItem>
+            <BreadcrumbLink asChild>
+              <Link href={breadcrumbInfo.href}>{breadcrumbInfo.label}</Link>
+            </BreadcrumbLink>
+          </BreadcrumbItem>
+          <BreadcrumbSeparator />
+          <BreadcrumbItem>
+            <BreadcrumbPage>{word.word}</BreadcrumbPage>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
       <Card className="shadow-lg">
         <CardHeader className="space-y-4">
           <div className="flex items-start justify-between gap-4">

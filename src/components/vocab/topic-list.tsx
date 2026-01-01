@@ -38,7 +38,7 @@ const ICON_MAP: Record<VocabularyCategory, string> = {
 export function TopicList() {
   return (
     <main>
-      <div className="">
+      <div>
         <h1 className="text-3xl font-bold">Vocabulary Topics</h1>
         <p className="text-muted-foreground mt-2">
           Browse vocabulary by category. Click a category to view words.

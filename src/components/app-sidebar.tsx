@@ -7,6 +7,7 @@ import {
   BookA,
   BookOpen,
   GraduationCap,
+  MessageSquare,
   PenTool,
   WholeWord,
 } from "lucide-react";
@@ -36,6 +37,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       { title: "Irregular Verbs", url: "/irregular-verbs", icon: WholeWord },
       { title: "Quiz", url: "/quiz", icon: PenTool },
       { title: "Reading", url: "/reading", icon: GraduationCap },
+      { title: "Dialogue", url: "/dialogue", icon: MessageSquare },
       { title: "Vocabulary", url: "/vocabulary", icon: BookA },
     ],
   };
