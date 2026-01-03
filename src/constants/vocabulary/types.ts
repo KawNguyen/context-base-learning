@@ -1,63 +1,200 @@
 export type VocabularyCategory =
-  | "Daily"
   | "Academic"
-  | "Business"
-  | "IT"
-  | "Medical"
-  | "Engineering"
-  | "Phrasal Verb"
-  | "Travel"
-  | "Food"
-  | "Family"
-  | "Work"
-  | "Social"
-  | "Home"
-  | "Psychology"
-  | "Health"
-  | "Music"
+  | "Agriculture"
+  | "Animals"
+  | "Architecture"
   | "Art"
-  | "Sport"
-  | "Fashion"
+  | "Astronomy"
   | "Beauty"
-  | "Environment"
-  | "Philosophy"
+  | "Behavior"
+  | "Biology"
+  | "Body"
+  | "Business"
   | "Chemistry"
-  | "Legal"
+  | "Clothing"
+  | "Competition"
+  | "Conflict"
+  | "Construction"
+  | "Conversation"
+  | "Crime"
+  | "Culture"
+  | "Daily"
+  | "Dance"
+  | "Description"
+  | "Design"
+  | "Disaster"
+  | "Economics"
+  | "Education"
+  | "Emergency"
+  | "Emotions"
+  | "Engineering"
+  | "Entertainment"
+  | "Environment"
+  | "Ethics"
+  | "Family"
+  | "Fashion"
+  | "Film"
+  | "Finance"
+  | "Food & Drink"
+  | "Furniture"
+  | "Games"
+  | "General"
+  | "Geography"
+  | "Geology"
+  | "Government"
+  | "Grammar"
+  | "History"
+  | "Home"
+  | "Hygiene"
+  | "Industry"
+  | "Instruments"
+  | "Jobs"
+  | "Kitchen"
+  | "Language"
+  | "Law"
+  | "Linguistics"
+  | "Literature"
+  | "Love"
+  | "Management"
+  | "Marketing"
+  | "Materials"
   | "Mathematics"
+  | "Media"
+  | "Medical"
+  | "Military"
+  | "Music"
+  | "Mystery"
+  | "Mythology"
+  | "Nautical"
+  | "Nature"
+  | "News"
+  | "Office"
+  | "People"
+  | "Philosophy"
+  | "Phrasal Verb"
+  | "Photography"
   | "Physics"
-  | "Literary"
-  | "Biology";
+  | "Plants"
+  | "Politics"
+  | "Project"
+  | "Psychology"
+  | "Punishment"
+  | "Religion"
+  | "Safety"
+  | "Science"
+  | "Security"
+  | "Shopping"
+  | "Social"
+  | "Space"
+  | "Sports"
+  | "Stationery"
+  | "Technology"
+  | "Time"
+  | "Tools"
+  | "Transportation"
+  | "Travel"
+  | "War"
+  | "Weather"
 
 export const VOCABULARY_CATEGORIES: VocabularyCategory[] = [
-  "Daily",
   "Academic",
-  "Business",
-  "IT",
-  "Medical",
-  "Engineering",
-  "Phrasal Verb",
-  "Travel",
-  "Food",
-  "Family",
-  "Work",
-  "Social",
-  "Home",
-  "Psychology",
-  "Health",
-  "Music",
+  "Agriculture",
+  "Animals",
+  "Architecture",
   "Art",
-  "Sport",
-  "Fashion",
+  "Astronomy",
   "Beauty",
-  "Environment",
-  "Philosophy",
-  "Chemistry",
-  "Legal",
-  "Mathematics",
-  "Physics",
-  "Literary",
+  "Behavior",
   "Biology",
+  "Body",
+  "Business",
+  "Chemistry",
+  "Clothing",
+  "Competition",
+  "Conflict",
+  "Construction",
+  "Conversation",
+  "Crime",
+  "Culture",
+  "Daily",
+  "Dance",
+  "Description",
+  "Design",
+  "Disaster",
+  "Economics",
+  "Education",
+  "Emergency",
+  "Emotions",
+  "Engineering",
+  "Entertainment",
+  "Environment",
+  "Ethics",
+  "Family",
+  "Fashion",
+  "Film",
+  "Finance",
+  "Food & Drink",
+  "Furniture",
+  "Games",
+  "General",
+  "Geography",
+  "Geology",
+  "Government",
+  "Grammar",
+  "History",
+  "Home",
+  "Hygiene",
+  "Industry",
+  "Instruments",
+  "Jobs",
+  "Kitchen",
+  "Language",
+  "Law",
+  "Linguistics",
+  "Literature",
+  "Love",
+  "Management",
+  "Marketing",
+  "Materials",
+  "Mathematics",
+  "Media",
+  "Medical",
+  "Military",
+  "Music",
+  "Mystery",
+  "Mythology",
+  "Nautical",
+  "Nature",
+  "News",
+  "Office",
+  "People",
+  "Philosophy",
+  "Phrasal Verb",
+  "Photography",
+  "Physics",
+  "Plants",
+  "Politics",
+  "Project",
+  "Psychology",
+  "Punishment",
+  "Religion",
+  "Safety",
+  "Science",
+  "Security",
+  "Shopping",
+  "Social",
+  "Space",
+  "Sports",
+  "Stationery",
+  "Technology",
+  "Time",
+  "Tools",
+  "Transportation",
+  "Travel",
+  "War",
+  "Weather",
 ];
+
 
 export interface VocabularyWord {
   id: string;

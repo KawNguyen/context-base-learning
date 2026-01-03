@@ -22,28 +22,27 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { useVocabCache } from "@/hooks/use-vocab-cache";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Link from "next/link";
 
 export default function WordDetail({ word }: { word: VocabularyWord }) {
   const { getCachedState } = useVocabCache();
-  const [breadcrumbInfo, setBreadcrumbInfo] = useState<{
+  const [breadcrumbInfo] = useState<{
     label: string;
     href: string;
-  }>({ label: "Vocabulary", href: "/vocabulary" });
-
-  useEffect(() => {
+  }>(() => {
     const cached = getCachedState();
     if (cached?.lastTopicSlug && cached?.lastTopicName) {
-      setBreadcrumbInfo({
+      return {
         label: cached.lastTopicName,
         href: `/vocabulary/topic/${cached.lastTopicSlug}`,
-      });
+      };
     }
-  }, [getCachedState]);
+    return { label: "Vocabulary", href: "/vocabulary" };
+  });
 
   return (
-    <main className="container space-y-4">
+    <main className="space-y-6">
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
@@ -63,6 +62,7 @@ export default function WordDetail({ word }: { word: VocabularyWord }) {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
+
       <Card className="shadow-lg">
         <CardHeader className="space-y-4">
           <div className="flex items-start justify-between gap-4">

@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { readingPassages } from "@/constants/readingPassages";
-import { generateReadingGrammarNote } from "@/lib/grammarNotes";
 import { useRouter } from "next/navigation";
 
 // Define the CEFRLevel type locally or import it if shared
@@ -205,12 +204,6 @@ export function ReadingInterface({ level: paramLevel }: ReadingInterfaceProps) {
                           </span>
                         </p>
                         <div className="mt-2">
-                          <p className="text-sm text-muted-foreground">
-                            {generateReadingGrammarNote(
-                              q.question,
-                              passage.passage,
-                            )}
-                          </p>
                           <p className="mt-1">
                             <strong>Explanation:</strong> {q.explanation}
                           </p>
@@ -265,8 +258,8 @@ export function ReadingInterface({ level: paramLevel }: ReadingInterfaceProps) {
                             ? "default"
                             : "destructive"
                           : index ===
-                                passage.questions[currentQuestion].correct &&
-                              showExplanation
+                            passage.questions[currentQuestion].correct &&
+                            showExplanation
                             ? "default"
                             : "outline"
                     }

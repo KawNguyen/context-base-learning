@@ -2,7 +2,7 @@
 
 import { useState, useMemo, useEffect } from "react";
 import { useVocabCache } from "@/hooks/use-vocab-cache";
-import { allVocabulary, VOCABULARY_CATEGORIES } from "@/constants/vocabulary";
+import { AllVocabData, VOCABULARY_CATEGORIES } from "@/constants/vocabulary";
 import type { VocabularyCategory } from "@/constants/vocabulary";
 import { getCategorySlug } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -29,52 +29,41 @@ import { useRouter } from "next/navigation";
 
 export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
   const router = useRouter();
-  const [searchTerm, setSearchTerm] = useState("");
-
-  const initialCategory: VocabularyCategory | "ALL" = (() => {
-    if (!categorySlug) return "ALL";
-    const matched = VOCABULARY_CATEGORIES.find(
-      (c) => getCategorySlug(c) === categorySlug,
-    );
-    return (matched as VocabularyCategory) ?? "ALL";
-  })();
-
-  const [selectedCategory, setSelectedCategory] = useState<
-    VocabularyCategory | "ALL"
-  >(initialCategory);
-
   const { getCachedState, saveCache } = useVocabCache();
-  const [isRestored, setIsRestored] = useState(false);
 
-  // Restore state from cache on mount
+  // Derive category from URL slug
+  const selectedCategory = useMemo<VocabularyCategory | "ALL">(() => {
+    if (categorySlug) {
+      const matched = VOCABULARY_CATEGORIES.find(
+        (c) => getCategorySlug(c) === categorySlug
+      );
+      if (matched) return matched as VocabularyCategory;
+    }
+    return "ALL";
+  }, [categorySlug]);
+
+  const cached = getCachedState();
+  const [searchTerm, setSearchTerm] = useState(cached?.searchTerm || "");
+
+  // Restore scroll position on mount
   useEffect(() => {
     const cached = getCachedState();
-    if (cached) {
-      if (cached.searchTerm) setSearchTerm(cached.searchTerm);
-      if (cached.selectedCategory) setSelectedCategory(cached.selectedCategory);
-
-      // Restore scroll position after a short delay to allow the list to render
-      if (cached.scrollPosition) {
-        setTimeout(() => {
-          window.scrollTo(0, cached.scrollPosition);
-        }, 100);
-      }
+    if (cached?.scrollPosition) {
+      setTimeout(() => {
+        window.scrollTo(0, cached.scrollPosition);
+      }, 100);
     }
-    setIsRestored(true);
   }, [getCachedState]);
 
   // Save state when it changes
   useEffect(() => {
-    if (isRestored) {
-      saveCache({
-        searchTerm,
-        selectedCategory,
-        lastTopicSlug: categorySlug,
-        lastTopicName:
-          selectedCategory === "ALL" ? undefined : selectedCategory,
-      });
-    }
-  }, [searchTerm, selectedCategory, saveCache, isRestored, categorySlug]);
+    saveCache({
+      searchTerm,
+      selectedCategory,
+      lastTopicSlug: categorySlug,
+      lastTopicName: selectedCategory === "ALL" ? undefined : selectedCategory,
+    });
+  }, [searchTerm, selectedCategory, saveCache, categorySlug]);
 
   // Save scroll position on scroll - debounced effectively by the scroll event itself
   useEffect(() => {
@@ -87,18 +76,16 @@ export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
   }, [saveCache]);
 
   const filteredVocabulary = useMemo(() => {
-    return allVocabulary
-      .filter((word) => {
-        const matchesSearch =
-          word.word.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          word.meaningEn.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          word.meaningVi.toLowerCase().includes(searchTerm.toLowerCase());
-        const matchesCategory =
-          selectedCategory === "ALL" ||
-          word.categories.includes(selectedCategory as VocabularyCategory);
-        return matchesSearch && matchesCategory;
-      })
-      .sort((a, b) => a.word.localeCompare(b.word));
+    return AllVocabData.filter((word) => {
+      const matchesSearch =
+        word.word.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        word.meaningEn.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        word.meaningVi.toLowerCase().includes(searchTerm.toLowerCase());
+      const matchesCategory =
+        selectedCategory === "ALL" ||
+        word.categories.includes(selectedCategory as VocabularyCategory);
+      return matchesSearch && matchesCategory;
+    }).sort((a, b) => a.word.localeCompare(b.word));
   }, [searchTerm, selectedCategory]);
 
   return (
@@ -197,21 +184,6 @@ export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
           </TableBody>
         </Table>
       </div>
-
-      {filteredVocabulary.length === 0 && (
-        <div className="text-center py-12">
-          <p className="text-xl font-semibold">No results found.</p>
-          <Button
-            variant="link"
-            onClick={() => {
-              setSearchTerm("");
-              setSelectedCategory("ALL");
-            }}
-          >
-            Clear Filters
-          </Button>
-        </div>
-      )}
     </div>
   );
 }
