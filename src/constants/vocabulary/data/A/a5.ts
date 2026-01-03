@@ -153,7 +153,7 @@ export const A5: VocabularyWord[] = [
     meaningVi: "Luật sư/Người được ủy quyền.",
     exampleEn: "District attorney.",
     exampleVi: "Biện lý quận.",
-    categories: ["Law", "People"],
+    categories: ["Law", "People", "Jobs"],
   },
   {
     id: "gen-2236",

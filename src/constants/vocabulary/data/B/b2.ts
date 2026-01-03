@@ -1140,6 +1140,18 @@ export const B2: VocabularyWord[] = [
     categories: ["Biology", "Science"],
   },
   {
+    id: "job-013",
+    word: "Biologist",
+    slug: "biologist",
+    phonetic: "/baɪˈɒl.ə.dʒɪst/",
+    partOfSpeech: "noun",
+    meaningEn: "An expert in biology.",
+    meaningVi: "Nhà sinh vật học.",
+    exampleEn: "The biologist studied marine life.",
+    exampleVi: "Nhà sinh vật học nghiên cứu đời sống biển.",
+    categories: ["Jobs", "Science"],
+  },
+  {
     id: "a2-92",
     word: "Biology",
     slug: "biology",

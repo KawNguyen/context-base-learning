@@ -306,6 +306,18 @@ export const A1: VocabularyWord[] = [
     categories: ["Business", "General"],
   },
   {
+    id: "job-001",
+    word: "Accountant",
+    slug: "accountant",
+    phonetic: "/əˈkaʊn.tənt/",
+    partOfSpeech: "noun",
+    meaningEn: "A person whose job is to keep or inspect financial accounts.",
+    meaningVi: "Kế toán viên.",
+    exampleEn: "She works as an accountant at a large firm.",
+    exampleVi: "Cô ấy làm kế toán tại một công ty lớn.",
+    categories: ["Jobs", "Finance"],
+  },
+  {
     id: "b2-149",
     word: "Accumulate",
     slug: "accumulate",
@@ -586,7 +598,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Nam diễn viên.",
     exampleEn: "Famous actor.",
     exampleVi: "Nam diễn viên nổi tiếng.",
-    categories: ["Art", "People", "Media"],
+    categories: ["Art", "People", "Media", "Jobs"],
   },
   {
     id: "gen-1922",
@@ -598,7 +610,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Nữ diễn viên.",
     exampleEn: "Talented actress.",
     exampleVi: "Nữ diễn viên tài năng.",
-    categories: ["Art", "People", "Media"],
+    categories: ["Art", "People", "Media", "Jobs"],
   },
   {
     id: "gen-1923",

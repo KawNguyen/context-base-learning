@@ -112,7 +112,7 @@ export const C2: VocabularyWord[] = [
     meaningVi: "Thợ mộc.",
     exampleEn: "Master carpenter.",
     exampleVi: "Thợ mộc bậc thầy.",
-    categories: ["People", "Business", "Home"],
+    categories: ["People", "Business", "Home", "Jobs", "Construction"],
   },
   {
     id: "gen-2816",
@@ -340,7 +340,7 @@ export const C2: VocabularyWord[] = [
     meaningVi: "Thu ngân.",
     exampleEn: "Go to the cashier.",
     exampleVi: "Đi tới chỗ thu ngân.",
-    categories: ["People", "Business", "Shopping"],
+    categories: ["People", "Business", "Shopping", "Jobs"],
   },
   {
     id: "gen-2832",

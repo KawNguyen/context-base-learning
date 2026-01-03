@@ -195,6 +195,7 @@ export const VOCABULARY_CATEGORIES: VocabularyCategory[] = [
   "Weather",
 ];
 
+// export type VocabularyCategory = typeof VOCABULARY_CATEGORIES[number];
 
 export interface VocabularyWord {
   id: string;

@@ -370,7 +370,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Người cố vấn/Chuyên viên tư vấn.",
     exampleEn: "School counselor.",
     exampleVi: "Cố vấn học đường.",
-    categories: ["People", "Social", "Psychology"],
+    categories: ["People", "Jobs", "Education"],
   },
   {
     id: "gen-196",

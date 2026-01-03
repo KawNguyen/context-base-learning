@@ -973,7 +973,7 @@ export const C6: VocabularyWord[] = [
     meaningVi: "Huấn luyện viên/Xe khách/Toa xe.",
     exampleEn: "Sports coach.",
     exampleVi: "Huấn luyện viên thể thao.",
-    categories: ["People", "Sports", "Travel", "Business"],
+    categories: ["People", "Sports", "Jobs"],
   },
   {
     id: "gen-3266",

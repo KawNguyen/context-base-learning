@@ -34,7 +34,7 @@ export function NavMain({
 }) {
   return (
     <SidebarGroup>
-      <SidebarGroupLabel>Platform</SidebarGroupLabel>
+      <SidebarGroupLabel>Features</SidebarGroupLabel>
       <SidebarMenu>
         {items.map((item) => {
           const hasSub = Array.isArray(item.items) && item.items.length > 0;
@@ -45,12 +45,12 @@ export function NavMain({
               <Collapsible
                 key={item.title}
                 asChild
-                defaultOpen={!!item.isActive}
+                defaultOpen={item.isActive}
                 className="group/collapsible"
               >
                 <SidebarMenuItem>
                   <CollapsibleTrigger asChild>
-                    <SidebarMenuButton tooltip={item.title}>
+                    <SidebarMenuButton tooltip={item.title} className="cursor-pointer">
                       {item.icon && <item.icon />}
                       <span>{item.title}</span>
                       <ChevronRight className="ml-auto transition-transform duration-200 group-data-[state=open]/collapsible:rotate-90" />

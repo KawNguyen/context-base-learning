@@ -383,7 +383,7 @@ export const C12: VocabularyWord[] = [
     meaningVi: "Sự tư vấn/Công ty tư vấn.",
     exampleEn: "Management consultancy.",
     exampleVi: "Tư vấn quản trị.",
-    categories: ["Business", "Business"],
+    categories: ["Business"],
   },
   {
     id: "gen-3815",
@@ -395,7 +395,7 @@ export const C12: VocabularyWord[] = [
     meaningVi: "Người tư vấn/Cố vấn/Bác sĩ tham vấn.",
     exampleEn: "IT consultant.",
     exampleVi: "Cố vấn CNTT.",
-    categories: ["People", "Business", "Business"],
+    categories: ["People", "Business", "Jobs"],
   },
   {
     id: "gen-3816",
@@ -1197,7 +1197,7 @@ export const C12: VocabularyWord[] = [
     meaningVi: "Nhà thầu.",
     exampleEn: "Building contractor.",
     exampleVi: "Nhà thầu xây dựng.",
-    categories: ["People", "Business", "Business"],
+    categories: ["People", "Business", "Jobs"],
   },
   {
     id: "gen-3880",

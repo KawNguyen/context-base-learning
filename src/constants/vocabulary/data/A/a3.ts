@@ -37,7 +37,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Nhà phân tích.",
     exampleEn: "Financial analyst.",
     exampleVi: "Nhà phân tích tài chính.",
-    categories: ["Business", "People"],
+    categories: ["Business", "People", "Jobs"],
   },
   {
     id: "gen-2052",
@@ -1236,6 +1236,6 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Kiến trúc sư.",
     exampleEn: "A famous architect.",
     exampleVi: "Một kiến trúc sư nổi tiếng.",
-    categories: ["Engineering"],
+    categories: ["Engineering", "Jobs"],
   },
 ];

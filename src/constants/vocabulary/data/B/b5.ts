@@ -642,7 +642,7 @@ export const B5: VocabularyWord[] = [
     meaningVi: "Doanh nhân nam.",
     exampleEn: "Wealthy businessman.",
     exampleVi: "Doanh nhân giàu có.",
-    categories: ["People", "Business", "Business"],
+    categories: ["Business", "Business", "Jobs", "People"],
   },
   {
     id: "gen-2700",
@@ -654,7 +654,7 @@ export const B5: VocabularyWord[] = [
     meaningVi: "Nữ doanh nhân.",
     exampleEn: "Successful businesswoman.",
     exampleVi: "Nữ doanh nhân thành đạt.",
-    categories: ["People", "Business", "Business"],
+    categories: ["Business", "Business", "Jobs", "People"],
   },
   {
     id: "gen-2701",
@@ -715,7 +715,7 @@ export const B5: VocabularyWord[] = [
     meaningVi: "Người bán thịt/Tên sát nhân.",
     exampleEn: "Local butcher.",
     exampleVi: "Người bán thịt địa phương.",
-    categories: ["People", "Business", "Food & Drink"],
+    categories: ["Food & Drink", "Jobs"],
   },
   {
     id: "gen-2706",

@@ -209,7 +209,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Đầu bếp.",
     exampleEn: "Executive chef.",
     exampleVi: "Tổng bếp trưởng.",
-    categories: ["People", "Business", "Food & Drink"],
+    categories: ["People", "Business", "Food & Drink", "Jobs"],
   },
   {
     id: "b1-141",
@@ -235,7 +235,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Nhà hóa học/Dược sĩ.",
     exampleEn: "Industrial chemist.",
     exampleVi: "Nhà hóa học công nghiệp.",
-    categories: ["People", "Science", "Chemistry"],
+    categories: ["People", "Science", "Chemistry", "Jobs"],
   },
   {
     id: "a2-93",

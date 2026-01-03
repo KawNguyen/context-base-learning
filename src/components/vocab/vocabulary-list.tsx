@@ -135,7 +135,7 @@ export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
             {filteredVocabulary.map((word) => (
               <TableRow
                 key={word.id}
-                className="group"
+                className="group cursor-pointer hover:bg-accent/50"
                 onClick={() =>
                   router.push(`/vocabulary/word/${getCategorySlug(word.word)}`)
                 }
@@ -159,7 +159,7 @@ export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
                   <Button
                     variant="outline"
                     size="icon"
-                    className="rounded-full h-8 w-8 hover:bg-primary/10 transition-colors"
+                    className="rounded-full h-8 w-8 hover:bg-primary/10 transition-colors cursor-pointer"
                     onClick={(e) => {
                       e.stopPropagation();
                       pronounceWordSlow(word.word);
@@ -170,7 +170,7 @@ export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
                   <Button
                     variant="outline"
                     size="icon"
-                    className="rounded-full h-8 w-8 hover:bg-primary/10 transition-colors"
+                    className="rounded-full h-8 w-8 hover:bg-primary/10 transition-colors cursor-pointer"
                     onClick={(e) => {
                       e.stopPropagation();
                       pronounceWord(word.word);

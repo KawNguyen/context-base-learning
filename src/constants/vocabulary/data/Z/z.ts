@@ -125,4 +125,16 @@ export const Z1: VocabularyWord[] = [
     exampleVi: "Phóng to/thu nhỏ.",
     categories: ["Technology", "General"],
   },
+  {
+    id: "job-0037",
+    word: "Zookeeper",
+    slug: "zookeeper",
+    phonetic: "/ˈzuːˌkiː.pɚ/",
+    partOfSpeech: "noun",
+    meaningEn: "A person who takes care of animals in a zoo.",
+    meaningVi: "Người chăm sóc thú",
+    exampleEn: "The zookeeper feeds the animals daily.",
+    exampleVi: "Người chăm sóc thú cho động vật ăn mỗi ngày.",
+    categories: ["Jobs", "Animals"],
+  },
 ];

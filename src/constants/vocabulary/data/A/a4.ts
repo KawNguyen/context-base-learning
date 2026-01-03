@@ -540,7 +540,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Nghệ sĩ.",
     exampleEn: "She is a talented artist.",
     exampleVi: "Cô ấy là một nghệ sĩ tài năng.",
-    categories: ["Art", "People"],
+    categories: ["Art", "People", "Jobs"],
   },
   {
     id: "gen-2176",
@@ -1094,7 +1094,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Phi hành gia.",
     exampleEn: "Famous astronaut.",
     exampleVi: "Phi hành gia nổi tiếng.",
-    categories: ["People", "Science", "Technology"],
+    categories: ["People", "Science", "Technology", "Jobs"],
   },
   {
     id: "gen-56",

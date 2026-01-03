@@ -1154,7 +1154,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Người dọn dẹp/Chất tẩy rửa.",
     exampleEn: "Dry cleaner.",
     exampleVi: "Tiệm giặt khô.",
-    categories: ["People", "Business", "Daily"],
+    categories: ["People", "Home", "Jobs"],
   },
   {
     id: "gen-3182",

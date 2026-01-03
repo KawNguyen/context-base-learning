@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
 import { GrammarTopic } from "@/constants/grammarTopics";
-import { questions as allQuestions, Question } from "@/constants/quizQuestions";
+import { questions as allQuestions } from "@/constants/quizQuestions";
 
 interface QuizSectionProps {
   topic: GrammarTopic;
