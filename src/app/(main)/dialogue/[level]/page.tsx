@@ -1,4 +1,5 @@
 import { DialogueInterface } from "@/components/dialogue/dialogue-interface";
+import { unslugify } from "@/lib/utils";
 
 interface PageProps {
   params: {
@@ -8,5 +9,6 @@ interface PageProps {
 
 export default async function DialogueLevelPage({ params }: PageProps) {
   const { level } = await params;
-  return <DialogueInterface level={level} />;
+  const slug = unslugify(level);
+  return <DialogueInterface level={slug} />;
 }

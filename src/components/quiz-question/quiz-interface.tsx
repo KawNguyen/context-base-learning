@@ -4,13 +4,6 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import {
   CheckCircle2,
   XCircle,
   ArrowRight,
@@ -23,6 +16,7 @@ import { cn } from "@/lib/utils";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import questions from "@/constants/quizQuestions";
 import { useRouter } from "next/navigation";
+import { Card } from "../ui/card";
 
 interface QuizInterfaceProps {
   level: string;
@@ -118,7 +112,7 @@ export function QuizInterface({ level }: QuizInterfaceProps) {
     <div className="space-y-6">
       <div className="flex items-center justify-between mb-2">
         <Button
-          variant="secondary"
+          variant="ghost"
           className="hover:bg-primary/5"
           onClick={() => router.push("/quiz")}
         >
@@ -136,123 +130,113 @@ export function QuizInterface({ level }: QuizInterfaceProps) {
 
       <Progress value={progress} className="h-3 rounded-full" />
 
-      <Card className="border-2 shadow-xl overflow-hidden">
-        <CardHeader>
-          <CardTitle className="text-2xl md:text-2xl font-bold leading-tight">
-            {currentQuestion.questionEn.split("____").map((part, i, arr) => (
-              <span key={i}>
-                {part}
-                {i < arr.length - 1 && (
-                  <span className="inline-block min-w-30 border-b-4 border-primary mx-2 px-2 text-primary italic text-center">
-                    {isAnswered
-                      ? currentQuestion.options[currentQuestion.correct]
-                      : "_ _ _ _ _ _ _"}
-                  </span>
-                )}
+      <div>
+        {currentQuestion.questionEn.split("____").map((part, i, arr) => (
+          <span key={i}>
+            {part}
+            {i < arr.length - 1 && (
+              <span className="inline-block min-w-30 border-b-4 border-primary mx-2 px-2 text-primary italic text-center">
+                {isAnswered
+                  ? currentQuestion.options[currentQuestion.correct]
+                  : "_ _ _ _ _ _ _"}
               </span>
-            ))}
-          </CardTitle>
-          <p className="text-muted-foreground mt-4 italic">
-            &quot;{currentQuestion.questionVi}&quot;
-          </p>
-        </CardHeader>
+            )}
+          </span>
+        ))}
+        <p className="text-muted-foreground mt-4 italic">
+          &quot;{currentQuestion.questionVi}&quot;
+        </p>
+      </div>
 
-        <CardContent className="p-8 space-y-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {currentQuestion.options.map((option, index) => {
-              const isCorrect = isAnswered && index === currentQuestion.correct;
-              const isWrong =
-                isAnswered &&
-                index === selectedOption &&
-                index !== currentQuestion.correct;
-              const isSelected = selectedOption === index;
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {currentQuestion.options.map((option, index) => {
+          const isCorrect = isAnswered && index === currentQuestion.correct;
+          const isWrong =
+            isAnswered &&
+            index === selectedOption &&
+            index !== currentQuestion.correct;
+          const isSelected = selectedOption === index;
 
-              return (
-                <Button
-                  key={index}
-                  variant={
-                    !isSelected
-                      ? "default"
-                      : isCorrect
-                        ? "success"
-                        : isWrong
-                          ? "destructive"
-                          : "secondary"
-                  }
-                  type="button"
-                  onClick={() => handleOptionSelect(index)}
-                  disabled={isAnswered}
-                  className="flex justify-between items-center p-6 border-2"
-                >
-                  <div>
-                    <span className="text-xl">
-                      {String.fromCharCode(65 + index)}.
-                    </span>{" "}
-                    <span className="text-lg font-medium">{option}</span>
-                  </div>
-                  {isCorrect && (
-                    <CheckCircle2 className="text-green-600 size-6" />
-                  )}
-                  {isWrong && <XCircle className="text-destructive size-6" />}
-                </Button>
-              );
-            })}
-          </div>
-
-          {isAnswered && (
-            <div className="mt-8 animate-in slide-in-from-bottom-4 duration-300">
-              <Alert
-                className={cn(
-                  "border-l-4",
-                  selectedOption === currentQuestion.correct
-                    ? "border-l-green-500 "
-                    : "border-l-destructive bg-destructive/5",
-                )}
-              >
-                <AlertTitle
-                  className={`font-bold text-lg mb-2 flex items-center gap-2 ${
-                    selectedOption === currentQuestion.correct
-                      ? "text-green-500"
-                      : "text-destructive"
-                  }`}
-                >
-                  <Info className="h-5 w-5" />
-                  {selectedOption === currentQuestion.correct
-                    ? "Correct Answer!"
-                    : "Not quite right..."}
-                </AlertTitle>
-                <AlertDescription className="text-base">
-                  {currentQuestion.explanationVi}
-                </AlertDescription>
-              </Alert>
-            </div>
-          )}
-        </CardContent>
-
-        <CardFooter className=" flex justify-end gap-4">
-          {!isAnswered ? (
+          return (
             <Button
-              size="lg"
-              className="px-12 h-14 text-lg font-bold rounded-xl"
-              disabled={selectedOption === null}
-              onClick={handleCheck}
+              key={index}
+              variant={
+                !isSelected
+                  ? "ghost"
+                  : isCorrect
+                  ? "success"
+                  : isWrong
+                  ? "destructive"
+                  : "default"
+              }
+              type="button"
+              onClick={() => handleOptionSelect(index)}
+              disabled={isAnswered}
+              className="flex justify-between items-center p-6 border-2"
             >
-              Check Answer
+              <div>
+                <span className="text-xl">
+                  {String.fromCharCode(65 + index)}.
+                </span>{" "}
+                <span className="text-lg font-medium">{option}</span>
+              </div>
+              {isCorrect && <CheckCircle2 className="text-green-600 size-6" />}
+              {isWrong && <XCircle className="text-destructive size-6" />}
             </Button>
-          ) : (
-            <Button
-              size="lg"
-              className="px-12 h-14 text-lg font-bold rounded-xl"
-              onClick={handleNext}
+          );
+        })}
+      </div>
+
+      {isAnswered && (
+        <div className="mt-8 animate-in slide-in-from-bottom-4 duration-300">
+          <Alert
+            className={cn(
+              "border-l-4",
+              selectedOption === currentQuestion.correct
+                ? "border-l-green-500 "
+                : "border-l-destructive bg-destructive/5"
+            )}
+          >
+            <AlertTitle
+              className={`font-bold text-lg mb-2 flex items-center gap-2 ${
+                selectedOption === currentQuestion.correct
+                  ? "text-green-500"
+                  : "text-destructive"
+              }`}
             >
-              {currentIndex < levelQuestions.length - 1
-                ? "Next Question"
-                : "View Results"}
-              <ArrowRight className="ml-2" size={20} />
-            </Button>
-          )}
-        </CardFooter>
-      </Card>
+              <Info className="h-5 w-5" />
+              {selectedOption === currentQuestion.correct
+                ? "Correct Answer!"
+                : "Not quite right..."}
+            </AlertTitle>
+            <AlertDescription className="text-base">
+              {currentQuestion.explanationVi}
+            </AlertDescription>
+          </Alert>
+        </div>
+      )}
+
+      {!isAnswered ? (
+        <Button
+          size="lg"
+          className="px-12 h-14 text-lg font-bold rounded-xl"
+          disabled={selectedOption === null}
+          onClick={handleCheck}
+        >
+          Check Answer
+        </Button>
+      ) : (
+        <Button
+          size="lg"
+          className="px-12 h-14 text-lg font-bold rounded-xl"
+          onClick={handleNext}
+        >
+          {currentIndex < levelQuestions.length - 1
+            ? "Next Question"
+            : "View Results"}
+          <ArrowRight className="ml-2" size={20} />
+        </Button>
+      )}
     </div>
   );
 }

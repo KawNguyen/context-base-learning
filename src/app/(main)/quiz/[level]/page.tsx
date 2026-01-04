@@ -1,6 +1,8 @@
 import { QuizInterface } from "@/components/quiz-question/quiz-interface";
+import { unslugify } from "@/lib/utils";
 
 export default async function Page(params: { params: { level: string } }) {
   const { level } = await params.params;
-  return <QuizInterface level={level} />;
+  const slug = unslugify(level);
+  return <QuizInterface level={slug} />;
 }

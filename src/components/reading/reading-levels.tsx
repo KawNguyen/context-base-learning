@@ -17,6 +17,7 @@ import {
   Zap,
 } from "lucide-react";
 import { useRouter } from "next/navigation";
+import { slugify } from "@/lib/utils";
 
 const LEVELS = [
   {
@@ -66,14 +67,14 @@ const LEVELS = [
 export function ReadingLevels() {
   const router = useRouter();
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {LEVELS.map((level) => (
         <Card
           key={level.id}
-          className="group hover:shadow-xl transition-all duration-300 cursor-pointer border-2 hover:border-primary/50 overflow-hidden"
-          onClick={() => router.push(`/reading/${level.id}`)}
+          className="group relative flex flex-col h-full cursor-pointer border-border/50 bg-card/50 hover:bg-card hover:border-border hover:shadow-xl hover:shadow-primary/5 transition-all duration-300"
+          onClick={() => router.push(`/reading/${slugify(level.id)}`)}
         >
-          <CardContent className="pt-6">
+          <CardContent>
             <div className="flex items-center gap-4 mb-4">
               <div className={`${level.color}`}>
                 <level.icon size={28} />
@@ -88,7 +89,7 @@ export function ReadingLevels() {
             <CardDescription className="text-base mb-6">
               {level.desc}
             </CardDescription>
-            <Button className="w-full group-hover:-translate-y-0.5 transition-transform">
+            <Button className="w-full">
               Start Reading
             </Button>
           </CardContent>

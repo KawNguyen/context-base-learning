@@ -28,16 +28,25 @@ export function QuizSection({ topic }: QuizSectionProps) {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [initialized, setInitialized] = useState(false);
 
   const currentQuestion = topicQuestions[currentQuestionIndex];
 
+  // Reset initialization when topic changes
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setInitialized(false);
+  }, [topic]);
+
   // Initialize with a random question
   useEffect(() => {
-    if (topicQuestions.length > 0) {
+    if (!initialized && topicQuestions.length > 0) {
       const randomIndex = Math.floor(Math.random() * topicQuestions.length);
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setCurrentQuestionIndex(randomIndex);
+      setInitialized(true);
     }
-  }, [topicQuestions]);
+  }, [topicQuestions, initialized]);
 
   const handleOptionSelect = (index: number) => {
     if (isSubmitted) return;
@@ -133,7 +142,7 @@ export function QuizSection({ topic }: QuizSectionProps) {
                 isSubmitted &&
                   index !== currentQuestion.correct &&
                   index !== selectedOption &&
-                  "opacity-50",
+                  "opacity-50"
               )}
             >
               <span>{option}</span>
@@ -165,7 +174,7 @@ export function QuizSection({ topic }: QuizSectionProps) {
               "border-2",
               isCorrect
                 ? "border-green-500/50 bg-green-500/5"
-                : "border-red-500/50 bg-red-500/5",
+                : "border-red-500/50 bg-red-500/5"
             )}
           >
             {isCorrect ? (

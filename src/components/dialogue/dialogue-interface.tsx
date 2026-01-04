@@ -27,7 +27,6 @@ export function DialogueInterface({
   const [showExplanation, setShowExplanation] = useState(false);
   const [score, setScore] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
-  const [userAnswers, setUserAnswers] = useState<number[]>([]);
 
   useEffect(() => {
     if (!level) {
@@ -40,8 +39,6 @@ export function DialogueInterface({
   const handleDialogueSelect = (index: number) => {
     setSelectedDialogue(index);
     resetQuiz();
-    const len = dialogues[level][index].questions.length;
-    setUserAnswers(new Array(len).fill(-1));
   };
 
   const resetQuiz = () => {
@@ -50,7 +47,6 @@ export function DialogueInterface({
     setShowExplanation(false);
     setScore(0);
     setQuizCompleted(false);
-    setUserAnswers([]);
   };
 
   const handleAnswerSelect = (answerIndex: number) => {
@@ -61,11 +57,6 @@ export function DialogueInterface({
 
     if (selectedDialogue !== null) {
       const dialogue = dialogues[level][selectedDialogue];
-      setUserAnswers((prev) => {
-        const copy = [...prev];
-        copy[currentQuestion] = answerIndex;
-        return copy;
-      });
       if (answerIndex === dialogue.questions[currentQuestion].correct) {
         setScore(score + 1);
       }
@@ -87,43 +78,41 @@ export function DialogueInterface({
 
   if (selectedDialogue === null) {
     return (
-      <div className="container mx-auto px-4 py-8">
-        <div className="max-w-4xl mx-auto">
-          <div className="flex items-center gap-4 mb-8">
-            <Button
-              variant="ghost"
-              size="icon"
-              onClick={() => router.push("/dialogue")}
-            >
-              <ArrowLeft className="w-6 h-6" />
-            </Button>
-            <h1 className="text-3xl font-bold">{level} Dialogues</h1>
-          </div>
-
-          <div className="grid gap-6">
-            {dialogues[level].map((dialogue, index) => (
-              <Card
-                key={index}
-                className="cursor-pointer border-2 hover:border-primary transition-all hover:shadow-md"
-                onClick={() => handleDialogueSelect(index)}
-              >
-                <CardContent className="p-6 flex items-center justify-between">
-                  <div>
-                    <h3 className="font-bold text-xl mb-1">{dialogue.title}</h3>
-                    <p className="text-muted-foreground">
-                      {dialogue.lines.length} lines •{" "}
-                      {dialogue.questions.length} questions
-                    </p>
-                  </div>
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                    <MessageSquare className="w-6 h-6" />
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+      <>
+        <div className="flex items-center gap-4 mb-8">
+          <Button
+            variant="ghost"
+            size="icon"
+            onClick={() => router.push("/dialogue")}
+          >
+            <ArrowLeft className="w-6 h-6" />
+          </Button>
+          <h1 className="text-3xl font-bold">{level} Dialogues</h1>
         </div>
-      </div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {dialogues[level].map((dialogue, index) => (
+            <Card
+              key={index}
+              className="cursor-pointer border-2 hover:border-primary transition-all hover:shadow-md"
+              onClick={() => handleDialogueSelect(index)}
+            >
+              <CardContent className="p-6 flex items-center justify-between">
+                <div>
+                  <h3 className="font-bold text-xl mb-1">{dialogue.title}</h3>
+                  <p className="text-muted-foreground">
+                    {dialogue.lines.length} lines • {dialogue.questions.length}{" "}
+                    questions
+                  </p>
+                </div>
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                  <MessageSquare className="w-6 h-6" />
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </>
     );
   }
 
@@ -172,26 +161,25 @@ export function DialogueInterface({
   }
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <div className="max-w-4xl mx-auto">
-        <div className="flex items-center justify-between mb-8">
-          <div className="flex items-center gap-4">
-            <Button
-              variant="ghost"
-              size="icon"
-              onClick={() => setSelectedDialogue(null)}
-            >
-              <ArrowLeft className="w-6 h-6" />
-            </Button>
-            <h1 className="text-2xl font-bold">{dialogue.title}</h1>
-          </div>
-          <span className="px-3 py-1 bg-primary/10 text-primary rounded-full font-bold text-sm">
-            {level}
-          </span>
+    <div>
+      <div className="flex items-center justify-between mb-8">
+        <div className="flex items-center gap-4">
+          <Button
+            variant="ghost"
+            size="icon"
+            onClick={() => setSelectedDialogue(null)}
+          >
+            <ArrowLeft className="w-6 h-6" />
+          </Button>
+          <h1 className="text-2xl font-bold">{dialogue.title}</h1>
         </div>
+        <span className="px-3 py-1 bg-primary/10 text-primary rounded-full font-bold text-sm">
+          {level}
+        </span>
+      </div>
 
-        {/* Chat Interface */}
-        <div className="bg-muted/30 rounded-2xl p-6 mb-8 space-y-6 shadow-inner border">
+      <div className="flex flex-col md:flex-row gap-8">
+        <div className="w-full bg-muted/30 rounded-2xl p-6 mb-8 space-y-6 shadow-inner border">
           {dialogue.lines.map((line, idx) => (
             <div key={idx} className="flex flex-col max-w-[90%] items-start">
               <span className="text-xs font-bold text-muted-foreground mb-1 px-2 uppercase tracking-wider">
@@ -204,17 +192,18 @@ export function DialogueInterface({
           ))}
         </div>
 
-        {/* Question Area */}
-        <Card className="border-2 border-primary/20 overflow-hidden">
+        <Card className="border-2 border-primary/20 overflow-hidden w-full h-max">
           <div className="h-2 bg-muted">
             <div
               className="h-full bg-primary transition-all duration-300"
               style={{
-                width: `${((currentQuestion + 1) / dialogue.questions.length) * 100}%`,
+                width: `${
+                  ((currentQuestion + 1) / dialogue.questions.length) * 100
+                }%`,
               }}
             />
           </div>
-          <CardHeader className="bg-primary/5">
+          <CardHeader className="bg-secendary/50 px-8 py-6 border-b">
             <CardTitle className="text-lg flex items-center gap-2">
               <CheckCircle2 className="w-5 h-5 text-primary" />
               Comprehension Check
@@ -228,7 +217,7 @@ export function DialogueInterface({
               {dialogue.questions[currentQuestion].question}
             </p>
 
-            <div className="grid gap-3">
+            <div className="grid md:grid-cols-2 gap-3">
               {dialogue.questions[currentQuestion].options.map(
                 (option, index) => {
                   const isSelected = selectedAnswer === index;
@@ -250,7 +239,7 @@ export function DialogueInterface({
                       className={cn(
                         "h-auto py-4 px-6 text-left justify-start text-lg border-2 transition-all",
                         selectedAnswer === null &&
-                          "hover:border-primary hover:bg-primary/5",
+                          "hover:border-primary hover:bg-primary/5"
                       )}
                       disabled={selectedAnswer !== null}
                     >
@@ -260,7 +249,7 @@ export function DialogueInterface({
                       {option}
                     </Button>
                   );
-                },
+                }
               )}
             </div>
 
@@ -270,7 +259,7 @@ export function DialogueInterface({
                   "mt-8 p-6 rounded-xl border-2 flex gap-4",
                   selectedAnswer === dialogue.questions[currentQuestion].correct
                     ? "bg-green-50 border-green-200 dark:bg-green-950/20 dark:border-green-900"
-                    : "bg-red-50 border-red-200 dark:bg-red-950/20 dark:border-red-900",
+                    : "bg-red-50 border-red-200 dark:bg-red-950/20 dark:border-red-900"
                 )}
               >
                 <div className="shrink-0 mt-1">
@@ -288,7 +277,7 @@ export function DialogueInterface({
                       selectedAnswer ===
                         dialogue.questions[currentQuestion].correct
                         ? "text-green-700"
-                        : "text-red-700",
+                        : "text-red-700"
                     )}
                   >
                     {selectedAnswer ===

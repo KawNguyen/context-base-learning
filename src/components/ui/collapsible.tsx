@@ -19,6 +19,7 @@ export function Collapsible({
   asChild?: boolean;
 }) {
   const [open, setOpen] = React.useState(defaultOpen);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const Comp: any = asChild ? Slot : "div";
 
   return (
@@ -34,14 +35,17 @@ export function CollapsibleTrigger({
   asChild = false,
   children,
   ...props
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 }: any) {
   const ctx = React.useContext(CollapsibleContext);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const Comp: any = asChild ? Slot : "button";
 
   return (
     <Comp
       {...props}
-      onClick={(e: any) => {
+
+      onClick={(e: unknown) => {
         ctx?.setOpen(!ctx.open);
         if (props.onClick) props.onClick(e);
       }}
@@ -51,6 +55,7 @@ export function CollapsibleTrigger({
   );
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function CollapsibleContent({ children, className, ...props }: any) {
   const ctx = React.useContext(CollapsibleContext);
   if (!ctx) return null;
