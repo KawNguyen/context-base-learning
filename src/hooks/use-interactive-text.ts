@@ -5,6 +5,7 @@ import { useSingularize } from "./use-singularize";
 import { isProperNoun } from "@/lib/text/is-proper-noun";
 import { AllVocabData, VocabularyWord } from "@/constants/vocabulary";
 import { lemmatize } from "@/lib/text/lemmatize";
+import { singularize } from "@/lib/text/singularize";
 
 export interface InteractiveWord {
   raw: string;
@@ -49,9 +50,11 @@ export function useInteractiveText(text: string) {
       chunks[i + 1].trim() === "" &&
       chunks[i + 3].trim() === ""
     ) {
-      const threeWords = [chunks[i], chunks[i + 2], chunks[i + 4]].map((w) =>
-        w.replace(/[.,!?;:'"()\[\]{}]/g, "").toLowerCase()
-      );
+      const threeWords = [chunks[i], chunks[i + 2], chunks[i + 4]].map((w) => {
+        const clean = w.replace(/[.,!?;:'"()\[\]{}]/g, "").toLowerCase();
+        const singular = singularize(clean);
+        return lemmatize(singular);
+      });
       const threeWordSlug = threeWords.join("-");
       const threeWordMatch = AllVocabData.find(
         (vocab) => vocab.slug === threeWordSlug
@@ -73,9 +76,11 @@ export function useInteractiveText(text: string) {
 
     // Try 2-word phrase if 3-word didn't match
     if (!matched && i + 2 < chunks.length && chunks[i + 1].trim() === "") {
-      const twoWords = [chunks[i], chunks[i + 2]].map((w) =>
-        w.replace(/[.,!?;:'"()\[\]{}]/g, "").toLowerCase()
-      );
+      const twoWords = [chunks[i], chunks[i + 2]].map((w) => {
+        const clean = w.replace(/[.,!?;:'"()\[\]{}]/g, "").toLowerCase();
+        const singular = singularize(clean);
+        return lemmatize(singular);
+      });
       const twoWordSlug = twoWords.join("-");
       const twoWordMatch = AllVocabData.find(
         (vocab) => vocab.slug === twoWordSlug
@@ -102,13 +107,43 @@ export function useInteractiveText(text: string) {
       const singular = toSingular(lower);
       const baseForm = lemmatize(singular);
 
-      const isStopWord = STOP_WORDS.has(singular) || STOP_WORDS.has(baseForm);
-      const properNoun = isProperNoun(clean, Math.floor(i / 2), rawWords);
+      // Check stop words using lowercase original word first, then singular and base forms
+      const isStopWord =
+        STOP_WORDS.has(lower) ||
+        STOP_WORDS.has(singular) ||
+        STOP_WORDS.has(baseForm);
 
-      // Try to find word by checking both singular and base form
-      const word =
-        AllVocabData.find((vocab) => vocab.slug === singular) ||
-        AllVocabData.find((vocab) => vocab.slug === baseForm);
+      // Count only non-space chunks to get correct word index
+      const wordIndex = words.filter((w) => !w.isSpace).length;
+      const properNoun = isProperNoun(clean, wordIndex, rawWords);
+
+      // Try to find word by checking multiple forms
+      let word = AllVocabData.find((vocab) => vocab.slug === singular);
+
+      if (!word) {
+        word = AllVocabData.find((vocab) => vocab.slug === baseForm);
+      }
+
+      // If still not found and baseForm doesn't end with 'e', try adding 'e'
+      // This handles cases like: animated -> animat -> animate, named -> nam -> name
+      // becomes -> becom -> become, etc.
+      if (!word && !baseForm.endsWith("e")) {
+        const baseWithE = baseForm + "e";
+        word = AllVocabData.find((vocab) => vocab.slug === baseWithE);
+        if (word) {
+          // Use the form with 'e' as normalized
+          words.push({
+            raw: chunk,
+            normalized: word.slug,
+            isTranslatable: !isStopWord && !properNoun,
+            isSpace: false,
+            isProperNoun: properNoun,
+            word: word,
+          });
+          i++;
+          continue;
+        }
+      }
 
       words.push({
         raw: chunk,

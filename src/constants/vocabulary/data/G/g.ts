@@ -488,6 +488,18 @@ export const G1: VocabularyWord[] = [
     categories: ["Social", "Daily"],
   },
   {
+    id: "gen-553",
+    word: "Go",
+    slug: "go",
+    phonetic: "/ɡoʊ/",
+    partOfSpeech: "verb",
+    meaningEn: "Move from one place to another; travel.",
+    meaningVi: "Đi.",
+    exampleEn: "I go to school by bus.",
+    exampleVi: "Tôi đi học bằng xe buýt.",
+    categories: ["General"],
+  },
+  {
     id: "pv-65",
     word: "Go ahead",
     slug: "go-ahead",

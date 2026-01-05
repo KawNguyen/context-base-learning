@@ -292,6 +292,18 @@ export const R2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
+    id: "gen-1304",
+    word: "Run away",
+    slug: "run-away",
+    phonetic: "/rʌn əˈweɪ/",
+    partOfSpeech: "phrasal verb",
+    meaningEn: "To leave a place or person secretly.",
+    meaningVi: "Chạy trốn.",
+    exampleEn: "The child ran away from home.",
+    exampleVi: "Đứa trẻ đã chạy trốn khỏi nhà.",
+    categories: ["Phrasal Verb"],
+  },
+  {
     id: "pv-75",
     word: "Run into",
     slug: "run-into",
