@@ -1,6 +1,11 @@
 import { VocabularyWord } from "../../types";
 
 export const T2: VocabularyWord[] = [
+  { id: "a2-206", word: "Tool", slug: "tool", phonetic: "/tuːl/", partOfSpeech: "noun", meaningEn: "A device or implement used to carry out a particular function.", meaningVi: "Công cụ.", exampleEn: "A useful tool.", exampleVi: "Một công cụ hữu ích.", categories: ["Daily","Technology","Business"] },
+  { id: "a1-179", word: "Tooth", slug: "tooth", phonetic: "/tuːθ/", partOfSpeech: "noun", meaningEn: "One of the hard white structures in the mouth.", meaningVi: "Răng.", exampleEn: "Brush your teeth twice a day.", exampleVi: "Hãy đánh răng hai lần một ngày.", categories: ["Daily","Medical"] },
+  { id: "gen-1597", word: "Top", slug: "top", phonetic: "/tɑːp/", partOfSpeech: "noun/adjective", meaningEn: "The highest or uppermost part.", meaningVi: "Đỉnh.", exampleEn: "Mountain top.", exampleVi: "Đỉnh núi.", categories: ["General"] },
+  { id: "gen-1598", word: "Topic", slug: "topic", phonetic: "/ˈtɑː.pɪk/", partOfSpeech: "noun", meaningEn: "A matter dealt with in a text.", meaningVi: "Chủ đề.", exampleEn: "Interesting topic.", exampleVi: "Chủ đề thú vị.", categories: ["General","Education"] },
+  { id: "gen-1599", word: "Total", slug: "total", phonetic: "/ˈtoʊ.t̬əl/", partOfSpeech: "adjective/noun", meaningEn: "Comprising the whole number or amount.", meaningVi: "Tổng cộng.", exampleEn: "Total amount.", exampleVi: "Tổng số tiền.", categories: ["General","Finance"] },
   { id: "gen-1600", word: "Totally", slug: "totally", phonetic: "/ˈtoʊ.t̬əl.i/", partOfSpeech: "adverb", meaningEn: "Completely; absolutely.", meaningVi: "Hoàn toàn.", exampleEn: "Totally agree.", exampleVi: "Hoàn toàn đồng ý.", categories: ["General"] },
   { id: "gen-1601", word: "Touch", slug: "touch", phonetic: "/tʌtʃ/", partOfSpeech: "verb/noun", meaningEn: "Come into or be in contact with.", meaningVi: "Chạm.", exampleEn: "Don't touch.", exampleVi: "Đừng chạm vào.", categories: ["General"] },
   { id: "gen-1602", word: "Tough", slug: "tough", phonetic: "/tʌf/", partOfSpeech: "adjective", meaningEn: "Strong enough to withstand adverse conditions.", meaningVi: "Khó khăn.", exampleEn: "Tough decision.", exampleVi: "Quyết định khó khăn.", categories: ["General"] },

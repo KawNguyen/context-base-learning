@@ -6,6 +6,7 @@ import { ReadingPassage } from "@/constants/readingPassages";
 import { useInteractiveText } from "@/hooks/use-interactive-text";
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
 import { Separator } from "../ui/separator";
+import { Badge } from "../ui/badge";
 
 interface ReadingQuizProps {
   passage: ReadingPassage;
@@ -49,12 +50,22 @@ export function ReadingQuiz({
                       </span>
                     </PopoverTrigger>
 
-                    <PopoverContent className="w-48 text-sm">
-                      <div className="font-semibold">{word.normalized}</div>
+                    <PopoverContent className="w-52 text-sm">
+                      <div className="flex items-center justify-between mb-1">
+                        <h4 className="scroll-m-20 text-lg font-semibold tracking-tight">
+                          {word.normalized}
+                        </h4>
+                        <Badge variant={"outline"} className="text-xs">{word.word?.partOfSpeech || "Unknown"}</Badge>
+                      </div>
+                      <div className="text-md text-muted-foreground">
+                        {word.word?.phonetic}
+                      </div>
                       <Separator className="my-2" />
                       <div className="text-muted-foreground">
                         {/* sau này gọi API dictionary */}
-                        {word.meaning || "No definition found."}
+                        {word.word
+                          ? word.word.meaningVi
+                          : "No definition found."}
                       </div>
                     </PopoverContent>
                   </Popover>

@@ -285,7 +285,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     {
       title: "Morning Routine",
       passage:
-        "Every morning, I wake up at 6:30. I brush my teeth and wash my face. Then I get dressed. I put on my shirt and pants. I eat breakfast at 7:00. I usually have toast and milk. I pack my bag. I say goodbye to my mom. I walk to the bus stop at 7:30. The bus takes me to school.",
+        "Every morning, I wake up at 6:30. I brush my teeth and wash my face. Then I put on my shirt and pants. I eat breakfast at 7:00. I usually have toast and milk. I pack my bag. I say goodbye to my mom. I walk to the bus stop at 7:30. The bus takes me to school.",
       questions: [
         {
           question: "What time does the person wake up?",
@@ -9508,7 +9508,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     {
       title: "The Epistemology of Science",
       passage:
-        "The scientific method is often lauded as the bedrock of objective truth, yet the epistemology of science—the study of the nature and grounds of scientific knowledge—reveals a more nuanced reality. Philosophers like Karl Popper argued that science proceeds not by verification, but by falsification; a theory is scientific only if it can be potentially disproven. Thomas Kuhn, conversely, introduced the concept of 'paradigm shifts', suggesting that scientific progress is not linear but punctuated by revolutionary upheavals where one worldview replaces another. This perspective challenges the notion of steady, cumulative accumulation of knowledge, positing instead that scientific truth is relative to the prevailing paradigm.",
+        "The scientific method is often lauded as the bedrock of objective truth, yet the epistemology of science-the study of the nature and grounds of scientific knowledge—reveals a more nuanced reality. Philosophers like Karl Popper argued that science proceeds not by verification, but by falsification; a theory is scientific only if it can be potentially disproven. Thomas Kuhn, conversely, introduced the concept of 'paradigm shifts', suggesting that scientific progress is not linear but punctuated by revolutionary upheavals where one worldview replaces another. This perspective challenges the notion of steady, cumulative accumulation of knowledge, positing instead that scientific truth is relative to the prevailing paradigm.",
       questions: [
         {
           question: "What does the epistemology of science reveal?",

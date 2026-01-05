@@ -350,6 +350,18 @@ export const D18: VocabularyWord[] = [
     categories: ["Fashion", "Daily"],
   },
   {
+    id: "gen-6483",
+    word: "Dressed",
+    slug: "dressed",
+    phonetic: "/drest/",
+    partOfSpeech: "adjective/verb",
+    meaningEn: "Wearing clothes; having been put on clothes.",
+    meaningVi: "Đã mặc quần áo/Được ăn mặc.",
+    exampleEn: "Well dressed.",
+    exampleVi: "Ăn mặc đẹp.",
+    categories: ["Fashion", "Daily"],
+  },
+  {
     id: "pv-86",
     word: "Dress up",
     slug: "dress-up",

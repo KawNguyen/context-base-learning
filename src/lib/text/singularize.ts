@@ -10,6 +10,32 @@ const IRREGULAR_PLURALS: Record<string, string> = {
   oxen: "ox",
 };
 
+// Words that are always plural (pluralia tantum)
+const ALWAYS_PLURAL = new Set([
+  "pants",
+  "trousers",
+  "jeans",
+  "shorts",
+  "glasses",
+  "spectacles",
+  "goggles",
+  "scissors",
+  "pliers",
+  "tongs",
+  "tweezers",
+  "binoculars",
+  "thanks",
+  "clothes",
+  "credentials",
+  "earnings",
+  "goods",
+  "premises",
+  "riches",
+  "stairs",
+  "surroundings",
+  "belongings",
+]);
+
 function matchCase(original: string, result: string) {
   if (original === original.toUpperCase()) {
     return result.toUpperCase();
@@ -25,6 +51,11 @@ export function singularize(word: string): string {
 
   const lower = word.toLowerCase();
   let result = word;
+
+  // Check if word is always plural (pluralia tantum)
+  if (ALWAYS_PLURAL.has(lower)) {
+    return word;
+  }
 
   if (IRREGULAR_PLURALS[lower]) {
     result = IRREGULAR_PLURALS[lower];

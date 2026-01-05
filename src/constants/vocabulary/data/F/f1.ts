@@ -736,6 +736,18 @@ export const F1: VocabularyWord[] = [
     categories: ["General", "Law"],
   },
   {
+    id: "gen-451",
+    word: "Falsification",
+    slug: "falsification",
+    phonetic: "/ˌfɑːl.sə.fɪˈkeɪ.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn: "The action of falsifying information or evidence.",
+    meaningVi: "Sự làm giả/Sự xuyên tạc.",
+    exampleEn: "Falsification of documents.",
+    exampleVi: "Sự làm giả tài liệu.",
+    categories: ["General", "Law"],
+  },
+  {
     id: "gen-7675",
     word: "Falter",
     slug: "falter",

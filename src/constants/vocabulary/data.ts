@@ -11,6 +11,7 @@ import { J } from "./data/J";
 import { K } from "./data/K";
 import { L } from "./data/L";
 import { M } from "./data/M";
+import { N } from "./data/N";
 import { O } from "./data/O";
 import { P } from "./data/P";
 import { Q } from "./data/Q";
@@ -39,6 +40,7 @@ export const AllVocabData: VocabularyWord[] = [
   ...K,
   ...L,
   ...M,
+  ...N,
   ...O,
   ...P,
   ...Q,
