@@ -478,6 +478,19 @@ export const A3: VocabularyWord[] = [
     categories: ["Social", "Science"],
   },
   {
+    id: "gen-ak42",
+    word: "Anthropocene",
+    slug: "anthropocene",
+    phonetic: "/ˌæn.θrə.pəˈsiːn/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The current geological age, viewed as the period during which human activity has been the dominant influence on climate and the environment.",
+    meaningVi: "Kỷ Anthropocene.",
+    exampleEn: "The Anthropocene epoch.",
+    exampleVi: "Kỷ nguyên Anthropocene.",
+    categories: ["Environment", "Geology"],
+  },
+  {
     id: "gen-2079",
     word: "Anti",
     slug: "anti",

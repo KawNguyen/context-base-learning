@@ -2,7 +2,7 @@
 
 import { STOP_WORDS } from "@/constants/stop-word";
 import { useSingularize } from "./use-singularize";
-import { isProperNoun } from "@/lib/text/is-proper-noun";
+// import { isProperNoun } from "@/lib/text/is-proper-noun";
 import { AllVocabData, VocabularyWord } from "@/constants/vocabulary";
 import { lemmatize } from "@/lib/text/lemmatize";
 import { singularize } from "@/lib/text/singularize";
@@ -19,7 +19,7 @@ export interface InteractiveWord {
 export function useInteractiveText(text: string) {
   const { toSingular } = useSingularize();
 
-  const rawWords = text.split(" ");
+  // const rawWords = text.split(" ");
   const chunks = text.split(/(\s+)/);
   const words: InteractiveWord[] = [];
 
@@ -113,10 +113,6 @@ export function useInteractiveText(text: string) {
         STOP_WORDS.has(singular) ||
         STOP_WORDS.has(baseForm);
 
-      // Count only non-space chunks to get correct word index
-      const wordIndex = words.filter((w) => !w.isSpace).length;
-      const properNoun = isProperNoun(clean, wordIndex, rawWords);
-
       // Try to find word by checking multiple forms
       let word = AllVocabData.find((vocab) => vocab.slug === singular);
 
@@ -130,25 +126,21 @@ export function useInteractiveText(text: string) {
       if (!word && !baseForm.endsWith("e")) {
         const baseWithE = baseForm + "e";
         word = AllVocabData.find((vocab) => vocab.slug === baseWithE);
-        if (word) {
-          // Use the form with 'e' as normalized
-          words.push({
-            raw: chunk,
-            normalized: word.slug,
-            isTranslatable: !isStopWord && !properNoun,
-            isSpace: false,
-            isProperNoun: properNoun,
-            word: word,
-          });
-          i++;
-          continue;
-        }
       }
+
+      // Determine if it's a proper noun
+      // If word is capitalized AND not found in vocabulary, treat as proper noun
+      // const wordIndex = words.filter((w) => !w.isSpace).length;
+      const isCapitalized = /^[A-Z]/.test(clean);
+      const properNoun = isCapitalized && !word && !isStopWord;
+
+      // Translatable if: not a stop word, not a proper noun, and either has meaning or could have meaning
+      const isTranslatable = !isStopWord && !properNoun;
 
       words.push({
         raw: chunk,
         normalized: word ? word.slug : baseForm,
-        isTranslatable: !isStopWord && !properNoun,
+        isTranslatable: isTranslatable,
         isSpace: false,
         isProperNoun: properNoun,
         word: word || null,

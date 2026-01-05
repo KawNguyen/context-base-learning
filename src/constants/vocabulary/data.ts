@@ -1,4 +1,5 @@
 import { A } from "./data/A";
+import { SPECIAL_VOCABULARY } from "./data/another";
 import { B } from "./data/B";
 import { C } from "./data/C";
 import { D } from "./data/D";
@@ -53,4 +54,5 @@ export const AllVocabData: VocabularyWord[] = [
   ...X,
   ...Y,
   ...Z,
+  ...SPECIAL_VOCABULARY,
 ];

@@ -50,6 +50,18 @@ export const R2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
+    id: "gen-ds12",
+    word: "Rival",
+    slug: "rival",
+    phonetic: "/ˈraɪ.vəl/",
+    partOfSpeech: "noun/verb",
+    meaningEn: "A person competing for the same objective.",
+    meaningVi: "Đối thủ/ cạnh tranh.",
+    exampleEn: "Business rival.",
+    exampleVi: "Đối thủ kinh doanh.",
+    categories: ["Business"],
+  },
+  {
     id: "a1-109",
     word: "River",
     slug: "river",

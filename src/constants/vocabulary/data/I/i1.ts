@@ -855,6 +855,19 @@ export const I1: VocabularyWord[] = [
     categories: ["Academic"],
   },
   {
+    id: "gen-6801",
+    word: "Inherit",
+    slug: "inherit",
+    phonetic: "/ɪnˈher.ɪt/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "Receive (money, property, or a title) as an heir at the death of the previous holder.",
+    meaningVi: "Kế thừa.",
+    exampleEn: "She will inherit her grandmother's estate.",
+    exampleVi: "Cô ấy sẽ kế thừa tài sản của bà mình.",
+    categories: ["Law", "Family"],
+  },
+  {
     id: "b2-249",
     word: "Inheritance",
     slug: "inheritance",

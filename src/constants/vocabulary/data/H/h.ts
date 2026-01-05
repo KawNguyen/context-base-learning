@@ -356,6 +356,18 @@ export const H1: VocabularyWord[] = [
     categories: ["Jobs", "Education"],
   },
   {
+    id: "gen-h004",
+    word: "Highlight",
+    slug: "highlight",
+    phonetic: "/ˈhaɪ.laɪt/",
+    partOfSpeech: "verb/noun",
+    meaningEn: "To emphasize; an important part.",
+    meaningVi: "Làm nổi bật; điểm nổi bật",
+    exampleEn: "Highlight the key points.",
+    exampleVi: "Làm nổi bật các điểm chính.",
+    categories: ["General"],
+  },
+  {
     id: "pv-54",
     word: "Hold on",
     slug: "hold-on",
@@ -378,6 +390,20 @@ export const H1: VocabularyWord[] = [
     exampleEn: "The traffic held us up.",
     exampleVi: "Giao thông đã làm chúng tôi bị trễ/trì hoãn.",
     categories: ["Phrasal Verb"],
+  },
+  {
+    id: "gen-hk21",
+    word: "Holocene",
+    slug: "holocene",
+    phonetic: "/ˈhɒl.ə.siːn/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The current geological epoch, which began approximately 11,700 years ago.",
+    meaningVi:
+      "Kỷ Holocen, kỷ địa chất hiện tại bắt đầu khoảng 11.700 năm trước.",
+    exampleEn: "The Holocene epoch has seen significant human development.",
+    exampleVi: "Kỷ Holocen đã chứng kiến sự phát triển đáng kể của con người.",
+    categories: ["Academic", "Science"],
   },
   {
     id: "gen-h006",
@@ -464,6 +490,18 @@ export const H1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
+    id: "a1-10",
+    word: "How",
+    slug: "how",
+    phonetic: "/haʊ/",
+    partOfSpeech: "adverb",
+    meaningEn: "In what way or manner; by what means.",
+    meaningVi: "Như thế nào.",
+    exampleEn: "How are you?",
+    exampleVi: "Bạn khỏe không?",
+    categories: ["Daily"],
+  },
+  {
     id: "job-050",
     word: "Housekeeper",
     slug: "housekeeper",
@@ -488,6 +526,18 @@ export const H1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    id: "a2-213",
+    word: "Humanity",
+    slug: "humanity",
+    phonetic: "/hjuːˈmæn.ə.ti/",
+    partOfSpeech: "noun",
+    meaningEn: "The quality of being humane; benevolence.",
+    meaningVi: "Lòng nhân đạo, tính nhân văn.",
+    exampleEn: "Acts of humanity.",
+    exampleVi: "Những hành động mang tính nhân đạo.",
+    categories: ["Social", "Philosophy"],
+  },
+  {
     id: "a1-99",
     word: "Hungry",
     slug: "hungry",
@@ -509,7 +559,7 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Đói; cơn đói",
     exampleEn: "Many people suffer from hunger.",
     exampleVi: "Nhiều người đang chịu cảnh đói.",
-    categories: ["People", "Social"]
+    categories: ["People", "Social"],
   },
   {
     id: "pv-42",
