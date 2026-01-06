@@ -2,43 +2,14 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { GrammarTopic } from "@/constants/grammarTopics";
 import { QuizSection } from "./quiz-section";
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbList,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
-} from "../ui/breadcrumb";
-import Link from "next/link";
 
 interface GrammarDetailsProps {
   topic: GrammarTopic;
 }
 
 export function GrammarDetails({ topic }: GrammarDetailsProps) {
-  const lowercaseCategory = topic.category.toLowerCase().replace(/\s+/g, "-");
-
   return (
-    <div className="space-y-10 py-4 animate-in fade-in duration-700">
-      <div>
-        <Breadcrumb>
-          <BreadcrumbList>
-            <BreadcrumbItem>
-              <div>Grammar</div>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <Link href={`/grammar/${lowercaseCategory}`}>
-                {topic.category}
-              </Link>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <BreadcrumbPage>{topic.title}</BreadcrumbPage>
-            </BreadcrumbItem>
-          </BreadcrumbList>
-        </Breadcrumb>
-      </div>
+    <div className="space-y-10 animate-in fade-in duration-700">
       <div className="space-y-4">
         <div className="flex items-center gap-3">
           <Badge

@@ -39,6 +39,18 @@ export const A1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    id: "gen-as1sad",
+    word: "About",
+    slug: "about",
+    phonetic: "/əˈbaʊt/",
+    partOfSpeech: "preposition/adverb",
+    meaningEn: "On the subject of; concerning.",
+    meaningVi: "Về, liên quan đến.",
+    exampleEn: "Talk about the project.",
+    exampleVi: "Nói về dự án.",
+    categories: ["General"],
+  },
+  {
     id: "gen-1",
     word: "Absolute",
     slug: "absolute",

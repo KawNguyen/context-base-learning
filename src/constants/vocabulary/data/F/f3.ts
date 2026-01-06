@@ -1101,6 +1101,18 @@ export const F3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    id: "gen-7896",
+    word: "Firstly",
+    slug: "firstly",
+    phonetic: "/ˈfɝːst.li/",
+    partOfSpeech: "adverb",
+    meaningEn: "As the first point or reason.",
+    meaningVi: "Thứ nhất.",
+    exampleEn: "Firstly, we need to address the budget issue.",
+    exampleVi: "Thứ nhất, chúng ta cần giải quyết vấn đề ngân sách.",
+    categories: ["General"],
+  },
+  {
     id: "gen-7897",
     word: "Firstborn",
     slug: "firstborn",

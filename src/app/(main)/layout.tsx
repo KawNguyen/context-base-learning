@@ -1,8 +1,13 @@
 import AppSidebar from "@/components/app-sidebar";
 import { ThemeToggle } from "@/components/toggle";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
+import { DynamicBreadcrumb } from "@/components/dynamic-breadcrumb";
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+interface LayoutProps {
+  children: React.ReactNode;
+}
+
+export default async function Layout({ children }: LayoutProps) {
   return (
     <SidebarProvider>
       <AppSidebar />
@@ -10,7 +15,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <header className="flex h-16 shrink-0 items-center gap-2 border-b px-4 justify-between">
           <div className="flex items-center gap-2">
             <SidebarTrigger className="-ml-1" />
-            <h1 className="text-lg font-semibold">English Learning App</h1>
+            <DynamicBreadcrumb />
           </div>
           <div className="flex items-center gap-2">
             <ThemeToggle />

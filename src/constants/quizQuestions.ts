@@ -2591,7 +2591,7 @@ export const questions: Record<CEFRLevel, Question[]> = {
     {
       questionEn: "A new bridge ____ built across the river.",
       questionVi: "Một cây cầu mới ____ xây qua sông.",
-      options: ["is building", "is being built", "builds", "built"],
+      options: ["is building", "is being", "builds", "built"],
       correct: 1,
       explanationVi:
         "Hành động đang xảy ra với đối tượng ngay lúc nói (bị động).",

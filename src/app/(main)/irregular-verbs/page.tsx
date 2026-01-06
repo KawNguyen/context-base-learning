@@ -5,7 +5,7 @@ import { BookOpen, BrainCircuit } from "lucide-react";
 
 export default function IrregularVerbsPage() {
   return (
-    <section className="container mx-auto">
+    <section className="">
       <Tabs defaultValue="list" className="space-y-6">
         <div className="flex justify-center">
           <TabsList className="bg-card border border-border h-14 p-1 rounded-2xl shadow-sm">

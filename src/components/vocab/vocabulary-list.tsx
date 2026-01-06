@@ -2,7 +2,11 @@
 
 import { useState, useMemo, useEffect } from "react";
 import { useVocabCache } from "@/hooks/use-vocab-cache";
-import { AllVocabData, VOCABULARY_CATEGORIES } from "@/constants/vocabulary";
+import {
+  AllVocabData,
+  VOCABULARY_CATEGORIES,
+  VocabularyWord,
+} from "@/constants/vocabulary";
 import type { VocabularyCategory } from "@/constants/vocabulary";
 import { getCategorySlug } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -17,19 +21,12 @@ import {
 import { Volume1, Volume2 } from "lucide-react";
 import { pronounceWord, pronounceWordSlow } from "@/lib/speech";
 import { Input } from "../ui/input";
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbList,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
-} from "../ui/breadcrumb";
-import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { WordDetailDialog } from "./word-detail-dialog";
 
 export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
-  const router = useRouter();
   const { getCachedState, saveCache } = useVocabCache();
+  const [selectedWord, setSelectedWord] = useState<VocabularyWord | null>(null);
+  const [dialogOpen, setDialogOpen] = useState(false);
 
   // Derive category from URL slug
   const selectedCategory = useMemo<VocabularyCategory | "ALL">(() => {
@@ -90,19 +87,6 @@ export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
 
   return (
     <div className="space-y-3">
-      <Breadcrumb>
-        <BreadcrumbList>
-          <BreadcrumbItem>
-            <Link href="/vocabulary">Vocabulary</Link>
-          </BreadcrumbItem>
-          <BreadcrumbSeparator />
-          <BreadcrumbItem>
-            <BreadcrumbPage>
-              {selectedCategory === "ALL" ? "All" : selectedCategory}
-            </BreadcrumbPage>
-          </BreadcrumbItem>
-        </BreadcrumbList>
-      </Breadcrumb>
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
         <h1 className="text-3xl font-bold">
           Vocabulary
@@ -126,8 +110,8 @@ export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
               <TableHead className="hidden md:table-cell">Phonetic</TableHead>
               <TableHead className="hidden md:table-cell">Type</TableHead>
               <TableHead>Meaning</TableHead>
-              <TableHead className="hidden md:table-cell">
-                Speak(Low-Normal)
+              <TableHead className="hidden md:table-cell text-center">
+                Speak
               </TableHead>
             </TableRow>
           </TableHeader>
@@ -136,9 +120,10 @@ export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
               <TableRow
                 key={word.id}
                 className="group cursor-pointer hover:bg-accent/50"
-                onClick={() =>
-                  router.push(`/vocabulary/word/${getCategorySlug(word.word)}`)
-                }
+                onClick={() => {
+                  setSelectedWord(word);
+                  setDialogOpen(true);
+                }}
               >
                 <TableCell className="font-bold">{word.word}</TableCell>
                 <TableCell className="hidden md:table-cell text-muted-foreground italic text-sm">
@@ -150,12 +135,12 @@ export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
                 <TableCell>
                   <div>
                     {/* <p className="text-sm font-semibold">{word.meaningEn}</p> */}
-                    <p className="text-xs text-muted-foreground">
+                    <p className="text-xs text-muted-foreground truncate w-44 md:w-80">
                       {word.meaningVi}
                     </p>
                   </div>
                 </TableCell>
-                <TableCell className="hidden md:table-cell space-x-2">
+                <TableCell className="hidden md:table-cell text-center space-x-2">
                   <Button
                     variant="outline"
                     size="icon"
@@ -184,6 +169,12 @@ export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
           </TableBody>
         </Table>
       </div>
+
+      <WordDetailDialog
+        word={selectedWord}
+        open={dialogOpen}
+        onOpenChange={setDialogOpen}
+      />
     </div>
   );
 }

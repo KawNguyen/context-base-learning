@@ -150,6 +150,18 @@ export const U1: VocabularyWord[] = [
     categories: ["Academic", "Philosophy"],
   },
   {
+    id: "c2-166",
+    word: "Urgency",
+    slug: "urgency",
+    phonetic: "/ˈɜːr.dʒən.si/",
+    partOfSpeech: "noun",
+    meaningEn: "Importance requiring swift action.",
+    meaningVi: "Sự khẩn cấp.",
+    exampleEn: "The urgency of the situation.",
+    exampleVi: "Sự khẩn cấp của tình huống.",
+    categories: ["General"],
+  },
+  {
     id: "c2-167",
     word: "Urology",
     slug: "urology",

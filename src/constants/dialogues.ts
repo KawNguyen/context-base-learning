@@ -14,6 +14,7 @@ export interface Question {
 
 export interface Dialogue {
   title: string;
+  slug: string;
   lines: DialogueLine[];
   questions: Question[];
 }
@@ -22,6 +23,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
   A1: [
     {
       title: "Saying Hello",
+      slug: "saying-hello",
       lines: [
         { speaker: "John", text: "Hello! My name is John. What is your name?" },
         { speaker: "Sarah", text: "Hi John! I'm Sarah. Nice to meet you." },
@@ -70,6 +72,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "At the Cafe",
+      slug: "at-the-cafe",
       lines: [
         { speaker: "Server", text: "Good morning. Can I help you?" },
         { speaker: "Customer", text: "Yes, please. I'd like a coffee." },
@@ -133,6 +136,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "My Family",
+      slug: "my-family",
       lines: [
         { speaker: "Alice", text: "Do you have a big family?" },
         {
@@ -175,6 +179,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "What Time Is It?",
+      slug: "what-time-is-it",
       lines: [
         {
           speaker: "Lily",
@@ -223,6 +228,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Buying a Shirt",
+      slug: "buying-a-shirt",
       lines: [
         {
           speaker: "Customer",
@@ -287,6 +293,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Favorite Food",
+      slug: "favorite-food",
       lines: [
         {
           speaker: "Mike",
@@ -344,6 +351,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "The Weather",
+      slug: "the-weather",
       lines: [
         { speaker: "Anna", text: "It's very sunny today. Look at the sky!" },
         {
@@ -404,6 +412,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "My New Car",
+      slug: "my-new-car",
       lines: [
         {
           speaker: "Mark",
@@ -466,6 +475,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Daily Routine",
+      slug: "daily-routine",
       lines: [
         { speaker: "Paul", text: "What time do you wake up usually?" },
         {
@@ -524,6 +534,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "At the Library",
+      slug: "at-the-library",
       lines: [
         {
           speaker: "Student",
@@ -579,6 +590,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Weekend Plans",
+      slug: "weekend-plans",
       lines: [
         { speaker: "Sam", text: "What are you doing on Sunday? Are you busy?" },
         {
@@ -634,6 +646,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Asking Directions",
+      slug: "asking-directions",
       lines: [
         {
           speaker: "Tourist",
@@ -701,6 +714,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "My Hobbies",
+      slug: "my-hobbies",
       lines: [
         {
           speaker: "Jack",
@@ -760,6 +774,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Doctor's Visit",
+      slug: "doctors-visit",
       lines: [
         {
           speaker: "Patient",
@@ -834,6 +849,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "A New Job",
+      slug: "a-new-job",
       lines: [
         {
           speaker: "Chris",
@@ -901,6 +917,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Going to the Cinema",
+      slug: "going-to-the-cinema",
       lines: [
         {
           speaker: "Harry",
@@ -960,6 +977,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "School Lunch",
+      slug: "school-lunch",
       lines: [
         {
           speaker: "Kevin",
@@ -1015,6 +1033,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "In the Park",
+      slug: "in-the-park",
       lines: [
         {
           speaker: "Steve",
@@ -1081,6 +1100,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Learning English",
+      slug: "learning-english",
       lines: [
         {
           speaker: "Pedro",
@@ -1151,6 +1171,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "New Neighbors",
+      slug: "new-neighbors",
       lines: [
         {
           speaker: "James",
@@ -1214,6 +1235,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
   A2: [
     {
       title: "Planning a Weekend",
+      slug: "planning-a-weekend",
       lines: [
         {
           speaker: "David",
@@ -1285,6 +1307,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Lost in the City",
+      slug: "lost-in-the-city",
       lines: [
         {
           speaker: "Visitor",
@@ -1349,6 +1372,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Booking a Room",
+      slug: "booking-a-room",
       lines: [
         {
           speaker: "Guest",
@@ -1411,6 +1435,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Talking about Hobbies",
+      slug: "talking-about-hobbies",
       lines: [
         {
           speaker: "Leo",
@@ -1478,6 +1503,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "A New Restaurant",
+      slug: "a-new-restaurant",
       lines: [
         {
           speaker: "Carl",
@@ -1540,6 +1566,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Job Interview Prep",
+      slug: "job-interview-prep",
       lines: [
         {
           speaker: "Sarah",
@@ -1602,6 +1629,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Buying a Gift",
+      slug: "buying-a-gift",
       lines: [
         {
           speaker: "Robert",
@@ -1670,6 +1698,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Moving House",
+      slug: "moving-house",
       lines: [
         {
           speaker: "Frank",
@@ -1747,6 +1776,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Health and Fitness",
+      slug: "health-and-fitness",
       lines: [
         {
           speaker: "Max",
@@ -1807,6 +1837,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "At the Airport",
+      slug: "at-the-airport",
       lines: [
         {
           speaker: "Agent",
@@ -1878,6 +1909,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "School Project",
+      slug: "school-project",
       lines: [
         {
           speaker: "Oliver",
@@ -1940,6 +1972,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Weekend Trip",
+      slug: "weekend-trip",
       lines: [
         {
           speaker: "Ethan",
@@ -2012,6 +2045,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Social Media Discussion",
+      slug: "social-media-discussion",
       lines: [
         {
           speaker: "Laura",
@@ -2089,6 +2123,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "In a Clothing Store",
+      slug: "in-a-clothing-store",
       lines: [
         {
           speaker: "Shopper",
@@ -2160,6 +2195,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Cooking at Home",
+      slug: "cooking-at-home",
       lines: [
         {
           speaker: "Sam",
@@ -2232,6 +2268,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "At the Post Office",
+      slug: "at-the-post-office",
       lines: [
         {
           speaker: "Customer",
@@ -2300,6 +2337,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Discussing a Movie",
+      slug: "discussing-a-movie",
       lines: [
         {
           speaker: "Dan",
@@ -2368,6 +2406,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Planning a Party",
+      slug: "planning-a-party",
       lines: [
         {
           speaker: "Fiona",
@@ -2445,6 +2484,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Volunteering",
+      slug: "volunteering",
       lines: [
         {
           speaker: "Grace",
@@ -2511,6 +2551,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Technology at Home",
+      slug: "technology-at-home",
       lines: [
         {
           speaker: "Ian",
@@ -2586,6 +2627,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
   B1: [
     {
       title: "Job Interview",
+      slug: "job-interview",
       lines: [
         {
           speaker: "Mr. Smith",
@@ -2661,6 +2703,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Workplace Conflict",
+      slug: "workplace-conflict",
       lines: [
         {
           speaker: "Manager",
@@ -2735,6 +2778,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Travel Experience",
+      slug: "travel-experience",
       lines: [
         {
           speaker: "Immigration Officer",
@@ -2802,6 +2846,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Environmental Concern",
+      slug: "environmental-concern",
       lines: [
         {
           speaker: "Resident",
@@ -2874,6 +2919,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Technology Trends",
+      slug: "technology-trends",
       lines: [
         {
           speaker: "Journalist",
@@ -2941,6 +2987,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Cultural Exchange",
+      slug: "cultural-exchange",
       lines: [
         {
           speaker: "Host",
@@ -3015,6 +3062,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Booking a Tour",
+      slug: "booking-a-tour",
       lines: [
         {
           speaker: "Travel Agent",
@@ -3082,6 +3130,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Office Technology",
+      slug: "office-technology",
       lines: [
         {
           speaker: "IT Support",
@@ -3147,6 +3196,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Discussing a Book",
+      slug: "discussing-a-book",
       lines: [
         {
           speaker: "Reader A",
@@ -3216,6 +3266,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "At the Bank",
+      slug: "at-the-bank",
       lines: [
         {
           speaker: "Banker",
@@ -3292,6 +3343,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Weather Warning",
+      slug: "weather-warning",
       lines: [
         {
           speaker: "News Reporter",
@@ -3358,6 +3410,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "New Product Idea",
+      slug: "new-product-idea",
       lines: [
         {
           speaker: "Product Designer",
@@ -3419,6 +3472,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Learning a Language",
+      slug: "learning-a-language",
       lines: [
         {
           speaker: "Teacher",
@@ -3495,6 +3549,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Team Building",
+      slug: "team-building",
       lines: [
         {
           speaker: "Team Leader",
@@ -3568,6 +3623,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Healthy Eating Discussion",
+      slug: "healthy-eating-discussion",
       lines: [
         {
           speaker: "Friend A",
@@ -3636,6 +3692,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Public Transport Issues",
+      slug: "public-transport-issues",
       lines: [
         {
           speaker: "Commuter",
@@ -3705,6 +3762,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Discussing Technology",
+      slug: "discussing-technology",
       lines: [
         {
           speaker: "Alice",
@@ -3767,6 +3825,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Holiday Planning",
+      slug: "holiday-planning",
       lines: [
         {
           speaker: "Partner A",
@@ -3836,6 +3895,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Science News",
+      slug: "science-news",
       lines: [
         {
           speaker: "Scientist A",
@@ -3906,6 +3966,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "At the Art Gallery",
+      slug: "at-the-art-gallery",
       lines: [
         {
           speaker: "Guide",
@@ -3978,6 +4039,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
   B2: [
     {
       title: "Remote Work Debate",
+      slug: "remote-work-debate",
       lines: [
         {
           speaker: "Manager",
@@ -4054,6 +4116,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Ocean Plastic Pollution",
+      slug: "ocean-plastic-pollution",
       lines: [
         {
           speaker: "Marine Biologist",
@@ -4129,6 +4192,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Artificial Intelligence Ethics",
+      slug: "artificial-intelligence-ethics",
       lines: [
         {
           speaker: "Researcher",
@@ -4201,6 +4265,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Luxury Travel Trends",
+      slug: "luxury-travel-trends",
       lines: [
         {
           speaker: "Travel Agent",
@@ -4275,6 +4340,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Urban Planning for Cyclists",
+      slug: "urban-planning-for-cyclists",
       lines: [
         {
           speaker: "City Planner",
@@ -4346,6 +4412,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Future of Education",
+      slug: "future-of-education",
       lines: [
         {
           speaker: "Professor",
@@ -4420,6 +4487,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Sustainable Fashion",
+      slug: "sustainable-fashion",
       lines: [
         {
           speaker: "Designer",
@@ -4490,6 +4558,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Cryptocurrency Risks",
+      slug: "cryptocurrency-risks",
       lines: [
         {
           speaker: "Financial Analyst",
@@ -4560,6 +4629,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Mental Health at Work",
+      slug: "mental-health-at-work",
       lines: [
         {
           speaker: "HR Manager",
@@ -4631,6 +4701,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Space Exploration Debate",
+      slug: "space-exploration-debate",
       lines: [
         {
           speaker: "Space Enthusiast",
@@ -4706,6 +4777,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Smart City Infrastructure",
+      slug: "smart-city-infrastructure",
       lines: [
         {
           speaker: "Engineer",
@@ -4775,6 +4847,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Renewable Energy Transition",
+      slug: "renewable-energy-transition",
       lines: [
         {
           speaker: "Energy Executive",
@@ -4840,6 +4913,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "The Gig Economy",
+      slug: "the-gig-economy",
       lines: [
         {
           speaker: "Freelancer",
@@ -4907,6 +4981,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Remote Learning Challenges",
+      slug: "remote-learning-challenges",
       lines: [
         {
           speaker: "Parent",
@@ -4977,6 +5052,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Circular Economy in Retail",
+      slug: "circular-economy-in-retail",
       lines: [
         {
           speaker: "Store Manager",
@@ -5042,6 +5118,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Cybersecurity in Banking",
+      slug: "cybersecurity-in-banking",
       lines: [
         {
           speaker: "CISO",
@@ -5112,6 +5189,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Work-Life Balance Policy",
+      slug: "work-life-balance-policy",
       lines: [
         {
           speaker: "CEO",
@@ -5181,6 +5259,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Future of E-commerce",
+      slug: "future-of-e-commerce",
       lines: [
         {
           speaker: "Analyst",
@@ -5246,6 +5325,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Sustainable Agriculture",
+      slug: "sustainable-agriculture",
       lines: [
         {
           speaker: "Farmer",
@@ -5316,6 +5396,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Digital Nomad Lifestyle",
+      slug: "digital-nomad-lifestyle",
       lines: [
         {
           speaker: "Nomad",
@@ -5383,6 +5464,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
   C1: [
     {
       title: "Debating Economic Policy",
+      slug: "debating-economic-policy",
       lines: [
         {
           speaker: "Economist",
@@ -5453,6 +5535,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Philosophical Inquiry: Free Will",
+      slug: "philosophical-inquiry-free-will",
       lines: [
         {
           speaker: "Scholar A",
@@ -5519,6 +5602,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Ethical Implications of Biotechnology",
+      slug: "ethical-implications-of-biotechnology",
       lines: [
         {
           speaker: "Geneticist",
@@ -5585,6 +5669,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Linguistic Relativity Theory",
+      slug: "linguistic-relativity-theory",
       lines: [
         {
           speaker: "Linguist X",
@@ -5652,6 +5737,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Macroeconomic Regulation",
+      slug: "macroeconomic-regulation",
       lines: [
         {
           speaker: "Analyst",
@@ -5718,6 +5804,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Literary Deconstruction",
+      slug: "literary-deconstruction",
       lines: [
         {
           speaker: "Critic A",
@@ -5790,6 +5877,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Neuroscience and Criminal Justice",
+      slug: "neuroscience-and-criminal-justice",
       lines: [
         {
           speaker: "Lawyer",
@@ -5860,6 +5948,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Post-Colonial Discourse",
+      slug: "post-colonial-discourse",
       lines: [
         {
           speaker: "Professor",
@@ -5932,6 +6021,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "The Ethics of Space Colonization",
+      slug: "the-ethics-of-space-colonization",
       lines: [
         {
           speaker: "Philosopher",
@@ -6004,6 +6094,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Quantum Mechanics and Reality",
+      slug: "quantum-mechanics-and-reality",
       lines: [
         {
           speaker: "Physicist A",
@@ -6070,6 +6161,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "AI and Consciousness",
+      slug: "ai-and-consciousness",
       lines: [
         {
           speaker: "Cognitive Scientist",
@@ -6143,6 +6235,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Globalization and Sovereignty",
+      slug: "globalization-and-sovereignty",
       lines: [
         {
           speaker: "Political Scientist",
@@ -6215,6 +6308,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Cultural Heritage Preservation",
+      slug: "cultural-heritage-preservation",
       lines: [
         {
           speaker: "Archaeologist",
@@ -6287,6 +6381,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Professional Negotiation Strategy",
+      slug: "professional-negotiation-strategy",
       lines: [
         {
           speaker: "Lead Negotiator",
@@ -6353,6 +6448,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "The Future of Quantum Computing",
+      slug: "the-future-of-quantum-computing",
       lines: [
         {
           speaker: "Futurologist",
@@ -6424,6 +6520,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Deep Sea Exploration Ethics",
+      slug: "deep-sea-exploration-ethics",
       lines: [
         {
           speaker: "Oceanographer",
@@ -6489,6 +6586,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Cognitive Bias in Decision Making",
+      slug: "cognitive-bias-in-decision-making",
       lines: [
         {
           speaker: "Psychologist",
@@ -6559,6 +6657,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "The Evolution of Abstract Art",
+      slug: "the-evolution-of-abstract-art",
       lines: [
         {
           speaker: "Art Historian",
@@ -6629,6 +6728,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Sustainable Urban Design",
+      slug: "sustainable-urban-design",
       lines: [
         {
           speaker: "Architect",
@@ -6698,6 +6798,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Universal Basic Income Debate",
+      slug: "universal-basic-income-debate",
       lines: [
         {
           speaker: "Sociologist",
@@ -6772,6 +6873,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
   C2: [
     {
       title: "Epistemological Limits of Science",
+      slug: "epistemological-limits-of-science",
       lines: [
         {
           speaker: "Philosopher",
@@ -6844,6 +6946,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Advanced Game Theory in Geopolitics",
+      slug: "advanced-game-theory-in-geopolitics",
       lines: [
         {
           speaker: "Strategist",
@@ -6916,6 +7019,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "The Phenomenology of Time",
+      slug: "the-phenomenology-of-time",
       lines: [
         {
           speaker: "Husserlian",
@@ -6981,6 +7085,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Macro-Prudential Financial Regulation",
+      slug: "macro-prudential-financial-regulation",
       lines: [
         {
           speaker: "Regulator",
@@ -7052,6 +7157,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Post-Structuralist Theory",
+      slug: "post-structuralist-theory",
       lines: [
         {
           speaker: "Foucauldian",
@@ -7119,6 +7225,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "The Anthropic Principle in Cosmology",
+      slug: "the-anthropic-principle-in-cosmology",
       lines: [
         {
           speaker: "Researcher A",
@@ -7191,6 +7298,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Complexity Theory in Biology",
+      slug: "complexity-theory-in-biology",
       lines: [
         {
           speaker: "Systems Biologist",
@@ -7263,6 +7371,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Technological Singularity Discourse",
+      slug: "technological-singularity-discourse",
       lines: [
         {
           speaker: "Transhumanist",
@@ -7335,6 +7444,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Advanced Game Theory: The Prisoner's Dilemma",
+      slug: "advanced-game-theory-the-prisoners-dilemma",
       lines: [
         {
           speaker: "Professor",
@@ -7407,6 +7517,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "The Ethics of Predictive Policing",
+      slug: "the-ethics-of-predictive-policing",
       lines: [
         {
           speaker: "Data Scientist",
@@ -7478,6 +7589,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Advanced Ethics in Biotechnology",
+      slug: "advanced-ethics-in-biotechnology",
       lines: [
         {
           speaker: "Ethicist",
@@ -7549,6 +7661,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Existential Risk from AI",
+      slug: "existential-risk-from-ai",
       lines: [
         {
           speaker: "Researcher A",
@@ -7620,6 +7733,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Post-Scarcity Economics",
+      slug: "post-scarcity-economics",
       lines: [
         {
           speaker: "Futurist",
@@ -7688,6 +7802,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Quantum Ontologies",
+      slug: "quantum-ontologies",
       lines: [
         {
           speaker: "Philosopher",
@@ -7761,6 +7876,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Meta-Ethics: Moral Realism",
+      slug: "meta-ethics-moral-realism",
       lines: [
         {
           speaker: "Realist",
@@ -7832,6 +7948,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Geopolitical Dynamics: The Thucydides Trap",
+      slug: "geopolitical-dynamics-the-thucydides-trap",
       lines: [
         {
           speaker: "Historian",
@@ -7903,6 +8020,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "The Integrated Information Theory (IIT)",
+      slug: "the-integrated-information-theory-iit",
       lines: [
         {
           speaker: "Neuroscientist",
@@ -7971,6 +8089,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "The Private Language Argument",
+      slug: "the-private-language-argument",
       lines: [
         {
           speaker: "Wittgensteinian",
@@ -8039,6 +8158,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "Mechanism Design in Economics",
+      slug: "mechanism-design-in-economics",
       lines: [
         {
           speaker: "Economist",
@@ -8104,6 +8224,7 @@ export const dialogues: Record<CEFRLevel, Dialogue[]> = {
     },
     {
       title: "The Ethics of Terraforming",
+      slug: "the-ethics-of-terraforming",
       lines: [
         {
           speaker: "Space Ethicist",

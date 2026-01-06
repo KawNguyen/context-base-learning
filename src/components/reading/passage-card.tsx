@@ -8,25 +8,32 @@ import {
 } from "@/components/ui/card";
 import { ReadingPassage } from "@/constants/readingPassages";
 import { BookOpen, ChevronRight, Clock, GraduationCap } from "lucide-react";
+import { useRouter, useParams } from "next/navigation";
 
 interface PassageCardProps {
   passage: ReadingPassage;
-  index: number;
-  onSelect: (index: number) => void;
 }
 
-export function PassageCard({ passage, index, onSelect }: PassageCardProps) {
+export function PassageCard({ passage }: PassageCardProps) {
+  const router = useRouter();
+  const params = useParams();
+  const level = params.level as string;
+
   // Mock calculation for estimated reading time
   const wordCount = passage.passage.split(/\s+/).length;
   const readTime = Math.ceil(wordCount / 200);
 
+  const handleClick = () => {
+    router.push(`/reading/${level}/${passage.slug}`);
+  };
+
   return (
     <Card
       className="group relative flex flex-col h-full cursor-pointer border-border/50 bg-card/50 hover:bg-card hover:border-border hover:shadow-xl hover:shadow-primary/5 transition-all duration-300"
-      onClick={() => onSelect(index)}
+      onClick={handleClick}
     >
-      <CardHeader className="p-6 pb-2">
-        <div className="flex justify-between items-start mb-3">
+      <CardHeader className="p-4 pb-2">
+        <div className="flex justify-between items-start mb-2">
           <div className="p-2 bg-primary/10 rounded-lg">
             <BookOpen className="h-5 w-5 text-primary" />
           </div>
@@ -36,7 +43,7 @@ export function PassageCard({ passage, index, onSelect }: PassageCardProps) {
         </h3>
       </CardHeader>
 
-      <CardContent className="p-6 pt-2 grow">
+      <CardContent className="p-4 pt-0 grow">
         <p className="text-sm text-muted-foreground line-clamp-3 leading-relaxed">
           {passage.passage}
         </p>

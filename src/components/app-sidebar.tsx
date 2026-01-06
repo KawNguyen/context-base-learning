@@ -9,6 +9,7 @@ import {
   GraduationCap,
   MessageSquare,
   PenTool,
+  Search,
   WholeWord,
 } from "lucide-react";
 
@@ -76,11 +77,11 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             <SidebarMenuButton size="lg" asChild>
               <Link href={homeHref}>
                 <div className="flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
-                  <BookOpen className="size-4" />
+                  <Search className="size-4" />
                 </div>
                 <div className="grid flex-1 text-left text-sm leading-tight">
-                  <span className="truncate font-semibold">Brand</span>
-                  <span className="truncate text-xs">Brand Sub</span>
+                  <span className="truncate font-semibold">Search</span>
+                  <span className="truncate text-xs">Find words and topics</span>
                 </div>
               </Link>
             </SidebarMenuButton>

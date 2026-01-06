@@ -416,6 +416,18 @@ export const G1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
+    id: "gen-g12as",
+    word: "Gig",
+    slug: "gig",
+    phonetic: "/ɡɪɡ/",
+    partOfSpeech: "noun",
+    meaningEn: "A live performance by a musician or band.",
+    meaningVi: "Buổi biểu diễn trực tiếp của một nhạc sĩ hoặc ban nhạc.",
+    exampleEn: "The band has a gig tonight.",
+    exampleVi: "Ban nhạc có một buổi biểu diễn tối nay.",
+    categories: ["Music"],
+  },
+  {
     id: "a1-49",
     word: "Girl",
     slug: "girl",

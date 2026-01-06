@@ -336,7 +336,7 @@ export function lemmatize(word: string): string {
 
   let result = lower;
 
-  // Handle -ing forms (running -> run, making -> make)
+  // Handle -ing forms (running -> run, making -> make, watching -> watch)
   if (lower.endsWith("ing")) {
     const base = lower.slice(0, -3);
     // Double consonant + ing (running -> run, sitting -> sit)
@@ -347,9 +347,23 @@ export function lemmatize(word: string): string {
     ) {
       result = base.slice(0, -1);
     }
-    // -e + ing (making -> make, taking -> take)
-    else if (base.length >= 1) {
+    // Words ending in consonant clusters (ch, tch, sh, etc.) don't add 'e'
+    // watching -> watch, catching -> catch, finishing -> finish
+    else if (
+      base.endsWith("ch") ||
+      base.endsWith("sh") ||
+      base.endsWith("tch") ||
+      base.endsWith("dge") ||
+      base.endsWith("nge")
+    ) {
+      result = base;
+    }
+    // Most other -ing forms need 'e' added back (making -> make, taking -> take)
+    // But only if base doesn't already end in 'e'
+    else if (base.length >= 1 && !base.endsWith("e")) {
       result = base + "e";
+    } else {
+      result = base;
     }
   }
   // Handle -ed forms (lauded -> laud, wanted -> want, nuanced -> nuance)

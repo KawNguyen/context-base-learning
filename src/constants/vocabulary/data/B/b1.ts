@@ -347,6 +347,18 @@ export const B1: VocabularyWord[] = [
   },
   {
     id: "gen-2300",
+    word: "Baguette",
+    slug: "baguette",
+    phonetic: "/bæɡˈet/",
+    partOfSpeech: "noun",
+    meaningEn: "A long, thin loaf of French bread.",
+    meaningVi: "Bánh mì dài kiểu Pháp.",
+    exampleEn: "I bought a fresh baguette from the bakery.",
+    exampleVi: "Tôi đã mua một chiếc bánh mì dài tươi từ tiệm bánh.",
+    categories: ["Food & Drink", "Daily"],
+  },
+  {
+    id: "gen-2300",
     word: "Baggage",
     slug: "baggage",
     phonetic: "/ˈbæɡ.ɪdʒ/",

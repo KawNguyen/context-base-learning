@@ -1,14 +1,16 @@
-import { DialogueInterface } from "@/components/dialogue/dialogue-interface";
+import { DialogueSelection } from "@/components/dialogue/dialogue-selection";
 import { unslugify } from "@/lib/utils";
+import { CEFRLevel } from "@/constants/dialogues";
 
 interface PageProps {
-  params: {
+  params: Promise<{
     level: string;
-  };
+  }>;
 }
 
 export default async function DialogueLevelPage({ params }: PageProps) {
   const { level } = await params;
-  const slug = unslugify(level);
-  return <DialogueInterface level={slug} />;
+  const cefrLevel = unslugify(level) as CEFRLevel;
+
+  return <DialogueSelection level={cefrLevel} />;
 }

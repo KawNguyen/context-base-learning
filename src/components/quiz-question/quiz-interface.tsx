@@ -15,7 +15,6 @@ import {
 import { cn } from "@/lib/utils";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import questions from "@/constants/quizQuestions";
-import { useRouter } from "next/navigation";
 import { Card } from "../ui/card";
 
 interface QuizInterfaceProps {
@@ -29,7 +28,6 @@ export function QuizInterface({ level }: QuizInterfaceProps) {
   const [isAnswered, setIsAnswered] = useState(false);
   const [score, setScore] = useState(0);
   const [showResult, setShowResult] = useState(false);
-  const router = useRouter();
 
   const currentQuestion = levelQuestions[currentIndex];
   const progress = ((currentIndex + 1) / levelQuestions.length) * 100;
@@ -111,21 +109,12 @@ export function QuizInterface({ level }: QuizInterfaceProps) {
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between mb-2">
-        <Button
-          variant="ghost"
-          className="hover:bg-primary/5"
-          onClick={() => router.push("/quiz")}
-        >
-          <ArrowRight className="rotate-180 mr-2" size={18} /> Exit Quiz
-        </Button>
-        <div className="text-right">
-          <span className="text-sm font-medium text-muted-foreground uppercase tracking-wider">
-            Level {level}
-          </span>
-          <p className="text-xs text-muted-foreground">
-            {currentIndex + 1} of {levelQuestions.length}
-          </p>
-        </div>
+        <span className="text-sm font-medium text-muted-foreground uppercase tracking-wider">
+          Level {level}
+        </span>
+        <p className="text-xs text-muted-foreground">
+          {currentIndex + 1} of {levelQuestions.length}
+        </p>
       </div>
 
       <Progress value={progress} className="h-3 rounded-full" />

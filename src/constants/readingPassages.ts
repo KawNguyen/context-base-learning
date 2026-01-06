@@ -2,6 +2,7 @@ type CEFRLevel = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
 
 export interface ReadingPassage {
   title: string;
+  slug: string;
   passage: string;
   questions: {
     question: string;
@@ -15,6 +16,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
   A1: [
     {
       title: "About Me",
+      slug: "about-me",
       passage:
         "My name is Tom. I am ten years old. I live in London. I have blue eyes and brown hair. I like to play football. My favorite color is red. I have a sister. Her name is Lucy. She is eight years old. We go to the same school. I love my family.",
       questions: [
@@ -61,6 +63,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "My Family",
+      slug: "my-family",
       passage:
         "I have a big family. I live with my parents and two brothers. My father is a doctor. He works at a hospital. My mother is a teacher. She teaches English. My brothers are students. We have dinner together every evening. We talk about our day. On Sundays, we go to the park.",
       questions: [
@@ -120,6 +123,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "My House",
+      slug: "my-house",
       passage:
         "My house is small but nice. It is white with a red roof. There are two bedrooms and one bathroom. The living room has a big sofa. We watch TV there. The kitchen is clean. My mom cooks food there. We have a small garden with flowers. I love my house.",
       questions: [
@@ -178,6 +182,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "School Days",
+      slug: "school-days",
       passage:
         "I go to school from Monday to Friday. My school starts at 8 am. I wear a uniform. It is blue and white. I have many friends at school. We study Maths, English, and Art. My favorite subject is Art. I like to draw. We have lunch at 12 pm. I go home at 4 pm.",
       questions: [
@@ -232,6 +237,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "My Best Friend",
+      slug: "my-best-friend",
       passage:
         "My best friend is Sarah. She is tall and thin. She has long blonde hair. She is very funny. She tells good jokes. We play tennis together on Saturdays. Sarah likes to read books. She has many books in her room. We also like to eat ice cream. Sarah is a good friend.",
       questions: [
@@ -284,6 +290,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Morning Routine",
+      slug: "morning-routine",
       passage:
         "Every morning, I wake up at 6:30. I brush my teeth and wash my face. Then I put on my shirt and pants. I eat breakfast at 7:00. I usually have toast and milk. I pack my bag. I say goodbye to my mom. I walk to the bus stop at 7:30. The bus takes me to school.",
       questions: [
@@ -342,6 +349,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Breakfast Time",
+      slug: "breakfast-time",
       passage:
         "Breakfast is my favorite meal. On weekdays, I eat quickly. I have cereal with cold milk. Sometimes I have an apple too. On weekends, we have a big breakfast. My dad cooks eggs and sausages. My mom makes pancakes. We drink orange juice. We sit at the table and talk. It is a happy time.",
       questions: [
@@ -391,6 +399,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "My Pet Dog",
+      slug: "my-pet-dog",
       passage:
         "I have a pet dog. His name is Max. He is a brown dog. He has long ears. Max is very playful. He likes to run in the park. I throw a ball and he brings it back. Max eats dog food. He sleeps in a small bed in my room. He is a good dog. I love him very much.",
       questions: [
@@ -448,6 +457,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "My Pet Cat",
+      slug: "my-pet-cat",
       passage:
         "My cat's name is Luna. She is white and fluffy. She has green eyes. Luna is quiet. She likes to sleep on the sofa. Sometimes she plays with a toy mouse. She chases it around the house. Luna drinks milk and eats fish. She does not like water. She hates baths. She purrs when I pet her.",
       questions: [
@@ -500,6 +510,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "My Weekend",
+      slug: "my-weekend",
       passage:
         "I love the weekend. On Saturday morning, I watch cartoons. Then I do my homework. In the afternoon, I ride my bike with my friends. On Sunday, I visit my grandmother. She makes delicious cakes. We drink tea. I help her in the garden. We water the flowers. It is relaxing. I go home on Sunday evening.",
       questions: [
@@ -559,6 +570,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Drawing Hobby",
+      slug: "drawing-hobby",
       passage:
         "I have a hobby. It is drawing. I have a big sketchbook. I draw with pencils and crayons. I like to draw animals. My favorite animal to draw is a lion. I also draw cars and planes. I draw in my bedroom. It is quiet there. My mom puts my pictures on the fridge. She says they are beautiful.",
       questions: [
@@ -612,6 +624,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Reading Hobby",
+      slug: "reading-hobby",
       passage:
         "My sister loves to read. She reads every day. She reads before she goes to sleep. She likes funny stories. She laughs when she reads. She goes to the library every Friday. She borrows three books. She reads them on the weekend. Her favorite book is about a magic cat. Reading makes her happy.",
       questions: [
@@ -671,6 +684,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Playing Football",
+      slug: "playing-football",
       passage:
         "I play football with my friends. We play in the park. We have a team. Our team colors are red and yellow. I am the goalkeeper. I stop the ball. My friend Mark kicks the ball very hard. He scores many goals. We play for one hour. After the game, we drink water. We are tired but happy.",
       questions: [
@@ -729,6 +743,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "In the Garden",
+      slug: "in-the-garden",
       passage:
         "My grandmother has a beautiful garden. There are many flowers. Red roses and yellow daisies. There is a big apple tree. In summer, we pick apples. They are sweet and crunchy. There are also vegetables. Carrots and potatoes grow in the ground. I help my grandma water the plants. I like to watch the butterflies. They fly from flower to flower.",
       questions: [
@@ -777,6 +792,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "At the Park",
+      slug: "at-the-park",
       passage:
         "The park is a fun place. There is a playground for children. I go on the slide. It is fast. I also play on the swings. I go up and down. Some boys play football on the grass. People walk their dogs. There is a small lake. Ducks swim in the lake. We feed them bread. It is a nice day.",
       questions: [
@@ -826,6 +842,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Weather",
+      slug: "the-weather",
       passage:
         "Today the weather is sunny. The sun is hot. The sky is blue. I wear a hat and sunglasses. I wear a T-shirt and shorts. Yesterday it was rainy. The sky was grey. I used an umbrella. I wore a raincoat and boots. I like sunny days better. I can play outside.",
       questions: [
@@ -873,6 +890,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Summer Holiday",
+      slug: "summer-holiday",
       passage:
         "In summer, I have a long holiday. I do not go to school. My family goes to the beach. We stay in a hotel. I swim in the sea. The water is cool. I play in the sand. I make sandcastles. We eat ice cream every day. In the evening, we eat seafood. It is delicious. I love summer.",
       questions: [
@@ -927,6 +945,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Winter Days",
+      slug: "winter-days",
       passage:
         "It is winter. It is very cold. There is snow on the ground. The trees are white. I wear a warm coat and a scarf. I wear gloves on my hands. I play in the snow. I make a snowman. I throw snowballs at my brother. We laugh. When we go inside, we drink hot chocolate. It warms us up.",
       questions: [
@@ -979,6 +998,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "My Bedroom",
+      slug: "my-bedroom",
       passage:
         "This is my bedroom. It is painted blue. I have a bed, a desk, and a chair. There is a lamp on the desk. I do my homework there. I have a bookshelf. It has many books. I keep my toys in a big box. There is a window. I can see the garden from my window. I like my room.",
       questions: [
@@ -1033,6 +1053,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Kitchen",
+      slug: "the-kitchen",
       passage:
         "Our kitchen is clean and bright. The walls are yellow. There is a fridge, a stove, and a sink. The fridge is big and silver. We keep food in it. My mom cooks on the stove. We wash dishes in the sink. There is a table in the middle. We eat breakfast there. I help my mom sweep the floor.",
       questions: [
@@ -1090,6 +1111,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Cooking Dinner",
+      slug: "cooking-dinner",
       passage:
         "My dad likes to cook dinner. He wears an apron. Tonight he makes pasta. He boils water in a pot. He cuts tomatoes and onions. He fries the meat in a pan. The kitchen smells good. I set the table. I put distinct forks and spoons. We wait for the food. Dad says 'Dinner is ready!'. We are hungry.",
       questions: [
@@ -1141,6 +1163,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Supermarket Buys",
+      slug: "supermarket-buys",
       passage:
         "I go to the supermarket with my mom. She pushes the cart. I put things in. We buy milk and eggs. We buy bread for sandwiches. I ask for candy. Mom says 'Okay, but only one'. I choose a chocolate bar. We also buy fruit. Apples are red and shiny. We pay money at the checkout.",
       questions: [
@@ -1187,6 +1210,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "My Town",
+      slug: "my-town",
       passage:
         "I live in a small town. It is quiet and safe. There is a school and a library. There is a post office next to the bank. My favorite place is the bakery. It sells fresh bread and cakes. The smell is wonderful. There are no big buildings. There are many trees on the streets. Everyone is friendly.",
       questions: [
@@ -1241,6 +1265,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Zoo Visit",
+      slug: "the-zoo-visit",
       passage:
         "We are at the zoo today. I see many animals. The lions are sleeping. The monkeys are jumping. They are funny. I see a tall giraffe. It eats leaves from a tree. The elephants are big and grey. They have long trunks. I eat a sandwich for lunch. I buy a toy tiger at the shop. The zoo is great.",
       questions: [
@@ -1290,6 +1315,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "My Birthday",
+      slug: "my-birthday",
       passage:
         "Today is my birthday. I am seven years old. I have a party at home. My friends come. They give me gifts. I get a new doll and a book. We eat chocolate cake. It has seven candles. I blow them out. We play games and sing songs. I am very happy.",
       questions: [
@@ -1342,6 +1368,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Favorite Colors",
+      slug: "favorite-colors",
       passage:
         "My friends like different colors. Anna likes pink. He bag is pink. Tom likes blue. His bike is blue. I like green. The grass is green. The trees are green. My favorite shirt is green. We paint a picture together. We use all our favorite colors. The picture is beautiful.",
       questions: [
@@ -1389,6 +1416,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Learning English",
+      slug: "learning-english",
       passage:
         "I learn English at school. My teacher is Mrs. Green. She is nice. We learn new words. 'Apple', 'Book', 'Cat'. We learn to count. One, two, three. We sing songs in English. It is fun. I speak English with my friends. Hello! How are you?",
       questions: [
@@ -1441,6 +1469,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "My Teacher",
+      slug: "my-teacher",
       passage:
         "My teacher's name is Mr. Brown. He is tall. He wears glasses. He teaches us Maths. He writes numbers on the board. He helps us with problems. He is very smart. He tells funny stories too. We like his class. We give him a card on Teacher's Day.",
       questions: [
@@ -1488,6 +1517,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Taking the Bus",
+      slug: "taking-the-bus",
       passage:
         "I take the bus to school. The bus is yellow. It is big. The driver is Mr. Dave. He says 'Good morning'. I sit with my friend. We talk and laugh. The bus stops at the school gate. We get off. I wave to Mr. Dave. See you later!",
       questions: [
@@ -1540,6 +1570,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Sunday Picnic",
+      slug: "sunday-picnic",
       passage:
         "On Sunday, we go for a picnic. We go to the lake. Mom brings a basket. There is food inside. Sandwiches, apples, and juice. Dad brings a blanket. We sit on the grass. We eat and play. My dog runs in the water. It is a sunny day. We go home at 5 pm.",
       questions: [
@@ -1595,6 +1626,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
   A2: [
     {
       title: "My Last Holiday",
+      slug: "my-last-holiday",
       passage:
         "Last summer, I went to Paris with my family. We traveled by plane. It was my first time on a plane. I was excited but a little nervous. In Paris, we visited the Eiffel Tower. It was very tall. We took many photos. We also visited the Louvre Museum. I saw the Mona Lisa painting. The food in Paris was amazing. I ate croissants and baguettes every morning. We stayed there for a week. It was a wonderful holiday.",
       questions: [
@@ -1649,6 +1681,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "A Future Trip",
+      slug: "a-future-trip",
       passage:
         "Next month, I am going to visit my uncle in Canada. I will fly alone. My uncle will meet me at the airport. We are going to go camping in the mountains. We will sleep in a tent. I hope we will see a bear. I am going to pack warm clothes because it is cold there. I will also bring my camera. I want to take pictures of the nature. I am looking forward to this trip.",
       questions: [
@@ -1697,6 +1730,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "My Favorite Movie",
+      slug: "my-favorite-movie",
       passage:
         "My favorite movie is 'The Lion King'. It is an animated movie. It is about a young lion named Simba. His father is the king. Simba has an evil uncle named Scar. Scar wants to be the king. Simba runs away but comes back later. He fights Scar and becomes the king. The songs in the movie are beautiful. I cry every time I watch it. It teaches us to be brave.",
       questions: [
@@ -1745,6 +1779,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "A Visit to the Doctor",
+      slug: "a-visit-to-the-doctor",
       passage:
         "Last week, I was sick. I had a bad cough and a fever. My mom took me to the doctor. The doctor's name was Dr. Smith. He listened to my chest. He looked in my throat. He said I had the flu. He gave me some medicine. He told me to drink water and sleep. I stayed in bed for three days. Now I feel better.",
       questions: [
@@ -1809,6 +1844,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Cooking Spaghetti",
+      slug: "cooking-spaghetti",
       passage:
         "Cooking spaghetti is easy. First, you boil water in a large pot. You add a little salt. Then, you put the spaghetti in the boiling water. You cook it for ten minutes. While the pasta cooks, you can make the sauce. I like tomato sauce with meat. When the spaghetti is soft, you drain the water. Finally, you mix the pasta with the sauce. You can add cheese on top. It is delicious.",
       questions: [
@@ -1868,6 +1904,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "My Dream Job",
+      slug: "my-dream-job",
       passage:
         "I want to be a pilot when I grow up. Pilots fly planes to many countries. They wear a smart uniform. I think it is an exciting job. I love to travel and see the world. To be a pilot, I must study hard. I need to be good at Maths and English. I also need to be healthy. I hope my dream comes true.",
       questions: [
@@ -1922,6 +1959,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Environmental Protection",
+      slug: "environmental-protection",
       passage:
         "We should protect our environment. There is too much plastic in the ocean. It hurts the animals. We should not throw trash on the ground. We should recycle paper, glass, and plastic. We can also save water. Turn off the tap when you brush your teeth. Planting trees is good too. Trees give us fresh air. Small actions can help the Earth.",
       questions: [
@@ -1991,6 +2029,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Technology in Life",
+      slug: "technology-in-life",
       passage:
         "Technology is very important today. We use computers to work and study. We use smartphones to talk to friends. The internet helps us find information quickly. However, too much technology can be bad. If we look at screens all day, our eyes will hurt. We should also play outside and read books. We need to balance technology and real life.",
       questions: [
@@ -2065,6 +2104,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "A Famous Person",
+      slug: "a-famous-person",
       passage:
         "Taylor Swift is a famous singer. She is from America. She writes her own songs. Her voice is beautiful. She plays the guitar and the piano. She has many fans around the world. Her concerts are very big and loud. She works very hard. She is also kind to her fans. Many people love her music.",
       questions: [
@@ -2118,6 +2158,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "My Hometown",
+      slug: "my-hometown",
       passage:
         "My hometown is a beautiful city by the sea. It has a long beach with white sand. In summer, many tourists come here. There are many seafood restaurants. The local food is spicy and tasty. We have a big market where you can buy souvenirs. The people in my hometown are friendly and helpful. I love living here because the air is fresh and the view is amazing.",
       questions: [
@@ -2177,6 +2218,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Public Transport",
+      slug: "public-transport",
       passage:
         "Using public transport is good for the city. It reduces traffic jams. Buses and trains can carry many people at once. I take the bus to work every day. It is cheap and convenient. Sometimes it is crowded in the morning. I always buy a monthly ticket. It saves me money. The subway is faster than the bus, but it does not go everywhere. We should use public transport more.",
       questions: [
@@ -2236,6 +2278,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Learning Skills",
+      slug: "learning-skills",
       passage:
         "Learning new skills is useful. I am learning how to swim. My instructor is very patient. I go to the pool twice a week. At first, I was afraid of the water. Now I can float and swim a little. Swimming is good exercise. It makes me strong. I want to learn how to cook next. Learning makes me feel proud of myself.",
       questions: [
@@ -2285,6 +2328,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Healthy Living",
+      slug: "healthy-living",
       passage:
         "To be healthy, we need to eat good food and exercise. I eat lots of vegetables and fruit. I drink eight glasses of water a day. I avoid fast food and sugar. I also exercise for thirty minutes every day. I run or play football. Sleep is important too. I sleep eight hours every night. Healthy living gives me energy to study and play.",
       questions: [
@@ -2344,6 +2388,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "A Wedding Party",
+      slug: "a-wedding-party",
       passage:
         "My cousin Anna got married last Sunday. It was a beautiful wedding. She wore a white dress. The groom wore a black suit. They looked very happy. We had a party in a big hotel. There was a lot of food and music. We danced until midnight. I met many relatives there. I took a picture with the bride and groom. It was a special day for our family.",
       questions: [
@@ -2393,6 +2438,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Buying Clothes",
+      slug: "buying-clothes",
       passage:
         "I went shopping for clothes yesterday. I needed a new jacket. I went to a big department store. I tried on a blue jacket, but it was too big. Then I tried on a black one. It fit perfectly. It was on sale, so it was cheap. I also bought a pair of jeans. I paid with cash. The shop assistant was helpful. I am happy with my new clothes.",
       questions: [
@@ -2452,6 +2498,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "At the Restaurant",
+      slug: "at-the-restaurant",
       passage:
         "Last night, I went to an Italian restaurant with my friends. The restaurant was busy. We waited for ten minutes. The waiter gave us the menu. I ordered a pizza with mushrooms and cheese. My friend ordered pasta. We also drank lemonade. The food was delicious. For dessert, we had tiramisu. It was sweet and creamy. We paid the bill and left a tip for the waiter.",
       questions: [
@@ -2506,6 +2553,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Traffic Rules",
+      slug: "traffic-rules",
       passage:
         "Traffic rules keep everyone safe. When you cross the street, look left and right. Use the zebra crossing. Do not run on the road. When you ride a bike, wear a helmet. Cars must stop at the red light. They can go when the light is green. We must not play near the street. Accidents can happen if we are not careful.",
       questions: [
@@ -2575,6 +2623,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Festivals",
+      slug: "festivals",
       passage:
         "In my country, we have many festivals. The biggest on is Tet. It is the Lunar New Year. People clean their houses and buy flowers. We cook special food like Banh Chung. Children get lucky money in red envelopes. Families visit each other and wish for a good year. The streets are decorated with lights. Everyone is happy and excited.",
       questions: [
@@ -2629,6 +2678,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Hobbies and Interests",
+      slug: "hobbies-and-interests",
       passage:
         "My brother likes to collect stamps. He has hundreds of stamps from many countries of the world. He keeps them in a special album. I like to take photos. I have a new camera. I take photos of flowers and birds. My sister likes to bake cakes. She makes chocolate cookies every weekend. We all have different hobbies, but we respect each other's interests.",
       questions: [
@@ -2683,6 +2733,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Sports Day",
+      slug: "sports-day",
       passage:
         "Our school had a Sports Day yesterday. All the students went to the playground. We wore our sports clothes. There were running races, high jump, and long jump. I ran in the 100-meter race. I ran very fast and came second. My friend Tom won the high jump. We cheered for our team. It was a tiring but fun day.",
       questions: [
@@ -2736,6 +2787,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Library Rules",
+      slug: "library-rules",
       passage:
         "The library is a quiet place. You must not talk loudly. Put your phone on silent mode. You can borrow books for two weeks. If you are late, you pay a fine. Do not write in the books. Keep them clean. You can read magazines and newspapers here too. Ask the librarian if you need help finding a book.",
       questions: [
@@ -2795,6 +2847,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Helping Others",
+      slug: "helping-others",
       passage:
         "It is important to help others. Yesterday, I saw an old lady carrying heavy bags. I helped her carry them to her car. She smiled and said 'Thank you'. It made me feel good. At school, I help my friends with their homework. My mom helps our neighbors when they are sick. Helping people makes the world a better place.",
       questions: [
@@ -2849,6 +2902,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "A Lost Item",
+      slug: "a-lost-item",
       passage:
         "I lost my watch yesterday. It was a birthday gift from my dad. It has a blue strap. I looked everywhere. I looked in my room, under the bed, and in the kitchen. I could not find it. I was very sad. Then, my mom found it in the bathroom. I was so happy. I will be more careful next time.",
       questions: [
@@ -2901,6 +2955,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Weather Forecast",
+      slug: "weather-forecast",
       passage:
         "The weather forecast says it will be rainy tomorrow. You should take an umbrella. The temperature will be around 20 degrees Celsius. It will be windy too. In the evening, the rain will stop. The weekend will be sunny and warm. It is a good time for a picnic. Always check the forecast before making plans.",
       questions: [
@@ -2960,6 +3015,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Making Friends",
+      slug: "making-friends",
       passage:
         "Making new friends can be hard. The best way is to smile and say 'Hello'. Ask people about their hobbies. Listen when they talk. Be kind and helpful. Join clubs or groups to meet people with same interests. I joined a football club and met my best friend, Mike. Now we play football together every week.",
       questions: [
@@ -3024,6 +3080,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Travel Advice",
+      slug: "travel-advice",
       passage:
         "When you travel to a new country, you should learn some words in their language. 'Hello', 'Thank you', and 'Please' are important. Try local food. It is part of the culture. Keep your passport safe. Do not carry too much money. Respect the local customs. Take photos but ask for permission first. Enjoy your trip!",
       questions: [
@@ -3083,6 +3140,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "My School Experience",
+      slug: "my-school-experience",
       passage:
         "I love my school. The teachers are kind and the lessons are interesting. We have a big library and a science lab. I like doing experiments in the lab. My favorite subject is Science. I also like recess. I play with my friends in the playground. We have lunch in the canteen. The food is good. I am happy to be a student here.",
       questions: [
@@ -3132,6 +3190,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "A Scary Story",
+      slug: "a-scary-story",
       passage:
         "One night, I was home alone. It was storming outside. The wind was blowing hard. Suddenly, the lights went out. It was dark. I heard a noise at the door. Knock, knock, knock. I was scared. I walked to the door slowly. I opened it. It was just my cat! He was wet and cold. I let him in and dried him.",
       questions: [
@@ -3194,6 +3253,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Night Sky",
+      slug: "the-night-sky",
       passage:
         "Look up at the night sky. What do you see? Thousands of stars shining bright. The moon changes shape every night. Sometimes it is round like a ball. Sometimes it is like a banana. Stars are balls of fire. They are very far away. People use telescopes to look at them. It is beautiful to watch the stars.",
       questions: [
@@ -3252,6 +3312,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "New Year Celebration",
+      slug: "new-year-celebration",
       passage:
         "New Year's Eve is exciting. People stay up until midnight. We watch fireworks in the sky. They are colorful and loud. We count down: 'Three, Two, One, Happy New Year!'. We hug our friends and family. We make resolutions for the new year. I want to study harder and be healthier. It is a fresh start for everyone.",
       questions: [
@@ -3313,6 +3374,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
   B1: [
     {
       title: "The Benefits of Reading",
+      slug: "the-benefits-of-reading",
       passage:
         "Reading is a great habit that offers many benefits. Firstly, it improves your vocabulary and language skills. When you read, you encounter new words and phrases in context, which makes them easier to remember. Secondly, reading reduces stress. Getting lost in a good story allows you to forget about your daily worries. Thirdly, it enhances your knowledge. Whether you read fiction or non-fiction, you learn about different cultures, history, and ideas. Finally, reading improves concentration. Unlike watching TV, reading requires focus and attention. Therefore, everyone should try to read for at least 30 minutes every day.",
       questions: [
@@ -3382,6 +3444,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Traveling Solo",
+      slug: "traveling-solo",
       passage:
         "Traveling alone, or solo travel, has become very popular. It gives you freedom to do what you want. You don't have to wait for others or compromise on your plans. If you want to spend all day in a museum, you can. It also forces you to step out of your comfort zone. You have to solve problems by yourself and talk to strangers. This builds confidence. However, solo travel can sometimes be lonely. You might miss sharing special moments with friends. It can also be more expensive as you pay for everything alone. Despite these challenges, many people find solo travel a rewarding experience.",
       questions: [
@@ -3451,6 +3514,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Healthy Eating Habits",
+      slug: "healthy-eating-habits",
       passage:
         "Developing healthy eating habits is key to a long life. It is not just about eating vegetables; it is about balance. You should eat a variety of foods including proteins, carbohydrates, and healthy fats. Breakfast is the most important meal of the day because it gives you energy. Skipping meals is not a good idea as it can lead to overeating later. Drinking water is also crucial. It keeps you hydrated and helps digestion. You should try to avoid processed foods high in sugar and salt. Cooking at home is better than eating out because you control the ingredients. Small changes can make a big difference to your health.",
       questions: [
@@ -3520,6 +3584,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Importance of Sleep",
+      slug: "the-importance-of-sleep",
       passage:
         "Many people do not get enough sleep, but it is vital for our health. During sleep, our body repairs itself and our brain processes information. Lack of sleep can affect your memory and mood. It can make you feel irritable and unable to concentrate. Teenagers need about 8 to 10 hours of sleep, while adults need 7 to 9 hours. To get better sleep, you should have a regular schedule. Go to bed and wake up at the same time every day. Avoid screens before bedtime because the blue light keeps you awake. Creating a quiet and dark environment also helps.",
       questions: [
@@ -3589,6 +3654,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Online Learning",
+      slug: "online-learning",
       passage:
         "Since the pandemic, online learning has become a normal part of education. It offers flexibility as students can learn from anywhere. You save time and money on commuting. There are also many resources available online like videos and interactive quizzes. However, online learning requires self-discipline. It is easy to get distracted by social media or games. Also, some students miss the social interaction of a classroom. They feel isolated sitting in front of a computer all day. Technical problems like poor internet connection can also be frustrating. Despite these issues, online learning provides opportunities for many people.",
       questions: [
@@ -3658,6 +3724,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Recycling and Environment",
+      slug: "recycling-and-environment",
       passage:
         "Recycling is one of the easiest ways to help the environment. It involves processing used materials into new products. This reduces the need for raw materials, which saves energy and natural resources. For example, making paper from recycled materials uses less water and energy than making it from wood. You can recycle paper, plastic bottles, glass, and cans. However, not everything is recyclable. Putting the wrong items in the recycling bin can cause problems. It is important to check the recycling rules in your area. Reducing waste by buying less and reusing items is even better than recycling. We all have a role to play in protecting our planet.",
       questions: [
@@ -3732,6 +3799,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The History of Chocolate",
+      slug: "the-history-of-chocolate",
       passage:
         "Chocolate has a long and interesting history. It was first used by the ancient Mayans in Central America. They drank it as a bitter, spicy liquid mixed with chili peppers. They believed it was a gift from the gods. Later, the Aztecs used cocoa beans as money. When Spanish explorers brought chocolate to Europe, they added sugar and milk to make it sweet. It became a popular drink for the rich. In the 19th century, solid chocolate bars were invented. Today, chocolate is enjoyed all over the world. It is used in cakes, cookies, and candies. Dark chocolate is even considered healthy in small amounts.",
       questions: [
@@ -3796,6 +3864,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Smart Homes",
+      slug: "smart-homes",
       passage:
         "Technoloy is changing our homes. Smart homes use devices that connect to the internet. You can control lights, heating, and security systems with your smartphone. For example, you can turn on the heating before you get home so it is warm. Smart fridges can tell you what food you need to buy. Voice assistants like Alexa or Siri can play music or answer questions. These devices make life more convenient and can save energy. However, smart homes can be expensive to set up. There are also concerns about privacy and security if hackers get access to the system.",
       questions: [
@@ -3865,6 +3934,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Volunteering",
+      slug: "volunteering",
       passage:
         "Volunteering is giving your time to help others without getting paid. There are many ways to volunteer. You can work at an animal shelter, help in a library, or clean up a park. Some people volunteer at hospitals or help elderly people with shopping. Volunteering is a great way to learn new skills and meet people. It also looks good on your CV when applying for jobs or university. Most importantly, it gives you a sense of purpose. Knowing that you made a difference in someone's life is a wonderful feeling. Even a few hours a month can help.",
       questions: [
@@ -3934,6 +4004,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Olympics",
+      slug: "the-olympics",
       passage:
         "The Olympic Games is the biggest sporting event in the world. It happens every four years. Athletes from almost every country come together to compete. There are Summer Olympics and Winter Olympics. The Summer Games have sports like running, swimming, and gymnastics. The Winter Games have skiing, skating, and ice hockey. Winning a gold medal is the dream of every athlete. The Olympics is not just about sports; it is about friendship and peace. The five rings in the Olympic symbol represent the five continents united. Hosting the Olympics is a great honor for a city.",
       questions: [
@@ -3998,6 +4069,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Coffee Culture",
+      slug: "coffee-culture",
       passage:
         "Coffee is one of the most popular drinks in the world. For many people, drinking coffee is a daily ritual. It helps them wake up and start the day. Coffee shops have become social places where friends meet or people work on their laptops. There are many different types of coffee, like espresso, cappuccino, and latte. Coffee beans are grown in countries with warm climates like Brazil, Vietnam, and Ethiopia. Each region produces coffee with a different flavor. While coffee can give you energy, drinking too much can make you feel anxious or affect your sleep. It is best to drink it in moderation.",
       questions: [
@@ -4061,6 +4133,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Space Exploration",
+      slug: "space-exploration",
       passage:
         "Humans have always been curious about space. In 1969, Neil Armstrong became the first man to walk on the moon. Since then, we have sent rovers to Mars and spacecraft to the edge of the solar system. Space exploration helps us learn about the universe and our own planet. Satellites in space allow us to have GPS, weather forecasts, and satellite TV. The International Space Station (ISS) is a place where astronauts from different countries live and work together. In the future, people might live on Mars or travel to other stars. However, space travel is very dangerous and expensive.",
       questions: [
@@ -4130,6 +4203,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Internet of Things",
+      slug: "the-internet-of-things",
       passage:
         "The Internet of Things, or IoT, refers to objects keeping connected to the internet. It is not just computers and phones. Now, watches, cars, and even toasters can be online. A smart watch can track your heart rate and sleep. A connected car can tell you where to park. In factories, machines talk to each other to fix problems. This technology makes life easier and more efficient. However, there are risks. If your door lock is connected to the internet, hackers might open it. Companies also collect a lot of data about your habits. We need to be careful about security.",
       questions: [
@@ -4204,6 +4278,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Traditional Music",
+      slug: "traditional-music",
       passage:
         "Every country has its own traditional music. It is often played with special instruments that are unique to that region. Traditional music tells stories about the history and people of the country. It is played at weddings, festivals, and celebrations. In Ireland, they use the fiddle and flute. In Japan, they have the koto and shamisen. Folk songs are passed down from parents to children. Listening to traditional music helps us understand a culture better. However, many young people prefer modern pop music. It is important to preserve traditional music so it is not lost.",
       questions: [
@@ -4277,6 +4352,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Urban Gardening",
+      slug: "urban-gardening",
       passage:
         "Living in a city often means having no garden. However, urban gardening is becoming popular. People use balconies, rooftops, and windowsills to grow plants. You can grow herbs, tomatoes, and even strawberries in pots. Community gardens are shared spaces where people work together to grow food. Urban gardening makes the city greener and provides fresh food. It also helps cleaning the air. Gardening is a relaxing hobby that reduces stress. It connects city people with nature. You do not need a lot of space to start a small garden.",
       questions: [
@@ -4336,6 +4412,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Digital Nomad Lifestyle",
+      slug: "digital-nomad-lifestyle",
       passage:
         "A digital nomad is someone who works remotely while traveling the world. They use technology to perform their job from coffee shops, libraries, or co-working spaces. This lifestyle allows people to explore new cultures and meet people without being tied to a specific office. Popular destinations for digital nomads include Bali, Chiang Mai, and Lisbon, which offer affordable living costs and good internet. However, this lifestyle has challenges. It can be hard to maintain a routine or find a stable internet connection. Loneliness is also a common issue. Despite the difficulties, many find the freedom worth it.",
       questions: [
@@ -4409,6 +4486,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Power of Music",
+      slug: "the-power-of-music",
       passage:
         "Music has a powerful effect on our emotions. Upbeat music can make us feel happy and energetic, while slow music can make us feel calm or sad. Music is also used in therapy to help people with mental health issues. It can reduce anxiety and improve mood. Learning to play an instrument is good for the brain. It improves memory and coordination. Music connects people from different cultures. Even if you do not understand the lyrics, you can enjoy the melody. It is a universal language that everyone understands.",
       questions: [
@@ -4463,6 +4541,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Minimalism",
+      slug: "minimalism",
       passage:
         "Minimalism is a lifestyle of living with less. It means owning only the things that you truly need or love. Minimalists believe that having too many possessions creates stress and clutter. By getting rid of unnecessary items, they create more space and time for what matters. This could be spending time with family, traveling, or pursuing hobbies. Minimalism is not about being poor; it is about making intentional choices. It also helps the environment by reducing waste and consumption. Many people say they feel freer and happier after adopting a minimalist lifestyle.",
       questions: [
@@ -4527,6 +4606,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Electric Cars",
+      slug: "electric-cars",
       passage:
         "Electric cars are becoming more common on our roads. Unlike traditional cars that use petrol or diesel, electric cars run on battery power. They are much quieter and produce zero emissions, which is good for air quality. Charging an electric car is cheaper than buying petrol. However, electric cars can be expensive to buy initially. Also, finding charging stations can be difficult in some areas. The range of the battery is improving, but long trips still require planning. As technology advances, electric cars will likely replace petrol cars in the future.",
       questions: [
@@ -4591,6 +4671,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Fast Fashion",
+      slug: "fast-fashion",
       passage:
         "Fast fashion is the production of cheap clothes very quickly. Brands copy the latest trends and sell them at low prices. This allows people to buy new clothes often. However, fast fashion has a big environmental cost. Making clothes uses a lot of water and chemicals. Many clothes are made of polyester, which does not biodegrade. Also, workers in factories often work in poor conditions for low pay. Because the clothes are cheap, people throw them away easily, creating huge amounts of waste. Sustainable fashion is a better alternative.",
       questions: [
@@ -4670,6 +4751,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Artificial Intelligence",
+      slug: "artificial-intelligence",
       passage:
         "Artificial Intelligence (AI) is computers thinking like humans. AI is used in many things we use daily. It helps email filters block spam. It suggests movies on Netflix. Self-driving cars use AI to see the road. AI can analyze large amounts of data faster than any human. In medicine, AI helps doctors diagnose diseases. However, some people worry that AI will take people's jobs. Others worry about machines becoming too smart. Regardless, AI is a major part of our future and is changing the world rapidly.",
       questions: [
@@ -4734,6 +4816,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Importance of Water",
+      slug: "the-importance-of-water",
       passage:
         "Water is essential for all life on Earth. Up to 60% of the human body is water. We need to drink water to survive. It regulates body temperature and carries nutrients to cells. Water is also used for agriculture to grow food. Industries use water to make products. However, fresh water is a limited resource. Pollution and climate change are threatening our water supply. We must conserve water by fixing leaks and using it wisely. Every drop counts in ensuring we have enough water for the future.",
       questions: [
@@ -4783,6 +4866,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Wildlife Conservation",
+      slug: "wildlife-conservation",
       passage:
         "Wildlife conservation is the protection of animal species and their habitats. Many animals are endangered due to hunting and habitat loss. For example, tigers, elephants, and rhinos are at risk of extinction. Conservation organizations work to create protected areas like national parks. They also fight against illegal trade of animal parts. Zoos play a role by breeding endangered animals. Protecting wildlife helps maintain the balance of nature. If one species disappears, it can affect the whole ecosystem. We have a responsibility to protect these animals for future generations.",
       questions: [
@@ -4856,6 +4940,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Stress Management",
+      slug: "stress-management",
       passage:
         "Stress is a normal part of life, but too much stress is harmful. It can cause headaches, fatigue, and illness. Managing stress is important. One way is to exercise regularly, which releases happy hormones. Deep breathing and meditation can also calm the mind. Talking to a friend or therapist helps you share your feelings. Time management is another key skill. Making a list of tasks can help you feel more in control. It is also important to take breaks and do things you enjoy. A healthy lifestyle helps you cope with stress better.",
       questions: [
@@ -4930,6 +5015,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Future of Work",
+      slug: "the-future-of-work",
       passage:
         "The way we work is changing. Automation and AI are replacing some manual jobs. However, they are also creating new jobs in technology and data. Remote work is becoming more common, allowing people to work from anywhere. Soft skills like communication, creativity, and problem-solving are becoming more important than ever. Lifelong learning is necessary to keep up with changes. Workers will need to update their skills constantly. The future workplace will be flexible and diverse. Adapting to change is the key to success in the future career.",
       questions: [
@@ -4999,6 +5085,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Cyberbullying",
+      slug: "cyberbullying",
       passage:
         "Cyberbullying is bullying that happens online. It can happen on social media, messaging apps, or gaming platforms. Bullies send mean messages, spread rumors, or share private photos. Cyberbullying is hurtful because it can happen 24/7 and reach a large audience. Victims often feel ashamed, anxious, and alone. It is important not to respond to bullies. Instead, block them and report their behavior. Save the evidence and tell a trusted adult. Schools and parents need to work together to teach children about online safety and kindness.",
       questions: [
@@ -5063,6 +5150,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Renewable Energy",
+      slug: "renewable-energy",
       passage:
         "Renewable energy comes from sources that do not run out. These include sunlight, wind, and water. Solar panels turn sunlight into electricity. Wind turbines use wind to make power. Hydropower uses flowing water. Unlike coal and oil, renewable energy produces little pollution. It helps fight climate change. Many countries are investing in green energy to protect the planet. Although the technology can be expensive, the cost is coming down. Switching to renewable energy is essential for a sustainable future.",
       questions: [
@@ -5132,6 +5220,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Cultural Diversity",
+      slug: "cultural-diversity",
       passage:
         "Cultural diversity means having different cultures in one society. It brings variety in food, language, music, and traditions. Living in a diverse society helps us learn about other ways of life. It teaches us tolerance and respect for differences. We can enjoy sushi from Japan, tacos from Mexico, and curry from India in the same city. Diversity encourages creativity and innovation because people see things from different perspectives. However, it can also lead to misunderstandings if we are not open-minded. Celebrating diversity makes our world richer and more interesting.",
       questions: [
@@ -5195,6 +5284,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Role of Libraries",
+      slug: "the-role-of-libraries",
       passage:
         "Libraries are more than just places to borrow books. They are community centers that provide free access to information. People can use computers and the internet for free. Libraries host events like storytime for kids and book clubs for adults. Librarians are experts who help people find what they need. In the digital age, some think libraries are not needed. However, they are safe spaces for learning and study. They bridge the gap for those who cannot afford books or internet. Libraries remain a cornerstone of a healthy society.",
       questions: [
@@ -5263,6 +5353,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Learning from Failure",
+      slug: "learning-from-failure",
       passage:
         "Failure is often seen as negative, but it is a necessary part of success. Everyone fails at some point. It is how you react to failure that matters. Instead of giving up, you should learn from your mistakes. Failure teaches resilience and problem-solving. Many famous people failed many times before succeeding. J.K. Rowling was rejected by many publishers before Harry Potter was accepted. Thomas Edison failed thousands of times before inventing the light bulb. Seeing failure as a lesson helps you grow and improve. Keep trying and never give up.",
       questions: [
@@ -5318,6 +5409,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
   B2: [
     {
       title: "The Gig Economy",
+      slug: "the-gig-economy",
       passage:
         "The gig economy is characterized by flexible, temporary, or freelance jobs, often involving connecting with clients or customers via an online platform. Drivers for Uber, food delivery couriers, and freelance graphic designers are all part of this economy. Proponents argue that it offers workers flexibility and independence, allowing them to choose when and where to work. However, critics point out the lack of job security and benefits such as health insurance and paid leave. Workers in the gig economy often have to pay their own taxes and cover their own expenses. As this sector grows, governments are debating how to best regulate it to ensure fair treatment for workers while maintaining the benefits of flexibility.",
       questions: [
@@ -5397,6 +5489,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Psychology of Color",
+      slug: "the-psychology-of-color",
       passage:
         "Colors have a profound impact on our emotions and behaviors, a concept known as color psychology. Marketing experts use this to influence consumer choices. For instance, red is often used to create a sense of urgency, which is why it is common in clearance sales. Blue, on the other hand, establishes trust and security, making it a popular choice for banks and tech companies. Yellow invokes optimism but can be overwhelming if overused. Green is associated with health and nature, often used by eco-friendly brands. Understanding these associations can help us understand why we feel certain ways in different environments.",
       questions: [
@@ -5461,6 +5554,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Vertical Farming",
+      slug: "vertical-farming",
       passage:
         "As the world's population grows, traditional farming faces challenges such as limited land and water resources. Vertical farming offers a solution by growing crops in stacked layers, often in controlled indoor environments. This method uses significantly less water than conventional agriculture and eliminates the need for pesticides. Because crops are grown indoors, they are not potential victims of weather conditions, allowing for year-round production. Furthermore, vertical farms can be located in urban areas, reducing the distance food travels to reach consumers. While the energy costs for lighting and climate control are currently high, advancements in renewable energy could make this a sustainable future for food production.",
       questions: [
@@ -5540,6 +5634,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Impact of Social Media",
+      slug: "the-impact-of-social-media",
       passage:
         "Social media has revolutionized how we communicate, but its impact is a subject of intense debate. On the positive side, it allows people to stay connected with friends and family across the globe. It also gives a voice to marginalized groups and facilitates social movements. However, there are significant downsides. Excessive use has been linked to mental health issues like anxiety and depression. The spread of misinformation is another major concern. Algorithms are designed to keep users engaged, often by showing them sensationalized or polarizing content. Finding a healthy balance is crucial for navigating the digital age.",
       questions: [
@@ -5619,6 +5714,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Sustainable Tourism",
+      slug: "sustainable-tourism",
       passage:
         "Tourism is a major economic driver for many countries, but it can also cause environmental and social damage. Sustainable tourism aims to minimize these negative impacts. It involves traveling in a way that respects local cultures and protects natural habitats. This might mean staying in eco-friendly hotels, supporting local businesses, and reducing plastic waste. It also emphasizes the importance of conserving water and energy. Tourists are encouraged to be mindful of their footprint. By making responsible choices, travelers can ensure that beautiful destinations remain preserved for future generations.",
       questions: [
@@ -5698,6 +5794,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Rise of E-Sports",
+      slug: "the-rise-of-e-sports",
       passage:
         "E-sports, or competitive video gaming, has exploded in popularity over the last decade. It attracts millions of viewers online and fills stadiums for major tournaments. Professional gamers train for hours daily, similar to traditional athletes. They require quick reflexes, strategic thinking, and teamwork. The industry generates billions of dollars through sponsorships, advertising, and merchandise. Universities are even offering scholarships for e-sports players. While some debate whether it should be classified as a sport, there is no denying its massive cultural impact and rapid growth.",
       questions: [
@@ -5762,6 +5859,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Mindfulness and Meditation",
+      slug: "mindfulness-and-meditation",
       passage:
         "In our fast-paced world, mindfulness has become a popular tool for mental well-being. It involves paying full attention to the present moment without judgment. Meditation is a practice often used to cultivate mindfulness. Studies show that regular meditation can reduce stress, improve focus, and lower blood pressure. It can also help with emotional regulation. You do not need special equipment; you simply need a quiet space and a few minutes. Techniques involve focusing on your breath or a specific mantra. Many large companies now offer mindfulness programs to their employees to improve productivity.",
       questions: [
@@ -5825,6 +5923,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Plastic Problem",
+      slug: "the-plastic-problem",
       passage:
         "Plastic pollution is a global crisis. Since the 1950s, billions of tons of plastic have been produced, and very little has been recycled. Most ends up in landfills or the ocean, where it can take hundreds of years to decompose. Microplastics, tiny particles resulting from the breakdown of larger items, create a significant threat to marine life and can enter the human food chain. Governments are implementing bans on single-use plastics like straws and bags. However, solving the problem requires a shift towards a circular economy where materials are reused and recycled endlessly.",
       questions: [
@@ -5894,6 +5993,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Telemedicine",
+      slug: "telemedicine",
       passage:
         "Telemedicine involves the use of telecommunications technology to provide healthcare remotely. Patients can consult with doctors via video calls, phone, or messaging apps. This is particularly beneficial for those living in rural areas with limited access to specialists. It also reduces waiting times and the risk of catching infections in hospitals. Devices can now monitor a patient's vital signs at home and transmit the data to doctors. While it cannot replace all in-person visits, telemedicine is transforming healthcare delivery, making it more accessible and efficient for everyone.",
       questions: [
@@ -5963,6 +6063,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Universal Basic Income",
+      slug: "universal-basic-income",
       passage:
         "Universal Basic Income (UBI) is an economic model where every citizen receives a regular sum of money from the government, regardless of their income or employment status. Proponents argue that it would reduce poverty and inequality. It could also provide a safety net for workers displaced by automation. With financial security, people might pursue education or start businesses. Opponents, however, worry about the massive cost and potential tax increases. They also argue that it might discourage people from working. Several countries have run pilot programs to test its effectiveness.",
       questions: [
@@ -6027,6 +6128,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Sharing Economy",
+      slug: "the-sharing-economy",
       passage:
         "The sharing economy involves individuals renting out assets or services to others, often through the internet. Examples include Airbnb for accommodation and Uber for transport. This model allows people to monetize their underused assets, like a spare room or a car. For consumers, it often provides cheaper and more personalized options than traditional businesses. It builds a sense of community trust. However, it disrupts traditional industries like hotels and taxis. Regulatory challenges exist regarding safety, insurance, and taxation. Despite controversies, the sharing economy continues to reshape consumer behavior.",
       questions: [
@@ -6091,6 +6193,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Blockchain Technology",
+      slug: "blockchain-technology",
       passage:
         "Blockchain is a decentralized digital ledger that records transactions across many computers. It is the technology behind cryptocurrencies like Bitcoin. The key feature of blockchain is security; once data is recorded, it is very difficult to change. This makes it transparent and trustworthy without needing a central authority like a bank. Beyond money, blockchain can be used for supply chain tracking, voting systems, and secure medical records. While the technology is complex and still evolving, it has the potential to revolutionize how we handle data and trust in the digital world.",
       questions: [
@@ -6150,6 +6253,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Biophilic Design",
+      slug: "biophilic-design",
       passage:
         "Biophilic design is a concept in architecture that seeks to connect building occupants more closely to nature. It incorporates natural lighting, ventilation, and landscape features into the built environment. Elements like plant walls, water fountains, and the use of wood and stone are common. Research suggests that biophilic design can reduce stress, improve cognitive function, and enhance creativity. It is increasingly used in offices, hospitals, and schools. By bringing the outdoors in, this design philosophy aims to create healthier and more productive spaces for people to live and work.",
       questions: [
@@ -6224,6 +6328,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The 4-Day Work Week",
+      slug: "the-4-day-work-week",
       passage:
         "The idea of a 4-day work week is gaining traction globally. Instead of the traditional 5-day, 40-hour week, employees work four days with no loss of pay. Trials in several countries have shown promising results. Productivity often stays the same or improves, as workers are more rested and focused. Employee well-being increases, with lower rates of burnout and stress. It also allows valuable time for family, hobbies, and personal chores. However, implementing it can be challenging for customer-facing businesses that need 24/7 coverage. Despite logistics, the shift represents a re-evaluation of work-life balance.",
       questions: [
@@ -6298,6 +6403,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Influencer Marketing",
+      slug: "influencer-marketing",
       passage:
         "Influencer marketing uses individuals with a dedicated social media following to mention or endorse products. Unlike celebrity endorsements, influencers effectively communicate with a niche audience who trust their opinions. This form of marketing feels more authentic to consumers than traditional ads. Brands collaborate with influencers on Instagram, YouTube, and TikTok to reach younger demographics. Micro-influencers, with smaller but highly engaged followings, are becoming particularly valuable. However, disclosure rules require influencers to clearly state when content is sponsored to maintain transparency. The industry continues to evolve as platforms change.",
       questions: [
@@ -6361,6 +6467,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Zero Waste Movement",
+      slug: "the-zero-waste-movement",
       passage:
         "The Zero Waste movement challenges the 'take-make-waste' model of modern consumption. Its goal is to send nothing to landfills or incinerators. Practitioners follow the 5 Rs: Refuse what you do not need, Reduce what you need, Reuse what you consume, Recycle what you cannot refuse, reduce, or reuse, and Rot (compost) the rest. This lifestyle involves avoiding plastic packaging, buying second-hand, and making products at home. For example, using a bamboo toothbrush instead of plastic, or bringing reusable bags to the grocery store. While achieving zero waste is difficult in a linear economy, the movement raises awareness about our disposal habits and encourages more sustainable choices.",
       questions: [
@@ -6434,6 +6541,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Vertical Forests",
+      slug: "vertical-forests",
       passage:
         "Vertical forests are high-rise buildings covered with trees and shrubs, designed to combat urban pollution and heat. The most famous example is the Bosco Verticale in Milan, Italy. These living facades absorb carbon dioxide, filter dust, and produce oxygen. They also provide habitat for birds and insects, increasing urban biodiversity. The vegetation acts as a temperature regulator, keeping the building cool in summer and warm in winter, thus saving energy. However, maintenance is complex, often requiring specialized 'flying gardeners' to prune the trees. Despite the cost, vertical forests represent a promising fusion of architecture and ecology.",
       questions: [
@@ -6496,6 +6604,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Deep Web",
+      slug: "the-deep-web",
       passage:
         "The internet consists of three layers: the surface web, the deep web, and the dark web. The surface web is what we use daily, indexed by search engines like Google. The deep web refers to parts of the internet not indexed, such as online banking accounts, medical records, and private databases. It is estimated to be hundreds of times larger than the surface web. The dark web is a small part of the deep web that requires special software to access and is often associated with illegal activities. However, it is also used by journalists and activists to communicate safely in oppressive regimes. Understanding these distinctions is important for digital literacy.",
       questions: [
@@ -6570,6 +6679,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Subscription Models",
+      slug: "subscription-models",
       passage:
         "The business world has seen a shift towards subscription models. Instead of a one-time purchase, customers pay a recurring fee to access a product or service. This is common in software (SaaS), media streaming like Netflix and Spotify, and even physical goods like meal kits. For companies, this ensures a steady revenue stream and builds customer loyalty. For consumers, it offers convenience and lower upfront costs. However, 'subscription fatigue' is growing as people find themselves paying for too many services they rarely use. Managing these recurring costs has become a necessary part of personal finance.",
       questions: [
@@ -6649,6 +6759,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Fast Food vs. Slow Food",
+      slug: "fast-food-vs-slow-food",
       passage:
         "The Slow Food movement arose as a reaction against fast food culture. While fast food prioritizes speed, convenience, and standardization, Slow Food emphasizes quality, tradition, and sustainability. Founded in Italy, it encourages people to eat locally sourced ingredients and take time to enjoy meals with others. It supports small farmers and biodiversity. Proponents argue that fast food contributes to obesity and loss of culinary heritage. Slow Food aims to reconnect people with where their food comes from. Although it can be more expensive and time-consuming, it offers health and cultural benefits that fast food lacks.",
       questions: [
@@ -6712,6 +6823,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Nomophobia",
+      slug: "nomophobia",
       passage:
         "Nomophobia, or 'no-mobile-phone phobia', is the fear of being without a mobile phone. As we become increasingly dependent on smartphones for communication, information, and entertainment, separation anxiety is rising. Symptoms include panic, sweating, and rapid heartbeat when a phone is lost or battery dies. It can disrupt sleep and face-to-face interactions. Experts suggest digital detoxes, where people consciously spend time offline, to combat this addiction. Setting boundaries, like no phones at the dinner table, can helps restore balance in our lives.",
       questions: [
@@ -6781,6 +6893,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Glamping",
+      slug: "glamping",
       passage:
         "Glamping, a portmanteau of 'glamorous' and 'camping', caters to travelers who want to experience nature without sacrificing comfort. Unlike traditional camping, which involves pitching tents and sleeping bags, glamping offers amenities like real beds, electricity, and en-suite bathrooms. Accommodations range from yurts and teepees to treehouses and eco-pods. This trend appeals to those who find camping too rugged or uncomfortable. It provides access to remote landscapes with the luxury of a hotel. However, purists argue that it removes the authentic challenge of surviving in the wild. Nevertheless, glamping is a booming sector in the travel industry.",
       questions: [
@@ -6848,6 +6961,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Dark Tourism",
+      slug: "dark-tourism",
       passage:
         "Dark tourism involves visiting places historically associated with death and tragedy. Examples include Auschwitz concentration camp, Chernobyl, and Ground Zero in New York. While it may seem morbid, many tourists visit these sites to pay respects, understand history, or reflect on human suffering. It serves an educational purpose, ensuring that past atrocities are not forgotten. However, ethical questions arise about the commercialization of tragedy. Is it respectful to take selfies at a massacre site? Managing these sites requires sensitivity to ensure that tourism does not trivialize the suffering that occurred there.",
       questions: [
@@ -6912,6 +7026,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Micro-learning",
+      slug: "micro-learning",
       passage:
         "Micro-learning is an educational approach that deals with relatively small learning units and short-term learning activities. Instead of hour-long lectures, content is broken down into bite-sized chunks, often 3-5 minutes long. This fits well with modern attention spans and mobile lifestyles. Platforms like Duolingo for languages or TikTok for tips use this method. It is highly effective for reinforcement and quick skill acquisition. However, it may not be suitable for deep, complex subjects that require sustained focus. Nevertheless, micro-learning is reshaping corporate training and personal development.",
       questions: [
@@ -6979,6 +7094,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Urban Sprawl",
+      slug: "urban-sprawl",
       passage:
         "Urban sprawl refers to the unrestricted growth in many urban areas of housing, commercial development, and roads over large expanses of land. It is often characterized by low-density planning and high reliance on automobiles. While it provides affordable housing and more space for families, it has significant negative effects. Sprawl increases traffic congestion, air pollution, and reliance on fossil fuels. It also leads to habitat loss for wildlife and loss of farmland. City planners are now advocating for 'smart growth' strategies that promote higher density and better public transport to combat sprawl.",
       questions: [
@@ -7043,6 +7159,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Maker Movement",
+      slug: "the-maker-movement",
       passage:
         "The Maker Movement is a trend where individuals or groups create and market products themselves, often using DIY techniques and new technologies like 3D printing. It represents a shift from being passive consumers to active creators. Community spaces called 'makerspaces' provide tools and equipment that might be too expensive for individuals. Here, people share knowledge and collaborate on projects ranging from robotics to woodworking. This movement fosters innovation, problem-solving, and entrepreneurship. It empowers people to repair items rather than throw them away, aligning with sustainability goals.",
       questions: [
@@ -7111,6 +7228,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Crowdfunding",
+      slug: "crowdfunding",
       passage:
         "Crowdfunding is a method of raising capital through the collective effort of friends, family, customers, and individual investors. Platforms like Kickstarter and GoFundMe allow anyone with an idea to pitch it to the world. If people like the project, they can pledge small amounts of money. In return, they might receive the product early or get other rewards. This democratizes finance, allowing projects to bypass traditional banks or venture capitalists. It has funded everything from new gadgets and video games to medical expenses and disaster relief. However, there is a risk that projects nay fail to deliver.",
       questions: [
@@ -7179,6 +7297,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Ghost Kitchens",
+      slug: "ghost-kitchens",
       passage:
         "Ghost kitchens, also known as cloud kitchens, are food preparation facilities that have no dining area for customers. They produce food solely for delivery. This model significantly reduces rental and staff costs compared to traditional restaurants. With the rise of food delivery apps like UberEats and DoorDash, ghost kitchens have exploded in popularity. A single facility can house multiple brands or cuisines. While efficient, they have been criticized for disconnecting food from the dining experience and contributing to gig economy labor issues. Nevertheless, they represent a major shift in the food service industry.",
       questions: [
@@ -7257,6 +7376,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Upcycling",
+      slug: "upcycling",
       passage:
         "Upcycling is the process of transforming by-products, waste materials, or unwanted products into new materials or products of better quality or environmental value. Unlike recycling, which often breaks down materials, upcycling creatively repurposes them. Examples include turning old storage pallets into furniture or using plastic bottles to make plant pots. This practice reduces the consumption of new raw materials and the volume of waste sent to landfills. It is popular in fashion and interior design. Upcycling adds value to old items and encourages creative thinking about waste.",
       questions: [
@@ -7336,6 +7456,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Deepfakes",
+      slug: "deepfakes",
       passage:
         "Deepfakes are synthetic media in which a person in an existing image or video is replaced with someone else's likeness using artificial intelligence. While the technology can be used for entertainment, such as in movies, it poses serious ethical and security risks. Malicious actors can use deepfakes to create fake news, blackmail individuals, or manipulate public opinion during elections. Detecting high-quality deepfakes is becoming increasingly difficult for the human eye. Researchers are developing tools to identify these forgeries, but the technology is evolving rapidly. Society faces a challenge in discerning truth from fiction in the digital age.",
       questions: [
@@ -7412,6 +7533,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
   C1: [
     {
       title: "The Ethics of Gene Editing",
+      slug: "the-ethics-of-gene-editing",
       passage:
         "CRISPR-Cas9 technology has revolutionized genetics, allowing precise editing of DNA sequences. This breakthrough holds immense potential for curing hereditary diseases like cystic fibrosis and sickle cell anemia. However, it also raises profound ethical questions. The possibility of creating 'designer babies' with enhanced physical or cognitive traits suggests a slippery slope towards eugenics. There are also concerns about off-target effects, where unintended genetic modifications could have unforeseen consequences for future generations. While the scientific community generally supports somatic cell editing, which is not inherited, germline editing remains highly controversial and is currently banned in many countries.",
       questions: [
@@ -7491,6 +7613,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Anthropocene Epoch",
+      slug: "the-anthropocene-epoch",
       passage:
         "Scientists argue that Earth has entered a new geological epoch called the Anthropocene, characterized by significant human impact on the planet's geology and ecosystems. Evidence includes high levels of radioactive elements from nuclear tests, plastic pollution found in rock layers, and a sharp increase in carbon dioxide emissions. This proposed epoch follows the Holocene, which began after the last Ice Age. The concept highlights how humanity has become a dominant force of change, rivalling natural processes. Acknowledging the Anthropocene compels us to re-evaluate our relationship with nature and recognize our responsibility as stewards of the Earth.",
       questions: [
@@ -7560,6 +7683,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Universal Basic Services",
+      slug: "universal-basic-services",
       passage:
         "While Universal Basic Income focuses on cash distribution, Universal Basic Services (UBS) proposes free access to life's necessities. This model suggests that the government should collectively fund services such as housing, transport, internet, and food. Proponents argue that UBS is more effective than cash because it directly addresses needs and benefits from economies of scale. It creates a stronger social safety net and reduces the cost of living. Critics, however, fear it would lead to excessive state control and inefficiency compared to market mechanisms. They argue that giving people cash respects their autonomy to choose how to spend resources.",
       questions: [
@@ -7634,6 +7758,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Psychology of Misinformation",
+      slug: "the-psychology-of-misinformation",
       passage:
         "Why do people believe fake news? Psychology offers several explanations. One is confirmation bias, the tendency to search for and interpret information in a way that confirms one's preexisting beliefs. If a fake story aligns with what we already think, we are more likely to accept it as true. Another factor is the illusory truth effect, where repeated exposure to a statement increases the likelihood that it will be judged as true. Social media algorithms amplify these biases by creating echo chambers. Combatting misinformation requires critical thinking skills and the willingness to question our own assumptions.",
       questions: [
@@ -7708,6 +7833,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Biomimicry",
+      slug: "biomimicry",
       passage:
         "Biomimicry is an approach to innovation that seeks sustainable solutions to human challenges by emulating nature's time-tested patterns and strategies. The core idea is that nature has already solved many of the problems we face: energy, materials, and design. A famous example is Velcro, which was inspired by the way burrs stick to animal fur. Another is the Japanese Shinkansen bullet train, whose nose was redesigned to mimic the beak of a kingfisher to reduce noise. Biomimicry goes beyond aesthetics; it involves understanding the biological principles behind natural efficiency and applying them to engineering and design.",
       questions: [
@@ -7777,6 +7903,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Paradox of Choice",
+      slug: "the-paradox-of-choice",
       passage:
         "Modern society encourages the belief that the more choices we have, the freer and happier we are. However, psychologist Barry Schwartz argues that an abundance of choice can actually lead to anxiety and dissatisfaction. This is known as the 'paradox of choice'. When faced with too many options, we may struggle to make a decision, a phenomenon called analysis paralysis. Even after choosing, we might experience regret, wondering if another option would have been better. To combat this, Schwartz suggests 'satisficing'—choosing an option that meets your criteria and being happy with it, rather than seeking the absolute best.",
       questions: [
@@ -7851,6 +7978,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Cryptocurrency and Decentralized Finance",
+      slug: "cryptocurrency-and-decentralized-finance",
       passage:
         "Cryptocurrency, led by Bitcoin, introduced the concept of digital money independent of central banks. This has evolved into Decentralized Finance (DeFi), a system where financial products are available on a public decentralized blockchain network. DeFi aims to recreate traditional financial systems—such as banks and exchanges—with cryptocurrency. It allows users to lend, borrow, and trade without intermediaries. While this offers greater financial inclusion and transparency, it is fraught with risks. The market is highly volatile, smart contracts can have bugs, and regulatory oversight is minimal. Despite this, DeFi represents a radical rethinking of global finance.",
       questions: [
@@ -7924,6 +8052,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Singularity",
+      slug: "the-singularity",
       passage:
         "The technological singularity is a hypothetical point in time when technological growth becomes uncontrollable and irreversible, resulting in unfathomable changes to human civilization. This is often associated with the advent of Artificial General Intelligence (AGI)—machines that are smarter than humans. Futurist Ray Kurzweil predicts that the singularity will occur around 2045. At this point, human intelligence might merge with machine intelligence, potentially allowing us to upload our consciousness or achieve immortality. Critics dismiss this as science fiction, arguing that there are fundamental limits to computation and biological complexity.",
       questions: [
@@ -7993,6 +8122,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Emotional Intelligence",
+      slug: "emotional-intelligence",
       passage:
         "For decades, IQ was considered the primary indicator of success. However, psychologist Daniel Goleman popularized the concept of Emotional Intelligence (EQ), arguing it is just as important. EQ involves the ability to understand and manage your own emotions, as well as recognize and influence the emotions of others. It comprises five components: self-awareness, self-regulation, motivation, empathy, and social skills. Individuals with high EQ are often better leaders, have stronger relationships, and manage stress more effectively. Unlike IQ, which is relatively static, EQ is a skill that can be developed and improved over time.",
       questions: [
@@ -8051,6 +8181,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Experience Economy",
+      slug: "the-experience-economy",
       passage:
         "Businesses are increasingly recognizing that customers want more than just goods and services; they want memorable experiences. This shift is termed the Experience Economy. Coffee shops do not just sell coffee; they sell the ambiance of a 'third place' between home and work. Retail stores act as showrooms for brand immersion. This trend is driven by millennials and Gen Z, who prioritize spending money on travel, concerts, and dining over acquiring material possessions. To survive, companies must stage experiences that engage customers on an emotional level, turning a mundane transaction into a memorable event.",
       questions: [
@@ -8124,6 +8255,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Rewilding",
+      slug: "rewilding",
       passage:
         "Rewilding is a progressive approach to conservation. It is about letting nature take care of itself, enabling natural processes to repair damaged ecosystems and restore degraded landscapes. This often involves reintroducing apex predators like wolves or lynx, which help regulate other species populations. A classic example is the reintroduction of wolves to Yellowstone National Park, which led to a cascade of positive ecological changes, including healthier rivers. Rewilding aims to create wilder, more biodiverse habitats. It challenges the traditional view of conservation as managing specific species, focusing instead on the restoration of functioning ecosystems.",
       questions: [
@@ -8198,6 +8330,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Quantum Computing",
+      slug: "quantum-computing",
       passage:
         "Quantum computing harnesses the laws of quantum mechanics to process information. Unlike classical computers which use bits (0 or 1), quantum computers use qubits. Qubits can exist in a state of superposition, representing both 0 and 1 simultaneously. This allows them to perform complex calculations exponentially faster than the most powerful supercomputers today. Potential applications include discovering new drugs, optimizing supply chains, and breaking encryption codes. However, building stable quantum computers is incredibly difficult because qubits are sensitive to environmental noise. Despite challenges, the race for 'quantum supremacy' is on among major tech companies.",
       questions: [
@@ -8271,6 +8404,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Globalization",
+      slug: "globalization",
       passage:
         "Globalization is the increasing interaction and integration among people, companies, and governments worldwide. It is driven by international trade, investment, and information technology. Proponents argue that it promotes economic growth, spreads technology, and fosters cultural exchange. It allows consumers to access goods from all over the world at lower prices. Critics, however, argue that it benefits wealthy corporations at the expense of local workers and environments. It can lead to the homogenization of culture, where local traditions are replaced by global brands. Managing the inequalities caused by globalization remains a major global challenge.",
       questions: [
@@ -8339,6 +8473,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Neuroplasticity",
+      slug: "neuroplasticity",
       passage:
         "Neuroplasticity is the brain's ability to reorganize itself by forming new neural connections throughout life. Historically, it was believed that the adult brain was fixed and could not change. However, research has shown that the brain is malleable. Learning a new skill, recovering from a stroke, or overcoming trauma all involve neuroplasticity. Activities like meditation, exercise, and learning a language stimulate brain growth. This discovery has profound implications for education and rehabilitation. It means that we are not stuck with the brain we are born with; we have the power to shape our own cognitive abilities.",
       questions: [
@@ -8417,6 +8552,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Metaverse",
+      slug: "the-metaverse",
       passage:
         "The Metaverse is a term used to describe a hypothetical iteration of the internet as a single, universal, and immersive virtual world. It is facilitated by the use of virtual reality (VR) and augmented reality (AR) headsets. In the Metaverse, users can work, play, shop, and socialize as digital avatars. Tech giants are investing billions to build this digital realm. It promises to transcend physical limitations, allowing people to visit places they could never go in real life. However, concerns exist regarding privacy, addiction, and the potential for corporate monopolies to control our digital lives.",
       questions: [
@@ -8488,6 +8624,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Algorithmic Bias",
+      slug: "algorithmic-bias",
       passage:
         "As artificial intelligence systems become more prevalent, the issue of algorithmic bias has moved to the forefront of technological ethics. Algorithms are often treated as objective and neutral, but they reflect the biases of the data they are trained on and the humans who create them. For example, facial recognition software has been shown to be less accurate for people with darker skin tones. Similarly, automated hiring systems may disadvantage women if trained on historical data from male-dominated industries. Addressing this requires diverse development teams and rigorous testing. If left unchecked, these biases can perpetuate and even amplify existing social inequalities.",
       questions: [
@@ -8562,6 +8699,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Circular Economy",
+      slug: "the-circular-economy",
       passage:
         "The current global economy is largely linear: we take resources, make products, and dispose of them as waste. The circular economy proposes an alternative model designed to minimize waste and make the most of resources. It focuses on longevity, multiple lifecycles, and regeneration. Products are designed to be durable, repairable, and recyclable from the start. Business models shift from selling products to leasing them, incentivizing manufacturers to build long-lasting goods. This approach aims to decouple economic activity from the consumption of finite resources. Transitioning to a circular economy is considered vital for achieving sustainable development goals.",
       questions: [
@@ -8631,6 +8769,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Dark Matter",
+      slug: "dark-matter",
       passage:
         "Dark matter is a hypothetical form of matter that is thought to account for approximately 85% of the matter in the universe. Unlike normal matter, it does not interact with the electromagnetic force, meaning it does not absorb, reflect, or emit light, making it extremely difficult to detect. Its existence is inferred from its gravitational effects on visible matter, such as the rotation speeds of galaxies. Without dark matter, galaxies would fly apart because visible matter does not have enough gravity to hold them together. Identifying the nature of dark matter remains one of the biggest unsolved mysteries in modern physics.",
       questions: [
@@ -8700,6 +8839,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Universal Design",
+      slug: "universal-design",
       passage:
         "Universal Design is the design of buildings, products, or environments to make them accessible to all people, regardless of age, disability, or other factors. It moves beyond merely complying with accessibility laws to creating inclusive spaces for everyone. Examples include ramped entryways that serve both wheelchair users and parents with strollers, or lever door handles that are easier to use than knobs. The seven principles of Universal Design include equitable use, flexibility in use, and low physical effort. By considering the diverse needs of the population, Universal Design benefits society as a whole, not just those with specific disabilities.",
       questions: [
@@ -8767,6 +8907,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Gig Economy and Labor Rights",
+      slug: "the-gig-economy-and-labor-rights",
       passage:
         "The expansion of the gig economy has sparked a global debate over labor rights. Gig workers are typically classified as independent contractors rather than employees. This classification denies them basic protections such as minimum wage, overtime pay, and unemployment insurance. Companies argue that this model provides workers with autonomy and flexibility. However, labor advocates argue it is a form of exploitation that shifts business risks onto individuals. Legal battles are ongoing in many jurisdictions to determine the employment status of gig workers. The outcome of these cases could redefine the future of work and the social contract.",
       questions: [
@@ -8829,6 +8970,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Genetic Genealogy",
+      slug: "genetic-genealogy",
       passage:
         "Genetic genealogy combines DNA testing with traditional genealogical methods to infer relationships between individuals. Companies like AncestryDNA and 23andMe have made this accessible to the public. By analyzing specific markers in a person's genome, these tests can estimate ethnic origins and find long-lost relatives. It has been used to solve cold criminal cases by matching DNA from crime scenes to distant relatives of suspects. While popular, it raises privacy concerns. Your DNA data can reveal information not just about you, but also about your biological family, potentially exposing secrets or predispositions to diseases.",
       questions: [
@@ -8897,6 +9039,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Smart Cities",
+      slug: "smart-cities",
       passage:
         "A smart city uses information and communication technology (ICT) to improve operational efficiency, share information with the public, and provide better government service. The goal is to optimize city functions and drive economic growth while improving the quality of life. Sensors can monitor traffic flow to adjust traffic lights in real-time. Smart grids manage energy consumption more efficiently. Waste management systems can alert trucks when bins are full. However, the implementation of smart cities relies on massive data collection, raising significant surveillance and privacy issues. Securing this infrastructure against cyberattacks is also a critical challenge.",
       questions: [
@@ -8959,6 +9102,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Nostalgia Marketing",
+      slug: "nostalgia-marketing",
       passage:
         "Nostalgia marketing is a strategy of tapping into positive, familiar concepts from previous decades to build trust and spark new interest. It works because nostalgia is a powerful emotion that makes people feel comforted and connected. Brands revive old logos, bring back discontinued products, or use retro designs in packaging. The rebooting of classic movies and TV shows is a prime example. This strategy appeals particularly to millennials who long for the 'simpler times' of their childhood. By associating a product with happy memories, companies can create a strong emotional bond with consumers.",
       questions: [
@@ -9027,6 +9171,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Greenwashing",
+      slug: "greenwashing",
       passage:
         "Greenwashing is a deceptive marketing practice where a company spends more time and money on marketing itself as environmentally friendly than on actually minimizing its environmental impact. It involves making unsubstantiated or misleading claims about the sustainability of a product. For example, labeling a product 'natural' or 'eco-friendly' without certification, or highlighting one green feature while ignoring wider pollution. This practice misleads consumers who want to make responsible choices. It also undermines genuine efforts by truly sustainable companies. Regulators are increasingly cracking down on greenwashing to ensure transparency.",
       questions: [
@@ -9095,6 +9240,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Haptic Technology",
+      slug: "haptic-technology",
       passage:
         "Haptic technology, or haptics, refers to any technology that can create an experience of touch by applying forces, vibrations, or motions to the user. It is most commonly found in smartphones and game controllers, where vibration feedback confirms a user's action. Advanced haptics can simulate textures, weight, and resistance, allowing users to 'feel' virtual objects. This has applications in medical training, allowing surgeons to practice procedures in VR with realistic tactile feedback. It also enhances accessibility for the visually impaired. As the technology matures, it promises to make digital interactions more immersive and intuitive.",
       questions: [
@@ -9158,6 +9304,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Biohacking",
+      slug: "biohacking",
       passage:
         "Biohacking, or do-it-yourself biology, involves individuals making changes to their lifestyle or body to improve their health, performance, or well-being. This ranges from simple things like intermittent fasting and taking supplements to more extreme measures like implanting chips under the skin. Some biohackers, known as 'grinders', seek to merge man and machine. While improved, personalized health is a key goal, the movement is controversial. Critics warn about the safety risks of unregulated experimentation and the ethical implications of human enhancement. It challenges the traditional boundaries of medicine and self-improvement.",
       questions: [
@@ -9220,6 +9367,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Micro-mobility",
+      slug: "micro-mobility",
       passage:
         "Micro-mobility refers to transportation using lightweight vehicles such as electric scooters, e-bikes, and shared bicycles. These are typically used for short trips, often the 'first and last mile' connecting commuters to public transport. The rise of app-based rental services has made micro-mobility ubiquitous in many cities. Proponents laud it for reducing traffic congestion and carbon emissions. However, it presents challenges, including safety concerns for riders and pedestrians, and the issue of 'clutter' when vehicles are parked on sidewalks. Cities are struggling to regulate this new mode of transport to integrate it safely.",
       questions: [
@@ -9292,6 +9440,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Lab-Grown Meat",
+      slug: "lab-grown-meat",
       passage:
         "Lab-grown meat, also known as cultured meat, is meat produced by in vitro cultivation of animal cells. It eliminates the need to raise and slaughter animals. Proponents argue it offers a solution to the environmental impact of traditional livestock farming, which is a major source of greenhouse gases and land use. Lab-grown meat is also ethically superior as it avoids animal suffering. While the technology has been proven, challenges remain in scaling up production and reducing costs to make it competitive with conventional meat. Consumer acceptance is another hurdle, as some view it as 'unnatural'.",
       questions: [
@@ -9360,6 +9509,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Data Privacy",
+      slug: "data-privacy",
       passage:
         "In the digital age, data has become the 'new oil', and data privacy is a pressing concern. Companies collect vast amounts of personal information about users to target advertisements and improve services. This collection often happens without explicit user consent or understanding. High-profile data breaches have exposed the vulnerability of this information to hackers. Regulations lie the GDPR in Europe aim to give individuals more control over their data, including the 'right to be forgotten'. Balancing the benefits of data-driven innovation with the fundamental right to privacy is a defining conflict of our time.",
       questions: [
@@ -9433,6 +9583,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Subscription Boxes",
+      slug: "subscription-boxes",
       passage:
         "Subscription boxes are a niche within the e-commerce subscription model where customers receive a curated box of products on a recurring basis. Themes range from beauty samples and pet treats to geek culture collectibles and international snacks. The appeal lies in the element of surprise and discovery; customers enjoy the 'unboxing' experience. It allows consumers to try expert-picked items they might not find themselves. For businesses, it provides predictable revenue. However, retention is a challenge, as the novelty can wear off, leading to high cancellation rates. Packaging waste is also an environmental concern.",
       questions: [
@@ -9507,6 +9658,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
   C2: [
     {
       title: "The Epistemology of Science",
+      slug: "the-epistemology-of-science",
       passage:
         "The scientific method is often lauded as the bedrock of objective truth, yet the epistemology of science-the study of the nature and grounds of scientific knowledge—reveals a more nuanced reality. Philosophers like Karl Popper argued that science proceeds not by verification, but by falsification; a theory is scientific only if it can be potentially disproven. Thomas Kuhn, conversely, introduced the concept of 'paradigm shifts', suggesting that scientific progress is not linear but punctuated by revolutionary upheavals where one worldview replaces another. This perspective challenges the notion of steady, cumulative accumulation of knowledge, positing instead that scientific truth is relative to the prevailing paradigm.",
       questions: [
@@ -9576,6 +9728,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Post-Humanism",
+      slug: "post-humanism",
       passage:
         "Post-humanism is a philosophical perspective that critiques the traditional humanist focus on the centrality and superiority of the human species. It seeks to deconstruct the boundaries between the human, the animal, and the technological. In the era of the Anthropocene and advanced artificial intelligence, post-humanists argue that the definition of 'human' is in flux. They advocate for a more inclusive ethics that extends moral consideration to non-human entities, recognizing the entanglement of human existence with the wider ecological and technological web. This shift requires a fundamental rethinking of our identity and our place in the cosmos.",
       questions: [
@@ -9654,6 +9807,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Gig Economy's Precarity",
+      slug: "the-gig-economys-precarity",
       passage:
         "While heralded as a liberation from the 9-to-5 grind, the gig economy has been criticized for engendering a new form of precarious labor, often termed 'precariat'. Unlike the proletariat of the industrial age, the precariat lacks job security, paid leave, and pension entitlements. The algorithmic management employed by platforms creates a panopticon-like surveillance, where workers are constantly monitored and rated. This atomization of the workforce impedes collective bargaining, leaving individuals vulnerable to market fluctuations. Thus, the flexibility of the gig economy may be a euphemism for the erosion of hard-won labor rights.",
       questions: [
@@ -9728,6 +9882,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Cognitive Dissonance",
+      slug: "cognitive-dissonance",
       passage:
         "Cognitive dissonance theory, proposed by Leon Festinger, posits that individuals experience psychological discomfort when holding two conflicting cognitions—beliefs, values, or attitudes—simultaneously. To alleviate this tension, people often engage in rationalization or attitude change. For instance, a smoker who knows smoking is harmful may downplay the health risks or convince themselves that the pleasure outweighs the cost. This psychological mechanism explains why facts rarely change minds; instead of accepting contradictory evidence, individuals often double down on their existing beliefs to preserve their self-concept and internal consistency.",
       questions: [
@@ -9799,6 +9954,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Ontology of Virtual Reality",
+      slug: "the-ontology-of-virtual-reality",
       passage:
         "The advent of immersive Virtual Reality (VR) raises profound ontological questions about the nature of existence and reality. If a simulated environment creates experiences indistinguishable from the physical world, can it be considered 'real'? Philosopher David Chalmers argues for 'virtual realism', suggesting that virtual objects are not illusions but digital structures that we perceive. This challenges the materialist view that only physical matter is real. As we spend more time in digital spaces, the distinction between the 'virtual' and the 'real' creates a hybrid ontology where digital interactions have tangible physical and emotional consequences.",
       questions: [
@@ -9868,6 +10024,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Moral Relativism vs. Universalism",
+      slug: "moral-relativism-vs-universalism",
       passage:
         "The debate between moral relativism and universalism is central to ethical theory. Relativism asserts that moral principles are culturally determined and that no single objective standard exists by which to judge them. What is 'right' in one society may be 'wrong' in another. Universalism, conversely, posits that certain ethical norms—such as human rights—are inherent and apply to all human beings regardless of culture. While relativism promotes tolerance and cultural sensitivity, critics argue it can lead to moral paralysis, preventing condemnation of egregious practices like slavery or genocide, which universalism seeks to prohibit absolutely.",
       questions: [
@@ -9942,6 +10099,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Fermi Paradox",
+      slug: "the-fermi-paradox",
       passage:
         "The Fermi Paradox captures the contradiction between the high probability of extraterrestrial life and the lack of evidence for, or contact with, such civilizations. Given the vast number of stars and Earth-like planets, statistical probability suggests the universe should be teeming with life. Yet, we see nothing but silence (the 'Great Silence'). Proposed solutions range from the 'Rare Earth' hypothesis—life is exceptionally unique—to the 'Great Filter', which suggests civilizations destroy themselves before achieving interstellar travel. Another possibility is the 'Zoo Hypothesis', where advanced aliens assume a non-interference policy, observing us like animals in a cosmic reserve.",
       questions: [
@@ -10019,6 +10177,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Technological Determinism",
+      slug: "technological-determinism",
       passage:
         "Technological determinism is the reductionist theory that a society's technology drives the development of its social structure and cultural values. In this view, technology is an autonomous force, the primary agent of history. The invention of the stirrup, for example, is credited with creating feudalism by enabling mounted combat. Critics, however, argue for 'social constructivism', which emphasizes that technology is a product of human action and social context. They contend that users have agency in how they adopt and adapt technology, and that social forces shape technological innovation just as much as technology shapes society.",
       questions: [
@@ -10087,6 +10246,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Tragedy of the Commons",
+      slug: "the-tragedy-of-the-commons",
       passage:
         "The 'Tragedy of the Commons' describes a situation in an economic system where individual users, acting independently according to their own self-interest, behave contrary to the common good of all users by depleting that resource. The classic example is shepherds grazing their sheep on a common parcel of land. If each shepherd maximizes their flock, the land becomes overgrazed and useless to all. This concept is pivotal in environmental science, explaining issues like overfishing, deforestation, and climate change. It underscores the tension between individual liberty and collective responsibility, often necessitating regulation to prevent resource collapse.",
       questions: [
@@ -10155,6 +10315,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Intersectional Feminism",
+      slug: "intersectional-feminism",
       passage:
         "Intersectionality, a term coined by Kimberlé Crenshaw, is a framework for understanding how various forms of social and political discrimination overlap. Intersectional feminism posits that the experience of being a woman cannot be understood in isolation from other identities such as race, class, sexuality, and ability. For example, the oppression experienced by a black woman is distinct from that of a white woman or a black man, as it involves the convergence of racism and sexism. This approach critiques 'white feminism' for generalizing the experiences of middle-class white women to all women, failing to address the unique struggles of marginalized groups.",
       questions: [
@@ -10217,6 +10378,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Butterfly Effect",
+      slug: "the-butterfly-effect",
       passage:
         "In chaos theory, the Butterfly Effect refers to the sensitive dependence on initial conditions, where a small change in one state of a deterministic nonlinear system can result in large differences in a later state. The metaphor suggests that the flapping of a butterfly's wings in Brazil could set off a tornado in Texas. This concept challenges the Newtonian view of a predictable, clockwork universe. It implies that long-term prediction of complex systems like weather or the stock market is impossible due to the impossibility of measuring current conditions with infinite precision. It highlights the inherent unpredictability of the world.",
       questions: [
@@ -10290,6 +10452,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Cultural Hegemony",
+      slug: "cultural-hegemony",
       passage:
         "Cultural hegemony, a concept developed by Marxist philosopher Antonio Gramsci, describes the dominance of a ruling class over a culturally diverse society. It acts not through force, but through the manipulation of the culture—beliefs, explanations, perceptions, values, and mores—so that the ruling class's worldview becomes the accepted cultural norm. This 'common sense' status quo benefits the ruling class while appearing natural and inevitable to the subordinate classes. Gramsci argued that to challenge political power, one must first challenge this cultural hegemony, creating a 'counter-hegemony' to awaken peoples consciousness to their oppression.",
       questions: [
@@ -10353,6 +10516,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Existentialism",
+      slug: "existentialism",
       passage:
         "Existentialism is a philosophical movement that emphasizes individual existence, freedom, and choice. It posits that humans define their own meaning in life, and try to make rational decisions despite existing in an irrational universe. Key figures like Sartre and Camus argued that 'existence precedes essence', meaning we are born first and then define who we are through our actions. This radical freedom brings with it 'angst' or dread, the anxiety of being solely responsible for one's life. Existentialism challenges religious and secular doctrines that claim to provide a predetermined purpose for humanity.",
       questions: [
@@ -10415,6 +10579,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Uncanny Valley",
+      slug: "the-uncanny-valley",
       passage:
         "The Uncanny Valley is a hypothesized relationship between the degree of an object's resemblance to a human being and the emotional response to such an object. It suggests that humanoid objects which appear almost, but not exactly, like real human beings elicit feelings of eeriness and revulsion in observers. A robot that looks like a machine is perceived as cute (like Wall-E), but a hyper-realistic android with stiff movements falls into the 'valley'. This phenomenon has significant implications for robotics, 3D animation, and prosthetics, suggesting that designers should avoid perfect realism until it can be achieved flawlessly.",
       questions: [
@@ -10494,6 +10659,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Post-Colonialism",
+      slug: "post-colonialism",
       passage:
         "Post-colonialism is the critical study of the cultural, political, and economic legacies of colonialism and imperialism. It examines how colonized peoples responded to and resisted colonial power, and how the effects of colonization persist after independence. Key themes include identity, hybridity, and the struggle to reclaim a national voice silenced by the colonizer. Theorists like Edward Said analyzed 'Orientalism', the way the West constructed a patronizing and essentialist image of the East to justify domination. Post-colonialism seeks to decenter Eurocentric perspectives and give agency to the 'subaltern'—the marginalized populations of the global South.",
       questions: [
@@ -10567,6 +10733,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Phenomenology of Time",
+      slug: "the-phenomenology-of-time",
       passage:
         "Phenomenology investigates the structures of consciousness as experienced from the first-person point of view. A central theme is the experience of time. While objective time (clock time) is uniform and measurable, subjective time (lived time) is elastic. Philosophers like Edmund Husserl and Martin Heidegger argued that our experience of the present is not a momentary point but a 'thick' duration that retains the immediate past (retention) and anticipates the immediate future (protention). This explains why time seems to fly when we are engaged and drag when we are bored. Understanding this distinction is crucial for understanding human existence.",
       questions: [
@@ -10631,6 +10798,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Consilience",
+      slug: "consilience",
       passage:
         "Consilience, a term resurrected by E.O. Wilson, refers to the principle that evidence from independent, unrelated sources can 'converge' on strong conclusions. It is the unity of knowledge, the interlinking of facts and theories across disciplines to create a common groundwork of explanation. Wilson argues that the fragmentation of knowledge into specialized disciplines (biology, physics, sociology, etc.) is an artificial construct. True understanding comes from synthesis. For instance, understanding human behavior requires insights from genetics, neuroscience, psychology, and anthropology combined. Consilience seeks to bridge the gap between the natural sciences and the humanities.",
       questions: [
@@ -10698,6 +10866,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Turing Test",
+      slug: "the-turing-test",
       passage:
         "The Turing Test, proposed by Alan Turing in 1950, is a measure of a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human. In the test, a human evaluator engages in a text-based conversation with a human and a machine. If the evaluator cannot reliably tell which is which, the machine is said to have passed. While iconic, the test has been criticized. The 'Chinese Room' argument by John Searle suggests that a machine could simulate understanding (manipulating symbols) without actually having consciousness or 'intention'. Thus, passing the test might prove simulation, not sentience.",
       questions: [
@@ -10760,6 +10929,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Epigenetics",
+      slug: "epigenetics",
       passage:
         "Epigenetics is the study of how behaviors and environment can cause changes that affect the way your genes work. Unlike genetic changes, epigenetic changes are reversible and do not change your DNA sequence, but they can change how your body reads a DNA sequence. Factors such as diet, stress, and exposure to toxins can leave chemical 'marks' on genes, switching them on or off. Remarkably, some of these markers can be passed down to future generations. This challenges the strict Darwinian view that only DNA mutations drive evolution, suggesting a mechanism for 'soft inheritance' of acquired characteristics.",
       questions: [
@@ -10828,6 +10998,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Social Contract",
+      slug: "the-social-contract",
       passage:
         "The social contract is a theory in political philosophy that argues that individuals consent, either explicitly or tacitly, to surrender some of their freedoms and submit to the authority of the ruler or magistrate (or to the decision of a majority), in exchange for protection of their remaining rights. Hobbes, Locke, and Rousseau are the most famous proponents, though they differed on the nature of the contract. Hobbes viewed life without it as 'nasty, brutish, and short'. Locke emphasized the protection of property. Rousseau believed in the 'general will'. This theory forms the legitimacy of modern democratic governments.",
       questions: [
@@ -10880,6 +11051,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Pan-Psychism",
+      slug: "pan-psychism",
       passage:
         "Panpsychism is the view that consciousness, mind, or soul (psyche) is a universal and primordial feature of all things. It suggests that consciousness is not unique to humans or animals but is present, perhaps in a primitive form, in all matter, including atoms and rocks. This ancient idea has seen a resurgence in analytic philosophy as a potential solution to the 'hard problem' of consciousness—how subjective experience arises from physical matter. If matter forms consciousness, perhaps consciousness is an intrinsic property of matter itself. Critics dismiss it as absurd, but it offers a coherent, albeit radical, metaphysics.",
       questions: [
@@ -10953,6 +11125,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Gentrification",
+      slug: "gentrification",
       passage:
         "Gentrification is the process of changing the character of a neighborhood through the influx of more affluent residents and businesses. It is a controversial topic in urban planning. On one hand, it can lead to economic development, lower crime rates, and improved infrastructure. On the other hand, it often results in the displacement of long-time, lower-income residents who can no longer afford rising rents and property taxes. This creates a cultural shift where the original identity of the community is erased. The challenge for cities is to revitalize neighborhoods without marginalizing the people who built them.",
       questions: [
@@ -11032,6 +11205,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Omnivore's Dilemma",
+      slug: "the-omnivores-dilemma",
       passage:
         "The 'Omnivore's Dilemma', popularized by author Michael Pollan, refers to the anxiety and confusion humans face about what to eat in a world with abundant choices. Unlike specialists like koalas (eucalyptus), omnivores must choose from thousands of potential foods, some safe, some poisonous. In the modern industrial food system, this dilemma is exacerbated by marketing, processed foods, and conflicting nutritional advice. We are disconnected from the sources of our food. Pollan suggests a simple rule to navigate this: 'Eat food. Not too much. Mostly plants.' This encourages a return to whole, unprocessed ingredients.",
       questions: [
@@ -11100,6 +11274,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Planned Obsolescence",
+      slug: "planned-obsolescence",
       passage:
         "Planned obsolescence is a business strategy in which a product is designed with an artificially limited useful life, so it will become obsolete (that is, unfashionable or no longer functional) after a certain period. The goal is to generate long-term sales volume by forcing consumers to upgrade. Examples include light bulbs with limited hours, smartphones with non-replaceable batteries, and fast fashion. While profitable for companies, this practice is heavily criticized for its environmental impact, generating massive amounts of electronic waste and depleting natural resources. The 'Right to Repair' movement seeks legislation to combat this.",
       questions: [
@@ -11172,6 +11347,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Sublime",
+      slug: "the-sublime",
       passage:
         "In aesthetics, the sublime is the quality of greatness, whether physical, moral, intellectual, metaphysical, aesthetic, spiritual, or artistic. The term refers to things that are vast, powerful, and often terrifying—beyond all possibility of calculation, measurement, or imitation. Unlike the 'beautiful', which is harmonious and pleasing, the sublime evokes a feeling of awe mixed with terror. Edmund Burke distinguished the two, arguing that the sublime is rooted in the fear of death and the infinite nature of the universe. Examples include a stormy ocean, towering mountains, or the vastness of the cosmos.",
       questions: [
@@ -11234,6 +11410,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Biocentrism",
+      slug: "biocentrism",
       passage:
         "Biocentrism is an ethical point of view that extends inherent value to all living things. It stands in contrast to anthropocentrism, which centers on the value of humans above all else. In a biocentric worldview, all species have a right to exist, regardless of their usefulness to humans. This creates a moral obligation to protect biodiversity and ecosystems. Deep Ecology, a related philosophy, argues that the living environment has the same right to live and flourish as humanity. This perspective challenges the industrial exploitation of nature and calls for a radical shift in how we relate to the natural world.",
       questions: [
@@ -11297,6 +11474,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Teleology",
+      slug: "teleology",
       passage:
         "Teleology is the philosophical explanation of phenomena by the purpose they serve rather than by postulated causes. Derived from the Greek 'telos' (end, goal), it suggests that nature has an inherent purpose or design. For example, Aristotle argued that an acorn's purpose is to become an oak tree. In modern science, teleological explanations are often rejected in favor of mechanistic ones (e.g., evolution by natural selection has no goal). However, teleological language persists in biology (e.g., 'the heart pumps to circulate blood'), raising questions about whether purpose is intrinsic to life or merely a useful metaphor for humans.",
       questions: [
@@ -11364,6 +11542,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Pareidolia",
+      slug: "pareidolia",
       passage:
         "Pareidolia is the psychological phenomenon of seeing patterns, shapes, or faces in random or ambiguous stimuli. Common examples include seeing a face in the moon, animals in clouds, or the 'Man in Mars'. This is a form of apophenia, the tendency to perceive connections between unrelated things. Evolutionary psychologists suggest it is a survival mechanism: it was better for our ancestors to mistakenly see a predator in the bushes (false positive) than to miss a real one (false negative). The brain is wired to recognize faces quickly, leading to these harmless but fascinating misinterpretations of reality.",
       questions: [
@@ -11442,6 +11621,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "Minimalism",
+      slug: "minimalism",
       passage:
         "Minimalism, as a lifestyle movement, advocates for living with less. It is a reaction against the consumerist culture that equates happiness with material possessions. Minimalists seek to declutter their lives, removing excess items to focus on what truly matters—experiences, relationships, and personal growth. The philosophy extends to design, art, and architecture, emphasizing simplicity, clean lines, and functionality. By reducing distractions and financial burdens associated with accumulation, proponents claim to achieve greater mental clarity, freedom, and contentment. 'Less is more' is the central mantra.",
       questions: [
@@ -11509,6 +11689,7 @@ export const readingPassages: Record<CEFRLevel, ReadingPassage[]> = {
     },
     {
       title: "The Sunk Cost Fallacy",
+      slug: "the-sunk-cost-fallacy",
       passage:
         "The Sunk Cost Fallacy describes the tendency to continue an endeavor once an investment in money, effort, or time has been made, even if the current costs outweigh the benefits. Rational decision-making should be based on future potential, not past losses. However, emotions intervene; we feel that abandoning a project means wasting the initial investment. This fallacy keeps people in bad relationships, failing business ventures, or boring movies. Overcoming it requires acknowledging that the 'sunk cost' is gone forever and cannot be recovered, so the only logical choice is to evaluate the situation based on its current merit.",
       questions: [

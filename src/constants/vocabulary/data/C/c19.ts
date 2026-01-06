@@ -66,6 +66,18 @@ export const C19: VocabularyWord[] = [
     categories: ["Nature", "Plants"],
   },
   {
+    id: "gen-212",
+    word: "Croissant",
+    slug: "croissant",
+    phonetic: "/ˈkrwɑː.sɑːn/",
+    partOfSpeech: "noun",
+    meaningEn: "A flaky, buttery, crescent-shaped pastry.",
+    meaningVi: "Bánh sừng bò (bánh mì Pháp hình lưỡi liềm).",
+    exampleEn: "Eat a croissant for breakfast.",
+    exampleVi: "Ăn bánh sừng bò cho bữa sáng.",
+    categories: ["Food & Drink", "Daily"],
+  },
+  {
     id: "gen-4486",
     word: "Croft",
     slug: "croft",

@@ -281,6 +281,18 @@ export const P3: VocabularyWord[] = [
     categories: ["Jobs", "Psychology"],
   },
   {
+    id: "gen-psg1",
+    word: "Psychology",
+    slug: "psychology",
+    phonetic: "/saɪˈkɑː.lə.dʒi/",
+    partOfSpeech: "noun",
+    meaningEn: "The scientific study of the mind and behavior.",
+    meaningVi: "Tâm lý học.",
+    exampleEn: "She is studying psychology at university.",
+    exampleVi: "Cô ấy đang học tâm lý học ở trường đại học.",
+    categories: ["Academic", "Psychology"],
+  },
+  {
     id: "a2-56",
     word: "Public",
     slug: "public",
