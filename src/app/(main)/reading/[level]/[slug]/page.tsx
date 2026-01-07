@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { readingPassages } from "@/constants/readingPassages";
+import { readingPassages } from "@/constants/reading";
 import { ReadingQuizWrapper } from "@/components/reading/reading-quiz-wrapper";
 import { unslugify } from "@/lib/utils";
 
@@ -21,5 +21,5 @@ export default async function ReadingPassagePage({ params }: PageProps) {
     notFound();
   }
 
-  return <ReadingQuizWrapper passage={passage} />;
+  return <ReadingQuizWrapper passage={passage} level={level} />;
 }

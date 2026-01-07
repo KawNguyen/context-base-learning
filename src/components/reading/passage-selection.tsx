@@ -1,8 +1,7 @@
-import { Badge } from "../ui/badge";
-import { readingPassages } from "@/constants/readingPassages";
+import { readingPassages } from "@/constants/reading";
 import { PassageCard } from "./passage-card";
-
-type CEFRLevel = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
+import CEFRBadge from "../cefr-badge";
+import { CEFRLevel } from "@/types";
 
 interface PassageSelectionProps {
   level: CEFRLevel;
@@ -17,12 +16,7 @@ export function PassageSelection({ level }: PassageSelectionProps) {
             <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl">
               Reading Passages
             </h1>
-            <Badge
-              variant="outline"
-              className="rounded-full px-3 py-1 font-medium bg-primary/5 border-primary/20 text-primary"
-            >
-              {level} Level
-            </Badge>
+            <CEFRBadge level={level} />
           </div>
           <p className="text-lg text-muted-foreground max-w-2xl">
             Select a curated passage to sharpen your comprehension skills. Each

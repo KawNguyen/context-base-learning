@@ -1,6 +1,6 @@
 import { DialogueSelection } from "@/components/dialogue/dialogue-selection";
 import { unslugify } from "@/lib/utils";
-import { CEFRLevel } from "@/constants/dialogues";
+import { CEFRLevel } from "@/types";
 
 interface PageProps {
   params: Promise<{

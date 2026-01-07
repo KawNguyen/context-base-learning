@@ -8,10 +8,14 @@ import { useRouter, useParams } from "next/navigation";
 import { Badge } from "../ui/badge";
 import { Alert, AlertDescription, AlertTitle } from "../ui/alert";
 import { CheckCircle2Icon } from "lucide-react";
+import CEFRBadge from "../cefr-badge";
+import { CEFRLevel } from "@/types";
+import { Progress } from "../ui/progress";
+import { Textarea } from "../ui/textarea";
 
 interface DialogueQuizWrapperProps {
   dialogue: Dialogue;
-  level: string;
+  level: CEFRLevel;
 }
 
 export function DialogueQuizWrapper({
@@ -108,43 +112,49 @@ export function DialogueQuizWrapper({
       {/* Header with Title and Level Badge */}
       <div className="flex items-center justify-between">
         <h1 className="text-3xl font-bold">{dialogue.title}</h1>
-        <Badge className="bg-green-400/70 text-white font-bold">{level}</Badge>
+        <CEFRBadge level={level} />
       </div>
 
       {/* Progress Bar */}
       <div className="w-full">
-        <div className="h-2 bg-gray-500 rounded-full">
-          <div
-            className="h-full bg-blue-500 rounded-full transition-all duration-300"
-            style={{
-              width: `${
-                ((currentQuestion + 1) / dialogue.questions.length) * 100
-              }%`,
-            }}
-          />
+        <div className="flex justify-between items-center mb-2">
+          <p className="text-sm font-medium">
+            Question {currentQuestion + 1}/{dialogue.questions.length}
+          </p>
+          <p className="text-sm text-muted-foreground">
+            {Math.round(
+              ((currentQuestion + 1) / dialogue.questions.length) * 100
+            )}
+            %
+          </p>
         </div>
-        <p className="text-sm text-muted-foreground mt-1">
-          Question {currentQuestion + 1} of {dialogue.questions.length}
-        </p>
+        <Progress
+          value={((currentQuestion + 1) / dialogue.questions.length) * 100}
+          className="h-2"
+        />
       </div>
 
       {/* Main Content Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 overflow-hidden h-full">
         {/* Left: Dialogue Card */}
-        <Card className="p-0">
-          <CardHeader>
+        <Card>
+          <CardHeader className="sr-only">
             <CardTitle className="sr-only">Dialogue</CardTitle>
           </CardHeader>
-          <CardContent className="space-y-4">
+          <CardContent className="space-y-4 h-full">
             {dialogue.lines.map((line, idx) => (
               <div key={idx} className="flex gap-4">
                 <Badge
                   variant={idx % 2 === 0 ? "default" : "secondary"}
-                  className="inline-block px-3 py-1 text-xs font-semibold rounded"
+                  className="inline-block px-3 py-1 text-xs font-semibold rounded h-max"
                 >
                   {line.speaker}
                 </Badge>
-                <p className="text-base">{line.text}</p>
+                <Textarea
+                  value={line.text}
+                  className="text-base h-max resize-none focus:outline-none active:outline-none focus-visible:ring-0 focus-visible:border-ring-0"
+                  readOnly
+                />
               </div>
             ))}
           </CardContent>
@@ -179,8 +189,8 @@ export function DialogueQuizWrapper({
                             ? "success"
                             : "destructive"
                           : isSelected
-                          ? "default"
-                          : "outline"
+                            ? "default"
+                            : "outline"
                       }
                       className="flex justify-start p-4 py-6"
                       disabled={showExplanation}

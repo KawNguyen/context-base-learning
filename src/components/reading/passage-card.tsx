@@ -6,7 +6,7 @@ import {
   CardFooter,
   CardHeader,
 } from "@/components/ui/card";
-import { ReadingPassage } from "@/constants/readingPassages";
+import { ReadingPassage } from "@/constants/reading";
 import { BookOpen, ChevronRight, Clock, GraduationCap } from "lucide-react";
 import { useRouter, useParams } from "next/navigation";
 

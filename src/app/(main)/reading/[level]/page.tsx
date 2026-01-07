@@ -1,5 +1,6 @@
 import { PassageSelection } from "@/components/reading/passage-selection";
 import { unslugify } from "@/lib/utils";
+import { CEFRLevel } from "@/types";
 
 interface PageProps {
   params: Promise<{
@@ -9,7 +10,7 @@ interface PageProps {
 
 export default async function ReadingLevelPage({ params }: PageProps) {
   const { level } = await params;
-  const cefrLevel = unslugify(level) as "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
+  const cefrLevel = unslugify(level) as CEFRLevel;
 
   return <PassageSelection level={cefrLevel} />;
 }

@@ -1,15 +1,20 @@
 "use client";
 
 import { useState } from "react";
-import { ReadingPassage } from "@/constants/readingPassages";
+import { ReadingPassage } from "@/constants/reading";
 import { ReadingQuiz } from "./reading-quiz";
 import { QuizCompleted } from "./quiz-completed";
+import { CEFRLevel } from "@/types";
 
 interface ReadingQuizWrapperProps {
   passage: ReadingPassage;
+  level: CEFRLevel;
 }
 
-export function ReadingQuizWrapper({ passage }: ReadingQuizWrapperProps) {
+export function ReadingQuizWrapper({
+  passage,
+  level,
+}: ReadingQuizWrapperProps) {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showExplanation, setShowExplanation] = useState(false);
@@ -40,10 +45,26 @@ export function ReadingQuizWrapper({ passage }: ReadingQuizWrapperProps) {
   const handleNextQuestion = () => {
     if (currentQuestion < passage.questions.length - 1) {
       setCurrentQuestion(currentQuestion + 1);
-      setSelectedAnswer(null);
-      setShowExplanation(false);
+      setSelectedAnswer(
+        userAnswers[currentQuestion + 1] !== -1
+          ? userAnswers[currentQuestion + 1]
+          : null
+      );
+      setShowExplanation(userAnswers[currentQuestion + 1] !== -1);
     } else {
       setQuizCompleted(true);
+    }
+  };
+
+  const handlePreviousQuestion = () => {
+    if (currentQuestion > 0) {
+      setCurrentQuestion(currentQuestion - 1);
+      setSelectedAnswer(
+        userAnswers[currentQuestion - 1] !== -1
+          ? userAnswers[currentQuestion - 1]
+          : null
+      );
+      setShowExplanation(userAnswers[currentQuestion - 1] !== -1);
     }
   };
 
@@ -71,12 +92,14 @@ export function ReadingQuizWrapper({ passage }: ReadingQuizWrapperProps) {
   return (
     <ReadingQuiz
       passage={passage}
+      level={level}
       currentQuestion={currentQuestion}
       selectedAnswer={selectedAnswer}
       showExplanation={showExplanation}
       onAnswerSelect={handleAnswerSelect}
       onCheckAnswer={handleCheckAnswer}
       onNextQuestion={handleNextQuestion}
+      onPreviousQuestion={handlePreviousQuestion}
     />
   );
 }

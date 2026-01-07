@@ -16,9 +16,11 @@ import { cn } from "@/lib/utils";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import questions from "@/constants/quizQuestions";
 import { Card } from "../ui/card";
+import CEFRBadge from "../cefr-badge";
+import { CEFRLevel } from "@/types";
 
 interface QuizInterfaceProps {
-  level: string;
+  level: CEFRLevel;
 }
 
 export function QuizInterface({ level }: QuizInterfaceProps) {
@@ -109,9 +111,7 @@ export function QuizInterface({ level }: QuizInterfaceProps) {
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between mb-2">
-        <span className="text-sm font-medium text-muted-foreground uppercase tracking-wider">
-          Level {level}
-        </span>
+        <CEFRBadge level={level} />
         <p className="text-xs text-muted-foreground">
           {currentIndex + 1} of {levelQuestions.length}
         </p>

@@ -1,4 +1,4 @@
-export type CEFRLevel = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
+import { CEFRLevel } from "@/types";
 
 export interface DialogueLine {
   speaker: string;

@@ -1,7 +1,8 @@
 "use client";
 
 import { Card, CardContent } from "@/components/ui/card";
-import { dialogues, CEFRLevel } from "@/constants/dialogues";
+import { dialogues } from "@/constants/dialogues";
+import { CEFRLevel } from "@/types";
 import { MessageSquare } from "lucide-react";
 import { useRouter, useParams } from "next/navigation";
 
