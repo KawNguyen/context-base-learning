@@ -545,6 +545,19 @@ export const C2: VocabularyWord[] = [
     categories: ["General", "Environment", "Social"],
   },
   {
+    id: "gen-cas123",
+    word: "Catastrophism",
+    slug: "catastrophism",
+    phonetic: "/kəˈtæs.trə.fɪzməs/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The belief that the Earth has been shaped by sudden, violent events.",
+    meaningVi: "Tư tưởng thảm họa.",
+    exampleEn: "Catastrophism theory.",
+    exampleVi: "Tư tưởng thảm họa.",
+    categories: ["General", "Environment", "Social"],
+  },
+  {
     id: "gen-123",
     word: "Catch",
     slug: "catch",

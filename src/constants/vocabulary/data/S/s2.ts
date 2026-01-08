@@ -281,6 +281,18 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    id: "gen-21321",
+    word: "Sketchbook",
+    slug: "sketchbook",
+    phonetic: "/ˈskɛtʃ.ˌbʊk/",
+    partOfSpeech: "noun",
+    meaningEn: "A book for making sketches.",
+    meaningVi: "Sách vẽ, sổ phác thảo.",
+    exampleEn: "I need a sketchbook.",
+    exampleVi: "Tôi cần một cuốn sách vẽ.",
+    categories: ["Art"],
+  },
+  {
     id: "a2-120",
     word: "Skill",
     slug: "skill",

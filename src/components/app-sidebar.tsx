@@ -6,11 +6,13 @@ import { usePathname } from "next/navigation";
 import {
   BookA,
   BookOpen,
+  Headphones,
   GraduationCap,
   MessageSquare,
   PenTool,
   Search,
   WholeWord,
+  Camera,
 } from "lucide-react";
 
 import {
@@ -39,7 +41,9 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       { title: "Irregular Verbs", url: "/irregular-verbs", icon: WholeWord },
       { title: "Quiz", url: "/quiz", icon: PenTool },
       { title: "Reading", url: "/reading", icon: GraduationCap },
+      { title: "Listening", url: "/listening", icon: Headphones },
       { title: "Dialogue", url: "/dialogue", icon: MessageSquare },
+      { title: "Image Description", url: "/image-description", icon: Camera },
     ],
   };
 
