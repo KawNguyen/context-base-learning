@@ -53,7 +53,7 @@ export function QuizCompleted({
             <div className="space-y-4">
               {questions.map((q, idx) => {
                 const userAns = userAnswers[idx];
-                const correctIdx = q.correct;
+                const correctIdx = q.options.findIndex((opt) => opt.isCorrect);
                 return (
                   <div key={idx} className="p-4 border rounded">
                     <p className="font-semibold">
@@ -71,7 +71,7 @@ export function QuizCompleted({
                             }
                           >
                             {String.fromCharCode(65 + userAns)}.{" "}
-                            {q.options[userAns]}
+                            {q.options[userAns].option}
                           </span>
                         ) : (
                           <span className="text-muted-foreground">-</span>
@@ -81,7 +81,7 @@ export function QuizCompleted({
                         <strong>Correct Answer:</strong>{" "}
                         <span className="text-green-700">
                           {String.fromCharCode(65 + correctIdx)}.{" "}
-                          {q.options[correctIdx]}
+                          {q.options[correctIdx].option}
                         </span>
                       </p>
                       <div className="mt-2">

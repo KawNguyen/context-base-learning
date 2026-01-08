@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import questions from "@/constants/quizQuestions";
+import questions from "@/constants/quiz-question";
 import { Card } from "../ui/card";
 import CEFRBadge from "../cefr-badge";
 import { CEFRLevel } from "@/types";
@@ -42,7 +42,7 @@ export function QuizInterface({ level }: QuizInterfaceProps) {
   const handleCheck = () => {
     if (selectedOption === null) return;
     setIsAnswered(true);
-    if (selectedOption === currentQuestion.correct) {
+    if (currentQuestion.options[selectedOption].isCorrect) {
       setScore((prev) => prev + 1);
     }
   };
@@ -126,7 +126,7 @@ export function QuizInterface({ level }: QuizInterfaceProps) {
             {i < arr.length - 1 && (
               <span className="inline-block min-w-30 border-b-4 border-primary mx-2 px-2 text-primary italic text-center">
                 {isAnswered
-                  ? currentQuestion.options[currentQuestion.correct]
+                  ? currentQuestion.options.find((opt) => opt.isCorrect)?.option
                   : "_ _ _ _ _ _ _"}
               </span>
             )}
@@ -139,11 +139,10 @@ export function QuizInterface({ level }: QuizInterfaceProps) {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {currentQuestion.options.map((option, index) => {
-          const isCorrect = isAnswered && index === currentQuestion.correct;
+          const isOptionCorrect = option.isCorrect;
+          const isCorrect = isAnswered && isOptionCorrect;
           const isWrong =
-            isAnswered &&
-            index === selectedOption &&
-            index !== currentQuestion.correct;
+            isAnswered && index === selectedOption && !isOptionCorrect;
           const isSelected = selectedOption === index;
 
           return (
@@ -153,10 +152,10 @@ export function QuizInterface({ level }: QuizInterfaceProps) {
                 !isSelected
                   ? "ghost"
                   : isCorrect
-                  ? "success"
-                  : isWrong
-                  ? "destructive"
-                  : "default"
+                    ? "success"
+                    : isWrong
+                      ? "destructive"
+                      : "default"
               }
               type="button"
               onClick={() => handleOptionSelect(index)}
@@ -167,7 +166,7 @@ export function QuizInterface({ level }: QuizInterfaceProps) {
                 <span className="text-xl">
                   {String.fromCharCode(65 + index)}.
                 </span>{" "}
-                <span className="text-lg font-medium">{option}</span>
+                <span className="text-lg font-medium">{option.option}</span>
               </div>
               {isCorrect && <CheckCircle2 className="text-green-600 size-6" />}
               {isWrong && <XCircle className="text-destructive size-6" />}
@@ -181,20 +180,19 @@ export function QuizInterface({ level }: QuizInterfaceProps) {
           <Alert
             className={cn(
               "border-l-4",
-              selectedOption === currentQuestion.correct
+              currentQuestion.options[selectedOption!].isCorrect
                 ? "border-l-green-500 "
                 : "border-l-destructive bg-destructive/5"
             )}
           >
             <AlertTitle
-              className={`font-bold text-lg mb-2 flex items-center gap-2 ${
-                selectedOption === currentQuestion.correct
-                  ? "text-green-500"
-                  : "text-destructive"
-              }`}
+              className={`font-bold text-lg mb-2 flex items-center gap-2 ${currentQuestion.options[selectedOption!].isCorrect
+                ? "text-green-500"
+                : "text-destructive"
+                }`}
             >
               <Info className="h-5 w-5" />
-              {selectedOption === currentQuestion.correct
+              {currentQuestion.options[selectedOption!].isCorrect
                 ? "Correct Answer!"
                 : "Not quite right..."}
             </AlertTitle>

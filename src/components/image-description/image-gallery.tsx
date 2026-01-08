@@ -18,7 +18,7 @@ export function ImageGallery() {
                     className="pt-0 overflow-hidden group relative flex flex-col h-full cursor-pointer border-border/50 bg-card/50 hover:bg-card hover:border-border hover:shadow-xl hover:shadow-primary/5 transition-all duration-300"
                     onClick={() => router.push(`/image-description/${q.id}`)}
                 >
-                    <CardContent className="relative w-full p-[1px]">
+                    <CardContent className="relative w-full p-0">
                         <AspectRatio ratio={16 / 9}>
                             <Image
                                 src={q.imageUrl}

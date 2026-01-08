@@ -37,7 +37,10 @@ export function ReadingQuizWrapper({
       copy[currentQuestion] = selectedAnswer;
       return copy;
     });
-    if (selectedAnswer === passage.questions[currentQuestion].correct) {
+    if (
+      selectedAnswer ===
+      passage.questions[currentQuestion].options.findIndex((o) => o.isCorrect)
+    ) {
       setScore(score + 1);
     }
   };

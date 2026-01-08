@@ -1,0 +1,1246 @@
+import { Question } from '../types';
+
+export const questions: Question[] = [
+    {
+        questionEn: "I ____ to the cinema last night.",
+        questionVi: "Tôi ____ đi xem phim tối qua.",
+        options: [
+      { option: "go", isCorrect: false },
+      { option: "went", isCorrect: true },
+      { option: "gone", isCorrect: false },
+      { option: "going", isCorrect: false }
+    ],
+        explanationVi: "Quá khứ đơn của 'go' là 'went', dấu hiệu 'last night'.",
+        category: "Past Simple",
+    },
+    {
+        questionEn: "She ____ not watch TV yesterday.",
+        questionVi: "Hôm qua cô ấy ____ đã không xem TV.",
+        options: [
+      { option: "did", isCorrect: true },
+      { option: "do", isCorrect: false },
+      { option: "does", isCorrect: false },
+      { option: "was", isCorrect: false }
+    ],
+        explanationVi: "Phủ định quá khứ đơn: did not + V.",
+        category: "Past Simple",
+    },
+    {
+        questionEn: "We ____ flying to Paris tomorrow.",
+        questionVi: "Chúng tôi ____ sẽ bay tới Paris vào ngày mai.",
+        options: [
+      { option: "are", isCorrect: true },
+      { option: "is", isCorrect: false },
+      { option: "will", isCorrect: false },
+      { option: "do", isCorrect: false }
+    ],
+        explanationVi: "Tương lai gần/HTTD diễn tả kế hoạch: are flying.",
+        category: "Present Continuous",
+    },
+    {
+        questionEn: "If it ____, I will stay at home.",
+        questionVi: "Nếu trời ____ mưa, tôi sẽ ở nhà.",
+        options: [
+      { option: "rains", isCorrect: true },
+      { option: "rain", isCorrect: false },
+      { option: "raining", isCorrect: false },
+      { option: "rained", isCorrect: false }
+    ],
+        explanationVi: "Câu điều kiện loại 1: If + HTĐ (rains), TLĐ.",
+        category: "Conditional Type 1",
+    },
+    {
+        questionEn: "He is ____ than his brother.",
+        questionVi: "Cậu ấy ____ cao hơn anh trai mình.",
+        options: [
+      { option: "taller", isCorrect: true },
+      { option: "tall", isCorrect: false },
+      { option: "tallest", isCorrect: false },
+      { option: "more tall", isCorrect: false }
+    ],
+        explanationVi: "So sánh hơn tính từ ngắn 'tall'.",
+        category: "Comparatives",
+    },
+    {
+        questionEn: "This book is ____ than that one.",
+        questionVi: "Cuốn sách này ____ thú vị hơn cuốn kia.",
+        options: [
+      { option: "more interesting", isCorrect: true },
+      { option: "interestinger", isCorrect: false },
+      { option: "most interesting", isCorrect: false },
+      { option: "interesting", isCorrect: false }
+    ],
+        explanationVi: "So sánh hơn tính từ dài 'more + adj'.",
+        category: "Comparatives",
+    },
+    {
+        questionEn: "What ____ you do last weekend?",
+        questionVi: "Bạn đã ____ làm gì vào cuối tuần trước?",
+        options: [
+      { option: "did", isCorrect: true },
+      { option: "do", isCorrect: false },
+      { option: "does", isCorrect: false },
+      { option: "were", isCorrect: false }
+    ],
+        explanationVi: "Câu hỏi quá khứ đơn: What did + S + V?",
+        category: "Past Simple",
+    },
+    {
+        questionEn: "I ____ visit my aunt next week.",
+        questionVi: "Tôi ____ sẽ đi thăm dì vào tuần tới.",
+        options: [
+      { option: "will", isCorrect: true },
+      { option: "am", isCorrect: false },
+      { option: "going to", isCorrect: false },
+      { option: "did", isCorrect: false }
+    ],
+        explanationVi: "Tương lai đơn 'will' diễn tả ý định/quyết định.",
+        category: "Future Simple (Will)",
+    },
+    {
+        questionEn: "They ____ going to buy a new car.",
+        questionVi: "Họ ____ định mua một chiếc xe hơi mới.",
+        options: [
+      { option: "are", isCorrect: true },
+      { option: "is", isCorrect: false },
+      { option: "am", isCorrect: false },
+      { option: "will", isCorrect: false }
+    ],
+        explanationVi: "Cấu trúc tương lai gần: be ('are') going to.",
+        category: "Future (Going to)",
+    },
+    {
+        questionEn: "If you ____ hard, you will pass the exam.",
+        questionVi: "Nếu bạn ____ học hành chăm chỉ, bạn sẽ thi đỗ.",
+        options: [
+      { option: "study", isCorrect: true },
+      { option: "studies", isCorrect: false },
+      { option: "studied", isCorrect: false },
+      { option: "studying", isCorrect: false }
+    ],
+        explanationVi: "Điều kiện loại 1: If + S + V(hiện tại).",
+        category: "Conditional Type 1",
+    },
+    {
+        questionEn: "My car is ____ than yours.",
+        questionVi: "Xe của tôi ____ nhanh hơn xe của bạn.",
+        options: [
+      { option: "faster", isCorrect: true },
+      { option: "fast", isCorrect: false },
+      { option: "fastest", isCorrect: false },
+      { option: "more fast", isCorrect: false }
+    ],
+        explanationVi: "So sánh hơn tính từ ngắn 'fast'.",
+        category: "Comparatives",
+    },
+    {
+        questionEn: "Who is the ____ person in your family?",
+        questionVi: "Ai là người ____ già nhất trong gia đình bạn?",
+        options: [
+      { option: "oldest", isCorrect: true },
+      { option: "older", isCorrect: false },
+      { option: "old", isCorrect: false },
+      { option: "eldest", isCorrect: false }
+    ],
+        explanationVi: "So sánh nhất tính từ ngắn 'old'.",
+        category: "Superlatives",
+    },
+    {
+        questionEn: "I ____ breakfast when the phone rang.",
+        questionVi: "Tôi ____ đang ăn sáng thì điện thoại reo.",
+        options: [
+      { option: "was having", isCorrect: true },
+      { option: "had", isCorrect: false },
+      { option: "have", isCorrect: false },
+      { option: "am having", isCorrect: false }
+    ],
+        explanationVi: "Qktd (was having) bị Qkđ (rang) xen vào.",
+        category: "Past Continuous",
+    },
+    {
+        questionEn: "We ____ in London for 5 years.",
+        questionVi: "Chúng tôi ____ đã sống ở London trong 5 năm.",
+        options: [
+      { option: "lived", isCorrect: true },
+      { option: "live", isCorrect: false },
+      { option: "living", isCorrect: false },
+      { option: "lives", isCorrect: false }
+    ],
+        explanationVi:
+            "Kể lại sự kiện trong quá khứ (hoặc nếu vẫn sống thì dùng perfect, ở đây A2 often uses past for finished time or simple perfect context, but 'lived' is safe narration).",
+        category: "Past Simple",
+    },
+    {
+        questionEn: "Did you ____ the game?",
+        questionVi: "Bạn đã ____ thắng trận đấu chứ?",
+        options: [
+      { option: "win", isCorrect: true },
+      { option: "won", isCorrect: false },
+      { option: "winning", isCorrect: false },
+      { option: "wins", isCorrect: false }
+    ],
+        explanationVi: "Sau trợ động từ 'Did', động từ về nguyên mẫu.",
+        category: "Past Simple",
+    },
+    {
+        questionEn: "I think it ____ rain later.",
+        questionVi: "Tôi nghĩ là lát nữa trời ____ sẽ mưa.",
+        options: [
+      { option: "will", isCorrect: true },
+      { option: "is", isCorrect: false },
+      { option: "going to", isCorrect: false },
+      { option: "does", isCorrect: false }
+    ],
+        explanationVi: "Dự đoán tương lai không có căn cứ rõ ràng dùng 'will'.",
+        category: "Future Simple (Will)",
+    },
+    {
+        questionEn: "Look at those clouds! It ____ rain.",
+        questionVi: "Hãy nhìn những đám mây kia kìa! Trời ____ sắp mưa rồi.",
+        options: [
+      { option: "is going to", isCorrect: true },
+      { option: "will", isCorrect: false },
+      { option: "shall", isCorrect: false },
+      { option: "does", isCorrect: false }
+    ],
+        explanationVi: "Dự đoán có căn cứ dùng 'is going to'.",
+        category: "Future (Going to)",
+    },
+    {
+        questionEn: "She is the ____ girl in the class.",
+        questionVi: "Cô ấy là cô gái ____ xinh đẹp nhất lớp.",
+        options: [
+      { option: "most beautiful", isCorrect: true },
+      { option: "more beautiful", isCorrect: false },
+      { option: "beautifullest", isCorrect: false },
+      { option: "beautiful", isCorrect: false }
+    ],
+        explanationVi: "So sánh nhất tính từ dài 'the most + adj'.",
+        category: "Superlatives",
+    },
+    {
+        questionEn: "If I have time, I ____ you.",
+        questionVi: "Nếu có thời gian, tôi ____ sẽ giúp bạn.",
+        options: [
+      { option: "will help", isCorrect: true },
+      { option: "help", isCorrect: false },
+      { option: "helped", isCorrect: false },
+      { option: "would help", isCorrect: false }
+    ],
+        explanationVi: "Điều kiện loại 1.",
+        category: "Conditional Type 1",
+    },
+    {
+        questionEn: "My bag is ____ heavy as yours.",
+        questionVi: "Túi của tôi nặng ____ bằng túi của bạn.",
+        options: [
+      { option: "as", isCorrect: true },
+      { option: "so", isCorrect: false },
+      { option: "than", isCorrect: false },
+      { option: "more", isCorrect: false }
+    ],
+        explanationVi: "So sánh bằng 'as ... as'.",
+        category: "Comparatives",
+    },
+    {
+        questionEn: "____ you go to the party?",
+        questionVi: "Bạn ____ có đi dự tiệc không?",
+        options: [
+      { option: "Did", isCorrect: true },
+      { option: "Do", isCorrect: false },
+      { option: "Does", isCorrect: false },
+      { option: "Were", isCorrect: false }
+    ],
+        explanationVi:
+            "Hỏi về quá khứ (nếu có ngữ cảnh) hoặc thói quen. Ở đây 'Did' là lựa chọn phổ biến cho câu hỏi sự kiện.",
+        category: "Past Simple",
+    },
+    {
+        questionEn: "I ____ a ghost last night.",
+        questionVi: "Đêm qua tôi ____ đã thấy một con ma.",
+        options: [
+      { option: "saw", isCorrect: true },
+      { option: "see", isCorrect: false },
+      { option: "seen", isCorrect: false },
+      { option: "seeing", isCorrect: false }
+    ],
+        explanationVi: "Quá khứ đơn của 'see' là 'saw'.",
+        category: "Past Simple",
+    },
+    {
+        questionEn: "While I ____, my mom was cooking.",
+        questionVi: "Trong khi tôi ____ đang đọc sách, mẹ tôi đang nấu ăn.",
+        options: [
+      { option: "was reading", isCorrect: true },
+      { option: "read", isCorrect: false },
+      { option: "reading", isCorrect: false },
+      { option: "am reading", isCorrect: false }
+    ],
+        explanationVi: "Hai hành động song song trong quá khứ: was reading.",
+        category: "Past Continuous",
+    },
+    {
+        questionEn: "He ____ be a doctor one day.",
+        questionVi: "Một ngày nào đó anh ấy ____ sẽ trở thành bác sĩ.",
+        options: [
+      { option: "will", isCorrect: true },
+      { option: "is", isCorrect: false },
+      { option: "going", isCorrect: false },
+      { option: "did", isCorrect: false }
+    ],
+        explanationVi: "Tương lai đơn 'will'.",
+        category: "Future Simple (Will)",
+    },
+    {
+        questionEn: "Is Paris ____ than London?",
+        questionVi: "Paris có ____ lớn hơn London không?",
+        options: [
+      { option: "bigger", isCorrect: true },
+      { option: "big", isCorrect: false },
+      { option: "biggest", isCorrect: false },
+      { option: "more big", isCorrect: false }
+    ],
+        explanationVi: "So sánh hơn 'bigger'.",
+        category: "Comparatives",
+    },
+    {
+        questionEn: "She plays tennis ____ than me.",
+        questionVi: "Cô ấy chơi tennis ____ giỏi hơn tôi.",
+        options: [
+      { option: "better", isCorrect: true },
+      { option: "good", isCorrect: false },
+      { option: "well", isCorrect: false },
+      { option: "best", isCorrect: false }
+    ],
+        explanationVi: "So sánh hơn của trạng từ 'well' là 'better'.",
+        category: "Comparatives",
+    },
+    {
+        questionEn: "If you ____ invite him, he won't come.",
+        questionVi: "Nếu bạn ____ không mời anh ấy, anh ấy sẽ không đến đâu.",
+        options: [
+      { option: "don't", isCorrect: true },
+      { option: "won't", isCorrect: false },
+      { option: "didn't", isCorrect: false },
+      { option: "doesn't", isCorrect: false }
+    ],
+        explanationVi: "Phủ định trong mệnh đề If loại 1: don't + V.",
+        category: "Conditional Type 1",
+    },
+    {
+        questionEn: "I remember ____ the door.",
+        questionVi: "Tôi nhớ là ____ đã khóa cửa rồi.",
+        options: [
+      { option: "locking", isCorrect: true },
+      { option: "lock", isCorrect: false },
+      { option: "to lock", isCorrect: false },
+      { option: "locked", isCorrect: false }
+    ],
+        explanationVi: "'Remember V-ing': nhớ đã làm gì.",
+        category: "Gerunds (V-ing)",
+    },
+    {
+        questionEn: "He stopped ____ because he was tired.",
+        questionVi: "Anh ấy đã ngừng ____ làm việc vì thấy mệt.",
+        options: [
+      { option: "working", isCorrect: true },
+      { option: "to work", isCorrect: false },
+      { option: "work", isCorrect: false },
+      { option: "worked", isCorrect: false }
+    ],
+        explanationVi: "Stop + V-ing: dừng việc đang làm lại.",
+        category: "Gerunds (V-ing)",
+    },
+    {
+        questionEn: "He stopped to ____ water.",
+        questionVi: "Anh ấy đã dừng lại để ____ mua nước.",
+        options: [
+      { option: "buy", isCorrect: true },
+      { option: "buying", isCorrect: false },
+      { option: "bought", isCorrect: false },
+      { option: "buys", isCorrect: false }
+    ],
+        explanationVi: "'Stop to V': dừng lại để làm gì.",
+        category: "Infinitives (to V)",
+    },
+    {
+        questionEn: "I enjoy ____ with my friends.",
+        questionVi: "Tôi thích ____ đi chơi với bạn bè.",
+        options: [
+      { option: "hanging out", isCorrect: true },
+      { option: "hang out", isCorrect: false },
+      { option: "to hang out", isCorrect: false },
+      { option: "hung out", isCorrect: false }
+    ],
+        explanationVi: "Enjoy + V-ing.",
+        category: "Gerunds (V-ing)",
+    },
+    {
+        questionEn: "We decided ____ a new TV.",
+        questionVi: "Chúng tôi đã quyết định ____ mua một chiếc TV mới.",
+        options: [
+      { option: "to buy", isCorrect: true },
+      { option: "buying", isCorrect: false },
+      { option: "buy", isCorrect: false },
+      { option: "bought", isCorrect: false }
+    ],
+        explanationVi: "Decide + to V.",
+        category: "Infinitives (to V)",
+    },
+    {
+        questionEn: "She ____ her leg yesterday.",
+        questionVi: "Hôm qua cô ấy ____ đã bị gãy chân.",
+        options: [
+      { option: "broke", isCorrect: true },
+      { option: "break", isCorrect: false },
+      { option: "breaking", isCorrect: false },
+      { option: "broken", isCorrect: false }
+    ],
+        explanationVi: "Quá khứ đơn 'broke'.",
+        category: "Past Simple",
+    },
+    {
+        questionEn: "When I was young, I ____ swim well.",
+        questionVi: "Khi còn nhỏ, tôi ____ có thể bơi rất giỏi.",
+        options: [
+      { option: "could", isCorrect: true },
+      { option: "can", isCorrect: false },
+      { option: "may", isCorrect: false },
+      { option: "might", isCorrect: false }
+    ],
+        explanationVi: "Khả năng trong quá khứ dùng 'could'.",
+        category: "Modal Verbs (Can, Could, May, Might)",
+    },
+    {
+        questionEn: "You ____ smoke here.",
+        questionVi: "Bạn ____ không được hút thuốc ở đây.",
+        options: [
+      { option: "mustn't", isCorrect: true },
+      { option: "don't have to", isCorrect: false },
+      { option: "needn't", isCorrect: false },
+      { option: "couldn't", isCorrect: false }
+    ],
+        explanationVi: "Cấm đoán dùng 'mustn't'.",
+        category: "Modal Verbs (Can, Could, May, Might)",
+    },
+    {
+        questionEn: "I have to ____ up early tomorrow.",
+        questionVi: "Sáng mai tôi phải ____ thức dậy sớm.",
+        options: [
+      { option: "get", isCorrect: true },
+      { option: "gets", isCorrect: false },
+      { option: "getting", isCorrect: false },
+      { option: "got", isCorrect: false }
+    ],
+        explanationVi: "Sau 'have to' dùng V nguyên thể.",
+        category: "Modal Verbs (Can, Could, May, Might)",
+    },
+    {
+        questionEn: "This soup tastes ____.",
+        questionVi: "Món súp này có vị ____ rất ngon.",
+        options: [
+      { option: "good", isCorrect: true },
+      { option: "well", isCorrect: false },
+      { option: "badly", isCorrect: false },
+      { option: "nicely", isCorrect: false }
+    ],
+        explanationVi: "Cấu trúc 'verb of perception + adj'.",
+        category: "Comparatives",
+    },
+    {
+        questionEn: "I'm looking for a place ____ I can relax.",
+        questionVi: "Tôi đang tìm một nơi ____ mà tôi có thể thư giãn.",
+        options: [
+      { option: "where", isCorrect: true },
+      { option: "which", isCorrect: false },
+      { option: "who", isCorrect: false },
+      { option: "when", isCorrect: false }
+    ],
+        explanationVi: "Trạng từ quan hệ chỉ nơi chốn 'where'.",
+        category: "Relative Clauses",
+    },
+    {
+        questionEn: "The man ____ car was stolen called the police.",
+        questionVi: "Người đàn ông ____ có xe bị mất trộm đã gọi cảnh sát.",
+        options: [
+      { option: "whose", isCorrect: true },
+      { option: "who", isCorrect: false },
+      { option: "which", isCorrect: false },
+      { option: "whom", isCorrect: false }
+    ],
+        explanationVi: "Đại từ quan hệ chỉ sở hữu 'whose'.",
+        category: "Relative Clauses",
+    },
+    {
+        questionEn: "I ____ never been to Japan.",
+        questionVi: "Tôi ____ chưa bao giờ đến Nhật Bản.",
+        options: [
+      { option: "have", isCorrect: true },
+      { option: "has", isCorrect: false },
+      { option: "did", isCorrect: false },
+      { option: "was", isCorrect: false }
+    ],
+        explanationVi: "Hiện tại hoàn thành: have + V3.",
+        category: "Present Perfect",
+    },
+    {
+        questionEn: "Have you ever ____ sushi?",
+        questionVi: "Bạn đã từng ____ ăn sushi chưa?",
+        options: [
+      { option: "eaten", isCorrect: true },
+      { option: "ate", isCorrect: false },
+      { option: "eat", isCorrect: false },
+      { option: "eating", isCorrect: false }
+    ],
+        explanationVi: "Hiện tại hoàn thành: eaten.",
+        category: "Present Perfect",
+    },
+    {
+        questionEn: "She has lived here ____ 2015.",
+        questionVi: "Cô ấy đã sống ở đây ____ từ năm 2015.",
+        options: [
+      { option: "since", isCorrect: true },
+      { option: "for", isCorrect: false },
+      { option: "in", isCorrect: false },
+      { option: "ago", isCorrect: false }
+    ],
+        explanationVi: "Mốc thời gian dùng 'since'.",
+        category: "Present Perfect",
+    },
+    {
+        questionEn: "We have worked here ____ ten years.",
+        questionVi: "Chúng tôi đã làm việc ở đây ____ được mười năm rồi.",
+        options: [
+      { option: "for", isCorrect: true },
+      { option: "since", isCorrect: false },
+      { option: "during", isCorrect: false },
+      { option: "in", isCorrect: false }
+    ],
+        explanationVi: "Khoảng thời gian dùng 'for'.",
+        category: "Present Perfect",
+    },
+    {
+        questionEn: "They ____ just finished their homework.",
+        questionVi: "Họ ____ vừa mới làm xong bài tập về nhà.",
+        options: [
+      { option: "have", isCorrect: true },
+      { option: "did", isCorrect: false },
+      { option: "are", isCorrect: false },
+      { option: "had", isCorrect: false }
+    ],
+        explanationVi: "Hiện tại hoàn thành with 'just'.",
+        category: "Present Perfect",
+    },
+    {
+        questionEn: "I was born ____ 1999.",
+        questionVi: "Tôi sinh ra ____ vào năm 1999.",
+        options: [
+      { option: "in", isCorrect: true },
+      { option: "on", isCorrect: false },
+      { option: "at", isCorrect: false },
+      { option: "during", isCorrect: false }
+    ],
+        explanationVi: "Năm dùng giới từ 'in'.",
+        category: "Other",
+    },
+    {
+        questionEn: "____ you help me carry this box?",
+        questionVi: "Bạn ____ có thể giúp tôi bê chiếc hộp này không?",
+        options: [
+      { option: "Could", isCorrect: true },
+      { option: "Do", isCorrect: false },
+      { option: "Are", isCorrect: false },
+      { option: "Have", isCorrect: false }
+    ],
+        explanationVi: "Yêu cầu lịch sự dùng 'Could'.",
+        category: "Can / Could",
+    },
+    {
+        questionEn: "If she ____, tell her I'm out.",
+        questionVi: "Nếu cô ấy ____ gọi, hãy bảo cô ấy là tôi đi vắng.",
+        options: [
+      { option: "calls", isCorrect: true },
+      { option: "call", isCorrect: false },
+      { option: "calling", isCorrect: false },
+      { option: "called", isCorrect: false }
+    ],
+        explanationVi: "Điều kiện loại 1 (mệnh lệnh).",
+        category: "First Conditional",
+    },
+    {
+        questionEn: "It's the ____ film I've ever seen.",
+        questionVi: "Đó là bộ phim ____ hay nhất mà tôi từng xem.",
+        options: [
+      { option: "best", isCorrect: true },
+      { option: "good", isCorrect: false },
+      { option: "better", isCorrect: false },
+      { option: "well", isCorrect: false }
+    ],
+        explanationVi: "So sánh nhất 'the best'.",
+        category: "Comparatives",
+    },
+    {
+        questionEn: "He is interested ____ learning English.",
+        questionVi: "Anh ấy quan tâm ____ đến việc học tiếng Anh.",
+        options: [
+      { option: "in", isCorrect: true },
+      { option: "on", isCorrect: false },
+      { option: "at", isCorrect: false },
+      { option: "about", isCorrect: false }
+    ],
+        explanationVi: "Interested in.",
+        category: "Other",
+    },
+    {
+        questionEn: "I am bored ____ this game.",
+        questionVi: "Tôi thấy chán ____ trò chơi này rồi.",
+        options: [
+      { option: "with", isCorrect: true },
+      { option: "about", isCorrect: false },
+      { option: "of", isCorrect: false },
+      { option: "in", isCorrect: false }
+    ],
+        explanationVi: "Bored with.",
+        category: "Other",
+    },
+    {
+        questionEn: "My phone is similar ____ yours.",
+        questionVi: "Điện thoại của tôi tương tự ____ như của bạn.",
+        options: [
+      { option: "to", isCorrect: true },
+      { option: "with", isCorrect: false },
+      { option: "as", isCorrect: false },
+      { option: "from", isCorrect: false }
+    ],
+        explanationVi: "Similar to.",
+        category: "Other",
+    },
+    {
+        questionEn: "Different ____ me, he likes coffee.",
+        questionVi: "Khác ____ với tôi, anh ấy lại thích cà phê.",
+        options: [
+      { option: "from", isCorrect: true },
+      { option: "to", isCorrect: false },
+      { option: "with", isCorrect: false },
+      { option: "than", isCorrect: false }
+    ],
+        explanationVi: "Different from.",
+        category: "Other",
+    },
+    {
+        questionEn: "I'm afraid ____ spiders.",
+        questionVi: "Tôi sợ ____ nhện.",
+        options: [
+      { option: "of", isCorrect: true },
+      { option: "in", isCorrect: false },
+      { option: "at", isCorrect: false },
+      { option: "on", isCorrect: false }
+    ],
+        explanationVi: "Afraid of.",
+        category: "Other",
+    },
+    {
+        questionEn: "She is good ____ cooking.",
+        questionVi: "Cô ấy giỏi ____ nấu ăn.",
+        options: [
+      { option: "at", isCorrect: true },
+      { option: "in", isCorrect: false },
+      { option: "on", isCorrect: false },
+      { option: "for", isCorrect: false }
+    ],
+        explanationVi: "Good at.",
+        category: "Other",
+    },
+    {
+        questionEn: "He asked me ____ help him.",
+        questionVi: "Anh ấy đã yêu cầu tôi ____ giúp đỡ anh ấy.",
+        options: [
+      { option: "to", isCorrect: true },
+      { option: "for", isCorrect: false },
+      { option: "that", isCorrect: false },
+      { option: "if", isCorrect: false }
+    ],
+        explanationVi: "Ask someone to V.",
+        category: "Infinitives (to V)",
+    },
+    {
+        questionEn: "I told him ____ wait.",
+        questionVi: "Tôi đã bảo anh ấy ____ chờ.",
+        options: [
+      { option: "to", isCorrect: true },
+      { option: "for", isCorrect: false },
+      { option: "that", isCorrect: false },
+      { option: "if", isCorrect: false }
+    ],
+        explanationVi: "Tell someone to V.",
+        category: "Infinitives (to V)",
+    },
+    {
+        questionEn: "He said that he ____ busy.",
+        questionVi: "Anh ấy nói rằng anh ấy ____ đang bận.",
+        options: [
+      { option: "was", isCorrect: true },
+      { option: "is", isCorrect: false },
+      { option: "were", isCorrect: false },
+      { option: "been", isCorrect: false }
+    ],
+        explanationVi: "Câu tường thuật lùi thì: is -> was.",
+        category: "Other",
+    },
+    {
+        questionEn: "She told me she ____ travel the following week.",
+        questionVi: "Cô ấy bảo tôi là cô ấy ____ sẽ đi du lịch vào tuần tới.",
+        options: [
+      { option: "would", isCorrect: true },
+      { option: "will", isCorrect: false },
+      { option: "can", isCorrect: false },
+      { option: "may", isCorrect: false }
+    ],
+        explanationVi: "Tường thuật: will -> would, tomorrow -> the next day.",
+        category: "Other",
+    },
+    {
+        questionEn: "Do you know where ____?",
+        questionVi: "Bạn có biết ____ anh ấy ở đâu không?",
+        options: [
+      { option: "he is", isCorrect: true },
+      { option: "is he", isCorrect: false },
+      { option: "he be", isCorrect: false },
+      { option: "does he be", isCorrect: false }
+    ],
+        explanationVi: "Câu hỏi gián tiếp: từ để hỏi + S + V.",
+        category: "Other",
+    },
+    {
+        questionEn: "I wonder why ____ crying.",
+        questionVi: "Tôi tự hỏi tại sao ____ cô ấy lại đang khóc.",
+        options: [
+      { option: "she is", isCorrect: true },
+      { option: "is she", isCorrect: false },
+      { option: "does she", isCorrect: false },
+      { option: "she does", isCorrect: false }
+    ],
+        explanationVi: "Câu hỏi gián tiếp: why + S + V.",
+        category: "Other",
+    },
+    {
+        questionEn: "My shoes are dirty. I need to clean ____.",
+        questionVi: "Giày của tôi bẩn quá. Tôi cần phải làm sạch ____ chúng.",
+        options: [
+      { option: "them", isCorrect: true },
+      { option: "it", isCorrect: false },
+      { option: "they", isCorrect: false },
+      { option: "their", isCorrect: false }
+    ],
+        explanationVi: "'Shoes' số nhiều -> them.",
+        category: "Other",
+    },
+    {
+        questionEn: "Give ____ the book, please.",
+        questionVi: "Làm ơn hãy đưa ____ quyển sách cho tôi.",
+        options: [
+      { option: "me", isCorrect: true },
+      { option: "my", isCorrect: false },
+      { option: "I", isCorrect: false },
+      { option: "mine", isCorrect: false }
+    ],
+        explanationVi: "Tân ngữ 'me'.",
+        category: "Other",
+    },
+    {
+        questionEn: "This house was ____ in 1990.",
+        questionVi: "Ngôi nhà này đã được ____ xây dựng vào năm 1990.",
+        options: [
+      { option: "built", isCorrect: true },
+      { option: "build", isCorrect: false },
+      { option: "building", isCorrect: false },
+      { option: "builder", isCorrect: false }
+    ],
+        explanationVi: "Bị động quá khứ đơn: was built.",
+        category: "Passive Voice (Present Simple)",
+    },
+    {
+        questionEn: "The letter ____ sent yesterday.",
+        questionVi: "Bức thư ____ đã được gửi vào ngày hôm qua.",
+        options: [
+      { option: "was", isCorrect: true },
+      { option: "is", isCorrect: false },
+      { option: "were", isCorrect: false },
+      { option: "are", isCorrect: false }
+    ],
+        explanationVi: "Bị động quá khứ đơn (số ít).",
+        category: "Passive Voice (Present Simple)",
+    },
+    {
+        questionEn: "English ____ spoken all over the world.",
+        questionVi: "Tiếng Anh ____ được nói trên toàn thế giới.",
+        options: [
+      { option: "is", isCorrect: true },
+      { option: "are", isCorrect: false },
+      { option: "was", isCorrect: false },
+      { option: "were", isCorrect: false }
+    ],
+        explanationVi: "Bị động hiện tại đơn.",
+        category: "Passive Voice (Present Simple)",
+    },
+    {
+        questionEn: "I used ____ play football when I was young.",
+        questionVi: "Tôi đã từng ____ chơi bóng đá khi tôi còn nhỏ.",
+        options: [
+      { option: "to", isCorrect: true },
+      { option: "for", isCorrect: false },
+      { option: "in", isCorrect: false },
+      { option: "at", isCorrect: false }
+    ],
+        explanationVi: "Cấu trúc 'used to V' chỉ thói quen trong quá khứ.",
+        category: "Other",
+    },
+    {
+        questionEn: "Didn't you ____ to like tomatoes?",
+        questionVi: "Chẳng phải trước đây bạn ____ từng thích cà chua sao?",
+        options: [
+      { option: "use", isCorrect: true },
+      { option: "used", isCorrect: false },
+      { option: "using", isCorrect: false },
+      { option: "uses", isCorrect: false }
+    ],
+        explanationVi:
+            "Trong câu hỏi/phủ định của 'used to', 'use' về nguyên mẫu.",
+        category: "Other",
+    },
+    {
+        questionEn: "It's time we ____ home.",
+        questionVi: "Đã đến lúc chúng ta ____ phải về nhà rồi.",
+        options: [
+      { option: "went", isCorrect: true },
+      { option: "go", isCorrect: false },
+      { option: "gone", isCorrect: false },
+      { option: "going", isCorrect: false }
+    ],
+        explanationVi: "It's time + S + V(quá khứ giả định).",
+        category: "Other",
+    },
+    {
+        questionEn: "I wish I ____ a rich man.",
+        questionVi: "Tôi ước mình ____ là một người giàu có.",
+        options: [
+      { option: "were", isCorrect: true },
+      { option: "am", isCorrect: false },
+      { option: "was", isCorrect: false },
+      { option: "be", isCorrect: false }
+    ],
+        explanationVi: "Câu ước loại 2 (ngược hiện tại): were (cho mọi ngôi).",
+        category: "Other",
+    },
+    {
+        questionEn: "If only I ____ the answer.",
+        questionVi: "Giá mà tôi ____ biết được câu trả lời.",
+        options: [
+      { option: "knew", isCorrect: true },
+      { option: "know", isCorrect: false },
+      { option: "known", isCorrect: false },
+      { option: "knowing", isCorrect: false }
+    ],
+        explanationVi: "If only + V(quá khứ).",
+        category: "Other",
+    },
+    {
+        questionEn: "He acts as if he ____ the boss.",
+        questionVi: "Anh ta hành động như thể anh ta ____ là sếp vậy.",
+        options: [
+      { option: "were", isCorrect: true },
+      { option: "is", isCorrect: false },
+      { option: "was", isCorrect: false },
+      { option: "be", isCorrect: false }
+    ],
+        explanationVi: "As if + V(quá khứ).",
+        category: "Other",
+    },
+    {
+        questionEn: "Would you mind ____ the window?",
+        questionVi: "Bạn có phiền ____ mở cửa sổ không?",
+        options: [
+      { option: "opening", isCorrect: true },
+      { option: "open", isCorrect: false },
+      { option: "to open", isCorrect: false },
+      { option: "opened", isCorrect: false }
+    ],
+        explanationVi: "Would you mind + V-ing.",
+        category: "Gerunds (V-ing)",
+    },
+    {
+        questionEn: "It's no use ____ to him.",
+        questionVi: "Thật vô ích khi ____ nói chuyện với anh ta.",
+        options: [
+      { option: "talking", isCorrect: true },
+      { option: "talk", isCorrect: false },
+      { option: "to talk", isCorrect: false },
+      { option: "talked", isCorrect: false }
+    ],
+        explanationVi: "It's no use + V-ing.",
+        category: "Gerunds (V-ing)",
+    },
+    {
+        questionEn: "I prefer walking to ____.",
+        questionVi: "Tôi thích đi bộ hơn ____ đi xe.",
+        options: [
+      { option: "driving", isCorrect: true },
+      { option: "drive", isCorrect: false },
+      { option: "drove", isCorrect: false },
+      { option: "driven", isCorrect: false }
+    ],
+        explanationVi: "Prefer V-ing to V-ing.",
+        category: "Gerunds (V-ing)",
+    },
+    {
+        questionEn: "This problem is too difficult for me ____ solve.",
+        questionVi: "Vấn đề này quá khó để tôi ____ có thể giải quyết.",
+        options: [
+      { option: "to", isCorrect: true },
+      { option: "for", isCorrect: false },
+      { option: "with", isCorrect: false },
+      { option: "that", isCorrect: false }
+    ],
+        explanationVi: "Too ... for sb to V.",
+        category: "Infinitives (to V)",
+    },
+    {
+        questionEn: "It was ____ a boring film that I fell asleep.",
+        questionVi: "Đó là một bộ phim ____ tẻ nhạt đến nỗi tôi đã ngủ quên.",
+        options: [
+      { option: "such", isCorrect: true },
+      { option: "so", isCorrect: false },
+      { option: "very", isCorrect: false },
+      { option: "too", isCorrect: false }
+    ],
+        explanationVi: "Such (a/an) + adj + N + that.",
+        category: "Other",
+    },
+    {
+        questionEn: "The soup was ____ hot that I couldn't eat it.",
+        questionVi: "Bát súp ____ nóng đến nỗi tôi không thể ăn được.",
+        options: [
+      { option: "so", isCorrect: true },
+      { option: "such", isCorrect: false },
+      { option: "too", isCorrect: false },
+      { option: "very", isCorrect: false }
+    ],
+        explanationVi: "So + adj + that.",
+        category: "Other",
+    },
+    {
+        questionEn: "Although it rained, ____ we went out.",
+        questionVi: "Mặc dù trời mưa, ____ chúng tôi vẫn đi chơi.",
+        options: [
+      { option: "", isCorrect: true },
+      { option: "but", isCorrect: false },
+      { option: "however", isCorrect: false },
+      { option: "so", isCorrect: false }
+    ],
+        explanationVi: "Although không đi with but ở mệnh đề sau.",
+        category: "Other",
+    },
+    {
+        questionEn: "Because it was raining, ____ we stayed home.",
+        questionVi: "Vì trời mưa, ____ chúng tôi đã ở nhà.",
+        options: [
+      { option: "", isCorrect: true },
+      { option: "so", isCorrect: false },
+      { option: "but", isCorrect: false },
+      { option: "therefore", isCorrect: false }
+    ],
+        explanationVi: "Because không dùng with so.",
+        category: "Other",
+    },
+    {
+        questionEn: "Unless you ____ hard, you will fail.",
+        questionVi: "Trừ khi bạn ____ chăm chỉ, nếu không bạn sẽ thất bại.",
+        options: [
+      { option: "work", isCorrect: true },
+      { option: "don't work", isCorrect: false },
+      { option: "worked", isCorrect: false },
+      { option: "working", isCorrect: false }
+    ],
+        explanationVi: "Unless = If not. Không dùng phủ định sau unless.",
+        category: "Conditional Type 1",
+    },
+    {
+        questionEn: "I ____ my hair cut yesterday.",
+        questionVi: "Hôm qua tôi ____ đã đi cắt tóc.",
+        options: [
+      { option: "had", isCorrect: true },
+      { option: "have", isCorrect: false },
+      { option: "has", isCorrect: false },
+      { option: "having", isCorrect: false }
+    ],
+        explanationVi: "Cấu trúc nhờ vả: have sth done.",
+        category: "Passive Voice (Present Simple)",
+    },
+    {
+        questionEn: "He got his car ____ by a mechanic.",
+        questionVi: "Anh ấy đã nhờ thợ cơ khí ____ sửa xe cho mình.",
+        options: [
+      { option: "repaired", isCorrect: true },
+      { option: "repair", isCorrect: false },
+      { option: "repairing", isCorrect: false },
+      { option: "repairs", isCorrect: false }
+    ],
+        explanationVi: "Get sth done.",
+        category: "Passive Voice (Present Simple)",
+    },
+    {
+        questionEn: "Neither Tom ____ Mary came.",
+        questionVi: "Cả Tom ____ lẫn Mary đều không đến.",
+        options: [
+      { option: "nor", isCorrect: true },
+      { option: "or", isCorrect: false },
+      { option: "and", isCorrect: false },
+      { option: "but", isCorrect: false }
+    ],
+        explanationVi: "Neither ... nor.",
+        category: "Other",
+    },
+    {
+        questionEn: "Either you ____ I have to go.",
+        questionVi: "Hoặc là bạn ____ hoặc là tôi phải đi.",
+        options: [
+      { option: "or", isCorrect: true },
+      { option: "nor", isCorrect: false },
+      { option: "and", isCorrect: false },
+      { option: "but", isCorrect: false }
+    ],
+        explanationVi: "Either ... or.",
+        category: "Other",
+    },
+    {
+        questionEn: "Both John ____ his wife are doctors.",
+        questionVi: "Cả John ____ lẫn vợ anh ấy đều là bác sĩ.",
+        options: [
+      { option: "and", isCorrect: true },
+      { option: "or", isCorrect: false },
+      { option: "but", isCorrect: false },
+      { option: "with", isCorrect: false }
+    ],
+        explanationVi: "Both ... and.",
+        category: "Other",
+    },
+    {
+        questionEn: "Not only my mother ____ my father is happy.",
+        questionVi: "Không chỉ mẹ tôi ____ mà cả bố tôi cũng thấy hạnh phúc.",
+        options: [
+      { option: "but also", isCorrect: true },
+      { option: "but", isCorrect: false },
+      { option: "and", isCorrect: false },
+      { option: "or", isCorrect: false }
+    ],
+        explanationVi: "Not only ... but also.",
+        category: "Other",
+    },
+    {
+        questionEn: "Please turn ____ the light.",
+        questionVi: "Làm ơn hãy tắt ____ đèn đi.",
+        options: [
+      { option: "off", isCorrect: true },
+      { option: "out", isCorrect: false },
+      { option: "of", isCorrect: false },
+      { option: "away", isCorrect: false }
+    ],
+        explanationVi: "Turn off (tắt).",
+        category: "Other",
+    },
+    {
+        questionEn: "Who looks ____ the baby?",
+        questionVi: "Ai là người ____ chăm sóc em bé thế?",
+        options: [
+      { option: "after", isCorrect: true },
+      { option: "for", isCorrect: false },
+      { option: "at", isCorrect: false },
+      { option: "up", isCorrect: false }
+    ],
+        explanationVi: "Look after (chăm sóc).",
+        category: "Other",
+    },
+    {
+        questionEn: "He gave ____ smoking.",
+        questionVi: "Anh ấy đã ____ bỏ thuốc lá.",
+        options: [
+      { option: "up", isCorrect: true },
+      { option: "in", isCorrect: false },
+      { option: "on", isCorrect: false },
+      { option: "off", isCorrect: false }
+    ],
+        explanationVi: "Give up (từ bỏ).",
+        category: "Other",
+    },
+    {
+        questionEn: "I ran ____ an old friend yesterday.",
+        questionVi: "Hôm qua tôi ____ tình cờ gặp lại một người bạn cũ.",
+        options: [
+      { option: "into", isCorrect: true },
+      { option: "out", isCorrect: false },
+      { option: "on", isCorrect: false },
+      { option: "up", isCorrect: false }
+    ],
+        explanationVi: "Run into (tình cờ gặp).",
+        category: "Other",
+    },
+    {
+        questionEn: "We ran ____ of gas.",
+        questionVi: "Chúng tôi đã ____ hết xăng rồi.",
+        options: [
+      { option: "out", isCorrect: true },
+      { option: "in", isCorrect: false },
+      { option: "off", isCorrect: false },
+      { option: "up", isCorrect: false }
+    ],
+        explanationVi: "Run out of (hết).",
+        category: "Other",
+    },
+    {
+        questionEn: "Put ____ your coat, it's cold.",
+        questionVi: "Hãy mặc ____ áo khoác vào, trời lạnh đấy.",
+        options: [
+      { option: "on", isCorrect: true },
+      { option: "in", isCorrect: false },
+      { option: "off", isCorrect: false },
+      { option: "out", isCorrect: false }
+    ],
+        explanationVi: "Put on (mặc vào).",
+        category: "Other",
+    },
+    {
+        questionEn: "Take ____ your shoes.",
+        questionVi: "Hãy cởi ____ giày ra.",
+        options: [
+      { option: "off", isCorrect: true },
+      { option: "out", isCorrect: false },
+      { option: "in", isCorrect: false },
+      { option: "up", isCorrect: false }
+    ],
+        explanationVi: "Take off (cởi ra).",
+        category: "Other",
+    },
+    {
+        questionEn: "Can I try this shirt ____?",
+        questionVi: "Tôi có thể thử ____ chiếc áo này được không?",
+        options: [
+      { option: "on", isCorrect: true },
+      { option: "in", isCorrect: false },
+      { option: "at", isCorrect: false },
+      { option: "up", isCorrect: false }
+    ],
+        explanationVi: "Try on (thử đồ).",
+        category: "Other",
+    },
+    {
+        questionEn: "He is famous ____ his music.",
+        questionVi: "Anh ấy nổi tiếng ____ vì âm nhạc của mình.",
+        options: [
+      { option: "for", isCorrect: true },
+      { option: "with", isCorrect: false },
+      { option: "about", isCorrect: false },
+      { option: "at", isCorrect: false }
+    ],
+        explanationVi: "Famous for.",
+        category: "Other",
+    },
+    {
+        questionEn: "I am fed up ____ his complaints.",
+        questionVi: "Tôi chán ngấy ____ những lời phàn nàn của anh ta rồi.",
+        options: [
+      { option: "with", isCorrect: true },
+      { option: "about", isCorrect: false },
+      { option: "of", isCorrect: false },
+      { option: "on", isCorrect: false }
+    ],
+        explanationVi: "Fed up with (chán ngấy).",
+        category: "Other",
+    },
+    {
+        questionEn: "She is capable ____ doing it.",
+        questionVi: "Cô ấy có khả năng ____ làm việc đó.",
+        options: [
+      { option: "of", isCorrect: true },
+      { option: "for", isCorrect: false },
+      { option: "in", isCorrect: false },
+      { option: "at", isCorrect: false }
+    ],
+        explanationVi: "Capable of.",
+        category: "Other",
+    },
+    {
+        questionEn: "Are you aware ____ the danger?",
+        questionVi: "Bạn có nhận thức được ____ mối nguy hiểm không?",
+        options: [
+      { option: "of", isCorrect: true },
+      { option: "about", isCorrect: false },
+      { option: "with", isCorrect: false },
+      { option: "in", isCorrect: false }
+    ],
+        explanationVi: "Aware of.",
+        category: "Other",
+    },
+    {
+        questionEn: "This book belongs ____ me.",
+        questionVi: "Cuốn sách này thuộc ____ về tôi.",
+        options: [
+      { option: "to", isCorrect: true },
+      { option: "for", isCorrect: false },
+      { option: "with", isCorrect: false },
+      { option: "of", isCorrect: false }
+    ],
+        explanationVi: "Belong to.",
+        category: "Other",
+    },
+    {
+        questionEn: "He apologized ____ being late.",
+        questionVi: "Anh ấy đã xin lỗi ____ vì đến muộn.",
+        options: [
+      { option: "for", isCorrect: true },
+      { option: "to", isCorrect: false },
+      { option: "about", isCorrect: false },
+      { option: "with", isCorrect: false }
+    ],
+        explanationVi: "Apologize for V-ing.",
+        category: "Other",
+    },
+    {
+        questionEn: "I congratulated him ____ passing the exam.",
+        questionVi: "Tôi đã chúc mừng anh ấy ____ vì đã thi đỗ.",
+        options: [
+      { option: "on", isCorrect: true },
+      { option: "for", isCorrect: false },
+      { option: "in", isCorrect: false },
+      { option: "at", isCorrect: false }
+    ],
+        explanationVi: "Congratulate on.",
+        category: "Other",
+    },
+    {
+        questionEn: "Don't worry, I ____ you.",
+        questionVi: "Đừng lo, tôi ____ bạn.",
+        options: [
+      { option: "help", isCorrect: false },
+      { option: "will help", isCorrect: true },
+      { option: "helping", isCorrect: false },
+      { option: "helped", isCorrect: false }
+    ],
+        explanationVi: "Sử dụng 'will' để hứa hẹn hoặc đề nghị giúp đỡ.",
+        category: "Future Simple (Will)",
+    },
+    {
+        questionEn: "Look! He ____ fall.",
+        questionVi: "Nhìn kìa! Anh ấy ____ ngã.",
+        options: [
+      { option: "will", isCorrect: false },
+      { option: "is going to", isCorrect: true },
+      { option: "goes to", isCorrect: false },
+      { option: "go", isCorrect: false }
+    ],
+        explanationVi:
+            "Dự đoán dựa trên bằng chứng (Nhìn kìa!) -> Cấu trúc Be going to.",
+        category: "Near Future (Be going to)",
+    },
+];
+
+export default questions;

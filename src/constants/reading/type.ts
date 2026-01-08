@@ -6,8 +6,10 @@ export interface ReadingPassage {
   passage: string;
   questions: {
     question: string;
-    options: string[];
-    correct: number;
+    options: {
+      isCorrect: boolean;
+      option: string;
+    }[];
     explanation: string;
   }[];
 }

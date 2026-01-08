@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
 import { GrammarTopic } from "@/constants/grammarTopics";
-import { questions as allQuestions } from "@/constants/quizQuestions";
+import { questions as allQuestions } from "@/constants/quiz-question";
 
 interface QuizSectionProps {
   topic: GrammarTopic;
@@ -81,7 +81,7 @@ export function QuizSection({ topic }: QuizSectionProps) {
     );
   }
 
-  const isCorrect = selectedOption === currentQuestion.correct;
+  const isCorrect = selectedOption !== null && currentQuestion.options[selectedOption].isCorrect;
 
   return (
     <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
@@ -133,25 +133,25 @@ export function QuizSection({ topic }: QuizSectionProps) {
                   ? "border-primary bg-primary/10"
                   : "border-white/10 hover:border-white/20 hover:bg-white/5",
                 isSubmitted &&
-                  index === currentQuestion.correct &&
-                  "border-green-500 bg-green-500/10",
+                option.isCorrect &&
+                "border-green-500 bg-green-500/10",
                 isSubmitted &&
-                  selectedOption === index &&
-                  index !== currentQuestion.correct &&
-                  "border-red-500 bg-red-500/10",
+                selectedOption === index &&
+                !option.isCorrect &&
+                "border-red-500 bg-red-500/10",
                 isSubmitted &&
-                  index !== currentQuestion.correct &&
-                  index !== selectedOption &&
-                  "opacity-50"
+                !option.isCorrect &&
+                index !== selectedOption &&
+                "opacity-50"
               )}
             >
-              <span>{option}</span>
-              {isSubmitted && index === currentQuestion.correct && (
+              <span>{option.option}</span>
+              {isSubmitted && option.isCorrect && (
                 <CheckCircle2 className="w-5 h-5 text-green-500" />
               )}
               {isSubmitted &&
                 selectedOption === index &&
-                index !== currentQuestion.correct && (
+                !option.isCorrect && (
                   <XCircle className="w-5 h-5 text-red-500" />
                 )}
             </button>

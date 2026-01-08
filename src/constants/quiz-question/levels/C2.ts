@@ -1,0 +1,1191 @@
+import { Question } from '../types';
+
+export const questions: Question[] = [
+    {
+        questionEn: "Had it not been for the alarm, I ____ slept.",
+        questionVi:
+            "Nếu không nhờ có tiếng chuông báo thức, tôi ____ đã ngủ quên rồi.",
+        options: [
+      { option: "would have", isCorrect: true },
+      { option: "would", isCorrect: false },
+      { option: "had", isCorrect: false },
+      { option: "will have", isCorrect: false }
+    ],
+        explanationVi: "Đảo ngữ câu điều kiện loại 3 (Had it not been for).",
+        category: "Other",
+    },
+    {
+        questionEn: "So great ____ the demand that we sold out.",
+        questionVi: "Nhu cầu ____ lớn đến nỗi chúng tôi đã bán sạch hàng.",
+        options: [
+      { option: "was", isCorrect: true },
+      { option: "is", isCorrect: false },
+      { option: "did", isCorrect: false },
+      { option: "were", isCorrect: false }
+    ],
+        explanationVi: "Đảo ngữ với So + adj.",
+        category: "Other",
+    },
+    {
+        questionEn: "Such ____ the noise that I couldn't hear.",
+        questionVi: "Tiếng ồn ____ lớn đến nỗi tôi không thể nghe thấy gì cả.",
+        options: [
+      { option: "was", isCorrect: true },
+      { option: "is", isCorrect: false },
+      { option: "did", isCorrect: false },
+      { option: "were", isCorrect: false }
+    ],
+        explanationVi: "Đảo ngữ với Such + be + N.",
+        category: "Other",
+    },
+    {
+        questionEn: "Rarely ____ visited by such a dignitary.",
+        questionVi: "Hiếm khi ____ chúng ta được một vị chức sắc như vậy đến thăm.",
+        options: [
+      { option: "have we been", isCorrect: true },
+      { option: "we have been", isCorrect: false },
+      { option: "did we be", isCorrect: false },
+      { option: "we were", isCorrect: false }
+    ],
+        explanationVi: "Đảo ngữ với Rarely (passive).",
+        category: "Other",
+    },
+    {
+        questionEn: "Not for a moment ____ I suspect him.",
+        questionVi: "Chưa một giây phút nào ____ tôi nghi ngờ anh ta.",
+        options: [
+      { option: "did", isCorrect: true },
+      { option: "do", isCorrect: false },
+      { option: "have", isCorrect: false },
+      { option: "am", isCorrect: false }
+    ],
+        explanationVi: "Đảo ngữ Not for a moment.",
+        category: "Other",
+    },
+    {
+        questionEn: "Only when ____ the report did I understand.",
+        questionVi: "Chỉ khi ____ đọc xong báo cáo, tôi mới hiểu ra vấn đề.",
+        options: [
+      { option: "I had read", isCorrect: true },
+      { option: "I read", isCorrect: false },
+      { option: "did I read", isCorrect: false },
+      { option: "had I read", isCorrect: false }
+    ],
+        explanationVi: "Only when + clause (normal order) + auxiliary + S + V.",
+        category: "Other",
+    },
+    {
+        questionEn: "____ I to accept the offer, I would move.",
+        questionVi: "Nếu ____ tôi chấp nhận lời đề nghị đó, tôi sẽ chuyển đi nơi khác.",
+        options: [
+      { option: "Were", isCorrect: true },
+      { option: "Was", isCorrect: false },
+      { option: "If", isCorrect: false },
+      { option: "Had", isCorrect: false }
+    ],
+        explanationVi: "Đảo ngữ điều kiện loại 2: Were + S + to V.",
+        category: "Other",
+    },
+    {
+        questionEn: "Should you ____ change your mind, let me know.",
+        questionVi: "Nếu bạn ____ có thay đổi ý định, hãy cho tôi biết nhé.",
+        options: [
+      { option: "happen to", isCorrect: true },
+      { option: "happened to", isCorrect: false },
+      { option: "happens to", isCorrect: false },
+      { option: "happening to", isCorrect: false }
+    ],
+        explanationVi: "Should you happen to V.",
+        category: "Should / Ought to",
+    },
+    {
+        questionEn: "If I ____ to have known, I would have acted.",
+        questionVi: "Nếu ____ tôi mà biết được chuyện đó, tôi đã hành động rồi.",
+        options: [
+      { option: "was", isCorrect: false },
+      { option: "were", isCorrect: true },
+      { option: "am", isCorrect: false },
+      { option: "had", isCorrect: false }
+    ],
+        explanationVi: "If I were to have known (hypothetical past).",
+        category: "First Conditional",
+    },
+    {
+        questionEn: "Suppose he ____ you, what would you say?",
+        questionVi: "Giả sử anh ta ____ hỏi bạn, bạn sẽ nói gì?",
+        options: [
+      { option: "asking", isCorrect: false },
+      { option: "asked", isCorrect: true },
+      { option: "ask", isCorrect: false },
+      { option: "asks", isCorrect: false }
+    ],
+        explanationVi: "Suppose (that) he asked (hypothetical).",
+        category: "First Conditional",
+    },
+    {
+        questionEn: "It is essential that he ____ immediately.",
+        questionVi:
+            "Việc anh ấy ____ phải được thông báo ngay lập tức là rất quan trọng.",
+        options: [
+      { option: "be informed", isCorrect: true },
+      { option: "is informed", isCorrect: false },
+      { option: "was informed", isCorrect: false },
+      { option: "informed", isCorrect: false }
+    ],
+        explanationVi: "Subjunctive passive: be informed.",
+        category: "Other",
+    },
+    {
+        questionEn: "I proposed that the meeting ____ postponed.",
+        questionVi: "Tôi đề nghị rằng cuộc họp ____ cần được hoãn lại.",
+        options: [
+      { option: "be", isCorrect: true },
+      { option: "is", isCorrect: false },
+      { option: "was", isCorrect: false },
+      { option: "been", isCorrect: false }
+    ],
+        explanationVi: "Subjunctive passive.",
+        category: "Other",
+    },
+    {
+        questionEn: "The building is reported ____ destroyed.",
+        questionVi: "Tòa nhà được báo cáo là ____ đã bị phá hủy.",
+        options: [
+      { option: "to have been", isCorrect: true },
+      { option: "to be", isCorrect: false },
+      { option: "having been", isCorrect: false },
+      { option: "being", isCorrect: false }
+    ],
+        explanationVi: "Passive infinitive perfect: to have been V3.",
+        category: "Passive Voice (Present Simple)",
+    },
+    {
+        questionEn: "He is said ____ working on a new book.",
+        questionVi: "Người ta nói rằng anh ấy ____ đang thực hiện một cuốn sách mới.",
+        options: [
+      { option: "to be", isCorrect: true },
+      { option: "to have been", isCorrect: false },
+      { option: "being", isCorrect: false },
+      { option: "having been", isCorrect: false }
+    ],
+        explanationVi: "Passive infinitive continuous.",
+        category: "Passive Voice (Present Simple)",
+    },
+    {
+        questionEn: "She is alleged ____ the money.",
+        questionVi: "Cô ấy ____ bị cáo buộc là đã lấy trộm số tiền đó.",
+        options: [
+      { option: "to have stolen", isCorrect: true },
+      { option: "staling", isCorrect: false },
+      { option: "stolen", isCorrect: false },
+      { option: "steal", isCorrect: false }
+    ],
+        explanationVi: "Passive infinitive perfect.",
+        category: "Passive Voice (Present Simple)",
+    },
+    {
+        questionEn: "There is no ____ what will happen.",
+        questionVi: "Không thể ____ biết được chuyện gì sẽ xảy ra.",
+        options: [
+      { option: "knowing", isCorrect: true },
+      { option: "knowledge", isCorrect: false },
+      { option: "know", isCorrect: false },
+      { option: "known", isCorrect: false }
+    ],
+        explanationVi: "There is no knowing.",
+        category: "Other",
+    },
+    {
+        questionEn: "It goes without ____ that health is wealth.",
+        questionVi: "Không cần ____ phải nói cũng biết sức khỏe là vốn quý nhất.",
+        options: [
+      { option: "saying", isCorrect: true },
+      { option: "say", isCorrect: false },
+      { option: "said", isCorrect: false },
+      { option: "to say", isCorrect: false }
+    ],
+        explanationVi: "It goes without saying.",
+        category: "Other",
+    },
+    {
+        questionEn: "I can't help but ____.",
+        questionVi: "Tôi không thể ____ không thắc mắc được.",
+        options: [
+      { option: "wonder", isCorrect: true },
+      { option: "wondering", isCorrect: false },
+      { option: "to wonder", isCorrect: false },
+      { option: "wondered", isCorrect: false }
+    ],
+        explanationVi: "Can't help but + V (nguyên thể).",
+        category: "Other",
+    },
+    {
+        questionEn: "I would rather you ____ yesterday.",
+        questionVi: "Tôi muốn là bạn ____ đã không gọi cho tôi vào ngày hôm qua.",
+        options: [
+      { option: "hadn't called", isCorrect: true },
+      { option: "didn't call", isCorrect: false },
+      { option: "not call", isCorrect: false },
+      { option: "don't call", isCorrect: false }
+    ],
+        explanationVi: "Would rather + S + QKHT (trái với quá khứ).",
+        category: "Other",
+    },
+    {
+        questionEn: "It is time you ____ home.",
+        questionVi: "Đã đến lúc bạn ____ phải về nhà rồi.",
+        options: [
+      { option: "went", isCorrect: true },
+      { option: "go", isCorrect: false },
+      { option: "gone", isCorrect: false },
+      { option: "going", isCorrect: false }
+    ],
+        explanationVi: "It is time + past subjunctive.",
+        category: "Other",
+    },
+    {
+        questionEn: "I prefer ____ rather than watch TV.",
+        questionVi: "Tôi thích ____ đọc sách hơn là xem TV.",
+        options: [
+      { option: "to read", isCorrect: true },
+      { option: "reading", isCorrect: false },
+      { option: "read", isCorrect: false },
+      { option: "reads", isCorrect: false }
+    ],
+        explanationVi: "Prefer to V rather than V.",
+        category: "Gerunds & Infinitives",
+    },
+    {
+        questionEn: "He objects to ____ like a child.",
+        questionVi: "Anh ấy phản đối ____ việc bị đối xử như một đứa trẻ.",
+        options: [
+      { option: "being treated", isCorrect: true },
+      { option: "treat", isCorrect: false },
+      { option: "treating", isCorrect: false },
+      { option: "be treated", isCorrect: false }
+    ],
+        explanationVi: "Object to + V-ing (passive).",
+        category: "Gerunds & Infinitives",
+    },
+    {
+        questionEn: "I look forward to ____ acceptable.",
+        questionVi: "Tôi mong ____ sẽ được xem xét là người phù hợp.",
+        options: [
+      { option: "being considered", isCorrect: true },
+      { option: "consider", isCorrect: false },
+      { option: "considering", isCorrect: false },
+      { option: "be considered", isCorrect: false }
+    ],
+        explanationVi: "Look forward to being V3.",
+        category: "Gerunds & Infinitives",
+    },
+    {
+        questionEn: "Despite ____ elected, he resigned.",
+        questionVi: "Mặc dù ____ đã đắc cử, ông ấy vẫn từ chức.",
+        options: [
+      { option: "having been", isCorrect: true },
+      { option: "being", isCorrect: false },
+      { option: "been", isCorrect: false },
+      { option: "have been", isCorrect: false }
+    ],
+        explanationVi: "Perfect participle passive: Having been V3.",
+        category: "Gerunds & Infinitives",
+    },
+    {
+        questionEn: "____ warned, he persisted.",
+        questionVi:
+            "Mặc dù ____ đã được cảnh báo, anh ta vẫn khăng khăng làm theo ý mình.",
+        options: [
+      { option: "Having been", isCorrect: true },
+      { option: "Being", isCorrect: false },
+      { option: "Been", isCorrect: false },
+      { option: "Have been", isCorrect: false }
+    ],
+        explanationVi: "Perfect participle passive.",
+        category: "Gerunds & Infinitives",
+    },
+    {
+        questionEn: "Buying a house involves ____ a mortgage.",
+        questionVi: "Mua nhà ____ bao gồm cả việc phải gánh một khoản nợ thế chấp.",
+        options: [
+      { option: "getting", isCorrect: true },
+      { option: "to get", isCorrect: false },
+      { option: "get", isCorrect: false },
+      { option: "got", isCorrect: false }
+    ],
+        explanationVi: "Involve + V-ing.",
+        category: "Gerunds & Infinitives",
+    },
+    {
+        questionEn: "It is no use ____ over spilt milk.",
+        questionVi: "Thật vô ích khi ____ phải hối tiếc về những gì đã trôi qua.",
+        options: [
+      { option: "crying", isCorrect: true },
+      { option: "cry", isCorrect: false },
+      { option: "to cry", isCorrect: false },
+      { option: "cried", isCorrect: false }
+    ],
+        explanationVi: "Idiom.",
+        category: "Other",
+    },
+    {
+        questionEn: "There's no point ____ him.",
+        questionVi: "Chẳng ích gì khi ____ hỏi anh ta cả.",
+        options: [
+      { option: "asking", isCorrect: true },
+      { option: "ask", isCorrect: false },
+      { option: "to ask", isCorrect: false },
+      { option: "asked", isCorrect: false }
+    ],
+        explanationVi: "There is no point asking.",
+        category: "Gerunds & Infinitives",
+    },
+    {
+        questionEn: "It is worth ____ a try.",
+        questionVi: "Rất đáng ____ để thử một lần.",
+        options: [
+      { option: "giving", isCorrect: true },
+      { option: "give", isCorrect: false },
+      { option: "to give", isCorrect: false },
+      { option: "given", isCorrect: false }
+    ],
+        explanationVi: "Worth giving.",
+        category: "Gerunds & Infinitives",
+    },
+    {
+        questionEn: "I have trouble ____ my keys.",
+        questionVi: "Tôi gặp rắc rối trong ____ việc tìm chìa khóa của mình.",
+        options: [
+      { option: "finding", isCorrect: true },
+      { option: "find", isCorrect: false },
+      { option: "to find", isCorrect: false },
+      { option: "found", isCorrect: false }
+    ],
+        explanationVi: "Have trouble V-ing.",
+        category: "Gerunds & Infinitives",
+    },
+    {
+        questionEn: "She admitted ____ a mistake.",
+        questionVi: "Cô ấy đã thừa nhận ____ là mình đã phạm sai lầm.",
+        options: [
+      { option: "having made", isCorrect: true },
+      { option: "making", isCorrect: false },
+      { option: "make", isCorrect: false },
+      { option: "made", isCorrect: false }
+    ],
+        explanationVi: "Admit having V3 (emphasis on completeness).",
+        category: "Gerunds & Infinitives",
+    },
+    {
+        questionEn: "He denied ____ the crime.",
+        questionVi: "Anh ta đã phủ nhận ____ việc phạm tội.",
+        options: [
+      { option: "having committed", isCorrect: true },
+      { option: "committing", isCorrect: false },
+      { option: "commit", isCorrect: false },
+      { option: "committed", isCorrect: false }
+    ],
+        explanationVi: "Deny having V3.",
+        category: "Gerunds & Infinitives",
+    },
+    {
+        questionEn: "I regret ____ your feelings.",
+        questionVi: "Tôi hối hận vì ____ đã làm tổn thương cảm xúc của bạn.",
+        options: [
+      { option: "having hurt", isCorrect: true },
+      { option: "hurting", isCorrect: false },
+      { option: "hurt", isCorrect: false },
+      { option: "to hurt", isCorrect: false }
+    ],
+        explanationVi: "Regret having V3.",
+        category: "Gerunds & Infinitives",
+    },
+    {
+        questionEn: "He was accused of ____ documents.",
+        questionVi: "Anh ta đã bị cáo buộc là ____ làm giả giấy tờ.",
+        options: [
+      { option: "having forged", isCorrect: true },
+      { option: "forging", isCorrect: false },
+      { option: "forge", isCorrect: false },
+      { option: "forged", isCorrect: false }
+    ],
+        explanationVi: "Accused of having V3.",
+        category: "Gerunds & Infinitives",
+    },
+    {
+        questionEn: "____ the work, he rested.",
+        questionVi: "Sau khi ____ làm xong việc, anh ấy đã nghỉ ngơi.",
+        options: [
+      { option: "Having done", isCorrect: true },
+      { option: "Doing", isCorrect: false },
+      { option: "Done", isCorrect: false },
+      { option: "Do", isCorrect: false }
+    ],
+        explanationVi: "Having done (active).",
+        category: "Gerunds & Infinitives",
+    },
+    {
+        questionEn: "The book, ____ in 1990, is a classic.",
+        questionVi:
+            "Cuốn sách ____ được viết vào năm 1990, là một tác phẩm kinh điển.",
+        options: [
+      { option: "written", isCorrect: true },
+      { option: "writing", isCorrect: false },
+      { option: "wrote", isCorrect: false },
+      { option: "write", isCorrect: false }
+    ],
+        explanationVi: "Past participle phrase.",
+        category: "Other",
+    },
+    {
+        questionEn: "The man ____ over there is my boss.",
+        questionVi: "Người đàn ông ____ đang đứng ở đằng kia là sếp của tôi.",
+        options: [
+      { option: "standing", isCorrect: true },
+      { option: "stood", isCorrect: false },
+      { option: "stands", isCorrect: false },
+      { option: "stand", isCorrect: false }
+    ],
+        explanationVi: "Present participle phrase.",
+        category: "Other",
+    },
+    {
+        questionEn: "Strictly ____, spiders are not insects.",
+        questionVi: "Nói ____ một cách chính xác thì nhện không phải là côn trùng.",
+        options: [
+      { option: "speaking", isCorrect: true },
+      { option: "speak", isCorrect: false },
+      { option: "spoken", isCorrect: false },
+      { option: "spoke", isCorrect: false }
+    ],
+        explanationVi: "Strictly speaking.",
+        category: "Other",
+    },
+    {
+        questionEn: "Granted that he is old, ____ he is strong.",
+        questionVi: "Cứ cho là ông ấy đã già, ____ nhưng ông ấy vẫn rất khỏe.",
+        options: [
+      { option: "yet", isCorrect: true },
+      { option: "so", isCorrect: false },
+      { option: "but", isCorrect: false },
+      { option: "and", isCorrect: false }
+    ],
+        explanationVi: "Granted that ... yet ...",
+        category: "Other",
+    },
+    {
+        questionEn: "Seeing that you are here, ____ start.",
+        questionVi: "Xét thấy bạn đang ở đây, chúng ta ____ hãy bắt đầu thôi.",
+        options: [
+      { option: "let's", isCorrect: true },
+      { option: "we", isCorrect: false },
+      { option: "shall", isCorrect: false },
+      { option: "will", isCorrect: false }
+    ],
+        explanationVi: "Seeing that (Considering that).",
+        category: "Other",
+    },
+    {
+        questionEn: "Given the circumstances, we ____ wait.",
+        questionVi: "Dựa trên hoàn cảnh này, chúng ta ____ nên chờ đợi.",
+        options: [
+      { option: "must", isCorrect: true },
+      { option: "can", isCorrect: false },
+      { option: "shall", isCorrect: false },
+      { option: "will", isCorrect: false }
+    ],
+        explanationVi: "Given the circumstances.",
+        category: "Other",
+    },
+    {
+        questionEn: "____ for his help, I would have failed.",
+        questionVi:
+            "Nếu ____ không nhờ có sự giúp đỡ của anh ấy, tôi đã thất bại rồi.",
+        options: [
+      { option: "But", isCorrect: true },
+      { option: "If", isCorrect: false },
+      { option: "Only", isCorrect: false },
+      { option: "Except", isCorrect: false }
+    ],
+        explanationVi: "But for.",
+        category: "First Conditional",
+    },
+    {
+        questionEn: "____ I known, I would have come.",
+        questionVi: "Phải ____ chi tôi biết chuyện, tôi đã đến rồi.",
+        options: [
+      { option: "Had", isCorrect: true },
+      { option: "If", isCorrect: false },
+      { option: "Did", isCorrect: false },
+      { option: "Have", isCorrect: false }
+    ],
+        explanationVi: "Had I known.",
+        category: "Other",
+    },
+    {
+        questionEn: "On no account ____ you tell him.",
+        questionVi:
+            "Dù trong bất kỳ hoàn cảnh nào, bạn ____ không được nói cho anh ta biết.",
+        options: [
+      { option: "must", isCorrect: true },
+      { option: "should", isCorrect: false },
+      { option: "do", isCorrect: false },
+      { option: "have", isCorrect: false }
+    ],
+        explanationVi: "On no account must you.",
+        category: "Other",
+    },
+    {
+        questionEn: "Whatever the reason ____ be, I don't care.",
+        questionVi:
+            "Dù cho lý do ____ có là gì đi chăng nữa, tôi cũng không quan tâm.",
+        options: [
+      { option: "may", isCorrect: true },
+      { option: "can", isCorrect: false },
+      { option: "will", isCorrect: false },
+      { option: "must", isCorrect: false }
+    ],
+        explanationVi: "Whatever the reason may be.",
+        category: "Other",
+    },
+    {
+        questionEn: "Be that ____, I disagree.",
+        questionVi: "Dù ____ có là như vậy đi nữa, tôi vẫn không đồng ý.",
+        options: [
+      { option: "as it may", isCorrect: true },
+      { option: "so", isCorrect: false },
+      { option: "if", isCorrect: false },
+      { option: "when", isCorrect: false }
+    ],
+        explanationVi: "Be that as it may.",
+        category: "Other",
+    },
+    {
+        questionEn: "Come ____ may, I'll stay.",
+        questionVi: "Cho dù chuyện gì ____ có xảy ra đi nữa, tôi vẫn sẽ ở lại.",
+        options: [
+      { option: "what", isCorrect: true },
+      { option: "when", isCorrect: false },
+      { option: "who", isCorrect: false },
+      { option: "which", isCorrect: false }
+    ],
+        explanationVi: "Come what may.",
+        category: "Who vs Which",
+    },
+    {
+        questionEn: "____ it to say, he failed.",
+        questionVi: "Chỉ ____ cần nói là anh ta đã thất bại.",
+        options: [
+      { option: "Suffice", isCorrect: true },
+      { option: "Suffices", isCorrect: false },
+      { option: "Sufficed", isCorrect: false },
+      { option: "Sufficing", isCorrect: false }
+    ],
+        explanationVi: "Suffice it to say.",
+        category: "Other",
+    },
+    {
+        questionEn: "God ____ you!",
+        questionVi: "Cầu Chúa ____ phù hộ cho bạn!",
+        options: [
+      { option: "bless", isCorrect: true },
+      { option: "blesses", isCorrect: false },
+      { option: "blessed", isCorrect: false },
+      { option: "blessing", isCorrect: false }
+    ],
+        explanationVi: "God bless.",
+        category: "Other",
+    },
+    {
+        questionEn: "Long ____ the King!",
+        questionVi: "Đức vua ____ vạn tuế!",
+        options: [
+      { option: "live", isCorrect: true },
+      { option: "lives", isCorrect: false },
+      { option: "lived", isCorrect: false },
+      { option: "living", isCorrect: false }
+    ],
+        explanationVi: "Long live.",
+        category: "Other",
+    },
+    {
+        questionEn: "I suggest he ____ a doctor.",
+        questionVi: "Tôi đề nghị anh ấy ____ nên đi khám bác sĩ.",
+        options: [
+      { option: "see", isCorrect: true },
+      { option: "sees", isCorrect: false },
+      { option: "seen", isCorrect: false },
+      { option: "saw", isCorrect: false }
+    ],
+        explanationVi: "Suggest he see (subjunctive).",
+        category: "Other",
+    },
+    {
+        questionEn: "If need ____, I'll go.",
+        questionVi: "Nếu cần ____ thiết, tôi sẽ đi.",
+        options: [
+      { option: "be", isCorrect: true },
+      { option: "is", isCorrect: false },
+      { option: "was", isCorrect: false },
+      { option: "were", isCorrect: false }
+    ],
+        explanationVi: "If need be.",
+        category: "Other",
+    },
+    {
+        questionEn: "As it ____, we are winning.",
+        questionVi: "Cứ như ____ là vậy, chúng ta đang chiến thắng.",
+        options: [
+      { option: "were", isCorrect: true },
+      { option: "is", isCorrect: false },
+      { option: "was", isCorrect: false },
+      { option: "be", isCorrect: false }
+    ],
+        explanationVi: "As it were (idiom: so to speak).",
+        category: "Other",
+    },
+    {
+        questionEn: "If I were ____ fly, I would.",
+        questionVi: "Nếu tôi ____ biết bay, tôi sẽ làm vậy.",
+        options: [
+      { option: "to", isCorrect: true },
+      { option: "for", isCorrect: false },
+      { option: "with", isCorrect: false },
+      { option: "at", isCorrect: false }
+    ],
+        explanationVi: "If I were to fly.",
+        category: "First Conditional",
+    },
+    {
+        questionEn: "Suppose you ____ won, what then?",
+        questionVi: "Giả sử bạn ____ đã thắng, thì sau đó thế nào?",
+        options: [
+      { option: "had", isCorrect: true },
+      { option: "have", isCorrect: false },
+      { option: "has", isCorrect: false },
+      { option: "did", isCorrect: false }
+    ],
+        explanationVi: "Suppose you had won (past hypothetical).",
+        category: "First Conditional",
+    },
+    {
+        questionEn: "I wish I ____ born rich.",
+        questionVi: "Tôi ước gì mình ____ đã sinh ra trong giàu sang.",
+        options: [
+      { option: "had been", isCorrect: true },
+      { option: "was", isCorrect: false },
+      { option: "were", isCorrect: false },
+      { option: "have been", isCorrect: false }
+    ],
+        explanationVi: "Wish had been.",
+        category: "First Conditional",
+    },
+    {
+        questionEn: "If only I ____ listened.",
+        questionVi: "Giá mà tôi ____ đã chịu lắng nghe.",
+        options: [
+      { option: "had", isCorrect: true },
+      { option: "have", isCorrect: false },
+      { option: "did", isCorrect: false },
+      { option: "was", isCorrect: false }
+    ],
+        explanationVi: "If only I had.",
+        category: "First Conditional",
+    },
+    {
+        questionEn: "I prefer that he ____ nothing.",
+        questionVi: "Tôi muốn anh ấy ____ đừng làm gì cả.",
+        options: [
+      { option: "do", isCorrect: true },
+      { option: "does", isCorrect: false },
+      { option: "did", isCorrect: false },
+      { option: "done", isCorrect: false }
+    ],
+        explanationVi: "Prefer that he do (subjunctive).",
+        category: "Other",
+    },
+    {
+        questionEn: "Request that she ____ allowed.",
+        questionVi: "Yêu cầu cô ấy ____ phải được phép.",
+        options: [
+      { option: "be", isCorrect: true },
+      { option: "is", isCorrect: false },
+      { option: "was", isCorrect: false },
+      { option: "been", isCorrect: false }
+    ],
+        explanationVi: "Request that she be.",
+        category: "Other",
+    },
+    {
+        questionEn: "It is vital that he ____ informed.",
+        questionVi: "Điều quan trọng là anh ấy ____ phải được thông báo.",
+        options: [
+      { option: "be", isCorrect: true },
+      { option: "is", isCorrect: false },
+      { option: "was", isCorrect: false },
+      { option: "been", isCorrect: false }
+    ],
+        explanationVi: "Vital that he be.",
+        category: "Other",
+    },
+    {
+        questionEn: "Lest he ____ forget, remind him.",
+        questionVi:
+            "Để phòng trường hợp anh ấy ____ quên, hãy nhắc nhở anh ấy nhé.",
+        options: [
+      { option: "should", isCorrect: true },
+      { option: "would", isCorrect: false },
+      { option: "could", isCorrect: false },
+      { option: "might", isCorrect: false }
+    ],
+        explanationVi: "Lest he should.",
+        category: "Other",
+    },
+    {
+        questionEn: "For fear that he ____ fall.",
+        questionVi: "Vì sợ rằng anh ta ____ có thể bị ngã.",
+        options: [
+      { option: "might", isCorrect: true },
+      { option: "will", isCorrect: false },
+      { option: "can", isCorrect: false },
+      { option: "may", isCorrect: false }
+    ],
+        explanationVi: "For fear that he might.",
+        category: "Other",
+    },
+    {
+        questionEn: "Whether it ____ true or not, it's funny.",
+        questionVi: "Dù điều đó ____ có là thật hay không, nó vẫn thật buồn cười.",
+        options: [
+      { option: "be", isCorrect: true },
+      { option: "is", isCorrect: false },
+      { option: "was", isCorrect: false },
+      { option: "were", isCorrect: false }
+    ],
+        explanationVi: "Whether it be (subjunctive).",
+        category: "Other",
+    },
+    {
+        questionEn: "Truth ____ told, I hate it.",
+        questionVi: "Thú thực ____ là tôi ghét nó.",
+        options: [
+      { option: "be", isCorrect: true },
+      { option: "is", isCorrect: false },
+      { option: "was", isCorrect: false },
+      { option: "were", isCorrect: false }
+    ],
+        explanationVi: "Truth be told.",
+        category: "Other",
+    },
+    {
+        questionEn: "Far ____ it from me to criticize.",
+        questionVi: "Tôi ____ không hề có ý định chỉ trích đâu.",
+        options: [
+      { option: "be", isCorrect: true },
+      { option: "is", isCorrect: false },
+      { option: "was", isCorrect: false },
+      { option: "were", isCorrect: false }
+    ],
+        explanationVi: "Far be it from me.",
+        category: "Other",
+    },
+    {
+        questionEn: "____ it so.",
+        questionVi: "Cứ ____ quyết định như vậy đi.",
+        options: [
+      { option: "So be", isCorrect: true },
+      { option: "Be so", isCorrect: false },
+      { option: "Is so", isCorrect: false },
+      { option: "So is", isCorrect: false }
+    ],
+        explanationVi: "So be it.",
+        category: "Other",
+    },
+    {
+        questionEn: "Manner ____, he is rude.",
+        questionVi: "Gác chuyện thái ____ độ sang một bên, anh ta thật thô lỗ.",
+        options: [
+      { option: "aside", isCorrect: true },
+      { option: "apart", isCorrect: false },
+      { option: "away", isCorrect: false },
+      { option: "off", isCorrect: false }
+    ],
+        explanationVi: "Manner aside (Gác chuyện thái độ sang một bên).",
+        category: "Other",
+    },
+    {
+        questionEn: "Joking ____, be serious.",
+        questionVi: "Gác chuyện đùa ____ cợt sang một bên, hãy nghiêm túc nào.",
+        options: [
+      { option: "apart", isCorrect: true },
+      { option: "aside", isCorrect: false },
+      { option: "away", isCorrect: false },
+      { option: "off", isCorrect: false }
+    ],
+        explanationVi: "Joking apart/aside.",
+        category: "Other",
+    },
+    {
+        questionEn: "All things ____, it's good.",
+        questionVi: "Sau khi ____ cân nhắc mọi thứ, nó vẫn là tốt.",
+        options: [
+      { option: "considered", isCorrect: true },
+      { option: "considering", isCorrect: false },
+      { option: "consider", isCorrect: false },
+      { option: "considers", isCorrect: false }
+    ],
+        explanationVi: "All things considered.",
+        category: "Other",
+    },
+    {
+        questionEn: "That ____ said, I agree.",
+        questionVi: "Nói ____ là vậy, nhưng tôi đồng ý.",
+        options: [
+      { option: "being", isCorrect: true },
+      { option: "been", isCorrect: false },
+      { option: "be", isCorrect: false },
+      { option: "is", isCorrect: false }
+    ],
+        explanationVi: "That being said.",
+        category: "Other",
+    },
+    {
+        questionEn: "Weather ____, we'll go.",
+        questionVi: "Nếu thời ____ tiết cho phép, chúng tôi sẽ đi.",
+        options: [
+      { option: "permitting", isCorrect: true },
+      { option: "permits", isCorrect: false },
+      { option: "permitted", isCorrect: false },
+      { option: "permit", isCorrect: false }
+    ],
+        explanationVi: "Weather permitting.",
+        category: "Other",
+    },
+    {
+        questionEn: "God ____, we will succeed.",
+        questionVi: "Nếu ý ____ Chúa muốn, chúng ta sẽ thành công.",
+        options: [
+      { option: "willing", isCorrect: true },
+      { option: "wills", isCorrect: false },
+      { option: "willed", isCorrect: false },
+      { option: "will", isCorrect: false }
+    ],
+        explanationVi: "God willing.",
+        category: "Other",
+    },
+    {
+        questionEn: "Not ____ the point, but...",
+        questionVi: "Không ____ muốn nói dông dài, nhưng...",
+        options: [
+      { option: "to labour", isCorrect: true },
+      { option: "labouring", isCorrect: false },
+      { option: "labour", isCorrect: false },
+      { option: "laboured", isCorrect: false }
+    ],
+        explanationVi: "Not to labour the point.",
+        category: "Other",
+    },
+    {
+        questionEn: "To ____ it mildly, it was bad.",
+        questionVi: "Nói ____ một cách nhẹ nhàng thì nó thật tệ.",
+        options: [
+      { option: "put", isCorrect: true },
+      { option: "say", isCorrect: false },
+      { option: "tell", isCorrect: false },
+      { option: "speak", isCorrect: false }
+    ],
+        explanationVi: "To put it mildly.",
+        category: "Other",
+    },
+    {
+        questionEn: "Needless ____, he failed.",
+        questionVi: "Không cần ____ phải nói, anh ta đã thất bại.",
+        options: [
+      { option: "to say", isCorrect: true },
+      { option: "saying", isCorrect: false },
+      { option: "say", isCorrect: false },
+      { option: "said", isCorrect: false }
+    ],
+        explanationVi: "Needless to say.",
+        category: "Other",
+    },
+    {
+        questionEn: "Whatever the cost ____ be, do it.",
+        questionVi: "Dù ____ giá nào đi chăng nữa, hãy cứ làm đi.",
+        options: [
+      { option: "may", isCorrect: true },
+      { option: "will", isCorrect: false },
+      { option: "can", isCorrect: false },
+      { option: "shall", isCorrect: false }
+    ],
+        explanationVi: "Whatever ... may be.",
+        category: "Other",
+    },
+    {
+        questionEn: "However hard it ____ be, try.",
+        questionVi: "Dù ____ cho có khó khăn đến thế nào, hãy cứ cố gắng.",
+        options: [
+      { option: "may", isCorrect: true },
+      { option: "will", isCorrect: false },
+      { option: "can", isCorrect: false },
+      { option: "shall", isCorrect: false }
+    ],
+        explanationVi: "However ... may be.",
+        category: "Other",
+    },
+    {
+        questionEn: "Strange ____ it sounds, it's true.",
+        questionVi: "Nghe ____ có vẻ kỳ lạ, nhưng đó là sự thật.",
+        options: [
+      { option: "as", isCorrect: true },
+      { option: "so", isCorrect: false },
+      { option: "though", isCorrect: false },
+      { option: "if", isCorrect: false }
+    ],
+        explanationVi: "Strange as it sounds.",
+        category: "Other",
+    },
+    {
+        questionEn: "Hard ____ it was, we won.",
+        questionVi: "Dù ____ cho có khó khăn, chúng tôi đã thắng.",
+        options: [
+      { option: "as", isCorrect: true },
+      { option: "so", isCorrect: false },
+      { option: "though", isCorrect: false },
+      { option: "if", isCorrect: false }
+    ],
+        explanationVi: "Hard as it was.",
+        category: "Other",
+    },
+    {
+        questionEn: "Try ____ I might, I failed.",
+        questionVi: "Dù ____ tôi có cố gắng thế nào, tôi cũng đã thất bại.",
+        options: [
+      { option: "as", isCorrect: true },
+      { option: "so", isCorrect: false },
+      { option: "though", isCorrect: false },
+      { option: "if", isCorrect: false }
+    ],
+        explanationVi: "Try as I might.",
+        category: "Other",
+    },
+    {
+        questionEn: "Much ____ I like you, leaving.",
+        questionVi: "Mặc ____ dù tôi rất thích bạn, nhưng tôi vẫn phải rời đi.",
+        options: [
+      { option: "as", isCorrect: true },
+      { option: "so", isCorrect: false },
+      { option: "though", isCorrect: false },
+      { option: "if", isCorrect: false }
+    ],
+        explanationVi: "Much as I like you.",
+        category: "Other",
+    },
+    {
+        questionEn: "____ that as it may.",
+        questionVi: "Dù ____ có là như vậy đi chăng nữa.",
+        options: [
+      { option: "Be", isCorrect: true },
+      { option: "Is", isCorrect: false },
+      { option: "Was", isCorrect: false },
+      { option: "Were", isCorrect: false }
+    ],
+        explanationVi: "Be that as it may.",
+        category: "Other",
+    },
+    {
+        questionEn: "____ you require help, call.",
+        questionVi: "Nếu ____ bạn cần giúp đỡ, hãy gọi nhé.",
+        options: [
+      { option: "Should", isCorrect: true },
+      { option: "If", isCorrect: false },
+      { option: "Do", isCorrect: false },
+      { option: "have", isCorrect: false }
+    ],
+        explanationVi: "Should you.",
+        category: "Should / Ought to",
+    },
+    {
+        questionEn: "____ I be of service?",
+        questionVi: "Tôi ____ có thể giúp gì được cho bạn không?",
+        options: [
+      { option: "May", isCorrect: true },
+      { option: "Can", isCorrect: false },
+      { option: "Will", isCorrect: false },
+      { option: "Shall", isCorrect: false }
+    ],
+        explanationVi: "May I be.",
+        category: "May / Might",
+    },
+    {
+        questionEn: "If it ____ for him, I'd be dead.",
+        questionVi: "Nếu ____ không nhờ có anh ấy, tôi đã chết rồi.",
+        options: [
+      { option: "weren't", isCorrect: true },
+      { option: "wasn't", isCorrect: false },
+      { option: "isn't", isCorrect: false },
+      { option: "aren't", isCorrect: false }
+    ],
+        explanationVi: "If it weren't for.",
+        category: "First Conditional",
+    },
+    {
+        questionEn: "If it ____ been for him...",
+        questionVi: "Nếu ____ không nhờ có anh ấy...",
+        options: [
+      { option: "hadn't", isCorrect: true },
+      { option: "hasn't", isCorrect: false },
+      { option: "didn't", isCorrect: false },
+      { option: "wouldn't", isCorrect: false }
+    ],
+        explanationVi: "If it hadn't been for.",
+        category: "First Conditional",
+    },
+    {
+        questionEn: "I would have lost ____ but for his help.",
+        questionVi:
+            "Tôi ____ hẳn đã mất hết mọi thứ nếu không nhờ có sự giúp đỡ của anh ấy.",
+        options: [
+      { option: "everything", isCorrect: true },
+      { option: "nothing", isCorrect: false },
+      { option: "anything", isCorrect: false },
+      { option: "something", isCorrect: false }
+    ],
+        explanationVi: "But for + Noun phrase (If it hadn't been for).",
+        category: "First Conditional",
+    },
+    {
+        questionEn: "Let's assume ____ sake of argument.",
+        questionVi: "Hãy cứ giả ____ định như vậy để tranh luận đi.",
+        options: [
+      { option: "for the", isCorrect: true },
+      { option: "for", isCorrect: false },
+      { option: "to the", isCorrect: false },
+      { option: "with the", isCorrect: false }
+    ],
+        explanationVi: "For the sake of argument.",
+        category: "Other",
+    },
+    {
+        questionEn: "By ____ of explanation, look here.",
+        questionVi: "Để ____ giải thích thêm, hãy nhìn vào đây.",
+        options: [
+      { option: "way", isCorrect: true },
+      { option: "means", isCorrect: false },
+      { option: "virtue", isCorrect: false },
+      { option: "reason", isCorrect: false }
+    ],
+        explanationVi: "By way of explanation.",
+        category: "Other",
+    },
+    {
+        questionEn: "On ____ of his health, he quit.",
+        questionVi: "Vì ____ lý do sức khỏe, anh ấy đã nghỉ việc.",
+        options: [
+      { option: "account", isCorrect: true },
+      { option: "reason", isCorrect: false },
+      { option: "sake", isCorrect: false },
+      { option: "behalf", isCorrect: false }
+    ],
+        explanationVi: "On account of.",
+        category: "Other",
+    },
+    {
+        questionEn: "With ____ to your letter, I reply.",
+        questionVi: "Liên ____ quan đến lá thư của bạn, tôi xin được phản hồi.",
+        options: [
+      { option: "reference", isCorrect: true },
+      { option: "regard", isCorrect: false },
+      { option: "respect", isCorrect: false },
+      { option: "relation", isCorrect: false }
+    ],
+        explanationVi: "With reference to.",
+        category: "Other",
+    },
+    {
+        questionEn: "With ____ to costs, it's high.",
+        questionVi: "Xét ____ về chi phí, nó khá là cao.",
+        options: [
+      { option: "regard", isCorrect: true },
+      { option: "reference", isCorrect: false },
+      { option: "respect", isCorrect: false },
+      { option: "relation", isCorrect: false }
+    ],
+        explanationVi: "With regard to.",
+        category: "Other",
+    },
+    {
+        questionEn: "In ____ of the law, he acted.",
+        questionVi: "Dưới ____ góc độ pháp luật, anh ta đã hành động.",
+        options: [
+      { option: "view", isCorrect: true },
+      { option: "light", isCorrect: false },
+      { option: "sight", isCorrect: false },
+      { option: "spite", isCorrect: false }
+    ],
+        explanationVi: "In view of.",
+        category: "Other",
+    },
+    {
+        questionEn: "In ____ with the rules, do this.",
+        questionVi: "Để ____ phù hợp với quy định, hãy làm việc này.",
+        options: [
+      { option: "accordance", isCorrect: true },
+      { option: "accord", isCorrect: false },
+      { option: "according", isCorrect: false },
+      { option: "accords", isCorrect: false }
+    ],
+        explanationVi: "In accordance with.",
+        category: "Other",
+    },
+    {
+        questionEn: "For the ____ of clarity, I repeat.",
+        questionVi: "Để ____ cho rõ ràng, tôi xin nhắc lại.",
+        options: [
+      { option: "sake", isCorrect: true },
+      { option: "good", isCorrect: false },
+      { option: "benefit", isCorrect: false },
+      { option: "reason", isCorrect: false }
+    ],
+        explanationVi: "For the sake of.",
+        category: "Other",
+    },
+    {
+        questionEn: "At the ____ of his career, he died.",
+        questionVi: "Ông ấy đã qua đời khi đang ở ____ đỉnh cao của sự nghiệp.",
+        options: [
+      { option: "height", isCorrect: true },
+      { option: "top", isCorrect: false },
+      { option: "peak", isCorrect: false },
+      { option: "summit", isCorrect: false }
+    ],
+        explanationVi: "At the height of.",
+        category: "Other",
+    },
+    {
+        questionEn: "He is at ____ with his neighbor.",
+        questionVi: "Anh ấy đang có sự ____ bất hòa với người hàng xóm.",
+        options: [
+      { option: "odds", isCorrect: true },
+      { option: "variance", isCorrect: false },
+      { option: "difference", isCorrect: false },
+      { option: "conflict", isCorrect: false }
+    ],
+        explanationVi: "At odds with.",
+        category: "Other",
+    },
+    {
+        questionEn: "In the ____ of time, he'll see.",
+        questionVi: "Rồi theo ____ thời gian, anh ấy sẽ nhận ra thôi.",
+        options: [
+      { option: "course", isCorrect: true },
+      { option: "pass", isCorrect: false },
+      { option: "flow", isCorrect: false },
+      { option: "run", isCorrect: false }
+    ],
+        explanationVi: "In the course of time.",
+        category: "Other",
+    },
+];
+
+export default questions;

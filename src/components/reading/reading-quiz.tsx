@@ -123,7 +123,10 @@ export function ReadingQuiz({
 
               <div className="space-y-3 mb-6">
                 {passage.questions[currentQuestion].options.map(
-                  (option: string, index: number) => (
+                  (
+                    opt: { isCorrect: boolean; option: string },
+                    index: number
+                  ) => (
                     <Button
                       key={index}
                       onClick={() => onAnswerSelect(index)}
@@ -134,10 +137,15 @@ export function ReadingQuiz({
                             : "outline"
                           : selectedAnswer === index
                           ? selectedAnswer ===
-                            passage.questions[currentQuestion].correct
+                            passage.questions[
+                              currentQuestion
+                            ].options.findIndex((o) => o.isCorrect)
                             ? "default"
                             : "destructive"
-                          : index === passage.questions[currentQuestion].correct
+                          : index ===
+                            passage.questions[
+                              currentQuestion
+                            ].options.findIndex((o) => o.isCorrect)
                           ? "default"
                           : "outline"
                       }
@@ -147,7 +155,7 @@ export function ReadingQuiz({
                       <span className="mr-3 font-medium">
                         {String.fromCharCode(65 + index)}.
                       </span>
-                      {option}
+                      {opt.option}
                     </Button>
                   )
                 )}
@@ -157,7 +165,9 @@ export function ReadingQuiz({
                 <div className="bg-muted/50 border rounded-md p-4 mb-4">
                   <p className="text-sm font-semibold mb-2">
                     {selectedAnswer ===
-                    passage.questions[currentQuestion].correct
+                    passage.questions[currentQuestion].options.findIndex(
+                      (o) => o.isCorrect
+                    )
                       ? "Correct!"
                       : "Incorrect"}
                   </p>

@@ -1179,6 +1179,18 @@ export const R1: VocabularyWord[] = [
     categories: ["Daily", "Business"],
   },
   {
+    id: "gen-gh123",
+    word: "Revise",
+    slug: "revise",
+    phonetic: "/rɪˈvaɪz/",
+    partOfSpeech: "verb",
+    meaningEn: "Re-examine and make alterations.",
+    meaningVi: "Xem lại, sửa đổi.",
+    exampleEn: "Revise the document.",
+    exampleVi: "Xem lại tài liệu.",
+    categories: ["General"],
+  },
+  {
     id: "gen-po12",
     word: "Revolutionize",
     slug: "revolutionize",
