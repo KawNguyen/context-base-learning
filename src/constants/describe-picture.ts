@@ -319,4 +319,53 @@ export const imageQuestions: ImageQuestion[] = [
     explanationVi:
       "Hình ảnh cho thấy nhiều hành khách đang xếp hàng làm thủ tục tại sân bay với vali và xe đẩy hành lý.",
   },
+  {
+    id: 22,
+    imageUrl: "/images/describe-picture/unified/22.jpg",
+    options: [
+      {
+        option:
+          "A group of friends playing bowling at an entertainment center.",
+        isCorrect: true,
+      },
+      {
+        option: "A birthday party being held in a karaoke room.",
+        isCorrect: false,
+      },
+      {
+        option: "Professional bowlers competing in a tournament.",
+        isCorrect: false,
+      },
+      {
+        option: "A life skills class for teenagers.",
+        isCorrect: false,
+      },
+    ],
+    explanationVi:
+      "Hình ảnh cho thấy bốn người trẻ đang vui vẻ tại một khu vực bowling. Một người phụ nữ đang tung quả bóng bowling màu xanh, trong khi ba người bạn của cô ấy đứng xung quanh, cổ vũ và cười đùa. Bối cảnh với các làn bowling, ghế ngồi và quả bóng trên sàn nhà đều cho thấy đây là một hoạt động giải trí, không phải một sự kiện chính thức hay lớp học.",
+  },
+  {
+    id: 23,
+    imageUrl: "/images/describe-picture/unified/23.jpg",
+    options: [
+      {
+        option: "A woman is looking at several printed photographs.",
+        isCorrect: true,
+      },
+      {
+        option: "A photographer is taking pictures of a mountain landscape.",
+        isCorrect: false,
+      },
+      {
+        option: "A woman is organizing her digital photo gallery on a laptop.",
+        isCorrect: false,
+      },
+      {
+        option: "A group of people are posing for a professional photoshoot.",
+        isCorrect: false,
+      },
+    ],
+    explanationVi:
+      "Hình ảnh mô tả một người phụ nữ nhìn từ góc độ trên cao xuống, cô đang cầm trên tay hai bức ảnh in và xung quanh có rất nhiều bức ảnh khác về các chủ đề như du lịch, phong cảnh và con người đang được trải rộng trên mặt bàn.",
+  },
 ];

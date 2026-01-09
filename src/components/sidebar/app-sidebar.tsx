@@ -13,6 +13,8 @@ import {
   Search,
   WholeWord,
   Image,
+  FileText,
+  AudioLines,
 } from "lucide-react";
 
 import {
@@ -44,6 +46,12 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       { title: "Listening", url: "/listening", icon: Headphones },
       { title: "Dialogue", url: "/dialogue", icon: MessageSquare },
       { title: "Describe Picture", url: "/describe-picture", icon: Image },
+      { title: "Text Completion", url: "/text-completion", icon: FileText },
+      {
+        title: "Question Response",
+        url: "/question-response",
+        icon: AudioLines,
+      },
     ],
   };
 

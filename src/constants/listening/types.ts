@@ -26,6 +26,8 @@ export interface ComprehensionExercise {
   questions: ListeningQuestion[];
 }
 
+// QuestionResponseExercise removed
+
 export interface LevelListeningData {
   dictations: DictationExercise[];
   comprehensions: ComprehensionExercise[];

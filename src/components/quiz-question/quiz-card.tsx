@@ -4,20 +4,10 @@ import { CheckCircle2, XCircle, Info } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Card } from "../ui/card";
-
-interface QuizQuestionOption {
-  option: string;
-  isCorrect: boolean;
-}
-
-interface QuizQuestion {
-  questionEn: string;
-  options: QuizQuestionOption[];
-  explanationVi: string;
-}
+import { Question } from "@/constants/quiz-question";
 
 interface QuizCardProps {
-  question: QuizQuestion;
+  question: Question;
   questionIndex: number;
   selectedOption?: number;
   isSubmitted: boolean;
@@ -52,7 +42,7 @@ export function QuizCard({
       )}
     >
       {/* Question Header */}
-      <div className="flex items-start justify-between mb-4">
+      <div className="flex items-start justify-between">
         <div className="flex items-center gap-2">
           <span className="text-lg font-bold text-muted-foreground">
             Q{questionIndex + 1}
@@ -76,22 +66,35 @@ export function QuizCard({
       {/* Question Text */}
       <div className="mb-4">
         <p className="text-base font-medium leading-relaxed">
-          {question.questionEn.split("____").map((part, i, arr) => (
-            <span key={i}>
-              {part}
-              {i < arr.length - 1 && (
-                <span
-                  className={`text-primary font-bold ${
-                    isSubmitted ? "underline" : "underline-dotted"
-                  }`}
-                >
-                  {isSubmitted
-                    ? question.options[correctOptionIndex].option
-                    : "_ _ _ _ _ _"}
-                </span>
-              )}
-            </span>
-          ))}
+          {question.questionEn.split("____").map((part, i, arr) => {
+            // Tách đáp án đúng theo dấu "/" nếu có
+            const correctAnswer = question.options[correctOptionIndex].option;
+            const answerParts = correctAnswer.includes("/")
+              ? correctAnswer.split("/").map((p) => p.trim())
+              : [correctAnswer];
+
+            return (
+              <span key={i}>
+                {part}
+                {i < arr.length - 1 && (
+                  <span
+                    className={`text-primary font-bold ${
+                      isSubmitted ? "underline" : "underline-dotted"
+                    }`}
+                  >
+                    {isSubmitted
+                      ? answerParts[i] || correctAnswer
+                      : "_ _ _ _ _ _"}
+                  </span>
+                )}
+              </span>
+            );
+          })}
+          {isSubmitted && (
+            <p className="text-sm text-muted-foreground font-light italic">
+              &quot;{question.questionVi}&quot;
+            </p>
+          )}
         </p>
       </div>
 
