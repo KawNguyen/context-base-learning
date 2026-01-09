@@ -1,6 +1,6 @@
-import { ImageDescriptionInterface } from "@/components/image-description/image-description-interface";
+import { ImageDescriptionInterface } from "@/components/describe-picture/image-description-interface";
 import { notFound } from "next/navigation";
-import { imageQuestions } from "@/constants/imageQuestions";
+import { imageQuestions } from "@/constants/describe-picture";
 
 interface PageProps {
   params: Promise<{

@@ -1,12 +1,12 @@
 "use client";
 
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useState, useEffect, useCallback, useRef, useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { ArrowRight, Info, Square, Play } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn, shuffleArray } from "@/lib/utils";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import { imageQuestions } from "@/constants/imageQuestions";
+import { imageQuestions } from "@/constants/describe-picture";
 import { PhotoCard } from "./photo-card";
 import { OptionButton } from "./option-button";
 import { ResultView } from "./result-view";
@@ -26,7 +26,7 @@ export function ImageDescriptionInterface({
 
   // TTS State
   const [currentReadingIndex, setCurrentReadingIndex] = useState<number | null>(
-    null,
+    null
   );
   const [isReading, setIsReading] = useState(false);
   const synthesisRef = useRef<SpeechSynthesis | null>(null);
@@ -34,6 +34,18 @@ export function ImageDescriptionInterface({
 
   const currentQuestion = imageQuestions[currentIndex];
   const progress = ((currentIndex + 1) / imageQuestions.length) * 100;
+
+  // Shuffle options mỗi khi câu hỏi thay đổi
+  const { shuffledOptions, correctIndex } = useMemo(() => {
+    const options = currentQuestion.options.map((opt, idx) => ({
+      ...opt,
+      originalIndex: idx,
+    }));
+    const shuffled = shuffleArray(options);
+    const correctIdx = shuffled.findIndex((opt) => opt.isCorrect);
+    return { shuffledOptions: shuffled, correctIndex: correctIdx };
+
+  }, [currentQuestion.options]);
 
   useEffect(() => {
     synthesisRef.current = window.speechSynthesis;
@@ -65,8 +77,8 @@ export function ImageDescriptionInterface({
       setCurrentReadingIndex(index);
       const utterance = new SpeechSynthesisUtterance(
         `Option ${String.fromCharCode(65 + index)}: ${
-          currentQuestion.options[index]
-        }`,
+          shuffledOptions[index].option
+        }`
       );
       utterance.lang = "en-US";
       utterance.rate = 0.9;
@@ -86,7 +98,7 @@ export function ImageDescriptionInterface({
     };
 
     readNext();
-  }, [currentQuestion, stopReading]);
+  }, [currentQuestion, shuffledOptions, stopReading]);
 
   // Read automatically on question load
   useEffect(() => {
@@ -107,7 +119,7 @@ export function ImageDescriptionInterface({
   const handleCheck = () => {
     if (selectedOption === null) return;
     setIsAnswered(true);
-    if (selectedOption === currentQuestion.correct) {
+    if (selectedOption === correctIndex) {
       setScore((prev) => prev + 1);
     }
   };
@@ -154,7 +166,7 @@ export function ImageDescriptionInterface({
             onClick={isReading ? stopReading : startReading}
             className={cn(
               "gap-2 min-w-30",
-              isReading && "text-primary border-primary",
+              isReading && "text-primary border-primary"
             )}
           >
             {isReading ? (
@@ -179,19 +191,19 @@ export function ImageDescriptionInterface({
 
         <div className="space-y-6">
           <div className="grid grid-cols-1 gap-4">
-            {currentQuestion.options.map((option, index) => (
+            {shuffledOptions.map((option, index) => (
               <OptionButton
                 key={index}
                 label={String.fromCharCode(65 + index)}
-                option={option}
+                option={option.option}
                 index={index}
                 isSelected={selectedOption === index}
                 isAnswered={isAnswered}
-                isCorrect={isAnswered && index === currentQuestion.correct}
+                isCorrect={isAnswered && index === correctIndex}
                 isWrong={
                   isAnswered &&
                   index === selectedOption &&
-                  index !== currentQuestion.correct
+                  index !== correctIndex
                 }
                 isBeingRead={currentReadingIndex === index}
                 onSelect={handleOptionSelect}
@@ -204,29 +216,29 @@ export function ImageDescriptionInterface({
               <Alert
                 className={cn(
                   "border-l-4 shadow-sm",
-                  selectedOption === currentQuestion.correct
+                  selectedOption === correctIndex
                     ? "border-l-green-500 bg-green-50/20"
-                    : "border-l-destructive bg-destructive/5",
+                    : "border-l-destructive bg-destructive/5"
                 )}
               >
                 <Info
                   className={cn(
                     "size-6 shrink-0 mt-0.5",
-                    selectedOption === currentQuestion.correct
+                    selectedOption === correctIndex
                       ? "text-green-500"
-                      : "text-destructive",
+                      : "text-destructive"
                   )}
                 />
                 <div className="space-y-2">
                   <AlertTitle
                     className={cn(
                       "text-xl font-extrabold",
-                      selectedOption === currentQuestion.correct
+                      selectedOption === correctIndex
                         ? "text-green-600"
-                        : "text-destructive",
+                        : "text-destructive"
                     )}
                   >
-                    {selectedOption === currentQuestion.correct
+                    {selectedOption === correctIndex
                       ? "Excellent!"
                       : "Oops! Not quite."}
                   </AlertTitle>

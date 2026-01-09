@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
-import { imageQuestions } from "@/constants/imageQuestions";
+import { imageQuestions } from "@/constants/describe-picture";
 import { Play } from "lucide-react";
 import { AspectRatio } from "../ui/aspect-ratio";
 
@@ -16,7 +16,7 @@ export function ImageGallery() {
         <Card
           key={q.id}
           className="pt-0 overflow-hidden group relative flex flex-col h-full cursor-pointer border-border/50 bg-card/50 hover:bg-card hover:border-border hover:shadow-xl hover:shadow-primary/5 transition-all duration-300"
-          onClick={() => router.push(`/image-description/${q.id}`)}
+          onClick={() => router.push(`/describe-picture/${q.id}`)}
         >
           <CardContent className="relative w-full p-0">
             <AspectRatio ratio={16 / 9}>

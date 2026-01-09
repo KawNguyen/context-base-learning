@@ -1,4 +1,4 @@
-import AppSidebar from "@/components/app-sidebar";
+import AppSidebar from "@/components/sidebar/app-sidebar";
 import { ThemeToggle } from "@/components/toggle";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { DynamicBreadcrumb } from "@/components/dynamic-breadcrumb";

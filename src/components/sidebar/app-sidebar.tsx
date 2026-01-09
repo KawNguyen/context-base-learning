@@ -12,7 +12,7 @@ import {
   PenTool,
   Search,
   WholeWord,
-  Camera,
+  Image,
 } from "lucide-react";
 
 import {
@@ -23,7 +23,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
-import NavMain from "@/components/nav-main";
+import NavMain from "@/components/sidebar/nav-main";
 import { grammarTopics } from "@/constants/grammarTopics";
 import { getCategorySlug } from "@/lib/utils";
 
@@ -43,7 +43,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       { title: "Reading", url: "/reading", icon: GraduationCap },
       { title: "Listening", url: "/listening", icon: Headphones },
       { title: "Dialogue", url: "/dialogue", icon: MessageSquare },
-      { title: "Image Description", url: "/image-description", icon: Camera },
+      { title: "Describe Picture", url: "/describe-picture", icon: Image },
     ],
   };
 

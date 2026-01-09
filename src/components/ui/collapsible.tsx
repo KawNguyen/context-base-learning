@@ -24,7 +24,11 @@ export function Collapsible({
 
   return (
     <CollapsibleContext.Provider value={{ open, setOpen }}>
-      <Comp className={className} {...props}>
+      <Comp
+        className={className}
+        data-state={open ? "open" : "closed"}
+        {...props}
+      >
         {children}
       </Comp>
     </CollapsibleContext.Provider>
@@ -35,8 +39,8 @@ export function CollapsibleTrigger({
   asChild = false,
   children,
   ...props
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-}: any) {
+}: // eslint-disable-next-line @typescript-eslint/no-explicit-any
+any) {
   const ctx = React.useContext(CollapsibleContext);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const Comp: any = asChild ? Slot : "button";
