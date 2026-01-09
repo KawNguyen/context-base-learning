@@ -21,7 +21,7 @@ export function ReadingQuizWrapper({
   const [score, setScore] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [userAnswers, setUserAnswers] = useState<number[]>(
-    new Array(passage.questions.length).fill(-1)
+    new Array(passage.questions.length).fill(-1),
   );
 
   const handleAnswerSelect = (answerIndex: number) => {
@@ -51,7 +51,7 @@ export function ReadingQuizWrapper({
       setSelectedAnswer(
         userAnswers[currentQuestion + 1] !== -1
           ? userAnswers[currentQuestion + 1]
-          : null
+          : null,
       );
       setShowExplanation(userAnswers[currentQuestion + 1] !== -1);
     } else {
@@ -65,7 +65,7 @@ export function ReadingQuizWrapper({
       setSelectedAnswer(
         userAnswers[currentQuestion - 1] !== -1
           ? userAnswers[currentQuestion - 1]
-          : null
+          : null,
       );
       setShowExplanation(userAnswers[currentQuestion - 1] !== -1);
     }

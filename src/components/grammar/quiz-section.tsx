@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { CheckCircle2, XCircle, RefreshCcw, Languages } from "lucide-react";
@@ -25,28 +25,15 @@ export function QuizSection({ topic }: QuizSectionProps) {
     return filtered;
   }, [topic]);
 
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(() => {
+    // Lazy initialization - only runs once on mount
+    if (topicQuestions.length === 0) return 0;
+    return Math.floor(Math.random() * topicQuestions.length);
+  });
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [initialized, setInitialized] = useState(false);
 
   const currentQuestion = topicQuestions[currentQuestionIndex];
-
-  // Reset initialization when topic changes
-  useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setInitialized(false);
-  }, [topic]);
-
-  // Initialize with a random question
-  useEffect(() => {
-    if (!initialized && topicQuestions.length > 0) {
-      const randomIndex = Math.floor(Math.random() * topicQuestions.length);
-      // eslint-disable-next-line react-hooks/set-state-in-effect
-      setCurrentQuestionIndex(randomIndex);
-      setInitialized(true);
-    }
-  }, [topicQuestions, initialized]);
 
   const handleOptionSelect = (index: number) => {
     if (isSubmitted) return;
@@ -81,7 +68,9 @@ export function QuizSection({ topic }: QuizSectionProps) {
     );
   }
 
-  const isCorrect = selectedOption !== null && currentQuestion.options[selectedOption].isCorrect;
+  const isCorrect =
+    selectedOption !== null &&
+    currentQuestion.options[selectedOption].isCorrect;
 
   return (
     <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
@@ -133,27 +122,25 @@ export function QuizSection({ topic }: QuizSectionProps) {
                   ? "border-primary bg-primary/10"
                   : "border-white/10 hover:border-white/20 hover:bg-white/5",
                 isSubmitted &&
-                option.isCorrect &&
-                "border-green-500 bg-green-500/10",
+                  option.isCorrect &&
+                  "border-green-500 bg-green-500/10",
                 isSubmitted &&
-                selectedOption === index &&
-                !option.isCorrect &&
-                "border-red-500 bg-red-500/10",
+                  selectedOption === index &&
+                  !option.isCorrect &&
+                  "border-red-500 bg-red-500/10",
                 isSubmitted &&
-                !option.isCorrect &&
-                index !== selectedOption &&
-                "opacity-50"
+                  !option.isCorrect &&
+                  index !== selectedOption &&
+                  "opacity-50",
               )}
             >
               <span>{option.option}</span>
               {isSubmitted && option.isCorrect && (
                 <CheckCircle2 className="w-5 h-5 text-green-500" />
               )}
-              {isSubmitted &&
-                selectedOption === index &&
-                !option.isCorrect && (
-                  <XCircle className="w-5 h-5 text-red-500" />
-                )}
+              {isSubmitted && selectedOption === index && !option.isCorrect && (
+                <XCircle className="w-5 h-5 text-red-500" />
+              )}
             </button>
           ))}
         </div>
@@ -174,7 +161,7 @@ export function QuizSection({ topic }: QuizSectionProps) {
               "border-2",
               isCorrect
                 ? "border-green-500/50 bg-green-500/5"
-                : "border-red-500/50 bg-red-500/5"
+                : "border-red-500/50 bg-red-500/5",
             )}
           >
             {isCorrect ? (

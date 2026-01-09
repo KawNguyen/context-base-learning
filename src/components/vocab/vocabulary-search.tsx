@@ -18,10 +18,8 @@ export default function VocabularySearch() {
     if (!searchTerm.trim()) return [];
 
     const term = searchTerm.toLowerCase();
-    return AllVocabData.filter(
-      (vocab) =>
-        vocab.word.toLowerCase().includes(term) 
-      
+    return AllVocabData.filter((vocab) =>
+      vocab.word.toLowerCase().includes(term),
     ).slice(0, 10); // Limit to 10 results
   }, [searchTerm]);
 

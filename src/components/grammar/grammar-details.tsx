@@ -75,7 +75,7 @@ export function GrammarDetails({ topic }: GrammarDetailsProps) {
 
       <Separator className="bg-white/10" />
 
-      <QuizSection topic={topic} />
+      <QuizSection key={topic.title} topic={topic} />
     </div>
   );
 }

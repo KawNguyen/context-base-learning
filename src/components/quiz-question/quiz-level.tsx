@@ -89,9 +89,7 @@ export function QuizLevels() {
             <CardDescription className="text-base mb-6">
               {level.desc}
             </CardDescription>
-            <Button className="w-full">
-              Start Practice
-            </Button>
+            <Button className="w-full">Start Practice</Button>
           </CardContent>
         </Card>
       ))}

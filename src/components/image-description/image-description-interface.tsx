@@ -26,7 +26,7 @@ export function ImageDescriptionInterface({
 
   // TTS State
   const [currentReadingIndex, setCurrentReadingIndex] = useState<number | null>(
-    null
+    null,
   );
   const [isReading, setIsReading] = useState(false);
   const synthesisRef = useRef<SpeechSynthesis | null>(null);
@@ -66,7 +66,7 @@ export function ImageDescriptionInterface({
       const utterance = new SpeechSynthesisUtterance(
         `Option ${String.fromCharCode(65 + index)}: ${
           currentQuestion.options[index]
-        }`
+        }`,
       );
       utterance.lang = "en-US";
       utterance.rate = 0.9;
@@ -154,7 +154,7 @@ export function ImageDescriptionInterface({
             onClick={isReading ? stopReading : startReading}
             className={cn(
               "gap-2 min-w-30",
-              isReading && "text-primary border-primary"
+              isReading && "text-primary border-primary",
             )}
           >
             {isReading ? (
@@ -206,7 +206,7 @@ export function ImageDescriptionInterface({
                   "border-l-4 shadow-sm",
                   selectedOption === currentQuestion.correct
                     ? "border-l-green-500 bg-green-50/20"
-                    : "border-l-destructive bg-destructive/5"
+                    : "border-l-destructive bg-destructive/5",
                 )}
               >
                 <Info
@@ -214,7 +214,7 @@ export function ImageDescriptionInterface({
                     "size-6 shrink-0 mt-0.5",
                     selectedOption === currentQuestion.correct
                       ? "text-green-500"
-                      : "text-destructive"
+                      : "text-destructive",
                   )}
                 />
                 <div className="space-y-2">
@@ -223,7 +223,7 @@ export function ImageDescriptionInterface({
                       "text-xl font-extrabold",
                       selectedOption === currentQuestion.correct
                         ? "text-green-600"
-                        : "text-destructive"
+                        : "text-destructive",
                     )}
                   >
                     {selectedOption === currentQuestion.correct

@@ -1,6 +1,11 @@
 "use client";
 
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 import { Badge } from "@/components/ui/badge";
 import { X } from "lucide-react";
 import { VocabularyWord } from "@/constants/vocabulary";
@@ -22,7 +27,7 @@ export function WordDetailDialog({
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto p-0 gap-0 border-0 rounded-lg shadow-xl">
         <DialogHeader className="sr-only">
-           <DialogTitle>{word.word}</DialogTitle>
+          <DialogTitle>{word.word}</DialogTitle>
         </DialogHeader>
         <div className="flex items-center justify-between px-6 py-4 border-b bg-muted/50 rounded-t-lg sticky top-0 z-10">
           <div className="space-y-1">

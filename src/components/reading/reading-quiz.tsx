@@ -105,7 +105,7 @@ export function ReadingQuiz({
                 </span>
                 <span className="text-base font-semibold">
                   {Math.round(
-                    ((currentQuestion + 1) / passage.questions.length) * 100
+                    ((currentQuestion + 1) / passage.questions.length) * 100,
                   )}
                   %
                 </span>
@@ -125,7 +125,7 @@ export function ReadingQuiz({
                 {passage.questions[currentQuestion].options.map(
                   (
                     opt: { isCorrect: boolean; option: string },
-                    index: number
+                    index: number,
                   ) => (
                     <Button
                       key={index}
@@ -136,18 +136,18 @@ export function ReadingQuiz({
                             ? "default"
                             : "outline"
                           : selectedAnswer === index
-                          ? selectedAnswer ===
-                            passage.questions[
-                              currentQuestion
-                            ].options.findIndex((o) => o.isCorrect)
-                            ? "default"
-                            : "destructive"
-                          : index ===
-                            passage.questions[
-                              currentQuestion
-                            ].options.findIndex((o) => o.isCorrect)
-                          ? "default"
-                          : "outline"
+                            ? selectedAnswer ===
+                              passage.questions[
+                                currentQuestion
+                              ].options.findIndex((o) => o.isCorrect)
+                              ? "default"
+                              : "destructive"
+                            : index ===
+                                passage.questions[
+                                  currentQuestion
+                                ].options.findIndex((o) => o.isCorrect)
+                              ? "default"
+                              : "outline"
                       }
                       className="w-full text-left justify-start h-auto py-3 px-4 text-sm"
                       disabled={showExplanation}
@@ -157,7 +157,7 @@ export function ReadingQuiz({
                       </span>
                       {opt.option}
                     </Button>
-                  )
+                  ),
                 )}
               </div>
 
@@ -166,7 +166,7 @@ export function ReadingQuiz({
                   <p className="text-sm font-semibold mb-2">
                     {selectedAnswer ===
                     passage.questions[currentQuestion].options.findIndex(
-                      (o) => o.isCorrect
+                      (o) => o.isCorrect,
                     )
                       ? "Correct!"
                       : "Incorrect"}

@@ -9,7 +9,10 @@ interface PhotoCardProps {
 
 export function PhotoCard({ imageUrl }: PhotoCardProps) {
   return (
-    <AspectRatio ratio={4 / 3} className="relative w-full overflow-hidden rounded-lg bg-gray-200">
+    <AspectRatio
+      ratio={4 / 3}
+      className="relative w-full overflow-hidden rounded-lg bg-gray-200"
+    >
       <Image
         src={imageUrl}
         alt="TOEIC Scene"

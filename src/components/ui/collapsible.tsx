@@ -35,7 +35,7 @@ export function CollapsibleTrigger({
   asChild = false,
   children,
   ...props
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
 }: any) {
   const ctx = React.useContext(CollapsibleContext);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -44,7 +44,6 @@ export function CollapsibleTrigger({
   return (
     <Comp
       {...props}
-
       onClick={(e: unknown) => {
         ctx?.setOpen(!ctx.open);
         if (props.onClick) props.onClick(e);

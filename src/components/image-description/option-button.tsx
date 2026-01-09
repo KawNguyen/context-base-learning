@@ -33,10 +33,10 @@ export function OptionButton({
         isCorrect
           ? "success"
           : isWrong
-          ? "destructive"
-          : isSelected
-          ? "default"
-          : "outline"
+            ? "destructive"
+            : isSelected
+              ? "default"
+              : "outline"
       }
       type="button"
       onClick={() => onSelect(index)}
@@ -45,7 +45,7 @@ export function OptionButton({
         "flex justify-between items-center p-4 h-auto text-left border-2 transition-colors duration-200",
         !isAnswered && isBeingRead && "border-primary bg-primary/5",
         !isAnswered && !isBeingRead && "hover:border-primary/30",
-        isAnswered && "cursor-default"
+        isAnswered && "cursor-default",
       )}
     >
       <div className="flex items-start gap-4 flex-1">
@@ -54,7 +54,7 @@ export function OptionButton({
             "flex items-center justify-center size-8 rounded-full border-2 text-sm font-bold shrink-0",
             isSelected
               ? "bg-primary text-primary-foreground border-transparent"
-              : "border-muted-foreground/30 text-muted-foreground"
+              : "border-muted-foreground/30 text-muted-foreground",
           )}
         >
           {label}

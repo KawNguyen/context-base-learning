@@ -85,7 +85,9 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                 </div>
                 <div className="grid flex-1 text-left text-sm leading-tight">
                   <span className="truncate font-semibold">Search</span>
-                  <span className="truncate text-xs">Find words and topics</span>
+                  <span className="truncate text-xs">
+                    Find words and topics
+                  </span>
                 </div>
               </Link>
             </SidebarMenuButton>

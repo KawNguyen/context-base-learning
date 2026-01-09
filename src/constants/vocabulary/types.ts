@@ -94,7 +94,7 @@ export type VocabularyCategory =
   | "Transportation"
   | "Travel"
   | "War"
-  | "Weather"
+  | "Weather";
 
 export const VOCABULARY_CATEGORIES: VocabularyCategory[] = [
   "Academic",

@@ -1207,5 +1207,3 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
 ];
-
-

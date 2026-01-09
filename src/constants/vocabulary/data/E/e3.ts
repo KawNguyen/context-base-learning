@@ -230,7 +230,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Thợ điện.",
     exampleEn: "Call an electrician.",
     exampleVi: "Gọi thợ điện.",
-    categories: ["People", "Engineering", "Jobs","Construction"],
+    categories: ["People", "Engineering", "Jobs", "Construction"],
   },
   {
     id: "gen-367",

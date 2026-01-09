@@ -27,22 +27,13 @@ import { Input } from "../ui/input";
 import { useSpeech } from "@/hooks/use-speech";
 import { Slider } from "../ui/slider";
 import { Alert, AlertDescription, AlertTitle } from "../ui/alert";
+import { shuffleArray } from "@/lib/utils";
 
 interface ListeningInterfaceProps {
   exercises: (DictationExercise | ComprehensionExercise)[];
   level: CEFRLevel;
   type: ListeningType;
 }
-
-// Fisher-Yates shuffle helper function
-const shuffleArray = <T,>(array: T[]): T[] => {
-  const shuffled = [...array];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-  return shuffled;
-};
 
 export function ListeningInterface({
   exercises: initialExercises,
@@ -61,7 +52,6 @@ export function ListeningInterface({
   // Compute exercises based on type and shuffle seed
   const exercises = useMemo(() => {
     if (type === "dictation") {
-      // Use shuffleSeed as dependency to trigger re-shuffle
       return shuffleArray(initialExercises);
     }
     return initialExercises;
@@ -392,7 +382,7 @@ export function ListeningInterface({
                           {opt.option}
                         </span>
                       </Button>
-                    )
+                    ),
                   )}
                 </div>
               </div>
@@ -420,16 +410,16 @@ export function ListeningInterface({
                     type === "dictation"
                       ? normalizeText(userInput) ===
                         normalizeText(
-                          (currentExercise as DictationExercise).answer
+                          (currentExercise as DictationExercise).answer,
                         )
                         ? "success"
                         : "destructive"
                       : selectedOption ===
-                        (currentExercise as ComprehensionExercise).questions[
-                          currentQuestionIndex
-                        ].options.findIndex((o) => o.isCorrect)
-                      ? "success"
-                      : "destructive"
+                          (currentExercise as ComprehensionExercise).questions[
+                            currentQuestionIndex
+                          ].options.findIndex((o) => o.isCorrect)
+                        ? "success"
+                        : "destructive"
                   }
                   className="bg-background/80 backdrop-blur-sm shadow-xl border-2"
                 >
@@ -437,7 +427,7 @@ export function ListeningInterface({
                     type === "dictation"
                       ? normalizeText(userInput) ===
                         normalizeText(
-                          (currentExercise as DictationExercise).answer
+                          (currentExercise as DictationExercise).answer,
                         )
                       : selectedOption ===
                         (currentExercise as ComprehensionExercise).questions[
@@ -452,16 +442,16 @@ export function ListeningInterface({
                     {type === "dictation"
                       ? normalizeText(userInput) ===
                         normalizeText(
-                          (currentExercise as DictationExercise).answer
+                          (currentExercise as DictationExercise).answer,
                         )
                         ? "Spot On!"
                         : "Oops! Not Quite"
                       : selectedOption ===
-                        (currentExercise as ComprehensionExercise).questions[
-                          currentQuestionIndex
-                        ].options.findIndex((o) => o.isCorrect)
-                      ? "Perfect!"
-                      : "Try Again!"}
+                          (currentExercise as ComprehensionExercise).questions[
+                            currentQuestionIndex
+                          ].options.findIndex((o) => o.isCorrect)
+                        ? "Perfect!"
+                        : "Try Again!"}
                   </AlertTitle>
                   <AlertDescription className="mt-3">
                     <div className="space-y-4">

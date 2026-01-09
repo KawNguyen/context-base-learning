@@ -4,7 +4,7 @@ import { useState, useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { CheckCircle2, XCircle, RefreshCcw, Trophy } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn, shuffleArray } from "@/lib/utils";
 import { irregularVerbs } from "@/constants/irregularVerbs";
 
 export function Quiz() {
@@ -16,8 +16,7 @@ export function Quiz() {
 
   // Shuffle a smaller subset for the quiz session
   const quizVerbs = useMemo(() => {
-    // eslint-disable-next-line react-hooks/purity
-    return [...irregularVerbs].sort(() => Math.random() - 0.5).slice(0, 10);
+    return shuffleArray(irregularVerbs).slice(0, 10);
   }, []);
 
   const currentVerb = quizVerbs[currentIndex];

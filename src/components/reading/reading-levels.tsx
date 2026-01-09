@@ -89,9 +89,7 @@ export function ReadingLevels() {
             <CardDescription className="text-base mb-6">
               {level.desc}
             </CardDescription>
-            <Button className="w-full">
-              Start Reading
-            </Button>
+            <Button className="w-full">Start Reading</Button>
           </CardContent>
         </Card>
       ))}

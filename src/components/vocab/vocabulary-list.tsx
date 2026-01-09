@@ -32,7 +32,7 @@ export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
   const selectedCategory = useMemo<VocabularyCategory | "ALL">(() => {
     if (categorySlug) {
       const matched = VOCABULARY_CATEGORIES.find(
-        (c) => getCategorySlug(c) === categorySlug
+        (c) => getCategorySlug(c) === categorySlug,
       );
       if (matched) return matched as VocabularyCategory;
     }

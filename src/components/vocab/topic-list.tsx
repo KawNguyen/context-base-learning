@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { VOCABULARY_CATEGORIES } from "@/constants/vocabulary";
-import { Card, CardContent, } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { getCategorySlug } from "@/lib/utils";
 import type { VocabularyCategory } from "@/constants/vocabulary";

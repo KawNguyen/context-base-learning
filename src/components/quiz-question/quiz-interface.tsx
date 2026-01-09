@@ -1,19 +1,19 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import {
   CheckCircle2,
   XCircle,
-  ArrowRight,
   RotateCcw,
   Home,
   Info,
   Trophy,
+  BookOpen,
 } from "lucide-react";
-import { cn } from "@/lib/utils";
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { cn, shuffleArray } from "@/lib/utils";
+import { Alert, AlertDescription } from "@/components/ui/alert";
 import questions from "@/constants/quiz-question";
 import { Card } from "../ui/card";
 import CEFRBadge from "../cefr-badge";
@@ -24,205 +24,307 @@ interface QuizInterfaceProps {
 }
 
 export function QuizInterface({ level }: QuizInterfaceProps) {
-  const levelQuestions = questions[level as keyof typeof questions] || [];
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [selectedOption, setSelectedOption] = useState<number | null>(null);
-  const [isAnswered, setIsAnswered] = useState(false);
-  const [score, setScore] = useState(0);
-  const [showResult, setShowResult] = useState(false);
+  // Random 50 câu hỏi
+  const levelQuestions = useMemo(() => {
+    const allQuestions = questions[level as keyof typeof questions] || [];
+    const shuffled = shuffleArray(allQuestions);
+    return shuffled.slice(0, Math.min(50, allQuestions.length));
+  }, [level]);
 
-  const currentQuestion = levelQuestions[currentIndex];
-  const progress = ((currentIndex + 1) / levelQuestions.length) * 100;
+  const [selectedAnswers, setSelectedAnswers] = useState<
+    Record<number, number>
+  >({});
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const handleOptionSelect = (index: number) => {
-    if (isAnswered) return;
-    setSelectedOption(index);
+  const handleOptionSelect = (questionIndex: number, optionIndex: number) => {
+    if (isSubmitted) return;
+    setSelectedAnswers((prev) => ({
+      ...prev,
+      [questionIndex]: optionIndex,
+    }));
   };
 
-  const handleCheck = () => {
-    if (selectedOption === null) return;
-    setIsAnswered(true);
-    if (currentQuestion.options[selectedOption].isCorrect) {
-      setScore((prev) => prev + 1);
-    }
-  };
-
-  const handleNext = () => {
-    if (currentIndex < levelQuestions.length - 1) {
-      setCurrentIndex((prev) => prev + 1);
-      setSelectedOption(null);
-      setIsAnswered(false);
-    } else {
-      setShowResult(true);
-    }
+  const handleSubmit = () => {
+    setIsSubmitted(true);
+    // Scroll to top để xem kết quả
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const resetQuiz = () => {
-    setCurrentIndex(0);
-    setSelectedOption(null);
-    setIsAnswered(false);
-    setScore(0);
-    setShowResult(false);
+    setSelectedAnswers({});
+    setIsSubmitted(false);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  if (showResult) {
-    return (
-      <div className="max-w-2xl mx-auto p-6 animate-in fade-in zoom-in duration-500">
-        <Card className="text-center p-8 border-2 shadow-2xl">
-          <div className="flex justify-center mb-6">
-            <div className="p-6 bg-primary/10 rounded-full">
-              <Trophy size={64} className="text-primary" />
-            </div>
-          </div>
-          <h2 className="text-3xl font-bold mb-2">Quiz Complete!</h2>
-          <p className="text-muted-foreground mb-8 text-lg">
-            You scored {score} out of {levelQuestions.length} in Level {level}
-          </p>
+  // Tính điểm
+  const score = Object.entries(selectedAnswers).filter(([qIdx, optIdx]) => {
+    const question = levelQuestions[Number(qIdx)];
+    return question.options[optIdx].isCorrect;
+  }).length;
 
-          <div className="grid grid-cols-2 gap-4 mb-8">
-            <div className="p-4 bg-muted rounded-xl">
-              <p className="text-sm text-muted-foreground mb-1">Accuracy</p>
-              <p className="text-2xl font-bold">
-                {Math.round((score / levelQuestions.length) * 100)}%
-              </p>
-            </div>
-            <div className="p-4 bg-muted rounded-xl">
-              <p className="text-sm text-muted-foreground mb-1">Questions</p>
-              <p className="text-2xl font-bold">{levelQuestions.length}</p>
-            </div>
-          </div>
-
-          <div className="flex gap-4">
-            <Button
-              variant="outline"
-              className="flex-1 h-12 text-lg bg-transparent"
-            >
-              <Home className="mr-2" size={20} /> Home
-            </Button>
-            <Button className="flex-1 h-12 text-lg" onClick={resetQuiz}>
-              <RotateCcw className="mr-2" size={20} /> Retry
-            </Button>
-          </div>
-        </Card>
-      </div>
-    );
-  }
+  const answeredCount = Object.keys(selectedAnswers).length;
+  const progress = (answeredCount / levelQuestions.length) * 100;
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between mb-2">
-        <CEFRBadge level={level} />
-        <p className="text-xs text-muted-foreground">
-          {currentIndex + 1} of {levelQuestions.length}
-        </p>
-      </div>
-
-      <Progress value={progress} className="h-3 rounded-full" />
-
-      <div>
-        {currentQuestion.questionEn.split("____").map((part, i, arr) => (
-          <span key={i}>
-            {part}
-            {i < arr.length - 1 && (
-              <span className="inline-block min-w-30 border-b-4 border-primary mx-2 px-2 text-primary italic text-center">
-                {isAnswered
-                  ? currentQuestion.options.find((opt) => opt.isCorrect)?.option
-                  : "_ _ _ _ _ _ _"}
-              </span>
+      {/* Header với thông tin tổng quan */}
+      <div className="sticky top-0 z-10 bg-background/30 backdrop-blur-sm rounded-2xl border border-border/50 p-4 shadow-lg">
+        <div className="flex items-center justify-between mb-4">
+          <div className="flex items-center gap-4">
+            <div className="p-3 bg-linear-to-br from-primary/20 to-accent/20 rounded-xl">
+              <BookOpen className="text-primary size-6" />
+            </div>
+            <div>
+              <h1 className="text-2xl font-semibold text-foreground">
+                Language Quiz
+              </h1>
+              <CEFRBadge level={level} />
+            </div>
+          </div>
+          <div className="text-right bg-secondary/50 rounded-xl p-4">
+            <p className="text-sm font-semibold text-muted-foreground">
+              Progress
+            </p>
+            <p className="text-xl font-bold text-primary">
+              {answeredCount}/{levelQuestions.length}
+            </p>
+            {isSubmitted && (
+              <p className="text-sm font-semibold text-accent mt-2">
+                Score: {Math.round((score / levelQuestions.length) * 100)}%
+              </p>
             )}
-          </span>
-        ))}
-        <p className="text-muted-foreground mt-4 italic">
-          &quot;{currentQuestion.questionVi}&quot;
-        </p>
+          </div>
+        </div>
+
+        <div className="space-y-3">
+          <Progress
+            value={progress}
+            className="h-2 rounded-full bg-secondary"
+          />
+          <div className="flex gap-3">
+            {!isSubmitted ? (
+              <Button
+                size="lg"
+                variant={"outline"}
+                className="flex-1 h-12 text-base font-semibold"
+                onClick={handleSubmit}
+                disabled={answeredCount === 0}
+              >
+                Submit Quiz
+              </Button>
+            ) : (
+              <>
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="flex-1 h-12 text-base font-semibold border-primary/30 hover:bg-primary/5 bg-transparent"
+                  onClick={resetQuiz}
+                >
+                  <RotateCcw className="mr-2" size={18} /> Try Again
+                </Button>
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="flex-1 h-12 text-base font-semibold border-primary/30 hover:bg-primary/5 bg-transparent"
+                >
+                  <Home className="mr-2" size={18} /> Home
+                </Button>
+              </>
+            )}
+          </div>
+        </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {currentQuestion.options.map((option, index) => {
-          const isOptionCorrect = option.isCorrect;
-          const isCorrect = isAnswered && isOptionCorrect;
+      {/* Grid hiển thị tất cả câu hỏi */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        {levelQuestions.map((question, qIdx) => {
+          const selectedOption = selectedAnswers[qIdx];
+          const correctOptionIndex = question.options.findIndex(
+            (opt) => opt.isCorrect,
+          );
+          const isAnswered = selectedOption !== undefined;
+          const isCorrect =
+            isSubmitted &&
+            isAnswered &&
+            question.options[selectedOption].isCorrect;
           const isWrong =
-            isAnswered && index === selectedOption && !isOptionCorrect;
-          const isSelected = selectedOption === index;
+            isSubmitted &&
+            isAnswered &&
+            !question.options[selectedOption].isCorrect;
 
           return (
-            <Button
-              key={index}
-              variant={
-                !isSelected
-                  ? "ghost"
-                  : isCorrect
-                    ? "success"
+            <Card
+              key={qIdx}
+              className={cn(
+                "p-6 border-2 transition-all",
+                isSubmitted &&
+                  (isCorrect
+                    ? "border-l-green-500 border-l-4"
                     : isWrong
-                      ? "destructive"
-                      : "default"
-              }
-              type="button"
-              onClick={() => handleOptionSelect(index)}
-              disabled={isAnswered}
-              className="flex justify-between items-center p-6 border-2"
+                      ? "border-l-destructive border-l-4"
+                      : ""),
+                !isSubmitted && isAnswered && "border-primary",
+              )}
             >
-              <div>
-                <span className="text-xl">
-                  {String.fromCharCode(65 + index)}.
-                </span>{" "}
-                <span className="text-lg font-medium">{option.option}</span>
+              {/* Question Header */}
+              <div className="flex items-start justify-between mb-4">
+                <div className="flex items-center gap-2">
+                  <span className="text-lg font-bold text-muted-foreground">
+                    Q{qIdx + 1}
+                  </span>
+                  {isSubmitted &&
+                    (isCorrect ? (
+                      <CheckCircle2 className="text-green-600 size-5" />
+                    ) : isWrong ? (
+                      <XCircle className="text-destructive size-5" />
+                    ) : (
+                      <Info className="text-muted-foreground size-5" />
+                    ))}
+                </div>
+                {isAnswered && !isSubmitted && (
+                  <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">
+                    Answered
+                  </span>
+                )}
               </div>
-              {isCorrect && <CheckCircle2 className="text-green-600 size-6" />}
-              {isWrong && <XCircle className="text-destructive size-6" />}
-            </Button>
+
+              {/* Question Text */}
+              <div className="mb-4">
+                <p className="text-base font-medium leading-relaxed">
+                  {question.questionEn.split("____").map((part, i, arr) => (
+                    <span key={i}>
+                      {part}
+                      {i < arr.length - 1 && (
+                        <span
+                          className={`text-primary font-bold ${
+                            isSubmitted ? "underline" : "underline-dotted"
+                          }`}
+                        >
+                          {isSubmitted
+                            ? question.options[correctOptionIndex].option
+                            : "_ _ _ _ _ _"}
+                        </span>
+                      )}
+                    </span>
+                  ))}
+                </p>
+              </div>
+
+              {/* Options */}
+              <div className="grid gap-2 mb-4">
+                {question.options.map((option, optIdx) => {
+                  const isSelected = selectedOption === optIdx;
+                  const isCorrectOption = optIdx === correctOptionIndex;
+                  const showAsCorrect = isSubmitted && isCorrectOption;
+                  const showAsWrong =
+                    isSubmitted && isSelected && !isCorrectOption;
+
+                  return (
+                    <button
+                      key={optIdx}
+                      onClick={() => handleOptionSelect(qIdx, optIdx)}
+                      disabled={isSubmitted}
+                      className={cn(
+                        "text-left p-3 rounded-lg border-2 transition-all hover:border-primary disabled:cursor-not-allowed",
+                        isSelected &&
+                          !isSubmitted &&
+                          "border-primary bg-primary/10",
+                        showAsCorrect &&
+                          "border-green-500 bg-green-50 dark:bg-green-950",
+                        showAsWrong && "border-destructive bg-destructive/10",
+                        !isSelected &&
+                          !showAsCorrect &&
+                          !showAsWrong &&
+                          "border-border hover:bg-muted",
+                      )}
+                    >
+                      <div className="flex items-center justify-between">
+                        <span className="flex items-center gap-2">
+                          <span className="font-semibold text-sm text-muted-foreground">
+                            {String.fromCharCode(65 + optIdx)}.
+                          </span>
+                          <span
+                            className={cn(
+                              "font-medium",
+                              showAsCorrect &&
+                                "text-green-700 dark:text-green-400",
+                              showAsWrong && "text-destructive",
+                            )}
+                          >
+                            {option.option}
+                          </span>
+                        </span>
+                        {showAsCorrect && (
+                          <CheckCircle2 className="text-green-600 size-5" />
+                        )}
+                        {showAsWrong && (
+                          <XCircle className="text-destructive size-5" />
+                        )}
+                      </div>
+                    </button>
+                  );
+                })}
+              </div>
+
+              {/* Explanation - chỉ hiển thị sau khi submit */}
+              {isSubmitted && (
+                <Alert
+                  className={cn(
+                    "border-l-4",
+                    isCorrect
+                      ? "border-l-green-500 bg-green-50/50 dark:bg-green-950/50"
+                      : "border-l-muted-foreground bg-muted/50",
+                  )}
+                >
+                  <Info className="h-4 w-4" />
+                  <AlertDescription className="text-sm">
+                    {question.explanationVi}
+                  </AlertDescription>
+                </Alert>
+              )}
+            </Card>
           );
         })}
       </div>
 
-      {isAnswered && (
-        <div className="mt-8 animate-in slide-in-from-bottom-4 duration-300">
-          <Alert
-            className={cn(
-              "border-l-4",
-              currentQuestion.options[selectedOption!].isCorrect
-                ? "border-l-green-500 "
-                : "border-l-destructive bg-destructive/5"
-            )}
-          >
-            <AlertTitle
-              className={`font-bold text-lg mb-2 flex items-center gap-2 ${currentQuestion.options[selectedOption!].isCorrect
-                ? "text-green-500"
-                : "text-destructive"
-                }`}
-            >
-              <Info className="h-5 w-5" />
-              {currentQuestion.options[selectedOption!].isCorrect
-                ? "Correct Answer!"
-                : "Not quite right..."}
-            </AlertTitle>
-            <AlertDescription className="text-base">
-              {currentQuestion.explanationVi}
-            </AlertDescription>
-          </Alert>
-        </div>
-      )}
-
-      {!isAnswered ? (
-        <Button
-          size="lg"
-          className="px-12 h-14 text-lg font-bold rounded-xl"
-          disabled={selectedOption === null}
-          onClick={handleCheck}
-        >
-          Check Answer
-        </Button>
-      ) : (
-        <Button
-          size="lg"
-          className="px-12 h-14 text-lg font-bold rounded-xl"
-          onClick={handleNext}
-        >
-          {currentIndex < levelQuestions.length - 1
-            ? "Next Question"
-            : "View Results"}
-          <ArrowRight className="ml-2" size={20} />
-        </Button>
+      {/* Summary khi đã submit */}
+      {isSubmitted && (
+        <Card className="text-center p-8 border-2 shadow-lg sticky bottom-4 bg-background/30 backdrop-blur-sm">
+          <div className="flex items-center justify-center gap-8">
+            <div className="flex items-center gap-3">
+              <Trophy className="text-primary size-8" />
+              <div className="text-left">
+                <p className="text-sm text-muted-foreground">Total Score</p>
+                <p className="text-2xl font-bold">
+                  {score}/{levelQuestions.length}
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center gap-3">
+              <CheckCircle2 className="text-green-600 size-8" />
+              <div className="text-left">
+                <p className="text-sm text-muted-foreground">Correct</p>
+                <p className="text-2xl font-bold text-green-600">{score}</p>
+              </div>
+            </div>
+            <div className="flex items-center gap-3">
+              <XCircle className="text-destructive size-8" />
+              <div className="text-left">
+                <p className="text-sm text-muted-foreground">Wrong</p>
+                <p className="text-2xl font-bold text-destructive">
+                  {levelQuestions.length - score}
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center gap-3">
+              <div className="p-3 bg-primary/10 rounded-full">
+                <span className="text-2xl font-bold text-primary">
+                  {Math.round((score / levelQuestions.length) * 100)}%
+                </span>
+              </div>
+            </div>
+          </div>
+        </Card>
       )}
     </div>
   );

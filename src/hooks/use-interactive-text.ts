@@ -57,7 +57,7 @@ export function useInteractiveText(text: string) {
       });
       const threeWordSlug = threeWords.join("-");
       const threeWordMatch = AllVocabData.find(
-        (vocab) => vocab.slug === threeWordSlug
+        (vocab) => vocab.slug === threeWordSlug,
       );
 
       if (threeWordMatch) {
@@ -83,7 +83,7 @@ export function useInteractiveText(text: string) {
       });
       const twoWordSlug = twoWords.join("-");
       const twoWordMatch = AllVocabData.find(
-        (vocab) => vocab.slug === twoWordSlug
+        (vocab) => vocab.slug === twoWordSlug,
       );
 
       if (twoWordMatch) {
