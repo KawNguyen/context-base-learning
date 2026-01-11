@@ -33,10 +33,10 @@ export function OptionButton({
         isCorrect
           ? "success"
           : isWrong
-            ? "destructive"
-            : isSelected
-              ? "default"
-              : "outline"
+          ? "destructive"
+          : isSelected
+          ? "default"
+          : "outline"
       }
       type="button"
       onClick={() => onSelect(index)}
@@ -45,7 +45,7 @@ export function OptionButton({
         "flex justify-between items-center p-4 h-auto text-left border-2 transition-colors duration-200",
         !isAnswered && isBeingRead && "border-primary bg-primary/5",
         !isAnswered && !isBeingRead && "hover:border-primary/30",
-        isAnswered && "cursor-default",
+        isAnswered && "cursor-default"
       )}
     >
       <div className="flex items-start gap-4 flex-1">
@@ -54,23 +54,36 @@ export function OptionButton({
             "flex items-center justify-center size-8 rounded-full border-2 text-sm font-bold shrink-0",
             isSelected
               ? "bg-primary text-primary-foreground border-transparent"
-              : "border-muted-foreground/30 text-muted-foreground",
+              : "border-muted-foreground/30 text-muted-foreground"
           )}
         >
           {label}
         </span>
         <div className="space-y-1 overflow-hidden">
           {isAnswered ? (
-            <p className="text-lg font-medium leading-tight animate-in fade-in duration-300">
+            <p className="text-md leading-tight animate-in fade-in duration-300 text-wrap">
               {option}
             </p>
           ) : (
             <div className="flex items-center gap-2 h-7">
               {isBeingRead && (
-                <div className="flex gap-1.5 px-2">
-                  <div className="size-1.5 bg-primary rounded-full animate-pulse" />
-                  <div className="size-1.5 bg-primary rounded-full animate-pulse [animation-delay:0.2s]" />
-                  <div className="size-1.5 bg-primary rounded-full animate-pulse [animation-delay:0.4s]" />
+                <div className="flex gap-1 px-2 items-center h-5">
+                  <div className="w-0.5 bg-primary rounded-full animate-[wave_0.8s_ease-in-out_infinite] h-2" />
+                  <div className="w-0.5 bg-primary rounded-full animate-[wave_0.8s_ease-in-out_0.1s_infinite] h-4" />
+                  <div className="w-0.5 bg-primary rounded-full animate-[wave_0.8s_ease-in-out_0.2s_infinite] h-5" />
+                  <div className="w-0.5 bg-primary rounded-full animate-[wave_0.8s_ease-in-out_0.3s_infinite] h-3" />
+                  <div className="w-0.5 bg-primary rounded-full animate-[wave_0.8s_ease-in-out_0.4s_infinite] h-2" />
+                  <style jsx>{`
+                    @keyframes wave {
+                      0%,
+                      100% {
+                        transform: scaleY(0.5);
+                      }
+                      50% {
+                        transform: scaleY(1);
+                      }
+                    }
+                  `}</style>
                 </div>
               )}
               <span className="text-muted-foreground/40 italic text-sm">

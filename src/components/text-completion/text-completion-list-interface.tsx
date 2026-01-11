@@ -7,19 +7,19 @@ import { useRouter } from "next/navigation";
 import { CEFRLevel } from "@/types";
 import { PassageExerciseCard } from "./passage-exercise-card";
 
-interface TextCompletionInterfaceProps {
+interface TextCompletionListInterfaceProps {
   passages: TextCompletionPassage[];
   level: CEFRLevel;
 }
 
-export function TextCompletionInterface({
+export function TextCompletionListInterface({
   passages,
   level,
-}: TextCompletionInterfaceProps) {
+}: TextCompletionListInterfaceProps) {
   const router = useRouter();
   const [userAnswers, setUserAnswers] = useState<
     Record<string, Record<number, number>>
-  >({});
+  >({}); // passageId -> { gapIndex -> optionIndex }
   const [showResult, setShowResult] = useState(false);
 
   const handleSelectOption = (
@@ -87,8 +87,7 @@ export function TextCompletionInterface({
         <div>
           <h1 className="text-2xl font-bold">Text Completion Practice</h1>
           <p className="text-muted-foreground">
-            Complete all {passages.length} passage
-            {passages.length > 1 ? "s" : ""}
+            Complete all {passages.length} passages
           </p>
         </div>
         {showResult && (
@@ -121,7 +120,6 @@ export function TextCompletionInterface({
         ))}
       </div>
 
-      {/* Footer Actions */}
       <div className="py-4 mt-8">
         <div className="max-w-4xl mx-auto flex gap-4">
           {!showResult ? (

@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { QuestionResponseExercise } from "@/constants/question-response/types";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { AudioLines, ArrowLeft, History } from "lucide-react";
 import CEFRBadge from "../cefr-badge";
 import { CEFRLevel } from "@/types";
@@ -19,11 +20,19 @@ import { CompletionCard } from "./completion-card";
 interface QuestionResponseInterfaceProps {
   exercises: QuestionResponseExercise[];
   level: CEFRLevel;
+  mode?: "random" | "single";
+  currentExerciseId?: string;
+  nextExerciseId?: string;
+  prevExerciseId?: string;
 }
 
 export function QuestionResponseInterface({
   exercises,
   level,
+  mode = "random",
+  currentExerciseId,
+  nextExerciseId,
+  prevExerciseId,
 }: QuestionResponseInterfaceProps) {
   const router = useRouter();
 
@@ -44,11 +53,10 @@ export function QuestionResponseInterface({
   const handlePlay = () => {
     if (!currentExercise) return;
 
-    const textToSpeak = `Question. ${
-      currentExercise.transcript?.question || "Question"
-    } ... A ... ${currentExercise.transcript?.responses[0] || ""} ... B ... ${
-      currentExercise.transcript?.responses[1] || ""
-    } ... C ... ${currentExercise.transcript?.responses[2] || ""}`;
+    const responses = currentExercise.transcript?.responses || [];
+    const textToSpeak = `Question. ${currentExercise.transcript?.question || "Question"
+      } ... A ... ${responses[0]?.text || ""} ... B ... ${responses[1]?.text || ""
+      } ... C ... ${responses[2]?.text || ""}`;
 
     if (isPaused) {
       resume();
@@ -58,9 +66,10 @@ export function QuestionResponseInterface({
   };
 
   const handleCheck = () => {
-    if (selectedOption === null) return;
+    if (selectedOption === null || !currentExercise.transcript) return;
 
-    if (selectedOption === currentExercise.correctResponse) {
+    const isCorrect = currentExercise.transcript.responses[selectedOption]?.isCorrect;
+    if (isCorrect) {
       setScore(score + 1);
     }
     setShowResult(true);
@@ -95,7 +104,7 @@ export function QuestionResponseInterface({
         score={score}
         totalItems={totalItems}
         onRestart={handleRestart}
-        onSelectLevel={() => router.push(`/question-response`)}
+        onSelectLevel={() => router.push(`/question-response/${level.toLowerCase()}`)}
       />
     );
   }
@@ -122,20 +131,22 @@ export function QuestionResponseInterface({
         <CEFRBadge level={level} />
       </div>
 
-      <div className="w-full">
-        <div className="flex justify-between items-center mb-2">
-          <p className="text-sm font-medium">
-            Progress: {currentProgress + 1} / {totalItems}
-          </p>
-          <p className="text-sm text-muted-foreground">
-            {Math.round(((currentProgress + 1) / totalItems) * 100)}%
-          </p>
+      {mode === "random" && (
+        <div className="w-full">
+          <div className="flex justify-between items-center mb-2">
+            <p className="text-sm font-medium">
+              Progress: {currentProgress + 1} / {totalItems}
+            </p>
+            <p className="text-sm text-muted-foreground">
+              {Math.round(((currentProgress + 1) / totalItems) * 100)}%
+            </p>
+          </div>
+          <Progress
+            value={((currentProgress + 1) / totalItems) * 100}
+            className="h-2"
+          />
         </div>
-        <Progress
-          value={((currentProgress + 1) / totalItems) * 100}
-          className="h-2"
-        />
-      </div>
+      )}
 
       <Card className="shadow-lg border-primary/20 bg-card/10 backdrop-blur-sm">
         <CardHeader className="flex flex-row items-center justify-between space-y-0 border-b border-border/50 pb-4">
@@ -178,35 +189,77 @@ export function QuestionResponseInterface({
             onSelect={(index) => !showResult && setSelectedOption(index)}
           />
 
-          {showResult && (
+          {showResult && currentExercise.transcript && (
             <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500 pt-4">
               <ResultAlert
-                isCorrect={selectedOption === currentExercise.correctResponse}
+                isCorrect={currentExercise.transcript.responses[selectedOption!]?.isCorrect || false}
                 correctAnswer={String.fromCharCode(
-                  65 + currentExercise.correctResponse
+                  65 + currentExercise.transcript.responses.findIndex(r => r.isCorrect)
                 )}
               />
 
-              {showTranscript && currentExercise.transcript && (
+              {showTranscript && (
                 <TranscriptView
                   question={currentExercise.transcript.question}
-                  responses={currentExercise.transcript.responses}
-                  correctResponseIndex={currentExercise.correctResponse}
+                  responses={currentExercise.transcript.responses.map(r => r.text)}
+                  correctResponseIndex={currentExercise.transcript.responses.findIndex(r => r.isCorrect)}
                 />
               )}
 
-              <div className="flex justify-end">
-                <Button
-                  size="lg"
-                  onClick={handleNext}
-                  className="px-14 font-bold group shadow-lg shadow-primary/20"
-                >
-                  {currentExerciseIndex === exercises.length - 1
-                    ? "Finish Session"
-                    : "Continue"}
-                  <ArrowLeft className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform rotate-180" />
-                </Button>
-              </div>
+              {mode === "single" && (
+                <div className="flex justify-between gap-4">
+                  {prevExerciseId ? (
+                    <Link href={`/question-response/${level.toLowerCase()}/${prevExerciseId}`}>
+                      <Button
+                        variant="outline"
+                        size="lg"
+                        className="px-8 font-bold"
+                      >
+                        <ArrowLeft className="mr-2 h-4 w-4" />
+                        Previous
+                      </Button>
+                    </Link>
+                  ) : (
+                    <div />
+                  )}
+
+                  {nextExerciseId ? (
+                    <Link href={`/question-response/${level.toLowerCase()}/${nextExerciseId}`}>
+                      <Button
+                        size="lg"
+                        className="px-8 font-bold group shadow-lg shadow-primary/20"
+                      >
+                        Next Exercise
+                        <ArrowLeft className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform rotate-180" />
+                      </Button>
+                    </Link>
+                  ) : (
+                    <Link href={`/question-response/${level.toLowerCase()}`}>
+                      <Button
+                        size="lg"
+                        className="px-8 font-bold shadow-lg shadow-primary/20"
+                      >
+                        Back to List
+                      </Button>
+                    </Link>
+                  )}
+                </div>
+              )}
+
+              {mode === "random" && (
+                <div className="flex justify-end">
+                  <Button
+                    size="lg"
+                    onClick={handleNext}
+                    className="px-14 font-bold group shadow-lg shadow-primary/20"
+                  >
+                    {currentExerciseIndex === exercises.length - 1
+                      ? "Finish Session"
+                      : "Continue"}
+                    <ArrowLeft className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform rotate-180" />
+                  </Button>
+                </div>
+              )}
             </div>
           )}
 

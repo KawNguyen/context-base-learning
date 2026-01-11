@@ -2,6 +2,30 @@ import { VocabularyWord } from "../../types";
 
 export const G1: VocabularyWord[] = [
   {
+    id: "gen-gsadl1",
+    word: "Gadget",
+    slug: "gadget",
+    phonetic: "/ˈɡædʒ.ɪt/",
+    partOfSpeech: "noun",
+    meaningEn: "A small mechanical or electronic device.",
+    meaningVi: "Thiết bị nhỏ, tiện ích.",
+    exampleEn: "I bought a new gadget for my kitchen.",
+    exampleVi: "Tôi đã mua một thiết bị mới cho nhà bếp của mình.",
+    categories: ["Technology"],
+  },
+  {
+    id: "gen-ck121",
+    word: "Gain",
+    slug: "gain",
+    phonetic: "/ɡeɪn/",
+    partOfSpeech: "verb",
+    meaningEn: "To obtain or secure something.",
+    meaningVi: "Đạt được, giành được.",
+    exampleEn: "She gained a lot of experience.",
+    exampleVi: "Cô ấy đã có được nhiều kinh nghiệm.",
+    categories: ["General"],
+  },
+  {
     id: "c2-93",
     word: "Gainsay",
     slug: "gainsay",

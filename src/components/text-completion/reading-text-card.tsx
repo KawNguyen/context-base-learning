@@ -1,9 +1,16 @@
-import { Card, CardContent } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+} from "@/components/ui/card";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import CEFRBadge from "../cefr-badge";
 import { CEFRLevel } from "@/types";
 import { InteractiveTextSegment } from "./interactive-text-segment";
 import { GapButton } from "./gap-button";
+import { Separator } from "@/components/ui/separator";
 
 interface TextSegment {
   type: "text" | "gap";
@@ -36,14 +43,20 @@ export function ReadingTextCard({
   onGapClick,
 }: ReadingTextCardProps) {
   return (
-    <Card className="flex flex-col h-full overflow-hidden border-2">
-      <CardContent className="p-6 h-full">
-        <div className="flex items-center justify-between mb-4">
-          <h2 className="text-xl font-bold">{title}</h2>
-          <CEFRBadge level={level} />
+    <Card className="flex flex-col h-full border overflow-hidden shadow-sm">
+      <CardHeader className="flex flex-row items-center justify-between pb-2 bg-muted/30">
+        <div className="space-y-1">
+          <CardTitle className="text-xl">{title}</CardTitle>
+          <CardDescription>
+            Read the passage and fill in the gaps
+          </CardDescription>
         </div>
-        <ScrollArea className="h-[calc(100%-60px)] pr-4">
-          <p className="text-lg leading-loose text-justify">
+        <CEFRBadge level={level} />
+      </CardHeader>
+      <Separator />
+      <CardContent className="flex-1 p-0 overflow-hidden relative">
+        <ScrollArea className="h-full p-6 leading-loose">
+          <div className="text-lg text-justify text-foreground/90">
             {textSegments.map((segment, idx) => {
               if (segment.type === "text") {
                 return (
@@ -76,7 +89,7 @@ export function ReadingTextCard({
                 );
               }
             })}
-          </p>
+          </div>
         </ScrollArea>
       </CardContent>
     </Card>

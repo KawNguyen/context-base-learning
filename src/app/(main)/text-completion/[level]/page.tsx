@@ -1,4 +1,4 @@
-import { TextCompletionInterface } from "@/components/text-completion/text-completion-interface";
+import { PassageSelection } from "@/components/text-completion/passage-selection";
 import { TEXT_COMPLETION_DATA } from "@/constants/text-completion/data";
 import { unslugify } from "@/lib/utils";
 import { CEFRLevel } from "@/types";
@@ -20,5 +20,5 @@ export default async function TextCompletionLevelPage({ params }: PageProps) {
     notFound();
   }
 
-  return <TextCompletionInterface passages={passages} level={cefrLevel} />;
+  return <PassageSelection level={cefrLevel} passages={passages} />;
 }
