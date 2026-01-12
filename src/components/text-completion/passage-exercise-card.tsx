@@ -77,7 +77,7 @@ export function PassageExerciseCard({
         <div className="flex items-start justify-between">
           <div className="space-y-1">
             <div className="flex items-center gap-2">
-              <Badge variant="outline" className="font-mono">
+              <Badge variant="outline">
                 #{passageNumber}
               </Badge>
               <Badge variant="secondary">{level}</Badge>
@@ -140,13 +140,12 @@ export function PassageExerciseCard({
                 return (
                   <span
                     key={idx}
-                    className={`inline-flex items-center gap-1 px-2 py-0.5 rounded font-medium ${
-                      isCorrect
+                    className={`inline-flex items-center gap-1 px-2 py-0.5 rounded font-medium ${isCorrect
                         ? "bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400"
                         : isWrong
-                        ? "bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400"
-                        : "bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400"
-                    }`}
+                          ? "bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400"
+                          : "bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400"
+                      }`}
                   >
                     {userAnswer !== undefined
                       ? question?.options[userAnswer]?.option
@@ -207,13 +206,12 @@ export function PassageExerciseCard({
                     <Button
                       key={optionIndex}
                       variant={isSelected ? "default" : "outline"}
-                      className={`justify-start h-auto py-3 px-4 text-left whitespace-normal ${
-                        showAsCorrect
+                      className={`justify-start h-auto py-3 px-4 text-left whitespace-normal ${showAsCorrect
                           ? "bg-green-500 hover:bg-green-600 text-white border-green-600"
                           : showAsWrong
-                          ? "bg-red-500 hover:bg-red-600 text-white border-red-600"
-                          : ""
-                      }`}
+                            ? "bg-red-500 hover:bg-red-600 text-white border-red-600"
+                            : ""
+                        }`}
                       onClick={() =>
                         !showResult &&
                         onSelectOption(question.placeholderIndex, optionIndex)
@@ -221,7 +219,7 @@ export function PassageExerciseCard({
                       disabled={showResult}
                     >
                       <span className="flex items-center gap-2">
-                        <span className="font-mono font-bold">
+                        <span className="font-bold">
                           {String.fromCharCode(65 + optionIndex)}.
                         </span>
                         <span>{option.option}</span>

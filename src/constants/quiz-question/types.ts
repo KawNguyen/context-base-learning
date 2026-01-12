@@ -7,6 +7,10 @@ export interface Option {
 
 export interface Question {
   id: string;
+  topicId?: string;
+  questionType?: "grammar" | "vocabulary" | "word-form" | "structure";
+  contextEn?: string;
+  contextVi?: string;
   questionEn: string;
   questionVi: string;
   options: Option[];

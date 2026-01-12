@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Badge } from "@/components/ui/badge";
 import { CheckCircle2, XCircle, RefreshCcw, Languages } from "lucide-react";
 import {
   Tooltip,
@@ -18,10 +19,12 @@ interface QuizSectionProps {
 }
 
 export function QuizSection({ topic }: QuizSectionProps) {
-  // Get all questions matching this topic category
+  // Get all questions matching this topic category or topicId
   const topicQuestions = useMemo(() => {
     const flatQuestions = Object.values(allQuestions).flat();
-    const filtered = flatQuestions.filter((q) => q.category === topic.title);
+    const filtered = flatQuestions.filter((q) =>
+      q.topicId === topic.id || q.category === topic.title
+    );
     return filtered;
   }, [topic]);
 
@@ -76,7 +79,14 @@ export function QuizSection({ topic }: QuizSectionProps) {
     <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
       <div className="space-y-4">
         <div className="flex items-center justify-between">
-          <h3 className="text-lg font-medium">Quick Quiz</h3>
+          <div className="flex items-center gap-2">
+            <h3 className="text-lg font-medium">Quick Quiz</h3>
+            {currentQuestion.questionType && (
+              <Badge variant="secondary" className="text-[10px] uppercase tracking-wider h-5">
+                {currentQuestion.questionType}
+              </Badge>
+            )}
+          </div>
           {topicQuestions.length > 1 && (
             <span className="text-xs text-muted-foreground">
               Question {currentQuestionIndex + 1} of {topicQuestions.length}
@@ -122,16 +132,16 @@ export function QuizSection({ topic }: QuizSectionProps) {
                   ? "border-primary bg-primary/10"
                   : "border-white/10 hover:border-white/20 hover:bg-white/5",
                 isSubmitted &&
-                  option.isCorrect &&
-                  "border-green-500 bg-green-500/10",
+                option.isCorrect &&
+                "border-green-500 bg-green-500/10",
                 isSubmitted &&
-                  selectedOption === index &&
-                  !option.isCorrect &&
-                  "border-red-500 bg-red-500/10",
+                selectedOption === index &&
+                !option.isCorrect &&
+                "border-red-500 bg-red-500/10",
                 isSubmitted &&
-                  !option.isCorrect &&
-                  index !== selectedOption &&
-                  "opacity-50",
+                !option.isCorrect &&
+                index !== selectedOption &&
+                "opacity-50",
               )}
             >
               <span>{option.option}</span>

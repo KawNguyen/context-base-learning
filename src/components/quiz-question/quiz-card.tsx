@@ -34,9 +34,9 @@ export function QuizCard({
         "p-6 border-2 transition-all",
         isSubmitted &&
           (isCorrect
-            ? "border-l-green-500 border-l-4"
+            ? "border-green-500"
             : isWrong
-            ? "border-l-destructive border-l-4"
+            ? "border-destructive"
             : ""),
         !isSubmitted && isAnswered && "border-primary"
       )}
@@ -152,10 +152,9 @@ export function QuizCard({
       {isSubmitted && (
         <Alert
           className={cn(
-            "border-l-4",
             isCorrect
-              ? "border-l-green-500 bg-green-50/50 dark:bg-green-950/50"
-              : "border-l-muted-foreground bg-muted/50"
+              ? "border-green-500 bg-green-50/50 dark:bg-green-950/50"
+              : "border-destructive bg-destructive/10"
           )}
         >
           <Info className="h-4 w-4" />

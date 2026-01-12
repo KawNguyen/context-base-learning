@@ -43,7 +43,7 @@ export function GrammarTopicCard({
         </CardDescription>
       </CardHeader>
       <CardContent>
-        <div className="text-[11px] font-mono text-muted-foreground/50 truncate italic">
+        <div className="text-[11px] text-muted-foreground/50 truncate italic">
           {topic.structure}
         </div>
       </CardContent>

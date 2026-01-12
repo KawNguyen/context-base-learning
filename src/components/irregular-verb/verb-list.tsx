@@ -70,10 +70,10 @@ export function VerbList() {
                   <TableCell className="font-bold text-primary text-base">
                     {verb.base}
                   </TableCell>
-                  <TableCell className="font-medium font-mono">
+                  <TableCell className="font-medium">
                     {verb.past}
                   </TableCell>
-                  <TableCell className="font-medium font-mono">
+                  <TableCell className="font-medium">
                     {verb.participle}
                   </TableCell>
                   <TableCell className="text-muted-foreground italic">
