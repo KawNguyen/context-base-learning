@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
 import { TextCompletionPassage } from "@/constants/text-completion/types";
-import { useRouter } from "next/navigation";
+import { useRouter, useParams } from "next/navigation";
 import { CEFRLevel } from "@/types";
 import { PassageExerciseCard } from "./passage-exercise-card";
+import { QuizHeader } from "@/components/ui/quiz-header";
 
 interface TextCompletionListInterfaceProps {
   passages: TextCompletionPassage[];
@@ -17,6 +17,9 @@ export function TextCompletionListInterface({
   level,
 }: TextCompletionListInterfaceProps) {
   const router = useRouter();
+  const params = useParams();
+  const levelSlug = params.level as string;
+
   const [userAnswers, setUserAnswers] = useState<
     Record<string, Record<number, number>>
   >({}); // passageId -> { gapIndex -> optionIndex }
@@ -35,15 +38,6 @@ export function TextCompletionListInterface({
         [gapIndex]: optionIndex,
       },
     }));
-  };
-
-  const checkAllAnswered = () => {
-    return passages.every((passage) => {
-      const passageAnswers = userAnswers[passage.id] || {};
-      return passage.questions.every(
-        (q) => passageAnswers[q.placeholderIndex] !== undefined
-      );
-    });
   };
 
   const getScore = () => {
@@ -78,29 +72,48 @@ export function TextCompletionListInterface({
     return question?.options[optionIndex]?.isCorrect === true;
   };
 
-  const { correct, total } = showResult ? getScore() : { correct: 0, total: 0 };
+  const handleSubmit = () => {
+    setShowResult(true);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const handleReset = () => {
+    router.refresh();
+  };
+
+  const handleBack = () => {
+    router.push(`/text-completion/${levelSlug}`);
+  };
+
+  const { correct } = getScore();
+  let answeredCount = 0;
+  passages.forEach((passage) => {
+    const passageAnswers = userAnswers[passage.id] || {};
+    answeredCount += Object.keys(passageAnswers).length;
+  });
+
+  const totalQuestions = passages.reduce(
+    (sum, p) => sum + p.questions.length,
+    0
+  );
+  const progress = (answeredCount / totalQuestions) * 100;
 
   return (
-    <div className="h-full space-y-6 pb-8">
+    <div className="space-y-6">
       {/* Header */}
-      <div className="flex justify-between items-center">
-        <div>
-          <h1 className="text-2xl font-bold">Text Completion Practice</h1>
-          <p className="text-muted-foreground">
-            Complete all {passages.length} passages
-          </p>
-        </div>
-        {showResult && (
-          <div className="text-right">
-            <div className="text-3xl font-bold">
-              {correct}/{total}
-            </div>
-            <div className="text-sm text-muted-foreground">
-              {Math.round((correct / total) * 100)}% Correct
-            </div>
-          </div>
-        )}
-      </div>
+      <QuizHeader
+        title="TOEIC Practice - Text Completion"
+        subtitle={`Random ${passages.length} Passages`}
+        level={level}
+        answeredCount={answeredCount}
+        totalQuestions={totalQuestions}
+        progress={progress}
+        score={correct}
+        isSubmitted={showResult}
+        onSubmit={handleSubmit}
+        onReset={handleReset}
+        onBack={handleBack}
+      />
 
       {/* Passages List */}
       <div className="grid grid-cols-1 gap-6">
@@ -118,38 +131,6 @@ export function TextCompletionListInterface({
             isAnswerCorrect={isAnswerCorrect}
           />
         ))}
-      </div>
-
-      <div className="py-4 mt-8">
-        <div className="max-w-4xl mx-auto flex gap-4">
-          {!showResult ? (
-            <>
-              <Button
-                variant="outline"
-                onClick={() => router.back()}
-                className="flex-1"
-              >
-                Back
-              </Button>
-              <Button
-                onClick={() => setShowResult(true)}
-                disabled={!checkAllAnswered()}
-                className="flex-1 font-bold"
-                size="lg"
-              >
-                Check All Answers
-              </Button>
-            </>
-          ) : (
-            <Button
-              onClick={() => router.back()}
-              className="w-full font-bold"
-              size="lg"
-            >
-              Finish Practice
-            </Button>
-          )}
-        </div>
       </div>
     </div>
   );

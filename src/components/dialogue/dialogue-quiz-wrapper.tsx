@@ -11,7 +11,6 @@ import { CheckCircle2Icon } from "lucide-react";
 import CEFRBadge from "../cefr-badge";
 import { CEFRLevel } from "@/types";
 import { Progress } from "../ui/progress";
-import { Textarea } from "../ui/textarea";
 
 interface DialogueQuizWrapperProps {
   dialogue: Dialogue;
@@ -109,21 +108,21 @@ export function DialogueQuizWrapper({
 
   return (
     <div className="space-y-4">
-      {/* Header with Title and Level Badge */}
+      {/* Header */}
       <div className="flex items-center justify-between">
-        <h1 className="text-3xl font-bold">{dialogue.title}</h1>
+        <h1 className="text-2xl font-bold">{dialogue.title}</h1>
         <CEFRBadge level={level} />
       </div>
 
-      {/* Progress Bar */}
+      {/* Progress */}
       <div className="w-full">
         <div className="flex justify-between items-center mb-2">
           <p className="text-sm font-medium">
-            Question {currentQuestion + 1}/{dialogue.questions.length}
+            Question {currentQuestion + 1} / {dialogue.questions.length}
           </p>
           <p className="text-sm text-muted-foreground">
             {Math.round(
-              ((currentQuestion + 1) / dialogue.questions.length) * 100,
+              ((currentQuestion + 1) / dialogue.questions.length) * 100
             )}
             %
           </p>
@@ -134,50 +133,40 @@ export function DialogueQuizWrapper({
         />
       </div>
 
-      {/* Main Content Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 overflow-hidden h-full">
-        {/* Left: Dialogue Card */}
-        <Card>
-          <CardHeader className="sr-only">
-            <CardTitle className="sr-only">Dialogue</CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-4 h-full">
+      {/* Main Content - Single Column Layout */}
+      <div className="space-y-4">
+        {/* Dialogue Card - Compact */}
+        <Card className="bg-muted/30">
+          <CardContent className="p-4 space-y-2">
             {dialogue.lines.map((line, idx) => (
-              <div key={idx} className="flex gap-4">
+              <div key={idx} className="flex gap-2 items-start">
                 <Badge
                   variant={idx % 2 === 0 ? "default" : "secondary"}
-                  className="inline-block px-3 py-1 text-xs font-semibold rounded h-max"
+                  className="text-xs px-2 py-0.5 shrink-0"
                 >
                   {line.speaker}
                 </Badge>
-                <Textarea
-                  value={line.text}
-                  className="text-base h-max resize-none focus:outline-none active:outline-none focus-visible:ring-0 focus-visible:border-ring-0"
-                  readOnly
-                />
+                <p className="text-sm">{line.text}</p>
               </div>
             ))}
           </CardContent>
         </Card>
 
-        {/* Right: Question Card */}
+        {/* Question Card - Compact */}
         <Card>
-          <CardHeader>
-            <CardTitle>Question {currentQuestion + 1}</CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-6">
-            <p className="text-lg font-medium">
+          <CardHeader className="pb-3">
+            <CardTitle className="text-lg">
               {dialogue.questions[currentQuestion].question}
-            </p>
-
-            <div className="grid gap-3">
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <div className="grid gap-2">
               {dialogue.questions[currentQuestion].options.map(
                 (option, index) => {
                   const isSelected = selectedAnswer === index;
                   const isCorrect =
                     index === dialogue.questions[currentQuestion].correct;
-
-                  const optionABCD = ["A", "B", "C", "D"];
+                  const optionLabels = ["A", "B", "C", "D"];
 
                   return (
                     <Button
@@ -189,16 +178,19 @@ export function DialogueQuizWrapper({
                             ? "success"
                             : "destructive"
                           : isSelected
-                            ? "default"
-                            : "outline"
+                          ? "default"
+                          : "outline"
                       }
-                      className="flex justify-start p-4 py-6"
+                      className="justify-start p-3 h-auto text-left"
                       disabled={showExplanation}
                     >
-                      {optionABCD[index]}. {option}
+                      <span className="font-semibold mr-2">
+                        {optionLabels[index]}.
+                      </span>
+                      {option}
                     </Button>
                   );
-                },
+                }
               )}
             </div>
 
@@ -207,7 +199,6 @@ export function DialogueQuizWrapper({
                 <Button
                   onClick={handleCheckAnswer}
                   disabled={selectedAnswer === null}
-                  size="lg"
                 >
                   Check Answer
                 </Button>
@@ -215,23 +206,23 @@ export function DialogueQuizWrapper({
             )}
 
             {showExplanation && (
-              <Alert className="mt-6 p-4 rounded-lg border-green-600 bg-green-600/30 text-green-400">
-                <CheckCircle2Icon />
-                <AlertTitle>Explaination</AlertTitle>
-                <AlertDescription>
-                  {dialogue.questions[currentQuestion].explanation}
-                </AlertDescription>
-              </Alert>
-            )}
+              <>
+                <Alert className="p-3 rounded-lg border-green-600 bg-green-600/20 text-green-400">
+                  <CheckCircle2Icon className="w-4 h-4" />
+                  <AlertTitle className="text-sm">Explanation</AlertTitle>
+                  <AlertDescription className="text-xs">
+                    {dialogue.questions[currentQuestion].explanation}
+                  </AlertDescription>
+                </Alert>
 
-            {showExplanation && (
-              <div className="mt-6 flex justify-end">
-                <Button onClick={handleNextQuestion} size="lg">
-                  {currentQuestion < dialogue.questions.length - 1
-                    ? "Next Question"
-                    : "View Results"}
-                </Button>
-              </div>
+                <div className="flex justify-end">
+                  <Button onClick={handleNextQuestion}>
+                    {currentQuestion < dialogue.questions.length - 1
+                      ? "Next Question"
+                      : "View Results"}
+                  </Button>
+                </div>
+              </>
             )}
           </CardContent>
         </Card>
