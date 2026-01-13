@@ -1,9 +1,7 @@
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle2Icon, XCircleIcon, HelpCircleIcon } from "lucide-react";
 import { TextCompletionPassage } from "@/constants/text-completion/types";
-import { cn } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
+import { AnswerButton } from "@/components/answer-button";
+import { ExplanationAlert } from "../explanation-alert";
 
 interface QuestionPanelProps {
   currentQuestion: TextCompletionPassage["questions"][0] | undefined;
@@ -47,82 +45,25 @@ export function QuestionPanel({
           const isSelected = userAnswers[activeGapIndex] === idx;
           const isCorrectAnswer = opt.isCorrect;
 
-          // Determine styling state
-          let variant:
-            | "default"
-            | "outline"
-            | "ghost"
-            | "secondary"
-            | "destructive" = isSelected ? "default" : "outline";
-          let statusColorClass = "";
-
-          if (showResult) {
-            if (isCorrectAnswer) {
-              variant = "default";
-              statusColorClass =
-                "bg-green-600 hover:bg-green-700 text-white border-green-600 ring-green-600";
-            } else if (isSelected && !isCorrectAnswer) {
-              variant = "destructive";
-              statusColorClass = ""; // Use default destructive style
-            } else {
-              variant = "ghost";
-              statusColorClass = "opacity-50";
-            }
-          } else {
-            // Interactive state
-            if (isSelected)
-              statusColorClass = "ring-2 ring-primary ring-offset-2";
-          }
-
           return (
-            <Button
+            <AnswerButton
               key={idx}
-              variant={!showResult && isSelected ? "default" : variant} // Override because our logic above is a bit mixed
+              label={String.fromCharCode(65 + idx)}
+              isSelected={isSelected}
+              isCorrect={isCorrectAnswer}
+              isSubmitted={showResult}
               onClick={() => onSelectOption(idx)}
-              disabled={showResult}
-              className={cn(
-                "justify-start text-left h-auto py-4 px-4 text-base relative overflow-hidden transition-all",
-                statusColorClass,
-                !showResult &&
-                  !isSelected &&
-                  "hover:bg-muted hover:text-foreground"
-              )}
+              variant="standard"
+              className="h-auto py-4 text-base"
             >
-              <div
-                className={cn(
-                  "w-8 h-8 rounded-full border-2 flex items-center justify-center mr-4 text-sm font-bold shrink-0 transition-colors",
-                  isSelected || (showResult && isCorrectAnswer)
-                    ? "border-white/40 bg-white/10"
-                    : "border-muted-foreground/30 bg-muted/20"
-                )}
-              >
-                {String.fromCharCode(65 + idx)}
-              </div>
-              <span className="flex-1">{opt.option}</span>
-
-              {showResult && isCorrectAnswer && (
-                <CheckCircle2Icon className="ml-2 w-5 h-5 animate-in zoom-in" />
-              )}
-              {showResult && isSelected && !isCorrectAnswer && (
-                <XCircleIcon className="ml-2 w-5 h-5 animate-in zoom-in" />
-              )}
-            </Button>
+              {opt.option}
+            </AnswerButton>
           );
         })}
       </div>
 
       {showResult && currentQuestion.explanationVi && (
-        <Card className="bg-muted/50 border-primary/20 animate-in fade-in slide-in-from-top-2">
-          <CardContent className="p-4 flex gap-4">
-            <HelpCircleIcon className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-            <div className="space-y-1">
-              <p className="font-semibold text-sm text-primary">Giải thích</p>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                {currentQuestion.explanationVi}
-              </p>
-            </div>
-          </CardContent>
-        </Card>
+        <ExplanationAlert isCorrect={currentQuestion.options[userAnswers[activeGapIndex]]?.isCorrect}>{currentQuestion.explanationVi}</ExplanationAlert>
       )}
     </div>
   );

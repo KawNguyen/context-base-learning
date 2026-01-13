@@ -2,9 +2,10 @@
 
 import { CheckCircle2, XCircle, Info } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Card } from "../ui/card";
 import { Question } from "@/constants/quiz-question";
+import { AnswerButton } from "@/components/answer-button";
+import { ExplanationAlert } from "@/components/explanation-alert";
 
 interface QuizCardProps {
   question: Question;
@@ -103,65 +104,26 @@ export function QuizCard({
         {question.options.map((option, optIdx) => {
           const isSelected = selectedOption === optIdx;
           const isCorrectOption = optIdx === correctOptionIndex;
-          const showAsCorrect = isSubmitted && isCorrectOption;
-          const showAsWrong = isSubmitted && isSelected && !isCorrectOption;
 
           return (
-            <button
+            <AnswerButton
               key={optIdx}
+              label={`${String.fromCharCode(65 + optIdx)}.`}
+              isSelected={isSelected}
+              isCorrect={isCorrectOption}
+              isSubmitted={isSubmitted}
               onClick={() => onSelectOption(optIdx)}
-              disabled={isSubmitted}
-              className={cn(
-                "text-left p-3 rounded-lg border-2 transition-all hover:border-primary disabled:cursor-not-allowed",
-                isSelected && !isSubmitted && "border-primary bg-primary/10",
-                showAsCorrect &&
-                  "border-green-500 bg-green-50 dark:bg-green-950",
-                showAsWrong && "border-destructive bg-destructive/10",
-                !isSelected &&
-                  !showAsCorrect &&
-                  !showAsWrong &&
-                  "border-border hover:bg-muted"
-              )}
+              variant="standard"
             >
-              <div className="flex items-center justify-between">
-                <span className="flex items-center gap-2">
-                  <span className="font-semibold text-sm text-muted-foreground">
-                    {String.fromCharCode(65 + optIdx)}.
-                  </span>
-                  <span
-                    className={cn(
-                      "font-medium",
-                      showAsCorrect && "text-green-700 dark:text-green-400",
-                      showAsWrong && "text-destructive"
-                    )}
-                  >
-                    {option.option}
-                  </span>
-                </span>
-                {showAsCorrect && (
-                  <CheckCircle2 className="text-green-600 size-5" />
-                )}
-                {showAsWrong && <XCircle className="text-destructive size-5" />}
-              </div>
-            </button>
+              {option.option}
+            </AnswerButton>
           );
         })}
       </div>
 
       {/* Explanation - chỉ hiển thị sau khi submit */}
       {isSubmitted && (
-        <Alert
-          className={cn(
-            isCorrect
-              ? "border-green-500 bg-green-50/50 dark:bg-green-950/50"
-              : "border-destructive bg-destructive/10"
-          )}
-        >
-          <Info className="h-4 w-4" />
-          <AlertDescription className="text-sm">
-            {question.explanationVi}
-          </AlertDescription>
-        </Alert>
+        <ExplanationAlert isCorrect={isCorrect}>{question.explanationVi}</ExplanationAlert>
       )}
     </Card>
   );

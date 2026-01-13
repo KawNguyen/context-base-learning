@@ -6,11 +6,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Dialogue } from "@/constants/dialogues";
 import { useRouter, useParams } from "next/navigation";
 import { Badge } from "../ui/badge";
-import { Alert, AlertDescription, AlertTitle } from "../ui/alert";
-import { CheckCircle2Icon } from "lucide-react";
 import CEFRBadge from "../cefr-badge";
 import { CEFRLevel } from "@/types";
 import { Progress } from "../ui/progress";
+import { AnswerButton } from "@/components/answer-button";
+import { ExplanationAlert } from "@/components/explanation-alert";
 
 interface DialogueQuizWrapperProps {
   dialogue: Dialogue;
@@ -169,26 +169,18 @@ export function DialogueQuizWrapper({
                   const optionLabels = ["A", "B", "C", "D"];
 
                   return (
-                    <Button
+                    <AnswerButton
                       key={index}
+                      label={`${optionLabels[index]}.`}
+                      isSelected={isSelected}
+                      isCorrect={isCorrect}
+                      isSubmitted={showExplanation}
                       onClick={() => handleAnswerSelect(index)}
-                      variant={
-                        showExplanation && isSelected
-                          ? isCorrect
-                            ? "success"
-                            : "destructive"
-                          : isSelected
-                          ? "default"
-                          : "outline"
-                      }
-                      className="justify-start p-3 h-auto text-left"
-                      disabled={showExplanation}
+                      variant="standard"
+                      className="p-3"
                     >
-                      <span className="font-semibold mr-2">
-                        {optionLabels[index]}.
-                      </span>
                       {option}
-                    </Button>
+                    </AnswerButton>
                   );
                 }
               )}
@@ -207,13 +199,14 @@ export function DialogueQuizWrapper({
 
             {showExplanation && (
               <>
-                <Alert className="p-3 rounded-lg border-green-600 bg-green-600/20 text-green-400">
-                  <CheckCircle2Icon className="w-4 h-4" />
-                  <AlertTitle className="text-sm">Explanation</AlertTitle>
-                  <AlertDescription className="text-xs">
-                    {dialogue.questions[currentQuestion].explanation}
-                  </AlertDescription>
-                </Alert>
+                <ExplanationAlert
+                  isCorrect={
+                    selectedAnswer ===
+                    dialogue.questions[currentQuestion].correct
+                  }
+                >
+                  {dialogue.questions[currentQuestion].explanation}
+                </ExplanationAlert>
 
                 <div className="flex justify-end">
                   <Button onClick={handleNextQuestion}>

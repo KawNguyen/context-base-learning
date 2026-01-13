@@ -9,6 +9,8 @@ import { Badge } from "../ui/badge";
 import { Progress } from "../ui/progress";
 import CEFRBadge from "../cefr-badge";
 import { CEFRLevel } from "@/types";
+import { AnswerButton } from "@/components/answer-button";
+import { ExplanationAlert } from "@/components/explanation-alert";
 
 interface ReadingQuizProps {
   passage: ReadingPassage;
@@ -105,7 +107,7 @@ export function ReadingQuiz({
                 </span>
                 <span className="text-base font-semibold">
                   {Math.round(
-                    ((currentQuestion + 1) / passage.questions.length) * 100,
+                    ((currentQuestion + 1) / passage.questions.length) * 100
                   )}
                   %
                 </span>
@@ -125,56 +127,35 @@ export function ReadingQuiz({
                 {passage.questions[currentQuestion].options.map(
                   (
                     opt: { isCorrect: boolean; option: string },
-                    index: number,
+                    index: number
                   ) => (
-                    <Button
+                    <AnswerButton
                       key={index}
+                      label={`${String.fromCharCode(65 + index)}.`}
+                      isSelected={selectedAnswer === index}
+                      isCorrect={opt.isCorrect}
+                      isSubmitted={showExplanation}
                       onClick={() => onAnswerSelect(index)}
-                      variant={
-                        !showExplanation
-                          ? selectedAnswer === index
-                            ? "default"
-                            : "outline"
-                          : selectedAnswer === index
-                            ? selectedAnswer ===
-                              passage.questions[
-                                currentQuestion
-                              ].options.findIndex((o) => o.isCorrect)
-                              ? "default"
-                              : "destructive"
-                            : index ===
-                                passage.questions[
-                                  currentQuestion
-                                ].options.findIndex((o) => o.isCorrect)
-                              ? "default"
-                              : "outline"
-                      }
-                      className="w-full text-left justify-start h-auto py-3 px-4 text-sm"
-                      disabled={showExplanation}
+                      variant="standard"
+                      className="py-3 px-4 text-sm"
                     >
-                      <span className="mr-3 font-medium">
-                        {String.fromCharCode(65 + index)}.
-                      </span>
                       {opt.option}
-                    </Button>
-                  ),
+                    </AnswerButton>
+                  )
                 )}
               </div>
 
               {showExplanation && (
-                <div className="bg-muted/50 border rounded-md p-4 mb-4">
-                  <p className="text-sm font-semibold mb-2">
-                    {selectedAnswer ===
+                <ExplanationAlert
+                  isCorrect={
+                    selectedAnswer ===
                     passage.questions[currentQuestion].options.findIndex(
-                      (o) => o.isCorrect,
+                      (o) => o.isCorrect
                     )
-                      ? "Correct!"
-                      : "Incorrect"}
-                  </p>
-                  <p className="text-sm text-muted-foreground">
-                    {passage.questions[currentQuestion].explanation}
-                  </p>
-                </div>
+                  }
+                >
+                  {passage.questions[currentQuestion].explanation}
+                </ExplanationAlert>
               )}
             </div>
 

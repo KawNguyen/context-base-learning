@@ -2,17 +2,17 @@
 
 import { useState, useMemo } from "react";
 import { Button } from "@/components/ui/button";
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Badge } from "@/components/ui/badge";
-import { CheckCircle2, XCircle, RefreshCcw, Languages } from "lucide-react";
+import { RefreshCcw, Languages } from "lucide-react";
 import {
   Tooltip,
   TooltipTrigger,
   TooltipContent,
 } from "@/components/ui/tooltip";
-import { cn } from "@/lib/utils";
 import { GrammarTopic } from "@/constants/grammarTopics";
 import { questions as allQuestions } from "@/constants/quiz-question";
+import { AnswerButton } from "../answer-button";
+import { ExplanationAlert } from "@/components/explanation-alert";
 
 interface QuizSectionProps {
   topic: GrammarTopic;
@@ -22,8 +22,8 @@ export function QuizSection({ topic }: QuizSectionProps) {
   // Get all questions matching this topic category or topicId
   const topicQuestions = useMemo(() => {
     const flatQuestions = Object.values(allQuestions).flat();
-    const filtered = flatQuestions.filter((q) =>
-      q.topicId === topic.id || q.category === topic.title
+    const filtered = flatQuestions.filter(
+      (q) => q.topicId === topic.id || q.category === topic.title
     );
     return filtered;
   }, [topic]);
@@ -82,7 +82,10 @@ export function QuizSection({ topic }: QuizSectionProps) {
           <div className="flex items-center gap-2">
             <h3 className="text-lg font-medium">Quick Quiz</h3>
             {currentQuestion.questionType && (
-              <Badge variant="secondary" className="text-[10px] uppercase tracking-wider h-5">
+              <Badge
+                variant="secondary"
+                className="text-[10px] uppercase tracking-wider h-5"
+              >
                 {currentQuestion.questionType}
               </Badge>
             )}
@@ -122,36 +125,17 @@ export function QuizSection({ topic }: QuizSectionProps) {
 
         <div className="grid gap-3">
           {currentQuestion.options.map((option, index) => (
-            <button
+            <AnswerButton
               key={`${currentQuestionIndex}-${index}`}
+              isSelected={selectedOption === index}
+              isCorrect={option.isCorrect}
+              isSubmitted={isSubmitted}
               onClick={() => handleOptionSelect(index)}
-              disabled={isSubmitted}
-              className={cn(
-                "w-full text-left p-4 rounded-xl border transition-all flex items-center justify-between",
-                selectedOption === index
-                  ? "border-primary bg-primary/10"
-                  : "border-white/10 hover:border-white/20 hover:bg-white/5",
-                isSubmitted &&
-                option.isCorrect &&
-                "border-green-500 bg-green-500/10",
-                isSubmitted &&
-                selectedOption === index &&
-                !option.isCorrect &&
-                "border-red-500 bg-red-500/10",
-                isSubmitted &&
-                !option.isCorrect &&
-                index !== selectedOption &&
-                "opacity-50",
-              )}
+              variant="standard"
+              className="p-4 rounded-xl"
             >
-              <span>{option.option}</span>
-              {isSubmitted && option.isCorrect && (
-                <CheckCircle2 className="w-5 h-5 text-green-500" />
-              )}
-              {isSubmitted && selectedOption === index && !option.isCorrect && (
-                <XCircle className="w-5 h-5 text-red-500" />
-              )}
-            </button>
+              {option.option}
+            </AnswerButton>
           ))}
         </div>
       </div>
@@ -166,28 +150,9 @@ export function QuizSection({ topic }: QuizSectionProps) {
         </Button>
       ) : (
         <div className="space-y-4">
-          <Alert
-            className={cn(
-              "border-2",
-              isCorrect
-                ? "border-green-500/50 bg-green-500/5"
-                : "border-red-500/50 bg-red-500/5",
-            )}
-          >
-            {isCorrect ? (
-              <CheckCircle2 className="w-5 h-5 text-green-500" />
-            ) : (
-              <XCircle className="w-5 h-5 text-red-500" />
-            )}
-            <AlertTitle
-              className={isCorrect ? "text-green-500" : "text-red-500"}
-            >
-              {isCorrect ? "Correct!" : "Incorrect"}
-            </AlertTitle>
-            <AlertDescription className="text-muted-foreground mt-1">
-              <p>{currentQuestion.explanationVi}</p>
-            </AlertDescription>
-          </Alert>
+          <ExplanationAlert isCorrect={isCorrect}>
+            {currentQuestion.explanationVi}
+          </ExplanationAlert>
           <Button
             variant="outline"
             onClick={handleReset}

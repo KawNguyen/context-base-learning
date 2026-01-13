@@ -30,7 +30,6 @@ export function QuestionResponseInterface({
   exercises,
   level,
   mode = "random",
-  currentExerciseId,
   nextExerciseId,
   prevExerciseId,
 }: QuestionResponseInterfaceProps) {

@@ -2,6 +2,8 @@
 
 import { Dialogue, Question } from "@/constants/dialogues";
 import { Separator } from "@/components/ui/separator";
+import { AnswerButton } from "@/components/answer-button";
+import { ExplanationAlert } from "@/components/explanation-alert";
 
 interface DialogueCardProps {
   dialogue: Dialogue;
@@ -103,46 +105,28 @@ function QuestionItem({
         {question.options.map((option, optionIdx) => {
           const isSelected = selectedAnswer === optionIdx;
           const isCorrectOption = optionIdx === question.correct;
-          const showResult = isSubmitted && hasAnswer;
 
           return (
-            <button
+            <AnswerButton
               key={optionIdx}
+              label={optionLabels[optionIdx]}
+              isSelected={isSelected}
+              isCorrect={isCorrectOption}
+              isSubmitted={isSubmitted}
               onClick={() => onAnswerSelect(optionIdx)}
-              disabled={isSubmitted}
-              className={`w-full text-left p-3 rounded-md border transition-all ${
-                showResult && isSelected
-                  ? isCorrectOption
-                    ? "bg-green-50 border-green-500 text-green-900"
-                    : "bg-red-50 border-red-500 text-red-900"
-                  : isSelected
-                  ? "bg-primary text-primary-foreground border-primary"
-                  : "bg-background border-border hover:border-primary/50 hover:bg-accent"
-              } ${isSubmitted ? "cursor-not-allowed" : "cursor-pointer"}`}
+              variant="toeic"
             >
-              <span className="font-semibold mr-2">
-                {optionLabels[optionIdx]}
-              </span>
               {option}
-            </button>
+            </AnswerButton>
           );
         })}
       </div>
 
       {/* Explanation - Only shown after submit */}
       {isSubmitted && hasAnswer && (
-        <div
-          className={`mt-3 p-3 rounded-md border ${
-            isCorrect
-              ? "bg-green-50 border-green-200 text-green-900"
-              : "bg-red-50 border-red-200 text-red-900"
-          }`}
-        >
-          <p className="text-sm font-semibold mb-1">
-            {isCorrect ? "✓ Correct" : "✗ Incorrect"}
-          </p>
-          <p className="text-sm">{question.explanation}</p>
-        </div>
+        <ExplanationAlert isCorrect={isCorrect}>
+          {question.explanation}
+        </ExplanationAlert>
       )}
     </div>
   );

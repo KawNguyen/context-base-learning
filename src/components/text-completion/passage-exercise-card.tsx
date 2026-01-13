@@ -1,12 +1,12 @@
 "use client";
 
 import { useMemo } from "react";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
 import { Badge } from "../ui/badge";
 import { Check, X } from "lucide-react";
 import { TextCompletionPassage } from "@/constants/text-completion/types";
 import { CEFRLevel } from "@/types";
+import { AnswerButton } from "../answer-button";
 
 interface PassageExerciseCardProps {
   passage: TextCompletionPassage;
@@ -77,9 +77,7 @@ export function PassageExerciseCard({
         <div className="flex items-start justify-between">
           <div className="space-y-1">
             <div className="flex items-center gap-2">
-              <Badge variant="outline">
-                #{passageNumber}
-              </Badge>
+              <Badge variant="outline">#{passageNumber}</Badge>
               <Badge variant="secondary">{level}</Badge>
               {showResult && isComplete && (
                 <Badge
@@ -140,12 +138,13 @@ export function PassageExerciseCard({
                 return (
                   <span
                     key={idx}
-                    className={`inline-flex items-center gap-1 px-2 py-0.5 rounded font-medium ${isCorrect
+                    className={`inline-flex items-center gap-1 px-2 py-0.5 rounded font-medium ${
+                      isCorrect
                         ? "bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400"
                         : isWrong
-                          ? "bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400"
-                          : "bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400"
-                      }`}
+                        ? "bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400"
+                        : "bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400"
+                    }`}
                   >
                     {userAnswer !== undefined
                       ? question?.options[userAnswer]?.option
@@ -198,35 +197,22 @@ export function PassageExerciseCard({
                   const isSelected =
                     userAnswers[question.placeholderIndex] === optionIndex;
                   const isCorrectOption = option.isCorrect;
-                  const showAsCorrect = showResult && isCorrectOption;
-                  const showAsWrong =
-                    showResult && isSelected && !isCorrectOption;
 
                   return (
-                    <Button
+                    <AnswerButton
                       key={optionIndex}
-                      variant={isSelected ? "default" : "outline"}
-                      className={`justify-start h-auto py-3 px-4 text-left whitespace-normal ${showAsCorrect
-                          ? "bg-green-500 hover:bg-green-600 text-white border-green-600"
-                          : showAsWrong
-                            ? "bg-red-500 hover:bg-red-600 text-white border-red-600"
-                            : ""
-                        }`}
+                      label={`${String.fromCharCode(65 + optionIndex)}.`}
+                      isSelected={isSelected}
+                      isCorrect={isCorrectOption}
+                      isSubmitted={showResult}
                       onClick={() =>
-                        !showResult &&
                         onSelectOption(question.placeholderIndex, optionIndex)
                       }
-                      disabled={showResult}
+                      variant="compact"
+                      className="py-3 px-4 whitespace-normal text-left"
                     >
-                      <span className="flex items-center gap-2">
-                        <span className="font-bold">
-                          {String.fromCharCode(65 + optionIndex)}.
-                        </span>
-                        <span>{option.option}</span>
-                        {showAsCorrect && <Check className="ml-auto w-5 h-5" />}
-                        {showAsWrong && <X className="ml-auto w-5 h-5" />}
-                      </span>
-                    </Button>
+                      {option.option}
+                    </AnswerButton>
                   );
                 })}
               </div>
