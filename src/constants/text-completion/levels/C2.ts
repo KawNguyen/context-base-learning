@@ -2,7 +2,7 @@ import { TextCompletionPassage } from "../types";
 
 export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
   {
-    id: "c2-toeic-1",
+    id: "c2-1",
     title: "Economic Forecast - Report",
     level: "C2",
     content:
@@ -56,7 +56,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-2",
+    id: "c2-2",
     title: "Legal merger - Contract",
     level: "C2",
     content:
@@ -109,7 +109,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-3",
+    id: "c2-3",
     title: "Scientific Abstract - Journal",
     level: "C2",
     content:
@@ -162,7 +162,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-4",
+    id: "c2-4",
     title: "Philosophical Essay - Excerpt",
     level: "C2",
     content:
@@ -215,7 +215,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-5",
+    id: "c2-5",
     title: "Literary Critique - Review",
     level: "C2",
     content:
@@ -268,7 +268,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-6",
+    id: "c2-6",
     title: "Geopolitical Analysis - Article",
     level: "C2",
     content:
@@ -321,7 +321,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-7",
+    id: "c2-7",
     title: "Corporate Governance - White Paper",
     level: "C2",
     content:
@@ -374,7 +374,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-8",
+    id: "c2-8",
     title: "Architectural Theory - Essay",
     level: "C2",
     content:
@@ -427,7 +427,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-9",
+    id: "c2-9",
     title: "AI Ethics - Commentary",
     level: "C2",
     content:
@@ -480,7 +480,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-10",
+    id: "c2-10",
     title: "Climate Policy - Brief",
     level: "C2",
     content:
@@ -533,7 +533,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-11",
+    id: "c2-11",
     title: "History Critical - Essay",
     level: "C2",
     content:
@@ -586,7 +586,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-12",
+    id: "c2-12",
     title: "Art Restoration - Report",
     level: "C2",
     content:
@@ -639,7 +639,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-13",
+    id: "c2-13",
     title: "Quantum Computing - Tech",
     level: "C2",
     content:
@@ -692,7 +692,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-14",
+    id: "c2-14",
     title: "Supply Chain - Analysis",
     level: "C2",
     content:
@@ -745,7 +745,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-15",
+    id: "c2-15",
     title: "Linguistic Anthropology",
     level: "C2",
     content:
@@ -798,7 +798,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-16",
+    id: "c2-16",
     title: "Bioethics - Commentary",
     level: "C2",
     content:
@@ -851,7 +851,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-17",
+    id: "c2-17",
     title: "Astrophysics - Abstract",
     level: "C2",
     content:
@@ -904,7 +904,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-18",
+    id: "c2-18",
     title: "International Law - Brief",
     level: "C2",
     content:
@@ -957,7 +957,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-19",
+    id: "c2-19",
     title: "Cyber Warfare - Report",
     level: "C2",
     content:
@@ -1010,7 +1010,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-20",
+    id: "c2-20",
     title: "Genetics - Article",
     level: "C2",
     content:
@@ -1063,7 +1063,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-21",
+    id: "c2-21",
     title: "Monetary Policy - Analysis",
     level: "C2",
     content:
@@ -1116,7 +1116,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-22",
+    id: "c2-22",
     title: "Social Psychology - Abstract",
     level: "C2",
     content:
@@ -1169,7 +1169,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-23",
+    id: "c2-23",
     title: "Energy Grid - Technical",
     level: "C2",
     content:
@@ -1222,7 +1222,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-24",
+    id: "c2-24",
     title: "Anthropocene - Essay",
     level: "C2",
     content:
@@ -1275,7 +1275,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-25",
+    id: "c2-25",
     title: "Digital Currency - Report",
     level: "C2",
     content:
@@ -1328,7 +1328,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-26",
+    id: "c2-26",
     title: "Smart Cities - Critique",
     level: "C2",
     content:
@@ -1381,7 +1381,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-27",
+    id: "c2-27",
     title: "Consciousness - Theory",
     level: "C2",
     content:
@@ -1434,7 +1434,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-28",
+    id: "c2-28",
     title: "Mars Colonization - Brief",
     level: "C2",
     content:
@@ -1487,7 +1487,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-29",
+    id: "c2-29",
     title: "Biodiversity - Report",
     level: "C2",
     content:
@@ -1540,7 +1540,7 @@ export const C2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c2-toeic-30",
+    id: "c2-30",
     title: "Post-Modernism - Essay",
     level: "C2",
     content:

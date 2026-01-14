@@ -1,16 +1,16 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { RefreshCcw, Languages } from "lucide-react";
+import { RefreshCcw, Languages, Loader2 } from "lucide-react";
 import {
   Tooltip,
   TooltipTrigger,
   TooltipContent,
 } from "@/components/ui/tooltip";
 import { GrammarTopic } from "@/constants/grammarTopics";
-import { questions as allQuestions } from "@/constants/quiz-question";
+import { Question, Option } from "@/constants/quiz-question/types";
 import { AnswerButton } from "../answer-button";
 import { ExplanationAlert } from "@/components/explanation-alert";
 
@@ -18,25 +18,45 @@ interface QuizSectionProps {
   topic: GrammarTopic;
 }
 
-export function QuizSection({ topic }: QuizSectionProps) {
-  // Get all questions matching this topic category or topicId
-  const topicQuestions = useMemo(() => {
-    const flatQuestions = Object.values(allQuestions).flat();
-    const filtered = flatQuestions.filter(
-      (q) => q.topicId === topic.id || q.category === topic.title,
-    );
-    return filtered;
-  }, [topic]);
+interface QuizQuestion extends Omit<Question, "options"> {
+  options: Option[];
+  correctIndex: number;
+  totalQuestions: number;
+}
 
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(() => {
-    // Lazy initialization - only runs once on mount
-    if (topicQuestions.length === 0) return 0;
-    return Math.floor(Math.random() * topicQuestions.length);
-  });
+export function QuizSection({ topic }: QuizSectionProps) {
+  const [question, setQuestion] = useState<QuizQuestion | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const currentQuestion = topicQuestions[currentQuestionIndex];
+  // Fetch random question from API
+  const fetchQuestion = async () => {
+    setIsLoading(true);
+    setError(null);
+    try {
+      const response = await fetch(`/api/grammar/${topic.id}/random`);
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || "Failed to fetch question");
+      }
+
+      const data = await response.json();
+      setQuestion(data);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "An error occurred");
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  // Fetch question on mount
+  useEffect(() => {
+    fetchQuestion();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [topic.id, topic.title]);
 
   const handleOptionSelect = (index: number) => {
     if (isSubmitted) return;
@@ -44,55 +64,56 @@ export function QuizSection({ topic }: QuizSectionProps) {
   };
 
   const handleSubmit = () => {
-    if (selectedOption === null || !currentQuestion) return;
+    if (selectedOption === null || !question) return;
     setIsSubmitted(true);
   };
 
   const handleReset = () => {
-    if (topicQuestions.length > 1) {
-      // Pick a different random question
-      let nextIndex;
-      do {
-        nextIndex = Math.floor(Math.random() * topicQuestions.length);
-      } while (nextIndex === currentQuestionIndex);
-      setCurrentQuestionIndex(nextIndex);
-    }
     setSelectedOption(null);
     setIsSubmitted(false);
+    fetchQuestion(); // Fetch new random question
   };
 
-  if (!currentQuestion) {
+  if (isLoading) {
     return (
-      <div className="p-8 text-center border border-dashed rounded-xl border-white/10">
+      <div className="p-8 text-center">
+        <Loader2 className="w-6 h-6 mx-auto mb-2 animate-spin text-muted-foreground" />
+        <p className="text-muted-foreground italic">Loading question...</p>
+      </div>
+    );
+  }
+
+  if (error || !question) {
+    return (
+      <div className="p-8 text-center ">
         <p className="text-muted-foreground italic">
-          No quiz available for this topic yet.
+          {error || "No quiz available for this topic yet."}
         </p>
       </div>
     );
   }
 
   const isCorrect =
-    selectedOption !== null &&
-    currentQuestion.options[selectedOption].isCorrect;
+    selectedOption !== null && selectedOption === question.correctIndex;
 
   return (
-    <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
+    <div className="space-y-6 ">
       <div className="space-y-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <h3 className="text-lg font-medium">Quick Quiz</h3>
-            {currentQuestion.questionType && (
+            {question.questionType && (
               <Badge
                 variant="secondary"
                 className="text-[10px] uppercase tracking-wider h-5"
               >
-                {currentQuestion.questionType}
+                {question.questionType}
               </Badge>
             )}
           </div>
-          {topicQuestions.length > 1 && (
+          {question.totalQuestions > 1 && (
             <span className="text-xs text-muted-foreground">
-              Question {currentQuestionIndex + 1} of {topicQuestions.length}
+              {question.totalQuestions} questions available
             </span>
           )}
         </div>
@@ -100,9 +121,9 @@ export function QuizSection({ topic }: QuizSectionProps) {
         <div className="space-y-1">
           <div className="flex items-center gap-2">
             <p className="text-foreground/90 font-medium leading-relaxed">
-              {currentQuestion.questionEn}
+              {question.questionEn}
             </p>
-            {currentQuestion.questionVi && (
+            {question.questionVi && (
               <Tooltip>
                 <TooltipTrigger asChild>
                   <button
@@ -114,9 +135,7 @@ export function QuizSection({ topic }: QuizSectionProps) {
                   </button>
                 </TooltipTrigger>
                 <TooltipContent sideOffset={6} side="top" className="max-w-xs">
-                  <span className="text-sm italic">
-                    {currentQuestion.questionVi}
-                  </span>
+                  <span className="text-sm italic">{question.questionVi}</span>
                 </TooltipContent>
               </Tooltip>
             )}
@@ -124,11 +143,11 @@ export function QuizSection({ topic }: QuizSectionProps) {
         </div>
 
         <div className="grid gap-3">
-          {currentQuestion.options.map((option, index) => (
+          {question.options.map((option, index) => (
             <AnswerButton
-              key={`${currentQuestionIndex}-${index}`}
+              key={`${question.id}-${index}`}
               isSelected={selectedOption === index}
-              isCorrect={option.isCorrect}
+              isCorrect={index === question.correctIndex}
               isSubmitted={isSubmitted}
               onClick={() => handleOptionSelect(index)}
               variant="standard"
@@ -151,7 +170,7 @@ export function QuizSection({ topic }: QuizSectionProps) {
       ) : (
         <div className="space-y-4">
           <ExplanationAlert isCorrect={isCorrect}>
-            {currentQuestion.explanationVi}
+            {question.explanationVi}
           </ExplanationAlert>
           <Button
             variant="outline"

@@ -4,6 +4,7 @@ import { Dialogue, Question } from "@/constants/dialogues";
 import { Separator } from "@/components/ui/separator";
 import { AnswerButton } from "@/components/answer-button";
 import { ExplanationAlert } from "@/components/explanation-alert";
+import { useShuffleOptions } from "@/hooks/use-shuffle-options";
 
 interface DialogueCardProps {
   dialogue: Dialogue;
@@ -34,7 +35,7 @@ export function DialogueCard({
           <Separator className="mb-4" />
         </div>
 
-        {/* Dialogue Lines - TOEIC Style */}
+        {/* Dialogue Lines -  Style */}
         <div className="space-y-3">
           {dialogue.lines.map((line, lineIdx) => (
             <div key={lineIdx} className="space-y-1">
@@ -89,22 +90,29 @@ function QuestionItem({
   onAnswerSelect,
 }: QuestionItemProps) {
   const optionLabels = ["(A)", "(B)", "(C)", "(D)"];
+
+  // Shuffle options
+  const { shuffledOptions, newCorrectIndex } = useShuffleOptions(
+    question.options,
+    question.correct
+  );
+
   const hasAnswer = selectedAnswer !== undefined;
-  const isCorrect = hasAnswer && selectedAnswer === question.correct;
+  const isCorrect = hasAnswer && selectedAnswer === newCorrectIndex;
 
   return (
     <div className="space-y-3">
-      {/* Question Text - TOEIC Style */}
+      {/* Question Text -  Style */}
       <p className="text-base font-medium">
         <span className="font-bold mr-2">{questionNumber}.</span>
         {question.question}
       </p>
 
-      {/* Answer Options - TOEIC Style */}
+      {/* Answer Options -  Style */}
       <div className="space-y-2 pl-6">
-        {question.options.map((option, optionIdx) => {
+        {shuffledOptions.map((option, optionIdx) => {
           const isSelected = selectedAnswer === optionIdx;
-          const isCorrectOption = optionIdx === question.correct;
+          const isCorrectOption = optionIdx === newCorrectIndex;
 
           return (
             <AnswerButton
@@ -114,7 +122,7 @@ function QuestionItem({
               isCorrect={isCorrectOption}
               isSubmitted={isSubmitted}
               onClick={() => onAnswerSelect(optionIdx)}
-              variant="toeic"
+              variant="standard"
             >
               {option}
             </AnswerButton>

@@ -11,6 +11,7 @@ import { CEFRLevel } from "@/types";
 import { Progress } from "../ui/progress";
 import { AnswerButton } from "@/components/answer-button";
 import { ExplanationAlert } from "@/components/explanation-alert";
+import { useShuffleOptions } from "@/hooks/use-shuffle-options";
 
 interface DialogueQuizWrapperProps {
   dialogue: Dialogue;
@@ -31,6 +32,13 @@ export function DialogueQuizWrapper({
   const [score, setScore] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
 
+  // Shuffle options cho câu hỏi hiện tại
+  const { shuffledOptions, newCorrectIndex, shuffledToOriginal } =
+    useShuffleOptions(
+      dialogue.questions[currentQuestion]?.options ?? [],
+      dialogue.questions[currentQuestion]?.correct
+    );
+
   const handleAnswerSelect = (answerIndex: number) => {
     if (showExplanation) return;
     setSelectedAnswer(answerIndex);
@@ -41,7 +49,8 @@ export function DialogueQuizWrapper({
 
     setShowExplanation(true);
 
-    if (selectedAnswer === dialogue.questions[currentQuestion].correct) {
+    // Kiểm tra đúng sai dựa trên shuffled index
+    if (selectedAnswer === newCorrectIndex) {
       setScore(score + 1);
     }
   };
@@ -122,7 +131,7 @@ export function DialogueQuizWrapper({
           </p>
           <p className="text-sm text-muted-foreground">
             {Math.round(
-              ((currentQuestion + 1) / dialogue.questions.length) * 100,
+              ((currentQuestion + 1) / dialogue.questions.length) * 100
             )}
             %
           </p>
@@ -161,29 +170,26 @@ export function DialogueQuizWrapper({
           </CardHeader>
           <CardContent className="space-y-4">
             <div className="grid gap-2">
-              {dialogue.questions[currentQuestion].options.map(
-                (option, index) => {
-                  const isSelected = selectedAnswer === index;
-                  const isCorrect =
-                    index === dialogue.questions[currentQuestion].correct;
-                  const optionLabels = ["A", "B", "C", "D"];
+              {shuffledOptions.map((option, index) => {
+                const isSelected = selectedAnswer === index;
+                const isCorrect = index === newCorrectIndex;
+                const optionLabels = ["A", "B", "C", "D"];
 
-                  return (
-                    <AnswerButton
-                      key={index}
-                      label={`${optionLabels[index]}.`}
-                      isSelected={isSelected}
-                      isCorrect={isCorrect}
-                      isSubmitted={showExplanation}
-                      onClick={() => handleAnswerSelect(index)}
-                      variant="standard"
-                      className="p-3"
-                    >
-                      {option}
-                    </AnswerButton>
-                  );
-                },
-              )}
+                return (
+                  <AnswerButton
+                    key={index}
+                    label={`${optionLabels[index]}.`}
+                    isSelected={isSelected}
+                    isCorrect={isCorrect}
+                    isSubmitted={showExplanation}
+                    onClick={() => handleAnswerSelect(index)}
+                    variant="standard"
+                    className="p-3"
+                  >
+                    {option}
+                  </AnswerButton>
+                );
+              })}
             </div>
 
             {!showExplanation && (

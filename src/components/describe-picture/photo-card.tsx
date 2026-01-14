@@ -15,7 +15,7 @@ export function PhotoCard({ imageUrl }: PhotoCardProps) {
     >
       <Image
         src={imageUrl}
-        alt="TOEIC Scene"
+        alt=" Scene"
         fill
         className="object-cover transition-opacity duration-500"
         priority

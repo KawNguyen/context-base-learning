@@ -2,7 +2,7 @@ import { TextCompletionPassage } from "../types";
 
 export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
   {
-    id: "c1-toeic-1",
+    id: "c1-1",
     title: "Project Strategy Proposal - Email",
     level: "C1",
     content:
@@ -58,7 +58,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-2",
+    id: "c1-2",
     title: "Conference Invitation - Letter",
     level: "C1",
     content:
@@ -111,7 +111,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-3",
+    id: "c1-3",
     title: "Market Analysis - Memo",
     level: "C1",
     content:
@@ -164,7 +164,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-4",
+    id: "c1-4",
     title: "Performance Review - Formal",
     level: "C1",
     content:
@@ -217,7 +217,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-5",
+    id: "c1-5",
     title: "Policy Update - HR Email",
     level: "C1",
     content:
@@ -270,7 +270,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-6",
+    id: "c1-6",
     title: "Client Apology - Letter",
     level: "C1",
     content:
@@ -323,7 +323,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-7",
+    id: "c1-7",
     title: "Training Seminar - Memo",
     level: "C1",
     content:
@@ -376,7 +376,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-8",
+    id: "c1-8",
     title: "Product Launch - Press Release",
     level: "C1",
     content:
@@ -429,7 +429,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-9",
+    id: "c1-9",
     title: "Merger Announcement - Email",
     level: "C1",
     content:
@@ -482,7 +482,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-10",
+    id: "c1-10",
     title: "Research Grant - Application",
     level: "C1",
     content:
@@ -535,7 +535,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-11",
+    id: "c1-11",
     title: "Software Upgrade - Memo",
     level: "C1",
     content:
@@ -588,7 +588,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-12",
+    id: "c1-12",
     title: "Office Relocation - Announcement",
     level: "C1",
     content:
@@ -641,7 +641,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-13",
+    id: "c1-13",
     title: "Investment Pitch - Summary",
     level: "C1",
     content:
@@ -694,7 +694,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-14",
+    id: "c1-14",
     title: "Contract Terms - Summary",
     level: "C1",
     content:
@@ -747,7 +747,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-15",
+    id: "c1-15",
     title: "Sustainability Report - Intro",
     level: "C1",
     content:
@@ -800,7 +800,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-16",
+    id: "c1-16",
     title: "Logistics Delay - Memo",
     level: "C1",
     content:
@@ -853,7 +853,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-17",
+    id: "c1-17",
     title: "Partnership Announcement - Email",
     level: "C1",
     content:
@@ -906,7 +906,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-18",
+    id: "c1-18",
     title: "Security Protocol - Memo",
     level: "C1",
     content:
@@ -959,7 +959,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-19",
+    id: "c1-19",
     title: "Quarterly Earnings - Report",
     level: "C1",
     content:
@@ -1012,7 +1012,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-20",
+    id: "c1-20",
     title: "Leadership Seminar - Invite",
     level: "C1",
     content:
@@ -1065,7 +1065,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-21",
+    id: "c1-21",
     title: "Employee Benefits - Memo",
     level: "C1",
     content:
@@ -1118,7 +1118,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-22",
+    id: "c1-22",
     title: "CSR Event - Invite",
     level: "C1",
     content:
@@ -1171,7 +1171,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-23",
+    id: "c1-23",
     title: "Market Expansion - Announcement",
     level: "C1",
     content:
@@ -1224,7 +1224,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-24",
+    id: "c1-24",
     title: "Customer Survey - Email",
     level: "C1",
     content:
@@ -1277,7 +1277,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-25",
+    id: "c1-25",
     title: "Product Recall - Notice",
     level: "C1",
     content:
@@ -1330,7 +1330,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-26",
+    id: "c1-26",
     title: "Annual Gala - Invite",
     level: "C1",
     content:
@@ -1383,7 +1383,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-27",
+    id: "c1-27",
     title: "Vendor Negotiation - Email",
     level: "C1",
     content:
@@ -1436,7 +1436,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-28",
+    id: "c1-28",
     title: "Staff Restructuring - Memo",
     level: "C1",
     content:
@@ -1489,7 +1489,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-29",
+    id: "c1-29",
     title: "Travel Policy - Update",
     level: "C1",
     content:
@@ -1542,7 +1542,7 @@ export const C1_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "c1-toeic-30",
+    id: "c1-30",
     title: "Tech Innovation - News",
     level: "C1",
     content:

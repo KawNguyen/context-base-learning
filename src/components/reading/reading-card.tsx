@@ -33,7 +33,7 @@ export function ReadingCard({
           <Separator className="mb-4" />
         </div>
 
-        {/* Passage Text - TOEIC Style */}
+        {/* Passage Text -  Style */}
         <div className="prose prose-sm max-w-none">
           <p className="text-base leading-relaxed whitespace-pre-line">
             {passage.passage}
@@ -92,13 +92,13 @@ function QuestionItem({
 
   return (
     <div className="space-y-3">
-      {/* Question Text - TOEIC Style */}
+      {/* Question Text -  Style */}
       <p className="text-base font-medium">
         <span className="font-bold mr-2">{questionNumber}.</span>
         {question.question}
       </p>
 
-      {/* Answer Options - TOEIC Style */}
+      {/* Answer Options -  Style */}
       <div className="space-y-2 pl-6">
         {question.options.map((option, optionIdx) => {
           const isSelected = selectedAnswer === optionIdx;
@@ -112,7 +112,7 @@ function QuestionItem({
               isCorrect={isCorrectOption}
               isSubmitted={isSubmitted}
               onClick={() => onAnswerSelect(optionIdx)}
-              variant="toeic"
+              variant="standard"
             >
               {option.option}
             </AnswerButton>

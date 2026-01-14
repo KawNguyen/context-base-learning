@@ -11,6 +11,7 @@ import CEFRBadge from "../cefr-badge";
 import { CEFRLevel } from "@/types";
 import { AnswerButton } from "@/components/answer-button";
 import { ExplanationAlert } from "@/components/explanation-alert";
+import { useShuffleOptions } from "@/hooks/use-shuffle-options";
 
 interface ReadingQuizProps {
   passage: ReadingPassage;
@@ -36,6 +37,16 @@ export function ReadingQuiz({
   onPreviousQuestion,
 }: ReadingQuizProps) {
   const { words } = useInteractiveText(passage.passage);
+
+  // Shuffle options cho câu hỏi hiện tại
+  const currentOptions = passage.questions[currentQuestion].options;
+  const correctIndex = currentOptions.findIndex(
+    (o: { isCorrect: boolean }) => o.isCorrect
+  );
+  const { shuffledOptions, newCorrectIndex } = useShuffleOptions(
+    currentOptions,
+    correctIndex
+  );
 
   return (
     <div className="h-full">
@@ -107,7 +118,7 @@ export function ReadingQuiz({
                 </span>
                 <span className="text-base font-semibold">
                   {Math.round(
-                    ((currentQuestion + 1) / passage.questions.length) * 100,
+                    ((currentQuestion + 1) / passage.questions.length) * 100
                   )}
                   %
                 </span>
@@ -124,10 +135,10 @@ export function ReadingQuiz({
               </p>
 
               <div className="space-y-3 mb-6">
-                {passage.questions[currentQuestion].options.map(
+                {shuffledOptions.map(
                   (
                     opt: { isCorrect: boolean; option: string },
-                    index: number,
+                    index: number
                   ) => (
                     <AnswerButton
                       key={index}
@@ -141,18 +152,13 @@ export function ReadingQuiz({
                     >
                       {opt.option}
                     </AnswerButton>
-                  ),
+                  )
                 )}
               </div>
 
               {showExplanation && (
                 <ExplanationAlert
-                  isCorrect={
-                    selectedAnswer ===
-                    passage.questions[currentQuestion].options.findIndex(
-                      (o) => o.isCorrect,
-                    )
-                  }
+                  isCorrect={selectedAnswer === newCorrectIndex}
                 >
                   {passage.questions[currentQuestion].explanation}
                 </ExplanationAlert>

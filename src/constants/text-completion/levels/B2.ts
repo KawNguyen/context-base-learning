@@ -2,7 +2,7 @@ import { TextCompletionPassage } from "../types";
 
 export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
   {
-    id: "b2-toeic-1",
+    id: "b2-1",
     title: "Project Update - Email",
     level: "B2",
     content:
@@ -56,7 +56,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-2",
+    id: "b2-2",
     title: "Conference Invitation - Letter",
     level: "B2",
     content:
@@ -109,7 +109,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-3",
+    id: "b2-3",
     title: "Recommendation Letter",
     level: "B2",
     content:
@@ -162,7 +162,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-4",
+    id: "b2-4",
     title: "Policy Update - Memo",
     level: "B2",
     content:
@@ -215,7 +215,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-5",
+    id: "b2-5",
     title: "Supply Chain Issue - Email",
     level: "B2",
     content:
@@ -268,7 +268,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-6",
+    id: "b2-6",
     title: "Contract Negotiation - Email",
     level: "B2",
     content:
@@ -321,7 +321,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-7",
+    id: "b2-7",
     title: "Performance Review - Summary",
     level: "B2",
     content:
@@ -374,7 +374,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-8",
+    id: "b2-8",
     title: "IT System Upgrade - Notice",
     level: "B2",
     content:
@@ -427,7 +427,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-9",
+    id: "b2-9",
     title: "Marketing Strategy - Email",
     level: "B2",
     content:
@@ -480,7 +480,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-10",
+    id: "b2-10",
     title: "Internship Program - Announcement",
     level: "B2",
     content:
@@ -533,7 +533,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-11",
+    id: "b2-11",
     title: "Product Recall - Press Release",
     level: "B2",
     content:
@@ -586,7 +586,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-12",
+    id: "b2-12",
     title: "Office Relocation - Memo",
     level: "B2",
     content:
@@ -639,7 +639,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-13",
+    id: "b2-13",
     title: "Training Seminar - Feedback",
     level: "B2",
     content:
@@ -692,7 +692,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-14",
+    id: "b2-14",
     title: "Budget Cuts - Memo",
     level: "B2",
     content:
@@ -745,7 +745,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-15",
+    id: "b2-15",
     title: "Client Acquisition - Email",
     level: "B2",
     content:
@@ -798,7 +798,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-16",
+    id: "b2-16",
     title: "Software Launch - Memo",
     level: "B2",
     content:
@@ -851,7 +851,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-17",
+    id: "b2-17",
     title: "Retirement Party - Invitation",
     level: "B2",
     content:
@@ -904,7 +904,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-18",
+    id: "b2-18",
     title: "Business Partnership - Press Release",
     level: "B2",
     content:
@@ -957,7 +957,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-19",
+    id: "b2-19",
     title: "Quarterly Earnings - Report",
     level: "B2",
     content:
@@ -1010,7 +1010,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-20",
+    id: "b2-20",
     title: "Security Update - Email",
     level: "B2",
     content:
@@ -1063,7 +1063,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-21",
+    id: "b2-21",
     title: "Grand Opening - Invitation",
     level: "B2",
     content:
@@ -1116,7 +1116,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-22",
+    id: "b2-22",
     title: "Shipping Delay - Notice",
     level: "B2",
     content:
@@ -1169,7 +1169,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-23",
+    id: "b2-23",
     title: "Employee Survey - Memo",
     level: "B2",
     content:
@@ -1222,7 +1222,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-24",
+    id: "b2-24",
     title: "Sustainability - Newsletter",
     level: "B2",
     content:
@@ -1275,7 +1275,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-25",
+    id: "b2-25",
     title: "Client Testimonial - Request",
     level: "B2",
     content:
@@ -1328,7 +1328,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-26",
+    id: "b2-26",
     title: "Merger Announcement - Internal",
     level: "B2",
     content:
@@ -1381,7 +1381,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-27",
+    id: "b2-27",
     title: "Leadership Workshop - Memo",
     level: "B2",
     content:
@@ -1434,7 +1434,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-28",
+    id: "b2-28",
     title: "Holiday Operations - Notice",
     level: "B2",
     content:
@@ -1487,7 +1487,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-29",
+    id: "b2-29",
     title: "Vendor Review - Email",
     level: "B2",
     content:
@@ -1540,7 +1540,7 @@ export const B2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "b2-toeic-30",
+    id: "b2-30",
     title: "CEO Message - Year End",
     level: "B2",
     content:

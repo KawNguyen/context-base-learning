@@ -2,7 +2,7 @@ import { TextCompletionPassage } from "../types";
 
 export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
   {
-    id: "a2-toeic-1",
+    id: "a2-1",
     title: "Job Inquiry - Email",
     level: "A2",
     content:
@@ -59,7 +59,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-2",
+    id: "a2-2",
     title: "Product Question - Email",
     level: "A2",
     content:
@@ -117,7 +117,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-3",
+    id: "a2-3",
     title: "Travel Plan - Email",
     level: "A2",
     content:
@@ -174,7 +174,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-4",
+    id: "a2-4",
     title: "Apartment Issue - Email",
     level: "A2",
     content:
@@ -231,7 +231,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-5",
+    id: "a2-5",
     title: "Party Feedback - Text",
     level: "A2",
     content:
@@ -288,7 +288,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-6",
+    id: "a2-6",
     title: "Dentist Reschedule - Message",
     level: "A2",
     content:
@@ -341,7 +341,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-7",
+    id: "a2-7",
     title: "Recipe Share - Email",
     level: "A2",
     content:
@@ -394,7 +394,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-8",
+    id: "a2-8",
     title: "Lost Phone - Report",
     level: "A2",
     content:
@@ -447,7 +447,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-9",
+    id: "a2-9",
     title: "Wrong Order - Email",
     level: "A2",
     content:
@@ -500,7 +500,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-10",
+    id: "a2-10",
     title: "School Trip - Note",
     level: "A2",
     content:
@@ -553,7 +553,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-11",
+    id: "a2-11",
     title: "Sale Announcement - Email",
     level: "A2",
     content:
@@ -606,7 +606,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-12",
+    id: "a2-12",
     title: "New Course - Email",
     level: "A2",
     content:
@@ -659,7 +659,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-13",
+    id: "a2-13",
     title: "Lost Dog - Sign",
     level: "A2",
     content:
@@ -712,7 +712,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-14",
+    id: "a2-14",
     title: "Meeting Request - Email",
     level: "A2",
     content:
@@ -765,7 +765,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-15",
+    id: "a2-15",
     title: "Gym Membership - Offer",
     level: "A2",
     content:
@@ -818,7 +818,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-16",
+    id: "a2-16",
     title: "Internet Problem - Email",
     level: "A2",
     content:
@@ -871,7 +871,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-17",
+    id: "a2-17",
     title: "New Neighbor - Letter",
     level: "A2",
     content:
@@ -924,7 +924,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-18",
+    id: "a2-18",
     title: "Concert Ticket - Email",
     level: "A2",
     content:
@@ -977,7 +977,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-19",
+    id: "a2-19",
     title: "Restaurant Review - Web",
     level: "A2",
     content:
@@ -1030,7 +1030,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-20",
+    id: "a2-20",
     title: "Job Interview - Confirmation",
     level: "A2",
     content:
@@ -1083,7 +1083,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-21",
+    id: "a2-21",
     title: "Holiday Photos - Email",
     level: "A2",
     content:
@@ -1136,7 +1136,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-22",
+    id: "a2-22",
     title: "Returned Book - Message",
     level: "A2",
     content:
@@ -1189,7 +1189,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-23",
+    id: "a2-23",
     title: "Garage Sale - Flyer",
     level: "A2",
     content:
@@ -1242,7 +1242,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-24",
+    id: "a2-24",
     title: "Train Platform - Announcement",
     level: "A2",
     content:
@@ -1295,7 +1295,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-25",
+    id: "a2-25",
     title: "Hotel Complaint - Email",
     level: "A2",
     content:
@@ -1348,7 +1348,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-26",
+    id: "a2-26",
     title: "Wedding Invite - Card",
     level: "A2",
     content:
@@ -1401,7 +1401,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-27",
+    id: "a2-27",
     title: "Car Repair - Quote",
     level: "A2",
     content:
@@ -1454,7 +1454,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-28",
+    id: "a2-28",
     title: "Medical Advice - Note",
     level: "A2",
     content:
@@ -1507,7 +1507,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-29",
+    id: "a2-29",
     title: "Overdue Book - Warning",
     level: "A2",
     content:
@@ -1560,7 +1560,7 @@ export const A2_TEXT_COMPLETION: TextCompletionPassage[] = [
     ],
   },
   {
-    id: "a2-toeic-30",
+    id: "a2-30",
     title: "Volunteer - Email",
     level: "A2",
     content:

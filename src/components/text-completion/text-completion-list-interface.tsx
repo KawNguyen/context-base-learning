@@ -1,24 +1,52 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { TextCompletionPassage } from "@/constants/text-completion/types";
 import { useRouter, useParams } from "next/navigation";
 import { CEFRLevel } from "@/types";
 import { PassageExerciseCard } from "./passage-exercise-card";
 import { QuizHeader } from "@/components/ui/quiz-header";
+import { TextCompletionSkeleton } from "@/components/skeletons";
 
 interface TextCompletionListInterfaceProps {
-  passages: TextCompletionPassage[];
   level: CEFRLevel;
 }
 
 export function TextCompletionListInterface({
-  passages,
   level,
 }: TextCompletionListInterfaceProps) {
   const router = useRouter();
   const params = useParams();
   const levelSlug = params.level as string;
+
+  const [passages, setPassages] = useState<TextCompletionPassage[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  // Fetch 5 random passages
+  useEffect(() => {
+    const fetchPassages = async () => {
+      setIsLoading(true);
+      setError(null);
+      const items: TextCompletionPassage[] = [];
+
+      try {
+        for (let i = 0; i < 5; i++) {
+          const response = await fetch(`/api/text-completion/${level}/random`);
+          if (!response.ok) throw new Error("Failed to fetch passages");
+          const data = await response.json();
+          items.push(data);
+        }
+        setPassages(items);
+      } catch (err) {
+        setError(err instanceof Error ? err.message : "An error occurred");
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchPassages();
+  }, [level]);
 
   const [userAnswers, setUserAnswers] = useState<
     Record<string, Record<number, number>>
@@ -28,7 +56,7 @@ export function TextCompletionListInterface({
   const handleSelectOption = (
     passageId: string,
     gapIndex: number,
-    optionIndex: number,
+    optionIndex: number
   ) => {
     if (showResult) return;
     setUserAnswers((prev) => ({
@@ -48,9 +76,11 @@ export function TextCompletionListInterface({
       passage.questions.forEach((question) => {
         total++;
         const userAnswer = userAnswers[passage.id]?.[question.placeholderIndex];
+        // Use correctIndex from API
         if (
           userAnswer !== undefined &&
-          question.options[userAnswer]?.isCorrect
+          userAnswer ===
+            (question as unknown as { correctIndex: number }).correctIndex
         ) {
           correct++;
         }
@@ -63,13 +93,17 @@ export function TextCompletionListInterface({
   const isAnswerCorrect = (
     passageId: string,
     gapIndex: number,
-    optionIndex: number,
+    optionIndex: number
   ) => {
     const passage = passages.find((p) => p.id === passageId);
     const question = passage?.questions.find(
-      (q) => q.placeholderIndex === gapIndex,
+      (q) => q.placeholderIndex === gapIndex
     );
-    return question?.options[optionIndex]?.isCorrect === true;
+    // Use correctIndex from API
+    return (
+      optionIndex ===
+      (question as unknown as { correctIndex: number })?.correctIndex
+    );
   };
 
   const handleSubmit = () => {
@@ -94,15 +128,18 @@ export function TextCompletionListInterface({
 
   const totalQuestions = passages.reduce(
     (sum, p) => sum + p.questions.length,
-    0,
+    0
   );
-  const progress = (answeredCount / totalQuestions) * 100;
+  const progress =
+    isLoading || totalQuestions === 0
+      ? 0
+      : (answeredCount / totalQuestions) * 100;
 
   return (
     <div className="space-y-6">
       {/* Header */}
       <QuizHeader
-        title="TOEIC Practice - Text Completion"
+        title=" Practice - Text Completion"
         subtitle={`Random ${passages.length} Passages`}
         level={level}
         answeredCount={answeredCount}
@@ -115,23 +152,33 @@ export function TextCompletionListInterface({
         onBack={handleBack}
       />
 
-      {/* Passages List */}
-      <div className="grid grid-cols-1 gap-6">
-        {passages.map((passage, passageIndex) => (
-          <PassageExerciseCard
-            key={passage.id}
-            passage={passage}
-            passageNumber={passageIndex + 1}
-            level={level}
-            userAnswers={userAnswers[passage.id] || {}}
-            showResult={showResult}
-            onSelectOption={(gapIndex, optionIndex) =>
-              handleSelectOption(passage.id, gapIndex, optionIndex)
-            }
-            isAnswerCorrect={isAnswerCorrect}
-          />
-        ))}
-      </div>
+      {isLoading ? (
+        <TextCompletionSkeleton />
+      ) : error ? (
+        <div className="p-8 text-center border border-dashed rounded-xl border-white/10">
+          <p className="text-red-500">{error}</p>
+        </div>
+      ) : (
+        <>
+          {/* Passages List */}
+          <div className="grid grid-cols-1 gap-6">
+            {passages.map((passage, passageIndex) => (
+              <PassageExerciseCard
+                key={passage.id}
+                passage={passage}
+                passageNumber={passageIndex + 1}
+                level={level}
+                userAnswers={userAnswers[passage.id] || {}}
+                showResult={showResult}
+                onSelectOption={(gapIndex, optionIndex) =>
+                  handleSelectOption(passage.id, gapIndex, optionIndex)
+                }
+                isAnswerCorrect={isAnswerCorrect}
+              />
+            ))}
+          </div>
+        </>
+      )}
     </div>
   );
 }

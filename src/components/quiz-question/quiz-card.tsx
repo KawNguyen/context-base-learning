@@ -6,6 +6,7 @@ import { Card } from "../ui/card";
 import { Question } from "@/constants/quiz-question";
 import { AnswerButton } from "@/components/answer-button";
 import { ExplanationAlert } from "@/components/explanation-alert";
+import { useShuffleOptions } from "@/hooks/use-shuffle-options";
 
 interface QuizCardProps {
   question: Question;
@@ -23,11 +24,16 @@ export function QuizCard({
   onSelectOption,
 }: QuizCardProps) {
   const correctOptionIndex = question.options.findIndex((opt) => opt.isCorrect);
+
+  // Shuffle options
+  const { shuffledOptions, newCorrectIndex } =
+    useShuffleOptions(question.options, correctOptionIndex);
+
   const isAnswered = selectedOption !== undefined;
   const isCorrect =
-    isSubmitted && isAnswered && question.options[selectedOption].isCorrect;
+    isSubmitted && isAnswered && shuffledOptions[selectedOption].isCorrect;
   const isWrong =
-    isSubmitted && isAnswered && !question.options[selectedOption].isCorrect;
+    isSubmitted && isAnswered && !shuffledOptions[selectedOption].isCorrect;
 
   return (
     <Card
@@ -37,9 +43,9 @@ export function QuizCard({
           (isCorrect
             ? "border-green-500"
             : isWrong
-              ? "border-destructive"
-              : ""),
-        !isSubmitted && isAnswered && "border-primary",
+            ? "border-destructive"
+            : ""),
+        !isSubmitted && isAnswered && "border-primary"
       )}
     >
       {/* Question Header */}
@@ -69,7 +75,7 @@ export function QuizCard({
         <p className="text-base font-medium leading-relaxed">
           {question.questionEn.split("____").map((part, i, arr) => {
             // Tách đáp án đúng theo dấu "/" nếu có
-            const correctAnswer = question.options[correctOptionIndex].option;
+            const correctAnswer = shuffledOptions[newCorrectIndex!].option;
             const answerParts = correctAnswer.includes("/")
               ? correctAnswer.split("/").map((p) => p.trim())
               : [correctAnswer];
@@ -101,9 +107,9 @@ export function QuizCard({
 
       {/* Options */}
       <div className="grid gap-2 mb-4">
-        {question.options.map((option, optIdx) => {
+        {shuffledOptions.map((option, optIdx) => {
           const isSelected = selectedOption === optIdx;
-          const isCorrectOption = optIdx === correctOptionIndex;
+          const isCorrectOption = optIdx === newCorrectIndex;
 
           return (
             <AnswerButton

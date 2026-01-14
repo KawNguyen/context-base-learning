@@ -589,7 +589,7 @@ export const questions: Question[] = [
       { option: "smallly modern", isCorrect: false },
     ],
     explanationVi:
-      "Trật tự tính từ: Opinion (modern) -> Size (small). (Lưu ý: Đôi khi size đứng trước opinion nhưng TOEIC thường ưu tiên Opinion trước). Thực tế OSASCOMP: Opinion -> Size.",
+      "Trật tự tính từ: Opinion (modern) -> Size (small). (Lưu ý: Đôi khi size đứng trước opinion nhưng  thường ưu tiên Opinion trước). Thực tế OSASCOMP: Opinion -> Size.",
     category: "Word Forms",
   },
   {

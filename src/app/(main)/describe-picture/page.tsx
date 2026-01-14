@@ -8,8 +8,8 @@ export default async function ImageDescriptionPage() {
           Describe the Picture
         </h1>
         <p className="text-muted-foreground text-xl max-w-2xl mx-auto font-medium">
-          Choose a photograph to start your TOEIC Part 1 practice. Listen
-          carefully and select the best description.
+          Choose a photograph to start your Part 1 practice. Listen carefully
+          and select the best description.
         </p>
       </div>
 

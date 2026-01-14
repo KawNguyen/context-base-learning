@@ -1,5 +1,5 @@
 import { ListeningInterface } from "@/components/listening/listening-interface";
-import { ListeningPassageSelection } from "@/components/listening/passage-selection";
+import { ListeningPassageRandom } from "@/components/listening/listening-passage-random";
 import { unslugify } from "@/lib/utils";
 import { CEFRLevel } from "@/types";
 import { LISTENING_DATA } from "@/constants/listening/data";
@@ -18,26 +18,22 @@ export default async function ListeningPracticePage({ params }: PageProps) {
   const cefrLevel = unslugify(level).toUpperCase() as CEFRLevel;
   const practiceType = type.toLowerCase() as ListeningType;
 
+  // If it's Comprehension, we show the selection screen with API data
+  if (practiceType === "comprehension") {
+    return (
+      <main className="container mx-auto px-4 py-8">
+        <ListeningPassageRandom level={cefrLevel} />
+      </main>
+    );
+  }
+
+  // Otherwise (Dictation), we show the interface with all exercises from static data
   const levelData = LISTENING_DATA[level.toLowerCase()];
 
   if (!levelData) {
     return notFound();
   }
 
-  // If it's Comprehension, we show the selection screen instead of the interface directly
-  if (practiceType === "comprehension") {
-    return (
-      <main className="container mx-auto px-4 py-8">
-        <ListeningPassageSelection
-          level={cefrLevel}
-          levelSlug={level.toLowerCase()}
-          passages={levelData.comprehensions}
-        />
-      </main>
-    );
-  }
-
-  // Otherwise (Dictation), we show the interface with all exercises
   const exercises = levelData.dictations;
 
   if (!exercises || exercises.length === 0) {

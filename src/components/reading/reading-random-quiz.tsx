@@ -1,40 +1,66 @@
 "use client";
 
-import { useState, useMemo } from "react";
-import { ReadingPassage } from "@/constants/reading";
+import { useState, useEffect } from "react";
+import { ReadingPassage } from "@/constants/reading/type";
 import { useRouter, useParams } from "next/navigation";
 import { CEFRLevel } from "@/types";
-import { shuffleArray } from "@/lib/utils";
 import { QuizHeader } from "../ui/quiz-header";
 import { ReadingCard } from "./reading-card";
 import { ReadingSummary } from "./reading-summary";
+import { ReadingSkeleton } from "@/components/skeletons";
 
 interface ReadingRandomQuizProps {
-  passages: ReadingPassage[];
   level: CEFRLevel;
 }
 
-export function ReadingRandomQuiz({ passages, level }: ReadingRandomQuizProps) {
+export function ReadingRandomQuiz({ level }: ReadingRandomQuizProps) {
   const router = useRouter();
   const params = useParams();
   const levelSlug = params.level as string;
 
-  // Randomly select 5 passages
-  const randomPassages = useMemo(() => {
-    const shuffled = shuffleArray(passages);
-    return shuffled.slice(0, Math.min(5, passages.length));
-  }, [passages]);
+  const [randomPassages, setRandomPassages] = useState<ReadingPassage[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  // Fetch 5 random passages from API
+  useEffect(() => {
+    const fetchPassages = async () => {
+      setIsLoading(true);
+      setError(null);
+      const passages: ReadingPassage[] = [];
+
+      try {
+        // Fetch 5 random passages
+        for (let i = 0; i < 5; i++) {
+          const response = await fetch(`/api/reading/${level}/random`);
+          if (!response.ok) {
+            throw new Error("Failed to fetch passages");
+          }
+          const data = await response.json();
+          passages.push(data);
+        }
+
+        setRandomPassages(passages);
+      } catch (err) {
+        setError(err instanceof Error ? err.message : "An error occurred");
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchPassages();
+  }, [level]);
 
   // Track answers using Map for better performance
   const [answers, setAnswers] = useState<Map<number, Map<number, number>>>(
-    new Map(),
+    new Map()
   );
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleAnswerSelect = (
     passageIdx: number,
     questionIdx: number,
-    answerIdx: number,
+    answerIdx: number
   ) => {
     if (isSubmitted) return;
 
@@ -63,7 +89,7 @@ export function ReadingRandomQuiz({ passages, level }: ReadingRandomQuizProps) {
   // Calculate statistics
   const totalQuestions = randomPassages.reduce(
     (sum, p) => sum + p.questions.length,
-    0,
+    0
   );
 
   let answeredCount = 0;
@@ -73,21 +99,27 @@ export function ReadingRandomQuiz({ passages, level }: ReadingRandomQuizProps) {
     const passage = randomPassages[passageIdx];
     passageAnswers.forEach((answerIdx, questionIdx) => {
       answeredCount++;
-      const question = passage.questions[questionIdx];
-      const correctIndex = question.options.findIndex((opt) => opt.isCorrect);
+      const question = passage.questions[questionIdx] as unknown as {
+        correctIndex: number;
+      };
+      // Use correctIndex from API
+      const correctIndex = question.correctIndex;
       if (correctIndex === answerIdx) {
         correctCount++;
       }
     });
   });
 
-  const progress = (answeredCount / totalQuestions) * 100;
+  const progress =
+    isLoading || totalQuestions === 0
+      ? 0
+      : (answeredCount / totalQuestions) * 100;
 
   return (
-    <div className="space-y-6 max-w-7xl mx-auto">
+    <div className="space-y-6">
       {/* Header */}
       <QuizHeader
-        title="TOEIC Practice - Reading"
+        title=" Practice - Reading"
         subtitle="Random 5 Passages"
         level={level}
         answeredCount={answeredCount}
@@ -100,29 +132,39 @@ export function ReadingRandomQuiz({ passages, level }: ReadingRandomQuizProps) {
         onBack={handleBackToReadings}
       />
 
-      {/* All Passages - Stacked vertically like real TOEIC */}
-      <div className="space-y-6">
-        {randomPassages.map((passage, passageIdx) => (
-          <ReadingCard
-            key={passageIdx}
-            passage={passage}
-            passageIndex={passageIdx}
-            selectedAnswers={answers.get(passageIdx) || new Map()}
-            isSubmitted={isSubmitted}
-            onAnswerSelect={(questionIdx, answerIdx) =>
-              handleAnswerSelect(passageIdx, questionIdx, answerIdx)
-            }
-          />
-        ))}
-      </div>
+      {isLoading ? (
+        <ReadingSkeleton />
+      ) : error ? (
+        <div className="p-8 text-center border border-dashed rounded-xl border-white/10">
+          <p className="text-red-500">{error}</p>
+        </div>
+      ) : (
+        <>
+          {/* All Passages - Stacked vertically like real  */}
+          <div className="space-y-6">
+            {randomPassages.map((passage, passageIdx) => (
+              <ReadingCard
+                key={passageIdx}
+                passage={passage}
+                passageIndex={passageIdx}
+                selectedAnswers={answers.get(passageIdx) || new Map()}
+                isSubmitted={isSubmitted}
+                onAnswerSelect={(questionIdx, answerIdx) =>
+                  handleAnswerSelect(passageIdx, questionIdx, answerIdx)
+                }
+              />
+            ))}
+          </div>
 
-      {/* Summary */}
-      {isSubmitted && (
-        <ReadingSummary
-          score={correctCount}
-          totalQuestions={totalQuestions}
-          totalPassages={randomPassages.length}
-        />
+          {/* Summary */}
+          {isSubmitted && (
+            <ReadingSummary
+              score={correctCount}
+              totalQuestions={totalQuestions}
+              totalPassages={randomPassages.length}
+            />
+          )}
+        </>
       )}
     </div>
   );

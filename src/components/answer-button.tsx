@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2, XCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-export type AnswerButtonVariant = "toeic" | "standard" | "compact";
+export type AnswerButtonVariant =  "standard" | "compact";
 
 export interface AnswerButtonProps {
   /** Nội dung hiển thị của option */
@@ -47,7 +47,6 @@ export function AnswerButton({
 
   // Base classes theo variant
   const variantClasses = {
-    toeic: "w-full text-left p-3 rounded-md justify-start h-auto font-normal",
     standard: "text-left p-3 rounded-lg border-2 transition-all w-full",
     compact: "text-left p-2 rounded-md w-full text-sm",
   };
@@ -94,7 +93,7 @@ export function AnswerButton({
         <span className="flex items-center gap-2 flex-1">
           {label && <span className="font-semibold">{label}</span>}
           <span
-            className={cn(variant === "toeic" ? "font-normal" : "font-medium")}
+            className={cn(variant === "standard" ? "font-normal" : "font-medium")}
           >
             {children}
           </span>

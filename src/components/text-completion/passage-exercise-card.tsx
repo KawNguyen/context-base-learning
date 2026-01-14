@@ -7,6 +7,7 @@ import { Check, X } from "lucide-react";
 import { TextCompletionPassage } from "@/constants/text-completion/types";
 import { CEFRLevel } from "@/types";
 import { AnswerButton } from "../answer-button";
+import { ExplanationAlert } from "../explanation-alert";
 
 interface PassageExerciseCardProps {
   passage: TextCompletionPassage;
@@ -18,7 +19,7 @@ interface PassageExerciseCardProps {
   isAnswerCorrect: (
     passageId: string,
     gapIndex: number,
-    optionIndex: number,
+    optionIndex: number
   ) => boolean;
 }
 
@@ -86,8 +87,8 @@ export function PassageExerciseCard({
                       isAnswerCorrect(
                         passage.id,
                         q.placeholderIndex,
-                        userAnswers[q.placeholderIndex],
-                      ),
+                        userAnswers[q.placeholderIndex]
+                      )
                     )
                       ? "default"
                       : "destructive"
@@ -98,8 +99,8 @@ export function PassageExerciseCard({
                       isAnswerCorrect(
                         passage.id,
                         q.placeholderIndex,
-                        userAnswers[q.placeholderIndex],
-                      ),
+                        userAnswers[q.placeholderIndex]
+                      )
                     ).length
                   }
                   /{totalQuestions}
@@ -124,7 +125,7 @@ export function PassageExerciseCard({
                 const gapIndex = segment.index!;
                 const userAnswer = userAnswers[gapIndex];
                 const question = passage.questions.find(
-                  (q) => q.placeholderIndex === gapIndex,
+                  (q) => q.placeholderIndex === gapIndex
                 );
                 const isCorrect =
                   showResult &&
@@ -142,8 +143,8 @@ export function PassageExerciseCard({
                       isCorrect
                         ? "bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400"
                         : isWrong
-                          ? "bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400"
-                          : "bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400"
+                        ? "bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400"
+                        : "bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400"
                     }`}
                   >
                     {userAnswer !== undefined
@@ -176,7 +177,7 @@ export function PassageExerciseCard({
                         isAnswerCorrect(
                           passage.id,
                           question.placeholderIndex,
-                          userAnswers[question.placeholderIndex],
+                          userAnswers[question.placeholderIndex]
                         )
                           ? "default"
                           : "destructive"
@@ -185,14 +186,14 @@ export function PassageExerciseCard({
                       {isAnswerCorrect(
                         passage.id,
                         question.placeholderIndex,
-                        userAnswers[question.placeholderIndex],
+                        userAnswers[question.placeholderIndex]
                       )
                         ? "Correct"
                         : "Wrong"}
                     </Badge>
                   )}
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-4">
                 {question.options.map((option, optionIndex) => {
                   const isSelected =
                     userAnswers[question.placeholderIndex] === optionIndex;
@@ -208,7 +209,7 @@ export function PassageExerciseCard({
                       onClick={() =>
                         onSelectOption(question.placeholderIndex, optionIndex)
                       }
-                      variant="compact"
+                      variant="standard"
                       className="py-3 px-4 whitespace-normal text-left"
                     >
                       {option.option}
@@ -217,14 +218,15 @@ export function PassageExerciseCard({
                 })}
               </div>
               {showResult && question.explanationVi && (
-                <div className="mt-3 p-3 bg-blue-50 dark:bg-blue-950/30 rounded border border-blue-200 dark:border-blue-800">
-                  <p className="text-sm font-semibold text-blue-900 dark:text-blue-100 mb-1">
-                    Giải thích:
-                  </p>
-                  <p className="text-sm text-blue-800 dark:text-blue-200">
-                    {question.explanationVi}
-                  </p>
-                </div>
+                <ExplanationAlert
+                  isCorrect={isAnswerCorrect(
+                    passage.id,
+                    question.placeholderIndex,
+                    userAnswers[question.placeholderIndex]
+                  )}
+                >
+                  {question.explanationVi}
+                </ExplanationAlert>
               )}
             </div>
           ))}
