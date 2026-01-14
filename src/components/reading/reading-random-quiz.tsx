@@ -22,24 +22,20 @@ export function ReadingRandomQuiz({ level }: ReadingRandomQuizProps) {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  // Fetch 5 random passages from API
+  // Fetch passages from API
   useEffect(() => {
     const fetchPassages = async () => {
       setIsLoading(true);
       setError(null);
-      const passages: ReadingPassage[] = [];
 
       try {
-        // Fetch 5 random passages
-        for (let i = 0; i < 5; i++) {
-          const response = await fetch(`/api/reading/${level}/random`);
-          if (!response.ok) {
-            throw new Error("Failed to fetch passages");
-          }
-          const data = await response.json();
-          passages.push(data);
+        const response = await fetch(`/api/reading/${level}`);
+        if (!response.ok) {
+          throw new Error("Failed to fetch passages");
         }
-
+        const data = await response.json();
+        // Take first 5 passages
+        const passages = data.passages.slice(0, 5);
         setRandomPassages(passages);
       } catch (err) {
         setError(err instanceof Error ? err.message : "An error occurred");

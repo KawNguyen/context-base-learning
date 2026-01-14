@@ -24,25 +24,20 @@ export function QuestionResponseRandomQuiz({
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  // Fetch 10 random exercises from API
+  // Fetch exercises from API
   useEffect(() => {
     const fetchExercises = async () => {
       setIsLoading(true);
       setError(null);
-      const items: QuestionResponseExercise[] = [];
 
       try {
-        for (let i = 0; i < 10; i++) {
-          const response = await fetch(
-            `/api/question-response/${level}/random`
-          );
-          if (!response.ok) {
-            throw new Error("Failed to fetch exercises");
-          }
-          const data = await response.json();
-          items.push(data);
+        const response = await fetch(`/api/question-response/${level}`);
+        if (!response.ok) {
+          throw new Error("Failed to fetch exercises");
         }
-
+        const data = await response.json();
+        // Take first 10 exercises
+        const items = data.exercises.slice(0, 10);
         setExercises(items);
       } catch (err) {
         setError(err instanceof Error ? err.message : "An error occurred");

@@ -23,20 +23,18 @@ export function TextCompletionListInterface({
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  // Fetch 5 random passages
+  // Fetch passages from API
   useEffect(() => {
     const fetchPassages = async () => {
       setIsLoading(true);
       setError(null);
-      const items: TextCompletionPassage[] = [];
 
       try {
-        for (let i = 0; i < 5; i++) {
-          const response = await fetch(`/api/text-completion/${level}/random`);
-          if (!response.ok) throw new Error("Failed to fetch passages");
-          const data = await response.json();
-          items.push(data);
-        }
+        const response = await fetch(`/api/text-completion/${level}`);
+        if (!response.ok) throw new Error("Failed to fetch passages");
+        const data = await response.json();
+        // Take first 5 passages
+        const items = data.passages.slice(0, 5);
         setPassages(items);
       } catch (err) {
         setError(err instanceof Error ? err.message : "An error occurred");

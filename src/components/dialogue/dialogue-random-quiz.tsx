@@ -22,23 +22,20 @@ export function DialogueRandomQuiz({ level }: DialogueRandomQuizProps) {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  // Fetch 10 random dialogues from API
+  // Fetch dialogues from API
   useEffect(() => {
     const fetchDialogues = async () => {
       setIsLoading(true);
       setError(null);
-      const dialogues: Dialogue[] = [];
 
       try {
-        for (let i = 0; i < 10; i++) {
-          const response = await fetch(`/api/dialogue/${level}/random`);
-          if (!response.ok) {
-            throw new Error("Failed to fetch dialogues");
-          }
-          const data = await response.json();
-          dialogues.push(data);
+        const response = await fetch(`/api/dialogue/${level}`);
+        if (!response.ok) {
+          throw new Error("Failed to fetch dialogues");
         }
-
+        const data = await response.json();
+        // Take first 10 dialogues
+        const dialogues = data.dialogues.slice(0, 10);
         setRandomDialogues(dialogues);
       } catch (err) {
         setError(err instanceof Error ? err.message : "An error occurred");

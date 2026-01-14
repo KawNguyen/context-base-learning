@@ -25,20 +25,15 @@ export function QuizInterface({ level }: QuizInterfaceProps) {
   const fetchQuestions = async () => {
     setIsLoading(true);
     setError(null);
-    const questions: Question[] = [];
 
     try {
-      // Fetch 50 random questions
-      const numQuestions = 50;
-      for (let i = 0; i < numQuestions; i++) {
-        const response = await fetch(`/api/quiz/${level}/random`);
-        if (!response.ok) {
-          throw new Error("Failed to fetch questions");
-        }
-        const data = await response.json();
-        questions.push(data);
+      const response = await fetch(`/api/quiz/${level}`);
+      if (!response.ok) {
+        throw new Error("Failed to fetch questions");
       }
-
+      const data = await response.json();
+      // Take first 50 questions
+      const questions = data.questions.slice(0, 50);
       setLevelQuestions(questions);
     } catch (err) {
       setError(err instanceof Error ? err.message : "An error occurred");
@@ -81,7 +76,9 @@ export function QuizInterface({ level }: QuizInterfaceProps) {
   }).length;
 
   const answeredCount = Object.keys(selectedAnswers).length;
-  const progress = isLoading ? 0 : (answeredCount / levelQuestions.length) * 100;
+  const progress = isLoading
+    ? 0
+    : (answeredCount / levelQuestions.length) * 100;
 
   return (
     <div className="space-y-6">

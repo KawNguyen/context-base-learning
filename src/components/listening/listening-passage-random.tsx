@@ -29,26 +29,20 @@ export function ListeningPassageRandom({ level }: ListeningPassageRandomProps) {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  // Fetch random passages from API
+  // Fetch passages from API
   useEffect(() => {
     const fetchPassages = async () => {
       setIsLoading(true);
       setError(null);
-      const items: ComprehensionExercise[] = [];
 
       try {
-        // Fetch multiple passages (let's say 6 for selection)
-        for (let i = 0; i < 6; i++) {
-          const response = await fetch(
-            `/api/listening/${level}/comprehension/random`
-          );
-          if (!response.ok) {
-            throw new Error("Failed to fetch passages");
-          }
-          const data = await response.json();
-          items.push(data);
+        const response = await fetch(`/api/listening/${level}/comprehension`);
+        if (!response.ok) {
+          throw new Error("Failed to fetch passages");
         }
-
+        const data = await response.json();
+        // Take first 6 passages for selection
+        const items = data.exercises.slice(0, 6);
         setPassages(items);
       } catch (err) {
         setError(err instanceof Error ? err.message : "An error occurred");
