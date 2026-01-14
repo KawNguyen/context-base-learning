@@ -122,7 +122,7 @@ export function DialogueQuizWrapper({
           </p>
           <p className="text-sm text-muted-foreground">
             {Math.round(
-              ((currentQuestion + 1) / dialogue.questions.length) * 100
+              ((currentQuestion + 1) / dialogue.questions.length) * 100,
             )}
             %
           </p>
@@ -182,7 +182,7 @@ export function DialogueQuizWrapper({
                       {option}
                     </AnswerButton>
                   );
-                }
+                },
               )}
             </div>
 

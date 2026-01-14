@@ -281,7 +281,7 @@ export const I2: VocabularyWord[] = [
     meaningVi: "Sự gián đoạn; sự ngắt quãng",
     exampleEn: "The interruption of services.",
     exampleVi: "Sự gián đoạn của các dịch vụ.",
-    categories: ["General"],    
+    categories: ["General"],
   },
   {
     id: "c1-219asz",

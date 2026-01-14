@@ -27,14 +27,14 @@ export function ReadingRandomQuiz({ passages, level }: ReadingRandomQuizProps) {
 
   // Track answers using Map for better performance
   const [answers, setAnswers] = useState<Map<number, Map<number, number>>>(
-    new Map()
+    new Map(),
   );
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleAnswerSelect = (
     passageIdx: number,
     questionIdx: number,
-    answerIdx: number
+    answerIdx: number,
   ) => {
     if (isSubmitted) return;
 
@@ -63,7 +63,7 @@ export function ReadingRandomQuiz({ passages, level }: ReadingRandomQuizProps) {
   // Calculate statistics
   const totalQuestions = randomPassages.reduce(
     (sum, p) => sum + p.questions.length,
-    0
+    0,
   );
 
   let answeredCount = 0;

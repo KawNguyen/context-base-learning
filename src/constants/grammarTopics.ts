@@ -35,25 +35,45 @@ export const grammarTopics: GrammarTopic[] = [
     title: "Present Simple (Hiện tại đơn)",
     explanationVi:
       "Được sử dụng cho thói quen, lịch trình, sự thật hiển nhiên và các tình huống cố định.",
-    keywords: ["always", "usually", "often", "sometimes", "never", "every day", "once a week"],
+    keywords: [
+      "always",
+      "usually",
+      "often",
+      "sometimes",
+      "never",
+      "every day",
+      "once a week",
+    ],
     usageRules: [
       {
         title: "Habits and Routines",
-        contentVi: "Diễn tả những hành động lặp đi lặp lại hoặc thói quen ở hiện tại.",
+        contentVi:
+          "Diễn tả những hành động lặp đi lặp lại hoặc thói quen ở hiện tại.",
       },
       {
         title: "General Truths",
-        contentVi: "Diễn tả những sự thật hiển nhiên, chân lý hoặc các hiện tượng tự nhiên.",
+        contentVi:
+          "Diễn tả những sự thật hiển nhiên, chân lý hoặc các hiện tượng tự nhiên.",
       },
       {
         title: "Fixed Timetables",
-        contentVi: "Diễn tả lịch trình, thời khóa biểu đã được sắp xếp sẵn (tàu xe, phim ảnh).",
+        contentVi:
+          "Diễn tả lịch trình, thời khóa biểu đã được sắp xếp sẵn (tàu xe, phim ảnh).",
       },
     ],
     detailedSigns: [
-      { sign: "Trạng từ chỉ tần suất", explanationVi: "Always, usually, often, sometimes, rarely, never." },
-      { sign: "Cụm từ với Every", explanationVi: "Every day, every week, every month, every year." },
-      { sign: "Cụm từ chỉ số lần", explanationVi: "Once a week, twice a month, three times a year." },
+      {
+        sign: "Trạng từ chỉ tần suất",
+        explanationVi: "Always, usually, often, sometimes, rarely, never.",
+      },
+      {
+        sign: "Cụm từ với Every",
+        explanationVi: "Every day, every week, every month, every year.",
+      },
+      {
+        sign: "Cụm từ chỉ số lần",
+        explanationVi: "Once a week, twice a month, three times a year.",
+      },
     ],
     structure: "Subject + V(s/es) / Subject + do/does + not + V",
     examples: [
@@ -78,16 +98,25 @@ export const grammarTopics: GrammarTopic[] = [
       },
       {
         title: "Temporary situations",
-        contentVi: "Diễn tả những tình huống mang tính tạm thời, không kéo dài.",
+        contentVi:
+          "Diễn tả những tình huống mang tính tạm thời, không kéo dài.",
       },
       {
         title: "Future plans",
-        contentVi: "Diễn tả một kế hoạch hoặc sự sắp xếp chắc chắn sẽ xảy ra trong tương lai gần.",
+        contentVi:
+          "Diễn tả một kế hoạch hoặc sự sắp xếp chắc chắn sẽ xảy ra trong tương lai gần.",
       },
     ],
     detailedSigns: [
-      { sign: "Trạng từ thời gian", explanationVi: "Now, right now, at the moment, at present." },
-      { sign: "Câu mệnh lệnh", explanationVi: "Look!, Listen!, Keep silent!, Watch out! (Hành động đang xảy ra gây chú ý)." },
+      {
+        sign: "Trạng từ thời gian",
+        explanationVi: "Now, right now, at the moment, at present.",
+      },
+      {
+        sign: "Câu mệnh lệnh",
+        explanationVi:
+          "Look!, Listen!, Keep silent!, Watch out! (Hành động đang xảy ra gây chú ý).",
+      },
     ],
     structure: "Subject + am/is/are + V-ing",
     examples: [
@@ -107,15 +136,27 @@ export const grammarTopics: GrammarTopic[] = [
     title: "Present Perfect (Hiện tại hoàn thành)",
     explanationVi:
       "Được sử dụng cho hành động trong quá khứ có kết quả ở hiện tại, hoặc kinh nghiệm không rõ thời gian.",
-    keywords: ["just", "recently", "already", "yet", "ever", "never", "since", "for", "so far"],
+    keywords: [
+      "just",
+      "recently",
+      "already",
+      "yet",
+      "ever",
+      "never",
+      "since",
+      "for",
+      "so far",
+    ],
     usageRules: [
       {
         title: "Unspecified time",
-        contentVi: "Hành động xảy ra trong quá khứ tại một thời điểm không xác định.",
+        contentVi:
+          "Hành động xảy ra trong quá khứ tại một thời điểm không xác định.",
       },
       {
         title: "Recent actions",
-        contentVi: "Hành động vừa mới xảy ra và có kết quả hay ảnh hưởng tới hiện tại.",
+        contentVi:
+          "Hành động vừa mới xảy ra và có kết quả hay ảnh hưởng tới hiện tại.",
       },
       {
         title: "Past to Present",
@@ -124,10 +165,23 @@ export const grammarTopics: GrammarTopic[] = [
     ],
     detailedSigns: [
       { sign: "Just, Recently, Lately", explanationVi: "Vừa mới xảy ra." },
-      { sign: "Already (rồi), Yet (chưa)", explanationVi: "Already dùng trong câu (+) và (?), Yet dùng trong câu (-) và (?)." },
-      { sign: "Since + mốc thời gian", explanationVi: "Từ khi... (since 2010, since last year)." },
-      { sign: "For + khoảng thời gian", explanationVi: "Trong khoảng... (for 2 years, for a long time)." },
-      { sign: "Ever, Never", explanationVi: "Ever (đã từng), Never (chưa từng)." },
+      {
+        sign: "Already (rồi), Yet (chưa)",
+        explanationVi:
+          "Already dùng trong câu (+) và (?), Yet dùng trong câu (-) và (?).",
+      },
+      {
+        sign: "Since + mốc thời gian",
+        explanationVi: "Từ khi... (since 2010, since last year).",
+      },
+      {
+        sign: "For + khoảng thời gian",
+        explanationVi: "Trong khoảng... (for 2 years, for a long time).",
+      },
+      {
+        sign: "Ever, Never",
+        explanationVi: "Ever (đã từng), Never (chưa từng).",
+      },
     ],
     structure: "Subject + have/has + V3/ed",
     examples: [
@@ -171,7 +225,8 @@ export const grammarTopics: GrammarTopic[] = [
     usageRules: [
       {
         title: "Finished actions",
-        contentVi: "Diễn tả hành động đã xảy ra và kết thúc hoàn toàn trong quá khứ.",
+        contentVi:
+          "Diễn tả hành động đã xảy ra và kết thúc hoàn toàn trong quá khứ.",
       },
       {
         title: "Past habits",
@@ -179,14 +234,21 @@ export const grammarTopics: GrammarTopic[] = [
       },
       {
         title: "Sequence of actions",
-        contentVi: "Kể lại một loạt các hành động xảy ra liên tiếp trong quá khứ.",
+        contentVi:
+          "Kể lại một loạt các hành động xảy ra liên tiếp trong quá khứ.",
       },
     ],
     detailedSigns: [
       { sign: "Yesterday", explanationVi: "Hôm qua." },
       { sign: "Ago", explanationVi: "Cách đây... (two days ago, a year ago)." },
-      { sign: "Last...", explanationVi: "Trước... (last week, last month, last year)." },
-      { sign: "In + năm quá khứ", explanationVi: "Vào năm... (in 1995, in 2005)." },
+      {
+        sign: "Last...",
+        explanationVi: "Trước... (last week, last month, last year).",
+      },
+      {
+        sign: "In + năm quá khứ",
+        explanationVi: "Vào năm... (in 1995, in 2005).",
+      },
     ],
     structure: "Subject + V2/ed / Subject + did + not + V",
     examples: [
@@ -265,9 +327,18 @@ export const grammarTopics: GrammarTopic[] = [
       },
     ],
     detailedSigns: [
-      { sign: "Trạng từ tương lai", explanationVi: "Tomorrow, next week/month, in the future, soon." },
-      { sign: "Động từ chỉ quan điểm", explanationVi: "Think, believe, suppose, hope, promise." },
-      { sign: "Trạng từ chỉ khả năng", explanationVi: "Probably, perhaps, maybe." },
+      {
+        sign: "Trạng từ tương lai",
+        explanationVi: "Tomorrow, next week/month, in the future, soon.",
+      },
+      {
+        sign: "Động từ chỉ quan điểm",
+        explanationVi: "Think, believe, suppose, hope, promise.",
+      },
+      {
+        sign: "Trạng từ chỉ khả năng",
+        explanationVi: "Probably, perhaps, maybe.",
+      },
     ],
     structure: "Subject + will + V(base)",
     examples: [
@@ -339,21 +410,30 @@ export const grammarTopics: GrammarTopic[] = [
     id: "conditional-1",
     category: "Conditionals",
     title: "First Conditional (Câu điều kiện loại 1)",
-    explanationVi: "Được sử dụng cho các khả năng có thực hoặc có thể xảy ra trong tương lai.",
+    explanationVi:
+      "Được sử dụng cho các khả năng có thực hoặc có thể xảy ra trong tương lai.",
     keywords: ["if", "will", "unless", "real possibility"],
     usageRules: [
       {
         title: "Real situations",
-        contentVi: "Diễn tả một điều kiện có thể xảy ra và kết quả thực tế của nó.",
+        contentVi:
+          "Diễn tả một điều kiện có thể xảy ra và kết quả thực tế của nó.",
       },
       {
         title: "Plans/Warnings",
-        contentVi: "Dùng để đưa ra lời hứa, lời cảnh báo hoặc kế hoạch cho tương lai.",
+        contentVi:
+          "Dùng để đưa ra lời hứa, lời cảnh báo hoặc kế hoạch cho tương lai.",
       },
     ],
     detailedSigns: [
-      { sign: "If-clause", explanationVi: "Thì Hiện tại đơn (Present Simple)." },
-      { sign: "Main-clause", explanationVi: "Will + động từ nguyên thể (V-base)." },
+      {
+        sign: "If-clause",
+        explanationVi: "Thì Hiện tại đơn (Present Simple).",
+      },
+      {
+        sign: "Main-clause",
+        explanationVi: "Will + động từ nguyên thể (V-base).",
+      },
       { sign: "Unless", explanationVi: "Bằng với 'If not' (Nếu không...)." },
     ],
     structure: "If + Present Simple, will + V(base)",
@@ -383,8 +463,15 @@ export const grammarTopics: GrammarTopic[] = [
       },
     ],
     detailedSigns: [
-      { sign: "If-clause", explanationVi: "Thì Quá khứ đơn (Past Simple). Lưu ý: dùng 'were' cho tất cả các ngôi." },
-      { sign: "Main-clause", explanationVi: "Would + động từ nguyên thể (V-base)." },
+      {
+        sign: "If-clause",
+        explanationVi:
+          "Thì Quá khứ đơn (Past Simple). Lưu ý: dùng 'were' cho tất cả các ngôi.",
+      },
+      {
+        sign: "Main-clause",
+        explanationVi: "Would + động từ nguyên thể (V-base).",
+      },
     ],
     structure: "If + Past Simple, would + V(base)",
     examples: [
@@ -438,17 +525,28 @@ export const grammarTopics: GrammarTopic[] = [
     usageRules: [
       {
         title: "Focus on object",
-        contentVi: "Nhấn mạnh vào đối tượng chịu tác động thay vì người thực hiện.",
+        contentVi:
+          "Nhấn mạnh vào đối tượng chịu tác động thay vì người thực hiện.",
       },
       {
         title: "Unknown doer",
-        contentVi: "Dùng khi người thực hiện hành động không quan trọng hoặc không rõ là ai.",
+        contentVi:
+          "Dùng khi người thực hiện hành động không quan trọng hoặc không rõ là ai.",
       },
     ],
     detailedSigns: [
-      { sign: "Động từ to be", explanationVi: "is/am/are (theo số và ngôi của tân ngữ)." },
-      { sign: "V3/ed", explanationVi: "Động từ chính luôn ở dạng quá khứ phân từ." },
-      { sign: "By + Subject", explanationVi: "Dùng 'by' để chỉ người thực hiện (nếu cần thiết)." },
+      {
+        sign: "Động từ to be",
+        explanationVi: "is/am/are (theo số và ngôi của tân ngữ).",
+      },
+      {
+        sign: "V3/ed",
+        explanationVi: "Động từ chính luôn ở dạng quá khứ phân từ.",
+      },
+      {
+        sign: "By + Subject",
+        explanationVi: "Dùng 'by' để chỉ người thực hiện (nếu cần thiết).",
+      },
     ],
     structure: "Object + am/is/are + V3/ed (+ by Subject)",
     examples: [
@@ -520,16 +618,19 @@ export const grammarTopics: GrammarTopic[] = [
     id: "modals-can-could",
     category: "Modals",
     title: "Can / Could (Khả năng & Yêu cầu)",
-    explanationVi: "Được sử dụng để chỉ khả năng, sự cho phép và các yêu cầu lịch sự.",
+    explanationVi:
+      "Được sử dụng để chỉ khả năng, sự cho phép và các yêu cầu lịch sự.",
     keywords: ["ability", "permission", "requests", "past ability"],
     usageRules: [
       {
         title: "Ability",
-        contentVi: "'Can' dùng cho khả năng ở hiện tại; 'Could' dùng cho khả năng trong quá khứ.",
+        contentVi:
+          "'Can' dùng cho khả năng ở hiện tại; 'Could' dùng cho khả năng trong quá khứ.",
       },
       {
         title: "Permission & Requests",
-        contentVi: "'Can' dùng cho lời hỏi thân mật; 'Could' trang trọng và lịch sự hơn.",
+        contentVi:
+          "'Can' dùng cho lời hỏi thân mật; 'Could' trang trọng và lịch sự hơn.",
       },
       {
         title: "Possibility",
@@ -537,9 +638,20 @@ export const grammarTopics: GrammarTopic[] = [
       },
     ],
     detailedSigns: [
-      { sign: "Can (Present)", explanationVi: "I can speak English. (Tôi có thể nói tiếng Anh)." },
-      { sign: "Could (Past)", explanationVi: "He could swim when he was 5. (Anh ấy đã biết bơi khi lên 5)." },
-      { sign: "Requests", explanationVi: "Can you help me? (Thân mật) vs Could you help me? (Lịch sự)." },
+      {
+        sign: "Can (Present)",
+        explanationVi: "I can speak English. (Tôi có thể nói tiếng Anh).",
+      },
+      {
+        sign: "Could (Past)",
+        explanationVi:
+          "He could swim when he was 5. (Anh ấy đã biết bơi khi lên 5).",
+      },
+      {
+        sign: "Requests",
+        explanationVi:
+          "Can you help me? (Thân mật) vs Could you help me? (Lịch sự).",
+      },
     ],
     structure: "Subject + can/could + V(base)",
     examples: [
@@ -557,21 +669,37 @@ export const grammarTopics: GrammarTopic[] = [
     usageRules: [
       {
         title: "Permission (Formal)",
-        contentVi: "'May' dùng để xin phép một cách rất trang trọng (lớp học, văn phòng).",
+        contentVi:
+          "'May' dùng để xin phép một cách rất trang trọng (lớp học, văn phòng).",
       },
       {
         title: "Probability",
-        contentVi: "'May' chỉ khả năng xảy ra cao hơn (~50%), 'Might' chỉ khả năng thấp hơn (~20-30%).",
+        contentVi:
+          "'May' chỉ khả năng xảy ra cao hơn (~50%), 'Might' chỉ khả năng thấp hơn (~20-30%).",
       },
     ],
     detailedSigns: [
-      { sign: "May (Higher probability)", explanationVi: "It may rain. (Có thể sẽ mưa - khả năng khá cao)." },
-      { sign: "Might (Lower probability)", explanationVi: "It might rain. (Có thể sẽ mưa - nhưng không chắc chắn lắm)." },
-      { sign: "Permission", explanationVi: "May I borrow your pen? (Tôi có thể mượn bút của bạn không? - Trang trọng)." },
+      {
+        sign: "May (Higher probability)",
+        explanationVi: "It may rain. (Có thể sẽ mưa - khả năng khá cao).",
+      },
+      {
+        sign: "Might (Lower probability)",
+        explanationVi:
+          "It might rain. (Có thể sẽ mưa - nhưng không chắc chắn lắm).",
+      },
+      {
+        sign: "Permission",
+        explanationVi:
+          "May I borrow your pen? (Tôi có thể mượn bút của bạn không? - Trang trọng).",
+      },
     ],
     structure: "Subject + may/might + V(base)",
     examples: [
-      { en: "It might rain later.", vi: "Trời có thể sẽ mưa lát nữa (chưa chắc chắn)." },
+      {
+        en: "It might rain later.",
+        vi: "Trời có thể sẽ mưa lát nữa (chưa chắc chắn).",
+      },
       { en: "May I come in?", vi: "Tôi có thể vào không? (Rất trang trọng)." },
     ],
   },
@@ -589,22 +717,41 @@ export const grammarTopics: GrammarTopic[] = [
       },
       {
         title: "Have to (External)",
-        contentVi: "Nghĩa vụ do luật lệ, quy định hoặc tình huống bên ngoài áp đặt.",
+        contentVi:
+          "Nghĩa vụ do luật lệ, quy định hoặc tình huống bên ngoài áp đặt.",
       },
       {
         title: "NEGATIVE (Important!)",
-        contentVi: "'Mustn't' dùng để chỉ sự CẤM ĐOÁN; 'Don't have to' dùng để chỉ sự KHÔNG CẦN THIẾT.",
+        contentVi:
+          "'Mustn't' dùng để chỉ sự CẤM ĐOÁN; 'Don't have to' dùng để chỉ sự KHÔNG CẦN THIẾT.",
       },
     ],
     detailedSigns: [
-      { sign: "Must (Personal)", explanationVi: "I must study. (Tôi thấy mình cần phải học)." },
-      { sign: "Have to (Rules)", explanationVi: "I have to wear a uniform. (Quy định trường học bắt tôi mặc)." },
-      { sign: "Mustn't (Cấm)", explanationVi: "You mustn't smoke. (Bạn không được phép hút thuốc)." },
-      { sign: "Don't have to (Thoải mái)", explanationVi: "You don't have to go. (Bạn không cần phải đi - tùy bạn)." },
+      {
+        sign: "Must (Personal)",
+        explanationVi: "I must study. (Tôi thấy mình cần phải học).",
+      },
+      {
+        sign: "Have to (Rules)",
+        explanationVi:
+          "I have to wear a uniform. (Quy định trường học bắt tôi mặc).",
+      },
+      {
+        sign: "Mustn't (Cấm)",
+        explanationVi: "You mustn't smoke. (Bạn không được phép hút thuốc).",
+      },
+      {
+        sign: "Don't have to (Thoải mái)",
+        explanationVi:
+          "You don't have to go. (Bạn không cần phải đi - tùy bạn).",
+      },
     ],
     structure: "Subject + must/have to + V(base)",
     examples: [
-      { en: "I must call my mom.", vi: "Tôi phải gọi cho mẹ (tự tôi thấy cần)." },
+      {
+        en: "I must call my mom.",
+        vi: "Tôi phải gọi cho mẹ (tự tôi thấy cần).",
+      },
       {
         en: "You have to wear a uniform.",
         vi: "Bạn phải mặc đồng phục (quy định của tổ chức).",
@@ -615,7 +762,8 @@ export const grammarTopics: GrammarTopic[] = [
     id: "modals-should-ought-to",
     category: "Modals",
     title: "Should / Ought to (Lời khuyên)",
-    explanationVi: "Dùng để đưa ra lời khuyên, ý kiến hoặc diễn tả sự mong đợi.",
+    explanationVi:
+      "Dùng để đưa ra lời khuyên, ý kiến hoặc diễn tả sự mong đợi.",
     keywords: ["advice", "opinion", "expectation", "mild obligation"],
     usageRules: [
       {
@@ -628,13 +776,24 @@ export const grammarTopics: GrammarTopic[] = [
       },
     ],
     detailedSigns: [
-      { sign: "Should", explanationVi: "Phổ biến hơn, dùng cho cả khuyên bảo và ý kiến cá nhân." },
-      { sign: "Ought to", explanationVi: "Mang sắc thái trang trọng hơn một chút, thường chỉ nhiệm vụ hoặc đạo đức." },
+      {
+        sign: "Should",
+        explanationVi:
+          "Phổ biến hơn, dùng cho cả khuyên bảo và ý kiến cá nhân.",
+      },
+      {
+        sign: "Ought to",
+        explanationVi:
+          "Mang sắc thái trang trọng hơn một chút, thường chỉ nhiệm vụ hoặc đạo đức.",
+      },
     ],
     structure: "Subject + should/ought to + V(base)",
     examples: [
       { en: "You should see a doctor.", vi: "Bạn nên đi khám bác sĩ." },
-      { en: "You ought to apologize.", vi: "Bạn nên xin lỗi (vì đó là điều đúng đắn)." },
+      {
+        en: "You ought to apologize.",
+        vi: "Bạn nên xin lỗi (vì đó là điều đúng đắn).",
+      },
     ],
   },
 
@@ -771,14 +930,19 @@ export const grammarTopics: GrammarTopic[] = [
     title: "Order of Adjectives (Thứ tự tính từ)",
     explanationVi:
       "Khi dùng nhiều tính từ trước một danh từ, chúng ta tuân theo thứ tự OSASCOMP: Opinion (Ý kiến) - Size (Kích cỡ) - Age (Tuổi tác) - Shape (Hình dáng) - Color (Màu sắc) - Origin (Nguồn gốc) - Material (Chất liệu) - Purpose (Mục đích).",
-    signalsVi: "Quy tắc OSASCOMP: Ý kiến > Kích thước > Tuổi > Hình dạng > Màu > Nguồn gốc > Chất liệu > Mục đích.",
-    structure: "Opinion -> Size -> Age -> Shape -> Color -> Origin -> Material -> Purpose + Noun",
+    signalsVi:
+      "Quy tắc OSASCOMP: Ý kiến > Kích thước > Tuổi > Hình dạng > Màu > Nguồn gốc > Chất liệu > Mục đích.",
+    structure:
+      "Opinion -> Size -> Age -> Shape -> Color -> Origin -> Material -> Purpose + Noun",
     examples: [
       {
         en: "A beautiful large old round black Vietnamese wooden table.",
         vi: "Một cái bàn gỗ Việt Nam hình tròn, màu đen, cũ, to và đẹp.",
       },
-      { en: "An expensive small new red car.", vi: "Một chiếc xe hơi màu đỏ mới, nhỏ và đắt tiền." },
+      {
+        en: "An expensive small new red car.",
+        vi: "Một chiếc xe hơi màu đỏ mới, nhỏ và đắt tiền.",
+      },
     ],
   },
   {
@@ -790,7 +954,10 @@ export const grammarTopics: GrammarTopic[] = [
     structure: "-ed (feelings) | -ing (characteristics)",
     examples: [
       { en: "I am bored.", vi: "Tôi thấy chán (cảm xúc của tôi)." },
-      { en: "The movie is boring.", vi: "Bộ phim này chán (tính chất của bộ phim)." },
+      {
+        en: "The movie is boring.",
+        vi: "Bộ phim này chán (tính chất của bộ phim).",
+      },
       { en: "She is interested in art.", vi: "Cô ấy quan tâm đến nghệ thuật." },
       { en: "Art is interesting.", vi: "Nghệ thuật thì thú vị." },
     ],
@@ -803,11 +970,18 @@ export const grammarTopics: GrammarTopic[] = [
       "Trạng từ được chia thành nhiều loại: Cách thức (Manner), Nơi chốn (Place), Thời gian (Time), Tần suất (Frequency), Mức độ (Degree). Vị trí của chúng phụ thuộc vào loại trạng từ.",
     signalsVi:
       "Manner: nhanh/chậm. Place: ở đây/kia. Time: hôm nay/mai. Frequency: luôn luôn/thường xuyên. Degree: rất/quá.",
-    structure: "Adv of Frequency usually goes before main verb. Adv of Manner usually goes after verb/object.",
+    structure:
+      "Adv of Frequency usually goes before main verb. Adv of Manner usually goes after verb/object.",
     examples: [
-      { en: "He always (Freq) gets up early.", vi: "Anh ấy luôn luôn dậy sớm." },
+      {
+        en: "He always (Freq) gets up early.",
+        vi: "Anh ấy luôn luôn dậy sớm.",
+      },
       { en: "She sings beautifully (Manner).", vi: "Cô ấy hát hay." },
-      { en: "The weather is extremely (Degree) hot.", vi: "Thời tiết cực kỳ nóng." },
+      {
+        en: "The weather is extremely (Degree) hot.",
+        vi: "Thời tiết cực kỳ nóng.",
+      },
     ],
   },
 
@@ -816,7 +990,8 @@ export const grammarTopics: GrammarTopic[] = [
     id: "basic-sentence-patterns",
     category: "Sentence Structure",
     title: "Basic Sentence Patterns (S-V-O, S-V-Adj)",
-    explanationVi: "Giúp xác định vị trí của chủ ngữ (S), động từ (V), tân ngữ (O) và bổ ngữ (C).",
+    explanationVi:
+      "Giúp xác định vị trí của chủ ngữ (S), động từ (V), tân ngữ (O) và bổ ngữ (C).",
     structure: "S + V | S + V + O | S + V + Adj",
     examples: [
       { en: "Birds fly. (S-V)", vi: "Chim bay." },
@@ -830,12 +1005,22 @@ export const grammarTopics: GrammarTopic[] = [
     title: "Complex Sentence Patterns (S-V-IO-DO, S-V-O-C)",
     explanationVi:
       "Một số động từ đòi hỏi hai tân ngữ (Trực tiếp & Gián tiếp) hoặc một tân ngữ kèm bổ ngữ để hoàn thành nghĩa của câu.",
-    signalsVi: "IO: Gián tiếp (người nhận). DO: Trực tiếp (vật được trao). OC: Bổ ngữ cho tân ngữ.",
+    signalsVi:
+      "IO: Gián tiếp (người nhận). DO: Trực tiếp (vật được trao). OC: Bổ ngữ cho tân ngữ.",
     structure: "S + V + IO + DO | S + V + O + OC",
     examples: [
-      { en: "He gave me (IO) a book (DO).", vi: "Anh ấy đưa cho tôi một cuốn sách." },
-      { en: "The news made him (O) happy (OC).", vi: "Tin tức đó làm anh ấy hạnh phúc." },
-      { en: "They elected him (O) president (OC).", vi: "Họ bầu anh ấy làm tổng thống." },
+      {
+        en: "He gave me (IO) a book (DO).",
+        vi: "Anh ấy đưa cho tôi một cuốn sách.",
+      },
+      {
+        en: "The news made him (O) happy (OC).",
+        vi: "Tin tức đó làm anh ấy hạnh phúc.",
+      },
+      {
+        en: "They elected him (O) president (OC).",
+        vi: "Họ bầu anh ấy làm tổng thống.",
+      },
     ],
   },
 
@@ -844,11 +1029,15 @@ export const grammarTopics: GrammarTopic[] = [
     id: "coordinating-conjunctions",
     category: "Conjunctions",
     title: "Coordinating Conjunctions (FANBOYS)",
-    explanationVi: "Nối các từ hoặc mệnh đề độc lập có vai trò tương đương (For, And, Nor, But, Or, Yet, So).",
+    explanationVi:
+      "Nối các từ hoặc mệnh đề độc lập có vai trò tương đương (For, And, Nor, But, Or, Yet, So).",
     structure: "Independent Clause, + [FANBOYS] + Independent Clause",
     examples: [
       { en: "I like tea and coffee.", vi: "Tôi thích trà và cà phê." },
-      { en: "He was tired, so he went to bed early.", vi: "Anh ấy mệt, nên anh ấy đi ngủ sớm." },
+      {
+        en: "He was tired, so he went to bed early.",
+        vi: "Anh ấy mệt, nên anh ấy đi ngủ sớm.",
+      },
     ],
   },
   {
@@ -859,19 +1048,32 @@ export const grammarTopics: GrammarTopic[] = [
       "Dùng để bắt đầu mệnh đề phụ thuộc, diễn tả: Thời gian (When, While, Since), Lý do (Because, As, Since), Sự đối lập (Although, Even though), Điều kiện (If, Unless).",
     structure: "Subordinating Conjunction + Dependent Clause, Main Clause",
     examples: [
-      { en: "Because it rained, we stayed home.", vi: "Bởi vì trời mưa, chúng tôi ở nhà." },
-      { en: "Although he is rich, he is humble.", vi: "Mặc dù anh ấy giàu, anh ấy rất khiêm tốn." },
+      {
+        en: "Because it rained, we stayed home.",
+        vi: "Bởi vì trời mưa, chúng tôi ở nhà.",
+      },
+      {
+        en: "Although he is rich, he is humble.",
+        vi: "Mặc dù anh ấy giàu, anh ấy rất khiêm tốn.",
+      },
     ],
   },
   {
     id: "correlative-conjunctions",
     category: "Conjunctions",
     title: "Correlative Conjunctions (Liên từ tương quan)",
-    explanationVi: "Các cặp từ đi đôi với nhau để nối các thành phần tương đương.",
+    explanationVi:
+      "Các cặp từ đi đôi với nhau để nối các thành phần tương đương.",
     structure: "Both...and | Either...or | Neither...nor | Not only...but also",
     examples: [
-      { en: "Both coffee and tea are served.", vi: "Cả cà phê và trà đều được phục vụ." },
-      { en: "Not only is he smart but also kind.", vi: "Anh ấy không những thông minh mà còn tốt bụng." },
+      {
+        en: "Both coffee and tea are served.",
+        vi: "Cả cà phê và trà đều được phục vụ.",
+      },
+      {
+        en: "Not only is he smart but also kind.",
+        vi: "Anh ấy không những thông minh mà còn tốt bụng.",
+      },
     ],
   },
 
@@ -884,8 +1086,14 @@ export const grammarTopics: GrammarTopic[] = [
       "A/An dùng cho danh từ số ít chưa xác định. THE dùng cho danh từ đã xác định hoặc duy nhất. 'The' cũng dùng cho: Dãy núi, Quần đảo, Sông ngòi, Đại dương, Tên nước có số nhiều (The USA, The Netherlands).",
     structure: "A/An + Noun | The + [Unique/Specific/Group]",
     examples: [
-      { en: "A doctor is needed.", vi: "Cần một bác sĩ (bất kỳ ai là bác sĩ)." },
-      { en: "The Atlantic Ocean is vast.", vi: "Đại dương Đại Tây Dương rất rộng lớn." },
+      {
+        en: "A doctor is needed.",
+        vi: "Cần một bác sĩ (bất kỳ ai là bác sĩ).",
+      },
+      {
+        en: "The Atlantic Ocean is vast.",
+        vi: "Đại dương Đại Tây Dương rất rộng lớn.",
+      },
     ],
   },
   {
@@ -896,7 +1104,10 @@ export const grammarTopics: GrammarTopic[] = [
       "Không dùng mạo từ trước: Danh từ số nhiều/không đếm được nghĩa chung chung, Môn thể thao (football), Các bữa ăn (breakfast), Ngôn ngữ (English), Một số danh từ trừu tượng.",
     structure: "No article + plural/uncountable/abstract nouns",
     examples: [
-      { en: "I love music.", vi: "Tôi yêu âm nhạc (chung chung, không dùng mạo từ)." },
+      {
+        en: "I love music.",
+        vi: "Tôi yêu âm nhạc (chung chung, không dùng mạo từ).",
+      },
       { en: "We have lunch at 12.", vi: "Chúng tôi ăn trưa lúc 12 giờ." },
       { en: "He plays tennis every day.", vi: "Anh ấy chơi tennis mỗi ngày." },
     ],
@@ -921,12 +1132,20 @@ export const grammarTopics: GrammarTopic[] = [
     id: "reported-speech-time-place",
     category: "Reported Speech",
     title: "Reported Speech: Time & Place Changes",
-    explanationVi: "Cần thay đổi các trạng từ chỉ thời gian và nơi chốn phù hợp với ngữ cảnh gián tiếp.",
-    signalsVi: "Now -> Then. Today -> That day. Tomorrow -> The next day. Yesterday -> The day before. Here -> There. This -> That.",
+    explanationVi:
+      "Cần thay đổi các trạng từ chỉ thời gian và nơi chốn phù hợp với ngữ cảnh gián tiếp.",
+    signalsVi:
+      "Now -> Then. Today -> That day. Tomorrow -> The next day. Yesterday -> The day before. Here -> There. This -> That.",
     structure: "Change markers: now, today, tomorrow, yesterday, here, this",
     examples: [
-      { en: 'She said: "I will go home tomorrow."', vi: 'Cô ấy nói: "Tôi sẽ về nhà vào ngày mai."' },
-      { en: "She said she would go home the next day.", vi: "Cô ấy nói cô ấy sẽ về nhà vào ngày hôm sau." },
+      {
+        en: 'She said: "I will go home tomorrow."',
+        vi: 'Cô ấy nói: "Tôi sẽ về nhà vào ngày mai."',
+      },
+      {
+        en: "She said she would go home the next day.",
+        vi: "Cô ấy nói cô ấy sẽ về nhà vào ngày hôm sau.",
+      },
     ],
   },
 ];

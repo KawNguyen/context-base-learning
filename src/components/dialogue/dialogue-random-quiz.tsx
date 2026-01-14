@@ -30,14 +30,14 @@ export function DialogueRandomQuiz({
 
   // Track answers using Map for better performance
   const [answers, setAnswers] = useState<Map<number, Map<number, number>>>(
-    new Map()
+    new Map(),
   );
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleAnswerSelect = (
     dialogueIdx: number,
     questionIdx: number,
-    answerIdx: number
+    answerIdx: number,
   ) => {
     if (isSubmitted) return;
 
@@ -66,7 +66,7 @@ export function DialogueRandomQuiz({
   // Calculate statistics
   const totalQuestions = randomDialogues.reduce(
     (sum, d) => sum + d.questions.length,
-    0
+    0,
   );
 
   let answeredCount = 0;

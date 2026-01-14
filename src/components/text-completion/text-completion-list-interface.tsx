@@ -28,7 +28,7 @@ export function TextCompletionListInterface({
   const handleSelectOption = (
     passageId: string,
     gapIndex: number,
-    optionIndex: number
+    optionIndex: number,
   ) => {
     if (showResult) return;
     setUserAnswers((prev) => ({
@@ -63,11 +63,11 @@ export function TextCompletionListInterface({
   const isAnswerCorrect = (
     passageId: string,
     gapIndex: number,
-    optionIndex: number
+    optionIndex: number,
   ) => {
     const passage = passages.find((p) => p.id === passageId);
     const question = passage?.questions.find(
-      (q) => q.placeholderIndex === gapIndex
+      (q) => q.placeholderIndex === gapIndex,
     );
     return question?.options[optionIndex]?.isCorrect === true;
   };
@@ -94,7 +94,7 @@ export function TextCompletionListInterface({
 
   const totalQuestions = passages.reduce(
     (sum, p) => sum + p.questions.length,
-    0
+    0,
   );
   const progress = (answeredCount / totalQuestions) * 100;
 

@@ -42,7 +42,7 @@ export function GapButton({
       className={cn(
         "inline-flex mx-1 align-middle cursor-pointer transition-all duration-200 transform hover:scale-105 active:scale-95",
         "h-6 min-w-6 px-1.5 rounded-md border items-center justify-center text-xs font-bold leading-none select-none",
-        statusClass
+        statusClass,
       )}
       role="button"
       tabIndex={0}

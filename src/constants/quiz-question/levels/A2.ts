@@ -13,7 +13,8 @@ export const questions: Question[] = [
       { option: "gone", isCorrect: false },
       { option: "going", isCorrect: false },
     ],
-    explanationVi: "Hành động đã hoàn tất tại một thời điểm cụ thể trong quá khứ. Dấu hiệu: 'last night'. Quá khứ đơn của 'go' là 'went'.",
+    explanationVi:
+      "Hành động đã hoàn tất tại một thời điểm cụ thể trong quá khứ. Dấu hiệu: 'last night'. Quá khứ đơn của 'go' là 'went'.",
     category: "Past Simple",
   },
   {
@@ -41,7 +42,8 @@ export const questions: Question[] = [
       { option: "will", isCorrect: false },
       { option: "do", isCorrect: false },
     ],
-    explanationVi: "Thì Hiện tại tiếp diễn được sử dụng cho một kế hoạch hoặc sự sắp xếp chắc chắn trong tương lai gần. Cấu trúc: am/is/are + V-ing.",
+    explanationVi:
+      "Thì Hiện tại tiếp diễn được sử dụng cho một kế hoạch hoặc sự sắp xếp chắc chắn trong tương lai gần. Cấu trúc: am/is/are + V-ing.",
     category: "Present Continuous",
   },
   {
@@ -775,7 +777,8 @@ export const questions: Question[] = [
       { option: "S - V", isCorrect: false },
       { option: "S - V - Adv", isCorrect: false },
     ],
-    explanationVi: "Sau động từ chỉ tri giác 'look' là một tính từ (Adj) đóng vai trò bổ ngữ. Cấu trúc: S - V - Adj.",
+    explanationVi:
+      "Sau động từ chỉ tri giác 'look' là một tính từ (Adj) đóng vai trò bổ ngữ. Cấu trúc: S - V - Adj.",
     category: "Sentence Structure",
   },
   {
@@ -790,7 +793,8 @@ export const questions: Question[] = [
       { option: "surprise", isCorrect: false },
       { option: "surprises", isCorrect: false },
     ],
-    explanationVi: "Sử dụng tính từ đuôi '-ed' (surprised) để miêu tả cảm xúc của con người (tôi).",
+    explanationVi:
+      "Sử dụng tính từ đuôi '-ed' (surprised) để miêu tả cảm xúc của con người (tôi).",
     category: "Word Forms",
   },
   {
@@ -1391,7 +1395,8 @@ export const questions: Question[] = [
       { option: "eating", isCorrect: false },
       { option: "am eat", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc S-V-O đơn giản ở thì hiện tại đơn. Chủ ngữ 'I' đi với động từ nguyên mẫu.",
+    explanationVi:
+      "Cấu trúc S-V-O đơn giản ở thì hiện tại đơn. Chủ ngữ 'I' đi với động từ nguyên mẫu.",
     category: "Sentence Structure",
   },
   {
@@ -1421,7 +1426,8 @@ export const questions: Question[] = [
       { option: "looking", isCorrect: false },
       { option: "is look", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc S-V-Adj (Linking verb). 'She' là số ít nên thêm 's' vào động từ.",
+    explanationVi:
+      "Cấu trúc S-V-Adj (Linking verb). 'She' là số ít nên thêm 's' vào động từ.",
     category: "Sentence Structure",
   },
   {
@@ -1436,7 +1442,8 @@ export const questions: Question[] = [
       { option: "my", isCorrect: false },
       { option: "mine", isCorrect: false },
     ],
-    explanationVi: "Dùng đại từ tân ngữ (Object Pronoun) 'me' sau giới từ 'to'.",
+    explanationVi:
+      "Dùng đại từ tân ngữ (Object Pronoun) 'me' sau giới từ 'to'.",
     category: "Sentence Structure",
   },
   {
@@ -1451,7 +1458,8 @@ export const questions: Question[] = [
       { option: "usualness", isCorrect: false },
       { option: "unusual", isCorrect: false },
     ],
-    explanationVi: "Sử dụng trạng từ chỉ tần suất 'usually' để bổ nghĩa cho động từ 'arrives'.",
+    explanationVi:
+      "Sử dụng trạng từ chỉ tần suất 'usually' để bổ nghĩa cho động từ 'arrives'.",
     category: "Word Forms",
   },
   {
@@ -1496,7 +1504,8 @@ export const questions: Question[] = [
       { option: "having", isCorrect: false },
       { option: "is have", isCorrect: false },
     ],
-    explanationVi: "Thì hiện tại đơn diễn tả thói quen. 'She' là chủ ngữ số ít nên dùng 'has'.",
+    explanationVi:
+      "Thì hiện tại đơn diễn tả thói quen. 'She' là chủ ngữ số ít nên dùng 'has'.",
     category: "Sentence Structure",
   },
   {
@@ -1552,7 +1561,8 @@ export const questions: Question[] = [
       { option: "come", isCorrect: false },
       { option: "coming", isCorrect: false },
     ],
-    explanationVi: "Thì hiện tại tiếp diễn diễn tả hành động đang xảy ra (Look!, now).",
+    explanationVi:
+      "Thì hiện tại tiếp diễn diễn tả hành động đang xảy ra (Look!, now).",
     category: "Present Continuous",
   },
   {
@@ -1566,7 +1576,8 @@ export const questions: Question[] = [
       { option: "better", isCorrect: false },
       { option: "best", isCorrect: false },
     ],
-    explanationVi: "Dùng tính từ 'good' để bổ nghĩa cho danh từ 'movie'. 'Well' là trạng từ.",
+    explanationVi:
+      "Dùng tính từ 'good' để bổ nghĩa cho danh từ 'movie'. 'Well' là trạng từ.",
     category: "Word Forms",
   },
   {
@@ -1596,7 +1607,8 @@ export const questions: Question[] = [
       { option: "doesn't", isCorrect: false },
       { option: "no", isCorrect: false },
     ],
-    explanationVi: "Phủ định thì hiện tại đơn với 'I' dùng trợ động từ 'don't'.",
+    explanationVi:
+      "Phủ định thì hiện tại đơn với 'I' dùng trợ động từ 'don't'.",
     category: "Sentence Structure",
   },
   {
@@ -1658,7 +1670,8 @@ export const questions: Question[] = [
       { option: "distributing", isCorrect: false },
       { option: "distributed", isCorrect: false },
     ],
-    explanationVi: "Thì hiện tại đơn diễn tả một thói quen/lịch trình. Chủ ngữ 'The marketing team' là danh từ tập hợp số ít nên động từ thêm 's'.",
+    explanationVi:
+      "Thì hiện tại đơn diễn tả một thói quen/lịch trình. Chủ ngữ 'The marketing team' là danh từ tập hợp số ít nên động từ thêm 's'.",
     category: "Present Simple",
   },
   {
@@ -1668,14 +1681,16 @@ export const questions: Question[] = [
     contextEn: "Confirming when a project was finalized.",
     contextVi: "Xác nhận khi nào dự án được hoàn thành.",
     questionEn: "We ____ the final draft of the proposal last night.",
-    questionVi: "Chúng tôi ____ bản phác thảo cuối cùng của đề xuất vào tối qua.",
+    questionVi:
+      "Chúng tôi ____ bản phác thảo cuối cùng của đề xuất vào tối qua.",
     options: [
       { option: "finish", isCorrect: false },
       { option: "finishes", isCorrect: false },
       { option: "finished", isCorrect: true },
       { option: "finishing", isCorrect: false },
     ],
-    explanationVi: "Dấu hiệu 'last night' chỉ thời điểm trong quá khứ nên dùng thì quá khứ đơn.",
+    explanationVi:
+      "Dấu hiệu 'last night' chỉ thời điểm trong quá khứ nên dùng thì quá khứ đơn.",
     category: "Past Simple",
   },
   {
@@ -1685,14 +1700,16 @@ export const questions: Question[] = [
     contextEn: "Assuring a client about a response time.",
     contextVi: "Cam kết với khách hàng về thời gian phản hồi.",
     questionEn: "Our representative ____ contact you within twenty-four hours.",
-    questionVi: "Đại diện của chúng tôi ____ sẽ liên hệ với bạn trong vòng 24 giờ.",
+    questionVi:
+      "Đại diện của chúng tôi ____ sẽ liên hệ với bạn trong vòng 24 giờ.",
     options: [
       { option: "will", isCorrect: true },
       { option: "is", isCorrect: false },
       { option: "going", isCorrect: false },
       { option: "has", isCorrect: false },
     ],
-    explanationVi: "Dùng 'will' để đưa ra một lời hứa hoặc thông báo về một sự việc trong tương lai.",
+    explanationVi:
+      "Dùng 'will' để đưa ra một lời hứa hoặc thông báo về một sự việc trong tương lai.",
     category: "Future Simple",
   },
   {
@@ -1709,7 +1726,8 @@ export const questions: Question[] = [
       { option: "has / trained", isCorrect: false },
       { option: "will / train", isCorrect: false },
     ],
-    explanationVi: "Thì hiện tại tiếp diễn diễn tả hành động đang xảy ra (be + V-ing). Ms. Lee đi với 'is'.",
+    explanationVi:
+      "Thì hiện tại tiếp diễn diễn tả hành động đang xảy ra (be + V-ing). Ms. Lee đi với 'is'.",
     category: "Present Continuous",
   },
   {
@@ -1718,15 +1736,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Providing information about a meeting's location.",
     contextVi: "Cung cấp thông tin về vị trí cuộc họp.",
-    questionEn: "The board meeting is ____ the conference room on the third floor.",
-    questionVi: "Cuộc họp hội đồng quản trị ở ____ phòng hội nghị trên tầng ba.",
+    questionEn:
+      "The board meeting is ____ the conference room on the third floor.",
+    questionVi:
+      "Cuộc họp hội đồng quản trị ở ____ phòng hội nghị trên tầng ba.",
     options: [
       { option: "at", isCorrect: false },
       { option: "in", isCorrect: true },
       { option: "on", isCorrect: false },
       { option: "to", isCorrect: false },
     ],
-    explanationVi: "Giới từ 'in' được dùng để chỉ vị trí bên trong một không gian như phòng họp.",
+    explanationVi:
+      "Giới từ 'in' được dùng để chỉ vị trí bên trong một không gian như phòng họp.",
     category: "Sentence Structure",
   },
   {
@@ -1743,7 +1764,8 @@ export const questions: Question[] = [
       { option: "requiring", isCorrect: false },
       { option: "required", isCorrect: false },
     ],
-    explanationVi: "Thì hiện tại đơn diễn tả một sự thật hoặc yêu cầu. Chủ ngữ 'This position' là số ít.",
+    explanationVi:
+      "Thì hiện tại đơn diễn tả một sự thật hoặc yêu cầu. Chủ ngữ 'This position' là số ít.",
     category: "Present Simple",
   },
   {
@@ -1753,7 +1775,8 @@ export const questions: Question[] = [
     contextEn: "Describing a previous business trip.",
     contextVi: "Mô tả một chuyến công tác trước đây.",
     questionEn: "Mr. Henderson ____ to Tokyo for a trade fair two months ago.",
-    questionVi: "Ông Henderson ____ đến Tokyo để dự hội chợ thương mại cách đây hai tháng.",
+    questionVi:
+      "Ông Henderson ____ đến Tokyo để dự hội chợ thương mại cách đây hai tháng.",
     options: [
       { option: "travel", isCorrect: false },
       { option: "travels", isCorrect: false },
@@ -1777,7 +1800,8 @@ export const questions: Question[] = [
       { option: "reliability", isCorrect: false },
       { option: "relied", isCorrect: false },
     ],
-    explanationVi: "Sau 'are very' cần một tính từ (Adj) để mô tả đặc tính của chủ ngữ.",
+    explanationVi:
+      "Sau 'are very' cần một tính từ (Adj) để mô tả đặc tính của chủ ngữ.",
     category: "Word Forms",
   },
   {
@@ -1794,7 +1818,8 @@ export const questions: Question[] = [
       { option: "does", isCorrect: false },
       { option: "going", isCorrect: false },
     ],
-    explanationVi: "Dùng 'will' để dự đoán một sự việc có khả năng xảy ra trong tương lai.",
+    explanationVi:
+      "Dùng 'will' để dự đoán một sự việc có khả năng xảy ra trong tương lai.",
     category: "Future Simple",
   },
   {
@@ -1804,14 +1829,16 @@ export const questions: Question[] = [
     contextEn: "Reporting a current problem with a device.",
     contextVi: "Báo cáo sự cố hiện tại với một thiết bị.",
     questionEn: "The photocopy machine ____ not ____ properly at the moment.",
-    questionVi: "Máy photocopy ____ không ____ hoạt động bình thường vào lúc này.",
+    questionVi:
+      "Máy photocopy ____ không ____ hoạt động bình thường vào lúc này.",
     options: [
       { option: "is / working", isCorrect: true },
       { option: "are / working", isCorrect: false },
       { option: "does / work", isCorrect: false },
       { option: "will / work", isCorrect: false },
     ],
-    explanationVi: "Dấu hiệu 'at the moment' dùng thì hiện tại tiếp diễn (be + V-ing). Máy photocopy là số ít dùng 'is'.",
+    explanationVi:
+      "Dấu hiệu 'at the moment' dùng thì hiện tại tiếp diễn (be + V-ing). Máy photocopy là số ít dùng 'is'.",
     category: "Present Continuous",
   },
   {
@@ -1828,7 +1855,8 @@ export const questions: Question[] = [
       { option: "Is / taking", isCorrect: false },
       { option: "Has / taken", isCorrect: false },
     ],
-    explanationVi: "Câu hỏi thì hiện tại đơn cho chủ ngữ số ít (Mr. Grant) dùng trợ động từ 'Does' và động từ nguyên mẫu 'take'.",
+    explanationVi:
+      "Câu hỏi thì hiện tại đơn cho chủ ngữ số ít (Mr. Grant) dùng trợ động từ 'Does' và động từ nguyên mẫu 'take'.",
     category: "Present Simple",
   },
   {
@@ -1845,7 +1873,8 @@ export const questions: Question[] = [
       { option: "at", isCorrect: false },
       { option: "in", isCorrect: false },
     ],
-    explanationVi: "Giới từ 'by' được dùng để chỉ một thời điểm muộn nhất mà một hành động phải được hoàn thành.",
+    explanationVi:
+      "Giới từ 'by' được dùng để chỉ một thời điểm muộn nhất mà một hành động phải được hoàn thành.",
     category: "Sentence Structure",
   },
   {
@@ -1855,14 +1884,16 @@ export const questions: Question[] = [
     contextEn: "Confirming a past attendance.",
     contextVi: "Xác nhận sự tham dự trong quá khứ.",
     questionEn: "____ you ____ the seminar on digital marketing last Friday?",
-    questionVi: "Bạn ____ có ____ buổi hội thảo về tiếp thị kỹ thuật số vào thứ Sáu tuần trước không?",
+    questionVi:
+      "Bạn ____ có ____ buổi hội thảo về tiếp thị kỹ thuật số vào thứ Sáu tuần trước không?",
     options: [
       { option: "Did / attend", isCorrect: true },
       { option: "Do / attend", isCorrect: false },
       { option: "Were / attend", isCorrect: false },
       { option: "Have / attended", isCorrect: false },
     ],
-    explanationVi: "Câu hỏi thì quá khứ đơn dùng trợ động từ 'Did' + chủ ngữ + động từ nguyên mẫu.",
+    explanationVi:
+      "Câu hỏi thì quá khứ đơn dùng trợ động từ 'Did' + chủ ngữ + động từ nguyên mẫu.",
     category: "Past Simple",
   },
   {
@@ -1871,15 +1902,18 @@ export const questions: Question[] = [
     questionType: "word-form",
     contextEn: "Describing the atmosphere of the workplace.",
     contextVi: "Mô tả bầu không khí nơi làm việc.",
-    questionEn: "The management strives to create a ____ environment for all employees.",
-    questionVi: "Ban lãnh đạo nỗ lực tạo ra một môi trường ____ cho tất cả các nhân viên.",
+    questionEn:
+      "The management strives to create a ____ environment for all employees.",
+    questionVi:
+      "Ban lãnh đạo nỗ lực tạo ra một môi trường ____ cho tất cả các nhân viên.",
     options: [
       { option: "productive", isCorrect: true },
       { option: "productively", isCorrect: false },
       { option: "produce", isCorrect: false },
       { option: "production", isCorrect: false },
     ],
-    explanationVi: "Trước danh từ 'environment' cần một tính từ (Adj) để bổ nghĩa.",
+    explanationVi:
+      "Trước danh từ 'environment' cần một tính từ (Adj) để bổ nghĩa.",
     category: "Word Forms",
   },
   {
@@ -1889,14 +1923,16 @@ export const questions: Question[] = [
     contextEn: "Agreeing to help a coworker after a meeting.",
     contextVi: "Đồng ý giúp đỡ đồng nghiệp sau cuộc họp.",
     questionEn: "I ____ help you with those files after I finish this call.",
-    questionVi: "Tôi ____ sẽ giúp bạn xếp những hồ sơ đó sau khi tôi kết thúc cuộc gọi này.",
+    questionVi:
+      "Tôi ____ sẽ giúp bạn xếp những hồ sơ đó sau khi tôi kết thúc cuộc gọi này.",
     options: [
       { option: "will", isCorrect: true },
       { option: "am", isCorrect: false },
       { option: "do", isCorrect: false },
       { option: "did", isCorrect: false },
     ],
-    explanationVi: "Dùng 'will' để thể hiện một quyết định được đưa ra ngay tại thời điểm nói.",
+    explanationVi:
+      "Dùng 'will' để thể hiện một quyết định được đưa ra ngay tại thời điểm nói.",
     category: "Future Simple",
   },
   {
@@ -1913,7 +1949,8 @@ export const questions: Question[] = [
       { option: "are / having", isCorrect: false },
       { option: "did / have", isCorrect: false },
     ],
-    explanationVi: "Mặc dù có 'at the moment', động từ 'have' (có) thường không dùng ở thì tiếp diễn khi chỉ sự sở hữu. Ở đây dùng phủ định hiện tại đơn.",
+    explanationVi:
+      "Mặc dù có 'at the moment', động từ 'have' (có) thường không dùng ở thì tiếp diễn khi chỉ sự sở hữu. Ở đây dùng phủ định hiện tại đơn.",
     category: "Present Simple",
   },
   {
@@ -1922,15 +1959,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Talking about the results of a past meeting.",
     contextVi: "Nói về kết quả của một cuộc họp trong quá khứ.",
-    questionEn: "The committee ____ the new safety regulations during yesterday's meeting.",
-    questionVi: "Ủy ban ____ các quy định an toàn mới trong cuộc họp ngày hôm qua.",
+    questionEn:
+      "The committee ____ the new safety regulations during yesterday's meeting.",
+    questionVi:
+      "Ủy ban ____ các quy định an toàn mới trong cuộc họp ngày hôm qua.",
     options: [
       { option: "approve", isCorrect: false },
       { option: "approves", isCorrect: false },
       { option: "approved", isCorrect: true },
       { option: "approving", isCorrect: false },
     ],
-    explanationVi: "Sự việc đã xảy ra và kết thúc trong quá khứ (yesterday) nên dùng thì quá khứ đơn.",
+    explanationVi:
+      "Sự việc đã xảy ra và kết thúc trong quá khứ (yesterday) nên dùng thì quá khứ đơn.",
     category: "Past Simple",
   },
   {
@@ -1947,7 +1987,8 @@ export const questions: Question[] = [
       { option: "has / updated", isCorrect: false },
       { option: "will / update", isCorrect: false },
     ],
-    explanationVi: "Thì hiện tại tiếp diễn diễn tả hành động đang tiến hành. Chủ ngữ 'members' số nhiều nên dùng 'are'.",
+    explanationVi:
+      "Thì hiện tại tiếp diễn diễn tả hành động đang tiến hành. Chủ ngữ 'members' số nhiều nên dùng 'are'.",
     category: "Present Continuous",
   },
   {
@@ -1956,7 +1997,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Asking about someone's preference for a meeting time.",
     contextVi: "Hỏi về sở thích của ai đó về thời gian họp.",
-    questionEn: "Would you prefer to meet ____ Friday morning or Monday afternoon?",
+    questionEn:
+      "Would you prefer to meet ____ Friday morning or Monday afternoon?",
     questionVi: "Bạn muốn gặp ____ sáng thứ Sáu hay chiều thứ Hai hơn?",
     options: [
       { option: "on", isCorrect: true },
@@ -1964,7 +2006,8 @@ export const questions: Question[] = [
       { option: "at", isCorrect: false },
       { option: "for", isCorrect: false },
     ],
-    explanationVi: "Giới từ 'on' được dùng trước các ngày trong tuần và các buổi của một ngày cụ thể.",
+    explanationVi:
+      "Giới từ 'on' được dùng trước các ngày trong tuần và các buổi của một ngày cụ thể.",
     category: "Sentence Structure",
   },
   {
@@ -1973,7 +2016,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Describing a common practice in the company.",
     contextVi: "Mô tả một quy tắc chung trong công ty.",
-    questionEn: "Every employee ____ required to wear an identification badge at all times.",
+    questionEn:
+      "Every employee ____ required to wear an identification badge at all times.",
     questionVi: "Mọi nhân viên ____ được yêu cầu phải đeo thẻ tên mọi lúc.",
     options: [
       { option: "is", isCorrect: true },
@@ -1990,8 +2034,10 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Informing about a past relocation.",
     contextVi: "Thông báo về việc chuyển địa điểm trong quá khứ.",
-    questionEn: "The main headquarters ____ to a new building downtown last month.",
-    questionVi: "Trụ sở chính ____ đến một tòa nhà mới ở trung tâm thành phố vào tháng trước.",
+    questionEn:
+      "The main headquarters ____ to a new building downtown last month.",
+    questionVi:
+      "Trụ sở chính ____ đến một tòa nhà mới ở trung tâm thành phố vào tháng trước.",
     options: [
       { option: "move", isCorrect: false },
       { option: "moves", isCorrect: false },
@@ -2015,7 +2061,8 @@ export const questions: Question[] = [
       { option: "efficiently", isCorrect: false },
       { option: "efficacy", isCorrect: false },
     ],
-    explanationVi: "Sau 'is very' cần một tính từ (Adj) để chỉ tính chất của chủ ngữ.",
+    explanationVi:
+      "Sau 'is very' cần một tính từ (Adj) để chỉ tính chất của chủ ngữ.",
     category: "Word Forms",
   },
   {
@@ -2032,7 +2079,8 @@ export const questions: Question[] = [
       { option: "do", isCorrect: false },
       { option: "have", isCorrect: false },
     ],
-    explanationVi: "Dùng 'will' để thông báo một sự việc sẽ diễn ra trong tương lai theo lịch trình.",
+    explanationVi:
+      "Dùng 'will' để thông báo một sự việc sẽ diễn ra trong tương lai theo lịch trình.",
     category: "Future Simple",
   },
   {
@@ -2049,7 +2097,8 @@ export const questions: Question[] = [
       { option: "Will / do", isCorrect: false },
       { option: "Have / done", isCorrect: false },
     ],
-    explanationVi: "Dấu hiệu 'right now' dùng thì hiện tại tiếp diễn (be + V-ing).",
+    explanationVi:
+      "Dấu hiệu 'right now' dùng thì hiện tại tiếp diễn (be + V-ing).",
     category: "Present Continuous",
   },
   {
@@ -2058,7 +2107,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Answering a question about the office location.",
     contextVi: "Trả lời câu hỏi về vị trí văn phòng.",
-    questionEn: "The accounting office is located ____ the fifth floor of this building.",
+    questionEn:
+      "The accounting office is located ____ the fifth floor of this building.",
     questionVi: "Văn phòng kế toán nằm ____ tầng năm của tòa nhà này.",
     options: [
       { option: "on", isCorrect: true },
@@ -2066,7 +2116,8 @@ export const questions: Question[] = [
       { option: "in", isCorrect: false },
       { option: "to", isCorrect: false },
     ],
-    explanationVi: "Sử dụng giới từ 'on' để chỉ vị trí trên một tầng cụ thể của tòa nhà.",
+    explanationVi:
+      "Sử dụng giới từ 'on' để chỉ vị trí trên một tầng cụ thể của tòa nhà.",
     category: "Sentence Structure",
   },
   {
@@ -2076,14 +2127,16 @@ export const questions: Question[] = [
     contextEn: "Describing a common employee benefit.",
     contextVi: "Mô tả một quyền lợi phổ biến của nhân viên.",
     questionEn: "Does the company ____ health insurance for all staff members?",
-    questionVi: "Công ty ____ có cung cấp bảo hiểm y tế cho tất cả nhân viên không?",
+    questionVi:
+      "Công ty ____ có cung cấp bảo hiểm y tế cho tất cả nhân viên không?",
     options: [
       { option: "provide", isCorrect: true },
       { option: "provides", isCorrect: false },
       { option: "providing", isCorrect: false },
       { option: "provided", isCorrect: false },
     ],
-    explanationVi: "Trong câu hỏi với trợ động từ 'Does', động từ chính phải ở dạng nguyên mẫu không 'to'.",
+    explanationVi:
+      "Trong câu hỏi với trợ động từ 'Does', động từ chính phải ở dạng nguyên mẫu không 'to'.",
     category: "Present Simple",
   },
   {
@@ -2092,15 +2145,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reporting a past successful deal.",
     contextVi: "Báo cáo về một thỏa thuận thành công trong quá khứ.",
-    questionEn: "Our sales team ____ its annual target two weeks before the deadline.",
-    questionVi: "Nhóm bán hàng của chúng tôi ____ đã đạt được mục tiêu hàng năm hai tuần trước thời hạn.",
+    questionEn:
+      "Our sales team ____ its annual target two weeks before the deadline.",
+    questionVi:
+      "Nhóm bán hàng của chúng tôi ____ đã đạt được mục tiêu hàng năm hai tuần trước thời hạn.",
     options: [
       { option: "reach", isCorrect: false },
       { option: "reaches", isCorrect: false },
       { option: "reached", isCorrect: true },
       { option: "reaching", isCorrect: false },
     ],
-    explanationVi: "Hành động đã hoàn thành trong quá khứ nên dùng thì quá khứ đơn.",
+    explanationVi:
+      "Hành động đã hoàn thành trong quá khứ nên dùng thì quá khứ đơn.",
     category: "Past Simple",
   },
   {
@@ -2109,15 +2165,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Providing information about a future closure.",
     contextVi: "Cung cấp thông tin về việc đóng cửa trong tương lai.",
-    questionEn: "The facility ____ be closed for renovation starting next month.",
-    questionVi: "Cơ sở vật chất ____ sẽ đóng cửa để cải tạo bắt đầu từ tháng tới.",
+    questionEn:
+      "The facility ____ be closed for renovation starting next month.",
+    questionVi:
+      "Cơ sở vật chất ____ sẽ đóng cửa để cải tạo bắt đầu từ tháng tới.",
     options: [
       { option: "will", isCorrect: true },
       { option: "is", isCorrect: false },
       { option: "does", isCorrect: false },
       { option: "has", isCorrect: false },
     ],
-    explanationVi: "Dùng 'will' để thông báo về một sự việc sẽ xảy ra trong tương lai theo kế hoạch.",
+    explanationVi:
+      "Dùng 'will' để thông báo về một sự việc sẽ xảy ra trong tương lai theo kế hoạch.",
     category: "Future Simple",
   },
   {
@@ -2126,15 +2185,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Asking about someone's current availability.",
     contextVi: "Hỏi về sự sẵn sàng hiện tại của ai đó.",
-    questionEn: "____ Mr. Lopez ____ for the supervisor in the lobby right now?",
-    questionVi: "____ Ông Lopez ____ đang đợi người giám sát ở sảnh ngay bây giờ phải không?",
+    questionEn:
+      "____ Mr. Lopez ____ for the supervisor in the lobby right now?",
+    questionVi:
+      "____ Ông Lopez ____ đang đợi người giám sát ở sảnh ngay bây giờ phải không?",
     options: [
       { option: "Is / waiting", isCorrect: true },
       { option: "Are / waiting", isCorrect: false },
       { option: "Does / wait", isCorrect: false },
       { option: "Will / wait", isCorrect: false },
     ],
-    explanationVi: "Dấu hiệu 'right now' dùng thì hiện tại tiếp diễn (be + V-ing). Mr. Lopez là số ít nên đi với 'Is'.",
+    explanationVi:
+      "Dấu hiệu 'right now' dùng thì hiện tại tiếp diễn (be + V-ing). Mr. Lopez là số ít nên đi với 'Is'.",
     category: "Present Continuous",
   },
   {
@@ -2143,15 +2205,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Checking where a certain project is being held.",
     contextVi: "Kiểm tra xem một dự án nhất định đang được tổ chức ở đâu.",
-    questionEn: "The annual conference takes place ____ various international cities each year.",
-    questionVi: "Hội nghị thường niên diễn ra ____ tại các thành phố quốc tế khác nhau mỗi năm.",
+    questionEn:
+      "The annual conference takes place ____ various international cities each year.",
+    questionVi:
+      "Hội nghị thường niên diễn ra ____ tại các thành phố quốc tế khác nhau mỗi năm.",
     options: [
       { option: "in", isCorrect: true },
       { option: "at", isCorrect: false },
       { option: "on", isCorrect: false },
       { option: "to", isCorrect: false },
     ],
-    explanationVi: "Giới từ 'in' dùng trước tên các thành phố hoặc địa điểm lớn.",
+    explanationVi:
+      "Giới từ 'in' dùng trước tên các thành phố hoặc địa điểm lớn.",
     category: "Sentence Structure",
   },
   {
@@ -2177,15 +2242,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Informing about a past hiring event.",
     contextVi: "Thông báo về sự kiện tuyển dụng trong quá khứ.",
-    questionEn: "The company ____ ten new interns for the summer program last year.",
-    questionVi: "Công ty ____ đã thuê mười thực tập sinh mới cho chương trình hè năm ngoái.",
+    questionEn:
+      "The company ____ ten new interns for the summer program last year.",
+    questionVi:
+      "Công ty ____ đã thuê mười thực tập sinh mới cho chương trình hè năm ngoái.",
     options: [
       { option: "hire", isCorrect: false },
       { option: "hired", isCorrect: true },
       { option: "hiring", isCorrect: false },
       { option: "hiring", isCorrect: false },
     ],
-    explanationVi: "Dấu hiệu 'last year' chỉ thời điểm trong quá khứ nên dùng thì quá khứ đơn.",
+    explanationVi:
+      "Dấu hiệu 'last year' chỉ thời điểm trong quá khứ nên dùng thì quá khứ đơn.",
     category: "Past Simple",
   },
   {
@@ -2194,15 +2262,18 @@ export const questions: Question[] = [
     questionType: "word-form",
     contextEn: "Identifying the importance of a project.",
     contextVi: "Xác định tầm quan trọng của một dự án.",
-    questionEn: "This project is extremely ____ for our company's future growth.",
-    questionVi: "Dự án này cực kỳ ____ cho sự phát triển trong tương lai của công ty chúng tôi.",
+    questionEn:
+      "This project is extremely ____ for our company's future growth.",
+    questionVi:
+      "Dự án này cực kỳ ____ cho sự phát triển trong tương lai của công ty chúng tôi.",
     options: [
       { option: "important", isCorrect: true },
       { option: "importance", isCorrect: false },
       { option: "importantly", isCorrect: false },
       { option: "import", isCorrect: false },
     ],
-    explanationVi: "Sau 'is extremely' cần một tính từ (Adj) để bổ nghĩa cho chủ ngữ.",
+    explanationVi:
+      "Sau 'is extremely' cần một tính từ (Adj) để bổ nghĩa cho chủ ngữ.",
     category: "Word Forms",
   },
   {
@@ -2212,14 +2283,16 @@ export const questions: Question[] = [
     contextEn: "Discussing an upcoming company event.",
     contextVi: "Thảo luận về một sự kiện sắp tới của công ty.",
     questionEn: "We ____ hold the next board meeting in the Chicago office.",
-    questionVi: "Chúng tôi ____ sẽ tổ chức cuộc họp hội đồng quản trị tiếp theo tại văn phòng Chicago.",
+    questionVi:
+      "Chúng tôi ____ sẽ tổ chức cuộc họp hội đồng quản trị tiếp theo tại văn phòng Chicago.",
     options: [
       { option: "will", isCorrect: true },
       { option: "are", isCorrect: false },
       { option: "going", isCorrect: false },
       { option: "do", isCorrect: false },
     ],
-    explanationVi: "Dùng 'will' để nói về một kế hoạch hoặc quyết định trong tương lai.",
+    explanationVi:
+      "Dùng 'will' để nói về một kế hoạch hoặc quyết định trong tương lai.",
     category: "Future Simple",
   },
   {
@@ -2228,15 +2301,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing a current collaborative effort.",
     contextVi: "Mô tả một nỗ lực hợp tác hiện tại.",
-    questionEn: "The two departments ____ currently ____ on a joint marketing campaign.",
-    questionVi: "Hai bộ phận hiện ____ đang ____ trong một chiến dịch tiếp thị chung.",
+    questionEn:
+      "The two departments ____ currently ____ on a joint marketing campaign.",
+    questionVi:
+      "Hai bộ phận hiện ____ đang ____ trong một chiến dịch tiếp thị chung.",
     options: [
       { option: "are / collaborating", isCorrect: true },
       { option: "is / collaborating", isCorrect: false },
       { option: "have / collaborated", isCorrect: false },
       { option: "will / collaborate", isCorrect: false },
     ],
-    explanationVi: "Thì hiện tại tiếp diễn diễn tả hành động đang tiến hành. Chủ ngữ 'The two departments' là số nhiều.",
+    explanationVi:
+      "Thì hiện tại tiếp diễn diễn tả hành động đang tiến hành. Chủ ngữ 'The two departments' là số nhiều.",
     category: "Present Continuous",
   },
   {
@@ -2246,14 +2322,16 @@ export const questions: Question[] = [
     contextEn: "Inquiry about store hours.",
     contextVi: "Hỏi về giờ mở cửa của cửa hàng.",
     questionEn: "____ the department store ____ before 9:00 AM on Sundays?",
-    questionVi: "____ Cửa hàng bách hóa ____ có mở cửa trước 9 giờ sáng vào Chủ Nhật không?",
+    questionVi:
+      "____ Cửa hàng bách hóa ____ có mở cửa trước 9 giờ sáng vào Chủ Nhật không?",
     options: [
       { option: "Does / open", isCorrect: true },
       { option: "Do / open", isCorrect: false },
       { option: "Is / opening", isCorrect: false },
       { option: "Has / opened", isCorrect: false },
     ],
-    explanationVi: "Câu hỏi thì hiện tại đơn với chủ ngữ số ít 'the department store' dùng trợ động từ 'Does'.",
+    explanationVi:
+      "Câu hỏi thì hiện tại đơn với chủ ngữ số ít 'the department store' dùng trợ động từ 'Does'.",
     category: "Present Simple",
   },
   {
@@ -2262,15 +2340,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Indicating the time limit for an application.",
     contextVi: "Chỉ ra thời hạn cho một đơn đăng ký.",
-    questionEn: "Please submit your application ____ the end of business today.",
-    questionVi: "Vui lòng nộp đơn đăng ký của bạn ____ trước khi kết thúc giờ làm việc hôm nay.",
+    questionEn:
+      "Please submit your application ____ the end of business today.",
+    questionVi:
+      "Vui lòng nộp đơn đăng ký của bạn ____ trước khi kết thúc giờ làm việc hôm nay.",
     options: [
       { option: "before", isCorrect: true },
       { option: "since", isCorrect: false },
       { option: "for", isCorrect: false },
       { option: "at", isCorrect: false },
     ],
-    explanationVi: "Dùng 'before' để chỉ một thời điểm trước một sự kiện hoặc thời gian cụ thể.",
+    explanationVi:
+      "Dùng 'before' để chỉ một thời điểm trước một sự kiện hoặc thời gian cụ thể.",
     category: "Sentence Structure",
   },
   {
@@ -2279,15 +2360,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Recalling a past training session.",
     contextVi: "Nhớ lại một buổi đào tạo trong quá khứ.",
-    questionEn: "____ you ____ the computer software training session two weeks ago?",
-    questionVi: "Bạn ____ có ____ buổi đào tạo phần mềm máy tính cách đây hai tuần không?",
+    questionEn:
+      "____ you ____ the computer software training session two weeks ago?",
+    questionVi:
+      "Bạn ____ có ____ buổi đào tạo phần mềm máy tính cách đây hai tuần không?",
     options: [
       { option: "Did / attend", isCorrect: true },
       { option: "Do / attend", isCorrect: false },
       { option: "Were / attend", isCorrect: false },
       { option: "Have / attended", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc câu hỏi thì quá khứ đơn: Did + S + V (nguyên mẫu).",
+    explanationVi:
+      "Cấu trúc câu hỏi thì quá khứ đơn: Did + S + V (nguyên mẫu).",
     category: "Past Simple",
   },
   {
@@ -2304,7 +2388,8 @@ export const questions: Question[] = [
       { option: "clarity", isCorrect: false },
       { option: "clearness", isCorrect: false },
     ],
-    explanationVi: "Sau 'was very' cần một tính từ (Adj) để bổ nghĩa cho chủ ngữ.",
+    explanationVi:
+      "Sau 'was very' cần một tính từ (Adj) để bổ nghĩa cho chủ ngữ.",
     category: "Word Forms",
   },
   {
@@ -2314,14 +2399,16 @@ export const questions: Question[] = [
     contextEn: "Assisting a customer with an order status.",
     contextVi: "Hỗ trợ khách hàng về tình trạng đơn hàng.",
     questionEn: "We ____ send you an email as soon as your order is shipped.",
-    questionVi: "Chúng tôi ____ sẽ gửi cho bạn một email ngay khi đơn hàng của bạn được giao đi.",
+    questionVi:
+      "Chúng tôi ____ sẽ gửi cho bạn một email ngay khi đơn hàng của bạn được giao đi.",
     options: [
       { option: "will", isCorrect: true },
       { option: "are", isCorrect: false },
       { option: "do", isCorrect: false },
       { option: "did", isCorrect: false },
     ],
-    explanationVi: "Dùng 'will' để đưa ra một lời hứa hoặc thông báo về một hành động trong tương lai.",
+    explanationVi:
+      "Dùng 'will' để đưa ra một lời hứa hoặc thông báo về một hành động trong tương lai.",
     category: "Future Simple",
   },
   {
@@ -2330,15 +2417,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Checking employee routine requirement.",
     contextVi: "Kiểm tra yêu cầu về thói quen của nhân viên.",
-    questionEn: "____ all employees ____ their IDs when entering the office building?",
-    questionVi: "____ tất cả nhân viên ____ có xuất trình thẻ tên khi vào tòa nhà văn phòng không?",
+    questionEn:
+      "____ all employees ____ their IDs when entering the office building?",
+    questionVi:
+      "____ tất cả nhân viên ____ có xuất trình thẻ tên khi vào tòa nhà văn phòng không?",
     options: [
       { option: "Do / show", isCorrect: true },
       { option: "Does / show", isCorrect: false },
       { option: "Are / showing", isCorrect: false },
       { option: "Has / shown", isCorrect: false },
     ],
-    explanationVi: "Câu hỏi thì hiện tại đơn với chủ ngữ số nhiều 'all employees' dùng trợ động từ 'Do'.",
+    explanationVi:
+      "Câu hỏi thì hiện tại đơn với chủ ngữ số nhiều 'all employees' dùng trợ động từ 'Do'.",
     category: "Present Simple",
   },
   {
@@ -2347,15 +2437,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Confirming a past travel completion.",
     contextVi: "Xác nhận hoàn thành chuyến đi trong quá khứ.",
-    questionEn: "Mr. Kim ____ to Seoul for the international conference yesterday.",
-    questionVi: "Ông Kim ____ đã bay đến Seoul để dự hội nghị quốc tế vào ngày hôm qua.",
+    questionEn:
+      "Mr. Kim ____ to Seoul for the international conference yesterday.",
+    questionVi:
+      "Ông Kim ____ đã bay đến Seoul để dự hội nghị quốc tế vào ngày hôm qua.",
     options: [
       { option: "fly", isCorrect: false },
       { option: "flies", isCorrect: false },
       { option: "flew", isCorrect: true },
       { option: "flying", isCorrect: false },
     ],
-    explanationVi: "Dấu hiệu 'yesterday' yêu cầu sử dụng thì quá khứ đơn. 'Flew' là quá khứ của 'fly'.",
+    explanationVi:
+      "Dấu hiệu 'yesterday' yêu cầu sử dụng thì quá khứ đơn. 'Flew' là quá khứ của 'fly'.",
     category: "Past Simple",
   },
   {
@@ -2364,15 +2457,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reporting an ongoing office repair.",
     contextVi: "Báo cáo về việc sửa chữa văn phòng đang diễn ra.",
-    questionEn: "Maintenance workers ____ currently ____ the air conditioning system.",
-    questionVi: "Nhân viên bảo trì hiện ____ đang ____ hệ thống điều hòa nhiệt độ.",
+    questionEn:
+      "Maintenance workers ____ currently ____ the air conditioning system.",
+    questionVi:
+      "Nhân viên bảo trì hiện ____ đang ____ hệ thống điều hòa nhiệt độ.",
     options: [
       { option: "are / repairing", isCorrect: true },
       { option: "is / repairing", isCorrect: false },
       { option: "has / repaired", isCorrect: false },
       { option: "will / repair", isCorrect: false },
     ],
-    explanationVi: "Thì hiện tại tiếp diễn diễn tả hành động đang diễn ra. Chủ ngữ số nhiều dùng 'are'.",
+    explanationVi:
+      "Thì hiện tại tiếp diễn diễn tả hành động đang diễn ra. Chủ ngữ số nhiều dùng 'are'.",
     category: "Present Continuous",
   },
   {
@@ -2389,7 +2485,8 @@ export const questions: Question[] = [
       { option: "to", isCorrect: false },
       { option: "during", isCorrect: false },
     ],
-    explanationVi: "Giới từ 'at' thường dùng để chỉ một địa điểm cụ thể trong một tòa nhà.",
+    explanationVi:
+      "Giới từ 'at' thường dùng để chỉ một địa điểm cụ thể trong một tòa nhà.",
     category: "Sentence Structure",
   },
   {
@@ -2398,15 +2495,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Stating office policy for leaving lights on.",
     contextVi: "Nêu quy định văn phòng về việc để đèn sáng.",
-    questionEn: "Each department ____ must ensure that the lights are turned off after work.",
-    questionVi: "Mỗi bộ phận ____ phải đảm bảo rằng đèn được tắt sau giờ làm việc.",
+    questionEn:
+      "Each department ____ must ensure that the lights are turned off after work.",
+    questionVi:
+      "Mỗi bộ phận ____ phải đảm bảo rằng đèn được tắt sau giờ làm việc.",
     options: [
       { option: "must", isCorrect: true },
       { option: "do", isCorrect: false },
       { option: "does", isCorrect: false },
       { option: "are", isCorrect: false },
     ],
-    explanationVi: "Sử dụng động từ khuyết thiếu 'must' để chỉ nghĩa vụ hoặc quy tắc cần tuân thủ.",
+    explanationVi:
+      "Sử dụng động từ khuyết thiếu 'must' để chỉ nghĩa vụ hoặc quy tắc cần tuân thủ.",
     category: "Present Simple",
   },
   {
@@ -2415,15 +2515,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Informing about a past website outage.",
     contextVi: "Thông báo về việc trang web bị sập trong quá khứ.",
-    questionEn: "Our company website ____ down for three hours yesterday morning.",
-    questionVi: "Trang web của công ty chúng tôi ____ đã bị sập trong ba giờ vào sáng qua.",
+    questionEn:
+      "Our company website ____ down for three hours yesterday morning.",
+    questionVi:
+      "Trang web của công ty chúng tôi ____ đã bị sập trong ba giờ vào sáng qua.",
     options: [
       { option: "be", isCorrect: false },
       { option: "was", isCorrect: true },
       { option: "were", isCorrect: false },
       { option: "is", isCorrect: false },
     ],
-    explanationVi: "Thì quá khứ của 'to be' với chủ ngữ số ít 'website' là 'was'.",
+    explanationVi:
+      "Thì quá khứ của 'to be' với chủ ngữ số ít 'website' là 'was'.",
     category: "Past Simple",
   },
   {
@@ -2433,14 +2536,16 @@ export const questions: Question[] = [
     contextEn: "Commending a coworker's organized desk.",
     contextVi: "Khen ngợi bàn làm việc ngăn nắp của đồng nghiệp.",
     questionEn: "He is always very ____ and keeps his files in perfect order.",
-    questionVi: "Anh ấy luôn luôn rất ____ và giữ các tệp hồ sơ của mình theo thứ tự hoàn hảo.",
+    questionVi:
+      "Anh ấy luôn luôn rất ____ và giữ các tệp hồ sơ của mình theo thứ tự hoàn hảo.",
     options: [
       { option: "organized", isCorrect: true },
       { option: "organize", isCorrect: false },
       { option: "organization", isCorrect: false },
       { option: "organizer", isCorrect: false },
     ],
-    explanationVi: "Sau 'is always very' cần một tính từ (Adj) để mô tả tính cách/trạng thái của chủ ngữ.",
+    explanationVi:
+      "Sau 'is always very' cần một tính từ (Adj) để mô tả tính cách/trạng thái của chủ ngữ.",
     category: "Word Forms",
   },
   {
@@ -2449,8 +2554,10 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Giving a timeline for a results announcement.",
     contextVi: "Đưa ra mốc thời gian cho việc công bố kết quả.",
-    questionEn: "The committee ____ announce the winners of the design competition on Friday.",
-    questionVi: "Ủy ban ____ sẽ công bố những người chiến thắng trong cuộc thi thiết kế vào thứ Sáu.",
+    questionEn:
+      "The committee ____ announce the winners of the design competition on Friday.",
+    questionVi:
+      "Ủy ban ____ sẽ công bố những người chiến thắng trong cuộc thi thiết kế vào thứ Sáu.",
     options: [
       { option: "will", isCorrect: true },
       { option: "is", isCorrect: false },
@@ -2466,15 +2573,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Informing about a current website update.",
     contextVi: "Thông báo về việc cập nhật trang web hiện tại.",
-    questionEn: "Our team ____ currently ____ the user interface based on your feedback.",
-    questionVi: "Nhóm của chúng tôi hiện ____ đang ____ giao diện người dùng dựa trên phản hồi của bạn.",
+    questionEn:
+      "Our team ____ currently ____ the user interface based on your feedback.",
+    questionVi:
+      "Nhóm của chúng tôi hiện ____ đang ____ giao diện người dùng dựa trên phản hồi của bạn.",
     options: [
       { option: "is / redesigning", isCorrect: true },
       { option: "are / redesigning", isCorrect: false },
       { option: "has / redesigned", isCorrect: false },
       { option: "will / redesign", isCorrect: false },
     ],
-    explanationVi: "Dấu hiệu 'currently' dùng thì hiện tại tiếp diễn. 'Our team' coi là chủ ngữ số ít trong ngữ cảnh này.",
+    explanationVi:
+      "Dấu hiệu 'currently' dùng thì hiện tại tiếp diễn. 'Our team' coi là chủ ngữ số ít trong ngữ cảnh này.",
     category: "Present Continuous",
   },
   {
@@ -2483,7 +2593,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Locating the nearest ATM for a visitor.",
     contextVi: "Xác định vị trí máy ATM gần nhất cho khách.",
-    questionEn: "There is an automated teller machine (ATM) located ____ the corner of the block.",
+    questionEn:
+      "There is an automated teller machine (ATM) located ____ the corner of the block.",
     questionVi: "Có một máy rút tiền tự động (ATM) nằm ____ góc của dãy nhà.",
     options: [
       { option: "on", isCorrect: true },
@@ -2491,7 +2602,8 @@ export const questions: Question[] = [
       { option: "in", isCorrect: false },
       { option: "to", isCorrect: false },
     ],
-    explanationVi: "Sử dụng giới từ 'on the corner' hoặc 'at the corner' để chỉ vị trí góc phố/góc tòa nhà.",
+    explanationVi:
+      "Sử dụng giới từ 'on the corner' hoặc 'at the corner' để chỉ vị trí góc phố/góc tòa nhà.",
     category: "Sentence Structure",
   },
   {
@@ -2500,15 +2612,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Discussing the company's annual report schedule.",
     contextVi: "Thảo luận về lịch trình báo cáo thường niên của công ty.",
-    questionEn: "When ____ the finance department usually ____ the annual report?",
-    questionVi: "Khi nào ____ bộ phận tài chính thường ____ báo cáo thường niên?",
+    questionEn:
+      "When ____ the finance department usually ____ the annual report?",
+    questionVi:
+      "Khi nào ____ bộ phận tài chính thường ____ báo cáo thường niên?",
     options: [
       { option: "does / publish", isCorrect: true },
       { option: "do / publish", isCorrect: false },
       { option: "is / publishing", isCorrect: false },
       { option: "has / published", isCorrect: false },
     ],
-    explanationVi: "Câu hỏi thì hiện tại đơn với chủ ngữ số ít 'the finance department' dùng trợ động từ 'does'.",
+    explanationVi:
+      "Câu hỏi thì hiện tại đơn với chủ ngữ số ít 'the finance department' dùng trợ động từ 'does'.",
     category: "Present Simple",
   },
   {
@@ -2517,15 +2632,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reporting a past visitor's feedback.",
     contextVi: "Báo cáo phản hồi của một khách tham quan trong quá khứ.",
-    questionEn: "The client ____ very satisfied with the presentation we gave last Tuesday.",
-    questionVi: "Khách hàng ____ đã rất hài lòng với bài trình bày mà chúng tôi đã thực hiện vào thứ Ba tuần trước.",
+    questionEn:
+      "The client ____ very satisfied with the presentation we gave last Tuesday.",
+    questionVi:
+      "Khách hàng ____ đã rất hài lòng với bài trình bày mà chúng tôi đã thực hiện vào thứ Ba tuần trước.",
     options: [
       { option: "was", isCorrect: true },
       { option: "were", isCorrect: false },
       { option: "is", isCorrect: false },
       { option: "be", isCorrect: false },
     ],
-    explanationVi: "Thì quá khứ của 'to be' với chủ ngữ số ít 'The client' là 'was'.",
+    explanationVi:
+      "Thì quá khứ của 'to be' với chủ ngữ số ít 'The client' là 'was'.",
     category: "Past Simple",
   },
   {
@@ -2534,15 +2652,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Informing about upcoming office repairs.",
     contextVi: "Thông báo về việc sửa chữa văn phòng sắp tới.",
-    questionEn: "The construction crew ____ begin working on the new wing next month.",
-    questionVi: "Đội xây dựng ____ sẽ bắt đầu làm việc ở khu nhà mới vào tháng tới.",
+    questionEn:
+      "The construction crew ____ begin working on the new wing next month.",
+    questionVi:
+      "Đội xây dựng ____ sẽ bắt đầu làm việc ở khu nhà mới vào tháng tới.",
     options: [
       { option: "will", isCorrect: true },
       { option: "are", isCorrect: false },
       { option: "going", isCorrect: false },
       { option: "is", isCorrect: false },
     ],
-    explanationVi: "Dùng 'will' để thông báo về hành động sẽ diễn ra trong tương lai theo kế hoạch.",
+    explanationVi:
+      "Dùng 'will' để thông báo về hành động sẽ diễn ra trong tương lai theo kế hoạch.",
     category: "Future Simple",
   },
   {
@@ -2551,15 +2672,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reporting on an ongoing department meeting.",
     contextVi: "Báo cáo về một cuộc họp phòng ban đang diễn ra.",
-    questionEn: "The HR managers ____ currently ____ the new employee benefits package.",
-    questionVi: "Các quản lý nhân sự hiện ____ đang ____ gói phúc lợi nhân viên mới.",
+    questionEn:
+      "The HR managers ____ currently ____ the new employee benefits package.",
+    questionVi:
+      "Các quản lý nhân sự hiện ____ đang ____ gói phúc lợi nhân viên mới.",
     options: [
       { option: "are / discussing", isCorrect: true },
       { option: "is / discussing", isCorrect: false },
       { option: "have / discussed", isCorrect: false },
       { option: "will / discuss", isCorrect: false },
     ],
-    explanationVi: "Thì hiện tại tiếp diễn với chủ ngữ số nhiều 'managers' đi với 'are + V-ing'.",
+    explanationVi:
+      "Thì hiện tại tiếp diễn với chủ ngữ số nhiều 'managers' đi với 'are + V-ing'.",
     category: "Present Continuous",
   },
   {
@@ -2568,7 +2692,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Indicating the location of the storage room.",
     contextVi: "Chỉ ra vị trí của phòng kho.",
-    questionEn: "The equipment storage room is located ____ the end of the second-floor hallway.",
+    questionEn:
+      "The equipment storage room is located ____ the end of the second-floor hallway.",
     questionVi: "Phòng kho thiết bị nằm ____ ở cuối hành lang tầng hai.",
     options: [
       { option: "at", isCorrect: true },
@@ -2585,8 +2710,10 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Describing a necessary qualification for a role.",
     contextVi: "Mô tả một chứng chỉ cần thiết cho một vai trò.",
-    questionEn: "Every candidate ____ required to pass a technical proficiency test.",
-    questionVi: "Mọi ứng viên ____ được yêu cầu phải vượt qua một bài kiểm tra năng lực kỹ thuật.",
+    questionEn:
+      "Every candidate ____ required to pass a technical proficiency test.",
+    questionVi:
+      "Mọi ứng viên ____ được yêu cầu phải vượt qua một bài kiểm tra năng lực kỹ thuật.",
     options: [
       { option: "is", isCorrect: true },
       { option: "are", isCorrect: false },
@@ -2602,7 +2729,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reporting a past successful recruitment.",
     contextVi: "Báo cáo một đợt tuyển dụng thành công trong quá khứ.",
-    questionEn: "The company ____ thirty new staff members during the last quarter.",
+    questionEn:
+      "The company ____ thirty new staff members during the last quarter.",
     questionVi: "Công ty ____ đã tuyển dụng 30 nhân viên mới trong quý trước.",
     options: [
       { option: "hire", isCorrect: false },
@@ -2610,7 +2738,8 @@ export const questions: Question[] = [
       { option: "hiring", isCorrect: false },
       { option: "hires", isCorrect: false },
     ],
-    explanationVi: "Dấu hiệu 'the last quarter' chỉ thời gian trong quá khứ nên dùng thì quá khứ đơn (V-ed).",
+    explanationVi:
+      "Dấu hiệu 'the last quarter' chỉ thời gian trong quá khứ nên dùng thì quá khứ đơn (V-ed).",
     category: "Past Simple",
   },
   {
@@ -2619,15 +2748,18 @@ export const questions: Question[] = [
     questionType: "word-form",
     contextEn: "Commending a colleague's professional attitude.",
     contextVi: "Khen ngợi thái độ chuyên nghiệp của một đồng nghiệp.",
-    questionEn: "He is a very ____ employee and always stays late to finish his work.",
-    questionVi: "Anh ấy là một nhân viên rất ____ và luôn ở lại muộn để hoàn thành công việc.",
+    questionEn:
+      "He is a very ____ employee and always stays late to finish his work.",
+    questionVi:
+      "Anh ấy là một nhân viên rất ____ và luôn ở lại muộn để hoàn thành công việc.",
     options: [
       { option: "dedicated", isCorrect: true },
       { option: "dedicate", isCorrect: false },
       { option: "dedication", isCorrect: false },
       { option: "dedicating", isCorrect: false },
     ],
-    explanationVi: "Trước danh từ 'employee' cần một tính từ (Adj) để bổ nghĩa.",
+    explanationVi:
+      "Trước danh từ 'employee' cần một tính từ (Adj) để bổ nghĩa.",
     category: "Word Forms",
   },
   {
@@ -2644,7 +2776,8 @@ export const questions: Question[] = [
       { option: "going", isCorrect: false },
       { option: "did", isCorrect: false },
     ],
-    explanationVi: "Dùng 'will' để thể hiện một quyết định hoặc lời hứa được đưa ra tại thời điểm nói.",
+    explanationVi:
+      "Dùng 'will' để thể hiện một quyết định hoặc lời hứa được đưa ra tại thời điểm nói.",
     category: "Future Simple",
   },
   {
@@ -2653,15 +2786,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing a currently occurring software update.",
     contextVi: "Mô tả một bản cập nhật phần mềm đang diễn ra.",
-    questionEn: "The IT department ____ currently ____ a new security patch on all computers.",
-    questionVi: "Bộ phận CNTT hiện ____ đang ____ một bản vá bảo mật mới trên tất cả các máy tính.",
+    questionEn:
+      "The IT department ____ currently ____ a new security patch on all computers.",
+    questionVi:
+      "Bộ phận CNTT hiện ____ đang ____ một bản vá bảo mật mới trên tất cả các máy tính.",
     options: [
       { option: "is / installing", isCorrect: true },
       { option: "are / installing", isCorrect: false },
       { option: "has / installed", isCorrect: false },
       { option: "will / install", isCorrect: false },
     ],
-    explanationVi: "Dấu hiệu 'currently' dùng thì hiện tại tiếp diễn. 'The IT department' là chủ ngữ số ít.",
+    explanationVi:
+      "Dấu hiệu 'currently' dùng thì hiện tại tiếp diễn. 'The IT department' là chủ ngữ số ít.",
     category: "Present Continuous",
   },
   {
@@ -2670,15 +2806,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Inquiring about someone's work habits.",
     contextVi: "Hỏi về thói quen làm việc của ai đó.",
-    questionEn: "____ Mr. Smith ____ to take the train to the office every morning?",
-    questionVi: "____ Ông Smith ____ có thường đi tàu đến văn phòng mỗi sáng không?",
+    questionEn:
+      "____ Mr. Smith ____ to take the train to the office every morning?",
+    questionVi:
+      "____ Ông Smith ____ có thường đi tàu đến văn phòng mỗi sáng không?",
     options: [
       { option: "Does / prefer", isCorrect: true },
       { option: "Do / prefer", isCorrect: false },
       { option: "Is / preferring", isCorrect: false },
       { option: "Has / preferred", isCorrect: false },
     ],
-    explanationVi: "Câu hỏi thì hiện tại đơn với chủ ngữ số ít 'Mr. Smith' dùng trợ động từ 'Does'.",
+    explanationVi:
+      "Câu hỏi thì hiện tại đơn với chủ ngữ số ít 'Mr. Smith' dùng trợ động từ 'Does'.",
     category: "Present Simple",
   },
   {
@@ -2687,15 +2826,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Indicating the deadline for a specific task.",
     contextVi: "Chỉ ra thời hạn cho một nhiệm vụ cụ thể.",
-    questionEn: "All expense reports must be submitted ____ the end of the month.",
-    questionVi: "Tất cả các báo cáo chi phí phải được nộp ____ trước khi kết thúc tháng.",
+    questionEn:
+      "All expense reports must be submitted ____ the end of the month.",
+    questionVi:
+      "Tất cả các báo cáo chi phí phải được nộp ____ trước khi kết thúc tháng.",
     options: [
       { option: "by", isCorrect: true },
       { option: "on", isCorrect: false },
       { option: "for", isCorrect: false },
       { option: "at", isCorrect: false },
     ],
-    explanationVi: "Giới từ 'by' chỉ một thời điểm muộn nhất mà hành động phải hoàn thành.",
+    explanationVi:
+      "Giới từ 'by' chỉ một thời điểm muộn nhất mà hành động phải hoàn thành.",
     category: "Sentence Structure",
   },
   {
@@ -2704,15 +2846,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Confirming attendance at a past event.",
     contextVi: "Xác nhận sự tham dự tại một sự kiện trong quá khứ.",
-    questionEn: "____ you ____ the grand opening of the new branch last Monday?",
-    questionVi: "Bạn ____ có ____ buổi khai trương chi nhánh mới vào thứ Hai tuần trước không?",
+    questionEn:
+      "____ you ____ the grand opening of the new branch last Monday?",
+    questionVi:
+      "Bạn ____ có ____ buổi khai trương chi nhánh mới vào thứ Hai tuần trước không?",
     options: [
       { option: "Did / attend", isCorrect: true },
       { option: "Do / attend", isCorrect: false },
       { option: "Were / attend", isCorrect: false },
       { option: "Have / attended", isCorrect: false },
     ],
-    explanationVi: "Câu hỏi thì quá khứ đơn (last Monday) dùng trợ động từ 'Did' + động từ nguyên mẫu.",
+    explanationVi:
+      "Câu hỏi thì quá khứ đơn (last Monday) dùng trợ động từ 'Did' + động từ nguyên mẫu.",
     category: "Past Simple",
   },
   {
@@ -2721,15 +2866,18 @@ export const questions: Question[] = [
     questionType: "word-form",
     contextEn: "Identifying the quality of a coworker's output.",
     contextVi: "Xác định chất lượng đầu ra của một đồng nghiệp.",
-    questionEn: "Her project proposal was very ____ and contained many innovative ideas.",
-    questionVi: "Đề xuất dự án của cô ấy rất ____ và chứa đựng nhiều ý tưởng sáng tạo.",
+    questionEn:
+      "Her project proposal was very ____ and contained many innovative ideas.",
+    questionVi:
+      "Đề xuất dự án của cô ấy rất ____ và chứa đựng nhiều ý tưởng sáng tạo.",
     options: [
       { option: "comprehensive", isCorrect: true },
       { option: "comprehensively", isCorrect: false },
       { option: "comprehend", isCorrect: false },
       { option: "comprehension", isCorrect: false },
     ],
-    explanationVi: "Sau 'was very' cần một tính từ (Adj) để bổ nghĩa cho chủ ngữ.",
+    explanationVi:
+      "Sau 'was very' cần một tính từ (Adj) để bổ nghĩa cho chủ ngữ.",
     category: "Word Forms",
   },
   {
@@ -2738,15 +2886,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Assuring a client about a future meet-up.",
     contextVi: "Cam kết với khách hàng về một cuộc gặp trong tương lai.",
-    questionEn: "We ____ meet you at the airport when your flight arrives tomorrow morning.",
-    questionVi: "Chúng tôi ____ sẽ đón bạn tại sân bay khi chuyến bay của bạn đến vào sáng mai.",
+    questionEn:
+      "We ____ meet you at the airport when your flight arrives tomorrow morning.",
+    questionVi:
+      "Chúng tôi ____ sẽ đón bạn tại sân bay khi chuyến bay của bạn đến vào sáng mai.",
     options: [
       { option: "will", isCorrect: true },
       { option: "are", isCorrect: false },
       { option: "do", isCorrect: false },
       { option: "did", isCorrect: false },
     ],
-    explanationVi: "Dùng 'will' để đưa ra một lời hứa hoặc thông báo về một sự việc trong tương lai.",
+    explanationVi:
+      "Dùng 'will' để đưa ra một lời hứa hoặc thông báo về một sự việc trong tương lai.",
     category: "Future Simple",
   },
   {
@@ -2755,8 +2906,10 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Checking a store regular opening policy.",
     contextVi: "Kiểm tra chính sách mở cửa thường xuyên của cửa hàng.",
-    questionEn: "____ the department store ____ before 10 a.m. even on holidays?",
-    questionVi: "____ Cửa hàng bách hóa ____ có mở cửa trước 10 giờ sáng ngay cả vào ngày lễ không?",
+    questionEn:
+      "____ the department store ____ before 10 a.m. even on holidays?",
+    questionVi:
+      "____ Cửa hàng bách hóa ____ có mở cửa trước 10 giờ sáng ngay cả vào ngày lễ không?",
     options: [
       { option: "Does / open", isCorrect: true },
       { option: "Do / open", isCorrect: false },
@@ -2772,7 +2925,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reporting a past office relocation time.",
     contextVi: "Báo cáo thời gian chuyển văn phòng trong quá khứ.",
-    questionEn: "The company headquarters ____ to this location three years ago.",
+    questionEn:
+      "The company headquarters ____ to this location three years ago.",
     questionVi: "Trụ sở chính của công ty ____ đến vị trí này cách đây ba năm.",
     options: [
       { option: "move", isCorrect: false },
@@ -2780,7 +2934,8 @@ export const questions: Question[] = [
       { option: "moved", isCorrect: true },
       { option: "moving", isCorrect: false },
     ],
-    explanationVi: "Hành động đã xảy ra và hoàn thành trong quá khứ (three years ago) nên dùng thì quá khứ đơn (V-ed).",
+    explanationVi:
+      "Hành động đã xảy ra và hoàn thành trong quá khứ (three years ago) nên dùng thì quá khứ đơn (V-ed).",
     category: "Past Simple",
   },
   {
@@ -2789,15 +2944,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing currently occurring office renovations.",
     contextVi: "Mô tả việc cải tạo văn phòng đang diễn ra.",
-    questionEn: "Workers ____ currently ____ the main lobby and the reception area.",
-    questionVi: "Các công nhân hiện ____ đang ____ sảnh chính và khu vực tiếp tân.",
+    questionEn:
+      "Workers ____ currently ____ the main lobby and the reception area.",
+    questionVi:
+      "Các công nhân hiện ____ đang ____ sảnh chính và khu vực tiếp tân.",
     options: [
       { option: "are / renovating", isCorrect: true },
       { option: "is / renovating", isCorrect: false },
       { option: "have / renovated", isCorrect: false },
       { option: "will / renovate", isCorrect: false },
     ],
-    explanationVi: "Thì hiện tại tiếp diễn diễn tả hành động đang diễn ra. Chủ ngữ số nhiều 'Workers' đi với 'are + V-ing'.",
+    explanationVi:
+      "Thì hiện tại tiếp diễn diễn tả hành động đang diễn ra. Chủ ngữ số nhiều 'Workers' đi với 'are + V-ing'.",
     category: "Present Continuous",
   },
   {
@@ -2806,15 +2964,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Asking about a coworker's preference for a meeting time.",
     contextVi: "Hỏi về sở thích của đồng nghiệp về thời gian họp.",
-    questionEn: "Would you prefer to have the brainstorming session ____ Monday morning or Friday afternoon?",
-    questionVi: "Bạn muốn có buổi động não vào ____ sáng thứ Hai hay chiều thứ Sáu hơn?",
+    questionEn:
+      "Would you prefer to have the brainstorming session ____ Monday morning or Friday afternoon?",
+    questionVi:
+      "Bạn muốn có buổi động não vào ____ sáng thứ Hai hay chiều thứ Sáu hơn?",
     options: [
       { option: "on", isCorrect: true },
       { option: "at", isCorrect: false },
       { option: "in", isCorrect: false },
       { option: "during", isCorrect: false },
     ],
-    explanationVi: "Giới từ 'on' dùng trước các buổi của một ngày cụ thể trong tuần.",
+    explanationVi:
+      "Giới từ 'on' dùng trước các buổi của một ngày cụ thể trong tuần.",
     category: "Sentence Structure",
   },
   {
@@ -2823,15 +2984,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Stating office policy regarding visitors.",
     contextVi: "Nêu quy định văn phòng liên quan đến khách tham quan.",
-    questionEn: "All visitors ____ required to sign in at the reception desk upon arrival.",
-    questionVi: "Tất cả khách tham quan ____ được yêu cầu phải đăng ký tại quầy tiếp tân khi đến.",
+    questionEn:
+      "All visitors ____ required to sign in at the reception desk upon arrival.",
+    questionVi:
+      "Tất cả khách tham quan ____ được yêu cầu phải đăng ký tại quầy tiếp tân khi đến.",
     options: [
       { option: "are", isCorrect: true },
       { option: "is", isCorrect: false },
       { option: "be", isCorrect: false },
       { option: "am", isCorrect: false },
     ],
-    explanationVi: "Chủ ngữ số nhiều 'All visitors' đi với 'are' trong cấu trúc câu bị động ở thì hiện tại đơn.",
+    explanationVi:
+      "Chủ ngữ số nhiều 'All visitors' đi với 'are' trong cấu trúc câu bị động ở thì hiện tại đơn.",
     category: "Present Simple",
   },
   {
@@ -2839,16 +3003,20 @@ export const questions: Question[] = [
     topicId: "past-simple",
     questionType: "grammar",
     contextEn: "Informing about the successful completion of a past project.",
-    contextVi: "Thông báo về việc hoàn thành thành công một dự án trong quá khứ.",
-    questionEn: "Our team ____ the final report to the board of directors yesterday.",
-    questionVi: "Nhóm của chúng tôi ____ báo cáo cuối cùng cho ban giám đốc vào ngày hôm qua.",
+    contextVi:
+      "Thông báo về việc hoàn thành thành công một dự án trong quá khứ.",
+    questionEn:
+      "Our team ____ the final report to the board of directors yesterday.",
+    questionVi:
+      "Nhóm của chúng tôi ____ báo cáo cuối cùng cho ban giám đốc vào ngày hôm qua.",
     options: [
       { option: "present", isCorrect: false },
       { option: "presents", isCorrect: false },
       { option: "presented", isCorrect: true },
       { option: "presenting", isCorrect: false },
     ],
-    explanationVi: "Dấu hiệu 'yesterday' yêu cầu sử dụng thì quá khứ đơn (V-ed).",
+    explanationVi:
+      "Dấu hiệu 'yesterday' yêu cầu sử dụng thì quá khứ đơn (V-ed).",
     category: "Past Simple",
   },
   {
@@ -2857,15 +3025,18 @@ export const questions: Question[] = [
     questionType: "word-form",
     contextEn: "Mentioning a colleague's professional achievement.",
     contextVi: "Đề cập đến thành tích chuyên môn của một đồng nghiệp.",
-    questionEn: "She is very ____ and has been recognized as Employee of the Month three times.",
-    questionVi: "Cô ấy rất ____ và đã được công nhận là Nhân viên của tháng ba lần.",
+    questionEn:
+      "She is very ____ and has been recognized as Employee of the Month three times.",
+    questionVi:
+      "Cô ấy rất ____ và đã được công nhận là Nhân viên của tháng ba lần.",
     options: [
       { option: "productive", isCorrect: true },
       { option: "produce", isCorrect: false },
       { option: "production", isCorrect: false },
       { option: "productively", isCorrect: false },
     ],
-    explanationVi: "Sau 'is very' cần một tính từ (Adj) để mô tả đặc điểm của chủ ngữ.",
+    explanationVi:
+      "Sau 'is very' cần một tính từ (Adj) để mô tả đặc điểm của chủ ngữ.",
     category: "Word Forms",
   },
   {
@@ -2874,15 +3045,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Giving a timeline for an upcoming project start.",
     contextVi: "Đưa ra mốc thời gian cho việc bắt đầu dự án sắp tới.",
-    questionEn: "The new software development project ____ officially start next Monday.",
-    questionVi: "Dự án phát triển phần mềm mới ____ sẽ chính thức bắt đầu vào thứ Hai tới.",
+    questionEn:
+      "The new software development project ____ officially start next Monday.",
+    questionVi:
+      "Dự án phát triển phần mềm mới ____ sẽ chính thức bắt đầu vào thứ Hai tới.",
     options: [
       { option: "will", isCorrect: true },
       { option: "is", isCorrect: false },
       { option: "has", isCorrect: false },
       { option: "does", isCorrect: false },
     ],
-    explanationVi: "Dùng 'will' để thông báo về một sự việc sẽ xảy ra trong tương lai theo kế hoạch.",
+    explanationVi:
+      "Dùng 'will' để thông báo về một sự việc sẽ xảy ra trong tương lai theo kế hoạch.",
     category: "Future Simple",
   },
   {
@@ -2891,15 +3065,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reporting an ongoing system check by IT.",
     contextVi: "Báo cáo việc kiểm tra hệ thống đang diễn ra của bộ phân CNTT.",
-    questionEn: "The IT technicians ____ currently ____ a routine maintenance check on all servers.",
-    questionVi: "Các kỹ thuật viên CNTT hiện ____ đang ____ kiểm tra bảo trì định kỳ trên tất cả các máy chủ.",
+    questionEn:
+      "The IT technicians ____ currently ____ a routine maintenance check on all servers.",
+    questionVi:
+      "Các kỹ thuật viên CNTT hiện ____ đang ____ kiểm tra bảo trì định kỳ trên tất cả các máy chủ.",
     options: [
       { option: "are / performing", isCorrect: true },
       { option: "is / performing", isCorrect: false },
       { option: "have / performed", isCorrect: false },
       { option: "will / perform", isCorrect: false },
     ],
-    explanationVi: "Thì hiện tại tiếp diễn diễn tả hành động đang xảy ra. Chủ ngữ số nhiều đi với 'are + V-ing'.",
+    explanationVi:
+      "Thì hiện tại tiếp diễn diễn tả hành động đang xảy ra. Chủ ngữ số nhiều đi với 'are + V-ing'.",
     category: "Present Continuous",
   },
   {
@@ -2908,8 +3085,10 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Finding a parking spot at the company.",
     contextVi: "Tìm một chỗ đậu xe tại công ty.",
-    questionEn: "There are designated parking spots for visitors located ____ the front of the building.",
-    questionVi: "Có những chỗ đậu xe được chỉ định cho khách nằm ____ ở phía trước tòa nhà.",
+    questionEn:
+      "There are designated parking spots for visitors located ____ the front of the building.",
+    questionVi:
+      "Có những chỗ đậu xe được chỉ định cho khách nằm ____ ở phía trước tòa nhà.",
     options: [
       { option: "at", isCorrect: true },
       { option: "on", isCorrect: false },
@@ -2925,15 +3104,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing a common employee activity during breaks.",
     contextVi: "Mô tả hoạt động phổ biến của nhân viên trong giờ giải lao.",
-    questionEn: "Many staff members ____ the terrace for their afternoon coffee breaks.",
-    questionVi: "Nhiều nhân viên ____ sân thượng để nghỉ giải lao uống cà phê chiều.",
+    questionEn:
+      "Many staff members ____ the terrace for their afternoon coffee breaks.",
+    questionVi:
+      "Nhiều nhân viên ____ sân thượng để nghỉ giải lao uống cà phê chiều.",
     options: [
       { option: "use", isCorrect: true },
       { option: "uses", isCorrect: false },
       { option: "using", isCorrect: false },
       { option: "to use", isCorrect: false },
     ],
-    explanationVi: "Thì hiện tại đơn với chủ ngữ số nhiều 'Many staff members'.",
+    explanationVi:
+      "Thì hiện tại đơn với chủ ngữ số nhiều 'Many staff members'.",
     category: "Present Simple",
   },
   {
@@ -2942,15 +3124,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reporting a past visitor's arrival time.",
     contextVi: "Báo cáo thời gian đến của một khách tham quan trong quá khứ.",
-    questionEn: "The delegation from the Singapore office ____ at the airport exactly on time yesterday.",
-    questionVi: "Phái đoàn từ văn phòng Singapore ____ đến sân bay đúng giờ vào ngày hôm qua.",
+    questionEn:
+      "The delegation from the Singapore office ____ at the airport exactly on time yesterday.",
+    questionVi:
+      "Phái đoàn từ văn phòng Singapore ____ đến sân bay đúng giờ vào ngày hôm qua.",
     options: [
       { option: "arrive", isCorrect: false },
       { option: "arrives", isCorrect: false },
       { option: "arrived", isCorrect: true },
       { option: "arriving", isCorrect: false },
     ],
-    explanationVi: "Dấu hiệu 'yesterday' yêu cầu sử dụng thì quá khứ đơn (V-ed).",
+    explanationVi:
+      "Dấu hiệu 'yesterday' yêu cầu sử dụng thì quá khứ đơn (V-ed).",
     category: "Past Simple",
   },
   {
@@ -2959,15 +3144,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Informing about a future company-wide announcement.",
     contextVi: "Thông báo về một thông báo toàn công ty trong tương lai.",
-    questionEn: "The CEO ____ address the entire company via a livestream next Wednesday.",
-    questionVi: "CEO ____ sẽ diễn thuyết trước toàn công ty thông qua một buổi phát trực tiếp vào thứ Tư tới.",
+    questionEn:
+      "The CEO ____ address the entire company via a livestream next Wednesday.",
+    questionVi:
+      "CEO ____ sẽ diễn thuyết trước toàn công ty thông qua một buổi phát trực tiếp vào thứ Tư tới.",
     options: [
       { option: "will", isCorrect: true },
       { option: "is", isCorrect: false },
       { option: "does", isCorrect: false },
       { option: "did", isCorrect: false },
     ],
-    explanationVi: "Dùng 'will' để thông báo về một sự việc sẽ diễn ra trong tương lai theo kế hoạch.",
+    explanationVi:
+      "Dùng 'will' để thông báo về một sự việc sẽ diễn ra trong tương lai theo kế hoạch.",
     category: "Future Simple",
   },
   {
@@ -2976,15 +3164,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reporting on an ongoing collaborative project.",
     contextVi: "Báo cáo về một dự án hợp tác đang diễn ra.",
-    questionEn: "Our department ____ currently ____ with an external agency to develop the new website.",
-    questionVi: "Phòng của chúng tôi hiện ____ đang ____ với một đại lý bên ngoài để phát triển trang web mới.",
+    questionEn:
+      "Our department ____ currently ____ with an external agency to develop the new website.",
+    questionVi:
+      "Phòng của chúng tôi hiện ____ đang ____ với một đại lý bên ngoài để phát triển trang web mới.",
     options: [
       { option: "is / working", isCorrect: true },
       { option: "are / working", isCorrect: false },
       { option: "have / worked", isCorrect: false },
       { option: "will / work", isCorrect: false },
     ],
-    explanationVi: "Dấu hiệu 'currently' dùng thì hiện tại tiếp diễn. 'Our department' là chủ ngữ số ít.",
+    explanationVi:
+      "Dấu hiệu 'currently' dùng thì hiện tại tiếp diễn. 'Our department' là chủ ngữ số ít.",
     category: "Present Continuous",
   },
   {
@@ -2993,7 +3184,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Indicating the location of the newly opened cafeteria.",
     contextVi: "Chỉ ra vị trí của nhà ăn mới mở.",
-    questionEn: "The new staff cafeteria is located ____ the basement of the main building.",
+    questionEn:
+      "The new staff cafeteria is located ____ the basement of the main building.",
     questionVi: "Nhà ăn nhân viên mới nằm ____ ở tầng hầm của tòa nhà chính.",
     options: [
       { option: "in", isCorrect: true },
@@ -3001,7 +3193,8 @@ export const questions: Question[] = [
       { option: "at", isCorrect: false },
       { option: "to", isCorrect: false },
     ],
-    explanationVi: "Giới từ 'in' dùng để chỉ vị trí bên trong một không gian như tầng hầm.",
+    explanationVi:
+      "Giới từ 'in' dùng để chỉ vị trí bên trong một không gian như tầng hầm.",
     category: "Sentence Structure",
   },
   {
@@ -3010,15 +3203,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Describing a common office maintenance routine.",
     contextVi: "Mô tả thói quen bảo trì văn phòng thông thường.",
-    questionEn: "The janitorial staff ____ the entire office building every night after 9:00 PM.",
-    questionVi: "Nhân viên vệ sinh ____ toàn bộ tòa nhà văn phòng vào mỗi đêm sau 9 giờ tối.",
+    questionEn:
+      "The janitorial staff ____ the entire office building every night after 9:00 PM.",
+    questionVi:
+      "Nhân viên vệ sinh ____ toàn bộ tòa nhà văn phòng vào mỗi đêm sau 9 giờ tối.",
     options: [
       { option: "clean", isCorrect: true },
       { option: "cleans", isCorrect: false },
       { option: "cleaning", isCorrect: false },
       { option: "to clean", isCorrect: false },
     ],
-    explanationVi: "Chủ ngữ 'staff' (nhân viên) ở đây được dùng như danh từ số nhiều.",
+    explanationVi:
+      "Chủ ngữ 'staff' (nhân viên) ở đây được dùng như danh từ số nhiều.",
     category: "Present Simple",
   },
   {
@@ -3027,15 +3223,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reporting a past successful team-building event.",
     contextVi: "Báo cáo một sự kiện xây dựng đội ngũ thành công trong quá khứ.",
-    questionEn: "Most employees ____ that the team-building workshop last month was very helpful.",
-    questionVi: "Hầu hết nhân viên ____ rằng buổi hội thảo xây dựng đội ngũ tháng trước rất hữu ích.",
+    questionEn:
+      "Most employees ____ that the team-building workshop last month was very helpful.",
+    questionVi:
+      "Hầu hết nhân viên ____ rằng buổi hội thảo xây dựng đội ngũ tháng trước rất hữu ích.",
     options: [
       { option: "agree", isCorrect: false },
       { option: "agreed", isCorrect: true },
       { option: "agreeing", isCorrect: false },
       { option: "agrees", isCorrect: false },
     ],
-    explanationVi: "Hành động đã xảy ra trong quá khứ nên dùng thì quá khứ đơn (V-ed).",
+    explanationVi:
+      "Hành động đã xảy ra trong quá khứ nên dùng thì quá khứ đơn (V-ed).",
     category: "Past Simple",
   },
   {
@@ -3044,15 +3243,18 @@ export const questions: Question[] = [
     questionType: "word-form",
     contextEn: "Identifying the quality of a new coworker.",
     contextVi: "Xác định phẩm chất của một đồng nghiệp mới.",
-    questionEn: "The new marketing assistant is very ____ and has already contributed many great ideas.",
-    questionVi: "Trợ lý tiếp thị mới rất ____ và đã đóng góp nhiều ý tưởng tuyệt vời.",
+    questionEn:
+      "The new marketing assistant is very ____ and has already contributed many great ideas.",
+    questionVi:
+      "Trợ lý tiếp thị mới rất ____ và đã đóng góp nhiều ý tưởng tuyệt vời.",
     options: [
       { option: "creative", isCorrect: true },
       { option: "creatively", isCorrect: false },
       { option: "creation", isCorrect: false },
       { option: "creativity", isCorrect: false },
     ],
-    explanationVi: "Sau 'is very' cần một tính từ (Adj) để mô tả tính chất của chủ ngữ.",
+    explanationVi:
+      "Sau 'is very' cần một tính từ (Adj) để mô tả tính chất của chủ ngữ.",
     category: "Word Forms",
   },
   {
@@ -3061,15 +3263,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Informing about a future project delay.",
     contextVi: "Thông báo về việc trì hoãn dự án trong tương lai.",
-    questionEn: "The completion of the project ____ likely be delayed due to unforeseen circumstances.",
-    questionVi: "Việc hoàn thành dự án ____ có khả năng sẽ bị trì hoãn do những tình huống không lường trước được.",
+    questionEn:
+      "The completion of the project ____ likely be delayed due to unforeseen circumstances.",
+    questionVi:
+      "Việc hoàn thành dự án ____ có khả năng sẽ bị trì hoãn do những tình huống không lường trước được.",
     options: [
       { option: "will", isCorrect: true },
       { option: "is", isCorrect: false },
       { option: "does", isCorrect: false },
       { option: "has", isCorrect: false },
     ],
-    explanationVi: "Dùng 'will' để đưa ra một dự đoán về sự việc trong tương lai.",
+    explanationVi:
+      "Dùng 'will' để đưa ra một dự đoán về sự việc trong tương lai.",
     category: "Future Simple",
   },
   {
@@ -3078,15 +3283,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reporting on currently occurring office repairs.",
     contextVi: "Báo cáo về việc sửa chữa văn phòng đang diễn ra.",
-    questionEn: "The specialized technicians ____ currently ____ the security system in the main hall.",
-    questionVi: "Các kỹ thuật viên chuyên trách hiện ____ đang ____ hệ thống an ninh ở sảnh chính.",
+    questionEn:
+      "The specialized technicians ____ currently ____ the security system in the main hall.",
+    questionVi:
+      "Các kỹ thuật viên chuyên trách hiện ____ đang ____ hệ thống an ninh ở sảnh chính.",
     options: [
       { option: "are / upgrading", isCorrect: true },
       { option: "is / upgrading", isCorrect: false },
       { option: "have / upgraded", isCorrect: false },
       { option: "will / upgrade", isCorrect: false },
     ],
-    explanationVi: "Thì hiện tại tiếp diễn với chủ ngữ số nhiều 'technicians' dùng 'are + V-ing'.",
+    explanationVi:
+      "Thì hiện tại tiếp diễn với chủ ngữ số nhiều 'technicians' dùng 'are + V-ing'.",
     category: "Present Continuous",
   },
   {
@@ -3096,14 +3304,16 @@ export const questions: Question[] = [
     contextEn: "Inquiring about store operating hours.",
     contextVi: "Hỏi về giờ hoạt động của cửa hàng.",
     questionEn: "____ the supermarket ____ until midnight on weekends?",
-    questionVi: "____ Siêu thị ____ có mở cửa đến tận nửa đêm vào cuối tuần không?",
+    questionVi:
+      "____ Siêu thị ____ có mở cửa đến tận nửa đêm vào cuối tuần không?",
     options: [
       { option: "Does / open", isCorrect: true },
       { option: "Do / open", isCorrect: false },
       { option: "Is / opening", isCorrect: false },
       { option: "Has / opened", isCorrect: false },
     ],
-    explanationVi: "Câu hỏi thì hiện tại đơn với chủ ngữ số ít 'the supermarket' dùng trợ động từ 'Does'.",
+    explanationVi:
+      "Câu hỏi thì hiện tại đơn với chủ ngữ số ít 'the supermarket' dùng trợ động từ 'Does'.",
     category: "Present Simple",
   },
   {
@@ -3112,15 +3322,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reporting a past office event's completion.",
     contextVi: "Báo cáo việc hoàn thành một sự kiện văn phòng trong quá khứ.",
-    questionEn: "The committee ____ the new safety regulations during the meeting yesterday.",
-    questionVi: "Ủy ban ____ các quy định an toàn mới trong cuộc họp ngày hôm qua.",
+    questionEn:
+      "The committee ____ the new safety regulations during the meeting yesterday.",
+    questionVi:
+      "Ủy ban ____ các quy định an toàn mới trong cuộc họp ngày hôm qua.",
     options: [
       { option: "approved", isCorrect: true },
       { option: "approve", isCorrect: false },
       { option: "approves", isCorrect: false },
       { option: "approving", isCorrect: false },
     ],
-    explanationVi: "Dấu hiệu 'yesterday' yêu cầu sử dụng thì quá khứ đơn (V-ed).",
+    explanationVi:
+      "Dấu hiệu 'yesterday' yêu cầu sử dụng thì quá khứ đơn (V-ed).",
     category: "Past Simple",
   },
   {
@@ -3129,8 +3342,10 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Indicating the time limit for a submission.",
     contextVi: "Chỉ ra thời hạn cho một đợt nộp hồ sơ.",
-    questionEn: "Please ensure that your proposals are submitted ____ no later than 5:00 PM on Friday.",
-    questionVi: "Hãy đảm bảo rằng các đề xuất của bạn được nộp ____ không muộn hơn 5 giờ chiều thứ Sáu.",
+    questionEn:
+      "Please ensure that your proposals are submitted ____ no later than 5:00 PM on Friday.",
+    questionVi:
+      "Hãy đảm bảo rằng các đề xuất của bạn được nộp ____ không muộn hơn 5 giờ chiều thứ Sáu.",
     options: [
       { option: "by", isCorrect: true },
       { option: "on", isCorrect: false },
@@ -3146,7 +3361,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Informing about a future departure.",
     contextVi: "Thông báo về một chuyến khởi hành trong tương lai.",
-    questionEn: "The shipment of new computers ____ arrive from the warehouse next Monday.",
+    questionEn:
+      "The shipment of new computers ____ arrive from the warehouse next Monday.",
     questionVi: "Lô hàng máy tính mới ____ sẽ đến từ kho vào thứ Hai tới.",
     options: [
       { option: "will", isCorrect: true },
@@ -3154,7 +3370,8 @@ export const questions: Question[] = [
       { option: "am", isCorrect: false },
       { option: "does", isCorrect: false },
     ],
-    explanationVi: "Dùng 'will' để thông báo về hành động sẽ diễn ra trong tương lai theo kế hoạch.",
+    explanationVi:
+      "Dùng 'will' để thông báo về hành động sẽ diễn ra trong tương lai theo kế hoạch.",
     category: "Future Simple",
   },
   {
@@ -3163,7 +3380,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Confirming a visitor's location.",
     contextVi: "Xác nhận vị trí của một khách tham quan.",
-    questionEn: "Mr. Yamamoto is currently waiting ____ the reception area on the ground floor.",
+    questionEn:
+      "Mr. Yamamoto is currently waiting ____ the reception area on the ground floor.",
     questionVi: "Ông Yamamoto hiện đang đợi ____ khu vực tiếp tân ở tầng trệt.",
     options: [
       { option: "in", isCorrect: true },
@@ -3171,7 +3389,8 @@ export const questions: Question[] = [
       { option: "at", isCorrect: false },
       { option: "to", isCorrect: false },
     ],
-    explanationVi: "Giới từ 'in' dùng để chỉ vị trí bên trong một không gian như khu vực tiếp tân.",
+    explanationVi:
+      "Giới từ 'in' dùng để chỉ vị trí bên trong một không gian như khu vực tiếp tân.",
     category: "Sentence Structure",
   },
 ];

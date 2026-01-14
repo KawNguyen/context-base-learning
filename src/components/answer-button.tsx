@@ -82,11 +82,12 @@ export function AnswerButton({
       onClick={onClick}
       disabled={disabled || isSubmitted}
       variant={getButtonVariant()}
-      className={cn("cursor-pointer",
+      className={cn(
+        "cursor-pointer",
         variantClasses[variant],
         getCustomClasses(),
         isSubmitted && "cursor-not-allowed",
-        className
+        className,
       )}
     >
       <div className="flex items-center justify-between w-full gap-2">

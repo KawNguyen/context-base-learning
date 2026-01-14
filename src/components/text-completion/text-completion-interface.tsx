@@ -25,7 +25,7 @@ export function TextCompletionInterface({
   const handleSelectOption = (
     passageId: string,
     gapIndex: number,
-    optionIndex: number
+    optionIndex: number,
   ) => {
     if (showResult) return;
     setUserAnswers((prev) => ({
@@ -41,7 +41,7 @@ export function TextCompletionInterface({
     return passages.every((passage) => {
       const passageAnswers = userAnswers[passage.id] || {};
       return passage.questions.every(
-        (q) => passageAnswers[q.placeholderIndex] !== undefined
+        (q) => passageAnswers[q.placeholderIndex] !== undefined,
       );
     });
   };
@@ -69,11 +69,11 @@ export function TextCompletionInterface({
   const isAnswerCorrect = (
     passageId: string,
     gapIndex: number,
-    optionIndex: number
+    optionIndex: number,
   ) => {
     const passage = passages.find((p) => p.id === passageId);
     const question = passage?.questions.find(
-      (q) => q.placeholderIndex === gapIndex
+      (q) => q.placeholderIndex === gapIndex,
     );
     return question?.options[optionIndex]?.isCorrect === true;
   };

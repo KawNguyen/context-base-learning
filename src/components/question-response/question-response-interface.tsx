@@ -53,9 +53,11 @@ export function QuestionResponseInterface({
     if (!currentExercise) return;
 
     const responses = currentExercise.transcript?.responses || [];
-    const textToSpeak = `Question. ${currentExercise.transcript?.question || "Question"
-      } ... A ... ${responses[0]?.text || ""} ... B ... ${responses[1]?.text || ""
-      } ... C ... ${responses[2]?.text || ""}`;
+    const textToSpeak = `Question. ${
+      currentExercise.transcript?.question || "Question"
+    } ... A ... ${responses[0]?.text || ""} ... B ... ${
+      responses[1]?.text || ""
+    } ... C ... ${responses[2]?.text || ""}`;
 
     if (isPaused) {
       resume();
@@ -67,7 +69,8 @@ export function QuestionResponseInterface({
   const handleCheck = () => {
     if (selectedOption === null || !currentExercise.transcript) return;
 
-    const isCorrect = currentExercise.transcript.responses[selectedOption]?.isCorrect;
+    const isCorrect =
+      currentExercise.transcript.responses[selectedOption]?.isCorrect;
     if (isCorrect) {
       setScore(score + 1);
     }
@@ -103,7 +106,9 @@ export function QuestionResponseInterface({
         score={score}
         totalItems={totalItems}
         onRestart={handleRestart}
-        onSelectLevel={() => router.push(`/question-response/${level.toLowerCase()}`)}
+        onSelectLevel={() =>
+          router.push(`/question-response/${level.toLowerCase()}`)
+        }
       />
     );
   }
@@ -191,24 +196,36 @@ export function QuestionResponseInterface({
           {showResult && currentExercise.transcript && (
             <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500 pt-4">
               <ResultAlert
-                isCorrect={currentExercise.transcript.responses[selectedOption!]?.isCorrect || false}
+                isCorrect={
+                  currentExercise.transcript.responses[selectedOption!]
+                    ?.isCorrect || false
+                }
                 correctAnswer={String.fromCharCode(
-                  65 + currentExercise.transcript.responses.findIndex(r => r.isCorrect)
+                  65 +
+                    currentExercise.transcript.responses.findIndex(
+                      (r) => r.isCorrect,
+                    ),
                 )}
               />
 
               {showTranscript && (
                 <TranscriptView
                   question={currentExercise.transcript.question}
-                  responses={currentExercise.transcript.responses.map(r => r.text)}
-                  correctResponseIndex={currentExercise.transcript.responses.findIndex(r => r.isCorrect)}
+                  responses={currentExercise.transcript.responses.map(
+                    (r) => r.text,
+                  )}
+                  correctResponseIndex={currentExercise.transcript.responses.findIndex(
+                    (r) => r.isCorrect,
+                  )}
                 />
               )}
 
               {mode === "single" && (
                 <div className="flex justify-between gap-4">
                   {prevExerciseId ? (
-                    <Link href={`/question-response/${level.toLowerCase()}/${prevExerciseId}`}>
+                    <Link
+                      href={`/question-response/${level.toLowerCase()}/${prevExerciseId}`}
+                    >
                       <Button
                         variant="outline"
                         size="lg"
@@ -223,7 +240,9 @@ export function QuestionResponseInterface({
                   )}
 
                   {nextExerciseId ? (
-                    <Link href={`/question-response/${level.toLowerCase()}/${nextExerciseId}`}>
+                    <Link
+                      href={`/question-response/${level.toLowerCase()}/${nextExerciseId}`}
+                    >
                       <Button
                         size="lg"
                         className="px-8 font-bold group shadow-lg shadow-primary/20"

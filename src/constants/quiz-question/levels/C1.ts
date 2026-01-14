@@ -1283,17 +1283,21 @@ export const questions: Question[] = [
     id: "C1-1001",
     topicId: "complex-sentence-patterns",
     questionType: "structure",
-    contextEn: "Discussing an executive decision regarding a project's timeline.",
+    contextEn:
+      "Discussing an executive decision regarding a project's timeline.",
     contextVi: "Thảo luận về quyết định điều hành liên quan đến tiến độ dự án.",
-    questionEn: "Not only ____ to accelerate the project, but the CEO also approved an additional budget.",
-    questionVi: "Không những ____ đẩy nhanh dự án, mà CEO còn phê duyệt thêm ngân sách.",
+    questionEn:
+      "Not only ____ to accelerate the project, but the CEO also approved an additional budget.",
+    questionVi:
+      "Không những ____ đẩy nhanh dự án, mà CEO còn phê duyệt thêm ngân sách.",
     options: [
       { option: "he decided", isCorrect: false },
       { option: "did he decide", isCorrect: true },
       { option: "he has decided", isCorrect: false },
       { option: "was he deciding", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc đảo ngữ với 'Not only' đặt ở đầu câu: Not only + trợ động từ + S + V.",
+    explanationVi:
+      "Cấu trúc đảo ngữ với 'Not only' đặt ở đầu câu: Not only + trợ động từ + S + V.",
     category: "Sentence Structure",
   },
   {
@@ -1302,15 +1306,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Legal requirements for a partnership.",
     contextVi: "Yêu cầu pháp lý cho việc hợp tác.",
-    questionEn: "The agreement remains in effect ____ either party provides a written notice of termination.",
-    questionVi: "Thỏa thuận vẫn có hiệu lực ____ cho đến khi một trong hai bên đưa ra thông báo chấm dứt bằng văn bản.",
+    questionEn:
+      "The agreement remains in effect ____ either party provides a written notice of termination.",
+    questionVi:
+      "Thỏa thuận vẫn có hiệu lực ____ cho đến khi một trong hai bên đưa ra thông báo chấm dứt bằng văn bản.",
     options: [
       { option: "until", isCorrect: true },
       { option: "since", isCorrect: false },
       { option: "while", isCorrect: false },
       { option: "as long as", isCorrect: false },
     ],
-    explanationVi: "Sử dụng 'until' để chỉ mốc thời gian hành động hiện tại chấm dứt.",
+    explanationVi:
+      "Sử dụng 'until' để chỉ mốc thời gian hành động hiện tại chấm dứt.",
     category: "Conjunctions",
   },
   {
@@ -1319,32 +1326,40 @@ export const questions: Question[] = [
     questionType: "word-form",
     contextEn: "Evaluating a complex technical manual.",
     contextVi: "Đánh giá một bản hướng dẫn kỹ thuật phức tạp.",
-    questionEn: "The engineers found the technical specifications ____ but extremely comprehensive.",
-    questionVi: "Các kỹ sư thấy các thông số kỹ thuật ____ nhưng cực kỳ toàn diện.",
+    questionEn:
+      "The engineers found the technical specifications ____ but extremely comprehensive.",
+    questionVi:
+      "Các kỹ sư thấy các thông số kỹ thuật ____ nhưng cực kỳ toàn diện.",
     options: [
       { option: "exhausted", isCorrect: false },
       { option: "exhausting", isCorrect: true },
       { option: "exhaust", isCorrect: false },
       { option: "exhaustively", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc S-V-O-C: Find + Object + Adj. Dùng tính từ đuôi '-ing' (exhausting) để chỉ tính chất gây mệt mỏi của sự vật (thông số kỹ thuật).",
+    explanationVi:
+      "Cấu trúc S-V-O-C: Find + Object + Adj. Dùng tính từ đuôi '-ing' (exhausting) để chỉ tính chất gây mệt mỏi của sự vật (thông số kỹ thuật).",
     category: "Word Forms",
   },
   {
     id: "C1-1004",
     topicId: "conditionals-mixed",
     questionType: "grammar",
-    contextEn: "A senior executive reflecting on a past decision and its present impact.",
-    contextVi: "Một giám đốc cấp cao đang suy ngẫm về một quyết định trong quá khứ và tác động hiện tại của nó.",
-    questionEn: "If we had invested in the R&D department five years ago, we ____ the market leader today.",
-    questionVi: "Nếu chúng ta đầu tư vào bộ phận R&D 5 năm trước, chúng ta ____ đã là người dẫn đầu thị trường hôm nay.",
+    contextEn:
+      "A senior executive reflecting on a past decision and its present impact.",
+    contextVi:
+      "Một giám đốc cấp cao đang suy ngẫm về một quyết định trong quá khứ và tác động hiện tại của nó.",
+    questionEn:
+      "If we had invested in the R&D department five years ago, we ____ the market leader today.",
+    questionVi:
+      "Nếu chúng ta đầu tư vào bộ phận R&D 5 năm trước, chúng ta ____ đã là người dẫn đầu thị trường hôm nay.",
     options: [
       { option: "would be", isCorrect: true },
       { option: "would have been", isCorrect: false },
       { option: "will be", isCorrect: false },
       { option: "are", isCorrect: false },
     ],
-    explanationVi: "Câu điều kiện hỗn hợp (Mixed Conditional): Giả thiết ở quá khứ (Type 3) nhưng kết quả ở hiện tại (Type 2).",
+    explanationVi:
+      "Câu điều kiện hỗn hợp (Mixed Conditional): Giả thiết ở quá khứ (Type 3) nhưng kết quả ở hiện tại (Type 2).",
     category: "Conditionals",
   },
   {
@@ -1353,15 +1368,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Emphasizing the uniqueness of a professional achievement.",
     contextVi: "Nhấn mạnh tính độc đáo của một thành tựu chuyên môn.",
-    questionEn: "Only by streamlining our logistics ____ we able to reduce costs by 20 percent.",
-    questionVi: "Chỉ bằng cách tinh giản hoạt động hậu cần, chúng ta ____ mới có thể giảm 20% chi phí.",
+    questionEn:
+      "Only by streamlining our logistics ____ we able to reduce costs by 20 percent.",
+    questionVi:
+      "Chỉ bằng cách tinh giản hoạt động hậu cần, chúng ta ____ mới có thể giảm 20% chi phí.",
     options: [
       { option: "were", isCorrect: true },
       { option: "did", isCorrect: false },
       { option: "had", isCorrect: false },
       { option: "have", isCorrect: false },
     ],
-    explanationVi: "Đảo ngữ với 'Only by + V-ing' đứng đầu câu: Only by... + Auxiliary/Be + S.",
+    explanationVi:
+      "Đảo ngữ với 'Only by + V-ing' đứng đầu câu: Only by... + Auxiliary/Be + S.",
     category: "Sentence Structure",
   },
   {
@@ -1370,15 +1388,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Presenting the main reason for a strategy shift.",
     contextVi: "Trình bày lý do chính cho sự thay đổi chiến lược.",
-    questionEn: "____ most impressed the investors was the team's ability to adapt to sudden market fluctuations.",
-    questionVi: "____ điều làm các nhà đầu tư ấn tượng nhất là khả năng thích nghi của đội ngũ với những biến động thị trường đột ngột.",
+    questionEn:
+      "____ most impressed the investors was the team's ability to adapt to sudden market fluctuations.",
+    questionVi:
+      "____ điều làm các nhà đầu tư ấn tượng nhất là khả năng thích nghi của đội ngũ với những biến động thị trường đột ngột.",
     options: [
       { option: "That", isCorrect: false },
       { option: "What", isCorrect: true },
       { option: "Which", isCorrect: false },
       { option: "It", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc câu chẻ (Cleft sentence) với 'What' làm chủ ngữ của mệnh đề danh từ: What + S + V + be + ...",
+    explanationVi:
+      "Cấu trúc câu chẻ (Cleft sentence) với 'What' làm chủ ngữ của mệnh đề danh từ: What + S + V + be + ...",
     category: "Sentence Structure",
   },
   {
@@ -1387,15 +1408,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Describing a complex situation after an acquisition.",
     contextVi: "Mô tả một tình huống phức tạp sau một cuộc thâu tóm.",
-    questionEn: "____ by the sudden acquisition, many employees decided to resign immediately.",
-    questionVi: "____ bị sốc trước cuộc thâu tóm bất ngờ, nhiều nhân viên đã quyết định nghỉ việc ngay lập tức.",
+    questionEn:
+      "____ by the sudden acquisition, many employees decided to resign immediately.",
+    questionVi:
+      "____ bị sốc trước cuộc thâu tóm bất ngờ, nhiều nhân viên đã quyết định nghỉ việc ngay lập tức.",
     options: [
       { option: "Shocking", isCorrect: false },
       { option: "Shocked", isCorrect: true },
       { option: "Shock", isCorrect: false },
       { option: "Having shocked", isCorrect: false },
     ],
-    explanationVi: "Sử dụng phân từ quá khứ (V-ed) để rút gọn mệnh đề trạng ngữ chỉ nguyên nhân (Because they were shocked -> Shocked).",
+    explanationVi:
+      "Sử dụng phân từ quá khứ (V-ed) để rút gọn mệnh đề trạng ngữ chỉ nguyên nhân (Because they were shocked -> Shocked).",
     category: "Word Forms",
   },
   {
@@ -1403,16 +1427,20 @@ export const questions: Question[] = [
     topicId: "modals-deduction-past",
     questionType: "grammar",
     contextEn: "Analyzing a past failure in a marketing campaign.",
-    contextVi: "Phân tích một thất bại trong quá khứ của một chiến dịch tiếp thị.",
-    questionEn: "The marketing campaign failed because we ____ the target audience more accurately.",
-    questionVi: "Chiến dịch tiếp thị thất bại vì chúng ta ____ đã có thể xác định đối tượng khách hàng mục tiêu chính xác hơn.",
+    contextVi:
+      "Phân tích một thất bại trong quá khứ của một chiến dịch tiếp thị.",
+    questionEn:
+      "The marketing campaign failed because we ____ the target audience more accurately.",
+    questionVi:
+      "Chiến dịch tiếp thị thất bại vì chúng ta ____ đã có thể xác định đối tượng khách hàng mục tiêu chính xác hơn.",
     options: [
       { option: "could identify", isCorrect: false },
       { option: "could have identified", isCorrect: true },
       { option: "must have identified", isCorrect: false },
       { option: "might identify", isCorrect: false },
     ],
-    explanationVi: "Sử dụng 'could have + V3' để chỉ một khả năng trong quá khứ mà thực tế đã không xảy ra.",
+    explanationVi:
+      "Sử dụng 'could have + V3' để chỉ một khả năng trong quá khứ mà thực tế đã không xảy ra.",
     category: "Modals",
   },
   {
@@ -1421,15 +1449,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Emphasizing the strictness of a policy.",
     contextVi: "Nhấn mạnh sự nghiêm ngặt của một chính sách.",
-    questionEn: "Under no circumstances ____ the company's internal software be used for personal purposes.",
-    questionVi: "Trong bất kỳ hoàn cảnh nào, phần mềm nội bộ của công ty ____ không được sử dụng cho mục đích cá nhân.",
+    questionEn:
+      "Under no circumstances ____ the company's internal software be used for personal purposes.",
+    questionVi:
+      "Trong bất kỳ hoàn cảnh nào, phần mềm nội bộ của công ty ____ không được sử dụng cho mục đích cá nhân.",
     options: [
       { option: "must", isCorrect: true },
       { option: "should", isCorrect: false },
       { option: "can", isCorrect: false },
       { option: "will", isCorrect: false },
     ],
-    explanationVi: "Đảo ngữ với cụm từ phủ định 'Under no circumstances' (Trong bất kỳ hoàn cảnh nào cũng không).",
+    explanationVi:
+      "Đảo ngữ với cụm từ phủ định 'Under no circumstances' (Trong bất kỳ hoàn cảnh nào cũng không).",
     category: "Inversion",
   },
   {
@@ -1438,15 +1469,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing the consequences of a decision.",
     contextVi: "Mô tả hệ quả của một quyết định.",
-    questionEn: "____ the potential risks involved, the board decided to postpone the international expansion.",
-    questionVi: "____ những rủi ro tiềm ẩn liên quan, ban điều hành đã quyết định hoãn việc mở rộng quốc tế.",
+    questionEn:
+      "____ the potential risks involved, the board decided to postpone the international expansion.",
+    questionVi:
+      "____ những rủi ro tiềm ẩn liên quan, ban điều hành đã quyết định hoãn việc mở rộng quốc tế.",
     options: [
       { option: "Having considered", isCorrect: true },
       { option: "Considered", isCorrect: false },
       { option: "To consider", isCorrect: false },
       { option: "Being considered", isCorrect: false },
     ],
-    explanationVi: "Dùng phân từ hoàn thành (Having + V3/ed) để chỉ một hành động đã hoàn thành trước hành động chính.",
+    explanationVi:
+      "Dùng phân từ hoàn thành (Having + V3/ed) để chỉ một hành động đã hoàn thành trước hành động chính.",
     category: "Participle Clauses",
   },
   {
@@ -1454,16 +1488,20 @@ export const questions: Question[] = [
     topicId: "mixed-conditionals",
     questionType: "grammar",
     contextEn: "Discussing the result of a past failure on current status.",
-    contextVi: "Thảo luận về kết quả của một thất bại trong quá khứ đối với tình trạng hiện tại.",
-    questionEn: "If the management had acted more decisively last year, the company ____ in such a precarious financial position now.",
-    questionVi: "Nếu ban quản lý hành động quyết đoán hơn vào năm ngoái, công ty ____ không ở trong tình trạng tài chính bấp bênh như hiện nay.",
+    contextVi:
+      "Thảo luận về kết quả của một thất bại trong quá khứ đối với tình trạng hiện tại.",
+    questionEn:
+      "If the management had acted more decisively last year, the company ____ in such a precarious financial position now.",
+    questionVi:
+      "Nếu ban quản lý hành động quyết đoán hơn vào năm ngoái, công ty ____ không ở trong tình trạng tài chính bấp bênh như hiện nay.",
     options: [
       { option: "would not be", isCorrect: true },
       { option: "would not have been", isCorrect: false },
       { option: "will not be", isCorrect: false },
       { option: "is not", isCorrect: false },
     ],
-    explanationVi: "Câu điều kiện hỗn hợp (giả định quá khứ, kết quả hiện tại).",
+    explanationVi:
+      "Câu điều kiện hỗn hợp (giả định quá khứ, kết quả hiện tại).",
     category: "Mixed Conditionals",
   },
   {
@@ -1472,15 +1510,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Highlighting the main reason for success.",
     contextVi: "Nhấn mạnh lý do chính của sự thành công.",
-    questionEn: "It was her exceptional leadership ____ during the crisis that ultimately saved the firm from bankruptcy.",
-    questionVi: "Chính khả năng lãnh đạo xuất chúng của bà ____ trong cuộc khủng hoảng đã cứu công ty khỏi bờ vực phá sản.",
+    questionEn:
+      "It was her exceptional leadership ____ during the crisis that ultimately saved the firm from bankruptcy.",
+    questionVi:
+      "Chính khả năng lãnh đạo xuất chúng của bà ____ trong cuộc khủng hoảng đã cứu công ty khỏi bờ vực phá sản.",
     options: [
       { option: "that", isCorrect: true },
       { option: "which", isCorrect: false },
       { option: "who", isCorrect: false },
       { option: "whom", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc câu chẻ (Cleft sentence) nhấn mạnh: It + be + N + that/who.",
+    explanationVi:
+      "Cấu trúc câu chẻ (Cleft sentence) nhấn mạnh: It + be + N + that/who.",
     category: "Structure",
   },
   {
@@ -1489,15 +1530,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Stating a formal recommendation.",
     contextVi: "Nêu một khuyến nghị chính thức.",
-    questionEn: "The advisory committee recommended that the CEO ____ and explain the situation to the stakeholders immediately.",
-    questionVi: "Ủy ban cố vấn đề xuất rằng CEO ____ và giải thích tình hình cho các bên liên quan ngay lập tức.",
+    questionEn:
+      "The advisory committee recommended that the CEO ____ and explain the situation to the stakeholders immediately.",
+    questionVi:
+      "Ủy ban cố vấn đề xuất rằng CEO ____ và giải thích tình hình cho các bên liên quan ngay lập tức.",
     options: [
       { option: "step forward", isCorrect: true },
       { option: "steps forward", isCorrect: false },
       { option: "stepped forward", isCorrect: false },
       { option: "stepping forward", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc giả định (Subjunctive) sau động từ 'recommend that...'.",
+    explanationVi:
+      "Cấu trúc giả định (Subjunctive) sau động từ 'recommend that...'.",
     category: "Subjunctive",
   },
   {
@@ -1506,15 +1550,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Specifying conditions of a legal agreement.",
     contextVi: "Nêu cụ thể các điều khoản của một thỏa thuận pháp lý.",
-    questionEn: "The contract contains several clauses, the most important of ____ pertains to intellectual property rights.",
-    questionVi: "Hợp đồng bao gồm nhiều điều khoản, trong đó điều khoản quan trọng nhất ____ liên quan đến quyền sở hữu trí tuệ.",
+    questionEn:
+      "The contract contains several clauses, the most important of ____ pertains to intellectual property rights.",
+    questionVi:
+      "Hợp đồng bao gồm nhiều điều khoản, trong đó điều khoản quan trọng nhất ____ liên quan đến quyền sở hữu trí tuệ.",
     options: [
       { option: "which", isCorrect: true },
       { option: "whom", isCorrect: false },
       { option: "that", isCorrect: false },
       { option: "what", isCorrect: false },
     ],
-    explanationVi: "Dùng 'which' sau giới từ trong mệnh đề quan hệ không xác định để thay thế cho danh từ chỉ vật phía trước.",
+    explanationVi:
+      "Dùng 'which' sau giới từ trong mệnh đề quan hệ không xác định để thay thế cho danh từ chỉ vật phía trước.",
     category: "Relative Clauses",
   },
   {
@@ -1523,15 +1570,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing a common industry perception.",
     contextVi: "Mô tả một nhận thức chung trong ngành.",
-    questionEn: "The new technology ____ to revolutionize the way we approach sustainable manufacturing.",
-    questionVi: "Công nghệ mới ____ sẽ cách mạng hóa cách chúng ta tiếp cận sản xuất bền vững.",
+    questionEn:
+      "The new technology ____ to revolutionize the way we approach sustainable manufacturing.",
+    questionVi:
+      "Công nghệ mới ____ sẽ cách mạng hóa cách chúng ta tiếp cận sản xuất bền vững.",
     options: [
       { option: "is widely thought", isCorrect: true },
       { option: "is widely thinking", isCorrect: false },
       { option: "widely thinks", isCorrect: false },
       { option: "was widely thought", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc bị động với các động từ chỉ quan điểm, ý kiến (is thought to do something).",
+    explanationVi:
+      "Cấu trúc bị động với các động từ chỉ quan điểm, ý kiến (is thought to do something).",
     category: "Passive Voice",
   },
   {
@@ -1540,15 +1590,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Comparing the effectiveness of two marketing strategies.",
     contextVi: "So sánh hiệu quả của hai chiến lược tiếp thị.",
-    questionEn: "The more the marketing team analyzed the data, ____ the correlation between social media engagement and sales became.",
-    questionVi: "Nhóm tiếp thị càng phân tích nhiều dữ liệu, mối tương quan giữa sự tương tác trên mạng xã hội và doanh số ____.",
+    questionEn:
+      "The more the marketing team analyzed the data, ____ the correlation between social media engagement and sales became.",
+    questionVi:
+      "Nhóm tiếp thị càng phân tích nhiều dữ liệu, mối tương quan giữa sự tương tác trên mạng xã hội và doanh số ____.",
     options: [
       { option: "the clearer", isCorrect: true },
       { option: "clearer", isCorrect: false },
       { option: "more clearly", isCorrect: false },
       { option: "the most clear", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc so sánh kép (The + comparative, the + comparative).",
+    explanationVi:
+      "Cấu trúc so sánh kép (The + comparative, the + comparative).",
     category: "Comparison",
   },
   {
@@ -1557,15 +1610,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing professional conduct.",
     contextVi: "Mô tả hành vi chuyên nghiệp.",
-    questionEn: "All employees are expected to act in accordance ____ the company's established code of ethics.",
-    questionVi: "Tất cả nhân viên được kỳ vọng hành động phù hợp ____ bộ quy tắc đạo đức đã được thiết lập của công ty.",
+    questionEn:
+      "All employees are expected to act in accordance ____ the company's established code of ethics.",
+    questionVi:
+      "Tất cả nhân viên được kỳ vọng hành động phù hợp ____ bộ quy tắc đạo đức đã được thiết lập của công ty.",
     options: [
       { option: "with", isCorrect: true },
       { option: "to", isCorrect: false },
       { option: "for", isCorrect: false },
       { option: "by", isCorrect: false },
     ],
-    explanationVi: "Cụm từ cố định 'in accordance with' (phù hợp với, tuân theo).",
+    explanationVi:
+      "Cụm từ cố định 'in accordance with' (phù hợp với, tuân theo).",
     category: "Prepositions",
   },
   {
@@ -1574,15 +1630,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Identifying a person's professional capability.",
     contextVi: "Xác định năng lực chuyên môn của một người.",
-    questionEn: "Her ____ interpretation of the market trends allowed the company to pivot its strategy successfully.",
-    questionVi: "Sự giải thích ____ của bà về các xu hướng thị trường đã cho phép công ty xoay trục chiến lược thành công.",
+    questionEn:
+      "Her ____ interpretation of the market trends allowed the company to pivot its strategy successfully.",
+    questionVi:
+      "Sự giải thích ____ của bà về các xu hướng thị trường đã cho phép công ty xoay trục chiến lược thành công.",
     options: [
       { option: "insightful", isCorrect: true },
       { option: "insight", isCorrect: false },
       { option: "insightfully", isCorrect: false },
       { option: "insightfulness", isCorrect: false },
     ],
-    explanationVi: "Cần một tính từ (Adj) để bổ nghĩa cho danh từ 'interpretation'.",
+    explanationVi:
+      "Cần một tính từ (Adj) để bổ nghĩa cho danh từ 'interpretation'.",
     category: "Word Forms",
   },
   {
@@ -1591,8 +1650,10 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Emphasizing a negative condition.",
     contextVi: "Nhấn mạnh một điều kiện phủ định.",
-    questionEn: "Not only ____ to reduce production costs, but the new process also significantly improved product quality.",
-    questionVi: "Không những ____ đạt được việc giảm chi phí sản xuất, mà quy trình mới còn cải thiện đáng kể chất lượng sản phẩm.",
+    questionEn:
+      "Not only ____ to reduce production costs, but the new process also significantly improved product quality.",
+    questionVi:
+      "Không những ____ đạt được việc giảm chi phí sản xuất, mà quy trình mới còn cải thiện đáng kể chất lượng sản phẩm.",
     options: [
       { option: "did we manage", isCorrect: true },
       { option: "we managed", isCorrect: false },
@@ -1608,8 +1669,10 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Discussing the difficulty of a task.",
     contextVi: "Thảo luận về sự khó khăn của một nhiệm vụ.",
-    questionEn: "____ a consensus among the stakeholders proved to be a more formidable task than initially anticipated.",
-    questionVi: "____ sự đồng thuận giữa các bên liên quan đã chứng tỏ là một nhiệm vụ khó khăn hơn nhiều so với dự kiến ban đầu.",
+    questionEn:
+      "____ a consensus among the stakeholders proved to be a more formidable task than initially anticipated.",
+    questionVi:
+      "____ sự đồng thuận giữa các bên liên quan đã chứng tỏ là một nhiệm vụ khó khăn hơn nhiều so với dự kiến ban đầu.",
     options: [
       { option: "Reaching", isCorrect: true },
       { option: "Reach", isCorrect: false },
@@ -1625,15 +1688,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Speculating with high certainty about a past event.",
     contextVi: "Dự đoán với độ chắc chắn cao về một sự kiện trong quá khứ.",
-    questionEn: "The board ____ been aware of the financial discrepancies long before the official audit was announced.",
-    questionVi: "Ban điều hành ____ chắc chắn đã biết về những sai lệch tài chính từ lâu trước khi cuộc kiểm toán chính thức được thông báo.",
+    questionEn:
+      "The board ____ been aware of the financial discrepancies long before the official audit was announced.",
+    questionVi:
+      "Ban điều hành ____ chắc chắn đã biết về những sai lệch tài chính từ lâu trước khi cuộc kiểm toán chính thức được thông báo.",
     options: [
       { option: "must have", isCorrect: true },
       { option: "should have", isCorrect: false },
       { option: "could have", isCorrect: false },
       { option: "might have", isCorrect: false },
     ],
-    explanationVi: "Dùng 'must have + V3/ed' để đưa ra một suy luận chắc chắn về một sự việc trong quá khứ.",
+    explanationVi:
+      "Dùng 'must have + V3/ed' để đưa ra một suy luận chắc chắn về một sự việc trong quá khứ.",
     category: "Modals",
   },
   {
@@ -1642,15 +1708,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Connecting two contrasting ideas.",
     contextVi: "Kết nối hai ý tưởng tương phản.",
-    questionEn: "____ the overall economic downturn, our company managed to achieve record profits this year.",
-    questionVi: "____ sự suy thoái kinh tế nói chung, công ty chúng tôi vẫn đạt được mức lợi nhuận kỷ lục trong năm nay.",
+    questionEn:
+      "____ the overall economic downturn, our company managed to achieve record profits this year.",
+    questionVi:
+      "____ sự suy thoái kinh tế nói chung, công ty chúng tôi vẫn đạt được mức lợi nhuận kỷ lục trong năm nay.",
     options: [
       { option: "Notwithstanding", isCorrect: true },
       { option: "Although", isCorrect: false },
       { option: "However", isCorrect: false },
       { option: "Moreover", isCorrect: false },
     ],
-    explanationVi: "Dùng giới từ 'Notwithstanding' (bất chấp) để chỉ sự nhượng bộ, đứng trước cụm danh từ.",
+    explanationVi:
+      "Dùng giới từ 'Notwithstanding' (bất chấp) để chỉ sự nhượng bộ, đứng trước cụm danh từ.",
     category: "Conjunctions",
   },
   {
@@ -1659,15 +1728,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Expressing an urgent requirement.",
     contextVi: "Diễn đạt một yêu cầu khẩn cấp.",
-    questionEn: "It is imperative that the security protocols ____ updated to prevent any further unauthorized access.",
-    questionVi: "Điều cấp thiết là các giao thức bảo mật ____ phải được cập nhật để ngăn chặn bất kỳ hành vi truy cập trái phép nào nữa.",
+    questionEn:
+      "It is imperative that the security protocols ____ updated to prevent any further unauthorized access.",
+    questionVi:
+      "Điều cấp thiết là các giao thức bảo mật ____ phải được cập nhật để ngăn chặn bất kỳ hành vi truy cập trái phép nào nữa.",
     options: [
       { option: "be", isCorrect: true },
       { option: "are", isCorrect: false },
       { option: "was", isCorrect: false },
       { option: "is", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc giả định với 'It is imperative that + S + (should) be + V3/ed'.",
+    explanationVi:
+      "Cấu trúc giả định với 'It is imperative that + S + (should) be + V3/ed'.",
     category: "Subjunctive",
   },
   {
@@ -1676,15 +1748,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Emphasizing the conditions of success.",
     contextVi: "Nhấn mạnh các điều kiện để thành công.",
-    questionEn: "Only by implementing a more flexible working model ____ the company attract the top talent in the industry.",
-    questionVi: "Chỉ bằng cách triển khai một mô hình làm việc linh hoạt hơn ____ công ty mới có thể thu hút những tài năng hàng đầu trong ngành.",
+    questionEn:
+      "Only by implementing a more flexible working model ____ the company attract the top talent in the industry.",
+    questionVi:
+      "Chỉ bằng cách triển khai một mô hình làm việc linh hoạt hơn ____ công ty mới có thể thu hút những tài năng hàng đầu trong ngành.",
     options: [
       { option: "can", isCorrect: true },
       { option: "does", isCorrect: false },
       { option: "did", isCorrect: false },
       { option: "has", isCorrect: false },
     ],
-    explanationVi: "Đảo ngữ với 'Only by' (Chỉ bằng cách... thì mới có thể...).",
+    explanationVi:
+      "Đảo ngữ với 'Only by' (Chỉ bằng cách... thì mới có thể...).",
     category: "Inversion",
   },
   {
@@ -1693,15 +1768,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing a state that led to an action.",
     contextVi: "Mô tả một trạng thái dẫn đến một hành động.",
-    questionEn: "____ for his extensive experience in international trade, Mr. Dubois was appointed as the new CEO.",
-    questionVi: "____ vì kinh nghiệm sâu rộng trong thương mại quốc tế, ông Dubois đã được bổ nhiệm làm CEO mới.",
+    questionEn:
+      "____ for his extensive experience in international trade, Mr. Dubois was appointed as the new CEO.",
+    questionVi:
+      "____ vì kinh nghiệm sâu rộng trong thương mại quốc tế, ông Dubois đã được bổ nhiệm làm CEO mới.",
     options: [
       { option: "Renowned", isCorrect: true },
       { option: "To be renowned", isCorrect: false },
       { option: "Renowning", isCorrect: false },
       { option: "Having renowned", isCorrect: false },
     ],
-    explanationVi: "Rút gọn mệnh đề quan hệ dạng bị động (V3/ed) đóng vai trò như mệnh đề trạng ngữ.",
+    explanationVi:
+      "Rút gọn mệnh đề quan hệ dạng bị động (V3/ed) đóng vai trò như mệnh đề trạng ngữ.",
     category: "Participle Clauses",
   },
   {
@@ -1709,16 +1787,20 @@ export const questions: Question[] = [
     topicId: "mixed-conditionals",
     questionType: "grammar",
     contextEn: "Discussing a hypothetical past event with a current impact.",
-    contextVi: "Thảo luận về một sự kiện giả định trong quá khứ có tác động hiện tại.",
-    questionEn: "Were it not for the substantial investment from our partners, the project ____ still in its conceptual stage today.",
-    questionVi: "Nếu không có khoản đầu tư lớn từ các đối tác, dự án ____ có lẽ vẫn còn đang ở giai đoạn khái niệm cho đến ngày nay.",
+    contextVi:
+      "Thảo luận về một sự kiện giả định trong quá khứ có tác động hiện tại.",
+    questionEn:
+      "Were it not for the substantial investment from our partners, the project ____ still in its conceptual stage today.",
+    questionVi:
+      "Nếu không có khoản đầu tư lớn từ các đối tác, dự án ____ có lẽ vẫn còn đang ở giai đoạn khái niệm cho đến ngày nay.",
     options: [
       { option: "would be", isCorrect: true },
       { option: "would have been", isCorrect: false },
       { option: "will be", isCorrect: false },
       { option: "is", isCorrect: false },
     ],
-    explanationVi: "Đảo ngữ câu điều kiện hỗn hợp (giả định hiện tại nhưng kết quả kéo dài đến nay hoặc ngược lại - ở đây là giả định một sự thật hiển nhiên).",
+    explanationVi:
+      "Đảo ngữ câu điều kiện hỗn hợp (giả định hiện tại nhưng kết quả kéo dài đến nay hoặc ngược lại - ở đây là giả định một sự thật hiển nhiên).",
     category: "Mixed Conditionals",
   },
   {
@@ -1727,15 +1809,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Emphasizing the unique nature of an event.",
     contextVi: "Nhấn mạnh tính chất độc đáo của một sự kiện.",
-    questionEn: "Seldom ____ such a high degree of collaboration between competing firms in the tech sector.",
-    questionVi: "Hiếm khi ____ thấy mức độ hợp tác cao như vậy giữa các công ty đang cạnh tranh trong lĩnh vực công nghệ.",
+    questionEn:
+      "Seldom ____ such a high degree of collaboration between competing firms in the tech sector.",
+    questionVi:
+      "Hiếm khi ____ thấy mức độ hợp tác cao như vậy giữa các công ty đang cạnh tranh trong lĩnh vực công nghệ.",
     options: [
       { option: "do we witness", isCorrect: true },
       { option: "we witness", isCorrect: false },
       { option: "witnessed we", isCorrect: false },
       { option: "we do witness", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc đảo ngữ với trạng từ phủ định 'Seldom' (Hiếm khi).",
+    explanationVi:
+      "Cấu trúc đảo ngữ với trạng từ phủ định 'Seldom' (Hiếm khi).",
     category: "Structure",
   },
   {
@@ -1744,15 +1829,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Describing a complex situation.",
     contextVi: "Mô tả một tình huống phức tạp.",
-    questionEn: "The legal implications of the proposed merger are extremely ____ and require careful analysis.",
-    questionVi: "Các hệ lụy pháp lý của việc sáp nhập được đề xuất là cực kỳ ____ và cần được phân tích cẩn thận.",
+    questionEn:
+      "The legal implications of the proposed merger are extremely ____ and require careful analysis.",
+    questionVi:
+      "Các hệ lụy pháp lý của việc sáp nhập được đề xuất là cực kỳ ____ và cần được phân tích cẩn thận.",
     options: [
       { option: "convoluted", isCorrect: true },
       { option: "convolution", isCorrect: false },
       { option: "convolutely", isCorrect: false },
       { option: "convolute", isCorrect: false },
     ],
-    explanationVi: "Cần một tính từ (Adj) để bổ nghĩa cho chủ ngữ 'implications'.",
+    explanationVi:
+      "Cần một tính từ (Adj) để bổ nghĩa cho chủ ngữ 'implications'.",
     category: "Word Forms",
   },
   {
@@ -1761,15 +1849,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Using a formal relative clause to connect ideas.",
     contextVi: "Sử dụng mệnh đề quan hệ trang trọng để kết nối các ý tưởng.",
-    questionEn: "The committee has proposed several reforms, many of ____ will be implemented in the next fiscal year.",
-    questionVi: "Ủy ban đã đề xuất một số cải cách, nhiều ____ trong số đó sẽ được triển khai trong năm tài chính tới.",
+    questionEn:
+      "The committee has proposed several reforms, many of ____ will be implemented in the next fiscal year.",
+    questionVi:
+      "Ủy ban đã đề xuất một số cải cách, nhiều ____ trong số đó sẽ được triển khai trong năm tài chính tới.",
     options: [
       { option: "which", isCorrect: true },
       { option: "that", isCorrect: false },
       { option: "those", isCorrect: false },
       { option: "what", isCorrect: false },
     ],
-    explanationVi: "Sử dụng 'which' sau cụm định lượng (many of) để thay thế cho danh từ 'reforms' trong mệnh đề quan hệ.",
+    explanationVi:
+      "Sử dụng 'which' sau cụm định lượng (many of) để thay thế cho danh từ 'reforms' trong mệnh đề quan hệ.",
     category: "Relative Clauses",
   },
   {
@@ -1778,15 +1869,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Emphasizing the immediate consequence of an action.",
     contextVi: "Nhấn mạnh hệ quả tức thì của một hành động.",
-    questionEn: "No sooner ____ the new marketing campaign launched than the website experienced an unprecedented surge in traffic.",
-    questionVi: "Ngay khi chiến dịch tiếp thị mới vừa được khởi động ____ thì trang web đã trải qua một sự gia tăng lưu lượng truy cập chưa từng có.",
+    questionEn:
+      "No sooner ____ the new marketing campaign launched than the website experienced an unprecedented surge in traffic.",
+    questionVi:
+      "Ngay khi chiến dịch tiếp thị mới vừa được khởi động ____ thì trang web đã trải qua một sự gia tăng lưu lượng truy cập chưa từng có.",
     options: [
       { option: "had", isCorrect: true },
       { option: "did", isCorrect: false },
       { option: "was", isCorrect: false },
       { option: "has", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc đảo ngữ: No sooner + had + S + V3/ed + than + Clause.",
+    explanationVi:
+      "Cấu trúc đảo ngữ: No sooner + had + S + V3/ed + than + Clause.",
     category: "Inversion",
   },
   {
@@ -1795,15 +1889,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Making a strong recommendation for change.",
     contextVi: "Đưa ra một khuyến nghị thay đổi mạnh mẽ.",
-    questionEn: "The consultant suggested that the company ____ its entire supply chain to improve efficiency.",
-    questionVi: "Cố vấn đề xuất rằng công ty ____ lại toàn bộ chuỗi cung ứng của mình để cải thiện hiệu quả.",
+    questionEn:
+      "The consultant suggested that the company ____ its entire supply chain to improve efficiency.",
+    questionVi:
+      "Cố vấn đề xuất rằng công ty ____ lại toàn bộ chuỗi cung ứng của mình để cải thiện hiệu quả.",
     options: [
       { option: "restructure", isCorrect: true },
       { option: "restructured", isCorrect: false },
       { option: "restructures", isCorrect: false },
       { option: "restructuring", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc giả định (Subjunctive) sau động từ 'suggest that...'.",
+    explanationVi:
+      "Cấu trúc giả định (Subjunctive) sau động từ 'suggest that...'.",
     category: "Subjunctive",
   },
   {
@@ -1812,15 +1909,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Combining two actions that happen simultaneously.",
     contextVi: "Kết hợp hai hành động xảy ra đồng thời.",
-    questionEn: "____ to expand into the Asian market, the corporation established a regional headquarters in Singapore.",
-    questionVi: "____ mở rộng sang thị trường Châu Á, tập đoàn đã thiết lập trụ sở khu vực tại Singapore.",
+    questionEn:
+      "____ to expand into the Asian market, the corporation established a regional headquarters in Singapore.",
+    questionVi:
+      "____ mở rộng sang thị trường Châu Á, tập đoàn đã thiết lập trụ sở khu vực tại Singapore.",
     options: [
       { option: "Seeking", isCorrect: true },
       { option: "Sought", isCorrect: false },
       { option: "To seek", isCorrect: false },
       { option: "Having sought", isCorrect: false },
     ],
-    explanationVi: "Dùng hiện tại phân từ (V-ing) để chỉ hai hành động xảy ra đồng thời có cùng chủ ngữ.",
+    explanationVi:
+      "Dùng hiện tại phân từ (V-ing) để chỉ hai hành động xảy ra đồng thời có cùng chủ ngữ.",
     category: "Participial Phrases",
   },
   {
@@ -1828,16 +1928,20 @@ export const questions: Question[] = [
     topicId: "mixed-conditionals",
     questionType: "grammar",
     contextEn: "Reflecting on a past decision with present consequences.",
-    contextVi: "Suy ngẫm về một quyết định trong quá khứ với các hệ quả hiện tại.",
-    questionEn: "If the firm ____ more heavily in R&D five years ago, it would likely be the market leader today.",
-    questionVi: "Nếu công ty ____ mạnh mẽ hơn vào R&D năm năm trước, có lẽ họ đã là người dẫn đầu thị trường hiện nay.",
+    contextVi:
+      "Suy ngẫm về một quyết định trong quá khứ với các hệ quả hiện tại.",
+    questionEn:
+      "If the firm ____ more heavily in R&D five years ago, it would likely be the market leader today.",
+    questionVi:
+      "Nếu công ty ____ mạnh mẽ hơn vào R&D năm năm trước, có lẽ họ đã là người dẫn đầu thị trường hiện nay.",
     options: [
       { option: "had invested", isCorrect: true },
       { option: "invested", isCorrect: false },
       { option: "would have invested", isCorrect: false },
       { option: "has invested", isCorrect: false },
     ],
-    explanationVi: "Câu điều kiện hỗn hợp (If + Quá khứ hoàn thành, S + would/could + V-inf).",
+    explanationVi:
+      "Câu điều kiện hỗn hợp (If + Quá khứ hoàn thành, S + would/could + V-inf).",
     category: "Mixed Conditionals",
   },
   {
@@ -1846,8 +1950,10 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Emphasizing the importance of a step.",
     contextVi: "Nhấn mạnh tầm quan trọng của một bước.",
-    questionEn: "Only when the results of the initial market research are analyzed ____ the board decide on a final budget.",
-    questionVi: "Chỉ khi kết quả nghiên cứu thị trường ban đầu được phân tích ____ ban điều hành mới quyết định ngân sách cuối cùng.",
+    questionEn:
+      "Only when the results of the initial market research are analyzed ____ the board decide on a final budget.",
+    questionVi:
+      "Chỉ khi kết quả nghiên cứu thị trường ban đầu được phân tích ____ ban điều hành mới quyết định ngân sách cuối cùng.",
     options: [
       { option: "will", isCorrect: true },
       { option: "does", isCorrect: false },
@@ -1863,15 +1969,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing a sequence of events.",
     contextVi: "Mô tả một chuỗi các sự kiện.",
-    questionEn: "____ for its reliability and efficiency, our new production line has significantly reduced operational costs.",
-    questionVi: "____ về độ tin cậy và hiệu quả, dây chuyền sản xuất mới của chúng tôi đã giúp giảm đáng kể chi phí vận hành.",
+    questionEn:
+      "____ for its reliability and efficiency, our new production line has significantly reduced operational costs.",
+    questionVi:
+      "____ về độ tin cậy và hiệu quả, dây chuyền sản xuất mới của chúng tôi đã giúp giảm đáng kể chi phí vận hành.",
     options: [
       { option: "Praised", isCorrect: true },
       { option: "Praising", isCorrect: false },
       { option: "To praise", isCorrect: false },
       { option: "Having praised", isCorrect: false },
     ],
-    explanationVi: "Dùng quá khứ phân từ (V3/ed) để bắt đầu mệnh đề trạng ngữ chỉ lý do hoặc tính chất, mang nghĩa bị động.",
+    explanationVi:
+      "Dùng quá khứ phân từ (V3/ed) để bắt đầu mệnh đề trạng ngữ chỉ lý do hoặc tính chất, mang nghĩa bị động.",
     category: "Participle Clauses",
   },
   {
@@ -1879,16 +1988,20 @@ export const questions: Question[] = [
     topicId: "mixed-conditionals",
     questionType: "grammar",
     contextEn: "Discussing an alternative past with a present effect.",
-    contextVi: "Thảo luận về một kịch bản quá khứ thay thế có ảnh hưởng hiện tại.",
-    questionEn: "If we had not diversified our portfolio three years ago, we ____ such resilience in the current market downturn.",
-    questionVi: "Nếu chúng ta không đa dạng hóa danh mục đầu tư cách đây ba năm, chúng ta ____ không thể có sự phục hồi như vậy trong bối cảnh thị trường đang suy thoái hiện nay.",
+    contextVi:
+      "Thảo luận về một kịch bản quá khứ thay thế có ảnh hưởng hiện tại.",
+    questionEn:
+      "If we had not diversified our portfolio three years ago, we ____ such resilience in the current market downturn.",
+    questionVi:
+      "Nếu chúng ta không đa dạng hóa danh mục đầu tư cách đây ba năm, chúng ta ____ không thể có sự phục hồi như vậy trong bối cảnh thị trường đang suy thoái hiện nay.",
     options: [
       { option: "would not be showing", isCorrect: true },
       { option: "would not show", isCorrect: false },
       { option: "will not show", isCorrect: false },
       { option: "would not have shown", isCorrect: false },
     ],
-    explanationVi: "Câu điều kiện hỗn hợp (If + Quá khứ hoàn thành, S + would/could be + V-ing).",
+    explanationVi:
+      "Câu điều kiện hỗn hợp (If + Quá khứ hoàn thành, S + would/could be + V-ing).",
     category: "Mixed Conditionals",
   },
   {
@@ -1897,15 +2010,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Focusing on a specific point in time.",
     contextVi: "Tập trung vào một thời điểm cụ thể.",
-    questionEn: "It was only after the internal audit was completed ____ the discrepancies in the bookkeeping were discovered.",
-    questionVi: "Chỉ sau khi cuộc kiểm toán nội bộ hoàn tất ____ những sai sót trong khâu kế toán mới được phát hiện.",
+    questionEn:
+      "It was only after the internal audit was completed ____ the discrepancies in the bookkeeping were discovered.",
+    questionVi:
+      "Chỉ sau khi cuộc kiểm toán nội bộ hoàn tất ____ những sai sót trong khâu kế toán mới được phát hiện.",
     options: [
       { option: "that", isCorrect: true },
       { option: "when", isCorrect: false },
       { option: "which", isCorrect: false },
       { option: "since", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc câu chẻ (Cleft sentence) nhấn mạnh thời gian: It was only after... that...",
+    explanationVi:
+      "Cấu trúc câu chẻ (Cleft sentence) nhấn mạnh thời gian: It was only after... that...",
     category: "Structure",
   },
   {
@@ -1914,15 +2030,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Stating a regulatory requirement.",
     contextVi: "Nêu một yêu cầu pháp lý.",
-    questionEn: "The government mandates that all corporations ____ their environmental impact data annually.",
-    questionVi: "Chính phủ yêu cầu tất cả các tổng công ty ____ dữ liệu về tác động môi trường của họ hàng năm.",
+    questionEn:
+      "The government mandates that all corporations ____ their environmental impact data annually.",
+    questionVi:
+      "Chính phủ yêu cầu tất cả các tổng công ty ____ dữ liệu về tác động môi trường của họ hàng năm.",
     options: [
       { option: "disclose", isCorrect: true },
       { option: "discloses", isCorrect: false },
       { option: "disclosed", isCorrect: false },
       { option: "disclosing", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc giả định sau động từ 'mandate that + S + V (nguyên mẫu)'.",
+    explanationVi:
+      "Cấu trúc giả định sau động từ 'mandate that + S + V (nguyên mẫu)'.",
     category: "Subjunctive",
   },
   {
@@ -1931,15 +2050,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Referring to a large number of items.",
     contextVi: "Đề cập đến một số lượng lớn các mặt hàng.",
-    questionEn: "We have reviewed sixty applications, none of ____ met the stringent criteria for the position.",
-    questionVi: "Chúng tôi đã xem xét sáu mươi đơn ứng tuyển, không đơn nào trong số đó ____ đáp ứng được các tiêu chí khắt khe cho vị trí này.",
+    questionEn:
+      "We have reviewed sixty applications, none of ____ met the stringent criteria for the position.",
+    questionVi:
+      "Chúng tôi đã xem xét sáu mươi đơn ứng tuyển, không đơn nào trong số đó ____ đáp ứng được các tiêu chí khắt khe cho vị trí này.",
     options: [
       { option: "which", isCorrect: true },
       { option: "that", isCorrect: false },
       { option: "whom", isCorrect: false },
       { option: "what", isCorrect: false },
     ],
-    explanationVi: "Sử dụng 'which' sau từ định lượng (none of) trong mệnh đề quan hệ không xác định.",
+    explanationVi:
+      "Sử dụng 'which' sau từ định lượng (none of) trong mệnh đề quan hệ không xác định.",
     category: "Relative Clauses",
   },
   {
@@ -1948,8 +2070,10 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reporting an expected development.",
     contextVi: "Báo cáo một sự phát triển dự kiến.",
-    questionEn: "The upcoming annual general meeting ____ to be the most consequential in the company's history.",
-    questionVi: "Cuộc họp đại hội đồng cổ đông thường niên sắp tới ____ dự kiến sẽ là cuộc họp có tầm ảnh hưởng lớn nhất trong lịch sử công ty.",
+    questionEn:
+      "The upcoming annual general meeting ____ to be the most consequential in the company's history.",
+    questionVi:
+      "Cuộc họp đại hội đồng cổ đông thường niên sắp tới ____ dự kiến sẽ là cuộc họp có tầm ảnh hưởng lớn nhất trong lịch sử công ty.",
     options: [
       { option: "is expected", isCorrect: true },
       { option: "is expecting", isCorrect: false },
@@ -1965,15 +2089,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing a proportional relationship.",
     contextVi: "Mô tả một mối quan hệ tỷ lệ thuận.",
-    questionEn: "____ early the team finishes the project, the more time they will have to focus on the next initiative.",
-    questionVi: "Nhóm càng hoàn thành dự án sớm ____, họ càng có nhiều thời gian để tập trung vào sáng kiến tiếp theo.",
+    questionEn:
+      "____ early the team finishes the project, the more time they will have to focus on the next initiative.",
+    questionVi:
+      "Nhóm càng hoàn thành dự án sớm ____, họ càng có nhiều thời gian để tập trung vào sáng kiến tiếp theo.",
     options: [
       { option: "The more", isCorrect: true },
       { option: "How", isCorrect: false },
       { option: "As", isCorrect: false },
       { option: "So", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc so sánh kép (The more + Adv/Adj, the more + S + V).",
+    explanationVi:
+      "Cấu trúc so sánh kép (The more + Adv/Adj, the more + S + V).",
     category: "Comparison",
   },
   {
@@ -1982,15 +2109,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Stating a condition for partnership.",
     contextVi: "Nêu điều kiện hợp tác.",
-    questionEn: "The success of the joint venture is contingent ____ both parties fulfilling their contractual obligations.",
-    questionVi: "Sự thành công của liên doanh phụ thuộc ____ vào việc cả hai bên hoàn thành các nghĩa vụ hợp đồng.",
+    questionEn:
+      "The success of the joint venture is contingent ____ both parties fulfilling their contractual obligations.",
+    questionVi:
+      "Sự thành công của liên doanh phụ thuộc ____ vào việc cả hai bên hoàn thành các nghĩa vụ hợp đồng.",
     options: [
       { option: "upon", isCorrect: true },
       { option: "to", isCorrect: false },
       { option: "for", isCorrect: false },
       { option: "with", isCorrect: false },
     ],
-    explanationVi: "Cụm tính từ đi với giới từ 'contingent on/upon' (tùy thuộc vào, dựa trên).",
+    explanationVi:
+      "Cụm tính từ đi với giới từ 'contingent on/upon' (tùy thuộc vào, dựa trên).",
     category: "Prepositions",
   },
   {
@@ -1999,15 +2129,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Identifying a quality of a decision.",
     contextVi: "Xác định tính chất của một quyết định.",
-    questionEn: "The board's decision to liquidate the assets was highly ____ among the employees and stakeholders.",
-    questionVi: "Quyết định thanh lý tài sản của ban điều hành đã gây ra rất nhiều ____ trong nội bộ nhân viên và các bên liên quan.",
+    questionEn:
+      "The board's decision to liquidate the assets was highly ____ among the employees and stakeholders.",
+    questionVi:
+      "Quyết định thanh lý tài sản của ban điều hành đã gây ra rất nhiều ____ trong nội bộ nhân viên và các bên liên quan.",
     options: [
       { option: "controversial", isCorrect: true },
       { option: "controversy", isCorrect: false },
       { option: "controversially", isCorrect: false },
       { option: "controversiality", isCorrect: false },
     ],
-    explanationVi: "Sau 'was highly' cần một tính từ (Adj) để bổ nghĩa cho chủ ngữ 'decision'.",
+    explanationVi:
+      "Sau 'was highly' cần một tính từ (Adj) để bổ nghĩa cho chủ ngữ 'decision'.",
     category: "Word Forms",
   },
   {
@@ -2016,15 +2149,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Emphasizing a restriction in formal context.",
     contextVi: "Nhấn mạnh một hạn chế trong bối cảnh trang trọng.",
-    questionEn: "Little ____ the management suspect that the competitor was planning a hostile takeover bid.",
-    questionVi: "Ban quản lý ít ____ nghi ngờ rằng đối thủ cạnh tranh đang lên kế hoạch cho một vụ thâu tóm thù địch.",
+    questionEn:
+      "Little ____ the management suspect that the competitor was planning a hostile takeover bid.",
+    questionVi:
+      "Ban quản lý ít ____ nghi ngờ rằng đối thủ cạnh tranh đang lên kế hoạch cho một vụ thâu tóm thù địch.",
     options: [
       { option: "did", isCorrect: true },
       { option: "do", isCorrect: false },
       { option: "does", isCorrect: false },
       { option: "had", isCorrect: false },
     ],
-    explanationVi: "Đảo ngữ với trạng từ phủ định 'Little' (Ít khi/Hầu như không).",
+    explanationVi:
+      "Đảo ngữ với trạng từ phủ định 'Little' (Ít khi/Hầu như không).",
     category: "Inversion",
   },
   {
@@ -2033,8 +2169,10 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Discussing the difficulty of a task.",
     contextVi: "Thảo luận về sự khó khăn của một nhiệm vụ.",
-    questionEn: "____ a high level of technical competency is essential for anyone seeking a senior management role.",
-    questionVi: "____ trình độ chuyên môn kỹ thuật cao là điều thiết yếu đối với bất kỳ ai đang tìm kiếm một vai trò quản lý cấp cao.",
+    questionEn:
+      "____ a high level of technical competency is essential for anyone seeking a senior management role.",
+    questionVi:
+      "____ trình độ chuyên môn kỹ thuật cao là điều thiết yếu đối với bất kỳ ai đang tìm kiếm một vai trò quản lý cấp cao.",
     options: [
       { option: "Maintaining", isCorrect: true },
       { option: "Maintain", isCorrect: false },
@@ -2050,15 +2188,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Speculating on why a strategy failed.",
     contextVi: "Dự đoán tại sao một chiến lược thất bại.",
-    questionEn: "We ____ implemented the new software across all departments simultaneously; it was too much at once.",
-    questionVi: "Lẽ ra chúng ta ____ không nên triển khai phần mềm mới đồng thời ở tất cả các phòng ban; làm như thế là quá tải.",
+    questionEn:
+      "We ____ implemented the new software across all departments simultaneously; it was too much at once.",
+    questionVi:
+      "Lẽ ra chúng ta ____ không nên triển khai phần mềm mới đồng thời ở tất cả các phòng ban; làm như thế là quá tải.",
     options: [
       { option: "shouldn't have", isCorrect: true },
       { option: "mustn't have", isCorrect: false },
       { option: "couldn't have", isCorrect: false },
       { option: "mightn't have", isCorrect: false },
     ],
-    explanationVi: "Dùng 'shouldn't have + V3/ed' để diễn tả một hành động đáng lẽ không nên làm trong quá khứ.",
+    explanationVi:
+      "Dùng 'shouldn't have + V3/ed' để diễn tả một hành động đáng lẽ không nên làm trong quá khứ.",
     category: "Modals",
   },
   {
@@ -2067,8 +2208,10 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Stating a condition for access in a formal way.",
     contextVi: "Nêu điều kiện để được truy cập bằng cách trang trọng.",
-    questionEn: "Unauthorized personnel are strictly prohibited from entering the facility, ____ of their rank or position.",
-    questionVi: "Nhân viên không được ủy quyền bị nghiêm cấm đi vào cơ sở, ____ cấp bậc hay vị trí của họ.",
+    questionEn:
+      "Unauthorized personnel are strictly prohibited from entering the facility, ____ of their rank or position.",
+    questionVi:
+      "Nhân viên không được ủy quyền bị nghiêm cấm đi vào cơ sở, ____ cấp bậc hay vị trí của họ.",
     options: [
       { option: "irrespective", isCorrect: true },
       { option: "regardless", isCorrect: true },
@@ -2084,8 +2227,10 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reporting an advice from a legal counsel.",
     contextVi: "Báo cáo lời khuyên từ cố vấn pháp lý.",
-    questionEn: "The legal counsel advised that the company ____ the contract immediately to avoid substantial penalties.",
-    questionVi: "Cố vấn pháp lý đã khuyên công ty ____ hợp đồng ngay lập tức để tránh các khoản phạt lớn.",
+    questionEn:
+      "The legal counsel advised that the company ____ the contract immediately to avoid substantial penalties.",
+    questionVi:
+      "Cố vấn pháp lý đã khuyên công ty ____ hợp đồng ngay lập tức để tránh các khoản phạt lớn.",
     options: [
       { option: "terminate", isCorrect: true },
       { option: "terminated", isCorrect: false },
@@ -2101,15 +2246,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Emphasizing a restriction on information sharing.",
     contextVi: "Nhấn mạnh sự hạn chế trong việc chia sẻ thông tin.",
-    questionEn: "On no account ____ employees disclose sensitive company information to external third parties.",
-    questionVi: "Trong bất kỳ trường hợp nào nhân viên cũng ____ không được tiết lộ thông tin nhạy cảm của công ty cho bên thứ ba.",
+    questionEn:
+      "On no account ____ employees disclose sensitive company information to external third parties.",
+    questionVi:
+      "Trong bất kỳ trường hợp nào nhân viên cũng ____ không được tiết lộ thông tin nhạy cảm của công ty cho bên thứ ba.",
     options: [
       { option: "should", isCorrect: true },
       { option: "can", isCorrect: false },
       { option: "must", isCorrect: false },
       { option: "will", isCorrect: false },
     ],
-    explanationVi: "Đảo ngữ với 'On no account' (Trong bất kỳ trường hợp nào cũng không).",
+    explanationVi:
+      "Đảo ngữ với 'On no account' (Trong bất kỳ trường hợp nào cũng không).",
     category: "Inversion",
   },
   {
@@ -2118,15 +2266,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing a state that led to an action.",
     contextVi: "Mô tả một trạng thái dẫn đến một hành động.",
-    questionEn: "____ by the sudden increase in raw material costs, the management implemented a series of cost-cutting measures.",
-    questionVi: "____ bởi sự gia tăng đột ngột của chi phí nguyên liệu thô, ban quản lý đã thực hiện một loạt các biện pháp cắt giảm chi phí.",
+    questionEn:
+      "____ by the sudden increase in raw material costs, the management implemented a series of cost-cutting measures.",
+    questionVi:
+      "____ bởi sự gia tăng đột ngột của chi phí nguyên liệu thô, ban quản lý đã thực hiện một loạt các biện pháp cắt giảm chi phí.",
     options: [
       { option: "Confronted", isCorrect: true },
       { option: "Confronting", isCorrect: false },
       { option: "To be confronted", isCorrect: false },
       { option: "Having confronted", isCorrect: false },
     ],
-    explanationVi: "Dùng quá khứ phân từ làm mệnh đề rút gọn để chỉ nguyên nhân dạng bị động.",
+    explanationVi:
+      "Dùng quá khứ phân từ làm mệnh đề rút gọn để chỉ nguyên nhân dạng bị động.",
     category: "Participle Clauses",
   },
   {
@@ -2135,15 +2286,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reflecting on a past error with current consequences.",
     contextVi: "Suy ngẫm về một sai lầm trong quá khứ với các hệ quả hiện tại.",
-    questionEn: "If the company had anticipated the market shift, it ____ its current leading position.",
-    questionVi: "Nếu công ty lường trước được sự thay đổi của thị trường, họ ____ đã không đánh mất vị trí dẫn đầu hiện nay.",
+    questionEn:
+      "If the company had anticipated the market shift, it ____ its current leading position.",
+    questionVi:
+      "Nếu công ty lường trước được sự thay đổi của thị trường, họ ____ đã không đánh mất vị trí dẫn đầu hiện nay.",
     options: [
       { option: "would not be losing", isCorrect: true },
       { option: "would not lose", isCorrect: false },
       { option: "will not lose", isCorrect: false },
       { option: "would not have lost", isCorrect: false },
     ],
-    explanationVi: "Câu điều kiện hỗn hợp diễn tả một giả định quá khứ dẫn đến kết quả đang diễn ra ở hiện tại.",
+    explanationVi:
+      "Câu điều kiện hỗn hợp diễn tả một giả định quá khứ dẫn đến kết quả đang diễn ra ở hiện tại.",
     category: "Mixed Conditionals",
   },
   {
@@ -2152,8 +2306,10 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Focusing on the rarity of an achievement.",
     contextVi: "Tập trung vào sự hiếm hoi của một thành tựu.",
-    questionEn: "Rarely ____ such a high level of team spirit been observed in such a competitive corporate environment.",
-    questionVi: "Hiếm khi ____ thấy tinh thần đồng đội cao như vậy trong một môi trường doanh nghiệp cạnh tranh đến thế.",
+    questionEn:
+      "Rarely ____ such a high level of team spirit been observed in such a competitive corporate environment.",
+    questionVi:
+      "Hiếm khi ____ thấy tinh thần đồng đội cao như vậy trong một môi trường doanh nghiệp cạnh tranh đến thế.",
     options: [
       { option: "has", isCorrect: true },
       { option: "is", isCorrect: false },
@@ -2169,8 +2325,10 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Identifying a person's behavior.",
     contextVi: "Xác định hành vi của một người.",
-    questionEn: "Ms. Chen's ____ and proactive approach has been instrumental in securing the new multimillion-dollar contract.",
-    questionVi: "Cách tiếp cận ____ và chủ động của bà Chen đã giúp ích rất nhiều trong việc giành được hợp đồng hàng triệu đô la mới.",
+    questionEn:
+      "Ms. Chen's ____ and proactive approach has been instrumental in securing the new multimillion-dollar contract.",
+    questionVi:
+      "Cách tiếp cận ____ và chủ động của bà Chen đã giúp ích rất nhiều trong việc giành được hợp đồng hàng triệu đô la mới.",
     options: [
       { option: "assiduous", isCorrect: true },
       { option: "assiduity", isCorrect: false },
@@ -2186,8 +2344,10 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Making a strong recommendation for a solution.",
     contextVi: "Đưa ra một khuyến nghị giải pháp mạnh mẽ.",
-    questionEn: "It is essential that the Board of Directors ____ a more comprehensive long-term strategy.",
-    questionVi: "Điều thiết yếu là Hội đồng quản trị ____ một chiến lược dài hạn toàn diện hơn.",
+    questionEn:
+      "It is essential that the Board of Directors ____ a more comprehensive long-term strategy.",
+    questionVi:
+      "Điều thiết yếu là Hội đồng quản trị ____ một chiến lược dài hạn toàn diện hơn.",
     options: [
       { option: "develop", isCorrect: true },
       { option: "develops", isCorrect: false },
@@ -2203,15 +2363,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Emphasizing a restriction in formal writing.",
     contextVi: "Nhấn mạnh một hạn chế trong văn bản trang trọng.",
-    questionEn: "Under no circumstances ____ the confidential client data be shared with external contractors without prior written consent.",
-    questionVi: "Trong bất kỳ hoàn cảnh nào, dữ liệu mật của khách hàng ____ không được chia sẻ với các nhà thầu bên ngoài mà không có sự đồng ý trước bằng văn bản.",
+    questionEn:
+      "Under no circumstances ____ the confidential client data be shared with external contractors without prior written consent.",
+    questionVi:
+      "Trong bất kỳ hoàn cảnh nào, dữ liệu mật của khách hàng ____ không được chia sẻ với các nhà thầu bên ngoài mà không có sự đồng ý trước bằng văn bản.",
     options: [
       { option: "should", isCorrect: true },
       { option: "can", isCorrect: false },
       { option: "must", isCorrect: false },
       { option: "will", isCorrect: false },
     ],
-    explanationVi: "Đảo ngữ với 'Under no circumstances' (Trong bất kỳ hoàn cảnh nào cũng không).",
+    explanationVi:
+      "Đảo ngữ với 'Under no circumstances' (Trong bất kỳ hoàn cảnh nào cũng không).",
     category: "Inversion",
   },
   {
@@ -2220,15 +2383,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing a state that influenced a decision.",
     contextVi: "Mô tả một trạng thái ảnh hưởng đến quyết định.",
-    questionEn: "____ by the recent surge in demand, the company decided to accelerate its production timeline.",
-    questionVi: "____ bởi sự gia tăng đột ngột của nhu cầu gần đây, công ty đã quyết định đẩy nhanh tiến độ sản xuất.",
+    questionEn:
+      "____ by the recent surge in demand, the company decided to accelerate its production timeline.",
+    questionVi:
+      "____ bởi sự gia tăng đột ngột của nhu cầu gần đây, công ty đã quyết định đẩy nhanh tiến độ sản xuất.",
     options: [
       { option: "Encouraged", isCorrect: true },
       { option: "Encouraging", isCorrect: false },
       { option: "To encourage", isCorrect: false },
       { option: "Having encouraged", isCorrect: false },
     ],
-    explanationVi: "Dùng quá khứ phân từ làm mệnh đề rút gọn để chỉ nguyên nhân mang nghĩa bị động.",
+    explanationVi:
+      "Dùng quá khứ phân từ làm mệnh đề rút gọn để chỉ nguyên nhân mang nghĩa bị động.",
     category: "Participle Clauses",
   },
   {
@@ -2237,15 +2403,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Discussing an alternative past with a current result.",
     contextVi: "Thảo luận về kịch bản quá khứ thay thế có kết quả ở hiện tại.",
-    questionEn: "If the firm had not invested so heavily in renewable energy years ago, it ____ such a competitive advantage today.",
-    questionVi: "Nếu công ty không đầu tư mạnh vào năng lượng tái tạo từ nhiều năm trước, họ ____ đã không thể có được lợi thế cạnh tranh như hiện nay.",
+    questionEn:
+      "If the firm had not invested so heavily in renewable energy years ago, it ____ such a competitive advantage today.",
+    questionVi:
+      "Nếu công ty không đầu tư mạnh vào năng lượng tái tạo từ nhiều năm trước, họ ____ đã không thể có được lợi thế cạnh tranh như hiện nay.",
     options: [
       { option: "would not possess", isCorrect: true },
       { option: "would not have possessed", isCorrect: false },
       { option: "will not possess", isCorrect: false },
       { option: "is not possessing", isCorrect: false },
     ],
-    explanationVi: "Câu điều kiện hỗn hợp (If + Quá khứ hoàn thành, S + would/could + V-inf).",
+    explanationVi:
+      "Câu điều kiện hỗn hợp (If + Quá khứ hoàn thành, S + would/could + V-inf).",
     category: "Mixed Conditionals",
   },
   {
@@ -2254,15 +2423,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Highlighting the main cause of a delay.",
     contextVi: "Nhấn mạnh nguyên nhân chính của sự trì hoãn.",
-    questionEn: "It was the unforeseen supply chain disruption ____ led to the three-month delay in the product launch.",
-    questionVi: "Chính sự gián đoạn chuỗi cung ứng không lường trước được ____ đã dẫn đến sự trì hoãn ba tháng trong việc ra mắt sản phẩm.",
+    questionEn:
+      "It was the unforeseen supply chain disruption ____ led to the three-month delay in the product launch.",
+    questionVi:
+      "Chính sự gián đoạn chuỗi cung ứng không lường trước được ____ đã dẫn đến sự trì hoãn ba tháng trong việc ra mắt sản phẩm.",
     options: [
       { option: "that", isCorrect: true },
       { option: "which", isCorrect: false },
       { option: "when", isCorrect: false },
       { option: "who", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc câu chẻ (Cleft sentence) nhấn mạnh nguyên nhân: It was + N + that...",
+    explanationVi:
+      "Cấu trúc câu chẻ (Cleft sentence) nhấn mạnh nguyên nhân: It was + N + that...",
     category: "Structure",
   },
   {
@@ -2271,15 +2443,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reporting a mandatory instruction.",
     contextVi: "Báo cáo một chỉ thị bắt buộc.",
-    questionEn: "The regulatory body mandates that all financial institutions ____ their risk management protocols immediately.",
-    questionVi: "Cơ quan quản lý yêu cầu tất cả các tổ chức tài chính ____ các giao thức quản lý rủi ro của họ ngay lập tức.",
+    questionEn:
+      "The regulatory body mandates that all financial institutions ____ their risk management protocols immediately.",
+    questionVi:
+      "Cơ quan quản lý yêu cầu tất cả các tổ chức tài chính ____ các giao thức quản lý rủi ro của họ ngay lập tức.",
     options: [
       { option: "review", isCorrect: true },
       { option: "reviews", isCorrect: false },
       { option: "reviewed", isCorrect: false },
       { option: "reviewing", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc giả định sau động từ 'mandate that + S + V (nguyên mẫu)'.",
+    explanationVi:
+      "Cấu trúc giả định sau động từ 'mandate that + S + V (nguyên mẫu)'.",
     category: "Subjunctive",
   },
   {
@@ -2288,15 +2463,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Specifying conditions of a legal agreement.",
     contextVi: "Nêu cụ thể các điều kiện của một thỏa thuận pháp lý.",
-    questionEn: "The contract contains several complex clauses, the most critical of ____ relates to the termination of the partnership.",
-    questionVi: "Hợp đồng bao gồm nhiều điều khoản phức tạp, trong đó điều khoản quan trọng nhất ____ liên quan đến việc chấm dứt quan hệ đối tác.",
+    questionEn:
+      "The contract contains several complex clauses, the most critical of ____ relates to the termination of the partnership.",
+    questionVi:
+      "Hợp đồng bao gồm nhiều điều khoản phức tạp, trong đó điều khoản quan trọng nhất ____ liên quan đến việc chấm dứt quan hệ đối tác.",
     options: [
       { option: "which", isCorrect: true },
       { option: "that", isCorrect: false },
       { option: "whom", isCorrect: false },
       { option: "what", isCorrect: false },
     ],
-    explanationVi: "Dùng 'which' sau giới từ trong mệnh đề quan hệ không xác định để thay thế cho danh từ chỉ vật phía trước.",
+    explanationVi:
+      "Dùng 'which' sau giới từ trong mệnh đề quan hệ không xác định để thay thế cho danh từ chỉ vật phía trước.",
     category: "Relative Clauses",
   },
   {
@@ -2305,8 +2483,10 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing a widespread belief in the industry.",
     contextVi: "Mô tả một niềm tin phổ biến trong ngành.",
-    questionEn: "The new CEO ____ to be a visionary leader who will guide the company through the digital transformation.",
-    questionVi: "CEO mới ____ được tin là một nhà lãnh đạo có tầm nhìn, người sẽ dẫn dắt công ty vượt qua quá trình chuyển đổi số.",
+    questionEn:
+      "The new CEO ____ to be a visionary leader who will guide the company through the digital transformation.",
+    questionVi:
+      "CEO mới ____ được tin là một nhà lãnh đạo có tầm nhìn, người sẽ dẫn dắt công ty vượt qua quá trình chuyển đổi số.",
     options: [
       { option: "is widely reputed", isCorrect: true },
       { option: "is widely reputing", isCorrect: false },
@@ -2322,15 +2502,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing a proportional relationship between two factors.",
     contextVi: "Mô tả mối quan hệ tỷ lệ thuận giữa hai yếu tố.",
-    questionEn: "The more the R&D team experimented with new materials, ____ the potential for a breakthrough became.",
-    questionVi: "Nhóm R&D càng thử nghiệm nhiều vật liệu mới, khả năng tạo ra bước đột phá ____.",
+    questionEn:
+      "The more the R&D team experimented with new materials, ____ the potential for a breakthrough became.",
+    questionVi:
+      "Nhóm R&D càng thử nghiệm nhiều vật liệu mới, khả năng tạo ra bước đột phá ____.",
     options: [
       { option: "the greater", isCorrect: true },
       { option: "greater", isCorrect: false },
       { option: "more greatly", isCorrect: false },
       { option: "the most great", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc so sánh kép (The + comparative, the + comparative).",
+    explanationVi:
+      "Cấu trúc so sánh kép (The + comparative, the + comparative).",
     category: "Comparison",
   },
   {
@@ -2339,15 +2522,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing a state of compliance.",
     contextVi: "Mô tả trạng thái tuân thủ.",
-    questionEn: "All operational procedures must be in compliance ____ the newly enacted environmental regulations.",
-    questionVi: "Tất cả các quy trình vận hành phải tuân thủ ____ các quy định về môi trường mới được ban hành.",
+    questionEn:
+      "All operational procedures must be in compliance ____ the newly enacted environmental regulations.",
+    questionVi:
+      "Tất cả các quy trình vận hành phải tuân thủ ____ các quy định về môi trường mới được ban hành.",
     options: [
       { option: "with", isCorrect: true },
       { option: "to", isCorrect: false },
       { option: "for", isCorrect: false },
       { option: "by", isCorrect: false },
     ],
-    explanationVi: "Cụm danh từ đi với giới từ: 'in compliance with' (tuân thủ theo).",
+    explanationVi:
+      "Cụm danh từ đi với giới từ: 'in compliance with' (tuân thủ theo).",
     category: "Prepositions",
   },
   {
@@ -2356,8 +2542,10 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Identifying a person's behavior.",
     contextVi: "Xác định hành vi của một người.",
-    questionEn: "His ____ and detailed analysis of the market helped the company avoid several costly mistakes.",
-    questionVi: "Bản phân tích ____ và chi tiết về thị trường của ông ấy đã giúp công ty tránh được một số sai lầm tốn kém.",
+    questionEn:
+      "His ____ and detailed analysis of the market helped the company avoid several costly mistakes.",
+    questionVi:
+      "Bản phân tích ____ và chi tiết về thị trường của ông ấy đã giúp công ty tránh được một số sai lầm tốn kém.",
     options: [
       { option: "comprehensive", isCorrect: true },
       { option: "comprehend", isCorrect: false },
@@ -2373,15 +2561,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Emphasizing the immediate sequence of two events.",
     contextVi: "Nhấn mạnh chuỗi sự kiện tức thì của hai hành động.",
-    questionEn: "No sooner ____ the board approved the budget than the marketing team began the new campaign.",
-    questionVi: "Ngay khi ban điều hành phê duyệt ngân sách ____ thì nhóm tiếp thị đã bắt đầu chiến dịch mới.",
+    questionEn:
+      "No sooner ____ the board approved the budget than the marketing team began the new campaign.",
+    questionVi:
+      "Ngay khi ban điều hành phê duyệt ngân sách ____ thì nhóm tiếp thị đã bắt đầu chiến dịch mới.",
     options: [
       { option: "had", isCorrect: true },
       { option: "did", isCorrect: false },
       { option: "was", isCorrect: false },
       { option: "has", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc đảo ngữ: No sooner + had + S + V3/ed + than + Clause.",
+    explanationVi:
+      "Cấu trúc đảo ngữ: No sooner + had + S + V3/ed + than + Clause.",
     category: "Inversion",
   },
   {
@@ -2390,8 +2581,10 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Stating a requirement for a high-level position.",
     contextVi: "Nêu yêu cầu đối với một vị trí cấp cao.",
-    questionEn: "____ a multicultural team requires not only managerial skills but also a high degree of emotional intelligence.",
-    questionVi: "____ một nhóm đa văn hóa không chỉ đòi hỏi kỹ năng quản lý mà còn cả trí thông minh cảm xúc cao.",
+    questionEn:
+      "____ a multicultural team requires not only managerial skills but also a high degree of emotional intelligence.",
+    questionVi:
+      "____ một nhóm đa văn hóa không chỉ đòi hỏi kỹ năng quản lý mà còn cả trí thông minh cảm xúc cao.",
     options: [
       { option: "Leading", isCorrect: true },
       { option: "Lead", isCorrect: false },
@@ -2407,15 +2600,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Expessing a past obligation that was not fulfilled.",
     contextVi: "Diễn tả một nghĩa vụ trong quá khứ đã không được thực hiện.",
-    questionEn: "The project manager ____ informed the team about the revised deadlines much sooner.",
-    questionVi: "Quản lý dự án lẽ ra ____ nên thông báo cho nhóm về các thời hạn sửa đổi sớm hơn nhiều.",
+    questionEn:
+      "The project manager ____ informed the team about the revised deadlines much sooner.",
+    questionVi:
+      "Quản lý dự án lẽ ra ____ nên thông báo cho nhóm về các thời hạn sửa đổi sớm hơn nhiều.",
     options: [
       { option: "should have", isCorrect: true },
       { option: "must have", isCorrect: false },
       { option: "could have", isCorrect: false },
       { option: "would have", isCorrect: false },
     ],
-    explanationVi: "Dùng 'should have + V3/ed' để chỉ một việc đáng lẽ nên làm trong quá khứ nhưng đã không làm.",
+    explanationVi:
+      "Dùng 'should have + V3/ed' để chỉ một việc đáng lẽ nên làm trong quá khứ nhưng đã không làm.",
     category: "Modals",
   },
   {
@@ -2424,15 +2620,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Connecting a reason to an action in a formal way.",
     contextVi: "Kết nối lý do với hành động theo cách trang trọng.",
-    questionEn: "Our company decided to withdraw from the project ____ the significant financial risks involved.",
-    questionVi: "Công ty chúng tôi đã quyết định rút khỏi dự án ____ những rủi ro tài chính đáng kể liên quan.",
+    questionEn:
+      "Our company decided to withdraw from the project ____ the significant financial risks involved.",
+    questionVi:
+      "Công ty chúng tôi đã quyết định rút khỏi dự án ____ những rủi ro tài chính đáng kể liên quan.",
     options: [
       { option: "given", isCorrect: true },
       { option: "although", isCorrect: false },
       { option: "nevertheless", isCorrect: false },
       { option: "despite", isCorrect: true },
     ],
-    explanationVi: "Cả 'given' (xét đến) và 'despite' (bất chấp) đều có thể dùng trước cụm danh từ để dẫn dắt lý do hoặc sự nhượng bộ.",
+    explanationVi:
+      "Cả 'given' (xét đến) và 'despite' (bất chấp) đều có thể dùng trước cụm danh từ để dẫn dắt lý do hoặc sự nhượng bộ.",
     category: "Conjunctions",
   },
   {
@@ -2441,8 +2640,10 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Expessing a formal recommendation.",
     contextVi: "Diễn tả một khuyến nghị chính thức.",
-    questionEn: "The consultant suggested that the management ____ a more decentralized decision-making process.",
-    questionVi: "Cố vấn đề xuất rằng ban quản lý ____ một quy trình ra quyết định phi tập trung hơn.",
+    questionEn:
+      "The consultant suggested that the management ____ a more decentralized decision-making process.",
+    questionVi:
+      "Cố vấn đề xuất rằng ban quản lý ____ một quy trình ra quyết định phi tập trung hơn.",
     options: [
       { option: "adopt", isCorrect: true },
       { option: "adopts", isCorrect: false },
@@ -2458,15 +2659,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Emphasizing a restriction.",
     contextVi: "Nhấn mạnh một hạn chế.",
-    questionEn: "On no account ____ any employee use their personal devices to store sensitive company files.",
-    questionVi: "Trong bất kỳ trường hợp nào, nhân viên ____ không được sử dụng thiết bị cá nhân để lưu trữ các tập tin nhạy cảm của công ty.",
+    questionEn:
+      "On no account ____ any employee use their personal devices to store sensitive company files.",
+    questionVi:
+      "Trong bất kỳ trường hợp nào, nhân viên ____ không được sử dụng thiết bị cá nhân để lưu trữ các tập tin nhạy cảm của công ty.",
     options: [
       { option: "must", isCorrect: true },
       { option: "should", isCorrect: false },
       { option: "can", isCorrect: false },
       { option: "will", isCorrect: false },
     ],
-    explanationVi: "Đảo ngữ với 'On no account' (Trong bất kỳ trường hợp nào cũng không).",
+    explanationVi:
+      "Đảo ngữ với 'On no account' (Trong bất kỳ trường hợp nào cũng không).",
     category: "Inversion",
   },
   {
@@ -2475,15 +2679,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing a result that followed an action.",
     contextVi: "Mô tả kết quả sau một hành động.",
-    questionEn: "____ that the initial strategy was ineffective, the company pivoted to a digital-first approach.",
-    questionVi: "____ thấy rằng chiến lược ban đầu không hiệu quả, công ty đã chuyển sang cách tiếp cận ưu tiên kỹ thuật số.",
+    questionEn:
+      "____ that the initial strategy was ineffective, the company pivoted to a digital-first approach.",
+    questionVi:
+      "____ thấy rằng chiến lược ban đầu không hiệu quả, công ty đã chuyển sang cách tiếp cận ưu tiên kỹ thuật số.",
     options: [
       { option: "Realizing", isCorrect: true },
       { option: "Realized", isCorrect: false },
       { option: "Having realized", isCorrect: true },
       { option: "To realize", isCorrect: false },
     ],
-    explanationVi: "Sử dụng hiện tại phân từ (V-ing) hoặc phân từ hoàn thành (Having + V3/ed) để chỉ nguyên nhân dẫn đến hành động chính.",
+    explanationVi:
+      "Sử dụng hiện tại phân từ (V-ing) hoặc phân từ hoàn thành (Having + V3/ed) để chỉ nguyên nhân dẫn đến hành động chính.",
     category: "Participle Clauses",
   },
   {
@@ -2492,15 +2699,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reflecting on a past condition with a current impact.",
     contextVi: "Suy ngẫm về một điều kiện quá khứ có tác động hiện tại.",
-    questionEn: "If the management had listened to the experts' advice, we ____ these supply chain issues today.",
-    questionVi: "Nếu ban quản lý nghe theo lời khuyên của các chuyên gia, chúng ta ____ đã không phải đối mặt với những vấn đề chuỗi cung ứng này hôm nay.",
+    questionEn:
+      "If the management had listened to the experts' advice, we ____ these supply chain issues today.",
+    questionVi:
+      "Nếu ban quản lý nghe theo lời khuyên của các chuyên gia, chúng ta ____ đã không phải đối mặt với những vấn đề chuỗi cung ứng này hôm nay.",
     options: [
       { option: "would not be facing", isCorrect: true },
       { option: "would not have faced", isCorrect: false },
       { option: "will not face", isCorrect: false },
       { option: "do not face", isCorrect: false },
     ],
-    explanationVi: "Câu điều kiện hỗn hợp (If + Quá khứ hoàn thành, S + would/could be + V-ing).",
+    explanationVi:
+      "Câu điều kiện hỗn hợp (If + Quá khứ hoàn thành, S + would/could be + V-ing).",
     category: "Mixed Conditionals",
   },
   {
@@ -2509,8 +2719,10 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Emphasizing a rarity.",
     contextVi: "Nhấn mạnh sự hiếm có.",
-    questionEn: "Seldom ____ such a profound transformation of an entire industry in such a short period of time.",
-    questionVi: "Hiếm khi ____ thấy một sự chuyển đổi sâu sắc của toàn bộ một ngành công nghiệp trong một thời gian ngắn như vậy.",
+    questionEn:
+      "Seldom ____ such a profound transformation of an entire industry in such a short period of time.",
+    questionVi:
+      "Hiếm khi ____ thấy một sự chuyển đổi sâu sắc của toàn bộ một ngành công nghiệp trong một thời gian ngắn như vậy.",
     options: [
       { option: "do we witness", isCorrect: true },
       { option: "we witness", isCorrect: false },
@@ -2526,15 +2738,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Identifying a person's behavior.",
     contextVi: "Xác định hành vi của một người.",
-    questionEn: "Ms. Patel's ____ and proactive leadership has been instrumental in the company's recent success.",
-    questionVi: "Sự lãnh đạo ____ và chủ động của bà Patel đã góp phần vào thành công gần đây của công ty.",
+    questionEn:
+      "Ms. Patel's ____ and proactive leadership has been instrumental in the company's recent success.",
+    questionVi:
+      "Sự lãnh đạo ____ và chủ động của bà Patel đã góp phần vào thành công gần đây của công ty.",
     options: [
       { option: "exemplary", isCorrect: true },
       { option: "exemplify", isCorrect: false },
       { option: "exemplarily", isCorrect: false },
       { option: "exemplification", isCorrect: false },
     ],
-    explanationVi: "Cần một tính từ (Adj) để bổ nghĩa cho danh từ 'leadership'.",
+    explanationVi:
+      "Cần một tính từ (Adj) để bổ nghĩa cho danh từ 'leadership'.",
     category: "Word Forms",
   },
   {
@@ -2543,15 +2758,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Using a formal relative clause with a quantifier.",
     contextVi: "Sử dụng mệnh đề quan hệ trang trọng với từ định lượng.",
-    questionEn: "Our team has proposed several new initiatives, many of ____ are currently under review by the board.",
-    questionVi: "Nhóm của chúng tôi đã đề xuất một vài sáng kiến mới, nhiều ____ trong số đó hiện đang được hội đồng quản trị xem xét.",
+    questionEn:
+      "Our team has proposed several new initiatives, many of ____ are currently under review by the board.",
+    questionVi:
+      "Nhóm của chúng tôi đã đề xuất một vài sáng kiến mới, nhiều ____ trong số đó hiện đang được hội đồng quản trị xem xét.",
     options: [
       { option: "which", isCorrect: true },
       { option: "that", isCorrect: false },
       { option: "those", isCorrect: false },
       { option: "what", isCorrect: false },
     ],
-    explanationVi: "Sử dụng 'which' sau từ định lượng (many of) để thay thế cho danh từ 'initiatives'.",
+    explanationVi:
+      "Sử dụng 'which' sau từ định lượng (many of) để thay thế cho danh từ 'initiatives'.",
     category: "Relative Clauses",
   },
   {
@@ -2560,15 +2778,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Emphasizing a condition of success.",
     contextVi: "Nhấn mạnh điều kiện để thành công.",
-    questionEn: "Only through a more rigorous selection process ____ the firm ensure the quality of its senior executive hires.",
-    questionVi: "Chỉ thông qua quy trình tuyển chọn nghiêm ngặt hơn ____ công ty mới có thể đảm bảo chất lượng của các nhân sự quản lý cấp cao dự định tuyển.",
+    questionEn:
+      "Only through a more rigorous selection process ____ the firm ensure the quality of its senior executive hires.",
+    questionVi:
+      "Chỉ thông qua quy trình tuyển chọn nghiêm ngặt hơn ____ công ty mới có thể đảm bảo chất lượng của các nhân sự quản lý cấp cao dự định tuyển.",
     options: [
       { option: "can", isCorrect: true },
       { option: "does", isCorrect: false },
       { option: "did", isCorrect: false },
       { option: "has", isCorrect: false },
     ],
-    explanationVi: "Đảo ngữ với 'Only through' (Chỉ thông qua... thì mới có thể...).",
+    explanationVi:
+      "Đảo ngữ với 'Only through' (Chỉ thông qua... thì mới có thể...).",
     category: "Inversion",
   },
   {
@@ -2577,8 +2798,10 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Expessing a mandatory instruction.",
     contextVi: "Diễn tả một chỉ thị bắt buộc.",
-    questionEn: "It is essential that every project manager ____ a detailed risk assessment before any initiative begins.",
-    questionVi: "Điều thiết yếu là mọi quản lý dự án ____ phải thực hiện đánh giá rủi ro chi tiết trước khi bất kỳ sáng kiến nào bắt đầu.",
+    questionEn:
+      "It is essential that every project manager ____ a detailed risk assessment before any initiative begins.",
+    questionVi:
+      "Điều thiết yếu là mọi quản lý dự án ____ phải thực hiện đánh giá rủi ro chi tiết trước khi bất kỳ sáng kiến nào bắt đầu.",
     options: [
       { option: "conduct", isCorrect: true },
       { option: "conducts", isCorrect: false },
@@ -2594,15 +2817,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Combining two actions for focus.",
     contextVi: "Kết hợp hai hành động để nhấn mạnh.",
-    questionEn: "____ to capture a larger share of the emerging market, the company launched a series of low-cost products.",
-    questionVi: "____ chiếm lĩnh thị phần lớn hơn tại thị trường mới nổi, công ty đã tung ra một loạt sản phẩm giá rẻ.",
+    questionEn:
+      "____ to capture a larger share of the emerging market, the company launched a series of low-cost products.",
+    questionVi:
+      "____ chiếm lĩnh thị phần lớn hơn tại thị trường mới nổi, công ty đã tung ra một loạt sản phẩm giá rẻ.",
     options: [
       { option: "Aiming", isCorrect: true },
       { option: "Aimed", isCorrect: false },
       { option: "To aim", isCorrect: false },
       { option: "Having aimed", isCorrect: false },
     ],
-    explanationVi: "Dùng hiện tại phân từ (V-ing) để chỉ mục đích hoặc nguyên nhân song song với hành động chính.",
+    explanationVi:
+      "Dùng hiện tại phân từ (V-ing) để chỉ mục đích hoặc nguyên nhân song song với hành động chính.",
     category: "Participial Phrases",
   },
   {
@@ -2611,15 +2837,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reflecting on a hypothetical scenario.",
     contextVi: "Suy ngẫm về kịch bản giả định.",
-    questionEn: "If the company had not adapted to the digital age, it ____ obsolete in today's fast-paced market.",
-    questionVi: "Nếu công ty đã không thích nghi với thời đại kỹ thuật số, họ ____ đã trở nên lỗi thời trong thị trường phát triển nhanh chóng hiện nay.",
+    questionEn:
+      "If the company had not adapted to the digital age, it ____ obsolete in today's fast-paced market.",
+    questionVi:
+      "Nếu công ty đã không thích nghi với thời đại kỹ thuật số, họ ____ đã trở nên lỗi thời trong thị trường phát triển nhanh chóng hiện nay.",
     options: [
       { option: "would be", isCorrect: true },
       { option: "would have been", isCorrect: false },
       { option: "will be", isCorrect: false },
       { option: "is", isCorrect: false },
     ],
-    explanationVi: "Câu điều kiện hỗn hợp (If + Quá khứ hoàn thành, S + would + Adj).",
+    explanationVi:
+      "Câu điều kiện hỗn hợp (If + Quá khứ hoàn thành, S + would + Adj).",
     category: "Mixed Conditionals",
   },
   {
@@ -2627,9 +2856,12 @@ export const questions: Question[] = [
     topicId: "inversion",
     questionType: "grammar",
     contextEn: "Emphasizing a negative condition in formal speech.",
-    contextVi: "Nhấn mạnh một điều kiện phủ định trong bài phát biểu trang trọng.",
-    questionEn: "Not until the merger was fully integrated ____ the company see a significant increase in its market share.",
-    questionVi: "Mãi cho đến khi vụ sáp nhập được tích hợp hoàn toàn ____ công ty mới thấy thị phần của mình tăng trưởng đáng kể.",
+    contextVi:
+      "Nhấn mạnh một điều kiện phủ định trong bài phát biểu trang trọng.",
+    questionEn:
+      "Not until the merger was fully integrated ____ the company see a significant increase in its market share.",
+    questionVi:
+      "Mãi cho đến khi vụ sáp nhập được tích hợp hoàn toàn ____ công ty mới thấy thị phần của mình tăng trưởng đáng kể.",
     options: [
       { option: "did", isCorrect: true },
       { option: "do", isCorrect: false },
@@ -2645,15 +2877,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing simultaneous actions.",
     contextVi: "Mô tả các hành động xảy ra đồng thời.",
-    questionEn: "____ for a breakthrough in battery technology, the research team worked round the clock for months.",
-    questionVi: "____ mong tìm kiếm bước đột phá trong công nghệ pin, nhóm nghiên cứu đã làm việc ngày đêm trong nhiều tháng.",
+    questionEn:
+      "____ for a breakthrough in battery technology, the research team worked round the clock for months.",
+    questionVi:
+      "____ mong tìm kiếm bước đột phá trong công nghệ pin, nhóm nghiên cứu đã làm việc ngày đêm trong nhiều tháng.",
     options: [
       { option: "Striving", isCorrect: true },
       { option: "Strived", isCorrect: false },
       { option: "To strive", isCorrect: false },
       { option: "Having strived", isCorrect: false },
     ],
-    explanationVi: "Dùng hiện tại phân từ (V-ing) để chỉ hành động xảy ra song song hoặc nguyên nhân.",
+    explanationVi:
+      "Dùng hiện tại phân từ (V-ing) để chỉ hành động xảy ra song song hoặc nguyên nhân.",
     category: "Participle Clauses",
   },
   {
@@ -2662,15 +2897,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Discussing a past decision with a current result.",
     contextVi: "Thảo luận về một quyết định quá khứ có kết quả hiện tại.",
-    questionEn: "If we had not diversified our product line last year, we ____ in such a strong financial position today.",
-    questionVi: "Nếu chúng ta không đa dạng hóa dòng sản phẩm vào năm ngoái, chúng ta ____ đã không ở trong tình trạng tài chính mạnh mẽ như hiện nay.",
+    questionEn:
+      "If we had not diversified our product line last year, we ____ in such a strong financial position today.",
+    questionVi:
+      "Nếu chúng ta không đa dạng hóa dòng sản phẩm vào năm ngoái, chúng ta ____ đã không ở trong tình trạng tài chính mạnh mẽ như hiện nay.",
     options: [
       { option: "would not be", isCorrect: true },
       { option: "would not have been", isCorrect: false },
       { option: "will not be", isCorrect: false },
       { option: "is not", isCorrect: false },
     ],
-    explanationVi: "Câu điều kiện hỗn hợp (If + Quá khứ hoàn thành, S + would/could + V-inf).",
+    explanationVi:
+      "Câu điều kiện hỗn hợp (If + Quá khứ hoàn thành, S + would/could + V-inf).",
     category: "Mixed Conditionals",
   },
   {
@@ -2679,15 +2917,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Focusing on the main reason for an outcome.",
     contextVi: "Tập trung vào nguyên nhân chính mang lại kết quả.",
-    questionEn: "It was her exceptional strategic thinking ____ allowed the startup to scale so rapidly in its first year.",
-    questionVi: "Chính tư duy chiến lược xuất chúng của cô ấy ____ đã cho phép công ty khởi nghiệp mở rộng quy mô nhanh chóng trong năm đầu tiên.",
+    questionEn:
+      "It was her exceptional strategic thinking ____ allowed the startup to scale so rapidly in its first year.",
+    questionVi:
+      "Chính tư duy chiến lược xuất chúng của cô ấy ____ đã cho phép công ty khởi nghiệp mở rộng quy mô nhanh chóng trong năm đầu tiên.",
     options: [
       { option: "that", isCorrect: true },
       { option: "which", isCorrect: false },
       { option: "when", isCorrect: false },
       { option: "who", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc câu chẻ (Cleft sentence) nhấn mạnh nguyên nhân: It was + N + that...",
+    explanationVi:
+      "Cấu trúc câu chẻ (Cleft sentence) nhấn mạnh nguyên nhân: It was + N + that...",
     category: "Structure",
   },
   {
@@ -2696,8 +2937,10 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reporting an advice from a management consultant.",
     contextVi: "Báo cáo lời khuyên từ một cố vấn quản lý.",
-    questionEn: "The consultant advised that the board ____ the existing organizational structure to improve communication.",
-    questionVi: "Cố vấn đã khuyên ban lãnh đạo ____ lại cấu trúc tổ chức hiện có để cải thiện giao tiếp.",
+    questionEn:
+      "The consultant advised that the board ____ the existing organizational structure to improve communication.",
+    questionVi:
+      "Cố vấn đã khuyên ban lãnh đạo ____ lại cấu trúc tổ chức hiện có để cải thiện giao tiếp.",
     options: [
       { option: "overhaul", isCorrect: true },
       { option: "overhauls", isCorrect: false },
@@ -2713,15 +2956,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Referring to a large quantity of data.",
     contextVi: "Đề cập đến một lượng lớn dữ liệu.",
-    questionEn: "The analyst compiled hundred of pages of data, much of ____ was irrelevant to the final report.",
-    questionVi: "Chuyên viên phân tích đã biên soạn hàng trăm trang dữ liệu, nhiều ____ trong số đó không liên quan đến báo cáo cuối cùng.",
+    questionEn:
+      "The analyst compiled hundred of pages of data, much of ____ was irrelevant to the final report.",
+    questionVi:
+      "Chuyên viên phân tích đã biên soạn hàng trăm trang dữ liệu, nhiều ____ trong số đó không liên quan đến báo cáo cuối cùng.",
     options: [
       { option: "which", isCorrect: true },
       { option: "that", isCorrect: false },
       { option: "what", isCorrect: false },
       { option: "whom", isCorrect: false },
     ],
-    explanationVi: "Sử dụng 'which' sau từ định lượng (much of) trong mệnh đề quan hệ không xác định.",
+    explanationVi:
+      "Sử dụng 'which' sau từ định lượng (much of) trong mệnh đề quan hệ không xác định.",
     category: "Relative Clauses",
   },
   {
@@ -2730,8 +2976,10 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing a projected industry trend.",
     contextVi: "Mô tả một xu hướng dự kiến của ngành.",
-    questionEn: "The demand for electric vehicles ____ to surpass that of traditional combustion engine cars by the end of the decade.",
-    questionVi: "Nhu cầu về xe điện ____ dự kiến sẽ vượt qua nhu cầu xe động cơ đốt trong truyền thống vào cuối thập kỷ này.",
+    questionEn:
+      "The demand for electric vehicles ____ to surpass that of traditional combustion engine cars by the end of the decade.",
+    questionVi:
+      "Nhu cầu về xe điện ____ dự kiến sẽ vượt qua nhu cầu xe động cơ đốt trong truyền thống vào cuối thập kỷ này.",
     options: [
       { option: "is projected", isCorrect: true },
       { option: "is projecting", isCorrect: false },
@@ -2745,17 +2993,21 @@ export const questions: Question[] = [
     id: "C1-1417",
     topicId: "comparison",
     questionType: "grammar",
-    contextEn: "Describing a proportional relationship between scale and efficiency.",
+    contextEn:
+      "Describing a proportional relationship between scale and efficiency.",
     contextVi: "Mô tả mối quan hệ tỷ lệ thuận giữa quy mô và hiệu quả.",
-    questionEn: "The larger the scale of production, ____ the per-unit cost of manufacturing becomes.",
-    questionVi: "Quy mô sản xuất càng lớn, chi phí sản xuất trên mỗi đơn vị ____.",
+    questionEn:
+      "The larger the scale of production, ____ the per-unit cost of manufacturing becomes.",
+    questionVi:
+      "Quy mô sản xuất càng lớn, chi phí sản xuất trên mỗi đơn vị ____.",
     options: [
       { option: "the lower", isCorrect: true },
       { option: "lower", isCorrect: false },
       { option: "more lowly", isCorrect: false },
       { option: "the most low", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc so sánh kép (The + comparative, the + comparative).",
+    explanationVi:
+      "Cấu trúc so sánh kép (The + comparative, the + comparative).",
     category: "Comparison",
   },
   {
@@ -2764,15 +3016,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Stating a condition for eligibility.",
     contextVi: "Nêu điều kiện đủ tư cách.",
-    questionEn: "Admission to the executive leadership program is contingent ____ a minimum of ten years of industry experience.",
-    questionVi: "Việc được nhận vào chương trình lãnh đạo điều hành phụ thuộc ____ vào việc có tối thiểu mười năm kinh nghiệm trong ngành.",
+    questionEn:
+      "Admission to the executive leadership program is contingent ____ a minimum of ten years of industry experience.",
+    questionVi:
+      "Việc được nhận vào chương trình lãnh đạo điều hành phụ thuộc ____ vào việc có tối thiểu mười năm kinh nghiệm trong ngành.",
     options: [
       { option: "upon", isCorrect: true },
       { option: "to", isCorrect: false },
       { option: "for", isCorrect: false },
       { option: "with", isCorrect: false },
     ],
-    explanationVi: "Cụm tính từ đi với giới từ 'contingent on/upon' (phụ thuộc vào, dựa trên).",
+    explanationVi:
+      "Cụm tính từ đi với giới từ 'contingent on/upon' (phụ thuộc vào, dựa trên).",
     category: "Prepositions",
   },
   {
@@ -2781,8 +3036,10 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Identifying a quality of a situation.",
     contextVi: "Xác định tính chất của một tình huống.",
-    questionEn: "The current geopolitical climate is extremely ____ and requires a very cautious approach to international investment.",
-    questionVi: "Khí hậu địa chính trị hiện nay cực kỳ ____ và đòi hỏi một cách tiếp cận rất thận trọng đối với đầu tư quốc tế.",
+    questionEn:
+      "The current geopolitical climate is extremely ____ and requires a very cautious approach to international investment.",
+    questionVi:
+      "Khí hậu địa chính trị hiện nay cực kỳ ____ và đòi hỏi một cách tiếp cận rất thận trọng đối với đầu tư quốc tế.",
     options: [
       { option: "volatile", isCorrect: true },
       { option: "volatility", isCorrect: false },
@@ -2798,8 +3055,10 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Emphasizing a restriction on information access.",
     contextVi: "Nhấn mạnh sự hạn chế trong việc truy cập thông tin.",
-    questionEn: "Seldom ____ such a high level of transparency in the financial reports of a major multinational corporation.",
-    questionVi: "Hiếm khi ____ thấy mức độ minh bạch cao như vậy trong các báo cáo tài chính của một tập đoàn đa quốc gia lớn.",
+    questionEn:
+      "Seldom ____ such a high level of transparency in the financial reports of a major multinational corporation.",
+    questionVi:
+      "Hiếm khi ____ thấy mức độ minh bạch cao như vậy trong các báo cáo tài chính của một tập đoàn đa quốc gia lớn.",
     options: [
       { option: "do we witness", isCorrect: true },
       { option: "we witness", isCorrect: false },
@@ -2815,15 +3074,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Discussing a difficult task.",
     contextVi: "Thảo luận về một nhiệm vụ khó khăn.",
-    questionEn: "____ an effective balance between professional and personal life is one of the biggest challenges for modern executives.",
-    questionVi: "____ sự cân bằng hiệu quả giữa cuộc sống nghề nghiệp và cá nhân là một trong những thách thức lớn nhất đối với các giám đốc điều hành hiện đại.",
+    questionEn:
+      "____ an effective balance between professional and personal life is one of the biggest challenges for modern executives.",
+    questionVi:
+      "____ sự cân bằng hiệu quả giữa cuộc sống nghề nghiệp và cá nhân là một trong những thách thức lớn nhất đối với các giám đốc điều hành hiện đại.",
     options: [
       { option: "Striking", isCorrect: true },
       { option: "Strike", isCorrect: false },
       { option: "To be struck", isCorrect: false },
       { option: "Having struck", isCorrect: false },
     ],
-    explanationVi: "Sử dụng danh động từ (Gerund) 'Striking a balance' làm chủ ngữ.",
+    explanationVi:
+      "Sử dụng danh động từ (Gerund) 'Striking a balance' làm chủ ngữ.",
     category: "Gerunds",
   },
   {
@@ -2832,15 +3094,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Speculating with high certainty about a past event.",
     contextVi: "Dự đoán với độ chắc chắn cao về một sự kiện trong quá khứ.",
-    questionEn: "The board ____ been aware of the potential risks associated with the expansion long before they actually occurred.",
-    questionVi: "Ban điều hành ____ chắc chắn đã biết về những rủi ro tiềm ẩn liên quan đến việc mở rộng từ lâu trước khi chúng thực sự xảy ra.",
+    questionEn:
+      "The board ____ been aware of the potential risks associated with the expansion long before they actually occurred.",
+    questionVi:
+      "Ban điều hành ____ chắc chắn đã biết về những rủi ro tiềm ẩn liên quan đến việc mở rộng từ lâu trước khi chúng thực sự xảy ra.",
     options: [
       { option: "must have", isCorrect: true },
       { option: "should have", isCorrect: false },
       { option: "could have", isCorrect: false },
       { option: "might have", isCorrect: false },
     ],
-    explanationVi: "Dùng 'must have + V3/ed' để đưa ra một suy luận chắc chắn về một sự việc trong quá khứ.",
+    explanationVi:
+      "Dùng 'must have + V3/ed' để đưa ra một suy luận chắc chắn về một sự việc trong quá khứ.",
     category: "Modals",
   },
   {
@@ -2849,8 +3114,10 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Connecting two ideas illustrating a challenge.",
     contextVi: "Kết nối hai ý tưởng minh họa một thách thức.",
-    questionEn: "The company decided to delay the product launch ____ the logistical difficulties in the European market.",
-    questionVi: "Công ty đã quyết định trì hoãn việc ra mắt sản phẩm ____ những khó khăn hậu cần tại thị trường Châu Âu.",
+    questionEn:
+      "The company decided to delay the product launch ____ the logistical difficulties in the European market.",
+    questionVi:
+      "Công ty đã quyết định trì hoãn việc ra mắt sản phẩm ____ những khó khăn hậu cần tại thị trường Châu Âu.",
     options: [
       { option: "on account of", isCorrect: true },
       { option: "despite", isCorrect: false },
@@ -2866,8 +3133,10 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Expessing a formal recommendation from a committee.",
     contextVi: "Diễn tả một khuyến nghị chính thức từ một ủy ban.",
-    questionEn: "The audit committee recommended that the CFO ____ a comprehensive review of the subsidiary's accounting practices.",
-    questionVi: "Ủy ban kiểm toán đã khuyến nghị rằng CFO ____ soát xét toàn diện các hoạt động kế toán của công ty con.",
+    questionEn:
+      "The audit committee recommended that the CFO ____ a comprehensive review of the subsidiary's accounting practices.",
+    questionVi:
+      "Ủy ban kiểm toán đã khuyến nghị rằng CFO ____ soát xét toàn diện các hoạt động kế toán của công ty con.",
     options: [
       { option: "conduct", isCorrect: true },
       { option: "conducts", isCorrect: false },
@@ -2883,15 +3152,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Emphasizing a restriction in formal guidelines.",
     contextVi: "Nhấn mạnh một hạn chế trong hướng dẫn trang trọng.",
-    questionEn: "On no account ____ employees divulge any proprietary algorithms to individuals outside of the research department.",
-    questionVi: "Trong bất kỳ trường hợp nào, nhân viên ____ không được tiết lộ bất kỳ thuật toán độc quyền nào cho các cá nhân bên ngoài bộ phận nghiên cứu.",
+    questionEn:
+      "On no account ____ employees divulge any proprietary algorithms to individuals outside of the research department.",
+    questionVi:
+      "Trong bất kỳ trường hợp nào, nhân viên ____ không được tiết lộ bất kỳ thuật toán độc quyền nào cho các cá nhân bên ngoài bộ phận nghiên cứu.",
     options: [
       { option: "should", isCorrect: true },
       { option: "can", isCorrect: false },
       { option: "must", isCorrect: false },
       { option: "will", isCorrect: false },
     ],
-    explanationVi: "Đảo ngữ với 'On no account' (Trong bất kỳ trường hợp nào cũng không).",
+    explanationVi:
+      "Đảo ngữ với 'On no account' (Trong bất kỳ trường hợp nào cũng không).",
     category: "Inversion",
   },
   {
@@ -2900,15 +3172,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing the circumstances leading to an action.",
     contextVi: "Mô tả các tình huống dẫn đến một hành động.",
-    questionEn: "____ by the sudden shift in global consumer behavior, the marketing departement completely revamped its strategy.",
-    questionVi: "____ bởi sự thay đổi đột ngột trong hành vi người tiêu dùng toàn cầu, bộ phận tiếp thị đã cải tổ hoàn toàn chiến lược của mình.",
+    questionEn:
+      "____ by the sudden shift in global consumer behavior, the marketing departement completely revamped its strategy.",
+    questionVi:
+      "____ bởi sự thay đổi đột ngột trong hành vi người tiêu dùng toàn cầu, bộ phận tiếp thị đã cải tổ hoàn toàn chiến lược của mình.",
     options: [
       { option: "Surprised", isCorrect: true },
       { option: "Surprising", isCorrect: false },
       { option: "To be surprised", isCorrect: false },
       { option: "Having surprised", isCorrect: false },
     ],
-    explanationVi: "Dùng quá khứ phân từ làm mệnh đề rút gọn để chỉ nguyên nhân mang nghĩa bị động.",
+    explanationVi:
+      "Dùng quá khứ phân từ làm mệnh đề rút gọn để chỉ nguyên nhân mang nghĩa bị động.",
     category: "Participle Clauses",
   },
   {
@@ -2917,15 +3192,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reflecting on a past error with current impact.",
     contextVi: "Suy ngẫm về một sai lầm trong quá khứ có tác động hiện tại.",
-    questionEn: "If the company had anticipated the decline in demand, it ____ such large amounts of unsold inventory today.",
-    questionVi: "Nếu công ty lường trước được sự sụt giảm nhu cầu, họ ____ đã không phải nắm giữ lượng lớn hàng tồn kho chưa bán được như hiện nay.",
+    questionEn:
+      "If the company had anticipated the decline in demand, it ____ such large amounts of unsold inventory today.",
+    questionVi:
+      "Nếu công ty lường trước được sự sụt giảm nhu cầu, họ ____ đã không phải nắm giữ lượng lớn hàng tồn kho chưa bán được như hiện nay.",
     options: [
       { option: "would not be holding", isCorrect: true },
       { option: "would not have held", isCorrect: false },
       { option: "will not hold", isCorrect: false },
       { option: "is not holding", isCorrect: false },
     ],
-    explanationVi: "Câu điều kiện hỗn hợp (If + Quá khứ hoàn thành, S + would/could + be + V-ing).",
+    explanationVi:
+      "Câu điều kiện hỗn hợp (If + Quá khứ hoàn thành, S + would/could + be + V-ing).",
     category: "Mixed Conditionals",
   },
   {
@@ -2934,15 +3212,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Focusing on a specific person's contribution.",
     contextVi: "Tập trung vào sự đóng góp của một người cụ thể.",
-    questionEn: "It was through his tireless efforts and dedication ____ the charity foundation managed to raise over a million dollars.",
-    questionVi: "Chính nhờ những nỗ lực và sự cống hiến không mệt mỏi của ông ấy ____ mà quỹ từ thiện đã gây quỹ được hơn một triệu đô la.",
+    questionEn:
+      "It was through his tireless efforts and dedication ____ the charity foundation managed to raise over a million dollars.",
+    questionVi:
+      "Chính nhờ những nỗ lực và sự cống hiến không mệt mỏi của ông ấy ____ mà quỹ từ thiện đã gây quỹ được hơn một triệu đô la.",
     options: [
       { option: "that", isCorrect: true },
       { option: "while", isCorrect: false },
       { option: "which", isCorrect: false },
       { option: "when", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc câu chẻ (Cleft sentence) nhấn mạnh phương thức: It was through... that...",
+    explanationVi:
+      "Cấu trúc câu chẻ (Cleft sentence) nhấn mạnh phương thức: It was through... that...",
     category: "Structure",
   },
   {
@@ -2951,15 +3232,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Emphasizing a restriction in a formal agreement.",
     contextVi: "Nhấn mạnh một hạn chế trong một thỏa thuận trang trọng.",
-    questionEn: "On no account ____ any member of the board discuss the ongoing litigation with members of the press.",
-    questionVi: "Trong bất kỳ hoàn cảnh nào, không một thành viên nào trong ban điều hành ____ được thảo luận về vụ kiện tụng đang diễn ra với giới báo chí.",
+    questionEn:
+      "On no account ____ any member of the board discuss the ongoing litigation with members of the press.",
+    questionVi:
+      "Trong bất kỳ hoàn cảnh nào, không một thành viên nào trong ban điều hành ____ được thảo luận về vụ kiện tụng đang diễn ra với giới báo chí.",
     options: [
       { option: "must", isCorrect: true },
       { option: "should", isCorrect: true },
       { option: "can", isCorrect: false },
       { option: "will", isCorrect: false },
     ],
-    explanationVi: "Đảo ngữ với 'On no account' (Trong bất kỳ hoàn cảnh nào cũng không).",
+    explanationVi:
+      "Đảo ngữ với 'On no account' (Trong bất kỳ hoàn cảnh nào cũng không).",
     category: "Inversion",
   },
   {
@@ -2968,15 +3252,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing a state that led to an action.",
     contextVi: "Mô tả một trạng thái dẫn đến một hành động.",
-    questionEn: "____ by the lack of transparency, the shareholders demanded an independent audit of the company's finances.",
-    questionVi: "____ bởi sự thiếu minh bạch, các cổ đông đã yêu cầu một cuộc kiểm toán độc lập đối với tình hình tài chính của công ty.",
+    questionEn:
+      "____ by the lack of transparency, the shareholders demanded an independent audit of the company's finances.",
+    questionVi:
+      "____ bởi sự thiếu minh bạch, các cổ đông đã yêu cầu một cuộc kiểm toán độc lập đối với tình hình tài chính của công ty.",
     options: [
       { option: "Concerned", isCorrect: true },
       { option: "Concerning", isCorrect: false },
       { option: "To be concerned", isCorrect: false },
       { option: "Having concerned", isCorrect: false },
     ],
-    explanationVi: "Dùng quá khứ phân từ làm mệnh đề rút gọn để chỉ nguyên nhân mang nghĩa bị động.",
+    explanationVi:
+      "Dùng quá khứ phân từ làm mệnh đề rút gọn để chỉ nguyên nhân mang nghĩa bị động.",
     category: "Participle Clauses",
   },
   {
@@ -2985,15 +3272,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Discussing a past event with current consequences.",
     contextVi: "Thảo luận về một sự kiện quá khứ có hệ quả hiện tại.",
-    questionEn: "If the management had acted more decisively during the initial crisis, the firm ____ such a precarious state now.",
-    questionVi: "Nếu ban quản lý hành động quyết đoán hơn trong cuộc khủng hoảng ban đầu, công ty ____ đã không ở trong tình trạng bấp bênh như hiện nay.",
+    questionEn:
+      "If the management had acted more decisively during the initial crisis, the firm ____ such a precarious state now.",
+    questionVi:
+      "Nếu ban quản lý hành động quyết đoán hơn trong cuộc khủng hoảng ban đầu, công ty ____ đã không ở trong tình trạng bấp bênh như hiện nay.",
     options: [
       { option: "would not be in", isCorrect: true },
       { option: "would not have been in", isCorrect: false },
       { option: "will not be in", isCorrect: false },
       { option: "is not in", isCorrect: false },
     ],
-    explanationVi: "Câu điều kiện hỗn hợp (If + Quá khứ hoàn thành, S + would/could + V-inf).",
+    explanationVi:
+      "Câu điều kiện hỗn hợp (If + Quá khứ hoàn thành, S + would/could + V-inf).",
     category: "Mixed Conditionals",
   },
   {
@@ -3002,15 +3292,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Focusing on the primary reason for a failure.",
     contextVi: "Tập trung vào lý do chính dẫn đến sự thất bại.",
-    questionEn: "It was the lack of clear communication between departments ____ ultimately led to the project's failure.",
-    questionVi: "Chính sự thiếu giao tiếp rõ ràng giữa các bộ phận ____ cuối cùng đã dẫn đến sự thất bại của dự án.",
+    questionEn:
+      "It was the lack of clear communication between departments ____ ultimately led to the project's failure.",
+    questionVi:
+      "Chính sự thiếu giao tiếp rõ ràng giữa các bộ phận ____ cuối cùng đã dẫn đến sự thất bại của dự án.",
     options: [
       { option: "that", isCorrect: true },
       { option: "which", isCorrect: false },
       { option: "when", isCorrect: false },
       { option: "who", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc câu chẻ (Cleft sentence) nhấn mạnh nguyên nhân: It was + N + that...",
+    explanationVi:
+      "Cấu trúc câu chẻ (Cleft sentence) nhấn mạnh nguyên nhân: It was + N + that...",
     category: "Structure",
   },
   {
@@ -3019,15 +3312,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reporting a mandatory requirement.",
     contextVi: "Báo cáo một yêu cầu bắt buộc.",
-    questionEn: "The regulatory authority mandates that all financial institutions ____ their internal control systems annually.",
-    questionVi: "Cơ quan quản lý yêu cầu tất cả các tổ chức tài chính ____ hệ thống kiểm soát nội bộ của mình hàng năm.",
+    questionEn:
+      "The regulatory authority mandates that all financial institutions ____ their internal control systems annually.",
+    questionVi:
+      "Cơ quan quản lý yêu cầu tất cả các tổ chức tài chính ____ hệ thống kiểm soát nội bộ của mình hàng năm.",
     options: [
       { option: "audit", isCorrect: true },
       { option: "audits", isCorrect: false },
       { option: "audited", isCorrect: false },
       { option: "auditing", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc giả định sau động từ 'mandate that + S + V (nguyên mẫu)'.",
+    explanationVi:
+      "Cấu trúc giả định sau động từ 'mandate that + S + V (nguyên mẫu)'.",
     category: "Subjunctive",
   },
   {
@@ -3036,15 +3332,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Referring to a large quantity of research.",
     contextVi: "Đề cập đến một lượng lớn nghiên cứu.",
-    questionEn: "The team conducted a series of market studies, most of ____ pointed towards a significant shift in consumer preferences.",
-    questionVi: "Nhóm đã thực hiện một loạt các nghiên cứu thị trường, phần lớn ____ trong số đó chỉ ra một sự thay đổi đáng kể trong sở thích của người tiêu dùng.",
+    questionEn:
+      "The team conducted a series of market studies, most of ____ pointed towards a significant shift in consumer preferences.",
+    questionVi:
+      "Nhóm đã thực hiện một loạt các nghiên cứu thị trường, phần lớn ____ trong số đó chỉ ra một sự thay đổi đáng kể trong sở thích của người tiêu dùng.",
     options: [
       { option: "which", isCorrect: true },
       { option: "that", isCorrect: false },
       { option: "what", isCorrect: false },
       { option: "whom", isCorrect: false },
     ],
-    explanationVi: "Sử dụng 'which' sau từ định lượng (most of) trong mệnh đề quan hệ không xác định.",
+    explanationVi:
+      "Sử dụng 'which' sau từ định lượng (most of) trong mệnh đề quan hệ không xác định.",
     category: "Relative Clauses",
   },
   {
@@ -3053,8 +3352,10 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing a projected industry trend.",
     contextVi: "Mô tả một xu hướng dự kiến của ngành.",
-    questionEn: "The demand for sustainable packaging solutions ____ to increase significantly over the next few years.",
-    questionVi: "Nhu cầu về các giải pháp đóng gói bền vững ____ dự kiến sẽ tăng đáng kể trong vài năm tới.",
+    questionEn:
+      "The demand for sustainable packaging solutions ____ to increase significantly over the next few years.",
+    questionVi:
+      "Nhu cầu về các giải pháp đóng gói bền vững ____ dự kiến sẽ tăng đáng kể trong vài năm tới.",
     options: [
       { option: "is expected", isCorrect: true },
       { option: "is expecting", isCorrect: false },
@@ -3070,15 +3371,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing a proportional relationship between scale and cost.",
     contextVi: "Mô tả mối quan hệ tỷ lệ thuận giữa quy mô và chi phí.",
-    questionEn: "The larger the volume of sales, ____ the per-unit distribution costs will be.",
-    questionVi: "Khối lượng bán hàng càng lớn, chi phí phân phối trên mỗi đơn vị ____.",
+    questionEn:
+      "The larger the volume of sales, ____ the per-unit distribution costs will be.",
+    questionVi:
+      "Khối lượng bán hàng càng lớn, chi phí phân phối trên mỗi đơn vị ____.",
     options: [
       { option: "the lower", isCorrect: true },
       { option: "lower", isCorrect: false },
       { option: "more lowly", isCorrect: false },
       { option: "the most low", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc so sánh kép (The + comparative, the + comparative).",
+    explanationVi:
+      "Cấu trúc so sánh kép (The + comparative, the + comparative).",
     category: "Comparison",
   },
   {
@@ -3087,15 +3391,18 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Stating a condition for eligibility for a program.",
     contextVi: "Nêu điều kiện đủ tư cách tham gia một chương trình.",
-    questionEn: "Eligibility for the executive leadership bonus is contingent ____ meeting all pre-defined performance targets.",
-    questionVi: "Việc đủ điều kiện nhận thưởng lãnh đạo điều hành phụ thuộc ____ vào việc đáp ứng tất cả các mục tiêu hiệu quả công việc đã xác định trước.",
+    questionEn:
+      "Eligibility for the executive leadership bonus is contingent ____ meeting all pre-defined performance targets.",
+    questionVi:
+      "Việc đủ điều kiện nhận thưởng lãnh đạo điều hành phụ thuộc ____ vào việc đáp ứng tất cả các mục tiêu hiệu quả công việc đã xác định trước.",
     options: [
       { option: "upon", isCorrect: true },
       { option: "to", isCorrect: false },
       { option: "for", isCorrect: false },
       { option: "with", isCorrect: false },
     ],
-    explanationVi: "Cụm tính từ đi với giới từ 'contingent on/upon' (phụ thuộc vào, dựa trên).",
+    explanationVi:
+      "Cụm tính từ đi với giới từ 'contingent on/upon' (phụ thuộc vào, dựa trên).",
     category: "Prepositions",
   },
   {
@@ -3104,15 +3411,18 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Identifying a quality of a situation.",
     contextVi: "Xác định tính chất của một tình huống.",
-    questionEn: "The current market environment is highly ____ and requires a dynamic and flexible strategic approach.",
-    questionVi: "Môi trường thị trường hiện nay là cực kỳ ____ và đòi hỏi một cách tiếp cận chiến lược linh hoạt và năng động.",
+    questionEn:
+      "The current market environment is highly ____ and requires a dynamic and flexible strategic approach.",
+    questionVi:
+      "Môi trường thị trường hiện nay là cực kỳ ____ và đòi hỏi một cách tiếp cận chiến lược linh hoạt và năng động.",
     options: [
       { option: "competitive", isCorrect: true },
       { option: "compete", isCorrect: false },
       { option: "competitively", isCorrect: false },
       { option: "competition", isCorrect: false },
     ],
-    explanationVi: "Cần một tính từ (Adj) để bổ nghĩa cho chủ ngữ 'environment'.",
+    explanationVi:
+      "Cần một tính từ (Adj) để bổ nghĩa cho chủ ngữ 'environment'.",
     category: "Word Forms",
   },
 ];

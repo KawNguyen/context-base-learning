@@ -42,7 +42,9 @@ export function ExplanationAlert({
 
   return (
     <Alert className={cn("border-2", config.className, className)}>
-      <AlertTitle className={config.titleClassName + " flex items-center gap-2"}>
+      <AlertTitle
+        className={config.titleClassName + " flex items-center gap-2"}
+      >
         {showIcon && config.icon}
         {config.title}
       </AlertTitle>

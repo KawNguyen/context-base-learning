@@ -1372,7 +1372,8 @@ export const questions: Question[] = [
       { option: "working", isCorrect: false },
       { option: "worker", isCorrect: false },
     ],
-    explanationVi: "Thì hiện tại đơn với chủ ngữ số ít 'Ms. Lee' (cô ấy) -> thêm 's' vào động từ.",
+    explanationVi:
+      "Thì hiện tại đơn với chủ ngữ số ít 'Ms. Lee' (cô ấy) -> thêm 's' vào động từ.",
     category: "Present Simple",
   },
   {
@@ -1389,7 +1390,8 @@ export const questions: Question[] = [
       { option: "putting", isCorrect: false },
       { option: "to put", isCorrect: false },
     ],
-    explanationVi: "Câu mệnh lệnh bắt đầu bằng động từ nguyên mẫu (Bare Infinitive).",
+    explanationVi:
+      "Câu mệnh lệnh bắt đầu bằng động từ nguyên mẫu (Bare Infinitive).",
     category: "Sentence Structure",
   },
   {
@@ -1406,7 +1408,8 @@ export const questions: Question[] = [
       { option: "are", isCorrect: true },
       { option: "be", isCorrect: false },
     ],
-    explanationVi: "Thì hiện tại tiếp diễn với chủ ngữ 'They' dùng trợ động từ 'are'.",
+    explanationVi:
+      "Thì hiện tại tiếp diễn với chủ ngữ 'They' dùng trợ động từ 'are'.",
     category: "Present Continuous",
   },
   {
@@ -1440,7 +1443,8 @@ export const questions: Question[] = [
       { option: "are", isCorrect: false },
       { option: "be", isCorrect: false },
     ],
-    explanationVi: "Sử dụng động từ 'to be' để nối chủ ngữ với tính từ (S-V-Adj).",
+    explanationVi:
+      "Sử dụng động từ 'to be' để nối chủ ngữ với tính từ (S-V-Adj).",
     category: "Sentence Structure",
   },
   {
@@ -1457,7 +1461,8 @@ export const questions: Question[] = [
       { option: "did", isCorrect: false },
       { option: "does", isCorrect: false },
     ],
-    explanationVi: "Thì tương lai đơn diễn tả một lời hứa hoặc quyết định tức thì.",
+    explanationVi:
+      "Thì tương lai đơn diễn tả một lời hứa hoặc quyết định tức thì.",
     category: "Future Simple",
   },
   {
@@ -1474,7 +1479,8 @@ export const questions: Question[] = [
       { option: "closing", isCorrect: false },
       { option: "to close", isCorrect: false },
     ],
-    explanationVi: "Thì hiện tại đơn diễn tả sự việc lặp lại. 'The bank' là số ít nên thêm 's' vào động từ.",
+    explanationVi:
+      "Thì hiện tại đơn diễn tả sự việc lặp lại. 'The bank' là số ít nên thêm 's' vào động từ.",
     category: "Present Simple",
   },
   {
@@ -1491,7 +1497,8 @@ export const questions: Question[] = [
       { option: "am", isCorrect: false },
       { option: "be", isCorrect: false },
     ],
-    explanationVi: "Câu hỏi với 'to be', chủ ngữ 'your manager' là số ít nên dùng 'is'.",
+    explanationVi:
+      "Câu hỏi với 'to be', chủ ngữ 'your manager' là số ít nên dùng 'is'.",
     category: "Sentence Structure",
   },
   {
@@ -1525,7 +1532,8 @@ export const questions: Question[] = [
       { option: "did", isCorrect: true },
       { option: "is", isCorrect: false },
     ],
-    explanationVi: "Phủ định thì quá khứ đơn (last Friday) dùng trợ động từ 'did'.",
+    explanationVi:
+      "Phủ định thì quá khứ đơn (last Friday) dùng trợ động từ 'did'.",
     category: "Past Simple",
   },
   {
@@ -1542,7 +1550,8 @@ export const questions: Question[] = [
       { option: "are", isCorrect: false },
       { option: "be", isCorrect: false },
     ],
-    explanationVi: "Động từ 'to be' làm động từ chính nối chủ ngữ và danh từ (S-V-N).",
+    explanationVi:
+      "Động từ 'to be' làm động từ chính nối chủ ngữ và danh từ (S-V-N).",
     category: "Sentence Structure",
   },
   {
@@ -1559,7 +1568,8 @@ export const questions: Question[] = [
       { option: "Is", isCorrect: false },
       { option: "Are", isCorrect: false },
     ],
-    explanationVi: "Câu hỏi thì hiện tại đơn với chủ ngữ 'she' dùng trợ động từ 'Does'.",
+    explanationVi:
+      "Câu hỏi thì hiện tại đơn với chủ ngữ 'she' dùng trợ động từ 'Does'.",
     category: "Present Simple",
   },
   {
@@ -1576,7 +1586,8 @@ export const questions: Question[] = [
       { option: "quietness", isCorrect: false },
       { option: "quieter", isCorrect: false },
     ],
-    explanationVi: "Cần một tính từ (Adj) sau trạng từ chỉ mức độ 'very' để bổ nghĩa cho chủ ngữ 'The new printer'.",
+    explanationVi:
+      "Cần một tính từ (Adj) sau trạng từ chỉ mức độ 'very' để bổ nghĩa cho chủ ngữ 'The new printer'.",
     category: "Word Forms",
   },
   {
@@ -1610,7 +1621,8 @@ export const questions: Question[] = [
       { option: "checking", isCorrect: false },
       { option: "to check", isCorrect: false },
     ],
-    explanationVi: "Thì hiện tại đơn diễn tả thói quen. Chủ ngữ 'I' đi với động từ nguyên mẫu.",
+    explanationVi:
+      "Thì hiện tại đơn diễn tả thói quen. Chủ ngữ 'I' đi với động từ nguyên mẫu.",
     category: "Present Simple",
   },
   {
@@ -1627,7 +1639,8 @@ export const questions: Question[] = [
       { option: "having", isCorrect: false },
       { option: "had", isCorrect: false },
     ],
-    explanationVi: "Sau động từ khuyết thiếu 'can' dùng động từ nguyên mẫu (Bare Infinitive).",
+    explanationVi:
+      "Sau động từ khuyết thiếu 'can' dùng động từ nguyên mẫu (Bare Infinitive).",
     category: "Sentence Structure",
   },
   {
@@ -1661,7 +1674,8 @@ export const questions: Question[] = [
       { option: "bought", isCorrect: true },
       { option: "buying", isCorrect: false },
     ],
-    explanationVi: "Dấu hiệu 'last year' dùng thì quá khứ đơn. 'Bought' là quá khứ của 'buy'.",
+    explanationVi:
+      "Dấu hiệu 'last year' dùng thì quá khứ đơn. 'Bought' là quá khứ của 'buy'.",
     category: "Past Simple",
   },
   {
@@ -1712,7 +1726,8 @@ export const questions: Question[] = [
       { option: "help", isCorrect: false },
       { option: "helping", isCorrect: false },
     ],
-    explanationVi: "Cần một tính từ (Adj) sau 'is very' để bổ nghĩa cho chủ ngữ.",
+    explanationVi:
+      "Cần một tính từ (Adj) sau 'is very' để bổ nghĩa cho chủ ngữ.",
     category: "Word Forms",
   },
   {
@@ -1780,7 +1795,8 @@ export const questions: Question[] = [
       { option: "Did", isCorrect: true },
       { option: "Was", isCorrect: false },
     ],
-    explanationVi: "Câu hỏi thì quá khứ đơn (last month) với động từ thường 'visit' dùng trợ động từ 'Did'.",
+    explanationVi:
+      "Câu hỏi thì quá khứ đơn (last month) với động từ thường 'visit' dùng trợ động từ 'Did'.",
     category: "Past Simple",
   },
   {
@@ -1790,7 +1806,8 @@ export const questions: Question[] = [
     contextEn: "A team welcoming a new intern.",
     contextVi: "Một nhóm chào đón thực tập sinh mới.",
     questionEn: "Our team ____ a new intern today.",
-    questionVi: "Nhóm của chúng tôi ____ chào đón một thực tập sinh mới vào hôm nay.",
+    questionVi:
+      "Nhóm của chúng tôi ____ chào đón một thực tập sinh mới vào hôm nay.",
     options: [
       { option: "welcome", isCorrect: false },
       { option: "welcomes", isCorrect: true },
@@ -1814,7 +1831,8 @@ export const questions: Question[] = [
       { option: "in", isCorrect: false },
       { option: "on", isCorrect: false },
     ],
-    explanationVi: "Giới từ 'around' (xung quanh) phù hợp với bối cảnh vị trí các vật dụng.",
+    explanationVi:
+      "Giới từ 'around' (xung quanh) phù hợp với bối cảnh vị trí các vật dụng.",
     category: "Sentence Structure",
   },
   {
@@ -1831,7 +1849,8 @@ export const questions: Question[] = [
       { option: "are", isCorrect: true },
       { option: "be", isCorrect: false },
     ],
-    explanationVi: "Chủ ngữ số nhiều 'Technicians' đi với trợ động từ 'are' trong thì hiện tại tiếp diễn.",
+    explanationVi:
+      "Chủ ngữ số nhiều 'Technicians' đi với trợ động từ 'are' trong thì hiện tại tiếp diễn.",
     category: "Present Continuous",
   },
   {
@@ -1865,7 +1884,8 @@ export const questions: Question[] = [
       { option: "Am", isCorrect: false },
       { option: "Be", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc 'There are' với danh từ số nhiều 'pens'. Trong câu hỏi 'Are' đảo lên đầu.",
+    explanationVi:
+      "Cấu trúc 'There are' với danh từ số nhiều 'pens'. Trong câu hỏi 'Are' đảo lên đầu.",
     category: "Sentence Structure",
   },
   {
@@ -1899,7 +1919,8 @@ export const questions: Question[] = [
       { option: "taking", isCorrect: false },
       { option: "taken", isCorrect: false },
     ],
-    explanationVi: "Thì hiện tại đơn diễn tả thói quen. Chủ ngữ 'She' thêm 's' vào động từ.",
+    explanationVi:
+      "Thì hiện tại đơn diễn tả thói quen. Chủ ngữ 'She' thêm 's' vào động từ.",
     category: "Present Simple",
   },
   {
@@ -1933,7 +1954,8 @@ export const questions: Question[] = [
       { option: "helping", isCorrect: true },
       { option: "helped", isCorrect: false },
     ],
-    explanationVi: "Thì hiện tại tiếp diễn diễn tả hành động đang xảy ra: be + V-ing.",
+    explanationVi:
+      "Thì hiện tại tiếp diễn diễn tả hành động đang xảy ra: be + V-ing.",
     category: "Present Continuous",
   },
   {
@@ -1960,14 +1982,16 @@ export const questions: Question[] = [
     contextEn: "Identifying a coworker's equipment.",
     contextVi: "Xác định thiết bị của một đồng nghiệp.",
     questionEn: "This laptop belongs ____ the IT department.",
-    questionVi: "Chiếc máy tính xách tay này thuộc ____ phòng Công nghệ thông tin.",
+    questionVi:
+      "Chiếc máy tính xách tay này thuộc ____ phòng Công nghệ thông tin.",
     options: [
       { option: "to", isCorrect: true },
       { option: "for", isCorrect: false },
       { option: "with", isCorrect: false },
       { option: "at", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc 'belong to someone/something' (thuộc về ai/cái gì).",
+    explanationVi:
+      "Cấu trúc 'belong to someone/something' (thuộc về ai/cái gì).",
     category: "Sentence Structure",
   },
   {
@@ -1984,7 +2008,8 @@ export const questions: Question[] = [
       { option: "Is", isCorrect: false },
       { option: "Are", isCorrect: false },
     ],
-    explanationVi: "Câu hỏi thì hiện tại đơn với chủ ngữ số ít 'Mr. Kim' dùng trợ động từ 'Does'.",
+    explanationVi:
+      "Câu hỏi thì hiện tại đơn với chủ ngữ số ít 'Mr. Kim' dùng trợ động từ 'Does'.",
     category: "Present Simple",
   },
   {
@@ -2001,7 +2026,8 @@ export const questions: Question[] = [
       { option: "neatness", isCorrect: false },
       { option: "neater", isCorrect: false },
     ],
-    explanationVi: "Cần một tính từ (Adj) sau 'is very' để bổ nghĩa cho danh từ 'work'.",
+    explanationVi:
+      "Cần một tính từ (Adj) sau 'is very' để bổ nghĩa cho danh từ 'work'.",
     category: "Word Forms",
   },
   {
@@ -2103,7 +2129,8 @@ export const questions: Question[] = [
       { option: "on", isCorrect: false },
       { option: "to", isCorrect: false },
     ],
-    explanationVi: "Dùng giới từ 'in' với 'chair' khi ghế có tay vịn hoặc mang tính bao bọc, hoặc 'on' nếu là bề mặt phẳng. Trong ngữ cảnh văn phòng, 'in' (hoặc 'on') đều có thể dùng, nhưng 'in' thường dùng cho ghế sofa/armchair.",
+    explanationVi:
+      "Dùng giới từ 'in' với 'chair' khi ghế có tay vịn hoặc mang tính bao bọc, hoặc 'on' nếu là bề mặt phẳng. Trong ngữ cảnh văn phòng, 'in' (hoặc 'on') đều có thể dùng, nhưng 'in' thường dùng cho ghế sofa/armchair.",
     category: "Sentence Structure",
   },
   {
@@ -2120,7 +2147,8 @@ export const questions: Question[] = [
       { option: "working", isCorrect: false },
       { option: "worked", isCorrect: false },
     ],
-    explanationVi: "Chủ ngữ 'Everyone' luôn đi với động từ số ít trong thì hiện tại đơn.",
+    explanationVi:
+      "Chủ ngữ 'Everyone' luôn đi với động từ số ít trong thì hiện tại đơn.",
     category: "Present Simple",
   },
   {
@@ -2137,7 +2165,8 @@ export const questions: Question[] = [
       { option: "profession", isCorrect: false },
       { option: "professionalism", isCorrect: false },
     ],
-    explanationVi: "Cần một tính từ (Adj) sau 'is very' để bổ nghĩa cho danh từ 'design'.",
+    explanationVi:
+      "Cần một tính từ (Adj) sau 'is very' để bổ nghĩa cho danh từ 'design'.",
     category: "Word Forms",
   },
   {
@@ -2205,7 +2234,8 @@ export const questions: Question[] = [
       { option: "Did", isCorrect: true },
       { option: "Were", isCorrect: false },
     ],
-    explanationVi: "Câu hỏi thì quá khứ đơn với động từ thường 'finish' dùng trợ động từ 'Did'.",
+    explanationVi:
+      "Câu hỏi thì quá khứ đơn với động từ thường 'finish' dùng trợ động từ 'Did'.",
     category: "Past Simple",
   },
   {
@@ -2222,7 +2252,8 @@ export const questions: Question[] = [
       { option: "don't never work", isCorrect: false },
       { option: "never works", isCorrect: false },
     ],
-    explanationVi: "Trạng từ tần suất 'never' đứng trước động từ thường 'work' trong thì hiện tại đơn.",
+    explanationVi:
+      "Trạng từ tần suất 'never' đứng trước động từ thường 'work' trong thì hiện tại đơn.",
     category: "Present Simple",
   },
   {
@@ -2249,14 +2280,16 @@ export const questions: Question[] = [
     contextEn: "An update on an ongoing training session.",
     contextVi: "Cập nhật về một buổi đào tạo đang diễn ra.",
     questionEn: "Employees ____ attending the safety workshop now.",
-    questionVi: "Các nhân viên ____ đang tham dự buổi hội thảo an toàn bây giờ.",
+    questionVi:
+      "Các nhân viên ____ đang tham dự buổi hội thảo an toàn bây giờ.",
     options: [
       { option: "is", isCorrect: false },
       { option: "am", isCorrect: false },
       { option: "are", isCorrect: true },
       { option: "be", isCorrect: false },
     ],
-    explanationVi: "Chủ ngữ số nhiều 'Employees' đi với 'are' trong thì hiện tại tiếp diễn.",
+    explanationVi:
+      "Chủ ngữ số nhiều 'Employees' đi với 'are' trong thì hiện tại tiếp diễn.",
     category: "Present Continuous",
   },
   {
@@ -2375,7 +2408,8 @@ export const questions: Question[] = [
       { option: "sent", isCorrect: true },
       { option: "sending", isCorrect: false },
     ],
-    explanationVi: "Dấu hiệu 'two days ago' dùng thì quá khứ đơn. 'Sent' là quá khứ của 'send'.",
+    explanationVi:
+      "Dấu hiệu 'two days ago' dùng thì quá khứ đơn. 'Sent' là quá khứ của 'send'.",
     category: "Past Simple",
   },
   {
@@ -2409,7 +2443,8 @@ export const questions: Question[] = [
       { option: "Is", isCorrect: false },
       { option: "Are", isCorrect: false },
     ],
-    explanationVi: "Câu hỏi thì hiện tại đơn với chủ ngữ số ít 'your boss' dùng 'Does'.",
+    explanationVi:
+      "Câu hỏi thì hiện tại đơn với chủ ngữ số ít 'your boss' dùng 'Does'.",
     category: "Present Simple",
   },
   {
@@ -2426,7 +2461,8 @@ export const questions: Question[] = [
       { option: "fastness", isCorrect: false },
       { option: "fastest", isCorrect: false },
     ],
-    explanationVi: "Dùng tính từ 'fast' để bổ nghĩa cho danh từ 'typist'. (Lưu ý: 'fastly' không tồn tại, 'fast' vừa là tính từ vừa là trạng từ).",
+    explanationVi:
+      "Dùng tính từ 'fast' để bổ nghĩa cho danh từ 'typist'. (Lưu ý: 'fastly' không tồn tại, 'fast' vừa là tính từ vừa là trạng từ).",
     category: "Word Forms",
   },
   {
@@ -2511,7 +2547,8 @@ export const questions: Question[] = [
       { option: "were", isCorrect: false },
       { option: "be", isCorrect: false },
     ],
-    explanationVi: "Quá khứ của 'to be' với chủ ngữ số ít 'Ms. Tanaka' là 'was'.",
+    explanationVi:
+      "Quá khứ của 'to be' với chủ ngữ số ít 'Ms. Tanaka' là 'was'.",
     category: "Past Simple",
   },
   {
@@ -2538,14 +2575,16 @@ export const questions: Question[] = [
     contextEn: "Stating office cleanliness status.",
     contextVi: "Nêu tình trạng vệ sinh văn phòng.",
     questionEn: "Our janitor ____ the office every night.",
-    questionVi: "Nhân viên vệ sinh của chúng tôi ____ dọn dẹp văn phòng mỗi tối.",
+    questionVi:
+      "Nhân viên vệ sinh của chúng tôi ____ dọn dẹp văn phòng mỗi tối.",
     options: [
       { option: "clean", isCorrect: false },
       { option: "cleans", isCorrect: true },
       { option: "cleaning", isCorrect: false },
       { option: "to clean", isCorrect: false },
     ],
-    explanationVi: "Thì hiện tại đơn với chủ ngữ số ít 'Our janitor' (người dọn dẹp).",
+    explanationVi:
+      "Thì hiện tại đơn với chủ ngữ số ít 'Our janitor' (người dọn dẹp).",
     category: "Present Simple",
   },
   {
@@ -2596,7 +2635,8 @@ export const questions: Question[] = [
       { option: "Are", isCorrect: false },
       { option: "Is", isCorrect: false },
     ],
-    explanationVi: "Câu hỏi thì hiện tại đơn với chủ ngữ số nhiều 'they' dùng 'Do'.",
+    explanationVi:
+      "Câu hỏi thì hiện tại đơn với chủ ngữ số nhiều 'they' dùng 'Do'.",
     category: "Present Simple",
   },
   {
@@ -2638,7 +2678,8 @@ export const questions: Question[] = [
     topicId: "future-simple",
     questionType: "grammar",
     contextEn: "A manager announcing a future team event.",
-    contextVi: "Người quản lý thông báo về một sự kiện của nhóm trong tương lai.",
+    contextVi:
+      "Người quản lý thông báo về một sự kiện của nhóm trong tương lai.",
     questionEn: "We ____ have a team lunch next Friday.",
     questionVi: "Chúng tôi ____ sẽ có một bữa trưa toàn nhóm vào thứ Sáu tới.",
     options: [
@@ -2647,7 +2688,8 @@ export const questions: Question[] = [
       { option: "do", isCorrect: false },
       { option: "have", isCorrect: false },
     ],
-    explanationVi: "Dùng 'will' để diễn tả một kế hoạch hoặc sự việc trong tương lai.",
+    explanationVi:
+      "Dùng 'will' để diễn tả một kế hoạch hoặc sự việc trong tương lai.",
     category: "Future Simple",
   },
   {
@@ -2749,7 +2791,8 @@ export const questions: Question[] = [
       { option: "Are", isCorrect: false },
       { option: "Have", isCorrect: false },
     ],
-    explanationVi: "Câu hỏi thì hiện tại đơn với chủ ngữ 'you' và động từ thường 'have' dùng 'Do'.",
+    explanationVi:
+      "Câu hỏi thì hiện tại đơn với chủ ngữ 'you' và động từ thường 'have' dùng 'Do'.",
     category: "Present Simple",
   },
   {
@@ -2793,14 +2836,16 @@ export const questions: Question[] = [
     contextEn: "Reporting a past task completion.",
     contextVi: "Báo cáo việc hoàn thành một nhiệm vụ trong quá khứ.",
     questionEn: "John ____ the report on his desk yesterday.",
-    questionVi: "John ____ đã để bản báo cáo trên bàn làm việc của mình vào ngày hôm qua.",
+    questionVi:
+      "John ____ đã để bản báo cáo trên bàn làm việc của mình vào ngày hôm qua.",
     options: [
       { option: "leave", isCorrect: false },
       { option: "leaves", isCorrect: false },
       { option: "left", isCorrect: true },
       { option: "leaving", isCorrect: false },
     ],
-    explanationVi: "Dấu hiệu 'yesterday' dùng thì quá khứ đơn. 'Left' là quá khứ của 'leave'.",
+    explanationVi:
+      "Dấu hiệu 'yesterday' dùng thì quá khứ đơn. 'Left' là quá khứ của 'leave'.",
     category: "Past Simple",
   },
   {
@@ -2817,7 +2862,8 @@ export const questions: Question[] = [
       { option: "does", isCorrect: false },
       { option: "did", isCorrect: false },
     ],
-    explanationVi: "Thì tương lai đơn diễn tả một hành động sẽ thực hiện ngay lập tức hoặc một lời hứa.",
+    explanationVi:
+      "Thì tương lai đơn diễn tả một hành động sẽ thực hiện ngay lập tức hoặc một lời hứa.",
     category: "Future Simple",
   },
   {
@@ -2953,7 +2999,8 @@ export const questions: Question[] = [
       { option: "be", isCorrect: false },
       { option: "am", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc 'Here is/are...'. Ở đây 'the invoice' là số ít nên dùng 'is'.",
+    explanationVi:
+      "Cấu trúc 'Here is/are...'. Ở đây 'the invoice' là số ít nên dùng 'is'.",
     category: "Sentence Structure",
   },
   {
@@ -2970,7 +3017,8 @@ export const questions: Question[] = [
       { option: "am", isCorrect: false },
       { option: "do", isCorrect: false },
     ],
-    explanationVi: "Cấu trúc câu hỏi thì hiện tại tiếp diễn: Wh- + be + S + V-ing?",
+    explanationVi:
+      "Cấu trúc câu hỏi thì hiện tại tiếp diễn: Wh- + be + S + V-ing?",
     category: "Present Continuous",
   },
   {
@@ -2987,7 +3035,8 @@ export const questions: Question[] = [
       { option: "is", isCorrect: false },
       { option: "was", isCorrect: false },
     ],
-    explanationVi: "Phủ định thì quá khứ đơn với động từ thường: did + not + V.",
+    explanationVi:
+      "Phủ định thì quá khứ đơn với động từ thường: did + not + V.",
     category: "Past Simple",
   },
   {

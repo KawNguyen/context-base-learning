@@ -37,9 +37,9 @@ export function QuizCard({
           (isCorrect
             ? "border-green-500"
             : isWrong
-            ? "border-destructive"
-            : ""),
-        !isSubmitted && isAnswered && "border-primary"
+              ? "border-destructive"
+              : ""),
+        !isSubmitted && isAnswered && "border-primary",
       )}
     >
       {/* Question Header */}
@@ -123,7 +123,9 @@ export function QuizCard({
 
       {/* Explanation - chỉ hiển thị sau khi submit */}
       {isSubmitted && (
-        <ExplanationAlert isCorrect={isCorrect}>{question.explanationVi}</ExplanationAlert>
+        <ExplanationAlert isCorrect={isCorrect}>
+          {question.explanationVi}
+        </ExplanationAlert>
       )}
     </Card>
   );

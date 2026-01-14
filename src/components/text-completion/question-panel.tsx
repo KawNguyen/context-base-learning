@@ -63,7 +63,13 @@ export function QuestionPanel({
       </div>
 
       {showResult && currentQuestion.explanationVi && (
-        <ExplanationAlert isCorrect={currentQuestion.options[userAnswers[activeGapIndex]]?.isCorrect}>{currentQuestion.explanationVi}</ExplanationAlert>
+        <ExplanationAlert
+          isCorrect={
+            currentQuestion.options[userAnswers[activeGapIndex]]?.isCorrect
+          }
+        >
+          {currentQuestion.explanationVi}
+        </ExplanationAlert>
       )}
     </div>
   );

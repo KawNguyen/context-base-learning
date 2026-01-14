@@ -107,7 +107,7 @@ export function ReadingQuiz({
                 </span>
                 <span className="text-base font-semibold">
                   {Math.round(
-                    ((currentQuestion + 1) / passage.questions.length) * 100
+                    ((currentQuestion + 1) / passage.questions.length) * 100,
                   )}
                   %
                 </span>
@@ -127,7 +127,7 @@ export function ReadingQuiz({
                 {passage.questions[currentQuestion].options.map(
                   (
                     opt: { isCorrect: boolean; option: string },
-                    index: number
+                    index: number,
                   ) => (
                     <AnswerButton
                       key={index}
@@ -141,7 +141,7 @@ export function ReadingQuiz({
                     >
                       {opt.option}
                     </AnswerButton>
-                  )
+                  ),
                 )}
               </div>
 
@@ -150,7 +150,7 @@ export function ReadingQuiz({
                   isCorrect={
                     selectedAnswer ===
                     passage.questions[currentQuestion].options.findIndex(
-                      (o) => o.isCorrect
+                      (o) => o.isCorrect,
                     )
                   }
                 >

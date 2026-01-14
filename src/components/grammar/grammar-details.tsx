@@ -73,9 +73,16 @@ export function GrammarDetails({ topic }: GrammarDetailsProps) {
             {topic.detailedSigns && (
               <div className="grid gap-3 pt-2">
                 {topic.detailedSigns.map((item, idx) => (
-                  <div key={idx} className="flex items-center gap-4 p-3 rounded-lg bg-white/5 border border-white/5">
-                    <span className="text-primary font-bold whitespace-nowrap">{item.sign}:</span>
-                    <span className="text-sm text-foreground/80">{item.explanationVi}</span>
+                  <div
+                    key={idx}
+                    className="flex items-center gap-4 p-3 rounded-lg bg-white/5 border border-white/5"
+                  >
+                    <span className="text-primary font-bold whitespace-nowrap">
+                      {item.sign}:
+                    </span>
+                    <span className="text-sm text-foreground/80">
+                      {item.explanationVi}
+                    </span>
                   </div>
                 ))}
               </div>
@@ -89,9 +96,16 @@ export function GrammarDetails({ topic }: GrammarDetailsProps) {
           <h3 className="text-xl font-medium">Usage Scenarios</h3>
           <div className="grid gap-4">
             {topic.usageRules.map((rule, idx) => (
-              <div key={idx} className="p-5 rounded-xl bg-muted/20 border border-white/5">
-                <h4 className="font-semibold text-primary mb-2 text-lg">{rule.title}</h4>
-                <p className="text-sm text-foreground/80 leading-relaxed">{rule.contentVi}</p>
+              <div
+                key={idx}
+                className="p-5 rounded-xl bg-muted/20 border border-white/5"
+              >
+                <h4 className="font-semibold text-primary mb-2 text-lg">
+                  {rule.title}
+                </h4>
+                <p className="text-sm text-foreground/80 leading-relaxed">
+                  {rule.contentVi}
+                </p>
               </div>
             ))}
           </div>

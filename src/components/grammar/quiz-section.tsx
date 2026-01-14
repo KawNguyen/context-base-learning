@@ -23,7 +23,7 @@ export function QuizSection({ topic }: QuizSectionProps) {
   const topicQuestions = useMemo(() => {
     const flatQuestions = Object.values(allQuestions).flat();
     const filtered = flatQuestions.filter(
-      (q) => q.topicId === topic.id || q.category === topic.title
+      (q) => q.topicId === topic.id || q.category === topic.title,
     );
     return filtered;
   }, [topic]);
