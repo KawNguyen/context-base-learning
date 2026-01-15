@@ -505,6 +505,19 @@ export const A4: VocabularyWord[] = [
     categories: ["Technology", "Science"],
   },
   {
+    id: "gen-217zxc2b",
+    word: "Artificial Intelligence",
+    slug: "artificial-intelligence",
+    phonetic: "/ˌɑːr.t̬əˈfɪʃ.əl ɪnˌtel.ɪˈdʒen.s/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The simulation of human intelligence in machines that are programmed to think and learn.",
+    meaningVi: "Trí tuệ nhân tạo.",
+    exampleEn: "Artificial Intelligence is transforming industries.",
+    exampleVi: "Trí tuệ nhân tạo đang biến đổi các ngành công nghiệp.",
+    categories: ["Technology", "Science"],
+  },
+  {
     id: "gen-2173",
     word: "Artillery",
     slug: "artillery",

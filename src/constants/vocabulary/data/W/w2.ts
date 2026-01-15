@@ -296,4 +296,16 @@ export const W2: VocabularyWord[] = [
     exampleVi: "Có gì đó sai sai.",
     categories: ["Daily"],
   },
+  {
+    id: "gen-lxuio12",
+    word: "Wrongly",
+    slug: "wrongly",
+    phonetic: "/ˈrɔŋ.li/",
+    partOfSpeech: "adverb",
+    meaningEn: "In an incorrect or mistaken way.",
+    meaningVi: "Sai lầm.",
+    exampleEn: "He was wrongly accused.",
+    exampleVi: "Anh ấy bị buộc tội sai lầm.",
+    categories: ["General"],
+  },
 ];

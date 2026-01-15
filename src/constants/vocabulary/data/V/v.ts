@@ -789,6 +789,18 @@ export const V1: VocabularyWord[] = [
     categories: ["Politics", "People"],
   },
   {
+    id: "job-0031bvx",
+    word: "Veteran",
+    slug: "veteran",
+    phonetic: "/ˈvet.ər.ən/",
+    partOfSpeech: "noun",
+    meaningEn: "A person who has had long experience in a particular field.",
+    meaningVi: "Cựu chiến binh; người kỳ cựu.",
+    exampleEn: "He is a veteran of the tech industry.",
+    exampleVi: "Anh ấy là một người kỳ cựu trong ngành công nghệ.",
+    categories: ["Jobs", "Military"],
+  },
+  {
     id: "job-0032",
     word: "Veterinarian",
     slug: "veterinarian",

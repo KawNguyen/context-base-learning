@@ -1278,4 +1278,17 @@ export const B2: VocabularyWord[] = [
     exampleVi: "Anh ấy đang mặc một chiếc áo khoác màu đen.",
     categories: ["Daily"],
   },
+  {
+    id: "gen-2464sad",
+    word: "Blackmail",
+    slug: "blackmail",
+    phonetic: "/ˈblæk.meɪl/",
+    partOfSpeech: "noun/verb",
+    meaningEn:
+      "The action, treated as a criminal offense, of demanding money or another benefit from someone in return for not revealing compromising or damaging information about them.",
+    meaningVi: "Sự tống tiền.",
+    exampleEn: "He was arrested for blackmail.",
+    exampleVi: "Anh ta đã bị bắt vì tội tống tiền.",
+    categories: ["Law", "Crime"],
+  },
 ];

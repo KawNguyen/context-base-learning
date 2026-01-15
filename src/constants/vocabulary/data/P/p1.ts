@@ -356,6 +356,18 @@ export const P1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
+    id: "gen-1050hgo",
+    word: "Particularly",
+    slug: "particularly",
+    phonetic: "/pərˈtɪk.jə.lɚ.li/",
+    partOfSpeech: "adv",
+    meaningEn: "To a higher degree than is usual or average.",
+    meaningVi: "Đặc biệt, nhất là.",
+    exampleEn: "I particularly like this song.",
+    exampleVi: "Tôi đặc biệt thích bài hát này.",
+    categories: ["Daily"],
+  },
+  {
     id: "gen-1052",
     word: "Partner",
     slug: "partner",

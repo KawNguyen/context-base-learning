@@ -92,7 +92,18 @@ export function singularize(word: string): string {
   }
 
   if (lower.endsWith("ies")) {
-    result = lower.slice(0, -3) + "y";
+    const beforeIes = lower.slice(0, -3);
+    // Words ending in vowel + -ies (movies, cookies) -> just remove s
+    // Words ending in consonant + -ies (carries, berries) -> replace ies with y
+    if (
+      beforeIes.endsWith("v") ||
+      beforeIes.endsWith("o") ||
+      beforeIes.endsWith("k")
+    ) {
+      result = lower.slice(0, -1); // movies -> movie, cookies -> cookie
+    } else {
+      result = beforeIes + "y"; // carries -> carry
+    }
     return matchCase(word, result);
   }
 

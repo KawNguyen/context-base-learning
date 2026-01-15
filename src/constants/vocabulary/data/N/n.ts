@@ -51,6 +51,18 @@ export const N1: VocabularyWord[] = [
     categories: ["Engineering", "Medical", "Technology"],
   },
   {
+    id: "gen-949vxzc2n",
+    word: "Narration",
+    slug: "narration",
+    phonetic: "/ˌnærˈeɪ.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn: "The act or process of narrating a story.",
+    meaningVi: "Sự kể chuyện.",
+    exampleEn: "The narration of the film was captivating.",
+    exampleVi: "Phần kể chuyện của bộ phim rất hấp dẫn.",
+    categories: ["Literature", "Media"],
+  },
+  {
     id: "pv-94",
     word: "Narrow down",
     slug: "narrow-down",
@@ -135,6 +147,19 @@ export const N1: VocabularyWord[] = [
     exampleEn: "Back to nature.",
     exampleVi: "Trở về với tự nhiên.",
     categories: ["Social", "Environment"],
+  },
+  {
+    id: "gen-bxlkf23",
+    word: "Navigate",
+    slug: "navigate",
+    phonetic: "/ˈnæv.ɪ.ɡeɪt/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "Plan and direct the course of a ship, aircraft, or other form of transportation.",
+    meaningVi: "Định hướng, điều hướng.",
+    exampleEn: "Navigate the ship through the storm.",
+    exampleVi: "Định hướng con tàu qua cơn bão.",
+    categories: ["General"],
   },
   {
     id: "gen-950",

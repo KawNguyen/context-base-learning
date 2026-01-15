@@ -418,6 +418,19 @@ export const D10: VocabularyWord[] = [
     categories: ["Technology", "Daily"],
   },
   {
+    id: "gen-5678asd",
+    word: "Digital Marketing",
+    slug: "digital-marketing",
+    phonetic: "/ˈdɪdʒ.ɪ.t̬əl ˈmɑːr.kɪ.t̬ɪŋ/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The promotion of products or brands via electronic media, primarily on the internet.",
+    meaningVi: "Tiếp thị kỹ thuật số.",
+    exampleEn: "Digital marketing strategies.",
+    exampleVi: "Các chiến lược tiếp thị kỹ thuật số.",
+    categories: ["Business", "Technology", "Marketing"],
+  },
+  {
     id: "gen-5679",
     word: "Digitalis",
     slug: "digitalis",

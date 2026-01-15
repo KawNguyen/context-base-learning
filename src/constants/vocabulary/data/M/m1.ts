@@ -257,6 +257,19 @@ export const M1: VocabularyWord[] = [
     categories: ["Daily", "People"],
   },
   {
+    id: "gen-850lmvj",
+    word: "Manipulate",
+    slug: "manipulate",
+    phonetic: "/məˈnɪp.jə.leɪt/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "Handle or control (a tool, mechanism, etc.), typically in a skillful manner.",
+    meaningVi: "Vận dụng, thao túng.",
+    exampleEn: "Manipulate the controls.",
+    exampleVi: "Vận dụng các điều khiển.",
+    categories: ["General"],
+  },
+  {
     id: "gen-851",
     word: "Manage",
     slug: "manage",
@@ -436,6 +449,18 @@ export const M1: VocabularyWord[] = [
     meaningVi: "Bậc thầy.",
     exampleEn: "Master a skill.",
     exampleVi: "Thành thạo một kỹ năng.",
+    categories: ["General"],
+  },
+  {
+    id: "a2-92pgfds",
+    word: "Masterfully",
+    slug: "masterfully",
+    phonetic: "/ˈmæs.tɚ.fəl.i/",
+    partOfSpeech: "adverb",
+    meaningEn: "In a skillful and accomplished manner.",
+    meaningVi: "Một cách điêu luyện và thành thạo.",
+    exampleEn: "She played the piano masterfully.",
+    exampleVi: "Cô ấy chơi piano một cách điêu luyện.",
     categories: ["General"],
   },
   {

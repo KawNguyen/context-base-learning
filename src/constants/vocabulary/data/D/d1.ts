@@ -852,6 +852,18 @@ export const D1: VocabularyWord[] = [
     categories: ["General", "Nature"],
   },
   {
+    id: "gen-fasd",
+    word: "Darkest",
+    slug: "darkest",
+    phonetic: "/ˈdɑːrkɪst/",
+    partOfSpeech: "adjective",
+    meaningEn: "Having the least amount of light.",
+    meaningVi: "Tối nhất.",
+    exampleEn: "The darkest night.",
+    exampleVi: "Đêm tối nhất.",
+    categories: ["General", "Nature"],
+  },
+  {
     id: "gen-4816",
     word: "Darkly",
     slug: "darkly",

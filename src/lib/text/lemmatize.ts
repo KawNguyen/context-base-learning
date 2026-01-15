@@ -406,9 +406,20 @@ export function lemmatize(word: string): string {
   }
   // Handle -s/-es forms (runs -> run, catches -> catch)
   else if (lower.endsWith("s")) {
-    // -ies -> -y (carries -> carry)
+    // -ies -> -y (carries -> carry), but NOT for words ending in -vies, -oies, -kies
     if (lower.endsWith("ies") && lower.length > 3) {
-      result = lower.slice(0, -3) + "y";
+      const beforeIes = lower.slice(0, -3);
+      // Words ending in v/o/k + -ies (movies, cookies) -> just remove s
+      // Words ending in consonant + -ies (carries, berries) -> replace ies with y
+      if (
+        beforeIes.endsWith("v") ||
+        beforeIes.endsWith("o") ||
+        beforeIes.endsWith("k")
+      ) {
+        result = lower.slice(0, -1); // movies -> movie, cookies -> cookie
+      } else {
+        result = beforeIes + "y"; // carries -> carry
+      }
     }
     // -es (catches -> catch, washes -> wash)
     else if (lower.endsWith("es") && lower.length > 2) {

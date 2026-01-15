@@ -571,6 +571,18 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    id: "gen-1549lotr",
+    word: "Theme",
+    slug: "theme",
+    phonetic: "/θiːm/",
+    partOfSpeech: "noun",
+    meaningEn: "The subject of a talk, piece of writing, exhibition, etc.",
+    meaningVi: "Chủ đề.",
+    exampleEn: "The theme of the book.",
+    exampleVi: "Chủ đề của cuốn sách.",
+    categories: ["General"],
+  },
+  {
     id: "gen-1548",
     word: "Then",
     slug: "then",

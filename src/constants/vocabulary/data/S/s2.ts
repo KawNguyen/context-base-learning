@@ -954,6 +954,18 @@ export const S2: VocabularyWord[] = [
     categories: ["Finance"],
   },
   {
+    id: "a2-79bvcx0",
+    word: "Spirit",
+    slug: "spirit",
+    phonetic: "/ˈspɪr.ɪt/",
+    partOfSpeech: "noun",
+    meaningEn: "The non-physical part of a person.",
+    meaningVi: "Linh hồn.",
+    exampleEn: "Free spirit.",
+    exampleVi: "Linh hồn tự do.",
+    categories: ["Daily"],
+  },
+  {
     id: "gen-1454",
     word: "Sports",
     slug: "Sports",

@@ -63,6 +63,18 @@ export const I2: VocabularyWord[] = [
     categories: ["Technology", "Social", "Business"],
   },
   {
+    id: "gen-421sazxcb",
+    word: "Intelligence",
+    slug: "intelligence",
+    phonetic: "/ɪnˈtel.ɪ.dʒəns/",
+    partOfSpeech: "noun",
+    meaningEn: "The ability to acquire and apply knowledge and skills.",
+    meaningVi: "Trí tuệ.",
+    exampleEn: "Artificial intelligence is advancing rapidly.",
+    exampleVi: "Trí tuệ nhân tạo đang phát triển nhanh chóng.",
+    categories: ["Technology", "Science"],
+  },
+  {
     id: "gen-696",
     word: "Intelligent",
     slug: "intelligent",

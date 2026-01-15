@@ -1170,6 +1170,19 @@ export const D3: VocabularyWord[] = [
     categories: ["General", "Psychology"],
   },
   {
+    id: "gen-254azx",
+    word: "Deepfake",
+    slug: "deepfake",
+    phonetic: "/ˈdiːp.feɪk/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "A synthetic media in which a person in an existing image or video is replaced with someone else's likeness.",
+    meaningVi: "Công nghệ tạo ảnh/video giả mạo bằng AI.",
+    exampleEn: "DeepFakes technology.",
+    exampleVi: "Công nghệ DeepFakes.",
+    categories: ["Technology", "Science", "Media"],
+  },
+  {
     id: "gen-5039",
     word: "Deeply",
     slug: "deeply",
