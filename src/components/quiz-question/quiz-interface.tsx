@@ -3,10 +3,11 @@
 import { useState, useEffect } from "react";
 import { CEFRLevel } from "@/types";
 import { Question } from "@/constants/quiz-question/types";
-import { QuizHeader } from "./quiz-header";
 import { QuizCard } from "./quiz-card";
 import { QuizSummary } from "./quiz-summary";
 import { QuizSkeleton } from "@/components/skeletons";
+import { QuizHeader } from "../ui/quiz-header";
+import { useRouter } from "next/navigation";
 
 interface QuizInterfaceProps {
   level: CEFRLevel;
@@ -20,6 +21,7 @@ export function QuizInterface({ level }: QuizInterfaceProps) {
     Record<number, number>
   >({});
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const router = useRouter();
 
   // Fetch questions from API
   const fetchQuestions = async () => {
@@ -83,6 +85,8 @@ export function QuizInterface({ level }: QuizInterfaceProps) {
   return (
     <div className="space-y-6">
       <QuizHeader
+        title={`Quiz - Level ${level}`}
+        subtitle="Answer the questions below"
         level={level}
         answeredCount={answeredCount}
         totalQuestions={isLoading ? 0 : levelQuestions.length}
@@ -91,6 +95,7 @@ export function QuizInterface({ level }: QuizInterfaceProps) {
         isSubmitted={isSubmitted}
         onSubmit={handleSubmit}
         onReset={resetQuiz}
+        onBack={() => router.push(`/quiz/${level}`)}
       />
 
       {isLoading ? (

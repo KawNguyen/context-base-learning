@@ -1077,6 +1077,65 @@ export const grammarTopics: GrammarTopic[] = [
     ],
   },
 
+  {
+    id: "under-no-circumstances",
+    category: "Sentence Structure",
+    title: "Under no circumstances (Đảo ngữ phủ định nhấn mạnh)",
+    explanationVi:
+      "Dùng để nhấn mạnh sự phủ định; câu đảo ngữ theo mẫu: Under no circumstances + auxiliary + subject + verb.",
+    signalsEn: "Under no circumstances, On no account, At no time",
+    structure: "Under no circumstances + auxiliary + subject + verb",
+    examples: [
+      {
+        en: "Under no circumstances should you share your password.",
+        vi: "Trong bất kỳ trường hợp nào bạn không nên chia sẻ mật khẩu của mình.",
+      },
+      {
+        en: "On no account must confidential files be disclosed.",
+        vi: "Không được tiết lộ các tệp bí mật dưới bất kỳ hình thức nào.",
+      },
+    ],
+  },
+
+  {
+    id: "not-until-inversion",
+    category: "Sentence Structure",
+    title: "Not until + clause (Đảo ngữ 'not until')",
+    explanationVi:
+      "Đảo ngữ dùng để nhấn mạnh thời điểm xảy ra một hành động: Not until + clause + auxiliary + subject + verb.",
+    signalsEn: "Not until, Only after",
+    structure: "Not until + clause + auxiliary + subject + verb",
+    examples: [
+      {
+        en: "Not until the manager arrived did the meeting start.",
+        vi: "Phải đến khi quản lý đến thì cuộc họp mới bắt đầu.",
+      },
+      {
+        en: "Not until after the project was reviewed did we approve the budget.",
+        vi: "Phải đến sau khi dự án được xem xét thì chúng tôi mới phê duyệt ngân sách.",
+      },
+    ],
+  },
+
+  {
+    id: "prevent-from-ing",
+    category: "Gerunds Infinitives",
+    title: "Prevent someone from doing something",
+    explanationVi:
+      "Cấu trúc 'prevent + somebody + from + V-ing' dùng để nói rằng ai đó/nguyên nhân ngăn cản hành động xảy ra.",
+    structure: "Prevent + Person + from + V-ing",
+    examples: [
+      {
+        en: "His injury prevented him from playing in the final.",
+        vi: "Chấn thương đã ngăn anh ấy thi đấu ở trận chung kết.",
+      },
+      {
+        en: "Strict rules prevent employees from accessing that area.",
+        vi: "Quy định nghiêm ngặt ngăn nhân viên tiếp cận khu vực đó.",
+      },
+    ],
+  },
+
   // --- ARTICLES ---
   {
     id: "articles-a-an-the",

@@ -18,6 +18,7 @@ import {
   SidebarMenuSubButton,
   SidebarMenuSubItem,
 } from "@/components/ui/sidebar";
+import { Badge } from "../ui/badge";
 
 export function NavMain({
   items,
@@ -31,6 +32,7 @@ export function NavMain({
       title: string;
       url: string;
     }[];
+    tag?: string;
   }[];
 }) {
   const pathname = usePathname();
@@ -60,6 +62,11 @@ export function NavMain({
                     >
                       {item.icon && <item.icon />}
                       <span>{item.title}</span>
+                      {item.tag && (
+                        <Badge variant="outline" className="ml-auto bg-yellow-100 text-yellow-800 rounded-full border border-yellow-200" >
+                          {item.tag}
+                        </Badge>
+                      )}
                       <ChevronRight className="ml-auto transition-transform duration-200 group-data-[state=open]/collapsible:rotate-90" />
                     </SidebarMenuButton>
                   </CollapsibleTrigger>
@@ -103,6 +110,11 @@ export function NavMain({
                 >
                   {item.icon && <item.icon />}
                   <span>{item.title}</span>
+                  {item.tag && (
+                    <Badge variant="outline" className="ml-auto bg-gradient-to-r from-white to-blue-300 text-blue-500  rounded-full border border-blue-200">
+                      {item.tag}
+                    </Badge>
+                  )}
                 </Link>
               </SidebarMenuButton>
             </SidebarMenuItem>

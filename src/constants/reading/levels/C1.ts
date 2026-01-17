@@ -4382,4 +4382,455 @@ export const C1: ReadingPassage[] = [
       },
     ],
   },
+  {
+    title: "The Ethics of Genetic Engineering",
+    slug: "ethics-genetic-engineering",
+    passage:
+      "Genetic engineering, particularly the advent of CRISPR-Cas9 technology, has ushered in an era of unprecedented potential for modifying the fundamental building blocks of life. This revolutionary tool allows scientists to edit genes with remarkable precision, opening possibilities ranging from eradicating hereditary diseases to enhancing human capabilities. However, these capabilities raise profound ethical questions that society must grapple with as the technology advances.\n\nThe most immediate ethical concern revolves around germline editing – modifications to embryos, eggs, or sperm that would be passed down to future generations. While somatic cell editing (changes that affect only the individual) presents fewer ethical dilemmas, germline editing permanently alters the human gene pool. The 2018 announcement of the first gene-edited babies in China sparked international outrage, highlighting the lack of global consensus on acceptable applications of this technology.\n\nProponents argue that genetic engineering could eliminate devastating genetic disorders such as Huntington's disease, cystic fibrosis, and sickle cell anemia, preventing immeasurable suffering. They envision a future where genetic predispositions to cancer or heart disease can be corrected before birth. However, critics warn of a slippery slope toward 'designer babies,' where wealthy individuals could enhance their offspring's intelligence, physical attributes, or other characteristics, exacerbating social inequality.\n\nThe concept of 'playing God' frequently emerges in these debates, reflecting concerns about the moral authority to fundamentally alter human nature. Religious and philosophical perspectives vary widely, with some viewing genetic engineering as a natural extension of medicine's mission to alleviate suffering, while others see it as an unacceptable violation of natural order and human dignity.\n\nRegulatory frameworks struggle to keep pace with scientific advancement. Different countries maintain vastly different standards, creating a patchwork of regulations that some fear could lead to 'genetic tourism,' where individuals seek procedures in permissive jurisdictions. The scientific community faces the challenge of self-regulation while pushing the boundaries of knowledge. Establishing international guidelines that balance innovation with ethical constraints remains one of the most pressing challenges of our time.",
+    questions: [
+      {
+        question:
+          "What distinguishes germline editing from somatic cell editing?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Germline editing is cheaper",
+          },
+          {
+            isCorrect: true,
+            option: "Germline changes are passed to future generations",
+          },
+          {
+            isCorrect: false,
+            option: "Somatic editing is more precise",
+          },
+          {
+            isCorrect: false,
+            option: "There is no difference",
+          },
+        ],
+        explanation:
+          "Trong bài: 'While somatic cell editing (changes that affect only the individual) presents fewer ethical dilemmas, germline editing permanently alters the human gene pool.'",
+      },
+      {
+        question: "What sparked international outrage in 2018?",
+        options: [
+          {
+            isCorrect: false,
+            option: "New regulations",
+          },
+          {
+            isCorrect: true,
+            option: "The announcement of the first gene-edited babies",
+          },
+          {
+            isCorrect: false,
+            option: "A scientific conference",
+          },
+          {
+            isCorrect: false,
+            option: "Patent disputes",
+          },
+        ],
+        explanation:
+          "Trong bài: 'The 2018 announcement of the first gene-edited babies in China sparked international outrage'",
+      },
+      {
+        question: "What concern do critics raise about designer babies?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Technical difficulties",
+          },
+          {
+            isCorrect: false,
+            option: "Reduced genetic diversity only",
+          },
+          {
+            isCorrect: true,
+            option: "Exacerbation of social inequality",
+          },
+          {
+            isCorrect: false,
+            option: "Overpopulation",
+          },
+        ],
+        explanation:
+          "Trong bài: 'wealthy individuals could enhance their offspring's intelligence, physical attributes, or other characteristics, exacerbating social inequality.'",
+      },
+      {
+        question: "What is 'genetic tourism'?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Visiting genetic research centers",
+          },
+          {
+            isCorrect: true,
+            option:
+              "Seeking procedures in jurisdictions with permissive regulations",
+          },
+          {
+            isCorrect: false,
+            option: "Educational trips to genetics labs",
+          },
+          {
+            isCorrect: false,
+            option: "Genetic testing while traveling",
+          },
+        ],
+        explanation:
+          "Trong bài: 'creating a patchwork of regulations that some fear could lead to 'genetic tourism,' where individuals seek procedures in permissive jurisdictions.'",
+      },
+      {
+        question: "How do perspectives on genetic engineering vary?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Everyone agrees it should be banned",
+          },
+          {
+            isCorrect: true,
+            option:
+              "Some view it as medicine's extension, others as violating natural order",
+          },
+          {
+            isCorrect: false,
+            option: "Only scientists support it",
+          },
+          {
+            isCorrect: false,
+            option: "Religious groups universally oppose it",
+          },
+        ],
+        explanation:
+          "Trong bài: 'some viewing genetic engineering as a natural extension of medicine's mission to alleviate suffering, while others see it as an unacceptable violation of natural order'",
+      },
+      {
+        question:
+          "What diseases could genetic engineering potentially eliminate?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Common colds only",
+          },
+          {
+            isCorrect: true,
+            option:
+              "Huntington's disease, cystic fibrosis, and sickle cell anemia",
+          },
+          {
+            isCorrect: false,
+            option: "All infectious diseases",
+          },
+          {
+            isCorrect: false,
+            option: "Mental health conditions only",
+          },
+        ],
+        explanation:
+          "Trong bài: 'genetic engineering could eliminate devastating genetic disorders such as Huntington's disease, cystic fibrosis, and sickle cell anemia'",
+      },
+    ],
+  },
+  {
+    title: "The Attention Economy",
+    slug: "attention-economy",
+    passage:
+      "In the digital age, human attention has become one of the most valuable and fiercely contested commodities. The attention economy refers to the marketplace where companies compete not for physical resources or manufacturing capabilities, but for the limited cognitive bandwidth of users. Social media platforms, streaming services, news websites, and countless apps employ sophisticated algorithms and psychological techniques designed to capture and retain user attention for as long as possible.\n\nThe business model underlying much of the internet relies on advertising revenue, which is directly proportional to user engagement. The more time users spend on a platform, the more advertisements they see, and the more data can be collected about their preferences and behaviors. This creates powerful incentives for companies to engineer addictive features. Infinite scroll, autoplay videos, push notifications, and variable reward schedules – techniques borrowed from casino gambling – are deliberately deployed to maximize 'time on platform.'\n\nThe consequences of this attention arms race extend far beyond simple distraction. Research indicates that constant digital engagement fragments our capacity for sustained focus, potentially impacting our ability to engage in deep work, complex problem-solving, and meaningful relationships. The average person now checks their smartphone over 150 times per day, creating a state of perpetual partial attention that leaves little room for contemplation or boredom – mental states increasingly recognized as crucial for creativity and well-being.\n\nMoreover, the attention economy has profound implications for information quality and democratic discourse. Algorithms optimized for engagement tend to amplify sensational, emotionally charged, and polarizing content, as these generate the most clicks, shares, and comments. This can create echo chambers and filter bubbles that reinforce existing beliefs while limiting exposure to diverse perspectives, potentially contributing to political polarization and the spread of misinformation.\n\nAddressing these challenges requires both individual awareness and systemic change. On a personal level, digital literacy education can help people recognize and resist manipulative design patterns. Technologically, some advocate for 'humane technology' that respects user autonomy and well-being rather than exploiting psychological vulnerabilities. Regulatory approaches being considered include transparency requirements for algorithmic ranking, limits on data collection, and even taxation or regulation of advertising-based business models. Finding the right balance between innovation, free expression, and protection of cognitive liberty represents one of the defining challenges of the information age.",
+    questions: [
+      {
+        question: "What is the attention economy?",
+        options: [
+          {
+            isCorrect: false,
+            option: "An economy based on meditation",
+          },
+          {
+            isCorrect: true,
+            option: "A marketplace where companies compete for user attention",
+          },
+          {
+            isCorrect: false,
+            option: "A new type of cryptocurrency",
+          },
+          {
+            isCorrect: false,
+            option: "A government program",
+          },
+        ],
+        explanation:
+          "Trong bài: 'The attention economy refers to the marketplace where companies compete...for the limited cognitive bandwidth of users.'",
+      },
+      {
+        question: "How often does the average person check their smartphone?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Over 50 times per day",
+          },
+          {
+            isCorrect: false,
+            option: "Over 100 times per day",
+          },
+          {
+            isCorrect: true,
+            option: "Over 150 times per day",
+          },
+          {
+            isCorrect: false,
+            option: "Over 200 times per day",
+          },
+        ],
+        explanation:
+          "Trong bài: 'The average person now checks their smartphone over 150 times per day'",
+      },
+      {
+        question: "What techniques do platforms use to maximize engagement?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Better content only",
+          },
+          {
+            isCorrect: true,
+            option:
+              "Infinite scroll, autoplay, notifications, and variable rewards",
+          },
+          {
+            isCorrect: false,
+            option: "Faster loading times only",
+          },
+          {
+            isCorrect: false,
+            option: "Simpler interfaces",
+          },
+        ],
+        explanation:
+          "Trong bài: 'Infinite scroll, autoplay videos, push notifications, and variable reward schedules...are deliberately deployed to maximize 'time on platform.''",
+      },
+      {
+        question:
+          "What type of content do engagement-optimized algorithms amplify?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Educational content only",
+          },
+          {
+            isCorrect: false,
+            option: "Balanced news reporting",
+          },
+          {
+            isCorrect: true,
+            option: "Sensational, emotionally charged, and polarizing content",
+          },
+          {
+            isCorrect: false,
+            option: "Academic research",
+          },
+        ],
+        explanation:
+          "Trong bài: 'Algorithms optimized for engagement tend to amplify sensational, emotionally charged, and polarizing content'",
+      },
+      {
+        question: "What is 'humane technology'?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Technology for humanitarians only",
+          },
+          {
+            isCorrect: true,
+            option:
+              "Technology that respects user autonomy rather than exploiting vulnerabilities",
+          },
+          {
+            isCorrect: false,
+            option: "Technology made by humans",
+          },
+          {
+            isCorrect: false,
+            option: "Older, simpler technology",
+          },
+        ],
+        explanation:
+          "Trong bài: 'some advocate for 'humane technology' that respects user autonomy and well-being rather than exploiting psychological vulnerabilities.'",
+      },
+      {
+        question: "What states are recognized as crucial for creativity?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Constant stimulation only",
+          },
+          {
+            isCorrect: true,
+            option: "Contemplation and boredom",
+          },
+          {
+            isCorrect: false,
+            option: "Multitasking",
+          },
+          {
+            isCorrect: false,
+            option: "Sleep deprivation",
+          },
+        ],
+        explanation:
+          "Trong bài: 'creating a state of perpetual partial attention that leaves little room for contemplation or boredom – mental states increasingly recognized as crucial for creativity and well-being.'",
+      },
+    ],
+  },
+  {
+    title: "Quantum Computing Revolution",
+    slug: "quantum-computing",
+    passage:
+      "Quantum computing represents a paradigm shift in computational capability that could fundamentally transform fields ranging from cryptography to drug discovery. Unlike classical computers that process information using bits (which exist in states of either 0 or 1), quantum computers utilize quantum bits or 'qubits' that can exist in superposition – simultaneously representing both 0 and 1 until measured. This property, along with quantum entanglement where qubits become correlated in ways that have no classical equivalent, enables quantum computers to perform certain calculations exponentially faster than even the most powerful supercomputers.\n\nThe potential applications are staggering. In pharmaceutical research, quantum computers could simulate molecular interactions at unprecedented scales, dramatically accelerating drug discovery and materials science. Financial institutions are exploring quantum algorithms for portfolio optimization and risk analysis. Climate scientists anticipate using quantum computing to create more accurate models of complex environmental systems. Perhaps most significantly, quantum computers could revolutionize artificial intelligence by processing vast datasets and identifying patterns beyond classical computational reach.\n\nHowever, quantum computing also poses existential threats to current cybersecurity infrastructure. Most modern encryption relies on the computational difficulty of factoring large numbers – a task that would take classical computers thousands of years but that a sufficiently powerful quantum computer could potentially solve in hours using Shor's algorithm. This has sparked a global race to develop 'post-quantum cryptography' that remains secure even against quantum attacks, with governments and organizations worldwide rushing to implement quantum-resistant encryption before 'Q-day' – the point at which quantum computers can break current encryption standards.\n\nDespite the revolutionary potential, significant technical challenges remain. Qubits are extraordinarily fragile, requiring extreme conditions such as temperatures near absolute zero and isolation from even minimal environmental interference. Error rates remain high, and scaling from the current hundreds of qubits to the millions likely needed for transformative applications presents formidable engineering obstacles. Some experts question whether true quantum advantage for practical problems will ever be economically viable, or whether quantum computing will remain a specialized tool for specific applications rather than a general-purpose technology.\n\nThe geopolitical dimension of quantum computing cannot be overlooked. Nations recognize that quantum supremacy could confer decisive advantages in intelligence gathering, military applications, and economic competitiveness. This has prompted massive government investments, with the United States, China, and European Union each committing billions to quantum research. The question of whether quantum computing will be democratically accessible or concentrated in the hands of a few powerful actors will have profound implications for global equity and power dynamics in the coming decades.",
+    questions: [
+      {
+        question: "What distinguishes qubits from classical bits?",
+        options: [
+          {
+            isCorrect: false,
+            option: "They are larger",
+          },
+          {
+            isCorrect: true,
+            option:
+              "They can exist in superposition, representing both 0 and 1 simultaneously",
+          },
+          {
+            isCorrect: false,
+            option: "They are faster",
+          },
+          {
+            isCorrect: false,
+            option: "They use less energy",
+          },
+        ],
+        explanation:
+          "Trong bài: 'quantum computers utilize quantum bits or 'qubits' that can exist in superposition – simultaneously representing both 0 and 1 until measured.'",
+      },
+      {
+        question: "What is 'Q-day'?",
+        options: [
+          {
+            isCorrect: false,
+            option: "The day quantum computers are invented",
+          },
+          {
+            isCorrect: true,
+            option:
+              "The point when quantum computers can break current encryption",
+          },
+          {
+            isCorrect: false,
+            option: "A quantum computing conference",
+          },
+          {
+            isCorrect: false,
+            option: "The day qubits were discovered",
+          },
+        ],
+        explanation:
+          "Trong bài: 'rushing to implement quantum-resistant encryption before 'Q-day' – the point at which quantum computers can break current encryption standards.'",
+      },
+      {
+        question: "What extreme condition do qubits require?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Very high pressure",
+          },
+          {
+            isCorrect: true,
+            option: "Temperatures near absolute zero",
+          },
+          {
+            isCorrect: false,
+            option: "Complete darkness",
+          },
+          {
+            isCorrect: false,
+            option: "High altitude",
+          },
+        ],
+        explanation:
+          "Trong bài: 'Qubits are extraordinarily fragile, requiring extreme conditions such as temperatures near absolute zero'",
+      },
+      {
+        question:
+          "Which algorithm could quantum computers use to break encryption?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Moore's algorithm",
+          },
+          {
+            isCorrect: true,
+            option: "Shor's algorithm",
+          },
+          {
+            isCorrect: false,
+            option: "Einstein's algorithm",
+          },
+          {
+            isCorrect: false,
+            option: "Quantum algorithm X",
+          },
+        ],
+        explanation:
+          "Trong bài: 'a sufficiently powerful quantum computer could potentially solve in hours using Shor's algorithm.'",
+      },
+      {
+        question:
+          "What field could benefit from simulating molecular interactions?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Architecture only",
+          },
+          {
+            isCorrect: true,
+            option: "Pharmaceutical research and drug discovery",
+          },
+          {
+            isCorrect: false,
+            option: "Music production",
+          },
+          {
+            isCorrect: false,
+            option: "Sports analytics only",
+          },
+        ],
+        explanation:
+          "Trong bài: 'In pharmaceutical research, quantum computers could simulate molecular interactions at unprecedented scales, dramatically accelerating drug discovery'",
+      },
+      {
+        question: "Why is there a geopolitical dimension to quantum computing?",
+        options: [
+          {
+            isCorrect: false,
+            option: "It's only about scientific prestige",
+          },
+          {
+            isCorrect: true,
+            option:
+              "It could confer advantages in intelligence, military, and economic competitiveness",
+          },
+          {
+            isCorrect: false,
+            option: "Countries want to control the weather",
+          },
+          {
+            isCorrect: false,
+            option: "It's purely academic interest",
+          },
+        ],
+        explanation:
+          "Trong bài: 'Nations recognize that quantum supremacy could confer decisive advantages in intelligence gathering, military applications, and economic competitiveness.'",
+      },
+    ],
+  },
 ];

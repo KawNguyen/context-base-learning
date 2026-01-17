@@ -1700,5 +1700,168 @@ export const C1_LISTENING: LevelListeningData = {
         },
       ],
     },
+    {
+      id: "c1-comp-11",
+      title: "Cognitive Biases in Decision Making",
+      level: "C1",
+      content:
+        "Human decision-making is profoundly influenced by cognitive biases, systematic patterns of deviation from rationality in judgment. Confirmation bias leads individuals to seek information that reinforces preexisting beliefs while dismissing contradictory evidence. The availability heuristic causes people to overestimate the likelihood of events that are easily recalled, often due to their vividness or recent occurrence. Anchoring bias occurs when initial information disproportionately influences subsequent judgments, even when that anchor is arbitrary or irrelevant. Understanding these biases is crucial for improving decision quality in fields ranging from medicine to finance, as awareness alone doesn't eliminate their effects—only systematic processes and external checks can effectively mitigate their influence.",
+      transcript:
+        "Human decision-making is profoundly influenced by cognitive biases, systematic patterns of deviation from rationality in judgment. Confirmation bias leads individuals to seek information that reinforces preexisting beliefs while dismissing contradictory evidence. The availability heuristic causes people to overestimate the likelihood of events that are easily recalled, often due to their vividness or recent occurrence. Anchoring bias occurs when initial information disproportionately influences subsequent judgments, even when that anchor is arbitrary or irrelevant. Understanding these biases is crucial for improving decision quality in fields ranging from medicine to finance, as awareness alone doesn't eliminate their effects—only systematic processes and external checks can effectively mitigate their influence.",
+      questions: [
+        {
+          question: "What is confirmation bias?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Remembering recent events more clearly",
+            },
+            {
+              isCorrect: true,
+              option: "Seeking information that reinforces existing beliefs",
+            },
+            {
+              isCorrect: false,
+              option: "Being influenced by initial information",
+            },
+            {
+              isCorrect: false,
+              option: "Making random decisions",
+            },
+          ],
+          explanation:
+            "The passage states 'Confirmation bias leads individuals to seek information that reinforces preexisting beliefs.'",
+        },
+        {
+          question: "What causes the availability heuristic?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Reading too many books",
+            },
+            {
+              isCorrect: true,
+              option:
+                "Events that are easily recalled due to vividness or recency",
+            },
+            {
+              isCorrect: false,
+              option: "Having too much time",
+            },
+            {
+              isCorrect: false,
+              option: "Talking to friends",
+            },
+          ],
+          explanation:
+            "The passage mentions 'events that are easily recalled, often due to their vividness or recent occurrence.'",
+        },
+        {
+          question: "How can cognitive bias effects be mitigated?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Just being aware of them is enough",
+            },
+            {
+              isCorrect: true,
+              option: "Through systematic processes and external checks",
+            },
+            {
+              isCorrect: false,
+              option: "By making faster decisions",
+            },
+            {
+              isCorrect: false,
+              option: "They cannot be mitigated",
+            },
+          ],
+          explanation:
+            "The passage states 'awareness alone doesn't eliminate their effects—only systematic processes and external checks can effectively mitigate their influence.'",
+        },
+      ],
+    },
+    {
+      id: "c1-comp-12",
+      title: "The Ethics of Artificial Intelligence",
+      level: "C1",
+      content:
+        "As artificial intelligence systems become increasingly sophisticated and pervasive, ethical considerations have emerged as paramount concerns. Algorithmic bias, where AI systems perpetuate or amplify societal prejudices embedded in training data, poses significant challenges to fairness and equality. The opacity of complex machine learning models raises questions about accountability—when an AI makes a consequential decision, who bears responsibility? Privacy concerns intensify as AI systems process vast amounts of personal data. Moreover, the potential displacement of human workers by automation necessitates careful consideration of economic and social implications. Addressing these ethical challenges requires interdisciplinary collaboration among technologists, ethicists, policymakers, and affected communities to ensure AI development aligns with human values and promotes societal well-being.",
+      transcript:
+        "As artificial intelligence systems become increasingly sophisticated and pervasive, ethical considerations have emerged as paramount concerns. Algorithmic bias, where AI systems perpetuate or amplify societal prejudices embedded in training data, poses significant challenges to fairness and equality. The opacity of complex machine learning models raises questions about accountability—when an AI makes a consequential decision, who bears responsibility? Privacy concerns intensify as AI systems process vast amounts of personal data. Moreover, the potential displacement of human workers by automation necessitates careful consideration of economic and social implications. Addressing these ethical challenges requires interdisciplinary collaboration among technologists, ethicists, policymakers, and affected communities to ensure AI development aligns with human values and promotes societal well-being.",
+      questions: [
+        {
+          question: "What is algorithmic bias?",
+          options: [
+            {
+              isCorrect: false,
+              option: "When AI works too slowly",
+            },
+            {
+              isCorrect: true,
+              option:
+                "When AI perpetuates societal prejudices from training data",
+            },
+            {
+              isCorrect: false,
+              option: "When AI is too expensive",
+            },
+            {
+              isCorrect: false,
+              option: "When AI refuses to work",
+            },
+          ],
+          explanation:
+            "The passage defines it as 'AI systems perpetuate or amplify societal prejudices embedded in training data.'",
+        },
+        {
+          question: "What issue does the opacity of AI models raise?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Cost concerns",
+            },
+            {
+              isCorrect: false,
+              option: "Speed problems",
+            },
+            {
+              isCorrect: true,
+              option: "Accountability questions",
+            },
+            {
+              isCorrect: false,
+              option: "Design aesthetics",
+            },
+          ],
+          explanation:
+            "The passage states 'The opacity of complex machine learning models raises questions about accountability.'",
+        },
+        {
+          question: "What is needed to address AI ethical challenges?",
+          options: [
+            {
+              isCorrect: false,
+              option: "More AI systems",
+            },
+            {
+              isCorrect: false,
+              option: "Only technologists working alone",
+            },
+            {
+              isCorrect: true,
+              option:
+                "Interdisciplinary collaboration among various stakeholders",
+            },
+            {
+              isCorrect: false,
+              option: "Banning all AI development",
+            },
+          ],
+          explanation:
+            "The passage mentions 'interdisciplinary collaboration among technologists, ethicists, policymakers, and affected communities.'",
+        },
+      ],
+    },
   ],
 };

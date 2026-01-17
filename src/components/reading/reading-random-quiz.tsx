@@ -115,7 +115,7 @@ export function ReadingRandomQuiz({ level }: ReadingRandomQuizProps) {
     <div className="space-y-6">
       {/* Header */}
       <QuizHeader
-        title=" Practice - Reading"
+        title="Practice - Reading"
         subtitle="Random 5 Passages"
         level={level}
         answeredCount={answeredCount}

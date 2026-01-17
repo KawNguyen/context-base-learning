@@ -1677,5 +1677,165 @@ export const B2_LISTENING: LevelListeningData = {
         },
       ],
     },
+    {
+      id: "b2-comp-21",
+      title: "Remote Work Challenges",
+      level: "B2",
+      content:
+        "The shift to remote work has fundamentally transformed the modern workplace. While it offers unprecedented flexibility and eliminates commute time, it also presents unique challenges. Many employees report feeling isolated and struggling to maintain work-life boundaries when their home becomes their office. Communication can become more difficult, with subtle nuances often lost in video calls and emails. Companies are now investing in collaborative tools and virtual team-building activities to address these issues. The key to successful remote work lies in establishing clear routines, designated workspaces, and regular check-ins with colleagues and managers.",
+      transcript:
+        "The shift to remote work has fundamentally transformed the modern workplace. While it offers unprecedented flexibility and eliminates commute time, it also presents unique challenges. Many employees report feeling isolated and struggling to maintain work-life boundaries when their home becomes their office. Communication can become more difficult, with subtle nuances often lost in video calls and emails. Companies are now investing in collaborative tools and virtual team-building activities to address these issues. The key to successful remote work lies in establishing clear routines, designated workspaces, and regular check-ins with colleagues and managers.",
+      questions: [
+        {
+          question: "What is a main benefit of remote work mentioned?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Higher salary",
+            },
+            {
+              isCorrect: true,
+              option: "Flexibility and no commute",
+            },
+            {
+              isCorrect: false,
+              option: "Better health insurance",
+            },
+            {
+              isCorrect: false,
+              option: "Free lunch",
+            },
+          ],
+          explanation:
+            "The passage mentions 'unprecedented flexibility and eliminates commute time.'",
+        },
+        {
+          question: "What problem do many remote workers face?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Too much exercise",
+            },
+            {
+              isCorrect: false,
+              option: "Earning less money",
+            },
+            {
+              isCorrect: true,
+              option: "Feeling isolated and boundary issues",
+            },
+            {
+              isCorrect: false,
+              option: "Working too few hours",
+            },
+          ],
+          explanation:
+            "The passage states 'Many employees report feeling isolated and struggling to maintain work-life boundaries.'",
+        },
+        {
+          question: "What are companies doing to help remote workers?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Reducing salaries",
+            },
+            {
+              isCorrect: true,
+              option: "Investing in collaborative tools and team-building",
+            },
+            {
+              isCorrect: false,
+              option: "Forcing them back to office",
+            },
+            {
+              isCorrect: false,
+              option: "Hiring fewer people",
+            },
+          ],
+          explanation:
+            "The passage mentions 'Companies are now investing in collaborative tools and virtual team-building activities.'",
+        },
+      ],
+    },
+    {
+      id: "b2-comp-22",
+      title: "Sustainable Fashion Movement",
+      level: "B2",
+      content:
+        "The fashion industry is undergoing a significant transformation as consumers become increasingly aware of its environmental impact. Fast fashion, characterized by cheap, quickly-produced clothing, has created a culture of disposability that generates massive amounts of textile waste. In response, sustainable fashion advocates promote buying fewer, higher-quality items that last longer. They also encourage supporting brands that use eco-friendly materials, ethical manufacturing processes, and fair labor practices. Second-hand shopping and clothing rental services are gaining popularity as alternatives to constant new purchases. This shift represents not just a trend, but a fundamental rethinking of how we approach clothing consumption.",
+      transcript:
+        "The fashion industry is undergoing a significant transformation as consumers become increasingly aware of its environmental impact. Fast fashion, characterized by cheap, quickly-produced clothing, has created a culture of disposability that generates massive amounts of textile waste. In response, sustainable fashion advocates promote buying fewer, higher-quality items that last longer. They also encourage supporting brands that use eco-friendly materials, ethical manufacturing processes, and fair labor practices. Second-hand shopping and clothing rental services are gaining popularity as alternatives to constant new purchases. This shift represents not just a trend, but a fundamental rethinking of how we approach clothing consumption.",
+      questions: [
+        {
+          question: "What characterizes fast fashion?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Expensive, long-lasting clothes",
+            },
+            {
+              isCorrect: true,
+              option: "Cheap, quickly-produced clothing",
+            },
+            {
+              isCorrect: false,
+              option: "Custom-made outfits",
+            },
+            {
+              isCorrect: false,
+              option: "Vintage designs",
+            },
+          ],
+          explanation:
+            "The passage states 'Fast fashion, characterized by cheap, quickly-produced clothing.'",
+        },
+        {
+          question: "What do sustainable fashion advocates recommend?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Buying more clothes more often",
+            },
+            {
+              isCorrect: true,
+              option: "Buying fewer, higher-quality items",
+            },
+            {
+              isCorrect: false,
+              option: "Only wearing black clothes",
+            },
+            {
+              isCorrect: false,
+              option: "Making all clothes at home",
+            },
+          ],
+          explanation:
+            "The passage mentions 'sustainable fashion advocates promote buying fewer, higher-quality items that last longer.'",
+        },
+        {
+          question: "What alternatives to new purchases are mentioned?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Making clothes from paper",
+            },
+            {
+              isCorrect: false,
+              option: "Borrowing from friends only",
+            },
+            {
+              isCorrect: true,
+              option: "Second-hand shopping and clothing rental",
+            },
+            {
+              isCorrect: false,
+              option: "Wearing uniforms",
+            },
+          ],
+          explanation:
+            "The passage states 'Second-hand shopping and clothing rental services are gaining popularity.'",
+        },
+      ],
+    },
   ],
 };

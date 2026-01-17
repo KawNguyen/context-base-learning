@@ -1608,5 +1608,241 @@ export const A2_LISTENING: LevelListeningData = {
         },
       ],
     },
+    {
+      id: "a2-comp-21",
+      title: "At the Doctor's Office",
+      level: "A2",
+      content:
+        "Good afternoon. I have an appointment at three o'clock. My name is Tom Wilson. I've been feeling sick for two days. I have a headache and a sore throat. The doctor will see me now. She says I should rest and drink lots of water. She gave me some medicine to take twice a day. I need to come back next week if I don't feel better.",
+      transcript:
+        "Good afternoon. I have an appointment at three o'clock. My name is Tom Wilson. I've been feeling sick for two days. I have a headache and a sore throat. The doctor will see me now. She says I should rest and drink lots of water. She gave me some medicine to take twice a day. I need to come back next week if I don't feel better.",
+      questions: [
+        {
+          question: "What time is Tom's appointment?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Two o'clock",
+            },
+            {
+              isCorrect: true,
+              option: "Three o'clock",
+            },
+            {
+              isCorrect: false,
+              option: "Four o'clock",
+            },
+            {
+              isCorrect: false,
+              option: "Five o'clock",
+            },
+          ],
+          explanation: "Tom says: 'I have an appointment at three o'clock.'",
+        },
+        {
+          question: "What is Tom's problem?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Broken leg",
+            },
+            {
+              isCorrect: true,
+              option: "Headache and sore throat",
+            },
+            {
+              isCorrect: false,
+              option: "Stomach ache",
+            },
+            {
+              isCorrect: false,
+              option: "Fever only",
+            },
+          ],
+          explanation: "In the passage: 'I have a headache and a sore throat.'",
+        },
+        {
+          question: "How often should Tom take the medicine?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Once a day",
+            },
+            {
+              isCorrect: true,
+              option: "Twice a day",
+            },
+            {
+              isCorrect: false,
+              option: "Three times a day",
+            },
+            {
+              isCorrect: false,
+              option: "Every hour",
+            },
+          ],
+          explanation:
+            "The doctor 'gave me some medicine to take twice a day.'",
+        },
+      ],
+    },
+    {
+      id: "a2-comp-22",
+      title: "Planning a Birthday Party",
+      level: "A2",
+      content:
+        "Hi Emma, it's my birthday next Saturday, and I'm planning a small party at my house. The party will start at six in the evening. I'm inviting about fifteen people. We're going to have pizza and cake. My mom is making a chocolate cake because it's my favorite. I hope you can come! Please let me know by Wednesday so I can plan the food. You can bring your brother too if he wants to come.",
+      transcript:
+        "Hi Emma, it's my birthday next Saturday, and I'm planning a small party at my house. The party will start at six in the evening. I'm inviting about fifteen people. We're going to have pizza and cake. My mom is making a chocolate cake because it's my favorite. I hope you can come! Please let me know by Wednesday so I can plan the food. You can bring your brother too if he wants to come.",
+      questions: [
+        {
+          question: "When is the birthday party?",
+          options: [
+            {
+              isCorrect: false,
+              option: "This Saturday",
+            },
+            {
+              isCorrect: true,
+              option: "Next Saturday",
+            },
+            {
+              isCorrect: false,
+              option: "Next Sunday",
+            },
+            {
+              isCorrect: false,
+              option: "This Friday",
+            },
+          ],
+          explanation: "The speaker says: 'it's my birthday next Saturday.'",
+        },
+        {
+          question: "What kind of cake will they have?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Vanilla cake",
+            },
+            {
+              isCorrect: false,
+              option: "Strawberry cake",
+            },
+            {
+              isCorrect: true,
+              option: "Chocolate cake",
+            },
+            {
+              isCorrect: false,
+              option: "Lemon cake",
+            },
+          ],
+          explanation:
+            "In the passage: 'My mom is making a chocolate cake because it's my favorite.'",
+        },
+        {
+          question: "When should Emma reply?",
+          options: [
+            {
+              isCorrect: false,
+              option: "By Monday",
+            },
+            {
+              isCorrect: false,
+              option: "By Tuesday",
+            },
+            {
+              isCorrect: true,
+              option: "By Wednesday",
+            },
+            {
+              isCorrect: false,
+              option: "By Friday",
+            },
+          ],
+          explanation:
+            "The speaker says: 'Please let me know by Wednesday so I can plan the food.'",
+        },
+      ],
+    },
+    {
+      id: "a2-comp-23",
+      title: "Shopping for Clothes",
+      level: "A2",
+      content:
+        "I need to buy a new jacket for winter. I went to the shopping mall yesterday. I looked in three different stores. The jackets were too expensive in the first two shops. Finally, I found a nice blue jacket on sale in the third store. It was half price! I also bought a scarf to match.",
+      transcript:
+        "I need to buy a new jacket for winter. I went to the shopping mall yesterday. I looked in three different stores. The jackets were too expensive in the first two shops. Finally, I found a nice blue jacket on sale in the third store. It was half price! I also bought a scarf to match.",
+      questions: [
+        {
+          question: "What does the speaker need to buy?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Summer clothes",
+            },
+            {
+              isCorrect: true,
+              option: "A winter jacket",
+            },
+            {
+              isCorrect: false,
+              option: "Shoes",
+            },
+            {
+              isCorrect: false,
+              option: "A hat",
+            },
+          ],
+          explanation:
+            "The speaker says 'I need to buy a new jacket for winter.'",
+        },
+        {
+          question: "How many stores did they visit?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Two",
+            },
+            {
+              isCorrect: true,
+              option: "Three",
+            },
+            {
+              isCorrect: false,
+              option: "Four",
+            },
+            {
+              isCorrect: false,
+              option: "Five",
+            },
+          ],
+          explanation:
+            "The passage states 'I looked in three different stores.'",
+        },
+        {
+          question: "What color was the jacket they bought?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Black",
+            },
+            {
+              isCorrect: true,
+              option: "Blue",
+            },
+            {
+              isCorrect: false,
+              option: "Red",
+            },
+            {
+              isCorrect: false,
+              option: "Green",
+            },
+          ],
+          explanation: "The speaker mentions 'I found a nice blue jacket.'",
+        },
+      ],
+    },
   ],
 };

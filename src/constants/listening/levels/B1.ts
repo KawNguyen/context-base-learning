@@ -1665,5 +1665,322 @@ export const B1_LISTENING: LevelListeningData = {
         },
       ],
     },
+    {
+      id: "b1-comp-21",
+      title: "Office Meeting Discussion",
+      level: "B1",
+      content:
+        "Good morning, team. I wanted to discuss the upcoming product launch scheduled for next month. We've received feedback from our test users, and they're quite satisfied with the new features. However, we need to address a few minor bugs before the official release. The marketing department has already prepared the promotional materials, and they're ready to go. Our main challenge now is coordinating with the sales team to ensure they're fully trained on the product. Let's aim to complete all preparations by the end of this week.",
+      transcript:
+        "Good morning, team. I wanted to discuss the upcoming product launch scheduled for next month. We've received feedback from our test users, and they're quite satisfied with the new features. However, we need to address a few minor bugs before the official release. The marketing department has already prepared the promotional materials, and they're ready to go. Our main challenge now is coordinating with the sales team to ensure they're fully trained on the product. Let's aim to complete all preparations by the end of this week.",
+      questions: [
+        {
+          question: "When is the product launch scheduled?",
+          options: [
+            {
+              isCorrect: false,
+              option: "This week",
+            },
+            {
+              isCorrect: true,
+              option: "Next month",
+            },
+            {
+              isCorrect: false,
+              option: "Next year",
+            },
+            {
+              isCorrect: false,
+              option: "In two weeks",
+            },
+          ],
+          explanation:
+            "The speaker mentions 'upcoming product launch scheduled for next month.'",
+        },
+        {
+          question: "What do they need to fix before the release?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Marketing materials",
+            },
+            {
+              isCorrect: true,
+              option: "Minor bugs",
+            },
+            {
+              isCorrect: false,
+              option: "Product features",
+            },
+            {
+              isCorrect: false,
+              option: "User feedback",
+            },
+          ],
+          explanation:
+            "The passage states 'we need to address a few minor bugs before the official release.'",
+        },
+        {
+          question: "What is the main challenge mentioned?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Getting user feedback",
+            },
+            {
+              isCorrect: false,
+              option: "Creating promotional materials",
+            },
+            {
+              isCorrect: true,
+              option: "Training the sales team",
+            },
+            {
+              isCorrect: false,
+              option: "Fixing the product",
+            },
+          ],
+          explanation:
+            "The speaker says 'Our main challenge now is coordinating with the sales team to ensure they're fully trained.'",
+        },
+      ],
+    },
+    {
+      id: "b1-comp-22",
+      title: "Travel Plans",
+      level: "B1",
+      content:
+        "Hi Sarah, I'm calling to confirm our travel arrangements for the conference in Berlin next week. I've booked our flights, and we're departing on Monday morning at 8:30 AM. We should arrive around 11:00 AM local time. I also reserved a hotel near the conference center, so we won't need to take a taxi every day. The conference starts on Tuesday and runs through Thursday. I thought we could stay an extra day on Friday to explore the city. What do you think?",
+      transcript:
+        "Hi Sarah, I'm calling to confirm our travel arrangements for the conference in Berlin next week. I've booked our flights, and we're departing on Monday morning at 8:30 AM. We should arrive around 11:00 AM local time. I also reserved a hotel near the conference center, so we won't need to take a taxi every day. The conference starts on Tuesday and runs through Thursday. I thought we could stay an extra day on Friday to explore the city. What do you think?",
+      questions: [
+        {
+          question: "Where is the conference taking place?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Paris",
+            },
+            {
+              isCorrect: true,
+              option: "Berlin",
+            },
+            {
+              isCorrect: false,
+              option: "London",
+            },
+            {
+              isCorrect: false,
+              option: "Rome",
+            },
+          ],
+          explanation: "The speaker mentions 'conference in Berlin next week.'",
+        },
+        {
+          question: "When does their flight depart?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Sunday evening",
+            },
+            {
+              isCorrect: true,
+              option: "Monday morning at 8:30 AM",
+            },
+            {
+              isCorrect: false,
+              option: "Tuesday morning",
+            },
+            {
+              isCorrect: false,
+              option: "Monday afternoon",
+            },
+          ],
+          explanation:
+            "The passage states 'we're departing on Monday morning at 8:30 AM.'",
+        },
+        {
+          question: "Why did they book a hotel near the conference center?",
+          options: [
+            {
+              isCorrect: false,
+              option: "It was cheaper",
+            },
+            {
+              isCorrect: false,
+              option: "It had better reviews",
+            },
+            {
+              isCorrect: true,
+              option: "To avoid taking a taxi every day",
+            },
+            {
+              isCorrect: false,
+              option: "Because Sarah requested it",
+            },
+          ],
+          explanation:
+            "The speaker says 'I also reserved a hotel near the conference center, so we won't need to take a taxi every day.'",
+        },
+      ],
+    },
+    {
+      id: "b1-comp-23",
+      title: "Restaurant Recommendation",
+      level: "B1",
+      content:
+        "You should try the new Italian restaurant on Main Street. The food is delicious and the prices are reasonable. I went there last weekend with my family. We ordered pizza, pasta, and tiramisu for dessert. The service was excellent—our waiter was very friendly and helpful. The atmosphere is cozy and perfect for a nice dinner.",
+      transcript:
+        "You should try the new Italian restaurant on Main Street. The food is delicious and the prices are reasonable. I went there last weekend with my family. We ordered pizza, pasta, and tiramisu for dessert. The service was excellent—our waiter was very friendly and helpful. The atmosphere is cozy and perfect for a nice dinner.",
+      questions: [
+        {
+          question: "Where is the new restaurant located?",
+          options: [
+            {
+              isCorrect: true,
+              option: "On Main Street",
+            },
+            {
+              isCorrect: false,
+              option: "On Park Avenue",
+            },
+            {
+              isCorrect: false,
+              option: "Downtown",
+            },
+            {
+              isCorrect: false,
+              option: "Near the mall",
+            },
+          ],
+          explanation:
+            "The speaker says 'the new Italian restaurant on Main Street.'",
+        },
+        {
+          question: "What did they have for dessert?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Gelato",
+            },
+            {
+              isCorrect: true,
+              option: "Tiramisu",
+            },
+            {
+              isCorrect: false,
+              option: "Cake",
+            },
+            {
+              isCorrect: false,
+              option: "Ice cream",
+            },
+          ],
+          explanation: "The passage mentions 'tiramisu for dessert.'",
+        },
+        {
+          question: "How was the service?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Slow and poor",
+            },
+            {
+              isCorrect: true,
+              option: "Excellent",
+            },
+            {
+              isCorrect: false,
+              option: "Just okay",
+            },
+            {
+              isCorrect: false,
+              option: "Not mentioned",
+            },
+          ],
+          explanation: "The speaker says 'The service was excellent.'",
+        },
+      ],
+    },
+    {
+      id: "b1-comp-24",
+      title: "Weekend Plans",
+      level: "B1",
+      content:
+        "This Saturday, I'm planning to visit the art museum with some friends. The exhibition opens at 10 AM, and we're meeting at the entrance at 9:45. After the museum, we'll have lunch at a nearby café. In the afternoon, we might go shopping or watch a movie, depending on the weather and how everyone feels.",
+      transcript:
+        "This Saturday, I'm planning to visit the art museum with some friends. The exhibition opens at 10 AM, and we're meeting at the entrance at 9:45. After the museum, we'll have lunch at a nearby café. In the afternoon, we might go shopping or watch a movie, depending on the weather and how everyone feels.",
+      questions: [
+        {
+          question: "What day are they going to the museum?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Friday",
+            },
+            {
+              isCorrect: true,
+              option: "Saturday",
+            },
+            {
+              isCorrect: false,
+              option: "Sunday",
+            },
+            {
+              isCorrect: false,
+              option: "Monday",
+            },
+          ],
+          explanation:
+            "The speaker says 'This Saturday, I'm planning to visit the art museum.'",
+        },
+        {
+          question: "What time will they meet?",
+          options: [
+            {
+              isCorrect: true,
+              option: "9:45 AM",
+            },
+            {
+              isCorrect: false,
+              option: "10:00 AM",
+            },
+            {
+              isCorrect: false,
+              option: "10:15 AM",
+            },
+            {
+              isCorrect: false,
+              option: "11:00 AM",
+            },
+          ],
+          explanation:
+            "The passage states 'we're meeting at the entrance at 9:45.'",
+        },
+        {
+          question: "What will they do after the museum?",
+          options: [
+            {
+              isCorrect: false,
+              option: "Go home",
+            },
+            {
+              isCorrect: true,
+              option: "Have lunch at a café",
+            },
+            {
+              isCorrect: false,
+              option: "Visit another museum",
+            },
+            {
+              isCorrect: false,
+              option: "Go to the park",
+            },
+          ],
+          explanation:
+            "The speaker mentions 'After the museum, we'll have lunch at a nearby café.'",
+        },
+      ],
+    },
   ],
 };

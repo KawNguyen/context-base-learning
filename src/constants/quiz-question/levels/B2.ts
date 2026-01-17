@@ -1343,6 +1343,26 @@ export const questions: Question[] = [
     category: "Conjunctions",
   },
   {
+    id: "B2-2000",
+    topicId: "relative-clauses",
+    questionType: "grammar",
+    contextEn: "Describing someone evaluated in an interview.",
+    contextVi: "Mô tả một người được đánh giá trong buổi phỏng vấn.",
+    questionEn:
+      "The candidate _____ the panel interviewed yesterday has excellent qualifications.",
+    questionVi:
+      "Ứng viên _____ mà hội đồng đã phỏng vấn ngày hôm qua có bằng cấp xuất sắc.",
+    options: [
+      { option: "whom", isCorrect: true },
+      { option: "who", isCorrect: false },
+      { option: "that", isCorrect: false },
+      { option: "which", isCorrect: false },
+    ],
+    explanationVi:
+      "Dùng 'whom' vì đại từ quan hệ là tân ngữ của 'interviewed'.",
+    category: "Relative Clauses",
+  },
+  {
     id: "B2-1014",
     topicId: "complex-sentence-patterns",
     questionType: "word-form",
@@ -2303,7 +2323,7 @@ export const questions: Question[] = [
     questionEn:
       "The proposed budget for the next fiscal year ____ by the finance committee at this very moment.",
     questionVi:
-      "Ngân sách đề xuất cho năm tài chính tới hiện ____ bởi ủy ban tài chính ngay lúc này.",
+      "Ngân sách đề xuất cho tài chính năm tới hiện ____ bởi ủy ban tài chính ngay lúc này.",
     options: [
       { option: "is being reviewed", isCorrect: true },
       { option: "is reviewing", isCorrect: false },
@@ -2411,6 +2431,63 @@ export const questions: Question[] = [
     explanationVi:
       "Cấu trúc giả định với 'It is vital that + S + (should) be + V3/ed'.",
     category: "Subjunctive",
+  },
+  {
+    id: "B2-3000",
+    topicId: "under-no-circumstances",
+    questionType: "structure",
+    contextEn: "Stating strict prohibitions.",
+    contextVi: "Nêu sự cấm đoán nghiêm ngặt.",
+    questionEn:
+      "Under no circumstances ____ you disclose confidential client data.",
+    questionVi:
+      "Trong bất kỳ trường hợp nào bạn ____ tiết lộ dữ liệu khách hàng mật.",
+    options: [
+      { option: "should", isCorrect: true },
+      { option: "shouldn't", isCorrect: false },
+      { option: "will", isCorrect: false },
+      { option: "must", isCorrect: false },
+    ],
+    explanationVi:
+      "Đảo ngữ với 'Under no circumstances' yêu cầu trợ động từ trước chủ ngữ: Under no circumstances should + S + V.",
+    category: "Sentence Structure",
+  },
+  {
+    id: "B2-3001",
+    topicId: "not-until-inversion",
+    questionType: "structure",
+    contextEn: "Emphasising when an event started.",
+    contextVi: "Nhấn mạnh thời điểm một sự kiện bắt đầu.",
+    questionEn:
+      "Not until the report was submitted ____ the committee approve the proposal.",
+    questionVi:
+      "Phải đến khi báo cáo được nộp thì hội đồng ____ phê duyệt đề xuất.",
+    options: [
+      { option: "did", isCorrect: true },
+      { option: "do", isCorrect: false },
+      { option: "does", isCorrect: false },
+      { option: "had", isCorrect: false },
+    ],
+    explanationVi:
+      "Đảo ngữ với 'Not until' đặt trợ động từ trước chủ ngữ: Not until + clause + auxiliary + S + V.",
+    category: "Sentence Structure",
+  },
+  {
+    id: "B2-3002",
+    topicId: "prevent-from-ing",
+    questionType: "grammar",
+    contextEn: "Describing obstacles to participation.",
+    contextVi: "Mô tả những trở ngại dẫn đến không thể tham gia.",
+    questionEn: "Her visa delay prevented her ____ attend the conference.",
+    questionVi: "Việc trì hoãn visa đã ngăn cô ấy ____ tham dự hội nghị.",
+    options: [
+      { option: "from", isCorrect: true },
+      { option: "to", isCorrect: false },
+      { option: "in", isCorrect: false },
+      { option: "with", isCorrect: false },
+    ],
+    explanationVi: "Cấu trúc: prevent + someone + from + V-ing.",
+    category: "Gerunds & Infinitives",
   },
   {
     id: "B2-1504",

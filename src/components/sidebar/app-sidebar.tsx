@@ -15,6 +15,8 @@ import {
   Image,
   FileText,
   AudioLines,
+  TestTube2,
+  Lightbulb,
 } from "lucide-react";
 
 import {
@@ -27,6 +29,7 @@ import {
 } from "@/components/ui/sidebar";
 import NavMain from "@/components/sidebar/nav-main";
 import { grammarTopics } from "@/constants/grammarTopics";
+import { tricks } from "@/constants/tricks";
 import { getCategorySlug } from "@/lib/utils";
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
@@ -40,6 +43,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
     navMain: [
       { title: "Vocabulary", url: "/vocabulary", icon: BookA },
       { title: "Grammar", url: "/grammar", icon: BookOpen },
+      { title: "Tricks", url: "/tricks", icon: Lightbulb },
       { title: "Irregular Verbs", url: "/irregular-verbs", icon: WholeWord },
       { title: "Quiz", url: "/quiz", icon: PenTool },
       { title: "Reading", url: "/reading", icon: GraduationCap },
@@ -47,6 +51,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       { title: "Dialogue", url: "/dialogue", icon: MessageSquare },
       { title: "Describe Picture", url: "/describe-picture", icon: Image },
       { title: "Text Completion", url: "/text-completion", icon: FileText },
+      { title: "Mock Test", url: "/mock-test", icon: TestTube2, tag: "beta" },
       {
         title: "Question Response",
         url: "/question-response",
@@ -56,27 +61,42 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   };
 
   const categories = Array.from(new Set(grammarTopics.map((t) => t.category)));
+  const trickCategories = Array.from(new Set(tricks.map((t) => t.category)));
 
   const navItems = data.navMain.map((it) => {
-    if (it.url !== "/grammar") {
+    if (it.url !== "/grammar" && it.url !== "/tricks") {
       const linkHref = locale ? `/${locale}${it.url}` : it.url;
       return {
         title: it.title,
         url: linkHref,
         icon: it.icon,
+        tag: (it as any).tag,
         isActive: pathname === linkHref,
       };
     }
 
-    // Grammar item: build categories as subitems
-    const items = categories.map((c) => {
+    if (it.url === "/grammar") {
+      const items = categories.map((c) => {
+        const catSlug = getCategorySlug(c);
+        const urlPath = `/grammar/${catSlug}`;
+        const url = locale ? `/${locale}${urlPath}` : urlPath;
+        return { title: c, url };
+      });
+
+      const isActive = pathname?.includes("/grammar") ?? false;
+      const itemUrl = locale ? `/${locale}${it.url}` : it.url;
+      return { title: it.title, url: itemUrl, icon: it.icon, items, isActive };
+    }
+
+    // Tricks item: build categories as subitems
+    const items = trickCategories.map((c) => {
       const catSlug = getCategorySlug(c);
-      const urlPath = `/grammar/${catSlug}`;
+      const urlPath = `/tricks/${catSlug}`;
       const url = locale ? `/${locale}${urlPath}` : urlPath;
       return { title: c, url };
     });
 
-    const isActive = pathname?.includes("/grammar") ?? false;
+    const isActive = pathname?.includes("/tricks") ?? false;
     const itemUrl = locale ? `/${locale}${it.url}` : it.url;
     return { title: it.title, url: itemUrl, icon: it.icon, items, isActive };
   });

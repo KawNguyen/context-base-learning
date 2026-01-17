@@ -368,4 +368,124 @@ export const imageQuestions: ImageQuestion[] = [
     explanationVi:
       "Hình ảnh mô tả một người phụ nữ nhìn từ góc độ trên cao xuống, cô đang cầm trên tay hai bức ảnh in và xung quanh có rất nhiều bức ảnh khác về các chủ đề như du lịch, phong cảnh và con người đang được trải rộng trên mặt bàn.",
   },
+  {
+    id: 24,
+    imageUrl: "/images/describe-picture/unified/24.jpg",
+    options: [
+      {
+        option: "A person is giving a presentation in a meeting room.",
+        isCorrect: true,
+      },
+      {
+        option: "They are watching a movie in a cinema.",
+        isCorrect: false,
+      },
+      {
+        option: "A scientist is working alone in a laboratory.",
+        isCorrect: false,
+      },
+      {
+        option: "The office is completely empty.",
+        isCorrect: false,
+      },
+    ],
+    explanationVi:
+      "Bức ảnh cho thấy một người đang đứng thuyết trình trước các đồng nghiệp trong phòng họp.",
+  },
+  {
+    id: 25,
+    imageUrl: "/images/describe-picture/unified/25.jpg",
+    options: [
+      {
+        option: "Passengers are waiting on a train platform.",
+        isCorrect: true,
+      },
+      {
+        option: "People are swimming in a large pool.",
+        isCorrect: false,
+      },
+      {
+        option: "A pilot is entering the cockpit.",
+        isCorrect: false,
+      },
+      {
+        option: "The train station is currently closed.",
+        isCorrect: false,
+      },
+    ],
+    explanationVi:
+      "Hình ảnh mô tả các hành khách đang đợi tàu tại sân ga, một số người đang xem điện thoại hoặc đọc báo.",
+  },
+  {
+    id: 26,
+    imageUrl: "/images/describe-picture/unified/26.jpg",
+    options: [
+      {
+        option: "A mechanic is repairing a vehicle in a garage.",
+        isCorrect: true,
+      },
+      {
+        option: "A driver is buying fuel at a gas station.",
+        isCorrect: false,
+      },
+      {
+        option: "A car is being washed by a machine.",
+        isCorrect: false,
+      },
+      {
+        option: "The garage is full of bicycles.",
+        isCorrect: false,
+      },
+    ],
+    explanationVi:
+      "Một người thợ cơ khí đang làm việc dưới gầm một chiếc xe được nâng lên cao trong xưởng sửa chữa.",
+  },
+  {
+    id: 27,
+    imageUrl: "/images/describe-picture/unified/27.jpg",
+    options: [
+      {
+        option: "A customer is paying at a supermarket checkout.",
+        isCorrect: true,
+      },
+      {
+        option: "A chef is preparing food in a restaurant.",
+        isCorrect: false,
+      },
+      {
+        option: "The store is out of fresh vegetables.",
+        isCorrect: false,
+      },
+      {
+        option: "People are planting seeds in a garden.",
+        isCorrect: false,
+      },
+    ],
+    explanationVi:
+      "Bức ảnh cho thấy một khách hàng đang thanh toán tại quầy thu ngân của siêu thị.",
+  },
+  {
+    id: 28,
+    imageUrl: "/images/describe-picture/unified/28.jpg",
+    options: [
+      {
+        option: "A bridge spans across a wide river in a city.",
+        isCorrect: true,
+      },
+      {
+        option: "A small boat is sinking in the ocean.",
+        isCorrect: false,
+      },
+      {
+        option: "The sky is very dark and stormy.",
+        isCorrect: false,
+      },
+      {
+        option: "There is no traffic on the city streets.",
+        isCorrect: false,
+      },
+    ],
+    explanationVi:
+      "Cảnh quan đô thị hiện đại với một cây cầu lớn bắc qua sông và các tòa nhà cao tầng phía sau.",
+  },
 ];

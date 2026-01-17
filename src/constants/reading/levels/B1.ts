@@ -4385,4 +4385,445 @@ export const B1: ReadingPassage[] = [
       },
     ],
   },
+  {
+    title: "Smart Home Technology",
+    slug: "smart-home-technology",
+    passage:
+      "Smart home technology has revolutionized the way we interact with our living spaces, offering unprecedented convenience and efficiency. These systems allow homeowners to control various aspects of their homes remotely through smartphones or voice commands. Common smart home devices include thermostats that learn your temperature preferences, lighting systems that adjust based on the time of day, and security cameras that send alerts to your phone.\n\nOne of the primary advantages of smart homes is energy efficiency. Smart thermostats can reduce heating and cooling costs by up to 23% by learning your schedule and adjusting temperatures automatically. Similarly, smart lighting can turn off when rooms are empty, preventing unnecessary energy waste. This not only saves money but also reduces your carbon footprint.\n\nSecurity is another major benefit. Smart doorbells with cameras let you see and speak to visitors even when you're not home. Smart locks allow you to grant temporary access to guests or service providers without physical keys. Motion sensors and smart alarms provide comprehensive protection and instant notifications of any unusual activity.",
+    questions: [
+      {
+        question: "How much can smart thermostats reduce heating costs?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Up to 15%",
+          },
+          {
+            isCorrect: true,
+            option: "Up to 23%",
+          },
+          {
+            isCorrect: false,
+            option: "Up to 30%",
+          },
+          {
+            isCorrect: false,
+            option: "Up to 40%",
+          },
+        ],
+        explanation:
+          "Trong bài: 'Smart thermostats can reduce heating and cooling costs by up to 23%'",
+      },
+      {
+        question: "What do smart doorbells allow you to do?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Unlock doors remotely",
+          },
+          {
+            isCorrect: true,
+            option: "See and speak to visitors when not home",
+          },
+          {
+            isCorrect: false,
+            option: "Control temperature",
+          },
+          {
+            isCorrect: false,
+            option: "Turn off lights",
+          },
+        ],
+        explanation:
+          "Trong bài: 'Smart doorbells with cameras let you see and speak to visitors even when you're not home.'",
+      },
+      {
+        question: "How are smart home devices typically controlled?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Only by physical switches",
+          },
+          {
+            isCorrect: true,
+            option: "Through smartphones or voice commands",
+          },
+          {
+            isCorrect: false,
+            option: "By remote controls only",
+          },
+          {
+            isCorrect: false,
+            option: "Through computer keyboards",
+          },
+        ],
+        explanation:
+          "Trong bài: 'These systems allow homeowners to control various aspects of their homes remotely through smartphones or voice commands.'",
+      },
+      {
+        question: "What happens with smart lighting when rooms are empty?",
+        options: [
+          {
+            isCorrect: false,
+            option: "It gets brighter",
+          },
+          {
+            isCorrect: false,
+            option: "It changes color",
+          },
+          {
+            isCorrect: true,
+            option: "It turns off automatically",
+          },
+          {
+            isCorrect: false,
+            option: "It stays on",
+          },
+        ],
+        explanation:
+          "Trong bài: 'smart lighting can turn off when rooms are empty, preventing unnecessary energy waste.'",
+      },
+      {
+        question: "What is NOT mentioned as a benefit of smart homes?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Energy efficiency",
+          },
+          {
+            isCorrect: false,
+            option: "Security improvements",
+          },
+          {
+            isCorrect: true,
+            option: "Better internet speed",
+          },
+          {
+            isCorrect: false,
+            option: "Convenience",
+          },
+        ],
+        explanation:
+          "Internet speed không được đề cập trong bài. Bài chỉ nói về energy efficiency, security, và convenience.",
+      },
+      {
+        question: "How do smart locks help with access control?",
+        options: [
+          {
+            isCorrect: false,
+            option: "They are harder to pick",
+          },
+          {
+            isCorrect: true,
+            option: "They allow temporary access without physical keys",
+          },
+          {
+            isCorrect: false,
+            option: "They make louder sounds",
+          },
+          {
+            isCorrect: false,
+            option: "They require fingerprints only",
+          },
+        ],
+        explanation:
+          "Trong bài: 'Smart locks allow you to grant temporary access to guests or service providers without physical keys.'",
+      },
+    ],
+  },
+  {
+    title: "The Rise of Online Learning",
+    slug: "online-learning-growth",
+    passage:
+      "Online education has experienced exponential growth over the past decade, transforming how people acquire knowledge and skills. What began as simple video lectures has evolved into interactive platforms offering everything from professional certifications to complete university degrees. This shift has been accelerated by improved internet connectivity and the development of sophisticated learning management systems.\n\nThe flexibility of online learning is perhaps its greatest advantage. Students can access course materials at any time and learn at their own pace, making education accessible to working professionals, parents, and those living in remote areas. This asynchronous learning model allows individuals to balance education with other life commitments in ways traditional classrooms cannot.\n\nHowever, online learning also presents unique challenges. The lack of face-to-face interaction can make it difficult for some students to stay motivated and engaged. Technical issues, such as poor internet connections or unfamiliarity with digital platforms, can create barriers to learning. Additionally, the absence of direct supervision may lead to academic dishonesty in some cases.\n\nDespite these challenges, the future of online education looks promising. Virtual reality and artificial intelligence are being integrated into learning platforms, creating more immersive and personalized educational experiences. As technology continues to advance, the line between online and traditional education will likely continue to blur.",
+    questions: [
+      {
+        question:
+          "What is described as the greatest advantage of online learning?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Lower costs",
+          },
+          {
+            isCorrect: true,
+            option: "Flexibility in timing and pace",
+          },
+          {
+            isCorrect: false,
+            option: "Better teachers",
+          },
+          {
+            isCorrect: false,
+            option: "More courses available",
+          },
+        ],
+        explanation:
+          "Trong bài: 'The flexibility of online learning is perhaps its greatest advantage.'",
+      },
+      {
+        question: "What challenge is mentioned regarding online learning?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Too expensive",
+          },
+          {
+            isCorrect: false,
+            option: "Not enough courses",
+          },
+          {
+            isCorrect: true,
+            option:
+              "Difficulty staying motivated without face-to-face interaction",
+          },
+          {
+            isCorrect: false,
+            option: "Courses are too easy",
+          },
+        ],
+        explanation:
+          "Trong bài: 'The lack of face-to-face interaction can make it difficult for some students to stay motivated and engaged.'",
+      },
+      {
+        question:
+          "What technologies are being integrated into learning platforms?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Blockchain and cryptocurrencies",
+          },
+          {
+            isCorrect: true,
+            option: "Virtual reality and artificial intelligence",
+          },
+          {
+            isCorrect: false,
+            option: "3D printing and drones",
+          },
+          {
+            isCorrect: false,
+            option: "Robotics and quantum computing",
+          },
+        ],
+        explanation:
+          "Trong bài: 'Virtual reality and artificial intelligence are being integrated into learning platforms'",
+      },
+      {
+        question: "Who benefits from the asynchronous learning model?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Only university students",
+          },
+          {
+            isCorrect: false,
+            option: "Only children",
+          },
+          {
+            isCorrect: true,
+            option: "Working professionals, parents, and remote area residents",
+          },
+          {
+            isCorrect: false,
+            option: "Only retired people",
+          },
+        ],
+        explanation:
+          "Trong bài: 'making education accessible to working professionals, parents, and those living in remote areas.'",
+      },
+      {
+        question: "What has accelerated the growth of online education?",
+        options: [
+          {
+            isCorrect: true,
+            option: "Improved internet and learning management systems",
+          },
+          {
+            isCorrect: false,
+            option: "Government regulations",
+          },
+          {
+            isCorrect: false,
+            option: "Decrease in traditional schools",
+          },
+          {
+            isCorrect: false,
+            option: "Higher unemployment rates",
+          },
+        ],
+        explanation:
+          "Trong bài: 'This shift has been accelerated by improved internet connectivity and the development of sophisticated learning management systems.'",
+      },
+      {
+        question: "What problem might arise from lack of direct supervision?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Better grades",
+          },
+          {
+            isCorrect: false,
+            option: "Faster learning",
+          },
+          {
+            isCorrect: true,
+            option: "Academic dishonesty",
+          },
+          {
+            isCorrect: false,
+            option: "More collaboration",
+          },
+        ],
+        explanation:
+          "Trong bài: 'the absence of direct supervision may lead to academic dishonesty in some cases.'",
+      },
+    ],
+  },
+  {
+    title: "Urban Gardening Benefits",
+    slug: "urban-gardening",
+    passage:
+      "Urban gardening has become increasingly popular in cities worldwide as people seek to reconnect with nature and improve their quality of life. These gardens can range from small balcony herb gardens to community plots in shared spaces, and even rooftop vegetable gardens. The movement represents more than just a hobby; it's a response to environmental concerns and a desire for healthier, more sustainable living.\n\nOne significant benefit of urban gardening is access to fresh, organic produce. Growing your own fruits and vegetables ensures you know exactly what goes into your food, free from harmful pesticides and chemicals. This is particularly valuable in cities where fresh produce can be expensive or difficult to obtain. Home-grown vegetables are also more nutritious, as they can be harvested at peak ripeness.\n\nUrban gardens also contribute to environmental sustainability. Plants help reduce the urban heat island effect by absorbing sunlight and providing shade. They improve air quality by filtering pollutants and producing oxygen. Additionally, urban gardens can reduce food miles – the distance food travels from farm to consumer – thereby lowering carbon emissions associated with transportation.\n\nBeyond the practical benefits, gardening provides significant mental health advantages. The act of nurturing plants and watching them grow can reduce stress and anxiety. Community gardens foster social connections, bringing neighbors together and creating a sense of belonging. For many city dwellers, these green spaces offer a peaceful retreat from the concrete jungle.",
+    questions: [
+      {
+        question: "What is described as more than just a hobby?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Cooking",
+          },
+          {
+            isCorrect: true,
+            option: "Urban gardening",
+          },
+          {
+            isCorrect: false,
+            option: "Walking",
+          },
+          {
+            isCorrect: false,
+            option: "Reading",
+          },
+        ],
+        explanation:
+          "Trong bài: 'The movement represents more than just a hobby'",
+      },
+      {
+        question: "Why are home-grown vegetables more nutritious?",
+        options: [
+          {
+            isCorrect: false,
+            option: "They are bigger",
+          },
+          {
+            isCorrect: false,
+            option: "They have more water",
+          },
+          {
+            isCorrect: true,
+            option: "They can be harvested at peak ripeness",
+          },
+          {
+            isCorrect: false,
+            option: "They use special soil",
+          },
+        ],
+        explanation:
+          "Trong bài: 'Home-grown vegetables are also more nutritious, as they can be harvested at peak ripeness.'",
+      },
+      {
+        question: "How do urban gardens help reduce carbon emissions?",
+        options: [
+          {
+            isCorrect: false,
+            option: "By producing electricity",
+          },
+          {
+            isCorrect: true,
+            option: "By reducing food miles and transportation needs",
+          },
+          {
+            isCorrect: false,
+            option: "By absorbing all pollution",
+          },
+          {
+            isCorrect: false,
+            option: "By replacing cars",
+          },
+        ],
+        explanation:
+          "Trong bài: 'urban gardens can reduce food miles...thereby lowering carbon emissions associated with transportation.'",
+      },
+      {
+        question: "What mental health benefit is mentioned?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Improved memory",
+          },
+          {
+            isCorrect: true,
+            option: "Reduced stress and anxiety",
+          },
+          {
+            isCorrect: false,
+            option: "Better sleep only",
+          },
+          {
+            isCorrect: false,
+            option: "Increased energy",
+          },
+        ],
+        explanation:
+          "Trong bài: 'The act of nurturing plants and watching them grow can reduce stress and anxiety.'",
+      },
+      {
+        question: "What do community gardens help create?",
+        options: [
+          {
+            isCorrect: false,
+            option: "Competition between neighbors",
+          },
+          {
+            isCorrect: true,
+            option: "Social connections and sense of belonging",
+          },
+          {
+            isCorrect: false,
+            option: "More traffic",
+          },
+          {
+            isCorrect: false,
+            option: "Higher property values only",
+          },
+        ],
+        explanation:
+          "Trong bài: 'Community gardens foster social connections, bringing neighbors together and creating a sense of belonging.'",
+      },
+      {
+        question: "How do plants help with the urban heat island effect?",
+        options: [
+          {
+            isCorrect: false,
+            option: "By creating wind",
+          },
+          {
+            isCorrect: false,
+            option: "By reflecting light",
+          },
+          {
+            isCorrect: true,
+            option: "By absorbing sunlight and providing shade",
+          },
+          {
+            isCorrect: false,
+            option: "By cooling the ground only",
+          },
+        ],
+        explanation:
+          "Trong bài: 'Plants help reduce the urban heat island effect by absorbing sunlight and providing shade.'",
+      },
+    ],
+  },
 ];
