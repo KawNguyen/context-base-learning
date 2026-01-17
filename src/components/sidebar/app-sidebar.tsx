@@ -70,7 +70,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         title: it.title,
         url: linkHref,
         icon: it.icon,
-        tag: (it as any).tag,
+        tag: it.tag,
         isActive: pathname === linkHref,
       };
     }
