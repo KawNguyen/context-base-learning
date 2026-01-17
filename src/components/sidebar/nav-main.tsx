@@ -46,24 +46,35 @@ export function NavMain({
           const forceSingle = item.title === "Quiz" || item.title === "Reading";
 
           if (hasSub && !forceSingle) {
+            // Check if any sub-item is currently active or if pathname starts with sub-item url
+            const hasActiveSubItem = item.items?.some(
+              (subItem) =>
+                pathname === subItem.url ||
+                pathname?.startsWith(subItem.url + "/"),
+            );
+            const isParentActive = item.isActive || hasActiveSubItem;
+
             return (
               <Collapsible
                 key={item.title}
                 asChild
-                defaultOpen={item.isActive}
+                defaultOpen={isParentActive}
                 className="group/collapsible"
               >
                 <SidebarMenuItem>
                   <CollapsibleTrigger asChild>
                     <SidebarMenuButton
                       tooltip={item.title}
-                      isActive={item.isActive}
+                      isActive={isParentActive}
                       className="cursor-pointer"
                     >
                       {item.icon && <item.icon />}
                       <span>{item.title}</span>
                       {item.tag && (
-                        <Badge variant="outline" className="ml-auto bg-yellow-100 text-yellow-800 rounded-full border border-yellow-200" >
+                        <Badge
+                          variant="outline"
+                          className="ml-auto bg-yellow-100 text-yellow-800 rounded-full border border-yellow-200"
+                        >
                           {item.tag}
                         </Badge>
                       )}
@@ -73,7 +84,9 @@ export function NavMain({
                   <CollapsibleContent>
                     <SidebarMenuSub>
                       {item.items?.map((subItem) => {
-                        const isSubActive = pathname === subItem.url;
+                        const isSubActive =
+                          pathname === subItem.url ||
+                          pathname?.startsWith(subItem.url + "/");
                         return (
                           <SidebarMenuSubItem key={subItem.title}>
                             <SidebarMenuSubButton
@@ -111,7 +124,10 @@ export function NavMain({
                   {item.icon && <item.icon />}
                   <span>{item.title}</span>
                   {item.tag && (
-                    <Badge variant="outline" className="ml-auto bg-gradient-to-r from-white to-blue-300 text-blue-500  rounded-full border border-blue-200">
+                    <Badge
+                      variant="outline"
+                      className="ml-auto bg-linear-to-r from-white to-blue-300 text-blue-500  rounded-full border border-blue-200"
+                    >
                       {item.tag}
                     </Badge>
                   )}

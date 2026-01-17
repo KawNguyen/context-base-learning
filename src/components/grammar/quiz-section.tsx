@@ -87,7 +87,8 @@ export function QuizSection({ topic }: QuizSectionProps) {
     return (
       <div className="p-8 text-center ">
         <p className="text-muted-foreground italic">
-          {error || "No quiz available for this topic yet."}
+          {/* {error || "No quiz available for this topic yet."} */}
+          No quiz available for this topic yet.
         </p>
       </div>
     );
