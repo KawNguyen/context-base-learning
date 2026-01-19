@@ -172,13 +172,18 @@ export const tricks: Trick[] = [
         rules: [
             { title: "Gerund After Preps", contentVi: "Luôn dùng V-ing sau giới từ (interested in, base on, looking forward to)." },
             { title: "Infinitive of Purpose", contentVi: "Dùng To V để chỉ mục đích (I went to the store to buy milk)." },
-            { title: "Meaning Change", contentVi: "Remember to V (Nhớ phải làm) vs Remember V-ing (Nhớ đã làm)." },
-            { title: "Meaning Change", contentVi: "Stop to V (Dừng lại để làm gì) vs Stop V-ing (Thôi không làm gì nữa)." },
+            { title: "Remember/Forget", contentVi: "To V (Nhớ/Quên phải làm việc gì) vs V-ing (Nhớ/Quên đã làm việc gì)." },
+            { title: "Stop", contentVi: "Stop to V (Dừng lại để làm gì) vs Stop V-ing (Thôi không làm việc gì nữa)." },
+            { title: "Regret", contentVi: "Regret to V (Lấy làm tiếc khi sắp thông báo gì) vs Regret V-ing (Hối hận vì đã làm gì)." },
+            { title: "Try", contentVi: "Try to V (Cố gắng làm gì) vs Try V-ing (Thử làm gì)." },
         ],
         examples: [
+            { en: "I forgot to lock the door.", vi: "Tôi quên khóa cửa (Chưa khóa)." },
+            { en: "I forgot locking the door.", vi: "Tôi quên là mình đã khóa cửa rồi (Khóa rồi nhưng không nhớ)." },
             { en: "I stopped smoking.", vi: "Tôi đã bỏ thuốc lá. (Stop V-ing)" },
             { en: "I stopped to smoke.", vi: "Tôi dừng lại để hút thuốc. (Stop to V)" },
-            { en: "I look forward to meeting you.", vi: "Tôi mong chờ được gặp bạn. (After prep 'to')" },
+            { en: "I regret to inform you that...", vi: "Tôi lấy làm tiếc phải thông báo với bạn rằng... (Sắp nói tin buồn)" },
+            { en: "I regret saying that.", vi: "Tôi hối hận vì đã nói điều đó. (Đã nói rồi)" },
         ],
     },
     {

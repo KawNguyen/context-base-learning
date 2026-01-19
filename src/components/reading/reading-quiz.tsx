@@ -19,6 +19,8 @@ interface ReadingQuizProps {
   currentQuestion: number;
   selectedAnswer: number | null;
   showExplanation: boolean;
+  shuffledOptions: { isCorrect: boolean; option: string }[];
+  newCorrectIndex: number | undefined;
   onAnswerSelect: (answerIndex: number) => void;
   onCheckAnswer: () => void;
   onNextQuestion: () => void;
@@ -31,6 +33,8 @@ export function ReadingQuiz({
   currentQuestion,
   selectedAnswer,
   showExplanation,
+  shuffledOptions,
+  newCorrectIndex,
   onAnswerSelect,
   onCheckAnswer,
   onNextQuestion,
@@ -38,15 +42,11 @@ export function ReadingQuiz({
 }: ReadingQuizProps) {
   const { words } = useInteractiveText(passage.passage);
 
-  // Shuffle options cho câu hỏi hiện tại
-  const currentOptions = passage.questions[currentQuestion].options;
-  const correctIndex = currentOptions.findIndex(
-    (o: { isCorrect: boolean }) => o.isCorrect
-  );
-  const { shuffledOptions, newCorrectIndex } = useShuffleOptions(
-    currentOptions,
-    correctIndex
-  );
+  // No longer shuffling here, it's done in the wrapper
+  // const currentOptions = passage.questions[currentQuestion].options;
+  // const correctOptionIndex = currentOptions.findIndex(
+  //   (o: { isCorrect: boolean }) => o.isCorrect
+  // );
 
   return (
     <div className="h-full">
@@ -144,7 +144,7 @@ export function ReadingQuiz({
                       key={index}
                       label={`${String.fromCharCode(65 + index)}.`}
                       isSelected={selectedAnswer === index}
-                      isCorrect={opt.isCorrect}
+                      isCorrect={showExplanation && index === newCorrectIndex}
                       isSubmitted={showExplanation}
                       onClick={() => onAnswerSelect(index)}
                       variant="standard"

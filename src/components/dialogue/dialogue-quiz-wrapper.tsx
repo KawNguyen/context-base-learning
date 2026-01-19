@@ -206,10 +206,7 @@ export function DialogueQuizWrapper({
             {showExplanation && (
               <>
                 <ExplanationAlert
-                  isCorrect={
-                    selectedAnswer ===
-                    dialogue.questions[currentQuestion].correct
-                  }
+                  isCorrect={selectedAnswer === newCorrectIndex}
                 >
                   {dialogue.questions[currentQuestion].explanation}
                 </ExplanationAlert>

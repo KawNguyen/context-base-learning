@@ -69,12 +69,10 @@ export function QuizInterface({ level }: QuizInterfaceProps) {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  // Tính điểm - sử dụng correctIndex từ API
+  // Tính điểm - sử dụng isCorrect từ property của option
   const score = Object.entries(selectedAnswers).filter(([qIdx, optIdx]) => {
-    const question = levelQuestions[Number(qIdx)] as unknown as {
-      correctIndex: number;
-    };
-    return optIdx === question.correctIndex;
+    const question = levelQuestions[Number(qIdx)];
+    return question?.options?.[optIdx]?.isCorrect;
   }).length;
 
   const answeredCount = Object.keys(selectedAnswers).length;

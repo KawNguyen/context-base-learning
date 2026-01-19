@@ -5,6 +5,7 @@ import { ReadingPassage } from "@/constants/reading";
 import { ReadingQuiz } from "./reading-quiz";
 import { QuizCompleted } from "./quiz-completed";
 import { CEFRLevel } from "@/types";
+import { useShuffleOptions } from "@/hooks/use-shuffle-options";
 
 interface ReadingQuizWrapperProps {
   passage: ReadingPassage;
@@ -24,6 +25,12 @@ export function ReadingQuizWrapper({
     new Array(passage.questions.length).fill(-1),
   );
 
+  // Shuffle options cho câu hỏi hiện tại
+  const { shuffledOptions, newCorrectIndex } = useShuffleOptions(
+    passage.questions[currentQuestion].options,
+    passage.questions[currentQuestion].options.findIndex((o) => o.isCorrect)
+  );
+
   const handleAnswerSelect = (answerIndex: number) => {
     setSelectedAnswer(answerIndex);
   };
@@ -37,10 +44,7 @@ export function ReadingQuizWrapper({
       copy[currentQuestion] = selectedAnswer;
       return copy;
     });
-    if (
-      selectedAnswer ===
-      passage.questions[currentQuestion].options.findIndex((o) => o.isCorrect)
-    ) {
+    if (selectedAnswer === newCorrectIndex) {
       setScore(score + 1);
     }
   };
@@ -99,6 +103,8 @@ export function ReadingQuizWrapper({
       currentQuestion={currentQuestion}
       selectedAnswer={selectedAnswer}
       showExplanation={showExplanation}
+      shuffledOptions={shuffledOptions}
+      newCorrectIndex={newCorrectIndex}
       onAnswerSelect={handleAnswerSelect}
       onCheckAnswer={handleCheckAnswer}
       onNextQuestion={handleNextQuestion}
