@@ -3,9 +3,9 @@ import { Question } from "../types";
 export const questions: Question[] = [
   {
     id: "C2-0001",
-    questionEn: "Had it not been for the alarm, I ____ slept.",
+    questionEn: "Had it not been for the alarm, I _____ slept.",
     questionVi:
-      "Nếu không nhờ có tiếng chuông báo thức, tôi ____ đã ngủ quên rồi.",
+      "Nếu không nhờ có tiếng chuông báo thức, tôi _____ đã ngủ quên rồi.",
     options: [
       { option: "would have", isCorrect: true },
       { option: "would", isCorrect: false },
@@ -17,8 +17,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0002",
-    questionEn: "So great ____ the demand that we sold out.",
-    questionVi: "Nhu cầu ____ lớn đến nỗi chúng tôi đã bán sạch hàng.",
+    questionEn: "So great _____ the demand that we sold out.",
+    questionVi: "Nhu cầu _____ lớn đến nỗi chúng tôi đã bán sạch hàng.",
     options: [
       { option: "was", isCorrect: true },
       { option: "is", isCorrect: false },
@@ -30,8 +30,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0003",
-    questionEn: "Such ____ the noise that I couldn't hear.",
-    questionVi: "Tiếng ồn ____ lớn đến nỗi tôi không thể nghe thấy gì cả.",
+    questionEn: "Such _____ the noise that I couldn't hear.",
+    questionVi: "Tiếng ồn _____ lớn đến nỗi tôi không thể nghe thấy gì cả.",
     options: [
       { option: "was", isCorrect: true },
       { option: "is", isCorrect: false },
@@ -43,8 +43,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0004",
-    questionEn: "Rarely ____ visited by such a dignitary.",
-    questionVi: "Hiếm khi ____ chúng ta được một vị chức sắc như vậy đến thăm.",
+    questionEn: "Rarely _____ visited by such a dignitary.",
+    questionVi: "Hiếm khi _____ chúng ta được một vị chức sắc như vậy đến thăm.",
     options: [
       { option: "have we been", isCorrect: true },
       { option: "we have been", isCorrect: false },
@@ -56,8 +56,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0005",
-    questionEn: "Not for a moment ____ I suspect him.",
-    questionVi: "Chưa một giây phút nào ____ tôi nghi ngờ anh ta.",
+    questionEn: "Not for a moment _____ I suspect him.",
+    questionVi: "Chưa một giây phút nào _____ tôi nghi ngờ anh ta.",
     options: [
       { option: "did", isCorrect: true },
       { option: "do", isCorrect: false },
@@ -69,8 +69,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0006",
-    questionEn: "Only when ____ the report did I understand.",
-    questionVi: "Chỉ khi ____ đọc xong báo cáo, tôi mới hiểu ra vấn đề.",
+    questionEn: "Only when _____ the report did I understand.",
+    questionVi: "Chỉ khi _____ đọc xong báo cáo, tôi mới hiểu ra vấn đề.",
     options: [
       { option: "I had read", isCorrect: true },
       { option: "I read", isCorrect: false },
@@ -82,9 +82,9 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0007",
-    questionEn: "____ I to accept the offer, I would move.",
+    questionEn: "_____ I to accept the offer, I would move.",
     questionVi:
-      "Nếu ____ tôi chấp nhận lời đề nghị đó, tôi sẽ chuyển đi nơi khác.",
+      "Nếu _____ tôi chấp nhận lời đề nghị đó, tôi sẽ chuyển đi nơi khác.",
     options: [
       { option: "Were", isCorrect: true },
       { option: "Was", isCorrect: false },
@@ -96,8 +96,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0008",
-    questionEn: "Should you ____ change your mind, let me know.",
-    questionVi: "Nếu bạn ____ có thay đổi ý định, hãy cho tôi biết nhé.",
+    questionEn: "Should you _____ change your mind, let me know.",
+    questionVi: "Nếu bạn _____ có thay đổi ý định, hãy cho tôi biết nhé.",
     options: [
       { option: "happen to", isCorrect: true },
       { option: "happened to", isCorrect: false },
@@ -109,8 +109,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0009",
-    questionEn: "If I ____ to have known, I would have acted.",
-    questionVi: "Nếu ____ tôi mà biết được chuyện đó, tôi đã hành động rồi.",
+    questionEn: "If I _____ to have known, I would have acted.",
+    questionVi: "Nếu _____ tôi mà biết được chuyện đó, tôi đã hành động rồi.",
     options: [
       { option: "was", isCorrect: false },
       { option: "were", isCorrect: true },
@@ -122,8 +122,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0010",
-    questionEn: "Suppose he ____ you, what would you say?",
-    questionVi: "Giả sử anh ta ____ hỏi bạn, bạn sẽ nói gì?",
+    questionEn: "Suppose he _____ you, what would you say?",
+    questionVi: "Giả sử anh ta _____ hỏi bạn, bạn sẽ nói gì?",
     options: [
       { option: "asking", isCorrect: false },
       { option: "asked", isCorrect: true },
@@ -135,9 +135,9 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0011",
-    questionEn: "It is essential that he ____ immediately.",
+    questionEn: "It is essential that he _____ immediately.",
     questionVi:
-      "Việc anh ấy ____ phải được thông báo ngay lập tức là rất quan trọng.",
+      "Việc anh ấy _____ phải được thông báo ngay lập tức là rất quan trọng.",
     options: [
       { option: "be informed", isCorrect: true },
       { option: "is informed", isCorrect: false },
@@ -149,8 +149,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0012",
-    questionEn: "I proposed that the meeting ____ postponed.",
-    questionVi: "Tôi đề nghị rằng cuộc họp ____ cần được hoãn lại.",
+    questionEn: "I proposed that the meeting _____ postponed.",
+    questionVi: "Tôi đề nghị rằng cuộc họp _____ cần được hoãn lại.",
     options: [
       { option: "be", isCorrect: true },
       { option: "is", isCorrect: false },
@@ -162,8 +162,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0013",
-    questionEn: "The building is reported ____ destroyed.",
-    questionVi: "Tòa nhà được báo cáo là ____ đã bị phá hủy.",
+    questionEn: "The building is reported _____ destroyed.",
+    questionVi: "Tòa nhà được báo cáo là _____ đã bị phá hủy.",
     options: [
       { option: "to have been", isCorrect: true },
       { option: "to be", isCorrect: false },
@@ -175,9 +175,9 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0014",
-    questionEn: "He is said ____ working on a new book.",
+    questionEn: "He is said _____ working on a new book.",
     questionVi:
-      "Người ta nói rằng anh ấy ____ đang thực hiện một cuốn sách mới.",
+      "Người ta nói rằng anh ấy _____ đang thực hiện một cuốn sách mới.",
     options: [
       { option: "to be", isCorrect: true },
       { option: "to have been", isCorrect: false },
@@ -189,8 +189,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0015",
-    questionEn: "She is alleged ____ the money.",
-    questionVi: "Cô ấy ____ bị cáo buộc là đã lấy trộm số tiền đó.",
+    questionEn: "She is alleged _____ the money.",
+    questionVi: "Cô ấy _____ bị cáo buộc là đã lấy trộm số tiền đó.",
     options: [
       { option: "to have stolen", isCorrect: true },
       { option: "staling", isCorrect: false },
@@ -202,8 +202,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0016",
-    questionEn: "There is no ____ what will happen.",
-    questionVi: "Không thể ____ biết được chuyện gì sẽ xảy ra.",
+    questionEn: "There is no _____ what will happen.",
+    questionVi: "Không thể _____ biết được chuyện gì sẽ xảy ra.",
     options: [
       { option: "knowing", isCorrect: true },
       { option: "knowledge", isCorrect: false },
@@ -215,8 +215,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0017",
-    questionEn: "It goes without ____ that health is wealth.",
-    questionVi: "Không cần ____ phải nói cũng biết sức khỏe là vốn quý nhất.",
+    questionEn: "It goes without _____ that health is wealth.",
+    questionVi: "Không cần _____ phải nói cũng biết sức khỏe là vốn quý nhất.",
     options: [
       { option: "saying", isCorrect: true },
       { option: "say", isCorrect: false },
@@ -228,8 +228,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0018",
-    questionEn: "I can't help but ____.",
-    questionVi: "Tôi không thể ____ không thắc mắc được.",
+    questionEn: "I can't help but _____.",
+    questionVi: "Tôi không thể _____ không thắc mắc được.",
     options: [
       { option: "wonder", isCorrect: true },
       { option: "wondering", isCorrect: false },
@@ -241,8 +241,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0019",
-    questionEn: "I would rather you ____ yesterday.",
-    questionVi: "Tôi muốn là bạn ____ đã không gọi cho tôi vào ngày hôm qua.",
+    questionEn: "I would rather you _____ yesterday.",
+    questionVi: "Tôi muốn là bạn _____ đã không gọi cho tôi vào ngày hôm qua.",
     options: [
       { option: "hadn't called", isCorrect: true },
       { option: "didn't call", isCorrect: false },
@@ -254,8 +254,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0020",
-    questionEn: "It is time you ____ home.",
-    questionVi: "Đã đến lúc bạn ____ phải về nhà rồi.",
+    questionEn: "It is time you _____ home.",
+    questionVi: "Đã đến lúc bạn _____ phải về nhà rồi.",
     options: [
       { option: "went", isCorrect: true },
       { option: "go", isCorrect: false },
@@ -267,8 +267,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0021",
-    questionEn: "I prefer ____ rather than watch TV.",
-    questionVi: "Tôi thích ____ đọc sách hơn là xem TV.",
+    questionEn: "I prefer _____ rather than watch TV.",
+    questionVi: "Tôi thích _____ đọc sách hơn là xem TV.",
     options: [
       { option: "to read", isCorrect: true },
       { option: "reading", isCorrect: false },
@@ -280,8 +280,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0022",
-    questionEn: "He objects to ____ like a child.",
-    questionVi: "Anh ấy phản đối ____ việc bị đối xử như một đứa trẻ.",
+    questionEn: "He objects to _____ like a child.",
+    questionVi: "Anh ấy phản đối _____ việc bị đối xử như một đứa trẻ.",
     options: [
       { option: "being treated", isCorrect: true },
       { option: "treat", isCorrect: false },
@@ -293,8 +293,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0023",
-    questionEn: "I look forward to ____ acceptable.",
-    questionVi: "Tôi mong ____ sẽ được xem xét là người phù hợp.",
+    questionEn: "I look forward to _____ acceptable.",
+    questionVi: "Tôi mong _____ sẽ được xem xét là người phù hợp.",
     options: [
       { option: "being considered", isCorrect: true },
       { option: "consider", isCorrect: false },
@@ -306,8 +306,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0024",
-    questionEn: "Despite ____ elected, he resigned.",
-    questionVi: "Mặc dù ____ đã đắc cử, ông ấy vẫn từ chức.",
+    questionEn: "Despite _____ elected, he resigned.",
+    questionVi: "Mặc dù _____ đã đắc cử, ông ấy vẫn từ chức.",
     options: [
       { option: "having been", isCorrect: true },
       { option: "being", isCorrect: false },
@@ -319,9 +319,9 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0025",
-    questionEn: "____ warned, he persisted.",
+    questionEn: "_____ warned, he persisted.",
     questionVi:
-      "Mặc dù ____ đã được cảnh báo, anh ta vẫn khăng khăng làm theo ý mình.",
+      "Mặc dù _____ đã được cảnh báo, anh ta vẫn khăng khăng làm theo ý mình.",
     options: [
       { option: "Having been", isCorrect: true },
       { option: "Being", isCorrect: false },
@@ -333,8 +333,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0026",
-    questionEn: "Buying a house involves ____ a mortgage.",
-    questionVi: "Mua nhà ____ bao gồm cả việc phải gánh một khoản nợ thế chấp.",
+    questionEn: "Buying a house involves _____ a mortgage.",
+    questionVi: "Mua nhà _____ bao gồm cả việc phải gánh một khoản nợ thế chấp.",
     options: [
       { option: "getting", isCorrect: true },
       { option: "to get", isCorrect: false },
@@ -346,8 +346,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0027",
-    questionEn: "It is no use ____ over spilt milk.",
-    questionVi: "Thật vô ích khi ____ phải hối tiếc về những gì đã trôi qua.",
+    questionEn: "It is no use _____ over spilt milk.",
+    questionVi: "Thật vô ích khi _____ phải hối tiếc về những gì đã trôi qua.",
     options: [
       { option: "crying", isCorrect: true },
       { option: "cry", isCorrect: false },
@@ -359,8 +359,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0028",
-    questionEn: "There's no point ____ him.",
-    questionVi: "Chẳng ích gì khi ____ hỏi anh ta cả.",
+    questionEn: "There's no point _____ him.",
+    questionVi: "Chẳng ích gì khi _____ hỏi anh ta cả.",
     options: [
       { option: "asking", isCorrect: true },
       { option: "ask", isCorrect: false },
@@ -372,8 +372,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0029",
-    questionEn: "It is worth ____ a try.",
-    questionVi: "Rất đáng ____ để thử một lần.",
+    questionEn: "It is worth _____ a try.",
+    questionVi: "Rất đáng _____ để thử một lần.",
     options: [
       { option: "giving", isCorrect: true },
       { option: "give", isCorrect: false },
@@ -385,8 +385,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0030",
-    questionEn: "I have trouble ____ my keys.",
-    questionVi: "Tôi gặp rắc rối trong ____ việc tìm chìa khóa của mình.",
+    questionEn: "I have trouble _____ my keys.",
+    questionVi: "Tôi gặp rắc rối trong _____ việc tìm chìa khóa của mình.",
     options: [
       { option: "finding", isCorrect: true },
       { option: "find", isCorrect: false },
@@ -398,8 +398,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0031",
-    questionEn: "She admitted ____ a mistake.",
-    questionVi: "Cô ấy đã thừa nhận ____ là mình đã phạm sai lầm.",
+    questionEn: "She admitted _____ a mistake.",
+    questionVi: "Cô ấy đã thừa nhận _____ là mình đã phạm sai lầm.",
     options: [
       { option: "having made", isCorrect: true },
       { option: "making", isCorrect: false },
@@ -411,8 +411,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0032",
-    questionEn: "He denied ____ the crime.",
-    questionVi: "Anh ta đã phủ nhận ____ việc phạm tội.",
+    questionEn: "He denied _____ the crime.",
+    questionVi: "Anh ta đã phủ nhận _____ việc phạm tội.",
     options: [
       { option: "having committed", isCorrect: true },
       { option: "committing", isCorrect: false },
@@ -424,8 +424,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0033",
-    questionEn: "I regret ____ your feelings.",
-    questionVi: "Tôi hối hận vì ____ đã làm tổn thương cảm xúc của bạn.",
+    questionEn: "I regret _____ your feelings.",
+    questionVi: "Tôi hối hận vì _____ đã làm tổn thương cảm xúc của bạn.",
     options: [
       { option: "having hurt", isCorrect: true },
       { option: "hurting", isCorrect: false },
@@ -437,8 +437,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0034",
-    questionEn: "He was accused of ____ documents.",
-    questionVi: "Anh ta đã bị cáo buộc là ____ làm giả giấy tờ.",
+    questionEn: "He was accused of _____ documents.",
+    questionVi: "Anh ta đã bị cáo buộc là _____ làm giả giấy tờ.",
     options: [
       { option: "having forged", isCorrect: true },
       { option: "forging", isCorrect: false },
@@ -450,8 +450,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0035",
-    questionEn: "____ the work, he rested.",
-    questionVi: "Sau khi ____ làm xong việc, anh ấy đã nghỉ ngơi.",
+    questionEn: "_____ the work, he rested.",
+    questionVi: "Sau khi _____ làm xong việc, anh ấy đã nghỉ ngơi.",
     options: [
       { option: "Having done", isCorrect: true },
       { option: "Doing", isCorrect: false },
@@ -463,9 +463,9 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0036",
-    questionEn: "The book, ____ in 1990, is a classic.",
+    questionEn: "The book, _____ in 1990, is a classic.",
     questionVi:
-      "Cuốn sách ____ được viết vào năm 1990, là một tác phẩm kinh điển.",
+      "Cuốn sách _____ được viết vào năm 1990, là một tác phẩm kinh điển.",
     options: [
       { option: "written", isCorrect: true },
       { option: "writing", isCorrect: false },
@@ -477,8 +477,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0037",
-    questionEn: "The man ____ over there is my boss.",
-    questionVi: "Người đàn ông ____ đang đứng ở đằng kia là sếp của tôi.",
+    questionEn: "The man _____ over there is my boss.",
+    questionVi: "Người đàn ông _____ đang đứng ở đằng kia là sếp của tôi.",
     options: [
       { option: "standing", isCorrect: true },
       { option: "stood", isCorrect: false },
@@ -490,8 +490,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0038",
-    questionEn: "Strictly ____, spiders are not insects.",
-    questionVi: "Nói ____ một cách chính xác thì nhện không phải là côn trùng.",
+    questionEn: "Strictly _____, spiders are not insects.",
+    questionVi: "Nói _____ một cách chính xác thì nhện không phải là côn trùng.",
     options: [
       { option: "speaking", isCorrect: true },
       { option: "speak", isCorrect: false },
@@ -503,8 +503,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0039",
-    questionEn: "Granted that he is old, ____ he is strong.",
-    questionVi: "Cứ cho là ông ấy đã già, ____ nhưng ông ấy vẫn rất khỏe.",
+    questionEn: "Granted that he is old, _____ he is strong.",
+    questionVi: "Cứ cho là ông ấy đã già, _____ nhưng ông ấy vẫn rất khỏe.",
     options: [
       { option: "yet", isCorrect: true },
       { option: "so", isCorrect: false },
@@ -516,8 +516,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0040",
-    questionEn: "Seeing that you are here, ____ start.",
-    questionVi: "Xét thấy bạn đang ở đây, chúng ta ____ hãy bắt đầu thôi.",
+    questionEn: "Seeing that you are here, _____ start.",
+    questionVi: "Xét thấy bạn đang ở đây, chúng ta _____ hãy bắt đầu thôi.",
     options: [
       { option: "let's", isCorrect: true },
       { option: "we", isCorrect: false },
@@ -529,8 +529,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0041",
-    questionEn: "Given the circumstances, we ____ wait.",
-    questionVi: "Dựa trên hoàn cảnh này, chúng ta ____ nên chờ đợi.",
+    questionEn: "Given the circumstances, we _____ wait.",
+    questionVi: "Dựa trên hoàn cảnh này, chúng ta _____ nên chờ đợi.",
     options: [
       { option: "must", isCorrect: true },
       { option: "can", isCorrect: false },
@@ -542,9 +542,9 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0042",
-    questionEn: "____ for his help, I would have failed.",
+    questionEn: "_____ for his help, I would have failed.",
     questionVi:
-      "Nếu ____ không nhờ có sự giúp đỡ của anh ấy, tôi đã thất bại rồi.",
+      "Nếu _____ không nhờ có sự giúp đỡ của anh ấy, tôi đã thất bại rồi.",
     options: [
       { option: "But", isCorrect: true },
       { option: "If", isCorrect: false },
@@ -556,8 +556,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0043",
-    questionEn: "____ I known, I would have come.",
-    questionVi: "Phải ____ chi tôi biết chuyện, tôi đã đến rồi.",
+    questionEn: "_____ I known, I would have come.",
+    questionVi: "Phải _____ chi tôi biết chuyện, tôi đã đến rồi.",
     options: [
       { option: "Had", isCorrect: true },
       { option: "If", isCorrect: false },
@@ -569,9 +569,9 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0044",
-    questionEn: "On no account ____ you tell him.",
+    questionEn: "On no account _____ you tell him.",
     questionVi:
-      "Dù trong bất kỳ hoàn cảnh nào, bạn ____ không được nói cho anh ta biết.",
+      "Dù trong bất kỳ hoàn cảnh nào, bạn _____ không được nói cho anh ta biết.",
     options: [
       { option: "must", isCorrect: true },
       { option: "should", isCorrect: false },
@@ -583,9 +583,9 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0045",
-    questionEn: "Whatever the reason ____ be, I don't care.",
+    questionEn: "Whatever the reason _____ be, I don't care.",
     questionVi:
-      "Dù cho lý do ____ có là gì đi chăng nữa, tôi cũng không quan tâm.",
+      "Dù cho lý do _____ có là gì đi chăng nữa, tôi cũng không quan tâm.",
     options: [
       { option: "may", isCorrect: true },
       { option: "can", isCorrect: false },
@@ -597,8 +597,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0046",
-    questionEn: "Be that ____, I disagree.",
-    questionVi: "Dù ____ có là như vậy đi nữa, tôi vẫn không đồng ý.",
+    questionEn: "Be that _____, I disagree.",
+    questionVi: "Dù _____ có là như vậy đi nữa, tôi vẫn không đồng ý.",
     options: [
       { option: "as it may", isCorrect: true },
       { option: "so", isCorrect: false },
@@ -610,8 +610,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0047",
-    questionEn: "Come ____ may, I'll stay.",
-    questionVi: "Cho dù chuyện gì ____ có xảy ra đi nữa, tôi vẫn sẽ ở lại.",
+    questionEn: "Come _____ may, I'll stay.",
+    questionVi: "Cho dù chuyện gì _____ có xảy ra đi nữa, tôi vẫn sẽ ở lại.",
     options: [
       { option: "what", isCorrect: true },
       { option: "when", isCorrect: false },
@@ -623,8 +623,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0048",
-    questionEn: "____ it to say, he failed.",
-    questionVi: "Chỉ ____ cần nói là anh ta đã thất bại.",
+    questionEn: "_____ it to say, he failed.",
+    questionVi: "Chỉ _____ cần nói là anh ta đã thất bại.",
     options: [
       { option: "Suffice", isCorrect: true },
       { option: "Suffices", isCorrect: false },
@@ -636,8 +636,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0049",
-    questionEn: "God ____ you!",
-    questionVi: "Cầu Chúa ____ phù hộ cho bạn!",
+    questionEn: "God _____ you!",
+    questionVi: "Cầu Chúa _____ phù hộ cho bạn!",
     options: [
       { option: "bless", isCorrect: true },
       { option: "blesses", isCorrect: false },
@@ -649,8 +649,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0050",
-    questionEn: "Long ____ the King!",
-    questionVi: "Đức vua ____ vạn tuế!",
+    questionEn: "Long _____ the King!",
+    questionVi: "Đức vua _____ vạn tuế!",
     options: [
       { option: "live", isCorrect: true },
       { option: "lives", isCorrect: false },
@@ -662,8 +662,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0051",
-    questionEn: "I suggest he ____ a doctor.",
-    questionVi: "Tôi đề nghị anh ấy ____ nên đi khám bác sĩ.",
+    questionEn: "I suggest he _____ a doctor.",
+    questionVi: "Tôi đề nghị anh ấy _____ nên đi khám bác sĩ.",
     options: [
       { option: "see", isCorrect: true },
       { option: "sees", isCorrect: false },
@@ -675,8 +675,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0052",
-    questionEn: "If need ____, I'll go.",
-    questionVi: "Nếu cần ____ thiết, tôi sẽ đi.",
+    questionEn: "If need _____, I'll go.",
+    questionVi: "Nếu cần _____ thiết, tôi sẽ đi.",
     options: [
       { option: "be", isCorrect: true },
       { option: "is", isCorrect: false },
@@ -688,8 +688,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0053",
-    questionEn: "As it ____, we are winning.",
-    questionVi: "Cứ như ____ là vậy, chúng ta đang chiến thắng.",
+    questionEn: "As it _____, we are winning.",
+    questionVi: "Cứ như _____ là vậy, chúng ta đang chiến thắng.",
     options: [
       { option: "were", isCorrect: true },
       { option: "is", isCorrect: false },
@@ -701,8 +701,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0054",
-    questionEn: "If I were ____ fly, I would.",
-    questionVi: "Nếu tôi ____ biết bay, tôi sẽ làm vậy.",
+    questionEn: "If I were _____ fly, I would.",
+    questionVi: "Nếu tôi _____ biết bay, tôi sẽ làm vậy.",
     options: [
       { option: "to", isCorrect: true },
       { option: "for", isCorrect: false },
@@ -714,8 +714,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0055",
-    questionEn: "Suppose you ____ won, what then?",
-    questionVi: "Giả sử bạn ____ đã thắng, thì sau đó thế nào?",
+    questionEn: "Suppose you _____ won, what then?",
+    questionVi: "Giả sử bạn _____ đã thắng, thì sau đó thế nào?",
     options: [
       { option: "had", isCorrect: true },
       { option: "have", isCorrect: false },
@@ -727,8 +727,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0056",
-    questionEn: "I wish I ____ born rich.",
-    questionVi: "Tôi ước gì mình ____ đã sinh ra trong giàu sang.",
+    questionEn: "I wish I _____ born rich.",
+    questionVi: "Tôi ước gì mình _____ đã sinh ra trong giàu sang.",
     options: [
       { option: "had been", isCorrect: true },
       { option: "was", isCorrect: false },
@@ -740,8 +740,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0057",
-    questionEn: "If only I ____ listened.",
-    questionVi: "Giá mà tôi ____ đã chịu lắng nghe.",
+    questionEn: "If only I _____ listened.",
+    questionVi: "Giá mà tôi _____ đã chịu lắng nghe.",
     options: [
       { option: "had", isCorrect: true },
       { option: "have", isCorrect: false },
@@ -753,8 +753,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0058",
-    questionEn: "I prefer that he ____ nothing.",
-    questionVi: "Tôi muốn anh ấy ____ đừng làm gì cả.",
+    questionEn: "I prefer that he _____ nothing.",
+    questionVi: "Tôi muốn anh ấy _____ đừng làm gì cả.",
     options: [
       { option: "do", isCorrect: true },
       { option: "does", isCorrect: false },
@@ -766,8 +766,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0059",
-    questionEn: "Request that she ____ allowed.",
-    questionVi: "Yêu cầu cô ấy ____ phải được phép.",
+    questionEn: "Request that she _____ allowed.",
+    questionVi: "Yêu cầu cô ấy _____ phải được phép.",
     options: [
       { option: "be", isCorrect: true },
       { option: "is", isCorrect: false },
@@ -779,8 +779,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0060",
-    questionEn: "It is vital that he ____ informed.",
-    questionVi: "Điều quan trọng là anh ấy ____ phải được thông báo.",
+    questionEn: "It is vital that he _____ informed.",
+    questionVi: "Điều quan trọng là anh ấy _____ phải được thông báo.",
     options: [
       { option: "be", isCorrect: true },
       { option: "is", isCorrect: false },
@@ -792,9 +792,9 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0061",
-    questionEn: "Lest he ____ forget, remind him.",
+    questionEn: "Lest he _____ forget, remind him.",
     questionVi:
-      "Để phòng trường hợp anh ấy ____ quên, hãy nhắc nhở anh ấy nhé.",
+      "Để phòng trường hợp anh ấy _____ quên, hãy nhắc nhở anh ấy nhé.",
     options: [
       { option: "should", isCorrect: true },
       { option: "would", isCorrect: false },
@@ -806,8 +806,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0062",
-    questionEn: "For fear that he ____ fall.",
-    questionVi: "Vì sợ rằng anh ta ____ có thể bị ngã.",
+    questionEn: "For fear that he _____ fall.",
+    questionVi: "Vì sợ rằng anh ta _____ có thể bị ngã.",
     options: [
       { option: "might", isCorrect: true },
       { option: "will", isCorrect: false },
@@ -819,8 +819,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0063",
-    questionEn: "Whether it ____ true or not, it's funny.",
-    questionVi: "Dù điều đó ____ có là thật hay không, nó vẫn thật buồn cười.",
+    questionEn: "Whether it _____ true or not, it's funny.",
+    questionVi: "Dù điều đó _____ có là thật hay không, nó vẫn thật buồn cười.",
     options: [
       { option: "be", isCorrect: true },
       { option: "is", isCorrect: false },
@@ -832,8 +832,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0064",
-    questionEn: "Truth ____ told, I hate it.",
-    questionVi: "Thú thực ____ là tôi ghét nó.",
+    questionEn: "Truth _____ told, I hate it.",
+    questionVi: "Thú thực _____ là tôi ghét nó.",
     options: [
       { option: "be", isCorrect: true },
       { option: "is", isCorrect: false },
@@ -845,8 +845,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0065",
-    questionEn: "Far ____ it from me to criticize.",
-    questionVi: "Tôi ____ không hề có ý định chỉ trích đâu.",
+    questionEn: "Far _____ it from me to criticize.",
+    questionVi: "Tôi _____ không hề có ý định chỉ trích đâu.",
     options: [
       { option: "be", isCorrect: true },
       { option: "is", isCorrect: false },
@@ -858,8 +858,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0066",
-    questionEn: "____ it so.",
-    questionVi: "Cứ ____ quyết định như vậy đi.",
+    questionEn: "_____ it so.",
+    questionVi: "Cứ _____ quyết định như vậy đi.",
     options: [
       { option: "So be", isCorrect: true },
       { option: "Be so", isCorrect: false },
@@ -871,8 +871,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0067",
-    questionEn: "Manner ____, he is rude.",
-    questionVi: "Gác chuyện thái ____ độ sang một bên, anh ta thật thô lỗ.",
+    questionEn: "Manner _____, he is rude.",
+    questionVi: "Gác chuyện thái _____ độ sang một bên, anh ta thật thô lỗ.",
     options: [
       { option: "aside", isCorrect: true },
       { option: "apart", isCorrect: false },
@@ -884,8 +884,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0068",
-    questionEn: "Joking ____, be serious.",
-    questionVi: "Gác chuyện đùa ____ cợt sang một bên, hãy nghiêm túc nào.",
+    questionEn: "Joking _____, be serious.",
+    questionVi: "Gác chuyện đùa _____ cợt sang một bên, hãy nghiêm túc nào.",
     options: [
       { option: "apart", isCorrect: true },
       { option: "aside", isCorrect: false },
@@ -897,8 +897,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0069",
-    questionEn: "All things ____, it's good.",
-    questionVi: "Sau khi ____ cân nhắc mọi thứ, nó vẫn là tốt.",
+    questionEn: "All things _____, it's good.",
+    questionVi: "Sau khi _____ cân nhắc mọi thứ, nó vẫn là tốt.",
     options: [
       { option: "considered", isCorrect: true },
       { option: "considering", isCorrect: false },
@@ -910,8 +910,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0070",
-    questionEn: "That ____ said, I agree.",
-    questionVi: "Nói ____ là vậy, nhưng tôi đồng ý.",
+    questionEn: "That _____ said, I agree.",
+    questionVi: "Nói _____ là vậy, nhưng tôi đồng ý.",
     options: [
       { option: "being", isCorrect: true },
       { option: "been", isCorrect: false },
@@ -923,8 +923,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0071",
-    questionEn: "Weather ____, we'll go.",
-    questionVi: "Nếu thời ____ tiết cho phép, chúng tôi sẽ đi.",
+    questionEn: "Weather _____, we'll go.",
+    questionVi: "Nếu thời _____ tiết cho phép, chúng tôi sẽ đi.",
     options: [
       { option: "permitting", isCorrect: true },
       { option: "permits", isCorrect: false },
@@ -936,8 +936,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0072",
-    questionEn: "God ____, we will succeed.",
-    questionVi: "Nếu ý ____ Chúa muốn, chúng ta sẽ thành công.",
+    questionEn: "God _____, we will succeed.",
+    questionVi: "Nếu ý _____ Chúa muốn, chúng ta sẽ thành công.",
     options: [
       { option: "willing", isCorrect: true },
       { option: "wills", isCorrect: false },
@@ -949,8 +949,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0073",
-    questionEn: "Not ____ the point, but...",
-    questionVi: "Không ____ muốn nói dông dài, nhưng...",
+    questionEn: "Not _____ the point, but...",
+    questionVi: "Không _____ muốn nói dông dài, nhưng...",
     options: [
       { option: "to labour", isCorrect: true },
       { option: "labouring", isCorrect: false },
@@ -962,8 +962,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0074",
-    questionEn: "To ____ it mildly, it was bad.",
-    questionVi: "Nói ____ một cách nhẹ nhàng thì nó thật tệ.",
+    questionEn: "To _____ it mildly, it was bad.",
+    questionVi: "Nói _____ một cách nhẹ nhàng thì nó thật tệ.",
     options: [
       { option: "put", isCorrect: true },
       { option: "say", isCorrect: false },
@@ -975,8 +975,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0075",
-    questionEn: "Needless ____, he failed.",
-    questionVi: "Không cần ____ phải nói, anh ta đã thất bại.",
+    questionEn: "Needless _____, he failed.",
+    questionVi: "Không cần _____ phải nói, anh ta đã thất bại.",
     options: [
       { option: "to say", isCorrect: true },
       { option: "saying", isCorrect: false },
@@ -988,8 +988,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0076",
-    questionEn: "Whatever the cost ____ be, do it.",
-    questionVi: "Dù ____ giá nào đi chăng nữa, hãy cứ làm đi.",
+    questionEn: "Whatever the cost _____ be, do it.",
+    questionVi: "Dù _____ giá nào đi chăng nữa, hãy cứ làm đi.",
     options: [
       { option: "may", isCorrect: true },
       { option: "will", isCorrect: false },
@@ -1001,8 +1001,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0077",
-    questionEn: "However hard it ____ be, try.",
-    questionVi: "Dù ____ cho có khó khăn đến thế nào, hãy cứ cố gắng.",
+    questionEn: "However hard it _____ be, try.",
+    questionVi: "Dù _____ cho có khó khăn đến thế nào, hãy cứ cố gắng.",
     options: [
       { option: "may", isCorrect: true },
       { option: "will", isCorrect: false },
@@ -1014,8 +1014,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0078",
-    questionEn: "Strange ____ it sounds, it's true.",
-    questionVi: "Nghe ____ có vẻ kỳ lạ, nhưng đó là sự thật.",
+    questionEn: "Strange _____ it sounds, it's true.",
+    questionVi: "Nghe _____ có vẻ kỳ lạ, nhưng đó là sự thật.",
     options: [
       { option: "as", isCorrect: true },
       { option: "so", isCorrect: false },
@@ -1027,8 +1027,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0079",
-    questionEn: "Hard ____ it was, we won.",
-    questionVi: "Dù ____ cho có khó khăn, chúng tôi đã thắng.",
+    questionEn: "Hard _____ it was, we won.",
+    questionVi: "Dù _____ cho có khó khăn, chúng tôi đã thắng.",
     options: [
       { option: "as", isCorrect: true },
       { option: "so", isCorrect: false },
@@ -1040,8 +1040,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0080",
-    questionEn: "Try ____ I might, I failed.",
-    questionVi: "Dù ____ tôi có cố gắng thế nào, tôi cũng đã thất bại.",
+    questionEn: "Try _____ I might, I failed.",
+    questionVi: "Dù _____ tôi có cố gắng thế nào, tôi cũng đã thất bại.",
     options: [
       { option: "as", isCorrect: true },
       { option: "so", isCorrect: false },
@@ -1053,8 +1053,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0081",
-    questionEn: "Much ____ I like you, leaving.",
-    questionVi: "Mặc ____ dù tôi rất thích bạn, nhưng tôi vẫn phải rời đi.",
+    questionEn: "Much _____ I like you, leaving.",
+    questionVi: "Mặc _____ dù tôi rất thích bạn, nhưng tôi vẫn phải rời đi.",
     options: [
       { option: "as", isCorrect: true },
       { option: "so", isCorrect: false },
@@ -1066,8 +1066,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0082",
-    questionEn: "____ that as it may.",
-    questionVi: "Dù ____ có là như vậy đi chăng nữa.",
+    questionEn: "_____ that as it may.",
+    questionVi: "Dù _____ có là như vậy đi chăng nữa.",
     options: [
       { option: "Be", isCorrect: true },
       { option: "Is", isCorrect: false },
@@ -1079,8 +1079,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0083",
-    questionEn: "____ you require help, call.",
-    questionVi: "Nếu ____ bạn cần giúp đỡ, hãy gọi nhé.",
+    questionEn: "_____ you require help, call.",
+    questionVi: "Nếu _____ bạn cần giúp đỡ, hãy gọi nhé.",
     options: [
       { option: "Should", isCorrect: true },
       { option: "If", isCorrect: false },
@@ -1092,8 +1092,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0084",
-    questionEn: "____ I be of service?",
-    questionVi: "Tôi ____ có thể giúp gì được cho bạn không?",
+    questionEn: "_____ I be of service?",
+    questionVi: "Tôi _____ có thể giúp gì được cho bạn không?",
     options: [
       { option: "May", isCorrect: true },
       { option: "Can", isCorrect: false },
@@ -1105,8 +1105,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0085",
-    questionEn: "If it ____ for him, I'd be dead.",
-    questionVi: "Nếu ____ không nhờ có anh ấy, tôi đã chết rồi.",
+    questionEn: "If it _____ for him, I'd be dead.",
+    questionVi: "Nếu _____ không nhờ có anh ấy, tôi đã chết rồi.",
     options: [
       { option: "weren't", isCorrect: true },
       { option: "wasn't", isCorrect: false },
@@ -1118,8 +1118,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0086",
-    questionEn: "If it ____ been for him...",
-    questionVi: "Nếu ____ không nhờ có anh ấy...",
+    questionEn: "If it _____ been for him...",
+    questionVi: "Nếu _____ không nhờ có anh ấy...",
     options: [
       { option: "hadn't", isCorrect: true },
       { option: "hasn't", isCorrect: false },
@@ -1131,9 +1131,9 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0087",
-    questionEn: "I would have lost ____ but for his help.",
+    questionEn: "I would have lost _____ but for his help.",
     questionVi:
-      "Tôi ____ hẳn đã mất hết mọi thứ nếu không nhờ có sự giúp đỡ của anh ấy.",
+      "Tôi _____ hẳn đã mất hết mọi thứ nếu không nhờ có sự giúp đỡ của anh ấy.",
     options: [
       { option: "everything", isCorrect: true },
       { option: "nothing", isCorrect: false },
@@ -1145,8 +1145,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0088",
-    questionEn: "Let's assume ____ sake of argument.",
-    questionVi: "Hãy cứ giả ____ định như vậy để tranh luận đi.",
+    questionEn: "Let's assume _____ sake of argument.",
+    questionVi: "Hãy cứ giả _____ định như vậy để tranh luận đi.",
     options: [
       { option: "for the", isCorrect: true },
       { option: "for", isCorrect: false },
@@ -1158,8 +1158,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0089",
-    questionEn: "By ____ of explanation, look here.",
-    questionVi: "Để ____ giải thích thêm, hãy nhìn vào đây.",
+    questionEn: "By _____ of explanation, look here.",
+    questionVi: "Để _____ giải thích thêm, hãy nhìn vào đây.",
     options: [
       { option: "way", isCorrect: true },
       { option: "means", isCorrect: false },
@@ -1171,8 +1171,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0090",
-    questionEn: "On ____ of his health, he quit.",
-    questionVi: "Vì ____ lý do sức khỏe, anh ấy đã nghỉ việc.",
+    questionEn: "On _____ of his health, he quit.",
+    questionVi: "Vì _____ lý do sức khỏe, anh ấy đã nghỉ việc.",
     options: [
       { option: "account", isCorrect: true },
       { option: "reason", isCorrect: false },
@@ -1184,8 +1184,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0091",
-    questionEn: "With ____ to your letter, I reply.",
-    questionVi: "Liên ____ quan đến lá thư của bạn, tôi xin được phản hồi.",
+    questionEn: "With _____ to your letter, I reply.",
+    questionVi: "Liên _____ quan đến lá thư của bạn, tôi xin được phản hồi.",
     options: [
       { option: "reference", isCorrect: true },
       { option: "regard", isCorrect: false },
@@ -1197,8 +1197,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0092",
-    questionEn: "With ____ to costs, it's high.",
-    questionVi: "Xét ____ về chi phí, nó khá là cao.",
+    questionEn: "With _____ to costs, it's high.",
+    questionVi: "Xét _____ về chi phí, nó khá là cao.",
     options: [
       { option: "regard", isCorrect: true },
       { option: "reference", isCorrect: false },
@@ -1210,8 +1210,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0093",
-    questionEn: "In ____ of the law, he acted.",
-    questionVi: "Dưới ____ góc độ pháp luật, anh ta đã hành động.",
+    questionEn: "In _____ of the law, he acted.",
+    questionVi: "Dưới _____ góc độ pháp luật, anh ta đã hành động.",
     options: [
       { option: "view", isCorrect: true },
       { option: "light", isCorrect: false },
@@ -1223,8 +1223,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0094",
-    questionEn: "In ____ with the rules, do this.",
-    questionVi: "Để ____ phù hợp với quy định, hãy làm việc này.",
+    questionEn: "In _____ with the rules, do this.",
+    questionVi: "Để _____ phù hợp với quy định, hãy làm việc này.",
     options: [
       { option: "accordance", isCorrect: true },
       { option: "accord", isCorrect: false },
@@ -1236,8 +1236,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0095",
-    questionEn: "For the ____ of clarity, I repeat.",
-    questionVi: "Để ____ cho rõ ràng, tôi xin nhắc lại.",
+    questionEn: "For the _____ of clarity, I repeat.",
+    questionVi: "Để _____ cho rõ ràng, tôi xin nhắc lại.",
     options: [
       { option: "sake", isCorrect: true },
       { option: "good", isCorrect: false },
@@ -1249,8 +1249,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0096",
-    questionEn: "At the ____ of his career, he died.",
-    questionVi: "Ông ấy đã qua đời khi đang ở ____ đỉnh cao của sự nghiệp.",
+    questionEn: "At the _____ of his career, he died.",
+    questionVi: "Ông ấy đã qua đời khi đang ở _____ đỉnh cao của sự nghiệp.",
     options: [
       { option: "height", isCorrect: true },
       { option: "top", isCorrect: false },
@@ -1262,8 +1262,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0097",
-    questionEn: "He is at ____ with his neighbor.",
-    questionVi: "Anh ấy đang có sự ____ bất hòa với người hàng xóm.",
+    questionEn: "He is at _____ with his neighbor.",
+    questionVi: "Anh ấy đang có sự _____ bất hòa với người hàng xóm.",
     options: [
       { option: "odds", isCorrect: true },
       { option: "variance", isCorrect: false },
@@ -1275,8 +1275,8 @@ export const questions: Question[] = [
   },
   {
     id: "C2-0098",
-    questionEn: "In the ____ of time, he'll see.",
-    questionVi: "Rồi theo ____ thời gian, anh ấy sẽ nhận ra thôi.",
+    questionEn: "In the _____ of time, he'll see.",
+    questionVi: "Rồi theo _____ thời gian, anh ấy sẽ nhận ra thôi.",
     options: [
       { option: "course", isCorrect: true },
       { option: "pass", isCorrect: false },
@@ -1295,9 +1295,9 @@ export const questions: Question[] = [
     contextVi:
       "Sự phủ nhận mạnh mẽ của một CEO liên quan đến tin đồn về một cuộc thâu tóm thù địch.",
     questionEn:
-      "Not once ____ the CEO hint at the possibility of a merger during the three-hour press conference.",
+      "Not once _____ the CEO hint at the possibility of a merger during the three-hour press conference.",
     questionVi:
-      "Không một lần nào ____ vị CEO gợi ý về khả năng sáp nhập trong cuộc họp báo kéo dài ba giờ.",
+      "Không một lần nào _____ vị CEO gợi ý về khả năng sáp nhập trong cuộc họp báo kéo dài ba giờ.",
     options: [
       { option: "did", isCorrect: true },
       { option: "has", isCorrect: false },
@@ -1315,9 +1315,9 @@ export const questions: Question[] = [
     contextEn: "Legal discourse on contract enforcement.",
     contextVi: "Diễn ngôn pháp lý về việc thực thi hợp đồng.",
     questionEn:
-      "Were the court ____ the contract invalid, the entire project would be thrown into chaos.",
+      "Were the court _____ the contract invalid, the entire project would be thrown into chaos.",
     questionVi:
-      "Nếu tòa án ____ tuyên bố hợp đồng vô hiệu, toàn bộ dự án sẽ rơi vào tình trạng hỗn loạn.",
+      "Nếu tòa án _____ tuyên bố hợp đồng vô hiệu, toàn bộ dự án sẽ rơi vào tình trạng hỗn loạn.",
     options: [
       { option: "deem", isCorrect: false },
       { option: "to deem", isCorrect: true },
@@ -1336,9 +1336,9 @@ export const questions: Question[] = [
     contextVi:
       "Thảo luận về khả năng phục hồi của một công ty khởi nghiệp trong một thị trường biến động.",
     questionEn:
-      "The startup managed to secure funding ____ the overwhelmingly negative economic forecasts.",
+      "The startup managed to secure funding _____ the overwhelmingly negative economic forecasts.",
     questionVi:
-      "Công ty khởi nghiệp đã xoay xở để đảm bảo nguồn vốn ____ những dự báo kinh tế cực kỳ tiêu cực.",
+      "Công ty khởi nghiệp đã xoay xở để đảm bảo nguồn vốn _____ những dự báo kinh tế cực kỳ tiêu cực.",
     options: [
       { option: "notwithstanding", isCorrect: true },
       { option: "provided that", isCorrect: false },
@@ -1356,9 +1356,9 @@ export const questions: Question[] = [
     contextEn: "Formal correspondence regarding a high-stakes negotiation.",
     contextVi: "Thư từ chính thức liên quan đến một cuộc đàm phán mạo hiểm.",
     questionEn:
-      "The terms ____ we ultimately agreed were far more favorable than we had initially anticipated.",
+      "The terms _____ we ultimately agreed were far more favorable than we had initially anticipated.",
     questionVi:
-      "Các điều khoản ____ mà cuối cùng chúng tôi đã đồng ý thuận lợi hơn nhiều so với dự tính ban đầu.",
+      "Các điều khoản _____ mà cuối cùng chúng tôi đã đồng ý thuận lợi hơn nhiều so với dự tính ban đầu.",
     options: [
       { option: "to which", isCorrect: true },
       { option: "with whom", isCorrect: false },
@@ -1376,9 +1376,9 @@ export const questions: Question[] = [
     contextEn: "An academic analysis of corporate governance.",
     contextVi: "Một phân tích học thuật về quản trị doanh nghiệp.",
     questionEn:
-      "The effectiveness of the new policy is ____ dependent on the cooperation of regional managers.",
+      "The effectiveness of the new policy is _____ dependent on the cooperation of regional managers.",
     questionVi:
-      "Hiệu quả của chính sách mới phụ thuộc một cách ____ vào sự hợp tác của các nhà quản lý khu vực.",
+      "Hiệu quả của chính sách mới phụ thuộc một cách _____ vào sự hợp tác của các nhà quản lý khu vực.",
     options: [
       { option: "contingently", isCorrect: true },
       { option: "contingent", isCorrect: false },
@@ -1398,9 +1398,9 @@ export const questions: Question[] = [
     contextVi:
       "Nhấn mạnh sự hiếm hoi của một lần xảy ra trong bối cảnh doanh nghiệp.",
     questionEn:
-      "Not once ____ the CEO fail to acknowledge the contributions of the junior staff during the annual gala.",
+      "Not once _____ the CEO fail to acknowledge the contributions of the junior staff during the annual gala.",
     questionVi:
-      "Không một lần nào ____ vị CEO quên ghi nhận sự đóng góp của các nhân viên cấp dưới trong buổi dạ tiệc hàng năm.",
+      "Không một lần nào _____ vị CEO quên ghi nhận sự đóng góp của các nhân viên cấp dưới trong buổi dạ tiệc hàng năm.",
     options: [
       { option: "did", isCorrect: true },
       { option: "does", isCorrect: false },
@@ -1417,9 +1417,9 @@ export const questions: Question[] = [
     contextEn: "Expressing a formal requirement in a legal document.",
     contextVi: "Diễn đạt một yêu cầu chính thức trong văn bản pháp lý.",
     questionEn:
-      "It is stipulated in the agreement that each partner ____ a detailed account of their expenses every quarter.",
+      "It is stipulated in the agreement that each partner _____ a detailed account of their expenses every quarter.",
     questionVi:
-      "Trong thỏa thuận quy định rằng mỗi đối tác ____ một bản kê khai chi tiết các khoản chi tiêu của họ vào mỗi quý.",
+      "Trong thỏa thuận quy định rằng mỗi đối tác _____ một bản kê khai chi tiết các khoản chi tiêu của họ vào mỗi quý.",
     options: [
       { option: "render", isCorrect: true },
       { option: "renders", isCorrect: false },
@@ -1437,9 +1437,9 @@ export const questions: Question[] = [
     contextEn: "Describing the result of a long process.",
     contextVi: "Mô tả kết quả của một quá trình dài.",
     questionEn:
-      "____ for years on the cutting edge of biotechnology, the company finally announced a breakthrough in gene therapy.",
+      "_____ for years on the cutting edge of biotechnology, the company finally announced a breakthrough in gene therapy.",
     questionVi:
-      "____ trong nhiều năm ở vị trí tiên phong của công nghệ sinh học, công ty cuối cùng đã công bố một bước đột phá trong liệu pháp gen.",
+      "_____ trong nhiều năm ở vị trí tiên phong của công nghệ sinh học, công ty cuối cùng đã công bố một bước đột phá trong liệu pháp gen.",
     options: [
       { option: "Having worked", isCorrect: true },
       { option: "Working", isCorrect: false },
@@ -1458,9 +1458,9 @@ export const questions: Question[] = [
     contextVi:
       "Thảo luận về một sự kiện giả định trong quá khứ có tác động lâu dài.",
     questionEn:
-      "If the firm had not diversified into artificial intelligence a decade ago, it ____ the market leader it is today.",
+      "If the firm had not diversified into artificial intelligence a decade ago, it _____ the market leader it is today.",
     questionVi:
-      "Nếu công ty không đa dạng hóa sang lĩnh vực trí tuệ nhân tạo một thập kỷ trước, họ ____ đã không trở thành người dẫn đầu thị trường như ngày nay.",
+      "Nếu công ty không đa dạng hóa sang lĩnh vực trí tuệ nhân tạo một thập kỷ trước, họ _____ đã không trở thành người dẫn đầu thị trường như ngày nay.",
     options: [
       { option: "would not be", isCorrect: true },
       { option: "would not have been", isCorrect: false },
@@ -1478,9 +1478,9 @@ export const questions: Question[] = [
     contextEn: "Identifying the core reason for a success.",
     contextVi: "Xác định lý do cốt lõi của sự thành công.",
     questionEn:
-      "It was his unwavering commitment to ethical practices ____ built the foundation for the company's long-term reputation.",
+      "It was his unwavering commitment to ethical practices _____ built the foundation for the company's long-term reputation.",
     questionVi:
-      "Chính sự cam kết kiên định với các thực hành đạo đức của ông ấy ____ đã xây dựng nền tảng cho danh tiếng lâu dài của công ty.",
+      "Chính sự cam kết kiên định với các thực hành đạo đức của ông ấy _____ đã xây dựng nền tảng cho danh tiếng lâu dài của công ty.",
     options: [
       { option: "that", isCorrect: true },
       { option: "which", isCorrect: false },
@@ -1498,9 +1498,9 @@ export const questions: Question[] = [
     contextEn: "Formal reference in a report.",
     contextVi: "Tham chiếu trang trọng trong một báo cáo.",
     questionEn:
-      "The report outlines several strategies, the effectiveness of ____ remains to be seen in the coming fiscal year.",
+      "The report outlines several strategies, the effectiveness of _____ remains to be seen in the coming fiscal year.",
     questionVi:
-      "Báo cáo phác thảo một số chiến lược, hiệu quả của ____ vẫn còn phải chờ xem trong năm tài chính tới.",
+      "Báo cáo phác thảo một số chiến lược, hiệu quả của _____ vẫn còn phải chờ xem trong năm tài chính tới.",
     options: [
       { option: "which", isCorrect: true },
       { option: "that", isCorrect: false },
@@ -1518,9 +1518,9 @@ export const questions: Question[] = [
     contextEn: "Reporting a common industry opinion.",
     contextVi: "Báo cáo một ý kiến chung trong ngành.",
     questionEn:
-      "The upcoming merger ____ to be the most significant event in the telecommunications industry this decade.",
+      "The upcoming merger _____ to be the most significant event in the telecommunications industry this decade.",
     questionVi:
-      "Vụ sáp nhập sắp tới ____ được cho là sự kiện quan trọng nhất trong ngành viễn thông thập kỷ này.",
+      "Vụ sáp nhập sắp tới _____ được cho là sự kiện quan trọng nhất trong ngành viễn thông thập kỷ này.",
     options: [
       { option: "is widely considered", isCorrect: true },
       { option: "is widely considering", isCorrect: false },
@@ -1538,9 +1538,9 @@ export const questions: Question[] = [
     contextEn: "Describing a complex proportional relationship.",
     contextVi: "Mô tả một mối quan hệ tỷ lệ thuận phức tạp.",
     questionEn:
-      "The more the R&D team pushed the boundaries of nanotechnology, ____ the potential applications for medical treatment became.",
+      "The more the R&D team pushed the boundaries of nanotechnology, _____ the potential applications for medical treatment became.",
     questionVi:
-      "Nhóm R&D càng đẩy mạnh giới hạn của công nghệ nano, các ứng dụng tiềm năng cho điều trị y tế ____.",
+      "Nhóm R&D càng đẩy mạnh giới hạn của công nghệ nano, các ứng dụng tiềm năng cho điều trị y tế _____.",
     options: [
       { option: "the more multifaceted", isCorrect: true },
       { option: "multifaceteder", isCorrect: false },
@@ -1558,9 +1558,9 @@ export const questions: Question[] = [
     contextEn: "Stating a condition for specialized access.",
     contextVi: "Nêu điều kiện để được truy cập chuyên biệt.",
     questionEn:
-      "Access to the high-security server is strictly contingent ____ the submission of a valid security clearance certificate.",
+      "Access to the high-security server is strictly contingent _____ the submission of a valid security clearance certificate.",
     questionVi:
-      "Việc truy cập vào máy chủ bảo mật cao phụ thuộc hoàn toàn ____ vào việc nộp chứng chỉ kiểm tra an ninh hợp lệ.",
+      "Việc truy cập vào máy chủ bảo mật cao phụ thuộc hoàn toàn _____ vào việc nộp chứng chỉ kiểm tra an ninh hợp lệ.",
     options: [
       { option: "upon", isCorrect: true },
       { option: "to", isCorrect: false },
@@ -1578,9 +1578,9 @@ export const questions: Question[] = [
     contextEn: "Describing a person's exceptional trait.",
     contextVi: "Mô tả một đặc điểm xuất sắc của một người.",
     questionEn:
-      "Her ____ and profound understanding of international trade laws made her an indispensable asset to the firm.",
+      "Her _____ and profound understanding of international trade laws made her an indispensable asset to the firm.",
     questionVi:
-      "Sự thấu hiểu ____ và sâu sắc của bà ấy về luật thương mại quốc tế đã khiến bà trở thành một tài sản không thể thiếu của công ty.",
+      "Sự thấu hiểu _____ và sâu sắc của bà ấy về luật thương mại quốc tế đã khiến bà trở thành một tài sản không thể thiếu của công ty.",
     options: [
       { option: "lucid", isCorrect: true },
       { option: "lucidly", isCorrect: false },
@@ -1598,9 +1598,9 @@ export const questions: Question[] = [
     contextEn: "Emphasizing a restriction in a formal policy.",
     contextVi: "Nhấn mạnh một hạn chế trong một chính sách trang trọng.",
     questionEn:
-      "Under no circumstances ____ any employee be permitted to divulge proprietary source code to outside contractors.",
+      "Under no circumstances _____ any employee be permitted to divulge proprietary source code to outside contractors.",
     questionVi:
-      "Trong bất kỳ hoàn cảnh nào, không một nhân viên nào ____ được phép tiết lộ mã nguồn độc quyền cho các nhà thầu bên ngoài.",
+      "Trong bất kỳ hoàn cảnh nào, không một nhân viên nào _____ được phép tiết lộ mã nguồn độc quyền cho các nhà thầu bên ngoài.",
     options: [
       { option: "shall", isCorrect: true },
       { option: "should", isCorrect: true },
@@ -1618,9 +1618,9 @@ export const questions: Question[] = [
     contextEn: "Combining two complex actions.",
     contextVi: "Kết hợp hai hành động phức tạp.",
     questionEn:
-      "____ to circumvent the increasing regulatory hurdles, the multinational corporation revamped its global tax strategy.",
+      "_____ to circumvent the increasing regulatory hurdles, the multinational corporation revamped its global tax strategy.",
     questionVi:
-      "____ tìm cách lách qua các rào cản quản lý ngày càng tăng, tập đoàn đa quốc gia đã cải tổ chiến lược thuế toàn cầu của mình.",
+      "_____ tìm cách lách qua các rào cản quản lý ngày càng tăng, tập đoàn đa quốc gia đã cải tổ chiến lược thuế toàn cầu của mình.",
     options: [
       { option: "Seeking", isCorrect: true },
       { option: "Sought", isCorrect: false },
@@ -1639,9 +1639,9 @@ export const questions: Question[] = [
     contextVi:
       "Giả định về một hành động trong quá khứ và trạng thái hiện tại của nó.",
     questionEn:
-      "Were it not for his visionary leadership two decades ago, the company ____ the global powerhouse it is today.",
+      "Were it not for his visionary leadership two decades ago, the company _____ the global powerhouse it is today.",
     questionVi:
-      "Nếu không có sự lãnh đạo có tầm nhìn của ông ấy cách đây hai thập kỷ, công ty ____ đã không trở thành cường quốc toàn cầu như ngày nay.",
+      "Nếu không có sự lãnh đạo có tầm nhìn của ông ấy cách đây hai thập kỷ, công ty _____ đã không trở thành cường quốc toàn cầu như ngày nay.",
     options: [
       { option: "would not be", isCorrect: true },
       { option: "would not have been", isCorrect: false },
@@ -1659,9 +1659,9 @@ export const questions: Question[] = [
     contextEn: "Expressing a nuanced concession.",
     contextVi: "Diễn đạt một sự nhượng bộ tinh tế.",
     questionEn:
-      "____ the recent economic downturn, our firm has managed to achieve record-breaking profits in the third quarter.",
+      "_____ the recent economic downturn, our firm has managed to achieve record-breaking profits in the third quarter.",
     questionVi:
-      "____ sự suy thoái kinh tế gần đây, công ty chúng tôi vẫn đạt được mức lợi nhuận kỷ lục trong quý thứ ba.",
+      "_____ sự suy thoái kinh tế gần đây, công ty chúng tôi vẫn đạt được mức lợi nhuận kỷ lục trong quý thứ ba.",
     options: [
       { option: "Notwithstanding", isCorrect: true },
       { option: "Although", isCorrect: false },
@@ -1679,9 +1679,9 @@ export const questions: Question[] = [
     contextEn: "Reporting an urgent recommendation from a board.",
     contextVi: "Báo cáo một khuyến nghị khẩn cấp từ ban lãnh đạo.",
     questionEn:
-      "The board of directors suggested that the CEO ____ an emergency meeting to address the hostile takeover bid.",
+      "The board of directors suggested that the CEO _____ an emergency meeting to address the hostile takeover bid.",
     questionVi:
-      "Ban giám đốc đề xuất rằng CEO ____ một cuộc họp khẩn cấp để giải quyết nỗ lực thâu tóm thù địch.",
+      "Ban giám đốc đề xuất rằng CEO _____ một cuộc họp khẩn cấp để giải quyết nỗ lực thâu tóm thù địch.",
     options: [
       { option: "convene", isCorrect: true },
       { option: "convenes", isCorrect: false },
@@ -1699,9 +1699,9 @@ export const questions: Question[] = [
     contextEn: "Adding information with a complex relative clause.",
     contextVi: "Thêm thông tin bằng mệnh đề quan hệ phức tạp.",
     questionEn:
-      "The treaty contains numerous complex provisions, several of ____ are expected to be challenged in the international court.",
+      "The treaty contains numerous complex provisions, several of _____ are expected to be challenged in the international court.",
     questionVi:
-      "Hiệp ước bao gồm nhiều điều khoản phức tạp, một vài ____ trong số đó dự kiến sẽ bị thách thức tại tòa án quốc tế.",
+      "Hiệp ước bao gồm nhiều điều khoản phức tạp, một vài _____ trong số đó dự kiến sẽ bị thách thức tại tòa án quốc tế.",
     options: [
       { option: "which", isCorrect: true },
       { option: "that", isCorrect: false },
@@ -1719,9 +1719,9 @@ export const questions: Question[] = [
     contextEn: "Emphasizing immediate reaction to an event.",
     contextVi: "Nhấn mạnh phản ứng ngay lập tức đối với một sự kiện.",
     questionEn:
-      "No sooner ____ the news of the merger broken than the company's share price skyrocketed by twenty percent.",
+      "No sooner _____ the news of the merger broken than the company's share price skyrocketed by twenty percent.",
     questionVi:
-      "Ngay khi tin tức về vụ sáp nhập vừa được tung ra ____ thì giá cổ phiếu của công ty đã tăng vọt hai mươi phần trăm.",
+      "Ngay khi tin tức về vụ sáp nhập vừa được tung ra _____ thì giá cổ phiếu của công ty đã tăng vọt hai mươi phần trăm.",
     options: [
       { option: "had", isCorrect: true },
       { option: "did", isCorrect: false },
@@ -1739,9 +1739,9 @@ export const questions: Question[] = [
     contextEn: "Stating a critical requirement for security.",
     contextVi: "Nêu một yêu cầu quan trọng đối với bảo mật.",
     questionEn:
-      "It is imperative that every single transaction ____ meticulously documented to ensure full transparency.",
+      "It is imperative that every single transaction _____ meticulously documented to ensure full transparency.",
     questionVi:
-      "Điều cấp thiết là mọi giao dịch đơn lẻ ____ được ghi chép lại một cách tỉ mỉ để đảm bảo sự minh bạch hoàn toàn.",
+      "Điều cấp thiết là mọi giao dịch đơn lẻ _____ được ghi chép lại một cách tỉ mỉ để đảm bảo sự minh bạch hoàn toàn.",
     options: [
       { option: "be", isCorrect: true },
       { option: "is", isCorrect: false },
@@ -1759,9 +1759,9 @@ export const questions: Question[] = [
     contextEn: "Describing a state that influenced an outcome.",
     contextVi: "Mô tả một trạng thái ảnh hưởng đến kết quả.",
     questionEn:
-      "____ by the sudden shift in consumer behavior, the marketing departement completely overhauled its annual strategy.",
+      "_____ by the sudden shift in consumer behavior, the marketing departement completely overhauled its annual strategy.",
     questionVi:
-      "____ bởi sự thay đổi đột ngột trong hành vi người tiêu dùng, bộ phận tiếp thị đã cải tổ hoàn toàn chiến lược hàng năm của mình.",
+      "_____ bởi sự thay đổi đột ngột trong hành vi người tiêu dùng, bộ phận tiếp thị đã cải tổ hoàn toàn chiến lược hàng năm của mình.",
     options: [
       { option: "Surprised", isCorrect: true },
       { option: "Surprising", isCorrect: false },
@@ -1779,9 +1779,9 @@ export const questions: Question[] = [
     contextEn: "Reflecting on a past opportunity with present consequences.",
     contextVi: "Suy ngẫm về một cơ hội quá khứ với các hệ quả hiện tại.",
     questionEn:
-      "If we had secured that patent five years ago, we ____ millions of dollars in licensing fees every year now.",
+      "If we had secured that patent five years ago, we _____ millions of dollars in licensing fees every year now.",
     questionVi:
-      "Nếu chúng ta đảm bảo được bằng sáng chế đó năm năm trước, chúng ta ____ hàng triệu đô la phí cấp phép mỗi năm vào lúc này.",
+      "Nếu chúng ta đảm bảo được bằng sáng chế đó năm năm trước, chúng ta _____ hàng triệu đô la phí cấp phép mỗi năm vào lúc này.",
     options: [
       { option: "would be earning", isCorrect: true },
       { option: "would have earned", isCorrect: false },
@@ -1799,9 +1799,9 @@ export const questions: Question[] = [
     contextEn: "Emphasizing a restriction in formal guidelines.",
     contextVi: "Nhấn mạnh một hạn chế trong hướng dẫn trang trọng.",
     questionEn:
-      "On no account ____ any employee of this firm engage in insider trading or any other form of market manipulation.",
+      "On no account _____ any employee of this firm engage in insider trading or any other form of market manipulation.",
     questionVi:
-      "Trong bất kỳ hoàn cảnh nào, không một nhân viên nào của công ty này ____ được tham gia vào giao dịch nội gián hoặc bất kỳ hình thức thao túng thị trường nào khác.",
+      "Trong bất kỳ hoàn cảnh nào, không một nhân viên nào của công ty này _____ được tham gia vào giao dịch nội gián hoặc bất kỳ hình thức thao túng thị trường nào khác.",
     options: [
       { option: "shall", isCorrect: true },
       { option: "should", isCorrect: true },
@@ -1819,9 +1819,9 @@ export const questions: Question[] = [
     contextEn: "Discussing the complexity of a managerial task.",
     contextVi: "Thảo luận về sự phức tạp của một nhiệm vụ quản lý.",
     questionEn:
-      "____ a balance between long-term growth and short-term profitability is the primary challenge for modern executives.",
+      "_____ a balance between long-term growth and short-term profitability is the primary challenge for modern executives.",
     questionVi:
-      "____ sự cân bằng giữa tăng trưởng dài hạn và lợi nhuận ngắn hạn là thách thức chính đối với các giám đốc điều hành hiện đại.",
+      "_____ sự cân bằng giữa tăng trưởng dài hạn và lợi nhuận ngắn hạn là thách thức chính đối với các giám đốc điều hành hiện đại.",
     options: [
       { option: "Maintaining", isCorrect: true },
       { option: "Maintain", isCorrect: false },
@@ -1838,9 +1838,9 @@ export const questions: Question[] = [
     contextEn: "Speculating with high certainty about a past event.",
     contextVi: "Dự đoán với độ chắc chắn cao về một sự kiện trong quá khứ.",
     questionEn:
-      "The board ____ been aware of the impending financial crisis long before the public announcement was made.",
+      "The board _____ been aware of the impending financial crisis long before the public announcement was made.",
     questionVi:
-      "Ban điều hành ____ chắc chắn đã biết về cuộc khủng hoảng tài chính sắp xảy ra từ lâu trước khi thông báo công khai được đưa ra.",
+      "Ban điều hành _____ chắc chắn đã biết về cuộc khủng hoảng tài chính sắp xảy ra từ lâu trước khi thông báo công khai được đưa ra.",
     options: [
       { option: "must have", isCorrect: true },
       { option: "should have", isCorrect: false },
@@ -1859,9 +1859,9 @@ export const questions: Question[] = [
     contextVi:
       "Kết nối một điều kiện với một kết quả trong bối cảnh trang trọng.",
     questionEn:
-      "The proposed merger will proceed as planned, ____ any unforeseen legal challenges arise in the interim.",
+      "The proposed merger will proceed as planned, _____ any unforeseen legal challenges arise in the interim.",
     questionVi:
-      "Vụ sáp nhập được đề xuất sẽ tiến hành như kế hoạch, ____ trừ khi có bất kỳ thách thức pháp lý không lường trước nào phát sinh trong thời gian tạm thời.",
+      "Vụ sáp nhập được đề xuất sẽ tiến hành như kế hoạch, _____ trừ khi có bất kỳ thách thức pháp lý không lường trước nào phát sinh trong thời gian tạm thời.",
     options: [
       { option: "unless", isCorrect: true },
       { option: "provided that", isCorrect: false },
@@ -1879,9 +1879,9 @@ export const questions: Question[] = [
     contextEn: "Expressing an urgent requirement from a regulatory body.",
     contextVi: "Diễn đạt một yêu cầu khẩn cấp từ cơ quan quản lý.",
     questionEn:
-      "It is vital that all personnel ____ the upcoming safety training session without exception.",
+      "It is vital that all personnel _____ the upcoming safety training session without exception.",
     questionVi:
-      "Điều tối quan trọng là tất cả nhân viên ____ tham gia buổi đào tạo an toàn sắp tới mà không có ngoại lệ.",
+      "Điều tối quan trọng là tất cả nhân viên _____ tham gia buổi đào tạo an toàn sắp tới mà không có ngoại lệ.",
     options: [
       { option: "attend", isCorrect: true },
       { option: "attends", isCorrect: false },
@@ -1898,9 +1898,9 @@ export const questions: Question[] = [
     contextEn: "Emphasizing a restriction in a formal business contract.",
     contextVi: "Nhấn mạnh một hạn chế trong hợp đồng kinh doanh trang trọng.",
     questionEn:
-      "Not until the arbitration process reached its final stage ____ the parties involved agree to a settlement.",
+      "Not until the arbitration process reached its final stage _____ the parties involved agree to a settlement.",
     questionVi:
-      "Mãi cho đến khi quy trình trọng tài đạt đến giai đoạn cuối cùng ____ các bên liên quan mới đồng ý thỏa thuận.",
+      "Mãi cho đến khi quy trình trọng tài đạt đến giai đoạn cuối cùng _____ các bên liên quan mới đồng ý thỏa thuận.",
     options: [
       { option: "did", isCorrect: true },
       { option: "do", isCorrect: false },
@@ -1919,9 +1919,9 @@ export const questions: Question[] = [
     contextVi:
       "Báo cáo một khuyến nghị tư vấn cho việc tái cơ cấu doanh nghiệp.",
     questionEn:
-      "The management consultant recommended that the company ____ its entire supply chain to mitigate geopolitical risks.",
+      "The management consultant recommended that the company _____ its entire supply chain to mitigate geopolitical risks.",
     questionVi:
-      "Cố vấn quản lý đã khuyến nghị rằng công ty ____ lại toàn bộ chuỗi cung ứng của mình để giảm thiểu rủi ro địa chính trị.",
+      "Cố vấn quản lý đã khuyến nghị rằng công ty _____ lại toàn bộ chuỗi cung ứng của mình để giảm thiểu rủi ro địa chính trị.",
     options: [
       { option: "overhaul", isCorrect: true },
       { option: "overhauls", isCorrect: false },
@@ -1939,9 +1939,9 @@ export const questions: Question[] = [
     contextEn: "Describing a concurrent state with an action.",
     contextVi: "Mô tả một trạng thái đồng thời với một hành động.",
     questionEn:
-      "____ for a significant increase in market share, the electronics firm launched a multi-million dollar advertising campaign.",
+      "_____ for a significant increase in market share, the electronics firm launched a multi-million dollar advertising campaign.",
     questionVi:
-      "____ mong sự gia tăng đáng kể về thị phần, công ty điện tử đã khởi động một chiến dịch quảng cáo trị giá hàng triệu đô la.",
+      "_____ mong sự gia tăng đáng kể về thị phần, công ty điện tử đã khởi động một chiến dịch quảng cáo trị giá hàng triệu đô la.",
     options: [
       { option: "Striving", isCorrect: true },
       { option: "Strived", isCorrect: false },
@@ -1961,9 +1961,9 @@ export const questions: Question[] = [
     contextVi:
       "Thảo luận về một quyết định quá khứ có hệ quả tài chính hiện tại.",
     questionEn:
-      "If the government had not intervened with a bailout package, the national carrier ____ bankrupt by now.",
+      "If the government had not intervened with a bailout package, the national carrier _____ bankrupt by now.",
     questionVi:
-      "Nếu chính phủ không can thiệp bằng một gói cứu trợ, hãng hàng không quốc gia ____ đã phá sản vào lúc này.",
+      "Nếu chính phủ không can thiệp bằng một gói cứu trợ, hãng hàng không quốc gia _____ đã phá sản vào lúc này.",
     options: [
       { option: "would be", isCorrect: true },
       { option: "would have been", isCorrect: false },
@@ -1983,9 +1983,9 @@ export const questions: Question[] = [
     contextVi:
       "Tập trung vào một người cụ thể chịu trách nhiệm cho một thành tựu.",
     questionEn:
-      "It was through his meticulous attention to detail ____ the lead architect ensured the project's structural integrity.",
+      "It was through his meticulous attention to detail _____ the lead architect ensured the project's structural integrity.",
     questionVi:
-      "Chính nhờ sự chú ý tỉ mỉ đến từng chi tiết của ông ấy ____ mà kiến trúc sư trưởng đã đảm bảo được tính toàn vẹn về cấu trúc của dự án.",
+      "Chính nhờ sự chú ý tỉ mỉ đến từng chi tiết của ông ấy _____ mà kiến trúc sư trưởng đã đảm bảo được tính toàn vẹn về cấu trúc của dự án.",
     options: [
       { option: "that", isCorrect: true },
       { option: "which", isCorrect: false },
@@ -2005,9 +2005,9 @@ export const questions: Question[] = [
     contextVi:
       "Thêm thông tin bằng mệnh đề quan hệ phức tạp trong một báo cáo trang trọng.",
     questionEn:
-      "The CEO addressed the shareholders, many of ____ expressed concerns regarding the company's environmental footprint.",
+      "The CEO addressed the shareholders, many of _____ expressed concerns regarding the company's environmental footprint.",
     questionVi:
-      "CEO đã phát biểu trước các cổ đông, nhiều ____ trong số họ bày tỏ lo ngại về dấu chân môi trường của công ty.",
+      "CEO đã phát biểu trước các cổ đông, nhiều _____ trong số họ bày tỏ lo ngại về dấu chân môi trường của công ty.",
     options: [
       { option: "whom", isCorrect: true },
       { option: "who", isCorrect: false },
@@ -2025,9 +2025,9 @@ export const questions: Question[] = [
     contextEn: "Describing a common perception in the business world.",
     contextVi: "Mô tả một nhận thức phổ biến trong giới kinh doanh.",
     questionEn:
-      "Entrepreneurship ____ as a high-risk, high-reward endeavor by most financial analysts.",
+      "Entrepreneurship _____ as a high-risk, high-reward endeavor by most financial analysts.",
     questionVi:
-      "Khởi nghiệp ____ được coi là một nỗ lực có rủi ro cao, lợi nhuận cao bởi hầu hết các nhà phân tích tài chính.",
+      "Khởi nghiệp _____ được coi là một nỗ lực có rủi ro cao, lợi nhuận cao bởi hầu hết các nhà phân tích tài chính.",
     options: [
       { option: "is widely viewed", isCorrect: true },
       { option: "is widely viewing", isCorrect: false },
@@ -2045,9 +2045,9 @@ export const questions: Question[] = [
     contextEn: "Comparing professional efficiency in two different scenarios.",
     contextVi: "So sánh hiệu quả chuyên môn trong hai kịch bản khác nhau.",
     questionEn:
-      "The new automation system works ____ more efficiently than the manual processes it replaced.",
+      "The new automation system works _____ more efficiently than the manual processes it replaced.",
     questionVi:
-      "Hệ thống tự động hóa mới hoạt động ____ hiệu quả hơn nhiều so với các quy trình thủ công mà nó thay thế.",
+      "Hệ thống tự động hóa mới hoạt động _____ hiệu quả hơn nhiều so với các quy trình thủ công mà nó thay thế.",
     options: [
       { option: "infinitely", isCorrect: true },
       { option: "infinite", isCorrect: false },
@@ -2065,9 +2065,9 @@ export const questions: Question[] = [
     contextEn: "Expressing a condition for professional advancement.",
     contextVi: "Diễn đạt một điều kiện để thăng tiến nghề nghiệp.",
     questionEn:
-      "Promotion to a senior management level is often dependent ____ a candidate's ability to demonstrate strategic vision.",
+      "Promotion to a senior management level is often dependent _____ a candidate's ability to demonstrate strategic vision.",
     questionVi:
-      "Việc thăng tiến lên cấp quản lý cấp cao thường phụ thuộc ____ vào khả năng thể hiện tầm nhìn chiến lược của ứng viên.",
+      "Việc thăng tiến lên cấp quản lý cấp cao thường phụ thuộc _____ vào khả năng thể hiện tầm nhìn chiến lược của ứng viên.",
     options: [
       { option: "upon", isCorrect: true },
       { option: "to", isCorrect: false },
@@ -2084,9 +2084,9 @@ export const questions: Question[] = [
     contextEn: "Identifying a specific quality of a legal argument.",
     contextVi: "Xác định một chất lượng cụ thể của một lập luận pháp lý.",
     questionEn:
-      "The legal counsel provided a highly ____ and persuasive argument in favor of the defendant.",
+      "The legal counsel provided a highly _____ and persuasive argument in favor of the defendant.",
     questionVi:
-      "Cố vấn pháp lý đã đưa ra một lập luận cực kỳ ____ và đầy thuyết phục có lợi cho bị cáo.",
+      "Cố vấn pháp lý đã đưa ra một lập luận cực kỳ _____ và đầy thuyết phục có lợi cho bị cáo.",
     options: [
       { option: "coherent", isCorrect: true },
       { option: "coherence", isCorrect: false },
@@ -2103,9 +2103,9 @@ export const questions: Question[] = [
     contextEn: "Emphasizing a restriction in a formal company policy.",
     contextVi: "Nhấn mạnh một hạn chế trong chính sách công ty trang trọng.",
     questionEn:
-      "Seldom ____ such a high level of cooperation between rival firms in the pharmaceutical industry.",
+      "Seldom _____ such a high level of cooperation between rival firms in the pharmaceutical industry.",
     questionVi:
-      "Hiếm khi ____ thấy mức độ hợp tác cao như vậy giữa các công ty đối thủ trong ngành dược phẩm.",
+      "Hiếm khi _____ thấy mức độ hợp tác cao như vậy giữa các công ty đối thủ trong ngành dược phẩm.",
     options: [
       { option: "do we witness", isCorrect: true },
       { option: "we witness", isCorrect: false },
@@ -2122,9 +2122,9 @@ export const questions: Question[] = [
     contextEn: "Identifying a complex task as a subject.",
     contextVi: "Xác định một nhiệm vụ phức tạp làm chủ ngữ.",
     questionEn:
-      "____ an effective balance between professional obligations and personal well-being is a constant struggle for many executives.",
+      "_____ an effective balance between professional obligations and personal well-being is a constant struggle for many executives.",
     questionVi:
-      "____ sự cân bằng hiệu quả giữa các nghĩa vụ nghề nghiệp và hạnh phúc cá nhân là một cuộc đấu tranh không ngừng đối với nhiều giám đốc điều hành.",
+      "_____ sự cân bằng hiệu quả giữa các nghĩa vụ nghề nghiệp và hạnh phúc cá nhân là một cuộc đấu tranh không ngừng đối với nhiều giám đốc điều hành.",
     options: [
       { option: "Striking", isCorrect: true },
       { option: "To be struck", isCorrect: false },
@@ -2142,9 +2142,9 @@ export const questions: Question[] = [
     contextEn: "Suggesting a past obligation that was not fulfilled.",
     contextVi: "Đề xuất một nghĩa vụ trong quá khứ đã không được thực hiện.",
     questionEn:
-      "The company ____ conducted a more thorough market analysis before launching such a specialized product.",
+      "The company _____ conducted a more thorough market analysis before launching such a specialized product.",
     questionVi:
-      "Công ty ____ lẽ ra nên thực hiện một phân tích thị trường kỹ lưỡng hơn trước khi tung ra một sản phẩm chuyên dụng như vậy.",
+      "Công ty _____ lẽ ra nên thực hiện một phân tích thị trường kỹ lưỡng hơn trước khi tung ra một sản phẩm chuyên dụng như vậy.",
     options: [
       { option: "should have", isCorrect: true },
       { option: "must have", isCorrect: false },
@@ -2163,9 +2163,9 @@ export const questions: Question[] = [
     contextVi:
       "Thể hiện sự tương phản mạnh mẽ giữa hai chiến lược của doanh nghiệp.",
     questionEn:
-      "Company A focused on rapid expansion, ____ Company B prioritized long-term sustainability and organic growth.",
+      "Company A focused on rapid expansion, _____ Company B prioritized long-term sustainability and organic growth.",
     questionVi:
-      "Công ty A tập trung vào việc mở rộng nhanh chóng, ____ trong khi đó Công ty B ưu tiên sự bền vững lâu dài và tăng trưởng hữu cơ.",
+      "Công ty A tập trung vào việc mở rộng nhanh chóng, _____ trong khi đó Công ty B ưu tiên sự bền vững lâu dài và tăng trưởng hữu cơ.",
     options: [
       { option: "whereas", isCorrect: true },
       { option: "consequently", isCorrect: false },
@@ -2184,9 +2184,9 @@ export const questions: Question[] = [
     contextVi:
       "Báo cáo một khuyến nghị chính thức trong một cuộc họp kinh doanh.",
     questionEn:
-      "The marketing director suggested that the team ____ a more targeted approach to reach high-net-worth individuals.",
+      "The marketing director suggested that the team _____ a more targeted approach to reach high-net-worth individuals.",
     questionVi:
-      "Giám đốc tiếp thị đề xuất rằng nhóm ____ một cách tiếp cận tập trung hơn để tiếp cận những cá nhân có giá trị tài sản ròng cao.",
+      "Giám đốc tiếp thị đề xuất rằng nhóm _____ một cách tiếp cận tập trung hơn để tiếp cận những cá nhân có giá trị tài sản ròng cao.",
     options: [
       { option: "adopt", isCorrect: true },
       { option: "adopts", isCorrect: false },
@@ -2204,9 +2204,9 @@ export const questions: Question[] = [
     contextEn: "Restricting information to a specific group.",
     contextVi: "Hạn chế thông tin cho một nhóm cụ thể.",
     questionEn:
-      "Candidates ____ experience in emerging markets will be given preferential consideration for the international assignment.",
+      "Candidates _____ experience in emerging markets will be given preferential consideration for the international assignment.",
     questionVi:
-      "Các ứng viên ____ có kinh nghiệm tại các thị trường mới nổi sẽ được ưu tiên xem xét cho nhiệm vụ quốc tế.",
+      "Các ứng viên _____ có kinh nghiệm tại các thị trường mới nổi sẽ được ưu tiên xem xét cho nhiệm vụ quốc tế.",
     options: [
       { option: "whose", isCorrect: true },
       { option: "who", isCorrect: false },
@@ -2224,9 +2224,9 @@ export const questions: Question[] = [
     contextEn: "Stating a condition for specialized knowledge access.",
     contextVi: "Nêu điều kiện để tiếp cận kiến thức chuyên môn.",
     questionEn:
-      "The details of the proprietary algorithm ____ to remain confidential for a period of ten years.",
+      "The details of the proprietary algorithm _____ to remain confidential for a period of ten years.",
     questionVi:
-      "Các chi tiết của thuật toán độc quyền ____ được yêu cầu phải giữ bí mật trong thời gian mười năm.",
+      "Các chi tiết của thuật toán độc quyền _____ được yêu cầu phải giữ bí mật trong thời gian mười năm.",
     options: [
       { option: "are required", isCorrect: true },
       { option: "are requiring", isCorrect: false },
@@ -2243,9 +2243,9 @@ export const questions: Question[] = [
     contextEn: "Comparing the complexity of two legal cases.",
     contextVi: "So sánh mức độ phức tạp của hai vụ án pháp lý.",
     questionEn:
-      "The current antitrust case is significantly ____ more complex than the previous litigation against the same corporation.",
+      "The current antitrust case is significantly _____ more complex than the previous litigation against the same corporation.",
     questionVi:
-      "Vụ kiện chống độc quyền hiện tại ____ phức tạp hơn đáng kể so với vụ kiện tụng trước đó đối với cùng một tập đoàn.",
+      "Vụ kiện chống độc quyền hiện tại _____ phức tạp hơn đáng kể so với vụ kiện tụng trước đó đối với cùng một tập đoàn.",
     options: [
       { option: "far", isCorrect: true },
       { option: "very", isCorrect: false },
@@ -2262,9 +2262,9 @@ export const questions: Question[] = [
     contextEn: "Exempting a group from a standard requirement.",
     contextVi: "Miễn cho một nhóm khỏi một yêu cầu tiêu chuẩn.",
     questionEn:
-      "Employees with over twenty years of service are exempt ____ the mandatory annual training sessions.",
+      "Employees with over twenty years of service are exempt _____ the mandatory annual training sessions.",
     questionVi:
-      "Nhân viên có trên hai mươi năm công tác được miễn ____ các buổi đào tạo hàng năm bắt buộc.",
+      "Nhân viên có trên hai mươi năm công tác được miễn _____ các buổi đào tạo hàng năm bắt buộc.",
     options: [
       { option: "from", isCorrect: true },
       { option: "with", isCorrect: false },
@@ -2281,9 +2281,9 @@ export const questions: Question[] = [
     contextEn: "Identifying a quality of a corporate culture.",
     contextVi: "Xác định tính chất của văn hóa doanh nghiệp.",
     questionEn:
-      "The company fosters a highly ____ and innovative environment that encourages out-of-the-box thinking.",
+      "The company fosters a highly _____ and innovative environment that encourages out-of-the-box thinking.",
     questionVi:
-      "Công ty thúc đẩy một môi trường năng động và ____ sáng tạo cao, khuyến khích tư duy đột phá.",
+      "Công ty thúc đẩy một môi trường năng động và _____ sáng tạo cao, khuyến khích tư duy đột phá.",
     options: [
       { option: "collaborative", isCorrect: true },
       { option: "collaborate", isCorrect: false },
@@ -2301,9 +2301,9 @@ export const questions: Question[] = [
     contextEn: "Emphasizing a restriction in formal guidelines.",
     contextVi: "Nhấn mạnh một hạn chế trong hướng dẫn trang trọng.",
     questionEn:
-      "On no account ____ any unauthorized personnel gain access to the secure data repository.",
+      "On no account _____ any unauthorized personnel gain access to the secure data repository.",
     questionVi:
-      "Trong bất kỳ hoàn cảnh nào, không một nhân viên không có thẩm quyền nào ____ được quyền truy cập vào kho lưu trữ dữ liệu an toàn.",
+      "Trong bất kỳ hoàn cảnh nào, không một nhân viên không có thẩm quyền nào _____ được quyền truy cập vào kho lưu trữ dữ liệu an toàn.",
     options: [
       { option: "must", isCorrect: true },
       { option: "should", isCorrect: true },
@@ -2321,9 +2321,9 @@ export const questions: Question[] = [
     contextEn: "Identifying an essential attribute for a leader.",
     contextVi: "Xác định một thuộc tính thiết yếu đối với một nhà lãnh đạo.",
     questionEn:
-      "It is essential that a leader ____ a high degree of emotional intelligence to effectively manage a diverse team.",
+      "It is essential that a leader _____ a high degree of emotional intelligence to effectively manage a diverse team.",
     questionVi:
-      "Điều thiết yếu là một nhà lãnh đạo ____ mức độ trí tuệ cảm xúc cao để quản lý hiệu quả một nhóm đa dạng.",
+      "Điều thiết yếu là một nhà lãnh đạo _____ mức độ trí tuệ cảm xúc cao để quản lý hiệu quả một nhóm đa dạng.",
     options: [
       { option: "possess", isCorrect: true },
       { option: "possesses", isCorrect: false },
@@ -2340,9 +2340,9 @@ export const questions: Question[] = [
     contextEn: "Describing a state that led to an action in business.",
     contextVi: "Mô tả một trạng thái dẫn đến một hành động trong kinh doanh.",
     questionEn:
-      "____ by the lack of transparency in the financial reports, the investors withdrew their support for the merger.",
+      "_____ by the lack of transparency in the financial reports, the investors withdrew their support for the merger.",
     questionVi:
-      "____ bởi sự thiếu minh bạch trong các báo cáo tài chính, các nhà đầu tư đã rút lại sự ủng hộ của họ đối với vụ sáp nhập.",
+      "_____ bởi sự thiếu minh bạch trong các báo cáo tài chính, các nhà đầu tư đã rút lại sự ủng hộ của họ đối với vụ sáp nhập.",
     options: [
       { option: "Disheartened", isCorrect: true },
       { option: "Disheartening", isCorrect: false },
@@ -2361,9 +2361,9 @@ export const questions: Question[] = [
     contextVi:
       "Phân tích tác động của một thất bại trong quá khứ đối với tình hình hiện tại.",
     questionEn:
-      "If we had invested more in digital transformation years ago, we ____ such a significant disadvantage today.",
+      "If we had invested more in digital transformation years ago, we _____ such a significant disadvantage today.",
     questionVi:
-      "Nếu chúng ta đầu tư nhiều hơn vào chuyển đổi số từ nhiều năm trước, chúng ta ____ đã không ở trong tình thế bất lợi đáng kể như hiện nay.",
+      "Nếu chúng ta đầu tư nhiều hơn vào chuyển đổi số từ nhiều năm trước, chúng ta _____ đã không ở trong tình thế bất lợi đáng kể như hiện nay.",
     options: [
       { option: "would not be at", isCorrect: true },
       { option: "would not have been at", isCorrect: false },
@@ -2381,9 +2381,9 @@ export const questions: Question[] = [
     contextEn: "Identifying the precise reason for a market shift.",
     contextVi: "Xác định lý do chính xác cho một sự thay đổi thị trường.",
     questionEn:
-      "It was exactly this shift in consumer mentality ____ the marketing team failed to anticipate in their annual forecast.",
+      "It was exactly this shift in consumer mentality _____ the marketing team failed to anticipate in their annual forecast.",
     questionVi:
-      "Chính xác là sự thay đổi trong tâm lý người tiêu dùng này ____ mà nhóm tiếp thị đã không lường trước được trong dự báo hàng năm của họ.",
+      "Chính xác là sự thay đổi trong tâm lý người tiêu dùng này _____ mà nhóm tiếp thị đã không lường trước được trong dự báo hàng năm của họ.",
     options: [
       { option: "that", isCorrect: true },
       { option: "which", isCorrect: false },
@@ -2402,9 +2402,9 @@ export const questions: Question[] = [
     contextVi:
       "Nhấn mạnh một điều kiện phủ định trong một bản tuyên bố trang trọng.",
     questionEn:
-      "Not until the external audit was thoroughly completed ____ the board of directors release the annual financial report.",
+      "Not until the external audit was thoroughly completed _____ the board of directors release the annual financial report.",
     questionVi:
-      "Mãi cho đến khi cuộc kiểm toán bên ngoài được hoàn thành kỹ lưỡng ____ ban giám đốc mới công bố báo cáo tài chính hàng năm.",
+      "Mãi cho đến khi cuộc kiểm toán bên ngoài được hoàn thành kỹ lưỡng _____ ban giám đốc mới công bố báo cáo tài chính hàng năm.",
     options: [
       { option: "did", isCorrect: true },
       { option: "do", isCorrect: false },
@@ -2421,9 +2421,9 @@ export const questions: Question[] = [
     contextEn: "Reporting an advisory recommendation for corporate strategy.",
     contextVi: "Báo cáo một khuyến nghị tư vấn cho chiến lược doanh nghiệp.",
     questionEn:
-      "The strategic consultant recommended that the firm ____ its entire marketing strategy to better align with digital trends.",
+      "The strategic consultant recommended that the firm _____ its entire marketing strategy to better align with digital trends.",
     questionVi:
-      "Cố vấn chiến lược đã khuyến nghị rằng công ty ____ lại toàn bộ chiến lược tiếp thị của mình để phù hợp hơn với các xu hướng kỹ thuật số.",
+      "Cố vấn chiến lược đã khuyến nghị rằng công ty _____ lại toàn bộ chiến lược tiếp thị của mình để phù hợp hơn với các xu hướng kỹ thuật số.",
     options: [
       { option: "overhaul", isCorrect: true },
       { option: "overhauls", isCorrect: false },
@@ -2441,9 +2441,9 @@ export const questions: Question[] = [
     contextEn: "Describing simultaneous actions in a research context.",
     contextVi: "Mô tả các hành động đồng thời trong bối cảnh nghiên cứu.",
     questionEn:
-      "____ for a breakthrough in renewable energy technology, the research team worked tirelessly for several years.",
+      "_____ for a breakthrough in renewable energy technology, the research team worked tirelessly for several years.",
     questionVi:
-      "____ mong tìm kiếm bước đột phá trong công nghệ năng lượng tái tạo, nhóm nghiên cứu đã làm việc không mệt mỏi trong vài năm.",
+      "_____ mong tìm kiếm bước đột phá trong công nghệ năng lượng tái tạo, nhóm nghiên cứu đã làm việc không mệt mỏi trong vài năm.",
     options: [
       { option: "Striving", isCorrect: true },
       { option: "Strived", isCorrect: false },
@@ -2462,9 +2462,9 @@ export const questions: Question[] = [
     contextVi:
       "Thảo luận về một quyết định quá khứ có hệ quả pháp lý hiện tại.",
     questionEn:
-      "If the company had not ignored the initial warnings, it ____ such severe legal consequences today.",
+      "If the company had not ignored the initial warnings, it _____ such severe legal consequences today.",
     questionVi:
-      "Nếu công ty không phớt lờ những cảnh báo ban đầu, họ ____ đã không phải đối mặt với những hệ quả pháp lý nghiêm trọng như hiện nay.",
+      "Nếu công ty không phớt lờ những cảnh báo ban đầu, họ _____ đã không phải đối mặt với những hệ quả pháp lý nghiêm trọng như hiện nay.",
     options: [
       { option: "would not be facing", isCorrect: true },
       { option: "would not have faced", isCorrect: false },
@@ -2482,9 +2482,9 @@ export const questions: Question[] = [
     contextEn: "Identifying the core reason for a successful expansion.",
     contextVi: "Xác định lý do cốt lõi của việc mở rộng thành công.",
     questionEn:
-      "It was their exceptional ability to adapt to local customs ____ allowed the firm to succeed in the Middle Eastern market.",
+      "It was their exceptional ability to adapt to local customs _____ allowed the firm to succeed in the Middle Eastern market.",
     questionVi:
-      "Chính khả năng thích nghi đặc biệt với các phong tục địa phương của họ ____ đã cho phép công ty thành công tại thị trường Trung Đông.",
+      "Chính khả năng thích nghi đặc biệt với các phong tục địa phương của họ _____ đã cho phép công ty thành công tại thị trường Trung Đông.",
     options: [
       { option: "that", isCorrect: true },
       { option: "which", isCorrect: false },
@@ -2502,9 +2502,9 @@ export const questions: Question[] = [
     contextEn: "Formal reference in a technical document.",
     contextVi: "Tham chiếu trang trọng trong một văn bản kỹ thuật.",
     questionEn:
-      "The white paper discusses several emerging technologies, the long-term impact of ____ remains highly speculative.",
+      "The white paper discusses several emerging technologies, the long-term impact of _____ remains highly speculative.",
     questionVi:
-      "Sách trắng thảo luận về một số công nghệ mới nổi, tác động dài hạn của ____ vẫn còn mang tính suy đoán cao.",
+      "Sách trắng thảo luận về một số công nghệ mới nổi, tác động dài hạn của _____ vẫn còn mang tính suy đoán cao.",
     options: [
       { option: "which", isCorrect: true },
       { option: "that", isCorrect: false },
@@ -2522,9 +2522,9 @@ export const questions: Question[] = [
     contextEn: "Describing a projected industry trend.",
     contextVi: "Mô tả một xu hướng dự kiến của ngành.",
     questionEn:
-      "The demand for skilled cybersecurity professionals ____ to grow exponentially over the next decade.",
+      "The demand for skilled cybersecurity professionals _____ to grow exponentially over the next decade.",
     questionVi:
-      "Nhu cầu về các chuyên gia bảo mật mạng có tay nghề ____ dự kiến sẽ tăng theo cấp số nhân trong thập kỷ tới.",
+      "Nhu cầu về các chuyên gia bảo mật mạng có tay nghề _____ dự kiến sẽ tăng theo cấp số nhân trong thập kỷ tới.",
     options: [
       { option: "is projected", isCorrect: true },
       { option: "is projecting", isCorrect: false },
@@ -2542,9 +2542,9 @@ export const questions: Question[] = [
       "Describing a proportional relationship between scale and efficiency.",
     contextVi: "Mô tả mối quan hệ tỷ lệ thuận giữa quy mô và hiệu quả.",
     questionEn:
-      "The larger the economies of scale, ____ the per-unit cost of production becomes.",
+      "The larger the economies of scale, _____ the per-unit cost of production becomes.",
     questionVi:
-      "Lợi thế kinh tế theo quy mô càng lớn, chi phí sản xuất trên mỗi đơn vị ____.",
+      "Lợi thế kinh tế theo quy mô càng lớn, chi phí sản xuất trên mỗi đơn vị _____.",
     options: [
       { option: "the lower", isCorrect: true },
       { option: "lower", isCorrect: false },
@@ -2562,9 +2562,9 @@ export const questions: Question[] = [
     contextEn: "Stating a condition for eligibility for a grant.",
     contextVi: "Nêu điều kiện đủ tư cách nhận một khoản tài trợ.",
     questionEn:
-      "Eligibility for the research grant is strictly contingent ____ providing a detailed breakdown of the proposed budget.",
+      "Eligibility for the research grant is strictly contingent _____ providing a detailed breakdown of the proposed budget.",
     questionVi:
-      "Việc đủ điều kiện nhận tài trợ nghiên cứu phụ thuộc hoàn toàn ____ vào việc cung cấp bản kê khai chi tiết ngân sách đề xuất.",
+      "Việc đủ điều kiện nhận tài trợ nghiên cứu phụ thuộc hoàn toàn _____ vào việc cung cấp bản kê khai chi tiết ngân sách đề xuất.",
     options: [
       { option: "upon", isCorrect: true },
       { option: "to", isCorrect: false },
@@ -2581,9 +2581,9 @@ export const questions: Question[] = [
     contextEn: "Identifying a quality of a situation.",
     contextVi: "Xác định tính chất của một tình huống.",
     questionEn:
-      "The current geopolitical climate is extremely ____ and requires a cautious approach to international investment.",
+      "The current geopolitical climate is extremely _____ and requires a cautious approach to international investment.",
     questionVi:
-      "Khí hậu địa chính trị hiện nay cực kỳ ____ và đòi hỏi một cách tiếp cận thận trọng đối với đầu tư quốc tế.",
+      "Khí hậu địa chính trị hiện nay cực kỳ _____ và đòi hỏi một cách tiếp cận thận trọng đối với đầu tư quốc tế.",
     options: [
       { option: "volatile", isCorrect: true },
       { option: "volatility", isCorrect: false },
@@ -2600,9 +2600,9 @@ export const questions: Question[] = [
     contextEn: "Emphasizing a restriction in formal guidelines.",
     contextVi: "Nhấn mạnh một hạn chế trong hướng dẫn trang trọng.",
     questionEn:
-      "Under no circumstances ____ any employee be allowed to share sensitive customer data with third-party vendors without prior authorization.",
+      "Under no circumstances _____ any employee be allowed to share sensitive customer data with third-party vendors without prior authorization.",
     questionVi:
-      "Trong bất kỳ hoàn cảnh nào, không một nhân viên nào ____ được phép chia sẻ dữ liệu khách hàng nhạy cảm với các nhà cung cấp bên thứ ba mà không có sự cho phép trước.",
+      "Trong bất kỳ hoàn cảnh nào, không một nhân viên nào _____ được phép chia sẻ dữ liệu khách hàng nhạy cảm với các nhà cung cấp bên thứ ba mà không có sự cho phép trước.",
     options: [
       { option: "shall", isCorrect: true },
       { option: "should", isCorrect: true },
@@ -2620,9 +2620,9 @@ export const questions: Question[] = [
     contextEn: "Discussing a challenge in management.",
     contextVi: "Thảo luận về một thách thức trong quản lý.",
     questionEn:
-      "____ an effective balance between corporate social responsibility and profitability is a key priority for the new CEO.",
+      "_____ an effective balance between corporate social responsibility and profitability is a key priority for the new CEO.",
     questionVi:
-      "____ sự cân bằng hiệu quả giữa trách nhiệm xã hội của doanh nghiệp và lợi nhuận là ưu tiên chính của vị CEO mới.",
+      "_____ sự cân bằng hiệu quả giữa trách nhiệm xã hội của doanh nghiệp và lợi nhuận là ưu tiên chính của vị CEO mới.",
     options: [
       { option: "Achieving", isCorrect: true },
       { option: "Achieve", isCorrect: false },
@@ -2639,9 +2639,9 @@ export const questions: Question[] = [
     contextEn: "Speculating with high certainty about a past situation.",
     contextVi: "Dự đoán với độ chắc chắn cao về một tình huống trong quá khứ.",
     questionEn:
-      "The board ____ been aware of the potential risks long before the project was actually launched.",
+      "The board _____ been aware of the potential risks long before the project was actually launched.",
     questionVi:
-      "Ban điều hành ____ chắc chắn đã biết về những rủi ro tiềm ẩn từ lâu trước khi dự án thực sự được khởi xướng.",
+      "Ban điều hành _____ chắc chắn đã biết về những rủi ro tiềm ẩn từ lâu trước khi dự án thực sự được khởi xướng.",
     options: [
       { option: "must have", isCorrect: true },
       { option: "should have", isCorrect: false },
@@ -2659,9 +2659,9 @@ export const questions: Question[] = [
     contextEn: "Expressing a nuanced concession in a business report.",
     contextVi: "Diễn đạt một sự nhượng bộ tinh tế trong báo cáo kinh doanh.",
     questionEn:
-      "____ the recent market fluctuations, our firm has maintained a steady growth trajectory throughout the year.",
+      "_____ the recent market fluctuations, our firm has maintained a steady growth trajectory throughout the year.",
     questionVi:
-      "____ những biến động thị trường gần đây, công ty chúng tôi vẫn duy trì quỹ đạo tăng trưởng ổn định trong suốt cả năm.",
+      "_____ những biến động thị trường gần đây, công ty chúng tôi vẫn duy trì quỹ đạo tăng trưởng ổn định trong suốt cả năm.",
     options: [
       { option: "Notwithstanding", isCorrect: true },
       { option: "Although", isCorrect: false },
@@ -2679,9 +2679,9 @@ export const questions: Question[] = [
     contextEn: "Reporting an urgent requirement from a committee.",
     contextVi: "Báo cáo một yêu cầu khẩn cấp từ một ủy ban.",
     questionEn:
-      "The steering committee recommended that the project ____ terminated immediately due to budget overruns.",
+      "The steering committee recommended that the project _____ terminated immediately due to budget overruns.",
     questionVi:
-      "Ủy ban điều hành đã khuyến nghị rằng dự án ____ dừng lại ngay lập tức do vượt quá ngân sách.",
+      "Ủy ban điều hành đã khuyến nghị rằng dự án _____ dừng lại ngay lập tức do vượt quá ngân sách.",
     options: [
       { option: "be", isCorrect: true },
       { option: "is", isCorrect: false },
@@ -2699,9 +2699,9 @@ export const questions: Question[] = [
     contextEn: "Adding information with a complex relative clause.",
     contextVi: "Thêm thông tin bằng mệnh đề quan hệ phức tạp.",
     questionEn:
-      "The merger involves several complex legal entities, many of ____ are based in offshore jurisdictions.",
+      "The merger involves several complex legal entities, many of _____ are based in offshore jurisdictions.",
     questionVi:
-      "Vụ sáp nhập liên quan đến một số pháp nhân phức tạp, nhiều ____ trong số đó có trụ sở tại các khu vực pháp lý ngoài khơi.",
+      "Vụ sáp nhập liên quan đến một số pháp nhân phức tạp, nhiều _____ trong số đó có trụ sở tại các khu vực pháp lý ngoài khơi.",
     options: [
       { option: "which", isCorrect: true },
       { option: "that", isCorrect: false },
@@ -2719,9 +2719,9 @@ export const questions: Question[] = [
     contextEn: "Emphasizing immediate reaction in a professional setting.",
     contextVi: "Nhấn mạnh phản ứng ngay lập tức trong bối cảnh chuyên nghiệp.",
     questionEn:
-      "No sooner ____ the new CEO taken office than he initiated a series of radical organizational reforms.",
+      "No sooner _____ the new CEO taken office than he initiated a series of radical organizational reforms.",
     questionVi:
-      "Vị CEO mới vừa nhận chức ____ thì ông ấy đã bắt đầu một loạt các cuộc cải cách tổ chức triệt để.",
+      "Vị CEO mới vừa nhận chức _____ thì ông ấy đã bắt đầu một loạt các cuộc cải cách tổ chức triệt để.",
     options: [
       { option: "had", isCorrect: true },
       { option: "did", isCorrect: false },
@@ -2739,9 +2739,9 @@ export const questions: Question[] = [
     contextEn: "Stating a critical requirement for a process.",
     contextVi: "Nêu một yêu cầu quan trọng cho một quy trình.",
     questionEn:
-      "It is imperative that every proposal ____ carefully vetted by the legal department before being submitted to the board.",
+      "It is imperative that every proposal _____ carefully vetted by the legal department before being submitted to the board.",
     questionVi:
-      "Điều cấp thiết là mọi đề xuất ____ được bộ phận pháp lý kiểm tra kỹ lưỡng trước khi trình ban giám đốc.",
+      "Điều cấp thiết là mọi đề xuất _____ được bộ phận pháp lý kiểm tra kỹ lưỡng trước khi trình ban giám đốc.",
     options: [
       { option: "be", isCorrect: true },
       { option: "is", isCorrect: false },
@@ -2759,9 +2759,9 @@ export const questions: Question[] = [
     contextEn: "Describing a state leading to a choice.",
     contextVi: "Mô tả một trạng thái dẫn đến một sự lựa chọn.",
     questionEn:
-      "____ by the ongoing volatility in the domestic market, the company decided to focus more on international expansion.",
+      "_____ by the ongoing volatility in the domestic market, the company decided to focus more on international expansion.",
     questionVi:
-      "____ bởi sự biến động đang diễn ra ở thị trường trong nước, công ty đã quyết định tập trung nhiều hơn vào việc mở rộng quốc tế.",
+      "_____ bởi sự biến động đang diễn ra ở thị trường trong nước, công ty đã quyết định tập trung nhiều hơn vào việc mở rộng quốc tế.",
     options: [
       { option: "Unsettled", isCorrect: true },
       { option: "Unsettling", isCorrect: false },
@@ -2780,9 +2780,9 @@ export const questions: Question[] = [
     contextVi:
       "Thảo luận về một sự kiện giả định trong quá khứ và tác động hiện tại của nó.",
     questionEn:
-      "If the firm had not invested heavily in R&D, it ____ its current competitive edge in the global market.",
+      "If the firm had not invested heavily in R&D, it _____ its current competitive edge in the global market.",
     questionVi:
-      "Nếu công ty không đầu tư mạnh vào R&D, họ ____ đã không có được lợi thế cạnh tranh như hiện nay trên thị trường toàn cầu.",
+      "Nếu công ty không đầu tư mạnh vào R&D, họ _____ đã không có được lợi thế cạnh tranh như hiện nay trên thị trường toàn cầu.",
     options: [
       { option: "would not possess", isCorrect: true },
       { option: "would not have possessed", isCorrect: false },
@@ -2800,9 +2800,9 @@ export const questions: Question[] = [
     contextEn: "Identifying the precise reason for a success.",
     contextVi: "Xác định lý do chính xác mang lại thành công.",
     questionEn:
-      "It was exactly this innovative approach to customer service ____ set the startup apart from its established competitors.",
+      "It was exactly this innovative approach to customer service _____ set the startup apart from its established competitors.",
     questionVi:
-      "Chính xác là cách tiếp cận sáng tạo trong dịch vụ khách hàng này ____ đã làm cho công ty khởi nghiệp khác biệt so với các đối thủ cạnh tranh lâu đời.",
+      "Chính xác là cách tiếp cận sáng tạo trong dịch vụ khách hàng này _____ đã làm cho công ty khởi nghiệp khác biệt so với các đối thủ cạnh tranh lâu đời.",
     options: [
       { option: "that", isCorrect: true },
       { option: "which", isCorrect: false },
@@ -2820,9 +2820,9 @@ export const questions: Question[] = [
     contextEn: "Emphasizing a restriction in formal guidelines.",
     contextVi: "Nhấn mạnh một hạn chế trong hướng dẫn trang trọng.",
     questionEn:
-      "On no account ____ any unauthorized person gain access to the company's proprietary data repository.",
+      "On no account _____ any unauthorized person gain access to the company's proprietary data repository.",
     questionVi:
-      "Trong bất kỳ hoàn cảnh nào, không một cá nhân không có thẩm quyền nào ____ được quyền truy cập vào kho dữ liệu độc quyền của công ty.",
+      "Trong bất kỳ hoàn cảnh nào, không một cá nhân không có thẩm quyền nào _____ được quyền truy cập vào kho dữ liệu độc quyền của công ty.",
     options: [
       { option: "must", isCorrect: true },
       { option: "should", isCorrect: true },
@@ -2840,9 +2840,9 @@ export const questions: Question[] = [
     contextEn: "Reporting an essential requirement for a role.",
     contextVi: "Báo cáo một yêu cầu thiết yếu cho một vai trò.",
     questionEn:
-      "It is essential that a successful candidate ____ outstanding communication and leadership skills.",
+      "It is essential that a successful candidate _____ outstanding communication and leadership skills.",
     questionVi:
-      "Điều thiết yếu là một ứng viên thành công ____ các kỹ năng lãnh đạo và giao tiếp xuất sắc.",
+      "Điều thiết yếu là một ứng viên thành công _____ các kỹ năng lãnh đạo và giao tiếp xuất sắc.",
     options: [
       { option: "possess", isCorrect: true },
       { option: "possesses", isCorrect: false },
@@ -2859,9 +2859,9 @@ export const questions: Question[] = [
     contextEn: "Describing a state that led to a major decision.",
     contextVi: "Mô tả một trạng thái dẫn đến một quyết định lớn.",
     questionEn:
-      "____ by the unexpected shift in consumer behavior, the marketing department decided to completely revamp its strategy.",
+      "_____ by the unexpected shift in consumer behavior, the marketing department decided to completely revamp its strategy.",
     questionVi:
-      "____ bởi sự thay đổi bất ngờ trong hành vi người tiêu dùng, bộ phận tiếp thị đã quyết định cải tổ hoàn toàn chiến lược của mình.",
+      "_____ bởi sự thay đổi bất ngờ trong hành vi người tiêu dùng, bộ phận tiếp thị đã quyết định cải tổ hoàn toàn chiến lược của mình.",
     options: [
       { option: "Surprised", isCorrect: true },
       { option: "Surprising", isCorrect: false },
@@ -2880,9 +2880,9 @@ export const questions: Question[] = [
     contextVi:
       "Thảo luận về một sự kiện giả định trong quá khứ và tác động hiện tại của nó.",
     questionEn:
-      "If the company had anticipated the decline in demand, it ____ such large amounts of unsold inventory today.",
+      "If the company had anticipated the decline in demand, it _____ such large amounts of unsold inventory today.",
     questionVi:
-      "Nếu công ty lường trước được sự sụt giảm nhu cầu, họ ____ đã không phải nắm giữ lượng lớn hàng tồn kho chưa bán được như hiện nay.",
+      "Nếu công ty lường trước được sự sụt giảm nhu cầu, họ _____ đã không phải nắm giữ lượng lớn hàng tồn kho chưa bán được như hiện nay.",
     options: [
       { option: "would not be holding", isCorrect: true },
       { option: "would not have held", isCorrect: false },
@@ -2900,9 +2900,9 @@ export const questions: Question[] = [
     contextEn: "Emphasizing a restriction in a formal business contract.",
     contextVi: "Nhấn mạnh một hạn chế trong hợp đồng kinh doanh trang trọng.",
     questionEn:
-      "Not until the arbitration process reached its final stage ____ the parties involved agree to a settlement.",
+      "Not until the arbitration process reached its final stage _____ the parties involved agree to a settlement.",
     questionVi:
-      "Mãi cho đến khi quy trình trọng tài đạt đến giai đoạn cuối cùng ____ các bên liên quan mới đồng ý thỏa thuận.",
+      "Mãi cho đến khi quy trình trọng tài đạt đến giai đoạn cuối cùng _____ các bên liên quan mới đồng ý thỏa thuận.",
     options: [
       { option: "did", isCorrect: true },
       { option: "do", isCorrect: false },
@@ -2921,9 +2921,9 @@ export const questions: Question[] = [
     contextVi:
       "Báo cáo một khuyến nghị tư vấn cho việc tái cơ cấu doanh nghiệp.",
     questionEn:
-      "The management consultant recommended that the company ____ its entire supply chain to mitigate geopolitical risks.",
+      "The management consultant recommended that the company _____ its entire supply chain to mitigate geopolitical risks.",
     questionVi:
-      "Cố vấn quản lý đã khuyến nghị rằng công ty ____ lại toàn bộ chuỗi cung ứng của mình để giảm thiểu rủi ro địa chính trị.",
+      "Cố vấn quản lý đã khuyến nghị rằng công ty _____ lại toàn bộ chuỗi cung ứng của mình để giảm thiểu rủi ro địa chính trị.",
     options: [
       { option: "overhaul", isCorrect: true },
       { option: "overhauls", isCorrect: false },
@@ -2941,9 +2941,9 @@ export const questions: Question[] = [
     contextEn: "Describing a concurrent state with an action.",
     contextVi: "Mô tả một trạng thái đồng thời với một hành động.",
     questionEn:
-      "____ for a significant increase in market share, the electronics firm launched a multi-million dollar advertising campaign.",
+      "_____ for a significant increase in market share, the electronics firm launched a multi-million dollar advertising campaign.",
     questionVi:
-      "____ mong sự gia tăng đáng kể về thị phần, công ty điện tử đã khởi động một chiến dịch quảng cáo trị giá hàng triệu đô la.",
+      "_____ mong sự gia tăng đáng kể về thị phần, công ty điện tử đã khởi động một chiến dịch quảng cáo trị giá hàng triệu đô la.",
     options: [
       { option: "Striving", isCorrect: true },
       { option: "Strived", isCorrect: false },
@@ -2963,9 +2963,9 @@ export const questions: Question[] = [
     contextVi:
       "Thảo luận về một quyết định quá khứ có hệ quả tài chính hiện tại.",
     questionEn:
-      "If the government had not intervened with a bailout package, the national carrier ____ bankrupt by now.",
+      "If the government had not intervened with a bailout package, the national carrier _____ bankrupt by now.",
     questionVi:
-      "Nếu chính phủ không can thiệp bằng một gói cứu trợ, hãng hàng không quốc gia ____ đã phá sản vào lúc này.",
+      "Nếu chính phủ không can thiệp bằng một gói cứu trợ, hãng hàng không quốc gia _____ đã phá sản vào lúc này.",
     options: [
       { option: "would be", isCorrect: true },
       { option: "would have been", isCorrect: false },
@@ -2985,9 +2985,9 @@ export const questions: Question[] = [
     contextVi:
       "Tập trung vào một người cụ thể chịu trách nhiệm cho một thành tựu.",
     questionEn:
-      "It was through his meticulous attention to detail ____ the lead architect ensured the project's structural integrity.",
+      "It was through his meticulous attention to detail _____ the lead architect ensured the project's structural integrity.",
     questionVi:
-      "Chính nhờ sự chú ý tỉ mỉ đến từng chi tiết của ông ấy ____ mà kiến trúc sư trưởng đã đảm bảo được tính toàn vẹn về cấu trúc của dự án.",
+      "Chính nhờ sự chú ý tỉ mỉ đến từng chi tiết của ông ấy _____ mà kiến trúc sư trưởng đã đảm bảo được tính toàn vẹn về cấu trúc của dự án.",
     options: [
       { option: "that", isCorrect: true },
       { option: "which", isCorrect: false },
@@ -3007,9 +3007,9 @@ export const questions: Question[] = [
     contextVi:
       "Thêm thông tin bằng mệnh đề quan hệ phức tạp trong một báo cáo trang trọng.",
     questionEn:
-      "The CEO addressed the shareholders, many of ____ expressed concerns regarding the company's environmental footprint.",
+      "The CEO addressed the shareholders, many of _____ expressed concerns regarding the company's environmental footprint.",
     questionVi:
-      "CEO đã phát biểu trước các cổ đông, nhiều ____ trong số họ bày tỏ lo ngại về dấu chân môi trường của công ty.",
+      "CEO đã phát biểu trước các cổ đông, nhiều _____ trong số họ bày tỏ lo ngại về dấu chân môi trường của công ty.",
     options: [
       { option: "whom", isCorrect: true },
       { option: "who", isCorrect: false },
@@ -3027,9 +3027,9 @@ export const questions: Question[] = [
     contextEn: "Describing a common perception in the business world.",
     contextVi: "Mô tả một nhận thức phổ biến trong giới kinh doanh.",
     questionEn:
-      "Entrepreneurship ____ as a high-risk, high-reward endeavor by most financial analysts.",
+      "Entrepreneurship _____ as a high-risk, high-reward endeavor by most financial analysts.",
     questionVi:
-      "Khởi nghiệp ____ được coi là một nỗ lực có rủi ro cao, lợi nhuận cao bởi hầu hết các nhà phân tích tài chính.",
+      "Khởi nghiệp _____ được coi là một nỗ lực có rủi ro cao, lợi nhuận cao bởi hầu hết các nhà phân tích tài chính.",
     options: [
       { option: "is widely viewed", isCorrect: true },
       { option: "is widely viewing", isCorrect: false },
@@ -3047,9 +3047,9 @@ export const questions: Question[] = [
     contextEn: "Comparing professional efficiency in two different scenarios.",
     contextVi: "So sánh hiệu quả chuyên môn trong hai kịch bản khác nhau.",
     questionEn:
-      "The new automation system works ____ more efficiently than the manual processes it replaced.",
+      "The new automation system works _____ more efficiently than the manual processes it replaced.",
     questionVi:
-      "Hệ thống tự động hóa mới hoạt động ____ hiệu quả hơn nhiều so với các quy trình thủ công mà nó thay thế.",
+      "Hệ thống tự động hóa mới hoạt động _____ hiệu quả hơn nhiều so với các quy trình thủ công mà nó thay thế.",
     options: [
       { option: "infinitely", isCorrect: true },
       { option: "infinite", isCorrect: false },
@@ -3067,9 +3067,9 @@ export const questions: Question[] = [
     contextEn: "Expressing a condition for professional advancement.",
     contextVi: "Diễn đạt một điều kiện để thăng tiến nghề nghiệp.",
     questionEn:
-      "Promotion to a senior management level is often dependent ____ a candidate's ability to demonstrate strategic vision.",
+      "Promotion to a senior management level is often dependent _____ a candidate's ability to demonstrate strategic vision.",
     questionVi:
-      "Việc thăng tiến lên cấp quản lý cấp cao thường phụ thuộc ____ vào khả năng thể hiện tầm nhìn chiến lược của ứng viên.",
+      "Việc thăng tiến lên cấp quản lý cấp cao thường phụ thuộc _____ vào khả năng thể hiện tầm nhìn chiến lược của ứng viên.",
     options: [
       { option: "upon", isCorrect: true },
       { option: "to", isCorrect: false },
@@ -3086,9 +3086,9 @@ export const questions: Question[] = [
     contextEn: "Identifying a specific quality of a legal argument.",
     contextVi: "Xác định một chất lượng cụ thể của một lập luận pháp lý.",
     questionEn:
-      "The legal counsel provided a highly ____ and persuasive argument in favor of the defendant.",
+      "The legal counsel provided a highly _____ and persuasive argument in favor of the defendant.",
     questionVi:
-      "Cố vấn pháp lý đã đưa ra một lập luận cực kỳ ____ và đầy thuyết phục có lợi cho bị cáo.",
+      "Cố vấn pháp lý đã đưa ra một lập luận cực kỳ _____ và đầy thuyết phục có lợi cho bị cáo.",
     options: [
       { option: "coherent", isCorrect: true },
       { option: "coherence", isCorrect: false },
@@ -3105,9 +3105,9 @@ export const questions: Question[] = [
     contextEn: "Emphasizing a restriction in a formal company policy.",
     contextVi: "Nhấn mạnh một hạn chế trong chính sách công ty trang trọng.",
     questionEn:
-      "Seldom ____ such a high level of cooperation between rival firms in the pharmaceutical industry.",
+      "Seldom _____ such a high level of cooperation between rival firms in the pharmaceutical industry.",
     questionVi:
-      "Hiếm khi ____ thấy mức độ hợp tác cao như vậy giữa các công ty đối thủ trong ngành dược phẩm.",
+      "Hiếm khi _____ thấy mức độ hợp tác cao như vậy giữa các công ty đối thủ trong ngành dược phẩm.",
     options: [
       { option: "do we witness", isCorrect: true },
       { option: "we witness", isCorrect: false },
@@ -3124,9 +3124,9 @@ export const questions: Question[] = [
     contextEn: "Identifying a complex task as a subject.",
     contextVi: "Xác định một nhiệm vụ phức tạp làm chủ ngữ.",
     questionEn:
-      "____ an effective balance between professional obligations and personal well-being is a constant struggle for many executives.",
+      "_____ an effective balance between professional obligations and personal well-being is a constant struggle for many executives.",
     questionVi:
-      "____ sự cân bằng hiệu quả giữa các nghĩa vụ nghề nghiệp và hạnh phúc cá nhân là một cuộc đấu tranh không ngừng đối với nhiều giám đốc điều hành.",
+      "_____ sự cân bằng hiệu quả giữa các nghĩa vụ nghề nghiệp và hạnh phúc cá nhân là một cuộc đấu tranh không ngừng đối với nhiều giám đốc điều hành.",
     options: [
       { option: "Striking", isCorrect: true },
       { option: "To be struck", isCorrect: false },
@@ -3144,9 +3144,9 @@ export const questions: Question[] = [
     contextEn: "Suggesting a past obligation that was not fulfilled.",
     contextVi: "Đề xuất một nghĩa vụ trong quá khứ đã không được thực hiện.",
     questionEn:
-      "The company ____ conducted a more thorough market analysis before launching such a specialized product.",
+      "The company _____ conducted a more thorough market analysis before launching such a specialized product.",
     questionVi:
-      "Công ty ____ lẽ ra nên thực hiện một phân tích thị trường kỹ lưỡng hơn trước khi tung ra một sản phẩm chuyên dụng như vậy.",
+      "Công ty _____ lẽ ra nên thực hiện một phân tích thị trường kỹ lưỡng hơn trước khi tung ra một sản phẩm chuyên dụng như vậy.",
     options: [
       { option: "should have", isCorrect: true },
       { option: "must have", isCorrect: false },
@@ -3165,9 +3165,9 @@ export const questions: Question[] = [
     contextVi:
       "Thể hiện sự tương phản mạnh mẽ giữa hai chiến lược của doanh nghiệp.",
     questionEn:
-      "Company A focused on rapid expansion, ____ Company B prioritized long-term sustainability and organic growth.",
+      "Company A focused on rapid expansion, _____ Company B prioritized long-term sustainability and organic growth.",
     questionVi:
-      "Công ty A tập trung vào việc mở rộng nhanh chóng, ____ trong khi đó Công ty B ưu tiên sự bền vững lâu dài và tăng trưởng hữu cơ.",
+      "Công ty A tập trung vào việc mở rộng nhanh chóng, _____ trong khi đó Công ty B ưu tiên sự bền vững lâu dài và tăng trưởng hữu cơ.",
     options: [
       { option: "whereas", isCorrect: true },
       { option: "consequently", isCorrect: false },
@@ -3186,9 +3186,9 @@ export const questions: Question[] = [
     contextVi:
       "Báo cáo một khuyến nghị chính thức trong một cuộc họp kinh doanh.",
     questionEn:
-      "The marketing director suggested that the team ____ a more targeted approach to reach high-net-worth individuals.",
+      "The marketing director suggested that the team _____ a more targeted approach to reach high-net-worth individuals.",
     questionVi:
-      "Giám đốc tiếp thị đề xuất rằng nhóm ____ một cách tiếp cận tập trung hơn để tiếp cận những cá nhân có giá trị tài sản ròng cao.",
+      "Giám đốc tiếp thị đề xuất rằng nhóm _____ một cách tiếp cận tập trung hơn để tiếp cận những cá nhân có giá trị tài sản ròng cao.",
     options: [
       { option: "adopt", isCorrect: true },
       { option: "adopts", isCorrect: false },
@@ -3206,9 +3206,9 @@ export const questions: Question[] = [
     contextEn: "Restricting information to a specific group.",
     contextVi: "Hạn chế thông tin cho một nhóm cụ thể.",
     questionEn:
-      "Candidates ____ experience in emerging markets will be given preferential consideration for the international assignment.",
+      "Candidates _____ experience in emerging markets will be given preferential consideration for the international assignment.",
     questionVi:
-      "Các ứng viên ____ có kinh nghiệm tại các thị trường mới nổi sẽ được ưu tiên xem xét cho nhiệm vụ quốc tế.",
+      "Các ứng viên _____ có kinh nghiệm tại các thị trường mới nổi sẽ được ưu tiên xem xét cho nhiệm vụ quốc tế.",
     options: [
       { option: "whose", isCorrect: true },
       { option: "who", isCorrect: false },
@@ -3226,9 +3226,9 @@ export const questions: Question[] = [
     contextEn: "Stating a condition for specialized knowledge access.",
     contextVi: "Nêu điều kiện để tiếp cận kiến thức chuyên môn.",
     questionEn:
-      "The details of the proprietary algorithm ____ to remain confidential for a period of ten years.",
+      "The details of the proprietary algorithm _____ to remain confidential for a period of ten years.",
     questionVi:
-      "Các chi tiết của thuật toán độc quyền ____ được yêu cầu phải giữ bí mật trong thời gian mười năm.",
+      "Các chi tiết của thuật toán độc quyền _____ được yêu cầu phải giữ bí mật trong thời gian mười năm.",
     options: [
       { option: "are required", isCorrect: true },
       { option: "are requiring", isCorrect: false },
@@ -3245,9 +3245,9 @@ export const questions: Question[] = [
     contextEn: "Comparing the complexity of two legal cases.",
     contextVi: "So sánh mức độ phức tạp của hai vụ án pháp lý.",
     questionEn:
-      "The current antitrust case is significantly ____ more complex than the previous litigation against the same corporation.",
+      "The current antitrust case is significantly _____ more complex than the previous litigation against the same corporation.",
     questionVi:
-      "Vụ kiện chống độc quyền hiện tại ____ phức tạp hơn đáng kể so với vụ kiện tụng trước đó đối với cùng một tập đoàn.",
+      "Vụ kiện chống độc quyền hiện tại _____ phức tạp hơn đáng kể so với vụ kiện tụng trước đó đối với cùng một tập đoàn.",
     options: [
       { option: "far", isCorrect: true },
       { option: "very", isCorrect: false },
@@ -3264,9 +3264,9 @@ export const questions: Question[] = [
     contextEn: "Exempting a group from a standard requirement.",
     contextVi: "Miễn cho một nhóm khỏi một yêu cầu tiêu chuẩn.",
     questionEn:
-      "Employees with over twenty years of service are exempt ____ the mandatory annual training sessions.",
+      "Employees with over twenty years of service are exempt _____ the mandatory annual training sessions.",
     questionVi:
-      "Nhân viên có trên hai mươi năm công tác được miễn ____ các buổi đào tạo hàng năm bắt buộc.",
+      "Nhân viên có trên hai mươi năm công tác được miễn _____ các buổi đào tạo hàng năm bắt buộc.",
     options: [
       { option: "from", isCorrect: true },
       { option: "with", isCorrect: false },
@@ -3283,9 +3283,9 @@ export const questions: Question[] = [
     contextEn: "Identifying a quality of a corporate culture.",
     contextVi: "Xác định tính chất của văn hóa doanh nghiệp.",
     questionEn:
-      "The company fosters a highly ____ and innovative environment that encourages out-of-the-box thinking.",
+      "The company fosters a highly _____ and innovative environment that encourages out-of-the-box thinking.",
     questionVi:
-      "Công ty thúc đẩy một môi trường năng động và ____ sáng tạo cao, khuyến khích tư duy đột phá.",
+      "Công ty thúc đẩy một môi trường năng động và _____ sáng tạo cao, khuyến khích tư duy đột phá.",
     options: [
       { option: "collaborative", isCorrect: true },
       { option: "collaborate", isCorrect: false },
@@ -3303,9 +3303,9 @@ export const questions: Question[] = [
     contextEn: "Emphasizing a restriction in formal guidelines.",
     contextVi: "Nhấn mạnh một hạn chế trong hướng dẫn trang trọng.",
     questionEn:
-      "On no account ____ any unauthorized personnel gain access to the secure data repository.",
+      "On no account _____ any unauthorized personnel gain access to the secure data repository.",
     questionVi:
-      "Trong bất kỳ hoàn cảnh nào, không một nhân viên không có thẩm quyền nào ____ được quyền truy cập vào kho lưu trữ dữ liệu an toàn.",
+      "Trong bất kỳ hoàn cảnh nào, không một nhân viên không có thẩm quyền nào _____ được quyền truy cập vào kho lưu trữ dữ liệu an toàn.",
     options: [
       { option: "must", isCorrect: true },
       { option: "should", isCorrect: true },
@@ -3323,9 +3323,9 @@ export const questions: Question[] = [
     contextEn: "Identifying an essential attribute for a leader.",
     contextVi: "Xác định một thuộc tính thiết yếu đối với một nhà lãnh đạo.",
     questionEn:
-      "It is essential that a leader ____ a high degree of emotional intelligence to effectively manage a diverse team.",
+      "It is essential that a leader _____ a high degree of emotional intelligence to effectively manage a diverse team.",
     questionVi:
-      "Điều thiết yếu là một nhà lãnh đạo ____ mức độ trí tuệ cảm xúc cao để quản lý hiệu quả một nhóm đa dạng.",
+      "Điều thiết yếu là một nhà lãnh đạo _____ mức độ trí tuệ cảm xúc cao để quản lý hiệu quả một nhóm đa dạng.",
     options: [
       { option: "possess", isCorrect: true },
       { option: "possesses", isCorrect: false },
@@ -3342,9 +3342,9 @@ export const questions: Question[] = [
     contextEn: "Describing a state that led to an action in business.",
     contextVi: "Mô tả một trạng thái dẫn đến một hành động trong kinh doanh.",
     questionEn:
-      "____ by the lack of transparency in the financial reports, the investors withdrew their support for the merger.",
+      "_____ by the lack of transparency in the financial reports, the investors withdrew their support for the merger.",
     questionVi:
-      "____ bởi sự thiếu minh bạch trong các báo cáo tài chính, các nhà đầu tư đã rút lại sự ủng hộ của họ đối với vụ sáp nhập.",
+      "_____ bởi sự thiếu minh bạch trong các báo cáo tài chính, các nhà đầu tư đã rút lại sự ủng hộ của họ đối với vụ sáp nhập.",
     options: [
       { option: "Disheartened", isCorrect: true },
       { option: "Disheartening", isCorrect: false },
@@ -3363,9 +3363,9 @@ export const questions: Question[] = [
     contextVi:
       "Phân tích tác động của một thất bại trong quá khứ đối với tình hình hiện tại.",
     questionEn:
-      "If we had invested more in digital transformation years ago, we ____ such a significant disadvantage today.",
+      "If we had invested more in digital transformation years ago, we _____ such a significant disadvantage today.",
     questionVi:
-      "Nếu chúng ta đầu tư nhiều hơn vào chuyển đổi số từ nhiều năm trước, chúng ta ____ đã không ở trong tình thế bất lợi đáng kể như hiện nay.",
+      "Nếu chúng ta đầu tư nhiều hơn vào chuyển đổi số từ nhiều năm trước, chúng ta _____ đã không ở trong tình thế bất lợi đáng kể như hiện nay.",
     options: [
       { option: "would not be at", isCorrect: true },
       { option: "would not have been at", isCorrect: false },
@@ -3383,9 +3383,9 @@ export const questions: Question[] = [
     contextEn: "Identifying the precise reason for a market shift.",
     contextVi: "Xác định lý do chính xác cho một sự thay đổi thị trường.",
     questionEn:
-      "It was exactly this shift in consumer mentality ____ the marketing team failed to anticipate in their annual forecast.",
+      "It was exactly this shift in consumer mentality _____ the marketing team failed to anticipate in their annual forecast.",
     questionVi:
-      "Chính xác là sự thay đổi trong tâm lý người tiêu dùng này ____ mà nhóm tiếp thị đã không lường trước được trong dự báo hàng năm của họ.",
+      "Chính xác là sự thay đổi trong tâm lý người tiêu dùng này _____ mà nhóm tiếp thị đã không lường trước được trong dự báo hàng năm của họ.",
     options: [
       { option: "that", isCorrect: true },
       { option: "which", isCorrect: false },

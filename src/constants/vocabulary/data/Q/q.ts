@@ -163,6 +163,19 @@ export const Q1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    id: "c1-50lbxcv0",
+    word: "Quickness",
+    slug: "quickness",
+    phonetic: "/ˈkwɪk.nəs/",
+    partOfSpeech: "noun",
+    meaningEn: "The quality of being quick.",
+    meaningVi: "Sự nhanh nhẹn.",
+    exampleEn: "Her quickness in solving problems is impressive.",
+    exampleVi:
+      "Sự nhanh nhẹn của cô ấy trong việc giải quyết vấn đề thật ấn tượng.",
+    categories: ["General"],
+  },
+  {
     id: "gen-1199",
     word: "Quiet",
     slug: "quiet",

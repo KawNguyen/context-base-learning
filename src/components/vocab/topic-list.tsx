@@ -147,7 +147,7 @@ export function TopicList() {
               {categories.map((name) => (
                 <Link
                   key={name}
-                  href={`/vocabulary/topic/${getCategorySlug(name)}`}
+                  href={`/vocabulary/${getCategorySlug(name)}`}
                   className="block group"
                 >
                   <Card className="h-full cursor-pointer transition-all hover:shadow-lg hover:scale-[1.02] hover:border-primary">

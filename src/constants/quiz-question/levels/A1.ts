@@ -3,8 +3,8 @@ import { Question } from "../types";
 export const questions: Question[] = [
   {
     id: "A1-0001",
-    questionEn: "She ____ to school every day.",
-    questionVi: "Cô ấy ____ đến trường mỗi ngày.",
+    questionEn: "She _____ to school every day.",
+    questionVi: "Cô ấy _____ đến trường mỗi ngày.",
     options: [
       { option: "go", isCorrect: false },
       { option: "goes", isCorrect: true },
@@ -17,8 +17,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0002",
-    questionEn: "He usually ____ to work by bus.",
-    questionVi: "Anh ấy thường ____ đi làm bằng xe buýt.",
+    questionEn: "He usually _____ to work by bus.",
+    questionVi: "Anh ấy thường _____ đi làm bằng xe buýt.",
     options: [
       { option: "go", isCorrect: false },
       { option: "goes", isCorrect: true },
@@ -31,8 +31,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0003",
-    questionEn: "I ____ a student.",
-    questionVi: "Tôi ____ là một học sinh.",
+    questionEn: "I _____ a student.",
+    questionVi: "Tôi _____ là một học sinh.",
     options: [
       { option: "is", isCorrect: false },
       { option: "are", isCorrect: false },
@@ -44,8 +44,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0004",
-    questionEn: "They ____ playing football now.",
-    questionVi: "Họ ____ đang chơi bóng đá bây giờ.",
+    questionEn: "They _____ playing football now.",
+    questionVi: "Họ _____ đang chơi bóng đá bây giờ.",
     options: [
       { option: "is", isCorrect: false },
       { option: "am", isCorrect: false },
@@ -58,8 +58,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0005",
-    questionEn: "The book is ____ the table.",
-    questionVi: "Cuốn sách đang ở ____ trên bàn.",
+    questionEn: "The book is _____ the table.",
+    questionVi: "Cuốn sách đang ở _____ trên bàn.",
     options: [
       { option: "in", isCorrect: false },
       { option: "on", isCorrect: true },
@@ -72,8 +72,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0006",
-    questionEn: "He ____ breakfast at 7 AM.",
-    questionVi: "Anh ấy ____ ăn sáng lúc 7 giờ sáng.",
+    questionEn: "He _____ breakfast at 7 AM.",
+    questionVi: "Anh ấy _____ ăn sáng lúc 7 giờ sáng.",
     options: [
       { option: "eat", isCorrect: false },
       { option: "eats", isCorrect: true },
@@ -86,8 +86,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0007",
-    questionEn: "Listen! The bird ____.",
-    questionVi: "Nghe kìa! Con chim ____.",
+    questionEn: "Listen! The bird _____.",
+    questionVi: "Nghe kìa! Con chim _____.",
     options: [
       { option: "sing", isCorrect: false },
       { option: "sings", isCorrect: false },
@@ -100,8 +100,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0008",
-    questionEn: "Listen! Someone ____ the piano.",
-    questionVi: "Nghe kìa! Ai đó ____ đàn piano.",
+    questionEn: "Listen! Someone _____ the piano.",
+    questionVi: "Nghe kìa! Ai đó _____ đàn piano.",
     options: [
       { option: "play", isCorrect: false },
       { option: "plays", isCorrect: false },
@@ -114,8 +114,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0009",
-    questionEn: "We ____ from Vietnam.",
-    questionVi: "Chúng tôi ____ đến từ Việt Nam.",
+    questionEn: "We _____ from Vietnam.",
+    questionVi: "Chúng tôi _____ đến từ Việt Nam.",
     options: [
       { option: "is", isCorrect: false },
       { option: "am", isCorrect: false },
@@ -127,8 +127,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0010",
-    questionEn: "Do you ____ coffee?",
-    questionVi: "Bạn có ____ cà phê không?",
+    questionEn: "Do you _____ coffee?",
+    questionVi: "Bạn có _____ cà phê không?",
     options: [
       { option: "like", isCorrect: true },
       { option: "likes", isCorrect: false },
@@ -140,8 +140,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0011",
-    questionEn: "My father ____ a doctor.",
-    questionVi: "Bố tôi ____ là một bác sĩ.",
+    questionEn: "My father _____ a doctor.",
+    questionVi: "Bố tôi _____ là một bác sĩ.",
     options: [
       { option: "is", isCorrect: true },
       { option: "am", isCorrect: false },
@@ -153,8 +153,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0012",
-    questionEn: "Where ____ she live?",
-    questionVi: "Cô ấy sống ____ ở đâu?",
+    questionEn: "Where _____ she live?",
+    questionVi: "Cô ấy sống _____ ở đâu?",
     options: [
       { option: "do", isCorrect: false },
       { option: "does", isCorrect: true },
@@ -167,8 +167,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0013",
-    questionEn: "Look! It ____.",
-    questionVi: "Nhìn kìa! Trời ____ đang mưa.",
+    questionEn: "Look! It _____.",
+    questionVi: "Nhìn kìa! Trời _____ đang mưa.",
     options: [
       { option: "rain", isCorrect: false },
       { option: "rains", isCorrect: false },
@@ -180,8 +180,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0014",
-    questionEn: "I usually ____ up at 6 o'clock.",
-    questionVi: "Tôi thường ____ thức dậy lúc 6 giờ.",
+    questionEn: "I usually _____ up at 6 o'clock.",
+    questionVi: "Tôi thường _____ thức dậy lúc 6 giờ.",
     options: [
       { option: "get", isCorrect: true },
       { option: "gets", isCorrect: false },
@@ -194,8 +194,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0015",
-    questionEn: "The cat is ____ the box.",
-    questionVi: "Con mèo đang ở ____ trong hộp.",
+    questionEn: "The cat is _____ the box.",
+    questionVi: "Con mèo đang ở _____ trong hộp.",
     options: [
       { option: "in", isCorrect: true },
       { option: "on", isCorrect: false },
@@ -207,8 +207,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0016",
-    questionEn: "They ____ not happy.",
-    questionVi: "Họ ____ không vui.",
+    questionEn: "They _____ not happy.",
+    questionVi: "Họ _____ không vui.",
     options: [
       { option: "is", isCorrect: false },
       { option: "am", isCorrect: false },
@@ -220,8 +220,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0017",
-    questionEn: "____ is your name?",
-    questionVi: "Tên của bạn ____ là gì?",
+    questionEn: "_____ is your name?",
+    questionVi: "Tên của bạn _____ là gì?",
     options: [
       { option: "What", isCorrect: true },
       { option: "Where", isCorrect: false },
@@ -233,8 +233,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0018",
-    questionEn: "There ____ two apples on the desk.",
-    questionVi: "Có ____ hai quả táo ở trên bàn làm việc.",
+    questionEn: "There _____ two apples on the desk.",
+    questionVi: "Có _____ hai quả táo ở trên bàn làm việc.",
     options: [
       { option: "is", isCorrect: false },
       { option: "am", isCorrect: false },
@@ -247,8 +247,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0019",
-    questionEn: "He ____ like apples.",
-    questionVi: "Anh ấy ____ không thích táo.",
+    questionEn: "He _____ like apples.",
+    questionVi: "Anh ấy _____ không thích táo.",
     options: [
       { option: "don't", isCorrect: false },
       { option: "doesn't", isCorrect: true },
@@ -261,8 +261,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0020",
-    questionEn: "She always ____ her homework.",
-    questionVi: "Cô ấy luôn luôn ____ làm bài tập về nhà.",
+    questionEn: "She always _____ her homework.",
+    questionVi: "Cô ấy luôn luôn _____ làm bài tập về nhà.",
     options: [
       { option: "do", isCorrect: false },
       { option: "does", isCorrect: true },
@@ -274,8 +274,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0021",
-    questionEn: "I am ____ a letter.",
-    questionVi: "Tôi đang ____ viết một lá thư.",
+    questionEn: "I am _____ a letter.",
+    questionVi: "Tôi đang _____ viết một lá thư.",
     options: [
       { option: "write", isCorrect: false },
       { option: "writes", isCorrect: false },
@@ -287,8 +287,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0022",
-    questionEn: "Are you ____ TV?",
-    questionVi: "Bạn có đang ____ xem TV không?",
+    questionEn: "Are you _____ TV?",
+    questionVi: "Bạn có đang _____ xem TV không?",
     options: [
       { option: "watch", isCorrect: false },
       { option: "watches", isCorrect: false },
@@ -300,8 +300,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0023",
-    questionEn: "We go to school ____ bus.",
-    questionVi: "Chúng tôi đi học ____ bằng xe buýt.",
+    questionEn: "We go to school _____ bus.",
+    questionVi: "Chúng tôi đi học _____ bằng xe buýt.",
     options: [
       { option: "in", isCorrect: false },
       { option: "on", isCorrect: false },
@@ -313,8 +313,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0024",
-    questionEn: "The picture is ____ the wall.",
-    questionVi: "Bức tranh đang ở ____ trên tường.",
+    questionEn: "The picture is _____ the wall.",
+    questionVi: "Bức tranh đang ở _____ trên tường.",
     options: [
       { option: "in", isCorrect: false },
       { option: "on", isCorrect: true },
@@ -326,8 +326,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0025",
-    questionEn: "____ old are you?",
-    questionVi: "Bạn ____ bao nhiêu tuổi?",
+    questionEn: "_____ old are you?",
+    questionVi: "Bạn _____ bao nhiêu tuổi?",
     options: [
       { option: "What", isCorrect: false },
       { option: "How", isCorrect: true },
@@ -339,8 +339,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0026",
-    questionEn: "My brother ____ tall.",
-    questionVi: "Anh trai tôi ____ cao.",
+    questionEn: "My brother _____ tall.",
+    questionVi: "Anh trai tôi _____ cao.",
     options: [
       { option: "is", isCorrect: true },
       { option: "am", isCorrect: false },
@@ -352,8 +352,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0027",
-    questionEn: "They ____ English very well.",
-    questionVi: "Họ ____ nói tiếng Anh rất tốt.",
+    questionEn: "They _____ English very well.",
+    questionVi: "Họ _____ nói tiếng Anh rất tốt.",
     options: [
       { option: "speak", isCorrect: true },
       { option: "speaks", isCorrect: false },
@@ -365,8 +365,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0028",
-    questionEn: "Is she ____ student?",
-    questionVi: "Cô ấy có phải là ____ một học sinh không?",
+    questionEn: "Is she _____ student?",
+    questionVi: "Cô ấy có phải là _____ một học sinh không?",
     options: [
       { option: "a", isCorrect: true },
       { option: "an", isCorrect: false },
@@ -379,8 +379,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0029",
-    questionEn: "Please ____ the door.",
-    questionVi: "Làm ơn hãy ____ cửa.",
+    questionEn: "Please _____ the door.",
+    questionVi: "Làm ơn hãy _____ cửa.",
     options: [
       { option: "open", isCorrect: true },
       { option: "opens", isCorrect: false },
@@ -392,8 +392,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0030",
-    questionEn: "I have an apple ____ a banana.",
-    questionVi: "Tôi có một quả táo ____ và một quả chuối.",
+    questionEn: "I have an apple _____ a banana.",
+    questionVi: "Tôi có một quả táo _____ và một quả chuối.",
     options: [
       { option: "and", isCorrect: true },
       { option: "but", isCorrect: false },
@@ -405,8 +405,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0031",
-    questionEn: "She is ____ beautiful girl.",
-    questionVi: "Cô ấy là ____ một cô gái đẹp.",
+    questionEn: "She is _____ beautiful girl.",
+    questionVi: "Cô ấy là _____ một cô gái đẹp.",
     options: [
       { option: "a", isCorrect: true },
       { option: "an", isCorrect: false },
@@ -418,8 +418,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0032",
-    questionEn: "What time ____ it?",
-    questionVi: "Bây giờ là ____ mấy giờ?",
+    questionEn: "What time _____ it?",
+    questionVi: "Bây giờ là _____ mấy giờ?",
     options: [
       { option: "is", isCorrect: true },
       { option: "am", isCorrect: false },
@@ -431,8 +431,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0033",
-    questionEn: "They are ____ the garden.",
-    questionVi: "Họ đang ở ____ trong vườn.",
+    questionEn: "They are _____ the garden.",
+    questionVi: "Họ đang ở _____ trong vườn.",
     options: [
       { option: "in", isCorrect: true },
       { option: "on", isCorrect: false },
@@ -444,8 +444,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0034",
-    questionEn: "He ____ play the guitar.",
-    questionVi: "Anh ấy ____ có thể chơi đàn ghi-ta.",
+    questionEn: "He _____ play the guitar.",
+    questionVi: "Anh ấy _____ có thể chơi đàn ghi-ta.",
     options: [
       { option: "can", isCorrect: true },
       { option: "cans", isCorrect: false },
@@ -457,8 +457,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0035",
-    questionEn: "I ____ thirsty.",
-    questionVi: "Tôi ____ khát.",
+    questionEn: "I _____ thirsty.",
+    questionVi: "Tôi _____ khát.",
     options: [
       { option: "is", isCorrect: false },
       { option: "am", isCorrect: true },
@@ -470,8 +470,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0036",
-    questionEn: "Do they ____ here?",
-    questionVi: "Họ có ____ sống ở đây không?",
+    questionEn: "Do they _____ here?",
+    questionVi: "Họ có _____ sống ở đây không?",
     options: [
       { option: "live", isCorrect: true },
       { option: "lives", isCorrect: false },
@@ -483,8 +483,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0037",
-    questionEn: "This is ____ pen.",
-    questionVi: "Đây là cái bút ____ của tôi.",
+    questionEn: "This is _____ pen.",
+    questionVi: "Đây là cái bút _____ của tôi.",
     options: [
       { option: "my", isCorrect: true },
       { option: "I", isCorrect: false },
@@ -496,8 +496,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0038",
-    questionEn: "____ do you live?",
-    questionVi: "Bạn sống ____ ở đâu?",
+    questionEn: "_____ do you live?",
+    questionVi: "Bạn sống _____ ở đâu?",
     options: [
       { option: "Where", isCorrect: true },
       { option: "What", isCorrect: false },
@@ -509,8 +509,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0039",
-    questionEn: "He is sitting ____ me.",
-    questionVi: "Anh ấy đang ngồi ____ cạnh tôi.",
+    questionEn: "He is sitting _____ me.",
+    questionVi: "Anh ấy đang ngồi _____ cạnh tôi.",
     options: [
       { option: "next to", isCorrect: true },
       { option: "next", isCorrect: false },
@@ -522,8 +522,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0040",
-    questionEn: "My mother is a nurse. ____ is kind.",
-    questionVi: "Mẹ tôi là một y tá. ____ rất tốt bụng.",
+    questionEn: "My mother is a nurse. _____ is kind.",
+    questionVi: "Mẹ tôi là một y tá. _____ rất tốt bụng.",
     options: [
       { option: "He", isCorrect: false },
       { option: "She", isCorrect: true },
@@ -535,8 +535,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0041",
-    questionEn: "There ____ many people in the room.",
-    questionVi: "Có ____ nhiều người trong phòng.",
+    questionEn: "There _____ many people in the room.",
+    questionVi: "Có _____ nhiều người trong phòng.",
     options: [
       { option: "is", isCorrect: false },
       { option: "are", isCorrect: true },
@@ -548,8 +548,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0042",
-    questionEn: "I ____ not like fast food.",
-    questionVi: "Tôi ____ không thích đồ ăn nhanh.",
+    questionEn: "I _____ not like fast food.",
+    questionVi: "Tôi _____ không thích đồ ăn nhanh.",
     options: [
       { option: "do", isCorrect: true },
       { option: "does", isCorrect: false },
@@ -562,8 +562,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0043",
-    questionEn: "The sun ____ in the East.",
-    questionVi: "Mặt trời ____ mọc ở đằng Đông.",
+    questionEn: "The sun _____ in the East.",
+    questionVi: "Mặt trời _____ mọc ở đằng Đông.",
     options: [
       { option: "rise", isCorrect: false },
       { option: "rises", isCorrect: true },
@@ -576,8 +576,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0044",
-    questionEn: "Can you ____ me?",
-    questionVi: "Bạn có thể ____ tôi không?",
+    questionEn: "Can you _____ me?",
+    questionVi: "Bạn có thể _____ tôi không?",
     options: [
       { option: "help", isCorrect: true },
       { option: "helps", isCorrect: false },
@@ -589,8 +589,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0045",
-    questionEn: "We are ____ dinner.",
-    questionVi: "Chúng tôi đang ____ ăn tối.",
+    questionEn: "We are _____ dinner.",
+    questionVi: "Chúng tôi đang _____ ăn tối.",
     options: [
       { option: "have", isCorrect: false },
       { option: "has", isCorrect: false },
@@ -602,8 +602,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0046",
-    questionEn: "____ is that man?",
-    questionVi: "Người đàn ông đó ____ là ai?",
+    questionEn: "_____ is that man?",
+    questionVi: "Người đàn ông đó _____ là ai?",
     options: [
       { option: "Who", isCorrect: true },
       { option: "What", isCorrect: false },
@@ -615,8 +615,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0047",
-    questionEn: "I go to work ____ 8 AM.",
-    questionVi: "Tôi đi làm ____ vào lúc 8 giờ sáng.",
+    questionEn: "I go to work _____ 8 AM.",
+    questionVi: "Tôi đi làm _____ vào lúc 8 giờ sáng.",
     options: [
       { option: "in", isCorrect: false },
       { option: "on", isCorrect: false },
@@ -628,8 +628,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0048",
-    questionEn: "She ____ got long hair.",
-    questionVi: "Cô ấy ____ có mái tóc dài.",
+    questionEn: "She _____ got long hair.",
+    questionVi: "Cô ấy _____ có mái tóc dài.",
     options: [
       { option: "have", isCorrect: false },
       { option: "has", isCorrect: true },
@@ -641,8 +641,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0049",
-    questionEn: "The dog is sleeping ____ the table.",
-    questionVi: "Con chó đang ngủ ____ ở dưới gầm bàn.",
+    questionEn: "The dog is sleeping _____ the table.",
+    questionVi: "Con chó đang ngủ _____ ở dưới gầm bàn.",
     options: [
       { option: "under", isCorrect: true },
       { option: "in", isCorrect: false },
@@ -654,8 +654,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0050",
-    questionEn: "How ____ rice do you want?",
-    questionVi: "Bạn muốn ____ bao nhiêu gạo?",
+    questionEn: "How _____ rice do you want?",
+    questionVi: "Bạn muốn _____ bao nhiêu gạo?",
     options: [
       { option: "much", isCorrect: true },
       { option: "many", isCorrect: false },
@@ -667,8 +667,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0051",
-    questionEn: "I ____ TV every evening.",
-    questionVi: "Tôi ____ TV mỗi tối.",
+    questionEn: "I _____ TV every evening.",
+    questionVi: "Tôi _____ TV mỗi tối.",
     options: [
       { option: "watch", isCorrect: true },
       { option: "watches", isCorrect: false },
@@ -680,8 +680,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0052",
-    questionEn: "This car is ____.",
-    questionVi: "Chiếc xe này ____ màu xanh.",
+    questionEn: "This car is _____.",
+    questionVi: "Chiếc xe này _____ màu xanh.",
     options: [
       { option: "blue", isCorrect: true },
       { option: "a blue", isCorrect: false },
@@ -693,8 +693,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0053",
-    questionEn: "____ cigarettes are bad for you.",
-    questionVi: "____ Thuốc lá có hại cho bạn.",
+    questionEn: "_____ cigarettes are bad for you.",
+    questionVi: "_____ Thuốc lá có hại cho bạn.",
     options: [
       { option: "The", isCorrect: false },
       { option: "A", isCorrect: false },
@@ -706,8 +706,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0054",
-    questionEn: "He is ____ best student.",
-    questionVi: "Anh ấy là học sinh ____ giỏi nhất.",
+    questionEn: "He is _____ best student.",
+    questionVi: "Anh ấy là học sinh _____ giỏi nhất.",
     options: [
       { option: "the", isCorrect: true },
       { option: "a", isCorrect: false },
@@ -719,8 +719,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0055",
-    questionEn: "They ____ to the radio now.",
-    questionVi: "Bây giờ họ ____ đang nghe đài.",
+    questionEn: "They _____ to the radio now.",
+    questionVi: "Bây giờ họ _____ đang nghe đài.",
     options: [
       { option: "listen", isCorrect: false },
       { option: "listens", isCorrect: false },
@@ -732,8 +732,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0056",
-    questionEn: "My house is ____ the school.",
-    questionVi: "Nhà của tôi ____ gần trường học.",
+    questionEn: "My house is _____ the school.",
+    questionVi: "Nhà của tôi _____ gần trường học.",
     options: [
       { option: "near", isCorrect: true },
       { option: "next", isCorrect: false },
@@ -745,8 +745,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0057",
-    questionEn: "I want ____ buy a new phone.",
-    questionVi: "Tôi muốn ____ mua một chiếc điện thoại mới.",
+    questionEn: "I want _____ buy a new phone.",
+    questionVi: "Tôi muốn _____ mua một chiếc điện thoại mới.",
     options: [
       { option: "to", isCorrect: true },
       { option: "for", isCorrect: false },
@@ -758,8 +758,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0058",
-    questionEn: "She ____ not at home yesterday.",
-    questionVi: "Hôm qua cô ấy ____ không có ở nhà.",
+    questionEn: "She _____ not at home yesterday.",
+    questionVi: "Hôm qua cô ấy _____ không có ở nhà.",
     options: [
       { option: "was", isCorrect: true },
       { option: "were", isCorrect: false },
@@ -771,8 +771,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0059",
-    questionEn: "____ you speak English?",
-    questionVi: "Bạn ____ có nói tiếng Anh không?",
+    questionEn: "_____ you speak English?",
+    questionVi: "Bạn _____ có nói tiếng Anh không?",
     options: [
       { option: "Do", isCorrect: true },
       { option: "Does", isCorrect: false },
@@ -784,8 +784,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0060",
-    questionEn: "The children ____ playing in the park.",
-    questionVi: "Trẻ em ____ đang chơi trong công viên.",
+    questionEn: "The children _____ playing in the park.",
+    questionVi: "Trẻ em _____ đang chơi trong công viên.",
     options: [
       { option: "is", isCorrect: false },
       { option: "am", isCorrect: false },
@@ -797,8 +797,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0061",
-    questionEn: "I often ____ my grandparents on Sundays.",
-    questionVi: "Tôi thường ____ về thăm ông bà vào các ngày Chủ Nhật.",
+    questionEn: "I often _____ my grandparents on Sundays.",
+    questionVi: "Tôi thường _____ về thăm ông bà vào các ngày Chủ Nhật.",
     options: [
       { option: "visit", isCorrect: true },
       { option: "visits", isCorrect: false },
@@ -810,8 +810,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0062",
-    questionEn: "It is a ____ day.",
-    questionVi: "Hôm nay là một ngày ____ đầy nắng.",
+    questionEn: "It is a _____ day.",
+    questionVi: "Hôm nay là một ngày _____ đầy nắng.",
     options: [
       { option: "sun", isCorrect: false },
       { option: "sunny", isCorrect: true },
@@ -823,8 +823,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0063",
-    questionEn: "____ apple a day keeps the doctor away.",
-    questionVi: "____ Ăn một quả táo mỗi ngày giúp bạn không phải gặp bác sĩ.",
+    questionEn: "_____ apple a day keeps the doctor away.",
+    questionVi: "_____ Ăn một quả táo mỗi ngày giúp bạn không phải gặp bác sĩ.",
     options: [
       { option: "A", isCorrect: false },
       { option: "An", isCorrect: true },
@@ -836,8 +836,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0064",
-    questionEn: "Where ____ your parents?",
-    questionVi: "Bố mẹ bạn ____ ở đâu?",
+    questionEn: "Where _____ your parents?",
+    questionVi: "Bố mẹ bạn _____ ở đâu?",
     options: [
       { option: "is", isCorrect: false },
       { option: "am", isCorrect: false },
@@ -849,8 +849,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0065",
-    questionEn: "He is ____ than me.",
-    questionVi: "Anh ấy ____ cao hơn tôi.",
+    questionEn: "He is _____ than me.",
+    questionVi: "Anh ấy _____ cao hơn tôi.",
     options: [
       { option: "taller", isCorrect: true },
       { option: "tall", isCorrect: false },
@@ -862,8 +862,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0066",
-    questionEn: "Do you have ____ money?",
-    questionVi: "Bạn có ____ tiền không?",
+    questionEn: "Do you have _____ money?",
+    questionVi: "Bạn có _____ tiền không?",
     options: [
       { option: "some", isCorrect: false },
       { option: "any", isCorrect: true },
@@ -875,8 +875,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0067",
-    questionEn: "I prefer tea ____ coffee.",
-    questionVi: "Tôi thích trà ____ hơn cà phê.",
+    questionEn: "I prefer tea _____ coffee.",
+    questionVi: "Tôi thích trà _____ hơn cà phê.",
     options: [
       { option: "to", isCorrect: true },
       { option: "than", isCorrect: false },
@@ -888,8 +888,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0068",
-    questionEn: "She ____ works on Saturday.",
-    questionVi: "Cô ấy ____ không bao giờ làm việc vào thứ Bảy.",
+    questionEn: "She _____ works on Saturday.",
+    questionVi: "Cô ấy _____ không bao giờ làm việc vào thứ Bảy.",
     options: [
       { option: "never", isCorrect: true },
       { option: "never doesn't", isCorrect: false },
@@ -901,8 +901,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0069",
-    questionEn: "The film was ____.",
-    questionVi: "Bộ phim ____ thật tẻ nhạt.",
+    questionEn: "The film was _____.",
+    questionVi: "Bộ phim _____ thật tẻ nhạt.",
     options: [
       { option: "bored", isCorrect: false },
       { option: "boring", isCorrect: true },
@@ -914,9 +914,9 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0070",
-    questionEn: "I can't find my keys. I lost ____.",
+    questionEn: "I can't find my keys. I lost _____.",
     questionVi:
-      "Tôi không thể tìm thấy chìa khóa của mình. Tôi đã làm mất ____ chúng rồi.",
+      "Tôi không thể tìm thấy chìa khóa của mình. Tôi đã làm mất _____ chúng rồi.",
     options: [
       { option: "they", isCorrect: false },
       { option: "their", isCorrect: false },
@@ -928,8 +928,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0071",
-    questionEn: "____ is the weather like?",
-    questionVi: "Thời tiết ____ như thế nào?",
+    questionEn: "_____ is the weather like?",
+    questionVi: "Thời tiết _____ như thế nào?",
     options: [
       { option: "What", isCorrect: true },
       { option: "How", isCorrect: false },
@@ -941,8 +941,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0072",
-    questionEn: "We ____ dinner when he arrived.",
-    questionVi: "Chúng tôi ____ đang ăn tối thì anh ấy đến.",
+    questionEn: "We _____ dinner when he arrived.",
+    questionVi: "Chúng tôi _____ đang ăn tối thì anh ấy đến.",
     options: [
       { option: "were having", isCorrect: true },
       { option: "had", isCorrect: false },
@@ -955,8 +955,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0073",
-    questionEn: "They ____ arrived yet.",
-    questionVi: "Họ ____ vẫn chưa đến.",
+    questionEn: "They _____ arrived yet.",
+    questionVi: "Họ _____ vẫn chưa đến.",
     options: [
       { option: "haven't", isCorrect: true },
       { option: "hasn't", isCorrect: false },
@@ -968,8 +968,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0074",
-    questionEn: "I ____ this movie three times.",
-    questionVi: "Tôi ____ bộ phim này ba lần rồi.",
+    questionEn: "I _____ this movie three times.",
+    questionVi: "Tôi _____ bộ phim này ba lần rồi.",
     options: [
       { option: "see", isCorrect: false },
       { option: "saw", isCorrect: false },
@@ -982,8 +982,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0075",
-    questionEn: "This is the ____ building in the city.",
-    questionVi: "Đây là tòa nhà ____ nhất trong thành phố.",
+    questionEn: "This is the _____ building in the city.",
+    questionVi: "Đây là tòa nhà _____ nhất trong thành phố.",
     options: [
       { option: "oldest", isCorrect: true },
       { option: "older", isCorrect: false },
@@ -995,8 +995,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0076",
-    questionEn: "I have known him ____ 2010.",
-    questionVi: "Tôi đã biết anh ấy ____ từ năm 2010.",
+    questionEn: "I have known him _____ 2010.",
+    questionVi: "Tôi đã biết anh ấy _____ từ năm 2010.",
     options: [
       { option: "since", isCorrect: true },
       { option: "for", isCorrect: false },
@@ -1008,8 +1008,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0077",
-    questionEn: "If it rains, I ____ at home.",
-    questionVi: "Nếu trời mưa, tôi ____ sẽ ở nhà.",
+    questionEn: "If it rains, I _____ at home.",
+    questionVi: "Nếu trời mưa, tôi _____ sẽ ở nhà.",
     options: [
       { option: "will stay", isCorrect: true },
       { option: "stayed", isCorrect: false },
@@ -1021,8 +1021,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0078",
-    questionEn: "He drives very ____.",
-    questionVi: "Anh ấy lái xe rất ____.",
+    questionEn: "He drives very _____.",
+    questionVi: "Anh ấy lái xe rất _____.",
     options: [
       { option: "careful", isCorrect: false },
       { option: "carefully", isCorrect: true },
@@ -1034,8 +1034,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0079",
-    questionEn: "I ____ to London last year.",
-    questionVi: "Tôi ____ đi London vào năm ngoái.",
+    questionEn: "I _____ to London last year.",
+    questionVi: "Tôi _____ đi London vào năm ngoái.",
     options: [
       { option: "go", isCorrect: false },
       { option: "went", isCorrect: true },
@@ -1047,8 +1047,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0080",
-    questionEn: "She is good ____ Math.",
-    questionVi: "Cô ấy giỏi ____ môn Toán.",
+    questionEn: "She is good _____ Math.",
+    questionVi: "Cô ấy giỏi _____ môn Toán.",
     options: [
       { option: "at", isCorrect: true },
       { option: "in", isCorrect: false },
@@ -1060,8 +1060,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0081",
-    questionEn: "____ you like a cup of tea?",
-    questionVi: "Bạn ____ dùng một tách trà chứ?",
+    questionEn: "_____ you like a cup of tea?",
+    questionVi: "Bạn _____ dùng một tách trà chứ?",
     options: [
       { option: "Do", isCorrect: false },
       { option: "Would", isCorrect: true },
@@ -1073,8 +1073,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0082",
-    questionEn: "The baby is ____.",
-    questionVi: "Em bé ____ đang khóc.",
+    questionEn: "The baby is _____.",
+    questionVi: "Em bé _____ đang khóc.",
     options: [
       { option: "crying", isCorrect: true },
       { option: "cry", isCorrect: false },
@@ -1086,8 +1086,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0083",
-    questionEn: "I don't have ____ friends here.",
-    questionVi: "Tôi không có ____ nhiều bạn ở đây.",
+    questionEn: "I don't have _____ friends here.",
+    questionVi: "Tôi không có _____ nhiều bạn ở đây.",
     options: [
       { option: "many", isCorrect: true },
       { option: "much", isCorrect: false },
@@ -1099,8 +1099,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0084",
-    questionEn: "He went to the shop ____ milk.",
-    questionVi: "Anh ấy đã đến cửa hàng ____ mua sữa.",
+    questionEn: "He went to the shop _____ milk.",
+    questionVi: "Anh ấy đã đến cửa hàng _____ mua sữa.",
     options: [
       { option: "to buy", isCorrect: true },
       { option: "for buy", isCorrect: false },
@@ -1112,8 +1112,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0085",
-    questionEn: "____ bag is this?",
-    questionVi: "Cái túi này ____ của ai?",
+    questionEn: "_____ bag is this?",
+    questionVi: "Cái túi này _____ của ai?",
     options: [
       { option: "Whose", isCorrect: true },
       { option: "Who", isCorrect: false },
@@ -1125,8 +1125,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0086",
-    questionEn: "I am interested ____ music.",
-    questionVi: "Tôi quan tâm ____ đến âm nhạc.",
+    questionEn: "I am interested _____ music.",
+    questionVi: "Tôi quan tâm _____ đến âm nhạc.",
     options: [
       { option: "in", isCorrect: true },
       { option: "on", isCorrect: false },
@@ -1138,8 +1138,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0087",
-    questionEn: "That is ____ interesting book.",
-    questionVi: "Đó là ____ một cuốn sách thú vị.",
+    questionEn: "That is _____ interesting book.",
+    questionVi: "Đó là _____ một cuốn sách thú vị.",
     options: [
       { option: "an", isCorrect: true },
       { option: "a", isCorrect: false },
@@ -1151,8 +1151,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0088",
-    questionEn: "They ____ football yesterday.",
-    questionVi: "Họ ____ chơi bóng đá vào hôm qua.",
+    questionEn: "They _____ football yesterday.",
+    questionVi: "Họ _____ chơi bóng đá vào hôm qua.",
     options: [
       { option: "played", isCorrect: true },
       { option: "play", isCorrect: false },
@@ -1164,8 +1164,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0089",
-    questionEn: "She runs ____ than me.",
-    questionVi: "Cô ấy chạy ____ nhanh hơn tôi.",
+    questionEn: "She runs _____ than me.",
+    questionVi: "Cô ấy chạy _____ nhanh hơn tôi.",
     options: [
       { option: "faster", isCorrect: true },
       { option: "fast", isCorrect: false },
@@ -1177,8 +1177,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0090",
-    questionEn: "I ____ my homework already.",
-    questionVi: "Tôi ____ đã làm xong bài tập về nhà rồi.",
+    questionEn: "I _____ my homework already.",
+    questionVi: "Tôi _____ đã làm xong bài tập về nhà rồi.",
     options: [
       { option: "have done", isCorrect: true },
       { option: "did", isCorrect: false },
@@ -1190,8 +1190,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0091",
-    questionEn: "____ go to the cinema tonight.",
-    questionVi: "____ Hãy đi xem phim tối nay.",
+    questionEn: "_____ go to the cinema tonight.",
+    questionVi: "_____ Hãy đi xem phim tối nay.",
     options: [
       { option: "Let's", isCorrect: true },
       { option: "How about", isCorrect: false },
@@ -1203,8 +1203,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0092",
-    questionEn: "He is ____ tired to work.",
-    questionVi: "Anh ấy ____ quá mệt để làm việc.",
+    questionEn: "He is _____ tired to work.",
+    questionVi: "Anh ấy _____ quá mệt để làm việc.",
     options: [
       { option: "too", isCorrect: true },
       { option: "so", isCorrect: false },
@@ -1216,8 +1216,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0093",
-    questionEn: "This shirt is not big ____ for me.",
-    questionVi: "Chiếc áo này không ____ đủ rộng đối với tôi.",
+    questionEn: "This shirt is not big _____ for me.",
+    questionVi: "Chiếc áo này không _____ đủ rộng đối với tôi.",
     options: [
       { option: "enough", isCorrect: true },
       { option: "too", isCorrect: false },
@@ -1229,8 +1229,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0094",
-    questionEn: "I saw him ____ the morning.",
-    questionVi: "Tôi đã gặp anh ấy ____ vào buổi sáng.",
+    questionEn: "I saw him _____ the morning.",
+    questionVi: "Tôi đã gặp anh ấy _____ vào buổi sáng.",
     options: [
       { option: "in", isCorrect: true },
       { option: "on", isCorrect: false },
@@ -1242,8 +1242,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0095",
-    questionEn: "____ Sunday, I stay home.",
-    questionVi: "____ Vào Chủ Nhật, tôi ở nhà.",
+    questionEn: "_____ Sunday, I stay home.",
+    questionVi: "_____ Vào Chủ Nhật, tôi ở nhà.",
     options: [
       { option: "On", isCorrect: true },
       { option: "In", isCorrect: false },
@@ -1255,8 +1255,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0096",
-    questionEn: "What are you ____?",
-    questionVi: "Bạn đang ____ làm gì thế?",
+    questionEn: "What are you _____?",
+    questionVi: "Bạn đang _____ làm gì thế?",
     options: [
       { option: "doing", isCorrect: true },
       { option: "do", isCorrect: false },
@@ -1268,8 +1268,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0097",
-    questionEn: "My sister is ____ than me.",
-    questionVi: "Em gái tôi ____ trẻ hơn tôi.",
+    questionEn: "My sister is _____ than me.",
+    questionVi: "Em gái tôi _____ trẻ hơn tôi.",
     options: [
       { option: "younger", isCorrect: true },
       { option: "young", isCorrect: false },
@@ -1281,8 +1281,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0098",
-    questionEn: "We ____ to the beach next week.",
-    questionVi: "Chúng tôi ____ sẽ đi biển vào tuần tới.",
+    questionEn: "We _____ to the beach next week.",
+    questionVi: "Chúng tôi _____ sẽ đi biển vào tuần tới.",
     options: [
       { option: "are going", isCorrect: true },
       { option: "go", isCorrect: false },
@@ -1295,8 +1295,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0099",
-    questionEn: "He ____ up smoking last year.",
-    questionVi: "Anh ấy ____ đã bỏ thuốc lá vào năm ngoái.",
+    questionEn: "He _____ up smoking last year.",
+    questionVi: "Anh ấy _____ đã bỏ thuốc lá vào năm ngoái.",
     options: [
       { option: "gave", isCorrect: true },
       { option: "give", isCorrect: false },
@@ -1308,8 +1308,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0100",
-    questionEn: "I look forward ____ you.",
-    questionVi: "Tôi mong được ____ gặp bạn.",
+    questionEn: "I look forward _____ you.",
+    questionVi: "Tôi mong được _____ gặp bạn.",
     options: [
       { option: "to seeing", isCorrect: true },
       { option: "to see", isCorrect: false },
@@ -1321,8 +1321,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0101",
-    questionEn: "This is the man ____ helped me.",
-    questionVi: "Đây là người đàn ông ____ đã giúp đỡ tôi.",
+    questionEn: "This is the man _____ helped me.",
+    questionVi: "Đây là người đàn ông _____ đã giúp đỡ tôi.",
     options: [
       { option: "who", isCorrect: true },
       { option: "which", isCorrect: false },
@@ -1334,8 +1334,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0102",
-    questionEn: "I enjoy ____ books.",
-    questionVi: "Tôi thích ____ việc đọc sách.",
+    questionEn: "I enjoy _____ books.",
+    questionVi: "Tôi thích _____ việc đọc sách.",
     options: [
       { option: "reading", isCorrect: true },
       { option: "read", isCorrect: false },
@@ -1347,8 +1347,8 @@ export const questions: Question[] = [
   },
   {
     id: "A1-0103",
-    questionEn: "It's ____ expensive car.",
-    questionVi: "Đó là ____ một chiếc xe đắt tiền.",
+    questionEn: "It's _____ expensive car.",
+    questionVi: "Đó là _____ một chiếc xe đắt tiền.",
     options: [
       { option: "an", isCorrect: true },
       { option: "a", isCorrect: false },
@@ -1364,8 +1364,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "A company receptionist greeting a visitor.",
     contextVi: "Nhân viên lễ tân công ty chào đón khách.",
-    questionEn: "Ms. Lee ____ in the office every Monday.",
-    questionVi: "Bà Lee ____ ở văn phòng vào mỗi thứ Hai.",
+    questionEn: "Ms. Lee _____ in the office every Monday.",
+    questionVi: "Bà Lee _____ ở văn phòng vào mỗi thứ Hai.",
     options: [
       { option: "work", isCorrect: false },
       { option: "works", isCorrect: true },
@@ -1382,8 +1382,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "A simple instruction in an office manual.",
     contextVi: "Một hướng dẫn đơn giản trong sổ tay văn phòng.",
-    questionEn: "Please ____ the document on the desk.",
-    questionVi: "Vui lòng ____ tài liệu này trên bàn.",
+    questionEn: "Please _____ the document on the desk.",
+    questionVi: "Vui lòng _____ tài liệu này trên bàn.",
     options: [
       { option: "put", isCorrect: true },
       { option: "puts", isCorrect: false },
@@ -1400,8 +1400,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Describing a current activity in a meeting.",
     contextVi: "Mô tả một hoạt động đang diễn ra trong cuộc họp.",
-    questionEn: "They ____ discussing the new budget right now.",
-    questionVi: "Họ ____ đang thảo luận về ngân sách mới ngay bây giờ.",
+    questionEn: "They _____ discussing the new budget right now.",
+    questionVi: "Họ _____ đang thảo luận về ngân sách mới ngay bây giờ.",
     options: [
       { option: "is", isCorrect: false },
       { option: "am", isCorrect: false },
@@ -1418,8 +1418,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Talking about a completed task.",
     contextVi: "Nói về một công việc đã hoàn thành.",
-    questionEn: "We ____ the report yesterday afternoon.",
-    questionVi: "Chúng tôi ____ bản báo cáo vào chiều qua.",
+    questionEn: "We _____ the report yesterday afternoon.",
+    questionVi: "Chúng tôi _____ bản báo cáo vào chiều qua.",
     options: [
       { option: "finish", isCorrect: false },
       { option: "finishes", isCorrect: false },
@@ -1435,8 +1435,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Describing a product feature simply.",
     contextVi: "Mô tả tính năng sản phẩm một cách đơn giản.",
-    questionEn: "This computer ____ very fast.",
-    questionVi: "Chiếc máy tính này ____ rất nhanh.",
+    questionEn: "This computer _____ very fast.",
+    questionVi: "Chiếc máy tính này _____ rất nhanh.",
     options: [
       { option: "is", isCorrect: true },
       { option: "am", isCorrect: false },
@@ -1453,8 +1453,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "A promise to a customer.",
     contextVi: "Một lời hứa với khách hàng.",
-    questionEn: "I ____ call you back in ten minutes.",
-    questionVi: "Tôi ____ sẽ gọi lại cho bạn sau mười phút.",
+    questionEn: "I _____ call you back in ten minutes.",
+    questionVi: "Tôi _____ sẽ gọi lại cho bạn sau mười phút.",
     options: [
       { option: "will", isCorrect: true },
       { option: "am", isCorrect: false },
@@ -1471,8 +1471,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Stating a general company policy.",
     contextVi: "Nêu một chính sách chung của công ty.",
-    questionEn: "The bank ____ at 5:00 PM every day.",
-    questionVi: "Ngân hàng ____ lúc 5 giờ chiều mỗi ngày.",
+    questionEn: "The bank _____ at 5:00 PM every day.",
+    questionVi: "Ngân hàng _____ lúc 5 giờ chiều mỗi ngày.",
     options: [
       { option: "close", isCorrect: false },
       { option: "closes", isCorrect: true },
@@ -1489,8 +1489,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Asking a coworker for help with location.",
     contextVi: "Hỏi đồng nghiệp về vị trí.",
-    questionEn: "Where ____ your manager?",
-    questionVi: "Quản lý của bạn ____ ở đâu?",
+    questionEn: "Where _____ your manager?",
+    questionVi: "Quản lý của bạn _____ ở đâu?",
     options: [
       { option: "is", isCorrect: true },
       { option: "are", isCorrect: false },
@@ -1507,8 +1507,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing a new project's progress.",
     contextVi: "Mô tả tiến độ một dự án mới.",
-    questionEn: "The team is ____ a new office building.",
-    questionVi: "Đội ngũ ____ đang xây dựng một tòa nhà văn phòng mới.",
+    questionEn: "The team is _____ a new office building.",
+    questionVi: "Đội ngũ _____ đang xây dựng một tòa nhà văn phòng mới.",
     options: [
       { option: "build", isCorrect: false },
       { option: "builds", isCorrect: false },
@@ -1524,8 +1524,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reporting an absence.",
     contextVi: "Báo cáo sự vắng mặt.",
-    questionEn: "He ____ not come to work last Friday.",
-    questionVi: "Anh ấy ____ đã không đến làm việc vào thứ Sáu tuần trước.",
+    questionEn: "He _____ not come to work last Friday.",
+    questionVi: "Anh ấy _____ đã không đến làm việc vào thứ Sáu tuần trước.",
     options: [
       { option: "do", isCorrect: false },
       { option: "does", isCorrect: false },
@@ -1542,8 +1542,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Introducing a coworker.",
     contextVi: "Giới thiệu đồng nghiệp.",
-    questionEn: "He ____ my new coworker from Canada.",
-    questionVi: "Anh ấy ____ là đồng nghiệp mới của tôi đến từ Canada.",
+    questionEn: "He _____ my new coworker from Canada.",
+    questionVi: "Anh ấy _____ là đồng nghiệp mới của tôi đến từ Canada.",
     options: [
       { option: "is", isCorrect: true },
       { option: "am", isCorrect: false },
@@ -1560,8 +1560,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Asking about someone's department.",
     contextVi: "Hỏi về phòng ban của ai đó.",
-    questionEn: "____ she work in the Sales Department?",
-    questionVi: "Cô ấy ____ có làm việc ở phòng Kinh doanh không?",
+    questionEn: "_____ she work in the Sales Department?",
+    questionVi: "Cô ấy _____ có làm việc ở phòng Kinh doanh không?",
     options: [
       { option: "Do", isCorrect: false },
       { option: "Does", isCorrect: true },
@@ -1578,8 +1578,8 @@ export const questions: Question[] = [
     questionType: "word-form",
     contextEn: "Describing office equipment.",
     contextVi: "Mô tả thiết bị văn phòng.",
-    questionEn: "The new printer is very ____.",
-    questionVi: "Chiếc máy in mới này rất ____.",
+    questionEn: "The new printer is very _____.",
+    questionVi: "Chiếc máy in mới này rất _____.",
     options: [
       { option: "quiet", isCorrect: true },
       { option: "quietly", isCorrect: false },
@@ -1596,8 +1596,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Announcing a deadline.",
     contextVi: "Thông báo thời hạn chót.",
-    questionEn: "The store ____ reopen next month.",
-    questionVi: "Cửa hàng ____ sẽ mở cửa lại vào tháng tới.",
+    questionEn: "The store _____ reopen next month.",
+    questionVi: "Cửa hàng _____ sẽ mở cửa lại vào tháng tới.",
     options: [
       { option: "will", isCorrect: true },
       { option: "am", isCorrect: false },
@@ -1613,8 +1613,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Talking about general facts about a job.",
     contextVi: "Nói về những sự thật chung về một công việc.",
-    questionEn: "I ____ my emails every morning.",
-    questionVi: "Tôi ____ kiểm tra email của mình mỗi sáng.",
+    questionEn: "I _____ my emails every morning.",
+    questionVi: "Tôi _____ kiểm tra email của mình mỗi sáng.",
     options: [
       { option: "check", isCorrect: true },
       { option: "checks", isCorrect: false },
@@ -1631,8 +1631,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Giving a simple advice to a visitor.",
     contextVi: "Đưa ra lời khuyên đơn giản cho khách thăm.",
-    questionEn: "You can ____ coffee in the break room.",
-    questionVi: "Bạn có thể ____ uống cà phê ở phòng nghỉ.",
+    questionEn: "You can _____ coffee in the break room.",
+    questionVi: "Bạn có thể _____ uống cà phê ở phòng nghỉ.",
     options: [
       { option: "have", isCorrect: true },
       { option: "has", isCorrect: false },
@@ -1649,8 +1649,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "A supervisor checking on a subordinate.",
     contextVi: "Người giám sát kiểm tra cấp dưới.",
-    questionEn: "Are you ____ on the presentation?",
-    questionVi: "Bạn đang ____ làm bài thuyết trình à?",
+    questionEn: "Are you _____ on the presentation?",
+    questionVi: "Bạn đang _____ làm bài thuyết trình à?",
     options: [
       { option: "work", isCorrect: false },
       { option: "works", isCorrect: false },
@@ -1666,8 +1666,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Talking about historical company data.",
     contextVi: "Nói về dữ liệu lịch sử của công ty.",
-    questionEn: "The company ____ this software last year.",
-    questionVi: "Công ty ____ phần mềm này vào năm ngoái.",
+    questionEn: "The company _____ this software last year.",
+    questionVi: "Công ty _____ phần mềm này vào năm ngoái.",
     options: [
       { option: "buy", isCorrect: false },
       { option: "buys", isCorrect: false },
@@ -1684,8 +1684,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Directing someone to a room.",
     contextVi: "Hướng dẫn ai đó đến một phòng.",
-    questionEn: "The meeting room is ____ the second floor.",
-    questionVi: "Phòng họp ở ____ trên tầng hai.",
+    questionEn: "The meeting room is _____ the second floor.",
+    questionVi: "Phòng họp ở _____ trên tầng hai.",
     options: [
       { option: "on", isCorrect: true },
       { option: "at", isCorrect: false },
@@ -1701,8 +1701,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "A general statement about transportation.",
     contextVi: "Một câu nói chung về phương tiện đi lại.",
-    questionEn: "Many employees ____ by train.",
-    questionVi: "Nhiều nhân viên ____ đi làm bằng tàu hỏa.",
+    questionEn: "Many employees _____ by train.",
+    questionVi: "Nhiều nhân viên _____ đi làm bằng tàu hỏa.",
     options: [
       { option: "travel", isCorrect: true },
       { option: "travels", isCorrect: false },
@@ -1718,8 +1718,8 @@ export const questions: Question[] = [
     questionType: "word-form",
     contextEn: "Describing a coworker's personality.",
     contextVi: "Mô tả tính cách của một đồng nghiệp.",
-    questionEn: "The new assistant is very ____.",
-    questionVi: "Người trợ lý mới rất ____.",
+    questionEn: "The new assistant is very _____.",
+    questionVi: "Người trợ lý mới rất _____.",
     options: [
       { option: "helpful", isCorrect: true },
       { option: "helpfully", isCorrect: false },
@@ -1736,8 +1736,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "A team lead assigning a task.",
     contextVi: "Trưởng nhóm giao việc.",
-    questionEn: "We ____ meet in the conference room tomorrow.",
-    questionVi: "Chúng ta ____ sẽ gặp nhau tại phòng hội nghị vào ngày mai.",
+    questionEn: "We _____ meet in the conference room tomorrow.",
+    questionVi: "Chúng ta _____ sẽ gặp nhau tại phòng hội nghị vào ngày mai.",
     options: [
       { option: "will", isCorrect: true },
       { option: "is", isCorrect: false },
@@ -1753,8 +1753,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Asking about a daily routine.",
     contextVi: "Hỏi về thói quen hàng ngày.",
-    questionEn: "Do you ____ coffee every morning?",
-    questionVi: "Bạn có ____ uống cà phê mỗi sáng không?",
+    questionEn: "Do you _____ coffee every morning?",
+    questionVi: "Bạn có _____ uống cà phê mỗi sáng không?",
     options: [
       { option: "drink", isCorrect: true },
       { option: "drinks", isCorrect: false },
@@ -1770,8 +1770,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Confirming presence in the office.",
     contextVi: "Xác nhận sự hiện diện tại văn phòng.",
-    questionEn: "Is Mr. Kim ____ the office today?",
-    questionVi: "Ông Kim có ở ____ văn phòng hôm nay không?",
+    questionEn: "Is Mr. Kim _____ the office today?",
+    questionVi: "Ông Kim có ở _____ văn phòng hôm nay không?",
     options: [
       { option: "in", isCorrect: true },
       { option: "at", isCorrect: false },
@@ -1787,8 +1787,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Asking about a past business trip.",
     contextVi: "Hỏi về một chuyến công tác trong quá khứ.",
-    questionEn: "____ you visit the Tokyo office last month?",
-    questionVi: "Bạn ____ có đến thăm văn phòng ở Tokyo vào tháng trước không?",
+    questionEn: "_____ you visit the Tokyo office last month?",
+    questionVi: "Bạn _____ có đến thăm văn phòng ở Tokyo vào tháng trước không?",
     options: [
       { option: "Do", isCorrect: false },
       { option: "Does", isCorrect: false },
@@ -1805,9 +1805,9 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "A team welcoming a new intern.",
     contextVi: "Một nhóm chào đón thực tập sinh mới.",
-    questionEn: "Our team ____ a new intern today.",
+    questionEn: "Our team _____ a new intern today.",
     questionVi:
-      "Nhóm của chúng tôi ____ chào đón một thực tập sinh mới vào hôm nay.",
+      "Nhóm của chúng tôi _____ chào đón một thực tập sinh mới vào hôm nay.",
     options: [
       { option: "welcome", isCorrect: false },
       { option: "welcomes", isCorrect: true },
@@ -1823,8 +1823,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Describing office furniture placement.",
     contextVi: "Mô tả vị trí đặt nội thất văn phòng.",
-    questionEn: "The chairs are ____ the table.",
-    questionVi: "Những chiếc ghế ở ____ quanh bàn.",
+    questionEn: "The chairs are _____ the table.",
+    questionVi: "Những chiếc ghế ở _____ quanh bàn.",
     options: [
       { option: "around", isCorrect: true },
       { option: "at", isCorrect: false },
@@ -1841,8 +1841,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reporting an ongoing maintenance activity.",
     contextVi: "Báo cáo một hoạt động bảo trì đang diễn ra.",
-    questionEn: "Technicians ____ repairing the elevator now.",
-    questionVi: "Các kỹ thuật viên ____ đang sửa chữa thang máy bây giờ.",
+    questionEn: "Technicians _____ repairing the elevator now.",
+    questionVi: "Các kỹ thuật viên _____ đang sửa chữa thang máy bây giờ.",
     options: [
       { option: "is", isCorrect: false },
       { option: "am", isCorrect: false },
@@ -1859,8 +1859,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Recalling a meeting's start time.",
     contextVi: "Nhớ lại thời gian bắt đầu một cuộc họp.",
-    questionEn: "The meeting ____ at 10 AM this morning.",
-    questionVi: "Cuộc họp ____ lúc 10 giờ sáng nay.",
+    questionEn: "The meeting _____ at 10 AM this morning.",
+    questionVi: "Cuộc họp _____ lúc 10 giờ sáng nay.",
     options: [
       { option: "start", isCorrect: false },
       { option: "starts", isCorrect: false },
@@ -1876,8 +1876,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Inquiring about office supplies availability.",
     contextVi: "Hỏi về sự sẵn có của các vật dụng văn phòng.",
-    questionEn: "____ there any pens in the drawer?",
-    questionVi: "____ Có chiếc bút nào trong ngăn kéo không?",
+    questionEn: "_____ there any pens in the drawer?",
+    questionVi: "_____ Có chiếc bút nào trong ngăn kéo không?",
     options: [
       { option: "Is", isCorrect: false },
       { option: "Are", isCorrect: true },
@@ -1894,8 +1894,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "A manager scheduling a review.",
     contextVi: "Một quản lý lên lịch cho một buổi đánh giá.",
-    questionEn: "We ____ review your proposal next week.",
-    questionVi: "Chúng tôi ____ sẽ xem xét đề xuất của bạn vào tuần tới.",
+    questionEn: "We _____ review your proposal next week.",
+    questionVi: "Chúng tôi _____ sẽ xem xét đề xuất của bạn vào tuần tới.",
     options: [
       { option: "will", isCorrect: true },
       { option: "are", isCorrect: false },
@@ -1911,8 +1911,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Describing a common work habit.",
     contextVi: "Mô tả một thói quen làm việc phổ biến.",
-    questionEn: "She usually ____ notes during meetings.",
-    questionVi: "Cô ấy thường ____ ghi chú trong các cuộc họp.",
+    questionEn: "She usually _____ notes during meetings.",
+    questionVi: "Cô ấy thường _____ ghi chú trong các cuộc họp.",
     options: [
       { option: "take", isCorrect: false },
       { option: "takes", isCorrect: true },
@@ -1929,8 +1929,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Stating office hours clearly.",
     contextVi: "Nêu rõ giờ làm việc của văn phòng.",
-    questionEn: "The office is open ____ 9 AM to 6 PM.",
-    questionVi: "Văn phòng mở cửa ____ từ 9 giờ sáng đến 6 giờ chiều.",
+    questionEn: "The office is open _____ 9 AM to 6 PM.",
+    questionVi: "Văn phòng mở cửa _____ từ 9 giờ sáng đến 6 giờ chiều.",
     options: [
       { option: "from", isCorrect: true },
       { option: "at", isCorrect: false },
@@ -1946,8 +1946,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Informing about a coworker's current task.",
     contextVi: "Thông báo về công việc hiện tại của một đồng nghiệp.",
-    questionEn: "Mr. Lee is ____ a client on the phone.",
-    questionVi: "Ông Lee ____ đang giúp đỡ một khách hàng qua điện thoại.",
+    questionEn: "Mr. Lee is _____ a client on the phone.",
+    questionVi: "Ông Lee _____ đang giúp đỡ một khách hàng qua điện thoại.",
     options: [
       { option: "help", isCorrect: false },
       { option: "helps", isCorrect: false },
@@ -1964,8 +1964,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Confirming delivery of a package.",
     contextVi: "Xác nhận việc giao một gói hàng.",
-    questionEn: "The courier ____ the package two hours ago.",
-    questionVi: "Người chuyển phát ____ gói hàng cách đây hai giờ.",
+    questionEn: "The courier _____ the package two hours ago.",
+    questionVi: "Người chuyển phát _____ gói hàng cách đây hai giờ.",
     options: [
       { option: "deliver", isCorrect: false },
       { option: "delivers", isCorrect: false },
@@ -1981,9 +1981,9 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Identifying a coworker's equipment.",
     contextVi: "Xác định thiết bị của một đồng nghiệp.",
-    questionEn: "This laptop belongs ____ the IT department.",
+    questionEn: "This laptop belongs _____ the IT department.",
     questionVi:
-      "Chiếc máy tính xách tay này thuộc ____ phòng Công nghệ thông tin.",
+      "Chiếc máy tính xách tay này thuộc _____ phòng Công nghệ thông tin.",
     options: [
       { option: "to", isCorrect: true },
       { option: "for", isCorrect: false },
@@ -2000,8 +2000,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Asking about a coworker's travel frequency.",
     contextVi: "Hỏi về tần suất đi công tác của một đồng nghiệp.",
-    questionEn: "____ Mr. Kim travel for business often?",
-    questionVi: "Ông Kim ____ có thường xuyên đi công tác không?",
+    questionEn: "_____ Mr. Kim travel for business often?",
+    questionVi: "Ông Kim _____ có thường xuyên đi công tác không?",
     options: [
       { option: "Do", isCorrect: false },
       { option: "Does", isCorrect: true },
@@ -2018,8 +2018,8 @@ export const questions: Question[] = [
     questionType: "word-form",
     contextEn: "Describing a coworker's performance.",
     contextVi: "Mô tả hiệu quả làm việc của một đồng nghiệp.",
-    questionEn: "His work is always very ____.",
-    questionVi: "Công việc của anh ấy luôn rất ____.",
+    questionEn: "His work is always very _____.",
+    questionVi: "Công việc của anh ấy luôn rất _____.",
     options: [
       { option: "neat", isCorrect: true },
       { option: "neatly", isCorrect: false },
@@ -2036,8 +2036,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Stating a planned event.",
     contextVi: "Nêu một sự kiện đã lên kế hoạch.",
-    questionEn: "The workshop ____ begin at 2:00 PM.",
-    questionVi: "Buổi hội thảo ____ sẽ bắt đầu lúc 2 giờ chiều.",
+    questionEn: "The workshop _____ begin at 2:00 PM.",
+    questionVi: "Buổi hội thảo _____ sẽ bắt đầu lúc 2 giờ chiều.",
     options: [
       { option: "will", isCorrect: true },
       { option: "am", isCorrect: false },
@@ -2053,8 +2053,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Talking about coffee preference in the office.",
     contextVi: "Nói về sở thích cà phê tại văn phòng.",
-    questionEn: "Most employees ____ sugar in their coffee.",
-    questionVi: "Hầu hết các nhân viên ____ đường vào cà phê của họ.",
+    questionEn: "Most employees _____ sugar in their coffee.",
+    questionVi: "Hầu hết các nhân viên _____ đường vào cà phê của họ.",
     options: [
       { option: "like", isCorrect: true },
       { option: "likes", isCorrect: false },
@@ -2070,8 +2070,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Offering a choice to a client.",
     contextVi: "Đưa ra sự lựa chọn cho khách hàng.",
-    questionEn: "Do you want tea ____ coffee?",
-    questionVi: "Bạn muốn dùng trà ____ hay cà phê?",
+    questionEn: "Do you want tea _____ coffee?",
+    questionVi: "Bạn muốn dùng trà _____ hay cà phê?",
     options: [
       { option: "or", isCorrect: true },
       { option: "but", isCorrect: false },
@@ -2087,8 +2087,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Ordering office supplies current progress.",
     contextVi: "Tiến độ hiện tại của việc đặt đồ dùng văn phòng.",
-    questionEn: "We are ____ new chairs for the lobby.",
-    questionVi: "Chúng tôi đang ____ đặt những chiếc ghế mới cho sảnh chờ.",
+    questionEn: "We are _____ new chairs for the lobby.",
+    questionVi: "Chúng tôi đang _____ đặt những chiếc ghế mới cho sảnh chờ.",
     options: [
       { option: "order", isCorrect: false },
       { option: "orders", isCorrect: false },
@@ -2104,8 +2104,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Confirming a past attendance.",
     contextVi: "Xác nhận sự tham gia trong quá khứ.",
-    questionEn: "The CEO ____ the conference last week.",
-    questionVi: "Vị CEO ____ đã tham dự hội nghị vào tuần trước.",
+    questionEn: "The CEO _____ the conference last week.",
+    questionVi: "Vị CEO _____ đã tham dự hội nghị vào tuần trước.",
     options: [
       { option: "attend", isCorrect: false },
       { option: "attends", isCorrect: false },
@@ -2121,8 +2121,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Guiding a guest to their seat.",
     contextVi: "Hướng dẫn khách đến chỗ ngồi.",
-    questionEn: "Please sit ____ the guest chair.",
-    questionVi: "Vui lòng ngồi ____ vào chiếc ghế dành cho khách.",
+    questionEn: "Please sit _____ the guest chair.",
+    questionVi: "Vui lòng ngồi _____ vào chiếc ghế dành cho khách.",
     options: [
       { option: "in", isCorrect: true },
       { option: "at", isCorrect: false },
@@ -2139,8 +2139,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Acknowledging a team's hard work.",
     contextVi: "Ghi nhận sự làm việc chăm chỉ của một nhóm.",
-    questionEn: "Everyone ____ very hard during the project.",
-    questionVi: "Mọi người ____ rất chăm chỉ trong suốt dự án.",
+    questionEn: "Everyone _____ very hard during the project.",
+    questionVi: "Mọi người _____ rất chăm chỉ trong suốt dự án.",
     options: [
       { option: "work", isCorrect: false },
       { option: "works", isCorrect: true },
@@ -2157,8 +2157,8 @@ export const questions: Question[] = [
     questionType: "word-form",
     contextEn: "Giving positive feedback on a design.",
     contextVi: "Đưa ra phản hồi tích cực về một bản thiết kế.",
-    questionEn: "The website design is very ____.",
-    questionVi: "Bản thiết kế trang web rất ____.",
+    questionEn: "The website design is very _____.",
+    questionVi: "Bản thiết kế trang web rất _____.",
     options: [
       { option: "professional", isCorrect: true },
       { option: "professionally", isCorrect: false },
@@ -2175,8 +2175,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "A reminder about an upcoming lunch.",
     contextVi: "Lời nhắc về một bữa trưa sắp tới.",
-    questionEn: "We ____ have lunch at 12:30 PM.",
-    questionVi: "Chúng ta ____ sẽ ăn trưa lúc 12 giờ 30 phút.",
+    questionEn: "We _____ have lunch at 12:30 PM.",
+    questionVi: "Chúng ta _____ sẽ ăn trưa lúc 12 giờ 30 phút.",
     options: [
       { option: "will", isCorrect: true },
       { option: "are", isCorrect: false },
@@ -2192,8 +2192,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Asking about a coworker's language skills.",
     contextVi: "Hỏi về kỹ năng ngôn ngữ của một đồng nghiệp.",
-    questionEn: "____ she speak French fluently?",
-    questionVi: "Cô ấy ____ có nói tiếng Pháp trôi chảy không?",
+    questionEn: "_____ she speak French fluently?",
+    questionVi: "Cô ấy _____ có nói tiếng Pháp trôi chảy không?",
     options: [
       { option: "Do", isCorrect: false },
       { option: "Does", isCorrect: true },
@@ -2209,8 +2209,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Identifying office supply location.",
     contextVi: "Xác định vị trí của đồ dùng văn phòng.",
-    questionEn: "The staples are ____ top of the cabinet.",
-    questionVi: "Những chiếc ghim bấm ở ____ bên trên nóc tủ.",
+    questionEn: "The staples are _____ top of the cabinet.",
+    questionVi: "Những chiếc ghim bấm ở _____ bên trên nóc tủ.",
     options: [
       { option: "on", isCorrect: true },
       { option: "at", isCorrect: false },
@@ -2226,8 +2226,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Asking about a past project's completion.",
     contextVi: "Hỏi về việc hoàn thành một dự án trong quá khứ.",
-    questionEn: "____ they finish the project on time?",
-    questionVi: "Họ ____ có hoàn thành dự án đúng hạn không?",
+    questionEn: "_____ they finish the project on time?",
+    questionVi: "Họ _____ có hoàn thành dự án đúng hạn không?",
     options: [
       { option: "Do", isCorrect: false },
       { option: "Does", isCorrect: false },
@@ -2244,8 +2244,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "A team lead describing their work schedule.",
     contextVi: "Trưởng nhóm mô tả lịch trình làm việc của họ.",
-    questionEn: "I ____ in the office on weekends.",
-    questionVi: "Tôi ____ không bao giờ làm việc ở văn phòng vào cuối tuần.",
+    questionEn: "I _____ in the office on weekends.",
+    questionVi: "Tôi _____ không bao giờ làm việc ở văn phòng vào cuối tuần.",
     options: [
       { option: "never work", isCorrect: true },
       { option: "work never", isCorrect: false },
@@ -2262,8 +2262,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Identifying the color of a company asset.",
     contextVi: "Xác định màu sắc của tài sản công ty.",
-    questionEn: "The corporate logo is ____.",
-    questionVi: "Logo của tập đoàn ____ màu xanh dương và trắng.",
+    questionEn: "The corporate logo is _____.",
+    questionVi: "Logo của tập đoàn _____ màu xanh dương và trắng.",
     options: [
       { option: "blue and white", isCorrect: true },
       { option: "a blue and white", isCorrect: false },
@@ -2279,9 +2279,9 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "An update on an ongoing training session.",
     contextVi: "Cập nhật về một buổi đào tạo đang diễn ra.",
-    questionEn: "Employees ____ attending the safety workshop now.",
+    questionEn: "Employees _____ attending the safety workshop now.",
     questionVi:
-      "Các nhân viên ____ đang tham dự buổi hội thảo an toàn bây giờ.",
+      "Các nhân viên _____ đang tham dự buổi hội thảo an toàn bây giờ.",
     options: [
       { option: "is", isCorrect: false },
       { option: "am", isCorrect: false },
@@ -2298,8 +2298,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Discussing the date of a past contract signing.",
     contextVi: "Thảo luận về ngày ký kết hợp đồng trong quá khứ.",
-    questionEn: "The manager ____ the contract yesterday morning.",
-    questionVi: "Người quản lý ____ đã ký hợp đồng vào sáng qua.",
+    questionEn: "The manager _____ the contract yesterday morning.",
+    questionVi: "Người quản lý _____ đã ký hợp đồng vào sáng qua.",
     options: [
       { option: "sign", isCorrect: false },
       { option: "signs", isCorrect: false },
@@ -2315,8 +2315,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Pointing out a location in the building.",
     contextVi: "Chỉ ra một vị trí trong tòa nhà.",
-    questionEn: "The cafeteria is ____ the first floor.",
-    questionVi: "Nhà ăn ở ____ trên tầng một.",
+    questionEn: "The cafeteria is _____ the first floor.",
+    questionVi: "Nhà ăn ở _____ trên tầng một.",
     options: [
       { option: "on", isCorrect: true },
       { option: "at", isCorrect: false },
@@ -2332,8 +2332,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "A technician promising a repair completion.",
     contextVi: "Kỹ thuật viên hứa sẽ hoàn thành việc sửa chữa.",
-    questionEn: "I ____ fix the printer by tomorrow.",
-    questionVi: "Tôi ____ sẽ sửa xong máy in trước ngày mai.",
+    questionEn: "I _____ fix the printer by tomorrow.",
+    questionVi: "Tôi _____ sẽ sửa xong máy in trước ngày mai.",
     options: [
       { option: "will", isCorrect: true },
       { option: "am", isCorrect: false },
@@ -2349,8 +2349,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Talking about someone's everyday work task.",
     contextVi: "Nói về công việc hàng ngày của ai đó.",
-    questionEn: "Ms. Garcia ____ the office supplies weekly.",
-    questionVi: "Bà Garcia ____ đặt đồ dùng văn phòng hàng tuần.",
+    questionEn: "Ms. Garcia _____ the office supplies weekly.",
+    questionVi: "Bà Garcia _____ đặt đồ dùng văn phòng hàng tuần.",
     options: [
       { option: "order", isCorrect: false },
       { option: "orders", isCorrect: true },
@@ -2366,8 +2366,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Confirming help is available.",
     contextVi: "Xác nhận có sự giúp đỡ.",
-    questionEn: "____ there any assistants available?",
-    questionVi: "____ Có trợ lý nào đang sẵn sàng không?",
+    questionEn: "_____ there any assistants available?",
+    questionVi: "_____ Có trợ lý nào đang sẵn sàng không?",
     options: [
       { option: "Is", isCorrect: false },
       { option: "Are", isCorrect: true },
@@ -2383,8 +2383,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Informing about a team's current work.",
     contextVi: "Thông báo về công việc hiện tại của một nhóm.",
-    questionEn: "Our team is ____ on a new proposal.",
-    questionVi: "Nhóm của chúng tôi ____ đang làm việc trên một đề xuất mới.",
+    questionEn: "Our team is _____ on a new proposal.",
+    questionVi: "Nhóm của chúng tôi _____ đang làm việc trên một đề xuất mới.",
     options: [
       { option: "work", isCorrect: false },
       { option: "works", isCorrect: false },
@@ -2400,8 +2400,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reporting a past shipment status.",
     contextVi: "Báo cáo tình trạng một lô hàng trong quá khứ.",
-    questionEn: "We ____ the shipment two days ago.",
-    questionVi: "Chúng tôi ____ đã gửi lô hàng đi cách đây hai ngày.",
+    questionEn: "We _____ the shipment two days ago.",
+    questionVi: "Chúng tôi _____ đã gửi lô hàng đi cách đây hai ngày.",
     options: [
       { option: "send", isCorrect: false },
       { option: "sends", isCorrect: false },
@@ -2418,8 +2418,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Ordering some coffee for a visitor.",
     contextVi: "Đặt cà phê cho khách.",
-    questionEn: "Please ____ some coffee for the guest.",
-    questionVi: "Vui lòng ____ chút cà phê cho khách.",
+    questionEn: "Please _____ some coffee for the guest.",
+    questionVi: "Vui lòng _____ chút cà phê cho khách.",
     options: [
       { option: "get", isCorrect: true },
       { option: "gets", isCorrect: false },
@@ -2435,8 +2435,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Asking about someone's job location.",
     contextVi: "Hỏi về nơi làm việc của ai đó.",
-    questionEn: "____ your boss work in this building?",
-    questionVi: "Sếp của bạn ____ có làm việc trong tòa nhà này không?",
+    questionEn: "_____ your boss work in this building?",
+    questionVi: "Sếp của bạn _____ có làm việc trong tòa nhà này không?",
     options: [
       { option: "Do", isCorrect: false },
       { option: "Does", isCorrect: true },
@@ -2453,8 +2453,8 @@ export const questions: Question[] = [
     questionType: "word-form",
     contextEn: "Evaluating a coworker's typing skill.",
     contextVi: "Đánh giá kỹ năng đánh máy của đồng nghiệp.",
-    questionEn: "She is a very ____ typist.",
-    questionVi: "Cô ấy là một người đánh máy rất ____.",
+    questionEn: "She is a very _____ typist.",
+    questionVi: "Cô ấy là một người đánh máy rất _____.",
     options: [
       { option: "fast", isCorrect: true },
       { option: "fastly", isCorrect: false },
@@ -2471,8 +2471,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Confirming an upcoming appointment.",
     contextVi: "Xác nhận một cuộc hẹn sắp tới.",
-    questionEn: "The doctor ____ see you at 3:00 PM.",
-    questionVi: "Bác sĩ ____ sẽ gặp bạn lúc 3 giờ chiều.",
+    questionEn: "The doctor _____ see you at 3:00 PM.",
+    questionVi: "Bác sĩ _____ sẽ gặp bạn lúc 3 giờ chiều.",
     options: [
       { option: "will", isCorrect: true },
       { option: "is", isCorrect: false },
@@ -2488,8 +2488,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Stating a general preference for communication.",
     contextVi: "Nêu sở thích chung về cách thức giao tiếp.",
-    questionEn: "Many clients ____ email over phone calls.",
-    questionVi: "Nhiều khách hàng ____ thích email hơn là gọi điện.",
+    questionEn: "Many clients _____ email over phone calls.",
+    questionVi: "Nhiều khách hàng _____ thích email hơn là gọi điện.",
     options: [
       { option: "prefer", isCorrect: true },
       { option: "prefers", isCorrect: false },
@@ -2505,8 +2505,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Asking about a coworker's location internally.",
     contextVi: "Hỏi về vị trí của một đồng nghiệp trong nội bộ.",
-    questionEn: "Is Mr. Jones ____ the conference room?",
-    questionVi: "Ông Jones có đang ở ____ phòng hội nghị không?",
+    questionEn: "Is Mr. Jones _____ the conference room?",
+    questionVi: "Ông Jones có đang ở _____ phòng hội nghị không?",
     options: [
       { option: "in", isCorrect: true },
       { option: "at", isCorrect: false },
@@ -2522,8 +2522,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Update on a new software installation.",
     contextVi: "Cập nhật về việc cài đặt phần mềm mới.",
-    questionEn: "The IT guy is ____ the new program now.",
-    questionVi: "Anh chàng CNTT ____ đang cài đặt chương trình mới bây giờ.",
+    questionEn: "The IT guy is _____ the new program now.",
+    questionVi: "Anh chàng CNTT _____ đang cài đặt chương trình mới bây giờ.",
     options: [
       { option: "install", isCorrect: false },
       { option: "installs", isCorrect: false },
@@ -2539,8 +2539,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Talking about someone's previous job role.",
     contextVi: "Nói về vai trò công việc trước đây của ai đó.",
-    questionEn: "Ms. Tanaka ____ a sales manager five years ago.",
-    questionVi: "Bà Tanaka ____ đã là một quản lý kinh doanh cách đây năm năm.",
+    questionEn: "Ms. Tanaka _____ a sales manager five years ago.",
+    questionVi: "Bà Tanaka _____ đã là một quản lý kinh doanh cách đây năm năm.",
     options: [
       { option: "was", isCorrect: true },
       { option: "is", isCorrect: false },
@@ -2557,8 +2557,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Describing a coworker's current state.",
     contextVi: "Mô tả trạng thái hiện tại của đồng nghiệp.",
-    questionEn: "He is always very ____ with his work.",
-    questionVi: "Anh ấy luôn luôn rất ____ với công việc của mình.",
+    questionEn: "He is always very _____ with his work.",
+    questionVi: "Anh ấy luôn luôn rất _____ với công việc của mình.",
     options: [
       { option: "busy", isCorrect: true },
       { option: "busily", isCorrect: false },
@@ -2574,9 +2574,9 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Stating office cleanliness status.",
     contextVi: "Nêu tình trạng vệ sinh văn phòng.",
-    questionEn: "Our janitor ____ the office every night.",
+    questionEn: "Our janitor _____ the office every night.",
     questionVi:
-      "Nhân viên vệ sinh của chúng tôi ____ dọn dẹp văn phòng mỗi tối.",
+      "Nhân viên vệ sinh của chúng tôi _____ dọn dẹp văn phòng mỗi tối.",
     options: [
       { option: "clean", isCorrect: false },
       { option: "cleans", isCorrect: true },
@@ -2593,8 +2593,8 @@ export const questions: Question[] = [
     questionType: "word-form",
     contextEn: "Describing the efficiency of a service.",
     contextVi: "Mô tả tính hiệu quả của một dịch vụ.",
-    questionEn: "The delivery service is very ____.",
-    questionVi: "Dịch vụ giao hàng rất ____.",
+    questionEn: "The delivery service is very _____.",
+    questionVi: "Dịch vụ giao hàng rất _____.",
     options: [
       { option: "reliable", isCorrect: true },
       { option: "reliably", isCorrect: false },
@@ -2610,8 +2610,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "A promise to send a document soon.",
     contextVi: "Lời hứa sẽ gửi tài liệu sớm.",
-    questionEn: "I ____ send the file later today.",
-    questionVi: "Tôi ____ sẽ gửi tệp tin đó vào cuối ngày hôm nay.",
+    questionEn: "I _____ send the file later today.",
+    questionVi: "Tôi _____ sẽ gửi tệp tin đó vào cuối ngày hôm nay.",
     options: [
       { option: "will", isCorrect: true },
       { option: "am", isCorrect: false },
@@ -2627,8 +2627,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Asking about a colleague's current project involvement.",
     contextVi: "Hỏi về sự tham gia dự án của một đồng nghiệp.",
-    questionEn: "____ they work on the same team?",
-    questionVi: "____ Họ có làm việc trong cùng một nhóm không?",
+    questionEn: "_____ they work on the same team?",
+    questionVi: "_____ Họ có làm việc trong cùng một nhóm không?",
     options: [
       { option: "Do", isCorrect: true },
       { option: "Does", isCorrect: false },
@@ -2645,8 +2645,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Finding a specific floor in a building.",
     contextVi: "Tìm một tầng cụ thể trong tòa nhà.",
-    questionEn: "The HR office is ____ the third floor.",
-    questionVi: "Phòng Nhân sự ở ____ trên tầng ba.",
+    questionEn: "The HR office is _____ the third floor.",
+    questionVi: "Phòng Nhân sự ở _____ trên tầng ba.",
     options: [
       { option: "on", isCorrect: true },
       { option: "at", isCorrect: false },
@@ -2662,8 +2662,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Asking about someone's past location.",
     contextVi: "Hỏi về vị trí cũ của ai đó.",
-    questionEn: "____ you in the meeting room ten minutes ago?",
-    questionVi: "Bạn ____ có ở trong phòng họp cách đây mười phút không?",
+    questionEn: "_____ you in the meeting room ten minutes ago?",
+    questionVi: "Bạn _____ có ở trong phòng họp cách đây mười phút không?",
     options: [
       { option: "Was", isCorrect: false },
       { option: "Were", isCorrect: true },
@@ -2680,8 +2680,8 @@ export const questions: Question[] = [
     contextEn: "A manager announcing a future team event.",
     contextVi:
       "Người quản lý thông báo về một sự kiện của nhóm trong tương lai.",
-    questionEn: "We ____ have a team lunch next Friday.",
-    questionVi: "Chúng tôi ____ sẽ có một bữa trưa toàn nhóm vào thứ Sáu tới.",
+    questionEn: "We _____ have a team lunch next Friday.",
+    questionVi: "Chúng tôi _____ sẽ có một bữa trưa toàn nhóm vào thứ Sáu tới.",
     options: [
       { option: "will", isCorrect: true },
       { option: "are", isCorrect: false },
@@ -2698,8 +2698,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Explaining a company's standard policy.",
     contextVi: "Giải thích chính sách tiêu chuẩn của công ty.",
-    questionEn: "The company ____ flexible working hours.",
-    questionVi: "Công ty ____ cung cấp giờ làm việc linh hoạt.",
+    questionEn: "The company _____ flexible working hours.",
+    questionVi: "Công ty _____ cung cấp giờ làm việc linh hoạt.",
     options: [
       { option: "offer", isCorrect: false },
       { option: "offers", isCorrect: true },
@@ -2715,8 +2715,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Locating the elevators in the lobby.",
     contextVi: "Xác định vị trí thang máy ở sảnh.",
-    questionEn: "The elevators are ____ the end of the hallway.",
-    questionVi: "Thang máy ở ____ cuối hành lang.",
+    questionEn: "The elevators are _____ the end of the hallway.",
+    questionVi: "Thang máy ở _____ cuối hành lang.",
     options: [
       { option: "at", isCorrect: true },
       { option: "on", isCorrect: false },
@@ -2732,8 +2732,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Talking about someone's current whereabouts.",
     contextVi: "Nói về nơi ở hiện tại của ai đó.",
-    questionEn: "She is ____ to a customer on the phone.",
-    questionVi: "Cô ấy ____ đang nói chuyện với khách hàng qua điện thoại.",
+    questionEn: "She is _____ to a customer on the phone.",
+    questionVi: "Cô ấy _____ đang nói chuyện với khách hàng qua điện thoại.",
     options: [
       { option: "talk", isCorrect: false },
       { option: "talks", isCorrect: false },
@@ -2749,8 +2749,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Mentioning a past training event.",
     contextVi: "Nhắc đến một sự kiện đào tạo trong quá khứ.",
-    questionEn: "They ____ the orientation session last week.",
-    questionVi: "Họ ____ đã tham gia buổi định hướng vào tuần trước.",
+    questionEn: "They _____ the orientation session last week.",
+    questionVi: "Họ _____ đã tham gia buổi định hướng vào tuần trước.",
     options: [
       { option: "attend", isCorrect: false },
       { option: "attends", isCorrect: false },
@@ -2766,8 +2766,8 @@ export const questions: Question[] = [
     questionType: "word-form",
     contextEn: "Commending a staff member's attitude.",
     contextVi: "Khen ngợi thái độ của một nhân viên.",
-    questionEn: "He is a very ____ employee.",
-    questionVi: "Anh ấy là một nhân viên rất ____.",
+    questionEn: "He is a very _____ employee.",
+    questionVi: "Anh ấy là một nhân viên rất _____.",
     options: [
       { option: "helpful", isCorrect: true },
       { option: "help", isCorrect: false },
@@ -2783,8 +2783,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Checking if someone has the key.",
     contextVi: "Kiểm tra xem ai đó có chìa khóa không.",
-    questionEn: "____ you have the key to the supply room?",
-    questionVi: "Bạn ____ có chìa khóa phòng kho không?",
+    questionEn: "_____ you have the key to the supply room?",
+    questionVi: "Bạn _____ có chìa khóa phòng kho không?",
     options: [
       { option: "Do", isCorrect: true },
       { option: "Does", isCorrect: false },
@@ -2801,8 +2801,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Requesting to see a document.",
     contextVi: "Yêu cầu xem một tài liệu.",
-    questionEn: "Please show ____ the latest report.",
-    questionVi: "Vui lòng cho ____ xem bản báo cáo mới nhất.",
+    questionEn: "Please show _____ the latest report.",
+    questionVi: "Vui lòng cho _____ xem bản báo cáo mới nhất.",
     options: [
       { option: "me", isCorrect: true },
       { option: "I", isCorrect: false },
@@ -2818,8 +2818,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Describing a current meeting room activity.",
     contextVi: "Mô tả hoạt động hiện tại trong phòng họp.",
-    questionEn: "We ____ waiting for the CEO to arrive.",
-    questionVi: "Chúng tôi ____ đang đợi CEO đến.",
+    questionEn: "We _____ waiting for the CEO to arrive.",
+    questionVi: "Chúng tôi _____ đang đợi CEO đến.",
     options: [
       { option: "is", isCorrect: false },
       { option: "am", isCorrect: false },
@@ -2835,9 +2835,9 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reporting a past task completion.",
     contextVi: "Báo cáo việc hoàn thành một nhiệm vụ trong quá khứ.",
-    questionEn: "John ____ the report on his desk yesterday.",
+    questionEn: "John _____ the report on his desk yesterday.",
     questionVi:
-      "John ____ đã để bản báo cáo trên bàn làm việc của mình vào ngày hôm qua.",
+      "John _____ đã để bản báo cáo trên bàn làm việc của mình vào ngày hôm qua.",
     options: [
       { option: "leave", isCorrect: false },
       { option: "leaves", isCorrect: false },
@@ -2854,8 +2854,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "A staff member promising to call back.",
     contextVi: "Một nhân viên hứa sẽ gọi lại.",
-    questionEn: "I ____ call you back in five minutes.",
-    questionVi: "Tôi ____ sẽ gọi lại cho bạn sau năm phút nữa.",
+    questionEn: "I _____ call you back in five minutes.",
+    questionVi: "Tôi _____ sẽ gọi lại cho bạn sau năm phút nữa.",
     options: [
       { option: "will", isCorrect: true },
       { option: "am", isCorrect: false },
@@ -2872,8 +2872,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Describing a colleague's daily ritual.",
     contextVi: "Mô tả thói quen hàng ngày của một đồng nghiệp.",
-    questionEn: "He usually ____ coffee before the meeting.",
-    questionVi: "Anh ấy thường ____ uống cà phê trước cuộc họp.",
+    questionEn: "He usually _____ coffee before the meeting.",
+    questionVi: "Anh ấy thường _____ uống cà phê trước cuộc họp.",
     options: [
       { option: "drink", isCorrect: false },
       { option: "drinks", isCorrect: true },
@@ -2889,8 +2889,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Asking about the existence of a facility.",
     contextVi: "Hỏi về sự hiện diện của một cơ sở vật chất.",
-    questionEn: "____ there a parking lot near the office?",
-    questionVi: "____ có bãi đậu xe nào gần văn phòng không?",
+    questionEn: "_____ there a parking lot near the office?",
+    questionVi: "_____ có bãi đậu xe nào gần văn phòng không?",
     options: [
       { option: "Is", isCorrect: true },
       { option: "Are", isCorrect: false },
@@ -2906,8 +2906,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Informing about a technical issue being handled.",
     contextVi: "Thông báo về việc đang xử lý một sự cố kỹ thuật.",
-    questionEn: "The technician ____ fixing the internet right now.",
-    questionVi: "Kỹ thuật viên ____ đang sửa mạng internet ngay bây giờ.",
+    questionEn: "The technician _____ fixing the internet right now.",
+    questionVi: "Kỹ thuật viên _____ đang sửa mạng internet ngay bây giờ.",
     options: [
       { option: "is", isCorrect: true },
       { option: "are", isCorrect: false },
@@ -2923,8 +2923,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Referring to a past arrival.",
     contextVi: "Nhắc đến việc đã đi đến/đến nơi trong quá khứ.",
-    questionEn: "Ms. Green ____ at the airport at 8:00 AM.",
-    questionVi: "Bà Green ____ đã đến sân bay lúc 8 giờ sáng.",
+    questionEn: "Ms. Green _____ at the airport at 8:00 AM.",
+    questionVi: "Bà Green _____ đã đến sân bay lúc 8 giờ sáng.",
     options: [
       { option: "arrive", isCorrect: false },
       { option: "arrives", isCorrect: false },
@@ -2940,8 +2940,8 @@ export const questions: Question[] = [
     questionType: "word-form",
     contextEn: "Describing a new project's difficulty level.",
     contextVi: "Mô tả mức độ khó của một dự án mới.",
-    questionEn: "This new software is very ____ to use.",
-    questionVi: "Phần mềm mới này rất ____ để sử dụng.",
+    questionEn: "This new software is very _____ to use.",
+    questionVi: "Phần mềm mới này rất _____ để sử dụng.",
     options: [
       { option: "easy", isCorrect: true },
       { option: "easily", isCorrect: false },
@@ -2957,8 +2957,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "An update on an upcoming shipment.",
     contextVi: "Cập nhật về một lô hàng sắp tới.",
-    questionEn: "They ____ deliver the new computers tomorrow.",
-    questionVi: "Họ ____ sẽ giao máy tính mới vào ngày mai.",
+    questionEn: "They _____ deliver the new computers tomorrow.",
+    questionVi: "Họ _____ sẽ giao máy tính mới vào ngày mai.",
     options: [
       { option: "will", isCorrect: true },
       { option: "are", isCorrect: false },
@@ -2974,8 +2974,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Checking someone's language skills.",
     contextVi: "Kiểm tra kỹ năng ngôn ngữ của ai đó.",
-    questionEn: "____ she speak Spanish?",
-    questionVi: "Cô ấy ____ có nói tiếng Tây Ban Nha không?",
+    questionEn: "_____ she speak Spanish?",
+    questionVi: "Cô ấy _____ có nói tiếng Tây Ban Nha không?",
     options: [
       { option: "Does", isCorrect: true },
       { option: "Do", isCorrect: false },
@@ -2991,8 +2991,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Offering a document to someone.",
     contextVi: "Đưa một tài liệu cho ai đó.",
-    questionEn: "Here ____ the invoice you requested.",
-    questionVi: "Đây ____ là hóa đơn mà bạn đã yêu cầu.",
+    questionEn: "Here _____ the invoice you requested.",
+    questionVi: "Đây _____ là hóa đơn mà bạn đã yêu cầu.",
     options: [
       { option: "is", isCorrect: true },
       { option: "are", isCorrect: false },
@@ -3009,8 +3009,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Asking about someone's current action.",
     contextVi: "Hỏi về hành động hiện tại của ai đó.",
-    questionEn: "What ____ you doing right now?",
-    questionVi: "Bạn ____ đang làm gì ngay bây giờ vậy?",
+    questionEn: "What _____ you doing right now?",
+    questionVi: "Bạn _____ đang làm gì ngay bây giờ vậy?",
     options: [
       { option: "is", isCorrect: false },
       { option: "are", isCorrect: true },
@@ -3027,8 +3027,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Reporting a negative past event.",
     contextVi: "Báo cáo một sự kiện tiêu chuẩn không xảy ra trong quá khứ.",
-    questionEn: "He ____ not finish the project on time.",
-    questionVi: "Anh ấy ____ đã không hoàn thành dự án đúng hạn.",
+    questionEn: "He _____ not finish the project on time.",
+    questionVi: "Anh ấy _____ đã không hoàn thành dự án đúng hạn.",
     options: [
       { option: "did", isCorrect: true },
       { option: "does", isCorrect: false },
@@ -3045,8 +3045,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Asking about someone's origin.",
     contextVi: "Hỏi về xuất thân của ai đó.",
-    questionEn: "Where is the new consultant ____?",
-    questionVi: "Người cố vấn mới đến ____ từ đâu?",
+    questionEn: "Where is the new consultant _____?",
+    questionVi: "Người cố vấn mới đến _____ từ đâu?",
     options: [
       { option: "from", isCorrect: true },
       { option: "at", isCorrect: false },
@@ -3062,8 +3062,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "Stating a fact about someone's job.",
     contextVi: "Nêu một sự thật về công việc của ai đó.",
-    questionEn: "My colleague ____ very hard every day.",
-    questionVi: "Đồng nghiệp của tôi ____ làm việc rất chăm chỉ mỗi ngày.",
+    questionEn: "My colleague _____ very hard every day.",
+    questionVi: "Đồng nghiệp của tôi _____ làm việc rất chăm chỉ mỗi ngày.",
     options: [
       { option: "works", isCorrect: true },
       { option: "work", isCorrect: false },
@@ -3079,8 +3079,8 @@ export const questions: Question[] = [
     questionType: "word-form",
     contextEn: "Giving a warning about a device.",
     contextVi: "Đưa ra cảnh báo về một thiết bị.",
-    questionEn: "The printer is ____ now, so don't touch it.",
-    questionVi: "Máy in bây giờ đang ____, vì vậy đừng chạm vào nó.",
+    questionEn: "The printer is _____ now, so don't touch it.",
+    questionVi: "Máy in bây giờ đang _____, vì vậy đừng chạm vào nó.",
     options: [
       { option: "hot", isCorrect: true },
       { option: "hotly", isCorrect: false },
@@ -3096,8 +3096,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Announcing a future company holiday.",
     contextVi: "Thông báo về một ngày nghỉ lễ của công ty trong tương lai.",
-    questionEn: "The office ____ be closed for the holiday.",
-    questionVi: "Văn phòng ____ sẽ đóng cửa vào ngày lễ.",
+    questionEn: "The office _____ be closed for the holiday.",
+    questionVi: "Văn phòng _____ sẽ đóng cửa vào ngày lễ.",
     options: [
       { option: "will", isCorrect: true },
       { option: "is", isCorrect: false },

@@ -281,7 +281,7 @@ export const D11: VocabularyWord[] = [
     phonetic: "/dəˈrek.ʃən/",
     partOfSpeech: "noun",
     meaningEn: "A course along which someone or something moves.",
-    meaningVi: "Hướng.",
+    meaningVi: "Hướng, sự chỉ đạo.",
     exampleEn: "Which direction are we going?",
     exampleVi: "Chúng ta đang đi hướng nào?",
     categories: ["Daily"],

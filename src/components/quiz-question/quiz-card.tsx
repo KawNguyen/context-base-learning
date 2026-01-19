@@ -68,7 +68,7 @@ export function QuizCard({
       {/* Question Text */}
       <div className="mb-4">
         <p className="text-base font-medium leading-relaxed">
-          {question.questionEn.split("____").map((part, i, arr) => {
+          {question.questionEn.split("_____").map((part, i, arr) => {
             // Tách đáp án đúng theo dấu "/" nếu có
             const correctAnswer = question.options[correctOptionIndex].option;
             const answerParts = correctAnswer.includes("/")
