@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { Dialogue } from "@/constants/dialogues";
 import { useRouter, useParams } from "next/navigation";
 import { CEFRLevel } from "@/types";
-import { QuizHeader } from "../ui/quiz-header";
+import { QuizBottomBar } from "../ui/quiz-header";
 import { DialogueCard } from "./dialogue-card";
 import { DialogueSummary } from "./dialogue-summary";
 import { DialogueSkeleton } from "@/components/skeletons";
@@ -49,14 +49,14 @@ export function DialogueRandomQuiz({ level }: DialogueRandomQuizProps) {
 
   // Track answers using Map for better performance
   const [answers, setAnswers] = useState<Map<number, Map<number, number>>>(
-    new Map()
+    new Map(),
   );
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleAnswerSelect = (
     dialogueIdx: number,
     questionIdx: number,
-    answerIdx: number
+    answerIdx: number,
   ) => {
     if (isSubmitted) return;
 
@@ -85,7 +85,7 @@ export function DialogueRandomQuiz({ level }: DialogueRandomQuizProps) {
   // Calculate statistics
   const totalQuestions = randomDialogues.reduce(
     (sum, d) => sum + d.questions.length,
-    0
+    0,
   );
 
   let answeredCount = 0;
@@ -109,9 +109,7 @@ export function DialogueRandomQuiz({ level }: DialogueRandomQuizProps) {
   return (
     <div className="space-y-6">
       {/* Header */}
-      <QuizHeader
-        title=" Practice - Dialogues"
-        subtitle="Random 10 Dialogues"
+      <QuizBottomBar
         level={level}
         answeredCount={answeredCount}
         totalQuestions={totalQuestions}

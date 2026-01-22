@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { ReadingPassage } from "@/constants/reading/type";
 import { useRouter, useParams } from "next/navigation";
 import { CEFRLevel } from "@/types";
-import { QuizHeader } from "../ui/quiz-header";
+import { QuizBottomBar } from "../ui/quiz-header";
 import { ReadingCard } from "./reading-card";
 import { ReadingSummary } from "./reading-summary";
 import { ReadingSkeleton } from "@/components/skeletons";
@@ -49,14 +49,14 @@ export function ReadingRandomQuiz({ level }: ReadingRandomQuizProps) {
 
   // Track answers using Map for better performance
   const [answers, setAnswers] = useState<Map<number, Map<number, number>>>(
-    new Map()
+    new Map(),
   );
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleAnswerSelect = (
     passageIdx: number,
     questionIdx: number,
-    answerIdx: number
+    answerIdx: number,
   ) => {
     if (isSubmitted) return;
 
@@ -85,7 +85,7 @@ export function ReadingRandomQuiz({ level }: ReadingRandomQuizProps) {
   // Calculate statistics
   const totalQuestions = randomPassages.reduce(
     (sum, p) => sum + p.questions.length,
-    0
+    0,
   );
 
   let answeredCount = 0;
@@ -114,9 +114,7 @@ export function ReadingRandomQuiz({ level }: ReadingRandomQuizProps) {
   return (
     <div className="space-y-6">
       {/* Header */}
-      <QuizHeader
-        title="Practice - Reading"
-        subtitle="Random 5 Passages"
+      <QuizBottomBar
         level={level}
         answeredCount={answeredCount}
         totalQuestions={totalQuestions}

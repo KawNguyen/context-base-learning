@@ -4,10 +4,9 @@ import { useState, useEffect } from "react";
 import { CEFRLevel } from "@/types";
 import { Question } from "@/constants/quiz-question/types";
 import { QuizCard } from "./quiz-card";
-import { QuizSummary } from "./quiz-summary";
 import { QuizSkeleton } from "@/components/skeletons";
-import { QuizHeader } from "../ui/quiz-header";
 import { useRouter } from "next/navigation";
+import { QuizBottomBar } from "../ui/quiz-header";
 
 interface QuizInterfaceProps {
   level: CEFRLevel;
@@ -82,20 +81,6 @@ export function QuizInterface({ level }: QuizInterfaceProps) {
 
   return (
     <div className="space-y-6">
-      <QuizHeader
-        title={`Quiz - Level ${level}`}
-        subtitle="Answer the questions below"
-        level={level}
-        answeredCount={answeredCount}
-        totalQuestions={isLoading ? 0 : levelQuestions.length}
-        progress={progress}
-        score={score}
-        isSubmitted={isSubmitted}
-        onSubmit={handleSubmit}
-        onReset={resetQuiz}
-        onBack={() => router.push(`/quiz/${level}`)}
-      />
-
       {isLoading ? (
         <QuizSkeleton />
       ) : error ? (
@@ -104,8 +89,7 @@ export function QuizInterface({ level }: QuizInterfaceProps) {
         </div>
       ) : (
         <>
-          {/* Grid hiển thị tất cả câu hỏi */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 pb-24">
             {levelQuestions.map((question, qIdx) => (
               <QuizCard
                 key={qIdx}
@@ -117,13 +101,19 @@ export function QuizInterface({ level }: QuizInterfaceProps) {
               />
             ))}
           </div>
-
-          {/* Summary khi đã submit */}
-          {isSubmitted && (
-            <QuizSummary score={score} totalQuestions={levelQuestions.length} />
-          )}
         </>
       )}
+      <QuizBottomBar
+        level={level}
+        answeredCount={answeredCount}
+        totalQuestions={isLoading ? 0 : levelQuestions.length}
+        progress={progress}
+        score={score}
+        isSubmitted={isSubmitted}
+        onSubmit={handleSubmit}
+        onReset={resetQuiz}
+        onBack={() => router.push(`/quiz/${level}`)}
+      />
     </div>
   );
 }

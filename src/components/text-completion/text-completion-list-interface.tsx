@@ -5,7 +5,7 @@ import { TextCompletionPassage } from "@/constants/text-completion/types";
 import { useRouter, useParams } from "next/navigation";
 import { CEFRLevel } from "@/types";
 import { PassageExerciseCard } from "./passage-exercise-card";
-import { QuizHeader } from "@/components/ui/quiz-header";
+import { QuizBottomBar } from "@/components/ui/quiz-header";
 import { TextCompletionSkeleton } from "@/components/skeletons";
 
 interface TextCompletionListInterfaceProps {
@@ -54,7 +54,7 @@ export function TextCompletionListInterface({
   const handleSelectOption = (
     passageId: string,
     gapIndex: number,
-    optionIndex: number
+    optionIndex: number,
   ) => {
     if (showResult) return;
     setUserAnswers((prev) => ({
@@ -91,11 +91,11 @@ export function TextCompletionListInterface({
   const isAnswerCorrect = (
     passageId: string,
     gapIndex: number,
-    optionIndex: number
+    optionIndex: number,
   ) => {
     const passage = passages.find((p) => p.id === passageId);
     const question = passage?.questions.find(
-      (q) => q.placeholderIndex === gapIndex
+      (q) => q.placeholderIndex === gapIndex,
     );
     // Use correctIndex from API
     return (
@@ -126,7 +126,7 @@ export function TextCompletionListInterface({
 
   const totalQuestions = passages.reduce(
     (sum, p) => sum + p.questions.length,
-    0
+    0,
   );
   const progress =
     isLoading || totalQuestions === 0
@@ -136,9 +136,7 @@ export function TextCompletionListInterface({
   return (
     <div className="space-y-6">
       {/* Header */}
-      <QuizHeader
-        title=" Practice - Text Completion"
-        subtitle={`Random ${passages.length} Passages`}
+      <QuizBottomBar
         level={level}
         answeredCount={answeredCount}
         totalQuestions={totalQuestions}

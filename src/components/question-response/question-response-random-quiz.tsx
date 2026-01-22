@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { QuestionResponseExercise } from "@/constants/question-response/types";
 import { useRouter, useParams } from "next/navigation";
 import { CEFRLevel } from "@/types";
-import { QuizHeader } from "../ui/quiz-header";
+import { QuizBottomBar } from "../ui/quiz-header";
 import { Card, CardContent } from "../ui/card";
 import { QuestionResponseCard } from "./question-response-card";
 import { QuestionResponseSkeleton } from "../skeletons";
@@ -96,9 +96,7 @@ export function QuestionResponseRandomQuiz({
   return (
     <div className="space-y-6">
       {/* Header */}
-      <QuizHeader
-        title=" Practice - Question Response"
-        subtitle="Random 10 Questions"
+      <QuizBottomBar
         level={level}
         answeredCount={answeredCount}
         totalQuestions={totalQuestions}

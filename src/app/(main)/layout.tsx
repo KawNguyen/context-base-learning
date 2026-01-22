@@ -1,7 +1,6 @@
 import AppSidebar from "@/components/sidebar/app-sidebar";
-import { ThemeToggle } from "@/components/toggle";
-import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
-import { DynamicBreadcrumb } from "@/components/dynamic-breadcrumb";
+import { SidebarProvider } from "@/components/ui/sidebar";
+import { MainHeader } from "@/components/main-header";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -12,15 +11,7 @@ export default async function Layout({ children }: LayoutProps) {
     <SidebarProvider>
       <AppSidebar />
       <main className="flex-1">
-        <header className="flex h-16 shrink-0 items-center gap-2 border-b px-4 justify-between">
-          <div className="flex items-center gap-2">
-            <SidebarTrigger className="-ml-1" />
-            <DynamicBreadcrumb />
-          </div>
-          <div className="flex items-center gap-2">
-            <ThemeToggle />
-          </div>
-        </header>
+        <MainHeader />
         <div className="p-4">{children}</div>
       </main>
     </SidebarProvider>

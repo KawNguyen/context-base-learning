@@ -1,14 +1,23 @@
 "use client";
 
+import { useEffect, useState, useCallback } from "react";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import { RotateCcw, Home } from "lucide-react";
-import CEFRBadge from "../cefr-badge";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from "@/components/ui/alert-dialog";
+import { RotateCcw, Home, AlertCircle, Send, CheckCircle2 } from "lucide-react";
+import CEFRBadge from "@/components/cefr-badge";
 import { CEFRLevel } from "@/types";
 
-interface QuizHeaderProps {
-  title: string;
-  subtitle: string;
+interface QuizBottomBarProps {
   level: CEFRLevel;
   answeredCount: number;
   totalQuestions: number;
@@ -20,9 +29,7 @@ interface QuizHeaderProps {
   onBack: () => void;
 }
 
-export function QuizHeader({
-  title,
-  subtitle,
+export function QuizBottomBar({
   level,
   answeredCount,
   totalQuestions,
@@ -32,67 +39,184 @@ export function QuizHeader({
   onSubmit,
   onReset,
   onBack,
-}: QuizHeaderProps) {
+}: QuizBottomBarProps) {
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+  const [showConfirm, setShowConfirm] = useState(false);
+  const [barHeight, setBarHeight] = useState(0);
+
+  // Callback ref to measure bar height
+  const barRef = useCallback((node: HTMLDivElement | null) => {
+    if (node) {
+      setBarHeight(node.offsetHeight);
+    }
+  }, []);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const current = window.scrollY;
+      const isAtBottom =
+        window.innerHeight + window.scrollY >=
+        document.documentElement.scrollHeight - 100;
+
+      // Luôn hiện khi ở cuối trang
+      if (isAtBottom) {
+        setIsVisible(true);
+      } else if (current < 50) {
+        // Luôn hiện khi ở đầu trang
+        setIsVisible(true);
+      } else if (current > lastScrollY) {
+        // Kéo xuống -> ẩn
+        setIsVisible(false);
+      } else {
+        // Kéo lên -> hiện
+        setIsVisible(true);
+      }
+
+      setLastScrollY(current);
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [lastScrollY]);
+
   return (
-    <div className="sticky top-0 z-10 bg-background/30 backdrop-blur-sm rounded-2xl border border-border/50 p-4 shadow-lg">
-      <div className="flex items-center justify-between mb-4">
-        <div>
-          <h1 className="text-2xl font-bold text-foreground">{title}</h1>
-          <div className="flex items-center gap-2 mt-1">
-            <CEFRBadge level={level} />
-            <span className="text-sm text-muted-foreground">{subtitle}</span>
+    <>
+      <div
+        style={{
+          position: "sticky",
+          bottom: 0,
+          left: 0,
+          right: 0,
+          zIndex: 50,
+          height: barHeight || "auto",
+          overflow: "hidden",
+          pointerEvents: "none",
+        }}
+      >
+        <div
+          ref={barRef}
+          style={{
+            position: "absolute",
+            bottom: 0,
+            left: 0,
+            right: 0,
+            paddingBottom: "16px",
+            transform: isVisible ? "translateY(0)" : "translateY(100%)",
+            transition: "transform 300ms ease-out",
+            pointerEvents: "auto",
+          }}
+        >
+          <div className="rounded-2xl bg-accent/95 backdrop-blur-md px-3 py-3 sm:px-6 sm:py-4 border shadow-lg">
+            {/* Mobile Layout */}
+            <div className="flex flex-col gap-3">
+              {/* Top row: Progress bar */}
+              <div className="w-full">
+                <div className="flex items-center justify-between mb-2">
+                  <span className="text-xs font-semibold text-slate-700 dark:text-slate-200">
+                    Progress
+                  </span>
+                  <span className="text-xs font-medium text-blue-600 dark:text-blue-400">
+                    {answeredCount}/{totalQuestions}
+                  </span>
+                </div>
+                <Progress value={progress} className="h-2" />
+              </div>
+
+              {/* Bottom row: Level, Actions, Score */}
+              <div className="flex items-center justify-between gap-2">
+                {/* Level Badge */}
+                <CEFRBadge level={level} />
+
+                {/* Actions */}
+                <div className="flex gap-2 items-center">
+                  {!isSubmitted ? (
+                    <Button
+                      size="sm"
+                      variant="default"
+                      disabled={answeredCount === 0}
+                      onClick={() => setShowConfirm(true)}
+                      className="h-8 px-3 text-xs"
+                    >
+                      <Send size={14} className="mr-1" />
+                      Submit
+                    </Button>
+                  ) : (
+                    <>
+                      <Button
+                        size="sm"
+                        variant="outline"
+                        onClick={onReset}
+                        className="h-8 w-8 p-0 bg-transparent"
+                        title="Làm lại"
+                      >
+                        <RotateCcw size={14} />
+                      </Button>
+                      <Button
+                        size="sm"
+                        variant="outline"
+                        onClick={onBack}
+                        className="h-8 w-8 p-0 bg-transparent"
+                        title="Quay lại"
+                      >
+                        <Home size={14} />
+                      </Button>
+                    </>
+                  )}
+                </div>
+
+                {/* Score (only when submitted) */}
+                {isSubmitted && (
+                  <div className="flex items-center gap-1.5 bg-white dark:bg-slate-800 rounded-lg px-2 py-1.5 border border-slate-200 dark:border-slate-700">
+                    <CheckCircle2 size={14} className="text-green-500" />
+                    <span className="text-xs font-bold text-slate-900 dark:text-white">
+                      {score}/{totalQuestions}
+                    </span>
+                    <span className="text-xs text-blue-600 dark:text-blue-400 font-semibold">
+                      ({Math.round((score / totalQuestions) * 100)}%)
+                    </span>
+                  </div>
+                )}
+              </div>
+            </div>
           </div>
-        </div>
-        <div className="text-right">
-          <p className="text-sm font-medium text-muted-foreground uppercase tracking-wide">
-            Progress
-          </p>
-          <p className="text-2xl font-bold text-foreground">
-            {answeredCount} / {totalQuestions}
-          </p>
-          {isSubmitted && (
-            <p className="text-sm font-semibold text-primary mt-1">
-              Score: {score} / {totalQuestions} (
-              {Math.round((score / totalQuestions) * 100)}%)
-            </p>
-          )}
         </div>
       </div>
 
-      <div className="space-y-3">
-        <Progress value={progress} className="h-2" />
-        <div className="flex gap-3">
-          {!isSubmitted ? (
-            <Button
-              size="lg"
-              className="flex-1 h-11"
-              onClick={onSubmit}
-              disabled={answeredCount < totalQuestions}
+      {/* Confirm Submit Dialog */}
+      <AlertDialog open={showConfirm} onOpenChange={setShowConfirm}>
+        <AlertDialogContent className="max-w-md">
+          <AlertDialogHeader>
+            <AlertDialogTitle className="flex items-center gap-2 text-lg">
+              <AlertCircle className="w-5 h-5 text-primary" />
+              Confirm Submit
+            </AlertDialogTitle>
+            <AlertDialogDescription>
+              {answeredCount < totalQuestions ? (
+                <span className="text-destructive font-medium">
+                  You have only answered {answeredCount} out of {totalQuestions}{" "}
+                  questions. Are you sure you want to submit?
+                </span>
+              ) : (
+                "You have completed all the questions. Are you sure you want to submit?"
+              )}
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+
+          <AlertDialogFooter>
+            <AlertDialogCancel>Cancel</AlertDialogCancel>
+            <AlertDialogAction
+              onClick={() => {
+                onSubmit();
+                setShowConfirm(false);
+              }}
             >
-              Submit Test ({answeredCount}/{totalQuestions})
-            </Button>
-          ) : (
-            <>
-              <Button
-                size="lg"
-                variant="outline"
-                className="flex-1 h-11"
-                onClick={onReset}
-              >
-                <RotateCcw className="mr-2" size={18} /> New Test
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="flex-1 h-11"
-                onClick={onBack}
-              >
-                <Home className="mr-2" size={18} /> Back
-              </Button>
-            </>
-          )}
-        </div>
-      </div>
-    </div>
+              <Send size={14} className="mr-1" />
+              Submit
+            </AlertDialogAction>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
+    </>
   );
 }

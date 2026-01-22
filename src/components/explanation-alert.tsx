@@ -4,15 +4,15 @@ import { CheckCircle2, XCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export interface ExplanationAlertProps {
-  /** Nội dung giải thích */
+  /** Explanation content */
   children: React.ReactNode;
-  /** Tiêu đề (mặc định là "Correct!" hoặc "Incorrect") */
+  /** Title (defaults to "Correct!" or "Incorrect") */
   title?: string;
-  /** Đáp án có đúng không (bắt buộc) */
+  /** Whether the answer is correct (required) */
   isCorrect: boolean;
-  /** Class name tùy chỉnh */
+  /** Custom class name */
   className?: string;
-  /** Hiển thị icon */
+  /** Show icon */
   showIcon?: boolean;
 }
 
@@ -23,7 +23,7 @@ export function ExplanationAlert({
   className,
   showIcon = true,
 }: ExplanationAlertProps) {
-  // Xác định icon, title và styles dựa trên isCorrect
+  // Determine icon, title and styles based on isCorrect
   const config = isCorrect
     ? {
         icon: <CheckCircle2 className="w-4 h-4" />,

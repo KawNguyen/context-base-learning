@@ -35,12 +35,12 @@ export function QuizCard({
       className={cn(
         "p-6 border-2 transition-all",
         isSubmitted &&
-        (isCorrect
-          ? "border-green-500"
-          : isWrong
-            ? "border-destructive"
-            : ""),
-        !isSubmitted && isAnswered && "border-primary"
+          (isCorrect
+            ? "border-green-500"
+            : isWrong
+              ? "border-destructive"
+              : ""),
+        !isSubmitted && isAnswered && "border-primary",
       )}
     >
       {/* Question Header */}
@@ -69,7 +69,7 @@ export function QuizCard({
       <div className="mb-4">
         <p className="text-base font-medium leading-relaxed">
           {question.questionEn.split("_____").map((part, i, arr) => {
-            // Tách đáp án đúng theo dấu "/" nếu có
+            // Split correct answer by "/" if it exists
             const correctAnswer = question.options[correctOptionIndex].option;
             const answerParts = correctAnswer.includes("/")
               ? correctAnswer.split("/").map((p: string) => p.trim())
@@ -80,8 +80,9 @@ export function QuizCard({
                 {part}
                 {i < arr.length - 1 && (
                   <span
-                    className={`text-primary font-bold ${isSubmitted ? "underline" : "underline-dotted"
-                      }`}
+                    className={`text-primary font-bold ${
+                      isSubmitted ? "underline" : "underline-dotted"
+                    }`}
                   >
                     {isSubmitted
                       ? answerParts[i] || correctAnswer
@@ -91,12 +92,12 @@ export function QuizCard({
               </span>
             );
           })}
-          {isSubmitted && (
-            <p className="text-sm text-muted-foreground font-light italic">
-              &quot;{question.questionVi}&quot;
-            </p>
-          )}
         </p>
+        {isSubmitted && (
+          <span className="block text-sm text-muted-foreground font-light italic mt-2">
+            &quot;{question.questionVi}&quot;
+          </span>
+        )}
       </div>
 
       {/* Options */}
@@ -121,7 +122,7 @@ export function QuizCard({
         })}
       </div>
 
-      {/* Explanation - chỉ hiển thị sau khi submit */}
+      {/* Explanation - only show after submit */}
       {isSubmitted && (
         <ExplanationAlert isCorrect={isCorrect}>
           {question.explanationVi}
