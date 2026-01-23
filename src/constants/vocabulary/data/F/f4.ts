@@ -2,6 +2,42 @@ import { VocabularyWord } from "../../types";
 
 export const F4: VocabularyWord[] = [
   {
+    id: "gen-7906",
+    word: "Fist",
+    slug: "fist",
+    phonetic: "/fɪst/",
+    partOfSpeech: "noun",
+    meaningEn: "A person's hand when the fingers are bent in towards the palm and held there tightly.",
+    meaningVi: "Nắm đấm.",
+    exampleEn: "Clench your fist.",
+    exampleVi: "Siết chặt nắm đấm.",
+    categories: ["Body"],
+  },
+  {
+    id: "gen-491",
+    word: "Fit",
+    slug: "fit",
+    phonetic: "/fɪt/",
+    partOfSpeech: "verb/adjective",
+    meaningEn: "Be of the right shape and size.",
+    meaningVi: "Vừa.",
+    exampleEn: "Does it fit?",
+    exampleVi: "Nó có vừa không?",
+    categories: ["General"],
+  },
+  {
+    id: "gen-7908",
+    word: "Fitful",
+    slug: "fitful",
+    phonetic: "/ˈfɪt.fəl/",
+    partOfSpeech: "adjective",
+    meaningEn: "Active or occurring spasmodically or intermittently; not regular or steady.",
+    meaningVi: "Thất thường/Chập chờn.",
+    exampleEn: "Fitful sleep.",
+    exampleVi: "Giấc ngủ chập chờn.",
+    categories: ["General","Medical"],
+  },
+  {
     id: "gen-7909",
     word: "Fitness",
     slug: "fitness",
@@ -11,7 +47,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Sự khỏe mạnh/Thể lực/Sự thích hợp.",
     exampleEn: "Physical fitness.",
     exampleVi: "Thể lực.",
-    categories: ["Medical", "Sports"],
+    categories: ["Medical","Sports"],
   },
   {
     id: "gen-7910",
@@ -19,12 +55,11 @@ export const F4: VocabularyWord[] = [
     slug: "fitting",
     phonetic: "/ˈfɪt.ɪŋ/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A small part on or attached to a piece of furniture or equipment; suitable or appropriate.",
+    meaningEn: "A small part on or attached to a piece of furniture or equipment; suitable or appropriate.",
     meaningVi: "Đồ đạc/Sự thử quần áo/Thích hợp.",
     exampleEn: "Light fitting.",
     exampleVi: "Đui đèn.",
-    categories: ["Home", "General"],
+    categories: ["Home","General"],
   },
   {
     id: "gen-7911",
@@ -36,7 +71,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Số năm.",
     exampleEn: "High five.",
     exampleVi: "Đập tay (ăn mừng).",
-    categories: ["Mathematics", "General"],
+    categories: ["Mathematics","General"],
   },
   {
     id: "gen-492",
@@ -56,12 +91,11 @@ export const F4: VocabularyWord[] = [
     slug: "fixation",
     phonetic: "/fɪkˈseɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An obsessive interest in or feeling about someone or something.",
+    meaningEn: "An obsessive interest in or feeling about someone or something.",
     meaningVi: "Sự ám ảnh/Sự cố định.",
     exampleEn: "Oral fixation.",
     exampleVi: "Sự ám ảnh về miệng (tâm lý học).",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-7914",
@@ -73,7 +107,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Cố định/Đã sửa.",
     exampleEn: "Fixed price.",
     exampleVi: "Giá cố định.",
-    categories: ["General", "Economics"],
+    categories: ["General","Economics"],
   },
   {
     id: "gen-7915",
@@ -81,12 +115,11 @@ export const F4: VocabularyWord[] = [
     slug: "fixture",
     phonetic: "/ˈfɪks.tʃɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A piece of equipment or furniture which is fixed in position in a building or vehicle.",
+    meaningEn: "A piece of equipment or furniture which is fixed in position in a building or vehicle.",
     meaningVi: "Đồ đạc cố định/Lịch thi đấu.",
     exampleEn: "Bathroom fixtures.",
     exampleVi: "Thiết bị phòng tắm.",
-    categories: ["Home", "Sports"],
+    categories: ["Home","Sports"],
   },
   {
     id: "gen-7916",
@@ -98,7 +131,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Xì tin/Sủi bọt/Tiếng xì.",
     exampleEn: "Gin fizz.",
     exampleVi: "Rượu Gin fizz.",
-    categories: ["Food & Drink", "Science"],
+    categories: ["Food & Drink","Science"],
   },
   {
     id: "gen-7917",
@@ -118,12 +151,11 @@ export const F4: VocabularyWord[] = [
     slug: "fjord",
     phonetic: "/fjɔːrd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A long, narrow, deep inlet of the sea between high cliffs, as in Norway and Iceland.",
+    meaningEn: "A long, narrow, deep inlet of the sea between high cliffs, as in Norway and Iceland.",
     meaningVi: "Vịnh hẹp (có vách đá cao).",
     exampleEn: "Norwegian fjord.",
     exampleVi: "Vịnh hẹp Na Uy.",
-    categories: ["Geography", "Nature"],
+    categories: ["Geography","Nature"],
   },
   {
     id: "gen-7919",
@@ -147,7 +179,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Mềm nhũn/Béo bệu.",
     exampleEn: "Flabby stomach.",
     exampleVi: "Bụng mỡ mềm nhũn.",
-    categories: ["Body", "Body"],
+    categories: ["Body","Body"],
   },
   {
     id: "gen-493",
@@ -167,12 +199,11 @@ export const F4: VocabularyWord[] = [
     slug: "flagrant",
     phonetic: "/ˈfleɪ.ɡrənt/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of something considered wrong or immoral) conspicuously or obviously offensive.",
+    meaningEn: "(of something considered wrong or immoral) conspicuously or obviously offensive.",
     meaningVi: "Trắng trợn/Hiển nhiên.",
     exampleEn: "Flagrant violation.",
     exampleVi: "Sự vi phạm trắng trợn.",
-    categories: ["Law", "General"],
+    categories: ["Law","General"],
   },
   {
     id: "gen-7923",
@@ -184,7 +215,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Vung vẩy/Đánh đập/Cái đập lúa.",
     exampleEn: "Arms flailing.",
     exampleVi: "Tay vung vẩy.",
-    categories: ["General", "Agriculture"],
+    categories: ["General","Agriculture"],
   },
   {
     id: "gen-7924",
@@ -192,12 +223,11 @@ export const F4: VocabularyWord[] = [
     slug: "flair",
     phonetic: "/fler/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A special or instinctive aptitude or ability for doing something well.",
+    meaningEn: "A special or instinctive aptitude or ability for doing something well.",
     meaningVi: "Năng khiếu/Sự tinh tế.",
     exampleEn: "Flair for design.",
     exampleVi: "Năng khiếu thiết kế.",
-    categories: ["General", "Art"],
+    categories: ["General","Art"],
   },
   {
     id: "gen-7925",
@@ -209,7 +239,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Hỏa lực phòng không/Sự chỉ trích dữ dội.",
     exampleEn: "Take flak.",
     exampleVi: "Chịu sự chỉ trích.",
-    categories: ["Military", "General"],
+    categories: ["Military","General"],
   },
   {
     id: "gen-7926",
@@ -217,12 +247,11 @@ export const F4: VocabularyWord[] = [
     slug: "flake",
     phonetic: "/fleɪk/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A small, flat, thin piece of something, typically one that has broken away or been peeled off from a larger piece.",
+    meaningEn: "A small, flat, thin piece of something, typically one that has broken away or been peeled off from a larger piece.",
     meaningVi: "Mảnh/Bông (tuyết)/Bong ra.",
     exampleEn: "Snow flake.",
     exampleVi: "Bông tuyết.",
-    categories: ["General", "Weather"],
+    categories: ["General","Weather"],
   },
   {
     id: "gen-7927",
@@ -230,12 +259,11 @@ export const F4: VocabularyWord[] = [
     slug: "flamboyant",
     phonetic: "/flæmˈbɔɪ.ənt/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a person or their behavior) tending to attract attention because of their exuberance, confidence, and stylishness.",
+    meaningEn: "(of a person or their behavior) tending to attract attention because of their exuberance, confidence, and stylishness.",
     meaningVi: "Chói lọi/Sặc sỡ/Phô trương.",
     exampleEn: "Flamboyant style.",
     exampleVi: "Phong cách phô trương.",
-    categories: ["Fashion", "General"],
+    categories: ["Fashion","General"],
   },
   {
     id: "gen-7928",
@@ -243,12 +271,11 @@ export const F4: VocabularyWord[] = [
     slug: "flame",
     phonetic: "/fleɪm/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A hot glowing body of ignited gas that is generated by something on fire.",
+    meaningEn: "A hot glowing body of ignited gas that is generated by something on fire.",
     meaningVi: "Ngọn lửa/Bùng cháy.",
     exampleEn: "Burst into flames.",
     exampleVi: "Bùng cháy.",
-    categories: ["Nature", "Safety"],
+    categories: ["Nature","Safety"],
   },
   {
     id: "gen-7929",
@@ -256,12 +283,11 @@ export const F4: VocabularyWord[] = [
     slug: "flamenco",
     phonetic: "/fləˈmeŋ.koʊ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A style of Spanish music, played especially on the guitar and accompanied by singing and dancing.",
+    meaningEn: "A style of Spanish music, played especially on the guitar and accompanied by singing and dancing.",
     meaningVi: "Điệu nhảy Flamenco.",
     exampleEn: "Flamenco dancer.",
     exampleVi: "Vũ công Flamenco.",
-    categories: ["Music", "Culture", "Dance"],
+    categories: ["Music","Culture","Dance"],
   },
   {
     id: "gen-7930",
@@ -273,7 +299,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Đang cháy rực/Nổi giận đùng đùng.",
     exampleEn: "Flaming torch.",
     exampleVi: "Ngọn đuốc đang cháy.",
-    categories: ["Nature", "Emotions"],
+    categories: ["Nature","Emotions"],
   },
   {
     id: "gen-7931",
@@ -281,12 +307,11 @@ export const F4: VocabularyWord[] = [
     slug: "flamingo",
     phonetic: "/fləˈmɪŋ.ɡoʊ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A tall wading bird with mainly pink or scarlet plumage and long legs and neck.",
+    meaningEn: "A tall wading bird with mainly pink or scarlet plumage and long legs and neck.",
     meaningVi: "Chim hồng hạc.",
     exampleEn: "Pink flamingo.",
     exampleVi: "Hồng hạc màu hồng.",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-7932",
@@ -298,7 +323,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Dễ cháy.",
     exampleEn: "Flammable liquid.",
     exampleVi: "Chất lỏng dễ cháy.",
-    categories: ["Safety", "Science"],
+    categories: ["Safety","Science"],
   },
   {
     id: "gen-7933",
@@ -306,12 +331,11 @@ export const F4: VocabularyWord[] = [
     slug: "flank",
     phonetic: "/flæŋk/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "The side of a person's or animal's body between the ribs and the hip.",
+    meaningEn: "The side of a person's or animal's body between the ribs and the hip.",
     meaningVi: "Sườn/Cạnh sườn.",
     exampleEn: "Attacked the flank.",
     exampleVi: "Tấn công vào sườn.",
-    categories: ["Body", "Military"],
+    categories: ["Body","Military"],
   },
   {
     id: "gen-7934",
@@ -319,12 +343,11 @@ export const F4: VocabularyWord[] = [
     slug: "flannel",
     phonetic: "/ˈflæn.əl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A kind of soft woven fabric, typically made of wool or cotton and slightly milled and raised.",
+    meaningEn: "A kind of soft woven fabric, typically made of wool or cotton and slightly milled and raised.",
     meaningVi: "Vải nỉ/Áo nỉ.",
     exampleEn: "Flannel shirt.",
     exampleVi: "Áo sơ mi nỉ.",
-    categories: ["Clothing", "Materials"],
+    categories: ["Clothing","Materials"],
   },
   {
     id: "gen-7935",
@@ -336,7 +359,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Vỗ (cánh)/Cánh (máy bay).",
     exampleEn: "Bird flapping its wings.",
     exampleVi: "Con chim đang vỗ cánh.",
-    categories: ["General", "Animals"],
+    categories: ["General","Animals"],
   },
   {
     id: "gen-7936",
@@ -348,7 +371,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Bùng lên/Lóe sáng/Pháo sáng.",
     exampleEn: "Flare gun.",
     exampleVi: "Súng bắn pháo sáng.",
-    categories: ["General", "Safety"],
+    categories: ["General","Safety"],
   },
   {
     id: "gen-7937",
@@ -360,7 +383,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Lóe sáng/Đèn flash.",
     exampleEn: "Camera flash.",
     exampleVi: "Đèn flash máy ảnh.",
-    categories: ["General", "Technology"],
+    categories: ["General","Technology"],
   },
   {
     id: "gen-7938",
@@ -368,12 +391,11 @@ export const F4: VocabularyWord[] = [
     slug: "flashback",
     phonetic: "/ˈflæʃ.bæk/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A scene in a movie, novel, etc., set in a time earlier than the main story.",
+    meaningEn: "A scene in a movie, novel, etc., set in a time earlier than the main story.",
     meaningVi: "Hồi tưởng/Cảnh hồi tưởng.",
     exampleEn: "Have a flashback.",
     exampleVi: "Có một hồi tưởng.",
-    categories: ["Psychology", "Media", "Literature"],
+    categories: ["Psychology","Media","Literature"],
   },
   {
     id: "gen-7939",
@@ -385,7 +407,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Đèn pin.",
     exampleEn: "Turn on the flashlight.",
     exampleVi: "Bật đèn pin lên.",
-    categories: ["Technology", "Home", "Tools"],
+    categories: ["Technology","Home","Tools"],
   },
   {
     id: "gen-7940",
@@ -397,7 +419,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Hào nhoáng/Lòe loẹt.",
     exampleEn: "Flashy car.",
     exampleVi: "Chiếc xe hào nhoáng.",
-    categories: ["General", "Body"],
+    categories: ["General","Body"],
   },
   {
     id: "gen-7941",
@@ -409,7 +431,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Bình giữ nhiệt/Bình thí nghiệm.",
     exampleEn: "Vacuum flask.",
     exampleVi: "Bình chân không (phích nước).",
-    categories: ["Home", "Science"],
+    categories: ["Home","Science"],
   },
   {
     id: "gen-7942",
@@ -417,12 +439,11 @@ export const F4: VocabularyWord[] = [
     slug: "flat",
     phonetic: "/flæt/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "Smooth and even; without marked lumps or indentations; an apartment.",
+    meaningEn: "Smooth and even; without marked lumps or indentations; an apartment.",
     meaningVi: "Phẳng/Căn hộ/Bị xì (lốp).",
     exampleEn: "Flat surface.",
     exampleVi: "Bề mặt phẳng.",
-    categories: ["General", "Home", "Mathematics"],
+    categories: ["General","Home","Mathematics"],
   },
   {
     id: "gen-7943",
@@ -446,7 +467,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Làm phẳng/San phẳng.",
     exampleEn: "Flatten the dough.",
     exampleVi: "Cán phẳng bột.",
-    categories: ["General", "Food & Drink"],
+    categories: ["General","Food & Drink"],
   },
   {
     id: "gen-7945",
@@ -454,12 +475,11 @@ export const F4: VocabularyWord[] = [
     slug: "flatter",
     phonetic: "/ˈflæt.tɚ/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Lavish insincere praise and compliments upon (someone), especially to further one's own interests.",
+    meaningEn: "Lavish insincere praise and compliments upon (someone), especially to further one's own interests.",
     meaningVi: "Nịnh nọt/Tâng bốc.",
     exampleEn: "Don't flatter yourself.",
     exampleVi: "Đừng tự tâng bốc mình.",
-    categories: ["Social", "General"],
+    categories: ["Social","General"],
   },
   {
     id: "gen-7946",
@@ -467,12 +487,11 @@ export const F4: VocabularyWord[] = [
     slug: "flattery",
     phonetic: "/ˈflæt.ər.i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Excessive and insincere praise, especially that given to further one's own interests.",
+    meaningEn: "Excessive and insincere praise, especially that given to further one's own interests.",
     meaningVi: "Lời nịnh hót/Sự tâng bốc.",
     exampleEn: "Use flattery.",
     exampleVi: "Dùng lời nịnh hót.",
-    categories: ["Social", "General"],
+    categories: ["Social","General"],
   },
   {
     id: "gen-7947",
@@ -492,8 +511,7 @@ export const F4: VocabularyWord[] = [
     slug: "flavor",
     phonetic: "/ˈfleɪ.vɚ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "The distinctive quality of a particular food or drink; alter or enhance the taste of.",
+    meaningEn: "The distinctive quality of a particular food or drink; alter or enhance the taste of.",
     meaningVi: "Hương vị/Nêm nếm.",
     exampleEn: "Vanilla flavor.",
     exampleVi: "Hương vani.",
@@ -505,8 +523,7 @@ export const F4: VocabularyWord[] = [
     slug: "flavoring",
     phonetic: "/ˈfleɪ.vɚ.ɪŋ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A substance used to give a different, stronger, or more agreeable taste to food or drink.",
+    meaningEn: "A substance used to give a different, stronger, or more agreeable taste to food or drink.",
     meaningVi: "Chất tạo mùi vị/Gia vị.",
     exampleEn: "Artificial flavoring.",
     exampleVi: "Chất tạo mùi nhân tạo.",
@@ -518,8 +535,7 @@ export const F4: VocabularyWord[] = [
     slug: "flaw",
     phonetic: "/flɔː/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A mark, fault, or other imperfection that mars a substance or object.",
+    meaningEn: "A mark, fault, or other imperfection that mars a substance or object.",
     meaningVi: "Khuyết điểm/Vết nứt.",
     exampleEn: "Design flaw.",
     exampleVi: "Lỗi thiết kế.",
@@ -531,8 +547,7 @@ export const F4: VocabularyWord[] = [
     slug: "flawed",
     phonetic: "/flɔːd/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Having or characterized by a fundamental weakness or imperfection.",
+    meaningEn: "Having or characterized by a fundamental weakness or imperfection.",
     meaningVi: "Có lỗi/Không hoàn hảo.",
     exampleEn: "Flawed logic.",
     exampleVi: "Logic sai lầm.",
@@ -556,12 +571,11 @@ export const F4: VocabularyWord[] = [
     slug: "flax",
     phonetic: "/flæks/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A blue-flowered herbaceous plant that is cultivated for its seed (linseed) and for textile fiber.",
+    meaningEn: "A blue-flowered herbaceous plant that is cultivated for its seed (linseed) and for textile fiber.",
     meaningVi: "Cây lanh/Sợi lanh.",
     exampleEn: "Flax seed.",
     exampleVi: "Hạt lanh.",
-    categories: ["Plants", "Materials", "Agriculture"],
+    categories: ["Plants","Materials","Agriculture"],
   },
   {
     id: "gen-7954",
@@ -569,12 +583,11 @@ export const F4: VocabularyWord[] = [
     slug: "flea",
     phonetic: "/fliː/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A small wingless jumping insect that feeds on the blood of mammals and birds.",
+    meaningEn: "A small wingless jumping insect that feeds on the blood of mammals and birds.",
     meaningVi: "Con bọ chét.",
     exampleEn: "Flea market.",
     exampleVi: "Chợ đồ cũ (chợ trời).",
-    categories: ["Animals", "Shopping"],
+    categories: ["Animals","Shopping"],
   },
   {
     id: "gen-7955",
@@ -594,12 +607,11 @@ export const F4: VocabularyWord[] = [
     slug: "fledgling",
     phonetic: "/ˈfledʒ.lɪŋ/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A young bird that has just fledged; a person or organization that is immature, inexperienced, or underdeveloped.",
+    meaningEn: "A young bird that has just fledged; a person or organization that is immature, inexperienced, or underdeveloped.",
     meaningVi: "Chim non/Người mới (non nớt).",
     exampleEn: "Fledgling company.",
     exampleVi: "Công ty non trẻ.",
-    categories: ["Animals", "Business"],
+    categories: ["Animals","Business"],
   },
   {
     id: "gen-7957",
@@ -623,7 +635,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Bộ lông cừu/Lừa đảo (tiền).",
     exampleEn: "Golden Fleece.",
     exampleVi: "Bộ lông cừu vàng (thần thoại).",
-    categories: ["Materials", "Animals", "Mythology"],
+    categories: ["Materials","Animals","Mythology"],
   },
   {
     id: "gen-7959",
@@ -631,12 +643,11 @@ export const F4: VocabularyWord[] = [
     slug: "fleet",
     phonetic: "/fliːt/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A group of ships sailing together, engaged in the same activity, or under the same ownership.",
+    meaningEn: "A group of ships sailing together, engaged in the same activity, or under the same ownership.",
     meaningVi: "Hạm đội/Đoàn tàu xe/Nhanh.",
     exampleEn: "Fishing fleet.",
     exampleVi: "Đội tàu đánh cá.",
-    categories: ["Military", "Transportation"],
+    categories: ["Military","Transportation"],
   },
   {
     id: "gen-7960",
@@ -648,7 +659,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Thoáng qua/Phù du.",
     exampleEn: "Fleeting moment.",
     exampleVi: "Khoảnh khắc thoáng qua.",
-    categories: ["Time", "General"],
+    categories: ["Time","General"],
   },
   {
     id: "gen-7961",
@@ -656,12 +667,11 @@ export const F4: VocabularyWord[] = [
     slug: "flesh",
     phonetic: "/fleʃ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The soft substance consisting of muscle and fat that is found between the skin and bones of an animal or a human.",
+    meaningEn: "The soft substance consisting of muscle and fat that is found between the skin and bones of an animal or a human.",
     meaningVi: "Thịt/Cơ thể.",
     exampleEn: "Flesh and blood.",
     exampleVi: "Máu mủ ruột thịt.",
-    categories: ["Body", "Food & Drink"],
+    categories: ["Body","Food & Drink"],
   },
   {
     id: "gen-7962",
@@ -673,7 +683,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Gập/Uốn cong/Khoe khoang (tiếng lóng).",
     exampleEn: "Flex your muscles.",
     exampleVi: "Gồng cơ bắp lên.",
-    categories: ["Body", "General"],
+    categories: ["Body","General"],
   },
   {
     id: "gen-7963",
@@ -685,7 +695,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Sự linh hoạt/Độ dẻo dai.",
     exampleEn: "Workplace flexibility.",
     exampleVi: "Sự linh hoạt tại nơi làm việc.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "gen-7964",
@@ -705,8 +715,7 @@ export const F4: VocabularyWord[] = [
     slug: "flexibly",
     phonetic: "/ˈflek.sə.bli/",
     partOfSpeech: "adverb",
-    meaningEn:
-      "In a way that can change or be changed easily to suit any new situation.",
+    meaningEn: "In a way that can change or be changed easily to suit any new situation.",
     meaningVi: "Một cách linh hoạt.",
     exampleEn: "Work flexibly.",
     exampleVi: "Làm việc một cách linh hoạt.",
@@ -718,12 +727,11 @@ export const F4: VocabularyWord[] = [
     slug: "flexion",
     phonetic: "/ˈflek.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action of bending or the condition of being bent, especially the bending of a limb or joint.",
+    meaningEn: "The action of bending or the condition of being bent, especially the bending of a limb or joint.",
     meaningVi: "Sự uốn cong/Gập người.",
     exampleEn: "Hip flexion.",
     exampleVi: "Gập hông.",
-    categories: ["Body", "Medical"],
+    categories: ["Body","Medical"],
   },
   {
     id: "gen-7967",
@@ -731,8 +739,7 @@ export const F4: VocabularyWord[] = [
     slug: "flick",
     phonetic: "/flɪk/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Strike or propel (something) with a sudden quick movement of the fingers.",
+    meaningEn: "Strike or propel (something) with a sudden quick movement of the fingers.",
     meaningVi: "Búng/Cú búng/Phim (tiếng lóng).",
     exampleEn: "Flick a switch.",
     exampleVi: "Gạt công tắc.",
@@ -748,7 +755,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Nhấp nháy/Bập bùng.",
     exampleEn: "The lights flickered.",
     exampleVi: "Đèn nhấp nháy.",
-    categories: ["General", "Technology"],
+    categories: ["General","Technology"],
   },
   {
     id: "gen-7969",
@@ -760,7 +767,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Người bay/Tờ rơi.",
     exampleEn: "Frequent flier.",
     exampleVi: "Khách bay thường xuyên.",
-    categories: ["Travel", "Marketing"],
+    categories: ["Travel","Marketing"],
   },
   {
     id: "a2-16",
@@ -780,12 +787,11 @@ export const F4: VocabularyWord[] = [
     slug: "flight-attendant",
     phonetic: "/ˈflaɪt əˌten.dənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who attends to the needs of passengers on an aircraft.",
+    meaningEn: "A person who attends to the needs of passengers on an aircraft.",
     meaningVi: "Tiếp viên hàng không.",
     exampleEn: "The flight attendant served drinks.",
     exampleVi: "Tiếp viên hàng không phục vụ đồ uống.",
-    categories: ["Jobs", "Transportation"],
+    categories: ["Jobs","Transportation"],
   },
   {
     id: "gen-7971",
@@ -805,12 +811,11 @@ export const F4: VocabularyWord[] = [
     slug: "flinch",
     phonetic: "/flɪntʃ/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Make a quick, nervous movement of the face or body as an instinctive reaction to surprise, fear or pain.",
+    meaningEn: "Make a quick, nervous movement of the face or body as an instinctive reaction to surprise, fear or pain.",
     meaningVi: "Chùn bước/Giật mình/Dao động.",
     exampleEn: "Didn't flinch.",
     exampleVi: "Không hề nao núng.",
-    categories: ["General", "Body"],
+    categories: ["General","Body"],
   },
   {
     id: "gen-7973",
@@ -822,7 +827,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Ném mạnh/Mối tình thoáng qua.",
     exampleEn: "Fling a stone.",
     exampleVi: "Ném một hòn đá.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-7974",
@@ -830,12 +835,11 @@ export const F4: VocabularyWord[] = [
     slug: "flint",
     phonetic: "/flɪnt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A hard gray rock consisting of nearly pure chert, typically occurring as nodules or masses in chalk and limestone.",
+    meaningEn: "A hard gray rock consisting of nearly pure chert, typically occurring as nodules or masses in chalk and limestone.",
     meaningVi: "Đá lửa.",
     exampleEn: "Flint and steel.",
     exampleVi: "Đá lửa và thép (để đánh lửa).",
-    categories: ["Geology", "Materials"],
+    categories: ["Geology","Materials"],
   },
   {
     id: "gen-7975",
@@ -855,12 +859,11 @@ export const F4: VocabularyWord[] = [
     slug: "flipper",
     phonetic: "/ˈflɪp.ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A flat appendage (as of a seal or turtle) adapted for swimming.",
+    meaningEn: "A flat appendage (as of a seal or turtle) adapted for swimming.",
     meaningVi: "Chân vịt (bơi lặn)/Vây bơi.",
     exampleEn: "Seal flippers.",
     exampleVi: "Vây hải cẩu.",
-    categories: ["Animals", "Sports"],
+    categories: ["Animals","Sports"],
   },
   {
     id: "gen-7977",
@@ -868,12 +871,11 @@ export const F4: VocabularyWord[] = [
     slug: "flirt",
     phonetic: "/flɝːt/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Behave as though attracted to or trying to attract someone, but for amusement rather than with serious intentions.",
+    meaningEn: "Behave as though attracted to or trying to attract someone, but for amusement rather than with serious intentions.",
     meaningVi: "Tán tỉnh/Người hay tán tỉnh.",
     exampleEn: "Flirt with a colleague.",
     exampleVi: "Tán tỉnh đồng nghiệp.",
-    categories: ["Social", "Love"],
+    categories: ["Social","Love"],
   },
   {
     id: "gen-7978",
@@ -881,12 +883,11 @@ export const F4: VocabularyWord[] = [
     slug: "float",
     phonetic: "/floʊt/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Rest or move on or near the surface of a liquid without sinking.",
+    meaningEn: "Rest or move on or near the surface of a liquid without sinking.",
     meaningVi: "Nổi/Trôi nổi/Cái phao.",
     exampleEn: "Float on water.",
     exampleVi: "Nổi trên mặt nước.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "gen-7979",
@@ -894,12 +895,11 @@ export const F4: VocabularyWord[] = [
     slug: "flock",
     phonetic: "/flɑːk/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A number of birds of one kind feeding, resting, or traveling together.",
+    meaningEn: "A number of birds of one kind feeding, resting, or traveling together.",
     meaningVi: "Đàn (chim, cừu)/Tụ tập.",
     exampleEn: "Flock of sheep.",
     exampleVi: "Đàn cừu.",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-7980",
@@ -911,7 +911,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Đánh bằng roi/Quất.",
     exampleEn: "Flogged publicly.",
     exampleVi: "Bị đánh roi công khai.",
-    categories: ["Law", "Punishment"],
+    categories: ["Law","Punishment"],
   },
   {
     id: "gen-7981",
@@ -919,12 +919,11 @@ export const F4: VocabularyWord[] = [
     slug: "flood",
     phonetic: "/flʌd/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "An overflowing of a large amount of water beyond its normal confines.",
+    meaningEn: "An overflowing of a large amount of water beyond its normal confines.",
     meaningVi: "Lũ lụt/Tràn ngập.",
     exampleEn: "Flash flood.",
     exampleVi: "Lũ quét.",
-    categories: ["Nature", "Disaster", "Weather"],
+    categories: ["Nature","Disaster","Weather"],
   },
   {
     id: "a1-140",
@@ -944,12 +943,11 @@ export const F4: VocabularyWord[] = [
     slug: "flop",
     phonetic: "/flɑːp/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Fall, move, or hang in a heavy, loose, and ungainly way; a total failure.",
+    meaningEn: "Fall, move, or hang in a heavy, loose, and ungainly way; a total failure.",
     meaningVi: "Ngã phịch xuống/Thất bại thảm hại.",
     exampleEn: "The movie was a flop.",
     exampleVi: "Bộ phim là một thất bại thảm hại.",
-    categories: ["General", "Media"],
+    categories: ["General","Media"],
   },
   {
     id: "gen-7984",
@@ -957,12 +955,11 @@ export const F4: VocabularyWord[] = [
     slug: "flora",
     phonetic: "/ˈflɔːr.ə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The plants of a particular region, habitat, or geological period.",
+    meaningEn: "The plants of a particular region, habitat, or geological period.",
     meaningVi: "Hệ thực vật.",
     exampleEn: "Flora and fauna.",
     exampleVi: "Hệ động thực vật.",
-    categories: ["Nature", "Plants"],
+    categories: ["Nature","Plants"],
   },
   {
     id: "gen-7985",
@@ -974,7 +971,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Thuộc về hoa/Có hoa văn hoa.",
     exampleEn: "Floral pattern.",
     exampleVi: "Họa tiết hoa.",
-    categories: ["Plants", "Art", "Design"],
+    categories: ["Plants","Art","Design"],
   },
   {
     id: "gen-7986",
@@ -986,7 +983,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Người bán hoa.",
     exampleEn: "Order from the florist.",
     exampleVi: "Đặt hàng từ người bán hoa.",
-    categories: ["Business", "Shopping", "Plants", "Jobs"],
+    categories: ["Business","Shopping","Plants","Jobs"],
   },
   {
     id: "gen-7987",
@@ -994,12 +991,11 @@ export const F4: VocabularyWord[] = [
     slug: "flour",
     phonetic: "/flaʊ.ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A powder obtained by grinding grain, typically wheat, and used to make bread, cakes, and pastry.",
+    meaningEn: "A powder obtained by grinding grain, typically wheat, and used to make bread, cakes, and pastry.",
     meaningVi: "Bột mì.",
     exampleEn: "Wheat flour.",
     exampleVi: "Bột mì.",
-    categories: ["Food & Drink", "Materials"],
+    categories: ["Food & Drink","Materials"],
   },
   {
     id: "gen-7988",
@@ -1011,7 +1007,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Phát triển mạnh/Hưng thịnh/Vung (vũ khí).",
     exampleEn: "Business is flourishing.",
     exampleVi: "Việc kinh doanh đang phát đạt.",
-    categories: ["Business", "Nature"],
+    categories: ["Business","Nature"],
   },
   {
     id: "gen-496",
@@ -1047,7 +1043,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Bệnh cúm.",
     exampleEn: "Catch the flu.",
     exampleVi: "Bị cúm.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "c1-216",
@@ -1059,7 +1055,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Dao động, biến động.",
     exampleEn: "Prices fluctuate according to supply and demand.",
     exampleVi: "Giá cả biến động theo cung và cầu.",
-    categories: ["Business", "Academic"],
+    categories: ["Business","Academic"],
   },
   {
     id: "c1-31",
@@ -1067,8 +1063,7 @@ export const F4: VocabularyWord[] = [
     slug: "fluctuation",
     phonetic: "/ˌflʌk.tʃuˈeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An irregular rising and falling in number or amount; a variation.",
+    meaningEn: "An irregular rising and falling in number or amount; a variation.",
     meaningVi: "Sự biến động.",
     exampleEn: "Price fluctuations in the market.",
     exampleVi: "Sự biến động giá cả trên thị trường.",
@@ -1084,7 +1079,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Lưu loát/Trôi chảy.",
     exampleEn: "Fluent in English.",
     exampleVi: "Lưu loát tiếng Anh.",
-    categories: ["Language", "Education"],
+    categories: ["Language","Education"],
   },
   {
     id: "gen-7994",
@@ -1092,12 +1087,11 @@ export const F4: VocabularyWord[] = [
     slug: "fluff",
     phonetic: "/flʌf/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "Soft fibers from fabrics such as wool or cotton which accumulate in small light clumps.",
+    meaningEn: "Soft fibers from fabrics such as wool or cotton which accumulate in small light clumps.",
     meaningVi: "Xơ vải/Lông tơ/Làm xù.",
     exampleEn: "Lint and fluff.",
     exampleVi: "Xơ và lông tơ.",
-    categories: ["Materials", "General"],
+    categories: ["Materials","General"],
   },
   {
     id: "gen-7995",
@@ -1109,7 +1103,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Mịn mượt/Mềm như lông tơ.",
     exampleEn: "Fluffy towel.",
     exampleVi: "Cái khăn bông mềm mại.",
-    categories: ["General", "Materials"],
+    categories: ["General","Materials"],
   },
   {
     id: "gen-7996",
@@ -1117,12 +1111,11 @@ export const F4: VocabularyWord[] = [
     slug: "fluid",
     phonetic: "/ˈfluː.ɪd/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A substance that has no fixed shape and yields easily to external pressure; a gas or (especially) a liquid.",
+    meaningEn: "A substance that has no fixed shape and yields easily to external pressure; a gas or (especially) a liquid.",
     meaningVi: "Chất lỏng/Lỏng/Linh hoạt.",
     exampleEn: "Body fluids.",
     exampleVi: "Dịch cơ thể.",
-    categories: ["Science", "Medical"],
+    categories: ["Science","Medical"],
   },
   {
     id: "gen-7997",
@@ -1130,8 +1123,7 @@ export const F4: VocabularyWord[] = [
     slug: "fluke",
     phonetic: "/fluːk/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Unlikely chance occurrence, especially a surprising piece of luck.",
+    meaningEn: "Unlikely chance occurrence, especially a surprising piece of luck.",
     meaningVi: "Sự may mắn ngẫu nhiên/Ăn may.",
     exampleEn: "It was just a fluke.",
     exampleVi: "Đó chỉ là ăn may thôi.",
@@ -1147,7 +1139,7 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Huỳnh quang/Dạ quang.",
     exampleEn: "Fluorescent light.",
     exampleVi: "Đèn huỳnh quang.",
-    categories: ["Science", "Technology"],
+    categories: ["Science","Technology"],
   },
   {
     id: "gen-7999",
@@ -1155,12 +1147,11 @@ export const F4: VocabularyWord[] = [
     slug: "flush",
     phonetic: "/flʌʃ/",
     partOfSpeech: "verb/noun/adjective",
-    meaningEn:
-      "(of a person's skin) become red and hot, typically as the result of illness or strong emotion; rinse out.",
+    meaningEn: "(of a person's skin) become red and hot, typically as the result of illness or strong emotion; rinse out.",
     meaningVi: "Đỏ mặt/Dội nước (bồn cầu)/Ngang bằng.",
     exampleEn: "Flush the toilet.",
     exampleVi: "Dội bồn cầu.",
-    categories: ["Body", "Hygiene"],
+    categories: ["Body","Hygiene"],
   },
   {
     id: "gen-8000",
@@ -1180,12 +1171,11 @@ export const F4: VocabularyWord[] = [
     slug: "flute",
     phonetic: "/fluːt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A wind instrument made from a tube with holes along it that are stopped by the fingers or keys.",
+    meaningEn: "A wind instrument made from a tube with holes along it that are stopped by the fingers or keys.",
     meaningVi: "Sáo/Ống sáo.",
     exampleEn: "Play the flute.",
     exampleVi: "Thổi sáo.",
-    categories: ["Music", "Instruments"],
+    categories: ["Music","Instruments"],
   },
   {
     id: "gen-8002",
@@ -1193,12 +1183,11 @@ export const F4: VocabularyWord[] = [
     slug: "flutter",
     phonetic: "/ˈflʌt.tɚ/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "(of a bird or other winged creature) fly unsteadily or hover by flapping the wings quickly and lightly.",
+    meaningEn: "(of a bird or other winged creature) fly unsteadily or hover by flapping the wings quickly and lightly.",
     meaningVi: "Vỗ cánh/Rung rinh/Hồi hộp.",
     exampleEn: "Heart fluttered.",
     exampleVi: "Tim đập thình thịch (hồi hộp).",
-    categories: ["Animals", "Emotions"],
+    categories: ["Animals","Emotions"],
   },
   {
     id: "gen-8003",
@@ -1210,55 +1199,6 @@ export const F4: VocabularyWord[] = [
     meaningVi: "Sự chảy/Sự biến đổi liên tục.",
     exampleEn: "State of flux.",
     exampleVi: "Trạng thái biến đổi liên tục.",
-    categories: ["General", "Physics"],
-  },
-  {
-    id: "gen-498",
-    word: "Fly",
-    slug: "fly",
-    phonetic: "/flaɪ/",
-    partOfSpeech: "verb/noun",
-    meaningEn: "Move through the air using wings.",
-    meaningVi: "Bay.",
-    exampleEn: "Birds fly.",
-    exampleVi: "Chim bay.",
-    categories: ["General"],
-  },
-  {
-    id: "gen-8005",
-    word: "Foam",
-    slug: "foam",
-    phonetic: "/foʊm/",
-    partOfSpeech: "noun/verb",
-    meaningEn: "A mass of small bubbles formed on or in liquid.",
-    meaningVi: "Bọt/Sủi bọt.",
-    exampleEn: "Shaving foam.",
-    exampleVi: "Bọt cạo râu.",
-    categories: ["Materials", "Science"],
-  },
-  {
-    id: "gen-499",
-    word: "Focus",
-    slug: "focus",
-    phonetic: "/ˈfoʊ.kəs/",
-    partOfSpeech: "verb/noun",
-    meaningEn: "The center of interest or activity.",
-    meaningVi: "Tập trung.",
-    exampleEn: "Focus on your work.",
-    exampleVi: "Tập trung vào công việc.",
-    categories: ["General"],
-  },
-  {
-    id: "gen-8007",
-    word: "Fodder",
-    slug: "fodder",
-    phonetic: "/ˈfɑː.dɚ/",
-    partOfSpeech: "noun",
-    meaningEn:
-      "Food, especially dried hay or feed, for cattle and other livestock.",
-    meaningVi: "Cỏ khô/Thức ăn gia súc.",
-    exampleEn: "Cannon fodder.",
-    exampleVi: "Bia đỡ đạn (nghĩa bóng).",
-    categories: ["Agriculture", "Animals"],
-  },
+    categories: ["General","Physics"],
+  }
 ];

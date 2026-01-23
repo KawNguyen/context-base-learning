@@ -47,7 +47,7 @@ export const G1: VocabularyWord[] = [
     meaningVi: "Trò chơi.",
     exampleEn: "Do you want to play a game?",
     exampleVi: "Bạn có muốn chơi một trò chơi không?",
-    categories: ["Daily", "Social"],
+    categories: ["Daily","Social"],
   },
   {
     id: "gen-536",
@@ -62,17 +62,40 @@ export const G1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    id: "gen-90001",
+    word: "Garage",
+    slug: "garage",
+    phonetic: "/ɡəˈrɑːʒ/",
+    partOfSpeech: "noun",
+    meaningEn: "A building or indoor area for parking or storing vehicles.",
+    meaningVi: "Gara; nơi đậu/để xe.",
+    exampleEn: "He parked the car in the garage.",
+    exampleVi: "Anh ấy đậu xe trong gara.",
+    categories: ["Daily","Home"],
+  },
+  {
+    id: "gen-90002",
+    word: "Garbage",
+    slug: "garbage",
+    phonetic: "/ˈɡɑːr.bɪdʒ/",
+    partOfSpeech: "noun",
+    meaningEn: "Waste material; refuse.",
+    meaningVi: "Rác thải; phế thải.",
+    exampleEn: "Put the garbage out tonight.",
+    exampleVi: "Đặt rác ra ngoài tối nay.",
+    categories: ["Home","Daily"],
+  },
+  {
     id: "a1-195",
     word: "Garden",
     slug: "garden",
     phonetic: "/ˈɡɑːrdn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A piece of ground used for growing flowers, fruit, or vegetables.",
+    meaningEn: "A piece of ground used for growing flowers, fruit, or vegetables.",
     meaningVi: "Khu vườn.",
     exampleEn: "We have a small garden with many flowers.",
     exampleVi: "Chúng tôi có một khu vườn nhỏ với nhiều loài hoa.",
-    categories: ["Daily", "Home"],
+    categories: ["Daily","Home"],
   },
   {
     id: "job-044",
@@ -84,9 +107,8 @@ export const G1: VocabularyWord[] = [
     meaningVi: "Người làm vườn.",
     exampleEn: "The gardener planted new flowers.",
     exampleVi: "Người làm vườn đã trồng hoa mới.",
-    categories: ["Jobs", "Agriculture"],
+    categories: ["Jobs","Agriculture"],
   },
-
   {
     id: "c2-29",
     word: "Garrulous",
@@ -117,8 +139,7 @@ export const G1: VocabularyWord[] = [
     slug: "gastroenterology",
     phonetic: "/ˌɡæs.troʊˌen.t̬əˈrɑː.lə.dʒi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The branch of medicine which deals with disorders of the stomach and intestines.",
+    meaningEn: "The branch of medicine which deals with disorders of the stomach and intestines.",
     meaningVi: "Khoa tiêu hóa.",
     exampleEn: "See a gastroenterology specialist.",
     exampleVi: "Đi khám chuyên khoa tiêu hóa.",
@@ -226,8 +247,7 @@ export const G1: VocabularyWord[] = [
     slug: "genetics",
     phonetic: "/dʒəˈnet.ɪks/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The study of heredity and the variation of inherited characteristics.",
+    meaningEn: "The study of heredity and the variation of inherited characteristics.",
     meaningVi: "Di truyền học.",
     exampleEn: "Human genetics.",
     exampleVi: "Di truyền học con người.",
@@ -263,12 +283,23 @@ export const G1: VocabularyWord[] = [
     slug: "geography",
     phonetic: "/dʒiˈɑː.ɡrə.fi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The study of the physical features of the earth and its atmosphere.",
+    meaningEn: "The study of the physical features of the earth and its atmosphere.",
     meaningVi: "Địa lý.",
     exampleEn: "Geography helps us understand the world.",
     exampleVi: "Địa lý giúp chúng ta hiểu về thế giới.",
     categories: ["Academic"],
+  },
+  {
+    id: "gen-g111",
+    word: "Geological",
+    slug: "geological",
+    phonetic: "/ˌdʒi.əˈlɒdʒ.ɪ.kəl/",
+    partOfSpeech: "adjective",
+    meaningEn: "Relating to the science that deals with the earth's physical structure and substance.",
+    meaningVi: "Thuộc về địa chất học.",
+    exampleEn: "Geological survey.",
+    exampleVi: "Khảo sát địa chất.",
+    categories: ["Science"],
   },
   {
     id: "job-045",
@@ -280,20 +311,7 @@ export const G1: VocabularyWord[] = [
     meaningVi: "Nhà địa chất học.",
     exampleEn: "The geologist studied rock formations.",
     exampleVi: "Nhà địa chất học nghiên cứu các dạng đá.",
-    categories: ["Jobs", "Science"],
-  },
-  {
-    id: "gen-g111",
-    word: "Geological",
-    slug: "geological",
-    phonetic: "/ˌdʒi.əˈlɒdʒ.ɪ.kəl/",
-    partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to the science that deals with the earth's physical structure and substance.",
-    meaningVi: "Thuộc về địa chất học.",
-    exampleEn: "Geological survey.",
-    exampleVi: "Khảo sát địa chất.",
-    categories: ["Science"],
+    categories: ["Jobs","Science"],
   },
   {
     id: "c2-209",
@@ -305,7 +323,7 @@ export const G1: VocabularyWord[] = [
     meaningVi: "Công nghệ cho người cao tuổi.",
     exampleEn: "Field of gerontechnology.",
     exampleVi: "Lĩnh vực công nghệ cho người cao tuổi.",
-    categories: ["Technology", "Medical"],
+    categories: ["Technology","Medical"],
   },
   {
     id: "gen-547",
@@ -541,8 +559,7 @@ export const G1: VocabularyWord[] = [
     slug: "glib",
     phonetic: "/ɡlɪb/",
     partOfSpeech: "adj",
-    meaningEn:
-      "(of words or the person speaking them) fluent and voluble but insincere and shallow.",
+    meaningEn: "(of words or the person speaking them) fluent and voluble but insincere and shallow.",
     meaningVi: "Lém lỉnh, liến thoắng (nhưng không thành thật).",
     exampleEn: "A glib tongue.",
     exampleVi: "Một cái lưỡi lém lỉnh.",
@@ -558,7 +575,7 @@ export const G1: VocabularyWord[] = [
     meaningVi: "Toàn cầu.",
     exampleEn: "Global network.",
     exampleVi: "Mạng lưới toàn cầu.",
-    categories: ["Social", "Daily"],
+    categories: ["Social","Daily"],
   },
   {
     id: "gen-553",
@@ -638,8 +655,7 @@ export const G1: VocabularyWord[] = [
     slug: "goal",
     phonetic: "/ɡoʊl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The object of a person's ambition or effort; an aim or desired result.",
+    meaningEn: "The object of a person's ambition or effort; an aim or desired result.",
     meaningVi: "Mục tiêu.",
     exampleEn: "Set clear goals for your career.",
     exampleVi: "Hãy đặt ra những mục tiêu rõ ràng cho sự nghiệp của bạn.",
@@ -703,7 +719,7 @@ export const G1: VocabularyWord[] = [
     meaningVi: "Sự quản trị.",
     exampleEn: "Corporate governance.",
     exampleVi: "Quản trị doanh nghiệp.",
-    categories: ["Business", "Social"],
+    categories: ["Business","Social"],
   },
   {
     id: "a2-136",
@@ -751,7 +767,7 @@ export const G1: VocabularyWord[] = [
     meaningVi: "Ngữ pháp.",
     exampleEn: "Study grammar.",
     exampleVi: "Học ngữ pháp.",
-    categories: ["Education", "Academic"],
+    categories: ["Education","Academic"],
   },
   {
     id: "gen-560",
@@ -787,7 +803,7 @@ export const G1: VocabularyWord[] = [
     meaningVi: "Nhà thiết kế đồ họa.",
     exampleEn: "The graphic designer created the logo.",
     exampleVi: "Nhà thiết kế đồ họa đã tạo logo.",
-    categories: ["Jobs", "Art"],
+    categories: ["Jobs","Art"],
   },
   {
     id: "gen-562",
@@ -895,7 +911,7 @@ export const G1: VocabularyWord[] = [
     meaningVi: "Nhóm.",
     exampleEn: "A group of friends.",
     exampleVi: "Một nhóm bạn.",
-    categories: ["Daily", "Social"],
+    categories: ["Daily","Social"],
   },
   {
     id: "gen-570",
@@ -939,8 +955,7 @@ export const G1: VocabularyWord[] = [
     slug: "guarantee",
     phonetic: "/ˌɡer.ənˈtiː/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A formal promise or assurance (typically in writing) that certain conditions will be fulfilled.",
+    meaningEn: "A formal promise or assurance (typically in writing) that certain conditions will be fulfilled.",
     meaningVi: "Đảm bảo, bảo hành.",
     exampleEn: "We guarantee a high level of service.",
     exampleVi: "Chúng tôi đảm bảo chất lượng phục vụ ở mức cao.",
@@ -992,7 +1007,7 @@ export const G1: VocabularyWord[] = [
     meaningVi: "Hướng dẫn.",
     exampleEn: "A tour guide.",
     exampleVi: "Hướng dẫn viên du lịch.",
-    categories: ["Travel", "General", "Jobs"],
+    categories: ["Travel","General","Jobs"],
   },
   {
     id: "gen-577",
@@ -1004,7 +1019,7 @@ export const G1: VocabularyWord[] = [
     meaningVi: "Có tội.",
     exampleEn: "Feel guilty.",
     exampleVi: "Cảm thấy có lỗi.",
-    categories: ["Law", "Emotions"],
+    categories: ["Law","Emotions"],
   },
   {
     id: "gen-578",
@@ -1029,5 +1044,5 @@ export const G1: VocabularyWord[] = [
     exampleEn: "A nice guy.",
     exampleVi: "Một anh chàng tốt.",
     categories: ["People"],
-  },
+  }
 ];

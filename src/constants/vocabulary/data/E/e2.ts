@@ -2,29 +2,16 @@ import { VocabularyWord } from "../../types";
 
 export const E2: VocabularyWord[] = [
   {
-    id: "gen-6756",
-    word: "Eden",
-    slug: "eden",
-    phonetic: "/ˈiː.dən/",
+    id: "spec-e-001",
+    word: "Edge computing",
+    slug: "edge-computing",
+    phonetic: "/ɛdʒ kəmˈpjuː.tɪŋ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The garden in which according to the Bible's Book of Genesis the first man and woman, Adam and Eve, lived after they were created; a place of pristine or abundant natural beauty.",
-    meaningVi: "Vườn địa đàng/Nơi ẩn dật lý tưởng.",
-    exampleEn: "Earthly Eden.",
-    exampleVi: "Vườn địa đàng dưới trần thế.",
-    categories: ["Religion", "Literature", "Geography"],
-  },
-  {
-    id: "gen-353",
-    word: "Edge",
-    slug: "edge",
-    phonetic: "/edʒ/",
-    partOfSpeech: "noun",
-    meaningEn: "The outside limit of an object, area, or surface.",
-    meaningVi: "Rìa.",
-    exampleEn: "The edge of the table.",
-    exampleVi: "Rìa bàn.",
-    categories: ["General"],
+    meaningEn: "A distributed computing paradigm that brings computation and data storage closer to the sources of data.",
+    meaningVi: "Mô hình tính toán phân tán đưa việc xử lý và lưu trữ dữ liệu gần hơn với nguồn dữ liệu.",
+    exampleEn: "Edge computing reduces latency for IoT devices.",
+    exampleVi: "Edge computing giảm độ trễ cho các thiết bị IoT.",
+    categories: ["Technology","Engineering"],
   },
   {
     id: "gen-6758",
@@ -36,7 +23,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Chiều cạnh/Theo chiều ngang.",
     exampleEn: "Get a word in edgeways.",
     exampleVi: "Xen lời vào được (trong một cuộc hội thoại liên tục).",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-6759",
@@ -48,7 +35,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Đường viền/Diềm.",
     exampleEn: "Lace edging.",
     exampleVi: "Đường viền ren.",
-    categories: ["Fashion", "Daily", "Art"],
+    categories: ["Fashion","Daily","Art"],
   },
   {
     id: "gen-6760",
@@ -56,12 +43,11 @@ export const E2: VocabularyWord[] = [
     slug: "edgy",
     phonetic: "/ˈedʒ.i/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Tense, nervous, or irritable; having an intense or sharp quality.",
+    meaningEn: "Tense, nervous, or irritable; having an intense or sharp quality.",
     meaningVi: "Cáu kỉnh/Sắc sảo/Góc cạnh/Hiện đại và táo bạo.",
     exampleEn: "Feeling edgy.",
     exampleVi: "Cảm thấy bồn chồn.",
-    categories: ["Psychology", "General", "Art"],
+    categories: ["Psychology","General","Art"],
   },
   {
     id: "gen-6761",
@@ -73,7 +59,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Khả năng ăn được/Sự an toàn khi ăn.",
     exampleEn: "Test for edibility.",
     exampleVi: "Kiểm tra xem có ăn được không.",
-    categories: ["Daily", "Science", "General"],
+    categories: ["Daily","Science","General"],
   },
   {
     id: "gen-6762",
@@ -85,7 +71,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Ăn được.",
     exampleEn: "Edible mushrooms.",
     exampleVi: "Nấm ăn được.",
-    categories: ["Daily", "Nature", "General"],
+    categories: ["Daily","Nature","General"],
   },
   {
     id: "gen-6763",
@@ -93,12 +79,11 @@ export const E2: VocabularyWord[] = [
     slug: "edict",
     phonetic: "/ˈiː.dɪkt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An official order or proclamation issued by a person in authority.",
+    meaningEn: "An official order or proclamation issued by a person in authority.",
     meaningVi: "Sắc lệnh/Chiếu chỉ.",
     exampleEn: "Imperial edict.",
     exampleVi: "Chiếu chỉ của hoàng đế.",
-    categories: ["Politics", "Law", "History"],
+    categories: ["Politics","Law","History"],
   },
   {
     id: "gen-6764",
@@ -106,12 +91,11 @@ export const E2: VocabularyWord[] = [
     slug: "edification",
     phonetic: "/ˌed.ə.fəˈkeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The instruction or improvement of a person morally or intellectually.",
+    meaningEn: "The instruction or improvement of a person morally or intellectually.",
     meaningVi: "Sự soi sáng/Sự mở mang trí tuệ/Sự giáo hóa.",
     exampleEn: "For your edification.",
     exampleVi: "Để bạn mở mang kiến thức.",
-    categories: ["Education", "Philosophy", "Psychology"],
+    categories: ["Education","Philosophy","Psychology"],
   },
   {
     id: "gen-6765",
@@ -123,7 +107,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Dinh thự/Tòa nhà đồ sộ/Hệ thống tư tưởng phức tạp.",
     exampleEn: "Magnificent edifice.",
     exampleVi: "Tòa nhà tráng lệ.",
-    categories: ["Architecture", "Philosophy", "Social"],
+    categories: ["Architecture","Philosophy","Social"],
   },
   {
     id: "gen-6766",
@@ -135,7 +119,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Soi sáng/Giáo hóa/Mở mang.",
     exampleEn: "Edifying book.",
     exampleVi: "Cuốn sách mang tính giáo hóa.",
-    categories: ["Education", "Philosophy", "Psychology"],
+    categories: ["Education","Philosophy","Psychology"],
   },
   {
     id: "gen-354",
@@ -147,7 +131,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Chỉnh sửa.",
     exampleEn: "Edit the document.",
     exampleVi: "Chỉnh sửa tài liệu.",
-    categories: ["General", "Technology"],
+    categories: ["General","Technology"],
   },
   {
     id: "b2-84",
@@ -167,12 +151,11 @@ export const E2: VocabularyWord[] = [
     slug: "editor",
     phonetic: "/ˈed.ɪ.t̬ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who is in charge of and determines the final content of a text, particularly a newspaper or magazine.",
+    meaningEn: "A person who is in charge of and determines the final content of a text, particularly a newspaper or magazine.",
     meaningVi: "Biên tập viên/Người chỉnh sửa.",
     exampleEn: "Managing editor.",
     exampleVi: "Tổng biên tập.",
-    categories: ["People", "Media", "Jobs"],
+    categories: ["People","Media","Jobs"],
   },
   {
     id: "gen-6770",
@@ -180,12 +163,11 @@ export const E2: VocabularyWord[] = [
     slug: "editorial",
     phonetic: "/ˌed.əˈtɔːr.i.əl/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A newspaper article written by or on behalf of an editor that gives an opinion on a topical issue.",
+    meaningEn: "A newspaper article written by or on behalf of an editor that gives an opinion on a topical issue.",
     meaningVi: "Bài xã luận/Thuộc về biên tập.",
     exampleEn: "Editorial board.",
     exampleVi: "Hội đồng biên tập.",
-    categories: ["Business", "Politics", "Social"],
+    categories: ["Business","Politics","Social"],
   },
   {
     id: "gen-6771",
@@ -197,7 +179,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Về mặt biên tập.",
     exampleEn: "Controlled editorially.",
     exampleVi: "Được kiểm soát về mặt biên tập.",
-    categories: ["Business", "Art"],
+    categories: ["Business","Art"],
   },
   {
     id: "gen-355",
@@ -221,7 +203,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Có giáo dục/Có học thức.",
     exampleEn: "Highly educated.",
     exampleVi: "Có trình độ học vấn cao.",
-    categories: ["People", "Education", "Social"],
+    categories: ["People","Education","Social"],
   },
   {
     id: "b1-21",
@@ -245,7 +227,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Thuộc về giáo dục/Có tính giáo dục.",
     exampleEn: "Educational resources.",
     exampleVi: "Các nguồn lực giáo dục.",
-    categories: ["Education", "General"],
+    categories: ["Education","General"],
   },
   {
     id: "gen-6776",
@@ -257,7 +239,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Có tác dụng giáo dục.",
     exampleEn: "Educative experience.",
     exampleVi: "Trải nghiệm mang tính giáo dục.",
-    categories: ["Education", "General"],
+    categories: ["Education","General"],
   },
   {
     id: "gen-6777",
@@ -269,7 +251,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Nhà giáo dục/Giáo viên.",
     exampleEn: "Distinguished educator.",
     exampleVi: "Nhà giáo dục ưu tú.",
-    categories: ["People", "Education", "Business"],
+    categories: ["People","Education","Business"],
   },
   {
     id: "gen-6778",
@@ -281,7 +263,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Thuộc thời đại vua Edward VII.",
     exampleEn: "Edwardian architecture.",
     exampleVi: "Kiến trúc thời Edward.",
-    categories: ["History", "Architecture", "Art"],
+    categories: ["History","Architecture","Art"],
   },
   {
     id: "gen-6779",
@@ -289,12 +271,11 @@ export const E2: VocabularyWord[] = [
     slug: "eel",
     phonetic: "/iːl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A snake-like fish with a slender elongated body and poorly developed fins, proverbial for its slipperiness.",
+    meaningEn: "A snake-like fish with a slender elongated body and poorly developed fins, proverbial for its slipperiness.",
     meaningVi: "Con lươn/Cá chình.",
     exampleEn: "Slippery as an eel.",
     exampleVi: "Trơn như lươn (khôn khéo, khó bắt thóp).",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-6780",
@@ -306,7 +287,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Kỳ quái/Rợn người.",
     exampleEn: "Eerie silence.",
     exampleVi: "Sự im lặng đáng sợ.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6781",
@@ -318,7 +299,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Một cách kỳ quái/rợn người.",
     exampleEn: "Eerily quiet.",
     exampleVi: "Yên tĩnh một cách đáng sợ.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-6782",
@@ -330,7 +311,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Sự kỳ quái/Sự ghê rợn.",
     exampleEn: "Sense of eeriness.",
     exampleVi: "Cảm giác ghê rợn.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6783",
@@ -338,12 +319,11 @@ export const E2: VocabularyWord[] = [
     slug: "efface",
     phonetic: "/ɪˈfeɪs/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Erase (a mark) from a surface; make oneself appear insignificant or inconspicuous.",
+    meaningEn: "Erase (a mark) from a surface; make oneself appear insignificant or inconspicuous.",
     meaningVi: "Xóa bỏ/Làm mờ/Khiêm tốn/Tránh gây chú ý.",
     exampleEn: "Efface oneself.",
     exampleVi: "Tự lu mờ mình đi (khiêm tốn).",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-6784",
@@ -355,7 +335,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Sự xóa bỏ/Sự làm mờ.",
     exampleEn: "Self-effacement.",
     exampleVi: "Sự khiêm tốn/Sự không phô trương.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-357",
@@ -391,7 +371,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Một cách có hiệu quả/Về cơ bản.",
     exampleEn: "Run effectively.",
     exampleVi: "Vận hành một cách hiệu quả.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "gen-6788",
@@ -399,12 +379,11 @@ export const E2: VocabularyWord[] = [
     slug: "effectiveness",
     phonetic: "/əˈfektɪvnəs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The degree to which something is successful in producing a desired result; success.",
+    meaningEn: "The degree to which something is successful in producing a desired result; success.",
     meaningVi: "Tính hiệu quả/Hiệu lực.",
     exampleEn: "Measure the effectiveness.",
     exampleVi: "Đo lường tính hiệu quả.",
-    categories: ["General", "Business", "Management"],
+    categories: ["General","Business","Management"],
   },
   {
     id: "gen-6789",
@@ -412,12 +391,11 @@ export const E2: VocabularyWord[] = [
     slug: "effectual",
     phonetic: "/əˈfek.tʃu.əl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(typically of an action) successful in producing the intended results; effective.",
+    meaningEn: "(typically of an action) successful in producing the intended results; effective.",
     meaningVi: "Có hiệu lực/Có hiệu quả/Thỏa đáng.",
     exampleEn: "Effectual remedy.",
     exampleVi: "Phương thuốc hiệu nghiệm.",
-    categories: ["General", "Medical"],
+    categories: ["General","Medical"],
   },
   {
     id: "gen-6790",
@@ -429,7 +407,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Thực hiện/Đem lại kết quả.",
     exampleEn: "Effectuate a change.",
     exampleVi: "Thực hiện một sự thay đổi.",
-    categories: ["Management", "Business", "General"],
+    categories: ["Management","Business","General"],
   },
   {
     id: "gen-6791",
@@ -437,12 +415,11 @@ export const E2: VocabularyWord[] = [
     slug: "effeminacy",
     phonetic: "/ɪˈfem.ə.nə.si/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The manifestation of traits in a boy or man that are more often associated with feminine nature, behavior, mannerisms, style, or gender roles.",
+    meaningEn: "The manifestation of traits in a boy or man that are more often associated with feminine nature, behavior, mannerisms, style, or gender roles.",
     meaningVi: "Sự ẻo lả/Tính nhu nhược (của nam giới).",
     exampleEn: "Accused of effeminacy.",
     exampleVi: "Bị buộc tội là ẻo lả.",
-    categories: ["Social", "Psychology", "People"],
+    categories: ["Social","Psychology","People"],
   },
   {
     id: "gen-6792",
@@ -450,12 +427,11 @@ export const E2: VocabularyWord[] = [
     slug: "effeminate",
     phonetic: "/ɪˈfem.ə.nət/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a boy or man) having characteristics that are regarded as typical of a woman; unmanly.",
+    meaningEn: "(of a boy or man) having characteristics that are regarded as typical of a woman; unmanly.",
     meaningVi: "Ẻo lả/Nữ tính (nam giới).",
     exampleEn: "Effeminate mannerisms.",
     exampleVi: "Những cử chỉ ẻo lả.",
-    categories: ["People", "Social", "Psychology"],
+    categories: ["People","Social","Psychology"],
   },
   {
     id: "gen-6793",
@@ -467,7 +443,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Sự sủi bọt/Sự sôi nổi/Sự hăng hái.",
     exampleEn: "Natural effervescence.",
     exampleVi: "Sự sủi bọt tự nhiên.",
-    categories: ["Science", "Psychology", "General"],
+    categories: ["Science","Psychology","General"],
   },
   {
     id: "gen-6794",
@@ -475,12 +451,11 @@ export const E2: VocabularyWord[] = [
     slug: "effervescent",
     phonetic: "/ˌef.ɚˈves.ənt/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a liquid) giving off bubbles; fizzy; vivacious and enthusiastic.",
+    meaningEn: "(of a liquid) giving off bubbles; fizzy; vivacious and enthusiastic.",
     meaningVi: "Sủi bọt/Sôi nổi/Hăng hái.",
     exampleEn: "Effervescent personality.",
     exampleVi: "Tính cách sôi nổi.",
-    categories: ["Science", "Psychology", "General"],
+    categories: ["Science","Psychology","General"],
   },
   {
     id: "gen-6795",
@@ -488,12 +463,11 @@ export const E2: VocabularyWord[] = [
     slug: "effete",
     phonetic: "/ɪˈfiːt/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "No longer capable of effective action; over-refined and ineffectual; affected.",
+    meaningEn: "No longer capable of effective action; over-refined and ineffectual; affected.",
     meaningVi: "Kiệt quệ/Mệt mỏi/Yếu ớt/Ủy mị.",
     exampleEn: "Effete aristocracy.",
     exampleVi: "Tầng lớp quý tộc suy tàn/ủy mị.",
-    categories: ["Social", "Psychology", "History"],
+    categories: ["Social","Psychology","History"],
   },
   {
     id: "gen-6796",
@@ -501,12 +475,11 @@ export const E2: VocabularyWord[] = [
     slug: "efficacious",
     phonetic: "/ˌef.əˈkeɪ.ʃəs/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(typically of something inanimate or abstract) successful in producing a desired or intended result; effective.",
+    meaningEn: "(typically of something inanimate or abstract) successful in producing a desired or intended result; effective.",
     meaningVi: "Có hiệu nghiệm/Có kết quả.",
     exampleEn: "Efficacious treatment.",
     exampleVi: "Cách điều trị hiệu nghiệm.",
-    categories: ["Medical", "General", "Science"],
+    categories: ["Medical","General","Science"],
   },
   {
     id: "c2-19",
@@ -530,7 +503,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Hiệu quả, hiệu suất.",
     exampleEn: "Operational efficiency.",
     exampleVi: "Hiệu quả vận hành.",
-    categories: ["Business", "Technology", "Engineering"],
+    categories: ["Business","Technology","Engineering"],
   },
   {
     id: "b1-1",
@@ -538,8 +511,7 @@ export const E2: VocabularyWord[] = [
     slug: "efficient",
     phonetic: "/ɪˈfɪʃ.ənt/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Achieving maximum productivity with minimum wasted effort or expense.",
+    meaningEn: "Achieving maximum productivity with minimum wasted effort or expense.",
     meaningVi: "Hiệu quả.",
     exampleEn: "We need to find a more efficient way to work.",
     exampleVi: "Chúng ta cần tìm một cách làm việc hiệu quả hơn.",
@@ -551,12 +523,11 @@ export const E2: VocabularyWord[] = [
     slug: "efficiently",
     phonetic: "/ɪˈfɪʃ.ənt.li/",
     partOfSpeech: "adverb",
-    meaningEn:
-      "In a way that achieves maximum productivity with minimum wasted effort or expense.",
+    meaningEn: "In a way that achieves maximum productivity with minimum wasted effort or expense.",
     meaningVi: "Một cách hiệu quả/Năng suất.",
     exampleEn: "Work efficiently.",
     exampleVi: "Làm việc một cách hiệu quả.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "gen-6801",
@@ -568,7 +539,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Hình nộm/Tượng hình (thường là người bị ghét).",
     exampleEn: "Burned in effigy.",
     exampleVi: "Bị đốt hình nộm (để phản đối).",
-    categories: ["Art", "History", "Social"],
+    categories: ["Art","History","Social"],
   },
   {
     id: "gen-6802",
@@ -576,12 +547,11 @@ export const E2: VocabularyWord[] = [
     slug: "effloresce",
     phonetic: "/ˌef.ləˈres/",
     partOfSpeech: "verb",
-    meaningEn:
-      "(of a substance) lose moisture and turn to a fine powder on exposure to air; come into flower.",
+    meaningEn: "(of a substance) lose moisture and turn to a fine powder on exposure to air; come into flower.",
     meaningVi: "Nở hoa/Phun trào/Sự thăng hoa/Kết tinh.",
     exampleEn: "Crystals effloresce.",
     exampleVi: "Các tinh thể kết tinh.",
-    categories: ["Science", "Nature"],
+    categories: ["Science","Nature"],
   },
   {
     id: "gen-6803",
@@ -593,7 +563,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Sự nở hoa/Thời kỳ rực rỡ nhất/Sự kết tinh (muối).",
     exampleEn: "Efflorescence of genius.",
     exampleVi: "Sự nở rộ của tài năng.",
-    categories: ["Nature", "Art", "Social"],
+    categories: ["Nature","Art","Social"],
   },
   {
     id: "gen-6804",
@@ -601,12 +571,11 @@ export const E2: VocabularyWord[] = [
     slug: "effluence",
     phonetic: "/ˈef.lu.əns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action or process of flowing out; something that flows out.",
+    meaningEn: "The action or process of flowing out; something that flows out.",
     meaningVi: "Sự tuôn ra/Sự xả ra/Luồng tuôn.",
     exampleEn: "Effluence of light.",
     exampleVi: "Luồng ánh sáng tuôn trào.",
-    categories: ["Science", "General"],
+    categories: ["Science","General"],
   },
   {
     id: "gen-6805",
@@ -618,7 +587,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Nước thải/Dòng nước xả.",
     exampleEn: "Industrial effluent.",
     exampleVi: "Nước thải công nghiệp.",
-    categories: ["Environment", "Science", "Industry"],
+    categories: ["Environment","Science","Industry"],
   },
   {
     id: "gen-6806",
@@ -630,7 +599,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Sự chảy ra/Dòng chảy ra/Sự trôi qua (thời gian).",
     exampleEn: "Efflux of time.",
     exampleVi: "Sự trôi qua của thời gian.",
-    categories: ["Science", "Time"],
+    categories: ["Science","Time"],
   },
   {
     id: "gen-360",
@@ -654,7 +623,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Dễ dàng/Không tốn sức.",
     exampleEn: "Effortless grace.",
     exampleVi: "Vẻ duyên dáng tự nhiên/không tốn sức.",
-    categories: ["General", "Daily"],
+    categories: ["General","Daily"],
   },
   {
     id: "gen-6809",
@@ -690,7 +659,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Sự rạng rỡ/Sự huy hoàng/Ánh sáng rực rỡ.",
     exampleEn: "Golden effulgence.",
     exampleVi: "Ánh sáng vàng rực rỡ.",
-    categories: ["General", "Literature"],
+    categories: ["General","Literature"],
   },
   {
     id: "gen-6812",
@@ -702,7 +671,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Rạng rỡ/Chói lọi/Huy hoàng.",
     exampleEn: "Effulgent sun.",
     exampleVi: "Mặt trời chói lọi.",
-    categories: ["General", "Nature", "Literature"],
+    categories: ["General","Nature","Literature"],
   },
   {
     id: "gen-6813",
@@ -714,7 +683,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Toát ra/Tuôn ra/Xả ra.",
     exampleEn: "Effused with light.",
     exampleVi: "Tràn ngập ánh sáng.",
-    categories: ["Science", "General"],
+    categories: ["Science","General"],
   },
   {
     id: "gen-6814",
@@ -722,12 +691,11 @@ export const E2: VocabularyWord[] = [
     slug: "effusion",
     phonetic: "/ɪˈfjuː.ʒən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An instance of giving off something such as a liquid, light, or smell; an unrestrained expression of feelings.",
+    meaningEn: "An instance of giving off something such as a liquid, light, or smell; an unrestrained expression of feelings.",
     meaningVi: "Sự tuôn trào/Sự tràn (dịch)/Sự bộc lộ cảm xúc dạt dào.",
     exampleEn: "Poetic effusion.",
     exampleVi: "Sự tuôn trào ý thơ.",
-    categories: ["Science", "Medical", "Literature"],
+    categories: ["Science","Medical","Literature"],
   },
   {
     id: "gen-6815",
@@ -735,12 +703,11 @@ export const E2: VocabularyWord[] = [
     slug: "effusive",
     phonetic: "/ɪˈfjuː.sɪv/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Expressing feelings of gratitude, pleasure, or approval in an unrestrained or heartfelt manner.",
+    meaningEn: "Expressing feelings of gratitude, pleasure, or approval in an unrestrained or heartfelt manner.",
     meaningVi: "Dạt dào/Nồng nhiệt/Tuôn trào (cảm xúc).",
     exampleEn: "Effusive welcome.",
     exampleVi: "Sự chào đón nồng nhiệt.",
-    categories: ["Psychology", "Social", "General"],
+    categories: ["Psychology","Social","General"],
   },
   {
     id: "gen-6816",
@@ -752,7 +719,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Một cách dạt dào/nồng nhiệt.",
     exampleEn: "Thanked her effusively.",
     exampleVi: "Cảm ơn cô ấy một cách dạt dào tình cảm.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-6817",
@@ -760,12 +727,11 @@ export const E2: VocabularyWord[] = [
     slug: "egalitarian",
     phonetic: "/ɪˌɡæl.əˈter.i.ən/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "Believing in or based on the principle that all people are equal and deserve equal rights and opportunities.",
+    meaningEn: "Believing in or based on the principle that all people are equal and deserve equal rights and opportunities.",
     meaningVi: "Chủ nghĩa bình quân/Người theo thuyết bình đẳng.",
     exampleEn: "Egalitarian society.",
     exampleVi: "Xã hội bình đẳng/bình quân.",
-    categories: ["Politics", "Social", "Philosophy"],
+    categories: ["Politics","Social","Philosophy"],
   },
   {
     id: "gen-6818",
@@ -773,12 +739,11 @@ export const E2: VocabularyWord[] = [
     slug: "egalitarianism",
     phonetic: "/ɪˌɡæl.əˈter.i.ə.nɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The doctrine that all people are equal and deserve equal rights and opportunities.",
+    meaningEn: "The doctrine that all people are equal and deserve equal rights and opportunities.",
     meaningVi: "Chủ nghĩa bình đẳng.",
     exampleEn: "Promote egalitarianism.",
     exampleVi: "Thúc đẩy chủ nghĩa bình đẳng.",
-    categories: ["Politics", "Social", "Philosophy"],
+    categories: ["Politics","Social","Philosophy"],
   },
   {
     id: "a1-62",
@@ -802,7 +767,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Chén đựng trứng (trứng luộc).",
     exampleEn: "Bone china eggcup.",
     exampleVi: "Chén đựng trứng bằng sứ xương.",
-    categories: ["Daily", "Home"],
+    categories: ["Daily","Home"],
   },
   {
     id: "gen-6821",
@@ -810,12 +775,11 @@ export const E2: VocabularyWord[] = [
     slug: "egghead",
     phonetic: "/ˈeɡ.hed/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An intellectual; a person with high academic or intellectual interests (often derogatory).",
+    meaningEn: "An intellectual; a person with high academic or intellectual interests (often derogatory).",
     meaningVi: "Kẻ mọt sách/Người trí thức (lóng/mỉa mai).",
     exampleEn: "Academic egghead.",
     exampleVi: "Gã trí thức mọt sách.",
-    categories: ["People", "Education", "Social"],
+    categories: ["People","Education","Social"],
   },
   {
     id: "gen-6822",
@@ -823,12 +787,11 @@ export const E2: VocabularyWord[] = [
     slug: "eggplant",
     phonetic: "/ˈeɡ.plænt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A tropical Old World plant of the nightshade family that yields an edible fruit.",
+    meaningEn: "A tropical Old World plant of the nightshade family that yields an edible fruit.",
     meaningVi: "Cà tím.",
     exampleEn: "Fried eggplant.",
     exampleVi: "Cà tím chiên.",
-    categories: ["Daily", "Plants", "Nature"],
+    categories: ["Daily","Plants","Nature"],
   },
   {
     id: "gen-6823",
@@ -836,12 +799,11 @@ export const E2: VocabularyWord[] = [
     slug: "eggshell",
     phonetic: "/ˈeɡ.ʃel/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "The exterior covering of a bird's egg; a type of semi-glossy paint finish.",
+    meaningEn: "The exterior covering of a bird's egg; a type of semi-glossy paint finish.",
     meaningVi: "Vỏ trứng/Màu vỏ trứng/Sơn bóng nhẹ.",
     exampleEn: "Walking on eggshells.",
     exampleVi: "Đi trên vỏ trứng (cẩn trọng tột độ/lo sợ).",
-    categories: ["Daily", "General", "Art"],
+    categories: ["Daily","General","Art"],
   },
   {
     id: "gen-6824",
@@ -849,12 +811,11 @@ export const E2: VocabularyWord[] = [
     slug: "egis",
     phonetic: "/ˈiː.dʒɪs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Alternative spelling of aegis; protection, backing, or support.",
+    meaningEn: "Alternative spelling of aegis; protection, backing, or support.",
     meaningVi: "Sự bảo hộ/Sự che chở.",
     exampleEn: "Under the egis of.",
     exampleVi: "Dưới sự bảo hộ của.",
-    categories: ["Social", "Politics"],
+    categories: ["Social","Politics"],
   },
   {
     id: "gen-6825",
@@ -866,7 +827,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Cái tôi/Tự trọng.",
     exampleEn: "Fragile ego.",
     exampleVi: "Cái tôi dễ bị tổn thương.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6826",
@@ -874,12 +835,11 @@ export const E2: VocabularyWord[] = [
     slug: "egocentric",
     phonetic: "/ˌiː.ɡoʊˈsen.trɪk/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "Thinking only of oneself, without regard for the feelings or desires of others; self-centered.",
+    meaningEn: "Thinking only of oneself, without regard for the feelings or desires of others; self-centered.",
     meaningVi: "Ích kỷ/Coi mình là trung tâm.",
     exampleEn: "Egocentric behavior.",
     exampleVi: "Hành vi coi mình là trung tâm.",
-    categories: ["Psychology", "People"],
+    categories: ["Psychology","People"],
   },
   {
     id: "gen-6827",
@@ -887,12 +847,11 @@ export const E2: VocabularyWord[] = [
     slug: "egoism",
     phonetic: "/ˈiː.ɡoʊ.ɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An ethical theory that treats self-interest as the foundation of morality.",
+    meaningEn: "An ethical theory that treats self-interest as the foundation of morality.",
     meaningVi: "Chủ nghĩa vị kỷ.",
     exampleEn: "Pure egoism.",
     exampleVi: "Chủ nghĩa vị kỷ thuần túy.",
-    categories: ["Psychology", "Philosophy"],
+    categories: ["Psychology","Philosophy"],
   },
   {
     id: "gen-6828",
@@ -900,12 +859,11 @@ export const E2: VocabularyWord[] = [
     slug: "egoist",
     phonetic: "/ˈiː.ɡoʊ.ɪst/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who is preoccupied with their own interests; a selfish person.",
+    meaningEn: "A person who is preoccupied with their own interests; a selfish person.",
     meaningVi: "Người vị kỷ.",
     exampleEn: "Self-centered egoist.",
     exampleVi: "Kẻ vị kỷ coi mình là trung tâm.",
-    categories: ["People", "Psychology"],
+    categories: ["People","Psychology"],
   },
   {
     id: "gen-6829",
@@ -925,8 +883,7 @@ export const E2: VocabularyWord[] = [
     slug: "egotism",
     phonetic: "/ˈiː.ɡə.tɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The practice of talking and thinking about oneself excessively because of an undue sense of self-importance.",
+    meaningEn: "The practice of talking and thinking about oneself excessively because of an undue sense of self-importance.",
     meaningVi: "Tính tự cao tự đại/Thói tự phụ.",
     exampleEn: "Unbearable egotism.",
     exampleVi: "Sự tự phụ không chịu nổi.",
@@ -938,12 +895,11 @@ export const E2: VocabularyWord[] = [
     slug: "egotist",
     phonetic: "/ˈiː.ɡə.tɪst/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who is excessively conceited or self-absorbed; self-seeker.",
+    meaningEn: "A person who is excessively conceited or self-absorbed; self-seeker.",
     meaningVi: "Người tự cao tự đại/Kẻ tự phụ.",
     exampleEn: "Obsessive egotist.",
     exampleVi: "Kẻ tự phụ ám ảnh.",
-    categories: ["People", "Psychology"],
+    categories: ["People","Psychology"],
   },
   {
     id: "gen-6832",
@@ -955,7 +911,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Tự cao tự đại/Tự phụ.",
     exampleEn: "Egotistic prick.",
     exampleVi: "Đồ tự cao tự đại.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "c2-20",
@@ -991,7 +947,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Lối ra/Sự đi ra.",
     exampleEn: "Point of egress.",
     exampleVi: "Điểm đi ra/Lối thoát.",
-    categories: ["Architecture", "General", "Science"],
+    categories: ["Architecture","General","Science"],
   },
   {
     id: "gen-6836",
@@ -999,12 +955,11 @@ export const E2: VocabularyWord[] = [
     slug: "egret",
     phonetic: "/ˈiː.ɡret/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A mainly white-plumaged heron with long flowing plumes in the breeding season.",
+    meaningEn: "A mainly white-plumaged heron with long flowing plumes in the breeding season.",
     meaningVi: "Chim cò/Chim diệc (diệc trắng).",
     exampleEn: "Snowy egret.",
     exampleVi: "Cò trắng muốt.",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-6838",
@@ -1012,12 +967,11 @@ export const E2: VocabularyWord[] = [
     slug: "eider",
     phonetic: "/ˈaɪ.dɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A large northern sea duck, the male of which has black-and-white plumage.",
+    meaningEn: "A large northern sea duck, the male of which has black-and-white plumage.",
     meaningVi: "Vịt biển Bắc Cực.",
     exampleEn: "Eider duck.",
     exampleVi: "Vịt eider.",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-6839",
@@ -1025,12 +979,11 @@ export const E2: VocabularyWord[] = [
     slug: "eiderdown",
     phonetic: "/ˈaɪ.dɚ.daʊn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Small, soft feathers from the breast of the female eider duck; a quilt filled with the down of eider ducks.",
+    meaningEn: "Small, soft feathers from the breast of the female eider duck; a quilt filled with the down of eider ducks.",
     meaningVi: "Lông vịt biển/Chăn lông vịt.",
     exampleEn: "Warm eiderdown.",
     exampleVi: "Chăn lông vịt biển ấm áp.",
-    categories: ["Home", "Daily", "Animals"],
+    categories: ["Home","Daily","Animals"],
   },
   {
     id: "gen-6837",
@@ -1038,13 +991,11 @@ export const E2: VocabularyWord[] = [
     slug: "eidetic",
     phonetic: "/aɪˈdet.ɪk/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to or denoting mental images having unusual vividness and detail, as if actually visible.",
+    meaningEn: "Relating to or denoting mental images having unusual vividness and detail, as if actually visible.",
     meaningVi: "Trí nhớ hình ảnh/Sống động (như thật).",
     exampleEn: "Eidetic memory.",
-    exampleVi:
-      "Trí nhớ hình ảnh (có thể nhớ chi tiết sự vật như nhìn thấy tận mắt).",
-    categories: ["Psychology", "Science"],
+    exampleVi: "Trí nhớ hình ảnh (có thể nhớ chi tiết sự vật như nhìn thấy tận mắt).",
+    categories: ["Psychology","Science"],
   },
   {
     id: "gen-6840",
@@ -1052,12 +1003,11 @@ export const E2: VocabularyWord[] = [
     slug: "eight",
     phonetic: "/eɪt/",
     partOfSpeech: "number",
-    meaningEn:
-      "Equivalent to the product of two and four; one more than seven, or two less than ten; 8.",
+    meaningEn: "Equivalent to the product of two and four; one more than seven, or two less than ten; 8.",
     meaningVi: "Số tám.",
     exampleEn: "Group of eight.",
     exampleVi: "Nhóm tám người.",
-    categories: ["Mathematics", "General"],
+    categories: ["Mathematics","General"],
   },
   {
     id: "gen-6841",
@@ -1065,12 +1015,11 @@ export const E2: VocabularyWord[] = [
     slug: "eighteen",
     phonetic: "/ˌeɪˈtiːn/",
     partOfSpeech: "number",
-    meaningEn:
-      "Equivalent to the product of two and nine; one more than seventeen, or two less than twenty; 18.",
+    meaningEn: "Equivalent to the product of two and nine; one more than seventeen, or two less than twenty; 18.",
     meaningVi: "Số mười tám.",
     exampleEn: "Eighteen years old.",
     exampleVi: "Mười tám tuổi.",
-    categories: ["Mathematics", "General"],
+    categories: ["Mathematics","General"],
   },
   {
     id: "gen-6842",
@@ -1082,7 +1031,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Thứ mười tám.",
     exampleEn: "Eighteenth century.",
     exampleVi: "Thế kỷ thứ mười tám.",
-    categories: ["Mathematics", "Time", "General"],
+    categories: ["Mathematics","Time","General"],
   },
   {
     id: "gen-6843",
@@ -1094,7 +1043,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Thứ tám.",
     exampleEn: "Eighth floor.",
     exampleVi: "Tầng tám.",
-    categories: ["Mathematics", "General"],
+    categories: ["Mathematics","General"],
   },
   {
     id: "gen-6844",
@@ -1106,7 +1055,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Thứ tám mươi.",
     exampleEn: "Eightieth birthday.",
     exampleVi: "Sinh nhật lần thứ tám mươi.",
-    categories: ["Mathematics", "Time", "General"],
+    categories: ["Mathematics","Time","General"],
   },
   {
     id: "gen-6845",
@@ -1118,7 +1067,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Số tám mươi.",
     exampleEn: "Eighty percent.",
     exampleVi: "Tám mươi phần trăm.",
-    categories: ["Mathematics", "General"],
+    categories: ["Mathematics","General"],
   },
   {
     id: "gen-362",
@@ -1142,7 +1091,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Thốt ra/Kêu lên/Xuất tinh.",
     exampleEn: "Ejaculate in surprise.",
     exampleVi: "Thốt lên vì kinh ngạc.",
-    categories: ["General", "Social", "Medical"],
+    categories: ["General","Social","Medical"],
   },
   {
     id: "gen-6848",
@@ -1154,7 +1103,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Sự thốt ra/Sự xuất tinh.",
     exampleEn: "Premature ejaculation.",
     exampleVi: "Xuất tinh sớm.",
-    categories: ["General", "Medical"],
+    categories: ["General","Medical"],
   },
   {
     id: "gen-6849",
@@ -1162,12 +1111,11 @@ export const E2: VocabularyWord[] = [
     slug: "eject",
     phonetic: "/iˈdʒekt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Force or throw (something) out, typically in a violent or sudden way.",
+    meaningEn: "Force or throw (something) out, typically in a violent or sudden way.",
     meaningVi: "Đuổi ra/Tống ra/Đẩy ra (đĩa/ghế lái).",
     exampleEn: "Eject a disc.",
     exampleVi: "Đẩy đĩa ra.",
-    categories: ["General", "Technology", "Social"],
+    categories: ["General","Technology","Social"],
   },
   {
     id: "gen-6850",
@@ -1179,7 +1127,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Sự tống ra/Sự trục xuất/Sự đẩy ra.",
     exampleEn: "Ejection seat.",
     exampleVi: "Ghế phóng (trong máy bay).",
-    categories: ["General", "Technology", "Military"],
+    categories: ["General","Technology","Military"],
   },
   {
     id: "gen-6851",
@@ -1187,12 +1135,11 @@ export const E2: VocabularyWord[] = [
     slug: "eke",
     phonetic: "/iːk/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Manage to support oneself or make a living with difficulty (eke out).",
+    meaningEn: "Manage to support oneself or make a living with difficulty (eke out).",
     meaningVi: "Kiếm sống một cách chật vật/Gắng sức (làm gì).",
     exampleEn: "Eke out a living.",
     exampleVi: "Kiếm sống cầm chừng.",
-    categories: ["General", "Economics", "Social"],
+    categories: ["General","Economics","Social"],
   },
   {
     id: "c1-25",
@@ -1200,8 +1147,7 @@ export const E2: VocabularyWord[] = [
     slug: "elaborate",
     phonetic: "/iˈlæb.ə.reɪt/",
     partOfSpeech: "adjective/verb",
-    meaningEn:
-      "Involving many carefully arranged parts or details; detailed and complicated in design and planning.",
+    meaningEn: "Involving many carefully arranged parts or details; detailed and complicated in design and planning.",
     meaningVi: "Tỉ mỉ, trau chuốt.",
     exampleEn: "Can you elaborate on your plan?",
     exampleVi: "Bạn có thể nói rõ hơn về kế hoạch của mình không?",
@@ -1217,7 +1163,7 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Một cách tỉ mỉ/công phu.",
     exampleEn: "Elaborately dressed.",
     exampleVi: "Ăn mặc một cách cầu kỳ.",
-    categories: ["General", "Art"],
+    categories: ["General","Art"],
   },
   {
     id: "gen-6854",
@@ -1225,12 +1171,11 @@ export const E2: VocabularyWord[] = [
     slug: "elaboration",
     phonetic: "/iˌlæb.əˈreɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The addition of more detail concerning something that has already been said.",
+    meaningEn: "The addition of more detail concerning something that has already been said.",
     meaningVi: "Sự tỉ mỉ/Sự phức tạp/Sự trình bày chi tiết.",
     exampleEn: "Further elaboration.",
     exampleVi: "Sự giải thích/trình bày chi tiết hơn.",
-    categories: ["General", "Art", "Science"],
+    categories: ["General","Art","Science"],
   },
   {
     id: "gen-6855",
@@ -1242,6 +1187,18 @@ export const E2: VocabularyWord[] = [
     meaningVi: "Sự hăng hái/Sức sống/Phong cách nồng nhiệt.",
     exampleEn: "Played with elan.",
     exampleVi: "Chơi với sự hăng hái/phấn chấn.",
-    categories: ["Psychology", "General", "Art"],
+    categories: ["Psychology","General","Art"],
   },
+  {
+    id: "gen-6856",
+    word: "Elapse",
+    slug: "elapse",
+    phonetic: "/iˈlæps/",
+    partOfSpeech: "verb",
+    meaningEn: "(of time) pass or go by.",
+    meaningVi: "Trôi qua (thời gian).",
+    exampleEn: "Minutes elapsed.",
+    exampleVi: "Nhiều phút đã trôi qua.",
+    categories: ["Time","General"],
+  }
 ];

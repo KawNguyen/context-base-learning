@@ -2,6 +2,42 @@ import { VocabularyWord } from "../../types";
 
 export const M2: VocabularyWord[] = [
   {
+    id: "gen-909",
+    word: "Mission",
+    slug: "mission",
+    phonetic: "/ˈmɪʃ.ən/",
+    partOfSpeech: "noun",
+    meaningEn: "An important assignment.",
+    meaningVi: "Nhiệm vụ.",
+    exampleEn: "Complete the mission.",
+    exampleVi: "Hoàn thành nhiệm vụ.",
+    categories: ["General"],
+  },
+  {
+    id: "a2-125",
+    word: "Mistake",
+    slug: "mistake",
+    phonetic: "/mɪˈsteɪk/",
+    partOfSpeech: "noun/verb",
+    meaningEn: "An action or judgment that is misguided or wrong.",
+    meaningVi: "Lỗi lầm, sai lầm.",
+    exampleEn: "We all make mistakes.",
+    exampleVi: "Tất cả chúng ta đều mắc sai lầm.",
+    categories: ["Daily"],
+  },
+  {
+    id: "gen-911",
+    word: "Mix",
+    slug: "mix",
+    phonetic: "/mɪks/",
+    partOfSpeech: "verb",
+    meaningEn: "Combine different substances.",
+    meaningVi: "Trộn.",
+    exampleEn: "Mix the ingredients.",
+    exampleVi: "Trộn nguyên liệu.",
+    categories: ["General"],
+  },
+  {
     id: "a1-187",
     word: "Mobile",
     slug: "mobile",
@@ -11,7 +47,7 @@ export const M2: VocabularyWord[] = [
     meaningVi: "Di động.",
     exampleEn: "I have a mobile phone.",
     exampleVi: "Tôi có một chiếc điện thoại di động.",
-    categories: ["Daily", "Technology"],
+    categories: ["Daily","Technology"],
   },
   {
     id: "job-067",
@@ -19,12 +55,11 @@ export const M2: VocabularyWord[] = [
     slug: "model",
     phonetic: "/ˈmɒd.əl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person employed to display clothes, pose for photographs, etc.; A three-dimensional representation.",
+    meaningEn: "A person employed to display clothes, pose for photographs, etc.; A three-dimensional representation.",
     meaningVi: "Người mẫu; Mô hình.",
     exampleEn: "The model walked down the runway.",
     exampleVi: "Người mẫu đi trên sàn catwalk.",
-    categories: ["Jobs", "Fashion", "General"],
+    categories: ["Jobs","Fashion","General"],
   },
   {
     id: "a2-60",
@@ -48,7 +83,7 @@ export const M2: VocabularyWord[] = [
     meaningVi: "Mô-đun.",
     exampleEn: "Python module.",
     exampleVi: "Mô-đun Python.",
-    categories: ["Technology", "Academic"],
+    categories: ["Technology","Academic"],
   },
   {
     id: "c2-107",
@@ -96,7 +131,7 @@ export const M2: VocabularyWord[] = [
     meaningVi: "Màn hình; giám sát.",
     exampleEn: "A dual monitor setup.",
     exampleVi: "Thiết lập hai màn hình.",
-    categories: ["Technology", "Business"],
+    categories: ["Technology","Business"],
   },
   {
     id: "a1-156",
@@ -120,7 +155,7 @@ export const M2: VocabularyWord[] = [
     meaningVi: "Mặt trăng.",
     exampleEn: "The moon is bright tonight.",
     exampleVi: "Đêm nay trăng sáng quá.",
-    categories: ["Daily", "Science"],
+    categories: ["Daily","Science"],
   },
   {
     id: "gen-921",
@@ -212,12 +247,11 @@ export const M2: VocabularyWord[] = [
     slug: "motivation",
     phonetic: "/ˌmoʊ.t̬ɪˈveɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The reason or reasons one has for acting or behaving in a particular way.",
+    meaningEn: "The reason or reasons one has for acting or behaving in a particular way.",
     meaningVi: "Động lực.",
     exampleEn: "Loss of motivation.",
     exampleVi: "Mất động lực.",
-    categories: ["Daily", "Psychology"],
+    categories: ["Daily","Psychology"],
   },
   {
     id: "gen-928",
@@ -241,7 +275,7 @@ export const M2: VocabularyWord[] = [
     meaningVi: "Núi.",
     exampleEn: "We climbed the mountain.",
     exampleVi: "Chúng tôi đã leo núi.",
-    categories: ["Daily", "Geography"],
+    categories: ["Daily","Geography"],
   },
   {
     id: "a1-181",
@@ -253,7 +287,7 @@ export const M2: VocabularyWord[] = [
     meaningVi: "Con chuột (máy tính).",
     exampleEn: "Click the button with your mouse.",
     exampleVi: "Nhấp vào nút bằng chuột của bạn.",
-    categories: ["Daily", "Technology"],
+    categories: ["Daily","Technology"],
   },
   {
     id: "a1-119",
@@ -265,7 +299,7 @@ export const M2: VocabularyWord[] = [
     meaningVi: "Miệng.",
     exampleEn: "Don't talk with your mouth full.",
     exampleVi: "Đừng nói chuyện khi miệng đầy thức ăn.",
-    categories: ["Daily", "Medical", "Biology"],
+    categories: ["Daily","Medical","Biology"],
   },
   {
     id: "gen-932",
@@ -297,12 +331,11 @@ export const M2: VocabularyWord[] = [
     slug: "movie",
     phonetic: "/ˈmuː.vi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A story or event recorded by a camera as a set of moving images.",
+    meaningEn: "A story or event recorded by a camera as a set of moving images.",
     meaningVi: "Bộ phim.",
     exampleEn: "Let's watch a movie tonight.",
     exampleVi: "Tối nay đi xem phim đi.",
-    categories: ["Social", "Art", "Media"],
+    categories: ["Social","Art","Media"],
   },
   {
     id: "gen-935",
@@ -334,12 +367,11 @@ export const M2: VocabularyWord[] = [
     slug: "muscle",
     phonetic: "/ˈmʌs.əl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A band or bundle of fibrous tissue that has the ability to contract.",
+    meaningEn: "A band or bundle of fibrous tissue that has the ability to contract.",
     meaningVi: "Cơ bắp.",
     exampleEn: "Exercise builds muscle.",
     exampleVi: "Tập thể dục giúp xây dựng cơ bắp.",
-    categories: ["Medical", "Daily", "Biology"],
+    categories: ["Medical","Daily","Biology"],
   },
   {
     id: "a2-17",
@@ -347,12 +379,11 @@ export const M2: VocabularyWord[] = [
     slug: "museum",
     phonetic: "/mjuːˈziː.əm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A building in which objects of historical, scientific, artistic, or cultural interest are stored.",
+    meaningEn: "A building in which objects of historical, scientific, artistic, or cultural interest are stored.",
     meaningVi: "Bảo tàng.",
     exampleEn: "Visit the national museum.",
     exampleVi: "Thăm bảo tàng quốc gia.",
-    categories: ["Social", "Art"],
+    categories: ["Social","Art"],
   },
   {
     id: "a1-167",
@@ -360,12 +391,11 @@ export const M2: VocabularyWord[] = [
     slug: "music",
     phonetic: "/ˈmjuːzɪk/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Vocal or instrumental sounds combined in such a way as to produce beauty of form, harmony, and expression of emotion.",
+    meaningEn: "Vocal or instrumental sounds combined in such a way as to produce beauty of form, harmony, and expression of emotion.",
     meaningVi: "Âm nhạc.",
     exampleEn: "I listen to music while studying.",
     exampleVi: "Tôi vừa nghe nhạc vừa học.",
-    categories: ["Daily", "Social", "Music"],
+    categories: ["Daily","Social","Music"],
   },
   {
     id: "gen-939",
@@ -389,7 +419,7 @@ export const M2: VocabularyWord[] = [
     meaningVi: "Nhạc sĩ.",
     exampleEn: "The musician performed at the concert.",
     exampleVi: "Nhạc sĩ đã biểu diễn tại buổi hòa nhạc.",
-    categories: ["Jobs", "Music"],
+    categories: ["Jobs","Music"],
   },
   {
     id: "gen-941",
@@ -426,5 +456,5 @@ export const M2: VocabularyWord[] = [
     exampleEn: "Solve the mystery.",
     exampleVi: "Giải ẩn số.",
     categories: ["General"],
-  },
+  }
 ];

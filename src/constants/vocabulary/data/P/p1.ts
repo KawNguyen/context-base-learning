@@ -35,7 +35,7 @@ export const P1: VocabularyWord[] = [
     meaningVi: "Trang (giấy, web).",
     exampleEn: "Open the next page.",
     exampleVi: "Mở trang tiếp theo.",
-    categories: ["Technology", "Daily"],
+    categories: ["Technology","Daily"],
   },
   {
     id: "a1-238",
@@ -47,7 +47,7 @@ export const P1: VocabularyWord[] = [
     meaningVi: "Sự đau đớn.",
     exampleEn: "I feel pain in my leg.",
     exampleVi: "Tôi cảm thấy đau ở chân.",
-    categories: ["Medical", "Daily"],
+    categories: ["Medical","Daily"],
   },
   {
     id: "gen-1039",
@@ -59,7 +59,7 @@ export const P1: VocabularyWord[] = [
     meaningVi: "Sơn.",
     exampleEn: "Paint the wall.",
     exampleVi: "Sơn tường.",
-    categories: ["Art", "General"],
+    categories: ["Art","General"],
   },
   {
     id: "job-0001",
@@ -127,8 +127,7 @@ export const P1: VocabularyWord[] = [
     slug: "palliate",
     phonetic: "/ˈpæl.i.eɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Make (a disease or its symptoms) less severe or unpleasant without removing the cause.",
+    meaningEn: "Make (a disease or its symptoms) less severe or unpleasant without removing the cause.",
     meaningVi: "Làm nhẹ bớt (bệnh), làm dịu.",
     exampleEn: "Palliate the pain.",
     exampleVi: "Làm giảm cơn đau.",
@@ -156,7 +155,7 @@ export const P1: VocabularyWord[] = [
     meaningVi: "Thuốc chữa bách bệnh; giải pháp tối ưu.",
     exampleEn: "Not a panacea for all problems.",
     exampleVi: "Không phải là giải pháp cho mọi vấn đề.",
-    categories: ["Medical", "Business", "Daily"],
+    categories: ["Medical","Business","Daily"],
   },
   {
     id: "b1-245",
@@ -168,7 +167,7 @@ export const P1: VocabularyWord[] = [
     meaningVi: "Đại dịch.",
     exampleEn: "COVID-19 pandemic.",
     exampleVi: "Đại dịch COVID-19.",
-    categories: ["Medical", "Social"],
+    categories: ["Medical","Social"],
   },
   {
     id: "c2-121",
@@ -176,8 +175,7 @@ export const P1: VocabularyWord[] = [
     slug: "panegyric",
     phonetic: "/ˌpæn.əˈdʒɪr.ɪk/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A public speech or published text in praise of someone or something.",
+    meaningEn: "A public speech or published text in praise of someone or something.",
     meaningVi: "Lời ca tụng kịch liệt.",
     exampleEn: "A panegyric on his life.",
     exampleVi: "Một bài ca tụng về cuộc đời ông ấy.",
@@ -217,7 +215,7 @@ export const P1: VocabularyWord[] = [
     meaningVi: "Giấy.",
     exampleEn: "I need a piece of paper.",
     exampleVi: "Tôi cần một tờ giấy.",
-    categories: ["Daily", "Academic"],
+    categories: ["Daily","Academic"],
   },
   {
     id: "c1-3",
@@ -237,12 +235,11 @@ export const P1: VocabularyWord[] = [
     slug: "paradox",
     phonetic: "/ˈper.ə.dɑːks/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A seemingly absurd or self-contradictory statement or proposition that when investigated or explained may prove to be well founded or true.",
+    meaningEn: "A seemingly absurd or self-contradictory statement or proposition that when investigated or explained may prove to be well founded or true.",
     meaningVi: "Nghịch lý.",
     exampleEn: "The paradox of choice.",
     exampleVi: "Nghịch lý của sự lựa chọn.",
-    categories: ["Academic", "Philosophy", "Daily"],
+    categories: ["Academic","Philosophy","Daily"],
   },
   {
     id: "c2-122",
@@ -250,8 +247,7 @@ export const P1: VocabularyWord[] = [
     slug: "paragon",
     phonetic: "/ˈper.ə.ɡɑːn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person or thing regarded as a perfect example of a particular quality.",
+    meaningEn: "A person or thing regarded as a perfect example of a particular quality.",
     meaningVi: "Mẫu mực, tuyệt thế.",
     exampleEn: "A paragon of virtue.",
     exampleVi: "Một mẫu mực về đức hạnh.",
@@ -267,7 +263,7 @@ export const P1: VocabularyWord[] = [
     meaningVi: "Sự song song.",
     exampleEn: "Data parallelism.",
     exampleVi: "Sự song song dữ liệu.",
-    categories: ["Technology", "Engineering", "Academic"],
+    categories: ["Technology","Engineering","Academic"],
   },
   {
     id: "job-0002",
@@ -279,7 +275,7 @@ export const P1: VocabularyWord[] = [
     meaningVi: "Y tá cấp cứu",
     exampleEn: "The paramedic arrived quickly at the accident scene.",
     exampleVi: "Nhân viên cấp cứu đến hiện trường rất nhanh.",
-    categories: ["Jobs", "Medical"],
+    categories: ["Jobs","Medical"],
   },
   {
     id: "c1-225",
@@ -287,12 +283,11 @@ export const P1: VocabularyWord[] = [
     slug: "parameter",
     phonetic: "/pəˈræm.ɪ.tər/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A numerical or other measurable factor forming one of a set that defines a system or sets the conditions of its operation.",
+    meaningEn: "A numerical or other measurable factor forming one of a set that defines a system or sets the conditions of its operation.",
     meaningVi: "Thông số, tham số.",
     exampleEn: "Define the system parameters.",
     exampleVi: "Xác định các thông số hệ thống.",
-    categories: ["Technology", "Engineering", "Academic"],
+    categories: ["Technology","Engineering","Academic"],
   },
   {
     id: "gen-1047",
@@ -316,7 +311,7 @@ export const P1: VocabularyWord[] = [
     meaningVi: "Công viên.",
     exampleEn: "Let's go for a walk in the park.",
     exampleVi: "Chúng ta hãy đi dạo trong công viên.",
-    categories: ["Daily", "Social"],
+    categories: ["Daily","Social"],
   },
   {
     id: "gen-1049",
@@ -348,8 +343,7 @@ export const P1: VocabularyWord[] = [
     slug: "particular",
     phonetic: "/pərˈtɪk.jə.lər/",
     partOfSpeech: "adj",
-    meaningEn:
-      "Used to single out an individual member of a specified group or class.",
+    meaningEn: "Used to single out an individual member of a specified group or class.",
     meaningVi: "Cụ thể, đặc biệt.",
     exampleEn: "A particular reason.",
     exampleVi: "Một lý do cụ thể.",
@@ -377,7 +371,7 @@ export const P1: VocabularyWord[] = [
     meaningVi: "Đối tác.",
     exampleEn: "Business partner.",
     exampleVi: "Đối tác kinh doanh.",
-    categories: ["Business", "General"],
+    categories: ["Business","General"],
   },
   {
     id: "b1-191",
@@ -389,7 +383,7 @@ export const P1: VocabularyWord[] = [
     meaningVi: "Sự hợp tác, quan hệ đối tác.",
     exampleEn: "A strong business partnership.",
     exampleVi: "Một quan hệ đối tác kinh doanh mạnh mẽ.",
-    categories: ["Business", "Social"],
+    categories: ["Business","Social"],
   },
   {
     id: "gen-1053",
@@ -473,7 +467,7 @@ export const P1: VocabularyWord[] = [
     meaningVi: "Hộ chiếu.",
     exampleEn: "Don't forget your passport.",
     exampleVi: "Đừng quên hộ chiếu của bạn.",
-    categories: ["Daily", "Travel"],
+    categories: ["Daily","Travel"],
   },
   {
     id: "a1-185",
@@ -485,7 +479,7 @@ export const P1: VocabularyWord[] = [
     meaningVi: "Mật khẩu.",
     exampleEn: "Don't share your password.",
     exampleVi: "Đừng chia sẻ mật khẩu của bạn.",
-    categories: ["Daily", "Technology"],
+    categories: ["Daily","Technology"],
   },
   {
     id: "a2-148",
@@ -553,8 +547,7 @@ export const P1: VocabularyWord[] = [
     slug: "paucity",
     phonetic: "/ˈpɑː.sə.t̬i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The presence of something only in small or insufficient quantities or amounts; scarcity.",
+    meaningEn: "The presence of something only in small or insufficient quantities or amounts; scarcity.",
     meaningVi: "Sự khan hiếm, sự ít ỏi.",
     exampleEn: "A paucity of information.",
     exampleVi: "Sự khan hiếm thông tin.",
@@ -654,7 +647,7 @@ export const P1: VocabularyWord[] = [
     meaningVi: "Cái bút.",
     exampleEn: "Can I borrow your pen?",
     exampleVi: "Cho tôi mượn bút của bạn nhé?",
-    categories: ["Daily", "Academic"],
+    categories: ["Daily","Academic"],
   },
   {
     id: "a1-169",
@@ -662,8 +655,7 @@ export const P1: VocabularyWord[] = [
     slug: "pencil",
     phonetic: "/ˈpen.səl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An instrument for writing or drawing, consisting of a thin stick of graphite.",
+    meaningEn: "An instrument for writing or drawing, consisting of a thin stick of graphite.",
     meaningVi: "Bút chì.",
     exampleEn: "Use a pencil to draw.",
     exampleVi: "Sử dụng bút chì để vẽ.",
@@ -735,8 +727,7 @@ export const P1: VocabularyWord[] = [
     slug: "perform",
     phonetic: "/pərˈfɔːrm/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Carry out, accomplish, or fulfill (an action, task, or function).",
+    meaningEn: "Carry out, accomplish, or fulfill (an action, task, or function).",
     meaningVi: "Biểu diễn, thực hiện.",
     exampleEn: "The band will perform tonight.",
     exampleVi: "Ban nhạc sẽ biểu diễn tối nay.",
@@ -748,8 +739,7 @@ export const P1: VocabularyWord[] = [
     slug: "performance",
     phonetic: "/pəˈfɔː.məns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An act of staging or presenting a play, concert, or other form of entertainment.",
+    meaningEn: "An act of staging or presenting a play, concert, or other form of entertainment.",
     meaningVi: "Sự trình diễn, hiệu suất.",
     exampleEn: "The actors gave a great performance.",
     exampleVi: "Các diễn viên đã có một màn trình diễn tuyệt vời.",
@@ -761,8 +751,7 @@ export const P1: VocabularyWord[] = [
     slug: "perfunctory",
     phonetic: "/pɚˈfʌŋk.tɚ.i/",
     partOfSpeech: "adj",
-    meaningEn:
-      "(of an action or gesture) carried out with a minimum of effort or reflection.",
+    meaningEn: "(of an action or gesture) carried out with a minimum of effort or reflection.",
     meaningVi: "Lấy lệ, đại khái.",
     exampleEn: "A perfunctory greeting.",
     exampleVi: "Một lời chào lấy lệ.",
@@ -798,8 +787,7 @@ export const P1: VocabularyWord[] = [
     slug: "peripatetic",
     phonetic: "/ˌper.i.pəˈtet.ɪk/",
     partOfSpeech: "adj/noun",
-    meaningEn:
-      "Traveling from place to place, in particular working or based in various places for relatively short periods.",
+    meaningEn: "Traveling from place to place, in particular working or based in various places for relatively short periods.",
     meaningVi: "Hay đi đây đi đó.",
     exampleEn: "A peripatetic lifestyle.",
     exampleVi: "Một lối sống hay di chuyển.",
@@ -851,7 +839,7 @@ export const P1: VocabularyWord[] = [
     meaningVi: "Sự kiên trì; sự bền vững dữ liệu.",
     exampleEn: "Data persistence.",
     exampleVi: "Sự bền vững/lưu trữ dữ liệu lâu dài.",
-    categories: ["Technology", "Daily", "Academic"],
+    categories: ["Technology","Daily","Academic"],
   },
   {
     id: "gen-1076",
@@ -871,8 +859,7 @@ export const P1: VocabularyWord[] = [
     slug: "personal",
     phonetic: "/ˈpɜːr.sən.əl/",
     partOfSpeech: "adj",
-    meaningEn:
-      "Of, affecting, or belonging to a particular person rather than to anyone else.",
+    meaningEn: "Of, affecting, or belonging to a particular person rather than to anyone else.",
     meaningVi: "Cá nhân, riêng tư.",
     exampleEn: "A personal opinion.",
     exampleVi: "Ý kiến cá nhân.",
@@ -900,7 +887,7 @@ export const P1: VocabularyWord[] = [
     meaningVi: "Góc nhìn, quan điểm.",
     exampleEn: "Global perspective.",
     exampleVi: "Tầm nhìn toàn cầu.",
-    categories: ["Social", "Academic", "Daily", "Psychology"],
+    categories: ["Social","Academic","Daily","Psychology"],
   },
   {
     id: "c2-130",
@@ -936,7 +923,7 @@ export const P1: VocabularyWord[] = [
     meaningVi: "Hiệu thuốc.",
     exampleEn: "Get the medicine from the pharmacy.",
     exampleVi: "Hãy lấy thuốc từ hiệu thuốc.",
-    categories: ["Medical", "Daily"],
+    categories: ["Medical","Daily"],
   },
   {
     id: "c2-152",
@@ -944,12 +931,11 @@ export const P1: VocabularyWord[] = [
     slug: "phenomenology",
     phonetic: "/fəˌnɑː.məˈnɑː.lə.dʒi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An approach that concentrates on the study of consciousness and the objects of direct experience.",
+    meaningEn: "An approach that concentrates on the study of consciousness and the objects of direct experience.",
     meaningVi: "Hiện tượng học.",
     exampleEn: "Husserl's phenomenology.",
     exampleVi: "Hiện tượng học của Husserl.",
-    categories: ["Academic", "Philosophy"],
+    categories: ["Academic","Philosophy"],
   },
   {
     id: "c1-209",
@@ -961,7 +947,7 @@ export const P1: VocabularyWord[] = [
     meaningVi: "Hiện tượng.",
     exampleEn: "Natural phenomenon.",
     exampleVi: "Hiện tượng tự nhiên.",
-    categories: ["Academic", "Daily"],
+    categories: ["Academic","Daily"],
   },
   {
     id: "c2-57",
@@ -969,8 +955,7 @@ export const P1: VocabularyWord[] = [
     slug: "philanthropy",
     phonetic: "/fɪˈlæn.θrə.pi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The desire to promote the welfare of others, expressed by the generous donation of money.",
+    meaningEn: "The desire to promote the welfare of others, expressed by the generous donation of money.",
     meaningVi: "Lòng nhân từ, sự từ thiện.",
     exampleEn: "He devoted his fortune to philanthropy.",
     exampleVi: "Ông ấy đã dành tài sản của mình cho việc từ thiện.",
@@ -982,8 +967,7 @@ export const P1: VocabularyWord[] = [
     slug: "phlegmatic",
     phonetic: "/fleɡˈmæt.ɪk/",
     partOfSpeech: "adj",
-    meaningEn:
-      "(of a person) having an unemotional and stolidly calm disposition.",
+    meaningEn: "(of a person) having an unemotional and stolidly calm disposition.",
     meaningVi: "Phớt lờ, thản nhiên.",
     exampleEn: "A phlegmatic approach.",
     exampleVi: "Một cách tiếp cận thản nhiên.",
@@ -1035,7 +1019,7 @@ export const P1: VocabularyWord[] = [
     meaningVi: "Nhiếp ảnh gia",
     exampleEn: "He is a wedding photographer.",
     exampleVi: "Anh ấy là nhiếp ảnh gia chụp ảnh cưới.",
-    categories: ["Jobs", "Photography"],
+    categories: ["Jobs","Photography"],
   },
   {
     id: "gen-p12as",
@@ -1047,7 +1031,7 @@ export const P1: VocabularyWord[] = [
     meaningVi: "Cụm từ.",
     exampleEn: "A common phrase.",
     exampleVi: "Một cụm từ phổ biến.",
-    categories: ["General", "Academic"],
+    categories: ["General","Academic"],
   },
   {
     id: "b1-79",
@@ -1071,7 +1055,7 @@ export const P1: VocabularyWord[] = [
     meaningVi: "Nhà vật lý học",
     exampleEn: "She is a famous theoretical physicist.",
     exampleVi: "Cô ấy là một nhà vật lý lý thuyết nổi tiếng.",
-    categories: ["Jobs", "Physics", "Science"],
+    categories: ["Jobs","Physics","Science"],
   },
   {
     id: "a2-94",
@@ -1079,8 +1063,7 @@ export const P1: VocabularyWord[] = [
     slug: "physics",
     phonetic: "/ˈfɪz.ɪks/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The branch of science concerned with the nature and properties of matter and energy.",
+    meaningEn: "The branch of science concerned with the nature and properties of matter and energy.",
     meaningVi: "Vật lý.",
     exampleEn: "Physics explains how machines work.",
     exampleVi: "Vật lý giải thích cách máy móc vận hành.",
@@ -1159,6 +1142,18 @@ export const P1: VocabularyWord[] = [
     categories: ["Biology"],
   },
   {
+    id: "gen-90013",
+    word: "Pillow",
+    slug: "pillow",
+    phonetic: "/ˈpɪl.oʊ/",
+    partOfSpeech: "noun",
+    meaningEn: "A soft cushion used to support the head while sleeping.",
+    meaningVi: "Gối; vật mềm để kê đầu khi ngủ.",
+    exampleEn: "She fluffed the pillow before bed.",
+    exampleVi: "Cô ấy phồng gối trước khi ngủ.",
+    categories: ["Home","Daily"],
+  },
+  {
     id: "gen-1089",
     word: "Pilot",
     slug: "pilot",
@@ -1168,7 +1163,7 @@ export const P1: VocabularyWord[] = [
     meaningVi: "Phi công.",
     exampleEn: "Airline pilot.",
     exampleVi: "Phi công hàng không.",
-    categories: ["Business", "Travel"],
+    categories: ["Business","Travel"],
   },
   {
     id: "gen-1090",
@@ -1205,41 +1200,5 @@ export const P1: VocabularyWord[] = [
     exampleEn: "Placate an angry customer.",
     exampleVi: "Xoa dịu một khách hàng đang giận dữ.",
     categories: ["Social"],
-  },
-  {
-    id: "gen-1091",
-    word: "Place",
-    slug: "place",
-    phonetic: "/pleɪs/",
-    partOfSpeech: "noun/verb",
-    meaningEn: "A particular position or location.",
-    meaningVi: "Nơi.",
-    exampleEn: "A nice place.",
-    exampleVi: "Một nơi đẹp.",
-    categories: ["General"],
-  },
-  {
-    id: "a2-25",
-    word: "Plan",
-    slug: "plan",
-    phonetic: "/plæn/",
-    partOfSpeech: "noun/verb",
-    meaningEn: "A detailed proposal for doing or achieving something.",
-    meaningVi: "Kế hoạch.",
-    exampleEn: "I have a plan.",
-    exampleVi: "Tôi có một kế hoạch.",
-    categories: ["Daily"],
-  },
-  {
-    id: "gen-1093",
-    word: "Plane",
-    slug: "plane",
-    phonetic: "/pleɪn/",
-    partOfSpeech: "noun",
-    meaningEn: "An aircraft.",
-    meaningVi: "Máy bay.",
-    exampleEn: "Take a plane.",
-    exampleVi: "Đi máy bay.",
-    categories: ["Travel"],
-  },
+  }
 ];

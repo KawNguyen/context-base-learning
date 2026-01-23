@@ -2,6 +2,18 @@ import { VocabularyWord } from "../../types";
 
 export const B2: VocabularyWord[] = [
   {
+    id: "gen-2370",
+    word: "Bear",
+    slug: "bear",
+    phonetic: "/ber/",
+    partOfSpeech: "verb/noun",
+    meaningEn: "Carry, support, or endure something.",
+    meaningVi: "Chịu đựng/Con gấu.",
+    exampleEn: "I can't bear it.",
+    exampleVi: "Tôi không thể chịu nổi.",
+    categories: ["General","Biology","Emotions"],
+  },
+  {
     id: "gen-2371",
     word: "Beard",
     slug: "beard",
@@ -11,7 +23,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Râu.",
     exampleEn: "Long beard.",
     exampleVi: "Râu dài.",
-    categories: ["People", "Body"],
+    categories: ["People","Body"],
   },
   {
     id: "gen-2372",
@@ -23,7 +35,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Sự liên quan/Phương hướng.",
     exampleEn: "Lose your bearings.",
     exampleVi: "Mất phương hướng.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "gen-2373",
@@ -35,7 +47,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Thú dữ/Quái vật.",
     exampleEn: "Beauty and the Beast.",
     exampleVi: "Người đẹp và quái vật.",
-    categories: ["Biology", "Literature"],
+    categories: ["Biology","Literature"],
   },
   {
     id: "gen-2374",
@@ -47,7 +59,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Đánh bại/Nhịp đập.",
     exampleEn: "Heart beat.",
     exampleVi: "Nhịp tim.",
-    categories: ["General", "Medical", "Music"],
+    categories: ["General","Medical","Music"],
   },
   {
     id: "gen-2375",
@@ -59,7 +71,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Sự đánh đập/Nhịp đập.",
     exampleEn: "Heavy beating.",
     exampleVi: "Sự đánh đập nặng nề.",
-    categories: ["General", "Law"],
+    categories: ["General","Law"],
   },
   {
     id: "a1-85",
@@ -91,12 +103,11 @@ export const B2: VocabularyWord[] = [
     slug: "beauty",
     phonetic: "/ˈbjuː.t̬i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A combination of qualities, such as shape, color, or form, that pleases the aesthetic senses, especially the sight.",
+    meaningEn: "A combination of qualities, such as shape, color, or form, that pleases the aesthetic senses, especially the sight.",
     meaningVi: "Vẻ đẹp.",
     exampleEn: "Sleeping Beauty.",
     exampleVi: "Người đẹp ngủ trong rừng.",
-    categories: ["Beauty", "Art"],
+    categories: ["Beauty","Art"],
   },
   {
     id: "gen-2379",
@@ -116,12 +127,11 @@ export const B2: VocabularyWord[] = [
     slug: "beckon",
     phonetic: "/ˈbek.ən/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Make a gesture with the hand, arm, or head to encourage someone to come nearer or follow.",
+    meaningEn: "Make a gesture with the hand, arm, or head to encourage someone to come nearer or follow.",
     meaningVi: "Vẫy tay ra hiệu.",
     exampleEn: "Beckon someone over.",
     exampleVi: "Vẫy tay gọi ai đó lại.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-2381",
@@ -165,12 +175,11 @@ export const B2: VocabularyWord[] = [
     slug: "bedrock",
     phonetic: "/ˈbed.rɑːk/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The solid rock underlying loose deposits such as soil or alluvium.",
+    meaningEn: "The solid rock underlying loose deposits such as soil or alluvium.",
     meaningVi: "Nền tảng vững chắc.",
     exampleEn: "The bedrock of our society.",
     exampleVi: "Nền tảng vững chắc của xã hội chúng ta.",
-    categories: ["Geology", "Environment"],
+    categories: ["Geology","Environment"],
   },
   {
     id: "a1-194",
@@ -182,7 +191,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Phòng ngủ.",
     exampleEn: "Go to your bedroom and sleep!",
     exampleVi: "Hãy đi về phòng ngủ và ngủ đi!",
-    categories: ["Daily", "Home"],
+    categories: ["Daily","Home"],
   },
   {
     id: "gen-2384",
@@ -202,12 +211,11 @@ export const B2: VocabularyWord[] = [
     slug: "bee",
     phonetic: "/biː/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A stinging winged insect which collects nectar and pollen, produces wax and honey, and lives in large communities.",
+    meaningEn: "A stinging winged insect which collects nectar and pollen, produces wax and honey, and lives in large communities.",
     meaningVi: "Con ong.",
     exampleEn: "Honey bee.",
     exampleVi: "Ong mật.",
-    categories: ["Biology", "Environment"],
+    categories: ["Biology","Environment"],
   },
   {
     id: "gen-2386",
@@ -227,12 +235,11 @@ export const B2: VocabularyWord[] = [
     slug: "beer",
     phonetic: "/bɪr/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An alcoholic drink made from yeast-fermented malt flavored with hops.",
+    meaningEn: "An alcoholic drink made from yeast-fermented malt flavored with hops.",
     meaningVi: "Bia.",
     exampleEn: "Cold beer.",
     exampleVi: "Bia lạnh.",
-    categories: ["Food & Drink", "Daily"],
+    categories: ["Food & Drink","Daily"],
   },
   {
     id: "gen-2388",
@@ -240,12 +247,11 @@ export const B2: VocabularyWord[] = [
     slug: "beetle",
     phonetic: "/ˈbiː.t̬əl/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "An insect of an order distinguished by forewings typically modified into hard wing cases.",
+    meaningEn: "An insect of an order distinguished by forewings typically modified into hard wing cases.",
     meaningVi: "Con bọ cánh cứng.",
     exampleEn: "Dung beetle.",
     exampleVi: "Bọ hung.",
-    categories: ["Biology", "Environment"],
+    categories: ["Biology","Environment"],
   },
   {
     id: "gen-2389",
@@ -257,7 +263,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Xảy ra với.",
     exampleEn: "Tragedy befall them.",
     exampleVi: "Bi kịch xảy đến với họ.",
-    categories: ["General", "Emotions"],
+    categories: ["General","Emotions"],
   },
   {
     id: "gen-2390",
@@ -265,8 +271,7 @@ export const B2: VocabularyWord[] = [
     slug: "before",
     phonetic: "/bɪˈfɔːr/",
     partOfSpeech: "preposition/conjunction/adverb",
-    meaningEn:
-      "During the period of time preceding a particular event, date, or time.",
+    meaningEn: "During the period of time preceding a particular event, date, or time.",
     meaningVi: "Trước khi.",
     exampleEn: "Before sunrise.",
     exampleVi: "Trước khi mặt trời mọc.",
@@ -294,7 +299,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Cầu xin/Ăn xin.",
     exampleEn: "Beg for mercy.",
     exampleVi: "Cầu xin lòng khoan dung.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-2393",
@@ -302,12 +307,11 @@ export const B2: VocabularyWord[] = [
     slug: "beggar",
     phonetic: "/ˈbeɡ.ɚ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A person, typically a homeless one, who lives by asking for money or food.",
+    meaningEn: "A person, typically a homeless one, who lives by asking for money or food.",
     meaningVi: "Người ăn xin.",
     exampleEn: "A poor beggar.",
     exampleVi: "Một người ăn xin nghèo khổ.",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-2394",
@@ -315,8 +319,7 @@ export const B2: VocabularyWord[] = [
     slug: "begin",
     phonetic: "/bɪˈɡɪn/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Start; perform or undergo the first part of an action or activity.",
+    meaningEn: "Start; perform or undergo the first part of an action or activity.",
     meaningVi: "Bắt đầu.",
     exampleEn: "Begin the journey.",
     exampleVi: "Bắt đầu hành trình.",
@@ -328,12 +331,11 @@ export const B2: VocabularyWord[] = [
     slug: "beginner",
     phonetic: "/bɪˈɡɪn.ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person just starting to learn a skill or take part in an activity.",
+    meaningEn: "A person just starting to learn a skill or take part in an activity.",
     meaningVi: "Người mới bắt đầu.",
     exampleEn: "Absolute beginner.",
     exampleVi: "Người mới bắt đầu hoàn toàn.",
-    categories: ["General", "Education"],
+    categories: ["General","Education"],
   },
   {
     id: "gen-2396",
@@ -357,7 +359,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Thay mặt/Nhân danh.",
     exampleEn: "On behalf of.",
     exampleVi: "Thay mặt cho.",
-    categories: ["Social", "General"],
+    categories: ["Social","General"],
   },
   {
     id: "gen-2398",
@@ -365,12 +367,11 @@ export const B2: VocabularyWord[] = [
     slug: "behave",
     phonetic: "/bɪˈheɪv/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Act or conduct oneself in a specified way, especially toward others.",
+    meaningEn: "Act or conduct oneself in a specified way, especially toward others.",
     meaningVi: "Cư xử.",
     exampleEn: "Behave yourself.",
     exampleVi: "Hãy cư xử cho đúng mực.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "b1-130",
@@ -378,8 +379,7 @@ export const B2: VocabularyWord[] = [
     slug: "behavior",
     phonetic: "/bɪˈheɪ.vjər/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The way in which one acts or conducts oneself, especially toward others.",
+    meaningEn: "The way in which one acts or conducts oneself, especially toward others.",
     meaningVi: "Hành vi, thái độ.",
     exampleEn: "His behavior was unacceptable.",
     exampleVi: "Hành vi của anh ta là không thể chấp nhận được.",
@@ -395,7 +395,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Hành vi (Cách viết của người Anh).",
     exampleEn: "Social behaviour.",
     exampleVi: "Hành vi xã hội.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-2401",
@@ -403,8 +403,7 @@ export const B2: VocabularyWord[] = [
     slug: "behind",
     phonetic: "/bɪˈhaɪnd/",
     partOfSpeech: "preposition/adverb/noun",
-    meaningEn:
-      "At or to the far side of something, typically so as to be hidden by it.",
+    meaningEn: "At or to the far side of something, typically so as to be hidden by it.",
     meaningVi: "Đằng sau.",
     exampleEn: "Behind the scenes.",
     exampleVi: "Phía sau hậu trường.",
@@ -420,7 +419,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Sự tồn tại/Sinh vật.",
     exampleEn: "Human being.",
     exampleVi: "Con người.",
-    categories: ["General", "Philosophy", "People"],
+    categories: ["General","Philosophy","People"],
   },
   {
     id: "gen-2403",
@@ -432,7 +431,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Muộn màng.",
     exampleEn: "Belated birthday wish.",
     exampleVi: "Lời chúc mừng sinh nhật muộn.",
-    categories: ["General", "Daily"],
+    categories: ["General","Daily"],
   },
   {
     id: "gen-79",
@@ -440,12 +439,11 @@ export const B2: VocabularyWord[] = [
     slug: "belief",
     phonetic: "/bɪˈliːf/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An acceptance that a statement is true or that something exists.",
+    meaningEn: "An acceptance that a statement is true or that something exists.",
     meaningVi: "Niềm tin.",
     exampleEn: "It's my belief that he is innocent.",
     exampleVi: "Tôi tin rằng anh ấy vô tội.",
-    categories: ["General", "Philosophy"],
+    categories: ["General","Philosophy"],
   },
   {
     id: "a2-77",
@@ -465,12 +463,11 @@ export const B2: VocabularyWord[] = [
     slug: "bell",
     phonetic: "/bel/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A hollow object, typically made of metal and having the shape of a deep inverted cup fluttering free or struck by a internal clapper, which emits a musical note of striking.",
+    meaningEn: "A hollow object, typically made of metal and having the shape of a deep inverted cup fluttering free or struck by a internal clapper, which emits a musical note of striking.",
     meaningVi: "Cái chuông.",
     exampleEn: "School bell.",
     exampleVi: "Chuông trường.",
-    categories: ["General", "Home"],
+    categories: ["General","Home"],
   },
   {
     id: "gen-80",
@@ -494,7 +491,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Đồ dùng cá nhân/Tài sản.",
     exampleEn: "Personal belongings.",
     exampleVi: "Đồ dùng cá nhân.",
-    categories: ["General", "Home"],
+    categories: ["General","Home"],
   },
   {
     id: "gen-2409",
@@ -506,7 +503,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Được yêu mến.",
     exampleEn: "Beloved leader.",
     exampleVi: "Vị lãnh tụ kính yêu.",
-    categories: ["General", "Emotions"],
+    categories: ["General","Emotions"],
   },
   {
     id: "gen-2410",
@@ -526,12 +523,11 @@ export const B2: VocabularyWord[] = [
     slug: "belt",
     phonetic: "/belt/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A strip of leather or other material worn around the waist or across the chest, especially in order to support clothes or carry weapons.",
+    meaningEn: "A strip of leather or other material worn around the waist or across the chest, especially in order to support clothes or carry weapons.",
     meaningVi: "Thắt lưng.",
     exampleEn: "Seat belt.",
     exampleVi: "Dây an toàn.",
-    categories: ["General", "Fashion"],
+    categories: ["General","Fashion"],
   },
   {
     id: "gen-2412",
@@ -539,12 +535,11 @@ export const B2: VocabularyWord[] = [
     slug: "bench",
     phonetic: "/bentʃ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A long seat for several people, typically made of wood or stone.",
+    meaningEn: "A long seat for several people, typically made of wood or stone.",
     meaningVi: "Ghế dự bị/Ghế băng.",
     exampleEn: "Park bench.",
     exampleVi: "Ghế băng trong công viên.",
-    categories: ["General", "Sports"],
+    categories: ["General","Sports"],
   },
   {
     id: "gen-2413",
@@ -552,12 +547,11 @@ export const B2: VocabularyWord[] = [
     slug: "benchmark",
     phonetic: "/ˈbentʃ.mɑːrk/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A standard or point of reference against which things may be compared or assessed.",
+    meaningEn: "A standard or point of reference against which things may be compared or assessed.",
     meaningVi: "Điểm chuẩn/Tiêu chuẩn.",
     exampleEn: "Performance benchmark.",
     exampleVi: "Tiêu chuẩn đánh giá hiệu năng.",
-    categories: ["General", "Business", "Technology"],
+    categories: ["General","Business","Technology"],
   },
   {
     id: "gen-2414",
@@ -565,8 +559,7 @@ export const B2: VocabularyWord[] = [
     slug: "bend",
     phonetic: "/bend/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Shape or force something crooked or angular into a curve or a straight line.",
+    meaningEn: "Shape or force something crooked or angular into a curve or a straight line.",
     meaningVi: "Uốn cong.",
     exampleEn: "Bend rules.",
     exampleVi: "Lách luật.",
@@ -578,8 +571,7 @@ export const B2: VocabularyWord[] = [
     slug: "beneath",
     phonetic: "/bɪˈniːθ/",
     partOfSpeech: "preposition/adverb",
-    meaningEn:
-      "Extending or directly underneath, typically with close contact.",
+    meaningEn: "Extending or directly underneath, typically with close contact.",
     meaningVi: "Bên dưới.",
     exampleEn: "Beneath the surface.",
     exampleVi: "Bên dưới bề mặt.",
@@ -603,12 +595,11 @@ export const B2: VocabularyWord[] = [
     slug: "beneficiary",
     phonetic: "/ˌben.əˈfɪʃ.i.er.i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who derives advantage from something, especially a trust, will, or life insurance policy.",
+    meaningEn: "A person who derives advantage from something, especially a trust, will, or life insurance policy.",
     meaningVi: "Người thụ hưởng.",
     exampleEn: "Policy beneficiary.",
     exampleVi: "Người thụ hưởng hợp đồng bảo hiểm.",
-    categories: ["Business", "Finance", "Law"],
+    categories: ["Business","Finance","Law"],
   },
   {
     id: "c1-72",
@@ -632,7 +623,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Lòng nhân từ.",
     exampleEn: "Acts of benevolence.",
     exampleVi: "Những hành động nhân từ.",
-    categories: ["Social", "Daily"],
+    categories: ["Social","Daily"],
   },
   {
     id: "c2-9",
@@ -680,7 +671,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Quả mọng.",
     exampleEn: "Straw berry.",
     exampleVi: "Dâu tây.",
-    categories: ["Food & Drink", "Biology"],
+    categories: ["Food & Drink","Biology"],
   },
   {
     id: "gen-2423",
@@ -712,12 +703,11 @@ export const B2: VocabularyWord[] = [
     slug: "besiege",
     phonetic: "/bɪˈsiːdʒ/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Surround a place with armed forces in order to capture it or force its surrender.",
+    meaningEn: "Surround a place with armed forces in order to capture it or force its surrender.",
     meaningVi: "Bao vây.",
     exampleEn: "Besiege a city.",
     exampleVi: "Bao vây thành phố.",
-    categories: ["Politics", "Social"],
+    categories: ["Politics","Social"],
   },
   {
     id: "gen-2426",
@@ -725,8 +715,7 @@ export const B2: VocabularyWord[] = [
     slug: "best",
     phonetic: "/best/",
     partOfSpeech: "adjective/adverb/noun/verb",
-    meaningEn:
-      "Of the most excellent, effective, or desirable type or quality.",
+    meaningEn: "Of the most excellent, effective, or desirable type or quality.",
     meaningVi: "Tốt nhất.",
     exampleEn: "Best friend.",
     exampleVi: "Bạn thân nhất.",
@@ -742,7 +731,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Ban tặng.",
     exampleEn: "Bestow a title.",
     exampleVi: "Ban tặng một tước hiệu.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-2428",
@@ -750,12 +739,11 @@ export const B2: VocabularyWord[] = [
     slug: "bet",
     phonetic: "/bet/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Risk a sum of money or valued item against someone else's on the basis of the outcome of an unpredictable event such as a race or game.",
+    meaningEn: "Risk a sum of money or valued item against someone else's on the basis of the outcome of an unpredictable event such as a race or game.",
     meaningVi: "Đặt cược.",
     exampleEn: "Bet on the horse.",
     exampleVi: "Đặt cược vào con ngựa đó.",
-    categories: ["Finance", "Social", "Sports"],
+    categories: ["Finance","Social","Sports"],
   },
   {
     id: "gen-2429",
@@ -763,12 +751,11 @@ export const B2: VocabularyWord[] = [
     slug: "betray",
     phonetic: "/bɪˈtreɪ/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Expose one's country, group, or a person to danger by treacherously giving information to an enemy.",
+    meaningEn: "Expose one's country, group, or a person to danger by treacherously giving information to an enemy.",
     meaningVi: "Phản bội.",
     exampleEn: "Betray a secret.",
     exampleVi: "Tiết lộ bí mật.",
-    categories: ["Emotions", "Social"],
+    categories: ["Emotions","Social"],
   },
   {
     id: "gen-83",
@@ -776,12 +763,11 @@ export const B2: VocabularyWord[] = [
     slug: "betrayal",
     phonetic: "/bɪˈtreɪ.əl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action of betraying one's country, a group, or a person; treachery.",
+    meaningEn: "The action of betraying one's country, a group, or a person; treachery.",
     meaningVi: "Sự phản bội.",
     exampleEn: "She felt a sense of betrayal.",
     exampleVi: "Cô ấy cảm thấy bị phản bội.",
-    categories: ["General", "Emotions"],
+    categories: ["General","Emotions"],
   },
   {
     id: "gen-2430",
@@ -801,8 +787,7 @@ export const B2: VocabularyWord[] = [
     slug: "between",
     phonetic: "/bɪˈtwiːn/",
     partOfSpeech: "preposition/adverb",
-    meaningEn:
-      "At, into, or across the space separating two objects or regions.",
+    meaningEn: "At, into, or across the space separating two objects or regions.",
     meaningVi: "Ở giữa.",
     exampleEn: "Between two worlds.",
     exampleVi: "Giữa hai thế giới.",
@@ -818,7 +803,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Đồ uống.",
     exampleEn: "Soft beverage.",
     exampleVi: "Đồ uống nhẹ.",
-    categories: ["Food & Drink", "Daily"],
+    categories: ["Food & Drink","Daily"],
   },
   {
     id: "gen-2433",
@@ -842,7 +827,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Làm bối rối.",
     exampleEn: "Bewilder the observer.",
     exampleVi: "Làm người quan sát bối rối.",
-    categories: ["Emotions", "General"],
+    categories: ["Emotions","General"],
   },
   {
     id: "c1-164",
@@ -874,8 +859,7 @@ export const B2: VocabularyWord[] = [
     slug: "bias",
     phonetic: "/ˈbaɪ.əs/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "Prejudice in favor of or against one thing, person, or group compared with another, usually in a way considered to be unfair.",
+    meaningEn: "Prejudice in favor of or against one thing, person, or group compared with another, usually in a way considered to be unfair.",
     meaningVi: "Thành kiến, thiên vị.",
     exampleEn: "Political bias.",
     exampleVi: "Thành kiến chính trị.",
@@ -891,7 +875,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Có thành kiến.",
     exampleEn: "Biased reporting.",
     exampleVi: "Báo cáo có thiên kiến.",
-    categories: ["Media", "Social"],
+    categories: ["Media","Social"],
   },
   {
     id: "gen-2438",
@@ -899,12 +883,11 @@ export const B2: VocabularyWord[] = [
     slug: "bible",
     phonetic: "/ˈbaɪ.bəl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The Christian scriptures, consisting of the Old and New Testaments.",
+    meaningEn: "The Christian scriptures, consisting of the Old and New Testaments.",
     meaningVi: "Kinh Thánh.",
     exampleEn: "Holy Bible.",
     exampleVi: "Kinh Thánh linh thiêng.",
-    categories: ["Social", "Education"],
+    categories: ["Social","Education"],
   },
   {
     id: "gen-2439",
@@ -916,7 +899,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Thuộc về Kinh Thánh.",
     exampleEn: "Biblical research.",
     exampleVi: "Nghiên cứu về Kinh Thánh.",
-    categories: ["Social", "Education"],
+    categories: ["Social","Education"],
   },
   {
     id: "gen-2440",
@@ -924,12 +907,11 @@ export const B2: VocabularyWord[] = [
     slug: "bibliography",
     phonetic: "/ˌbɪb.liˈɑː.ɡrə.fi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A list of the books referred to in a scholarly work, typically printed as an appendix.",
+    meaningEn: "A list of the books referred to in a scholarly work, typically printed as an appendix.",
     meaningVi: "Thư mục tài liệu tham khảo.",
     exampleEn: "Annotated bibliography.",
     exampleVi: "Thư mục có chú giải.",
-    categories: ["Education", "Literature"],
+    categories: ["Education","Literature"],
   },
   {
     id: "a1-24",
@@ -937,8 +919,7 @@ export const B2: VocabularyWord[] = [
     slug: "bicycle",
     phonetic: "/ˈbaɪ.sə.kl̩/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A vehicle consisting of two wheels held in a frame one behind the other.",
+    meaningEn: "A vehicle consisting of two wheels held in a frame one behind the other.",
     meaningVi: "Xe đạp.",
     exampleEn: "He rides a bicycle to school.",
     exampleVi: "Cậu ấy đi xe đạp đến trường.",
@@ -954,7 +935,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Đấu giá/Chào giá.",
     exampleEn: "Highest bid.",
     exampleVi: "Mức giá cao nhất được đưa ra.",
-    categories: ["Business", "Finance"],
+    categories: ["Business","Finance"],
   },
   {
     id: "gen-2443",
@@ -962,12 +943,11 @@ export const B2: VocabularyWord[] = [
     slug: "bidder",
     phonetic: "/ˈbɪd.ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person or organization that makes a formal offer for something.",
+    meaningEn: "A person or organization that makes a formal offer for something.",
     meaningVi: "Người đấu giá.",
     exampleEn: "Winning bidder.",
     exampleVi: "Người thắng cuộc đấu giá.",
-    categories: ["People", "Business"],
+    categories: ["People","Business"],
   },
   {
     id: "gen-2444",
@@ -975,12 +955,11 @@ export const B2: VocabularyWord[] = [
     slug: "bidding",
     phonetic: "/ˈbɪd.ɪŋ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The offering of particular prices for something, especially at an auction.",
+    meaningEn: "The offering of particular prices for something, especially at an auction.",
     meaningVi: "Sự đấu giá.",
     exampleEn: "Auction bidding.",
     exampleVi: "Đấu giá tại cuộc đấu giá.",
-    categories: ["Business", "Finance"],
+    categories: ["Business","Finance"],
   },
   {
     id: "a1-36",
@@ -1004,7 +983,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Xe đạp/Xe máy.",
     exampleEn: "Mountain bike.",
     exampleVi: "Xe đạp địa hình.",
-    categories: ["Travel", "Sports"],
+    categories: ["Travel","Sports"],
   },
   {
     id: "gen-2447",
@@ -1016,7 +995,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Đồ bơi hai mảnh.",
     exampleEn: "Red bikini.",
     exampleVi: "Bộ bikini màu đỏ.",
-    categories: ["Fashion", "Sports"],
+    categories: ["Fashion","Sports"],
   },
   {
     id: "gen-2448",
@@ -1028,7 +1007,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Song phương.",
     exampleEn: "Bilateral agreement.",
     exampleVi: "Thỏa thuận song phương.",
-    categories: ["Politics", "Business"],
+    categories: ["Politics","Business"],
   },
   {
     id: "gen-2449",
@@ -1040,7 +1019,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Song ngữ.",
     exampleEn: "Bilingual education.",
     exampleVi: "Giáo dục song ngữ.",
-    categories: ["Education", "People"],
+    categories: ["Education","People"],
   },
   {
     id: "gen-2450",
@@ -1048,12 +1027,11 @@ export const B2: VocabularyWord[] = [
     slug: "bill",
     phonetic: "/bɪl/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "An amount of money owed for goods supplied or services rendered, set out in a printed or written statement of charges.",
+    meaningEn: "An amount of money owed for goods supplied or services rendered, set out in a printed or written statement of charges.",
     meaningVi: "Hóa đơn/Dự luật.",
     exampleEn: "Electric bill.",
     exampleVi: "Hóa đơn tiền điện.",
-    categories: ["Finance", "Politics", "Law"],
+    categories: ["Finance","Politics","Law"],
   },
   {
     id: "gen-2451",
@@ -1065,7 +1043,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Tỷ.",
     exampleEn: "One billion dollars.",
     exampleVi: "Một tỷ đô la.",
-    categories: ["Finance", "Mathematics"],
+    categories: ["Finance","Mathematics"],
   },
   {
     id: "gen-2452",
@@ -1073,12 +1051,11 @@ export const B2: VocabularyWord[] = [
     slug: "bin",
     phonetic: "/bɪn/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A large container or enclosed space for storing something in bulk.",
+    meaningEn: "A large container or enclosed space for storing something in bulk.",
     meaningVi: "Thùng rác/Thùng chứa.",
     exampleEn: "Recycling bin.",
     exampleVi: "Thùng rác tái chế.",
-    categories: ["General", "Environment"],
+    categories: ["General","Environment"],
   },
   {
     id: "gen-2453",
@@ -1090,7 +1067,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Nhị phân.",
     exampleEn: "Binary code.",
     exampleVi: "Mã nhị phân.",
-    categories: ["Technology", "Mathematics", "Technology"],
+    categories: ["Technology","Mathematics","Technology"],
   },
   {
     id: "gen-2454",
@@ -1102,7 +1079,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Liên kết/Ràng buộc.",
     exampleEn: "Bind documents.",
     exampleVi: "Đóng tập hồ sơ.",
-    categories: ["General", "Law"],
+    categories: ["General","Law"],
   },
   {
     id: "gen-2455",
@@ -1114,7 +1091,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Sự ràng buộc/Đóng bìa sách.",
     exampleEn: "Legally binding agreement.",
     exampleVi: "Thỏa thuận ràng buộc về mặt pháp lý.",
-    categories: ["Law", "General"],
+    categories: ["Law","General"],
   },
   {
     id: "gen-2456",
@@ -1126,7 +1103,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Người viết tiểu sử.",
     exampleEn: "Official biographer.",
     exampleVi: "Người viết tiểu sử chính thức.",
-    categories: ["People", "Literature"],
+    categories: ["People","Literature"],
   },
   {
     id: "gen-2457",
@@ -1138,7 +1115,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Tiểu sử.",
     exampleEn: "Authorized biography.",
     exampleVi: "Tiểu sử được ủy quyền.",
-    categories: ["Literature", "History"],
+    categories: ["Literature","History"],
   },
   {
     id: "c2-213",
@@ -1150,7 +1127,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Tin sinh học.",
     exampleEn: "Bioinformatics research.",
     exampleVi: "Nghiên cứu tin sinh học.",
-    categories: ["Technology", "Medical", "Academic"],
+    categories: ["Technology","Medical","Academic"],
   },
   {
     id: "gen-84",
@@ -1162,7 +1139,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Thuộc về sinh học.",
     exampleEn: "Biological research is important.",
     exampleVi: "Nghiên cứu sinh học rất quan trọng.",
-    categories: ["Biology", "Science"],
+    categories: ["Biology","Science"],
   },
   {
     id: "job-013",
@@ -1174,7 +1151,7 @@ export const B2: VocabularyWord[] = [
     meaningVi: "Nhà sinh vật học.",
     exampleEn: "The biologist studied marine life.",
     exampleVi: "Nhà sinh vật học nghiên cứu đời sống biển.",
-    categories: ["Jobs", "Science"],
+    categories: ["Jobs","Science"],
   },
   {
     id: "a2-92",
@@ -1194,12 +1171,11 @@ export const B2: VocabularyWord[] = [
     slug: "biometrics",
     phonetic: "/ˌbaɪ.oʊˈmet.rɪks/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The measurement and analysis of people's unique physical and behavioral characteristics.",
+    meaningEn: "The measurement and analysis of people's unique physical and behavioral characteristics.",
     meaningVi: "Sinh trắc học.",
     exampleEn: "Biometric screening.",
     exampleVi: "Sàng lọc sinh trắc học.",
-    categories: ["Technology", "Science"],
+    categories: ["Technology","Science"],
   },
   {
     id: "gen-2461",
@@ -1207,8 +1183,7 @@ export const B2: VocabularyWord[] = [
     slug: "bipartisan",
     phonetic: "/ˌbaɪˈpɑːr.t̬ə.zən/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Of or involving the agreement or cooperation of two political parties that usually oppose each other's policies.",
+    meaningEn: "Of or involving the agreement or cooperation of two political parties that usually oppose each other's policies.",
     meaningVi: "Lưỡng đảng.",
     exampleEn: "Bipartisan support.",
     exampleVi: "Sự ủng hộ của cả hai đảng.",
@@ -1220,75 +1195,10 @@ export const B2: VocabularyWord[] = [
     slug: "bird",
     phonetic: "/bɜrd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A warm-blooded egg-laying vertebrate animal distinguished by the possession of feathers, wings, and a beak.",
+    meaningEn: "A warm-blooded egg-laying vertebrate animal distinguished by the possession of feathers, wings, and a beak.",
     meaningVi: "Chim.",
     exampleEn: "I saw a beautiful bird in the garden.",
     exampleVi: "Tôi thấy một con chim đẹp trong vườn.",
     categories: ["Daily"],
-  },
-  {
-    id: "gen-86",
-    word: "Birth",
-    slug: "birth",
-    phonetic: "/bɜːrθ/",
-    partOfSpeech: "noun",
-    meaningEn:
-      "The emergence of a baby or other young from the body of its mother.",
-    meaningVi: "Sự sinh ra.",
-    exampleEn: "The birth of a child is a joyful event.",
-    exampleVi: "Sự chào đời của một đứa trẻ là sự kiện vui mừng.",
-    categories: ["Family", "Medical"],
-  },
-  {
-    id: "gen-87",
-    word: "Birthday",
-    slug: "birthday",
-    phonetic: "/ˈbɜːrθ.deɪ/",
-    partOfSpeech: "noun",
-    meaningEn: "The anniversary of the day on which a person was born.",
-    meaningVi: "Sinh nhật.",
-    exampleEn: "Happy birthday!",
-    exampleVi: "Chúc mừng sinh nhật!",
-    categories: ["Daily", "Social"],
-  },
-  {
-    id: "gen-2462",
-    word: "Bizarre",
-    slug: "bizarre",
-    phonetic: "/bɪˈzɑːr/",
-    partOfSpeech: "adjective",
-    meaningEn:
-      "Very strange or unusual, especially so as to cause interest or amusement.",
-    meaningVi: "Kỳ quái.",
-    exampleEn: "Bizarre behavior.",
-    exampleVi: "Hành vi kỳ quái.",
-    categories: ["General"],
-  },
-  {
-    id: "a1-46",
-    word: "Black",
-    slug: "black",
-    phonetic: "/blæk/",
-    partOfSpeech: "adjective",
-    meaningEn:
-      "Of the very darkest color owing to the absence of or complete absorption of light.",
-    meaningVi: "Màu đen.",
-    exampleEn: "He is wearing a black coat.",
-    exampleVi: "Anh ấy đang mặc một chiếc áo khoác màu đen.",
-    categories: ["Daily"],
-  },
-  {
-    id: "gen-2464sad",
-    word: "Blackmail",
-    slug: "blackmail",
-    phonetic: "/ˈblæk.meɪl/",
-    partOfSpeech: "noun/verb",
-    meaningEn:
-      "The action, treated as a criminal offense, of demanding money or another benefit from someone in return for not revealing compromising or damaging information about them.",
-    meaningVi: "Sự tống tiền.",
-    exampleEn: "He was arrested for blackmail.",
-    exampleVi: "Anh ta đã bị bắt vì tội tống tiền.",
-    categories: ["Law", "Crime"],
-  },
+  }
 ];

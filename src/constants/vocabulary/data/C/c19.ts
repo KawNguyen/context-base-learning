@@ -2,17 +2,40 @@ import { VocabularyWord } from "../../types";
 
 export const C19: VocabularyWord[] = [
   {
+    id: "gen-4479",
+    word: "Croakily",
+    slug: "croakily",
+    phonetic: "/ˈkroʊ.kɪ.li/",
+    partOfSpeech: "adverb",
+    meaningEn: "In a croaky manner.",
+    meaningVi: "Với giọng khàn khàn.",
+    exampleEn: "Spoke croakily.",
+    exampleVi: "Nói với giọng khàn đặc.",
+    categories: ["General"],
+  },
+  {
+    id: "gen-4480",
+    word: "Croaky",
+    slug: "croaky",
+    phonetic: "/ˈkroʊ.ki/",
+    partOfSpeech: "adjective",
+    meaningEn: "(of a person's voice) deep and hoarse.",
+    meaningVi: "Khàn khàn.",
+    exampleEn: "A croaky throat.",
+    exampleVi: "Cổ họng bị khàn.",
+    categories: ["General","Medical"],
+  },
+  {
     id: "gen-4481",
     word: "Crochet",
     slug: "crochet",
     phonetic: "/kroʊˈʃeɪ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A handicraft in which yarn is made into a patterned fabric by looping it with a hooked needle.",
+    meaningEn: "A handicraft in which yarn is made into a patterned fabric by looping it with a hooked needle.",
     meaningVi: "Sự đan móc/Thêu móc.",
     exampleEn: "Learn to crochet.",
     exampleVi: "Học đan móc.",
-    categories: ["Daily", "Art"],
+    categories: ["Daily","Art"],
   },
   {
     id: "gen-4482",
@@ -24,7 +47,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Bình sành/Hũ sành/Con vật già yếu/Người lụ khụ.",
     exampleEn: "Crock of gold.",
     exampleVi: "Hũ vàng.",
-    categories: ["Daily", "General", "Home"],
+    categories: ["Daily","General","Home"],
   },
   {
     id: "gen-4483",
@@ -32,12 +55,11 @@ export const C19: VocabularyWord[] = [
     slug: "crockery",
     phonetic: "/ˈkrɑː.kɚ.i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Plates, dishes, cups, and other similar items, especially ones made of earthenware or china.",
+    meaningEn: "Plates, dishes, cups, and other similar items, especially ones made of earthenware or china.",
     meaningVi: "Bát đĩa sứ/Đồ sành sứ.",
     exampleEn: "Wash the crockery.",
     exampleVi: "Rửa bát đĩa.",
-    categories: ["Daily", "Home"],
+    categories: ["Daily","Home"],
   },
   {
     id: "gen-4484",
@@ -45,12 +67,11 @@ export const C19: VocabularyWord[] = [
     slug: "crocodile",
     phonetic: "/ˈkrɑː.kə.daɪl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A large predatory semiaquatic reptile with long jaws, a long tail, short legs, and a horny textured skin.",
+    meaningEn: "A large predatory semiaquatic reptile with long jaws, a long tail, short legs, and a horny textured skin.",
     meaningVi: "Con cá sấu/Hàng (người) đi đôi.",
     exampleEn: "Crocodile tears.",
     exampleVi: "Nước mắt cá sấu (giả tạo).",
-    categories: ["Animals", "Nature", "General"],
+    categories: ["Animals","Nature","General"],
   },
   {
     id: "gen-4485",
@@ -58,24 +79,11 @@ export const C19: VocabularyWord[] = [
     slug: "crocus",
     phonetic: "/ˈkroʊ.kəs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A small, spring-flowering plant of the iris family, which grows from a corn and has large purple, yellow, or white flowers.",
+    meaningEn: "A small, spring-flowering plant of the iris family, which grows from a corn and has large purple, yellow, or white flowers.",
     meaningVi: "Hoa nghệ tây.",
     exampleEn: "Blooming crocus.",
     exampleVi: "Hoa nghệ tây đang nở.",
-    categories: ["Nature", "Plants"],
-  },
-  {
-    id: "gen-212",
-    word: "Croissant",
-    slug: "croissant",
-    phonetic: "/ˈkrwɑː.sɑːn/",
-    partOfSpeech: "noun",
-    meaningEn: "A flaky, buttery, crescent-shaped pastry.",
-    meaningVi: "Bánh sừng bò (bánh mì Pháp hình lưỡi liềm).",
-    exampleEn: "Eat a croissant for breakfast.",
-    exampleVi: "Ăn bánh sừng bò cho bữa sáng.",
-    categories: ["Food & Drink", "Daily"],
+    categories: ["Nature","Plants"],
   },
   {
     id: "gen-4486",
@@ -87,7 +95,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Trang trại nhỏ (đi thuê ở Scotland).",
     exampleEn: "Life on a croft.",
     exampleVi: "Cuộc sống trong một trang trại nhỏ.",
-    categories: ["Geography", "History", "Business"],
+    categories: ["Geography","History","Business"],
   },
   {
     id: "gen-4487",
@@ -99,7 +107,19 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Người thuê trang trại nhỏ.",
     exampleEn: "Scottish crofter.",
     exampleVi: "Người thuê trang trại ở Scotland.",
-    categories: ["People", "Business"],
+    categories: ["People","Business"],
+  },
+  {
+    id: "gen-212",
+    word: "Croissant",
+    slug: "croissant",
+    phonetic: "/ˈkrwɑː.sɑːn/",
+    partOfSpeech: "noun",
+    meaningEn: "A flaky, buttery, crescent-shaped pastry.",
+    meaningVi: "Bánh sừng bò (bánh mì Pháp hình lưỡi liềm).",
+    exampleEn: "Eat a croissant for breakfast.",
+    exampleVi: "Ăn bánh sừng bò cho bữa sáng.",
+    categories: ["Food & Drink","Daily"],
   },
   {
     id: "gen-4488",
@@ -107,12 +127,11 @@ export const C19: VocabularyWord[] = [
     slug: "cromlech",
     phonetic: "/ˈkrɑːm.lek/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A megalithic tomb consisting of a large flat stone laid on upright ones.",
+    meaningEn: "A megalithic tomb consisting of a large flat stone laid on upright ones.",
     meaningVi: "Mộ đá khổng lồ (cổ đại).",
     exampleEn: "Ancient cromlech.",
     exampleVi: "Mộ đá cổ đại.",
-    categories: ["History", "Architecture"],
+    categories: ["History","Architecture"],
   },
   {
     id: "gen-4489",
@@ -124,7 +143,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Mụ già lụ khụ/Mụ phù thủy già.",
     exampleEn: "A wizened crone.",
     exampleVi: "Một mụ già nhăn nheo.",
-    categories: ["People", "Body"],
+    categories: ["People","Body"],
   },
   {
     id: "gen-4490",
@@ -136,7 +155,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Bạn thân/Bạn cũ/Đồng bọn/Hội (nghĩa xấu).",
     exampleEn: "His political cronies.",
     exampleVi: "Đồng bọn chính trị của ông ta.",
-    categories: ["People", "Social", "Politics"],
+    categories: ["People","Social","Politics"],
   },
   {
     id: "gen-4491",
@@ -148,7 +167,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Kẻ lừa đảo/Cái móc/Gậy chăn cừu/Làm cong.",
     exampleEn: "Crook of the arm.",
     exampleVi: "Khuỷu tay.",
-    categories: ["People", "Law", "General"],
+    categories: ["People","Law","General"],
   },
   {
     id: "gen-4492",
@@ -156,12 +175,11 @@ export const C19: VocabularyWord[] = [
     slug: "crooked",
     phonetic: "/ˈkrʊk.ɪd/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Bent or twisted out of shape or out of place; dishonest; illegal.",
+    meaningEn: "Bent or twisted out of shape or out of place; dishonest; illegal.",
     meaningVi: "Cong/Quằn/Gian lận/Không lương thiện.",
     exampleEn: "Crooked nose.",
     exampleVi: "Cái mũi vẹo.",
-    categories: ["General", "Body", "Psychology"],
+    categories: ["General","Body","Psychology"],
   },
   {
     id: "gen-4493",
@@ -185,7 +203,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Sự quanh co/Sự gian lận/Sự vẹo vọ.",
     exampleEn: "Avoid crookedness.",
     exampleVi: "Tránh sự gian lận.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-4495",
@@ -193,12 +211,11 @@ export const C19: VocabularyWord[] = [
     slug: "croon",
     phonetic: "/kruːn/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Hum or sing in a soft, low voice, especially in a sentimental manner.",
+    meaningEn: "Hum or sing in a soft, low voice, especially in a sentimental manner.",
     meaningVi: "Hát khẽ/Hát ru/Ngâm nga.",
     exampleEn: "Croon a lullaby.",
     exampleVi: "Hát ru khẽ.",
-    categories: ["Music", "General"],
+    categories: ["Music","General"],
   },
   {
     id: "gen-4496",
@@ -206,12 +223,11 @@ export const C19: VocabularyWord[] = [
     slug: "crooner",
     phonetic: "/ˈkruː.nɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A singer, typically a male one, who sings sentimental songs in a soft, low voice.",
+    meaningEn: "A singer, typically a male one, who sings sentimental songs in a soft, low voice.",
     meaningVi: "Ca sĩ hát nhạc trữ tình (giọng nam trầm ấm).",
     exampleEn: "Famous jazz crooner.",
     exampleVi: "Ca sĩ hát jazz nổi tiếng.",
-    categories: ["People", "Music"],
+    categories: ["People","Music"],
   },
   {
     id: "gen-212",
@@ -235,7 +251,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Người thu hoạch/Máy cắt/Một loại bồ câu.",
     exampleEn: "Come a cropper.",
     exampleVi: "Thất bại thảm hại (thành ngữ).",
-    categories: ["People", "Business", "General"],
+    categories: ["People","Business","General"],
   },
   {
     id: "gen-4499",
@@ -243,12 +259,11 @@ export const C19: VocabularyWord[] = [
     slug: "croquet",
     phonetic: "/kroʊˈkeɪ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A game played on a lawn, in which wooden balls are driven through a series of wickets by means of mallets.",
+    meaningEn: "A game played on a lawn, in which wooden balls are driven through a series of wickets by means of mallets.",
     meaningVi: "Trò chơi đánh bóng qua cổng.",
     exampleEn: "Playing croquet on the lawn.",
     exampleVi: "Chơi croquet trên bãi cỏ.",
-    categories: ["Sports", "Social"],
+    categories: ["Sports","Social"],
   },
   {
     id: "gen-4500",
@@ -260,7 +275,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Gậy mục tử (của giám mục).",
     exampleEn: "Gold-plated crosier.",
     exampleVi: "Cây gậy mục tử mạ vàng.",
-    categories: ["Religion", "Art"],
+    categories: ["Religion","Art"],
   },
   {
     id: "gen-213",
@@ -284,7 +299,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Xà ngang.",
     exampleEn: "Hit the cross-bar.",
     exampleVi: "Đập trúng xà ngang.",
-    categories: ["General", "Sports"],
+    categories: ["General","Sports"],
   },
   {
     id: "gen-4504",
@@ -292,12 +307,11 @@ export const C19: VocabularyWord[] = [
     slug: "cross-bill",
     phonetic: "/ˈkrɑːs.bɪl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A bird of the finch family with mandibles that cross each other.",
+    meaningEn: "A bird of the finch family with mandibles that cross each other.",
     meaningVi: "Chim mỏ chéo.",
     exampleEn: "Red cross-bill.",
     exampleVi: "Chim mỏ chéo đỏ.",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-4505",
@@ -305,12 +319,11 @@ export const C19: VocabularyWord[] = [
     slug: "cross-bow",
     phonetic: "/ˈkrɑːs.boʊ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A medieval weapon consisting of a bow fixed across a wooden stock.",
+    meaningEn: "A medieval weapon consisting of a bow fixed across a wooden stock.",
     meaningVi: "Nỏ.",
     exampleEn: "Shoot a cross-bow.",
     exampleVi: "Bắn nỏ.",
-    categories: ["History", "Art"],
+    categories: ["History","Art"],
   },
   {
     id: "gen-4506",
@@ -318,12 +331,11 @@ export const C19: VocabularyWord[] = [
     slug: "cross-breed",
     phonetic: "/ˈkrɑːs.briːd/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "The result of breeding two different races, breeds, or varieties.",
+    meaningEn: "The result of breeding two different races, breeds, or varieties.",
     meaningVi: "Vật lai/Giống lai/Cho lai giống.",
     exampleEn: "Dog cross-breed.",
     exampleVi: "Giống chó lai.",
-    categories: ["Animals", "Science"],
+    categories: ["Animals","Science"],
   },
   {
     id: "gen-4507",
@@ -335,7 +347,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Sự lai giống.",
     exampleEn: "Experiments in cross-breeding.",
     exampleVi: "Các thí nghiệm về lai giống.",
-    categories: ["Science", "Animals"],
+    categories: ["Science","Animals"],
   },
   {
     id: "gen-4508",
@@ -347,7 +359,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Dụng cụ cắt ngang/Đường cắt ngang.",
     exampleEn: "Use the cross-bung.",
     exampleVi: "Sử dụng dụng cụ cắt ngang.",
-    categories: ["Engineering", "History"],
+    categories: ["Engineering","History"],
   },
   {
     id: "gen-4509",
@@ -359,7 +371,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Cắt ngang/Cưa ngang/Đường tắt.",
     exampleEn: "Cross-cut saw.",
     exampleVi: "Cưa cắt ngang.",
-    categories: ["Engineering", "Business", "General"],
+    categories: ["Engineering","Business","General"],
   },
   {
     id: "gen-4510",
@@ -367,12 +379,11 @@ export const C19: VocabularyWord[] = [
     slug: "cross-examination",
     phonetic: "/ˌkrɑːs.ɪɡ.zæm.əˈneɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The formal interrogation of a witness called by the other party in a court of law.",
+    meaningEn: "The formal interrogation of a witness called by the other party in a court of law.",
     meaningVi: "Sự đối chất/Sự thẩm vấn chéo.",
     exampleEn: "Lengthy cross-examination.",
     exampleVi: "Cuộc đối chất kéo dài.",
-    categories: ["Law", "Social"],
+    categories: ["Law","Social"],
   },
   {
     id: "gen-4511",
@@ -384,7 +395,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Thẩm vấn chéo/Đối chất.",
     exampleEn: "Cross-examine the suspect.",
     exampleVi: "Thẩm vấn chéo nghi phạm.",
-    categories: ["Law", "Social"],
+    categories: ["Law","Social"],
   },
   {
     id: "gen-4512",
@@ -396,7 +407,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Bị lác mắt/Mắt nhìn chéo.",
     exampleEn: "Born cross-eyed.",
     exampleVi: "Sinh ra bị lác mắt.",
-    categories: ["Medical", "Body"],
+    categories: ["Medical","Body"],
   },
   {
     id: "gen-4513",
@@ -404,12 +415,11 @@ export const C19: VocabularyWord[] = [
     slug: "cross-fire",
     phonetic: "/ˈkrɑːs.faɪr/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Gunfire from two or more directions intersecting the same point.",
+    meaningEn: "Gunfire from two or more directions intersecting the same point.",
     meaningVi: "Làn đạn chéo/Sự tranh luận sôi nổi nhiều phía.",
     exampleEn: "Caught in the cross-fire.",
     exampleVi: "Bị kẹt giữa hai làn đạn.",
-    categories: ["Politics", "Social"],
+    categories: ["Politics","Social"],
   },
   {
     id: "gen-4514",
@@ -421,7 +431,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Sớ gỗ ngang/Vân gỗ ngang.",
     exampleEn: "Cutting against the cross-grain.",
     exampleVi: "Cắt ngược sớ gỗ ngang.",
-    categories: ["Engineering", "Nature"],
+    categories: ["Engineering","Nature"],
   },
   {
     id: "gen-4515",
@@ -429,12 +439,11 @@ export const C19: VocabularyWord[] = [
     slug: "cross-grained",
     phonetic: "/ˌkrɑːsˈɡreɪnd/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of wood) having the grain running across; (of a person) difficult to deal with.",
+    meaningEn: "(of wood) having the grain running across; (of a person) difficult to deal with.",
     meaningVi: "Có sớ gỗ ngang/Khó tính/Gàn dở.",
     exampleEn: "Cross-grained old man.",
     exampleVi: "Ông già cáu kỉnh khó tính.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-4517",
@@ -446,7 +455,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Ngồi khoanh chân/Ngồi xếp bằng.",
     exampleEn: "Sit cross-legged.",
     exampleVi: "Ngồi xếp bằng.",
-    categories: ["General", "Body"],
+    categories: ["General","Body"],
   },
   {
     id: "gen-4520",
@@ -458,7 +467,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Người hay gắt gỏng/Người khó tính.",
     exampleEn: "Old cross-patch.",
     exampleVi: "Lão già hay gắt gỏng.",
-    categories: ["People", "Psychology"],
+    categories: ["People","Psychology"],
   },
   {
     id: "gen-4521",
@@ -470,7 +479,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Thanh ngang.",
     exampleEn: "Secure the cross-piece.",
     exampleVi: "Cố định thanh ngang.",
-    categories: ["General", "Engineering"],
+    categories: ["General","Engineering"],
   },
   {
     id: "gen-4522",
@@ -478,12 +487,11 @@ export const C19: VocabularyWord[] = [
     slug: "cross-pollinate",
     phonetic: "/ˌkrɑːsˈpɑː.lə.neɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Pollinate (a flower or plant) with pollen from another flower or plant.",
+    meaningEn: "Pollinate (a flower or plant) with pollen from another flower or plant.",
     meaningVi: "Thụ phấn chéo.",
     exampleEn: "Insects cross-pollinate plants.",
     exampleVi: "Côn trùng thụ phấn chéo cho cây.",
-    categories: ["Science", "Nature"],
+    categories: ["Science","Nature"],
   },
   {
     id: "gen-4523",
@@ -495,7 +503,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Sự thụ phấn chéo.",
     exampleEn: "Natural cross-pollination.",
     exampleVi: "Sự thụ phấn chéo tự nhiên.",
-    categories: ["Science", "Nature"],
+    categories: ["Science","Nature"],
   },
   {
     id: "gen-4524",
@@ -503,12 +511,11 @@ export const C19: VocabularyWord[] = [
     slug: "cross-purpose",
     phonetic: "/ˈkrɑːsˌpɝː.pəs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A situation in which two or more people misunderstanding each other.",
+    meaningEn: "A situation in which two or more people misunderstanding each other.",
     meaningVi: "Sự hiểu lầm/Mục đích trái ngược.",
     exampleEn: "Talk at cross-purposes.",
     exampleVi: "Ông nói gà bà nói vịt.",
-    categories: ["Social", "Psychology"],
+    categories: ["Social","Psychology"],
   },
   {
     id: "gen-4525",
@@ -520,7 +527,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Thẩm vấn đối chất/Hỏi vặn.",
     exampleEn: "Cross-question the witness.",
     exampleVi: "Hỏi vặn nhân chứng.",
-    categories: ["Law", "Social"],
+    categories: ["Law","Social"],
   },
   {
     id: "gen-4526",
@@ -532,7 +539,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Tham chiếu chéo.",
     exampleEn: "Check cross-references.",
     exampleVi: "Kiểm tra các tham chiếu chéo.",
-    categories: ["Education", "Technology", "General"],
+    categories: ["Education","Technology","General"],
   },
   {
     id: "gen-4527",
@@ -544,7 +551,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Ngã tư/Đường giao nhau/Bước ngoặt.",
     exampleEn: "At a cross-road.",
     exampleVi: "Tại một ngã tư/ngã rẽ cuộc đời.",
-    categories: ["Travel", "General"],
+    categories: ["Travel","General"],
   },
   {
     id: "gen-4528",
@@ -552,12 +559,11 @@ export const C19: VocabularyWord[] = [
     slug: "cross-section",
     phonetic: "/ˈkrɑːs.sek.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A surface or shape that is or would be exposed by making a straight cut through something.",
+    meaningEn: "A surface or shape that is or would be exposed by making a straight cut through something.",
     meaningVi: "Mặt cắt ngang/Tiết diện/Nhóm đại diện.",
     exampleEn: "Cross-section of the building.",
     exampleVi: "Mặt cắt ngang của tòa nhà.",
-    categories: ["Engineering", "Science", "Social"],
+    categories: ["Engineering","Science","Social"],
   },
   {
     id: "gen-4529",
@@ -569,7 +575,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Thêu chữ thập.",
     exampleEn: "Embroider in cross-stitch.",
     exampleVi: "Thêu bằng mũi thêu chữ thập.",
-    categories: ["Art", "Daily"],
+    categories: ["Art","Daily"],
   },
   {
     id: "gen-4530",
@@ -581,7 +587,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Thanh tà vẹt (đường ray tàu hỏa).",
     exampleEn: "Replace the cross-tie.",
     exampleVi: "Thay thế thanh tà vẹt.",
-    categories: ["Engineering", "Travel"],
+    categories: ["Engineering","Travel"],
   },
   {
     id: "gen-4531",
@@ -593,7 +599,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Vạch băng qua đường.",
     exampleEn: "Wait at the cross-walk.",
     exampleVi: "Đợi ở vạch qua đường.",
-    categories: ["Travel", "General"],
+    categories: ["Travel","General"],
   },
   {
     id: "gen-4532",
@@ -629,7 +635,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Trò chơi ô chữ.",
     exampleEn: "Solve the cross-word.",
     exampleVi: "Giải ô chữ.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-4503",
@@ -641,7 +647,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Xà ngang/Đà ngang.",
     exampleEn: "Steel crossbeam.",
     exampleVi: "Xà ngang bằng thép.",
-    categories: ["Architecture", "Engineering"],
+    categories: ["Architecture","Engineering"],
   },
   {
     id: "gen-4516",
@@ -653,7 +659,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Chỗ băng qua đường/Ngã tư/Giao điểm.",
     exampleEn: "Pedestrian crossing.",
     exampleVi: "Vạch kẻ cho người đi bộ.",
-    categories: ["Travel", "General"],
+    categories: ["Travel","General"],
   },
   {
     id: "gen-4518",
@@ -665,7 +671,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Một cách cáu kỉnh/giận dữ.",
     exampleEn: "Replied crossly.",
     exampleVi: "Trả lời một cách cáu kỉnh.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-4519",
@@ -689,7 +695,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Háng/Chỗ rẽ ba (cây).",
     exampleEn: "Crotch of a tree.",
     exampleVi: "Chạc cây.",
-    categories: ["Medical", "General", "Nature"],
+    categories: ["Medical","General","Nature"],
   },
   {
     id: "gen-4536",
@@ -697,12 +703,11 @@ export const C19: VocabularyWord[] = [
     slug: "crotchet",
     phonetic: "/ˈkrɑː.tʃɪt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A musical note having the time value of a quarter of a whole note.",
+    meaningEn: "A musical note having the time value of a quarter of a whole note.",
     meaningVi: "Nốt đen (âm nhạc)/Ý nghĩ kỳ quặc.",
     exampleEn: "Quarter note or crotchet.",
     exampleVi: "Nốt đen.",
-    categories: ["Music", "Psychology"],
+    categories: ["Music","Psychology"],
   },
   {
     id: "gen-4537",
@@ -714,7 +719,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Cáu kỉnh/Hay gắt gỏng/Kỳ quặc.",
     exampleEn: "Crotchety old neighbor.",
     exampleVi: "Ông hàng xóm già hay cáu bẳn.",
-    categories: ["Psychology", "People"],
+    categories: ["Psychology","People"],
   },
   {
     id: "gen-4438",
@@ -726,7 +731,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Cây cô tòng/Cây vàng anh.",
     exampleEn: "Gardening with crotons.",
     exampleVi: "Trồng cây cô tòng làm cảnh.",
-    categories: ["Nature", "Plants"],
+    categories: ["Nature","Plants"],
   },
   {
     id: "gen-4539",
@@ -734,12 +739,11 @@ export const C19: VocabularyWord[] = [
     slug: "crouch",
     phonetic: "/kraʊtʃ/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Adopt a position where the knees are bent and the upper body is brought forward and down.",
+    meaningEn: "Adopt a position where the knees are bent and the upper body is brought forward and down.",
     meaningVi: "Núp/Cúi mình/Nằm phục xuống.",
     exampleEn: "Crouch behind the wall.",
     exampleVi: "Núp sau bức tường.",
-    categories: ["General", "Body"],
+    categories: ["General","Body"],
   },
   {
     id: "gen-4540",
@@ -747,12 +751,11 @@ export const C19: VocabularyWord[] = [
     slug: "croup",
     phonetic: "/kruːp/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Inflammation of the larynx and trachea in children, associated with a barking cough.",
+    meaningEn: "Inflammation of the larynx and trachea in children, associated with a barking cough.",
     meaningVi: "Bệnh viêm thanh khí quản (ở trẻ em)/Mông ngựa.",
     exampleEn: "Baby has the croup.",
     exampleVi: "Em bé bị viêm thanh khí quản.",
-    categories: ["Medical", "Animals"],
+    categories: ["Medical","Animals"],
   },
   {
     id: "gen-4541",
@@ -764,7 +767,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Người quản lý sòng bạc/Người chia bài.",
     exampleEn: "Professional croupier.",
     exampleVi: "Người chia bài chuyên nghiệp.",
-    categories: ["People", "Social", "Business"],
+    categories: ["People","Social","Business"],
   },
   {
     id: "gen-4542",
@@ -784,37 +787,11 @@ export const C19: VocabularyWord[] = [
     slug: "crow",
     phonetic: "/kroʊ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A large bird with glossy black plumage, a heavy bill, and a raucous voice.",
+    meaningEn: "A large bird with glossy black plumage, a heavy bill, and a raucous voice.",
     meaningVi: "Con quạ/Tiếng gà gáy/Reo mừng hân hoan.",
     exampleEn: "As the crow flies.",
     exampleVi: "Theo đường chim bay.",
-    categories: ["Animals", "General", "Nature"],
-  },
-  {
-    id: "gen-4548",
-    word: "Crow's-feet",
-    slug: "crows-feet",
-    phonetic: "/ˈkroʊzˌfiːt/",
-    partOfSpeech: "noun",
-    meaningEn: "Small wrinkles around the eyes.",
-    meaningVi: "Vết chân chim (ở đuôi mắt).",
-    exampleEn: "Smiling with crow's-feet.",
-    exampleVi: "Mỉm cười lộ rõ vết chân chim.",
-    categories: ["Body", "Medical"],
-  },
-  {
-    id: "gen-4449",
-    word: "Crow's-nest",
-    slug: "crows-nest",
-    phonetic: "/ˈkroʊzˌnest/",
-    partOfSpeech: "noun",
-    meaningEn:
-      "A platform high up on the mast of a ship, used as a lookout station.",
-    meaningVi: "Đài quan sát (trên cột buồm).",
-    exampleEn: "Lookout from the crow's-nest.",
-    exampleVi: "Quan sát từ đài trên cột buồm.",
-    categories: ["Travel", "Business"],
+    categories: ["Animals","General","Nature"],
   },
   {
     id: "gen-4544",
@@ -826,7 +803,31 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Xà beng.",
     exampleEn: "Pry open with a crow-bar.",
     exampleVi: "Dùng xà beng bẩy mở.",
-    categories: ["Engineering", "Daily"],
+    categories: ["Engineering","Daily"],
+  },
+  {
+    id: "gen-4548",
+    word: "Crow's-feet",
+    slug: "crows-feet",
+    phonetic: "/ˈkroʊzˌfiːt/",
+    partOfSpeech: "noun",
+    meaningEn: "Small wrinkles around the eyes.",
+    meaningVi: "Vết chân chim (ở đuôi mắt).",
+    exampleEn: "Smiling with crow's-feet.",
+    exampleVi: "Mỉm cười lộ rõ vết chân chim.",
+    categories: ["Body","Medical"],
+  },
+  {
+    id: "gen-4449",
+    word: "Crow's-nest",
+    slug: "crows-nest",
+    phonetic: "/ˈkroʊzˌnest/",
+    partOfSpeech: "noun",
+    meaningEn: "A platform high up on the mast of a ship, used as a lookout station.",
+    meaningVi: "Đài quan sát (trên cột buồm).",
+    exampleEn: "Lookout from the crow's-nest.",
+    exampleVi: "Quan sát từ đài trên cột buồm.",
+    categories: ["Travel","Business"],
   },
   {
     id: "gen-214",
@@ -846,12 +847,11 @@ export const C19: VocabularyWord[] = [
     slug: "crowded",
     phonetic: "/ˈkraʊ.dɪd/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a space) full of people, leaving little or no room for movement.",
+    meaningEn: "(of a space) full of people, leaving little or no room for movement.",
     meaningVi: "Đông đúc/Chật ních.",
     exampleEn: "Crowded city.",
     exampleVi: "Thành phố đông đúc.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-4547",
@@ -859,12 +859,11 @@ export const C19: VocabularyWord[] = [
     slug: "crown",
     phonetic: "/kraun/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A circular ornamental headdress worn by a monarch as a symbol of authority.",
+    meaningEn: "A circular ornamental headdress worn by a monarch as a symbol of authority.",
     meaningVi: "Vương miện/Triều đình/Đỉnh đầu/Lên ngôi.",
     exampleEn: "The British Crown.",
     exampleVi: "Vương triều Anh.",
-    categories: ["Politics", "Body", "History", "History"],
+    categories: ["Politics","Body","History","History"],
   },
   {
     id: "gen-4550",
@@ -872,12 +871,11 @@ export const C19: VocabularyWord[] = [
     slug: "crucial",
     phonetic: "/ˈkruː.ʃəl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Decisive or critical, especially in the success or failure of something.",
+    meaningEn: "Decisive or critical, especially in the success or failure of something.",
     meaningVi: "Thoạt nhìn/Chốt hạ/Rất quan trọng.",
     exampleEn: "Crucial factor.",
     exampleVi: "Yếu tố quyết định.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-4551",
@@ -885,12 +883,11 @@ export const C19: VocabularyWord[] = [
     slug: "crucible",
     phonetic: "/ˈkruː.sə.bəl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A container in which metals or other substances may be melted or subjected to very high temperatures.",
+    meaningEn: "A container in which metals or other substances may be melted or subjected to very high temperatures.",
     meaningVi: "Nồi nấu kim loại/Thử thách gay gắt.",
     exampleEn: "Crucible of war.",
     exampleVi: "Lửa thử thách của chiến tranh.",
-    categories: ["Science", "Engineering", "General"],
+    categories: ["Science","Engineering","General"],
   },
   {
     id: "gen-4552",
@@ -902,7 +899,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Bị đóng đinh vào thập tự giá/Hành hạ.",
     exampleEn: "Crucified image.",
     exampleVi: "Hình ảnh bị đóng đinh.",
-    categories: ["Religion", "History"],
+    categories: ["Religion","History"],
   },
   {
     id: "gen-4553",
@@ -910,12 +907,11 @@ export const C19: VocabularyWord[] = [
     slug: "crucifix",
     phonetic: "/ˈkruː.sə.fɪks/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A representation of a cross with a figure of Jesus Christ on it.",
+    meaningEn: "A representation of a cross with a figure of Jesus Christ on it.",
     meaningVi: "Thánh giá có tượng Chúa.",
     exampleEn: "Silver crucifix.",
     exampleVi: "Thành giá bằng bạc.",
-    categories: ["Religion", "Art"],
+    categories: ["Religion","Art"],
   },
   {
     id: "gen-4554",
@@ -923,12 +919,11 @@ export const C19: VocabularyWord[] = [
     slug: "crucifixion",
     phonetic: "/ˌkruː.səˈfɪk.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The execution of a person by nailing or binding them to a cross.",
+    meaningEn: "The execution of a person by nailing or binding them to a cross.",
     meaningVi: "Sự đóng đinh vào thập giá/Khổ hình.",
     exampleEn: "The Crucifixion of Jesus.",
     exampleVi: "Sự kiện đóng đinh Chúa Jesus.",
-    categories: ["Religion", "History"],
+    categories: ["Religion","History"],
   },
   {
     id: "gen-4555",
@@ -940,7 +935,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Có hình chữ thập.",
     exampleEn: "Cruciform church.",
     exampleVi: "Nhà thờ có mặt bằng hình chữ thập.",
-    categories: ["Architecture", "Religion"],
+    categories: ["Architecture","Religion"],
   },
   {
     id: "gen-4556",
@@ -948,12 +943,11 @@ export const C19: VocabularyWord[] = [
     slug: "crude",
     phonetic: "/kruːd/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "In a natural or raw state; not yet processed or refined; lacking finish, polish, or completeness.",
+    meaningEn: "In a natural or raw state; not yet processed or refined; lacking finish, polish, or completeness.",
     meaningVi: "Sống/Thô/Chưa luyện/Chưa gọt giũa/Lỗ mãng.",
     exampleEn: "Crude oil.",
     exampleVi: "Dầu thô.",
-    categories: ["Science", "Engineering", "General"],
+    categories: ["Science","Engineering","General"],
   },
   {
     id: "gen-4557",
@@ -989,7 +983,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Lời nói thô tục/Hành động lỗ mãng/Sự thô thiển.",
     exampleEn: "Shocked by his crudity.",
     exampleVi: "Bị sốc bởi sự thô lỗ của anh ta.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-215",
@@ -1025,7 +1019,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Sự tàn nhẫn/Sự độc ác.",
     exampleEn: "Animal cruelty.",
     exampleVi: "Sự tàn ác với động vật.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-4563",
@@ -1033,12 +1027,11 @@ export const C19: VocabularyWord[] = [
     slug: "cruet",
     phonetic: "/ˈkruː.ɪt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A small glass bottle for vinegar, oil, etc., for use at the table.",
+    meaningEn: "A small glass bottle for vinegar, oil, etc., for use at the table.",
     meaningVi: "Lọ đựng gia vị (trên bàn ăn).",
     exampleEn: "A vinegar cruet.",
     exampleVi: "Lọ đựng giấm.",
-    categories: ["Daily", "Food & Drink", "Home"],
+    categories: ["Daily","Food & Drink","Home"],
   },
   {
     id: "gen-4564",
@@ -1046,13 +1039,11 @@ export const C19: VocabularyWord[] = [
     slug: "cruise",
     phonetic: "/kruːz/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Sail about in an area without a precise destination, especially for enjoyment.",
-    meaningVi:
-      "Đi chơi biển/Cuộc du ngoạn bằng tàu thủy/Tuần tra/Chạy đều (tốc độ).",
+    meaningEn: "Sail about in an area without a precise destination, especially for enjoyment.",
+    meaningVi: "Đi chơi biển/Cuộc du ngoạn bằng tàu thủy/Tuần tra/Chạy đều (tốc độ).",
     exampleEn: "Luxury cruise.",
     exampleVi: "Chuyến du ngoạn sang trọng trên biển.",
-    categories: ["Travel", "General"],
+    categories: ["Travel","General"],
   },
   {
     id: "gen-4565",
@@ -1060,12 +1051,11 @@ export const C19: VocabularyWord[] = [
     slug: "cruiser",
     phonetic: "/ˈkruː.zɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A fast warship larger than a destroyer and less heavily armed than a battleship.",
+    meaningEn: "A fast warship larger than a destroyer and less heavily armed than a battleship.",
     meaningVi: "Tàu tuần dương/Thủy phi cơ/Xe lướt.",
     exampleEn: "Amphibious cruiser.",
     exampleVi: "Tàu tuần dương lưỡng thê.",
-    categories: ["Engineering", "Travel", "History"],
+    categories: ["Engineering","Travel","History"],
   },
   {
     id: "gen-4566",
@@ -1077,7 +1067,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Mẩu bánh/Mẩu vụn/Một chút.",
     exampleEn: "Bread crumbs.",
     exampleVi: "Vụn bánh mì.",
-    categories: ["Food & Drink", "General"],
+    categories: ["Food & Drink","General"],
   },
   {
     id: "gen-4567",
@@ -1085,12 +1075,11 @@ export const C19: VocabularyWord[] = [
     slug: "crumble",
     phonetic: "/ˈkrʌm.bəl/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Break or fall apart into small fragments, especially over a period of time.",
+    meaningEn: "Break or fall apart into small fragments, especially over a period of time.",
     meaningVi: "Vỡ vụn/Sụp đổ/Bánh vụn (tráng miệng).",
     exampleEn: "Empire began to crumble.",
     exampleVi: "Đế chế bắt đầu sụp đổ.",
-    categories: ["General", "Nature", "Business"],
+    categories: ["General","Nature","Business"],
   },
   {
     id: "gen-4568",
@@ -1102,7 +1091,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Đang vỡ vụn/Đang sụp đổ/Nát vụn.",
     exampleEn: "Crumbling ruins.",
     exampleVi: "Phế tích đang sụp đổ.",
-    categories: ["General", "Architecture"],
+    categories: ["General","Architecture"],
   },
   {
     id: "gen-4569",
@@ -1114,7 +1103,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Dễ vỡ vụn/Bở.",
     exampleEn: "Crumbly cheese.",
     exampleVi: "Phô mai dễ vỡ vụn.",
-    categories: ["Food & Drink", "General"],
+    categories: ["Food & Drink","General"],
   },
   {
     id: "gen-4570",
@@ -1126,7 +1115,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Xoàng/Tồi tàn/Kém chất lượng.",
     exampleEn: "Crummy apartment.",
     exampleVi: "Căn hộ tồi tàn.",
-    categories: ["General", "Home"],
+    categories: ["General","Home"],
   },
   {
     id: "gen-4571",
@@ -1134,12 +1123,11 @@ export const C19: VocabularyWord[] = [
     slug: "crumpet",
     phonetic: "/ˈkrʌm.pɪt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A thick, flat, savory cake with a toasted surface full of holes.",
+    meaningEn: "A thick, flat, savory cake with a toasted surface full of holes.",
     meaningVi: "Bánh Crumpet (bánh nướng xốp của Anh).",
     exampleEn: "Tea and crumpets.",
     exampleVi: "Trà và bánh crumpet.",
-    categories: ["Food & Drink", "Daily"],
+    categories: ["Food & Drink","Daily"],
   },
   {
     id: "gen-4572",
@@ -1147,12 +1135,11 @@ export const C19: VocabularyWord[] = [
     slug: "crumple",
     phonetic: "/ˈkrʌm.pəl/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Crush (something, typically paper or cloth) so that it becomes creased and wrinkled.",
+    meaningEn: "Crush (something, typically paper or cloth) so that it becomes creased and wrinkled.",
     meaningVi: "Làm nhàu/Làm nát/Sụp đổ hoàn toàn.",
     exampleEn: "Crumpled shirt.",
     exampleVi: "Áo sơ mi bị nhàu.",
-    categories: ["Body", "General"],
+    categories: ["Body","General"],
   },
   {
     id: "gen-4573",
@@ -1164,7 +1151,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Bị nhàu/Nhăn nhúm.",
     exampleEn: "Crumpled piece of paper.",
     exampleVi: "Mẩu giấy bị vo nát.",
-    categories: ["Body", "General"],
+    categories: ["Body","General"],
   },
   {
     id: "gen-4574",
@@ -1172,13 +1159,11 @@ export const C19: VocabularyWord[] = [
     slug: "crunch",
     phonetic: "/krʌntʃ/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Crush (a hard or brittle foodstuff) with the teeth, making a loud characteristic biting noise.",
-    meaningVi:
-      "Nhai lạo xạo/Nghiền nát/Sự thiếu hụt (tài chính)/Giai đoạn quyết định.",
+    meaningEn: "Crush (a hard or brittle foodstuff) with the teeth, making a loud characteristic biting noise.",
+    meaningVi: "Nhai lạo xạo/Nghiền nát/Sự thiếu hụt (tài chính)/Giai đoạn quyết định.",
     exampleEn: "Credit crunch.",
     exampleVi: "Sự thắt chặt tín dụng.",
-    categories: ["General", "Food & Drink", "Business"],
+    categories: ["General","Food & Drink","Business"],
   },
   {
     id: "gen-4575",
@@ -1202,7 +1187,7 @@ export const C19: VocabularyWord[] = [
     meaningVi: "Dây hậu (ngựa).",
     exampleEn: "Leather crupper.",
     exampleVi: "Dây hậu bằng da.",
-    categories: ["Animals", "History"],
+    categories: ["Animals","History"],
   },
   {
     id: "gen-4577",
@@ -1210,48 +1195,10 @@ export const C19: VocabularyWord[] = [
     slug: "crusade",
     phonetic: "/kruːˈseɪd/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A medieval military expedition; an organized campaign concerning a social or political issue.",
+    meaningEn: "A medieval military expedition; an organized campaign concerning a social or political issue.",
     meaningVi: "Cuộc thập tự chinh/Chiến dịch đấu tranh.",
     exampleEn: "Crusade against poverty.",
     exampleVi: "Chiến dịch chống đói nghèo.",
-    categories: ["History", "Politics", "Social"],
-  },
-  {
-    id: "gen-4578",
-    word: "Crusader",
-    slug: "crusader",
-    phonetic: "/kruːˈseɪ.dɚ/",
-    partOfSpeech: "noun",
-    meaningEn: "A person who takes part in a crusade.",
-    meaningVi:
-      "Người tham gia thập tự chinh/Người đấu tranh cho một phong trào.",
-    exampleEn: "Social crusader.",
-    exampleVi: "Người đấu tranh cho các vấn đề xã hội.",
-    categories: ["People", "History", "Social"],
-  },
-  {
-    id: "gen-4579",
-    word: "Crush",
-    slug: "crush",
-    phonetic: "/krʌʃ/",
-    partOfSpeech: "verb/noun",
-    meaningEn: "Compress or squeeze forcefully so as to smash or distort.",
-    meaningVi: "Nghiền nát/Đè bẹp/Làm tiêu tan/Sự phải lòng (lóng).",
-    exampleEn: "Have a crush on her.",
-    exampleVi: "Thầm thương trộm nhớ cô ấy.",
-    categories: ["General", "Psychology", "Social"],
-  },
-  {
-    id: "gen-4580",
-    word: "Crushable",
-    slug: "crushable",
-    phonetic: "/ˈkrʌʃ.ə.bəl/",
-    partOfSpeech: "adjective",
-    meaningEn: "Capable of being crushed.",
-    meaningVi: "Có thể nghiền nát/Dễ bị ép nát.",
-    exampleEn: "Crushable hat.",
-    exampleVi: "Mũ có thể gập lại (không hỏng dáng).",
-    categories: ["General", "Body"],
-  },
+    categories: ["History","Politics","Social"],
+  }
 ];

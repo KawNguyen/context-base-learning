@@ -2,19 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const E5: VocabularyWord[] = [
   {
-    id: "gen-7055",
-    word: "Emulator",
-    slug: "emulator",
-    phonetic: "/ˈem.jə.leɪ.t̬ɚ/",
-    partOfSpeech: "noun",
-    meaningEn:
-      "Hardware or software that enables one computer system to behave like another.",
-    meaningVi: "Trình giả lập.",
-    exampleEn: "Game boy emulator.",
-    exampleVi: "Trình giả lập Game Boy.",
-    categories: ["Technology", "Technology"],
-  },
-  {
     id: "gen-7056",
     word: "Emulous",
     slug: "emulous",
@@ -24,7 +11,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Ham mê thi đua/Ganh đua.",
     exampleEn: "Emulous of fame.",
     exampleVi: "Khao khát/Ganh đua vì danh vọng.",
-    categories: ["Literature", "General"],
+    categories: ["Literature","General"],
   },
   {
     id: "gen-7058",
@@ -36,7 +23,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Sự nhũ hóa.",
     exampleEn: "Emulsification of fats.",
     exampleVi: "Sự nhũ hóa chất béo.",
-    categories: ["Science", "Chemistry"],
+    categories: ["Science","Chemistry"],
   },
   {
     id: "gen-7059",
@@ -48,7 +35,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Chất nhũ hóa.",
     exampleEn: "Food emulsifier.",
     exampleVi: "Chất nhũ hóa thực phẩm.",
-    categories: ["Science", "Chemistry", "General"],
+    categories: ["Science","Chemistry","General"],
   },
   {
     id: "gen-7060",
@@ -60,7 +47,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Nhũ hóa.",
     exampleEn: "Emulsify the oil.",
     exampleVi: "Nhũ hóa dầu.",
-    categories: ["Science", "Chemistry"],
+    categories: ["Science","Chemistry"],
   },
   {
     id: "gen-7061",
@@ -72,7 +59,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Nhũ tương/Sơn nước.",
     exampleEn: "Oil-in-water emulsion.",
     exampleVi: "Nhũ tương dầu trong nước.",
-    categories: ["Science", "Chemistry", "Engineering"],
+    categories: ["Science","Chemistry","Engineering"],
   },
   {
     id: "gen-7062",
@@ -84,7 +71,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Trên đường đi.",
     exampleEn: "En route to Paris.",
     exampleVi: "Trên đường tới Paris.",
-    categories: ["General", "Travel"],
+    categories: ["General","Travel"],
   },
   {
     id: "b2-90",
@@ -92,12 +79,10 @@ export const E5: VocabularyWord[] = [
     slug: "enable",
     phonetic: "/ɪˈneɪ.bəl/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Give (someone or something) the authority or means to do something.",
+    meaningEn: "Give (someone or something) the authority or means to do something.",
     meaningVi: "Cho phép, làm cho có thể.",
     exampleEn: "Technology enables us to connect with people globally.",
-    exampleVi:
-      "Công nghệ cho phép chúng ta kết nối với mọi người trên toàn cầu.",
+    exampleVi: "Công nghệ cho phép chúng ta kết nối với mọi người trên toàn cầu.",
     categories: ["Technology"],
   },
   {
@@ -110,7 +95,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Ban hành (luật)/Đóng diễn.",
     exampleEn: "Enact a law.",
     exampleVi: "Ban hành một đạo luật.",
-    categories: ["Politics", "Law", "Social"],
+    categories: ["Politics","Law","Social"],
   },
   {
     id: "gen-7065",
@@ -122,7 +107,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Sự ban hành/Sự đóng (vai).",
     exampleEn: "Legal enactment.",
     exampleVi: "Sự ban hành pháp lý.",
-    categories: ["Politics", "Law", "Social"],
+    categories: ["Politics","Law","Social"],
   },
   {
     id: "gen-7066",
@@ -130,12 +115,11 @@ export const E5: VocabularyWord[] = [
     slug: "enamel",
     phonetic: "/ɪˈnæm.əl/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "An opaque or semi-transparent glassy substance applied to metallic or other hard surfaces for ornament or as a protective coating.",
+    meaningEn: "An opaque or semi-transparent glassy substance applied to metallic or other hard surfaces for ornament or as a protective coating.",
     meaningVi: "Men/Lớp men (răng).",
     exampleEn: "Tooth enamel.",
     exampleVi: "Men răng.",
-    categories: ["General", "Medical", "Beauty"],
+    categories: ["General","Medical","Beauty"],
   },
   {
     id: "gen-7067",
@@ -147,7 +131,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Làm mê đắm/Làm say mê.",
     exampleEn: "Enamored of the view.",
     exampleVi: "Bị mê đắm bởi khung cảnh.",
-    categories: ["General", "Emotions"],
+    categories: ["General","Emotions"],
   },
   {
     id: "gen-7068",
@@ -159,7 +143,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Say mê/Ham mê.",
     exampleEn: "He was enamored with her.",
     exampleVi: "Anh ấy đã say mê cô ấy.",
-    categories: ["General", "Emotions"],
+    categories: ["General","Emotions"],
   },
   {
     id: "gen-7069",
@@ -171,7 +155,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Đóng quân/Cắm trại.",
     exampleEn: "Encamped by the river.",
     exampleVi: "Đóng quân bên bờ sông.",
-    categories: ["General", "Military"],
+    categories: ["General","Military"],
   },
   {
     id: "gen-7070",
@@ -179,12 +163,11 @@ export const E5: VocabularyWord[] = [
     slug: "encampment",
     phonetic: "/ɪnˈkæmp.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A place with temporary accommodations of huts, tents, or other structures.",
+    meaningEn: "A place with temporary accommodations of huts, tents, or other structures.",
     meaningVi: "Doanh trại/Sự cắm trại.",
     exampleEn: "Army encampment.",
     exampleVi: "Doanh trại quân đội.",
-    categories: ["Military", "General"],
+    categories: ["Military","General"],
   },
   {
     id: "gen-7071",
@@ -196,7 +179,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Tóm gọn/Gói gọn/Đóng gói.",
     exampleEn: "Encapsulate the main idea.",
     exampleVi: "Gói gọn ý chính.",
-    categories: ["General", "Technology", "Science"],
+    categories: ["General","Technology","Science"],
   },
   {
     id: "b2-248",
@@ -208,7 +191,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Sự đóng gói.",
     exampleEn: "Encapsulation in OOP.",
     exampleVi: "Sự đóng gói trong lập trình hướng đối tượng.",
-    categories: ["Technology", "Engineering"],
+    categories: ["Technology","Engineering"],
   },
   {
     id: "gen-7073",
@@ -220,7 +203,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Bao quanh/Bọc kín.",
     exampleEn: "Encase in plastic.",
     exampleVi: "Bọc trong nhựa.",
-    categories: ["General", "Engineering"],
+    categories: ["General","Engineering"],
   },
   {
     id: "gen-7074",
@@ -232,7 +215,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Sự bao bọc/Vỏ bọc.",
     exampleEn: "Protective encasement.",
     exampleVi: "Vỏ bọc bảo vệ.",
-    categories: ["General", "Engineering"],
+    categories: ["General","Engineering"],
   },
   {
     id: "gen-7075",
@@ -244,7 +227,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Có thai/Vòng tường bao quanh.",
     exampleEn: "Enceinte woman.",
     exampleVi: "Người phụ nữ đang mang thai.",
-    categories: ["General", "Medical", "Architecture"],
+    categories: ["General","Medical","Architecture"],
   },
   {
     id: "gen-7076",
@@ -252,12 +235,11 @@ export const E5: VocabularyWord[] = [
     slug: "encephalitis",
     phonetic: "/ɪnˌsef.əˈlaɪ.t̬əs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Inflammation of the brain, caused by infection or an allergic reaction.",
+    meaningEn: "Inflammation of the brain, caused by infection or an allergic reaction.",
     meaningVi: "Bệnh viêm não.",
     exampleEn: "Viral encephalitis.",
     exampleVi: "Viêm não do virus.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-7077",
@@ -269,7 +251,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Não/Bộ não.",
     exampleEn: "Human encephalon.",
     exampleVi: "Bộ não người.",
-    categories: ["Science", "Medical"],
+    categories: ["Science","Medical"],
   },
   {
     id: "gen-7078",
@@ -281,7 +263,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Xiềng xích/Ràng buộc.",
     exampleEn: "Enchained by fate.",
     exampleVi: "Bị xích lại bởi số phận.",
-    categories: ["General", "Literature"],
+    categories: ["General","Literature"],
   },
   {
     id: "gen-7079",
@@ -293,7 +275,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Làm mê hoặc/Quyến rũ.",
     exampleEn: "Enchanted by the music.",
     exampleVi: "Bị mê hoặc bởi âm nhạc.",
-    categories: ["General", "Emotions"],
+    categories: ["General","Emotions"],
   },
   {
     id: "gen-7080",
@@ -305,7 +287,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Người bỏ bùa/Phù thủy.",
     exampleEn: "Powerful enchanter.",
     exampleVi: "Phù thủy quyền năng.",
-    categories: ["General", "Literature"],
+    categories: ["General","Literature"],
   },
   {
     id: "gen-7081",
@@ -317,7 +299,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Mê hồn/Quyến rũ.",
     exampleEn: "Enchanting smile.",
     exampleVi: "Nụ cười mê hồn.",
-    categories: ["General", "Beauty"],
+    categories: ["General","Beauty"],
   },
   {
     id: "gen-7082",
@@ -341,7 +323,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Sự mê hoặc/Sự say mê.",
     exampleEn: "Under an enchantment.",
     exampleVi: "Dưới sự mê hoặc/bùa chú.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-7084",
@@ -353,7 +335,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Nữ phù thủy/Người phụ nữ quyến rũ.",
     exampleEn: "Mysterious enchantress.",
     exampleVi: "Nữ phù thủy bí ẩn.",
-    categories: ["General", "Literature", "People"],
+    categories: ["General","Literature","People"],
   },
   {
     id: "gen-7085",
@@ -365,7 +347,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Chạm khảm/Trạm trổ.",
     exampleEn: "Enchased with gold.",
     exampleVi: "Được chạm khảm bằng vàng.",
-    categories: ["General", "Art"],
+    categories: ["General","Art"],
   },
   {
     id: "gen-7086",
@@ -377,7 +359,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Sách chỉ nam/Sách tóm lược.",
     exampleEn: "Enchiridion of philosophy.",
     exampleVi: "Sách chỉ nam triết học.",
-    categories: ["Education", "Literature"],
+    categories: ["Education","Literature"],
   },
   {
     id: "gen-7087",
@@ -385,12 +367,11 @@ export const E5: VocabularyWord[] = [
     slug: "enclave",
     phonetic: "/ˈen.kleɪv/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A portion of territory within or surrounded by a larger territory whose inhabitants are culturally or ethnically distinct.",
+    meaningEn: "A portion of territory within or surrounded by a larger territory whose inhabitants are culturally or ethnically distinct.",
     meaningVi: "Vùng đất biệt lập/Vùng đất bị bao quanh.",
     exampleEn: "Diplomatic enclave.",
     exampleVi: "Khu vực ngoại giao biệt lập.",
-    categories: ["Politics", "Geography", "Social"],
+    categories: ["Politics","Geography","Social"],
   },
   {
     id: "gen-7088",
@@ -398,12 +379,11 @@ export const E5: VocabularyWord[] = [
     slug: "enclitic",
     phonetic: "/enˈklɪt̬.ɪk/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "(of a word) pronounced with so little emphasis that it is shortened and forms part of the preceding word.",
+    meaningEn: "(of a word) pronounced with so little emphasis that it is shortened and forms part of the preceding word.",
     meaningVi: "Từ hậu bám (ví dụ 's trong 'it's').",
     exampleEn: "Grammatical enclitic.",
     exampleVi: "Hậu bám từ ngữ pháp.",
-    categories: ["Education", "Literature"],
+    categories: ["Education","Literature"],
   },
   {
     id: "gen-7089",
@@ -415,7 +395,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Bao quanh/Vây quanh/Đính kèm.",
     exampleEn: "Enclose a check.",
     exampleVi: "Đính kèm một tờ séc.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "gen-7090",
@@ -423,12 +403,11 @@ export const E5: VocabularyWord[] = [
     slug: "enclosure",
     phonetic: "/ɪnˈkloʊ.ʒɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An area that is sealed off with an artificial or natural barrier.",
+    meaningEn: "An area that is sealed off with an artificial or natural barrier.",
     meaningVi: "Rào vây quanh/Sự đính kèm.",
     exampleEn: "Animal enclosure.",
     exampleVi: "Khu vực rào chắn động vật.",
-    categories: ["General", "Nature"],
+    categories: ["General","Nature"],
   },
   {
     id: "gen-7091",
@@ -440,7 +419,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Mã hóa.",
     exampleEn: "Encode the data.",
     exampleVi: "Mã hóa dữ liệu.",
-    categories: ["Technology", "Science", "Technology"],
+    categories: ["Technology","Science","Technology"],
   },
   {
     id: "gen-7092",
@@ -448,12 +427,11 @@ export const E5: VocabularyWord[] = [
     slug: "encoder",
     phonetic: "/ɪnˈkoʊ.dɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A device or program that converts information into a particular form.",
+    meaningEn: "A device or program that converts information into a particular form.",
     meaningVi: "Bộ mã hóa.",
     exampleEn: "Video encoder.",
     exampleVi: "Bộ mã hóa video.",
-    categories: ["Technology", "Technology"],
+    categories: ["Technology","Technology"],
   },
   {
     id: "gen-7093",
@@ -465,7 +443,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Ca ngợi/Tán dương.",
     exampleEn: "Encomiastic speech.",
     exampleVi: "Bài phát biểu tán dương.",
-    categories: ["Literature", "Social"],
+    categories: ["Literature","Social"],
   },
   {
     id: "gen-7094",
@@ -473,12 +451,11 @@ export const E5: VocabularyWord[] = [
     slug: "encomium",
     phonetic: "/enˈkoʊ.mi.əm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A speech or piece of writing that praises someone or something highly.",
+    meaningEn: "A speech or piece of writing that praises someone or something highly.",
     meaningVi: "Bài văn/lời ca tụng.",
     exampleEn: "Write an encomium.",
     exampleVi: "Viết một bài ca tụng.",
-    categories: ["Literature", "Social", "Education"],
+    categories: ["Literature","Social","Education"],
   },
   {
     id: "gen-7095",
@@ -490,7 +467,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Bao gồm/Bao quanh/Chứa đựng.",
     exampleEn: "Encompass a wide range of topics.",
     exampleVi: "Bao gồm nhiều chủ đề rộng rãi.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "gen-7096",
@@ -498,12 +475,11 @@ export const E5: VocabularyWord[] = [
     slug: "encore",
     phonetic: "/ˈɑːŋ.kɔːr/",
     partOfSpeech: "noun/interjection",
-    meaningEn:
-      "A repeated or additional performance of an item at the end of a concert, as called for by an audience.",
+    meaningEn: "A repeated or additional performance of an item at the end of a concert, as called for by an audience.",
     meaningVi: "Yêu cầu diễn lại/Phần diễn thêm.",
     exampleEn: "Shout for an encore.",
     exampleVi: "Hô vang yêu cầu diễn lại.",
-    categories: ["Art", "General", "Social"],
+    categories: ["Art","General","Social"],
   },
   {
     id: "b2-91",
@@ -511,8 +487,7 @@ export const E5: VocabularyWord[] = [
     slug: "encounter",
     phonetic: "/ɪnˈkaʊn.t̬ɚ/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Unexpectedly experience or be faced with (something difficult or hostile).",
+    meaningEn: "Unexpectedly experience or be faced with (something difficult or hostile).",
     meaningVi: "Chạm trán, gặp phải.",
     exampleEn: "We encountered many problems.",
     exampleVi: "Chúng tôi đã gặp phải nhiều vấn đề.",
@@ -540,7 +515,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Sự khuyến khích/niềm cổ vũ.",
     exampleEn: "Needs some encouragement.",
     exampleVi: "Cần một chút sự khích lệ.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-7100",
@@ -576,7 +551,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Xâm lấn/Xâm phạm.",
     exampleEn: "Encroach on private property.",
     exampleVi: "Xâm phạm tài sản riêng.",
-    categories: ["General", "Law", "Social"],
+    categories: ["General","Law","Social"],
   },
   {
     id: "gen-7103",
@@ -588,7 +563,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Sự xâm lấn/Sự xâm phạm.",
     exampleEn: "Urban encroachment into the forest.",
     exampleVi: "Sự lấn chiếm đô thị vào rừng.",
-    categories: ["General", "Nature", "Law"],
+    categories: ["General","Nature","Law"],
   },
   {
     id: "gen-7104",
@@ -600,7 +575,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Phủ một lớp vỏ cứng/Đính.",
     exampleEn: "Encrusted with jewels.",
     exampleVi: "Được đính đầy đá quý.",
-    categories: ["General", "Art"],
+    categories: ["General","Art"],
   },
   {
     id: "c2-219",
@@ -620,8 +595,7 @@ export const E5: VocabularyWord[] = [
     slug: "encumber",
     phonetic: "/ɪnˈkʌm.bɚ/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Restrict or burden in such a way that free action or movement is difficult.",
+    meaningEn: "Restrict or burden in such a way that free action or movement is difficult.",
     meaningVi: "Làm lúng túng/Làm trở ngại.",
     exampleEn: "Encumbered by heavy luggage.",
     exampleVi: "Bị cản trở bởi hành lý nặng nề.",
@@ -637,7 +611,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Sự làm trở ngại/Gánh nặng.",
     exampleEn: "Free of encumbrance.",
     exampleVi: "Không có gánh nặng/trở ngại.",
-    categories: ["General", "Law", "Business"],
+    categories: ["General","Law","Business"],
   },
   {
     id: "gen-7107",
@@ -645,12 +619,11 @@ export const E5: VocabularyWord[] = [
     slug: "encyclical",
     phonetic: "/enˈsɪk.lɪ.kəl/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A papal letter sent to all bishops of the Roman Catholic Church.",
+    meaningEn: "A papal letter sent to all bishops of the Roman Catholic Church.",
     meaningVi: "Thông điệp của Giáo hoàng.",
     exampleEn: "Papal encyclical.",
     exampleVi: "Thông điệp của Giáo hoàng.",
-    categories: ["Religion", "Literature"],
+    categories: ["Religion","Literature"],
   },
   {
     id: "gen-7108",
@@ -662,7 +635,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Bách khoa toàn thư.",
     exampleEn: "Look it up in the encyclopedia.",
     exampleVi: "Tra cứu nó trong bách khoa toàn thư.",
-    categories: ["Education", "General"],
+    categories: ["Education","General"],
   },
   {
     id: "gen-7109",
@@ -674,7 +647,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Thông thái/Bách khoa.",
     exampleEn: "Encyclopedic knowledge.",
     exampleVi: "Kiến thức uyên bác.",
-    categories: ["Education", "General"],
+    categories: ["Education","General"],
   },
   {
     id: "gen-384",
@@ -710,7 +683,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Gây nguy hiểm/Làm nguy hại.",
     exampleEn: "Endanger public safety.",
     exampleVi: "Gây nguy hiểm cho an toàn công cộng.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-7112",
@@ -722,7 +695,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Bị đe dọa tuyệt chủng/Gặp nguy hiểm.",
     exampleEn: "Endangered species.",
     exampleVi: "Các loài có nguy cơ tuyệt chủng.",
-    categories: ["General", "Nature", "Science"],
+    categories: ["General","Nature","Science"],
   },
   {
     id: "gen-7113",
@@ -734,7 +707,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Sự gây nguy hiểm.",
     exampleEn: "Child endangerment.",
     exampleVi: "Sự gây nguy hiểm cho trẻ em.",
-    categories: ["General", "Law", "Social"],
+    categories: ["General","Law","Social"],
   },
   {
     id: "gen-7114",
@@ -746,7 +719,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Làm cho được yêu mến.",
     exampleEn: "Endear oneself to everyone.",
     exampleVi: "Làm cho mọi người yêu mến mình.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-7115",
@@ -758,7 +731,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Đáng yêu/Dễ mến.",
     exampleEn: "Endearing personality.",
     exampleVi: "Tính cách dễ mến.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-7116",
@@ -782,7 +755,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Lời nói âu yếm/sự yêu mến.",
     exampleEn: "Terms of endearment.",
     exampleVi: "Những lời nói âu yếm.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-7118",
@@ -794,7 +767,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Nỗ lực/Gắng sức.",
     exampleEn: "Endeavor to help others.",
     exampleVi: "Nỗ lực để giúp đỡ người khác.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "gen-7119",
@@ -802,12 +775,11 @@ export const E5: VocabularyWord[] = [
     slug: "endemic",
     phonetic: "/enˈdem.ɪk/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a disease or condition) regularly found among particular people or in a certain area.",
+    meaningEn: "(of a disease or condition) regularly found among particular people or in a certain area.",
     meaningVi: "Đặc hữu/Bản địa.",
     exampleEn: "Endemic species.",
     exampleVi: "Loài đặc hữu.",
-    categories: ["Science", "Nature", "Medical"],
+    categories: ["Science","Nature","Medical"],
   },
   {
     id: "gen-7120",
@@ -819,7 +791,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Sự kết thúc/Hậu vận.",
     exampleEn: "A happy ending.",
     exampleVi: "Một cái kết có hậu.",
-    categories: ["General", "Literature"],
+    categories: ["General","Literature"],
   },
   {
     id: "gen-7121",
@@ -831,7 +803,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Rau diếp/Cải cúc.",
     exampleEn: "Salad with endive.",
     exampleVi: "Salad với rau diếp.",
-    categories: ["Food & Drink", "Nature"],
+    categories: ["Food & Drink","Nature"],
   },
   {
     id: "gen-7122",
@@ -899,12 +871,11 @@ export const E5: VocabularyWord[] = [
     slug: "endocrine",
     phonetic: "/ˈen.də.krɪn/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to glands that secrete hormones or other products directly into the blood.",
+    meaningEn: "Relating to glands that secrete hormones or other products directly into the blood.",
     meaningVi: "Nội tiết.",
     exampleEn: "Endocrine system.",
     exampleVi: "Hệ nội tiết.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "c2-163",
@@ -912,8 +883,7 @@ export const E5: VocabularyWord[] = [
     slug: "endocrinology",
     phonetic: "/ˌen.doʊ.krɪˈnɑː.lə.dʒi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The branch of physiology and medicine concerned with endocrine glands and hormones.",
+    meaningEn: "The branch of physiology and medicine concerned with endocrine glands and hormones.",
     meaningVi: "Nội tiết học.",
     exampleEn: "An endocrinology clinic.",
     exampleVi: "Một phòng khám nội tiết học.",
@@ -925,12 +895,11 @@ export const E5: VocabularyWord[] = [
     slug: "endorsement",
     phonetic: "/ɪnˈdɔːrs.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An act of giving one's public approval or support to someone or something.",
+    meaningEn: "An act of giving one's public approval or support to someone or something.",
     meaningVi: "Sự xác nhận/Sự tán thành/Sự quảng cáo của người nổi tiếng.",
     exampleEn: "Celebrity endorsement.",
     exampleVi: "Sự quảng cáo của người nổi tiếng.",
-    categories: ["Business", "Marketing", "Social"],
+    categories: ["Business","Marketing","Social"],
   },
   {
     id: "gen-7129",
@@ -942,7 +911,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Người xác nhận/Người tán thành.",
     exampleEn: "The product endorser.",
     exampleVi: "Người quảng cáo sản phẩm.",
-    categories: ["Business", "Marketing"],
+    categories: ["Business","Marketing"],
   },
   {
     id: "gen-7130",
@@ -950,12 +919,11 @@ export const E5: VocabularyWord[] = [
     slug: "endow",
     phonetic: "/ɪnˈdaʊ/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Give or bequeath an income or property to (a person or institution).",
+    meaningEn: "Give or bequeath an income or property to (a person or institution).",
     meaningVi: "Ban cho/Cấp vốn/Phú cho.",
     exampleEn: "Endowed with natural talent.",
     exampleVi: "Được phú cho tài năng thiên bẩm.",
-    categories: ["General", "Education", "Business"],
+    categories: ["General","Education","Business"],
   },
   {
     id: "gen-7131",
@@ -963,12 +931,11 @@ export const E5: VocabularyWord[] = [
     slug: "endowment",
     phonetic: "/ɪnˈdaʊ.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An income or form of property given or bequeathed to someone or an institution.",
+    meaningEn: "An income or form of property given or bequeathed to someone or an institution.",
     meaningVi: "Sự ban cho/Vốn hiến tặng.",
     exampleEn: "University endowment.",
     exampleVi: "Vốn hiến tặng của trường đại học.",
-    categories: ["Education", "Business"],
+    categories: ["Education","Business"],
   },
   {
     id: "gen-7132",
@@ -980,7 +947,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Phú cho/Ban cho.",
     exampleEn: "Endued with great power.",
     exampleVi: "Được ban cho quyền năng to lớn.",
-    categories: ["Literature", "General"],
+    categories: ["Literature","General"],
   },
   {
     id: "gen-7133",
@@ -1000,12 +967,11 @@ export const E5: VocabularyWord[] = [
     slug: "endurance",
     phonetic: "/ɪnˈdʊr.əns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The fact or power of enduring an unpleasant or difficult process or situation without giving way.",
+    meaningEn: "The fact or power of enduring an unpleasant or difficult process or situation without giving way.",
     meaningVi: "Sự chịu đựng/Sức chịu đựng.",
     exampleEn: "Running an endurance race.",
     exampleVi: "Chạy một cuộc đua bền bỉ.",
-    categories: ["Sports", "General", "Psychology"],
+    categories: ["Sports","General","Psychology"],
   },
   {
     id: "gen-7135",
@@ -1017,7 +983,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Chịu đựng/Cam chịu/Kéo dài.",
     exampleEn: "Endure hardship.",
     exampleVi: "Chịu đựng gian khổ.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-7136",
@@ -1029,7 +995,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Bền bỉ/Lâu dài.",
     exampleEn: "Enduring friendship.",
     exampleVi: "Tình bạn lâu bền.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-385",
@@ -1053,7 +1019,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Mạnh mẽ/Đầy nghị lực/Hoạt bát.",
     exampleEn: "An energetic leader.",
     exampleVi: "Một nhà lãnh đạo đầy năng lượng.",
-    categories: ["General", "People"],
+    categories: ["General","People"],
   },
   {
     id: "gen-7139",
@@ -1065,7 +1031,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Làm mạnh mẽ/Tiep sức lực.",
     exampleEn: "Energize the crowd.",
     exampleVi: "Khuấy động đám đông.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "a2-96",
@@ -1073,8 +1039,7 @@ export const E5: VocabularyWord[] = [
     slug: "energy",
     phonetic: "/ˈen.ər.dʒi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Power derived from the utilization of physical or chemical resources.",
+    meaningEn: "Power derived from the utilization of physical or chemical resources.",
     meaningVi: "Năng lượng.",
     exampleEn: "Solar energy is renewable.",
     exampleVi: "Năng lượng mặt trời là năng lượng tái tạo.",
@@ -1102,7 +1067,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Làm yếu đi/Làm nhu nhược.",
     exampleEn: "Enfeebled by age.",
     exampleVi: "Yếu đi do tuổi tác.",
-    categories: ["General", "Medical"],
+    categories: ["General","Medical"],
   },
   {
     id: "gen-7143",
@@ -1114,7 +1079,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Bọc lại/Ôm vào.",
     exampleEn: "Enfolded in his arms.",
     exampleVi: "Được ôm trọn trong vòng tay anh ấy.",
-    categories: ["Literature", "General"],
+    categories: ["Literature","General"],
   },
   {
     id: "gen-7144",
@@ -1122,12 +1087,11 @@ export const E5: VocabularyWord[] = [
     slug: "enforce",
     phonetic: "/ɪnˈfɔːrs/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Compel observance of or compliance with (a law, rule, or obligation).",
+    meaningEn: "Compel observance of or compliance with (a law, rule, or obligation).",
     meaningVi: "Thực thi/Bắt tuân thủ.",
     exampleEn: "Enforce the law.",
     exampleVi: "Thực thi pháp luật.",
-    categories: ["Law", "Government", "General"],
+    categories: ["Law","Government","General"],
   },
   {
     id: "gen-7145",
@@ -1139,7 +1103,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Có thể thực thi/Có hiệu lực.",
     exampleEn: "Legally enforceable contract.",
     exampleVi: "Hợp đồng có hiệu lực pháp lý.",
-    categories: ["Law", "Business"],
+    categories: ["Law","Business"],
   },
   {
     id: "gen-7146",
@@ -1147,12 +1111,11 @@ export const E5: VocabularyWord[] = [
     slug: "enforcement",
     phonetic: "/ɪnˈfɔːrs.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The act of compelling observance of or compliance with a law, rule, or obligation.",
+    meaningEn: "The act of compelling observance of or compliance with a law, rule, or obligation.",
     meaningVi: "Sự thực thi/Sự bắt buộc.",
     exampleEn: "Law enforcement.",
     exampleVi: "Thực thi pháp luật.",
-    categories: ["Law", "Social"],
+    categories: ["Law","Social"],
   },
   {
     id: "gen-7147",
@@ -1164,7 +1127,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Cho quyền bầu cử/Giải phóng.",
     exampleEn: "Enfranchise women.",
     exampleVi: "Trao quyền bầu cử cho phụ nữ.",
-    categories: ["Politics", "Law", "History"],
+    categories: ["Politics","Law","History"],
   },
   {
     id: "gen-387",
@@ -1188,7 +1151,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Bận rộn/Đã đính hôn.",
     exampleEn: "Engaged couple.",
     exampleVi: "Cặp đôi đã đính hôn.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-7150",
@@ -1196,12 +1159,11 @@ export const E5: VocabularyWord[] = [
     slug: "engagement",
     phonetic: "/ɪnˈɡeɪdʒ.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A formal agreement to get married; an arrangement to do something.",
+    meaningEn: "A formal agreement to get married; an arrangement to do something.",
     meaningVi: "Sự đính hôn/Cuộc hẹn/Sự tham gia.",
     exampleEn: "Broken engagement.",
     exampleVi: "Hủy hôn ước.",
-    categories: ["General", "Social", "Business"],
+    categories: ["General","Social","Business"],
   },
   {
     id: "gen-7151",
@@ -1213,7 +1175,7 @@ export const E5: VocabularyWord[] = [
     meaningVi: "Lôi cuốn/Hấp dẫn.",
     exampleEn: "An engaging smile.",
     exampleVi: "Nụ cười lôi cuốn.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-7152",
@@ -1227,4 +1189,16 @@ export const E5: VocabularyWord[] = [
     exampleVi: "Nói chuyện một cách lôi cuốn.",
     categories: ["General"],
   },
+  {
+    id: "gen-7153",
+    word: "Engender",
+    slug: "engender",
+    phonetic: "/ɪnˈdʒen.dɚ/",
+    partOfSpeech: "verb",
+    meaningEn: "Cause or give rise to (a feeling, situation, or condition).",
+    meaningVi: "Sinh ra/Gây ra/Đem lại.",
+    exampleEn: "Engender controversy.",
+    exampleVi: "Gây ra tranh cãi.",
+    categories: ["General","Literature"],
+  }
 ];

@@ -2,17 +2,28 @@ import { VocabularyWord } from "../../types";
 
 export const C5: VocabularyWord[] = [
   {
+    id: "gen-3093",
+    word: "Chrome",
+    slug: "chrome",
+    phonetic: "/kroʊm/",
+    partOfSpeech: "noun/verb",
+    meaningEn: "Chromium plate as a decorative or protective finish on motor-vehicle parts and other objects.",
+    meaningVi: "Crôm (lớp mạ).",
+    exampleEn: "Chrome bumper.",
+    exampleVi: "Cản trước mạ crôm.",
+    categories: ["Technology","Engineering","General"],
+  },
+  {
     id: "gen-3094",
     word: "Chromium",
     slug: "chromium",
     phonetic: "/ˈkroʊ.mi.əm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The chemical element of atomic number 24, a hard white metal used in stainless steel and other alloys.",
+    meaningEn: "The chemical element of atomic number 24, a hard white metal used in stainless steel and other alloys.",
     meaningVi: "Crôm (nguyên tố).",
     exampleEn: "Chromium alloy.",
     exampleVi: "Hợp kim crôm.",
-    categories: ["Science", "Chemistry"],
+    categories: ["Science","Chemistry"],
   },
   {
     id: "gen-3095",
@@ -20,12 +31,11 @@ export const C5: VocabularyWord[] = [
     slug: "chromosome",
     phonetic: "/ˈkroʊ.mə.soʊm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A threadlike structure of nucleic acids and protein found in the nuclei of most living cells, carrying genetic information in the form of genes.",
+    meaningEn: "A threadlike structure of nucleic acids and protein found in the nuclei of most living cells, carrying genetic information in the form of genes.",
     meaningVi: "Nhiễm sắc thể.",
     exampleEn: "X chromosome.",
     exampleVi: "Nhiễm sắc thể X.",
-    categories: ["Science", "Biology", "Medical"],
+    categories: ["Science","Biology","Medical"],
   },
   {
     id: "b2-196",
@@ -49,7 +59,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Kinh niên/Một cách mãn tính.",
     exampleEn: "Chronically ill.",
     exampleVi: "Bị ốm kinh niên.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-3098",
@@ -57,12 +67,11 @@ export const C5: VocabularyWord[] = [
     slug: "chronicle",
     phonetic: "/ˈkrɑː.nɪ.kəl/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A factual written account of important or historical events in the order of their occurrence.",
+    meaningEn: "A factual written account of important or historical events in the order of their occurrence.",
     meaningVi: "Biên niên sử/Ghi chép lịch sử.",
     exampleEn: "Official chronicle.",
     exampleVi: "Biên niên sử chính thức.",
-    categories: ["History", "Literature", "Social"],
+    categories: ["History","Literature","Social"],
   },
   {
     id: "gen-3099",
@@ -70,12 +79,11 @@ export const C5: VocabularyWord[] = [
     slug: "chronicler",
     phonetic: "/ˈkrɑː.nɪ.klɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who writes accounts of important or historical events.",
+    meaningEn: "A person who writes accounts of important or historical events.",
     meaningVi: "Người chép biên niên sử.",
     exampleEn: "Modern chronicler.",
     exampleVi: "Người chép sử hiện đại.",
-    categories: ["People", "History", "Business"],
+    categories: ["People","History","Business"],
   },
   {
     id: "gen-3100",
@@ -83,12 +91,11 @@ export const C5: VocabularyWord[] = [
     slug: "chronological",
     phonetic: "/ˌkrɑː.nəˈlɑː.dʒɪ.kəl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a record of events) starting with the earliest and following the order in which they occurred.",
+    meaningEn: "(of a record of events) starting with the earliest and following the order in which they occurred.",
     meaningVi: "Theo thứ tự thời gian.",
     exampleEn: "Chronological order.",
     exampleVi: "Thứ tự thời gian.",
-    categories: ["History", "General", "Science"],
+    categories: ["History","General","Science"],
   },
   {
     id: "gen-3101",
@@ -100,7 +107,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Theo trình tự thời gian.",
     exampleEn: "Arrange chronologically.",
     exampleVi: "Sắp xếp theo thời gian.",
-    categories: ["General", "History"],
+    categories: ["General","History"],
   },
   {
     id: "gen-3102",
@@ -108,12 +115,11 @@ export const C5: VocabularyWord[] = [
     slug: "chronology",
     phonetic: "/krəˈnɑː.lə.dʒi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The arrangement of events or dates in the order of their occurrence.",
+    meaningEn: "The arrangement of events or dates in the order of their occurrence.",
     meaningVi: "Niên đại học/Sự sắp xếp theo thời gian.",
     exampleEn: "Faulty chronology.",
     exampleVi: "Trình tự thời gian sai sót.",
-    categories: ["History", "Science", "General"],
+    categories: ["History","Science","General"],
   },
   {
     id: "gen-3103",
@@ -121,12 +127,11 @@ export const C5: VocabularyWord[] = [
     slug: "chronometer",
     phonetic: "/krəˈnɑː.mə.t̬ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An instrument for measuring time, especially one designed to keep accurate time in spite of variations in temperature, humidity, and air pressure.",
+    meaningEn: "An instrument for measuring time, especially one designed to keep accurate time in spite of variations in temperature, humidity, and air pressure.",
     meaningVi: "Đồng hồ bấm giờ chính xác.",
     exampleEn: "Marine chronometer.",
     exampleVi: "Đồng hồ hàng hải chính xác.",
-    categories: ["Technology", "Engineering", "History"],
+    categories: ["Technology","Engineering","History"],
   },
   {
     id: "gen-3104",
@@ -138,7 +143,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Kén/Nhộng.",
     exampleEn: "Butterfly chrysalis.",
     exampleVi: "Kén bướm.",
-    categories: ["Biology", "Environment"],
+    categories: ["Biology","Environment"],
   },
   {
     id: "gen-3105",
@@ -150,7 +155,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Ném/Quăng/Vỗ nhẹ dưới cằm.",
     exampleEn: "Chuck it away.",
     exampleVi: "Vứt nó đi.",
-    categories: ["General", "Daily"],
+    categories: ["General","Daily"],
   },
   {
     id: "gen-3106",
@@ -162,7 +167,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Cười thầm/Cười khúc khích.",
     exampleEn: "Chuckle to oneself.",
     exampleVi: "Cười thầm một mình.",
-    categories: ["Psychology", "Emotions"],
+    categories: ["Psychology","Emotions"],
   },
   {
     id: "gen-3107",
@@ -174,7 +179,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Bạn thân.",
     exampleEn: "Old chum.",
     exampleVi: "Người bạn cũ.",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-3108",
@@ -186,7 +191,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Thân mật/Thân thiết.",
     exampleEn: "Get chummy with.",
     exampleVi: "Trở nên thân thiết với.",
-    categories: ["Social", "Psychology"],
+    categories: ["Social","Psychology"],
   },
   {
     id: "gen-3109",
@@ -198,7 +203,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Khối/Khúc/Khoanh.",
     exampleEn: "Chunk of wood.",
     exampleVi: "Khúc gỗ.",
-    categories: ["General", "Daily"],
+    categories: ["General","Daily"],
   },
   {
     id: "gen-3110",
@@ -210,7 +215,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Lùn và mập/Dày và nặng/Có nhiều miếng to.",
     exampleEn: "Chunky soup.",
     exampleVi: "Súp có nhiều miếng to.",
-    categories: ["General", "Body", "Food & Drink"],
+    categories: ["General","Body","Food & Drink"],
   },
   {
     id: "gen-3111",
@@ -222,7 +227,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Nhà thờ.",
     exampleEn: "Go to church.",
     exampleVi: "Đi nhà thờ.",
-    categories: ["Home", "Philosophy", "Social"],
+    categories: ["Home","Philosophy","Social"],
   },
   {
     id: "gen-3112",
@@ -234,7 +239,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Giáo sĩ/Tín đồ (nam).",
     exampleEn: "Devout churchman.",
     exampleVi: "Tín đồ ngoan đạo.",
-    categories: ["People", "Philosophy"],
+    categories: ["People","Philosophy"],
   },
   {
     id: "gen-3113",
@@ -242,12 +247,11 @@ export const C5: VocabularyWord[] = [
     slug: "churchyard",
     phonetic: "/ˈtʃɝːtʃ.jɑːrd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An enclosed area surrounding a church, often used as a burial ground.",
+    meaningEn: "An enclosed area surrounding a church, often used as a burial ground.",
     meaningVi: "Nghĩa trang/Sân nhà thờ.",
     exampleEn: "Old churchyard.",
     exampleVi: "Sân nhà thờ cũ.",
-    categories: ["Home", "Social", "History"],
+    categories: ["Home","Social","History"],
   },
   {
     id: "gen-3114",
@@ -255,12 +259,11 @@ export const C5: VocabularyWord[] = [
     slug: "churn",
     phonetic: "/tʃɝːn/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Agitate or turn (milk or cream) in a machine in order to produce butter.",
+    meaningEn: "Agitate or turn (milk or cream) in a machine in order to produce butter.",
     meaningVi: "Đánh (sữa, bơ)/Khuấy động/Sự biến động khách hàng.",
     exampleEn: "Churn rate.",
     exampleVi: "Tỷ lệ khách hàng rời bỏ dịch vụ.",
-    categories: ["General", "Business", "Food & Drink"],
+    categories: ["General","Business","Food & Drink"],
   },
   {
     id: "gen-3115",
@@ -268,12 +271,11 @@ export const C5: VocabularyWord[] = [
     slug: "chute",
     phonetic: "/ʃuːt/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A sloping channel or slide for conveying things to a lower level.",
+    meaningEn: "A sloping channel or slide for conveying things to a lower level.",
     meaningVi: "Máng trượt/Ống trượt.",
     exampleEn: "Laundry chute.",
     exampleVi: "Ống trượt đồ giặt.",
-    categories: ["Home", "Engineering", "General"],
+    categories: ["Home","Engineering","General"],
   },
   {
     id: "gen-3116",
@@ -285,7 +287,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Rượu táo.",
     exampleEn: "Apple cider.",
     exampleVi: "Rượu táo/Nước táo lên men.",
-    categories: ["Food & Drink", "Daily"],
+    categories: ["Food & Drink","Daily"],
   },
   {
     id: "gen-3117",
@@ -297,7 +299,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Xì gà.",
     exampleEn: "Smoke a cigar.",
     exampleVi: "Hút xì gà.",
-    categories: ["Daily", "General"],
+    categories: ["Daily","General"],
   },
   {
     id: "gen-3118",
@@ -305,12 +307,11 @@ export const C5: VocabularyWord[] = [
     slug: "cigarette",
     phonetic: "/ˌsɪɡ.əˈret/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A thin cylinder of finely cut tobacco rolled in paper for smoking.",
+    meaningEn: "A thin cylinder of finely cut tobacco rolled in paper for smoking.",
     meaningVi: "Thuốc lá.",
     exampleEn: "Light a cigarette.",
     exampleVi: "Châm một điếu thuốc.",
-    categories: ["Daily", "General", "Medical"],
+    categories: ["Daily","General","Medical"],
   },
   {
     id: "a1-197",
@@ -322,7 +323,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Rạp chiếu phim.",
     exampleEn: "Shall we go to the cinema tonight?",
     exampleVi: "Tối nay chúng ta đi xem phim nhé?",
-    categories: ["Daily", "Social"],
+    categories: ["Daily","Social"],
   },
   {
     id: "gen-3119",
@@ -334,7 +335,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Nghệ thuật điện ảnh/Kỹ thuật quay phim.",
     exampleEn: "Award for cinematography.",
     exampleVi: "Giải thưởng cho kỹ thuật quay phim xuất sắc.",
-    categories: ["Art", "Media", "Technology"],
+    categories: ["Art","Media","Technology"],
   },
   {
     id: "gen-3120",
@@ -342,12 +343,11 @@ export const C5: VocabularyWord[] = [
     slug: "cinnamon",
     phonetic: "/ˈsɪn.ə.mən/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "An aromatic spice made from the peeled, dried, and rolled bark of a Southeast Asian tree.",
+    meaningEn: "An aromatic spice made from the peeled, dried, and rolled bark of a Southeast Asian tree.",
     meaningVi: "Quế.",
     exampleEn: "Cinnamon rolls.",
     exampleVi: "Bánh cuộn quế.",
-    categories: ["Food & Drink", "Biology", "Environment"],
+    categories: ["Food & Drink","Biology","Environment"],
   },
   {
     id: "gen-3121",
@@ -359,7 +359,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Mật mã/Số không/Chữ viết tắt.",
     exampleEn: "Crack the cipher.",
     exampleVi: "Giải mật mã.",
-    categories: ["Technology", "Technology", "Mathematics"],
+    categories: ["Technology","Technology","Mathematics"],
   },
   {
     id: "gen-3122",
@@ -367,12 +367,11 @@ export const C5: VocabularyWord[] = [
     slug: "circle",
     phonetic: "/ˈsɝː.kəl/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A round plane figure whose boundary (the circumference) consists of points equidistant from a fixed point (the center).",
+    meaningEn: "A round plane figure whose boundary (the circumference) consists of points equidistant from a fixed point (the center).",
     meaningVi: "Hình tròn/Vòng tròn/Giới/Nhóm.",
     exampleEn: "Inner circle.",
     exampleVi: "Nhóm thân cận.",
-    categories: ["General", "Mathematics", "Social"],
+    categories: ["General","Mathematics","Social"],
   },
   {
     id: "gen-3123",
@@ -380,12 +379,11 @@ export const C5: VocabularyWord[] = [
     slug: "circlet",
     phonetic: "/ˈsɝː.klət/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A circular band, typically one made of precious metal, worn on the head as an ornament.",
+    meaningEn: "A circular band, typically one made of precious metal, worn on the head as an ornament.",
     meaningVi: "Vòng đầu/Vòng trang sức.",
     exampleEn: "Gold circlet.",
     exampleVi: "Cái vòng đầu bằng vàng.",
-    categories: ["Fashion", "Art", "Body"],
+    categories: ["Fashion","Art","Body"],
   },
   {
     id: "gen-3124",
@@ -393,12 +391,11 @@ export const C5: VocabularyWord[] = [
     slug: "circuit",
     phonetic: "/ˈsɝː.kɪt/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A roughly circular line, route, or movement that starts and finishes at the same place.",
+    meaningEn: "A roughly circular line, route, or movement that starts and finishes at the same place.",
     meaningVi: "Mạch điện/Chu vi/Cuộc đi quanh.",
     exampleEn: "Short circuit.",
     exampleVi: "Ngắn mạch/Chập điện.",
-    categories: ["Technology", "Physics", "Engineering"],
+    categories: ["Technology","Physics","Engineering"],
   },
   {
     id: "gen-3125",
@@ -410,7 +407,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Hệ thống mạch điện.",
     exampleEn: "Complex circuitry.",
     exampleVi: "Hệ thống mạch điện phức tạp.",
-    categories: ["Technology", "Physics", "Engineering"],
+    categories: ["Technology","Physics","Engineering"],
   },
   {
     id: "gen-3126",
@@ -422,7 +419,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Hình tròn/Quanh co/Thông báo/Tờ rơi.",
     exampleEn: "Circular saw.",
     exampleVi: "Cưa đĩa/Cưa tròn.",
-    categories: ["General", "Engineering", "Media"],
+    categories: ["General","Engineering","Media"],
   },
   {
     id: "gen-3127",
@@ -430,12 +427,11 @@ export const C5: VocabularyWord[] = [
     slug: "circulate",
     phonetic: "/ˈsɝː.kjə.leɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Move or cause to move continuously or freely through a closed system or area.",
+    meaningEn: "Move or cause to move continuously or freely through a closed system or area.",
     meaningVi: "Lưu thông/Tuần hoàn/Lan truyền.",
     exampleEn: "Blood circulates.",
     exampleVi: "Máu tuần hoàn.",
-    categories: ["General", "Biology", "Social"],
+    categories: ["General","Biology","Social"],
   },
   {
     id: "gen-3128",
@@ -443,12 +439,11 @@ export const C5: VocabularyWord[] = [
     slug: "circulation",
     phonetic: "/ˌsɝː.kjəˈleɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Movement to and fro or around something, especially that of fluid in a closed system.",
+    meaningEn: "Movement to and fro or around something, especially that of fluid in a closed system.",
     meaningVi: "Sự tuần hoàn/Số bản in (báo chí)/Sự lưu thông.",
     exampleEn: "Daily circulation.",
     exampleVi: "Số lượng phát hành hàng ngày.",
-    categories: ["Business", "Biology", "Media"],
+    categories: ["Business","Biology","Media"],
   },
   {
     id: "gen-3129",
@@ -460,7 +455,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Phẫu thuật cắt bao quy đầu/Sự thanh tẩy.",
     exampleEn: "Ritual circumcision.",
     exampleVi: "Nghi lễ cắt bao quy đầu.",
-    categories: ["Medical", "Philosophy", "Social"],
+    categories: ["Medical","Philosophy","Social"],
   },
   {
     id: "gen-3130",
@@ -468,12 +463,11 @@ export const C5: VocabularyWord[] = [
     slug: "circumference",
     phonetic: "/sɚˈkʌm.fɚ.əns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The enclosing boundary of a curved geometric figure, especially a circle.",
+    meaningEn: "The enclosing boundary of a curved geometric figure, especially a circle.",
     meaningVi: "Chu vi.",
     exampleEn: "Calculate the circumference.",
     exampleVi: "Tính chu vi.",
-    categories: ["Mathematics", "Science"],
+    categories: ["Mathematics","Science"],
   },
   {
     id: "gen-3131",
@@ -481,12 +475,11 @@ export const C5: VocabularyWord[] = [
     slug: "circumlocution",
     phonetic: "/ˌsɝː.kəmləˈkjuː.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The use of many words where fewer would do, especially in an evasive attempt to be vague or evasive.",
+    meaningEn: "The use of many words where fewer would do, especially in an evasive attempt to be vague or evasive.",
     meaningVi: "Sự nói vòng vo.",
     exampleEn: "Avoid circumlocution.",
     exampleVi: "Tránh nói vòng vo.",
-    categories: ["Literature", "Psychology", "Social"],
+    categories: ["Literature","Psychology","Social"],
   },
   {
     id: "gen-3132",
@@ -494,12 +487,11 @@ export const C5: VocabularyWord[] = [
     slug: "circumnavigate",
     phonetic: "/ˌsɝː.kəmˈnæv.ə.ɡeɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Sail or travel all the way around (something, especially the world).",
+    meaningEn: "Sail or travel all the way around (something, especially the world).",
     meaningVi: "Đi vòng quanh (thế giới bằng đường biển).",
     exampleEn: "Circumnavigate the globe.",
     exampleVi: "Đi vòng quanh thế giới.",
-    categories: ["Travel", "General", "Geography"],
+    categories: ["Travel","General","Geography"],
   },
   {
     id: "gen-3133",
@@ -511,7 +503,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Hạn chế/Vẽ đường bao quanh.",
     exampleEn: "Circumscribed power.",
     exampleVi: "Quyền lực bị hạn chế.",
-    categories: ["Politics", "Mathematics", "Law"],
+    categories: ["Politics","Mathematics","Law"],
   },
   {
     id: "gen-3134",
@@ -523,7 +515,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Thận trọng/Cẩn tắc.",
     exampleEn: "Be circumspect.",
     exampleVi: "Hãy thận trọng.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "b1-143",
@@ -531,8 +523,7 @@ export const C5: VocabularyWord[] = [
     slug: "circumstance",
     phonetic: "/ˈsɜː.kəm.stɑːns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A fact or condition connected with or relevant to an event or action.",
+    meaningEn: "A fact or condition connected with or relevant to an event or action.",
     meaningVi: "Hoàn cảnh.",
     exampleEn: "Due to unforeseen circumstances.",
     exampleVi: "Do những hoàn cảnh không lường trước được.",
@@ -544,8 +535,7 @@ export const C5: VocabularyWord[] = [
     slug: "circumstances",
     phonetic: "/ˈsɝː.kəm.stæn.sɪz/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A fact or condition connected with or relevant to an event or action.",
+    meaningEn: "A fact or condition connected with or relevant to an event or action.",
     meaningVi: "Hoàn cảnh, tình huống.",
     exampleEn: "Under no circumstances should you leave.",
     exampleVi: "Trong bất kỳ hoàn cảnh nào bạn cũng không nên rời đi.",
@@ -557,12 +547,11 @@ export const C5: VocabularyWord[] = [
     slug: "circumstantial",
     phonetic: "/ˌsɝː.kəmˈstæn.ʃəl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of evidence or a legal case) pointing indirectly toward someone's guilt but not conclusively proving it.",
+    meaningEn: "(of evidence or a legal case) pointing indirectly toward someone's guilt but not conclusively proving it.",
     meaningVi: "Theo tình huống/Gián tiếp/Chi tiết.",
     exampleEn: "Circumstantial evidence.",
     exampleVi: "Bằng chứng gián tiếp.",
-    categories: ["Law", "General", "Politics"],
+    categories: ["Law","General","Politics"],
   },
   {
     id: "gen-3137",
@@ -574,7 +563,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Dùng mưu để lách luật/Lẩn tránh/Đi vòng.",
     exampleEn: "Circumvent the law.",
     exampleVi: "Lách luật.",
-    categories: ["Politics", "Law", "Psychology"],
+    categories: ["Politics","Law","Psychology"],
   },
   {
     id: "gen-3138",
@@ -582,12 +571,11 @@ export const C5: VocabularyWord[] = [
     slug: "circus",
     phonetic: "/ˈsɝː.kəs/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A traveling company of acrobats, trained animals, and clowns that gives performances, typically in a large tent, in a series of different places.",
+    meaningEn: "A traveling company of acrobats, trained animals, and clowns that gives performances, typically in a large tent, in a series of different places.",
     meaningVi: "Rạp xiếc.",
     exampleEn: "Join the circus.",
     exampleVi: "Gia nhập rạp xiếc.",
-    categories: ["Art", "Social", "Daily"],
+    categories: ["Art","Social","Daily"],
   },
   {
     id: "gen-3139",
@@ -595,12 +583,11 @@ export const C5: VocabularyWord[] = [
     slug: "cirrhosis",
     phonetic: "/sɪˈroʊ.sɪs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A chronic disease of the liver marked by degeneration of cells, inflammation, and fibrous thickening of tissue.",
+    meaningEn: "A chronic disease of the liver marked by degeneration of cells, inflammation, and fibrous thickening of tissue.",
     meaningVi: "Bệnh xơ gan.",
     exampleEn: "Liver cirrhosis.",
     exampleVi: "Xơ gan.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-3140",
@@ -608,12 +595,11 @@ export const C5: VocabularyWord[] = [
     slug: "cistern",
     phonetic: "/ˈsɪs.tɚn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A tank for storing water, especially one supplying taps or as part of a flushing toilet.",
+    meaningEn: "A tank for storing water, especially one supplying taps or as part of a flushing toilet.",
     meaningVi: "Bể chứa nước/Bồn vệ sinh.",
     exampleEn: "Rainwater cistern.",
     exampleVi: "Bể chứa nước mưa.",
-    categories: ["Home", "Engineering", "Home"],
+    categories: ["Home","Engineering","Home"],
   },
   {
     id: "gen-3141",
@@ -621,12 +607,11 @@ export const C5: VocabularyWord[] = [
     slug: "citadel",
     phonetic: "/ˈsɪt̬.ə.del/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A fortress, typically on high ground, protecting or dominating a city.",
+    meaningEn: "A fortress, typically on high ground, protecting or dominating a city.",
     meaningVi: "Thành trì/Căn cứ địa.",
     exampleEn: "Ancient citadel.",
     exampleVi: "Thành cổ.",
-    categories: ["Home", "History", "Politics"],
+    categories: ["Home","History","Politics"],
   },
   {
     id: "gen-3142",
@@ -634,12 +619,11 @@ export const C5: VocabularyWord[] = [
     slug: "citation",
     phonetic: "/saɪˈteɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A quotation from or reference to a book, paper, or author, especially in a scholarly work.",
+    meaningEn: "A quotation from or reference to a book, paper, or author, especially in a scholarly work.",
     meaningVi: "Sự trích dẫn/Trát hầu tòa/Bằng khen.",
     exampleEn: "Bibliographic citation.",
     exampleVi: "Dẫn nguồn thư mục.",
-    categories: ["Literature", "Education", "Law"],
+    categories: ["Literature","Education","Law"],
   },
   {
     id: "c1-86",
@@ -647,8 +631,7 @@ export const C5: VocabularyWord[] = [
     slug: "cite",
     phonetic: "/saɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Quote (a passage, book, or author) as evidence for or justification of an argument or statement.",
+    meaningEn: "Quote (a passage, book, or author) as evidence for or justification of an argument or statement.",
     meaningVi: "Trích dẫn.",
     exampleEn: "Always cite your sources.",
     exampleVi: "Luôn luôn trích dẫn nguồn của bạn.",
@@ -660,8 +643,7 @@ export const C5: VocabularyWord[] = [
     slug: "citizen",
     phonetic: "/ˈsɪt.ɪ.zən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A legally recognized subject or national of a state or commonwealth, either native or naturalized.",
+    meaningEn: "A legally recognized subject or national of a state or commonwealth, either native or naturalized.",
     meaningVi: "Công dân.",
     exampleEn: "A good citizen.",
     exampleVi: "Một công dân tốt.",
@@ -673,12 +655,11 @@ export const C5: VocabularyWord[] = [
     slug: "citizenship",
     phonetic: "/ˈsɪt̬.ə.zən.ʃɪp/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The position or status of being a citizen of a particular country.",
+    meaningEn: "The position or status of being a citizen of a particular country.",
     meaningVi: "Quyền công dân/Quốc tịch.",
     exampleEn: "Dual citizenship.",
     exampleVi: "Hai quốc tịch.",
-    categories: ["Politics", "Social", "Law"],
+    categories: ["Politics","Social","Law"],
   },
   {
     id: "gen-3146",
@@ -686,12 +667,11 @@ export const C5: VocabularyWord[] = [
     slug: "citrus",
     phonetic: "/ˈsɪt.rəs/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A tree of a genus that includes citron, lemon, lime, orange, and grapefruit.",
+    meaningEn: "A tree of a genus that includes citron, lemon, lime, orange, and grapefruit.",
     meaningVi: "Họ cam quýt.",
     exampleEn: "Citrus fruit.",
     exampleVi: "Trái cây họ cam quýt.",
-    categories: ["Food & Drink", "Biology", "Environment"],
+    categories: ["Food & Drink","Biology","Environment"],
   },
   {
     id: "a1-148",
@@ -711,12 +691,11 @@ export const C5: VocabularyWord[] = [
     slug: "civic",
     phonetic: "/ˈsɪv.ɪk/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to a city or town, especially its administration; municipal.",
+    meaningEn: "Relating to a city or town, especially its administration; municipal.",
     meaningVi: "Thuộc về công dân/Thuộc về thành phố.",
     exampleEn: "Civic duty.",
     exampleVi: "Nghĩa vụ công dân.",
-    categories: ["Politics", "Social", "General"],
+    categories: ["Politics","Social","General"],
   },
   {
     id: "c1-87",
@@ -740,7 +719,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Thường dân.",
     exampleEn: "Innocent civilians.",
     exampleVi: "Những thường dân vô tội.",
-    categories: ["People", "Politics", "Social"],
+    categories: ["People","Politics","Social"],
   },
   {
     id: "gen-3151",
@@ -752,7 +731,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Sự lịch sự/Lễ độ.",
     exampleEn: "Treat with civility.",
     exampleVi: "Đối xử lịch sự.",
-    categories: ["Social", "Psychology"],
+    categories: ["Social","Psychology"],
   },
   {
     id: "gen-3152",
@@ -760,12 +739,11 @@ export const C5: VocabularyWord[] = [
     slug: "civilization",
     phonetic: "/ˌsɪv.əl.əˈzeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The stage of human social and cultural development and organization that is considered most advanced.",
+    meaningEn: "The stage of human social and cultural development and organization that is considered most advanced.",
     meaningVi: "Nền văn minh.",
     exampleEn: "Ancient civilization.",
     exampleVi: "Nền văn minh cổ đại.",
-    categories: ["History", "Social", "General"],
+    categories: ["History","Social","General"],
   },
   {
     id: "gen-3153",
@@ -773,12 +751,11 @@ export const C5: VocabularyWord[] = [
     slug: "civilize",
     phonetic: "/ˈsɪv.əl.aɪz/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Bring (a place or people) to a stage of social, cultural, and moral development considered to be more advanced.",
+    meaningEn: "Bring (a place or people) to a stage of social, cultural, and moral development considered to be more advanced.",
     meaningVi: "Khai hóa văn minh.",
     exampleEn: "Civilizing mission.",
     exampleVi: "Sứ mệnh khai hóa văn minh.",
-    categories: ["Social", "History", "Politics"],
+    categories: ["Social","History","Politics"],
   },
   {
     id: "gen-3154",
@@ -790,7 +767,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Văn minh/Lịch sự.",
     exampleEn: "Civilized society.",
     exampleVi: "Xã hội văn minh.",
-    categories: ["Social", "Philosophy", "Psychology"],
+    categories: ["Social","Philosophy","Psychology"],
   },
   {
     id: "gen-146",
@@ -802,7 +779,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Tuyên bố, khẳng định.",
     exampleEn: "He claims to be innocent.",
     exampleVi: "Anh ấy khẳng định mình vô tội.",
-    categories: ["General", "Law"],
+    categories: ["General","Law"],
   },
   {
     id: "gen-3156",
@@ -810,12 +787,11 @@ export const C5: VocabularyWord[] = [
     slug: "clamor",
     phonetic: "/ˈklæm.ɚ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A loud and confused noise, especially that of people shouting vehemently.",
+    meaningEn: "A loud and confused noise, especially that of people shouting vehemently.",
     meaningVi: "Tiếng la hét/Tiếng kêu la/Sự phản đối âm ĩ.",
     exampleEn: "Clamor for change.",
     exampleVi: "Tiếng kêu la đòi thay đổi.",
-    categories: ["General", "Social", "Psychology"],
+    categories: ["General","Social","Psychology"],
   },
   {
     id: "gen-3157",
@@ -823,12 +799,11 @@ export const C5: VocabularyWord[] = [
     slug: "clamp",
     phonetic: "/klæmp/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A brace, band, or clasp used for strengthening or holding things together.",
+    meaningEn: "A brace, band, or clasp used for strengthening or holding things together.",
     meaningVi: "Cái kẹp/Kẹp chặt.",
     exampleEn: "Iron clamp.",
     exampleVi: "Cái kẹp sắt.",
-    categories: ["Engineering", "Daily"],
+    categories: ["Engineering","Daily"],
   },
   {
     id: "gen-3158",
@@ -840,7 +815,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Gia tộc/Họ hàng.",
     exampleEn: "Clans of Scotland.",
     exampleVi: "Các gia tộc ở Scotland.",
-    categories: ["People", "Social", "History"],
+    categories: ["People","Social","History"],
   },
   {
     id: "c2-206",
@@ -852,7 +827,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Bí mật, lén lút.",
     exampleEn: "A clandestine meeting.",
     exampleVi: "Một cuộc họp bí mật.",
-    categories: ["Daily", "Social"],
+    categories: ["Daily","Social"],
   },
   {
     id: "gen-3159",
@@ -860,12 +835,11 @@ export const C5: VocabularyWord[] = [
     slug: "clap",
     phonetic: "/klæp/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Strike the palms of (one's hands) together repeatedly, typically in order to applaud.",
+    meaningEn: "Strike the palms of (one's hands) together repeatedly, typically in order to applaud.",
     meaningVi: "Vỗ tay/Tiếng sấm nổ.",
     exampleEn: "Clap hands.",
     exampleVi: "Vỗ tay.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-3160",
@@ -877,7 +851,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Búa (chuông).",
     exampleEn: "Bell clapper.",
     exampleVi: "Lưỡi chuông.",
-    categories: ["General", "Technology"],
+    categories: ["General","Technology"],
   },
   {
     id: "gen-3161",
@@ -885,12 +859,11 @@ export const C5: VocabularyWord[] = [
     slug: "clarification",
     phonetic: "/ˌklær.ə.fəˈkeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action of making a statement or situation less confused and more comprehensible.",
+    meaningEn: "The action of making a statement or situation less confused and more comprehensible.",
     meaningVi: "Sự làm rõ/Sự giải thích.",
     exampleEn: "Ask for clarification.",
     exampleVi: "Yêu cầu giải thích rõ hơn.",
-    categories: ["General", "Education", "Education"],
+    categories: ["General","Education","Education"],
   },
   {
     id: "c1-88",
@@ -898,8 +871,7 @@ export const C5: VocabularyWord[] = [
     slug: "clarify",
     phonetic: "/ˈkler.ə.faɪ/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Make (a statement or situation) less confused and more clearly comprehensible.",
+    meaningEn: "Make (a statement or situation) less confused and more clearly comprehensible.",
     meaningVi: "Làm rõ.",
     exampleEn: "Could you clarify that point?",
     exampleVi: "Bạn có thể làm rõ điểm đó được không?",
@@ -911,12 +883,11 @@ export const C5: VocabularyWord[] = [
     slug: "clarinet",
     phonetic: "/ˌklær.ɪˈnet/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A woodwind instrument with a single-reed mouthpiece, a cylindrical tube of dark wood with a flared bell, and holes stopped by keys.",
+    meaningEn: "A woodwind instrument with a single-reed mouthpiece, a cylindrical tube of dark wood with a flared bell, and holes stopped by keys.",
     meaningVi: "Kèn Clarinet.",
     exampleEn: "Play the clarinet.",
     exampleVi: "Chơi kèn clarinet.",
-    categories: ["Music", "Art"],
+    categories: ["Music","Art"],
   },
   {
     id: "gen-3164",
@@ -928,7 +899,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Sự rõ ràng/Sự trong sáng.",
     exampleEn: "Mental clarity.",
     exampleVi: "Sự minh mẫn.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-3165",
@@ -940,7 +911,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Sự xung đột/Sự mâu thuẫn/Tiếng loảng xoảng.",
     exampleEn: "Clash of opinions.",
     exampleVi: "Sự mâu thuẫn về quan điểm.",
-    categories: ["Social", "Politics", "General"],
+    categories: ["Social","Politics","General"],
   },
   {
     id: "gen-3166",
@@ -948,12 +919,11 @@ export const C5: VocabularyWord[] = [
     slug: "clasp",
     phonetic: "/klæsp/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A device with interlocking parts used for fastening things in position.",
+    meaningEn: "A device with interlocking parts used for fastening things in position.",
     meaningVi: "Cái móc/Cái gài/Sự ôm chặt.",
     exampleEn: "Necklace clasp.",
     exampleVi: "Móc vòng cổ.",
-    categories: ["General", "Fashion", "Daily"],
+    categories: ["General","Fashion","Daily"],
   },
   {
     id: "gen-3167",
@@ -961,12 +931,11 @@ export const C5: VocabularyWord[] = [
     slug: "class",
     phonetic: "/klæs/",
     partOfSpeech: "noun/verb/adjective",
-    meaningEn:
-      "A set or category of things having some property or attribute in common and differentiated from others by kind, type, or quality.",
+    meaningEn: "A set or category of things having some property or attribute in common and differentiated from others by kind, type, or quality.",
     meaningVi: "Lớp học/Giai cấp/Loại.",
     exampleEn: "High class.",
     exampleVi: "Giai cấp thượng lưu.",
-    categories: ["General", "Social", "Education"],
+    categories: ["General","Social","Education"],
   },
   {
     id: "c1-89",
@@ -974,8 +943,7 @@ export const C5: VocabularyWord[] = [
     slug: "classic",
     phonetic: "/ˈklæs.ɪk/",
     partOfSpeech: "adj/noun",
-    meaningEn:
-      "Judged over a period of time to be of the highest quality and outstanding of its kind.",
+    meaningEn: "Judged over a period of time to be of the highest quality and outstanding of its kind.",
     meaningVi: "Kinh điển.",
     exampleEn: "A classic novel.",
     exampleVi: "Một cuốn tiểu thuyết kinh điển.",
@@ -987,12 +955,11 @@ export const C5: VocabularyWord[] = [
     slug: "classical",
     phonetic: "/ˈklæs.ɪ.kəl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to ancient Greek or Latin literature, art, or culture.",
+    meaningEn: "Relating to ancient Greek or Latin literature, art, or culture.",
     meaningVi: "Thuộc về cổ điển/Văn hóa cổ Hi-La.",
     exampleEn: "Classical music.",
     exampleVi: "Nhạc cổ điển.",
-    categories: ["Art", "Music", "History"],
+    categories: ["Art","Music","History"],
   },
   {
     id: "gen-3170",
@@ -1000,12 +967,11 @@ export const C5: VocabularyWord[] = [
     slug: "classicism",
     phonetic: "/ˈklæs.ə.sɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The following of ancient Greek or Roman principles and style in art and literature, generally associated with harmony, restraint, and adherence to recognized standards of form and craftsmanship.",
+    meaningEn: "The following of ancient Greek or Roman principles and style in art and literature, generally associated with harmony, restraint, and adherence to recognized standards of form and craftsmanship.",
     meaningVi: "Chủ nghĩa cổ điển.",
     exampleEn: "European classicism.",
     exampleVi: "Chủ nghĩa cổ điển Châu Âu.",
-    categories: ["Art", "Literature", "Philosophy"],
+    categories: ["Art","Literature","Philosophy"],
   },
   {
     id: "gen-3171",
@@ -1013,12 +979,11 @@ export const C5: VocabularyWord[] = [
     slug: "classification",
     phonetic: "/ˌklæs.ə.fəˈkeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action or process of classifying something according to shared qualities or characteristics.",
+    meaningEn: "The action or process of classifying something according to shared qualities or characteristics.",
     meaningVi: "Sự phân loại.",
     exampleEn: "Scientific classification.",
     exampleVi: "Phân loại khoa học.",
-    categories: ["General", "Science", "Education"],
+    categories: ["General","Science","Education"],
   },
   {
     id: "gen-3172",
@@ -1030,7 +995,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Đã được phân loại/Bí mật (tài liệu).",
     exampleEn: "Classified information.",
     exampleVi: "Thông tin mật.",
-    categories: ["General", "Politics", "Education"],
+    categories: ["General","Politics","Education"],
   },
   {
     id: "gen-3173",
@@ -1042,7 +1007,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Người phân loại/Từ loại (trong ngôn ngữ).",
     exampleEn: "Data classifier.",
     exampleVi: "Công cụ phân loại dữ liệu.",
-    categories: ["General", "Technology", "Literature"],
+    categories: ["General","Technology","Literature"],
   },
   {
     id: "gen-3174",
@@ -1050,12 +1015,11 @@ export const C5: VocabularyWord[] = [
     slug: "classify",
     phonetic: "/ˈklæs.ə.faɪ/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Arrange (a group of people or things) in classes or categories according to shared qualities or characteristics.",
+    meaningEn: "Arrange (a group of people or things) in classes or categories according to shared qualities or characteristics.",
     meaningVi: "Phân loại.",
     exampleEn: "Classify documents.",
     exampleVi: "Phân loại tài liệu.",
-    categories: ["General", "Science", "Education"],
+    categories: ["General","Science","Education"],
   },
   {
     id: "gen-3175",
@@ -1067,7 +1031,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Bạn cùng lớp.",
     exampleEn: "Old classmate.",
     exampleVi: "Bạn cũ cùng lớp.",
-    categories: ["People", "Education", "Social"],
+    categories: ["People","Education","Social"],
   },
   {
     id: "gen-3176",
@@ -1079,7 +1043,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Lớp học (phòng).",
     exampleEn: "In the classroom.",
     exampleVi: "Trong lớp học.",
-    categories: ["Home", "Education"],
+    categories: ["Home","Education"],
   },
   {
     id: "c1-90",
@@ -1087,8 +1051,7 @@ export const C5: VocabularyWord[] = [
     slug: "clause",
     phonetic: "/klɑːz/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A unit of grammatical organization next below the sentence in rank.",
+    meaningEn: "A unit of grammatical organization next below the sentence in rank.",
     meaningVi: "Mệnh đề, điều khoản.",
     exampleEn: "The main clause of the sentence.",
     exampleVi: "Mệnh đề chính của câu.",
@@ -1100,12 +1063,11 @@ export const C5: VocabularyWord[] = [
     slug: "claw",
     phonetic: "/klɑː/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A curved pointed horny nail on each digit of the foot in birds, lizards, and some mammals.",
+    meaningEn: "A curved pointed horny nail on each digit of the foot in birds, lizards, and some mammals.",
     meaningVi: "Móng vuốt/Cào.",
     exampleEn: "Cat's claws.",
     exampleVi: "Móng mèo.",
-    categories: ["Biology", "Environment"],
+    categories: ["Biology","Environment"],
   },
   {
     id: "gen-3179",
@@ -1113,12 +1075,11 @@ export const C5: VocabularyWord[] = [
     slug: "clay",
     phonetic: "/kleɪ/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A stiff, sticky fine-grained earth, typically yellow, red, or bluish-gray in color and often forming an impermeable layer in the soil.",
+    meaningEn: "A stiff, sticky fine-grained earth, typically yellow, red, or bluish-gray in color and often forming an impermeable layer in the soil.",
     meaningVi: "Đất sét.",
     exampleEn: "Clay pot.",
     exampleVi: "Nồi đất sét.",
-    categories: ["Environment", "Art", "General"],
+    categories: ["Environment","Art","General"],
   },
   {
     id: "a1-87",
@@ -1154,7 +1115,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Người dọn dẹp/Chất tẩy rửa.",
     exampleEn: "Dry cleaner.",
     exampleVi: "Tiệm giặt khô.",
-    categories: ["People", "Home", "Jobs"],
+    categories: ["People","Home","Jobs"],
   },
   {
     id: "gen-3182",
@@ -1166,7 +1127,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Sự sạch sẽ.",
     exampleEn: "Personal cleanliness.",
     exampleVi: "Sự sạch sẽ cá nhân.",
-    categories: ["Daily", "Medical", "Psychology"],
+    categories: ["Daily","Medical","Psychology"],
   },
   {
     id: "gen-3183",
@@ -1178,7 +1139,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Một cách sạch sẽ/Trong sạch.",
     exampleEn: "Cut cleanly.",
     exampleVi: "Cắt một cách gọn gàng.",
-    categories: ["General", "Daily"],
+    categories: ["General","Daily"],
   },
   {
     id: "gen-3184",
@@ -1190,7 +1151,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Độ sạch.",
     exampleEn: "High level of cleanness.",
     exampleVi: "Mức độ sạch cao.",
-    categories: ["General", "Daily"],
+    categories: ["General","Daily"],
   },
   {
     id: "gen-3185",
@@ -1202,7 +1163,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Làm sạch/Tẩy trần.",
     exampleEn: "Cleanse the soul.",
     exampleVi: "Thanh tẩy tâm hồn.",
-    categories: ["Medical", "Daily", "Psychology"],
+    categories: ["Medical","Daily","Psychology"],
   },
   {
     id: "gen-3186",
@@ -1214,7 +1175,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Sữa rửa mặt/Chất tẩy rửa.",
     exampleEn: "Face cleanser.",
     exampleVi: "Sữa rửa mặt.",
-    categories: ["Medical", "Daily", "Fashion"],
+    categories: ["Medical","Daily","Fashion"],
   },
   {
     id: "gen-3187",
@@ -1226,7 +1187,7 @@ export const C5: VocabularyWord[] = [
     meaningVi: "Sự dọn dẹp/Sự làm sạch môi trường.",
     exampleEn: "Environmental cleanup.",
     exampleVi: "Làm sạch môi trường.",
-    categories: ["General", "Daily", "Environment"],
+    categories: ["General","Daily","Environment"],
   },
   {
     id: "a2-64",
@@ -1239,17 +1200,5 @@ export const C5: VocabularyWord[] = [
     exampleEn: "A clear explanation.",
     exampleVi: "Một lời giải thích rõ ràng.",
     categories: ["Daily"],
-  },
-  {
-    id: "gen-3189",
-    word: "Clearance",
-    slug: "clearance",
-    phonetic: "/ˈklɪr.əns/",
-    partOfSpeech: "noun",
-    meaningEn: "The action or process of clearing or of being cleared.",
-    meaningVi: "Sự dọn dẹp/Sự cho phép/Xả kho.",
-    exampleEn: "Clearance sale.",
-    exampleVi: "Bán xả kho.",
-    categories: ["General", "Business", "Shopping"],
-  },
+  }
 ];

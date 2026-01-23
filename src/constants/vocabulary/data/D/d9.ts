@@ -2,6 +2,54 @@ import { VocabularyWord } from "../../types";
 
 export const D9: VocabularyWord[] = [
   {
+    id: "a2-191",
+    word: "Device",
+    slug: "device",
+    phonetic: "/dɪˈvaɪs/",
+    partOfSpeech: "noun",
+    meaningEn: "A thing made or adapted for a particular purpose, especially a piece of mechanical or electronic equipment.",
+    meaningVi: "Thiết bị.",
+    exampleEn: "Mobile device.",
+    exampleVi: "Thiết bị di động.",
+    categories: ["Technology","Daily"],
+  },
+  {
+    id: "gen-5542",
+    word: "Devil",
+    slug: "devil",
+    phonetic: "/ˈdev.əl/",
+    partOfSpeech: "noun",
+    meaningEn: "The supreme spirit of evil.",
+    meaningVi: "Con quỷ/Ác quỷ.",
+    exampleEn: "Between the devil and the deep blue sea.",
+    exampleVi: "Tiến thoái lưỡng nan.",
+    categories: ["Religion","General"],
+  },
+  {
+    id: "gen-5543",
+    word: "Devilish",
+    slug: "devilish",
+    phonetic: "/ˈdev.əl.ɪʃ/",
+    partOfSpeech: "adjective",
+    meaningEn: "Like a devil; wicked or cruel.",
+    meaningVi: "Như quỷ/Quái ác/Tinh nghịch.",
+    exampleEn: "Devilish grin.",
+    exampleVi: "Nụ cười tinh nghịch/quái ác.",
+    categories: ["Psychology","General"],
+  },
+  {
+    id: "gen-5544",
+    word: "Devilishly",
+    slug: "devilishly",
+    phonetic: "/ˈdev.əl.ɪʃ.li/",
+    partOfSpeech: "adverb",
+    meaningEn: "In a devilish manner; extremely.",
+    meaningVi: "Một cách quái ác/Cực kỳ.",
+    exampleEn: "Devilishly handsome.",
+    exampleVi: "Đẹp trai một cách mê hồn/cực kỳ.",
+    categories: ["General"],
+  },
+  {
     id: "gen-5545",
     word: "Devilment",
     slug: "devilment",
@@ -11,7 +59,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Sự tinh quái/Sự quậy phá.",
     exampleEn: "Pure devilment.",
     exampleVi: "Sự quậy phá thuần túy.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-5546",
@@ -23,7 +71,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Sự độc ác/Ma thuật.",
     exampleEn: "Night of devilry.",
     exampleVi: "Một đêm đầy ma quái.",
-    categories: ["Psychology", "Politics", "General"],
+    categories: ["Psychology","Politics","General"],
   },
   {
     id: "gen-5547",
@@ -31,12 +79,11 @@ export const D9: VocabularyWord[] = [
     slug: "devious",
     phonetic: "/ˈdiː.vi.əs/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Showing a skillful use of underhanded tactics to achieve goals.",
+    meaningEn: "Showing a skillful use of underhanded tactics to achieve goals.",
     meaningVi: "Quanh co/Láu cá/Không ngay thẳng.",
     exampleEn: "Devious mind.",
     exampleVi: "Tâm địa quanh co/láu cá.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-5548",
@@ -48,7 +95,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Một cách quanh co/láu cá.",
     exampleEn: "Acted deviously.",
     exampleVi: "Hành động một cách quanh co.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-5549",
@@ -60,7 +107,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Sự quanh co/Sự láu cá.",
     exampleEn: "Inherent deviousness.",
     exampleVi: "Sự quanh co cố hữu.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-5550",
@@ -68,12 +115,11 @@ export const D9: VocabularyWord[] = [
     slug: "devise",
     phonetic: "/dɪˈvaɪz/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Plan or invent (a complex procedures, system, or mechanism) by careful thought.",
+    meaningEn: "Plan or invent (a complex procedures, system, or mechanism) by careful thought.",
     meaningVi: "Nghĩ ra/Đặt kế hoạch/Sáng chế.",
     exampleEn: "Devise a strategy.",
     exampleVi: "Nghĩ ra một chiến lược.",
-    categories: ["General", "Science", "Economics"],
+    categories: ["General","Science","Economics"],
   },
   {
     id: "gen-5551",
@@ -85,7 +131,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Làm mất sức sống/Làm suy yếu.",
     exampleEn: "Devitallizing effects.",
     exampleVi: "Những tác động làm suy yếu.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5552",
@@ -97,7 +143,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Không có/Trống rỗng/Thiếu thốn.",
     exampleEn: "Devoid of emotion.",
     exampleVi: "Không có cảm xúc.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-5553",
@@ -105,12 +151,11 @@ export const D9: VocabularyWord[] = [
     slug: "devolution",
     phonetic: "/ˌdiː.vəˈluː.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The transfer or delegation of power to a lower level, especially by central government to local or regional administration.",
+    meaningEn: "The transfer or delegation of power to a lower level, especially by central government to local or regional administration.",
     meaningVi: "Sự phân quyền/Sự ủy quyền (cho cấp dưới/địa phương).",
     exampleEn: "Powers of devolution.",
     exampleVi: "Các quyền hạn được phân cấp.",
-    categories: ["Politics", "Law", "Management"],
+    categories: ["Politics","Law","Management"],
   },
   {
     id: "gen-5554",
@@ -122,7 +167,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Phân quyền/Trao quyền/Trao lại nhịm vụ.",
     exampleEn: "Devolve responsibilities.",
     exampleVi: "Giao phó trách nhiệm (cho cấp dưới).",
-    categories: ["Politics", "Management", "Business"],
+    categories: ["Politics","Management","Business"],
   },
   {
     id: "gen-5555",
@@ -130,12 +175,11 @@ export const D9: VocabularyWord[] = [
     slug: "devote",
     phonetic: "/dɪˈvoʊt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Give all or a large part of one's time or resources to (a person, activity, or cause).",
+    meaningEn: "Give all or a large part of one's time or resources to (a person, activity, or cause).",
     meaningVi: "Cống hiến/Dành hết cho.",
     exampleEn: "Devote time to study.",
     exampleVi: "Dành thời gian cho việc học.",
-    categories: ["Psychology", "General", "Social"],
+    categories: ["Psychology","General","Social"],
   },
   {
     id: "gen-5556",
@@ -147,7 +191,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Hết lòng/Tận tụy/Thành tâm.",
     exampleEn: "Devoted husband.",
     exampleVi: "Người chồng hết lòng vì gia đình.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5557",
@@ -171,7 +215,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Sự tận tụy/Sự hết lòng.",
     exampleEn: "Sincere devotedness.",
     exampleVi: "Sự tận tụy chân thành.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5559",
@@ -179,12 +223,11 @@ export const D9: VocabularyWord[] = [
     slug: "devotee",
     phonetic: "/ˌdev.oʊˈtiː/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who is very interested in and enthusiastic about someone or something.",
+    meaningEn: "A person who is very interested in and enthusiastic about someone or something.",
     meaningVi: "Người hâm mộ/Người sùng bái/Tín đồ.",
     exampleEn: "Yoga devotee.",
     exampleVi: "Người sùng bái yoga.",
-    categories: ["People", "Social", "Religion"],
+    categories: ["People","Social","Religion"],
   },
   {
     id: "gen-5560",
@@ -196,7 +239,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Sự cống hiến/Sự thành tâm/Sự sùng bái.",
     exampleEn: "Life of devotion.",
     exampleVi: "Một đời cống hiến.",
-    categories: ["Psychology", "General", "Religion"],
+    categories: ["Psychology","General","Religion"],
   },
   {
     id: "gen-5561",
@@ -208,7 +251,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Thuộc về sự sùng bái/Kinh cầu nguyện.",
     exampleEn: "Devotional music.",
     exampleVi: "Nhạc tôn giáo/thành tâm.",
-    categories: ["Religion", "Music", "Art"],
+    categories: ["Religion","Music","Art"],
   },
   {
     id: "gen-5562",
@@ -216,12 +259,11 @@ export const D9: VocabularyWord[] = [
     slug: "devour",
     phonetic: "/dɪˈvaʊr/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Eat (food or prey) hungrily or quickly; read or look at (something) with great interest and enthusiasm.",
+    meaningEn: "Eat (food or prey) hungrily or quickly; read or look at (something) with great interest and enthusiasm.",
     meaningVi: "Ăn tươi nuốt sống/Ngấu nghiến (sách/kiến thức).",
     exampleEn: "Devour books.",
     exampleVi: "Đọc ngấu nghiến những cuốn sách.",
-    categories: ["General", "Daily", "Animals"],
+    categories: ["General","Daily","Animals"],
   },
   {
     id: "gen-5563",
@@ -233,7 +275,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Sùng đạo/Chân thành/Nhiệt tình.",
     exampleEn: "Devout Christian.",
     exampleVi: "Tín đồ Cơ đốc giáo sùng đạo.",
-    categories: ["Religion", "Psychology", "People"],
+    categories: ["Religion","Psychology","People"],
   },
   {
     id: "gen-5564",
@@ -245,7 +287,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Một cách sùng đạo/chân thành.",
     exampleEn: "Devoutly hoped.",
     exampleVi: "Chân thành hy vọng.",
-    categories: ["General", "Religion"],
+    categories: ["General","Religion"],
   },
   {
     id: "gen-5565",
@@ -257,7 +299,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Sự sùng đạo/Sự chân thành.",
     exampleEn: "Admirable devoutness.",
     exampleVi: "Sự sùng đạo đáng ngưỡng mộ.",
-    categories: ["Religion", "Psychology"],
+    categories: ["Religion","Psychology"],
   },
   {
     id: "gen-5566",
@@ -269,7 +311,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Sương/Giọt sương.",
     exampleEn: "Morning dew.",
     exampleVi: "Sương mai.",
-    categories: ["Nature", "Environment"],
+    categories: ["Nature","Environment"],
   },
   {
     id: "gen-5567",
@@ -281,7 +323,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Ướt đẫm sương/Trong trẻo (như sương).",
     exampleEn: "Dewy meadow.",
     exampleVi: "Đồng cỏ đẫm sương.",
-    categories: ["Nature", "Environment"],
+    categories: ["Nature","Environment"],
   },
   {
     id: "gen-5568",
@@ -293,7 +335,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Sự khéo léo/Sự xảo quyệt (nghĩa bóng).",
     exampleEn: "Manual dexterity.",
     exampleVi: "Sự khéo tay.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-5569",
@@ -305,7 +347,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Khéo léo/Nhanh nhẹn.",
     exampleEn: "Dexterous fingers.",
     exampleVi: "Những ngón tay khéo léo.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-5570",
@@ -325,12 +367,11 @@ export const D9: VocabularyWord[] = [
     slug: "dextrin",
     phonetic: "/ˈdek.strɪn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A soluble gummy substance used as a thickening agent and in adhesives.",
+    meaningEn: "A soluble gummy substance used as a thickening agent and in adhesives.",
     meaningVi: "Dextrin (một loại tinh bột biến tính).",
     exampleEn: "Industrial dextrin.",
     exampleVi: "Dextrin dùng trong công nghiệp.",
-    categories: ["Science", "Chemistry"],
+    categories: ["Science","Chemistry"],
   },
   {
     id: "gen-5572",
@@ -342,7 +383,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Đường dextrose/Đường nho.",
     exampleEn: "Dextrose injection.",
     exampleVi: "Tiêm đường dextrose.",
-    categories: ["Science", "Medical", "Food & Drink"],
+    categories: ["Science","Medical","Food & Drink"],
   },
   {
     id: "gen-5573",
@@ -354,7 +395,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Khố Dhoti (trang phục truyền thống Ấn Độ).",
     exampleEn: "Wearing a white dhoti.",
     exampleVi: "Mặc một chiếc khố dhoti trắng.",
-    categories: ["Fashion", "Religion", "People"],
+    categories: ["Fashion","Religion","People"],
   },
   {
     id: "gen-5574",
@@ -362,12 +403,11 @@ export const D9: VocabularyWord[] = [
     slug: "dhow",
     phonetic: "/daʊ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A lateen-rigged ship with one or two masts, used in the Indian Ocean.",
+    meaningEn: "A lateen-rigged ship with one or two masts, used in the Indian Ocean.",
     meaningVi: "Thuyền buồm Dhow.",
     exampleEn: "Arabian dhow.",
     exampleVi: "Thuyền buồm Dhow Ả Rập.",
-    categories: ["Travel", "History", "Engineering"],
+    categories: ["Travel","History","Engineering"],
   },
   {
     id: "a2-248",
@@ -375,8 +415,7 @@ export const D9: VocabularyWord[] = [
     slug: "diabetes",
     phonetic: "/ˌdaɪ.əˈbiː.t̬iːz/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A disease in which the body’s ability to produce or respond to the hormone insulin is impaired.",
+    meaningEn: "A disease in which the body’s ability to produce or respond to the hormone insulin is impaired.",
     meaningVi: "Bệnh tiểu đường.",
     exampleEn: "Type 2 diabetes.",
     exampleVi: "Tiểu đường loại 2.",
@@ -392,7 +431,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Thuộc về bệnh tiểu đường/Người bị tiểu đường.",
     exampleEn: "Diabetic diet.",
     exampleVi: "Chế độ ăn cho người tiểu đường.",
-    categories: ["Medical", "Medical", "People"],
+    categories: ["Medical","Medical","People"],
   },
   {
     id: "gen-5577",
@@ -404,7 +443,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Quái ác/Hiểm độc/Như quỷ.",
     exampleEn: "Diabolic plot.",
     exampleVi: "Âm mưu hiểm độc.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5578",
@@ -416,7 +455,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Quái ác/Rất tệ (biến thể).",
     exampleEn: "Diabolical performance.",
     exampleVi: "Màn trình diễn tồi tệ/quái ác.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5579",
@@ -440,7 +479,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Sự thờ cúng ác quỷ/Sự độc ác.",
     exampleEn: "Accused of diabolism.",
     exampleVi: "Bị cáo buộc thờ cúng ác quỷ.",
-    categories: ["Religion", "Social"],
+    categories: ["Religion","Social"],
   },
   {
     id: "gen-5582",
@@ -464,7 +503,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Chức phó tế.",
     exampleEn: "Enter the diaconate.",
     exampleVi: "Đảm nhận chức phó tế.",
-    categories: ["Religion", "Business"],
+    categories: ["Religion","Business"],
   },
   {
     id: "gen-5583",
@@ -472,12 +511,11 @@ export const D9: VocabularyWord[] = [
     slug: "diacritic",
     phonetic: "/ˌdaɪ.əˈkrɪt.ɪk/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A sign, such as an accent or cedilla, which when written above or below a letter indicates a difference in pronunciation.",
+    meaningEn: "A sign, such as an accent or cedilla, which when written above or below a letter indicates a difference in pronunciation.",
     meaningVi: "Dấu phụ (trong chữ viết).",
     exampleEn: "Vietnamese diacritics.",
     exampleVi: "Các dấu phụ trong tiếng Việt.",
-    categories: ["Literature", "General"],
+    categories: ["Literature","General"],
   },
   {
     id: "gen-5584",
@@ -489,7 +527,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Thuộc về dấu phụ.",
     exampleEn: "Diacritical marks.",
     exampleVi: "Các ký hiệu dấu phụ.",
-    categories: ["Literature", "General"],
+    categories: ["Literature","General"],
   },
   {
     id: "gen-5585",
@@ -501,7 +539,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Vương miện/Băng đeo đầu có đính ngọc.",
     exampleEn: "Royal diadem.",
     exampleVi: "Vương miện hoàng gia.",
-    categories: ["History", "Fashion"],
+    categories: ["History","Fashion"],
   },
   {
     id: "gen-5586",
@@ -509,12 +547,11 @@ export const D9: VocabularyWord[] = [
     slug: "diaeresis",
     phonetic: "/daɪˈer.ə.sɪs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A mark (¨) placed over a vowel to indicate that it is sounded separately.",
+    meaningEn: "A mark (¨) placed over a vowel to indicate that it is sounded separately.",
     meaningVi: "Dấu tách âm (¨).",
     exampleEn: "Use of diaeresis.",
     exampleVi: "Sử dụng dấu tách âm.",
-    categories: ["Literature", "General"],
+    categories: ["Literature","General"],
   },
   {
     id: "gen-5587",
@@ -522,12 +559,11 @@ export const D9: VocabularyWord[] = [
     slug: "diagnose",
     phonetic: "/ˌdaɪ.əɡˈnoʊz/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Identify the nature of (an illness or other problem) by examination of the symptoms.",
+    meaningEn: "Identify the nature of (an illness or other problem) by examination of the symptoms.",
     meaningVi: "Chẩn đoán.",
     exampleEn: "Diagnose a problem.",
     exampleVi: "Chẩn đoán một vấn đề/căn bệnh.",
-    categories: ["Medical", "Science", "General"],
+    categories: ["Medical","Science","General"],
   },
   {
     id: "b2-143",
@@ -535,8 +571,7 @@ export const D9: VocabularyWord[] = [
     slug: "diagnosis",
     phonetic: "/ˌdaɪ.əɡˈnoʊ.sɪs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The identification of the nature of an illness or other problem by examination of the symptoms.",
+    meaningEn: "The identification of the nature of an illness or other problem by examination of the symptoms.",
     meaningVi: "Sự chẩn đoán.",
     exampleEn: "He is waiting for the diagnosis.",
     exampleVi: "Anh ấy đang chờ kết quả chẩn đoán.",
@@ -552,7 +587,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Có tính chất chẩn đoán/Triệu chứng.",
     exampleEn: "Diagnostic test.",
     exampleVi: "Xét nghiệm chẩn đoán.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-5590",
@@ -560,12 +595,11 @@ export const D9: VocabularyWord[] = [
     slug: "diagonal",
     phonetic: "/daɪˈæɡ.ən.əl/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "Joining two opposite corners of a square, rectangle, or other straight-sided shape; a straight line joining opposite corners of a square, rectangle, or other straight-sided shape.",
+    meaningEn: "Joining two opposite corners of a square, rectangle, or other straight-sided shape; a straight line joining opposite corners of a square, rectangle, or other straight-sided shape.",
     meaningVi: "Đường chéo/Chéo.",
     exampleEn: "Diagonal line.",
     exampleVi: "Đường chéo.",
-    categories: ["Science", "Education", "General"],
+    categories: ["Science","Education","General"],
   },
   {
     id: "gen-5591",
@@ -585,12 +619,11 @@ export const D9: VocabularyWord[] = [
     slug: "diagram",
     phonetic: "/ˈdaɪ.ə.ɡræm/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A simplified drawing showing the appearance, structure, or workings of something.",
+    meaningEn: "A simplified drawing showing the appearance, structure, or workings of something.",
     meaningVi: "Sơ đồ/Biểu đồ.",
     exampleEn: "Venn diagram.",
     exampleVi: "Sơ đồ Venn.",
-    categories: ["Science", "Education", "General"],
+    categories: ["Science","Education","General"],
   },
   {
     id: "gen-5593",
@@ -602,7 +635,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Thuộc về sơ đồ/biểu đồ.",
     exampleEn: "Diagrammatic representation.",
     exampleVi: "Sự biểu diễn bằng sơ đồ.",
-    categories: ["Science", "Education"],
+    categories: ["Science","Education"],
   },
   {
     id: "gen-5594",
@@ -610,12 +643,11 @@ export const D9: VocabularyWord[] = [
     slug: "dial",
     phonetic: "/daɪəl/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A face of a clock, watch, or other instrument of measurement; call a telephone number.",
+    meaningEn: "A face of a clock, watch, or other instrument of measurement; call a telephone number.",
     meaningVi: "Mặt đồng hồ/Quay số (điện thoại).",
     exampleEn: "Dial a number.",
     exampleVi: "Quay một số (điện thoại).",
-    categories: ["Daily", "Technology"],
+    categories: ["Daily","Technology"],
   },
   {
     id: "gen-5595",
@@ -623,12 +655,11 @@ export const D9: VocabularyWord[] = [
     slug: "dialect",
     phonetic: "/ˈdaɪ.ə.lekt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A particular form of a language which is peculiar to a specific region or social group.",
+    meaningEn: "A particular form of a language which is peculiar to a specific region or social group.",
     meaningVi: "Tiếng địa phương/Phương ngữ.",
     exampleEn: "Local dialect.",
     exampleVi: "Phương ngữ địa phương.",
-    categories: ["Literature", "General", "Geography"],
+    categories: ["Literature","General","Geography"],
   },
   {
     id: "c2-245",
@@ -640,7 +671,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Phép biện chứng.",
     exampleEn: "Hegelian dialectic.",
     exampleVi: "Phép biện chứng của Hegel.",
-    categories: ["Academic", "Philosophy"],
+    categories: ["Academic","Philosophy"],
   },
   {
     id: "gen-5597",
@@ -652,7 +683,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Thuộc về biện chứng.",
     exampleEn: "Dialectical process.",
     exampleVi: "Quá trình biện chứng.",
-    categories: ["Philosophy", "Education"],
+    categories: ["Philosophy","Education"],
   },
   {
     id: "gen-5598",
@@ -664,7 +695,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Phép biện chứng.",
     exampleEn: "Study of dialectics.",
     exampleVi: "Nghiên cứu phép biện chứng.",
-    categories: ["Philosophy", "Education"],
+    categories: ["Philosophy","Education"],
   },
   {
     id: "gen-5599",
@@ -676,7 +707,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Người nghiên cứu phương ngữ.",
     exampleEn: "Renowned dialectologist.",
     exampleVi: "Nhà phương ngữ học nổi tiếng.",
-    categories: ["People", "Literature"],
+    categories: ["People","Literature"],
   },
   {
     id: "gen-5600",
@@ -684,12 +715,11 @@ export const D9: VocabularyWord[] = [
     slug: "dialectology",
     phonetic: "/ˌdaɪ.ə.lekˈtɑː.lə.dʒi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The branch of linguistics concerned with the study of dialects.",
+    meaningEn: "The branch of linguistics concerned with the study of dialects.",
     meaningVi: "Phương ngữ học.",
     exampleEn: "Course in dialectology.",
     exampleVi: "Khóa học về phương ngữ học.",
-    categories: ["Literature", "Education"],
+    categories: ["Literature","Education"],
   },
   {
     id: "b2-63",
@@ -697,8 +727,7 @@ export const D9: VocabularyWord[] = [
     slug: "dialogue",
     phonetic: "/ˈdaɪ.ə.lɑːɡ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Conversation between two or more people as a feature of a book, play, or movie.",
+    meaningEn: "Conversation between two or more people as a feature of a book, play, or movie.",
     meaningVi: "Hội thoại.",
     exampleEn: "A meaningful dialogue.",
     exampleVi: "Một cuộc hội thoại ý nghĩa.",
@@ -710,12 +739,11 @@ export const D9: VocabularyWord[] = [
     slug: "dialysis",
     phonetic: "/daɪˈæl.ə.sɪs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The separation of particles in a liquid on the basis of differences in their ability to pass through a membrane.",
+    meaningEn: "The separation of particles in a liquid on the basis of differences in their ability to pass through a membrane.",
     meaningVi: "Sự lọc máu/Sự thẩm tách.",
     exampleEn: "Kidney dialysis.",
     exampleVi: "Sự chạy thận/Lọc máu thận.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-5603",
@@ -723,12 +751,11 @@ export const D9: VocabularyWord[] = [
     slug: "diameter",
     phonetic: "/daɪˈæm.ə.t̬ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A straight line passing from side to side through the center of a body or figure, especially a circle or sphere.",
+    meaningEn: "A straight line passing from side to side through the center of a body or figure, especially a circle or sphere.",
     meaningVi: "Đường kính.",
     exampleEn: "A 10cm diameter.",
     exampleVi: "Đường kính 10cm.",
-    categories: ["Science", "Education", "General"],
+    categories: ["Science","Education","General"],
   },
   {
     id: "gen-5604",
@@ -736,12 +763,11 @@ export const D9: VocabularyWord[] = [
     slug: "diametric",
     phonetic: "/ˌdaɪ.əˈmet.rɪk/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to a diameter; (especially of a point of view) completely opposite.",
+    meaningEn: "Relating to a diameter; (especially of a point of view) completely opposite.",
     meaningVi: "Thuộc về đường kính/Hoàn toàn đối lập.",
     exampleEn: "Diametric opposites.",
     exampleVi: "Những thứ hoàn toàn đối lập nhau.",
-    categories: ["Science", "General"],
+    categories: ["Science","General"],
   },
   {
     id: "gen-5605",
@@ -749,8 +775,7 @@ export const D9: VocabularyWord[] = [
     slug: "diametrically",
     phonetic: "/ˌdaɪ.əˈmet.rɪ.kəl.i/",
     partOfSpeech: "adverb",
-    meaningEn:
-      "With reference to the diameter of a circle; (with reference to opposition) completely; directly.",
+    meaningEn: "With reference to the diameter of a circle; (with reference to opposition) completely; directly.",
     meaningVi: "Sắp xếp theo đường chéo/Hoàn toàn (đối lập).",
     exampleEn: "Diametrically opposed.",
     exampleVi: "Hoàn toàn đối lập.",
@@ -774,12 +799,11 @@ export const D9: VocabularyWord[] = [
     slug: "diapason",
     phonetic: "/ˌdaɪ.əˈpeɪ.zən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An organ stop extending through the entire range of the instrument.",
+    meaningEn: "An organ stop extending through the entire range of the instrument.",
     meaningVi: "Dải âm thanh/Toàn bộ phạm vi âm thanh.",
     exampleEn: "Full diapason.",
     exampleVi: "Toàn bộ dải âm.",
-    categories: ["Music", "Art"],
+    categories: ["Music","Art"],
   },
   {
     id: "gen-5608",
@@ -791,7 +815,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Tã lót.",
     exampleEn: "Change a diaper.",
     exampleVi: "Thay tã.",
-    categories: ["Daily", "Home", "General"],
+    categories: ["Daily","Home","General"],
   },
   {
     id: "gen-5609",
@@ -803,7 +827,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Trong mờ/Mỏng nhẹ/Mỏng manh.",
     exampleEn: "Diaphanous silk.",
     exampleVi: "Lụa mỏng nhẹ/trong mờ.",
-    categories: ["Fashion", "General"],
+    categories: ["Fashion","General"],
   },
   {
     id: "gen-5610",
@@ -815,7 +839,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Thuốc làm vã mồ hôi/Có tác dụng làm ra mồ hôi.",
     exampleEn: "Diaphoretic herb.",
     exampleVi: "Thảo mộc gây vã mồ hôi.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-5611",
@@ -823,12 +847,11 @@ export const D9: VocabularyWord[] = [
     slug: "diaphragm",
     phonetic: "/ˈdaɪ.ə.fræm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A dome-shaped, muscular partition separating the thorax from the abdomen; a thin sheet of material forming a partition.",
+    meaningEn: "A dome-shaped, muscular partition separating the thorax from the abdomen; a thin sheet of material forming a partition.",
     meaningVi: "Cơ hoành/Màng ngăn.",
     exampleEn: "Camera diaphragm.",
     exampleVi: "Màng ngăn máy ảnh/Khẩu độ.",
-    categories: ["Medical", "Science", "Technology"],
+    categories: ["Medical","Science","Technology"],
   },
   {
     id: "gen-5612",
@@ -840,7 +863,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Người viết nhật ký.",
     exampleEn: "Famous diarist.",
     exampleVi: "Người viết nhật ký nổi tiếng.",
-    categories: ["People", "Literature"],
+    categories: ["People","Literature"],
   },
   {
     id: "gen-5613",
@@ -848,12 +871,11 @@ export const D9: VocabularyWord[] = [
     slug: "diarrhea",
     phonetic: "/ˌdaɪ.əˈriː.ə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A condition in which feces are discharged from the bowels frequently and in a liquid form.",
+    meaningEn: "A condition in which feces are discharged from the bowels frequently and in a liquid form.",
     meaningVi: "Bệnh tiêu chảy.",
     exampleEn: "Severe diarrhea.",
     exampleVi: "Tiêu chảy nặng.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-5614",
@@ -861,12 +883,11 @@ export const D9: VocabularyWord[] = [
     slug: "diary",
     phonetic: "/ˈdaɪ.ə.ri/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A book in which one keeps a daily record of events and experiences.",
+    meaningEn: "A book in which one keeps a daily record of events and experiences.",
     meaningVi: "Sổ nhật ký/Lịch công tác.",
     exampleEn: "Keep a diary.",
     exampleVi: "Viết nhật ký.",
-    categories: ["Daily", "Literature", "General"],
+    categories: ["Daily","Literature","General"],
   },
   {
     id: "gen-5615",
@@ -874,12 +895,11 @@ export const D9: VocabularyWord[] = [
     slug: "diaspora",
     phonetic: "/daɪˈæs.pɚ.ə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The dispersion of the Jewish people beyond Israel; any group that has been dispersed outside its traditional homeland.",
+    meaningEn: "The dispersion of the Jewish people beyond Israel; any group that has been dispersed outside its traditional homeland.",
     meaningVi: "Cuộc di tản/Nhóm người định cư ở nước ngoài.",
     exampleEn: "Vietnamese diaspora.",
     exampleVi: "Cộng đồng người Việt ở hải ngoại.",
-    categories: ["History", "Social", "Politics"],
+    categories: ["History","Social","Politics"],
   },
   {
     id: "gen-5616",
@@ -891,7 +911,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Men diastase (phân giải tinh bột).",
     exampleEn: "Diastase activity.",
     exampleVi: "Hoạt động của men diastase.",
-    categories: ["Science", "Chemistry"],
+    categories: ["Science","Chemistry"],
   },
   {
     id: "gen-5617",
@@ -899,12 +919,11 @@ export const D9: VocabularyWord[] = [
     slug: "diastole",
     phonetic: "/daɪˈæs.tə.li/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The phase of the heartbeat when the heart muscle relaxes and allows the chambers to fill with blood.",
+    meaningEn: "The phase of the heartbeat when the heart muscle relaxes and allows the chambers to fill with blood.",
     meaningVi: "Thời kỳ tâm trương (tim giãn).",
     exampleEn: "During diastole.",
     exampleVi: "Trong thời kỳ tâm trương.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-5618",
@@ -916,7 +935,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Thuộc về tâm trương.",
     exampleEn: "Diastolic blood pressure.",
     exampleVi: "Huyết áp tâm trương.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-5619",
@@ -928,7 +947,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Tố bẩm/Tạng (có xu hướng dễ mắc bệnh).",
     exampleEn: "Hemorrhagic diathesis.",
     exampleVi: "Tạng xuất huyết.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-5620",
@@ -936,12 +955,11 @@ export const D9: VocabularyWord[] = [
     slug: "diatonic",
     phonetic: "/ˌdaɪ.əˈtɑː.nɪk/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a scale, interval, etc.) involving only the notes proper to a prevailing key without chromatic alteration.",
+    meaningEn: "(of a scale, interval, etc.) involving only the notes proper to a prevailing key without chromatic alteration.",
     meaningVi: "Diatonic (quãng âm/gam không biến đổi).",
     exampleEn: "Diatonic scale.",
     exampleVi: "Âm giai diatonic.",
-    categories: ["Music", "Art"],
+    categories: ["Music","Art"],
   },
   {
     id: "c2-80",
@@ -949,8 +967,7 @@ export const D9: VocabularyWord[] = [
     slug: "diatribe",
     phonetic: "/ˈdaɪ.ə.traɪb/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A forceful and bitter verbal attack against someone or something.",
+    meaningEn: "A forceful and bitter verbal attack against someone or something.",
     meaningVi: "Lời chỉ trích kịch liệt.",
     exampleEn: "A diatribe against the government.",
     exampleVi: "Một lời chỉ trích kịch liệt nhằm vào chính phủ.",
@@ -966,7 +983,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Gậy chọc lỗ (để gieo mầm/trồng cây).",
     exampleEn: "Garden dibble.",
     exampleVi: "Gậy chọc lỗ làm vườn.",
-    categories: ["Plants", "Nature", "Daily"],
+    categories: ["Plants","Nature","Daily"],
   },
   {
     id: "gen-5623",
@@ -974,12 +991,11 @@ export const D9: VocabularyWord[] = [
     slug: "dice",
     phonetic: "/daɪs/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A small cube with each side having a different number of spots on it; cut (food) into small cubes.",
+    meaningEn: "A small cube with each side having a different number of spots on it; cut (food) into small cubes.",
     meaningVi: "Xúc xắc/Thái hạt lựu/Chơi súc sắc.",
     exampleEn: "Roll the dice.",
     exampleVi: "Gieo xúc xắc.",
-    categories: ["Daily", "Food & Drink", "General"],
+    categories: ["Daily","Food & Drink","General"],
   },
   {
     id: "gen-5624",
@@ -987,12 +1003,11 @@ export const D9: VocabularyWord[] = [
     slug: "dichotomy",
     phonetic: "/daɪˈkɑː.t̬ə.mi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A division or contrast between two things that are or are represented as being opposed or entirely different.",
+    meaningEn: "A division or contrast between two things that are or are represented as being opposed or entirely different.",
     meaningVi: "Sự phân đôi/Sự mâu thuẫn giữa hai bên.",
     exampleEn: "Dichotomy between good and evil.",
     exampleVi: "Sự phân chia giữa thiện và ác.",
-    categories: ["Philosophy", "Science", "Education"],
+    categories: ["Philosophy","Science","Education"],
   },
   {
     id: "gen-5626",
@@ -1004,7 +1019,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Mặc cả/Tranh cãi vụn vặt.",
     exampleEn: "Dicker over the price.",
     exampleVi: "Mặc cả về cái giá.",
-    categories: ["Business", "Social"],
+    categories: ["Business","Social"],
   },
   {
     id: "gen-5625",
@@ -1016,7 +1031,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Vật mọn/Sự lừa lọc (hiếm dùng).",
     exampleEn: "Old dickery.",
     exampleVi: "Đồ vật mọn cũ.",
-    categories: ["General", "Literature"],
+    categories: ["General","Literature"],
   },
   {
     id: "gen-5627",
@@ -1028,7 +1043,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Yếm giả ngực áo.",
     exampleEn: "Shirt dickey.",
     exampleVi: "Yếm ngực áo sơ mi.",
-    categories: ["Fashion", "General"],
+    categories: ["Fashion","General"],
   },
   {
     id: "gen-5628",
@@ -1036,12 +1051,11 @@ export const D9: VocabularyWord[] = [
     slug: "dictate",
     phonetic: "/ˈdɪk.teɪt/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Say or read aloud (words to be typed, written down, or recorded on tape); an order or principle that must be obeyed.",
+    meaningEn: "Say or read aloud (words to be typed, written down, or recorded on tape); an order or principle that must be obeyed.",
     meaningVi: "Đọc cho chép/Ra lệnh/Tuyên bố.",
     exampleEn: "Dictate a letter.",
     exampleVi: "Đọc một bức thư cho người khác chép.",
-    categories: ["General", "Business", "Education"],
+    categories: ["General","Business","Education"],
   },
   {
     id: "gen-5629",
@@ -1049,12 +1063,11 @@ export const D9: VocabularyWord[] = [
     slug: "dictation",
     phonetic: "/dɪkˈteɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action of saying words aloud to be typed, written down, or recorded.",
+    meaningEn: "The action of saying words aloud to be typed, written down, or recorded.",
     meaningVi: "Sự đọc cho viết/Chính tả.",
     exampleEn: "Take dictation.",
     exampleVi: "Viết chính tả.",
-    categories: ["Education", "Business"],
+    categories: ["Education","Business"],
   },
   {
     id: "gen-5630",
@@ -1062,12 +1075,11 @@ export const D9: VocabularyWord[] = [
     slug: "dictator",
     phonetic: "/ˈdɪk.teɪ.t̬ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A ruler with total power over a country, typically one who has obtained power by force.",
+    meaningEn: "A ruler with total power over a country, typically one who has obtained power by force.",
     meaningVi: "Kẻ độc tài.",
     exampleEn: "Military dictator.",
     exampleVi: "Kẻ độc tài quân sự.",
-    categories: ["People", "Politics", "History"],
+    categories: ["People","Politics","History"],
   },
   {
     id: "gen-5631",
@@ -1079,7 +1091,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Độc tài/Chuyên chế.",
     exampleEn: "Dictatorial powers.",
     exampleVi: "Quyền hạn độc tài.",
-    categories: ["Politics", "History"],
+    categories: ["Politics","History"],
   },
   {
     id: "gen-5632",
@@ -1091,7 +1103,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Một cách độc tài.",
     exampleEn: "Ordered dictatorially.",
     exampleVi: "Ra lệnh một cách độc tài.",
-    categories: ["Politics", "General"],
+    categories: ["Politics","General"],
   },
   {
     id: "gen-5633",
@@ -1103,7 +1115,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Chế độ độc tài.",
     exampleEn: "Under a dictatorship.",
     exampleVi: "Dưới chế độ độc tài.",
-    categories: ["Politics", "History"],
+    categories: ["Politics","History"],
   },
   {
     id: "gen-5634",
@@ -1115,7 +1127,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Cách dùng từ/Cách phát âm.",
     exampleEn: "Precise diction.",
     exampleVi: "Cách dùng từ chính xác.",
-    categories: ["Literature", "Education", "Social"],
+    categories: ["Literature","Education","Social"],
   },
   {
     id: "gen-293",
@@ -1127,7 +1139,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Từ điển.",
     exampleEn: "Look it up in the dictionary.",
     exampleVi: "Tra từ điển.",
-    categories: ["Education", "Academic"],
+    categories: ["Education","Academic"],
   },
   {
     id: "gen-5636",
@@ -1139,7 +1151,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Lời tuyên bố chính thức/Châm ngôn.",
     exampleEn: "Old dictum.",
     exampleVi: "Lời châm ngôn cũ.",
-    categories: ["Literature", "Law", "General"],
+    categories: ["Literature","Law","General"],
   },
   {
     id: "gen-5637",
@@ -1147,12 +1159,11 @@ export const D9: VocabularyWord[] = [
     slug: "didactic",
     phonetic: "/daɪˈdæk.tɪk/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Intended to teach, particularly in having moral instruction as an ulterior motive.",
+    meaningEn: "Intended to teach, particularly in having moral instruction as an ulterior motive.",
     meaningVi: "Có tính giáo huấn/Sư phạm.",
     exampleEn: "Didactic poetry.",
     exampleVi: "Bài thơ mang tính giáo huấn.",
-    categories: ["Education", "Literature"],
+    categories: ["Education","Literature"],
   },
   {
     id: "gen-5638",
@@ -1164,7 +1175,7 @@ export const D9: VocabularyWord[] = [
     meaningVi: "Một cách giáo huấn/sư phạm.",
     exampleEn: "Argued didactically.",
     exampleVi: "Tranh luận một cách đầy tính sư phạm.",
-    categories: ["Education", "General"],
+    categories: ["Education","General"],
   },
   {
     id: "gen-5639",
@@ -1172,12 +1183,11 @@ export const D9: VocabularyWord[] = [
     slug: "diddle",
     phonetic: "/ˈdɪd.əl/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Cheat or swindle (someone) so as to deprive them of something; pass time aimlessly.",
+    meaningEn: "Cheat or swindle (someone) so as to deprive them of something; pass time aimlessly.",
     meaningVi: "Lừa gạt/Phung phí thời gian.",
     exampleEn: "Diddle someone out of money.",
     exampleVi: "Lừa gạt lấy tiền của ai đó.",
-    categories: ["Law", "Social"],
+    categories: ["Law","Social"],
   },
   {
     id: "gen-5640",
@@ -1185,61 +1195,10 @@ export const D9: VocabularyWord[] = [
     slug: "die",
     phonetic: "/daɪ/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "(of a person, animal, or plant) stop living; a device for cutting or molding metal.",
+    meaningEn: "(of a person, animal, or plant) stop living; a device for cutting or molding metal.",
     meaningVi: "Chết/Băng hà/Khuôn đúc.",
     exampleEn: "Die of old age.",
     exampleVi: "Chết vì tuổi già.",
-    categories: ["General", "Science", "Engineering"],
-  },
-  {
-    id: "gen-5641",
-    word: "Diehard",
-    slug: "diehard",
-    phonetic: "/ˈdaɪ.hɑːrd/",
-    partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A person who strongly opposes change or who continues to support something in spite of opposition.",
-    meaningVi: "Người ngoan cố/Người khó chết/Người bảo thủ.",
-    exampleEn: "Diehard fan.",
-    exampleVi: "Người hâm mộ cuồng nhiệt/trung thành.",
-    categories: ["People", "Psychology", "Social"],
-  },
-  {
-    id: "gen-5642",
-    word: "Diesel",
-    slug: "diesel",
-    phonetic: "/ˈdiː.zəl/",
-    partOfSpeech: "noun",
-    meaningEn:
-      "An internal combustion engine in which heat produced by the compression of air in the cylinder is used to ignite the fuel.",
-    meaningVi: "Động cơ diesel/Dầu diesel.",
-    exampleEn: "Diesel tractor.",
-    exampleVi: "Máy kéo chạy dầu diesel.",
-    categories: ["Technology", "Engineering", "Science"],
-  },
-  {
-    id: "a2-245",
-    word: "Diet",
-    slug: "diet",
-    phonetic: "/ˈdaɪ.ət/",
-    partOfSpeech: "noun/verb",
-    meaningEn: "The kinds of food that a person habitual eats.",
-    meaningVi: "Chế độ ăn uống/ăn kiêng.",
-    exampleEn: "A healthy diet.",
-    exampleVi: "Một chế độ ăn uống lành mạnh.",
-    categories: ["Daily", "Medical"],
-  },
-  {
-    id: "gen-5644",
-    word: "Dietary",
-    slug: "dietary",
-    phonetic: "/ˈdaɪ.ə.ter.i/",
-    partOfSpeech: "adjective/noun",
-    meaningEn: "Relating to diets or dieting.",
-    meaningVi: "Thuộc về chế độ ăn uống.",
-    exampleEn: "Dietary restrictions.",
-    exampleVi: "Các hạn chế về ăn uống.",
-    categories: ["Medical", "Medical", "Food & Drink"],
-  },
+    categories: ["General","Science","Engineering"],
+  }
 ];

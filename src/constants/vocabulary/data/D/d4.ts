@@ -2,6 +2,54 @@ import { VocabularyWord } from "../../types";
 
 export const D4: VocabularyWord[] = [
   {
+    id: "gen-5040",
+    word: "Deepness",
+    slug: "deepness",
+    phonetic: "/ˈdiːp.nəs/",
+    partOfSpeech: "noun",
+    meaningEn: "The quality of being deep.",
+    meaningVi: "Sự sâu/Độ sâu/Sự thâm thúy.",
+    exampleEn: "Deepness of tone.",
+    exampleVi: "Sự trầm của giọng nói.",
+    categories: ["General"],
+  },
+  {
+    id: "gen-5041",
+    word: "Deer",
+    slug: "deer",
+    phonetic: "/dɪr/",
+    partOfSpeech: "noun",
+    meaningEn: "A hoofed grazing or browsing animal, with branched bony antlers that are shed annually.",
+    meaningVi: "Con hươu/Con nai.",
+    exampleEn: "Wild deer.",
+    exampleVi: "Hươu rừng.",
+    categories: ["Animals","Nature"],
+  },
+  {
+    id: "gen-5042",
+    word: "Deer-hound",
+    slug: "deer-hound",
+    phonetic: "/ˈdɪəˌhaʊnd/",
+    partOfSpeech: "noun",
+    meaningEn: "A large hound of a breed used for hunting deer.",
+    meaningVi: "Chó săn hươu.",
+    exampleEn: "Scottish deer-hound.",
+    exampleVi: "Chó săn hươu Scotland.",
+    categories: ["Animals"],
+  },
+  {
+    id: "gen-5043",
+    word: "Deer-skin",
+    slug: "deer-skin",
+    phonetic: "/ˈdɪə.skɪn/",
+    partOfSpeech: "noun/adjective",
+    meaningEn: "The skin of a deer; leather made from it.",
+    meaningVi: "Da hươu.",
+    exampleEn: "Deer-skin gloves.",
+    exampleVi: "Găng tay da hươu.",
+    categories: ["Body","Animals"],
+  },
+  {
     id: "gen-5044",
     word: "Deer-stalking",
     slug: "deer-stalking",
@@ -11,7 +59,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Môn săn hươu (bằng cách rình).",
     exampleEn: "Go deer-stalking.",
     exampleVi: "Đi săn hươu.",
-    categories: ["Sports", "General"],
+    categories: ["Sports","General"],
   },
   {
     id: "gen-5045",
@@ -19,12 +67,11 @@ export const D4: VocabularyWord[] = [
     slug: "deface",
     phonetic: "/dɪˈfeɪs/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Spoil the surface or appearance of (something), especially by drawing or writing on it.",
+    meaningEn: "Spoil the surface or appearance of (something), especially by drawing or writing on it.",
     meaningVi: "Làm hư hại bề mặt/Làm xấu đi/Xóa bỏ.",
     exampleEn: "Deface public property.",
     exampleVi: "Làm hư hại tài sản công.",
-    categories: ["General", "Social", "Law"],
+    categories: ["General","Social","Law"],
   },
   {
     id: "gen-5046",
@@ -36,7 +83,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Sự làm mờ/Sự làm xấu đi/Sự xóa chữ.",
     exampleEn: "Vandalism and defacement.",
     exampleVi: "Hành vi phá hoại và làm hư hại tài sản.",
-    categories: ["Social", "Law"],
+    categories: ["Social","Law"],
   },
   {
     id: "gen-5047",
@@ -48,7 +95,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Trên thực tế (dù không có luật định).",
     exampleEn: "De facto leader.",
     exampleVi: "Lãnh đạo thực quyền.",
-    categories: ["Politics", "Law", "General"],
+    categories: ["Politics","Law","General"],
   },
   {
     id: "gen-5048",
@@ -60,7 +107,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Biển thủ/Lạm dụng công quỹ.",
     exampleEn: "Defalcate the funds.",
     exampleVi: "Biển thủ các nguồn quỹ.",
-    categories: ["Law", "Business", "Economics"],
+    categories: ["Law","Business","Economics"],
   },
   {
     id: "gen-5049",
@@ -72,7 +119,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Sự biển thủ/Khoản tiền bị biển thủ.",
     exampleEn: "Discovered a defalcation.",
     exampleVi: "Phát hiện một vụ biển thủ.",
-    categories: ["Social", "Business", "Economics"],
+    categories: ["Social","Business","Economics"],
   },
   {
     id: "gen-5050",
@@ -80,12 +127,11 @@ export const D4: VocabularyWord[] = [
     slug: "defamation",
     phonetic: "/ˌdef.əˈmeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action of damaging the good reputation of someone; slander or libel.",
+    meaningEn: "The action of damaging the good reputation of someone; slander or libel.",
     meaningVi: "Sự nói xấu/Sự phỉ báng.",
     exampleEn: "Sued for defamation.",
     exampleVi: "Bị kiện vì tội phỉ báng.",
-    categories: ["Law", "Social"],
+    categories: ["Law","Social"],
   },
   {
     id: "gen-5051",
@@ -93,12 +139,11 @@ export const D4: VocabularyWord[] = [
     slug: "defamatory",
     phonetic: "/dɪˈfæm.ə.tɔːr.i/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of remarks, writing, etc.) damaging the good reputation of someone.",
+    meaningEn: "(of remarks, writing, etc.) damaging the good reputation of someone.",
     meaningVi: "Làm nhục/Phỉ báng.",
     exampleEn: "Defamatory comments.",
     exampleVi: "Những bình luận mang tính phỉ báng.",
-    categories: ["Law", "Social"],
+    categories: ["Law","Social"],
   },
   {
     id: "gen-5052",
@@ -110,7 +155,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Nói xấu/Bôi nhọ/Phỉ báng.",
     exampleEn: "Defame his character.",
     exampleVi: "Bôi nhọ danh dự của anh ta.",
-    categories: ["Social", "Psychology"],
+    categories: ["Social","Psychology"],
   },
   {
     id: "gen-5053",
@@ -122,7 +167,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Kẻ phỉ báng/Kẻ nói xấu.",
     exampleEn: "Unknown defamers.",
     exampleVi: "Những kẻ nói xấu ẩn danh.",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-5054",
@@ -130,12 +175,11 @@ export const D4: VocabularyWord[] = [
     slug: "default",
     phonetic: "/dɪˈfɑːlt/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "Failure to fulfill an obligation, especially to repay a loan or appear in a court of law; a preselected option.",
+    meaningEn: "Failure to fulfill an obligation, especially to repay a loan or appear in a court of law; a preselected option.",
     meaningVi: "Sự vỡ nợ/Sự không trả được nợ/Mặc định.",
     exampleEn: "Default on a loan.",
     exampleVi: "Không trả được khoản nợ.",
-    categories: ["Business", "Economics", "Technology"],
+    categories: ["Business","Economics","Technology"],
   },
   {
     id: "gen-5055",
@@ -143,12 +187,11 @@ export const D4: VocabularyWord[] = [
     slug: "defaulter",
     phonetic: "/dɪˈfɑːl.tɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who fails to fulfill a legal obligation or repay a loan.",
+    meaningEn: "A person who fails to fulfill a legal obligation or repay a loan.",
     meaningVi: "Người vỡ nợ/Người không thực hiện nghĩa vụ.",
     exampleEn: "Pursue the defaulters.",
     exampleVi: "Truy đuổi những kẻ trốn nợ.",
-    categories: ["People", "Economics", "Law"],
+    categories: ["People","Economics","Law"],
   },
   {
     id: "gen-254",
@@ -160,7 +203,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Đánh bại.",
     exampleEn: "They defeated the enemy.",
     exampleVi: "Họ đã đánh bại kẻ thù.",
-    categories: ["Sports", "General"],
+    categories: ["Sports","General"],
   },
   {
     id: "gen-5057",
@@ -172,7 +215,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Bị đánh bại/Chán nản.",
     exampleEn: "A defeated army.",
     exampleVi: "Một đội quân bị đánh bại.",
-    categories: ["Psychology", "History"],
+    categories: ["Psychology","History"],
   },
   {
     id: "gen-5058",
@@ -184,7 +227,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Người đánh bại/Kẻ chiến thắng.",
     exampleEn: "His eventual defeater.",
     exampleVi: "Kẻ cuối cùng đã đánh bại anh ta.",
-    categories: ["People", "General"],
+    categories: ["People","General"],
   },
   {
     id: "gen-5059",
@@ -196,7 +239,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Chủ nghĩa bại trận/Thái độ buông xuôi.",
     exampleEn: "Spirit of defeatism.",
     exampleVi: "Tinh thần bại trận.",
-    categories: ["Psychology", "Politics"],
+    categories: ["Psychology","Politics"],
   },
   {
     id: "gen-5060",
@@ -208,7 +251,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Người có tư tưởng bại trận/Người hay nản lòng.",
     exampleEn: "Defeatist attitude.",
     exampleVi: "Thái độ bại trận.",
-    categories: ["People", "Psychology"],
+    categories: ["People","Psychology"],
   },
   {
     id: "gen-5061",
@@ -220,7 +263,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Đi đại tiện/Đi ngoài.",
     exampleEn: "Need to defecate.",
     exampleVi: "Cần đi đại tiện.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-5062",
@@ -232,7 +275,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Sự đại tiện.",
     exampleEn: "Normal defecation.",
     exampleVi: "Đi đại tiện bình thường.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-5063",
@@ -240,12 +283,11 @@ export const D4: VocabularyWord[] = [
     slug: "defect",
     phonetic: "/ˈdiː.fekt/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A shortcoming, imperfection, or lack; abandon one's country or cause in favor of an opposing one.",
+    meaningEn: "A shortcoming, imperfection, or lack; abandon one's country or cause in favor of an opposing one.",
     meaningVi: "Nhược điểm/Khuyết tật/Đào tẩu.",
     exampleEn: "Birth defect.",
     exampleVi: "Dị tật bẩm sinh.",
-    categories: ["General", "Science", "Politics"],
+    categories: ["General","Science","Politics"],
   },
   {
     id: "gen-5064",
@@ -253,12 +295,11 @@ export const D4: VocabularyWord[] = [
     slug: "defection",
     phonetic: "/dɪˈfek.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The desertion of one's country or cause in favor of an opposing one.",
+    meaningEn: "The desertion of one's country or cause in favor of an opposing one.",
     meaningVi: "Sự đào tẩu/Sự bỏ đi/Sự ly khai.",
     exampleEn: "Defection to the West.",
     exampleVi: "Sự đào tẩu sang phương Tây.",
-    categories: ["Politics", "Law", "Social"],
+    categories: ["Politics","Law","Social"],
   },
   {
     id: "gen-5065",
@@ -270,7 +311,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Có khuyết tật/Có nhược điểm/Bị lỗi.",
     exampleEn: "Defective goods.",
     exampleVi: "Hàng hóa bị lỗi.",
-    categories: ["General", "Engineering", "Business"],
+    categories: ["General","Engineering","Business"],
   },
   {
     id: "gen-5066",
@@ -294,7 +335,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Tình trạng có khuyết tật/sai sót.",
     exampleEn: "Product defectiveness.",
     exampleVi: "Tình trạng bị lỗi của sản phẩm.",
-    categories: ["General", "Engineering"],
+    categories: ["General","Engineering"],
   },
   {
     id: "gen-5068",
@@ -302,12 +343,11 @@ export const D4: VocabularyWord[] = [
     slug: "defector",
     phonetic: "/dɪˈfek.tɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who has abandoned their country or cause in favor of an opposing one.",
+    meaningEn: "A person who has abandoned their country or cause in favor of an opposing one.",
     meaningVi: "Người đào tẩu/Người ly khai.",
     exampleEn: "Political defector.",
     exampleVi: "Người đào tẩu chính trị.",
-    categories: ["People", "Politics"],
+    categories: ["People","Politics"],
   },
   {
     id: "gen-5069",
@@ -319,7 +359,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Sự phòng thủ/Lời bào chữa/Hàng hậu vệ.",
     exampleEn: "Defense lawyer.",
     exampleVi: "Luật sư bào chữa.",
-    categories: ["General", "Politics", "Law", "Sports"],
+    categories: ["General","Politics","Law","Sports"],
   },
   {
     id: "gen-5070",
@@ -331,7 +371,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Không có khả năng tự vệ/Yếu đuối.",
     exampleEn: "Defenceless animals.",
     exampleVi: "Những loài động vật không có khả năng tự vệ.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-5071",
@@ -363,12 +403,11 @@ export const D4: VocabularyWord[] = [
     slug: "defendant",
     phonetic: "/dɪˈfen.dənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An individual, company, or institution sued or accused in a court of law.",
+    meaningEn: "An individual, company, or institution sued or accused in a court of law.",
     meaningVi: "Bị cáo/Người bị kiện.",
     exampleEn: "The defendant pleaded not guilty.",
     exampleVi: "Bị cáo đã không nhận tội.",
-    categories: ["Law", "People"],
+    categories: ["Law","People"],
   },
   {
     id: "gen-5074",
@@ -380,7 +419,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Người bảo vệ/Hậu vệ (thể thao).",
     exampleEn: "Central defender.",
     exampleVi: "Hậu vệ trung tâm.",
-    categories: ["People", "Sports", "General"],
+    categories: ["People","Sports","General"],
   },
   {
     id: "gen-5075",
@@ -392,7 +431,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Có thể bảo vệ được/Có thể bào chữa được.",
     exampleEn: "Moral defensible position.",
     exampleVi: "Lập trường có thể biện hộ được về mặt đạo đức.",
-    categories: ["General", "Philosophy", "Law"],
+    categories: ["General","Philosophy","Law"],
   },
   {
     id: "gen-5076",
@@ -404,7 +443,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Một cách phòng thủ/tự vệ.",
     exampleEn: "Played defensively.",
     exampleVi: "Chơi phòng thủ.",
-    categories: ["General", "Sports"],
+    categories: ["General","Sports"],
   },
   {
     id: "gen-5077",
@@ -416,7 +455,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Thái độ tự vệ/Sự phòng thủ.",
     exampleEn: "Triggering defensiveness.",
     exampleVi: "Gây ra sự tự vệ (trong tâm lý).",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5078",
@@ -428,7 +467,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Trì hoãn/Làm theo/Chiều theo.",
     exampleEn: "Defer the payment.",
     exampleVi: "Trì hoãn việc thanh toán.",
-    categories: ["General", "Business", "Economics"],
+    categories: ["General","Business","Economics"],
   },
   {
     id: "gen-5079",
@@ -440,7 +479,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Sự tôn kính/Sự chiều theo.",
     exampleEn: "In deference to.",
     exampleVi: "Để tôn trọng/chiều theo (ý ai đó).",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-5080",
@@ -452,7 +491,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Tôn kính/Hay chiều theo.",
     exampleEn: "Deferent manner.",
     exampleVi: "Thái độ tôn kính.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-5081",
@@ -464,7 +503,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Cung kính/Tôn trọng.",
     exampleEn: "Deferential treatment.",
     exampleVi: "Sự đối xử cung kính.",
-    categories: ["Social", "Psychology"],
+    categories: ["Social","Psychology"],
   },
   {
     id: "gen-5082",
@@ -472,12 +511,11 @@ export const D4: VocabularyWord[] = [
     slug: "deferment",
     phonetic: "/dɪˈfɝː.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action or fact of putting something off to a later time; postponement.",
+    meaningEn: "The action or fact of putting something off to a later time; postponement.",
     meaningVi: "Sự trì hoãn/Sự để chậm lại.",
     exampleEn: "Army deferment.",
     exampleVi: "Sự hoãn nghĩa vụ quân sự.",
-    categories: ["General", "Politics", "Business"],
+    categories: ["General","Politics","Business"],
   },
   {
     id: "gen-5083",
@@ -489,7 +527,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Sự trì hoãn.",
     exampleEn: "Tax deferral.",
     exampleVi: "Sự trì hoãn nộp thuế.",
-    categories: ["Business", "Economics"],
+    categories: ["Business","Economics"],
   },
   {
     id: "gen-5084",
@@ -501,7 +539,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Sự thách thức/Thái độ bất chấp.",
     exampleEn: "In defiance of.",
     exampleVi: "Bất chấp/Thách thức.",
-    categories: ["Psychology", "Social", "Politics"],
+    categories: ["Psychology","Social","Politics"],
   },
   {
     id: "gen-5085",
@@ -513,7 +551,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Thách thức/Ngang ngạnh/Bướng bỉnh.",
     exampleEn: "Defiant mood.",
     exampleVi: "Tâm trạng muốn thách thức.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5086",
@@ -525,7 +563,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Một cách bướng bỉnh/thách thức.",
     exampleEn: "Gazed defiantly.",
     exampleVi: "Nhìn một cách thách thức.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "c1-23",
@@ -549,7 +587,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Thiếu hụt/Kém cỏi.",
     exampleEn: "Oxygen deficient.",
     exampleVi: "Thiếu oxy.",
-    categories: ["Science", "Medical", "General"],
+    categories: ["Science","Medical","General"],
   },
   {
     id: "gen-5089",
@@ -569,12 +607,11 @@ export const D4: VocabularyWord[] = [
     slug: "deficit",
     phonetic: "/ˈdef.ə.sɪt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The amount by which something, especially a sum of money, is too small.",
+    meaningEn: "The amount by which something, especially a sum of money, is too small.",
     meaningVi: "Sự thâm hụt.",
     exampleEn: "Budget deficit.",
     exampleVi: "Thâm hụt ngân sách.",
-    categories: ["Business", "Daily"],
+    categories: ["Business","Daily"],
   },
   {
     id: "gen-5091",
@@ -598,7 +635,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Người thách thức/Kẻ bướng bỉnh.",
     exampleEn: "Defier of traditions.",
     exampleVi: "Người thách thức các truyền thống.",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-5093",
@@ -610,7 +647,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Sự phòng ngự khỏi hỏa lực/Vật che khuất (quân sự).",
     exampleEn: "Position in defilade.",
     exampleVi: "Vị trí được che chắn (khỏi tầm bắn).",
-    categories: ["Science", "History"],
+    categories: ["Science","History"],
   },
   {
     id: "gen-5094",
@@ -622,7 +659,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Làm bẩn/Làm ô uế/Hẻm núi hẹp.",
     exampleEn: "Defile the temple.",
     exampleVi: "Làm ô uế đền thờ.",
-    categories: ["General", "Religion", "Geography"],
+    categories: ["General","Religion","Geography"],
   },
   {
     id: "gen-5095",
@@ -634,7 +671,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Sự làm nhơ nhuốc/Sự làm ô uế.",
     exampleEn: "Moral defilement.",
     exampleVi: "Sự suy đồi về đạo đức.",
-    categories: ["Psychology", "Religion"],
+    categories: ["Psychology","Religion"],
   },
   {
     id: "gen-5096",
@@ -646,7 +683,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Có thể định nghĩa được.",
     exampleEn: "Definable criteria.",
     exampleVi: "Các tiêu chí có thể xác định được.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "b2-57",
@@ -682,7 +719,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Người định nghĩa/Công cụ xác định.",
     exampleEn: "Term definer.",
     exampleVi: "Công cụ định nghĩa thuật ngữ.",
-    categories: ["General", "Technology"],
+    categories: ["General","Technology"],
   },
   {
     id: "gen-258",
@@ -730,7 +767,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Định nghĩa.",
     exampleEn: "Look up the definition.",
     exampleVi: "Tra định nghĩa.",
-    categories: ["Academic", "General"],
+    categories: ["Academic","General"],
   },
   {
     id: "gen-5104",
@@ -738,12 +775,11 @@ export const D4: VocabularyWord[] = [
     slug: "definitive",
     phonetic: "/dɪˈfɪn.ə.t̬ɪv/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a conclusion or agreement) done or reached decisively and with authority.",
+    meaningEn: "(of a conclusion or agreement) done or reached decisively and with authority.",
     meaningVi: "Cuối cùng/Dứt khoát/Tốt nhất/Đầy đủ nhất.",
     exampleEn: "Definitive edition.",
     exampleVi: "Ấn bản đầy đủ và chuẩn nhất.",
-    categories: ["General", "Literature"],
+    categories: ["General","Literature"],
   },
   {
     id: "b2-58",
@@ -779,7 +815,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Cháy bùng/Làm bùng cháy.",
     exampleEn: "The powder deflagrated.",
     exampleVi: "Loại bột đã cháy bùng lên.",
-    categories: ["Science", "Engineering"],
+    categories: ["Science","Engineering"],
   },
   {
     id: "gen-5108",
@@ -791,7 +827,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Sự cháy bùng/Sự bùng nổ nhẹ.",
     exampleEn: "Deflagration risk.",
     exampleVi: "Nguy cơ cháy bùng.",
-    categories: ["Science", "Engineering"],
+    categories: ["Science","Engineering"],
   },
   {
     id: "gen-5109",
@@ -803,7 +839,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Xì hơi/Giảm nhiệt huyết/Giảm phát (kinh tế).",
     exampleEn: "Deflate the tires.",
     exampleVi: "Xả hơi lốp xe.",
-    categories: ["General", "Economics", "Engineering"],
+    categories: ["General","Economics","Engineering"],
   },
   {
     id: "gen-5110",
@@ -815,7 +851,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Sự xì hơi/Sự giảm phát.",
     exampleEn: "Economic deflation.",
     exampleVi: "Sự giảm phát kinh tế.",
-    categories: ["Economics", "Business"],
+    categories: ["Economics","Business"],
   },
   {
     id: "gen-5111",
@@ -839,7 +875,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Tấm chắn/Bộ làm chệch hướng.",
     exampleEn: "Heat deflector.",
     exampleVi: "Tấm chắn nhiệt.",
-    categories: ["Engineering", "Science"],
+    categories: ["Engineering","Science"],
   },
   {
     id: "gen-5113",
@@ -851,7 +887,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Sự làm lệch/Độ lệch.",
     exampleEn: "Needle deflexion.",
     exampleVi: "Sự lệch kim (la bàn).",
-    categories: ["Science", "Engineering"],
+    categories: ["Science","Engineering"],
   },
   {
     id: "gen-5114",
@@ -863,7 +899,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Sự làm mất trinh (cổ/y học/văn học).",
     exampleEn: "Act of defloration.",
     exampleVi: "Hành động phá trinh.",
-    categories: ["Medical", "Literature"],
+    categories: ["Medical","Literature"],
   },
   {
     id: "gen-5115",
@@ -875,7 +911,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Làm mất trinh/Phá hoại (vẻ đẹp).",
     exampleEn: "Deflower a virgin.",
     exampleVi: "Phá trinh một cô gái.",
-    categories: ["General", "Literature"],
+    categories: ["General","Literature"],
   },
   {
     id: "gen-5116",
@@ -887,7 +923,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Chất khai quang/Chất làm rụng lá.",
     exampleEn: "Agent Orange defoliant.",
     exampleVi: "Chất khai quang Chất độc màu da cam.",
-    categories: ["Science", "Environment", "History"],
+    categories: ["Science","Environment","History"],
   },
   {
     id: "gen-5117",
@@ -899,7 +935,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Làm rụng lá.",
     exampleEn: "Defoliated trees.",
     exampleVi: "Những cái cây bị trụi lá.",
-    categories: ["Science", "Environment"],
+    categories: ["Science","Environment"],
   },
   {
     id: "gen-5118",
@@ -911,7 +947,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Sự làm rụng lá/Tình trạng trụi lá.",
     exampleEn: "Widespread defoliation.",
     exampleVi: "Tình trạng trụi lá trên diện rộng.",
-    categories: ["Environment", "Science"],
+    categories: ["Environment","Science"],
   },
   {
     id: "gen-5119",
@@ -935,7 +971,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Làm biến dạng/Làm méo mó.",
     exampleEn: "Deform under pressure.",
     exampleVi: "Biến dạng dưới áp lực.",
-    categories: ["Engineering", "Science"],
+    categories: ["Engineering","Science"],
   },
   {
     id: "gen-5121",
@@ -947,7 +983,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Sự biến dạng.",
     exampleEn: "Plastic deformation.",
     exampleVi: "Biến dạng dẻo.",
-    categories: ["Engineering", "Science"],
+    categories: ["Engineering","Science"],
   },
   {
     id: "gen-5122",
@@ -959,7 +995,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Bị biến dạng/Tật nguyền.",
     exampleEn: "Deformed limbs.",
     exampleVi: "Các chi bị biến dạng.",
-    categories: ["Medical", "Body"],
+    categories: ["Medical","Body"],
   },
   {
     id: "gen-5123",
@@ -971,7 +1007,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Sự biến dạng/Dị dạng.",
     exampleEn: "Spinal deformity.",
     exampleVi: "Dị dạng cột sống.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-5124",
@@ -983,7 +1019,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Lừa gạt/Gian lận (tiền bạc).",
     exampleEn: "Defraud the taxman.",
     exampleVi: "Trốn thuế/Lừa cơ quan thuế.",
-    categories: ["Law", "Business", "Economics"],
+    categories: ["Law","Business","Economics"],
   },
   {
     id: "gen-5125",
@@ -995,7 +1031,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Thanh toán/Chi trả (chi phí).",
     exampleEn: "Defray the expenses.",
     exampleVi: "Chi trả các chi phí.",
-    categories: ["Business", "Economics"],
+    categories: ["Business","Economics"],
   },
   {
     id: "gen-5126",
@@ -1019,7 +1055,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Rã đông.",
     exampleEn: "Defrost the chicken.",
     exampleVi: "Rã đông thịt gà.",
-    categories: ["Food & Drink", "Daily", "Home"],
+    categories: ["Food & Drink","Daily","Home"],
   },
   {
     id: "gen-5128",
@@ -1031,7 +1067,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Bộ phận rã đông/Máy phá băng.",
     exampleEn: "Car window defroster.",
     exampleVi: "Bộ phận phá băng cửa xe hơi.",
-    categories: ["Engineering", "Technology"],
+    categories: ["Engineering","Technology"],
   },
   {
     id: "gen-5129",
@@ -1043,7 +1079,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Khéo léo/Nhanh nhẹn.",
     exampleEn: "Deft fingers.",
     exampleVi: "Những ngón tay khéo léo.",
-    categories: ["General", "Art", "Sports"],
+    categories: ["General","Art","Sports"],
   },
   {
     id: "gen-5130",
@@ -1055,7 +1091,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Một cách khéo léo.",
     exampleEn: "Wove the basket deftly.",
     exampleVi: "Đan giỏ một cách khéo léo.",
-    categories: ["General", "Art"],
+    categories: ["General","Art"],
   },
   {
     id: "gen-5131",
@@ -1079,7 +1115,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Không còn tồn tại/Đã chết/Quá cố.",
     exampleEn: "Defunct company.",
     exampleVi: "Công ty đã giải thể.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "gen-5134",
@@ -1091,7 +1127,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Sự thối nát/Sự suy đồi.",
     exampleEn: "Moral degeneracy.",
     exampleVi: "Sự suy đồi đạo đức.",
-    categories: ["Social", "Psychology"],
+    categories: ["Social","Psychology"],
   },
   {
     id: "gen-5135",
@@ -1099,12 +1135,11 @@ export const D4: VocabularyWord[] = [
     slug: "degenerate",
     phonetic: "/dɪˈdʒen.ə.reɪt/",
     partOfSpeech: "verb/adjective/noun",
-    meaningEn:
-      "Have lost the physical, mental, or moral qualities considered normal or desirable.",
+    meaningEn: "Have lost the physical, mental, or moral qualities considered normal or desirable.",
     meaningVi: "Thoái hóa/Suy đồi/Kẻ biến chất.",
     exampleEn: "Degenerate into violence.",
     exampleVi: "Biến thành bạo lực.",
-    categories: ["General", "Science", "Psychology"],
+    categories: ["General","Science","Psychology"],
   },
   {
     id: "gen-5136",
@@ -1128,7 +1163,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Sự thoái hóa/Sự suy đồi.",
     exampleEn: "Macular degeneration.",
     exampleVi: "Thoái hóa điểm vàng (mắt).",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-5138",
@@ -1136,8 +1171,7 @@ export const D4: VocabularyWord[] = [
     slug: "degenerative",
     phonetic: "/dɪˈdʒen.ər.ə.t̬ɪv/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a disease or symptom) characterized by progressive deterioration.",
+    meaningEn: "(of a disease or symptom) characterized by progressive deterioration.",
     meaningVi: "Có tính thoái hóa.",
     exampleEn: "Degenerative disease.",
     exampleVi: "Bệnh thoái hóa.",
@@ -1153,7 +1187,7 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Sự suy thoái/Sự giảm giá trị/Sự ô nhục.",
     exampleEn: "Environmental degradation.",
     exampleVi: "Sự suy thoái môi trường.",
-    categories: ["Environment", "Science", "Social"],
+    categories: ["Environment","Science","Social"],
   },
   {
     id: "gen-5140",
@@ -1165,54 +1199,6 @@ export const D4: VocabularyWord[] = [
     meaningVi: "Làm nhục/Làm suy thoái/Làm giảm giá trị.",
     exampleEn: "Degrade the environment.",
     exampleVi: "Làm suy thoái môi trường.",
-    categories: ["General", "Environment", "Social"],
-  },
-  {
-    id: "gen-5141",
-    word: "Degraded",
-    slug: "degraded",
-    phonetic: "/dɪˈɡreɪ.dɪd/",
-    partOfSpeech: "adjective",
-    meaningEn: "Reduced in quality; humiliated.",
-    meaningVi: "Bị suy thoái/Bị làm nhục.",
-    exampleEn: "Degraded soil.",
-    exampleVi: "Đất bị bạc màu/suy thoái.",
-    categories: ["Environment", "General"],
-  },
-  {
-    id: "gen-4142",
-    word: "Degrading",
-    slug: "degrading",
-    phonetic: "/dɪˈɡreɪ.dɪŋ/",
-    partOfSpeech: "adjective",
-    meaningEn: "Causing a loss of self-respect; humiliating.",
-    meaningVi: "Làm nhục/Xúc phạm nhân phẩm.",
-    exampleEn: "Degrading treatment.",
-    exampleVi: "Sự đối xử xúc phạm nhân phẩm.",
-    categories: ["Psychology", "Social"],
-  },
-  {
-    id: "gen-260",
-    word: "Degree",
-    slug: "degree",
-    phonetic: "/dɪˈɡriː/",
-    partOfSpeech: "noun",
-    meaningEn: "The amount, level, or extent to which something happens.",
-    meaningVi: "Độ, mức độ.",
-    exampleEn: "To some degree.",
-    exampleVi: "Ở một mức độ nào đó.",
-    categories: ["General", "Education"],
-  },
-  {
-    id: "gen-5145",
-    word: "Dehumanize",
-    slug: "dehumanize",
-    phonetic: "/ˌdiːˈhjuː.mə.naɪz/",
-    partOfSpeech: "verb",
-    meaningEn: "Deprive of positive human qualities.",
-    meaningVi: "Làm mất tính người/Hạ thấp phẩm giá con người.",
-    exampleEn: "Dehumanizing conditions.",
-    exampleVi: "Những điều kiện sống tồi tệ làm mất phẩm giá con người.",
-    categories: ["Psychology", "Social", "Politics"],
-  },
+    categories: ["General","Environment","Social"],
+  }
 ];

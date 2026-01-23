@@ -14,18 +14,6 @@ export const N1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "c2-212",
-    word: "Nanomedicine",
-    slug: "nanomedicine",
-    phonetic: "/ˌnæn.oʊˈmed.ɪ.sɪn/",
-    partOfSpeech: "noun",
-    meaningEn: "Medical application of nanotechnology.",
-    meaningVi: "Y học nano.",
-    exampleEn: "Future of nanomedicine.",
-    exampleVi: "Tương lai của y học nano.",
-    categories: ["Medical", "Engineering"],
-  },
-  {
     id: "job-069",
     word: "Nanny",
     slug: "nanny",
@@ -35,7 +23,19 @@ export const N1: VocabularyWord[] = [
     meaningVi: "Vú em.",
     exampleEn: "The nanny looked after the children.",
     exampleVi: "Vú em đã chăm sóc bọn trẻ.",
-    categories: ["Jobs", "Home"],
+    categories: ["Jobs","Home"],
+  },
+  {
+    id: "c2-212",
+    word: "Nanomedicine",
+    slug: "nanomedicine",
+    phonetic: "/ˌnæn.oʊˈmed.ɪ.sɪn/",
+    partOfSpeech: "noun",
+    meaningEn: "Medical application of nanotechnology.",
+    meaningVi: "Y học nano.",
+    exampleEn: "Future of nanomedicine.",
+    exampleVi: "Tương lai của y học nano.",
+    categories: ["Medical","Engineering"],
   },
   {
     id: "c1-201",
@@ -43,12 +43,11 @@ export const N1: VocabularyWord[] = [
     slug: "nanotechnology",
     phonetic: "/ˌnæn.oʊ.tekˈnɑː.lə.dʒi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The branch of technology that deals with dimensions and tolerances of less than 100 nanometers.",
+    meaningEn: "The branch of technology that deals with dimensions and tolerances of less than 100 nanometers.",
     meaningVi: "Công nghệ nano.",
     exampleEn: "Applications of nanotechnology in medicine.",
     exampleVi: "Các ứng dụng của công nghệ nano trong y học.",
-    categories: ["Engineering", "Medical", "Technology"],
+    categories: ["Engineering","Medical","Technology"],
   },
   {
     id: "gen-949vxzc2n",
@@ -60,7 +59,7 @@ export const N1: VocabularyWord[] = [
     meaningVi: "Sự kể chuyện.",
     exampleEn: "The narration of the film was captivating.",
     exampleVi: "Phần kể chuyện của bộ phim rất hấp dẫn.",
-    categories: ["Literature", "Media"],
+    categories: ["Literature","Media"],
   },
   {
     id: "pv-94",
@@ -80,8 +79,7 @@ export const N1: VocabularyWord[] = [
     slug: "nascent",
     phonetic: "/ˈnæs.ənt/",
     partOfSpeech: "adj",
-    meaningEn:
-      "Just coming into existence and beginning to display signs of future potential.",
+    meaningEn: "Just coming into existence and beginning to display signs of future potential.",
     meaningVi: "Mới sinh, mới mọc.",
     exampleEn: "A nascent industry.",
     exampleVi: "Một ngành công nghiệp mới nổi.",
@@ -117,8 +115,7 @@ export const N1: VocabularyWord[] = [
     slug: "native",
     phonetic: "/ˈneɪ.t̬ɪv/",
     partOfSpeech: "adj/noun",
-    meaningEn:
-      "Associated with the place or circumstances of a person's birth.",
+    meaningEn: "Associated with the place or circumstances of a person's birth.",
     meaningVi: "Bản xứ, tự nhiên.",
     exampleEn: "He is a native speaker of English.",
     exampleVi: "Anh ấy là người bản xứ nói tiếng Anh.",
@@ -146,7 +143,7 @@ export const N1: VocabularyWord[] = [
     meaningVi: "Tự nhiên.",
     exampleEn: "Back to nature.",
     exampleVi: "Trở về với tự nhiên.",
-    categories: ["Social", "Environment"],
+    categories: ["Social","Environment"],
   },
   {
     id: "gen-bxlkf23",
@@ -154,8 +151,7 @@ export const N1: VocabularyWord[] = [
     slug: "navigate",
     phonetic: "/ˈnæv.ɪ.ɡeɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Plan and direct the course of a ship, aircraft, or other form of transportation.",
+    meaningEn: "Plan and direct the course of a ship, aircraft, or other form of transportation.",
     meaningVi: "Định hướng, điều hướng.",
     exampleEn: "Navigate the ship through the storm.",
     exampleVi: "Định hướng con tàu qua cơn bão.",
@@ -195,7 +191,7 @@ export const N1: VocabularyWord[] = [
     meaningVi: "Mơ hồ, mờ mịt.",
     exampleEn: "Nebulous ideas.",
     exampleVi: "Những ý tưởng mơ hồ.",
-    categories: ["Academic", "Daily"],
+    categories: ["Academic","Daily"],
   },
   {
     id: "a2-48",
@@ -215,12 +211,11 @@ export const N1: VocabularyWord[] = [
     slug: "neck",
     phonetic: "/nek/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The part of the body connecting the head to the rest of the body.",
+    meaningEn: "The part of the body connecting the head to the rest of the body.",
     meaningVi: "Cái cổ.",
     exampleEn: "He wore a scarf around his neck.",
     exampleVi: "Anh ấy quàng khăn quanh cổ.",
-    categories: ["Medical", "Daily", "Biology"],
+    categories: ["Medical","Daily","Biology"],
   },
   {
     id: "gen-954",
@@ -264,12 +259,11 @@ export const N1: VocabularyWord[] = [
     slug: "negligible",
     phonetic: "/ˈneɡ.lɪ.dʒə.bl̩/",
     partOfSpeech: "adj",
-    meaningEn:
-      "So small or unimportant as to be not worth considering; insignificant.",
+    meaningEn: "So small or unimportant as to be not worth considering; insignificant.",
     meaningVi: "Không đáng kể.",
     exampleEn: "The difference in price is negligible.",
     exampleVi: "Sự khác biệt về giá là không đáng kể.",
-    categories: ["Daily", "Academic", "Business"],
+    categories: ["Daily","Academic","Business"],
   },
   {
     id: "b1-213",
@@ -277,12 +271,11 @@ export const N1: VocabularyWord[] = [
     slug: "negotiate",
     phonetic: "/nəˈɡoʊ.ʃi.eɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Try to reach an agreement or compromise by discussion with others.",
+    meaningEn: "Try to reach an agreement or compromise by discussion with others.",
     meaningVi: "Đàm phán.",
     exampleEn: "Negotiate a deal.",
     exampleVi: "Đàm phán một thỏa thuận.",
-    categories: ["Business", "Daily"],
+    categories: ["Business","Daily"],
   },
   {
     id: "b1-189",
@@ -294,7 +287,7 @@ export const N1: VocabularyWord[] = [
     meaningVi: "Sự đàm phán.",
     exampleEn: "The negotiation took three hours.",
     exampleVi: "Cuộc đàm phán mất ba tiếng đồng hồ.",
-    categories: ["Business", "Social"],
+    categories: ["Business","Social"],
   },
   {
     id: "gen-956",
@@ -314,8 +307,7 @@ export const N1: VocabularyWord[] = [
     slug: "neighborhood",
     phonetic: "/ˈneɪ.bə.hʊd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A district, especially one forming a community within a town or city.",
+    meaningEn: "A district, especially one forming a community within a town or city.",
     meaningVi: "Khu phố, vùng lân cận.",
     exampleEn: "They live in a quiet neighborhood.",
     exampleVi: "Họ sống trong một khu phố yên tĩnh.",
@@ -355,7 +347,7 @@ export const N1: VocabularyWord[] = [
     meaningVi: "Dây thần kinh.",
     exampleEn: "Nerve damage.",
     exampleVi: "Tổn thương thần kinh.",
-    categories: ["Biology", "Medical"],
+    categories: ["Biology","Medical"],
   },
   {
     id: "gen-961",
@@ -379,7 +371,7 @@ export const N1: VocabularyWord[] = [
     meaningVi: "Mạng lưới.",
     exampleEn: "Computer network.",
     exampleVi: "Mạng máy tính.",
-    categories: ["Technology", "Daily"],
+    categories: ["Technology","Daily"],
   },
   {
     id: "b2-216",
@@ -387,8 +379,7 @@ export const N1: VocabularyWord[] = [
     slug: "neurological",
     phonetic: "/ˌnʊr.əˈlɑː.dʒɪ.kəl/",
     partOfSpeech: "adj",
-    meaningEn:
-      "Relating to the anatomy, functions, and organic disorders of nerves and the nervous system.",
+    meaningEn: "Relating to the anatomy, functions, and organic disorders of nerves and the nervous system.",
     meaningVi: "Thuộc về thần kinh.",
     exampleEn: "A neurological disorder.",
     exampleVi: "Một chứng rối loạn thần kinh.",
@@ -400,8 +391,7 @@ export const N1: VocabularyWord[] = [
     slug: "neurology",
     phonetic: "/nʊˈrɑː.lə.dʒi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The branch of medicine or biology that deals with the anatomy, functions, and organic disorders of nerves and the nervous system.",
+    meaningEn: "The branch of medicine or biology that deals with the anatomy, functions, and organic disorders of nerves and the nervous system.",
     meaningVi: "Thần kinh học.",
     exampleEn: "Developments in neurology.",
     exampleVi: "Những phát triển trong thần kinh học.",
@@ -413,8 +403,7 @@ export const N1: VocabularyWord[] = [
     slug: "neuroplasticity",
     phonetic: "/ˌnʊr.oʊ.plæsˈtɪs.ə.t̬i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The ability of the brain to form and reorganize synaptic connections.",
+    meaningEn: "The ability of the brain to form and reorganize synaptic connections.",
     meaningVi: "Khả năng thích ứng của não bộ.",
     exampleEn: "Learning promotes neuroplasticity.",
     exampleVi: "Học tập thúc đẩy khả năng thích ứng của não bộ.",
@@ -454,7 +443,7 @@ export const N1: VocabularyWord[] = [
     meaningVi: "Tin tức.",
     exampleEn: "Watch the news.",
     exampleVi: "Xem tin tức.",
-    categories: ["News", "Media"],
+    categories: ["News","Media"],
   },
   {
     id: "gen-966",
@@ -466,7 +455,7 @@ export const N1: VocabularyWord[] = [
     meaningVi: "Báo.",
     exampleEn: "Read the newspaper.",
     exampleVi: "Đọc báo.",
-    categories: ["News", "Media"],
+    categories: ["News","Media"],
   },
   {
     id: "gen-967",
@@ -479,6 +468,18 @@ export const N1: VocabularyWord[] = [
     exampleEn: "Next week.",
     exampleVi: "Tuần sau.",
     categories: ["General"],
+  },
+  {
+    id: "spec-n-001",
+    word: "NFT",
+    slug: "nft",
+    phonetic: "/ɛn ef tiː/",
+    partOfSpeech: "noun",
+    meaningEn: "Non-fungible token: a unique digital token representing ownership of a specific item or piece of content.",
+    meaningVi: "Token không thể thay thế: token kỹ thuật số độc nhất đại diện cho quyền sở hữu một mục hoặc nội dung cụ thể.",
+    exampleEn: "Artists sell digital art as NFTs.",
+    exampleVi: "Nghệ sĩ bán tác phẩm kỹ thuật số dưới dạng NFT.",
+    categories: ["Technology","Art","Finance"],
   },
   {
     id: "gen-968",
@@ -522,12 +523,11 @@ export const N1: VocabularyWord[] = [
     slug: "nihilism",
     phonetic: "/ˈnaɪ.ə.lɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The rejection of all religious and moral principles, often in the belief that life is meaningless.",
+    meaningEn: "The rejection of all religious and moral principles, often in the belief that life is meaningless.",
     meaningVi: "Chủ nghĩa hư vô.",
     exampleEn: "Philosophical nihilism.",
     exampleVi: "Chủ nghĩa hư vô triết học.",
-    categories: ["Academic", "Philosophy"],
+    categories: ["Academic","Philosophy"],
   },
   {
     id: "gen-971",
@@ -619,12 +619,11 @@ export const N1: VocabularyWord[] = [
     slug: "normative",
     phonetic: "/ˈnɔːr.mə.t̬ɪv/",
     partOfSpeech: "adj",
-    meaningEn:
-      "Establishing, relating to, or deriving from a standard or norm, especially of behavior.",
+    meaningEn: "Establishing, relating to, or deriving from a standard or norm, especially of behavior.",
     meaningVi: "Thiết lập quy tắc, tiêu chuẩn.",
     exampleEn: "Normative ethics.",
     exampleVi: "Đạo đức học chuẩn tắc.",
-    categories: ["Academic", "Philosophy", "Social"],
+    categories: ["Academic","Philosophy","Social"],
   },
   {
     id: "gen-978",
@@ -648,7 +647,7 @@ export const N1: VocabularyWord[] = [
     meaningVi: "Mũi.",
     exampleEn: "He has a small nose.",
     exampleVi: "Anh ấy có một cái mũi nhỏ.",
-    categories: ["Daily", "Medical", "Biology"],
+    categories: ["Daily","Medical","Biology"],
   },
   {
     id: "gen-980",
@@ -672,7 +671,7 @@ export const N1: VocabularyWord[] = [
     meaningVi: "Sổ tay.",
     exampleEn: "Spiral notebook.",
     exampleVi: "Sổ lò xo.",
-    categories: ["Education", "General"],
+    categories: ["Education","General"],
   },
   {
     id: "gen-981",
@@ -708,7 +707,7 @@ export const N1: VocabularyWord[] = [
     meaningVi: "Thông báo.",
     exampleEn: "Disable notifications.",
     exampleVi: "Tắt các thông báo.",
-    categories: ["Technology", "Daily"],
+    categories: ["Technology","Daily"],
   },
   {
     id: "gen-nst1",
@@ -776,12 +775,11 @@ export const N1: VocabularyWord[] = [
     slug: "nuance",
     phonetic: "/ˈnuː.ɑːns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A subtle difference in or shade of meaning, expression, or sound.",
+    meaningEn: "A subtle difference in or shade of meaning, expression, or sound.",
     meaningVi: "Sắc thái.",
     exampleEn: "There are many nuances in this translation.",
     exampleVi: "Có nhiều sắc thái trong bản dịch này.",
-    categories: ["Daily", "Academic", "Social"],
+    categories: ["Daily","Academic","Social"],
   },
   {
     id: "gen-988",
@@ -793,7 +791,7 @@ export const N1: VocabularyWord[] = [
     meaningVi: "Đặc trưng bởi những sắc thái tinh tế về ý nghĩa hoặc biểu đạt.",
     exampleEn: "A nuanced performance.",
     exampleVi: "Một màn trình diễn tinh tế.",
-    categories: ["Daily", "Academic", "Social"],
+    categories: ["Daily","Academic","Social"],
   },
   {
     id: "gen-986",
@@ -805,7 +803,7 @@ export const N1: VocabularyWord[] = [
     meaningVi: "Hạt nhân.",
     exampleEn: "Nuclear energy.",
     exampleVi: "Năng lượng hạt nhân.",
-    categories: ["Science", "Physics"],
+    categories: ["Science","Physics"],
   },
   {
     id: "gen-987",
@@ -829,7 +827,7 @@ export const N1: VocabularyWord[] = [
     meaningVi: "Y tá.",
     exampleEn: "The nurse is checking my blood pressure.",
     exampleVi: "Y tá đang kiểm tra huyết áp cho tôi.",
-    categories: ["Daily", "Medical", "Jobs"],
+    categories: ["Daily","Medical","Jobs"],
   },
   {
     id: "job-071",
@@ -841,6 +839,6 @@ export const N1: VocabularyWord[] = [
     meaningVi: "Chuyên gia dinh dưỡng.",
     exampleEn: "The nutritionist recommended a healthy diet.",
     exampleVi: "Chuyên gia dinh dưỡng đã đề xuất chế độ ăn lành mạnh.",
-    categories: ["Jobs", "Medical"],
-  },
+    categories: ["Jobs","Medical"],
+  }
 ];

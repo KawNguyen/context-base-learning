@@ -2,6 +2,54 @@ import { VocabularyWord } from "../../types";
 
 export const F5: VocabularyWord[] = [
   {
+    id: "gen-498",
+    word: "Fly",
+    slug: "fly",
+    phonetic: "/flaɪ/",
+    partOfSpeech: "verb/noun",
+    meaningEn: "Move through the air using wings.",
+    meaningVi: "Bay.",
+    exampleEn: "Birds fly.",
+    exampleVi: "Chim bay.",
+    categories: ["General"],
+  },
+  {
+    id: "gen-8005",
+    word: "Foam",
+    slug: "foam",
+    phonetic: "/foʊm/",
+    partOfSpeech: "noun/verb",
+    meaningEn: "A mass of small bubbles formed on or in liquid.",
+    meaningVi: "Bọt/Sủi bọt.",
+    exampleEn: "Shaving foam.",
+    exampleVi: "Bọt cạo râu.",
+    categories: ["Materials","Science"],
+  },
+  {
+    id: "gen-499",
+    word: "Focus",
+    slug: "focus",
+    phonetic: "/ˈfoʊ.kəs/",
+    partOfSpeech: "verb/noun",
+    meaningEn: "The center of interest or activity.",
+    meaningVi: "Tập trung.",
+    exampleEn: "Focus on your work.",
+    exampleVi: "Tập trung vào công việc.",
+    categories: ["General"],
+  },
+  {
+    id: "gen-8007",
+    word: "Fodder",
+    slug: "fodder",
+    phonetic: "/ˈfɑː.dɚ/",
+    partOfSpeech: "noun",
+    meaningEn: "Food, especially dried hay or feed, for cattle and other livestock.",
+    meaningVi: "Cỏ khô/Thức ăn gia súc.",
+    exampleEn: "Cannon fodder.",
+    exampleVi: "Bia đỡ đạn (nghĩa bóng).",
+    categories: ["Agriculture","Animals"],
+  },
+  {
     id: "gen-8008",
     word: "Foe",
     slug: "foe",
@@ -11,7 +59,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Kẻ thù.",
     exampleEn: "Friend or foe.",
     exampleVi: "Bạn hay thù.",
-    categories: ["Military", "General"],
+    categories: ["Military","General"],
   },
   {
     id: "gen-8009",
@@ -19,12 +67,11 @@ export const F5: VocabularyWord[] = [
     slug: "fog",
     phonetic: "/fɑːɡ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A thick cloud of tiny water droplets suspended in the atmosphere at or near the earth's surface.",
+    meaningEn: "A thick cloud of tiny water droplets suspended in the atmosphere at or near the earth's surface.",
     meaningVi: "Sương mù.",
     exampleEn: "Thick fog.",
     exampleVi: "Sương mù dày đặc.",
-    categories: ["Weather", "Nature"],
+    categories: ["Weather","Nature"],
   },
   {
     id: "gen-8010",
@@ -48,7 +95,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Giấy bạc/Lá kim loại/Ngăn chặn.",
     exampleEn: "Aluminum foil.",
     exampleVi: "Giấy nhôm.",
-    categories: ["Materials", "Kitchen"],
+    categories: ["Materials","Kitchen"],
   },
   {
     id: "gen-8012",
@@ -56,8 +103,7 @@ export const F5: VocabularyWord[] = [
     slug: "fold",
     phonetic: "/foʊld/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Bend (something) flexible and relatively flat over on itself so that one part of it covers another.",
+    meaningEn: "Bend (something) flexible and relatively flat over on itself so that one part of it covers another.",
     meaningVi: "Gấp/Nếp gấp.",
     exampleEn: "Fold the paper.",
     exampleVi: "Gấp tờ giấy.",
@@ -69,12 +115,11 @@ export const F5: VocabularyWord[] = [
     slug: "folder",
     phonetic: "/ˈfoʊl.dər/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A folding cover or holder, typically made of stiff paper or cardboard, for storing loose papers.",
+    meaningEn: "A folding cover or holder, typically made of stiff paper or cardboard, for storing loose papers.",
     meaningVi: "Thư mục.",
     exampleEn: "Create a new folder.",
     exampleVi: "Tạo một thư mục mới.",
-    categories: ["Technology", "Business"],
+    categories: ["Technology","Business"],
   },
   {
     id: "gen-8014",
@@ -86,7 +131,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Tán lá/Bộ lá.",
     exampleEn: "Autumn foliage.",
     exampleVi: "Tán lá mùa thu.",
-    categories: ["Plants", "Nature"],
+    categories: ["Plants","Nature"],
   },
   {
     id: "gen-8015",
@@ -98,7 +143,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Dân gian/Người thân/Mọi người.",
     exampleEn: "Folk music.",
     exampleVi: "Nhạc dân gian.",
-    categories: ["Culture", "People", "Music"],
+    categories: ["Culture","People","Music"],
   },
   {
     id: "gen-8016",
@@ -106,12 +151,11 @@ export const F5: VocabularyWord[] = [
     slug: "folklore",
     phonetic: "/ˈfoʊk.lɔːr/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The traditional beliefs, customs, and stories of a community, passed through the generations by word of mouth.",
+    meaningEn: "The traditional beliefs, customs, and stories of a community, passed through the generations by word of mouth.",
     meaningVi: "Văn hóa dân gian/Truyền thuyết.",
     exampleEn: "Local folklore.",
     exampleVi: "Truyền thuyết địa phương.",
-    categories: ["Culture", "Mythology", "Literature"],
+    categories: ["Culture","Mythology","Literature"],
   },
   {
     id: "gen-500",
@@ -131,12 +175,11 @@ export const F5: VocabularyWord[] = [
     slug: "follower",
     phonetic: "/ˈfɑː.loʊ.ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An adherent or devotee of a particular person, cause, or activity.",
+    meaningEn: "An adherent or devotee of a particular person, cause, or activity.",
     meaningVi: "Người theo dõi/Tín đồ.",
     exampleEn: "Instagram follower.",
     exampleVi: "Người theo dõi trên Instagram.",
-    categories: ["Social", "Media"],
+    categories: ["Social","Media"],
   },
   {
     id: "b1-39",
@@ -168,8 +211,7 @@ export const F5: VocabularyWord[] = [
     slug: "foment",
     phonetic: "/foʊˈment/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Instigate or stir up (an undesirable or violent sentiment or course of action).",
+    meaningEn: "Instigate or stir up (an undesirable or violent sentiment or course of action).",
     meaningVi: "Kích động, xúi giục.",
     exampleEn: "Foment rebellion.",
     exampleVi: "Kích động nổi loạn.",
@@ -193,12 +235,11 @@ export const F5: VocabularyWord[] = [
     slug: "Food & Drink",
     phonetic: "/fuːd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Any nutritious substance that people or animals eat or drink or that plants absorb in order to maintain life and growth.",
+    meaningEn: "Any nutritious substance that people or animals eat or drink or that plants absorb in order to maintain life and growth.",
     meaningVi: "Thức ăn/Lương thực.",
     exampleEn: "Fast food.",
     exampleVi: "Đồ ăn nhanh.",
-    categories: ["Food & Drink", "Medical"],
+    categories: ["Food & Drink","Medical"],
   },
   {
     id: "gen-8024",
@@ -210,7 +251,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Người sành ăn.",
     exampleEn: "He's a foodie.",
     exampleVi: "Anh ấy là người sành ăn.",
-    categories: ["Food & Drink", "People"],
+    categories: ["Food & Drink","People"],
   },
   {
     id: "gen-8025",
@@ -222,7 +263,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Kẻ ngốc/Lừa gạt.",
     exampleEn: "Don't be a fool.",
     exampleVi: "Đừng làm kẻ ngốc.",
-    categories: ["People", "General"],
+    categories: ["People","General"],
   },
   {
     id: "gen-8026",
@@ -246,7 +287,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Bàn chân.",
     exampleEn: "He is playing football.",
     exampleVi: "Anh ấy đang chơi bóng đá.",
-    categories: ["Daily", "Medical"],
+    categories: ["Daily","Medical"],
   },
   {
     id: "gen-8028",
@@ -254,12 +295,11 @@ export const F5: VocabularyWord[] = [
     slug: "footage",
     phonetic: "/ˈfʊt.ɪdʒ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Part of a cinema or television film recording a particular event.",
+    meaningEn: "Part of a cinema or television film recording a particular event.",
     meaningVi: "Cảnh phim/Đoạn băng.",
     exampleEn: "Video footage.",
     exampleVi: "Đoạn băng ghi hình.",
-    categories: ["Media", "Film"],
+    categories: ["Media","Film"],
   },
   {
     id: "gen-502",
@@ -283,7 +323,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Chỗ đặt chân/Vị thế.",
     exampleEn: "Lose your footing.",
     exampleVi: "Trượt chân.",
-    categories: ["General", "Construction"],
+    categories: ["General","Construction"],
   },
   {
     id: "gen-8031",
@@ -291,12 +331,11 @@ export const F5: VocabularyWord[] = [
     slug: "footnote",
     phonetic: "/ˈfʊt.noʊt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An ancillary piece of information printed at the bottom of a page.",
+    meaningEn: "An ancillary piece of information printed at the bottom of a page.",
     meaningVi: "Chú thích cuối trang.",
     exampleEn: "Read the footnote.",
     exampleVi: "Đọc chú thích.",
-    categories: ["Literature", "Academic"],
+    categories: ["Literature","Academic"],
   },
   {
     id: "gen-8032",
@@ -304,12 +343,11 @@ export const F5: VocabularyWord[] = [
     slug: "footprint",
     phonetic: "/ˈfʊt.prɪnt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The impression left by a foot or shoe on the ground or a surface.",
+    meaningEn: "The impression left by a foot or shoe on the ground or a surface.",
     meaningVi: "Dấu chân.",
     exampleEn: "Carbon footprint.",
     exampleVi: "Dấu chân carbon.",
-    categories: ["Nature", "Environment"],
+    categories: ["Nature","Environment"],
   },
   {
     id: "gen-8033",
@@ -329,8 +367,7 @@ export const F5: VocabularyWord[] = [
     slug: "for",
     phonetic: "/fɔːr/",
     partOfSpeech: "preposition",
-    meaningEn:
-      "Used to indicate the place someone or something is going to or toward.",
+    meaningEn: "Used to indicate the place someone or something is going to or toward.",
     meaningVi: "Cho/Vì/Để.",
     exampleEn: "Gift for you.",
     exampleVi: "Quà cho bạn.",
@@ -346,7 +383,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Kiếm ăn/Lục lọi.",
     exampleEn: "Forage for food.",
     exampleVi: "Tìm kiếm thức ăn.",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-8036",
@@ -354,12 +391,11 @@ export const F5: VocabularyWord[] = [
     slug: "foray",
     phonetic: "/ˈfɔːr.eɪ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A sudden attack or incursion into enemy territory, especially to obtain something.",
+    meaningEn: "A sudden attack or incursion into enemy territory, especially to obtain something.",
     meaningVi: "Cuộc đột kích/Sự thử sức (lĩnh vực mới).",
     exampleEn: "Foray into politics.",
     exampleVi: "Sự lấn sân sang chính trị.",
-    categories: ["Military", "General"],
+    categories: ["Military","General"],
   },
   {
     id: "gen-8037",
@@ -395,7 +431,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Lực.",
     exampleEn: "Use force.",
     exampleVi: "Dùng lực.",
-    categories: ["General", "Physics"],
+    categories: ["General","Physics"],
   },
   {
     id: "gen-8040",
@@ -407,7 +443,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Dự báo.",
     exampleEn: "Weather forecast.",
     exampleVi: "Dự báo thời tiết.",
-    categories: ["Weather", "Business"],
+    categories: ["Weather","Business"],
   },
   {
     id: "gen-504",
@@ -443,7 +479,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Rừng.",
     exampleEn: "Walk in the forest.",
     exampleVi: "Đi bộ trong rừng.",
-    categories: ["Environment", "Geography"],
+    categories: ["Environment","Geography"],
   },
   {
     id: "gen-8043",
@@ -455,7 +491,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Mãi mãi.",
     exampleEn: "I will love you forever.",
     exampleVi: "Anh sẽ yêu em mãi mãi.",
-    categories: ["Time", "Emotions"],
+    categories: ["Time","Emotions"],
   },
   {
     id: "gen-8044",
@@ -463,12 +499,11 @@ export const F5: VocabularyWord[] = [
     slug: "forfeit",
     phonetic: "/ˈfɔːr.fɪt/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Lose or be deprived of (property or a right) as a penalty for wrongdoing; a fine or penalty.",
+    meaningEn: "Lose or be deprived of (property or a right) as a penalty for wrongdoing; a fine or penalty.",
     meaningVi: "Bị mất/Phạt/Đền bù.",
     exampleEn: "He had to forfeit his deposit.",
     exampleVi: "Anh ấy phải mất tiền đặt cọc.",
-    categories: ["Law", "Finance"],
+    categories: ["Law","Finance"],
   },
   {
     id: "gen-8045",
@@ -476,12 +511,11 @@ export const F5: VocabularyWord[] = [
     slug: "forge",
     phonetic: "/fɔːrdʒ/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Make or shape (a metal object) by heating it in a fire or furnace and beating or hammering it; to create (something) strong or enduring.",
+    meaningEn: "Make or shape (a metal object) by heating it in a fire or furnace and beating or hammering it; to create (something) strong or enduring.",
     meaningVi: "Rèn/Nghệ thuật rèn/Giả mạo.",
     exampleEn: "Forge a partnership.",
     exampleVi: "Xây dựng quan hệ đối tác.",
-    categories: ["Business", "Materials"],
+    categories: ["Business","Materials"],
   },
   {
     id: "a2-78",
@@ -501,12 +535,11 @@ export const F5: VocabularyWord[] = [
     slug: "forgive",
     phonetic: "/fərˈɡɪv/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Stop feeling angry or resentful toward (someone) for an offense.",
+    meaningEn: "Stop feeling angry or resentful toward (someone) for an offense.",
     meaningVi: "Tha thứ.",
     exampleEn: "I forgive you.",
     exampleVi: "Tôi tha thứ cho bạn.",
-    categories: ["Emotions", "Religion"],
+    categories: ["Emotions","Religion"],
   },
   {
     id: "gen-8047",
@@ -514,12 +547,11 @@ export const F5: VocabularyWord[] = [
     slug: "fork",
     phonetic: "/fɔːrk/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "An implement with two or more prongs used for eating or lifting food; to divide into branches.",
+    meaningEn: "An implement with two or more prongs used for eating or lifting food; to divide into branches.",
     meaningVi: "Cái nĩa/Chia nhánh.",
     exampleEn: "Use a fork to eat.",
     exampleVi: "Dùng nĩa để ăn.",
-    categories: ["Kitchen", "General"],
+    categories: ["Kitchen","General"],
   },
   {
     id: "gen-507",
@@ -551,8 +583,7 @@ export const F5: VocabularyWord[] = [
     slug: "format",
     phonetic: "/ˈfɔːr.mæt/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "The way in which something is arranged or set out; to arrange or prepare (something) in a particular format.",
+    meaningEn: "The way in which something is arranged or set out; to arrange or prepare (something) in a particular format.",
     meaningVi: "Định dạng.",
     exampleEn: "Change the file format.",
     exampleVi: "Thay đổi định dạng tệp.",
@@ -580,7 +611,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Công thức.",
     exampleEn: "A math formula.",
     exampleVi: "Công thức toán.",
-    categories: ["Mathematics", "Science"],
+    categories: ["Mathematics","Science"],
   },
   {
     id: "gen-8052",
@@ -592,7 +623,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Pháo đài/Căn cứ quân sự.",
     exampleEn: "The old fort stands on the hill.",
     exampleVi: "Pháo đài cũ nằm trên đồi.",
-    categories: ["History", "Military"],
+    categories: ["History","Military"],
   },
   {
     id: "c2-28",
@@ -612,12 +643,11 @@ export const F5: VocabularyWord[] = [
     slug: "fortune",
     phonetic: "/ˈfɔːr.tʃuːn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Chance or luck as an external, arbitrary force; a large amount of money.",
+    meaningEn: "Chance or luck as an external, arbitrary force; a large amount of money.",
     meaningVi: "Vận may/Tài sản lớn.",
     exampleEn: "He made a fortune.",
     exampleVi: "Anh ấy đã kiếm được một gia tài.",
-    categories: ["Finance", "General"],
+    categories: ["Finance","General"],
   },
   {
     id: "gen-8054",
@@ -629,7 +659,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Diễn đàn.",
     exampleEn: "Online forum.",
     exampleVi: "Diễn đàn trực tuyến.",
-    categories: ["Social", "Media"],
+    categories: ["Social","Media"],
   },
   {
     id: "gen-511",
@@ -653,7 +683,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Hóa thạch.",
     exampleEn: "Dinosaur fossils.",
     exampleVi: "Hóa thạch khủng long.",
-    categories: ["Science", "History"],
+    categories: ["Science","History"],
   },
   {
     id: "gen-8057",
@@ -661,12 +691,11 @@ export const F5: VocabularyWord[] = [
     slug: "foster",
     phonetic: "/ˈfɒs.tər/",
     partOfSpeech: "verb/adjective",
-    meaningEn:
-      "Encourage or promote the development of; provide a home temporarily.",
+    meaningEn: "Encourage or promote the development of; provide a home temporarily.",
     meaningVi: "Nuôi dưỡng/Chăm sóc tạm thời.",
     exampleEn: "Foster a child.",
     exampleVi: "Nhận nuôi tạm thời một đứa trẻ.",
-    categories: ["Social", "Family"],
+    categories: ["Social","Family"],
   },
   {
     id: "gen-512",
@@ -690,7 +719,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Nền móng.",
     exampleEn: "Strong foundation.",
     exampleVi: "Nền móng vững chắc.",
-    categories: ["Engineering", "General"],
+    categories: ["Engineering","General"],
   },
   {
     id: "gen-8060",
@@ -726,7 +755,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Mảnh vỡ/Phân mảnh.",
     exampleEn: "Fragments of pottery.",
     exampleVi: "Mảnh vỡ gốm.",
-    categories: ["History", "General"],
+    categories: ["History","General"],
   },
   {
     id: "gen-514",
@@ -750,7 +779,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Khung công việc, nền tảng.",
     exampleEn: "A JavaScript framework.",
     exampleVi: "Một framework JavaScript.",
-    categories: ["Technology", "Engineering", "Business"],
+    categories: ["Technology","Engineering","Business"],
   },
   {
     id: "gen-8066",
@@ -758,8 +787,7 @@ export const F5: VocabularyWord[] = [
     slug: "franchise",
     phonetic: "/ˈfræn.tʃaɪz/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "The authorization granted to someone to sell or distribute a company's goods or services in a particular area; to grant a franchise.",
+    meaningEn: "The authorization granted to someone to sell or distribute a company's goods or services in a particular area; to grant a franchise.",
     meaningVi: "Nhượng quyền thương mại.",
     exampleEn: "Franchise a restaurant.",
     exampleVi: "Nhượng quyền mở nhà hàng.",
@@ -783,12 +811,11 @@ export const F5: VocabularyWord[] = [
     slug: "fraud",
     phonetic: "/frɔːd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Wrongful or criminal deception intended to result in financial or personal gain.",
+    meaningEn: "Wrongful or criminal deception intended to result in financial or personal gain.",
     meaningVi: "Gian lận/Lừa đảo.",
     exampleEn: "He was arrested for fraud.",
     exampleVi: "Anh ta bị bắt vì tội lừa đảo.",
-    categories: ["Law", "Business"],
+    categories: ["Law","Business"],
   },
   {
     id: "gen-8181",
@@ -796,8 +823,7 @@ export const F5: VocabularyWord[] = [
     slug: "free",
     phonetic: "/friː/",
     partOfSpeech: "adjective/verb",
-    meaningEn:
-      "Not under the control or restriction of something; without cost.",
+    meaningEn: "Not under the control or restriction of something; without cost.",
     meaningVi: "Tự do/Miễn phí.",
     exampleEn: "This service is free.",
     exampleVi: "Dịch vụ này miễn phí.",
@@ -813,7 +839,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Tự do.",
     exampleEn: "Freedom of speech.",
     exampleVi: "Tự do ngôn luận.",
-    categories: ["Social", "Politics"],
+    categories: ["Social","Politics"],
   },
   {
     id: "gen-8196",
@@ -821,12 +847,11 @@ export const F5: VocabularyWord[] = [
     slug: "freelance",
     phonetic: "/ˈfriː.læns/",
     partOfSpeech: "adjective/verb/noun",
-    meaningEn:
-      "Working for different companies at different times rather than being permanently employed by one company; to work as a freelancer; a person who works as a freelancer.",
+    meaningEn: "Working for different companies at different times rather than being permanently employed by one company; to work as a freelancer; a person who works as a freelancer.",
     meaningVi: "Làm việc tự do/Nghề tự do.",
     exampleEn: "She works as a freelance writer.",
     exampleVi: "Cô ấy làm việc như một nhà văn tự do.",
-    categories: ["Jobs", "Business"],
+    categories: ["Jobs","Business"],
   },
   {
     id: "gen-8183",
@@ -838,7 +863,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Đóng băng/Ngừng lại.",
     exampleEn: "Water freezes at zero degrees.",
     exampleVi: "Nước đóng băng ở 0 độ.",
-    categories: ["Science", "General"],
+    categories: ["Science","General"],
   },
   {
     id: "gen-8184",
@@ -850,7 +875,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Hàng hóa/Vận chuyển hàng.",
     exampleEn: "Freight costs are rising.",
     exampleVi: "Chi phí vận chuyển hàng đang tăng.",
-    categories: ["Business", "Transportation"],
+    categories: ["Business","Transportation"],
   },
   {
     id: "gen-8185",
@@ -862,7 +887,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Thuộc Pháp/Tiếng Pháp.",
     exampleEn: "She speaks French fluently.",
     exampleVi: "Cô ấy nói tiếng Pháp trôi chảy.",
-    categories: ["Language", "Culture"],
+    categories: ["Language","Culture"],
   },
   {
     id: "b1-61",
@@ -870,8 +895,7 @@ export const F5: VocabularyWord[] = [
     slug: "frequency",
     phonetic: "/ˈfriː.kwən.si/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The rate at which something occurs or is repeated over a particular period of time or in a given sample.",
+    meaningEn: "The rate at which something occurs or is repeated over a particular period of time or in a given sample.",
     meaningVi: "Tần suất.",
     exampleEn: "The frequency of buses is every ten minutes.",
     exampleVi: "Tần suất của xe buýt là cứ mười phút một chuyến.",
@@ -907,8 +931,7 @@ export const F5: VocabularyWord[] = [
     slug: "friend",
     phonetic: "/frend/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person whom one knows and with whom one has a bond of mutual affection.",
+    meaningEn: "A person whom one knows and with whom one has a bond of mutual affection.",
     meaningVi: "Người bạn.",
     exampleEn: "He is my best friend.",
     exampleVi: "Anh ấy là bạn thân nhất của tôi.",
@@ -936,7 +959,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Tình bạn.",
     exampleEn: "A lasting friendship.",
     exampleVi: "Một tình bạn lâu dài.",
-    categories: ["Emotions", "Social"],
+    categories: ["Emotions","Social"],
   },
   {
     id: "gen-8192",
@@ -956,8 +979,7 @@ export const F5: VocabularyWord[] = [
     slug: "frog",
     phonetic: "/frɑːɡ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A small tailless amphibian with a short body and long hind legs.",
+    meaningEn: "A small tailless amphibian with a short body and long hind legs.",
     meaningVi: "Con ếch.",
     exampleEn: "A frog jumped into the pond.",
     exampleVi: "Con ếch nhảy xuống ao.",
@@ -969,8 +991,7 @@ export const F5: VocabularyWord[] = [
     slug: "from",
     phonetic: "/frʌm/",
     partOfSpeech: "preposition",
-    meaningEn:
-      "Indicating the point in space or time at which something starts.",
+    meaningEn: "Indicating the point in space or time at which something starts.",
     meaningVi: "Từ.",
     exampleEn: "She is from Vietnam.",
     exampleVi: "Cô ấy đến từ Việt Nam.",
@@ -994,8 +1015,7 @@ export const F5: VocabularyWord[] = [
     slug: "front-end",
     phonetic: "/ˈfrʌnt end/",
     partOfSpeech: "noun/adj",
-    meaningEn:
-      "The part of a computer system or application that is directly accessed by the user.",
+    meaningEn: "The part of a computer system or application that is directly accessed by the user.",
     meaningVi: "Phần giao diện, tiền phương.",
     exampleEn: "Improving the front-end user experience.",
     exampleVi: "Cải thiện trải nghiệm người dùng ở phần giao diện.",
@@ -1011,7 +1031,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Biên giới/Vùng biên.",
     exampleEn: "Life on the frontier.",
     exampleVi: "Cuộc sống ở vùng biên.",
-    categories: ["Geography", "History"],
+    categories: ["Geography","History"],
   },
   {
     id: "gen-8197",
@@ -1035,7 +1055,7 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Trái cây.",
     exampleEn: "Fresh fruit is healthy.",
     exampleVi: "Trái cây tươi rất tốt cho sức khỏe.",
-    categories: ["Food & Drink", "Medical"],
+    categories: ["Food & Drink","Medical"],
   },
   {
     id: "gen-8199",
@@ -1059,6 +1079,6 @@ export const F5: VocabularyWord[] = [
     meaningVi: "Lúng túng/Đánh rơi (bóng).",
     exampleEn: "He fumbled the ball.",
     exampleVi: "Anh ấy làm rơi bóng.",
-    categories: ["Sports", "General"],
-  },
+    categories: ["Sports","General"],
+  }
 ];

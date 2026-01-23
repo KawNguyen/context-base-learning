@@ -2,29 +2,16 @@ import { VocabularyWord } from "../../types";
 
 export const E3: VocabularyWord[] = [
   {
-    id: "gen-6856",
-    word: "Elapse",
-    slug: "elapse",
-    phonetic: "/iˈlæps/",
-    partOfSpeech: "verb",
-    meaningEn: "(of time) pass or go by.",
-    meaningVi: "Trôi qua (thời gian).",
-    exampleEn: "Minutes elapsed.",
-    exampleVi: "Nhiều phút đã trôi qua.",
-    categories: ["Time", "General"],
-  },
-  {
     id: "gen-6857",
     word: "Elastic",
     slug: "elastic",
     phonetic: "/iˈlæs.tɪk/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "(of an object or material) able to resume its normal shape spontaneously after being stretched or compressed.",
+    meaningEn: "(of an object or material) able to resume its normal shape spontaneously after being stretched or compressed.",
     meaningVi: "Đàn hồi/Co giãn/Dây thun.",
     exampleEn: "Elastic band.",
     exampleVi: "Dây thun.",
-    categories: ["General", "Science", "Daily"],
+    categories: ["General","Science","Daily"],
   },
   {
     id: "gen-6858",
@@ -32,12 +19,11 @@ export const E3: VocabularyWord[] = [
     slug: "elasticity",
     phonetic: "/ˌi.læsˈtɪs.ə.t̬i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The ability of an object or material to resume its normal shape after being stretched or compressed.",
+    meaningEn: "The ability of an object or material to resume its normal shape after being stretched or compressed.",
     meaningVi: "Tính đàn hồi/Sự co giãn.",
     exampleEn: "Skin elasticity.",
     exampleVi: "Độ đàn hồi của da.",
-    categories: ["Science", "Medical", "General"],
+    categories: ["Science","Medical","General"],
   },
   {
     id: "gen-6859",
@@ -49,7 +35,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Làm phấn chấn/Làm hân hoan.",
     exampleEn: "Elated by the victory.",
     exampleVi: "Phấn chấn bởi chiến thắng.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6860",
@@ -61,7 +47,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Hân hoan/Phấn khởi.",
     exampleEn: "Elated crowd.",
     exampleVi: "Đám đông đang hân hoan.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6861",
@@ -73,7 +59,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Sự hân hoan/Sự phấn khởi tột độ.",
     exampleEn: "Sense of elation.",
     exampleVi: "Cảm giác hân hoan.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6862",
@@ -85,7 +71,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Khuỷu tay/Cùi chỏ/Thúc bằng khuỷu tay.",
     exampleEn: "Elbow room.",
     exampleVi: "Không gian xoay sở/Chỗ trống.",
-    categories: ["Body", "Daily", "General"],
+    categories: ["Body","Daily","General"],
   },
   {
     id: "gen-363",
@@ -109,7 +95,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Quả cơm cháy.",
     exampleEn: "Elderberry wine.",
     exampleVi: "Rượu quả cơm cháy.",
-    categories: ["Nature", "Food & Drink", "Plants"],
+    categories: ["Nature","Food & Drink","Plants"],
   },
   {
     id: "gen-6865",
@@ -121,7 +107,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Cao tuổi/Người già.",
     exampleEn: "Elderly couple.",
     exampleVi: "Cặp vợ chồng già.",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-6866",
@@ -133,7 +119,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Lớn nhất/Anh cả/Chị cả.",
     exampleEn: "Eldest daughter.",
     exampleVi: "Con gái cả.",
-    categories: ["People", "Family"],
+    categories: ["People","Family"],
   },
   {
     id: "gen-364",
@@ -165,12 +151,11 @@ export const E3: VocabularyWord[] = [
     slug: "elective",
     phonetic: "/iˈlek.tɪv/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "Related to or working by means of election; (of a course of study) chosen by the student.",
+    meaningEn: "Related to or working by means of election; (of a course of study) chosen by the student.",
     meaningVi: "Có tính chất bầu cử/Môn tự chọn.",
     exampleEn: "Elective surgery.",
     exampleVi: "Phẫu thuật tự chọn (không cấp cứu).",
-    categories: ["Education", "Politics", "Medical"],
+    categories: ["Education","Politics","Medical"],
   },
   {
     id: "gen-6870",
@@ -182,7 +167,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Cử tri.",
     exampleEn: "Eligible elector.",
     exampleVi: "Cử tri đủ tư cách.",
-    categories: ["People", "Politics"],
+    categories: ["People","Politics"],
   },
   {
     id: "gen-6871",
@@ -194,7 +179,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Thuộc bầu cử/Thuộc cử tri.",
     exampleEn: "Electoral system.",
     exampleVi: "Hệ thống bầu cử.",
-    categories: ["Politics", "Social"],
+    categories: ["Politics","Social"],
   },
   {
     id: "gen-366",
@@ -218,7 +203,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Thuộc về điện.",
     exampleEn: "Electrical engineering.",
     exampleVi: "Kỹ thuật điện.",
-    categories: ["Engineering", "Technology", "General"],
+    categories: ["Engineering","Technology","General"],
   },
   {
     id: "gen-6874",
@@ -230,7 +215,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Thợ điện.",
     exampleEn: "Call an electrician.",
     exampleVi: "Gọi thợ điện.",
-    categories: ["People", "Engineering", "Jobs", "Construction"],
+    categories: ["People","Engineering","Jobs","Construction"],
   },
   {
     id: "gen-367",
@@ -242,7 +227,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Điện.",
     exampleEn: "Turn on the electricity.",
     exampleVi: "Bật điện.",
-    categories: ["Technology", "Science"],
+    categories: ["Technology","Science"],
   },
   {
     id: "gen-6876",
@@ -250,12 +235,11 @@ export const E3: VocabularyWord[] = [
     slug: "electrification",
     phonetic: "/iˌlek.trə.fəˈkeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action or process of charging something with electricity or providing something with a supply of electric power.",
+    meaningEn: "The action or process of charging something with electricity or providing something with a supply of electric power.",
     meaningVi: "Sự điện khí hóa/Sự nạp điện.",
     exampleEn: "Railway electrification.",
     exampleVi: "Sự điện khí hóa đường sắt.",
-    categories: ["Engineering", "Technology", "History"],
+    categories: ["Engineering","Technology","History"],
   },
   {
     id: "gen-6877",
@@ -267,7 +251,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Điện khí hóa/Nạp điện/Gấy sốc/Làm phấn khích.",
     exampleEn: "Electrify the audience.",
     exampleVi: "Làm khán giả cực kỳ phấn khích.",
-    categories: ["Engineering", "Psychology", "General"],
+    categories: ["Engineering","Psychology","General"],
   },
   {
     id: "gen-6878",
@@ -275,12 +259,11 @@ export const E3: VocabularyWord[] = [
     slug: "electrocardiogram",
     phonetic: "/iˌlek.troʊˈkɑːr.di.ə.ɡræm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A record or display of a person's heartbeat produced by electrocardiography.",
+    meaningEn: "A record or display of a person's heartbeat produced by electrocardiography.",
     meaningVi: "Điện tâm đồ.",
     exampleEn: "Normal electrocardiogram.",
     exampleVi: "Điện tâm đồ bình thường.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-6879",
@@ -292,7 +275,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Làm chết vì điện giật/Xử tử bằng ghế điện.",
     exampleEn: "Electrocuted by a faulty wire.",
     exampleVi: "Bị điện giật chết do dây điện hỏng.",
-    categories: ["General", "Medical", "Emergency"],
+    categories: ["General","Medical","Emergency"],
   },
   {
     id: "gen-6880",
@@ -300,12 +283,11 @@ export const E3: VocabularyWord[] = [
     slug: "electrode",
     phonetic: "/iˈlek.troʊd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A conductor through which electricity enters or leaves an object, substance, or region.",
+    meaningEn: "A conductor through which electricity enters or leaves an object, substance, or region.",
     meaningVi: "Điện cực.",
     exampleEn: "Copper electrode.",
     exampleVi: "Điện cực đồng.",
-    categories: ["Engineering", "Science", "Technology"],
+    categories: ["Engineering","Science","Technology"],
   },
   {
     id: "gen-6881",
@@ -313,12 +295,11 @@ export const E3: VocabularyWord[] = [
     slug: "electroluminescence",
     phonetic: "/iˌlek.troʊˌluː.məˈnes.əns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Luminescence produced by the application of an electric current.",
+    meaningEn: "Luminescence produced by the application of an electric current.",
     meaningVi: "Sự phát quang do điện.",
     exampleEn: "Electroluminescence display.",
     exampleVi: "Màn hình phát quang điện.",
-    categories: ["Science", "Technology", "Engineering"],
+    categories: ["Science","Technology","Engineering"],
   },
   {
     id: "gen-6882",
@@ -326,12 +307,11 @@ export const E3: VocabularyWord[] = [
     slug: "electrolysis",
     phonetic: "/iˌlekˈtrɑː.lə.sɪs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Chemical decomposition produced by passing an electric current through a liquid or solution containing ions.",
+    meaningEn: "Chemical decomposition produced by passing an electric current through a liquid or solution containing ions.",
     meaningVi: "Sự điện phân/Sự tẩy lông bằng điện.",
     exampleEn: "Electrolysis of water.",
     exampleVi: "Sự điện phân nước.",
-    categories: ["Science", "Chemistry", "Beauty"],
+    categories: ["Science","Chemistry","Beauty"],
   },
   {
     id: "gen-6883",
@@ -339,12 +319,11 @@ export const E3: VocabularyWord[] = [
     slug: "electrolyte",
     phonetic: "/iˈlek.trə.laɪt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A liquid or gel that contains ions and can be decomposed by electrolysis.",
+    meaningEn: "A liquid or gel that contains ions and can be decomposed by electrolysis.",
     meaningVi: "Chất điện phân/Chất điện giải.",
     exampleEn: "Electrolyte balance.",
     exampleVi: "Sự cân bằng điện giải (trong cơ thể).",
-    categories: ["Science", "Chemistry", "Medical"],
+    categories: ["Science","Chemistry","Medical"],
   },
   {
     id: "gen-6884",
@@ -352,12 +331,11 @@ export const E3: VocabularyWord[] = [
     slug: "electron",
     phonetic: "/iˈlek.trɑːn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A stable subatomic particle with a charge of negative electricity, found in all atoms.",
+    meaningEn: "A stable subatomic particle with a charge of negative electricity, found in all atoms.",
     meaningVi: "Điện tử (Ê-léc-trôn).",
     exampleEn: "Electron microscope.",
     exampleVi: "Kính hiển vi điện tử.",
-    categories: ["Science", "Physics"],
+    categories: ["Science","Physics"],
   },
   {
     id: "gen-368",
@@ -381,7 +359,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Bằng phương tiện điện tử.",
     exampleEn: "Submit electronically.",
     exampleVi: "Nộp (hồ sơ) qua mạng/bằng điện tử.",
-    categories: ["Technology", "Technology", "Business"],
+    categories: ["Technology","Technology","Business"],
   },
   {
     id: "gen-6887",
@@ -389,12 +367,11 @@ export const E3: VocabularyWord[] = [
     slug: "electronics",
     phonetic: "/ˌel.ekˈtrɑː.nɪks/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The branch of physics and technology concerned with the design of circuits using transistors and microchips.",
+    meaningEn: "The branch of physics and technology concerned with the design of circuits using transistors and microchips.",
     meaningVi: "Ngành điện tử/Thiết bị điện tử.",
     exampleEn: "Consumer electronics.",
     exampleVi: "Hàng điện tử tiêu dùng.",
-    categories: ["Technology", "Engineering", "Science"],
+    categories: ["Technology","Engineering","Science"],
   },
   {
     id: "gen-6888",
@@ -402,12 +379,11 @@ export const E3: VocabularyWord[] = [
     slug: "electrophoresis",
     phonetic: "/iˌlek.troʊ.fəˈriː.sɪs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The movement of charged particles in a fluid or gel under the influence of an electric field.",
+    meaningEn: "The movement of charged particles in a fluid or gel under the influence of an electric field.",
     meaningVi: "Sự điện di.",
     exampleEn: "Gel electrophoresis.",
     exampleVi: "Điện di trên gel.",
-    categories: ["Science", "Biology", "Medical"],
+    categories: ["Science","Biology","Medical"],
   },
   {
     id: "gen-6889",
@@ -415,12 +391,11 @@ export const E3: VocabularyWord[] = [
     slug: "electroplate",
     phonetic: "/iˈlek.trə.pleɪt/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Coat (a metal object) with a thin layer of another metal by electrolysis.",
+    meaningEn: "Coat (a metal object) with a thin layer of another metal by electrolysis.",
     meaningVi: "Mạ điện.",
     exampleEn: "Electroplated jewelry.",
     exampleVi: "Đồ trang sức mạ điện.",
-    categories: ["Engineering", "Science", "Fashion"],
+    categories: ["Engineering","Science","Fashion"],
   },
   {
     id: "gen-6890",
@@ -432,7 +407,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Thuộc tĩnh điện.",
     exampleEn: "Electrostatic discharge.",
     exampleVi: "Sự phóng tĩnh điện.",
-    categories: ["Science", "Physics", "Engineering"],
+    categories: ["Science","Physics","Engineering"],
   },
   {
     id: "gen-6893",
@@ -440,12 +415,11 @@ export const E3: VocabularyWord[] = [
     slug: "elegance",
     phonetic: "/ˈel.ə.ɡəns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The quality of being graceful and stylish in appearance or manner.",
+    meaningEn: "The quality of being graceful and stylish in appearance or manner.",
     meaningVi: "Sự thanh lịch/Vẻ trang nhã.",
     exampleEn: "Simple elegance.",
     exampleVi: "Vẻ trang nhã đơn giản.",
-    categories: ["Body", "Art", "Psychology"],
+    categories: ["Body","Art","Psychology"],
   },
   {
     id: "gen-6891",
@@ -457,7 +431,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Thanh lịch/Trang nhã/Tao nhã.",
     exampleEn: "Elegant solution.",
     exampleVi: "Giải pháp trang nhã/tối ưu.",
-    categories: ["Body", "Art", "General"],
+    categories: ["Body","Art","General"],
   },
   {
     id: "gen-6892",
@@ -469,7 +443,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Một cách thanh lịch/trang nhã.",
     exampleEn: "Elegantly dressed.",
     exampleVi: "Ăn mặc một cách thanh lịch.",
-    categories: ["General", "Body"],
+    categories: ["General","Body"],
   },
   {
     id: "gen-6894",
@@ -481,7 +455,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Có tính chất bi ai/Thuộc về thơ vãn.",
     exampleEn: "Elegiac tone.",
     exampleVi: "Giọng điệu bi ai.",
-    categories: ["Literature", "Art", "Psychology"],
+    categories: ["Literature","Art","Psychology"],
   },
   {
     id: "gen-6895",
@@ -493,7 +467,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Khúc bi ca/Bài thơ vãn.",
     exampleEn: "Written as an elegy.",
     exampleVi: "Được viết như một khúc bi ca.",
-    categories: ["Literature", "Art"],
+    categories: ["Literature","Art"],
   },
   {
     id: "b2-85",
@@ -517,7 +491,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Cơ bản/Thuộc về các yếu tố thiên nhiên.",
     exampleEn: "Elemental forces of nature.",
     exampleVi: "Cửa lực cơ bản của thiên nhiên.",
-    categories: ["Science", "Nature", "General"],
+    categories: ["Science","Nature","General"],
   },
   {
     id: "gen-6898",
@@ -529,7 +503,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Cơ bản/Sơ cấp/Tiểu học.",
     exampleEn: "Elementary school.",
     exampleVi: "Trường tiểu học.",
-    categories: ["Education", "General"],
+    categories: ["Education","General"],
   },
   {
     id: "gen-6899",
@@ -541,7 +515,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Nâng lên/Đề bạt/Làm phấn chấn.",
     exampleEn: "Elevate the legs.",
     exampleVi: "Kê cao chân lên.",
-    categories: ["General", "Medical", "Social"],
+    categories: ["General","Medical","Social"],
   },
   {
     id: "gen-6900",
@@ -549,12 +523,11 @@ export const E3: VocabularyWord[] = [
     slug: "elevation",
     phonetic: "/ˌel.əˈveɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action or fact of elevating or being elevated; height above a given level, especially sea level.",
+    meaningEn: "The action or fact of elevating or being elevated; height above a given level, especially sea level.",
     meaningVi: "Sự nâng lên/Cao độ/Sự thăng chức.",
     exampleEn: "High elevation.",
     exampleVi: "Độ cao lớn.",
-    categories: ["Geography", "Science", "General"],
+    categories: ["Geography","Science","General"],
   },
   {
     id: "gen-370",
@@ -566,7 +539,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Thang máy.",
     exampleEn: "Take the elevator.",
     exampleVi: "Lên thang máy.",
-    categories: ["Home", "Daily"],
+    categories: ["Home","Daily"],
   },
   {
     id: "gen-6902",
@@ -578,7 +551,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Số mười một.",
     exampleEn: "Eleven players.",
     exampleVi: "Mười một người chơi.",
-    categories: ["General", "Mathematics"],
+    categories: ["General","Mathematics"],
   },
   {
     id: "gen-6903",
@@ -590,7 +563,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Thứ mười một.",
     exampleEn: "Eleventh floor.",
     exampleVi: "Tầng mười một.",
-    categories: ["General", "Mathematics"],
+    categories: ["General","Mathematics"],
   },
   {
     id: "gen-6904",
@@ -598,12 +571,11 @@ export const E3: VocabularyWord[] = [
     slug: "elf",
     phonetic: "/elf/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A supernatural creature of folk tales, typically represented as a small, elusive figure in human form with pointed ears.",
+    meaningEn: "A supernatural creature of folk tales, typically represented as a small, elusive figure in human form with pointed ears.",
     meaningVi: "Yêu tinh/Yêu râu xanh (trong thần thoại).",
     exampleEn: "Christmas elves.",
     exampleVi: "Các chú lùn Giáng sinh.",
-    categories: ["Literature", "History"],
+    categories: ["Literature","History"],
   },
   {
     id: "gen-6905",
@@ -615,7 +587,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Giống yêu tinh/Tinh nghịch.",
     exampleEn: "Elfish grin.",
     exampleVi: "Nụ cười tinh nghịch.",
-    categories: ["General", "Body"],
+    categories: ["General","Body"],
   },
   {
     id: "gen-6906",
@@ -623,12 +595,11 @@ export const E3: VocabularyWord[] = [
     slug: "elicit",
     phonetic: "/iˈlɪs.ɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Evoke or draw out (a response, answer, or fact) from someone in reaction to one's own actions or questions.",
+    meaningEn: "Evoke or draw out (a response, answer, or fact) from someone in reaction to one's own actions or questions.",
     meaningVi: "Khêu ra/Gợi ra/Moi ra.",
     exampleEn: "Elicit a response.",
     exampleVi: "Gợi ra một câu trả lời.",
-    categories: ["General", "Psychology", "Social"],
+    categories: ["General","Psychology","Social"],
   },
   {
     id: "gen-6907",
@@ -640,7 +611,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Sự khơi gợi/Sự moi tin.",
     exampleEn: "Information elicitation.",
     exampleVi: "Sự khơi gợi/thu thập thông tin.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-6908",
@@ -648,12 +619,11 @@ export const E3: VocabularyWord[] = [
     slug: "elide",
     phonetic: "/iˈlaɪd/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Omit (a sound or syllable) when speaking; join or merge things together.",
+    meaningEn: "Omit (a sound or syllable) when speaking; join or merge things together.",
     meaningVi: "Đọc lướt/Bỏ qua (âm).",
     exampleEn: "Elided syllables.",
     exampleVi: "Các âm tiết bị đọc lướt.",
-    categories: ["Literature", "Education"],
+    categories: ["Literature","Education"],
   },
   {
     id: "gen-6909",
@@ -661,12 +631,11 @@ export const E3: VocabularyWord[] = [
     slug: "eligibility",
     phonetic: "/ˌel.ɪ.dʒəˈbɪl.ə.t̬i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The state of having the right to do or obtain something through satisfaction of the appropriate conditions.",
+    meaningEn: "The state of having the right to do or obtain something through satisfaction of the appropriate conditions.",
     meaningVi: "Đủ tư cách/Sự thích hợp.",
     exampleEn: "Check eligibility.",
     exampleVi: "Kiểm tra tư cách (xem có đủ điều kiện không).",
-    categories: ["General", "Law", "Social"],
+    categories: ["General","Law","Social"],
   },
   {
     id: "gen-6910",
@@ -674,12 +643,11 @@ export const E3: VocabularyWord[] = [
     slug: "eligible",
     phonetic: "/ˈel.ɪ.dʒə.bəl/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "Having the right to do or obtain something; satisfying the appropriate conditions.",
+    meaningEn: "Having the right to do or obtain something; satisfying the appropriate conditions.",
     meaningVi: "Đủ tư cách/Thích hợp/Có thể chọn được.",
     exampleEn: "Eligible bachelor.",
     exampleVi: "Chàng trai độc thân đủ điều kiện (để kết hôn).",
-    categories: ["General", "Social", "Law"],
+    categories: ["General","Social","Law"],
   },
   {
     id: "b2-86",
@@ -703,7 +671,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Sự loại bỏ/Vòng loại (trong thể thao).",
     exampleEn: "Elimination round.",
     exampleVi: "Vòng loại.",
-    categories: ["General", "Sports", "Science"],
+    categories: ["General","Sports","Science"],
   },
   {
     id: "gen-6913",
@@ -711,12 +679,11 @@ export const E3: VocabularyWord[] = [
     slug: "elite",
     phonetic: "/iˈliːt/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A select group that is superior in terms of ability or qualities to the rest of a group or society.",
+    meaningEn: "A select group that is superior in terms of ability or qualities to the rest of a group or society.",
     meaningVi: "Ưu tú/Thượng lưu/Tinh hoa.",
     exampleEn: "Elite athletes.",
     exampleVi: "Các vận động viên ưu tú.",
-    categories: ["People", "Social", "General"],
+    categories: ["People","Social","General"],
   },
   {
     id: "gen-6914",
@@ -724,12 +691,11 @@ export const E3: VocabularyWord[] = [
     slug: "elitism",
     phonetic: "/iˈliː.tɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The advocacy or existence of an elite as a dominating element in a system or society.",
+    meaningEn: "The advocacy or existence of an elite as a dominating element in a system or society.",
     meaningVi: "Chủ nghĩa tinh hoa/Sự coi trọng giới tinh hoa.",
     exampleEn: "Charge of elitism.",
     exampleVi: "Cáo buộc về chủ nghĩa tinh hoa.",
-    categories: ["Social", "Politics", "Philosophy"],
+    categories: ["Social","Politics","Philosophy"],
   },
   {
     id: "gen-6915",
@@ -741,7 +707,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Thuốc tiên/Linh đơn/Tiên tửu.",
     exampleEn: "Elixir of life.",
     exampleVi: "Thuốc trường sinh bất tử.",
-    categories: ["Medical", "Literature", "General"],
+    categories: ["Medical","Literature","General"],
   },
   {
     id: "gen-6916",
@@ -753,7 +719,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Hình ê-líp.",
     exampleEn: "Draw an ellipse.",
     exampleVi: "Vẽ một hình ê-líp.",
-    categories: ["Mathematics", "General"],
+    categories: ["Mathematics","General"],
   },
   {
     id: "gen-6917",
@@ -761,12 +727,11 @@ export const E3: VocabularyWord[] = [
     slug: "ellipsis",
     phonetic: "/iˈlɪp.sɪs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The omission from speech or writing of a word or words that are superfluous or able to be understood from contextual clues.",
+    meaningEn: "The omission from speech or writing of a word or words that are superfluous or able to be understood from contextual clues.",
     meaningVi: "Dấu ba chấm/Sự lược bớt từ.",
     exampleEn: "Represented by an ellipsis.",
     exampleVi: "Được đại diện bằng dấu ba chấm.",
-    categories: ["Literature", "Education", "General"],
+    categories: ["Literature","Education","General"],
   },
   {
     id: "gen-6918",
@@ -778,7 +743,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Khối ê-líp/Hình phỏng ê-líp.",
     exampleEn: "Earth's ellipsoid shape.",
     exampleVi: "Hình dạng khối ê-líp của Trái Đất.",
-    categories: ["Mathematics", "Science"],
+    categories: ["Mathematics","Science"],
   },
   {
     id: "gen-6919",
@@ -790,7 +755,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Có hình ê-líp/Lược bớt (từ).",
     exampleEn: "Elliptic orbit.",
     exampleVi: "Quỹ đạo hình ê-líp.",
-    categories: ["Mathematics", "Science"],
+    categories: ["Mathematics","Science"],
   },
   {
     id: "gen-6920",
@@ -798,12 +763,11 @@ export const E3: VocabularyWord[] = [
     slug: "elliptical",
     phonetic: "/iˈlɪp.tɪ.kəl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of speech or writing) using or involving ellipsis, especially so as to be difficult to understand.",
+    meaningEn: "(of speech or writing) using or involving ellipsis, especially so as to be difficult to understand.",
     meaningVi: "Hình ê-líp/Súc tích (lược bỏ từ).",
     exampleEn: "Elliptical trainer.",
     exampleVi: "Máy tập đi bộ trên không/máy tập hình ê-líp.",
-    categories: ["Mathematics", "Sports", "Literature"],
+    categories: ["Mathematics","Sports","Literature"],
   },
   {
     id: "gen-6921",
@@ -811,12 +775,11 @@ export const E3: VocabularyWord[] = [
     slug: "elm",
     phonetic: "/elm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A tall deciduous tree that typically has rough serrated leaves and propagates from root suckers.",
+    meaningEn: "A tall deciduous tree that typically has rough serrated leaves and propagates from root suckers.",
     meaningVi: "Cây đu (một loại cây thân gỗ).",
     exampleEn: "Elm tree.",
     exampleVi: "Cây đu.",
-    categories: ["Nature", "Plants"],
+    categories: ["Nature","Plants"],
   },
   {
     id: "gen-6922",
@@ -824,12 +787,11 @@ export const E3: VocabularyWord[] = [
     slug: "elocution",
     phonetic: "/ˌel.əˈkjuː.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The skill of clear and expressive speech, especially of distinct pronunciation and articulation.",
+    meaningEn: "The skill of clear and expressive speech, especially of distinct pronunciation and articulation.",
     meaningVi: "Thuật diễn thuyết/Cách phát âm rõ ràng.",
     exampleEn: "Elocution lessons.",
     exampleVi: "Các bài học về cách phát âm/diễn thuyết.",
-    categories: ["Education", "General"],
+    categories: ["Education","General"],
   },
   {
     id: "gen-6923",
@@ -837,12 +799,11 @@ export const E3: VocabularyWord[] = [
     slug: "elongate",
     phonetic: "/ˈiː.lɑːŋ.ɡeɪt/",
     partOfSpeech: "verb/adjective",
-    meaningEn:
-      "Make (something) longer, especially unusually so in relation to its width.",
+    meaningEn: "Make (something) longer, especially unusually so in relation to its width.",
     meaningVi: "Làm dài ra/Kéo dài ra.",
     exampleEn: "Elongated neck.",
     exampleVi: "Cái cổ dài ra.",
-    categories: ["General", "Body"],
+    categories: ["General","Body"],
   },
   {
     id: "gen-6924",
@@ -854,7 +815,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Được kéo dài/Có hình thon dài.",
     exampleEn: "Elongated shape.",
     exampleVi: "Hình dạng thon dài.",
-    categories: ["General", "Body"],
+    categories: ["General","Body"],
   },
   {
     id: "gen-6925",
@@ -866,7 +827,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Sự kéo dài/Sự giãn dài.",
     exampleEn: "Percentage elongation.",
     exampleVi: "Phần trăm độ giãn dài.",
-    categories: ["General", "Science", "Engineering"],
+    categories: ["General","Science","Engineering"],
   },
   {
     id: "gen-6926",
@@ -874,12 +835,11 @@ export const E3: VocabularyWord[] = [
     slug: "elope",
     phonetic: "/iˈloʊp/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Run away secretly in order to get married, especially without parental consent.",
+    meaningEn: "Run away secretly in order to get married, especially without parental consent.",
     meaningVi: "Đi trốn để kết hôn/Bỏ nhà đi với người yêu.",
     exampleEn: "Decided to elope.",
     exampleVi: "Quyết định đi trốn để kết hôn.",
-    categories: ["Social", "General"],
+    categories: ["Social","General"],
   },
   {
     id: "gen-6927",
@@ -891,7 +851,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Sự bỏ trốn để kết hôn.",
     exampleEn: "Romantic elopement.",
     exampleVi: "Sự bỏ trốn đi kết hôn đầy lãng mạn.",
-    categories: ["Social", "General"],
+    categories: ["Social","General"],
   },
   {
     id: "c2-1",
@@ -915,7 +875,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Hùng biện/Có tài ăn nói.",
     exampleEn: "Eloquent speaker.",
     exampleVi: "Người diễn thuyết hùng biện.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-6930",
@@ -927,7 +887,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Một cách hùng biện/Đầy sức thuyết phục.",
     exampleEn: "Spoke eloquently.",
     exampleVi: "Nói năng một cách hùng biện.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-6931",
@@ -963,7 +923,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Sự giải thích làm sáng tỏ.",
     exampleEn: "Further elucidation.",
     exampleVi: "Giải thích rõ thêm.",
-    categories: ["General", "Education"],
+    categories: ["General","Education"],
   },
   {
     id: "gen-6934",
@@ -971,12 +931,11 @@ export const E3: VocabularyWord[] = [
     slug: "elude",
     phonetic: "/iˈluːd/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Evade or escape from (a danger, enemy, or pursuer), typically in a skillful or cunning way.",
+    meaningEn: "Evade or escape from (a danger, enemy, or pursuer), typically in a skillful or cunning way.",
     meaningVi: "Tránh né/Lẩn tránh/Vượt khỏi tầm hiểu biết.",
     exampleEn: "The answer eluded him.",
     exampleVi: "Anh ta không nghĩ ra được câu trả lời.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-6935",
@@ -1000,7 +959,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Khó nắm bắt/Hay lẩn tránh/Khó tìm.",
     exampleEn: "Elusive target.",
     exampleVi: "Mục tiêu khó nắm bắt.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-6937",
@@ -1008,12 +967,11 @@ export const E3: VocabularyWord[] = [
     slug: "elver",
     phonetic: "/ˈel.vɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A young eel, especially when having reached coastal waters from the ocean.",
+    meaningEn: "A young eel, especially when having reached coastal waters from the ocean.",
     meaningVi: "Cá chình con/Lươn con.",
     exampleEn: "Migrating elvers.",
     exampleVi: "Đàn cá chình con đang di cư.",
-    categories: ["Biology", "Nature", "Food & Drink"],
+    categories: ["Biology","Nature","Food & Drink"],
   },
   {
     id: "gen-6938",
@@ -1025,7 +983,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Thuộc về thiên đường/Cực lạc.",
     exampleEn: "Elysian fields.",
     exampleVi: "Cánh đồng Elysian (trong thần thoại Hy Lạp).",
-    categories: ["Philosophy", "Literature"],
+    categories: ["Philosophy","Literature"],
   },
   {
     id: "gen-6939",
@@ -1037,7 +995,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Nơi cực lạc/Thiên đường.",
     exampleEn: "Seeking an Elysium.",
     exampleVi: "Tìm kiếm một nơi cực lạc.",
-    categories: ["Philosophy", "Literature"],
+    categories: ["Philosophy","Literature"],
   },
   {
     id: "gen-6940",
@@ -1045,12 +1003,11 @@ export const E3: VocabularyWord[] = [
     slug: "emaciate",
     phonetic: "/iˈmeɪ.ʃi.eɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Make abnormally lean or thin by a gradual wasting away of flesh.",
+    meaningEn: "Make abnormally lean or thin by a gradual wasting away of flesh.",
     meaningVi: "Làm gầy mòn/Làm héo mòn.",
     exampleEn: "Disease emaciates the body.",
     exampleVi: "Bệnh tật làm cơ thể gầy mòn.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-6941",
@@ -1058,12 +1015,11 @@ export const E3: VocabularyWord[] = [
     slug: "emaciated",
     phonetic: "/iˈmeɪ.ʃi.eɪ.t̬ɪd/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Abnormally thin or weak, especially because of illness or a lack of food.",
+    meaningEn: "Abnormally thin or weak, especially because of illness or a lack of food.",
     meaningVi: "Gầy gò/Hốc hác/Mòn mỏi.",
     exampleEn: "Emaciated prisoner.",
     exampleVi: "Người tù gầy gò hốc hác.",
-    categories: ["Medical", "Body", "Medical"],
+    categories: ["Medical","Body","Medical"],
   },
   {
     id: "gen-6942",
@@ -1075,7 +1031,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Sự gầy mòn/Sự hốc hác.",
     exampleEn: "Servere emaciation.",
     exampleVi: "Sự gầy mòn trầm trọng.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "a1-183",
@@ -1087,7 +1043,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Thư điện tử.",
     exampleEn: "Send me an email.",
     exampleVi: "Hãy gửi email cho tôi.",
-    categories: ["Daily", "Technology", "Business"],
+    categories: ["Daily","Technology","Business"],
   },
   {
     id: "gen-6944",
@@ -1095,12 +1051,11 @@ export const E3: VocabularyWord[] = [
     slug: "emanate",
     phonetic: "/ˈem.ə.neɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "(of something abstract but perceptible) issue or spread out from (a source).",
+    meaningEn: "(of something abstract but perceptible) issue or spread out from (a source).",
     meaningVi: "Phát ra/Tỏa ra/Bắt nguồn từ.",
     exampleEn: "Heat emanates from the fire.",
     exampleVi: "Nhiệt tỏa ra từ ngọn lửa.",
-    categories: ["General", "Science", "Psychology"],
+    categories: ["General","Science","Psychology"],
   },
   {
     id: "gen-6945",
@@ -1108,12 +1063,11 @@ export const E3: VocabularyWord[] = [
     slug: "emanation",
     phonetic: "/ˌem.əˈneɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An abstract but perceptible thing that issues or originates from a source.",
+    meaningEn: "An abstract but perceptible thing that issues or originates from a source.",
     meaningVi: "Sự phát ra/Sự tỏa ra.",
     exampleEn: "Emanation of light.",
     exampleVi: "Sự phát ra ánh sáng.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "gen-6946",
@@ -1121,12 +1075,11 @@ export const E3: VocabularyWord[] = [
     slug: "emancipate",
     phonetic: "/iˈmæn.sə.peɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Set free, especially from legal, social, or political restrictions.",
+    meaningEn: "Set free, especially from legal, social, or political restrictions.",
     meaningVi: "Giải phóng/Giải thoát.",
     exampleEn: "Emancipate slaves.",
     exampleVi: "Giải phóng nô lệ.",
-    categories: ["Politics", "Social", "History"],
+    categories: ["Politics","Social","History"],
   },
   {
     id: "gen-6947",
@@ -1134,12 +1087,11 @@ export const E3: VocabularyWord[] = [
     slug: "emancipation",
     phonetic: "/iˌmæn.səˈpeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The fact or process of being set free from legal, social, or political restrictions; liberation.",
+    meaningEn: "The fact or process of being set free from legal, social, or political restrictions; liberation.",
     meaningVi: "Sự giải phóng/Sự tự do.",
     exampleEn: "Women's emancipation.",
     exampleVi: "Sự giải phóng phụ nữ.",
-    categories: ["Politics", "Social", "History"],
+    categories: ["Politics","Social","History"],
   },
   {
     id: "gen-6948",
@@ -1147,12 +1099,11 @@ export const E3: VocabularyWord[] = [
     slug: "emancipator",
     phonetic: "/iˈmæn.sə.peɪ.t̬ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who sets others free from slavery or other social or political limitations.",
+    meaningEn: "A person who sets others free from slavery or other social or political limitations.",
     meaningVi: "Người giải phóng.",
     exampleEn: "Lincoln the Emancipator.",
     exampleVi: "Lincoln - Người giải phóng.",
-    categories: ["People", "History", "Politics"],
+    categories: ["People","History","Politics"],
   },
   {
     id: "gen-6949",
@@ -1160,12 +1111,11 @@ export const E3: VocabularyWord[] = [
     slug: "emasculate",
     phonetic: "/iˈmæs.kjə.leɪt/",
     partOfSpeech: "verb/adjective",
-    meaningEn:
-      "Deprive (a man) of his male role or identity; make (someone or something) weaker or less effective.",
+    meaningEn: "Deprive (a man) of his male role or identity; make (someone or something) weaker or less effective.",
     meaningVi: "Làm mất tính nam/Làm yếu đi/Làm bạc nhược.",
     exampleEn: "Emasculate the opposition.",
     exampleVi: "Làm yếu đi phe đối lập.",
-    categories: ["Psychology", "Politics", "General"],
+    categories: ["Psychology","Politics","General"],
   },
   {
     id: "gen-6950",
@@ -1185,12 +1135,11 @@ export const E3: VocabularyWord[] = [
     slug: "embalm",
     phonetic: "/ɪmˈbɑːm/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Preserve (a corpse) from decay, originally with spices and now usually by arterial injection of a preservative.",
+    meaningEn: "Preserve (a corpse) from decay, originally with spices and now usually by arterial injection of a preservative.",
     meaningVi: "Ướp xác.",
     exampleEn: "Embalmed bodies.",
     exampleVi: "Những thi thể đã được ướp xác.",
-    categories: ["History", "Medical", "Social"],
+    categories: ["History","Medical","Social"],
   },
   {
     id: "gen-6952",
@@ -1202,7 +1151,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Người ướp xác.",
     exampleEn: "Expert embalmer.",
     exampleVi: "Người ướp xác chuyên nghiệp.",
-    categories: ["People", "Medical", "Business"],
+    categories: ["People","Medical","Business"],
   },
   {
     id: "gen-6953",
@@ -1214,7 +1163,7 @@ export const E3: VocabularyWord[] = [
     meaningVi: "Đắp đê/Ngăn bằng đê.",
     exampleEn: "Embank the river.",
     exampleVi: "Đắp đê ngăn sông.",
-    categories: ["Engineering", "Geography"],
+    categories: ["Engineering","Geography"],
   },
   {
     id: "gen-6954",
@@ -1222,12 +1171,11 @@ export const E3: VocabularyWord[] = [
     slug: "embankment",
     phonetic: "/ɪmˈbæŋk.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A wall or bank of earth or stone built to prevent a river from flooding an area.",
+    meaningEn: "A wall or bank of earth or stone built to prevent a river from flooding an area.",
     meaningVi: "Đê/Bờ đê/Đê đập.",
     exampleEn: "Railway embankment.",
     exampleVi: "Đê chắn đường sắt/Nền đường sắt đắp cao.",
-    categories: ["Engineering", "Geography", "Architecture"],
+    categories: ["Engineering","Geography","Architecture"],
   },
   {
     id: "gen-6955",
@@ -1235,11 +1183,22 @@ export const E3: VocabularyWord[] = [
     slug: "embargo",
     phonetic: "/ɪmˈbɑːr.ɡoʊ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "An official ban on trade or other commercial activity with a particular country.",
+    meaningEn: "An official ban on trade or other commercial activity with a particular country.",
     meaningVi: "Lệnh cấm vận/Đình chỉ hoạt động.",
     exampleEn: "Trade embargo.",
     exampleVi: "Lệnh cấm vận thương mại.",
-    categories: ["Politics", "Business", "Law"],
+    categories: ["Politics","Business","Law"],
   },
+  {
+    id: "gen-6956",
+    word: "Embark",
+    slug: "embark",
+    phonetic: "/ɪmˈbɑːrk/",
+    partOfSpeech: "verb",
+    meaningEn: "Go on board a ship, aircraft, or other vehicle; begin (a course of action, especially one that is important or demanding).",
+    meaningVi: "Lên tàu/Bắt đầu (một công việc/hành trình).",
+    exampleEn: "Embark on a new career.",
+    exampleVi: "Bắt đầu một sự nghiệp mới.",
+    categories: ["Travel","General","Business"],
+  }
 ];

@@ -2,6 +2,30 @@ import { VocabularyWord } from "../../types";
 
 export const W2: VocabularyWord[] = [
   {
+    id: "gen-1844",
+    word: "Wooden",
+    slug: "wooden",
+    phonetic: "/ˈwʊd.ən/",
+    partOfSpeech: "adjective",
+    meaningEn: "Made of wood.",
+    meaningVi: "Bằng gỗ.",
+    exampleEn: "Wooden box.",
+    exampleVi: "Hộp gỗ.",
+    categories: ["General"],
+  },
+  {
+    id: "gen-1845",
+    word: "Wool",
+    slug: "wool",
+    phonetic: "/wʊl/",
+    partOfSpeech: "noun",
+    meaningEn: "The fine, soft curly or wavy hair forming the coat of a sheep.",
+    meaningVi: "Len.",
+    exampleEn: "Wool sweater.",
+    exampleVi: "Áo len.",
+    categories: ["Fashion","General"],
+  },
+  {
     id: "gen-1846",
     word: "Word",
     slug: "word",
@@ -11,7 +35,7 @@ export const W2: VocabularyWord[] = [
     meaningVi: "Từ.",
     exampleEn: "Meaning of the word.",
     exampleVi: "Nghĩa của từ.",
-    categories: ["Education", "General"],
+    categories: ["Education","General"],
   },
   {
     id: "pv-23",
@@ -31,12 +55,11 @@ export const W2: VocabularyWord[] = [
     slug: "worker",
     phonetic: "/ˈwɜːr.kɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who works, especially one who does a particular type of work.",
+    meaningEn: "A person who works, especially one who does a particular type of work.",
     meaningVi: "Công nhân.",
     exampleEn: "Office worker.",
     exampleVi: "Nhân viên văn phòng.",
-    categories: ["Business", "People"],
+    categories: ["Business","People"],
   },
   {
     id: "gen-1849",
@@ -60,7 +83,19 @@ export const W2: VocabularyWord[] = [
     meaningVi: "Luyện tập.",
     exampleEn: "Daily workout.",
     exampleVi: "Luyện tập hàng ngày.",
-    categories: ["Sports", "Medical"],
+    categories: ["Sports","Medical"],
+  },
+  {
+    id: "spec-w-005",
+    word: "Workshop",
+    slug: "workshop",
+    phonetic: "/ˈwɜːk.ʃɒp/",
+    partOfSpeech: "noun",
+    meaningEn: "A meeting at which a group of people engage in intensive discussion and activity on a particular subject or project.",
+    meaningVi: "Buổi hội thảo nơi một nhóm người thảo luận và làm việc chuyên sâu về một chủ đề hoặc dự án.",
+    exampleEn: "She attended a writing workshop last weekend.",
+    exampleVi: "Cô ấy tham gia một buổi hội thảo viết vào cuối tuần trước.",
+    categories: ["Education","Business"],
   },
   {
     id: "a1-152",
@@ -68,8 +103,7 @@ export const W2: VocabularyWord[] = [
     slug: "world",
     phonetic: "/wɜːrld/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The earth, together with all of its countries, peoples, and natural features.",
+    meaningEn: "The earth, together with all of its countries, peoples, and natural features.",
     meaningVi: "Thế giới.",
     exampleEn: "Travel around the world.",
     exampleVi: "Du lịch quanh thế giới.",
@@ -117,8 +151,7 @@ export const W2: VocabularyWord[] = [
     slug: "worry",
     phonetic: "/ˈwɝː.i/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Feel or cause to feel anxious or troubled about actual or potential problems.",
+    meaningEn: "Feel or cause to feel anxious or troubled about actual or potential problems.",
     meaningVi: "Lo lắng.",
     exampleEn: "Don't worry.",
     exampleVi: "Đừng lo lắng.",
@@ -142,12 +175,11 @@ export const W2: VocabularyWord[] = [
     slug: "worship",
     phonetic: "/ˈwɝː.ʃɪp/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "The feeling or expression of reverence and adoration for a deity.",
+    meaningEn: "The feeling or expression of reverence and adoration for a deity.",
     meaningVi: "Thờ phụng.",
     exampleEn: "Place of worship.",
     exampleVi: "Nơi thờ tự.",
-    categories: ["Social", "Daily"],
+    categories: ["Social","Daily"],
   },
   {
     id: "gen-1858",
@@ -171,7 +203,7 @@ export const W2: VocabularyWord[] = [
     meaningVi: "Đáng giá.",
     exampleEn: "Worth the price.",
     exampleVi: "Đáng đồng tiền bát gạo.",
-    categories: ["Finance", "General"],
+    categories: ["Finance","General"],
   },
   {
     id: "gen-1860",
@@ -191,8 +223,7 @@ export const W2: VocabularyWord[] = [
     slug: "worthy",
     phonetic: "/ˈwɝː.ði/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "Having or showing the qualities or abilities that merit recognition.",
+    meaningEn: "Having or showing the qualities or abilities that merit recognition.",
     meaningVi: "Xứng đáng.",
     exampleEn: "Worthy cause.",
     exampleVi: "Sự nghiệp xứng đáng.",
@@ -216,12 +247,11 @@ export const W2: VocabularyWord[] = [
     slug: "wound",
     phonetic: "/wuːnd/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "An injury to living tissue caused by a cut, blow, or other impact.",
+    meaningEn: "An injury to living tissue caused by a cut, blow, or other impact.",
     meaningVi: "Vết thương.",
     exampleEn: "Deep wound.",
     exampleVi: "Vết thương sâu.",
-    categories: ["Medical", "Biology"],
+    categories: ["Medical","Biology"],
   },
   {
     id: "gen-1864",
@@ -253,8 +283,7 @@ export const W2: VocabularyWord[] = [
     slug: "write",
     phonetic: "/raɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Mark (letters, words, or other symbols) on a surface, typically paper, with a pen, pencil, or similar implement.",
+    meaningEn: "Mark (letters, words, or other symbols) on a surface, typically paper, with a pen, pencil, or similar implement.",
     meaningVi: "Viết.",
     exampleEn: "Write your name here.",
     exampleVi: "Viết tên bạn vào đây.",
@@ -270,7 +299,7 @@ export const W2: VocabularyWord[] = [
     meaningVi: "Nhà văn.",
     exampleEn: "Famous writer.",
     exampleVi: "Nhà văn nổi tiếng.",
-    categories: ["People", "Education", "Jobs"],
+    categories: ["People","Education","Jobs"],
   },
   {
     id: "gen-1868",
@@ -307,5 +336,5 @@ export const W2: VocabularyWord[] = [
     exampleEn: "He was wrongly accused.",
     exampleVi: "Anh ấy bị buộc tội sai lầm.",
     categories: ["General"],
-  },
+  }
 ];

@@ -2,17 +2,28 @@ import { VocabularyWord } from "../../types";
 
 export const C7: VocabularyWord[] = [
   {
+    id: "gen-3287",
+    word: "Coconut",
+    slug: "coconut",
+    phonetic: "/ˈkoʊ.kə.nʌt/",
+    partOfSpeech: "noun/adjective",
+    meaningEn: "The large, oval, brown seed of a tropical palm, consisting of a hard shell lining with edible white flesh and containing a clear liquid.",
+    meaningVi: "Quả dừa.",
+    exampleEn: "Coconut water.",
+    exampleVi: "Nước dừa.",
+    categories: ["Food & Drink","Biology","Environment"],
+  },
+  {
     id: "gen-3288",
     word: "Cocoon",
     slug: "cocoon",
     phonetic: "/kəˈkuːn/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A silky case spun by the larvae of many insects for protection in the pupal stage.",
+    meaningEn: "A silky case spun by the larvae of many insects for protection in the pupal stage.",
     meaningVi: "Cái kén/Bao bọc.",
     exampleEn: "Silk cocoon.",
     exampleVi: "Kén tơ.",
-    categories: ["Biology", "Environment", "General"],
+    categories: ["Biology","Environment","General"],
   },
   {
     id: "gen-3289",
@@ -24,7 +35,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Cá tuyết/Lừa bịp (từ lóng).",
     exampleEn: "Cod liver oil.",
     exampleVi: "Dầu gan cá tuyết.",
-    categories: ["Food & Drink", "Biology", "Environment"],
+    categories: ["Food & Drink","Biology","Environment"],
   },
   {
     id: "gen-3290",
@@ -36,7 +47,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Nông chiều/Chăm sóc quá mức.",
     exampleEn: "Coddle children.",
     exampleVi: "Cưng nựng trẻ con.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "c1-91",
@@ -44,8 +55,7 @@ export const C7: VocabularyWord[] = [
     slug: "code",
     phonetic: "/koʊd/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A system of words, letters, figures, or other symbols substituted for other words, letters, etc., especially for the purposes of secrecy.",
+    meaningEn: "A system of words, letters, figures, or other symbols substituted for other words, letters, etc., especially for the purposes of secrecy.",
     meaningVi: "Mã, mã hóa.",
     exampleEn: "Write the code in Python.",
     exampleVi: "Hãy viết mã bằng ngôn ngữ Python.",
@@ -61,7 +71,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Hệ thống hóa/Lập bộ luật.",
     exampleEn: "Codify principles.",
     exampleVi: "Hệ thống hóa các nguyên tắc.",
-    categories: ["Law", "Politics", "General"],
+    categories: ["Law","Politics","General"],
   },
   {
     id: "gen-3293",
@@ -69,12 +79,11 @@ export const C7: VocabularyWord[] = [
     slug: "coefficient",
     phonetic: "/ˌkoʊ.ɪˈfɪʃ.ənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A numerical or constant quantity placed before and multiplying the variable in an algebraic expression.",
+    meaningEn: "A numerical or constant quantity placed before and multiplying the variable in an algebraic expression.",
     meaningVi: "Hệ số.",
     exampleEn: "Drag coefficient.",
     exampleVi: "Hệ số cản.",
-    categories: ["Mathematics", "Science", "Physics"],
+    categories: ["Mathematics","Science","Physics"],
   },
   {
     id: "gen-3294",
@@ -82,12 +91,11 @@ export const C7: VocabularyWord[] = [
     slug: "coerce",
     phonetic: "/koʊˈɝːs/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Persuade (an unwilling person) to do something by using force or threats.",
+    meaningEn: "Persuade (an unwilling person) to do something by using force or threats.",
     meaningVi: "Ép buộc/Cưỡng bức.",
     exampleEn: "Coerce into signing.",
     exampleVi: "Ép buộc ký tên.",
-    categories: ["Law", "Psychology", "Social"],
+    categories: ["Law","Psychology","Social"],
   },
   {
     id: "gen-3295",
@@ -95,12 +103,11 @@ export const C7: VocabularyWord[] = [
     slug: "coercion",
     phonetic: "/koʊˈɝː.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The practice of persuading someone to do something by using force or threats.",
+    meaningEn: "The practice of persuading someone to do something by using force or threats.",
     meaningVi: "Sự ép buộc/Sự cưỡng chế.",
     exampleEn: "Under coercion.",
     exampleVi: "Bị ép buộc.",
-    categories: ["Law", "Psychology", "Social"],
+    categories: ["Law","Psychology","Social"],
   },
   {
     id: "gen-3296",
@@ -112,7 +119,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Cùng tồn tại/Chung sống hòa bình.",
     exampleEn: "Coexist peacefully.",
     exampleVi: "Cùng chung sống hòa bình.",
-    categories: ["Social", "General", "Politics"],
+    categories: ["Social","General","Politics"],
   },
   {
     id: "gen-3297",
@@ -120,12 +127,11 @@ export const C7: VocabularyWord[] = [
     slug: "coexistence",
     phonetic: "/ˌkoʊ.ɪɡˈzɪs.təns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The state or condition of living or existing at the same time or in the same place.",
+    meaningEn: "The state or condition of living or existing at the same time or in the same place.",
     meaningVi: "Sự cùng tồn tại.",
     exampleEn: "Peaceful coexistence.",
     exampleVi: "Sự chung sống hòa bình.",
-    categories: ["Social", "Politics", "General"],
+    categories: ["Social","Politics","General"],
   },
   {
     id: "a1-14",
@@ -133,8 +139,7 @@ export const C7: VocabularyWord[] = [
     slug: "coffee",
     phonetic: "/ˈkɔː.fi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A hot drink made from the roasted and ground seeds of a tropical shrub.",
+    meaningEn: "A hot drink made from the roasted and ground seeds of a tropical shrub.",
     meaningVi: "Cà phê.",
     exampleEn: "I need a cup of coffee.",
     exampleVi: "Tôi cần một tách cà phê.",
@@ -150,7 +155,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Hòm/Két sắt/Ngân quỹ.",
     exampleEn: "Empty coffers.",
     exampleVi: "Ngân quỹ trống rỗng.",
-    categories: ["Finance", "Business", "General"],
+    categories: ["Finance","Business","General"],
   },
   {
     id: "gen-3300",
@@ -158,12 +163,11 @@ export const C7: VocabularyWord[] = [
     slug: "coffin",
     phonetic: "/ˈkɑː.fɪn/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A long, narrow box, typically of wood, in which a dead body is buried or cremated.",
+    meaningEn: "A long, narrow box, typically of wood, in which a dead body is buried or cremated.",
     meaningVi: "Quan tài.",
     exampleEn: "Pine coffin.",
     exampleVi: "Quan tài gỗ thông.",
-    categories: ["Social", "Daily"],
+    categories: ["Social","Daily"],
   },
   {
     id: "gen-3301",
@@ -171,12 +175,11 @@ export const C7: VocabularyWord[] = [
     slug: "cog",
     phonetic: "/kɑːɡ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A wheel or bar with a series of projections on its edge, which transfers motion by engaging with projections on another wheel or bar.",
+    meaningEn: "A wheel or bar with a series of projections on its edge, which transfers motion by engaging with projections on another wheel or bar.",
     meaningVi: "Răng (bánh xe)/Phần nhỏ trong tổ chức.",
     exampleEn: "Cog in the machine.",
     exampleVi: "Một mắt xích nhỏ trong bộ máy.",
-    categories: ["Technology", "Engineering", "General"],
+    categories: ["Technology","Engineering","General"],
   },
   {
     id: "gen-3302",
@@ -188,7 +191,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Vững chắc/Có sức thuyết phục.",
     exampleEn: "Cogent argument.",
     exampleVi: "Lập luận thuyết phục.",
-    categories: ["Education", "Psychology", "Literature"],
+    categories: ["Education","Psychology","Literature"],
   },
   {
     id: "c2-187",
@@ -196,12 +199,11 @@ export const C7: VocabularyWord[] = [
     slug: "cognition",
     phonetic: "/kɑːɡˈnɪʃ.ən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The mental action or process of acquiring knowledge and understanding through thought, experience, and the senses.",
+    meaningEn: "The mental action or process of acquiring knowledge and understanding through thought, experience, and the senses.",
     meaningVi: "Sự nhận thức.",
     exampleEn: "Cognition and learning.",
     exampleVi: "Nhận thức và học tập.",
-    categories: ["Academic", "Psychology"],
+    categories: ["Academic","Psychology"],
   },
   {
     id: "c1-5",
@@ -209,8 +211,7 @@ export const C7: VocabularyWord[] = [
     slug: "cognitive",
     phonetic: "/ˈkɑːɡ.nə.tɪv/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to cognition (the mental action or process of acquiring knowledge).",
+    meaningEn: "Relating to cognition (the mental action or process of acquiring knowledge).",
     meaningVi: "Liên quan đến nhận thức.",
     exampleEn: "Cognitive development is important in childhood.",
     exampleVi: "Phát triển nhận thức rất quan trọng trong thời thơ ấu.",
@@ -238,7 +239,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Dính vào nhau/Mạch lạc.",
     exampleEn: "Ideas don't cohere.",
     exampleVi: "Các ý tưởng không mạch lạc.",
-    categories: ["General", "Literature", "Science"],
+    categories: ["General","Literature","Science"],
   },
   {
     id: "gen-3306",
@@ -250,7 +251,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Sự mạch lạc/Tính chặt chẽ.",
     exampleEn: "Lack of coherence.",
     exampleVi: "Thiếu tính mạch lạc.",
-    categories: ["Literature", "Psychology", "General"],
+    categories: ["Literature","Psychology","General"],
   },
   {
     id: "c1-17",
@@ -274,7 +275,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Lực liên kết/Sự gắn kết.",
     exampleEn: "Social cohesion.",
     exampleVi: "Sự gắn kết xã hội.",
-    categories: ["Science", "Physics", "Social"],
+    categories: ["Science","Physics","Social"],
   },
   {
     id: "gen-3309",
@@ -286,7 +287,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Có tính gắn kết.",
     exampleEn: "Cohesive group.",
     exampleVi: "Nhóm gắn kết.",
-    categories: ["Social", "Science", "Psychology"],
+    categories: ["Social","Science","Psychology"],
   },
   {
     id: "gen-3310",
@@ -298,7 +299,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Nhóm/Đội quân/Đồng chí/Bạn bè.",
     exampleEn: "Research cohort.",
     exampleVi: "Nhóm nghiên cứu.",
-    categories: ["People", "Social", "Science"],
+    categories: ["People","Social","Science"],
   },
   {
     id: "gen-3311",
@@ -310,7 +311,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Cuộn/Vòng xoắn/Cuộn dây điện.",
     exampleEn: "Copper coil.",
     exampleVi: "Cuộn dây đồng.",
-    categories: ["Technology", "Engineering", "General"],
+    categories: ["Technology","Engineering","General"],
   },
   {
     id: "gen-3312",
@@ -318,12 +319,11 @@ export const C7: VocabularyWord[] = [
     slug: "coin",
     phonetic: "/kɔɪn/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A flat, typically round piece of metal with an official stamp, used as money.",
+    meaningEn: "A flat, typically round piece of metal with an official stamp, used as money.",
     meaningVi: "Đồng tiền/Đúc tiền/Tạo ra (từ mới).",
     exampleEn: "Gold coin.",
     exampleVi: "Đồng tiền vàng.",
-    categories: ["Finance", "Daily", "General"],
+    categories: ["Finance","Daily","General"],
   },
   {
     id: "gen-3313",
@@ -335,7 +335,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Tiền đúc/Hệ thống tiền tệ/Sự tạo từ mới.",
     exampleEn: "Recent coinage.",
     exampleVi: "Từ mới được tạo ra gần đây.",
-    categories: ["Finance", "Literature", "General"],
+    categories: ["Finance","Literature","General"],
   },
   {
     id: "c1-92",
@@ -355,12 +355,11 @@ export const C7: VocabularyWord[] = [
     slug: "coincidence",
     phonetic: "/koʊˈɪn.sɪ.dəns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A remarkable concurrence of events or circumstances without apparent causal connection.",
+    meaningEn: "A remarkable concurrence of events or circumstances without apparent causal connection.",
     meaningVi: "Sự trùng hợp ngẫu nhiên.",
     exampleEn: "Mere coincidence.",
     exampleVi: "Chỉ là trùng hợp ngẫu nhiên.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-3316",
@@ -372,7 +371,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Trùng khớp/Xảy ra đồng thời.",
     exampleEn: "Coincident with the rise of.",
     exampleVi: "Đồng thời với sự gia tăng của.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "gen-3317",
@@ -384,7 +383,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Ngẫu nhiên/Trùng hợp.",
     exampleEn: "Purposely coincidental.",
     exampleVi: "Trùng hợp một cách có chủ đích.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-3318",
@@ -404,12 +403,11 @@ export const C7: VocabularyWord[] = [
     slug: "coke",
     phonetic: "/koʊk/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A carbonaceous residue of the destructive distillation of coal.",
+    meaningEn: "A carbonaceous residue of the destructive distillation of coal.",
     meaningVi: "Than cốc/Nước ngọt Coca/Ma túy (từ lóng).",
     exampleEn: "Drink a coke.",
     exampleVi: "Uống một cốc coca.",
-    categories: ["Food & Drink", "Engineering", "General"],
+    categories: ["Food & Drink","Engineering","General"],
   },
   {
     id: "a1-33",
@@ -433,7 +431,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Một cách lạnh lùng.",
     exampleEn: "Stare coldly.",
     exampleVi: "Nhìn chằm chằm một cách lạnh lùng.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-3322",
@@ -445,7 +443,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Sự lạnh lẽo/Sự thờ ơ.",
     exampleEn: "Feeling of coldness.",
     exampleVi: "Cảm giác lạnh lẽo.",
-    categories: ["Weather", "Psychology"],
+    categories: ["Weather","Psychology"],
   },
   {
     id: "gen-3323",
@@ -453,12 +451,11 @@ export const C7: VocabularyWord[] = [
     slug: "collaborate",
     phonetic: "/kəˈlæb.ə.reɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Work jointly on an activity, especially to produce or create something.",
+    meaningEn: "Work jointly on an activity, especially to produce or create something.",
     meaningVi: "Cộng tác/Hợp tác.",
     exampleEn: "Collaborate on a project.",
     exampleVi: "Hợp tác trong một dự án.",
-    categories: ["Business", "Social", "Business"],
+    categories: ["Business","Social","Business"],
   },
   {
     id: "c1-18",
@@ -466,8 +463,7 @@ export const C7: VocabularyWord[] = [
     slug: "collaboration",
     phonetic: "/kəˌlæb.əˈreɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action of working with someone to produce or create something.",
+    meaningEn: "The action of working with someone to produce or create something.",
     meaningVi: "Sự hợp tác.",
     exampleEn: "Success requires collaboration.",
     exampleVi: "Thành công đòi hỏi sự hợp tác.",
@@ -483,7 +479,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Có tính cộng tác.",
     exampleEn: "Collaborative effort.",
     exampleVi: "Nỗ lực hợp tác.",
-    categories: ["Business", "Social", "Business"],
+    categories: ["Business","Social","Business"],
   },
   {
     id: "gen-3326",
@@ -491,12 +487,11 @@ export const C7: VocabularyWord[] = [
     slug: "collaborator",
     phonetic: "/kəˈlæb.ə.reɪ.t̬ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who works jointly on an activity or project; an associate.",
+    meaningEn: "A person who works jointly on an activity or project; an associate.",
     meaningVi: "Người cộng tác/Kẻ phản quốc (làm cho địch).",
     exampleEn: "Willing collaborator.",
     exampleVi: "Người cộng tác sẵn lòng.",
-    categories: ["People", "Business", "Politics"],
+    categories: ["People","Business","Politics"],
   },
   {
     id: "gen-3327",
@@ -504,12 +499,11 @@ export const C7: VocabularyWord[] = [
     slug: "collage",
     phonetic: "/kəˈlɑːʒ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A piece of art made by sticking various different materials such as photographs and pieces of paper or fabric onto a backing.",
+    meaningEn: "A piece of art made by sticking various different materials such as photographs and pieces of paper or fabric onto a backing.",
     meaningVi: "Nghệ thuật cắt dán/Sự pha tạp.",
     exampleEn: "Photo collage.",
     exampleVi: "Cắt dán ảnh.",
-    categories: ["Art", "Media", "General"],
+    categories: ["Art","Media","General"],
   },
   {
     id: "c1-93",
@@ -529,12 +523,11 @@ export const C7: VocabularyWord[] = [
     slug: "collapsible",
     phonetic: "/kəˈlæp.sə.bəl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of an object) able to be folded or taken apart for easy storage or transport.",
+    meaningEn: "(of an object) able to be folded or taken apart for easy storage or transport.",
     meaningVi: "Có thể gập lại được.",
     exampleEn: "Collapsible chair.",
     exampleVi: "Ghế xếp.",
-    categories: ["General", "Architecture", "Engineering"],
+    categories: ["General","Architecture","Engineering"],
   },
   {
     id: "gen-3330",
@@ -542,12 +535,11 @@ export const C7: VocabularyWord[] = [
     slug: "collar",
     phonetic: "/ˈkɑː.lɚ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A band of material around the neck of a shirt, dress, coat, or jacket, either upright or turned over.",
+    meaningEn: "A band of material around the neck of a shirt, dress, coat, or jacket, either upright or turned over.",
     meaningVi: "Cổ áo/Vòng cổ (chó)/Bắt giữ (từ lóng).",
     exampleEn: "Dog collar.",
     exampleVi: "Vòng cổ chó.",
-    categories: ["Fashion", "Daily", "General"],
+    categories: ["Fashion","Daily","General"],
   },
   {
     id: "gen-3331",
@@ -555,12 +547,11 @@ export const C7: VocabularyWord[] = [
     slug: "collate",
     phonetic: "/kəˈleɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Collect and combine (texts, information, or sets of figures) in proper order.",
+    meaningEn: "Collect and combine (texts, information, or sets of figures) in proper order.",
     meaningVi: "Đối chiếu/Sắp xếp thứ tự.",
     exampleEn: "Collate data.",
     exampleVi: "Đối chiếu dữ liệu.",
-    categories: ["General", "Education", "Office"],
+    categories: ["General","Education","Office"],
   },
   {
     id: "gen-3332",
@@ -568,12 +559,11 @@ export const C7: VocabularyWord[] = [
     slug: "collateral",
     phonetic: "/kəˈlæt̬.ɚ.əl/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "Something pledged as security for repayment of a loan, to be forfeited in the event of a default.",
+    meaningEn: "Something pledged as security for repayment of a loan, to be forfeited in the event of a default.",
     meaningVi: "Tài sản thế chấp/Bên cạnh/Gián tiếp.",
     exampleEn: "Collateral damage.",
     exampleVi: "Thiệt hại ngoài ý muốn/Thiệt hại phụ.",
-    categories: ["Finance", "Business", "Law", "Politics"],
+    categories: ["Finance","Business","Law","Politics"],
   },
   {
     id: "c1-94",
@@ -609,7 +599,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Bình tĩnh/Điềm tĩnh.",
     exampleEn: "Calm and collected.",
     exampleVi: "Bình tĩnh và điềm đạm.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "b1-146",
@@ -633,7 +623,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Tập thể/Chung.",
     exampleEn: "Collective responsibility.",
     exampleVi: "Trách nhiệm tập thể.",
-    categories: ["Social", "Politics", "General"],
+    categories: ["Social","Politics","General"],
   },
   {
     id: "gen-3338",
@@ -645,7 +635,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Một cách tập thể.",
     exampleEn: "Act collectively.",
     exampleVi: "Hành động tập thể.",
-    categories: ["Social", "General"],
+    categories: ["Social","General"],
   },
   {
     id: "gen-3339",
@@ -653,12 +643,11 @@ export const C7: VocabularyWord[] = [
     slug: "collector",
     phonetic: "/kəˈlek.tɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who collects things of a specified type, professionally or as a hobby.",
+    meaningEn: "A person who collects things of a specified type, professionally or as a hobby.",
     meaningVi: "Người sưu tầm/Người thu tiền.",
     exampleEn: "Tax collector.",
     exampleVi: "Người thu thuế.",
-    categories: ["People", "General", "Finance"],
+    categories: ["People","General","Finance"],
   },
   {
     id: "gen-3340",
@@ -666,12 +655,11 @@ export const C7: VocabularyWord[] = [
     slug: "college",
     phonetic: "/ˈkɑː.lɪdʒ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An educational institution or establishment, in particular one providing higher education or specialized training.",
+    meaningEn: "An educational institution or establishment, in particular one providing higher education or specialized training.",
     meaningVi: "Trường đại học/Trường cao đẳng.",
     exampleEn: "College degree.",
     exampleVi: "Bằng đại học.",
-    categories: ["Education", "Home", "Social"],
+    categories: ["Education","Home","Social"],
   },
   {
     id: "gen-3341",
@@ -683,7 +671,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Thuộc về đại học/cao đẳng.",
     exampleEn: "Collegiate sports.",
     exampleVi: "Thể thao đại học.",
-    categories: ["Education", "Social", "Sports"],
+    categories: ["Education","Social","Sports"],
   },
   {
     id: "gen-3342",
@@ -695,7 +683,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Va chạm/Xung đột.",
     exampleEn: "Cars collide.",
     exampleVi: "Xe hơi va chạm nhau.",
-    categories: ["General", "Travel", "Environment"],
+    categories: ["General","Travel","Environment"],
   },
   {
     id: "gen-3343",
@@ -703,12 +691,11 @@ export const C7: VocabularyWord[] = [
     slug: "collie",
     phonetic: "/ˈkɑː.li/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A sheepdog of a breed originating in Scotland, having a long pointed nose and typically long hair.",
+    meaningEn: "A sheepdog of a breed originating in Scotland, having a long pointed nose and typically long hair.",
     meaningVi: "Chó chăn cừu (giống Collie).",
     exampleEn: "Border Collie.",
     exampleVi: "Chó Border Collie.",
-    categories: ["Biology", "Environment"],
+    categories: ["Biology","Environment"],
   },
   {
     id: "gen-3344",
@@ -720,7 +707,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Thợ mỏ than/Tàu chở than.",
     exampleEn: "Life of a collier.",
     exampleVi: "Cuộc đời người thợ mỏ than.",
-    categories: ["People", "Business", "Engineering"],
+    categories: ["People","Business","Engineering"],
   },
   {
     id: "gen-3345",
@@ -728,12 +715,11 @@ export const C7: VocabularyWord[] = [
     slug: "collision",
     phonetic: "/kəˈlɪʒ.ən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An instance of one moving object or person striking violently against another.",
+    meaningEn: "An instance of one moving object or person striking violently against another.",
     meaningVi: "Sự va chạm/Sự xung đột.",
     exampleEn: "Head-on collision.",
     exampleVi: "Va chạm trực diện.",
-    categories: ["General", "Travel", "Environment"],
+    categories: ["General","Travel","Environment"],
   },
   {
     id: "gen-3346",
@@ -741,12 +727,11 @@ export const C7: VocabularyWord[] = [
     slug: "collocate",
     phonetic: "/ˈkɑː.lə.keɪt/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "(of a word) habitually juxtapose with another with a frequency greater than chance.",
+    meaningEn: "(of a word) habitually juxtapose with another with a frequency greater than chance.",
     meaningVi: "Sắp đặt cạnh nhau/Kết hợp từ.",
     exampleEn: "Words that collocate.",
     exampleVi: "Các từ thường đi kèm với nhau.",
-    categories: ["Literature", "Education"],
+    categories: ["Literature","Education"],
   },
   {
     id: "gen-3347",
@@ -754,12 +739,11 @@ export const C7: VocabularyWord[] = [
     slug: "collocation",
     phonetic: "/ˌkɑː.ləˈkeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The habitual juxtaposition of a particular word with another word or words with a frequency greater than chance.",
+    meaningEn: "The habitual juxtaposition of a particular word with another word or words with a frequency greater than chance.",
     meaningVi: "Sự kết hợp từ/Cụm từ cố định.",
     exampleEn: "Common collocations.",
     exampleVi: "Các kết hợp từ phổ biến.",
-    categories: ["Literature", "Education"],
+    categories: ["Literature","Education"],
   },
   {
     id: "gen-3348",
@@ -767,12 +751,11 @@ export const C7: VocabularyWord[] = [
     slug: "colloquial",
     phonetic: "/kəˈloʊ.kwi.əl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of language) used in ordinary or familiar conversation; not formal or literary.",
+    meaningEn: "(of language) used in ordinary or familiar conversation; not formal or literary.",
     meaningVi: "Thông tục/Khẩu ngữ.",
     exampleEn: "Colloquial English.",
     exampleVi: "Tiếng Anh bồi/Tiếng Anh giao tiếp thông tục.",
-    categories: ["Literature", "Social", "Education"],
+    categories: ["Literature","Social","Education"],
   },
   {
     id: "gen-3349",
@@ -780,12 +763,11 @@ export const C7: VocabularyWord[] = [
     slug: "colloquialism",
     phonetic: "/kəˈloʊ.kwi.ə.lɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A word or phrase that is not formal or literary, typically one used in ordinary or familiar conversation.",
+    meaningEn: "A word or phrase that is not formal or literary, typically one used in ordinary or familiar conversation.",
     meaningVi: "Lối nói thông tục/Từ ngữ bình dân.",
     exampleEn: "Use of colloquialisms.",
     exampleVi: "Sử dụng các từ ngữ thông tục.",
-    categories: ["Literature", "Social", "Education"],
+    categories: ["Literature","Social","Education"],
   },
   {
     id: "gen-3350",
@@ -797,7 +779,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Hội nghị chuyên đề/Cuộc hội đàm.",
     exampleEn: "History colloquium.",
     exampleVi: "Hội nghị chuyên đề lịch sử.",
-    categories: ["Education", "Social", "Science"],
+    categories: ["Education","Social","Science"],
   },
   {
     id: "gen-3351",
@@ -805,12 +787,11 @@ export const C7: VocabularyWord[] = [
     slug: "collude",
     phonetic: "/kəˈluːd/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Come to a secret understanding for a harmful or deceitful purpose; conspire.",
+    meaningEn: "Come to a secret understanding for a harmful or deceitful purpose; conspire.",
     meaningVi: "Câu kết/Thông đồng.",
     exampleEn: "Collude with the enemy.",
     exampleVi: "Thông đồng với kẻ địch.",
-    categories: ["Law", "Politics", "Social"],
+    categories: ["Law","Politics","Social"],
   },
   {
     id: "gen-3352",
@@ -818,12 +799,11 @@ export const C7: VocabularyWord[] = [
     slug: "collusion",
     phonetic: "/kəˈluː.ʒən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Secret or illegal cooperation or conspiracy, especially in order to cheat or deceive others.",
+    meaningEn: "Secret or illegal cooperation or conspiracy, especially in order to cheat or deceive others.",
     meaningVi: "Sự câu kết/Sự thông đồng.",
     exampleEn: "Found in collusion.",
     exampleVi: "Được phát hiện có sự thông đồng.",
-    categories: ["Law", "Politics", "Social"],
+    categories: ["Law","Politics","Social"],
   },
   {
     id: "gen-3353",
@@ -831,12 +811,11 @@ export const C7: VocabularyWord[] = [
     slug: "colon",
     phonetic: "/ˈkoʊ.lən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A punctuation mark (:) used to precede a list of items, a quotation, or an expansion or explanation; the large intestine.",
+    meaningEn: "A punctuation mark (:) used to precede a list of items, a quotation, or an expansion or explanation; the large intestine.",
     meaningVi: "Dấu hai chấm/Đại tràng.",
     exampleEn: "Colon cancer.",
     exampleVi: "Ung thư đại tràng.",
-    categories: ["Literature", "Medical", "Biology"],
+    categories: ["Literature","Medical","Biology"],
   },
   {
     id: "gen-3354",
@@ -844,12 +823,11 @@ export const C7: VocabularyWord[] = [
     slug: "colonel",
     phonetic: "/ˈkɝː.nəl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An army officer of high rank, in particular (in the US Army, Air Force, and Marine Corps) an officer above a lieutenant colonel and below a brigadier general.",
+    meaningEn: "An army officer of high rank, in particular (in the US Army, Air Force, and Marine Corps) an officer above a lieutenant colonel and below a brigadier general.",
     meaningVi: "Đại tá.",
     exampleEn: "Retired colonel.",
     exampleVi: "Đại tá đã nghỉ hưu.",
-    categories: ["People", "Politics", "Social", "Business"],
+    categories: ["People","Politics","Social","Business"],
   },
   {
     id: "gen-3355",
@@ -861,7 +839,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Thuộc địa.",
     exampleEn: "Colonial period.",
     exampleVi: "Thời kỳ thuộc địa.",
-    categories: ["History", "Politics", "Social"],
+    categories: ["History","Politics","Social"],
   },
   {
     id: "gen-3356",
@@ -869,12 +847,11 @@ export const C7: VocabularyWord[] = [
     slug: "colonialism",
     phonetic: "/kəˈloʊ.ni.ə.lɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The policy or practice of acquiring full or partial political control over another country, occupying it with settlers, and exploiting it economically.",
+    meaningEn: "The policy or practice of acquiring full or partial political control over another country, occupying it with settlers, and exploiting it economically.",
     meaningVi: "Chủ nghĩa thực dân.",
     exampleEn: "History of colonialism.",
     exampleVi: "Lịch sử chủ nghĩa thực dân.",
-    categories: ["History", "Politics", "Social"],
+    categories: ["History","Politics","Social"],
   },
   {
     id: "gen-3357",
@@ -886,7 +863,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Thực dân/Người đi khai hoang.",
     exampleEn: "Early colonists.",
     exampleVi: "Những người khai hoang đầu tiên.",
-    categories: ["People", "History", "Politics"],
+    categories: ["People","History","Politics"],
   },
   {
     id: "gen-3358",
@@ -894,12 +871,11 @@ export const C7: VocabularyWord[] = [
     slug: "colonization",
     phonetic: "/ˌkɑː.lə.nəˈzeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action or process of settling among and establishing control over the indigenous people of an area.",
+    meaningEn: "The action or process of settling among and establishing control over the indigenous people of an area.",
     meaningVi: "Sự thuộc địa hóa.",
     exampleEn: "Rapid colonization.",
     exampleVi: "Sự thuộc địa hóa nhanh chóng.",
-    categories: ["History", "Politics", "Social"],
+    categories: ["History","Politics","Social"],
   },
   {
     id: "gen-3359",
@@ -907,12 +883,11 @@ export const C7: VocabularyWord[] = [
     slug: "colonize",
     phonetic: "/ˈkɑː.lə.naɪz/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Send a group of settlers to (a place) and establish political control over it.",
+    meaningEn: "Send a group of settlers to (a place) and establish political control over it.",
     meaningVi: "Thuộc địa hóa/Khai khẩn.",
     exampleEn: "Colonize Mars.",
     exampleVi: "Khai khẩn sao Hỏa.",
-    categories: ["History", "Politics", "Science"],
+    categories: ["History","Politics","Science"],
   },
   {
     id: "gen-3360",
@@ -920,12 +895,11 @@ export const C7: VocabularyWord[] = [
     slug: "colonnade",
     phonetic: "/ˌkɑː.ləˈneɪd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A row of columns supporting a roof, an entablature, or an arcade.",
+    meaningEn: "A row of columns supporting a roof, an entablature, or an arcade.",
     meaningVi: "Hàng cột.",
     exampleEn: "Marble colonnade.",
     exampleVi: "Hàng cột bằng cẩm thạch.",
-    categories: ["Architecture", "Art", "Home"],
+    categories: ["Architecture","Art","Home"],
   },
   {
     id: "gen-3361",
@@ -933,12 +907,11 @@ export const C7: VocabularyWord[] = [
     slug: "colony",
     phonetic: "/ˈkɑː.lə.ni/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A country or area under the full or partial political control of another country; a group of people/animals living together.",
+    meaningEn: "A country or area under the full or partial political control of another country; a group of people/animals living together.",
     meaningVi: "Thuộc địa/Đàn/Bầy/Khu định cư.",
     exampleEn: "Ant colony.",
     exampleVi: "Đàn kiến.",
-    categories: ["History", "Politics", "Biology", "Social"],
+    categories: ["History","Politics","Biology","Social"],
   },
   {
     id: "gen-3362",
@@ -946,12 +919,11 @@ export const C7: VocabularyWord[] = [
     slug: "color",
     phonetic: "/ˈkʌl.ɚ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "The property possessed by an object of producing different sensations on the eye as a result of the way the object reflects or emits light.",
+    meaningEn: "The property possessed by an object of producing different sensations on the eye as a result of the way the object reflects or emits light.",
     meaningVi: "Màu sắc/Tô màu.",
     exampleEn: "Primary colors.",
     exampleVi: "Các màu cơ bản.",
-    categories: ["General", "Art"],
+    categories: ["General","Art"],
   },
   {
     id: "gen-3363",
@@ -963,7 +935,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Chất nhuộm/Phẩm màu.",
     exampleEn: "Food colorant.",
     exampleVi: "Phẩm màu thực phẩm.",
-    categories: ["General", "Food & Drink", "Science"],
+    categories: ["General","Food & Drink","Science"],
   },
   {
     id: "gen-3364",
@@ -971,12 +943,11 @@ export const C7: VocabularyWord[] = [
     slug: "coloration",
     phonetic: "/ˌkʌl.əˈreɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The appearance of something with regard to color; the arrangement of colors on an animal or plant.",
+    meaningEn: "The appearance of something with regard to color; the arrangement of colors on an animal or plant.",
     meaningVi: "Sự tô màu/Sắc diện/Màu sắc tự nhiên.",
     exampleEn: "Protective coloration.",
     exampleVi: "Màu sắc ngụy trang.",
-    categories: ["General", "Biology", "Art"],
+    categories: ["General","Biology","Art"],
   },
   {
     id: "gen-3365",
@@ -988,7 +959,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Có màu/Nhuộm màu.",
     exampleEn: "Colored pencils.",
     exampleVi: "Bút chì màu.",
-    categories: ["General", "Art"],
+    categories: ["General","Art"],
   },
   {
     id: "gen-3366",
@@ -1000,7 +971,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Đầy màu sắc/Rực rỡ.",
     exampleEn: "Colorful butterfly.",
     exampleVi: "Con bướm đầy màu sắc.",
-    categories: ["General", "Art"],
+    categories: ["General","Art"],
   },
   {
     id: "gen-3367",
@@ -1008,12 +979,11 @@ export const C7: VocabularyWord[] = [
     slug: "coloring",
     phonetic: "/ˈkʌl.ɚ.ɪŋ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The process or art of applying color to something; natural coloration.",
+    meaningEn: "The process or art of applying color to something; natural coloration.",
     meaningVi: "Sự tô màu/Sự nhuộm.",
     exampleEn: "Coloring book.",
     exampleVi: "Sách tô màu.",
-    categories: ["General", "Art"],
+    categories: ["General","Art"],
   },
   {
     id: "gen-3368",
@@ -1025,7 +995,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Không màu/Nhợt nhạt/Vô vị.",
     exampleEn: "Colorless liquid.",
     exampleVi: "Chất lỏng không màu.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "gen-3369",
@@ -1037,7 +1007,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Khổng lồ/To lớn.",
     exampleEn: "Colossal statue.",
     exampleVi: "Bức tượng khổng lồ.",
-    categories: ["General", "Architecture"],
+    categories: ["General","Architecture"],
   },
   {
     id: "gen-3370",
@@ -1049,7 +1019,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Bức tượng khổng lồ/Người khổng lồ.",
     exampleEn: "Rhodes Colossus.",
     exampleVi: "Tượng thần Mặt Trời ở Rhodes.",
-    categories: ["Art", "History", "Architecture"],
+    categories: ["Art","History","Architecture"],
   },
   {
     id: "gen-3371",
@@ -1057,12 +1027,11 @@ export const C7: VocabularyWord[] = [
     slug: "colt",
     phonetic: "/koʊlt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A young male horse, in particular an uncastrated one less than four years old.",
+    meaningEn: "A young male horse, in particular an uncastrated one less than four years old.",
     meaningVi: "Ngựa con (đực)/Người mới vào nghề.",
     exampleEn: "Young colt.",
     exampleVi: "Chú ngựa con.",
-    categories: ["Biology", "Environment"],
+    categories: ["Biology","Environment"],
   },
   {
     id: "gen-3372",
@@ -1070,12 +1039,11 @@ export const C7: VocabularyWord[] = [
     slug: "column",
     phonetic: "/ˈkɑː.ləm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An upright pillar, typically cylindrical and made of stone or concrete, supporting an entablature, arch, or other structure.",
+    meaningEn: "An upright pillar, typically cylindrical and made of stone or concrete, supporting an entablature, arch, or other structure.",
     meaningVi: "Cột/Mục (báo)/Hàng (trong bảng).",
     exampleEn: "Stone column.",
     exampleVi: "Cột đá.",
-    categories: ["Architecture", "Media", "General"],
+    categories: ["Architecture","Media","General"],
   },
   {
     id: "gen-3373",
@@ -1083,12 +1051,11 @@ export const C7: VocabularyWord[] = [
     slug: "columnist",
     phonetic: "/ˈkɑː.ləm.nɪst/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A journalist contributing a regular column or feature to a newspaper or magazine.",
+    meaningEn: "A journalist contributing a regular column or feature to a newspaper or magazine.",
     meaningVi: "Người viết mục cho báo.",
     exampleEn: "Newspaper columnist.",
     exampleVi: "Người viết chuyên mục báo.",
-    categories: ["People", "Media", "Business"],
+    categories: ["People","Media","Business"],
   },
   {
     id: "gen-3374",
@@ -1096,12 +1063,11 @@ export const C7: VocabularyWord[] = [
     slug: "coma",
     phonetic: "/ˈkoʊ.mə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A state of deep unconsciousness that lasts for a prolonged or indefinite period.",
+    meaningEn: "A state of deep unconsciousness that lasts for a prolonged or indefinite period.",
     meaningVi: "Sự hôn mê.",
     exampleEn: "Deep coma.",
     exampleVi: "Hôn mê sâu.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-3375",
@@ -1113,7 +1079,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Bị hôn mê/Lờ đờ.",
     exampleEn: "The patient is comatose.",
     exampleVi: "Bệnh nhân đang bị hôn mê.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-3376",
@@ -1121,12 +1087,11 @@ export const C7: VocabularyWord[] = [
     slug: "comb",
     phonetic: "/koʊm/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A strip of plastic, metal, or wood with a row of narrow teeth, used for untangling or arranging the hair.",
+    meaningEn: "A strip of plastic, metal, or wood with a row of narrow teeth, used for untangling or arranging the hair.",
     meaningVi: "Cái lược/Chải đầu/Lùng sục.",
     exampleEn: "Hair comb.",
     exampleVi: "Cái lược chải tóc.",
-    categories: ["Daily", "General", "Biology"],
+    categories: ["Daily","General","Biology"],
   },
   {
     id: "gen-3377",
@@ -1138,7 +1103,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Trận chiến/Đấu tranh.",
     exampleEn: "Hand-to-hand combat.",
     exampleVi: "Đấu giáp lá cà.",
-    categories: ["Politics", "Social", "Sports"],
+    categories: ["Politics","Social","Sports"],
   },
   {
     id: "gen-3378",
@@ -1150,7 +1115,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Người chiến đấu/Chiến sĩ.",
     exampleEn: "Armed combatant.",
     exampleVi: "Người chiến đấu có vũ trang.",
-    categories: ["People", "Politics", "Social"],
+    categories: ["People","Politics","Social"],
   },
   {
     id: "gen-3379",
@@ -1162,7 +1127,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Hiếu chiến/Thích tranh luận.",
     exampleEn: "Combative personality.",
     exampleVi: "Tính cách hiếu chiến.",
-    categories: ["Psychology", "Politics"],
+    categories: ["Psychology","Politics"],
   },
   {
     id: "b1-147",
@@ -1170,8 +1135,7 @@ export const C7: VocabularyWord[] = [
     slug: "combination",
     phonetic: "/ˌkɒm.bɪˈneɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A joining or merging of different parts or qualities in which the component elements are individually distinct.",
+    meaningEn: "A joining or merging of different parts or qualities in which the component elements are individually distinct.",
     meaningVi: "Sự kết hợp.",
     exampleEn: "A unique combination.",
     exampleVi: "Một sự kết hợp độc đáo.",
@@ -1211,7 +1175,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Dễ cháy/Dễ bị kích động.",
     exampleEn: "Combustible material.",
     exampleVi: "Vật liệu dễ cháy.",
-    categories: ["Science", "General", "Chemistry"],
+    categories: ["Science","General","Chemistry"],
   },
   {
     id: "gen-3384",
@@ -1223,7 +1187,7 @@ export const C7: VocabularyWord[] = [
     meaningVi: "Sự cháy/Sự đốt cháy.",
     exampleEn: "Internal combustion engine.",
     exampleVi: "Động cơ đốt trong.",
-    categories: ["Science", "Physics", "Engineering"],
+    categories: ["Science","Physics","Engineering"],
   },
   {
     id: "gen-3385",
@@ -1231,23 +1195,10 @@ export const C7: VocabularyWord[] = [
     slug: "come",
     phonetic: "/kʌm/",
     partOfSpeech: "verb/interjection",
-    meaningEn:
-      "Move or be brought to or into a specified place, situation, or state.",
+    meaningEn: "Move or be brought to or into a specified place, situation, or state.",
     meaningVi: "Đến/Tới/Xảy ra.",
     exampleEn: "Come and see.",
     exampleVi: "Đến mà xem.",
     categories: ["General"],
-  },
-  {
-    id: "pv-59",
-    word: "Come across",
-    slug: "come-across",
-    phonetic: "/kʌm əˈkrɒs/",
-    partOfSpeech: "phrasal verb",
-    meaningEn: "Find or meet by chance.",
-    meaningVi: "Tình cờ gặp, tình cờ thấy.",
-    exampleEn: "I came across an old friend today.",
-    exampleVi: "Hôm nay tôi tình cờ gặp một người bạn cũ.",
-    categories: ["Phrasal Verb"],
-  },
+  }
 ];

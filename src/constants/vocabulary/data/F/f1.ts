@@ -7,8 +7,7 @@ export const F1: VocabularyWord[] = [
     slug: "fable",
     phonetic: "/ˈfeɪ.bəl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A short story, typically with animals as characters, conveying a moral.",
+    meaningEn: "A short story, typically with animals as characters, conveying a moral.",
     meaningVi: "Truyện ngụ ngôn.",
     exampleEn: "Aesop's fables.",
     exampleVi: "Truyện ngụ ngôn Aesop.",
@@ -32,12 +31,11 @@ export const F1: VocabularyWord[] = [
     slug: "fabric",
     phonetic: "/ˈfæb.rɪk/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Cloth or other material produced by weaving or knitting fibers.",
+    meaningEn: "Cloth or other material produced by weaving or knitting fibers.",
     meaningVi: "Vải.",
     exampleEn: "Cotton fabric.",
     exampleVi: "Vải bông.",
-    categories: ["General", "Fashion"],
+    categories: ["General","Fashion"],
   },
   {
     id: "gen-7621",
@@ -45,8 +43,7 @@ export const F1: VocabularyWord[] = [
     slug: "fabricate",
     phonetic: "/ˈfæb.rɪ.keɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Invent or concoct (something), typically with deceitful intent.",
+    meaningEn: "Invent or concoct (something), typically with deceitful intent.",
     meaningVi: "Bịa đặt/Chế tạo.",
     exampleEn: "Fabricate a story.",
     exampleVi: "Bịa đặt một câu chuyện.",
@@ -62,7 +59,7 @@ export const F1: VocabularyWord[] = [
     meaningVi: "Sự bịa đặt/Sự chế tạo.",
     exampleEn: "Metal fabrication.",
     exampleVi: "Gia công kim loại.",
-    categories: ["Industry", "General"],
+    categories: ["Industry","General"],
   },
   {
     id: "gen-7623",
@@ -82,12 +79,11 @@ export const F1: VocabularyWord[] = [
     slug: "facade",
     phonetic: "/fəˈsɑːd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The face of a building, especially the principal front that looks onto a street or open space.",
+    meaningEn: "The face of a building, especially the principal front that looks onto a street or open space.",
     meaningVi: "Mặt tiền/Vẻ bề ngoài.",
     exampleEn: "Building facade.",
     exampleVi: "Mặt tiền tòa nhà.",
-    categories: ["Architecture", "General"],
+    categories: ["Architecture","General"],
   },
   {
     id: "a1-115",
@@ -111,7 +107,7 @@ export const F1: VocabularyWord[] = [
     meaningVi: "Trực diện/Gặp mặt trực tiếp.",
     exampleEn: "Face-to-face meeting.",
     exampleVi: "Cuộc họp trực tiếp.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "gen-7627",
@@ -131,12 +127,11 @@ export const F1: VocabularyWord[] = [
     slug: "facelift",
     phonetic: "/ˈfeɪs.lɪft/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A surgical procedure to remove wrinkles and tighten the skin of the face.",
+    meaningEn: "A surgical procedure to remove wrinkles and tighten the skin of the face.",
     meaningVi: "Phẫu thuật căng da mặt/Sự tân trang.",
     exampleEn: "Get a facelift.",
     exampleVi: "Đi căng da mặt.",
-    categories: ["Medical", "General"],
+    categories: ["Medical","General"],
   },
   {
     id: "gen-7629",
@@ -172,7 +167,7 @@ export const F1: VocabularyWord[] = [
     meaningVi: "Thuộc về khuôn mặt/Chăm sóc da mặt.",
     exampleEn: "Facial expression.",
     exampleVi: "Biểu cảm khuôn mặt.",
-    categories: ["Medical", "Beauty"],
+    categories: ["Medical","Beauty"],
   },
   {
     id: "gen-7632",
@@ -184,7 +179,7 @@ export const F1: VocabularyWord[] = [
     meaningVi: "Tạo điều kiện/Làm cho dễ dàng.",
     exampleEn: "Facilitate learning.",
     exampleVi: "Tạo điều kiện cho việc học.",
-    categories: ["General", "Education"],
+    categories: ["General","Education"],
   },
   {
     id: "gen-7633",
@@ -196,7 +191,7 @@ export const F1: VocabularyWord[] = [
     meaningVi: "Sự tạo điều kiện/Sự thuận lợi.",
     exampleEn: "Facilitation of trade.",
     exampleVi: "Sự thuận lợi hóa thương mại.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "gen-7634",
@@ -204,12 +199,11 @@ export const F1: VocabularyWord[] = [
     slug: "facilitator",
     phonetic: "/fəˈsɪl.ə.teɪ.t̬ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person or thing that attempts to make an action or process easier.",
+    meaningEn: "A person or thing that attempts to make an action or process easier.",
     meaningVi: "Người điều phối/Người hỗ trợ.",
     exampleEn: "Group facilitator.",
     exampleVi: "Người điều phối nhóm.",
-    categories: ["General", "Education"],
+    categories: ["General","Education"],
   },
   {
     id: "gen-442",
@@ -229,12 +223,11 @@ export const F1: VocabularyWord[] = [
     slug: "facing",
     phonetic: "/ˈfeɪ.sɪŋ/",
     partOfSpeech: "noun/preposition",
-    meaningEn:
-      "A layer of material covering part of a garment or piece of furniture.",
+    meaningEn: "A layer of material covering part of a garment or piece of furniture.",
     meaningVi: "Lớp phủ/Lớp lót/Đối diện.",
     exampleEn: "Stone facing.",
     exampleVi: "Lớp ốp đá.",
-    categories: ["Architecture", "Fashion"],
+    categories: ["Architecture","Fashion"],
   },
   {
     id: "gen-7637",
@@ -246,7 +239,7 @@ export const F1: VocabularyWord[] = [
     meaningVi: "Bản sao y hệt (fax).",
     exampleEn: "A facsimile of the manuscript.",
     exampleVi: "Một bản sao của bản thảo.",
-    categories: ["Technology", "Business"],
+    categories: ["Technology","Business"],
   },
   {
     id: "gen-443",
@@ -266,8 +259,7 @@ export const F1: VocabularyWord[] = [
     slug: "faction",
     phonetic: "/ˈfæk.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A small organized dissenting group within a larger one, especially in politics.",
+    meaningEn: "A small organized dissenting group within a larger one, especially in politics.",
     meaningVi: "Bè phái/Phe cánh.",
     exampleEn: "Warring factions.",
     exampleVi: "Các phe phái tham chiến.",
@@ -291,8 +283,7 @@ export const F1: VocabularyWord[] = [
     slug: "factor",
     phonetic: "/ˈfæk.tər/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A circumstance, fact, or influence that contributes to a result or outcome.",
+    meaningEn: "A circumstance, fact, or influence that contributes to a result or outcome.",
     meaningVi: "Yếu tố.",
     exampleEn: "Weather is a key factor in our decision.",
     exampleVi: "Thời tiết là một yếu tố chính trong quyết định của chúng tôi.",
@@ -320,7 +311,7 @@ export const F1: VocabularyWord[] = [
     meaningVi: "Nhà máy.",
     exampleEn: "Work in a factory.",
     exampleVi: "Làm việc trong nhà máy.",
-    categories: ["Business", "Business"],
+    categories: ["Business","Business"],
   },
   {
     id: "gen-7644",
@@ -340,8 +331,7 @@ export const F1: VocabularyWord[] = [
     slug: "factual",
     phonetic: "/ˈfæk.tʃu.əl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Concerned with what is actually the case rather than interpretations of or reactions to it.",
+    meaningEn: "Concerned with what is actually the case rather than interpretations of or reactions to it.",
     meaningVi: "Thuộc về thực tế/Dựa trên sự thật.",
     exampleEn: "Factual error.",
     exampleVi: "Lỗi thực tế.",
@@ -357,7 +347,7 @@ export const F1: VocabularyWord[] = [
     meaningVi: "Khả năng/Khoa (đại học).",
     exampleEn: "Faculty of sight.",
     exampleVi: "Khả năng nhìn.",
-    categories: ["Education", "Medical"],
+    categories: ["Education","Medical"],
   },
   {
     id: "gen-7647",
@@ -365,8 +355,7 @@ export const F1: VocabularyWord[] = [
     slug: "fad",
     phonetic: "/fæd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An intense and widely shared enthusiasm for something, especially one that is short-lived and without basis in the object's qualities.",
+    meaningEn: "An intense and widely shared enthusiasm for something, especially one that is short-lived and without basis in the object's qualities.",
     meaningVi: "Mốt nhất thời.",
     exampleEn: "Latest fad.",
     exampleVi: "Mốt mới nhất.",
@@ -430,7 +419,7 @@ export const F1: VocabularyWord[] = [
     meaningVi: "Mờ nhạt/Ngất xỉu.",
     exampleEn: "Faint smell.",
     exampleVi: "Mùi mờ nhạt.",
-    categories: ["General", "Medical"],
+    categories: ["General","Medical"],
   },
   {
     id: "gen-7654",
@@ -462,8 +451,7 @@ export const F1: VocabularyWord[] = [
     slug: "fairness",
     phonetic: "/ˈfer.nəs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Impartial and just treatment or behavior without favoritism or discrimination.",
+    meaningEn: "Impartial and just treatment or behavior without favoritism or discrimination.",
     meaningVi: "Sự công bằng.",
     exampleEn: "Sense of fairness.",
     exampleVi: "Ý thức về sự công bằng.",
@@ -635,7 +623,7 @@ export const F1: VocabularyWord[] = [
     meaningVi: "Sai lầm/Ngụy biện.",
     exampleEn: "Fallacious argument.",
     exampleVi: "Lập luận ngụy biện.",
-    categories: ["General", "Philosophy"],
+    categories: ["General","Philosophy"],
   },
   {
     id: "gen-7667",
@@ -647,7 +635,7 @@ export const F1: VocabularyWord[] = [
     meaningVi: "Sự ngụy biện/Sự sai lầm.",
     exampleEn: "Common fallacy.",
     exampleVi: "Sự sai lầm phổ biến.",
-    categories: ["General", "Philosophy"],
+    categories: ["General","Philosophy"],
   },
   {
     id: "gen-7668",
@@ -679,12 +667,11 @@ export const F1: VocabularyWord[] = [
     slug: "fallout",
     phonetic: "/ˈfɑːl.aʊt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Radioactive particles that are carried into the atmosphere after a nuclear explosion.",
+    meaningEn: "Radioactive particles that are carried into the atmosphere after a nuclear explosion.",
     meaningVi: "Bụi phóng xạ/Hậu quả.",
     exampleEn: "Nuclear fallout.",
     exampleVi: "Bụi phóng xạ hạt nhân.",
-    categories: ["Science", "General"],
+    categories: ["Science","General"],
   },
   {
     id: "gen-7671",
@@ -692,8 +679,7 @@ export const F1: VocabularyWord[] = [
     slug: "fallow",
     phonetic: "/ˈfæl.oʊ/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of farmland) plowed and harrowed but left unsown for a period.",
+    meaningEn: "(of farmland) plowed and harrowed but left unsown for a period.",
     meaningVi: "Bỏ hoang (đất).",
     exampleEn: "Fallow fields.",
     exampleVi: "Cánh đồng bỏ hoang.",
@@ -724,18 +710,6 @@ export const F1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-7674",
-    word: "Falsify",
-    slug: "falsify",
-    phonetic: "/ˈfɑːl.sə.faɪ/",
-    partOfSpeech: "verb",
-    meaningEn: "Alter (information or evidence) so as to mislead.",
-    meaningVi: "Làm giả/Xuyên tạc.",
-    exampleEn: "Falsify records.",
-    exampleVi: "Làm giả hồ sơ.",
-    categories: ["General", "Law"],
-  },
-  {
     id: "gen-451",
     word: "Falsification",
     slug: "falsification",
@@ -745,7 +719,19 @@ export const F1: VocabularyWord[] = [
     meaningVi: "Sự làm giả/Sự xuyên tạc.",
     exampleEn: "Falsification of documents.",
     exampleVi: "Sự làm giả tài liệu.",
-    categories: ["General", "Law"],
+    categories: ["General","Law"],
+  },
+  {
+    id: "gen-7674",
+    word: "Falsify",
+    slug: "falsify",
+    phonetic: "/ˈfɑːl.sə.faɪ/",
+    partOfSpeech: "verb",
+    meaningEn: "Alter (information or evidence) so as to mislead.",
+    meaningVi: "Làm giả/Xuyên tạc.",
+    exampleEn: "Falsify records.",
+    exampleVi: "Làm giả hồ sơ.",
+    categories: ["General","Law"],
   },
   {
     id: "gen-7675",
@@ -817,7 +803,7 @@ export const F1: VocabularyWord[] = [
     meaningVi: "Làm cho quen/Phổ biến.",
     exampleEn: "Familiarize yourself with the rules.",
     exampleVi: "Làm quen với các quy tắc.",
-    categories: ["General", "Education"],
+    categories: ["General","Education"],
   },
   {
     id: "a1-5",
@@ -841,7 +827,7 @@ export const F1: VocabularyWord[] = [
     meaningVi: "Nạn đói.",
     exampleEn: "Widespread famine.",
     exampleVi: "Nạn đói lan rộng.",
-    categories: ["Social", "History"],
+    categories: ["Social","History"],
   },
   {
     id: "gen-7683",
@@ -853,7 +839,7 @@ export const F1: VocabularyWord[] = [
     meaningVi: "Đói cồn cào.",
     exampleEn: "I'm famished.",
     exampleVi: "Tôi đói cồn cào.",
-    categories: ["General", "Food & Drink"],
+    categories: ["General","Food & Drink"],
   },
   {
     id: "gen-453",
@@ -889,7 +875,7 @@ export const F1: VocabularyWord[] = [
     meaningVi: "Người cuồng tín.",
     exampleEn: "Religious fanatic.",
     exampleVi: "Người cuồng tín tôn giáo.",
-    categories: ["General", "Religion"],
+    categories: ["General","Religion"],
   },
   {
     id: "gen-7687",
@@ -913,7 +899,7 @@ export const F1: VocabularyWord[] = [
     meaningVi: "Sự cuồng tín.",
     exampleEn: "Political fanaticism.",
     exampleVi: "Sự cuồng tín chính trị.",
-    categories: ["General", "Politics"],
+    categories: ["General","Politics"],
   },
   {
     id: "gen-7689",
@@ -933,12 +919,11 @@ export const F1: VocabularyWord[] = [
     slug: "fancy",
     phonetic: "/ˈfæn.si/",
     partOfSpeech: "adjective/verb",
-    meaningEn:
-      "Elaborate in structure or decoration; feel a desire or liking for.",
+    meaningEn: "Elaborate in structure or decoration; feel a desire or liking for.",
     meaningVi: "Sang trọng/Thích.",
     exampleEn: "Fancy dress.",
     exampleVi: "Trang phục hóa trang sang trọng.",
-    categories: ["General", "Fashion"],
+    categories: ["General","Fashion"],
   },
   {
     id: "gen-7691",
@@ -946,12 +931,11 @@ export const F1: VocabularyWord[] = [
     slug: "fanfare",
     phonetic: "/ˈfæn.fer/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A short ceremonial tune or flourish played on brass instruments.",
+    meaningEn: "A short ceremonial tune or flourish played on brass instruments.",
     meaningVi: "Tiếng kèn chào mừng/Sự phô trương.",
     exampleEn: "With great fanfare.",
     exampleVi: "Với sự phô trương lớn.",
-    categories: ["Music", "General"],
+    categories: ["Music","General"],
   },
   {
     id: "gen-7692",
@@ -959,8 +943,7 @@ export const F1: VocabularyWord[] = [
     slug: "fang",
     phonetic: "/fæŋ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A large sharp tooth, especially a canine tooth of a dog or wolf.",
+    meaningEn: "A large sharp tooth, especially a canine tooth of a dog or wolf.",
     meaningVi: "Răng nanh.",
     exampleEn: "Wolf fangs.",
     exampleVi: "Răng nanh sói.",
@@ -984,12 +967,11 @@ export const F1: VocabularyWord[] = [
     slug: "fantasy",
     phonetic: "/ˈfæn.tə.si/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The faculty or activity of imagining things, especially things that are impossible or improbable.",
+    meaningEn: "The faculty or activity of imagining things, especially things that are impossible or improbable.",
     meaningVi: "Sự tưởng tượng/Ảo tưởng.",
     exampleEn: "Live in a fantasy world.",
     exampleVi: "Sống trong thế giới ảo tưởng.",
-    categories: ["General", "Literature"],
+    categories: ["General","Literature"],
   },
   {
     id: "gen-455",
@@ -1025,7 +1007,7 @@ export const F1: VocabularyWord[] = [
     meaningVi: "Kịch hề/Trò hề.",
     exampleEn: "Turn into a farce.",
     exampleVi: "Biến thành trò hề.",
-    categories: ["Art", "Literature"],
+    categories: ["Art","Literature"],
   },
   {
     id: "gen-7698",
@@ -1037,7 +1019,7 @@ export const F1: VocabularyWord[] = [
     meaningVi: "Giá vé/Thức ăn.",
     exampleEn: "Bus fare.",
     exampleVi: "Giá vé xe buýt.",
-    categories: ["Travel", "Food & Drink"],
+    categories: ["Travel","Food & Drink"],
   },
   {
     id: "gen-7699",
@@ -1081,12 +1063,11 @@ export const F1: VocabularyWord[] = [
     slug: "farmhouse",
     phonetic: "/ˈfɑːrm.haʊs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A house attached to a farm, especially the main house in which the farmer lives.",
+    meaningEn: "A house attached to a farm, especially the main house in which the farmer lives.",
     meaningVi: "Nhà ở nông trại.",
     exampleEn: "Old farmhouse.",
     exampleVi: "Ngôi nhà nông trại cũ.",
-    categories: ["Home", "Agriculture"],
+    categories: ["Home","Agriculture"],
   },
   {
     id: "gen-7702",
@@ -1094,8 +1075,7 @@ export const F1: VocabularyWord[] = [
     slug: "farming",
     phonetic: "/ˈfɑːr.mɪŋ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The activity or business of growing crops and raising livestock.",
+    meaningEn: "The activity or business of growing crops and raising livestock.",
     meaningVi: "Nông nghiệp/Canh tác.",
     exampleEn: "Organic farming.",
     exampleVi: "Canh tác hữu cơ.",
@@ -1119,8 +1099,7 @@ export const F1: VocabularyWord[] = [
     slug: "farther",
     phonetic: "/ˈfɑːr.ðɚ/",
     partOfSpeech: "adverb/adjective",
-    meaningEn:
-      "At, to, or by a great distance (used to indicate physical distance).",
+    meaningEn: "At, to, or by a great distance (used to indicate physical distance).",
     meaningVi: "Xa hơn.",
     exampleEn: "Walk farther.",
     exampleVi: "Đi bộ xa hơn.",
@@ -1168,8 +1147,7 @@ export const F1: VocabularyWord[] = [
     slug: "fascination",
     phonetic: "/ˌfæs.ənˈeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The power to fascinate someone; the quality of being fascinated.",
+    meaningEn: "The power to fascinate someone; the quality of being fascinated.",
     meaningVi: "Sự quyến rũ/Sự mê hoặc.",
     exampleEn: "Held in fascination.",
     exampleVi: "Bị mê hoặc.",
@@ -1181,12 +1159,11 @@ export const F1: VocabularyWord[] = [
     slug: "fascism",
     phonetic: "/ˈfæʃ.ɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An authoritarian and nationalistic right-wing system of government and social organization.",
+    meaningEn: "An authoritarian and nationalistic right-wing system of government and social organization.",
     meaningVi: "Chủ nghĩa phát xít.",
     exampleEn: "Rise of fascism.",
     exampleVi: "Sự trỗi dậy của chủ nghĩa phát xít.",
-    categories: ["Politics", "History"],
+    categories: ["Politics","History"],
   },
   {
     id: "gen-7711",
@@ -1194,12 +1171,11 @@ export const F1: VocabularyWord[] = [
     slug: "fascist",
     phonetic: "/ˈfæʃ.ɪst/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A follower of a political philosophy characterized by authoritarian views and a strong central government.",
+    meaningEn: "A follower of a political philosophy characterized by authoritarian views and a strong central government.",
     meaningVi: "Người theo chủ nghĩa phát xít.",
     exampleEn: "Fascist regime.",
     exampleVi: "Chế độ phát xít.",
-    categories: ["Politics", "History"],
+    categories: ["Politics","History"],
   },
   {
     id: "gen-7712",
@@ -1207,12 +1183,11 @@ export const F1: VocabularyWord[] = [
     slug: "fashion",
     phonetic: "/ˈfæʃ.ən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A popular trend, especially in styles of dress and ornament or manners of behavior.",
+    meaningEn: "A popular trend, especially in styles of dress and ornament or manners of behavior.",
     meaningVi: "Thời trang.",
     exampleEn: "High fashion.",
     exampleVi: "Thời trang cao cấp.",
-    categories: ["Fashion", "Culture"],
+    categories: ["Fashion","Culture"],
   },
   {
     id: "gen-7713",
@@ -1225,17 +1200,5 @@ export const F1: VocabularyWord[] = [
     exampleEn: "Fashionable clothes.",
     exampleVi: "Quần áo hợp thời trang.",
     categories: ["Fashion"],
-  },
-  {
-    id: "a1-93",
-    word: "Fast",
-    slug: "fast",
-    phonetic: "/fæst/",
-    partOfSpeech: "adj/adv",
-    meaningEn: "Moving or capable of moving at high speed.",
-    meaningVi: "Nhanh.",
-    exampleEn: "A fast car.",
-    exampleVi: "Một chiếc xe nhanh.",
-    categories: ["Daily"],
-  },
+  }
 ];

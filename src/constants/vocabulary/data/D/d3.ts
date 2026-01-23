@@ -2,6 +2,30 @@ import { VocabularyWord } from "../../types";
 
 export const D3: VocabularyWord[] = [
   {
+    id: "gen-4934",
+    word: "Decay",
+    slug: "decay",
+    phonetic: "/dɪˈkeɪ/",
+    partOfSpeech: "verb/noun",
+    meaningEn: "(of organic matter) rot or decompose through the action of bacteria and fungi.",
+    meaningVi: "Sâu (răng)/Héo úa/Suy tàn/Sự thối rữa/Sự phân rã.",
+    exampleEn: "Tooth decay.",
+    exampleVi: "Sâu răng.",
+    categories: ["General","Science","Nature","Medical"],
+  },
+  {
+    id: "gen-4935",
+    word: "Decease",
+    slug: "decease",
+    phonetic: "/dɪˈsiːs/",
+    partOfSpeech: "noun/verb",
+    meaningEn: "A person's death.",
+    meaningVi: "Sự qua đời/Cái chết/Băng hà.",
+    exampleEn: "On his decease.",
+    exampleVi: "Khi ông ấy qua đời.",
+    categories: ["General","Social"],
+  },
+  {
     id: "gen-4936",
     word: "Deceased",
     slug: "deceased",
@@ -11,7 +35,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Đã qua đời/Người quá cố.",
     exampleEn: "The deceased person.",
     exampleVi: "Người đã mất.",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-4937",
@@ -19,12 +43,11 @@ export const D3: VocabularyWord[] = [
     slug: "deceit",
     phonetic: "/dɪˈsiːt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action or practice of deceiving someone by concealing or misrepresenting the truth.",
+    meaningEn: "The action or practice of deceiving someone by concealing or misrepresenting the truth.",
     meaningVi: "Sự lừa dối/Sự đánh tráo/Mưu gian.",
     exampleEn: "Full of deceit.",
     exampleVi: "Đầy dẫy sự giả dối.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-4938",
@@ -36,7 +59,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Dối trá/Lừa đảo/Hù dọa.",
     exampleEn: "Deceitful behavior.",
     exampleVi: "Hành vi gian dối.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-4939",
@@ -68,12 +91,11 @@ export const D3: VocabularyWord[] = [
     slug: "deceive",
     phonetic: "/dɪˈsiːv/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Cause (someone) to believe something that is not true, typically in order to gain some personal advantage.",
+    meaningEn: "Cause (someone) to believe something that is not true, typically in order to gain some personal advantage.",
     meaningVi: "Lừa dối/Đánh lừa/Lừa gạt.",
     exampleEn: "Deceive oneself.",
     exampleVi: "Tự lừa dối bản thân.",
-    categories: ["General", "Psychology", "Social"],
+    categories: ["General","Psychology","Social"],
   },
   {
     id: "gen-4942",
@@ -85,7 +107,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Kẻ lừa đảo/Kẻ phản bội.",
     exampleEn: "Tricky deceiver.",
     exampleVi: "Kẻ lừa lọc xảo quyệt.",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-4943",
@@ -97,7 +119,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Tháng mười hai.",
     exampleEn: "Cold December.",
     exampleVi: "Tháng mười hai lạnh giá.",
-    categories: ["General", "Daily"],
+    categories: ["General","Daily"],
   },
   {
     id: "gen-4944",
@@ -105,12 +127,11 @@ export const D3: VocabularyWord[] = [
     slug: "decency",
     phonetic: "/ˈdiː.sən.si/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Behavior that conforms to accepted standards of morality or respectability.",
+    meaningEn: "Behavior that conforms to accepted standards of morality or respectability.",
     meaningVi: "Sự tử tế/Sự đứng đắn/Sự lịch sự.",
     exampleEn: "Common decency.",
     exampleVi: "Phép lịch sự tối thiểu.",
-    categories: ["Social", "Psychology"],
+    categories: ["Social","Psychology"],
   },
   {
     id: "gen-4945",
@@ -122,7 +143,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Mười năm một lần/Lễ kỷ niệm 10 năm.",
     exampleEn: "Decennial census.",
     exampleVi: "Cuộc điều tra dân số mười năm một lần.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-4946",
@@ -130,12 +151,11 @@ export const D3: VocabularyWord[] = [
     slug: "decent",
     phonetic: "/ˈdiː.sənt/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Conforming with generally accepted standards of respectable or moral behavior.",
+    meaningEn: "Conforming with generally accepted standards of respectable or moral behavior.",
     meaningVi: "Tử tế/Đứng đắn/Chỉnh tề/Thỏa đáng.",
     exampleEn: "A decent job.",
     exampleVi: "Một công việc tốt.",
-    categories: ["General", "Social", "Business"],
+    categories: ["General","Social","Business"],
   },
   {
     id: "gen-4947",
@@ -150,6 +170,18 @@ export const D3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    id: "spec-d-002",
+    word: "Decentralized",
+    slug: "decentralized",
+    phonetic: "/diːˈsɛn.trə.laɪzd/",
+    partOfSpeech: "adjective",
+    meaningEn: "Distributed power or control away from a central authority.",
+    meaningVi: "Phân phối quyền lực hoặc kiểm soát ra khỏi một cơ quan trung ương.",
+    exampleEn: "Decentralized networks reduce single points of failure.",
+    exampleVi: "Mạng phi tập trung giảm điểm lỗi đơn lẻ.",
+    categories: ["Technology","Politics"],
+  },
+  {
     id: "gen-4950",
     word: "Deception",
     slug: "deception",
@@ -159,7 +191,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Sự dối trá/Sự lừa gạt/Mưu mẹo.",
     exampleEn: "Practice deception.",
     exampleVi: "Thực hiện hành vi lừa đảo.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-4951",
@@ -167,12 +199,11 @@ export const D3: VocabularyWord[] = [
     slug: "deceptive",
     phonetic: "/dɪˈsep.tɪv/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Giving an appearance or impression different from the true one; misleading.",
+    meaningEn: "Giving an appearance or impression different from the true one; misleading.",
     meaningVi: "Dễ gây nhầm lẫn/Lừa dối/Đánh lừa.",
     exampleEn: "Deceptive appearances.",
     exampleVi: "Vẻ bề ngoài dễ gây hiểu lầm.",
-    categories: ["General", "Body", "Psychology"],
+    categories: ["General","Body","Psychology"],
   },
   {
     id: "gen-4952",
@@ -220,7 +251,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Rõ ràng/Dứt khoát/Kiên quyết.",
     exampleEn: "Decided advantage.",
     exampleVi: "Lợi thế rõ rệt.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-4956",
@@ -244,7 +275,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Trận quyết định/Người quyết định.",
     exampleEn: "Cup final decider.",
     exampleVi: "Trận chung kết quyết định chiếc cúp.",
-    categories: ["Sports", "People", "General"],
+    categories: ["Sports","People","General"],
   },
   {
     id: "gen-4958",
@@ -256,7 +287,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Mang tính quyết định.",
     exampleEn: "Deciding factor.",
     exampleVi: "Yếu tố quyết định.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-4959",
@@ -264,12 +295,11 @@ export const D3: VocabularyWord[] = [
     slug: "decimal",
     phonetic: "/ˈdes.ə.məl/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "Relating to or denoting a system of numbers and arithmetic based on the number ten.",
+    meaningEn: "Relating to or denoting a system of numbers and arithmetic based on the number ten.",
     meaningVi: "Thập phân/Số thập phân.",
     exampleEn: "Decimal system.",
     exampleVi: "Hệ thập phân.",
-    categories: ["Science", "Mathematics"],
+    categories: ["Science","Mathematics"],
   },
   {
     id: "gen-4960",
@@ -281,7 +311,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Tàn sát/Tiêu hao/Làm giảm đi rất nhiều.",
     exampleEn: "Disease decimated the population.",
     exampleVi: "Căn bệnh đã tiêu diệt phần lớn dân số.",
-    categories: ["General", "Science", "History"],
+    categories: ["General","Science","History"],
   },
   {
     id: "gen-4961",
@@ -289,12 +319,11 @@ export const D3: VocabularyWord[] = [
     slug: "decimation",
     phonetic: "/ˌdes.əˈmeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The killing or destruction of a large proportion of a group or species.",
+    meaningEn: "The killing or destruction of a large proportion of a group or species.",
     meaningVi: "Sự tàn sát/Sự làm hao hụt lớn.",
     exampleEn: "Decimation of the forests.",
     exampleVi: "Sự tàn phá các khu rừng.",
-    categories: ["General", "Nature", "Environment"],
+    categories: ["General","Nature","Environment"],
   },
   {
     id: "gen-4962",
@@ -302,12 +331,11 @@ export const D3: VocabularyWord[] = [
     slug: "decipher",
     phonetic: "/dɪˈsaɪ.fɚ/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Convert (a text written in code, or a coded signal) into normal language.",
+    meaningEn: "Convert (a text written in code, or a coded signal) into normal language.",
     meaningVi: "Giải mã/Đọc được (chữ khó đọc).",
     exampleEn: "Decipher the code.",
     exampleVi: "Giải mã mật mã.",
-    categories: ["General", "Technology", "Science"],
+    categories: ["General","Technology","Science"],
   },
   {
     id: "gen-4963",
@@ -339,12 +367,11 @@ export const D3: VocabularyWord[] = [
     slug: "decisive",
     phonetic: "/dɪˈsaɪ.sɪv/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Settling an issue; producing a definite result; (of a person) having or showing the ability to make decisions quickly and effectively.",
+    meaningEn: "Settling an issue; producing a definite result; (of a person) having or showing the ability to make decisions quickly and effectively.",
     meaningVi: "Quyết đoán/Kiên quyết/Mang tính quyết định.",
     exampleEn: "Decisive victory.",
     exampleVi: "Chiến thắng quyết định.",
-    categories: ["Psychology", "General", "Politics"],
+    categories: ["Psychology","General","Politics"],
   },
   {
     id: "gen-4966",
@@ -356,7 +383,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Một cách quả quyết/dứt khoát.",
     exampleEn: "Acted decisively.",
     exampleVi: "Hành động dứt khoát.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-4967",
@@ -376,12 +403,11 @@ export const D3: VocabularyWord[] = [
     slug: "deck",
     phonetic: "/dek/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A structure of planks or plates, forming a floor in a ship; decorate.",
+    meaningEn: "A structure of planks or plates, forming a floor in a ship; decorate.",
     meaningVi: "Boong tàu/Sàn tàu/Bộ bài/Trang hoàng.",
     exampleEn: "On the deck.",
     exampleVi: "Trên boong tàu.",
-    categories: ["Travel", "General", "Sports"],
+    categories: ["Travel","General","Sports"],
   },
   {
     id: "gen-4969",
@@ -393,7 +419,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Ghế xếp.",
     exampleEn: "Relax in a deck-chair.",
     exampleVi: "Thư giãn trên ghế xếp.",
-    categories: ["Daily", "Home", "General"],
+    categories: ["Daily","Home","General"],
   },
   {
     id: "gen-4970",
@@ -401,12 +427,11 @@ export const D3: VocabularyWord[] = [
     slug: "declaim",
     phonetic: "/dɪˈkleɪm/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Utter or deliver words or a speech in a rhetorical or impassioned way.",
+    meaningEn: "Utter or deliver words or a speech in a rhetorical or impassioned way.",
     meaningVi: "Diễn thuyết/Ngâm vịnh/Công kích.",
     exampleEn: "Declaim against injustice.",
     exampleVi: "Lên tiếng công kích sự bất công.",
-    categories: ["General", "Social", "Literature"],
+    categories: ["General","Social","Literature"],
   },
   {
     id: "gen-4971",
@@ -418,7 +443,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Người diễn thuyết/Người ngâm thơ.",
     exampleEn: "Oratorical declaimer.",
     exampleVi: "Người diễn thuyết có tài hùng biện.",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-4972",
@@ -430,7 +455,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Sự diễn thuyết/Sự ngâm thơ/Lời diễn văn hào hùng.",
     exampleEn: "Practicing declamation.",
     exampleVi: "Luyện tập diễn thuyết.",
-    categories: ["Education", "Art", "Social"],
+    categories: ["Education","Art","Social"],
   },
   {
     id: "gen-4973",
@@ -442,7 +467,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Có tính chất hùng biện/Để diễn thuyết.",
     exampleEn: "Declamatory style.",
     exampleVi: "Phong cách hùng biện.",
-    categories: ["Literature", "Social"],
+    categories: ["Literature","Social"],
   },
   {
     id: "gen-4974",
@@ -454,7 +479,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Sự tuyên bố/Lời tuyên bố/Tờ khai.",
     exampleEn: "Declaration of Independence.",
     exampleVi: "Bản Tuyên ngôn Độc lập.",
-    categories: ["General", "Politics", "Law"],
+    categories: ["General","Politics","Law"],
   },
   {
     id: "gen-4975",
@@ -466,7 +491,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Để tuyên bố/Để giải thích.",
     exampleEn: "Declarative sentence.",
     exampleVi: "Câu trần thuật/tuyên bố.",
-    categories: ["Literature", "Law", "Technology"],
+    categories: ["Literature","Law","Technology"],
   },
   {
     id: "gen-4976",
@@ -478,7 +503,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Dùng để tuyên bố/xác nhận.",
     exampleEn: "Declaratory judgment.",
     exampleVi: "Phán quyết mang tính xác nhận.",
-    categories: ["Law", "General"],
+    categories: ["Law","General"],
   },
   {
     id: "gen-249",
@@ -490,7 +515,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Tuyên bố.",
     exampleEn: "Declare war.",
     exampleVi: "Tuyên chiến.",
-    categories: ["General", "Politics"],
+    categories: ["General","Politics"],
   },
   {
     id: "gen-4978",
@@ -498,12 +523,11 @@ export const D3: VocabularyWord[] = [
     slug: "declension",
     phonetic: "/dɪˈklen.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The variation of the form of a noun, pronoun, or adjective, by which its grammatical case, number, and gender are identified.",
+    meaningEn: "The variation of the form of a noun, pronoun, or adjective, by which its grammatical case, number, and gender are identified.",
     meaningVi: "Sự biến cách (ngôn ngữ học)/Sự suy tàn.",
     exampleEn: "Latin declensions.",
     exampleVi: "Các cách biến đổi trong tiếng Latinh.",
-    categories: ["Education", "Literature", "General"],
+    categories: ["Education","Literature","General"],
   },
   {
     id: "gen-4979",
@@ -511,12 +535,11 @@ export const D3: VocabularyWord[] = [
     slug: "declination",
     phonetic: "/ˌdek.lɪˈneɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A polite refusal; the angular distance of a point north or south of the celestial equator.",
+    meaningEn: "A polite refusal; the angular distance of a point north or south of the celestial equator.",
     meaningVi: "Xích vĩ (thiên văn)/Góc mệch/Sự từ chối lịch sự/Sự suy đồi.",
     exampleEn: "Magnetic declination.",
     exampleVi: "Độ lệch từ.",
-    categories: ["Science", "General"],
+    categories: ["Science","General"],
   },
   {
     id: "gen-250",
@@ -528,7 +551,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Giảm, từ chối.",
     exampleEn: "Sales are declining.",
     exampleVi: "Doanh số đang giảm.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "gen-4981",
@@ -540,7 +563,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Khuyê độ kế/Từ thiên kế.",
     exampleEn: "Use a declinometer.",
     exampleVi: "Sử dụng từ thiên kế.",
-    categories: ["Science", "Engineering"],
+    categories: ["Science","Engineering"],
   },
   {
     id: "gen-4982",
@@ -552,7 +575,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Dốc xuống/Sườn dốc.",
     exampleEn: "Steep declivity.",
     exampleVi: "Sườn dốc đứng.",
-    categories: ["Nature", "Geography"],
+    categories: ["Nature","Geography"],
   },
   {
     id: "gen-4983",
@@ -564,7 +587,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Sắc (thuốc)/Nấu kỹ.",
     exampleEn: "Decoct the herbs.",
     exampleVi: "Sắc dược thảo.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-4984",
@@ -572,12 +595,11 @@ export const D3: VocabularyWord[] = [
     slug: "decoction",
     phonetic: "/dɪˈkɒk.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A concentrated liquor resulting from heating or boiling a substance, especially a medicinal preparation made from a plant.",
+    meaningEn: "A concentrated liquor resulting from heating or boiling a substance, especially a medicinal preparation made from a plant.",
     meaningVi: "Nước sắc/Sự sắc thuốc.",
     exampleEn: "Herbal decoction.",
     exampleVi: "Nước sắc thảo dược.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-4985",
@@ -589,7 +611,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Giải mã.",
     exampleEn: "Decode the signal.",
     exampleVi: "Giải mã tín hiệu.",
-    categories: ["General", "Technology", "Science"],
+    categories: ["General","Technology","Science"],
   },
   {
     id: "gen-4986",
@@ -601,7 +623,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Bộ giải mã.",
     exampleEn: "Digital decoder.",
     exampleVi: "Bộ giải mã kỹ thuật số.",
-    categories: ["Technology", "Engineering"],
+    categories: ["Technology","Engineering"],
   },
   {
     id: "gen-4987",
@@ -613,7 +635,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Chặt đầu.",
     exampleEn: "Image of a decollated head.",
     exampleVi: "Hình ảnh một cái đầu bị chặt.",
-    categories: ["General", "History"],
+    categories: ["General","History"],
   },
   {
     id: "gen-4988",
@@ -625,7 +647,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Sự chặt đầu.",
     exampleEn: "The decollation of St. John.",
     exampleVi: "Sự trảm thủ Thánh John.",
-    categories: ["History", "Religion"],
+    categories: ["History","Religion"],
   },
   {
     id: "gen-4989",
@@ -637,7 +659,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Làm mất màu/Tẩy màu.",
     exampleEn: "Decolor the fabric.",
     exampleVi: "Tẩy màu vải.",
-    categories: ["Science", "Engineering"],
+    categories: ["Science","Engineering"],
   },
   {
     id: "gen-4992",
@@ -649,7 +671,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Có thể phân hủy được.",
     exampleEn: "Highly decomposable matter.",
     exampleVi: "Vật liệu rất dễ phân hủy.",
-    categories: ["Science", "Environment"],
+    categories: ["Science","Environment"],
   },
   {
     id: "gen-4993",
@@ -657,12 +679,11 @@ export const D3: VocabularyWord[] = [
     slug: "decompose",
     phonetic: "/ˌdiː.kəmˈpoʊz/",
     partOfSpeech: "verb",
-    meaningEn:
-      "(with reference to a dead body or other organic matter) make or become rotten; decay or cause to decay.",
+    meaningEn: "(with reference to a dead body or other organic matter) make or become rotten; decay or cause to decay.",
     meaningVi: "Phân hủy/Thối rữa/Phân tích.",
     exampleEn: "Decompose into elements.",
     exampleVi: "Phân tách thành các nguyên tố.",
-    categories: ["Science", "Nature", "Environment"],
+    categories: ["Science","Nature","Environment"],
   },
   {
     id: "gen-4994",
@@ -674,7 +695,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Sự phân hủy/Sự thối rữa/Sự phân tích.",
     exampleEn: "Speed up decomposition.",
     exampleVi: "Đẩy nhanh quá trình phân hủy.",
-    categories: ["Science", "Nature", "Environment"],
+    categories: ["Science","Nature","Environment"],
   },
   {
     id: "gen-4995",
@@ -686,7 +707,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Phức hợp/Hợp chất phức.",
     exampleEn: "Decompound flower.",
     exampleVi: "Hoa phức hợp.",
-    categories: ["Science", "Nature"],
+    categories: ["Science","Nature"],
   },
   {
     id: "gen-4996",
@@ -698,7 +719,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Giảm áp suất/Xả hơi/Giải nén (IT).",
     exampleEn: "Decompress files.",
     exampleVi: "Giải nén tập tin.",
-    categories: ["Technology", "Engineering", "Science"],
+    categories: ["Technology","Engineering","Science"],
   },
   {
     id: "gen-4997",
@@ -710,7 +731,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Sự giảm áp suất/Sự giải nén.",
     exampleEn: "Decompression sickness.",
     exampleVi: "Bệnh do giảm áp (thường gặp ở thợ lặn).",
-    categories: ["Science", "Medical", "Technology"],
+    categories: ["Science","Medical","Technology"],
   },
   {
     id: "gen-5002",
@@ -718,12 +739,11 @@ export const D3: VocabularyWord[] = [
     slug: "decontrol",
     phonetic: "/ˌdiː.kənˈtroʊl/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Release (a commodity, activity, or price) from government control.",
+    meaningEn: "Release (a commodity, activity, or price) from government control.",
     meaningVi: "Bãi bỏ kiểm soát/Thả lỏng.",
     exampleEn: "Decontrol of prices.",
     exampleVi: "Việc bãi bỏ kiểm soát giá cả.",
-    categories: ["Business", "Politics", "Economics"],
+    categories: ["Business","Politics","Economics"],
   },
   {
     id: "gen-5003",
@@ -735,7 +755,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Cách trang trí/Đồ trang trí.",
     exampleEn: "Modern decor.",
     exampleVi: "Cách trang trí hiện đại.",
-    categories: ["Art", "Home", "General"],
+    categories: ["Art","Home","General"],
   },
   {
     id: "gen-251",
@@ -747,7 +767,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Trang trí.",
     exampleEn: "Decorate the room.",
     exampleVi: "Trang trí phòng.",
-    categories: ["Home", "Art"],
+    categories: ["Home","Art"],
   },
   {
     id: "gen-5005",
@@ -755,12 +775,11 @@ export const D3: VocabularyWord[] = [
     slug: "decoration",
     phonetic: "/ˌdek.əˈreɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The process of decorating something; a thing that serves as an ornament.",
+    meaningEn: "The process of decorating something; a thing that serves as an ornament.",
     meaningVi: "Sự trang trí/Vật trang trí/Huân chương.",
     exampleEn: "Cake decoration.",
     exampleVi: "Trang trí bánh kem.",
-    categories: ["Art", "Daily", "General"],
+    categories: ["Art","Daily","General"],
   },
   {
     id: "gen-5006",
@@ -772,7 +791,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Để trang trí/Làm cảnh.",
     exampleEn: "Decorative plants.",
     exampleVi: "Cây cảnh/Cây trang trí.",
-    categories: ["Art", "Body", "General"],
+    categories: ["Art","Body","General"],
   },
   {
     id: "gen-5007",
@@ -784,7 +803,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Người trang trí/Thợ sơn ve.",
     exampleEn: "Interior decorator.",
     exampleVi: "Người trang trí nội thất.",
-    categories: ["People", "Business", "Art"],
+    categories: ["People","Business","Art"],
   },
   {
     id: "gen-5008",
@@ -792,12 +811,11 @@ export const D3: VocabularyWord[] = [
     slug: "decorous",
     phonetic: "/ˈdek.ər.əs/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "In keeping with good taste and propriety; polite and restrained.",
+    meaningEn: "In keeping with good taste and propriety; polite and restrained.",
     meaningVi: "Đúng mực/Đứng đắn/Lịch thiệp.",
     exampleEn: "Decorous conduct.",
     exampleVi: "Cử chỉ đúng mực.",
-    categories: ["Psychology", "Social", "General"],
+    categories: ["Psychology","Social","General"],
   },
   {
     id: "gen-5009",
@@ -809,7 +827,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Một cách tế nhị/đứng đắn.",
     exampleEn: "Behaved decorously.",
     exampleVi: "Hành xử một cách đúng mực.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-5010",
@@ -821,7 +839,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Sự đúng mực/Sự lễ phép/Phép tắc.",
     exampleEn: "Sense of decorum.",
     exampleVi: "Ý thức về lễ nghi/sự đúng mực.",
-    categories: ["Psychology", "Social", "General"],
+    categories: ["Psychology","Social","General"],
   },
   {
     id: "gen-5011",
@@ -829,12 +847,11 @@ export const D3: VocabularyWord[] = [
     slug: "decoy",
     phonetic: "/ˈdiː.kɔɪ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A bird or mammal, or an imitation of one, used by hunters to lure other animals.",
+    meaningEn: "A bird or mammal, or an imitation of one, used by hunters to lure other animals.",
     meaningVi: "Mồi nhử/Cạm bẫy/Dụ dỗ.",
     exampleEn: "Use a decoy.",
     exampleVi: "Sử dụng mồi nhử.",
-    categories: ["General", "Animals", "Social"],
+    categories: ["General","Animals","Social"],
   },
   {
     id: "gen-252",
@@ -858,7 +875,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Nghị định/Sắc lệnh/Quyết định.",
     exampleEn: "Presidential decree.",
     exampleVi: "Sắc lệnh của Tổng thống.",
-    categories: ["Law", "Politics", "General"],
+    categories: ["Law","Politics","General"],
   },
   {
     id: "gen-5014",
@@ -870,7 +887,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Sự giảm bớt/Sự hao hụt.",
     exampleEn: "Population decrement.",
     exampleVi: "Sự sụt giảm dân số.",
-    categories: ["Science", "Business", "Mathematics"],
+    categories: ["Science","Business","Mathematics"],
   },
   {
     id: "gen-5015",
@@ -878,12 +895,11 @@ export const D3: VocabularyWord[] = [
     slug: "decrepit",
     phonetic: "/dɪˈkrep.ɪt/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Elderly and infirm; worn out or ruined because of age or neglect.",
+    meaningEn: "Elderly and infirm; worn out or ruined because of age or neglect.",
     meaningVi: "Già yếu/Rệu rã/Đổ nát.",
     exampleEn: "Decrepit old building.",
     exampleVi: "Tòa nhà cũ nát.",
-    categories: ["General", "Architecture", "Medical"],
+    categories: ["General","Architecture","Medical"],
   },
   {
     id: "gen-5016",
@@ -895,7 +911,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Sự già yếu/Tình trạng rệu rã.",
     exampleEn: "Physical decrepitude.",
     exampleVi: "Sự suy sụp về thể chất.",
-    categories: ["General", "Medical"],
+    categories: ["General","Medical"],
   },
   {
     id: "gen-5017",
@@ -907,7 +923,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Đang giảm dần/Đang khuyết (mặt trăng).",
     exampleEn: "Decrescent moon.",
     exampleVi: "Trăng đang khuyết dần.",
-    categories: ["Science", "General"],
+    categories: ["Science","General"],
   },
   {
     id: "gen-5018",
@@ -919,7 +935,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Sự chê bai/Sự công kích/Sự phản đối.",
     exampleEn: "Decrial of modern art.",
     exampleVi: "Sự chê bai nghệ thuật hiện đại.",
-    categories: ["Social", "General"],
+    categories: ["Social","General"],
   },
   {
     id: "gen-5019",
@@ -931,7 +947,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Chê bai/Công kích/Chê tiền (làm giảm giá trị tiền).",
     exampleEn: "Decry the injustice.",
     exampleVi: "Lên án sự bất công.",
-    categories: ["General", "Social", "Politics"],
+    categories: ["General","Social","Politics"],
   },
   {
     id: "gen-5020",
@@ -939,12 +955,11 @@ export const D3: VocabularyWord[] = [
     slug: "decrypt",
     phonetic: "/diːˈkrɪpt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Make (a coded or unclear message) intelligible, typically by using a key.",
+    meaningEn: "Make (a coded or unclear message) intelligible, typically by using a key.",
     meaningVi: "Giải mã.",
     exampleEn: "Decrypt encrypted files.",
     exampleVi: "Giải mã các tập tin bị mã hóa.",
-    categories: ["Technology", "Science"],
+    categories: ["Technology","Science"],
   },
   {
     id: "gen-5021",
@@ -968,7 +983,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Tư thế nằm/Sự bò lan (thực vật).",
     exampleEn: "Natural decumbence.",
     exampleVi: "Sự mọc bò lan tự nhiên.",
-    categories: ["General", "Nature"],
+    categories: ["General","Nature"],
   },
   {
     id: "gen-5023",
@@ -980,7 +995,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Nằm bò/Mọc bò.",
     exampleEn: "Decumbent stems.",
     exampleVi: "Những cái thân bò lan trên mặt đất.",
-    categories: ["Nature", "Plants"],
+    categories: ["Nature","Plants"],
   },
   {
     id: "gen-5024",
@@ -992,7 +1007,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Gấp mười lần.",
     exampleEn: "Decuple increase.",
     exampleVi: "Sự tăng lên gấp mười lần.",
-    categories: ["General", "Mathematics"],
+    categories: ["General","Mathematics"],
   },
   {
     id: "gen-5025",
@@ -1004,7 +1019,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Thập đội trưởng (La Mã).",
     exampleEn: "Command of a decurion.",
     exampleVi: "Sự chỉ huy của một thập đội trưởng.",
-    categories: ["People", "History"],
+    categories: ["People","History"],
   },
   {
     id: "gen-5026",
@@ -1012,12 +1027,11 @@ export const D3: VocabularyWord[] = [
     slug: "dedicate",
     phonetic: "/ˈded.ɪ.keɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Devote (time, effort, or oneself) to a particular task or purpose.",
+    meaningEn: "Devote (time, effort, or oneself) to a particular task or purpose.",
     meaningVi: "Cống hiến/Dâng hiến/Đề tặng.",
     exampleEn: "Dedicate a book to someone.",
     exampleVi: "Đề tặng một cuốn sách cho ai đó.",
-    categories: ["General", "Art", "Social"],
+    categories: ["General","Art","Social"],
   },
   {
     id: "gen-5027",
@@ -1025,12 +1039,11 @@ export const D3: VocabularyWord[] = [
     slug: "dedicated",
     phonetic: "/ˈded.ɪ.keɪ.t̬ɪd/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a person) devoted to a task or purpose; (of a resource) used for one particular purpose only.",
+    meaningEn: "(of a person) devoted to a task or purpose; (of a resource) used for one particular purpose only.",
     meaningVi: "Tận tụy/Chuyên dụng/Riêng biệt.",
     exampleEn: "Dedicated server.",
     exampleVi: "Máy chủ dùng riêng.",
-    categories: ["Psychology", "Technology", "Business"],
+    categories: ["Psychology","Technology","Business"],
   },
   {
     id: "gen-5028",
@@ -1038,12 +1051,11 @@ export const D3: VocabularyWord[] = [
     slug: "dedication",
     phonetic: "/ˌded.ɪˈkeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The quality of being dedicated or committed to a task or purpose.",
+    meaningEn: "The quality of being dedicated or committed to a task or purpose.",
     meaningVi: "Sự cống hiến/Sự tận tụy/Lời đề tặng.",
     exampleEn: "Dedication to duty.",
     exampleVi: "Sự tận tâm với nhiệm vụ.",
-    categories: ["Psychology", "Social", "Business"],
+    categories: ["Psychology","Social","Business"],
   },
   {
     id: "gen-5029",
@@ -1055,7 +1067,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Để đề tặng/Để cống hiến.",
     exampleEn: "Dedicatory inscription.",
     exampleVi: "Dòng chữ đề tặng.",
-    categories: ["Literature", "General"],
+    categories: ["Literature","General"],
   },
   {
     id: "c1-22",
@@ -1063,8 +1075,7 @@ export const D3: VocabularyWord[] = [
     slug: "deduce",
     phonetic: "/dɪˈduːs/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Arrive at (a fact or a conclusion) by reasoning; draw as a logical conclusion.",
+    meaningEn: "Arrive at (a fact or a conclusion) by reasoning; draw as a logical conclusion.",
     meaningVi: "Suy luận.",
     exampleEn: "We can deduce the cause from the results.",
     exampleVi: "Chúng ta có thể suy luận nguyên nhân từ kết quả.",
@@ -1080,7 +1091,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Có thể suy luận được.",
     exampleEn: "Deducible conclusion.",
     exampleVi: "Kết luận có thể suy ra được.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "gen-5032",
@@ -1092,7 +1103,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Khấu trừ/Trừ đi.",
     exampleEn: "Deduct taxes.",
     exampleVi: "Khấu trừ thuế.",
-    categories: ["Business", "Economics", "Daily"],
+    categories: ["Business","Economics","Daily"],
   },
   {
     id: "gen-5033",
@@ -1100,12 +1111,11 @@ export const D3: VocabularyWord[] = [
     slug: "deduction",
     phonetic: "/dɪˈdʌk.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action of deducting or subtracting something; the inference of particular instances from a general law.",
+    meaningEn: "The action of deducting or subtracting something; the inference of particular instances from a general law.",
     meaningVi: "Sự khấu trừ/Khoản bị trừ/Sự diễn dịch/Sự suy luận.",
     exampleEn: "Tax deduction.",
     exampleVi: "Sự khấu trừ thuế.",
-    categories: ["Business", "Science", "Economics"],
+    categories: ["Business","Science","Economics"],
   },
   {
     id: "gen-5034",
@@ -1113,12 +1123,11 @@ export const D3: VocabularyWord[] = [
     slug: "deductive",
     phonetic: "/dɪˈdʌk.tɪv/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Characterized by or based on the inference of particular instances from a general law.",
+    meaningEn: "Characterized by or based on the inference of particular instances from a general law.",
     meaningVi: "Có tính diễn dịch/Thuộc về suy luận.",
     exampleEn: "Deductive reasoning.",
     exampleVi: "Lập luận diễn dịch.",
-    categories: ["Science", "Education", "General"],
+    categories: ["Science","Education","General"],
   },
   {
     id: "gen-5035",
@@ -1126,12 +1135,11 @@ export const D3: VocabularyWord[] = [
     slug: "deed",
     phonetic: "/diːd/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "An action that is performed intentionally or consciously; a legal document.",
+    meaningEn: "An action that is performed intentionally or consciously; a legal document.",
     meaningVi: "Hành động/Việc làm/Văn bản pháp lý (chứng nhận quyền sở hữu).",
     exampleEn: "Good deeds.",
     exampleVi: "Những việc làm tốt.",
-    categories: ["General", "Law", "Social"],
+    categories: ["General","Law","Social"],
   },
   {
     id: "gen-5036",
@@ -1143,7 +1151,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Cho rằng/Thấy rằng/Tưởng rằng.",
     exampleEn: "Deem it necessary.",
     exampleVi: "Thấy rằng nó cần thiết.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-253",
@@ -1167,7 +1175,7 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Làm sâu thêm/Trở nên sâu sắc hơn.",
     exampleEn: "Deepen the mystery.",
     exampleVi: "Làm cho bí ẩn thêm sâu sắc.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-254azx",
@@ -1175,12 +1183,11 @@ export const D3: VocabularyWord[] = [
     slug: "deepfake",
     phonetic: "/ˈdiːp.feɪk/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A synthetic media in which a person in an existing image or video is replaced with someone else's likeness.",
+    meaningEn: "A synthetic media in which a person in an existing image or video is replaced with someone else's likeness.",
     meaningVi: "Công nghệ tạo ảnh/video giả mạo bằng AI.",
     exampleEn: "DeepFakes technology.",
     exampleVi: "Công nghệ DeepFakes.",
-    categories: ["Technology", "Science", "Media"],
+    categories: ["Technology","Science","Media"],
   },
   {
     id: "gen-5039",
@@ -1192,55 +1199,6 @@ export const D3: VocabularyWord[] = [
     meaningVi: "Một cách sâu sắc/Hết sức/Vô cùng.",
     exampleEn: "Deeply concerned.",
     exampleVi: "Hết sức quan tâm.",
-    categories: ["General", "Psychology"],
-  },
-  {
-    id: "gen-5040",
-    word: "Deepness",
-    slug: "deepness",
-    phonetic: "/ˈdiːp.nəs/",
-    partOfSpeech: "noun",
-    meaningEn: "The quality of being deep.",
-    meaningVi: "Sự sâu/Độ sâu/Sự thâm thúy.",
-    exampleEn: "Deepness of tone.",
-    exampleVi: "Sự trầm của giọng nói.",
-    categories: ["General"],
-  },
-  {
-    id: "gen-5041",
-    word: "Deer",
-    slug: "deer",
-    phonetic: "/dɪr/",
-    partOfSpeech: "noun",
-    meaningEn:
-      "A hoofed grazing or browsing animal, with branched bony antlers that are shed annually.",
-    meaningVi: "Con hươu/Con nai.",
-    exampleEn: "Wild deer.",
-    exampleVi: "Hươu rừng.",
-    categories: ["Animals", "Nature"],
-  },
-  {
-    id: "gen-5042",
-    word: "Deer-hound",
-    slug: "deer-hound",
-    phonetic: "/ˈdɪəˌhaʊnd/",
-    partOfSpeech: "noun",
-    meaningEn: "A large hound of a breed used for hunting deer.",
-    meaningVi: "Chó săn hươu.",
-    exampleEn: "Scottish deer-hound.",
-    exampleVi: "Chó săn hươu Scotland.",
-    categories: ["Animals"],
-  },
-  {
-    id: "gen-5043",
-    word: "Deer-skin",
-    slug: "deer-skin",
-    phonetic: "/ˈdɪə.skɪn/",
-    partOfSpeech: "noun/adjective",
-    meaningEn: "The skin of a deer; leather made from it.",
-    meaningVi: "Da hươu.",
-    exampleEn: "Deer-skin gloves.",
-    exampleVi: "Găng tay da hươu.",
-    categories: ["Body", "Animals"],
-  },
+    categories: ["General","Psychology"],
+  }
 ];

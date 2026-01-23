@@ -2,6 +2,66 @@ import { VocabularyWord } from "../../types";
 
 export const D11: VocabularyWord[] = [
   {
+    id: "gen-5739",
+    word: "Ding",
+    slug: "ding",
+    phonetic: "/dɪŋ/",
+    partOfSpeech: "verb/noun",
+    meaningEn: "Make a ringing sound.",
+    meaningVi: "Tiếng chuông/Kêu leng keng.",
+    exampleEn: "Bell dings.",
+    exampleVi: "Chuông kêu leng keng.",
+    categories: ["Daily","General"],
+  },
+  {
+    id: "gen-5740",
+    word: "Dinghy",
+    slug: "dinghy",
+    phonetic: "/ˈdɪŋ.ɡi/",
+    partOfSpeech: "noun",
+    meaningEn: "A small boat for recreation or racing, especially an open one with a mast.",
+    meaningVi: "Xuồng nhỏ/Thuyền nhỏ.",
+    exampleEn: "Inflatable dinghy.",
+    exampleVi: "Xuồng cao su bơm hơi.",
+    categories: ["General","Sports","Travel"],
+  },
+  {
+    id: "gen-5741",
+    word: "Dingily",
+    slug: "dingily",
+    phonetic: "/ˈdɪn.dʒɪ.li/",
+    partOfSpeech: "adverb",
+    meaningEn: "In a dingy or gloomy manner.",
+    meaningVi: "Một cách tối tăm/nhếch nhác.",
+    exampleEn: "Furnished dingily.",
+    exampleVi: "Được bài trí một cách nhếch nhác.",
+    categories: ["General"],
+  },
+  {
+    id: "gen-5742",
+    word: "Dinginess",
+    slug: "dinginess",
+    phonetic: "/ˈdɪn.dʒɪ.nəs/",
+    partOfSpeech: "noun",
+    meaningEn: "The state of being dingy.",
+    meaningVi: "Sự tối tăm/Sự nhếch nhác.",
+    exampleEn: "Overall dinginess.",
+    exampleVi: "Tình trạng nhếch nhác bao trùm.",
+    categories: ["General"],
+  },
+  {
+    id: "gen-5743",
+    word: "Dingle",
+    slug: "dingle",
+    phonetic: "/ˈdɪŋ.ɡəl/",
+    partOfSpeech: "noun",
+    meaningEn: "A small wooded valley or hollow.",
+    meaningVi: "Thung lũng nhỏ có cây cối.",
+    exampleEn: "Hidden dingle.",
+    exampleVi: "Thung lũng nhỏ lẩn khuất.",
+    categories: ["Nature","Environment","Geography"],
+  },
+  {
     id: "gen-5744",
     word: "Dingo",
     slug: "dingo",
@@ -11,7 +71,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Chó dingo (chó hoang Úc).",
     exampleEn: "Wild dingo.",
     exampleVi: "Chó dingo hoang dã.",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-5745",
@@ -35,7 +95,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Tối tăm/Nhếch nhác/Bẩn thỉu.",
     exampleEn: "Dingy street.",
     exampleVi: "Con phố nhếch nhác.",
-    categories: ["General", "Environment"],
+    categories: ["General","Environment"],
   },
   {
     id: "gen-5747",
@@ -47,7 +107,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Việc ăn tối/Sự dùng bữa.",
     exampleEn: "Dining room.",
     exampleVi: "Phòng ăn.",
-    categories: ["Daily", "Home", "General"],
+    categories: ["Daily","Home","General"],
   },
   {
     id: "gen-300",
@@ -59,7 +119,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Bữa tối.",
     exampleEn: "What's for dinner?",
     exampleVi: "Bữa tối ăn gì?",
-    categories: ["Food & Drink", "Daily"],
+    categories: ["Food & Drink","Daily"],
   },
   {
     id: "gen-5749",
@@ -67,12 +127,11 @@ export const D11: VocabularyWord[] = [
     slug: "dinosaur",
     phonetic: "/ˈdaɪ.nə.sɔːr/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A fossil reptile of the Mesozoic era, often reaching an enormous size.",
+    meaningEn: "A fossil reptile of the Mesozoic era, often reaching an enormous size.",
     meaningVi: "Khủng long.",
     exampleEn: "Dinosaur skeleton.",
     exampleVi: "Bộ xương khủng long.",
-    categories: ["Animals", "History", "Science"],
+    categories: ["Animals","History","Science"],
   },
   {
     id: "gen-5750",
@@ -92,12 +151,11 @@ export const D11: VocabularyWord[] = [
     slug: "diocese",
     phonetic: "/ˈdaɪ.ə.siːs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A district under the pastoral care of a bishop in the Christian Church.",
+    meaningEn: "A district under the pastoral care of a bishop in the Christian Church.",
     meaningVi: "Giáo phận.",
     exampleEn: "Catholic diocese.",
     exampleVi: "Giáo phận Công giáo.",
-    categories: ["Religion", "Politics"],
+    categories: ["Religion","Politics"],
   },
   {
     id: "gen-5752",
@@ -105,12 +163,11 @@ export const D11: VocabularyWord[] = [
     slug: "dioptre",
     phonetic: "/daɪˈɑːp.tɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A unit of refractive power that is equal to the reciprocal of the focal length in meters.",
+    meaningEn: "A unit of refractive power that is equal to the reciprocal of the focal length in meters.",
     meaningVi: "Đi-ốp (đơn vị đo độ hội tụ).",
     exampleEn: "Lens power in dioptres.",
     exampleVi: "Độ tụ của thấu kính tính bằng đi-ốp.",
-    categories: ["Science", "Education"],
+    categories: ["Science","Education"],
   },
   {
     id: "gen-5753",
@@ -118,12 +175,11 @@ export const D11: VocabularyWord[] = [
     slug: "dioxide",
     phonetic: "/daɪˈɑːk.saɪd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An oxide containing two atoms of oxygen in its molecule or empirical formula.",
+    meaningEn: "An oxide containing two atoms of oxygen in its molecule or empirical formula.",
     meaningVi: "Đi-ô-xít.",
     exampleEn: "Carbon dioxide.",
     exampleVi: "Khí các-bon-nic/Cacbon đioxit.",
-    categories: ["Science", "Chemistry", "Environment"],
+    categories: ["Science","Chemistry","Environment"],
   },
   {
     id: "gen-5754",
@@ -135,7 +191,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Nhúng/Ngâm/Sụt xuống.",
     exampleEn: "A quick dip.",
     exampleVi: "Ngâm mình nhanh (trong nước).",
-    categories: ["Daily", "General", "Food & Drink"],
+    categories: ["Daily","General","Food & Drink"],
   },
   {
     id: "gen-5755",
@@ -143,12 +199,11 @@ export const D11: VocabularyWord[] = [
     slug: "diphtheria",
     phonetic: "/dɪpˈθɪr.i.ə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An acute, highly contagious bacterial disease causing inflammation of the mucous membranes.",
+    meaningEn: "An acute, highly contagious bacterial disease causing inflammation of the mucous membranes.",
     meaningVi: "Bệnh bạch hầu.",
     exampleEn: "Diphtheria vaccine.",
     exampleVi: "Vắc-xin bạch hầu.",
-    categories: ["Medical", "Medical", "Science"],
+    categories: ["Medical","Medical","Science"],
   },
   {
     id: "gen-5756",
@@ -156,12 +211,11 @@ export const D11: VocabularyWord[] = [
     slug: "diphthong",
     phonetic: "/ˈdɪf.θɑːŋ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A sound formed by the combination of two vowels in a single syllable.",
+    meaningEn: "A sound formed by the combination of two vowels in a single syllable.",
     meaningVi: "Nguyên âm đôi.",
     exampleEn: "Standard diphthong.",
     exampleVi: "Nguyên âm đôi tiêu chuẩn.",
-    categories: ["Literature", "General"],
+    categories: ["Literature","General"],
   },
   {
     id: "gen-5757",
@@ -169,12 +223,11 @@ export const D11: VocabularyWord[] = [
     slug: "diploma",
     phonetic: "/dɪˈploʊ.mə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A certificate awarded by an educational establishment to show that someone has successfully completed a course of study.",
+    meaningEn: "A certificate awarded by an educational establishment to show that someone has successfully completed a course of study.",
     meaningVi: "Bằng cấp/Văn bằng/Chứng chỉ.",
     exampleEn: "High school diploma.",
     exampleVi: "Bằng tốt nghiệp trung học phổ thông.",
-    categories: ["Education", "General"],
+    categories: ["Education","General"],
   },
   {
     id: "gen-5758",
@@ -182,12 +235,11 @@ export const D11: VocabularyWord[] = [
     slug: "diplomacy",
     phonetic: "/dɪˈploʊ.mə.si/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The profession, activity, or skill of managing international relations.",
+    meaningEn: "The profession, activity, or skill of managing international relations.",
     meaningVi: "Ngành ngoại giao/Tài ngoại giao.",
     exampleEn: "International diplomacy.",
     exampleVi: "Ngoại giao quốc tế.",
-    categories: ["Politics", "Social"],
+    categories: ["Politics","Social"],
   },
   {
     id: "gen-5759",
@@ -199,7 +251,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Nhà ngoại giao.",
     exampleEn: "Experienced diplomat.",
     exampleVi: "Nhà ngoại giao dày dạn kinh nghiệm.",
-    categories: ["People", "Politics", "Business"],
+    categories: ["People","Politics","Business"],
   },
   {
     id: "gen-5760",
@@ -211,7 +263,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Thuộc về ngoại giao/Khéo léo trong giao thiệp.",
     exampleEn: "Diplomatic relations.",
     exampleVi: "Quan hệ ngoại giao.",
-    categories: ["Politics", "Social"],
+    categories: ["Politics","Social"],
   },
   {
     id: "gen-5761",
@@ -223,7 +275,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Một cách ngoại giao/khéo léo.",
     exampleEn: "Answered diplomatically.",
     exampleVi: "Trả lời một cách khéo léo/ngoại giao.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-5762",
@@ -235,7 +287,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Cái gàu/Cái muôi/Loài chim lặn.",
     exampleEn: "Water dipper.",
     exampleVi: "Gàu múc nước.",
-    categories: ["Daily", "Animals", "Home"],
+    categories: ["Daily","Animals","Home"],
   },
   {
     id: "gen-5763",
@@ -243,12 +295,11 @@ export const D11: VocabularyWord[] = [
     slug: "dipsomania",
     phonetic: "/ˌdɪp.səˈmeɪ.ni.ə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Alcoholism, especially when characterized by intermittent bouts of intense craving.",
+    meaningEn: "Alcoholism, especially when characterized by intermittent bouts of intense craving.",
     meaningVi: "Chứng nghiện rượu (từng cơn).",
     exampleEn: "Chronic dipsomania.",
     exampleVi: "Chứng nghiện rượu mãn tính.",
-    categories: ["Medical", "Psychology"],
+    categories: ["Medical","Psychology"],
   },
   {
     id: "gen-5764",
@@ -260,7 +311,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Thảm khốc/Khốc liệt/Cực kỳ nghiêm trọng.",
     exampleEn: "Dire consequences.",
     exampleVi: "Hậu quả thảm khốc.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-301",
@@ -296,7 +347,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Thuộc về hướng/Có hướng.",
     exampleEn: "Directional antenna.",
     exampleVi: "Ăng-ten có định hướng.",
-    categories: ["Technology", "Science"],
+    categories: ["Technology","Science"],
   },
   {
     id: "gen-5768",
@@ -308,7 +359,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Chỉ thị/Hướng dẫn.",
     exampleEn: "New directive.",
     exampleVi: "Chỉ thị mới.",
-    categories: ["Politics", "Business", "Management"],
+    categories: ["Politics","Business","Management"],
   },
   {
     id: "gen-5769",
@@ -320,7 +371,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Một cách trực tiếp/Ngay lập tức.",
     exampleEn: "Directly proportional.",
     exampleVi: "Tỉ lệ thuận.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "gen-5770",
@@ -332,7 +383,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Tính thẳng thắn/Sự trực tiếp.",
     exampleEn: "Refreshing directness.",
     exampleVi: "Sự thẳng thắn đầy sảng khoái.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-303",
@@ -344,7 +395,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Giám đốc.",
     exampleEn: "The company director.",
     exampleVi: "Giám đốc công ty.",
-    categories: ["Business", "Jobs"],
+    categories: ["Business","Jobs"],
   },
   {
     id: "gen-5772",
@@ -356,7 +407,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Ban giám đốc/Hội đồng quản trị.",
     exampleEn: "Police directorate.",
     exampleVi: "Ban chỉ huy cảnh sát.",
-    categories: ["Management", "Politics", "Business"],
+    categories: ["Management","Politics","Business"],
   },
   {
     id: "gen-5773",
@@ -368,7 +419,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Chức vụ giám đốc/Quyền điều khiển.",
     exampleEn: "Accept the directorship.",
     exampleVi: "Chấp nhận chức vụ giám đốc.",
-    categories: ["Business", "Management"],
+    categories: ["Business","Management"],
   },
   {
     id: "gen-5774",
@@ -376,12 +427,11 @@ export const D11: VocabularyWord[] = [
     slug: "directory",
     phonetic: "/dɪˈrek.tɚ.i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A book or website listing individuals or organizations alphabetically or thematically.",
+    meaningEn: "A book or website listing individuals or organizations alphabetically or thematically.",
     meaningVi: "Danh bạ/Thư mục (máy tính).",
     exampleEn: "Telephone directory.",
     exampleVi: "Danh bạ điện thoại.",
-    categories: ["Daily", "Technology", "Technology"],
+    categories: ["Daily","Technology","Technology"],
   },
   {
     id: "gen-5775",
@@ -393,7 +443,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Kinh khủng/Thê thảm (ít dùng hơn dire).",
     exampleEn: "Direful news.",
     exampleVi: "Tin tức thê thảm.",
-    categories: ["General", "Literature"],
+    categories: ["General","Literature"],
   },
   {
     id: "c2-82",
@@ -401,8 +451,7 @@ export const D11: VocabularyWord[] = [
     slug: "dirge",
     phonetic: "/dɝːdʒ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A lament for the dead, especially one forming part of a funeral rite.",
+    meaningEn: "A lament for the dead, especially one forming part of a funeral rite.",
     meaningVi: "Bài ca đưa đám.",
     exampleEn: "A funeral dirge.",
     exampleVi: "Một bài ca đưa đám.",
@@ -418,7 +467,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Khí cầu điều khiển được/Có thể điều khiển được.",
     exampleEn: "Giant dirigible.",
     exampleVi: "Khí cầu khổng lồ.",
-    categories: ["Technology", "Engineering", "Travel"],
+    categories: ["Technology","Engineering","Travel"],
   },
   {
     id: "gen-5778",
@@ -430,7 +479,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Con dao găm ngắn.",
     exampleEn: "Weapon dirk.",
     exampleVi: "Vũ khí dao găm.",
-    categories: ["History", "General"],
+    categories: ["History","General"],
   },
   {
     id: "gen-5779",
@@ -438,12 +487,11 @@ export const D11: VocabularyWord[] = [
     slug: "dirt",
     phonetic: "/dɝːt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A substance, such as mud or dust, that soils someone or something.",
+    meaningEn: "A substance, such as mud or dust, that soils someone or something.",
     meaningVi: "Bụi bẩn/Đất cát/Sự tục tĩu.",
     exampleEn: "Wash off the dirt.",
     exampleVi: "Rửa sạch vết bẩn.",
-    categories: ["General", "Environment"],
+    categories: ["General","Environment"],
   },
   {
     id: "gen-5780",
@@ -455,7 +503,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Một cách bẩn thỉu/tệ hại.",
     exampleEn: "Played dirtily.",
     exampleVi: "Chơi xấu/Chơi bẩn.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-5781",
@@ -487,12 +535,11 @@ export const D11: VocabularyWord[] = [
     slug: "disability",
     phonetic: "/ˌdɪs.əˈbɪl.ə.t̬i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A physical or mental condition that limits a person's movements, senses, or activities.",
+    meaningEn: "A physical or mental condition that limits a person's movements, senses, or activities.",
     meaningVi: "Sự khuyết tật/Sự tàn tật.",
     exampleEn: "Learning disability.",
     exampleVi: "Khuyết tật về học tập.",
-    categories: ["Medical", "Social", "General"],
+    categories: ["Medical","Social","General"],
   },
   {
     id: "gen-5784",
@@ -500,12 +547,11 @@ export const D11: VocabularyWord[] = [
     slug: "disable",
     phonetic: "/dɪˈseɪ.bəl/",
     partOfSpeech: "verb",
-    meaningEn:
-      "(of a disease, injury, or accident) limit (someone) in their movements, senses, or activities.",
+    meaningEn: "(of a disease, injury, or accident) limit (someone) in their movements, senses, or activities.",
     meaningVi: "Làm tàn tật/Vô hiệu hóa/Làm hỏng.",
     exampleEn: "Disable the alarm.",
     exampleVi: "Vô hiệu hóa báo động.",
-    categories: ["Medical", "Technology", "General"],
+    categories: ["Medical","Technology","General"],
   },
   {
     id: "gen-5785",
@@ -513,12 +559,11 @@ export const D11: VocabularyWord[] = [
     slug: "disabled",
     phonetic: "/dɪˈseɪ.bəld/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a person) having a physical or mental condition that limits their movements, senses, or activities.",
+    meaningEn: "(of a person) having a physical or mental condition that limits their movements, senses, or activities.",
     meaningVi: "Bị tàn tật/Bị khuyết tật.",
     exampleEn: "Disabled access.",
     exampleVi: "Lối đi dành cho người khuyết tật.",
-    categories: ["People", "Medical", "Social"],
+    categories: ["People","Medical","Social"],
   },
   {
     id: "c2-83",
@@ -538,8 +583,7 @@ export const D11: VocabularyWord[] = [
     slug: "disadvantage",
     phonetic: "/ˌdɪs.ədˈvæn.tɪdʒ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An unfavorable circumstance or condition that reduces the chances of success or effectiveness.",
+    meaningEn: "An unfavorable circumstance or condition that reduces the chances of success or effectiveness.",
     meaningVi: "Bất lợi.",
     exampleEn: "Lacking experience is a disadvantage.",
     exampleVi: "Thiếu kinh nghiệm là một bất lợi.",
@@ -551,12 +595,11 @@ export const D11: VocabularyWord[] = [
     slug: "disadvantageous",
     phonetic: "/ˌdɪs.æd.vænˈteɪ.dʒəs/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Involving or creating unfavorable circumstances that reduce the chances of success or effectiveness.",
+    meaningEn: "Involving or creating unfavorable circumstances that reduce the chances of success or effectiveness.",
     meaningVi: "Bất lợi/Thiệt thòi.",
     exampleEn: "Disadvantageous position.",
     exampleVi: "Vị thế bất lợi.",
-    categories: ["General", "Economics"],
+    categories: ["General","Economics"],
   },
   {
     id: "gen-5789",
@@ -564,12 +607,11 @@ export const D11: VocabularyWord[] = [
     slug: "disaffect",
     phonetic: "/ˌdɪs.əˈfekt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Make (someone) dissatisfied, especially with people in authority or a system of control.",
+    meaningEn: "Make (someone) dissatisfied, especially with people in authority or a system of control.",
     meaningVi: "Làm cho bất mãn/Làm mất thiện cảm.",
     exampleEn: "Policy that disaffects voters.",
     exampleVi: "Chính sách làm cử tri bất mãn.",
-    categories: ["Politics", "Social"],
+    categories: ["Politics","Social"],
   },
   {
     id: "gen-5790",
@@ -577,12 +619,11 @@ export const D11: VocabularyWord[] = [
     slug: "disaffected",
     phonetic: "/ˌdɪs.əˈfek.tɪd/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Dissatisfied with the people in authority and no longer willing to support them.",
+    meaningEn: "Dissatisfied with the people in authority and no longer willing to support them.",
     meaningVi: "Bất mãn/Không còn trung thành.",
     exampleEn: "Disaffected youth.",
     exampleVi: "Thanh niên bất mãn.",
-    categories: ["Psychology", "Social", "Politics"],
+    categories: ["Psychology","Social","Politics"],
   },
   {
     id: "gen-5791",
@@ -590,12 +631,11 @@ export const D11: VocabularyWord[] = [
     slug: "disaffection",
     phonetic: "/ˌdɪs.əˈfek.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A state of dissatisfaction with a person in authority or a system of control.",
+    meaningEn: "A state of dissatisfaction with a person in authority or a system of control.",
     meaningVi: "Sự bất mãn/Sự nguội lạnh tình cảm.",
     exampleEn: "Growing disaffection.",
     exampleVi: "Sự bất mãn ngày càng tăng.",
-    categories: ["Psychology", "Social", "Politics"],
+    categories: ["Psychology","Social","Politics"],
   },
   {
     id: "b1-17",
@@ -619,7 +659,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Khó chịu/Gắt gỏng/Không thú vị.",
     exampleEn: "Disagreeable smell.",
     exampleVi: "Mùi khó chịu.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-5794",
@@ -631,7 +671,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Một cách khó chịu.",
     exampleEn: "Surprised disagreeably.",
     exampleVi: "Bị làm cho ngạc nhiên một cách khó chịu.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-5795",
@@ -643,7 +683,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Sự bất đồng/Sự không nhất trí.",
     exampleEn: "Deep disagreement.",
     exampleVi: "Sự bất đồng sâu sắc.",
-    categories: ["Social", "General", "Politics"],
+    categories: ["Social","General","Politics"],
   },
   {
     id: "gen-5796",
@@ -655,7 +695,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Không cho phép/Bác bỏ/Từ chối.",
     exampleEn: "Disallow the goal.",
     exampleVi: "Bác bỏ bàn thắng.",
-    categories: ["General", "Sports", "Law"],
+    categories: ["General","Sports","Law"],
   },
   {
     id: "gen-306",
@@ -675,12 +715,11 @@ export const D11: VocabularyWord[] = [
     slug: "disappearance",
     phonetic: "/ˌdɪs.əˈpɪr.əns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An instance or fact of someone or something ceasing to be visible or to exist.",
+    meaningEn: "An instance or fact of someone or something ceasing to be visible or to exist.",
     meaningVi: "Sự biến mất.",
     exampleEn: "Mysterious disappearance.",
     exampleVi: "Sự biến mất bí ẩn.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "gen-5799",
@@ -692,7 +731,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Làm thất vọng.",
     exampleEn: "Disappoint your fans.",
     exampleVi: "Làm người hâm mộ của bạn thất vọng.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5800",
@@ -700,12 +739,11 @@ export const D11: VocabularyWord[] = [
     slug: "disappointed",
     phonetic: "/ˌdɪs.əˈpɔɪn.t̬ɪd/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a person) sad or displeased because someone or something has failed to fulfill one's hopes or expectations.",
+    meaningEn: "(of a person) sad or displeased because someone or something has failed to fulfill one's hopes or expectations.",
     meaningVi: "Bị thất vọng/Thất vọng.",
     exampleEn: "Bitterly disappointed.",
     exampleVi: "Thất vọng cay đắng.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5801",
@@ -717,7 +755,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Đáng thất vọng/Làm thất vọng.",
     exampleEn: "Disappointing results.",
     exampleVi: "Kết quả đáng thất vọng.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5802",
@@ -725,12 +763,11 @@ export const D11: VocabularyWord[] = [
     slug: "disappointment",
     phonetic: "/ˌdɪs.əˈpɔɪnt.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The sadness or displeasure caused by the non-fulfillment of one's hopes or expectations.",
+    meaningEn: "The sadness or displeasure caused by the non-fulfillment of one's hopes or expectations.",
     meaningVi: "Sự thất vọng/Điều làm thất vọng.",
     exampleEn: "Huge disappointment.",
     exampleVi: "Nỗi thất vọng lớn.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5803",
@@ -742,7 +779,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Sự không tán thành/Sự phản đối (về mặt đạo đức).",
     exampleEn: "Social disapprobation.",
     exampleVi: "Sự phản đối của xã hội.",
-    categories: ["Social", "Psychology", "General"],
+    categories: ["Social","Psychology","General"],
   },
   {
     id: "gen-5804",
@@ -754,7 +791,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Sự không tán thành/Sự phản đối.",
     exampleEn: "Roar of disapproval.",
     exampleVi: "Tiếng la ó phản đối.",
-    categories: ["Psychology", "Social", "General"],
+    categories: ["Psychology","Social","General"],
   },
   {
     id: "gen-5805",
@@ -766,7 +803,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Không tán thành/Phản đối.",
     exampleEn: "Disapprove of smoking.",
     exampleVi: "Phản đối việc hút thuốc.",
-    categories: ["Psychology", "Social", "General"],
+    categories: ["Psychology","Social","General"],
   },
   {
     id: "gen-5806",
@@ -778,7 +815,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Có thái độ phản đối/không tán thành.",
     exampleEn: "Disapproving look.",
     exampleVi: "Cái nhìn đầy sự phản đối.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5807",
@@ -798,12 +835,11 @@ export const D11: VocabularyWord[] = [
     slug: "disarm",
     phonetic: "/dɪˈsɑːrm/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Take a weapon or weapons away from (a person, force, or country); win the confidence of (someone).",
+    meaningEn: "Take a weapon or weapons away from (a person, force, or country); win the confidence of (someone).",
     meaningVi: "Giải giới/Tước vũ khí/Làm cho bớt giận.",
     exampleEn: "Disarm the enemy.",
     exampleVi: "Tước vũ khí kẻ thù.",
-    categories: ["Politics", "Law", "Social"],
+    categories: ["Politics","Law","Social"],
   },
   {
     id: "gen-5809",
@@ -815,7 +851,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Sự giải giới/Sự tước vũ khí.",
     exampleEn: "Nuclear disarmament.",
     exampleVi: "Sự giải giới hạt nhân.",
-    categories: ["Politics", "Social"],
+    categories: ["Politics","Social"],
   },
   {
     id: "gen-5810",
@@ -823,12 +859,11 @@ export const D11: VocabularyWord[] = [
     slug: "disarming",
     phonetic: "/dɪˈsɑːr.mɪŋ/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of manner or behavior) having the effect of allaying suspicion or hostility, especially through charm.",
+    meaningEn: "(of manner or behavior) having the effect of allaying suspicion or hostility, especially through charm.",
     meaningVi: "Làm nguôi lòng/Làm hết nghi ngại.",
     exampleEn: "Disarming honesty.",
     exampleVi: "Sự thành thật làm tan biến nỗi nghi ngại.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5811",
@@ -864,7 +899,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Sự lộn xộn/Tình trạng bối rối.",
     exampleEn: "Financial disarray.",
     exampleVi: "Sự hỗn loạn về tài chính.",
-    categories: ["General", "Economics", "Politics"],
+    categories: ["General","Economics","Politics"],
   },
   {
     id: "gen-5814",
@@ -876,7 +911,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Tháo rời (máy móc/thiết bị).",
     exampleEn: "Disassemble the engine.",
     exampleVi: "Tháo rời động cơ.",
-    categories: ["Technology", "Engineering", "General"],
+    categories: ["Technology","Engineering","General"],
   },
   {
     id: "gen-307",
@@ -900,7 +935,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Thảm khốc/Tai hại.",
     exampleEn: "Disastrous consequences.",
     exampleVi: "Hậu quả thảm khốc.",
-    categories: ["General", "Environment"],
+    categories: ["General","Environment"],
   },
   {
     id: "gen-5817",
@@ -924,7 +959,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Không thừa nhận/Phủ nhận.",
     exampleEn: "Disavow the statement.",
     exampleVi: "Phủ nhận lời tuyên bố.",
-    categories: ["Politics", "Law", "Social"],
+    categories: ["Politics","Law","Social"],
   },
   {
     id: "gen-5819",
@@ -936,7 +971,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Sự phủ nhận/Sự không thừa nhận.",
     exampleEn: "Official disavowal.",
     exampleVi: "Sự phủ nhận chính thức.",
-    categories: ["Politics", "Law", "Social"],
+    categories: ["Politics","Law","Social"],
   },
   {
     id: "gen-5820",
@@ -944,12 +979,11 @@ export const D11: VocabularyWord[] = [
     slug: "disband",
     phonetic: "/dɪsˈbænd/",
     partOfSpeech: "verb",
-    meaningEn:
-      "(with reference to an organized group) break up or cause to break up and stop functioning.",
+    meaningEn: "(with reference to an organized group) break up or cause to break up and stop functioning.",
     meaningVi: "Giải tán/Giải ngũ.",
     exampleEn: "Disband the army.",
     exampleVi: "Giải tán quân đội.",
-    categories: ["Politics", "Management", "General"],
+    categories: ["Politics","Management","General"],
   },
   {
     id: "gen-5821",
@@ -961,7 +995,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Sự không tin/Sự hoài nghi.",
     exampleEn: "Stare in disbelief.",
     exampleVi: "Nhìn chằm chằm đầy hoài nghi.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5822",
@@ -973,7 +1007,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Không tin/Hoài nghi.",
     exampleEn: "Disbelieve a story.",
     exampleVi: "Không tin vào một câu chuyện.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5823",
@@ -981,12 +1015,11 @@ export const D11: VocabularyWord[] = [
     slug: "disbeliever",
     phonetic: "/ˌdɪs.bɪˈliː.vɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who does not believe in something, especially one who lacks religious faith.",
+    meaningEn: "A person who does not believe in something, especially one who lacks religious faith.",
     meaningVi: "Người không tin/Người vô đạo.",
     exampleEn: "Disbeliever in ghosts.",
     exampleVi: "Người không tin vào ma quỷ.",
-    categories: ["People", "Psychology", "Religion"],
+    categories: ["People","Psychology","Religion"],
   },
   {
     id: "gen-5824",
@@ -998,7 +1031,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Trút bỏ gánh nặng/Giải tỏa (nỗi lòng/gánh nặng).",
     exampleEn: "Disburden one's conscience.",
     exampleVi: "Giải tỏa lương tâm.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5825",
@@ -1010,7 +1043,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Giải ngân/Thanh toán.",
     exampleEn: "Disburse funds.",
     exampleVi: "Giải ngân các nguồn quỹ.",
-    categories: ["Business", "Economics", "Management"],
+    categories: ["Business","Economics","Management"],
   },
   {
     id: "gen-5826",
@@ -1022,7 +1055,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Sự giải ngân/Khoản thanh toán.",
     exampleEn: "Cash disbursement.",
     exampleVi: "Giải ngân tiền mặt.",
-    categories: ["Business", "Economics"],
+    categories: ["Business","Economics"],
   },
   {
     id: "gen-5827",
@@ -1034,7 +1067,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Đĩa/Đĩa đệm/Ổ đĩa.",
     exampleEn: "Slipped disc.",
     exampleVi: "Thoát vị đĩa đệm.",
-    categories: ["Daily", "Technology", "Medical"],
+    categories: ["Daily","Technology","Medical"],
   },
   {
     id: "gen-5828",
@@ -1042,12 +1075,11 @@ export const D11: VocabularyWord[] = [
     slug: "discard",
     phonetic: "/dɪˈskɑːrd/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Get rid of (someone or something) as no longer useful or desirable.",
+    meaningEn: "Get rid of (someone or something) as no longer useful or desirable.",
     meaningVi: "Loại bỏ/Vứt bỏ/Lá bài bỏ.",
     exampleEn: "Discard old clothes.",
     exampleVi: "Vứt bỏ quần áo cũ.",
-    categories: ["General", "Daily"],
+    categories: ["General","Daily"],
   },
   {
     id: "gen-5829",
@@ -1059,7 +1091,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Nhận thức/Phân biệt/Thấy rõ.",
     exampleEn: "Discern the truth.",
     exampleVi: "Nhận thức rõ sự thật.",
-    categories: ["Psychology", "General", "Science"],
+    categories: ["Psychology","General","Science"],
   },
   {
     id: "gen-5830",
@@ -1071,7 +1103,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Có thể thấy rõ/Có thể nhận thức được.",
     exampleEn: "Discernible difference.",
     exampleVi: "Sự khác biệt có thể thấy rõ.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "gen-5831",
@@ -1083,7 +1115,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Sáng suốt/Có óc nhận xét.",
     exampleEn: "Discerning customer.",
     exampleVi: "Khách hàng sành sỏi/có óc nhận xét tốt.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5832",
@@ -1095,7 +1127,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Sự sáng suốt/Sự nhận thức sâu sắc.",
     exampleEn: "Lacking discernment.",
     exampleVi: "Thiếu sự sáng suốt/nhận thức.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5833",
@@ -1103,12 +1135,11 @@ export const D11: VocabularyWord[] = [
     slug: "discharge",
     phonetic: "/dɪsˈtʃɑːrdʒ/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Tell (someone) officially that they can or must leave, especially a hospital or a law court; the action of discharging someone.",
+    meaningEn: "Tell (someone) officially that they can or must leave, especially a hospital or a law court; the action of discharging someone.",
     meaningVi: "Cho về/Phóng ra/Xả (rác/nước)/Sự xuất viện.",
     exampleEn: "Discharge from hospital.",
     exampleVi: "Sự xuất viện.",
-    categories: ["General", "Medical", "Environment", "Science"],
+    categories: ["General","Medical","Environment","Science"],
   },
   {
     id: "gen-5834",
@@ -1116,12 +1147,11 @@ export const D11: VocabularyWord[] = [
     slug: "disciple",
     phonetic: "/dɪˈsaɪ.pəl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A personal follower of Jesus during his life, especially one of the twelve Apostles.",
+    meaningEn: "A personal follower of Jesus during his life, especially one of the twelve Apostles.",
     meaningVi: "Môn đồ/Tín đồ/Học trò.",
     exampleEn: "Follow the master as a disciple.",
     exampleVi: "Đi theo sư phụ như một người học trò.",
-    categories: ["People", "Religion", "Education"],
+    categories: ["People","Religion","Education"],
   },
   {
     id: "gen-5835",
@@ -1133,7 +1163,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Người kỷ luật/Người chấp hành kỷ luật nghiêm khắc.",
     exampleEn: "Strict disciplinarian.",
     exampleVi: "Người kỷ luật nghiêm khắc.",
-    categories: ["People", "Psychology", "Education"],
+    categories: ["People","Psychology","Education"],
   },
   {
     id: "gen-5836",
@@ -1145,7 +1175,7 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Thuộc về kỷ luật/Thuộc về một môn học/ngành học.",
     exampleEn: "Disciplinary action.",
     exampleVi: "Biện pháp kỷ luật.",
-    categories: ["Education", "Business", "Management"],
+    categories: ["Education","Business","Management"],
   },
   {
     id: "gen-5837",
@@ -1153,12 +1183,11 @@ export const D11: VocabularyWord[] = [
     slug: "discipline",
     phonetic: "/ˈdɪs.ə.plɪn/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "The practice of training people to obey rules or a code of behavior.",
+    meaningEn: "The practice of training people to obey rules or a code of behavior.",
     meaningVi: "Kỷ luật/Môn học/Rèn luyện kỷ luật.",
     exampleEn: "Maintain discipline.",
     exampleVi: "Duy trì kỷ luật.",
-    categories: ["Education", "Business", "Management"],
+    categories: ["Education","Business","Management"],
   },
   {
     id: "gen-5838",
@@ -1170,67 +1199,6 @@ export const D11: VocabularyWord[] = [
     meaningVi: "Từ chối trách nhiệm/Phủ nhận.",
     exampleEn: "Disclaim responsibility.",
     exampleVi: "Từ chối trách nhiệm.",
-    categories: ["Law", "Politics", "Social"],
-  },
-  {
-    id: "gen-5839",
-    word: "Disclaimer",
-    slug: "disclaimer",
-    phonetic: "/dɪˈskleɪ.mɚ/",
-    partOfSpeech: "noun",
-    meaningEn: "A statement that denies something, especially responsibility.",
-    meaningVi: "Lời khước từ/Thông báo phủ nhận trách nhiệm.",
-    exampleEn: "Legal disclaimer.",
-    exampleVi: "Tuyên bố miễn trừ trách nhiệm pháp lý.",
-    categories: ["Law", "General", "Politics"],
-  },
-  {
-    id: "gen-5840",
-    word: "Disclose",
-    slug: "disclose",
-    phonetic: "/dɪˈskloʊz/",
-    partOfSpeech: "verb",
-    meaningEn: "Make (secret or new information) known.",
-    meaningVi: "Tiết lộ/Vạch trần.",
-    exampleEn: "Disclose a secret.",
-    exampleVi: "Tiết lộ một bí mật.",
-    categories: ["General", "Politics", "Law"],
-  },
-  {
-    id: "gen-5841",
-    word: "Disclosure",
-    slug: "disclosure",
-    phonetic: "/dɪˈskloʊ.ʒɚ/",
-    partOfSpeech: "noun",
-    meaningEn: "The action of making new or secret information known.",
-    meaningVi: "Sự tiết lộ/Vật được tiết lộ.",
-    exampleEn: "Full disclosure.",
-    exampleVi: "Tiết lộ đầy đủ thông tin.",
-    categories: ["Politics", "Law", "General"],
-  },
-  {
-    id: "gen-5842",
-    word: "Disco",
-    slug: "disco",
-    phonetic: "/ˈdɪs.koʊ/",
-    partOfSpeech: "noun",
-    meaningEn: "A club or party at which people dance to pop music.",
-    meaningVi: "Nhạc disco/Sàn nhảy disco.",
-    exampleEn: "Disco music.",
-    exampleVi: "Nhạc disco.",
-    categories: ["Music", "Social", "Daily"],
-  },
-  {
-    id: "gen-5843",
-    word: "Discolor",
-    slug: "discolor",
-    phonetic: "/dɪˈskʌl.ər/",
-    partOfSpeech: "verb",
-    meaningEn:
-      "Change or cause to change to a different, less attractive color.",
-    meaningVi: "Làm đổi màu/Bạc màu/Biến màu.",
-    exampleEn: "The fabric discolored over time.",
-    exampleVi: "Vải bị bạc màu theo thời gian.",
-    categories: ["General", "Science"],
-  },
+    categories: ["Law","Politics","Social"],
+  }
 ];

@@ -2,17 +2,52 @@ import { VocabularyWord } from "../../types";
 
 export const C20: VocabularyWord[] = [
   {
+    id: "gen-4578",
+    word: "Crusader",
+    slug: "crusader",
+    phonetic: "/kruːˈseɪ.dɚ/",
+    partOfSpeech: "noun",
+    meaningEn: "A person who takes part in a crusade.",
+    meaningVi: "Người tham gia thập tự chinh/Người đấu tranh cho một phong trào.",
+    exampleEn: "Social crusader.",
+    exampleVi: "Người đấu tranh cho các vấn đề xã hội.",
+    categories: ["People","History","Social"],
+  },
+  {
+    id: "gen-4579",
+    word: "Crush",
+    slug: "crush",
+    phonetic: "/krʌʃ/",
+    partOfSpeech: "verb/noun",
+    meaningEn: "Compress or squeeze forcefully so as to smash or distort.",
+    meaningVi: "Nghiền nát/Đè bẹp/Làm tiêu tan/Sự phải lòng (lóng).",
+    exampleEn: "Have a crush on her.",
+    exampleVi: "Thầm thương trộm nhớ cô ấy.",
+    categories: ["General","Psychology","Social"],
+  },
+  {
+    id: "gen-4580",
+    word: "Crushable",
+    slug: "crushable",
+    phonetic: "/ˈkrʌʃ.ə.bəl/",
+    partOfSpeech: "adjective",
+    meaningEn: "Capable of being crushed.",
+    meaningVi: "Có thể nghiền nát/Dễ bị ép nát.",
+    exampleEn: "Crushable hat.",
+    exampleVi: "Mũ có thể gập lại (không hỏng dáng).",
+    categories: ["General","Body"],
+  },
+  {
     id: "gen-4581",
     word: "Crust",
     slug: "crust",
     phonetic: "/krʌst/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "The tough outer part of a loaf of bread; a hardened layer, coating, or deposit on the surface of something soft.",
+    meaningEn: "The tough outer part of a loaf of bread; a hardened layer, coating, or deposit on the surface of something soft.",
     meaningVi: "Vỏ bánh mì/Vỏ cứng/Vỏ trái đất.",
     exampleEn: "Earth's crust.",
     exampleVi: "Vỏ trái đất.",
-    categories: ["Food & Drink", "Nature", "Science"],
+    categories: ["Food & Drink","Nature","Science"],
   },
   {
     id: "gen-4582",
@@ -20,12 +55,11 @@ export const C20: VocabularyWord[] = [
     slug: "crustacean",
     phonetic: "/krʌˈsteɪ.ʃən/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "An arthropod of the large, mainly aquatic group such as a crab, lobster, shrimp, or barnacle.",
+    meaningEn: "An arthropod of the large, mainly aquatic group such as a crab, lobster, shrimp, or barnacle.",
     meaningVi: "Động vật giáp xác (tôm, cua...).",
     exampleEn: "Edible crustacean.",
     exampleVi: "Động vật giáp xác ăn được.",
-    categories: ["Animals", "Science", "Nature"],
+    categories: ["Animals","Science","Nature"],
   },
   {
     id: "gen-4583",
@@ -37,7 +71,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Có vỏ cứng/Giòn/Hay gắt gỏng.",
     exampleEn: "Crusty bread.",
     exampleVi: "Bánh mì có vỏ giòn.",
-    categories: ["Food & Drink", "Psychology"],
+    categories: ["Food & Drink","Psychology"],
   },
   {
     id: "gen-4584",
@@ -45,12 +79,11 @@ export const C20: VocabularyWord[] = [
     slug: "crutch",
     phonetic: "/krʌtʃ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A long stick with a crosspiece at the top, used as a support under the armpit by a person with an injury or disability.",
+    meaningEn: "A long stick with a crosspiece at the top, used as a support under the armpit by a person with an injury or disability.",
     meaningVi: "Cái nạng/Cái chống/Sự hỗ trợ.",
     exampleEn: "Walk on crutches.",
     exampleVi: "Đi bằng nạng.",
-    categories: ["Medical", "General"],
+    categories: ["Medical","General"],
   },
   {
     id: "gen-4585",
@@ -62,7 +95,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Điểm mấu chốt/Cốt lõi.",
     exampleEn: "The crux of the matter.",
     exampleVi: "Mấu chốt của vấn đề.",
-    categories: ["General", "Philosophy"],
+    categories: ["General","Philosophy"],
   },
   {
     id: "gen-216",
@@ -74,7 +107,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Khóc.",
     exampleEn: "The baby is crying.",
     exampleVi: "Em bé đang khóc.",
-    categories: ["Emotions", "Daily"],
+    categories: ["Emotions","Daily"],
   },
   {
     id: "gen-4587",
@@ -86,7 +119,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Bí ẩn/Khó hiểu/Mật mã.",
     exampleEn: "Cryptic message.",
     exampleVi: "Thông điệp bí ẩn.",
-    categories: ["General", "Social", "Technology"],
+    categories: ["General","Social","Technology"],
   },
   {
     id: "gen-4588",
@@ -110,7 +143,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Tiền kỹ thuật số.",
     exampleEn: "Invest in cryptocurrency.",
     exampleVi: "Đầu tư vào tiền kỹ thuật số.",
-    categories: ["Technology", "Business", "Daily"],
+    categories: ["Technology","Business","Daily"],
   },
   {
     id: "gen-4589",
@@ -122,7 +155,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Bản tin mật mã.",
     exampleEn: "Decoding a cryptogram.",
     exampleVi: "Giải mã một bản tin mật mả.",
-    categories: ["Technology", "Science", "General"],
+    categories: ["Technology","Science","General"],
   },
   {
     id: "c1-208",
@@ -134,7 +167,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Mật mã học.",
     exampleEn: "Modern cryptography relies on mathematical hardness.",
     exampleVi: "Mật mã học hiện đại dựa vào độ khó của toán học.",
-    categories: ["Technology", "Academic"],
+    categories: ["Technology","Academic"],
   },
   {
     id: "gen-4590",
@@ -142,12 +175,11 @@ export const C20: VocabularyWord[] = [
     slug: "crystal",
     phonetic: "/ˈkrɪs.təl/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A piece of a homogeneous solid substance having a natural geometrically regular form.",
+    meaningEn: "A piece of a homogeneous solid substance having a natural geometrically regular form.",
     meaningVi: "Pha lê/Tinh thể/Trong suốt.",
     exampleEn: "Crystal clear.",
     exampleVi: "Trong suốt như pha lê/Rất rõ ràng.",
-    categories: ["Science", "Body", "General"],
+    categories: ["Science","Body","General"],
   },
   {
     id: "gen-4591",
@@ -159,7 +191,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Bằng tinh thể/Trong suốt.",
     exampleEn: "Crystalline structure.",
     exampleVi: "Cấu trúc tinh thể.",
-    categories: ["Science", "Body"],
+    categories: ["Science","Body"],
   },
   {
     id: "gen-4592",
@@ -171,7 +203,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Sự kết tinh/Sự cụ thể hóa.",
     exampleEn: "Crystallization of ideas.",
     exampleVi: "Sự cụ thể hóa các ý tưởng.",
-    categories: ["Science", "Psychology", "General"],
+    categories: ["Science","Psychology","General"],
   },
   {
     id: "gen-4593",
@@ -179,12 +211,11 @@ export const C20: VocabularyWord[] = [
     slug: "crystallize",
     phonetic: "/ˈkrɪs.tə.laɪz/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Form or cause to form crystals; make or become definite and clear.",
+    meaningEn: "Form or cause to form crystals; make or become definite and clear.",
     meaningVi: "Kết tinh/Cụ thể hóa.",
     exampleEn: "Plans crystallized.",
     exampleVi: "Các kế hoạch đã được cụ thể hóa.",
-    categories: ["Science", "General", "Psychology"],
+    categories: ["Science","General","Psychology"],
   },
   {
     id: "gen-4594",
@@ -192,12 +223,11 @@ export const C20: VocabularyWord[] = [
     slug: "cub",
     phonetic: "/kʌb/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "The young of a particular carnivorous mammal, such as a lion, tiger, or bear.",
+    meaningEn: "The young of a particular carnivorous mammal, such as a lion, tiger, or bear.",
     meaningVi: "Thú con/Sư tử con/Hổ con/Gấu con/Người non nớt.",
     exampleEn: "Bear cub.",
     exampleVi: "Gấu con.",
-    categories: ["Animals", "General"],
+    categories: ["Animals","General"],
   },
   {
     id: "gen-4595",
@@ -209,7 +239,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Ngóc ngách nhỏ/Ngăn để đồ nhỏ.",
     exampleEn: "Children's cubby-hole.",
     exampleVi: "Ngăn để đồ của trẻ em.",
-    categories: ["General", "Home"],
+    categories: ["General","Home"],
   },
   {
     id: "gen-4596",
@@ -217,12 +247,11 @@ export const C20: VocabularyWord[] = [
     slug: "cube",
     phonetic: "/kjuːb/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A symmetrical three-dimensional shape, either solid or hollow, contained by six equal squares.",
+    meaningEn: "A symmetrical three-dimensional shape, either solid or hollow, contained by six equal squares.",
     meaningVi: "Hình lập phương/Khối vuông/Lũy thừa bậc ba.",
     exampleEn: "Ice cube.",
     exampleVi: "Viên đá lạnh hình vuông.",
-    categories: ["Science", "General"],
+    categories: ["Science","General"],
   },
   {
     id: "gen-4597",
@@ -230,12 +259,11 @@ export const C20: VocabularyWord[] = [
     slug: "cubic",
     phonetic: "/ˈkjuː.bɪk/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Having the shape of a cube; relating to or denoting a unit of volume.",
+    meaningEn: "Having the shape of a cube; relating to or denoting a unit of volume.",
     meaningVi: "Hình lập phương/Bậc ba/Đơn vị mét khối.",
     exampleEn: "Cubic meter.",
     exampleVi: "Mét khối.",
-    categories: ["Science", "Engineering"],
+    categories: ["Science","Engineering"],
   },
   {
     id: "gen-4598",
@@ -259,7 +287,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Chủ nghĩa lập phương.",
     exampleEn: "Picasso and Cubism.",
     exampleVi: "Picasso và Chủ nghĩa lập phương.",
-    categories: ["Art", "History"],
+    categories: ["Art","History"],
   },
   {
     id: "gen-4600",
@@ -271,7 +299,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Họa sĩ theo trường phái lập phương.",
     exampleEn: "Cubist painting.",
     exampleVi: "Họa tiết tranh lập phương.",
-    categories: ["Art", "People"],
+    categories: ["Art","People"],
   },
   {
     id: "gen-4601",
@@ -279,12 +307,11 @@ export const C20: VocabularyWord[] = [
     slug: "cubit",
     phonetic: "/ˈkjuː.bɪt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An ancient measure of length, approximately equal to the length of a forearm.",
+    meaningEn: "An ancient measure of length, approximately equal to the length of a forearm.",
     meaningVi: "Đơn vị đo độ dài cổ (bằng khoảng một cẳng tay).",
     exampleEn: "Measuring in cubits.",
     exampleVi: "Đo bằng cubit.",
-    categories: ["History", "Science"],
+    categories: ["History","Science"],
   },
   {
     id: "gen-4602",
@@ -296,7 +323,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Người chồng bị cắm sừng.",
     exampleEn: "To cuckold someone.",
     exampleVi: "Cắm sừng ai đó.",
-    categories: ["People", "Social", "Psychology"],
+    categories: ["People","Social","Psychology"],
   },
   {
     id: "gen-4603",
@@ -304,12 +331,11 @@ export const C20: VocabularyWord[] = [
     slug: "cuckoo",
     phonetic: "/ˈkʊk.uː/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A medium-sized long-tailed bird, typically with a gray-brown back and barred white underparts; mad; crazy.",
+    meaningEn: "A medium-sized long-tailed bird, typically with a gray-brown back and barred white underparts; mad; crazy.",
     meaningVi: "Chim cúc cu/Kẻ điên rồ.",
     exampleEn: "Cuckoo clock.",
     exampleVi: "Đồng hồ chim cúc cu.",
-    categories: ["Animals", "General", "Psychology"],
+    categories: ["Animals","General","Psychology"],
   },
   {
     id: "gen-4604",
@@ -317,12 +343,11 @@ export const C20: VocabularyWord[] = [
     slug: "cucumber",
     phonetic: "/ˈkjuː.kʌm.bɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A long, green-skinned fruit with watery flesh, usually eaten raw in salads.",
+    meaningEn: "A long, green-skinned fruit with watery flesh, usually eaten raw in salads.",
     meaningVi: "Dưa chuột/Dưa leo.",
     exampleEn: "Cool as a cucumber.",
     exampleVi: "Bình tĩnh như không (thành ngữ).",
-    categories: ["Food & Drink", "Nature"],
+    categories: ["Food & Drink","Nature"],
   },
   {
     id: "gen-4605",
@@ -330,12 +355,11 @@ export const C20: VocabularyWord[] = [
     slug: "cud",
     phonetic: "/kʌd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Partly digested food returned from the first stomach of a ruminant to the mouth for further chewing.",
+    meaningEn: "Partly digested food returned from the first stomach of a ruminant to the mouth for further chewing.",
     meaningVi: "Thức ăn đang nhai lại.",
     exampleEn: "Chew the cud.",
     exampleVi: "Nhai lại thức ăn/Suy ngẫm kỹ (thành ngữ).",
-    categories: ["Animals", "General"],
+    categories: ["Animals","General"],
   },
   {
     id: "gen-4606",
@@ -343,12 +367,11 @@ export const C20: VocabularyWord[] = [
     slug: "cuddle",
     phonetic: "/ˈkʌd.əl/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Hold close in one's arms as a way of showing love or affection.",
+    meaningEn: "Hold close in one's arms as a way of showing love or affection.",
     meaningVi: "Ôm ấp/Vuốt ve/Sự ôm ấp.",
     exampleEn: "Give me a cuddle.",
     exampleVi: "Ôm tớ một cái đi.",
-    categories: ["Social", "Psychology"],
+    categories: ["Social","Psychology"],
   },
   {
     id: "gen-4607",
@@ -360,7 +383,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Dễ thương/Gợi vẻ muốn ôm.",
     exampleEn: "Cuddlesome teddy bear.",
     exampleVi: "Gấu bông trông thật muốn ôm.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-4608",
@@ -372,7 +395,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Dễ thương/Bụ bẫm/Dễ ôm.",
     exampleEn: "Cuddly kitten.",
     exampleVi: "Mèo con dễ thương.",
-    categories: ["General", "Body"],
+    categories: ["General","Body"],
   },
   {
     id: "gen-4609",
@@ -384,7 +407,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Gậy gộc/Dùi cui/Đánh bằng gậy.",
     exampleEn: "Take up the cudgels for.",
     exampleVi: "Ra sức bảo vệ/bênh vực ai đó (thành ngữ).",
-    categories: ["General", "History"],
+    categories: ["General","History"],
   },
   {
     id: "gen-4610",
@@ -392,12 +415,11 @@ export const C20: VocabularyWord[] = [
     slug: "cue",
     phonetic: "/kjuː/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A thing said or done that serves as a signal; a long, tapering wooden rod for pool, billiards, or snooker.",
+    meaningEn: "A thing said or done that serves as a signal; a long, tapering wooden rod for pool, billiards, or snooker.",
     meaningVi: "Dấu hiệu/Ám hiệu/Gậy đánh bi-a.",
     exampleEn: "Take your cue from.",
     exampleVi: "Làm theo dấu hiệu của ai đó.",
-    categories: ["General", "Art", "Sports"],
+    categories: ["General","Art","Sports"],
   },
   {
     id: "gen-4611",
@@ -405,12 +427,11 @@ export const C20: VocabularyWord[] = [
     slug: "cuff",
     phonetic: "/kʌf/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "The end of a shirt sleeve that covers the wrist; handcuffs; strike with an open hand.",
+    meaningEn: "The end of a shirt sleeve that covers the wrist; handcuffs; strike with an open hand.",
     meaningVi: "Cổ tay áo/Cóng tay/Tát/Đánh nhẹ.",
     exampleEn: "Hand cuffs.",
     exampleVi: "Cái còng tay.",
-    categories: ["Body", "General", "Law"],
+    categories: ["Body","General","Law"],
   },
   {
     id: "gen-4612",
@@ -418,12 +439,11 @@ export const C20: VocabularyWord[] = [
     slug: "cuisine",
     phonetic: "/kwɪˈziːn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A style or method of cooking, especially as characteristic of a particular country, region, or establishment.",
+    meaningEn: "A style or method of cooking, especially as characteristic of a particular country, region, or establishment.",
     meaningVi: "Ẩm thực/Cách nấu nướng.",
     exampleEn: "French cuisine.",
     exampleVi: "Ẩm thực Pháp.",
-    categories: ["Food & Drink", "Social"],
+    categories: ["Food & Drink","Social"],
   },
   {
     id: "gen-4613",
@@ -435,7 +455,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Thuộc về bếp núc/nấu nướng.",
     exampleEn: "Culinary skills.",
     exampleVi: "Kỹ năng nấu nướng.",
-    categories: ["Food & Drink", "Daily"],
+    categories: ["Food & Drink","Daily"],
   },
   {
     id: "gen-4614",
@@ -443,12 +463,11 @@ export const C20: VocabularyWord[] = [
     slug: "cull",
     phonetic: "/kʌl/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Select from a large quantity; obtain from a variety of sources; reduce the population of (a wild animal) by selective slaughter.",
+    meaningEn: "Select from a large quantity; obtain from a variety of sources; reduce the population of (a wild animal) by selective slaughter.",
     meaningVi: "Chọn lọc/Gom góp/Sát hại có chọn lọc (để giảm số lượng đàn).",
     exampleEn: "Cull information.",
     exampleVi: "Gom góp thông tin.",
-    categories: ["General", "Science", "Animals"],
+    categories: ["General","Science","Animals"],
   },
   {
     id: "gen-4615",
@@ -460,7 +479,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Lên đến cực điểm/Lên đến đỉnh cao.",
     exampleEn: "Culminate in success.",
     exampleVi: "Kết thúc bằng sự thành công.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "gen-4616",
@@ -468,12 +487,11 @@ export const C20: VocabularyWord[] = [
     slug: "culmination",
     phonetic: "/ˌkʌl.məˈneɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The highest or climactic point of something, especially as attained after a long time.",
+    meaningEn: "The highest or climactic point of something, especially as attained after a long time.",
     meaningVi: "Cực điểm/Đỉnh cao/Kết quả cuối cùng.",
     exampleEn: "The culmination of years of work.",
     exampleVi: "Kết quả của nhiều năm làm việc.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "gen-4617",
@@ -485,7 +503,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Sự có lỗi/Tội lỗi/Đáng bị khiển trách.",
     exampleEn: "Deny all culpability.",
     exampleVi: "Phủ nhận mọi tội lỗi.",
-    categories: ["Law", "Psychology", "Social"],
+    categories: ["Law","Psychology","Social"],
   },
   {
     id: "gen-4618",
@@ -497,7 +515,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Có lỗi/Đáng bị trừng phạt/Tội lỗi.",
     exampleEn: "Culpable homicide.",
     exampleVi: "Tội ngộ sát.",
-    categories: ["Law", "Social"],
+    categories: ["Law","Social"],
   },
   {
     id: "gen-4619",
@@ -521,7 +539,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Thủ phạm/Bị cáo/Nguyên nhân gây ra.",
     exampleEn: "The real culprit.",
     exampleVi: "Thủ phạm thực sự.",
-    categories: ["People", "Law", "Social"],
+    categories: ["People","Law","Social"],
   },
   {
     id: "gen-4621",
@@ -529,12 +547,11 @@ export const C20: VocabularyWord[] = [
     slug: "cult",
     phonetic: "/kʌlt/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A system of religious veneration and devotion directed toward a particular figure or object.",
+    meaningEn: "A system of religious veneration and devotion directed toward a particular figure or object.",
     meaningVi: "Giáo phái/Sự sùng bái/Cuồng nhiệt (đối tượng cụ thể).",
     exampleEn: "Cult following.",
     exampleVi: "Lượng người hâm mộ cuồng nhiệt.",
-    categories: ["Social", "Religion", "Psychology"],
+    categories: ["Social","Religion","Psychology"],
   },
   {
     id: "gen-4622",
@@ -546,7 +563,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Có thể canh tác/Có thể cày cấy.",
     exampleEn: "Cultivatable land.",
     exampleVi: "Đất có thể canh tác.",
-    categories: ["Nature", "Science"],
+    categories: ["Nature","Science"],
   },
   {
     id: "gen-4623",
@@ -554,12 +571,11 @@ export const C20: VocabularyWord[] = [
     slug: "cultivate",
     phonetic: "/ˈkʌl.tɪ.veɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Prepare and use (land) for crops or gardening; foster in oneself or another.",
+    meaningEn: "Prepare and use (land) for crops or gardening; foster in oneself or another.",
     meaningVi: "Trồng trọt/Cày cấy/Trau dồi/Nuôi dưỡng (tình cảm, kỹ năng).",
     exampleEn: "Cultivate talent.",
     exampleVi: "Trau dồi tài năng.",
-    categories: ["General", "Nature", "Psychology"],
+    categories: ["General","Nature","Psychology"],
   },
   {
     id: "gen-4624",
@@ -567,12 +583,11 @@ export const C20: VocabularyWord[] = [
     slug: "cultivation",
     phonetic: "/ˌkʌl.tɪˈveɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action of cultivating land, or the state of being cultivated.",
+    meaningEn: "The action of cultivating land, or the state of being cultivated.",
     meaningVi: "Sự canh tác/Sự trồng trọt/Sự trau dồi.",
     exampleEn: "Soil cultivation.",
     exampleVi: "Sự cày xới đất.",
-    categories: ["Nature", "Business", "Education"],
+    categories: ["Nature","Business","Education"],
   },
   {
     id: "gen-4625",
@@ -584,7 +599,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Người trồng trọt/Máy cày/Máy xới.",
     exampleEn: "Power cultivator.",
     exampleVi: "Máy xới chạy điện.",
-    categories: ["People", "Engineering", "Business"],
+    categories: ["People","Engineering","Business"],
   },
   {
     id: "gen-4626",
@@ -592,12 +607,11 @@ export const C20: VocabularyWord[] = [
     slug: "cultural",
     phonetic: "/ˈkʌl.tʃɚ.əl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to the ideas, customs, and social behavior of a society.",
+    meaningEn: "Relating to the ideas, customs, and social behavior of a society.",
     meaningVi: "Thuộc về văn hóa.",
     exampleEn: "Cultural heritage.",
     exampleVi: "Di sản văn hóa.",
-    categories: ["Social", "History", "General"],
+    categories: ["Social","History","General"],
   },
   {
     id: "gen-4627",
@@ -617,8 +631,7 @@ export const C20: VocabularyWord[] = [
     slug: "culture",
     phonetic: "/ˈkʌl.tʃər/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The arts and other manifestations of human intellectual achievement regarded collectively.",
+    meaningEn: "The arts and other manifestations of human intellectual achievement regarded collectively.",
     meaningVi: "Văn hóa.",
     exampleEn: "Traditional culture.",
     exampleVi: "Văn hóa truyền thống.",
@@ -634,7 +647,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Có học thức/Có văn hóa/Được nuôi cấy.",
     exampleEn: "A cultured man.",
     exampleVi: "Một người đàn ông có giáo dưỡng.",
-    categories: ["People", "Psychology", "Social"],
+    categories: ["People","Psychology","Social"],
   },
   {
     id: "gen-4630",
@@ -642,12 +655,11 @@ export const C20: VocabularyWord[] = [
     slug: "culvert",
     phonetic: "/ˈkʌl.vɚt/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A tunnel carrying a stream or open drain under a road or railroad.",
+    meaningEn: "A tunnel carrying a stream or open drain under a road or railroad.",
     meaningVi: "Cống (dưới đường)/Mương xây.",
     exampleEn: "Concrete culvert.",
     exampleVi: "Cống bê tông.",
-    categories: ["Engineering", "Travel"],
+    categories: ["Engineering","Travel"],
   },
   {
     id: "gen-4631",
@@ -659,7 +671,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Làm cản trở/Làm vướng víu.",
     exampleEn: "Cumber the progress.",
     exampleVi: "Cản trở tiến trình.",
-    categories: ["General", "History"],
+    categories: ["General","History"],
   },
   {
     id: "gen-4632",
@@ -667,12 +679,11 @@ export const C20: VocabularyWord[] = [
     slug: "cumbersome",
     phonetic: "/ˈkʌm.bɚ.səm/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Large or heavy and therefore difficult to carry or use; unwieldy.",
+    meaningEn: "Large or heavy and therefore difficult to carry or use; unwieldy.",
     meaningVi: "Cồng kềnh/Nặng nề/Làm vướng víu.",
     exampleEn: "Cumbersome equipment.",
     exampleVi: "Thiết bị cồng kềnh.",
-    categories: ["General", "Engineering"],
+    categories: ["General","Engineering"],
   },
   {
     id: "gen-4633",
@@ -692,12 +703,11 @@ export const C20: VocabularyWord[] = [
     slug: "cumin",
     phonetic: "/ˈkʌm.ɪn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The small seeds of a plant in the parsley family, used as a spice.",
+    meaningEn: "The small seeds of a plant in the parsley family, used as a spice.",
     meaningVi: "Thì là Ai Cập.",
     exampleEn: "Ground cumin.",
     exampleVi: "Bột thì là.",
-    categories: ["Food & Drink", "Nature"],
+    categories: ["Food & Drink","Nature"],
   },
   {
     id: "gen-4635",
@@ -709,7 +719,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Tích lũy/Chồng chất.",
     exampleEn: "Cumulate points.",
     exampleVi: "Tích lũy điểm số.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "c1-212",
@@ -721,7 +731,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Tích lũy.",
     exampleEn: "The cumulative effect of pollution.",
     exampleVi: "Tác động tích lũy của ô nhiễm.",
-    categories: ["Academic", "Daily"],
+    categories: ["Academic","Daily"],
   },
   {
     id: "gen-4637",
@@ -729,12 +739,11 @@ export const C20: VocabularyWord[] = [
     slug: "cumulus",
     phonetic: "/ˈkjuː.mjə.ləs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A cloud forming rounded masses heaped on each other above a flat base.",
+    meaningEn: "A cloud forming rounded masses heaped on each other above a flat base.",
     meaningVi: "Mây tích/Đống/Khối.",
     exampleEn: "White cumulus clouds.",
     exampleVi: "Những đám mây tích trắng.",
-    categories: ["Science", "Nature"],
+    categories: ["Science","Nature"],
   },
   {
     id: "gen-4638",
@@ -742,12 +751,11 @@ export const C20: VocabularyWord[] = [
     slug: "cuneiform",
     phonetic: "/ˈkjuː.ni.ə.fɔːrm/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "Denoting or relating to the wedge-shaped characters used in the ancient writing systems of Mesopotamia.",
+    meaningEn: "Denoting or relating to the wedge-shaped characters used in the ancient writing systems of Mesopotamia.",
     meaningVi: "Chữ hình nêm (cổ).",
     exampleEn: "Cuneiform tablets.",
     exampleVi: "Các bản đất sét chữ hình nêm.",
-    categories: ["History", "Social", "Education"],
+    categories: ["History","Social","Education"],
   },
   {
     id: "gen-4639",
@@ -755,12 +763,11 @@ export const C20: VocabularyWord[] = [
     slug: "cunning",
     phonetic: "/ˈkʌn.ɪŋ/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "Having or showing skill in achieving one's ends by deceit or evasion.",
+    meaningEn: "Having or showing skill in achieving one's ends by deceit or evasion.",
     meaningVi: "Xảo quyệt/Láu cá/Khéo tay/Sự gian xảo.",
     exampleEn: "Cunning plan.",
     exampleVi: "Kế hoạch xảo quyệt.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-4640",
@@ -772,7 +779,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Một cách xảo quyệt/khéo léo.",
     exampleEn: "Cunningly designed.",
     exampleVi: "Được thiết kế một cách khéo léo/tinh vi.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-218",
@@ -792,12 +799,11 @@ export const C20: VocabularyWord[] = [
     slug: "cupboard",
     phonetic: "/ˈkʌb.ɚd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A cabinet or closet, typically with shelves, for storing dishes, food, etc.",
+    meaningEn: "A cabinet or closet, typically with shelves, for storing dishes, food, etc.",
     meaningVi: "Tủ búp phê/Tủ chén bát/Tủ đồ.",
     exampleEn: "Kitchen cupboard.",
     exampleVi: "Tủ bếp.",
-    categories: ["Daily", "Home"],
+    categories: ["Daily","Home"],
   },
   {
     id: "gen-4643",
@@ -805,12 +811,11 @@ export const C20: VocabularyWord[] = [
     slug: "cupel",
     phonetic: "/ˈkjuː.pəl/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A small shallow porous cup used in assaying to separate precious metals from lead.",
+    meaningEn: "A small shallow porous cup used in assaying to separate precious metals from lead.",
     meaningVi: "Chén thử vàng (làm bằng tro xương).",
     exampleEn: "Assay via cupel.",
     exampleVi: "Thử nghiệm qua chén thử.",
-    categories: ["Science", "Engineering"],
+    categories: ["Science","Engineering"],
   },
   {
     id: "c2-77",
@@ -830,12 +835,11 @@ export const C20: VocabularyWord[] = [
     slug: "cupola",
     phonetic: "/ˈkjuː.pə.lə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A small dome, especially a small dome on a drum on top of a larger dome.",
+    meaningEn: "A small dome, especially a small dome on a drum on top of a larger dome.",
     meaningVi: "Mái vòm nhỏ/Vòm quan sát.",
     exampleEn: "The church cupola.",
     exampleVi: "Mái vòm của nhà thờ.",
-    categories: ["Architecture", "General"],
+    categories: ["Architecture","General"],
   },
   {
     id: "gen-4646",
@@ -847,7 +851,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Gã đê tiện/Con chó lai/Chó dữ.",
     exampleEn: "Contemptible cur.",
     exampleVi: "Một gã tồi đê tiện.",
-    categories: ["People", "Animals", "Psychology"],
+    categories: ["People","Animals","Psychology"],
   },
   {
     id: "gen-4647",
@@ -859,7 +863,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Có thể chữa khỏi.",
     exampleEn: "Curable disease.",
     exampleVi: "Bệnh có thể chữa khỏi.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-4648",
@@ -867,12 +871,11 @@ export const C20: VocabularyWord[] = [
     slug: "curate",
     phonetic: "/ˈkjʊr.ət/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A member of the clergy engaged as assistant to a vicar, rector, or parish priest; select, organize, and look after the items in (a collection or exhibition).",
+    meaningEn: "A member of the clergy engaged as assistant to a vicar, rector, or parish priest; select, organize, and look after the items in (a collection or exhibition).",
     meaningVi: "Cha phó/Phụ tá linh mục/Tuyển lọc/Quản lý triển lãm.",
     exampleEn: "Curate a museum exhibit.",
     exampleVi: "Quản lý một cuộc triển lãm bảo tàng.",
-    categories: ["Religion", "Business", "Art", "Social"],
+    categories: ["Religion","Business","Art","Social"],
   },
   {
     id: "gen-4649",
@@ -884,7 +887,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Có tác dụng chữa bệnh/Thuốc chữa bệnh.",
     exampleEn: "Curative properties.",
     exampleVi: "Đặc tính chữa bệnh.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-4650",
@@ -896,7 +899,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Người quản lý (bảo tàng, thư viện)/Quản thủ.",
     exampleEn: "Museum curator.",
     exampleVi: "Người quản lý bảo tàng.",
-    categories: ["People", "Business", "Art", "Education"],
+    categories: ["People","Business","Art","Education"],
   },
   {
     id: "gen-4651",
@@ -904,12 +907,11 @@ export const C20: VocabularyWord[] = [
     slug: "curb",
     phonetic: "/kɝːb/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A check or restraint on something; a stone edging to a pavement or path.",
+    meaningEn: "A check or restraint on something; a stone edging to a pavement or path.",
     meaningVi: "Sự kiềm chế/Sự nén lại/Lề đường.",
     exampleEn: "Curb inflation.",
     exampleVi: "Kiềm chế lạm phát.",
-    categories: ["General", "Economics", "Travel"],
+    categories: ["General","Economics","Travel"],
   },
   {
     id: "gen-4642",
@@ -917,8 +919,7 @@ export const C20: VocabularyWord[] = [
     slug: "curd",
     phonetic: "/kɝːd/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A soft, white substance formed when milk sours, used as the basis for cheese.",
+    meaningEn: "A soft, white substance formed when milk sours, used as the basis for cheese.",
     meaningVi: "Sữa đông/Bã đậu phụ.",
     exampleEn: "Lemon curd.",
     exampleVi: "Mứt chanh sữa đông.",
@@ -934,7 +935,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Đông lại/Làm đông/Làm khiếp sợ (máu đông cứng).",
     exampleEn: "Blood-curdling scream.",
     exampleVi: "Tiếng thét rợn tóc gáy (làm máu đông lại).",
-    categories: ["Food & Drink", "Psychology", "General"],
+    categories: ["Food & Drink","Psychology","General"],
   },
   {
     id: "gen-219",
@@ -946,7 +947,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Chữa khỏi.",
     exampleEn: "There is no cure for this disease.",
     exampleVi: "Không có cách chữa khỏi bệnh này.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-4655",
@@ -954,12 +955,11 @@ export const C20: VocabularyWord[] = [
     slug: "curfew",
     phonetic: "/ˈkɝː.fjuː/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A regulation requiring people to remain indoors between specified hours, typically at night.",
+    meaningEn: "A regulation requiring people to remain indoors between specified hours, typically at night.",
     meaningVi: "Lệnh giới nghiêm/Giờ phải có mặt ở nhà.",
     exampleEn: "Midnight curfew.",
     exampleVi: "Giờ giới nghiêm lúc nửa đêm.",
-    categories: ["Politics", "Law", "Social"],
+    categories: ["Politics","Law","Social"],
   },
   {
     id: "gen-4656",
@@ -971,7 +971,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Đồ hiếm/Đồ lạ/Vật quý lạ.",
     exampleEn: "Antique curio.",
     exampleVi: "Món đồ cổ quý hiếm.",
-    categories: ["General", "History"],
+    categories: ["General","History"],
   },
   {
     id: "gen-4657",
@@ -979,12 +979,11 @@ export const C20: VocabularyWord[] = [
     slug: "curiosity",
     phonetic: "/ˌkjʊr.iˈɑː.sə.t̬i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A strong desire to know or learn something; a strange or unusual object.",
+    meaningEn: "A strong desire to know or learn something; a strange or unusual object.",
     meaningVi: "Sự tò mò/Tính ham hiểu biết/Vật hiếm/Vật lạ.",
     exampleEn: "Satisfy curiosity.",
     exampleVi: "Thỏa mãn sự tò mò.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "b1-57",
@@ -1020,7 +1019,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Uốn xoăn/Quăn/Lọn tóc xoăn/Sự uốn cong.",
     exampleEn: "Curl hair.",
     exampleVi: "Uốn tóc.",
-    categories: ["Body", "General"],
+    categories: ["Body","General"],
   },
   {
     id: "gen-4661",
@@ -1028,12 +1027,11 @@ export const C20: VocabularyWord[] = [
     slug: "curler",
     phonetic: "/ˈkɝː.lɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A small roller or clip around which a strand of hair is wrapped to curl it; a player of curling.",
+    meaningEn: "A small roller or clip around which a strand of hair is wrapped to curl it; a player of curling.",
     meaningVi: "Ống cuốn tóc/Vận động viên ném đá trên băng (Curling).",
     exampleEn: "Electrics hair curlers.",
     exampleVi: "Ống cuốn tóc bằng điện.",
-    categories: ["Body", "Sports"],
+    categories: ["Body","Sports"],
   },
   {
     id: "gen-4662",
@@ -1041,12 +1039,11 @@ export const C20: VocabularyWord[] = [
     slug: "curlew",
     phonetic: "/ˈkɝː.ljuː/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A large wading bird with a long down-curved bill, brown streaked plumage, and a haunting call.",
+    meaningEn: "A large wading bird with a long down-curved bill, brown streaked plumage, and a haunting call.",
     meaningVi: "Chim choắt mỏ cong.",
     exampleEn: "Spotting a curlew.",
     exampleVi: "Phát hiện một con chim choắt mỏ cong.",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-4663",
@@ -1066,8 +1063,7 @@ export const C20: VocabularyWord[] = [
     slug: "curling",
     phonetic: "/ˈkɝː.lɪŋ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A game played on ice in which two teams of four players each slide round flat stones toward a mark.",
+    meaningEn: "A game played on ice in which two teams of four players each slide round flat stones toward a mark.",
     meaningVi: "Môn ném đá trên băng.",
     exampleEn: "Olympic curling.",
     exampleVi: "Môn Curling tại Olympic.",
@@ -1083,7 +1079,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Xoăn/Cong.",
     exampleEn: "Curly hair.",
     exampleVi: "Tóc xoăn.",
-    categories: ["Body", "General"],
+    categories: ["Body","General"],
   },
   {
     id: "gen-4666",
@@ -1095,7 +1091,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Người khó tính/Lão già gắt gỏng.",
     exampleEn: "Old curmudgeon.",
     exampleVi: "Lão già khó tính.",
-    categories: ["People", "Psychology"],
+    categories: ["People","Psychology"],
   },
   {
     id: "gen-4667",
@@ -1107,7 +1103,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Nho Hy Lạp khô/Quả lý chua.",
     exampleEn: "Black currant.",
     exampleVi: "Quả lý chua đen.",
-    categories: ["Food & Drink", "Nature"],
+    categories: ["Food & Drink","Nature"],
   },
   {
     id: "b2-53",
@@ -1151,12 +1147,11 @@ export const C20: VocabularyWord[] = [
     slug: "curricle",
     phonetic: "/ˈkɝː.ɪ.kəl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A light open two-wheeled carriage pulled by two horses side by side.",
+    meaningEn: "A light open two-wheeled carriage pulled by two horses side by side.",
     meaningVi: "Xe ngựa hai bánh nhẹ.",
     exampleEn: "Driving a curricle.",
     exampleVi: "Lái xe ngựa hai bánh.",
-    categories: ["Travel", "History"],
+    categories: ["Travel","History"],
   },
   {
     id: "gen-4672",
@@ -1164,12 +1159,11 @@ export const C20: VocabularyWord[] = [
     slug: "curriculum",
     phonetic: "/kəˈrɪk.jə.ləm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The subjects comprising a course of study in a school or college.",
+    meaningEn: "The subjects comprising a course of study in a school or college.",
     meaningVi: "Chương trình giảng dạy.",
     exampleEn: "School curriculum.",
     exampleVi: "Chương trình học ở trường.",
-    categories: ["Education", "Business"],
+    categories: ["Education","Business"],
   },
   {
     id: "gen-4673",
@@ -1193,7 +1187,7 @@ export const C20: VocabularyWord[] = [
     meaningVi: "Thợ thuộc da/Người nhuộm da.",
     exampleEn: "Work of a currier.",
     exampleVi: "Công việc của thợ thuộc da.",
-    categories: ["Business", "History"],
+    categories: ["Business","History"],
   },
   {
     id: "gen-4675",
@@ -1201,48 +1195,10 @@ export const C20: VocabularyWord[] = [
     slug: "curry",
     phonetic: "/ˈkɝː.i/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A dish of meat, vegetables, etc., cooked in an Indian-style sauce of strong spices and turmeric.",
+    meaningEn: "A dish of meat, vegetables, etc., cooked in an Indian-style sauce of strong spices and turmeric.",
     meaningVi: "Món cà ri/Bột cà ri/Chải lông (ngựa)/Xu nịnh (thành ngữ).",
     exampleEn: "Curry favor.",
     exampleVi: "Cố gắng lấy lòng/Xu nịnh.",
-    categories: ["Food & Drink", "General", "Animals"],
-  },
-  {
-    id: "gen-4676",
-    word: "Curse",
-    slug: "curse",
-    phonetic: "/kɝːs/",
-    partOfSpeech: "noun/verb",
-    meaningEn:
-      "A solemn utterance intended to invoke a supernatural power to inflict harm or punishment on someone or something.",
-    meaningVi: "Lời nguyền rủa/Tai họa/Chửi thề.",
-    exampleEn: "Cursed with bad luck.",
-    exampleVi: "Bị vận đen ám đuổi.",
-    categories: ["General", "Psychology", "Social"],
-  },
-  {
-    id: "gen-4677",
-    word: "Cursed",
-    slug: "cursed",
-    phonetic: "/ˈkɝː.sɪd/",
-    partOfSpeech: "adjective",
-    meaningEn: "Under a curse.",
-    meaningVi: "Bị nguyền rủa/Đáng ghét.",
-    exampleEn: "A cursed place.",
-    exampleVi: "Một nơi bị nguyền rủa.",
-    categories: ["General", "Psychology"],
-  },
-  {
-    id: "gen-4678",
-    word: "Cursive",
-    slug: "cursive",
-    phonetic: "/ˈkɝː.sɪv/",
-    partOfSpeech: "adjective/noun",
-    meaningEn: "Written with the characters joined together.",
-    meaningVi: "Chữ viết tay/Chữ thảo.",
-    exampleEn: "Write in cursive.",
-    exampleVi: "Viết bằng chữ thảo.",
-    categories: ["Education", "General"],
-  },
+    categories: ["Food & Drink","General","Animals"],
+  }
 ];

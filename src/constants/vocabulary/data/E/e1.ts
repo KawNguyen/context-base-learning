@@ -23,7 +23,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Hăm hở.",
     exampleEn: "Eager to learn.",
     exampleVi: "Hăm hở học hỏi.",
-    categories: ["Emotions", "General"],
+    categories: ["Emotions","General"],
   },
   {
     id: "gen-6659",
@@ -35,7 +35,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Một cách háo hức/nồng nhiệt.",
     exampleEn: "Waiting eagerly.",
     exampleVi: "Đang chờ đợi một cách háo hức.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-6660",
@@ -47,7 +47,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Sự háo hức/Sự hăng hái.",
     exampleEn: "Show great eagerness.",
     exampleVi: "Thể hiện sự hăng hái lớn.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6661",
@@ -55,12 +55,11 @@ export const E1: VocabularyWord[] = [
     slug: "eagle",
     phonetic: "/ˈiː.ɡəl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A large bird of prey with a massive hooked bill and long broad wings, known for its keen sight and powerful soaring flight.",
+    meaningEn: "A large bird of prey with a massive hooked bill and long broad wings, known for its keen sight and powerful soaring flight.",
     meaningVi: "Chim đại bàng.",
     exampleEn: "Eagle eyes.",
     exampleVi: "Mắt đại bàng (mắt tinh tường).",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-6662",
@@ -72,7 +71,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Đại bàng con.",
     exampleEn: "Nesting eaglet.",
     exampleVi: "Đại bàng con trong tổ.",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "a1-117",
@@ -84,7 +83,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Tai.",
     exampleEn: "The music is too loud for my ears.",
     exampleVi: "Âm nhạc quá lớn đối với tai tôi.",
-    categories: ["Daily", "Medical"],
+    categories: ["Daily","Medical"],
   },
   {
     id: "gen-6664",
@@ -96,7 +95,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Đau tai.",
     exampleEn: "Severe earache.",
     exampleVi: "Đau tai dữ dội.",
-    categories: ["Medical", "Body", "Daily"],
+    categories: ["Medical","Body","Daily"],
   },
   {
     id: "gen-6665",
@@ -104,12 +103,11 @@ export const E1: VocabularyWord[] = [
     slug: "eardrum",
     phonetic: "/ˈɪr.drʌm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A membrane of the middle ear, which vibrates in response to sound waves; the tympanic membrane.",
+    meaningEn: "A membrane of the middle ear, which vibrates in response to sound waves; the tympanic membrane.",
     meaningVi: "Màng nhĩ.",
     exampleEn: "Perforated eardrum.",
     exampleVi: "Thủng màng nhĩ.",
-    categories: ["Medical", "Body"],
+    categories: ["Medical","Body"],
   },
   {
     id: "gen-6666",
@@ -121,7 +119,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Phần che tai (của mũ).",
     exampleEn: "Hat with earflaps.",
     exampleVi: "Mũ có phần che tai.",
-    categories: ["Fashion", "Daily"],
+    categories: ["Fashion","Daily"],
   },
   {
     id: "gen-6667",
@@ -129,12 +127,11 @@ export const E1: VocabularyWord[] = [
     slug: "earl",
     phonetic: "/ɝːl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A British nobleman ranking above a viscount and below a marquess.",
+    meaningEn: "A British nobleman ranking above a viscount and below a marquess.",
     meaningVi: "I-arl (Bá tước Anh).",
     exampleEn: "Earl Grey tea.",
     exampleVi: "Trà Earl Grey.",
-    categories: ["People", "Politics", "History"],
+    categories: ["People","Politics","History"],
   },
   {
     id: "gen-6668",
@@ -146,7 +143,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Tước vị bá tước (Anh)/Lãnh địa bá tước.",
     exampleEn: "Inherited the earldom.",
     exampleVi: "Thừa kế tước vị bá tước.",
-    categories: ["Politics", "History"],
+    categories: ["Politics","History"],
   },
   {
     id: "gen-6669",
@@ -158,7 +155,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Sớm hơn/Trước đây.",
     exampleEn: "Earlier today.",
     exampleVi: "Lúc nãy/Sớm hơn hôm nay.",
-    categories: ["Time", "General"],
+    categories: ["Time","General"],
   },
   {
     id: "gen-6670",
@@ -170,7 +167,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Sớm nhất.",
     exampleEn: "At the earliest.",
     exampleVi: "Sớm nhất có thể.",
-    categories: ["Time", "General"],
+    categories: ["Time","General"],
   },
   {
     id: "gen-6671",
@@ -182,7 +179,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Dái tai.",
     exampleEn: "Pierced earlobes.",
     exampleVi: "Dái tai được bấm lỗ.",
-    categories: ["Body", "Fashion"],
+    categories: ["Body","Fashion"],
   },
   {
     id: "gen-344",
@@ -202,12 +199,11 @@ export const E1: VocabularyWord[] = [
     slug: "earmark",
     phonetic: "/ˈɪr.mɑːrk/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Designate (something, typically funds or resources) for a particular purpose.",
+    meaningEn: "Designate (something, typically funds or resources) for a particular purpose.",
     meaningVi: "Để dành/Chỉ định/Đánh dấu (để nhận diện).",
     exampleEn: "Earmarked for education.",
     exampleVi: "Được dành riêng cho giáo dục.",
-    categories: ["Economics", "General", "Business"],
+    categories: ["Economics","General","Business"],
   },
   {
     id: "gen-6674",
@@ -215,12 +211,11 @@ export const E1: VocabularyWord[] = [
     slug: "earmuff",
     phonetic: "/ˈɪr.mʌf/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A pair of coverings for the ears connected by a band over the head, worn for warmth or for protection from noise.",
+    meaningEn: "A pair of coverings for the ears connected by a band over the head, worn for warmth or for protection from noise.",
     meaningVi: "Chụp tai (để giữ ấm hoặc chống ồn).",
     exampleEn: "Wear earmuffs in winter.",
     exampleVi: "Đeo chụp tai vào mùa đông.",
-    categories: ["Fashion", "Daily"],
+    categories: ["Fashion","Daily"],
   },
   {
     id: "gen-345",
@@ -232,7 +227,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Kiếm tiền.",
     exampleEn: "Earn money.",
     exampleVi: "Kiếm tiền.",
-    categories: ["Business", "Finance"],
+    categories: ["Business","Finance"],
   },
   {
     id: "gen-6676",
@@ -244,7 +239,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Người kiếm tiền.",
     exampleEn: "Breadwinner (primary earner).",
     exampleVi: "Người trụ cột kiếm tiền.",
-    categories: ["People", "Economics", "Business"],
+    categories: ["People","Economics","Business"],
   },
   {
     id: "gen-6677",
@@ -256,7 +251,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Nghiêm túc/Sốt sắng/Tha thiết/Tiền đặt cọc.",
     exampleEn: "In earnest.",
     exampleVi: "Nghiêm túc/Thực sự.",
-    categories: ["Psychology", "General", "Economics"],
+    categories: ["Psychology","General","Economics"],
   },
   {
     id: "gen-6678",
@@ -268,7 +263,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Một cách nghiêm túc/tha thiết.",
     exampleEn: "Asked earnestly.",
     exampleVi: "Hỏi một cách tha thiết.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-6679",
@@ -280,7 +275,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Sự nghiêm túc/Sự sốt sắng.",
     exampleEn: "Air of earnestness.",
     exampleVi: "Vẻ nghiêm túc.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6680",
@@ -292,7 +287,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Thu nhập/Tiền lương/Lợi nhuận.",
     exampleEn: "Quarterly earnings.",
     exampleVi: "Thu nhập hằng quý.",
-    categories: ["Economics", "Business"],
+    categories: ["Economics","Business"],
   },
   {
     id: "gen-6681",
@@ -300,12 +295,11 @@ export const E1: VocabularyWord[] = [
     slug: "earphone",
     phonetic: "/ˈɪr.foʊn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An electrical device of small size that fits into or over the ear and converts electrical signals into sound.",
+    meaningEn: "An electrical device of small size that fits into or over the ear and converts electrical signals into sound.",
     meaningVi: "Tai nghe.",
     exampleEn: "In-ear earphones.",
     exampleVi: "Tai nghe nhét tai.",
-    categories: ["Technology", "Daily", "General"],
+    categories: ["Technology","Daily","General"],
   },
   {
     id: "gen-6682",
@@ -317,7 +311,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Bông tai/Khuyên tai.",
     exampleEn: "Gold earrings.",
     exampleVi: "Bông tai vàng.",
-    categories: ["Fashion", "Daily", "General"],
+    categories: ["Fashion","Daily","General"],
   },
   {
     id: "gen-6683",
@@ -329,7 +323,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Tầm nghe được/Khoảng cách nghe thấy.",
     exampleEn: "Within earshot.",
     exampleVi: "Trong tầm nghe thấy.",
-    categories: ["General", "Space"],
+    categories: ["General","Space"],
   },
   {
     id: "gen-6684",
@@ -365,7 +359,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Bằng đất/Bằng đất nung.",
     exampleEn: "Earthen pot.",
     exampleVi: "Nồi đất.",
-    categories: ["General", "Daily", "Art"],
+    categories: ["General","Daily","Art"],
   },
   {
     id: "gen-6687",
@@ -377,7 +371,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Đồ gốm/Đồ đất nung.",
     exampleEn: "Earthenware bowl.",
     exampleVi: "Bát bằng đất nung.",
-    categories: ["Art", "Daily", "General"],
+    categories: ["Art","Daily","General"],
   },
   {
     id: "gen-6688",
@@ -385,25 +379,11 @@ export const E1: VocabularyWord[] = [
     slug: "earthly",
     phonetic: "/ˈɝːθ.li/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to the earth or human life on the earth, rather than to a spiritual or heavenly world.",
+    meaningEn: "Relating to the earth or human life on the earth, rather than to a spiritual or heavenly world.",
     meaningVi: "Trần thế/Thuộc về trái đất/Có thể có.",
     exampleEn: "No earthly reason.",
     exampleVi: "Chẳng có lý do trần tục nào (chẳng có lý do gì sất).",
-    categories: ["Philosophy", "Religion", "General"],
-  },
-  {
-    id: "gen-6694",
-    word: "Earthly",
-    slug: "earthy",
-    phonetic: "/ˈɝː.θi/",
-    partOfSpeech: "adjective",
-    meaningEn:
-      "Resembling or suggestive of earth or soil; direct and uninhibited.",
-    meaningVi: "Giống đất/Mộc mạc/Trần tục.",
-    exampleEn: "Earthy smell.",
-    exampleVi: "Mùi đất.",
-    categories: ["Nature", "General"],
+    categories: ["Philosophy","Religion","General"],
   },
   {
     id: "gen-347",
@@ -415,7 +395,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Động đất.",
     exampleEn: "A strong earthquake.",
     exampleVi: "Một trận động đất mạnh.",
-    categories: ["Environment", "Science"],
+    categories: ["Environment","Science"],
   },
   {
     id: "gen-6690",
@@ -427,7 +407,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Chấn động thế giới/Rất quan trọng.",
     exampleEn: "Earthshaking news.",
     exampleVi: "Tin tức gây chấn động.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-6691",
@@ -439,7 +419,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Hướng về phía mặt đất.",
     exampleEn: "Falling earthward.",
     exampleVi: "Đang rơi về phía mặt đất.",
-    categories: ["Nature", "Science"],
+    categories: ["Nature","Science"],
   },
   {
     id: "gen-6692",
@@ -447,12 +427,11 @@ export const E1: VocabularyWord[] = [
     slug: "earthwork",
     phonetic: "/ˈɝːθ.wɝːk/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A large artificial bank of soil, especially one used as a fortification.",
+    meaningEn: "A large artificial bank of soil, especially one used as a fortification.",
     meaningVi: "Công trình bằng đất/Lũy đất.",
     exampleEn: "Ancient earthworks.",
     exampleVi: "Những lũy đất cổ xưa.",
-    categories: ["History", "Engineering", "Architecture"],
+    categories: ["History","Engineering","Architecture"],
   },
   {
     id: "gen-6693",
@@ -464,7 +443,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Con giun đất.",
     exampleEn: "Fat earthworm.",
     exampleVi: "Con giun đất béo.",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-6695",
@@ -472,12 +451,11 @@ export const E1: VocabularyWord[] = [
     slug: "earwig",
     phonetic: "/ˈɪr.wɪɡ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A small insect with a pair of pincers at its tail end; secretly influence (someone) by whispering.",
+    meaningEn: "A small insect with a pair of pincers at its tail end; secretly influence (someone) by whispering.",
     meaningVi: "Con sâu tai/Nói lén/Dèm pha.",
     exampleEn: "Don't earwig me.",
     exampleVi: "Đừng có nói lén tôi.",
-    categories: ["Animals", "Social"],
+    categories: ["Animals","Social"],
   },
   {
     id: "gen-6696",
@@ -489,7 +467,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Sự thoải mái/Dễ dàng/Làm dịu đi/Nới lỏng.",
     exampleEn: "At ease.",
     exampleVi: "Nghiêm!/Thoải mái (quân lệnh).",
-    categories: ["General", "Psychology", "Daily"],
+    categories: ["General","Psychology","Daily"],
   },
   {
     id: "pv-87",
@@ -509,12 +487,11 @@ export const E1: VocabularyWord[] = [
     slug: "easel",
     phonetic: "/ˈiː.zəl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A wooden frame for holding an artist's work while it is being painted or drawn.",
+    meaningEn: "A wooden frame for holding an artist's work while it is being painted or drawn.",
     meaningVi: "Giá vẽ.",
     exampleEn: "Artist at his easel.",
     exampleVi: "Họa sĩ bên giá vẽ của mình.",
-    categories: ["Art", "Daily"],
+    categories: ["Art","Daily"],
   },
   {
     id: "gen-6698",
@@ -522,12 +499,11 @@ export const E1: VocabularyWord[] = [
     slug: "easement",
     phonetic: "/ˈiːz.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A right to cross or otherwise use someone else's land for a specified purpose.",
+    meaningEn: "A right to cross or otherwise use someone else's land for a specified purpose.",
     meaningVi: "Quyền sử dụng đất (của người khác)/Sự làm giảm bớt.",
     exampleEn: "Legal easement.",
     exampleVi: "Quyền sử dụng đất hợp pháp.",
-    categories: ["Law", "Economics", "Psychology"],
+    categories: ["Law","Economics","Psychology"],
   },
   {
     id: "gen-6699",
@@ -551,7 +527,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Sự dễ dàng/Sự thoải mái.",
     exampleEn: "Apparent easiness.",
     exampleVi: "Sự dễ dàng rõ rệt.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-348",
@@ -575,7 +551,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Thuộc về phương Đông.",
     exampleEn: "Eastern philosophy.",
     exampleVi: "Triết học phương Đông.",
-    categories: ["Geography", "General"],
+    categories: ["Geography","General"],
   },
   {
     id: "gen-6703",
@@ -587,7 +563,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Người phương Đông/Người ở miền Đông.",
     exampleEn: "Fellow easterner.",
     exampleVi: "Người đồng hương phương Đông.",
-    categories: ["People", "Geography"],
+    categories: ["People","Geography"],
   },
   {
     id: "gen-6704",
@@ -599,7 +575,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Về hướng Đông.",
     exampleEn: "Travel eastward.",
     exampleVi: "Đi về hướng Đông.",
-    categories: ["Geography", "General"],
+    categories: ["Geography","General"],
   },
   {
     id: "a1-89",
@@ -623,7 +599,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Dễ tính/Dễ gần/Vô tư.",
     exampleEn: "Easygoing boss.",
     exampleVi: "Ông chủ dễ tính.",
-    categories: ["Psychology", "People", "Social"],
+    categories: ["Psychology","People","Social"],
   },
   {
     id: "a1-65",
@@ -647,7 +623,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Có thể ăn được/Thức ăn.",
     exampleEn: "Barely eatable.",
     exampleVi: "Hầu như không thể ăn được.",
-    categories: ["Daily", "General"],
+    categories: ["Daily","General"],
   },
   {
     id: "gen-6709",
@@ -659,7 +635,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Đã ăn.",
     exampleEn: "Have you eaten?",
     exampleVi: "Bạn đã ăn chưa?",
-    categories: ["Daily", "General"],
+    categories: ["Daily","General"],
   },
   {
     id: "gen-6710",
@@ -671,7 +647,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Người ăn/Vật ăn.",
     exampleEn: "Fussy eater.",
     exampleVi: "Người kén ăn.",
-    categories: ["People", "Daily"],
+    categories: ["People","Daily"],
   },
   {
     id: "gen-6711",
@@ -683,7 +659,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Việc ăn uống/Cách ăn uống.",
     exampleEn: "Healthy eating.",
     exampleVi: "Ăn uống lành mạnh.",
-    categories: ["Daily", "General"],
+    categories: ["Daily","General"],
   },
   {
     id: "gen-6712",
@@ -691,12 +667,11 @@ export const E1: VocabularyWord[] = [
     slug: "eaves",
     phonetic: "/iːvz/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The part of a roof that meets or overhangs the walls of a building.",
+    meaningEn: "The part of a roof that meets or overhangs the walls of a building.",
     meaningVi: "Mái hiên/Rìa mái nhà.",
     exampleEn: "Bird nest in the eaves.",
     exampleVi: "Tổ chim trên mái hiên.",
-    categories: ["Architecture", "Home"],
+    categories: ["Architecture","Home"],
   },
   {
     id: "gen-6713",
@@ -708,7 +683,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Nghe lén.",
     exampleEn: "Caught eavesdropping.",
     exampleVi: "Bị bắt gặp đang nghe lén.",
-    categories: ["Social", "Daily"],
+    categories: ["Social","Daily"],
   },
   {
     id: "gen-6714",
@@ -720,7 +695,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Kẻ nghe lén.",
     exampleEn: "Beware of eavesdroppers.",
     exampleVi: "Hãy cẩn thận với những kẻ nghe lén.",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-6715",
@@ -728,12 +703,11 @@ export const E1: VocabularyWord[] = [
     slug: "ebb",
     phonetic: "/eb/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "The movement of the tide out to sea; gradually lessen or reduce.",
+    meaningEn: "The movement of the tide out to sea; gradually lessen or reduce.",
     meaningVi: "Thủy triều xuống/Sự suy yếu/Tàn tạ.",
     exampleEn: "Ebb and flow.",
     exampleVi: "Sự thăng trầm/Thủy triều lên xuống.",
-    categories: ["Nature", "General", "Time"],
+    categories: ["Nature","General","Time"],
   },
   {
     id: "gen-6716",
@@ -745,7 +719,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Cao su cứng (Ê-bô-nít).",
     exampleEn: "Made of ebonite.",
     exampleVi: "Được làm từ cao su cứng.",
-    categories: ["Science", "Engineering"],
+    categories: ["Science","Engineering"],
   },
   {
     id: "gen-6717",
@@ -753,12 +727,11 @@ export const E1: VocabularyWord[] = [
     slug: "ebony",
     phonetic: "/ˈeb.ə.ni/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "Heavy blackish or very dark brown timber from a mainly tropical tree.",
+    meaningEn: "Heavy blackish or very dark brown timber from a mainly tropical tree.",
     meaningVi: "Gỗ mun/Màu đen huyền.",
     exampleEn: "Ebony and ivory.",
     exampleVi: "Gỗ mun và ngà voi (đen và trắng).",
-    categories: ["Nature", "Plants", "Art"],
+    categories: ["Nature","Plants","Art"],
   },
   {
     id: "c2-207",
@@ -770,7 +743,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Sự hăng hái.",
     exampleEn: "Match the ebullience of the crowd.",
     exampleVi: "Sánh ngang với sự hăng hái của đám đông.",
-    categories: ["Daily", "Social"],
+    categories: ["Daily","Social"],
   },
   {
     id: "c2-17",
@@ -794,7 +767,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Một cách sôi nổi/hăng hái.",
     exampleEn: "Spoke ebulliently.",
     exampleVi: "Nói chuyện một cách sôi nổi.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-6721",
@@ -802,12 +775,11 @@ export const E1: VocabularyWord[] = [
     slug: "ebullition",
     phonetic: "/ˌeb.əˈlɪʃ.ən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action of bubbling or boiling; a sudden outburst of emotion or violence.",
+    meaningEn: "The action of bubbling or boiling; a sudden outburst of emotion or violence.",
     meaningVi: "Sự sôi/Cơn bùng phát (cảm xúc).",
     exampleEn: "Ebullition of anger.",
     exampleVi: "Cơn bùng phát giận dữ.",
-    categories: ["Science", "Psychology"],
+    categories: ["Science","Psychology"],
   },
   {
     id: "gen-6722",
@@ -815,12 +787,11 @@ export const E1: VocabularyWord[] = [
     slug: "eccentric",
     phonetic: "/ɪkˈsen.trɪk/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "(of a person or their behavior) unconventional and slightly strange.",
+    meaningEn: "(of a person or their behavior) unconventional and slightly strange.",
     meaningVi: "Lập dị/Kỳ quặc/Lệch tâm.",
     exampleEn: "Eccentric uncle.",
     exampleVi: "Người chú lập dị.",
-    categories: ["Psychology", "People", "Science"],
+    categories: ["Psychology","People","Science"],
   },
   {
     id: "gen-6723",
@@ -832,7 +803,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Một cách lập dị/kỳ quặc.",
     exampleEn: "Dressed eccentrically.",
     exampleVi: "Ăn mặc một cách kỳ quặc.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-6724",
@@ -844,7 +815,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Sự lập dị/Tính kỳ quặc/Độ lệch tâm.",
     exampleEn: "Amused by her eccentricity.",
     exampleVi: "Bị thú vị bởi sự lập dị của cô ấy.",
-    categories: ["Psychology", "People", "Science"],
+    categories: ["Psychology","People","Science"],
   },
   {
     id: "gen-6725",
@@ -856,7 +827,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Giáo sĩ/Người nhà thờ.",
     exampleEn: "Powerful ecclesiastic.",
     exampleVi: "Giáo sĩ quyền lực.",
-    categories: ["People", "Religion"],
+    categories: ["People","Religion"],
   },
   {
     id: "gen-6726",
@@ -868,7 +839,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Thuộc về giáo hội/Thuộc về nhà thờ.",
     exampleEn: "Ecclesiastical history.",
     exampleVi: "Lịch sử giáo hội.",
-    categories: ["Religion", "History"],
+    categories: ["Religion","History"],
   },
   {
     id: "gen-6727",
@@ -880,7 +851,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Cấp bậc/Tầng lớp/Đội hình bậc thang.",
     exampleEn: "Upper echelons.",
     exampleVi: "Những cấp bậc cao hơn/Tầng lớp trên.",
-    categories: ["Business", "Social", "Military"],
+    categories: ["Business","Social","Military"],
   },
   {
     id: "gen-6728",
@@ -888,12 +859,11 @@ export const E1: VocabularyWord[] = [
     slug: "echo",
     phonetic: "/ˈek.oʊ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A sound or series of sounds caused by the reflection of sound waves from a surface back to the listener.",
+    meaningEn: "A sound or series of sounds caused by the reflection of sound waves from a surface back to the listener.",
     meaningVi: "Tiếng vang/Tiếng dội/Lặp lại.",
     exampleEn: "Echo chamber.",
     exampleVi: "Phòng vang thoại/Căn phòng tạo tiếng vang.",
-    categories: ["Science", "General", "Music"],
+    categories: ["Science","General","Music"],
   },
   {
     id: "gen-6729",
@@ -905,7 +875,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Bánh su kem dài.",
     exampleEn: "Chocolate eclair.",
     exampleVi: "Bánh su kem dài socola.",
-    categories: ["Daily", "General"],
+    categories: ["Daily","General"],
   },
   {
     id: "c2-18",
@@ -913,8 +883,7 @@ export const E1: VocabularyWord[] = [
     slug: "eclectic",
     phonetic: "/ekˈlek.tɪk/",
     partOfSpeech: "adj",
-    meaningEn:
-      "Deriving ideas, style, or taste from a broad and diverse range of sources.",
+    meaningEn: "Deriving ideas, style, or taste from a broad and diverse range of sources.",
     meaningVi: "Chiết trung, đa dạng.",
     exampleEn: "An eclectic collection.",
     exampleVi: "Một bộ sưu tập đa dạng.",
@@ -926,12 +895,11 @@ export const E1: VocabularyWord[] = [
     slug: "eclecticism",
     phonetic: "/ekˈlek.tɪ.sɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The practice of deriving ideas, style, or taste from a broad and diverse range of sources.",
+    meaningEn: "The practice of deriving ideas, style, or taste from a broad and diverse range of sources.",
     meaningVi: "Thuyết chiết trung/Sự đa dạng về phong cách.",
     exampleEn: "Architectural eclecticism.",
     exampleVi: "Sự chiết trung trong kiến trúc.",
-    categories: ["Art", "Architecture", "Philosophy"],
+    categories: ["Art","Architecture","Philosophy"],
   },
   {
     id: "gen-6732",
@@ -939,12 +907,11 @@ export const E1: VocabularyWord[] = [
     slug: "eclipse",
     phonetic: "/ɪˈklɪps/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "An obscuring of the light from one celestial body by the passage of another between it and the observer or between it and its source of illumination.",
+    meaningEn: "An obscuring of the light from one celestial body by the passage of another between it and the observer or between it and its source of illumination.",
     meaningVi: "Nhật thực/Nguyệt thực/Sự che khuất/Làm lu mờ.",
     exampleEn: "Solar eclipse.",
     exampleVi: "Nhật thực.",
-    categories: ["Science", "Nature", "General"],
+    categories: ["Science","Nature","General"],
   },
   {
     id: "gen-6733",
@@ -956,7 +923,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Hoàng đạo/Đường hoàng đạo.",
     exampleEn: "Plane of the ecliptic.",
     exampleVi: "Mặt phẳng hoàng đạo.",
-    categories: ["Science", "Nature"],
+    categories: ["Science","Nature"],
   },
   {
     id: "gen-6734",
@@ -968,7 +935,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Thơ mục đồng/Bài thơ ngắn.",
     exampleEn: "Virgil's eclogues.",
     exampleVi: "Những bài thơ mục đồng của Virgil.",
-    categories: ["Literature", "Art"],
+    categories: ["Literature","Art"],
   },
   {
     id: "gen-6735",
@@ -980,7 +947,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Thân thiện với môi trường.",
     exampleEn: "Eco-friendly packaging.",
     exampleVi: "Bao bì thân thiện với môi trường.",
-    categories: ["Environment", "Daily", "General"],
+    categories: ["Environment","Daily","General"],
   },
   {
     id: "gen-6736",
@@ -988,12 +955,11 @@ export const E1: VocabularyWord[] = [
     slug: "ecological",
     phonetic: "/ˌek.əˈlɑː.dʒɪ.kəl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to or concerned with the relation of living organisms to one another and to their physical surroundings.",
+    meaningEn: "Relating to or concerned with the relation of living organisms to one another and to their physical surroundings.",
     meaningVi: "Thuộc về sinh thái học.",
     exampleEn: "Ecological disaster.",
     exampleVi: "Thảm họa sinh thái.",
-    categories: ["Environment", "Science"],
+    categories: ["Environment","Science"],
   },
   {
     id: "gen-6737",
@@ -1001,12 +967,11 @@ export const E1: VocabularyWord[] = [
     slug: "ecologist",
     phonetic: "/iˈkɑː.lə.dʒɪst/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who studies or is an expert in the relation of living organisms to one another and to their physical surroundings.",
+    meaningEn: "A person who studies or is an expert in the relation of living organisms to one another and to their physical surroundings.",
     meaningVi: "Nhà sinh thái học.",
     exampleEn: "Marine ecologist.",
     exampleVi: "Nhà sinh thái học biển.",
-    categories: ["People", "Science", "Environment"],
+    categories: ["People","Science","Environment"],
   },
   {
     id: "gen-6738",
@@ -1014,12 +979,11 @@ export const E1: VocabularyWord[] = [
     slug: "ecology",
     phonetic: "/iˈkɑː.lə.dʒi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The branch of biology that deals with the relations of organisms to one another and to their physical surroundings.",
+    meaningEn: "The branch of biology that deals with the relations of organisms to one another and to their physical surroundings.",
     meaningVi: "Sinh thái học.",
     exampleEn: "Balance of ecology.",
     exampleVi: "Sự cân bằng sinh thái.",
-    categories: ["Science", "Environment"],
+    categories: ["Science","Environment"],
   },
   {
     id: "b2-83",
@@ -1039,12 +1003,11 @@ export const E1: VocabularyWord[] = [
     slug: "economical",
     phonetic: "/ˌek.əˈnɑː.mɪ.kəl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Giving good value or service in relation to the amount of money, time, or effort spent.",
+    meaningEn: "Giving good value or service in relation to the amount of money, time, or effort spent.",
     meaningVi: "Tiết kiệm/Kinh tế.",
     exampleEn: "Economical car.",
     exampleVi: "Chiếc xe tiết kiệm nhiên liệu.",
-    categories: ["Economics", "General", "Daily"],
+    categories: ["Economics","General","Daily"],
   },
   {
     id: "gen-6741",
@@ -1052,12 +1015,11 @@ export const E1: VocabularyWord[] = [
     slug: "economically",
     phonetic: "/ˌek.əˈnɑː.mɪ.kəl.i/",
     partOfSpeech: "adverb",
-    meaningEn:
-      "In a way that relates to economics or the economy; in a way that uses resources carefully.",
+    meaningEn: "In a way that relates to economics or the economy; in a way that uses resources carefully.",
     meaningVi: "Về mặt kinh tế/Một cách tiết kiệm.",
     exampleEn: "Economically viable.",
     exampleVi: "Có khả năng thực thi về mặt kinh tế.",
-    categories: ["Economics", "General"],
+    categories: ["Economics","General"],
   },
   {
     id: "gen-6742",
@@ -1065,12 +1027,11 @@ export const E1: VocabularyWord[] = [
     slug: "economics",
     phonetic: "/ˌek.əˈnɑː.mɪks/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The branch of knowledge concerned with the production, consumption, and transfer of wealth.",
+    meaningEn: "The branch of knowledge concerned with the production, consumption, and transfer of wealth.",
     meaningVi: "Kinh tế học/Tình hình kinh tế.",
     exampleEn: "Study economics.",
     exampleVi: "Học kinh tế học.",
-    categories: ["Economics", "Science", "Education"],
+    categories: ["Economics","Science","Education"],
   },
   {
     id: "gen-6743",
@@ -1082,7 +1043,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Nhà kinh tế học.",
     exampleEn: "Chief economist.",
     exampleVi: "Nhà kinh tế trưởng.",
-    categories: ["People", "Economics", "Business", "Jobs"],
+    categories: ["People","Economics","Business","Jobs"],
   },
   {
     id: "gen-6744",
@@ -1094,19 +1055,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Tiết kiệm/Sử dụng tiết kiệm.",
     exampleEn: "Need to economize.",
     exampleVi: "Cần phải tiết kiệm.",
-    categories: ["Economics", "Daily", "General"],
-  },
-  {
-    id: "gen-352",
-    word: "Economics",
-    slug: "Economics",
-    phonetic: "/ɪˈkɑː.nə.mi/",
-    partOfSpeech: "noun",
-    meaningEn: "The wealth and resources of a country.",
-    meaningVi: "Nền kinh tế.",
-    exampleEn: "The national economy.",
-    exampleVi: "Nền kinh tế quốc gia.",
-    categories: ["Business", "Politics"],
+    categories: ["Economics","Daily","General"],
   },
   {
     id: "gen-6746",
@@ -1114,12 +1063,11 @@ export const E1: VocabularyWord[] = [
     slug: "ecru",
     phonetic: "/ˈek.ruː/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "The color of unbleached linen or silk, a light grayish-yellow or brownish-gray.",
+    meaningEn: "The color of unbleached linen or silk, a light grayish-yellow or brownish-gray.",
     meaningVi: "Màu mộc (vàng xám nhạt).",
     exampleEn: "Ecru curtains.",
     exampleVi: "Rèm cửa màu mộc.",
-    categories: ["Fashion", "Art"],
+    categories: ["Fashion","Art"],
   },
   {
     id: "gen-6747",
@@ -1127,12 +1075,11 @@ export const E1: VocabularyWord[] = [
     slug: "ecstasy",
     phonetic: "/ˈek.stə.si/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An overwhelming feeling of great happiness or joyful excitement.",
+    meaningEn: "An overwhelming feeling of great happiness or joyful excitement.",
     meaningVi: "Sự ngây ngất/Sự mê ly/Ma túy tổng hợp (thuốc lắc).",
     exampleEn: "In an ecstasy of joy.",
     exampleVi: "Trong niềm vui sướng ngây ngất.",
-    categories: ["Psychology", "Social", "General"],
+    categories: ["Psychology","Social","General"],
   },
   {
     id: "gen-6748",
@@ -1140,12 +1087,11 @@ export const E1: VocabularyWord[] = [
     slug: "ecstatic",
     phonetic: "/ekˈstæt.ɪk/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Feeling or expressing overwhelming happiness or joyful excitement.",
+    meaningEn: "Feeling or expressing overwhelming happiness or joyful excitement.",
     meaningVi: "Ngây ngất/Vui sướng mê ly.",
     exampleEn: "Ecstatic fans.",
     exampleVi: "Những người hâm mộ đang cuồng nhiệt/ngây ngất.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6749",
@@ -1157,7 +1103,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Một cách ngây ngất/vui sướng.",
     exampleEn: "Cheered ecstatically.",
     exampleVi: "Reo hò một cách cuồng nhiệt.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-6750",
@@ -1165,12 +1111,11 @@ export const E1: VocabularyWord[] = [
     slug: "ectoplasm",
     phonetic: "/ˈek.tə.plæz.əm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The outer portion of the cytoplasm of a cell; a supernatural viscous substance that is supposed to exude from the body of a medium during a spiritualistic trance.",
+    meaningEn: "The outer portion of the cytoplasm of a cell; a supernatural viscous substance that is supposed to exude from the body of a medium during a spiritualistic trance.",
     meaningVi: "Ngoại chất (sinh học)/Chất ngoại linh (tâm linh).",
     exampleEn: "Traces of ectoplasm.",
     exampleVi: "Dấu vết của chất ngoại linh.",
-    categories: ["Science", "Literature"],
+    categories: ["Science","Literature"],
   },
   {
     id: "gen-6751",
@@ -1182,7 +1127,7 @@ export const E1: VocabularyWord[] = [
     meaningVi: "Thuộc về toàn thể giáo hội/Phổ quát.",
     exampleEn: "Ecumenical council.",
     exampleVi: "Công đồng phổ quát.",
-    categories: ["Religion", "Social"],
+    categories: ["Religion","Social"],
   },
   {
     id: "gen-6752",
@@ -1190,12 +1135,11 @@ export const E1: VocabularyWord[] = [
     slug: "eczema",
     phonetic: "/ˈek.sə.mə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A medical condition in which patches of skin become rough and inflamed, with blisters that cause itching and bleeding.",
+    meaningEn: "A medical condition in which patches of skin become rough and inflamed, with blisters that cause itching and bleeding.",
     meaningVi: "Bệnh chàm (Eczema).",
     exampleEn: "Severe eczema.",
     exampleVi: "Bệnh chàm nghiêm trọng.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-6753",
@@ -1203,12 +1147,11 @@ export const E1: VocabularyWord[] = [
     slug: "eddy",
     phonetic: "/ˈed.i/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A circular movement of water, counter to a main current, causing a small whirlpool.",
+    meaningEn: "A circular movement of water, counter to a main current, causing a small whirlpool.",
     meaningVi: "Vòng xoáy/Sóng cuộn/Xoáy nước.",
     exampleEn: "Eddies of dust.",
     exampleVi: "Những vòng xoáy bụi.",
-    categories: ["Nature", "Science", "General"],
+    categories: ["Nature","Science","General"],
   },
   {
     id: "gen-6754",
@@ -1216,12 +1159,11 @@ export const E1: VocabularyWord[] = [
     slug: "edelweiss",
     phonetic: "/ˈeɪ.dəl.vaɪs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A European mountain plant which has woolly white floral leaves.",
+    meaningEn: "A European mountain plant which has woolly white floral leaves.",
     meaningVi: "Hoa nhung tuyết.",
     exampleEn: "Alpine edelweiss.",
     exampleVi: "Hoa nhung tuyết vùng Alps.",
-    categories: ["Nature", "Plants"],
+    categories: ["Nature","Plants"],
   },
   {
     id: "gen-6755",
@@ -1229,11 +1171,34 @@ export const E1: VocabularyWord[] = [
     slug: "edema",
     phonetic: "/ɪˈdiː.mə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A condition characterized by an excess of watery fluid collecting in the cavities or tissues of the body.",
+    meaningEn: "A condition characterized by an excess of watery fluid collecting in the cavities or tissues of the body.",
     meaningVi: "Bệnh phù/Sự sưng phù.",
     exampleEn: "Pulmonary edema.",
     exampleVi: "Phù phổi.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
+  {
+    id: "gen-6756",
+    word: "Eden",
+    slug: "eden",
+    phonetic: "/ˈiː.dən/",
+    partOfSpeech: "noun",
+    meaningEn: "The garden in which according to the Bible's Book of Genesis the first man and woman, Adam and Eve, lived after they were created; a place of pristine or abundant natural beauty.",
+    meaningVi: "Vườn địa đàng/Nơi ẩn dật lý tưởng.",
+    exampleEn: "Earthly Eden.",
+    exampleVi: "Vườn địa đàng dưới trần thế.",
+    categories: ["Religion","Literature","Geography"],
+  },
+  {
+    id: "gen-353",
+    word: "Edge",
+    slug: "edge",
+    phonetic: "/edʒ/",
+    partOfSpeech: "noun",
+    meaningEn: "The outside limit of an object, area, or surface.",
+    meaningVi: "Rìa.",
+    exampleEn: "The edge of the table.",
+    exampleVi: "Rìa bàn.",
+    categories: ["General"],
+  }
 ];

@@ -7,8 +7,7 @@ export const Q1: VocabularyWord[] = [
     slug: "qualitative",
     phonetic: "/ˈkwɑː.lə.teɪ.t̬ɪv/",
     partOfSpeech: "adj",
-    meaningEn:
-      "Relating to, measuring, or measured by the quality of something rather than its quantity.",
+    meaningEn: "Relating to, measuring, or measured by the quality of something rather than its quantity.",
     meaningVi: "Thuộc về định tính.",
     exampleEn: "Qualitative research.",
     exampleVi: "Nghiên cứu định tính.",
@@ -20,37 +19,11 @@ export const Q1: VocabularyWord[] = [
     slug: "quality",
     phonetic: "/ˈkwɑː.lə.ti/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The standard of something as measured against other things of a similar kind.",
+    meaningEn: "The standard of something as measured against other things of a similar kind.",
     meaningVi: "Chất lượng.",
     exampleEn: "Quality products.",
     exampleVi: "Những sản phẩm chất lượng.",
     categories: ["Business"],
-  },
-  {
-    id: "b1-48",
-    word: "Quality",
-    slug: "quality",
-    phonetic: "/ˈkwɒl.ə.ti/",
-    partOfSpeech: "noun",
-    meaningEn:
-      "The standard of something as measured against other things of a similar kind; the degree of excellence of something.",
-    meaningVi: "Chất lượng.",
-    exampleEn: "High-quality products.",
-    exampleVi: "Sản phẩm chất lượng cao.",
-    categories: ["Daily"],
-  },
-  {
-    id: "gen-1192",
-    word: "Quality",
-    slug: "quality",
-    phonetic: "/ˈkwɑː.lə.ti/",
-    partOfSpeech: "noun",
-    meaningEn: "The standard of something.",
-    meaningVi: "Chất lượng.",
-    exampleEn: "High quality.",
-    exampleVi: "Chất lượng cao.",
-    categories: ["General"],
   },
   {
     id: "c2-176",
@@ -58,8 +31,7 @@ export const Q1: VocabularyWord[] = [
     slug: "quantitative",
     phonetic: "/ˈkwɑːn.t̬ə.teɪ.t̬ɪv/",
     partOfSpeech: "adj",
-    meaningEn:
-      "Relating to, measuring, or measured by the quantity of something rather than its quality.",
+    meaningEn: "Relating to, measuring, or measured by the quantity of something rather than its quality.",
     meaningVi: "Thuộc về định lượng.",
     exampleEn: "Quantitative analysis.",
     exampleVi: "Phân tích định lượng.",
@@ -76,31 +48,6 @@ export const Q1: VocabularyWord[] = [
     exampleEn: "Small quantity.",
     exampleVi: "Số lượng nhỏ.",
     categories: ["Business"],
-  },
-  {
-    id: "b1-112",
-    word: "Quantity",
-    slug: "quantity",
-    phonetic: "/ˈkwɒn.tə.ti/",
-    partOfSpeech: "noun",
-    meaningEn:
-      "The amount or number of a material or immaterial thing not usually estimated by spatial measurement.",
-    meaningVi: "Số lượng.",
-    exampleEn: "A small quantity of food.",
-    exampleVi: "Một số lượng nhỏ thức ăn.",
-    categories: ["Daily"],
-  },
-  {
-    id: "gen-1193",
-    word: "Quantity",
-    slug: "quantity",
-    phonetic: "/ˈkwɑːn.t̬ə.t̬i/",
-    partOfSpeech: "noun",
-    meaningEn: "The amount of something.",
-    meaningVi: "Số lượng.",
-    exampleEn: "Large quantity.",
-    exampleVi: "Số lượng lớn.",
-    categories: ["General"],
   },
   {
     id: "gen-1194",
@@ -171,8 +118,7 @@ export const Q1: VocabularyWord[] = [
     meaningEn: "The quality of being quick.",
     meaningVi: "Sự nhanh nhẹn.",
     exampleEn: "Her quickness in solving problems is impressive.",
-    exampleVi:
-      "Sự nhanh nhẹn của cô ấy trong việc giải quyết vấn đề thật ấn tượng.",
+    exampleVi: "Sự nhanh nhẹn của cô ấy trong việc giải quyết vấn đề thật ấn tượng.",
     categories: ["General"],
   },
   {
@@ -221,7 +167,7 @@ export const Q1: VocabularyWord[] = [
     meaningVi: "Hão huyền, viển vông.",
     exampleEn: "A quixotic adventure.",
     exampleVi: "Một cuộc phiêu lưu viển vông.",
-    categories: ["Daily", "Literature"],
+    categories: ["Daily","Literature"],
   },
   {
     id: "gen-1202",
@@ -234,5 +180,5 @@ export const Q1: VocabularyWord[] = [
     exampleEn: "Take a quiz.",
     exampleVi: "Làm bài kiểm tra.",
     categories: ["Education"],
-  },
+  }
 ];

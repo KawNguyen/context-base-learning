@@ -2,6 +2,42 @@ import { VocabularyWord } from "../../types";
 
 export const C21: VocabularyWord[] = [
   {
+    id: "gen-4676",
+    word: "Curse",
+    slug: "curse",
+    phonetic: "/kɝːs/",
+    partOfSpeech: "noun/verb",
+    meaningEn: "A solemn utterance intended to invoke a supernatural power to inflict harm or punishment on someone or something.",
+    meaningVi: "Lời nguyền rủa/Tai họa/Chửi thề.",
+    exampleEn: "Cursed with bad luck.",
+    exampleVi: "Bị vận đen ám đuổi.",
+    categories: ["General","Psychology","Social"],
+  },
+  {
+    id: "gen-4677",
+    word: "Cursed",
+    slug: "cursed",
+    phonetic: "/ˈkɝː.sɪd/",
+    partOfSpeech: "adjective",
+    meaningEn: "Under a curse.",
+    meaningVi: "Bị nguyền rủa/Đáng ghét.",
+    exampleEn: "A cursed place.",
+    exampleVi: "Một nơi bị nguyền rủa.",
+    categories: ["General","Psychology"],
+  },
+  {
+    id: "gen-4678",
+    word: "Cursive",
+    slug: "cursive",
+    phonetic: "/ˈkɝː.sɪv/",
+    partOfSpeech: "adjective/noun",
+    meaningEn: "Written with the characters joined together.",
+    meaningVi: "Chữ viết tay/Chữ thảo.",
+    exampleEn: "Write in cursive.",
+    exampleVi: "Viết bằng chữ thảo.",
+    categories: ["Education","General"],
+  },
+  {
     id: "gen-4679",
     word: "Cursor",
     slug: "cursor",
@@ -11,7 +47,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Con trỏ chuột.",
     exampleEn: "Blinking cursor.",
     exampleVi: "Con trỏ đang nhấp nháy.",
-    categories: ["Technology", "General"],
+    categories: ["Technology","General"],
   },
   {
     id: "gen-4680",
@@ -23,7 +59,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Lướt qua/Bất cẩn/Qua loa.",
     exampleEn: "Cursory glance.",
     exampleVi: "Cái nhìn lướt qua.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-4681",
@@ -35,7 +71,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Cộc lốc/Ngắn gọn đến mức thô lỗ.",
     exampleEn: "Curt reply.",
     exampleVi: "Câu trả lời cộc lốc.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-4682",
@@ -47,7 +83,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Cắt bớt/Rút ngắn/Hạn chế.",
     exampleEn: "Curtail expenses.",
     exampleVi: "Cắt giảm chi tiêu.",
-    categories: ["General", "Business", "Economics"],
+    categories: ["General","Business","Economics"],
   },
   {
     id: "gen-4683",
@@ -59,7 +95,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Sự cắt bớt/Sự hạn chế.",
     exampleEn: "Curtailment of rights.",
     exampleVi: "Sự hạn chế các quyền lợi.",
-    categories: ["General", "Law", "Social"],
+    categories: ["General","Law","Social"],
   },
   {
     id: "gen-223",
@@ -71,7 +107,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Rèm cửa.",
     exampleEn: "Close the curtains.",
     exampleVi: "Đóng rèm lại.",
-    categories: ["Home", "Home"],
+    categories: ["Home","Home"],
   },
   {
     id: "gen-4685",
@@ -107,7 +143,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Sự nhún đầu gối chào (của nữ).",
     exampleEn: "Make a curtsy.",
     exampleVi: "Nhún chân chào.",
-    categories: ["Social", "History"],
+    categories: ["Social","History"],
   },
   {
     id: "gen-4688",
@@ -115,12 +151,11 @@ export const C21: VocabularyWord[] = [
     slug: "curvature",
     phonetic: "/ˈkɝː.və.tʃɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The fact of being curved or the degree to which something is curved.",
+    meaningEn: "The fact of being curved or the degree to which something is curved.",
     meaningVi: "Độ cong/Đường cong.",
     exampleEn: "Curvature of the spine.",
     exampleVi: "Chứng vẹo cột sống.",
-    categories: ["General", "Medical", "Science"],
+    categories: ["General","Medical","Science"],
   },
   {
     id: "gen-224",
@@ -144,7 +179,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Bị uốn cong/Có hình cong.",
     exampleEn: "Curved monitor.",
     exampleVi: "Màn hình cong.",
-    categories: ["General", "Body"],
+    categories: ["General","Body"],
   },
   {
     id: "gen-4691",
@@ -156,7 +191,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Sự nhảy chồm (của ngựa)/Nhảy tung tăng.",
     exampleEn: "Curvetting stallion.",
     exampleVi: "Con ngựa đực đang nhảy chồm lên.",
-    categories: ["Animals", "General"],
+    categories: ["Animals","General"],
   },
   {
     id: "gen-4692",
@@ -168,7 +203,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Thuộc về đường cong/Được tạo thành từ các đường cong.",
     exampleEn: "Curvilinear shapes.",
     exampleVi: "Các hình khối có đường cong.",
-    categories: ["Science", "Art", "Engineering"],
+    categories: ["Science","Art","Engineering"],
   },
   {
     id: "gen-4693",
@@ -176,12 +211,11 @@ export const C21: VocabularyWord[] = [
     slug: "cushion",
     phonetic: "/ˈkʊʃ.ən/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A soft bag of cloth stuffed with feathers, foam, etc., used to sit or kneel on.",
+    meaningEn: "A soft bag of cloth stuffed with feathers, foam, etc., used to sit or kneel on.",
     meaningVi: "Gối tựa/Đệm/Vật giảm chấn/Tấm nệm.",
     exampleEn: "Cushion the blow.",
     exampleVi: "Giảm bớt mức độ nghiêm trọng của cú sốc.",
-    categories: ["Daily", "Home", "General"],
+    categories: ["Daily","Home","General"],
   },
   {
     id: "gen-4694",
@@ -193,7 +227,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Lớp đệm/Sự giảm chấn.",
     exampleEn: "Extra cushioning in shoes.",
     exampleVi: "Lớp đệm thêm trong giày.",
-    categories: ["Engineering", "Daily"],
+    categories: ["Engineering","Daily"],
   },
   {
     id: "gen-4695",
@@ -205,7 +239,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Dễ dãi/An nhàn/Hời (công việc).",
     exampleEn: "Cushy job.",
     exampleVi: "Công việc nhàn hạ.",
-    categories: ["Business", "General"],
+    categories: ["Business","General"],
   },
   {
     id: "gen-4696",
@@ -213,12 +247,11 @@ export const C21: VocabularyWord[] = [
     slug: "cusp",
     phonetic: "/kʌsp/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A pointed end where two curves meet, in particular a horn of the crescent moon.",
+    meaningEn: "A pointed end where two curves meet, in particular a horn of the crescent moon.",
     meaningVi: "Điểm nhọn/Đỉnh (răng)/Điểm giao nhau/Ngưỡng (thời gian).",
     exampleEn: "On the cusp of change.",
     exampleVi: "Trên ngưỡng cửa của sự thay đổi.",
-    categories: ["Science", "General", "Medical"],
+    categories: ["Science","General","Medical"],
   },
   {
     id: "gen-4697",
@@ -230,7 +263,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Ống nhổ.",
     exampleEn: "Brass cuspidor.",
     exampleVi: "Ống nhổ bằng đồng.",
-    categories: ["Daily", "History"],
+    categories: ["Daily","History"],
   },
   {
     id: "gen-4698",
@@ -254,7 +287,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Thuộc về quyền trông nom/giam giữ.",
     exampleEn: "Custodial sentence.",
     exampleVi: "Án tù giam.",
-    categories: ["Law", "Social"],
+    categories: ["Law","Social"],
   },
   {
     id: "gen-4700",
@@ -266,7 +299,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Người trông nom/Người bảo quản/Quản thủ.",
     exampleEn: "Custodian of archives.",
     exampleVi: "Người bảo quản kho lưu trữ.",
-    categories: ["People", "Business", "Education"],
+    categories: ["People","Business","Education"],
   },
   {
     id: "gen-4701",
@@ -278,7 +311,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Quyền chăm sóc/Sự giam giữ/Quyền bảo hộ.",
     exampleEn: "In police custody.",
     exampleVi: "Bị cảnh sát tạm giữ.",
-    categories: ["Law", "Social", "Politics"],
+    categories: ["Law","Social","Politics"],
   },
   {
     id: "gen-225",
@@ -290,7 +323,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Phong tục.",
     exampleEn: "It's a local custom.",
     exampleVi: "Đó là phong tục địa phương.",
-    categories: ["Social", "General"],
+    categories: ["Social","General"],
   },
   {
     id: "gen-4703",
@@ -298,12 +331,11 @@ export const C21: VocabularyWord[] = [
     slug: "customary",
     phonetic: "/ˈkʌs.tə.mer.i/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "According to the customs or usual practices associated with a particular society, place, or set of circumstances.",
+    meaningEn: "According to the customs or usual practices associated with a particular society, place, or set of circumstances.",
     meaningVi: "Theo phong tục lệ thường/Thông thường.",
     exampleEn: "Customary practice.",
     exampleVi: "Tập quán thông thường.",
-    categories: ["Social", "Law", "General"],
+    categories: ["Social","Law","General"],
   },
   {
     id: "a2-28",
@@ -311,8 +343,7 @@ export const C21: VocabularyWord[] = [
     slug: "customer",
     phonetic: "/ˈkʌs.tə.mər/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person or organization that buys goods or services from a store or business.",
+    meaningEn: "A person or organization that buys goods or services from a store or business.",
     meaningVi: "Khách hàng.",
     exampleEn: "The customer is always right.",
     exampleVi: "Khách hàng luôn luôn đúng.",
@@ -328,7 +359,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Tùy biến/Làm theo yêu cầu của khách hàng.",
     exampleEn: "Customize your settings.",
     exampleVi: "Tùy chỉnh cài đặt của bạn.",
-    categories: ["Technology", "Business", "General"],
+    categories: ["Technology","Business","General"],
   },
   {
     id: "gen-4706",
@@ -336,12 +367,11 @@ export const C21: VocabularyWord[] = [
     slug: "customs",
     phonetic: "/ˈkʌs.təmz/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The official department that administers and collects the duties levied by a government on imported goods.",
+    meaningEn: "The official department that administers and collects the duties levied by a government on imported goods.",
     meaningVi: "Hải quan/Thuế quan.",
     exampleEn: "Customs declaration form.",
     exampleVi: "Tờ khai hải quan.",
-    categories: ["Politics", "Law", "Business", "Travel"],
+    categories: ["Politics","Law","Business","Travel"],
   },
   {
     id: "gen-227",
@@ -401,7 +431,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Giảm giá/Giá rẻ.",
     exampleEn: "Cut-price tickets.",
     exampleVi: "Vé giảm giá.",
-    categories: ["Business", "General"],
+    categories: ["Business","General"],
   },
   {
     id: "gen-4722",
@@ -413,7 +443,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Khốc liệt/Cắt cổ/Tàn khốc/Kẻ giết người.",
     exampleEn: "Cut-throat competition.",
     exampleVi: "Sự cạnh tranh khốc liệt.",
-    categories: ["Business", "Psychology", "General"],
+    categories: ["Business","Psychology","General"],
   },
   {
     id: "gen-4708",
@@ -425,7 +455,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Thuộc về da.",
     exampleEn: "Cutaneous eruption.",
     exampleVi: "Phát ban trên da.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-4709",
@@ -433,12 +463,11 @@ export const C21: VocabularyWord[] = [
     slug: "cutaway",
     phonetic: "/ˈkʌt̬.ə.weɪ/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A diagram or model with some outer parts removed to show the interior; (of a coat) having the front parts narrower than the back.",
+    meaningEn: "A diagram or model with some outer parts removed to show the interior; (of a coat) having the front parts narrower than the back.",
     meaningVi: "Mặt cắt (đồ vật)/Áo bướm (áo đuôi tôm ngắn thân trước).",
     exampleEn: "Cutaway model.",
     exampleVi: "Mô hình mặt cắt.",
-    categories: ["Engineering", "Body", "Art"],
+    categories: ["Engineering","Body","Art"],
   },
   {
     id: "gen-4711",
@@ -450,7 +479,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Xinh xắn/Dễ thương/Khôn ngoan (láu lỉnh).",
     exampleEn: "Cute puppy.",
     exampleVi: "Con chó con dễ thương.",
-    categories: ["General", "Body"],
+    categories: ["General","Body"],
   },
   {
     id: "gen-4712",
@@ -486,7 +515,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Biểu bì/Lớp da quanh móng chân tay.",
     exampleEn: "Soft cuticles.",
     exampleVi: "Lớp biểu bì mềm.",
-    categories: ["Medical", "Science", "Body"],
+    categories: ["Medical","Science","Body"],
   },
   {
     id: "gen-4715",
@@ -498,7 +527,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Mã tấu/Kiếm ngắn (của thủy thủ thời xưa).",
     exampleEn: "Pirate with a cutlass.",
     exampleVi: "Tên cướp biển cầm mã tấu.",
-    categories: ["General", "History"],
+    categories: ["General","History"],
   },
   {
     id: "gen-4716",
@@ -510,7 +539,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Người làm dao kéo/Người bán dao kéo.",
     exampleEn: "Master cutler.",
     exampleVi: "Thợ rèn dao kéo bậc thầy.",
-    categories: ["Business", "History"],
+    categories: ["Business","History"],
   },
   {
     id: "gen-4717",
@@ -522,7 +551,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Bộ dao nĩa/Dụng cụ ăn uống.",
     exampleEn: "Polishing the cutlery.",
     exampleVi: "Đánh bóng bộ dao nĩa.",
-    categories: ["Daily", "Home", "Food & Drink"],
+    categories: ["Daily","Home","Food & Drink"],
   },
   {
     id: "gen-4718",
@@ -530,8 +559,7 @@ export const C21: VocabularyWord[] = [
     slug: "cutlet",
     phonetic: "/ˈkʌt.lət/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A small piece of meat, typically lamb, pork, or veal, cut from the ribs.",
+    meaningEn: "A small piece of meat, typically lamb, pork, or veal, cut from the ribs.",
     meaningVi: "Miếng thịt cốt lết.",
     exampleEn: "Lamb cutlets.",
     exampleVi: "Cốt lết cừu.",
@@ -543,12 +571,11 @@ export const C21: VocabularyWord[] = [
     slug: "cutter",
     phonetic: "/ˈkʌt.ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person or thing that cuts something; a small, fast tool or boat.",
+    meaningEn: "A person or thing that cuts something; a small, fast tool or boat.",
     meaningVi: "Người cắt/Máy cắt/Thuyền nhỏ tốc độ cao.",
     exampleEn: "Glass cutter.",
     exampleVi: "Dụng cụ cắt kính.",
-    categories: ["Business", "Travel", "Engineering"],
+    categories: ["Business","Travel","Engineering"],
   },
   {
     id: "gen-4723",
@@ -556,12 +583,11 @@ export const C21: VocabularyWord[] = [
     slug: "cutting",
     phonetic: "/ˈkʌt.ɪŋ/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "The action of cutting; part of a plant suitable for grafting; sharp or biting.",
+    meaningEn: "The action of cutting; part of a plant suitable for grafting; sharp or biting.",
     meaningVi: "Sự cắt/Mảnh cắt/Cành giâm/Chua cay (lời nói).",
     exampleEn: "Cutting remark.",
     exampleVi: "Lời nhận xét chua cay.",
-    categories: ["General", "Nature", "Psychology"],
+    categories: ["General","Nature","Psychology"],
   },
   {
     id: "gen-4724",
@@ -573,7 +599,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Màu xanh lơ/Xanh cánh chả.",
     exampleEn: "Cyan ink.",
     exampleVi: "Mực màu xanh lơ.",
-    categories: ["Body", "Art", "Technology"],
+    categories: ["Body","Art","Technology"],
   },
   {
     id: "gen-4725",
@@ -585,7 +611,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Chất xyanua (thuốc độc).",
     exampleEn: "Cyanide poisoning.",
     exampleVi: "Ngộ độc xyanua.",
-    categories: ["Science", "Medical"],
+    categories: ["Science","Medical"],
   },
   {
     id: "gen-4726",
@@ -593,12 +619,11 @@ export const C21: VocabularyWord[] = [
     slug: "cybernetics",
     phonetic: "/ˌsaɪ.bɚˈnet.ɪks/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The science of communications and automatic control systems in both machines and living things.",
+    meaningEn: "The science of communications and automatic control systems in both machines and living things.",
     meaningVi: "Kinh nghiệm học/Điều khiển học.",
     exampleEn: "Artificial intelligence and cybernetics.",
     exampleVi: "Trí tuệ nhân tạo và điều khiển học.",
-    categories: ["Science", "Engineering", "Technology"],
+    categories: ["Science","Engineering","Technology"],
   },
   {
     id: "c2-215",
@@ -610,7 +635,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "An ninh mạng.",
     exampleEn: "Strict cybersecurity.",
     exampleVi: "An ninh mạng nghiêm ngặt.",
-    categories: ["Technology", "Business"],
+    categories: ["Technology","Business"],
   },
   {
     id: "gen-4727",
@@ -618,12 +643,11 @@ export const C21: VocabularyWord[] = [
     slug: "cyclamen",
     phonetic: "/ˈsaɪ.klə.mən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A plant of the primrose family, having flowers with backward-slanting petals.",
+    meaningEn: "A plant of the primrose family, having flowers with backward-slanting petals.",
     meaningVi: "Cây hoa tiên khách lai (anh thảo).",
     exampleEn: "Cyclamen blooms.",
     exampleVi: "Hoa tiên khách lai đang nở.",
-    categories: ["Nature", "Plants"],
+    categories: ["Nature","Plants"],
   },
   {
     id: "b2-54",
@@ -631,8 +655,7 @@ export const C21: VocabularyWord[] = [
     slug: "cycle",
     phonetic: "/ˈsaɪ.kəl/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A series of events that are regularly repeated in the same order.",
+    meaningEn: "A series of events that are regularly repeated in the same order.",
     meaningVi: "Chu kỳ.",
     exampleEn: "The life cycle of a butterfly.",
     exampleVi: "Chu kỳ sống của một con bướm.",
@@ -648,7 +671,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Tuần hoàn/Theo chu kỳ.",
     exampleEn: "Cyclic behavior.",
     exampleVi: "Hành vi có tính chu kỳ.",
-    categories: ["Science", "General"],
+    categories: ["Science","General"],
   },
   {
     id: "gen-4730",
@@ -660,7 +683,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Có tính chu kỳ/Tuần hoàn.",
     exampleEn: "Cyclical nature of history.",
     exampleVi: "Bản chất tuần hoàn của lịch sử.",
-    categories: ["Science", "History"],
+    categories: ["Science","History"],
   },
   {
     id: "gen-4731",
@@ -672,7 +695,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Môn đua xe đạp/Đi xe đạp.",
     exampleEn: "Cycling trip.",
     exampleVi: "Chuyến đi bằng xe đạp.",
-    categories: ["Sports", "Travel", "General"],
+    categories: ["Sports","Travel","General"],
   },
   {
     id: "gen-4732",
@@ -684,7 +707,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Người đi xe đạp.",
     exampleEn: "Professional cyclist.",
     exampleVi: "Vận động viên xe đạp chuyên nghiệp.",
-    categories: ["People", "Sports", "Travel"],
+    categories: ["People","Sports","Travel"],
   },
   {
     id: "gen-4733",
@@ -692,12 +715,11 @@ export const C21: VocabularyWord[] = [
     slug: "cyclone",
     phonetic: "/ˈsaɪ.kloʊn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A system of winds rotating inward to an area of low atmospheric pressure.",
+    meaningEn: "A system of winds rotating inward to an area of low atmospheric pressure.",
     meaningVi: "Lốc xoáy/Bão nhiệt đới/Gió xoáy.",
     exampleEn: "Strong cyclone.",
     exampleVi: "Trận lốc xoáy mạnh.",
-    categories: ["Science", "Nature"],
+    categories: ["Science","Nature"],
   },
   {
     id: "gen-4734",
@@ -709,7 +731,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Có tính chất bách khoa toàn thư/Toàn diện.",
     exampleEn: "Cyclopedic knowledge.",
     exampleVi: "Kiến thức uyên bác/bách khoa.",
-    categories: ["Education", "General"],
+    categories: ["Education","General"],
   },
   {
     id: "gen-4735",
@@ -717,12 +739,11 @@ export const C21: VocabularyWord[] = [
     slug: "cylinder",
     phonetic: "/ˈsɪl.ɪn.dɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A solid geometric figure with straight parallel sides and a circular or oval section.",
+    meaningEn: "A solid geometric figure with straight parallel sides and a circular or oval section.",
     meaningVi: "Hình trụ/Xi lanh/Ống trụ.",
     exampleEn: "Gas cylinder.",
     exampleVi: "Bình ga.",
-    categories: ["Science", "Engineering", "General"],
+    categories: ["Science","Engineering","General"],
   },
   {
     id: "gen-4736",
@@ -734,7 +755,7 @@ export const C21: VocabularyWord[] = [
     meaningVi: "Có hình trụ.",
     exampleEn: "Cylindrical tank.",
     exampleVi: "Bình chứa hình trụ.",
-    categories: ["Science", "Engineering"],
+    categories: ["Science","Engineering"],
   },
   {
     id: "gen-4737",
@@ -742,12 +763,11 @@ export const C21: VocabularyWord[] = [
     slug: "cymbal",
     phonetic: "/ˈsɪm.bəl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A musical instrument consisting of a slightly concave round brass plate which is struck against another or with a stick.",
+    meaningEn: "A musical instrument consisting of a slightly concave round brass plate which is struck against another or with a stick.",
     meaningVi: "Cái chũm chọe/Xập xèng.",
     exampleEn: "Clashing cymbals.",
     exampleVi: "Tiếng chũm chọe va vào nhau.",
-    categories: ["Music", "Art"],
+    categories: ["Music","Art"],
   },
   {
     id: "gen-4738",
@@ -755,12 +775,11 @@ export const C21: VocabularyWord[] = [
     slug: "cynic",
     phonetic: "/ˈsɪn.ɪk/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who believes that people are motivated purely by self-interest rather than acting for honorable or unselfish reasons.",
+    meaningEn: "A person who believes that people are motivated purely by self-interest rather than acting for honorable or unselfish reasons.",
     meaningVi: "Người hay hoài nghi (về lòng tốt)/Kẻ ích kỷ.",
     exampleEn: "Don't be such a cynic.",
     exampleVi: "Đừng có hoài nghi như thế.",
-    categories: ["People", "Psychology", "Social"],
+    categories: ["People","Psychology","Social"],
   },
   {
     id: "gen-4739",
@@ -768,12 +787,11 @@ export const C21: VocabularyWord[] = [
     slug: "cynical",
     phonetic: "/ˈsɪn.ɪ.kəl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Believing that people are motivated by self-interest; distrustful of human sincerity or integrity.",
+    meaningEn: "Believing that people are motivated by self-interest; distrustful of human sincerity or integrity.",
     meaningVi: "Hoài nghi/Thô nhạo/Ích kỷ.",
     exampleEn: "Cynical view.",
     exampleVi: "Cái nhìn hoài nghi.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-4740",
@@ -793,12 +811,11 @@ export const C21: VocabularyWord[] = [
     slug: "cynicism",
     phonetic: "/ˈsɪn.ɪ.sɪz.əm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An inclination to believe that people are motivated purely by self-interest; skepticism.",
+    meaningEn: "An inclination to believe that people are motivated purely by self-interest; skepticism.",
     meaningVi: "Sự hoài nghi/Chủ nghĩa thô nhạo.",
     exampleEn: "Spirit of cynicism.",
     exampleVi: "Tinh thần hoài nghi.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-4742",
@@ -806,12 +823,11 @@ export const C21: VocabularyWord[] = [
     slug: "cynosure",
     phonetic: "/ˈsaɪ.noʊ.ʃʊr/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person or thing that is the center of attention or admiration.",
+    meaningEn: "A person or thing that is the center of attention or admiration.",
     meaningVi: "Trung tâm của sự chú ý/Vật chỉ nam.",
     exampleEn: "The cynosure of all eyes.",
     exampleVi: "Trung tâm của mọi ánh nhìn.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-4743",
@@ -819,12 +835,11 @@ export const C21: VocabularyWord[] = [
     slug: "cypress",
     phonetic: "/ˈsaɪ.prəs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An evergreen coniferous tree with small rounded woody cones and flattened shoots bearing small scale-like leaves.",
+    meaningEn: "An evergreen coniferous tree with small rounded woody cones and flattened shoots bearing small scale-like leaves.",
     meaningVi: "Cây hoàng đàn/Cây bách.",
     exampleEn: "Cypress grove.",
     exampleVi: "Rừng cây bách.",
-    categories: ["Nature", "Plants"],
+    categories: ["Nature","Plants"],
   },
   {
     id: "gen-4744",
@@ -832,12 +847,11 @@ export const C21: VocabularyWord[] = [
     slug: "cyst",
     phonetic: "/sɪst/",
     partOfSpeech: "noun",
-    meaningEn:
-      "In an animal or plant, a thin-walled, hollow organ or cavity containing a liquid secretion; a sac.",
+    meaningEn: "In an animal or plant, a thin-walled, hollow organ or cavity containing a liquid secretion; a sac.",
     meaningVi: "U nang/Túi/Bao.",
     exampleEn: "Sebaceous cyst.",
     exampleVi: "U nang bã nhờn.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-4745",
@@ -845,12 +859,11 @@ export const C21: VocabularyWord[] = [
     slug: "cytology",
     phonetic: "/saɪˈtɑː.lə.dʒi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The branch of biology concerned with the structure and function of plant and animal cells.",
+    meaningEn: "The branch of biology concerned with the structure and function of plant and animal cells.",
     meaningVi: "Tế bào học.",
     exampleEn: "Studying cytology.",
     exampleVi: "Học về tế bào học.",
-    categories: ["Science", "Medical"],
+    categories: ["Science","Medical"],
   },
   {
     id: "gen-4746",
@@ -858,11 +871,10 @@ export const C21: VocabularyWord[] = [
     slug: "czar",
     phonetic: "/zɑːr/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An emperor of Russia before 1917; a person with great power or authority in a particular field.",
+    meaningEn: "An emperor of Russia before 1917; a person with great power or authority in a particular field.",
     meaningVi: "Sa hoàng/Người có quyền lực lớn.",
     exampleEn: "Energy czar.",
     exampleVi: "Ông trùm năng lượng.",
-    categories: ["People", "History", "Politics"],
-  },
+    categories: ["People","History","Politics"],
+  }
 ];

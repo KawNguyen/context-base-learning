@@ -2,17 +2,28 @@ import { VocabularyWord } from "../../types";
 
 export const C4: VocabularyWord[] = [
   {
+    id: "gen-2995",
+    word: "Checkmate",
+    slug: "checkmate",
+    phonetic: "/ˈtʃek.meɪt/",
+    partOfSpeech: "noun/verb",
+    meaningEn: "A position in which the king of one of the players is in check and there is no way to get out of check.",
+    meaningVi: "Chiếu tướng/Thành công mỹ mãn.",
+    exampleEn: "Queen to checkmate.",
+    exampleVi: "Hậu chiếu tướng.",
+    categories: ["Sports","General"],
+  },
+  {
     id: "gen-2996",
     word: "Checkout",
     slug: "checkout",
     phonetic: "/ˈtʃek.aʊt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A point at which goods are paid for in a supermarket or other store.",
+    meaningEn: "A point at which goods are paid for in a supermarket or other store.",
     meaningVi: "Quầy thanh toán/Thủ tục trả phòng.",
     exampleEn: "Checkout counter.",
     exampleVi: "Quầy thu ngân.",
-    categories: ["Shopping", "Travel", "Daily"],
+    categories: ["Shopping","Travel","Daily"],
   },
   {
     id: "gen-2997",
@@ -20,12 +31,11 @@ export const C4: VocabularyWord[] = [
     slug: "checkpoint",
     phonetic: "/ˈtʃek.pɔɪnt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A barrier or manned entrance, typically at a border, where travelers are subject to security checks.",
+    meaningEn: "A barrier or manned entrance, typically at a border, where travelers are subject to security checks.",
     meaningVi: "Trạm kiểm soát.",
     exampleEn: "Security checkpoint.",
     exampleVi: "Trạm kiểm soát an ninh.",
-    categories: ["Politics", "Law", "Travel"],
+    categories: ["Politics","Law","Travel"],
   },
   {
     id: "gen-2998",
@@ -37,7 +47,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Kiểm tra sức khỏe.",
     exampleEn: "Regular checkup.",
     exampleVi: "Kiểm tra định kỳ.",
-    categories: ["Medical", "Medical", "Daily"],
+    categories: ["Medical","Medical","Daily"],
   },
   {
     id: "gen-2999",
@@ -49,7 +59,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Gò má.",
     exampleEn: "Red cheeks.",
     exampleVi: "Đôi má đỏ.",
-    categories: ["Biology", "Body"],
+    categories: ["Biology","Body"],
   },
   {
     id: "gen-3000",
@@ -57,12 +67,11 @@ export const C4: VocabularyWord[] = [
     slug: "cheeky",
     phonetic: "/ˈtʃiː.ki/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Impudent or irreverent, typically in an amusing or endearing way.",
+    meaningEn: "Impudent or irreverent, typically in an amusing or endearing way.",
     meaningVi: "Hỗn xược/Táo tợn (đáng yêu).",
     exampleEn: "Cheeky smile.",
     exampleVi: "Nụ cười lém lỉnh.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-3001",
@@ -74,7 +83,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Cổ vũ/Vui vẻ.",
     exampleEn: "Cheer up.",
     exampleVi: "Vui lên đi.",
-    categories: ["Emotions", "General", "Sports"],
+    categories: ["Emotions","General","Sports"],
   },
   {
     id: "pv-84",
@@ -98,7 +107,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Vui vẻ/Hớn hở.",
     exampleEn: "Cheerful atmosphere.",
     exampleVi: "Bầu không khí vui vẻ.",
-    categories: ["Psychology", "Emotions"],
+    categories: ["Psychology","Emotions"],
   },
   {
     id: "gen-3003",
@@ -110,7 +119,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Một cách vui vẻ.",
     exampleEn: "Smile cheerfully.",
     exampleVi: "Mỉm cười rạng rỡ.",
-    categories: ["Psychology", "Emotions"],
+    categories: ["Psychology","Emotions"],
   },
   {
     id: "gen-3004",
@@ -122,7 +131,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Hoạt náo viên.",
     exampleEn: "College cheerleader.",
     exampleVi: "Hoạt náo viên đại học.",
-    categories: ["People", "Sports", "Social"],
+    categories: ["People","Sports","Social"],
   },
   {
     id: "gen-3005",
@@ -134,7 +143,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Buồn bã/Ảm đạm.",
     exampleEn: "Cheerless winter.",
     exampleVi: "Mùa đông ảm đạm.",
-    categories: ["Emotions", "General"],
+    categories: ["Emotions","General"],
   },
   {
     id: "gen-3006",
@@ -146,7 +155,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Cạn ly/Cảm ơn/Tạm biệt.",
     exampleEn: "Cheers to you.",
     exampleVi: "Chúc mừng bạn.",
-    categories: ["Social", "Daily"],
+    categories: ["Social","Daily"],
   },
   {
     id: "gen-3007",
@@ -158,7 +167,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Vui vẻ.",
     exampleEn: "Cheery voice.",
     exampleVi: "Giọng nói vui vẻ.",
-    categories: ["Psychology", "Emotions"],
+    categories: ["Psychology","Emotions"],
   },
   {
     id: "gen-3008",
@@ -170,7 +179,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Phô mai.",
     exampleEn: "Goat cheese.",
     exampleVi: "Phô mai dê.",
-    categories: ["Food & Drink", "Daily"],
+    categories: ["Food & Drink","Daily"],
   },
   {
     id: "gen-3009",
@@ -178,12 +187,11 @@ export const C4: VocabularyWord[] = [
     slug: "cheesecake",
     phonetic: "/ˈtʃiːz.keɪk/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A rich sweet tart made with cream and soft cheese on a biscuit or pastry base.",
+    meaningEn: "A rich sweet tart made with cream and soft cheese on a biscuit or pastry base.",
     meaningVi: "Bánh phô mai.",
     exampleEn: "Strawberry cheesecake.",
     exampleVi: "Bánh phô mai dâu tây.",
-    categories: ["Food & Drink", "Daily"],
+    categories: ["Food & Drink","Daily"],
   },
   {
     id: "gen-3010",
@@ -191,12 +199,11 @@ export const C4: VocabularyWord[] = [
     slug: "cheetah",
     phonetic: "/ˈtʃiː.t̬ə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A large slender spotted cat of Africa and parts of southern Asia.",
+    meaningEn: "A large slender spotted cat of Africa and parts of southern Asia.",
     meaningVi: "Con báo săn.",
     exampleEn: "Fastest cheetah.",
     exampleVi: "Con báo săn nhanh nhất.",
-    categories: ["Biology", "Environment"],
+    categories: ["Biology","Environment"],
   },
   {
     id: "gen-3011",
@@ -204,12 +211,11 @@ export const C4: VocabularyWord[] = [
     slug: "chef",
     phonetic: "/ʃef/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A professional cook, typically the chief cook in a restaurant or hotel.",
+    meaningEn: "A professional cook, typically the chief cook in a restaurant or hotel.",
     meaningVi: "Đầu bếp.",
     exampleEn: "Executive chef.",
     exampleVi: "Tổng bếp trưởng.",
-    categories: ["People", "Business", "Food & Drink", "Jobs"],
+    categories: ["People","Business","Food & Drink","Jobs"],
   },
   {
     id: "b1-141",
@@ -217,8 +223,7 @@ export const C4: VocabularyWord[] = [
     slug: "chemical",
     phonetic: "/ˈkem.ɪ.kəl/",
     partOfSpeech: "noun/adj",
-    meaningEn:
-      "A distinct compound or substance, especially one which has been artificially prepared or purified.",
+    meaningEn: "A distinct compound or substance, especially one which has been artificially prepared or purified.",
     meaningVi: "Hóa chất.",
     exampleEn: "Chemical reaction.",
     exampleVi: "Phản ứng hóa học.",
@@ -230,12 +235,11 @@ export const C4: VocabularyWord[] = [
     slug: "chemist",
     phonetic: "/ˈkem.ɪst/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An expert in chemistry; a person engaged in chemical research or experiments.",
+    meaningEn: "An expert in chemistry; a person engaged in chemical research or experiments.",
     meaningVi: "Nhà hóa học/Dược sĩ.",
     exampleEn: "Industrial chemist.",
     exampleVi: "Nhà hóa học công nghiệp.",
-    categories: ["People", "Science", "Chemistry", "Jobs"],
+    categories: ["People","Science","Chemistry","Jobs"],
   },
   {
     id: "a2-93",
@@ -243,8 +247,7 @@ export const C4: VocabularyWord[] = [
     slug: "chemistry",
     phonetic: "/ˈkem.ə.stri/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The branch of science that deals with the identification of the substances of which matter is composed.",
+    meaningEn: "The branch of science that deals with the identification of the substances of which matter is composed.",
     meaningVi: "Hóa học.",
     exampleEn: "Chemistry experiments are exciting.",
     exampleVi: "Các thí nghiệm hóa học rất thú vị.",
@@ -256,12 +259,11 @@ export const C4: VocabularyWord[] = [
     slug: "chemotherapy",
     phonetic: "/ˌkiː.moʊˈθer.ə.pi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The treatment of disease by the use of chemical substances, especially the treatment of cancer by cytotoxic and other drugs.",
+    meaningEn: "The treatment of disease by the use of chemical substances, especially the treatment of cancer by cytotoxic and other drugs.",
     meaningVi: "Hóa trị.",
     exampleEn: "Start chemotherapy.",
     exampleVi: "Bắt đầu hóa trị.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-3016",
@@ -273,7 +275,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Yêu thương/Trân trọng.",
     exampleEn: "Cherish memories.",
     exampleVi: "Trân trọng những kỷ niệm.",
-    categories: ["Psychology", "Emotions", "Social"],
+    categories: ["Psychology","Emotions","Social"],
   },
   {
     id: "gen-3017",
@@ -281,12 +283,11 @@ export const C4: VocabularyWord[] = [
     slug: "cherry",
     phonetic: "/ˈtʃer.i/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A small, round stone fruit that is typically bright or dark red.",
+    meaningEn: "A small, round stone fruit that is typically bright or dark red.",
     meaningVi: "Quả anh đào.",
     exampleEn: "Cherry blossom.",
     exampleVi: "Hoa anh đào.",
-    categories: ["Food & Drink", "Biology", "Environment"],
+    categories: ["Food & Drink","Biology","Environment"],
   },
   {
     id: "gen-3018",
@@ -294,12 +295,11 @@ export const C4: VocabularyWord[] = [
     slug: "cherub",
     phonetic: "/ˈtʃer.əb/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A winged angelic being that is described in biblical tradition as attending on God.",
+    meaningEn: "A winged angelic being that is described in biblical tradition as attending on God.",
     meaningVi: "Thiên thần nhỏ/Đứa trẻ kháu khỉnh.",
     exampleEn: "Faces like cherubs.",
     exampleVi: "Gương mặt như những thiên thần.",
-    categories: ["Philosophy", "Art", "Social"],
+    categories: ["Philosophy","Art","Social"],
   },
   {
     id: "gen-3019",
@@ -307,12 +307,11 @@ export const C4: VocabularyWord[] = [
     slug: "chess",
     phonetic: "/tʃes/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A board game of strategic skill for two players, played on a checkered board.",
+    meaningEn: "A board game of strategic skill for two players, played on a checkered board.",
     meaningVi: "Cờ vua.",
     exampleEn: "Grand chess master.",
     exampleVi: "Đại kiện tướng cờ vua.",
-    categories: ["Sports", "General"],
+    categories: ["Sports","General"],
   },
   {
     id: "gen-140",
@@ -320,12 +319,11 @@ export const C4: VocabularyWord[] = [
     slug: "chest",
     phonetic: "/tʃest/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The front surface of a person's or animal's body between the neck and the abdomen.",
+    meaningEn: "The front surface of a person's or animal's body between the neck and the abdomen.",
     meaningVi: "Ngực.",
     exampleEn: "He has pain in his chest.",
     exampleVi: "Anh ấy bị đau ngực.",
-    categories: ["Medical", "Biology"],
+    categories: ["Medical","Biology"],
   },
   {
     id: "gen-3021",
@@ -333,12 +331,11 @@ export const C4: VocabularyWord[] = [
     slug: "chestnut",
     phonetic: "/ˈtʃes.nʌt/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A glossy brown edible nut which develops within a bristly case.",
+    meaningEn: "A glossy brown edible nut which develops within a bristly case.",
     meaningVi: "Hạt dẻ/Cây dẻ/Màu hạt dẻ.",
     exampleEn: "Roasted chestnuts.",
     exampleVi: "Hạt dẻ nướng.",
-    categories: ["Food & Drink", "Biology", "Environment"],
+    categories: ["Food & Drink","Biology","Environment"],
   },
   {
     id: "gen-3022",
@@ -346,12 +343,11 @@ export const C4: VocabularyWord[] = [
     slug: "chew",
     phonetic: "/tʃuː/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Bite and work (food) in the mouth with the teeth, especially to make it easier to swallow.",
+    meaningEn: "Bite and work (food) in the mouth with the teeth, especially to make it easier to swallow.",
     meaningVi: "Nhai/Nghiền ngẫm.",
     exampleEn: "Chew slowly.",
     exampleVi: "Nhai chậm.",
-    categories: ["General", "Medical", "Food & Drink"],
+    categories: ["General","Medical","Food & Drink"],
   },
   {
     id: "gen-3023",
@@ -363,7 +359,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Sự nhai.",
     exampleEn: "Chewing gum.",
     exampleVi: "Kẹo cao su.",
-    categories: ["General", "Daily", "Food & Drink"],
+    categories: ["General","Daily","Food & Drink"],
   },
   {
     id: "gen-3024",
@@ -375,7 +371,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Hào hoa/Sang trọng/Hợp thời trang.",
     exampleEn: "Chic boutique.",
     exampleVi: "Cửa hàng thời trang sang trọng.",
-    categories: ["Fashion", "Body", "General"],
+    categories: ["Fashion","Body","General"],
   },
   {
     id: "c2-74",
@@ -383,8 +379,7 @@ export const C4: VocabularyWord[] = [
     slug: "chicanery",
     phonetic: "/ʃɪˈkeɪ.nɚ.i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The use of trickery to achieve a political, financial, or legal purpose.",
+    meaningEn: "The use of trickery to achieve a political, financial, or legal purpose.",
     meaningVi: "Mánh khóe, sự lừa lọc.",
     exampleEn: "Political chicanery.",
     exampleVi: "Mánh khóe chính trị.",
@@ -400,7 +395,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Gà con/Chim non.",
     exampleEn: "Newborn chick.",
     exampleVi: "Gà con mới nở.",
-    categories: ["Biology", "Environment"],
+    categories: ["Biology","Environment"],
   },
   {
     id: "gen-3026",
@@ -408,12 +403,11 @@ export const C4: VocabularyWord[] = [
     slug: "chicken",
     phonetic: "/ˈtʃɪk.ɪn/",
     partOfSpeech: "noun/adjective/verb",
-    meaningEn:
-      "A domestic fowl kept for its eggs or meat, especially a young one.",
+    meaningEn: "A domestic fowl kept for its eggs or meat, especially a young one.",
     meaningVi: "Con gà/Thịt gà/Kẻ hèn nhát.",
     exampleEn: "Fried chicken.",
     exampleVi: "Gà rán.",
-    categories: ["Food & Drink", "Biology", "General"],
+    categories: ["Food & Drink","Biology","General"],
   },
   {
     id: "gen-3027",
@@ -425,7 +419,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Người đứng đầu/Chủ chốt.",
     exampleEn: "Chief executive.",
     exampleVi: "Giám đốc điều hành.",
-    categories: ["People", "Business", "Politics"],
+    categories: ["People","Business","Politics"],
   },
   {
     id: "gen-3028",
@@ -449,7 +443,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Thủ lĩnh (bộ lạc).",
     exampleEn: "Tribal chieftain.",
     exampleVi: "Thủ lĩnh bộ lạc.",
-    categories: ["People", "Social", "History"],
+    categories: ["People","Social","History"],
   },
   {
     id: "gen-3030",
@@ -457,12 +451,11 @@ export const C4: VocabularyWord[] = [
     slug: "chilblain",
     phonetic: "/ˈtʃɪl.bleɪn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A painful, itching swelling on a hand or foot, caused by exposure to cold.",
+    meaningEn: "A painful, itching swelling on a hand or foot, caused by exposure to cold.",
     meaningVi: "Sưng tấy do lạnh/Cước.",
     exampleEn: "Suffering from chilblains.",
     exampleVi: "Bị cước tay chân.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "a1-52",
@@ -486,7 +479,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Sự sinh đẻ.",
     exampleEn: "Natural childbirth.",
     exampleVi: "Sinh tự nhiên.",
-    categories: ["Medical", "Medical", "Biology"],
+    categories: ["Medical","Medical","Biology"],
   },
   {
     id: "gen-141",
@@ -498,7 +491,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Tuổi thơ.",
     exampleEn: "I had a happy childhood.",
     exampleVi: "Tôi đã có một tuổi thơ hạnh phúc.",
-    categories: ["Family", "General"],
+    categories: ["Family","General"],
   },
   {
     id: "gen-3034",
@@ -510,7 +503,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Trẻ con/Ngây ngô.",
     exampleEn: "Childish behavior.",
     exampleVi: "Hành xử trẻ con.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-3035",
@@ -518,12 +511,11 @@ export const C4: VocabularyWord[] = [
     slug: "childlike",
     phonetic: "/ˈtʃaɪld.laɪk/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of an adult) having the good qualities, such as innocence, associated with a child.",
+    meaningEn: "(of an adult) having the good qualities, such as innocence, associated with a child.",
     meaningVi: "Như trẻ con/Ngây thơ.",
     exampleEn: "Childlike innocence.",
     exampleVi: "Sự ngây thơ như trẻ nhỏ.",
-    categories: ["Psychology", "Body"],
+    categories: ["Psychology","Body"],
   },
   {
     id: "gen-3036",
@@ -531,12 +523,11 @@ export const C4: VocabularyWord[] = [
     slug: "chill",
     phonetic: "/tʃɪl/",
     partOfSpeech: "noun/verb/adjective",
-    meaningEn:
-      "An unpleasant feeling of coldness in the atmosphere, one's surroundings, or the body.",
+    meaningEn: "An unpleasant feeling of coldness in the atmosphere, one's surroundings, or the body.",
     meaningVi: "Sự lạnh lẽo/Cảm lạnh/Thư giãn.",
     exampleEn: "Chill out.",
     exampleVi: "Thư giãn đi.",
-    categories: ["General", "Environment", "Daily"],
+    categories: ["General","Environment","Daily"],
   },
   {
     id: "gen-3037",
@@ -548,7 +539,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Được làm lạnh/Hết sức thoải mái.",
     exampleEn: "Chilled wine.",
     exampleVi: "Rượu đã làm lạnh.",
-    categories: ["General", "Food & Drink", "Daily"],
+    categories: ["General","Food & Drink","Daily"],
   },
   {
     id: "gen-3038",
@@ -556,12 +547,11 @@ export const C4: VocabularyWord[] = [
     slug: "chilli",
     phonetic: "/ˈtʃɪl.i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A small hot-tasting pod of a variety of capsicum, used chopped (and often dried) in sauces, relics, and spice powders.",
+    meaningEn: "A small hot-tasting pod of a variety of capsicum, used chopped (and often dried) in sauces, relics, and spice powders.",
     meaningVi: "Ớt.",
     exampleEn: "Chilli sauce.",
     exampleVi: "Tương ớt.",
-    categories: ["Food & Drink", "Daily"],
+    categories: ["Food & Drink","Daily"],
   },
   {
     id: "gen-3039",
@@ -573,7 +563,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Lạnh lẽo/Lạnh giá.",
     exampleEn: "Chilly morning.",
     exampleVi: "Buổi sáng lạnh lẽo.",
-    categories: ["General", "Environment"],
+    categories: ["General","Environment"],
   },
   {
     id: "gen-3040",
@@ -585,7 +575,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Tiếng chuông/Hòa hợp.",
     exampleEn: "Wind chime.",
     exampleVi: "Chuông gió.",
-    categories: ["General", "Music", "Home"],
+    categories: ["General","Music","Home"],
   },
   {
     id: "gen-3041",
@@ -593,12 +583,11 @@ export const C4: VocabularyWord[] = [
     slug: "chimney",
     phonetic: "/ˈtʃɪm.ni/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A vertical channel or pipe which conducts smoke and combustion gases up from a fire or furnace and typically through the roof of a building.",
+    meaningEn: "A vertical channel or pipe which conducts smoke and combustion gases up from a fire or furnace and typically through the roof of a building.",
     meaningVi: "Ống khói.",
     exampleEn: "Smoke from chimney.",
     exampleVi: "Khói từ ống khói.",
-    categories: ["Home", "Engineering", "General"],
+    categories: ["Home","Engineering","General"],
   },
   {
     id: "gen-3042",
@@ -606,12 +595,11 @@ export const C4: VocabularyWord[] = [
     slug: "chimpanzee",
     phonetic: "/ˌtʃɪm.pænˈziː/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A great ape with large ears, mainly black coloration, and lighter skin on the face, native to the forests of west and central Africa.",
+    meaningEn: "A great ape with large ears, mainly black coloration, and lighter skin on the face, native to the forests of west and central Africa.",
     meaningVi: "Con tinh tinh.",
     exampleEn: "Wild chimpanzee.",
     exampleVi: "Tinh tinh hoang dã.",
-    categories: ["Biology", "Environment"],
+    categories: ["Biology","Environment"],
   },
   {
     id: "gen-3043",
@@ -619,12 +607,11 @@ export const C4: VocabularyWord[] = [
     slug: "chin",
     phonetic: "/tʃɪn/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "The protruding part of the face below the mouth, formed by the apex of the lower jaw.",
+    meaningEn: "The protruding part of the face below the mouth, formed by the apex of the lower jaw.",
     meaningVi: "Cằm.",
     exampleEn: "Double chin.",
     exampleVi: "Cằm hai ngấn.",
-    categories: ["Biology", "Body"],
+    categories: ["Biology","Body"],
   },
   {
     id: "gen-3044",
@@ -636,7 +623,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Đồ sứ/Nước Trung Hoa.",
     exampleEn: "Bone china.",
     exampleVi: "Sứ xương.",
-    categories: ["General", "Home", "Geography"],
+    categories: ["General","Home","Geography"],
   },
   {
     id: "gen-3045",
@@ -648,7 +635,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Khe hở/Tiếng lẻng xẻng.",
     exampleEn: "Chink in the armor.",
     exampleVi: "Điểm yếu trong lớp giáp.",
-    categories: ["General", "Engineering"],
+    categories: ["General","Engineering"],
   },
   {
     id: "gen-3046",
@@ -656,12 +643,11 @@ export const C4: VocabularyWord[] = [
     slug: "chip",
     phonetic: "/tʃɪp/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A small piece of something removed by chopping, cutting, or breaking a hard material.",
+    meaningEn: "A small piece of something removed by chopping, cutting, or breaking a hard material.",
     meaningVi: "Mảnh vụn/Khoai tây chiên/Chíp điện tử/Sứt mẻ.",
     exampleEn: "Computer chip.",
     exampleVi: "Chíp máy tính.",
-    categories: ["Technology", "Technology", "Food & Drink", "General"],
+    categories: ["Technology","Technology","Food & Drink","General"],
   },
   {
     id: "gen-3047",
@@ -669,12 +655,11 @@ export const C4: VocabularyWord[] = [
     slug: "chipmunk",
     phonetic: "/ˈtʃɪp.mʌŋk/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A burrowing ground squirrel with cheek pouches and light and dark stripes on the back, found in North America and northern Eurasia.",
+    meaningEn: "A burrowing ground squirrel with cheek pouches and light and dark stripes on the back, found in North America and northern Eurasia.",
     meaningVi: "Sóc chuột/Sóc vàng.",
     exampleEn: "Cute chipmunk.",
     exampleVi: "Con sóc chuột dễ thương.",
-    categories: ["Biology", "Environment"],
+    categories: ["Biology","Environment"],
   },
   {
     id: "gen-3048",
@@ -686,7 +671,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Bác sĩ chữa các bệnh chân.",
     exampleEn: "Visit the chiropodist.",
     exampleVi: "Đến gặp bác sĩ bàn chân.",
-    categories: ["People", "Medical", "Medical"],
+    categories: ["People","Medical","Medical"],
   },
   {
     id: "gen-3049",
@@ -694,12 +679,11 @@ export const C4: VocabularyWord[] = [
     slug: "chiropractic",
     phonetic: "/ˌkaɪ.roʊˈpræk.tɪk/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A system of complementary medicine based on the diagnosis and manipulative treatment of misalignments of the joints, especially those of the spinal column.",
+    meaningEn: "A system of complementary medicine based on the diagnosis and manipulative treatment of misalignments of the joints, especially those of the spinal column.",
     meaningVi: "Thuật nắn xương/Chữa bệnh bằng nắn xương.",
     exampleEn: "Chiropractic care.",
     exampleVi: "Chăm sóc bằng thuật nắn xương.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-3050",
@@ -711,7 +695,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Người nắn khớp xương.",
     exampleEn: "Licensed chiropractor.",
     exampleVi: "Người nắn khớp xương có bằng cấp.",
-    categories: ["People", "Medical", "Medical"],
+    categories: ["People","Medical","Medical"],
   },
   {
     id: "gen-3051",
@@ -719,12 +703,11 @@ export const C4: VocabularyWord[] = [
     slug: "chirp",
     phonetic: "/tʃɝːp/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "(of a small bird or insect) make a short, sharp, high-pitched sound.",
+    meaningEn: "(of a small bird or insect) make a short, sharp, high-pitched sound.",
     meaningVi: "Tiếng hót líu lo/Tiếng kêu chiêm chiếp.",
     exampleEn: "Bird chirp.",
     exampleVi: "Tiếng chim hót.",
-    categories: ["Biology", "Environment", "Music"],
+    categories: ["Biology","Environment","Music"],
   },
   {
     id: "gen-3052",
@@ -732,12 +715,11 @@ export const C4: VocabularyWord[] = [
     slug: "chisel",
     phonetic: "/ˈtʃɪz.əl/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A long-bladed hand tool with a beveled cutting edge and a plain handle that is struck with a hammer or mallet, used for cutting or shaping wood, stone, or metal.",
+    meaningEn: "A long-bladed hand tool with a beveled cutting edge and a plain handle that is struck with a hammer or mallet, used for cutting or shaping wood, stone, or metal.",
     meaningVi: "Cái đục/Chạm trổ.",
     exampleEn: "Stone chisel.",
     exampleVi: "Cái đục đá.",
-    categories: ["Engineering", "Art", "Business"],
+    categories: ["Engineering","Art","Business"],
   },
   {
     id: "gen-3053",
@@ -745,12 +727,11 @@ export const C4: VocabularyWord[] = [
     slug: "chit",
     phonetic: "/tʃɪt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A short official note, typically recording a sum of money owed.",
+    meaningEn: "A short official note, typically recording a sum of money owed.",
     meaningVi: "Phiếu/Giấy ghi nợ ngắn.",
     exampleEn: "Expense chit.",
     exampleVi: "Phiếu chi.",
-    categories: ["General", "Finance", "Business"],
+    categories: ["General","Finance","Business"],
   },
   {
     id: "c1-188",
@@ -758,8 +739,7 @@ export const C4: VocabularyWord[] = [
     slug: "chivalrous",
     phonetic: "/ˈʃɪv.əl.rəs/",
     partOfSpeech: "adj",
-    meaningEn:
-      "(of a man or his behavior) courteous and gallant, especially toward women.",
+    meaningEn: "(of a man or his behavior) courteous and gallant, especially toward women.",
     meaningVi: "Hào hiệp, ga lăng.",
     exampleEn: "A chivalrous gesture.",
     exampleVi: "Một cử chỉ hào hiệp.",
@@ -771,12 +751,11 @@ export const C4: VocabularyWord[] = [
     slug: "chivalry",
     phonetic: "/ˈʃɪv.əl.ri/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The medieval knightly system with its religious, moral, and social code.",
+    meaningEn: "The medieval knightly system with its religious, moral, and social code.",
     meaningVi: "Hệ thống hiệp sĩ/Kỵ sĩ đạo/Hào hiệp.",
     exampleEn: "Code of chivalry.",
     exampleVi: "Luật kỵ sĩ.",
-    categories: ["Social", "History", "Philosophy"],
+    categories: ["Social","History","Philosophy"],
   },
   {
     id: "gen-3056",
@@ -784,12 +763,11 @@ export const C4: VocabularyWord[] = [
     slug: "chive",
     phonetic: "/tʃaɪv/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A small Eurasian plant related to the onion, with purple flowers and long tubular leaves that are used as a culinary herb.",
+    meaningEn: "A small Eurasian plant related to the onion, with purple flowers and long tubular leaves that are used as a culinary herb.",
     meaningVi: "Hành tăm/Hẹ.",
     exampleEn: "Chopped chives.",
     exampleVi: "Hành tăm thái nhỏ.",
-    categories: ["Food & Drink", "Biology", "Environment"],
+    categories: ["Food & Drink","Biology","Environment"],
   },
   {
     id: "gen-3057",
@@ -801,7 +779,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Khử trùng bằng clo.",
     exampleEn: "Chlorinate swimming pool.",
     exampleVi: "Khử trùng bể bơi bằng clo.",
-    categories: ["Science", "Chemistry", "Medical"],
+    categories: ["Science","Chemistry","Medical"],
   },
   {
     id: "gen-3058",
@@ -809,12 +787,11 @@ export const C4: VocabularyWord[] = [
     slug: "chlorine",
     phonetic: "/ˈklɔːr.iːn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The chemical element of atomic number 17, a toxic, irritant, pale green gas.",
+    meaningEn: "The chemical element of atomic number 17, a toxic, irritant, pale green gas.",
     meaningVi: "Clo.",
     exampleEn: "Smell of chlorine.",
     exampleVi: "Mùi clo.",
-    categories: ["Science", "Chemistry"],
+    categories: ["Science","Chemistry"],
   },
   {
     id: "gen-3059",
@@ -822,12 +799,11 @@ export const C4: VocabularyWord[] = [
     slug: "chloroform",
     phonetic: "/ˈklɔːr.ə.fɔːrm/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A colorless, volatile, sweet-smelling liquid used as a solvent and formerly as a general anesthetic.",
+    meaningEn: "A colorless, volatile, sweet-smelling liquid used as a solvent and formerly as a general anesthetic.",
     meaningVi: "Cloroform (thuốc mê).",
     exampleEn: "Use chloroform.",
     exampleVi: "Sử dụng thuốc mê cloroform.",
-    categories: ["Medical", "Science", "Chemistry"],
+    categories: ["Medical","Science","Chemistry"],
   },
   {
     id: "gen-3060",
@@ -835,12 +811,11 @@ export const C4: VocabularyWord[] = [
     slug: "chlorophyll",
     phonetic: "/ˈklɔːr.ə.fɪl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A green pigment, present in all green plants and in cyanobacteria, responsible for the absorption of light to provide energy for photosynthesis.",
+    meaningEn: "A green pigment, present in all green plants and in cyanobacteria, responsible for the absorption of light to provide energy for photosynthesis.",
     meaningVi: "Diệp lục.",
     exampleEn: "Chlorophyll in leaves.",
     exampleVi: "Chất diệp lục trong lá.",
-    categories: ["Science", "Biology", "Environment"],
+    categories: ["Science","Biology","Environment"],
   },
   {
     id: "gen-3061",
@@ -848,12 +823,11 @@ export const C4: VocabularyWord[] = [
     slug: "chock",
     phonetic: "/tʃɑːk/",
     partOfSpeech: "noun/verb/adverb",
-    meaningEn:
-      "A wedge or block placed against a wheel or round object, to prevent it from moving.",
+    meaningEn: "A wedge or block placed against a wheel or round object, to prevent it from moving.",
     meaningVi: "Cái chèn bánh xe.",
     exampleEn: "Chock full of.",
     exampleVi: "Đầy ắp.",
-    categories: ["General", "Engineering", "Travel"],
+    categories: ["General","Engineering","Travel"],
   },
   {
     id: "gen-3062",
@@ -861,12 +835,11 @@ export const C4: VocabularyWord[] = [
     slug: "chocolate",
     phonetic: "/ˈtʃɑːk.lət/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A food in the form of a paste or solid block made from roasted and ground cacao seeds, typically sweetened.",
+    meaningEn: "A food in the form of a paste or solid block made from roasted and ground cacao seeds, typically sweetened.",
     meaningVi: "Sô-cô-la.",
     exampleEn: "Dark chocolate.",
     exampleVi: "Sô-cô-la đen.",
-    categories: ["Food & Drink", "Daily"],
+    categories: ["Food & Drink","Daily"],
   },
   {
     id: "a2-127",
@@ -874,8 +847,7 @@ export const C4: VocabularyWord[] = [
     slug: "choice",
     phonetic: "/tʃɔɪs/",
     partOfSpeech: "noun/adj",
-    meaningEn:
-      "An act of selecting or making a decision when faced with two or more possibilities.",
+    meaningEn: "An act of selecting or making a decision when faced with two or more possibilities.",
     meaningVi: "Sự lựa chọn.",
     exampleEn: "Make the right choice.",
     exampleVi: "Hãy đưa ra sự lựa chọn đúng đắn.",
@@ -887,12 +859,11 @@ export const C4: VocabularyWord[] = [
     slug: "choir",
     phonetic: "/kwaɪɚ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "An organized group of singers, typically one that takes part in church services or performs in public.",
+    meaningEn: "An organized group of singers, typically one that takes part in church services or performs in public.",
     meaningVi: "Dàn hợp xướng.",
     exampleEn: "Church choir.",
     exampleVi: "Dàn hợp xướng nhà thờ.",
-    categories: ["Music", "Social", "Art"],
+    categories: ["Music","Social","Art"],
   },
   {
     id: "gen-3065",
@@ -900,12 +871,11 @@ export const C4: VocabularyWord[] = [
     slug: "choke",
     phonetic: "/tʃoʊk/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "(of a person or animal) have severe difficulty in breathing because of a constricted or obstructed throat or a lack of air.",
+    meaningEn: "(of a person or animal) have severe difficulty in breathing because of a constricted or obstructed throat or a lack of air.",
     meaningVi: "Nghẹt thở/Nghẹn/Nút cảm (xe hơi).",
     exampleEn: "Choke on food.",
     exampleVi: "Mắc nghẹn thức ăn.",
-    categories: ["General", "Medical", "Medical"],
+    categories: ["General","Medical","Medical"],
   },
   {
     id: "gen-3066",
@@ -917,7 +887,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Sự nghẹt thở/Sự nghẹn.",
     exampleEn: "Choking victim.",
     exampleVi: "Nạn nhân bị nghẹt thở.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-3067",
@@ -925,12 +895,11 @@ export const C4: VocabularyWord[] = [
     slug: "cholera",
     phonetic: "/ˈkɑː.lɚ.ə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An infectious and often fatal bacterial disease of the small intestine, typically contracted from infected water supplies.",
+    meaningEn: "An infectious and often fatal bacterial disease of the small intestine, typically contracted from infected water supplies.",
     meaningVi: "Bệnh tả.",
     exampleEn: "Cholera outbreak.",
     exampleVi: "Dịch bệnh tả bùng phát.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-143",
@@ -954,7 +923,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Người lựa chọn.",
     exampleEn: "Beggars can't be choosers.",
     exampleVi: "Ăn mày không được đòi xôi gấc.",
-    categories: ["People", "General"],
+    categories: ["People","General"],
   },
   {
     id: "gen-3070",
@@ -966,7 +935,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Kén chọn.",
     exampleEn: "Too choosy.",
     exampleVi: "Quá kén chọn.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-3071",
@@ -974,12 +943,11 @@ export const C4: VocabularyWord[] = [
     slug: "chop",
     phonetic: "/tʃɑːp/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Cut (something) into small pieces with repeated sharp blows using an ax or knife.",
+    meaningEn: "Cut (something) into small pieces with repeated sharp blows using an ax or knife.",
     meaningVi: "Chặt/Thái nhỏ/Miếng thịt sườn.",
     exampleEn: "Pork chop.",
     exampleVi: "Sườn lợn.",
-    categories: ["Food & Drink", "Business", "Daily"],
+    categories: ["Food & Drink","Business","Daily"],
   },
   {
     id: "gen-3072",
@@ -991,7 +959,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Máy thái/Máy chém/Trực thăng (từ lóng).",
     exampleEn: "Food chopper.",
     exampleVi: "Máy xay thái thực phẩm.",
-    categories: ["Daily", "Travel", "History"],
+    categories: ["Daily","Travel","History"],
   },
   {
     id: "gen-3073",
@@ -1003,7 +971,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Một cách đứt quãng/Sóng vỗ bập bềnh.",
     exampleEn: "Video playing choppily.",
     exampleVi: "Video phát bị giật đứt quãng.",
-    categories: ["General", "Media", "Environment"],
+    categories: ["General","Media","Environment"],
   },
   {
     id: "gen-3074",
@@ -1015,7 +983,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Biển động/Bấp bênh/Rời rạc.",
     exampleEn: "Choppy water.",
     exampleVi: "Mặt nước gợn sóng mạnh.",
-    categories: ["Environment", "Geography", "General"],
+    categories: ["Environment","Geography","General"],
   },
   {
     id: "gen-3075",
@@ -1023,12 +991,11 @@ export const C4: VocabularyWord[] = [
     slug: "chopstick",
     phonetic: "/ˈtʃɑːp.stɪk/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Each of a pair of small, thin, tapered sticks of wood, ivory, or plastic, held together in one hand and used as eating utensils especially in East Asian countries.",
+    meaningEn: "Each of a pair of small, thin, tapered sticks of wood, ivory, or plastic, held together in one hand and used as eating utensils especially in East Asian countries.",
     meaningVi: "Đũa.",
     exampleEn: "Use chopsticks.",
     exampleVi: "Dùng đũa.",
-    categories: ["Food & Drink", "Daily", "General"],
+    categories: ["Food & Drink","Daily","General"],
   },
   {
     id: "gen-3076",
@@ -1040,7 +1007,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Thuộc về hợp xướng.",
     exampleEn: "Choral music.",
     exampleVi: "Nhạc hợp xướng.",
-    categories: ["Music", "Art", "Social"],
+    categories: ["Music","Art","Social"],
   },
   {
     id: "gen-3077",
@@ -1048,12 +1015,11 @@ export const C4: VocabularyWord[] = [
     slug: "chord",
     phonetic: "/kɔːrd/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A group of (typically three or more) notes sounded together, as a basis of harmony.",
+    meaningEn: "A group of (typically three or more) notes sounded together, as a basis of harmony.",
     meaningVi: "Hợp âm/Dây cung.",
     exampleEn: "Guitar chord.",
     exampleVi: "Hợp âm ghi-ta.",
-    categories: ["Music", "Art", "Mathematics"],
+    categories: ["Music","Art","Mathematics"],
   },
   {
     id: "gen-3078",
@@ -1065,7 +1031,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Việc vặt/Việc nhà.",
     exampleEn: "Daily chores.",
     exampleVi: "Việc nhà hàng ngày.",
-    categories: ["Daily", "Home", "Business"],
+    categories: ["Daily","Home","Business"],
   },
   {
     id: "gen-3079",
@@ -1073,12 +1039,11 @@ export const C4: VocabularyWord[] = [
     slug: "choreograph",
     phonetic: "/ˈkɔːr.i.ə.ɡræf/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Compose the sequence of steps and moves for (a performance of dance or figure skating).",
+    meaningEn: "Compose the sequence of steps and moves for (a performance of dance or figure skating).",
     meaningVi: "Biên đạo (múa).",
     exampleEn: "Choreograph a dance.",
     exampleVi: "Biên đạo một bài múa.",
-    categories: ["Art", "Social"],
+    categories: ["Art","Social"],
   },
   {
     id: "gen-3080",
@@ -1086,12 +1051,11 @@ export const C4: VocabularyWord[] = [
     slug: "choreographer",
     phonetic: "/ˌkɔːr.iˈɑː.ɡrə.fɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who composes the sequence of steps and moves for a performance of dance or figure skating.",
+    meaningEn: "A person who composes the sequence of steps and moves for a performance of dance or figure skating.",
     meaningVi: "Biên đạo múa.",
     exampleEn: "Famous choreographer.",
     exampleVi: "Biên đạo múa nổi tiếng.",
-    categories: ["People", "Art", "Business"],
+    categories: ["People","Art","Business"],
   },
   {
     id: "gen-3081",
@@ -1099,12 +1063,11 @@ export const C4: VocabularyWord[] = [
     slug: "choreography",
     phonetic: "/ˌkɔːr.iˈɑː.ɡrə.fi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The sequence of steps and movements in dance or figure skating, especially in a ballet or other staged dance.",
+    meaningEn: "The sequence of steps and movements in dance or figure skating, especially in a ballet or other staged dance.",
     meaningVi: "Nghệ thuật biên đạo múa.",
     exampleEn: "Intricate choreography.",
     exampleVi: "Vũ đạo phức tạp.",
-    categories: ["Art", "Social"],
+    categories: ["Art","Social"],
   },
   {
     id: "gen-3082",
@@ -1112,12 +1075,11 @@ export const C4: VocabularyWord[] = [
     slug: "chorister",
     phonetic: "/ˈkɔːr.ə.stɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A member of a choir, especially a child or young person singing the treble part in a church choir.",
+    meaningEn: "A member of a choir, especially a child or young person singing the treble part in a church choir.",
     meaningVi: "Người hát trong dàn hợp xướng.",
     exampleEn: "Young chorister.",
     exampleVi: "Ca viên trẻ tuổi.",
-    categories: ["People", "Music", "Philosophy"],
+    categories: ["People","Music","Philosophy"],
   },
   {
     id: "gen-3083",
@@ -1129,7 +1091,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Cười nắc nẻ.",
     exampleEn: "Chortle with glee.",
     exampleVi: "Cười nắc nẻ vì vui sướng.",
-    categories: ["Psychology", "Emotions"],
+    categories: ["Psychology","Emotions"],
   },
   {
     id: "gen-3084",
@@ -1137,12 +1099,11 @@ export const C4: VocabularyWord[] = [
     slug: "chorus",
     phonetic: "/ˈkɔːr.əs/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A large organized group of singers, especially one that performs together with an orchestra or opera company.",
+    meaningEn: "A large organized group of singers, especially one that performs together with an orchestra or opera company.",
     meaningVi: "Điệp khúc/Dàn đồng ca.",
     exampleEn: "Sing in chorus.",
     exampleVi: "Hát đồng thanh.",
-    categories: ["Music", "Art", "Social"],
+    categories: ["Music","Art","Social"],
   },
   {
     id: "gen-3085",
@@ -1154,7 +1115,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Chúa Kitô.",
     exampleEn: "Follow Christ.",
     exampleVi: "Đi theo Chúa Kitô.",
-    categories: ["Philosophy", "Social", "History"],
+    categories: ["Philosophy","Social","History"],
   },
   {
     id: "gen-3086",
@@ -1162,12 +1123,11 @@ export const C4: VocabularyWord[] = [
     slug: "christen",
     phonetic: "/ˈkrɪs.ən/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Give (a baby) a Christian name at baptism as an admission to a Christian Church.",
+    meaningEn: "Give (a baby) a Christian name at baptism as an admission to a Christian Church.",
     meaningVi: "Rửa tội/Đặt tên.",
     exampleEn: "Christen the child.",
     exampleVi: "Làm lễ rửa tội cho đứa trẻ.",
-    categories: ["Social", "Philosophy", "Daily"],
+    categories: ["Social","Philosophy","Daily"],
   },
   {
     id: "gen-3087",
@@ -1179,7 +1139,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Thế giới Kitô giáo.",
     exampleEn: "Peace in Christendom.",
     exampleVi: "Hòa bình trong thế giới Kitô giáo.",
-    categories: ["Social", "Philosophy", "History"],
+    categories: ["Social","Philosophy","History"],
   },
   {
     id: "gen-3088",
@@ -1191,7 +1151,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Lễ rửa tội.",
     exampleEn: "Christening party.",
     exampleVi: "Tiệc mừng lễ rửa tội.",
-    categories: ["Social", "Philosophy", "Daily"],
+    categories: ["Social","Philosophy","Daily"],
   },
   {
     id: "gen-3089",
@@ -1203,7 +1163,7 @@ export const C4: VocabularyWord[] = [
     meaningVi: "Tín đồ Kitô giáo/Thuộc về Kitô giáo.",
     exampleEn: "Christian faith.",
     exampleVi: "Đức tin Kitô giáo.",
-    categories: ["People", "Philosophy", "Social"],
+    categories: ["People","Philosophy","Social"],
   },
   {
     id: "gen-3090",
@@ -1211,12 +1171,11 @@ export const C4: VocabularyWord[] = [
     slug: "christianity",
     phonetic: "/ˌkrɪs.tiˈæn.ə.t̬i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The religion based on the person and teachings of Jesus of Nazareth, or its beliefs and practices.",
+    meaningEn: "The religion based on the person and teachings of Jesus of Nazareth, or its beliefs and practices.",
     meaningVi: "Kitô giáo.",
     exampleEn: "History of Christianity.",
     exampleVi: "Lịch sử Kitô giáo.",
-    categories: ["Philosophy", "Social", "History"],
+    categories: ["Philosophy","Social","History"],
   },
   {
     id: "gen-3091",
@@ -1224,12 +1183,11 @@ export const C4: VocabularyWord[] = [
     slug: "christmas",
     phonetic: "/ˈkrɪs.məs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The annual Christian festival celebrating Christ's birth, held on December 25.",
+    meaningEn: "The annual Christian festival celebrating Christ's birth, held on December 25.",
     meaningVi: "Giáng sinh.",
     exampleEn: "Christmas tree.",
     exampleVi: "Cây thông Noel.",
-    categories: ["Social", "Philosophy", "Daily"],
+    categories: ["Social","Philosophy","Daily"],
   },
   {
     id: "gen-3092",
@@ -1237,24 +1195,10 @@ export const C4: VocabularyWord[] = [
     slug: "chromatic",
     phonetic: "/kroʊˈmæt̬.ɪk/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to or using notes not belonging to the diatonic scale of the key in which a passage is written.",
+    meaningEn: "Relating to or using notes not belonging to the diatonic scale of the key in which a passage is written.",
     meaningVi: "Thuộc về màu sắc/Bán âm.",
     exampleEn: "Chromatic scale.",
     exampleVi: "Thang âm bán âm.",
-    categories: ["Music", "Art", "Science"],
-  },
-  {
-    id: "gen-3093",
-    word: "Chrome",
-    slug: "chrome",
-    phonetic: "/kroʊm/",
-    partOfSpeech: "noun/verb",
-    meaningEn:
-      "Chromium plate as a decorative or protective finish on motor-vehicle parts and other objects.",
-    meaningVi: "Crôm (lớp mạ).",
-    exampleEn: "Chrome bumper.",
-    exampleVi: "Cản trước mạ crôm.",
-    categories: ["Technology", "Engineering", "General"],
-  },
+    categories: ["Music","Art","Science"],
+  }
 ];

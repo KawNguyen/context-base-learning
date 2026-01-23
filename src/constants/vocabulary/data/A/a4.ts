@@ -23,7 +23,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Kiến trúc.",
     exampleEn: "Computer architecture.",
     exampleVi: "Kiến trúc máy tính.",
-    categories: ["Technology", "Engineering"],
+    categories: ["Technology","Engineering"],
   },
   {
     id: "b2-129",
@@ -47,7 +47,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Bắc Cực.",
     exampleEn: "Arctic ocean.",
     exampleVi: "Bắc Băng Dương.",
-    categories: ["Geography", "Environment"],
+    categories: ["Geography","Environment"],
   },
   {
     id: "c1-145",
@@ -67,8 +67,7 @@ export const A4: VocabularyWord[] = [
     slug: "are",
     phonetic: "/ɑːr/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Second person singular present and first, second, third person plural present of be.",
+    meaningEn: "Second person singular present and first, second, third person plural present of be.",
     meaningVi: "Là.",
     exampleEn: "We are friends.",
     exampleVi: "Chúng tôi là bạn bè.",
@@ -92,12 +91,11 @@ export const A4: VocabularyWord[] = [
     slug: "arena",
     phonetic: "/əˈriː.nə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A level area surrounded by seats for spectators, in which sports or other public events are held.",
+    meaningEn: "A level area surrounded by seats for spectators, in which sports or other public events are held.",
     meaningVi: "Đấu trường.",
     exampleEn: "Sports arena.",
     exampleVi: "Nhà thi đấu thể thao.",
-    categories: ["Sports", "Art"],
+    categories: ["Sports","Art"],
   },
   {
     id: "gen-2141",
@@ -145,7 +143,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Lập luận, sự tranh cãi.",
     exampleEn: "A strong argument.",
     exampleVi: "Một lập luận mạnh mẽ.",
-    categories: ["Academic", "Daily", "Social"],
+    categories: ["Academic","Daily","Social"],
   },
   {
     id: "gen-2145",
@@ -153,12 +151,11 @@ export const A4: VocabularyWord[] = [
     slug: "arid",
     phonetic: "/ˈer.ɪd/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Having little or no rain; too dry or barren to support vegetation.",
+    meaningEn: "Having little or no rain; too dry or barren to support vegetation.",
     meaningVi: "Khô cằn.",
     exampleEn: "Arid desert.",
     exampleVi: "Sa mạc khô cằn.",
-    categories: ["Environment", "Geography"],
+    categories: ["Environment","Geography"],
   },
   {
     id: "gen-2146",
@@ -182,7 +179,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Quý tộc.",
     exampleEn: "Wealthy aristocrat.",
     exampleVi: "Quý tộc giàu có.",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-2148",
@@ -202,12 +199,11 @@ export const A4: VocabularyWord[] = [
     slug: "arithmetic",
     phonetic: "/əˈrɪθ.mə.tɪk/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "The branch of mathematics dealing with the properties and manipulation of numbers.",
+    meaningEn: "The branch of mathematics dealing with the properties and manipulation of numbers.",
     meaningVi: "Số học.",
     exampleEn: "Mental arithmetic.",
     exampleVi: "Tính nhẩm.",
-    categories: ["Mathematics", "Education"],
+    categories: ["Mathematics","Education"],
   },
   {
     id: "a1-242",
@@ -219,7 +215,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Cánh tay.",
     exampleEn: "He broke his arm.",
     exampleVi: "Anh ấy bị gãy tay.",
-    categories: ["Medical", "Daily"],
+    categories: ["Medical","Daily"],
   },
   {
     id: "gen-2151",
@@ -231,7 +227,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Hạm đội.",
     exampleEn: "Spanish Armada.",
     exampleVi: "Hạm đội Tây Ban Nha.",
-    categories: ["Politics", "History"],
+    categories: ["Politics","History"],
   },
   {
     id: "gen-2152",
@@ -255,7 +251,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Có vũ trang.",
     exampleEn: "Armed forces.",
     exampleVi: "Lực lượng vũ trang.",
-    categories: ["Politics", "General"],
+    categories: ["Politics","General"],
   },
   {
     id: "gen-2154",
@@ -267,7 +263,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Bọc thép.",
     exampleEn: "Armored vehicle.",
     exampleVi: "Xe bọc thép.",
-    categories: ["Politics", "Technology"],
+    categories: ["Politics","Technology"],
   },
   {
     id: "gen-2155",
@@ -279,7 +275,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Kho vũ khí.",
     exampleEn: "Naval armory.",
     exampleVi: "Kho vũ khí hải quân.",
-    categories: ["Politics", "General"],
+    categories: ["Politics","General"],
   },
   {
     id: "gen-2156",
@@ -287,12 +283,11 @@ export const A4: VocabularyWord[] = [
     slug: "armour",
     phonetic: "/ˈɑːr.mɚ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "The tough metal layer covering a vehicle or ship to protect it from weapons.",
+    meaningEn: "The tough metal layer covering a vehicle or ship to protect it from weapons.",
     meaningVi: "Áo giáp.",
     exampleEn: "Body armour.",
     exampleVi: "Áo giáp bảo vệ cơ thể.",
-    categories: ["Politics", "General"],
+    categories: ["Politics","General"],
   },
   {
     id: "gen-2157",
@@ -304,7 +299,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Quân đội.",
     exampleEn: "Join the army.",
     exampleVi: "Gia nhập quân đội.",
-    categories: ["Politics", "General"],
+    categories: ["Politics","General"],
   },
   {
     id: "gen-2158",
@@ -328,7 +323,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Khơi dậy.",
     exampleEn: "Arouse suspicion.",
     exampleVi: "Gợi lên sự nghi ngờ.",
-    categories: ["General", "Emotions"],
+    categories: ["General","Emotions"],
   },
   {
     id: "gen-46",
@@ -352,7 +347,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Sự sắp xếp.",
     exampleEn: "Travel arrangements.",
     exampleVi: "Sắp xếp kế hoạch du lịch.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "b1-223",
@@ -376,7 +371,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Bắt giữ.",
     exampleEn: "Under arrest.",
     exampleVi: "Bị bắt.",
-    categories: ["Law", "Social"],
+    categories: ["Law","Social"],
   },
   {
     id: "gen-47",
@@ -388,7 +383,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Sự đến nơi.",
     exampleEn: "We are waiting for his arrival.",
     exampleVi: "Chúng tôi đang chờ anh ấy đến.",
-    categories: ["Travel", "General"],
+    categories: ["Travel","General"],
   },
   {
     id: "gen-48",
@@ -400,7 +395,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Đến nơi.",
     exampleEn: "What time did you arrive?",
     exampleVi: "Bạn đến lúc mấy giờ?",
-    categories: ["Travel", "General"],
+    categories: ["Travel","General"],
   },
   {
     id: "gen-2166",
@@ -408,12 +403,11 @@ export const A4: VocabularyWord[] = [
     slug: "arrogant",
     phonetic: "/ˈer.ə.ɡənt/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Having or revealing an exaggerated sense of one's own importance or abilities.",
+    meaningEn: "Having or revealing an exaggerated sense of one's own importance or abilities.",
     meaningVi: "Kiêu ngạo.",
     exampleEn: "Arrogant attitude.",
     exampleVi: "Thái độ kiêu ngạo.",
-    categories: ["General", "Emotions"],
+    categories: ["General","Emotions"],
   },
   {
     id: "gen-2167",
@@ -421,12 +415,11 @@ export const A4: VocabularyWord[] = [
     slug: "arrow",
     phonetic: "/ˈer.oʊ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A weapon consisting of a thin, straight stick with a sharp point, designed to be shot from a bow.",
+    meaningEn: "A weapon consisting of a thin, straight stick with a sharp point, designed to be shot from a bow.",
     meaningVi: "Mũi tên.",
     exampleEn: "Bow and arrow.",
     exampleVi: "Cung và tên.",
-    categories: ["General", "Sports"],
+    categories: ["General","Sports"],
   },
   {
     id: "gen-2169",
@@ -446,8 +439,7 @@ export const A4: VocabularyWord[] = [
     slug: "art",
     phonetic: "/ɑːrt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The expression or application of human creative skill and imagination.",
+    meaningEn: "The expression or application of human creative skill and imagination.",
     meaningVi: "Nghệ thuật.",
     exampleEn: "She loves art and painting.",
     exampleVi: "Cô ấy yêu nghệ thuật và hội họa.",
@@ -471,8 +463,7 @@ export const A4: VocabularyWord[] = [
     slug: "articulate",
     phonetic: "/ɑːˈtɪk.jə.lət/",
     partOfSpeech: "adj/verb",
-    meaningEn:
-      "(of a person or a person's words) having or showing the ability to speak fluently and coherently.",
+    meaningEn: "(of a person or a person's words) having or showing the ability to speak fluently and coherently.",
     meaningVi: "Ăn nói lưu loát; phát âm rõ ràng.",
     exampleEn: "An articulate speaker.",
     exampleVi: "Một người nói lưu loát.",
@@ -484,12 +475,11 @@ export const A4: VocabularyWord[] = [
     slug: "artifact",
     phonetic: "/ˈɑːr.t̬ə.fækt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An object made by a human being, typically one of cultural or historical interest.",
+    meaningEn: "An object made by a human being, typically one of cultural or historical interest.",
     meaningVi: "Hiện vật.",
     exampleEn: "Ancient artifact.",
     exampleVi: "Cổ vật.",
-    categories: ["History", "Art"],
+    categories: ["History","Art"],
   },
   {
     id: "gen-50",
@@ -497,12 +487,11 @@ export const A4: VocabularyWord[] = [
     slug: "artificial",
     phonetic: "/ˌɑːr.t̬əˈfɪʃ.əl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Made or produced by human beings rather than occurring naturally.",
+    meaningEn: "Made or produced by human beings rather than occurring naturally.",
     meaningVi: "Nhân tạo.",
     exampleEn: "Artificial intelligence is developing rapidly.",
     exampleVi: "Trí tuệ nhân tạo đang phát triển nhanh chóng.",
-    categories: ["Technology", "Science"],
+    categories: ["Technology","Science"],
   },
   {
     id: "gen-217zxc2b",
@@ -510,12 +499,11 @@ export const A4: VocabularyWord[] = [
     slug: "artificial-intelligence",
     phonetic: "/ˌɑːr.t̬əˈfɪʃ.əl ɪnˌtel.ɪˈdʒen.s/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The simulation of human intelligence in machines that are programmed to think and learn.",
+    meaningEn: "The simulation of human intelligence in machines that are programmed to think and learn.",
     meaningVi: "Trí tuệ nhân tạo.",
     exampleEn: "Artificial Intelligence is transforming industries.",
     exampleVi: "Trí tuệ nhân tạo đang biến đổi các ngành công nghiệp.",
-    categories: ["Technology", "Science"],
+    categories: ["Technology","Science"],
   },
   {
     id: "gen-2173",
@@ -535,12 +523,11 @@ export const A4: VocabularyWord[] = [
     slug: "artisan",
     phonetic: "/ˈɑːr.t̬ə.zən/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A worker in a skilled trade, especially one that involves making things by hand.",
+    meaningEn: "A worker in a skilled trade, especially one that involves making things by hand.",
     meaningVi: "Thợ thủ công.",
     exampleEn: "Local artisan.",
     exampleVi: "Thợ thủ công địa phương.",
-    categories: ["People", "Art", "Business"],
+    categories: ["People","Art","Business"],
   },
   {
     id: "gen-51",
@@ -548,12 +535,11 @@ export const A4: VocabularyWord[] = [
     slug: "artist",
     phonetic: "/ˈɑːr.t̬ɪst/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who creates paintings or drawings as a profession or hobby.",
+    meaningEn: "A person who creates paintings or drawings as a profession or hobby.",
     meaningVi: "Nghệ sĩ.",
     exampleEn: "She is a talented artist.",
     exampleVi: "Cô ấy là một nghệ sĩ tài năng.",
-    categories: ["Art", "People", "Jobs"],
+    categories: ["Art","People","Jobs"],
   },
   {
     id: "gen-2176",
@@ -573,8 +559,7 @@ export const A4: VocabularyWord[] = [
     slug: "as",
     phonetic: "/æz/",
     partOfSpeech: "adverb/conjunction/preposition",
-    meaningEn:
-      "Used to indicate that something happens during the time when something else is taking place.",
+    meaningEn: "Used to indicate that something happens during the time when something else is taking place.",
     meaningVi: "Như là.",
     exampleEn: "As you know.",
     exampleVi: "Như bạn đã biết.",
@@ -622,8 +607,7 @@ export const A4: VocabularyWord[] = [
     slug: "ascetic",
     phonetic: "/əˈset.ɪk/",
     partOfSpeech: "adj/noun",
-    meaningEn:
-      "Characterized by severe self-discipline and abstention from all forms of indulgence.",
+    meaningEn: "Characterized by severe self-discipline and abstention from all forms of indulgence.",
     meaningVi: "Khổ hạnh.",
     exampleEn: "An ascetic life.",
     exampleVi: "Một cuộc sống khổ hạnh.",
@@ -635,12 +619,11 @@ export const A4: VocabularyWord[] = [
     slug: "asceticism",
     phonetic: "/əˈset̬.ə.sɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Severe self-discipline and avoidance of all forms of indulgence.",
+    meaningEn: "Severe self-discipline and avoidance of all forms of indulgence.",
     meaningVi: "Khổ hạnh.",
     exampleEn: "A life of religious asceticism.",
     exampleVi: "Một cuộc sống khổ hạnh tôn giáo.",
-    categories: ["Academic", "Philosophy"],
+    categories: ["Academic","Philosophy"],
   },
   {
     id: "gen-2180",
@@ -652,7 +635,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Tro.",
     exampleEn: "Volcanic ash.",
     exampleVi: "Tro núi lửa.",
-    categories: ["Environment", "Science"],
+    categories: ["Environment","Science"],
   },
   {
     id: "gen-2181",
@@ -660,8 +643,7 @@ export const A4: VocabularyWord[] = [
     slug: "ashamed",
     phonetic: "/əˈʃeɪmd/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Embarrassed or guilty because of one's actions, characteristics, or associations.",
+    meaningEn: "Embarrassed or guilty because of one's actions, characteristics, or associations.",
     meaningVi: "Xấu hổ.",
     exampleEn: "Feel ashamed.",
     exampleVi: "Cảm thấy xấu hổ.",
@@ -677,7 +659,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Thuộc về Châu Á.",
     exampleEn: "Asian culture.",
     exampleVi: "Văn hóa Châu Á.",
-    categories: ["Geography", "People"],
+    categories: ["Geography","People"],
   },
   {
     id: "gen-2183",
@@ -701,7 +683,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Hỏi.",
     exampleEn: "Ask a question.",
     exampleVi: "Hỏi một câu hỏi.",
-    categories: ["Social", "Education"],
+    categories: ["Social","Education"],
   },
   {
     id: "gen-52",
@@ -749,7 +731,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Khao khát.",
     exampleEn: "Aspire to greatness.",
     exampleVi: "Khao khát sự vĩ đại.",
-    categories: ["Emotions", "General"],
+    categories: ["Emotions","General"],
   },
   {
     id: "gen-2188",
@@ -757,12 +739,11 @@ export const A4: VocabularyWord[] = [
     slug: "aspirin",
     phonetic: "/ˈæs.prɪn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A synthetic compound used medicinally to relieve mild or chronic pain.",
+    meaningEn: "A synthetic compound used medicinally to relieve mild or chronic pain.",
     meaningVi: "Thuốc Aspirin.",
     exampleEn: "Take an aspirin.",
     exampleVi: "Uống một viên aspirin.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-2189",
@@ -782,12 +763,11 @@ export const A4: VocabularyWord[] = [
     slug: "assassinate",
     phonetic: "/əˈsæs.ə.neɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Murder an important person in a surprise attack for political or religious reasons.",
+    meaningEn: "Murder an important person in a surprise attack for political or religious reasons.",
     meaningVi: "Ám sát.",
     exampleEn: "Assassinate a leader.",
     exampleVi: "Ám sát một vị lãnh đạo.",
-    categories: ["Politics", "Law"],
+    categories: ["Politics","Law"],
   },
   {
     id: "gen-2191",
@@ -799,7 +779,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Sự ám sát.",
     exampleEn: "Political assassination.",
     exampleVi: "Ám sát chính trị.",
-    categories: ["Politics", "Law"],
+    categories: ["Politics","Law"],
   },
   {
     id: "gen-2192",
@@ -811,7 +791,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Cuộc tấn công.",
     exampleEn: "Armed assault.",
     exampleVi: "Tấn công vũ trang.",
-    categories: ["Law", "Politics"],
+    categories: ["Law","Politics"],
   },
   {
     id: "b2-133",
@@ -831,8 +811,7 @@ export const A4: VocabularyWord[] = [
     slug: "assembly",
     phonetic: "/əˈsem.bli/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A group of people gathered together in one place for a common purpose.",
+    meaningEn: "A group of people gathered together in one place for a common purpose.",
     meaningVi: "Hội đồng, sự lắp ráp.",
     exampleEn: "The legislative assembly.",
     exampleVi: "Hội đồng lập pháp.",
@@ -848,7 +827,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Khẳng định.",
     exampleEn: "Assert authority.",
     exampleVi: "Khẳng định quyền lực.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-2196",
@@ -880,12 +859,11 @@ export const A4: VocabularyWord[] = [
     slug: "assessment",
     phonetic: "/əˈses.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The evaluation or estimation of the nature, quality, or ability of someone or something.",
+    meaningEn: "The evaluation or estimation of the nature, quality, or ability of someone or something.",
     meaningVi: "Sự đánh giá.",
     exampleEn: "Risk assessment.",
     exampleVi: "Đánh giá rủi ro.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "b2-135",
@@ -897,7 +875,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Tài sản.",
     exampleEn: "Valuable assets.",
     exampleVi: "Tài sản quý giá.",
-    categories: ["Business", "Daily", "Academic"],
+    categories: ["Business","Daily","Academic"],
   },
   {
     id: "c2-7",
@@ -929,12 +907,11 @@ export const A4: VocabularyWord[] = [
     slug: "assignment",
     phonetic: "/əˈsaɪn.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A task or piece of work assigned to someone as part of a job or course of study.",
+    meaningEn: "A task or piece of work assigned to someone as part of a job or course of study.",
     meaningVi: "Công việc được giao/Bài tập.",
     exampleEn: "Homework assignment.",
     exampleVi: "Bài tập về nhà.",
-    categories: ["Business", "Education"],
+    categories: ["Business","Education"],
   },
   {
     id: "c1-149",
@@ -966,8 +943,7 @@ export const A4: VocabularyWord[] = [
     slug: "assistance",
     phonetic: "/əˈsɪs.təns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The provision of money, resources, or information to help someone.",
+    meaningEn: "The provision of money, resources, or information to help someone.",
     meaningVi: "Sự giúp đỡ, hỗ trợ.",
     exampleEn: "Technical assistance.",
     exampleVi: "Hỗ trợ kỹ thuật.",
@@ -983,7 +959,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Trợ lý.",
     exampleEn: "Personal assistant.",
     exampleVi: "Trợ lý cá nhân.",
-    categories: ["People", "Business"],
+    categories: ["People","Business"],
   },
   {
     id: "gen-2206",
@@ -991,12 +967,11 @@ export const A4: VocabularyWord[] = [
     slug: "associate",
     phonetic: "/əˈsoʊ.ʃi.eɪt/",
     partOfSpeech: "verb/noun/adjective",
-    meaningEn:
-      "Connect someone or something with something else in one's mind.",
+    meaningEn: "Connect someone or something with something else in one's mind.",
     meaningVi: "Liên tưởng/Đồng nghiệp.",
     exampleEn: "Business associate.",
     exampleVi: "Cộng sự kinh doanh.",
-    categories: ["Business", "Social"],
+    categories: ["Business","Social"],
   },
   {
     id: "gen-2207",
@@ -1008,7 +983,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Hiệp hội.",
     exampleEn: "Football association.",
     exampleVi: "Liên đoàn bóng đá.",
-    categories: ["Social", "Business"],
+    categories: ["Social","Business"],
   },
   {
     id: "gen-53",
@@ -1028,8 +1003,7 @@ export const A4: VocabularyWord[] = [
     slug: "assumption",
     phonetic: "/əˈsʌmp.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A thing that is accepted as true or as certain to happen, without proof.",
+    meaningEn: "A thing that is accepted as true or as certain to happen, without proof.",
     meaningVi: "Giả định.",
     exampleEn: "Under the assumption that...",
     exampleVi: "Dưới giả định rằng...",
@@ -1053,8 +1027,7 @@ export const A4: VocabularyWord[] = [
     slug: "assure",
     phonetic: "/əˈʃɜːr/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Tell someone something positively or confidently to dispel any doubts they may have.",
+    meaningEn: "Tell someone something positively or confidently to dispel any doubts they may have.",
     meaningVi: "Đảm bảo.",
     exampleEn: "I assure you.",
     exampleVi: "Tôi đảm bảo với bạn.",
@@ -1078,12 +1051,11 @@ export const A4: VocabularyWord[] = [
     slug: "asthma",
     phonetic: "/ˈæz.mə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A respiratory condition marked by spasms in the bronchi of the lungs.",
+    meaningEn: "A respiratory condition marked by spasms in the bronchi of the lungs.",
     meaningVi: "Bệnh hen suyễn.",
     exampleEn: "He suffers from asthma.",
     exampleVi: "Anh ấy bị hen suyễn.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-2214",
@@ -1095,7 +1067,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Làm ngạc nhiên.",
     exampleEn: "Astonish everyone.",
     exampleVi: "Làm mọi người kinh ngạc.",
-    categories: ["Emotions", "General"],
+    categories: ["Emotions","General"],
   },
   {
     id: "gen-2215",
@@ -1107,7 +1079,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Phi hành gia.",
     exampleEn: "Famous astronaut.",
     exampleVi: "Phi hành gia nổi tiếng.",
-    categories: ["People", "Science", "Technology", "Jobs"],
+    categories: ["People","Science","Technology","Jobs"],
   },
   {
     id: "gen-56",
@@ -1115,12 +1087,11 @@ export const A4: VocabularyWord[] = [
     slug: "astronomy",
     phonetic: "/əˈstrɑː.nə.mi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The branch of science which deals with celestial objects, space, and the physical universe.",
+    meaningEn: "The branch of science which deals with celestial objects, space, and the physical universe.",
     meaningVi: "Thiên văn học.",
     exampleEn: "She studies astronomy at university.",
     exampleVi: "Cô ấy học thiên văn học ở trường đại học.",
-    categories: ["Science", "Academic"],
+    categories: ["Science","Academic"],
   },
   {
     id: "c1-151",
@@ -1128,8 +1099,7 @@ export const A4: VocabularyWord[] = [
     slug: "astute",
     phonetic: "/əˈstjuːt/",
     partOfSpeech: "adj",
-    meaningEn:
-      "Having or showing an ability to accurately assess situations or people and turn this to one's advantage.",
+    meaningEn: "Having or showing an ability to accurately assess situations or people and turn this to one's advantage.",
     meaningVi: "Sắc sảo, tinh khôn.",
     exampleEn: "An astute businessman.",
     exampleVi: "Một doanh nhân sắc sảo.",
@@ -1141,12 +1111,11 @@ export const A4: VocabularyWord[] = [
     slug: "asylum",
     phonetic: "/əˈsaɪ.ləm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The protection granted by a nation to someone who has left their native country as a political refugee.",
+    meaningEn: "The protection granted by a nation to someone who has left their native country as a political refugee.",
     meaningVi: "Quyền tị nạn.",
     exampleEn: "He applied for political asylum.",
     exampleVi: "Anh ấy đã xin quyền tị nạn chính trị.",
-    categories: ["Law", "Politics"],
+    categories: ["Law","Politics"],
   },
   {
     id: "b2-244",
@@ -1166,8 +1135,7 @@ export const A4: VocabularyWord[] = [
     slug: "at",
     phonetic: "/æt/",
     partOfSpeech: "preposition",
-    meaningEn:
-      "Expressing location or arrival in a particular place or position.",
+    meaningEn: "Expressing location or arrival in a particular place or position.",
     meaningVi: "Tại.",
     exampleEn: "At home.",
     exampleVi: "Ở nhà.",
@@ -1179,12 +1147,11 @@ export const A4: VocabularyWord[] = [
     slug: "athlete",
     phonetic: "/ˈæθ.liːt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who is proficient in sports and other forms of physical exercise.",
+    meaningEn: "A person who is proficient in sports and other forms of physical exercise.",
     meaningVi: "Vận động viên.",
     exampleEn: "Professional athlete.",
     exampleVi: "Vận động viên chuyên nghiệp.",
-    categories: ["Sports", "People"],
+    categories: ["Sports","People"],
   },
   {
     id: "gen-2220",
@@ -1196,7 +1163,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Khỏe mạnh/Điền kinh.",
     exampleEn: "Athletic build.",
     exampleVi: "Cơ thể khỏe mạnh.",
-    categories: ["Sports", "Medical"],
+    categories: ["Sports","Medical"],
   },
   {
     id: "gen-2221",
@@ -1208,7 +1175,7 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Đại Tây Dương.",
     exampleEn: "Atlantic Ocean.",
     exampleVi: "Đại Tây Dương.",
-    categories: ["Geography", "Environment"],
+    categories: ["Geography","Environment"],
   },
   {
     id: "b1-109",
@@ -1232,18 +1199,6 @@ export const A4: VocabularyWord[] = [
     meaningVi: "Nguyên tử.",
     exampleEn: "Splitting the atom.",
     exampleVi: "Phân tách nguyên tử.",
-    categories: ["Science", "Chemistry", "Physics"],
-  },
-  {
-    id: "gen-2224",
-    word: "Atomic",
-    slug: "atomic",
-    phonetic: "/əˈtɑː.mɪk/",
-    partOfSpeech: "adjective",
-    meaningEn: "Relating to an atom or atoms.",
-    meaningVi: "Thuộc về nguyên tử.",
-    exampleEn: "Atomic energy.",
-    exampleVi: "Năng lượng nguyên tử.",
-    categories: ["Science", "Physics"],
-  },
+    categories: ["Science","Chemistry","Physics"],
+  }
 ];

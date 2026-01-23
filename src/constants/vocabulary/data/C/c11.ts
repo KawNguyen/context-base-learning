@@ -2,6 +2,18 @@ import { VocabularyWord } from "../../types";
 
 export const C11: VocabularyWord[] = [
   {
+    id: "gen-3683",
+    word: "Congested",
+    slug: "congested",
+    phonetic: "/kənˈdʒes.tɪd/",
+    partOfSpeech: "adjective",
+    meaningEn: "(of a road or place) extremely crowded and blocked with traffic or people.",
+    meaningVi: "Bị tắc nghẽn/Đông nghịt.",
+    exampleEn: "Congested area.",
+    exampleVi: "Khu vực bị tắc nghẽn.",
+    categories: ["Travel","General"],
+  },
+  {
     id: "gen-3684",
     word: "Congestion",
     slug: "congestion",
@@ -11,7 +23,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Sự tắc nghẽn (giao thông)/Sự sung huyết (y tế).",
     exampleEn: "Traffic congestion.",
     exampleVi: "Tắc nghẽn giao thông.",
-    categories: ["Travel", "Medical", "General"],
+    categories: ["Travel","Medical","General"],
   },
   {
     id: "gen-3685",
@@ -23,7 +35,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Gây tắc nghẽn/Gây sung huyết.",
     exampleEn: "Congestive heart failure.",
     exampleVi: "Suy tim sung huyết.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-3686",
@@ -31,12 +43,11 @@ export const C11: VocabularyWord[] = [
     slug: "conglomerate",
     phonetic: "/kənˈɡlɑː.mɚ.ət/",
     partOfSpeech: "noun/adjective/verb",
-    meaningEn:
-      "A number of different things or parts that are put or grouped together to form a whole but remain distinct entities.",
+    meaningEn: "A number of different things or parts that are put or grouped together to form a whole but remain distinct entities.",
     meaningVi: "Tập đoàn/Khối kết (địa chất).",
     exampleEn: "International conglomerate.",
     exampleVi: "Tập đoàn quốc tế.",
-    categories: ["Business", "Science", "Geography"],
+    categories: ["Business","Science","Geography"],
   },
   {
     id: "gen-3687",
@@ -44,12 +55,11 @@ export const C11: VocabularyWord[] = [
     slug: "conglomeration",
     phonetic: "/kənˌɡlɑː.məˈreɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A number of different things, parts or items that are grouped together; collection.",
+    meaningEn: "A number of different things, parts or items that are grouped together; collection.",
     meaningVi: "Sự kết thành khối/Sự tập hợp.",
     exampleEn: "Conglomeration of ideas.",
     exampleVi: "Sự tập hợp các ý tưởng.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "gen-3688",
@@ -57,12 +67,11 @@ export const C11: VocabularyWord[] = [
     slug: "congratulate",
     phonetic: "/kənˈɡrætʃ.ə.leɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Give (someone) one's good wishes when something special or pleasant has happened to them.",
+    meaningEn: "Give (someone) one's good wishes when something special or pleasant has happened to them.",
     meaningVi: "Chúc mừng.",
     exampleEn: "Congratulate someone on their success.",
     exampleVi: "Chúc mừng ai đó về sự thành công của họ.",
-    categories: ["Social", "Psychology"],
+    categories: ["Social","Psychology"],
   },
   {
     id: "gen-3689",
@@ -70,8 +79,7 @@ export const C11: VocabularyWord[] = [
     slug: "congratulation",
     phonetic: "/kənˌɡrætʃ.əˈleɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An expression of praise for an achievement or good fortune on a special occasion.",
+    meaningEn: "An expression of praise for an achievement or good fortune on a special occasion.",
     meaningVi: "Lời chúc mừng.",
     exampleEn: "Many congratulations!",
     exampleVi: "Xin chúc mừng!",
@@ -99,7 +107,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Tụ tập/Tập hợp.",
     exampleEn: "Congregate in the lobby.",
     exampleVi: "Tụ tập ở sảnh.",
-    categories: ["Social", "General"],
+    categories: ["Social","General"],
   },
   {
     id: "gen-3692",
@@ -111,7 +119,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Giáo đoàn/Sự tụ họp.",
     exampleEn: "A large congregation.",
     exampleVi: "Một giáo đoàn lớn.",
-    categories: ["Social", "Philosophy"],
+    categories: ["Social","Philosophy"],
   },
   {
     id: "gen-3693",
@@ -123,7 +131,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Thuộc về giáo đoàn.",
     exampleEn: "Congregational singing.",
     exampleVi: "Hát đồng ca trong giáo hội.",
-    categories: ["Social", "Philosophy"],
+    categories: ["Social","Philosophy"],
   },
   {
     id: "gen-3694",
@@ -131,12 +139,11 @@ export const C11: VocabularyWord[] = [
     slug: "congress",
     phonetic: "/ˈkɑːŋ.ɡres/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A formal meeting or series of meetings for discussion between delegates, especially those from a political party or labor union.",
+    meaningEn: "A formal meeting or series of meetings for discussion between delegates, especially those from a political party or labor union.",
     meaningVi: "Quốc hội/Đại hội.",
     exampleEn: "Library of Congress.",
     exampleVi: "Thư viện Quốc hội (Mỹ).",
-    categories: ["Politics", "Social", "History"],
+    categories: ["Politics","Social","History"],
   },
   {
     id: "gen-3695",
@@ -144,12 +151,11 @@ export const C11: VocabularyWord[] = [
     slug: "congressional",
     phonetic: "/kənˈɡreʃ.ən.əl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to a national legislative body, especially that of the US.",
+    meaningEn: "Relating to a national legislative body, especially that of the US.",
     meaningVi: "Thuộc về Quốc hội.",
     exampleEn: "Congressional hearing.",
     exampleVi: "Phiên điều trần tại Quốc hội.",
-    categories: ["Politics", "Social"],
+    categories: ["Politics","Social"],
   },
   {
     id: "gen-3696",
@@ -157,12 +163,11 @@ export const C11: VocabularyWord[] = [
     slug: "congressman",
     phonetic: "/ˈkɑːŋ.ɡres.mən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A male member of a national legislative body, especially the US Congress.",
+    meaningEn: "A male member of a national legislative body, especially the US Congress.",
     meaningVi: "Nghị sĩ (nam).",
     exampleEn: "Met with the congressman.",
     exampleVi: "Gặp gỡ nghị sĩ.",
-    categories: ["People", "Politics"],
+    categories: ["People","Politics"],
   },
   {
     id: "gen-3697",
@@ -170,12 +175,11 @@ export const C11: VocabularyWord[] = [
     slug: "congresswoman",
     phonetic: "/ˈkɑːŋ.ɡresˌwʊm.ən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A female member of a national legislative body, especially the US Congress.",
+    meaningEn: "A female member of a national legislative body, especially the US Congress.",
     meaningVi: "Nghị sĩ (nữ).",
     exampleEn: "Newly elected congresswoman.",
     exampleVi: "Nữ nghị sĩ mới đắc cử.",
-    categories: ["People", "Politics"],
+    categories: ["People","Politics"],
   },
   {
     id: "gen-3698",
@@ -187,7 +191,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Sự tương đồng/Sự bằng nhau (hình học).",
     exampleEn: "Cultural congruence.",
     exampleVi: "Sự tương đồng về văn hóa.",
-    categories: ["Mathematics", "Social", "Science"],
+    categories: ["Mathematics","Social","Science"],
   },
   {
     id: "gen-3699",
@@ -199,7 +203,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Bằng nhau (hình học)/Phù hợp.",
     exampleEn: "Congruent triangles.",
     exampleVi: "Các hình tam giác bằng nhau.",
-    categories: ["Mathematics", "Science", "General"],
+    categories: ["Mathematics","Science","General"],
   },
   {
     id: "gen-3700",
@@ -211,7 +215,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Tính phù hợp/Tính tương đồng.",
     exampleEn: "Congruity of purpose.",
     exampleVi: "Sự tương đồng về mục đích.",
-    categories: ["Social", "General"],
+    categories: ["Social","General"],
   },
   {
     id: "gen-3701",
@@ -223,7 +227,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Phù hợp/Thích hợp.",
     exampleEn: "Congruous behavior.",
     exampleVi: "Hành vi phù hợp.",
-    categories: ["Social", "General"],
+    categories: ["Social","General"],
   },
   {
     id: "gen-3702",
@@ -235,7 +239,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Có hình nón/Thuộc về hình nón.",
     exampleEn: "Conic section.",
     exampleVi: "Thiết diện hình nón.",
-    categories: ["Mathematics", "Science"],
+    categories: ["Mathematics","Science"],
   },
   {
     id: "gen-3703",
@@ -247,7 +251,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Có hình nón.",
     exampleEn: "Conical hat.",
     exampleVi: "Nón lá (nón hình nón).",
-    categories: ["General", "Body"],
+    categories: ["General","Body"],
   },
   {
     id: "gen-3704",
@@ -255,12 +259,11 @@ export const C11: VocabularyWord[] = [
     slug: "conifer",
     phonetic: "/ˈkɑː.nə.fɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A tree that bears cones and needle-like or scale-like leaves that are typically evergreen.",
+    meaningEn: "A tree that bears cones and needle-like or scale-like leaves that are typically evergreen.",
     meaningVi: "Cây lá kim/Cây tùng bách.",
     exampleEn: "Old-growth conifer.",
     exampleVi: "Cây lá kim cổ thụ.",
-    categories: ["Biology", "Environment"],
+    categories: ["Biology","Environment"],
   },
   {
     id: "gen-3705",
@@ -272,7 +275,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Thuộc về cây lá kim.",
     exampleEn: "Coniferous forest.",
     exampleVi: "Rừng lá kim.",
-    categories: ["Biology", "Environment"],
+    categories: ["Biology","Environment"],
   },
   {
     id: "gen-3706",
@@ -284,7 +287,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Dự đoán/Phỏng đoán.",
     exampleEn: "Conjectural evidence.",
     exampleVi: "Bằng chứng dựa trên phỏng đoán.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "gen-3707",
@@ -292,12 +295,11 @@ export const C11: VocabularyWord[] = [
     slug: "conjecture",
     phonetic: "/kənˈdʒek.tʃɚ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "An opinion or conclusion formed on the basis of incomplete information.",
+    meaningEn: "An opinion or conclusion formed on the basis of incomplete information.",
     meaningVi: "Sự phỏng đoán/Sự dự đoán.",
     exampleEn: "Matter of conjecture.",
     exampleVi: "Vấn đề của sự phỏng đoán.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "gen-3708",
@@ -321,7 +323,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Được kết hợp/Liên kết.",
     exampleEn: "Conjoint analysis.",
     exampleVi: "Phân tích kết hợp (trong marketing/thống kê).",
-    categories: ["General", "Business", "Mathematics"],
+    categories: ["General","Business","Mathematics"],
   },
   {
     id: "gen-3710",
@@ -333,7 +335,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Thuộc về hôn nhân/Vợ chồng.",
     exampleEn: "Conjugal visits.",
     exampleVi: "Các chuyến thăm vợ/chồng (trong tù).",
-    categories: ["Social", "Law"],
+    categories: ["Social","Law"],
   },
   {
     id: "gen-3711",
@@ -345,7 +347,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Chia động từ/Kế hợp.",
     exampleEn: "Conjugate verbs.",
     exampleVi: "Chia các động từ.",
-    categories: ["Literature", "Education", "Science"],
+    categories: ["Literature","Education","Science"],
   },
   {
     id: "gen-3712",
@@ -357,7 +359,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Sự chia động từ/Sự kết hợp (sinh học).",
     exampleEn: "French verb conjugation.",
     exampleVi: "Sự chia động từ tiếng Pháp.",
-    categories: ["Literature", "Education", "Science"],
+    categories: ["Literature","Education","Science"],
   },
   {
     id: "gen-3713",
@@ -365,12 +367,11 @@ export const C11: VocabularyWord[] = [
     slug: "conjunction",
     phonetic: "/kənˈdʒʌŋk.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A word used to connect clauses or sentences or to coordinate words in the same clause.",
+    meaningEn: "A word used to connect clauses or sentences or to coordinate words in the same clause.",
     meaningVi: "Liên từ/Sự kết hợp/Sự trùng hợp.",
     exampleEn: "In conjunction with.",
     exampleVi: "Kết hợp với...",
-    categories: ["Literature", "Education", "General"],
+    categories: ["Literature","Education","General"],
   },
   {
     id: "gen-3714",
@@ -378,12 +379,11 @@ export const C11: VocabularyWord[] = [
     slug: "conjunctiva",
     phonetic: "/ˌkɑːn.dʒʌŋkˈtaɪ.və/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The mucous membrane that covers the front of the eye and lines the inside of the eyelids.",
+    meaningEn: "The mucous membrane that covers the front of the eye and lines the inside of the eyelids.",
     meaningVi: "Kết mạc (mắt).",
     exampleEn: "Inflamed conjunctiva.",
     exampleVi: "Kết mạc bị viêm.",
-    categories: ["Medical", "Biology"],
+    categories: ["Medical","Biology"],
   },
   {
     id: "gen-3715",
@@ -391,12 +391,11 @@ export const C11: VocabularyWord[] = [
     slug: "conjunctivitis",
     phonetic: "/kənˌdʒʌŋk.tɪˈvaɪ.t̬əs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Inflammation of the conjunctiva of the eye, typically caused by infection or allergy; pink eye.",
+    meaningEn: "Inflammation of the conjunctiva of the eye, typically caused by infection or allergy; pink eye.",
     meaningVi: "Viêm kết mạc/Đau mắt đỏ.",
     exampleEn: "Viral conjunctivitis.",
     exampleVi: "Viêm kết mạc do vi-rút.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-3716",
@@ -408,7 +407,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Sự kết hợp các sự kiện/Tình thế.",
     exampleEn: "Critical conjuncture.",
     exampleVi: "Tình thế then chốt.",
-    categories: ["General", "Social", "Politics"],
+    categories: ["General","Social","Politics"],
   },
   {
     id: "gen-3717",
@@ -416,12 +415,11 @@ export const C11: VocabularyWord[] = [
     slug: "conjure",
     phonetic: "/ˈkʌn.dʒɚ/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Make (something) appear unexpectedly or seemingly from nowhere as if by magic.",
+    meaningEn: "Make (something) appear unexpectedly or seemingly from nowhere as if by magic.",
     meaningVi: "Làm ảo thuật/Gợi lên/Nài xin.",
     exampleEn: "Conjure up memories.",
     exampleVi: "Gợi lại những kỷ niệm.",
-    categories: ["Art", "Psychology", "General"],
+    categories: ["Art","Psychology","General"],
   },
   {
     id: "gen-3718",
@@ -433,7 +431,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Người làm ảo thuật/Phù thủy.",
     exampleEn: "Master conjurer.",
     exampleVi: "Bậc thầy ảo thuật.",
-    categories: ["People", "Art"],
+    categories: ["People","Art"],
   },
   {
     id: "gen-3719",
@@ -441,12 +439,11 @@ export const C11: VocabularyWord[] = [
     slug: "conk",
     phonetic: "/kɑːŋk/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Hit on the head; a blow to the head; (of a machine) stop working.",
+    meaningEn: "Hit on the head; a blow to the head; (of a machine) stop working.",
     meaningVi: "Đánh vào đầu/Hỏng (máy móc)/Cái mũi (lóng).",
     exampleEn: "The car conked out.",
     exampleVi: "Chiếc xe bị hỏng/chết máy.",
-    categories: ["General", "Technology"],
+    categories: ["General","Technology"],
   },
   {
     id: "a2-188",
@@ -454,12 +451,11 @@ export const C11: VocabularyWord[] = [
     slug: "connect",
     phonetic: "/kəˈnekt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Bring together or into contact so that a real or notional link is established.",
+    meaningEn: "Bring together or into contact so that a real or notional link is established.",
     meaningVi: "Kết nối.",
     exampleEn: "Connect to the WiFi.",
     exampleVi: "Kết nối với WiFi.",
-    categories: ["Technology", "Daily"],
+    categories: ["Technology","Daily"],
   },
   {
     id: "gen-3721",
@@ -471,7 +467,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Được kết nối/Có liên quan.",
     exampleEn: "Get connected.",
     exampleVi: "Được kết nối/Bắt đầu liên lạc.",
-    categories: ["General", "Technology"],
+    categories: ["General","Technology"],
   },
   {
     id: "a1-223",
@@ -483,7 +479,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Kết nối.",
     exampleEn: "Poor internet connection.",
     exampleVi: "Kết nối internet kém.",
-    categories: ["Technology", "Daily"],
+    categories: ["Technology","Daily"],
   },
   {
     id: "gen-3723",
@@ -495,7 +491,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Để kết nối/Từ nối.",
     exampleEn: "Connective tissue.",
     exampleVi: "Mô liên kết (sinh học).",
-    categories: ["Science", "Medical", "Literature"],
+    categories: ["Science","Medical","Literature"],
   },
   {
     id: "gen-3724",
@@ -507,7 +503,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Khả năng kết nối/Tính kết nối.",
     exampleEn: "Seamless connectivity.",
     exampleVi: "Khả năng kết nối liền mạch.",
-    categories: ["Technology", "Technology", "General"],
+    categories: ["Technology","Technology","General"],
   },
   {
     id: "gen-3725",
@@ -519,7 +515,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Đầu nối/Bộ phận kết nối.",
     exampleEn: "Electrical connector.",
     exampleVi: "Đầu nối điện.",
-    categories: ["Technology", "Engineering"],
+    categories: ["Technology","Engineering"],
   },
   {
     id: "gen-3726",
@@ -527,12 +523,11 @@ export const C11: VocabularyWord[] = [
     slug: "connivance",
     phonetic: "/kəˈnaɪ.vəns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Willingness to allow or be secretly involved in an immoral or illegal act.",
+    meaningEn: "Willingness to allow or be secretly involved in an immoral or illegal act.",
     meaningVi: "Sự nhắm mắt làm ngơ/Sự đồng lõa.",
     exampleEn: "With the connivance of officialdom.",
     exampleVi: "Với sự nhắm mắt làm ngơ của giới chức.",
-    categories: ["Law", "Social", "Politics"],
+    categories: ["Law","Social","Politics"],
   },
   {
     id: "gen-3727",
@@ -540,12 +535,11 @@ export const C11: VocabularyWord[] = [
     slug: "connive",
     phonetic: "/kəˈnaɪv/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Conspire to do something considered immoral, illegal, or harmful.",
+    meaningEn: "Conspire to do something considered immoral, illegal, or harmful.",
     meaningVi: "Đồng lõa/Âm mưu/Nhắm mắt làm ngơ.",
     exampleEn: "Connive at a crime.",
     exampleVi: "Nhắm mắt làm ngơ cho một tội ác.",
-    categories: ["Law", "Social", "Politics"],
+    categories: ["Law","Social","Politics"],
   },
   {
     id: "gen-3728",
@@ -557,7 +551,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Người sành sỏi/Người am tường.",
     exampleEn: "Art connoisseur.",
     exampleVi: "Người am tường về nghệ thuật.",
-    categories: ["People", "Art", "Food & Drink"],
+    categories: ["People","Art","Food & Drink"],
   },
   {
     id: "gen-3729",
@@ -565,12 +559,11 @@ export const C11: VocabularyWord[] = [
     slug: "connotation",
     phonetic: "/ˌkɑː.nəˈteɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An idea or feeling that a word invokes in addition to its literal or primary meaning.",
+    meaningEn: "An idea or feeling that a word invokes in addition to its literal or primary meaning.",
     meaningVi: "Nghĩa bóng/Nghĩa rộng/Sự bao hàm.",
     exampleEn: "Negative connotation.",
     exampleVi: "Nghĩa tiêu cực.",
-    categories: ["Literature", "General", "Psychology"],
+    categories: ["Literature","General","Psychology"],
   },
   {
     id: "gen-3730",
@@ -582,7 +575,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Bao hàm/Mang nghĩa rộng/Theo nghĩa bóng.",
     exampleEn: "Connotative meaning.",
     exampleVi: "Nghĩa hàm ẩn/Nghĩa bóng.",
-    categories: ["Literature", "General"],
+    categories: ["Literature","General"],
   },
   {
     id: "gen-3731",
@@ -590,12 +583,11 @@ export const C11: VocabularyWord[] = [
     slug: "connote",
     phonetic: "/kəˈnoʊt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "(of a word) imply or suggest (an idea or feeling) in addition to the literal or primary meaning.",
+    meaningEn: "(of a word) imply or suggest (an idea or feeling) in addition to the literal or primary meaning.",
     meaningVi: "Bao hàm/Gợi ra.",
     exampleEn: "Does 'efficiency' connote 'coldness'?",
     exampleVi: "Có phải 'hiệu quả' bao hàm sự 'lạnh lùng' không?",
-    categories: ["Literature", "General"],
+    categories: ["Literature","General"],
   },
   {
     id: "gen-3732",
@@ -603,12 +595,11 @@ export const C11: VocabularyWord[] = [
     slug: "connubial",
     phonetic: "/kəˈnuː.bi.əl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to marriage or the relationship of a married couple; conjugal.",
+    meaningEn: "Relating to marriage or the relationship of a married couple; conjugal.",
     meaningVi: "Thuộc về hôn nhân/Vợ chồng.",
     exampleEn: "Connubial bliss.",
     exampleVi: "Hạnh phúc hôn nhân.",
-    categories: ["Social", "Law"],
+    categories: ["Social","Law"],
   },
   {
     id: "gen-3733",
@@ -616,12 +607,11 @@ export const C11: VocabularyWord[] = [
     slug: "conquer",
     phonetic: "/ˈkɑːŋ.kɚ/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Overcome and take control of (a place or people) by use of military force.",
+    meaningEn: "Overcome and take control of (a place or people) by use of military force.",
     meaningVi: "Chinh phục/Xâm chiếm/Vượt qua.",
     exampleEn: "Conquer one's fears.",
     exampleVi: "Chinh phục/Vượt qua nỗi sợ của bản thân.",
-    categories: ["Politics", "Psychology", "History"],
+    categories: ["Politics","Psychology","History"],
   },
   {
     id: "gen-3734",
@@ -633,7 +623,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Người chinh phục/Người xâm chiếm.",
     exampleEn: "William the Conqueror.",
     exampleVi: "William - Người chinh phục.",
-    categories: ["People", "History", "Politics"],
+    categories: ["People","History","Politics"],
   },
   {
     id: "gen-3735",
@@ -641,12 +631,11 @@ export const C11: VocabularyWord[] = [
     slug: "conquest",
     phonetic: "/ˈkɑːŋ.kwest/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The subjugation and assumption of control of a place or people by use of military force.",
+    meaningEn: "The subjugation and assumption of control of a place or people by use of military force.",
     meaningVi: "Sự chinh phục/Sự xâm chiếm.",
     exampleEn: "Mortal conquest.",
     exampleVi: "Sự chinh phục chết chóc.",
-    categories: ["History", "Politics", "Social"],
+    categories: ["History","Politics","Social"],
   },
   {
     id: "gen-3736",
@@ -654,12 +643,11 @@ export const C11: VocabularyWord[] = [
     slug: "consanguineous",
     phonetic: "/ˌkɑːn.sæŋˈɡwɪn.i.əs/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to or denoting people descended from the same ancestor.",
+    meaningEn: "Relating to or denoting people descended from the same ancestor.",
     meaningVi: "Cùng dòng máu.",
     exampleEn: "Consanguineous marriage.",
     exampleVi: "Hôn nhân đồng huyết.",
-    categories: ["Biology", "Social", "History"],
+    categories: ["Biology","Social","History"],
   },
   {
     id: "gen-3737",
@@ -671,7 +659,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Quan hệ huyết thống/Mối quan hệ gần gũi.",
     exampleEn: "Ties of consanguinity.",
     exampleVi: "Quan hệ huyết thống.",
-    categories: ["Biology", "Social", "History"],
+    categories: ["Biology","Social","History"],
   },
   {
     id: "gen-3738",
@@ -679,12 +667,11 @@ export const C11: VocabularyWord[] = [
     slug: "conscience",
     phonetic: "/ˈkɑːn.ʃəns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person's moral sense of right and wrong, acting as a guide to their behavior.",
+    meaningEn: "A person's moral sense of right and wrong, acting as a guide to their behavior.",
     meaningVi: "Lương tâm.",
     exampleEn: "Clear conscience.",
     exampleVi: "Lương tâm trong sạch.",
-    categories: ["Psychology", "Philosophy", "Social"],
+    categories: ["Psychology","Philosophy","Social"],
   },
   {
     id: "gen-3739",
@@ -692,12 +679,11 @@ export const C11: VocabularyWord[] = [
     slug: "conscientious",
     phonetic: "/ˌkɑːn.ʃiˈen.ʃəs/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a person) wishing to do what is right, especially to do one's work or duty well and thoroughly.",
+    meaningEn: "(of a person) wishing to do what is right, especially to do one's work or duty well and thoroughly.",
     meaningVi: "Tận tâm/Chu đáo/Có lương tâm.",
     exampleEn: "Conscientious worker.",
     exampleVi: "Người làm việc tận tâm.",
-    categories: ["Psychology", "Business", "Social"],
+    categories: ["Psychology","Business","Social"],
   },
   {
     id: "gen-172",
@@ -709,7 +695,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Có ý thức.",
     exampleEn: "He is conscious of his mistakes.",
     exampleVi: "Anh ấy có ý thức về những lỗi lầm của mình.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-3741",
@@ -721,7 +707,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Ý thức/Nhận thức/Tâm trí.",
     exampleEn: "Lose consciousness.",
     exampleVi: "Mất ý thức/Bất tỉnh.",
-    categories: ["Psychology", "Medical", "Medical"],
+    categories: ["Psychology","Medical","Medical"],
   },
   {
     id: "gen-3742",
@@ -729,12 +715,11 @@ export const C11: VocabularyWord[] = [
     slug: "conscript",
     phonetic: "/kənˈskrɪpt/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Enlist (someone) compulsorily, typically into the armed services.",
+    meaningEn: "Enlist (someone) compulsorily, typically into the armed services.",
     meaningVi: "Tuyển quân/Người bị đi nghĩa vụ quân sự.",
     exampleEn: "Army conscript.",
     exampleVi: "Người đi nghĩa vụ quân sự.",
-    categories: ["People", "Politics", "Social"],
+    categories: ["People","Politics","Social"],
   },
   {
     id: "gen-3743",
@@ -742,12 +727,11 @@ export const C11: VocabularyWord[] = [
     slug: "conscription",
     phonetic: "/kənˈskrɪp.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Compulsory enlistment for state service, typically into the armed forces.",
+    meaningEn: "Compulsory enlistment for state service, typically into the armed forces.",
     meaningVi: "Sự tuyển quân/Nghĩa vụ quân sự.",
     exampleEn: "Military conscription.",
     exampleVi: "Nghĩa vụ quân sự bắt buộc.",
-    categories: ["Politics", "Social", "History"],
+    categories: ["Politics","Social","History"],
   },
   {
     id: "gen-3744",
@@ -755,12 +739,11 @@ export const C11: VocabularyWord[] = [
     slug: "consecrate",
     phonetic: "/ˈkɑːn.sə.kreɪt/",
     partOfSpeech: "verb/adjective",
-    meaningEn:
-      "Make or declare (something, typically a church) sacred; dedicate formally to a religious or divine purpose.",
+    meaningEn: "Make or declare (something, typically a church) sacred; dedicate formally to a religious or divine purpose.",
     meaningVi: "Hiến dâng/Thần thánh hóa/Làm lễ phong chức.",
     exampleEn: "Consecrate a priest.",
     exampleVi: "Phong chức linh mục.",
-    categories: ["Philosophy", "Social", "General"],
+    categories: ["Philosophy","Social","General"],
   },
   {
     id: "gen-3745",
@@ -768,12 +751,11 @@ export const C11: VocabularyWord[] = [
     slug: "consecration",
     phonetic: "/ˌkɑːn.səˈkreɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action of making or declaring something, typically a church, sacred.",
+    meaningEn: "The action of making or declaring something, typically a church, sacred.",
     meaningVi: "Lễ hiến dâng/Sự thần thánh hóa.",
     exampleEn: "Consecration ceremony.",
     exampleVi: "Lễ hiến dâng/Lễ cung hiến.",
-    categories: ["Philosophy", "Social", "General"],
+    categories: ["Philosophy","Social","General"],
   },
   {
     id: "gen-3746",
@@ -785,7 +767,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Liên tiếp/Tiếp liền nhau.",
     exampleEn: "Third consecutive win.",
     exampleVi: "Chiến thắng thứ ba liên tiếp.",
-    categories: ["General", "Time", "Mathematics"],
+    categories: ["General","Time","Mathematics"],
   },
   {
     id: "gen-3747",
@@ -797,7 +779,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Có sự đồng thuận/Nhất trí.",
     exampleEn: "Consensual agreement.",
     exampleVi: "Thỏa thuận đồng thuận.",
-    categories: ["Social", "Law", "General"],
+    categories: ["Social","Law","General"],
   },
   {
     id: "gen-3748",
@@ -809,7 +791,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Sự đồng lòng/Sự nhất trí.",
     exampleEn: "Reach a consensus.",
     exampleVi: "Đạt được sự đồng thuận.",
-    categories: ["Social", "Politics", "Business"],
+    categories: ["Social","Politics","Business"],
   },
   {
     id: "c1-124",
@@ -817,8 +799,7 @@ export const C11: VocabularyWord[] = [
     slug: "consent",
     phonetic: "/kənˈsent/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "Permission for something to happen or agreement to do something.",
+    meaningEn: "Permission for something to happen or agreement to do something.",
     meaningVi: "Sự bằng lòng, ưng thuận.",
     exampleEn: "Mutual consent.",
     exampleVi: "Sự đồng thuận từ cả hai phía.",
@@ -858,7 +839,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Hệ quả/Kết quả/Quan trọng.",
     exampleEn: "Consequential loss.",
     exampleVi: "Tổn thất hệ quả.",
-    categories: ["General", "Law", "Business"],
+    categories: ["General","Law","Business"],
   },
   {
     id: "gen-3753",
@@ -878,12 +859,11 @@ export const C11: VocabularyWord[] = [
     slug: "conservation",
     phonetic: "/ˌkɑːn.sɚˈveɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action of conserving something, in particular the environment, a building, or an artwork.",
+    meaningEn: "The action of conserving something, in particular the environment, a building, or an artwork.",
     meaningVi: "Sự bảo tồn/Sự giữ gìn.",
     exampleEn: "Conservation area.",
     exampleVi: "Khu vực bảo tồn.",
-    categories: ["Environment", "Science", "General"],
+    categories: ["Environment","Science","General"],
   },
   {
     id: "gen-3755",
@@ -891,12 +871,11 @@ export const C11: VocabularyWord[] = [
     slug: "conservatism",
     phonetic: "/kənˈsɝː.və.tɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Commitment to traditional values and ideas with opposition to change or innovation.",
+    meaningEn: "Commitment to traditional values and ideas with opposition to change or innovation.",
     meaningVi: "Chủ nghĩa bảo thủ.",
     exampleEn: "Political conservatism.",
     exampleVi: "Chủ nghĩa bảo thủ về chính trị.",
-    categories: ["Politics", "Philosophy", "Social"],
+    categories: ["Politics","Philosophy","Social"],
   },
   {
     id: "gen-3756",
@@ -908,7 +887,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Bảo thủ/Dè dặt/Thận trọng.",
     exampleEn: "Conservative estimate.",
     exampleVi: "Ước tính thận trọng.",
-    categories: ["Politics", "Psychology", "General"],
+    categories: ["Politics","Psychology","General"],
   },
   {
     id: "gen-3757",
@@ -916,12 +895,11 @@ export const C11: VocabularyWord[] = [
     slug: "conservatory",
     phonetic: "/kənˈsɝː.və.tɔːr.i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A room with a glass roof and walls, attached to a house at one side and used as a greenhouse or a sun parlor; an academy of music or other performing arts.",
+    meaningEn: "A room with a glass roof and walls, attached to a house at one side and used as a greenhouse or a sun parlor; an academy of music or other performing arts.",
     meaningVi: "Nhà kính (trồng cây)/Nhạc viện.",
     exampleEn: "Music conservatory.",
     exampleVi: "Nhạc viện.",
-    categories: ["Architecture", "Music", "Art"],
+    categories: ["Architecture","Music","Art"],
   },
   {
     id: "gen-3758",
@@ -929,12 +907,11 @@ export const C11: VocabularyWord[] = [
     slug: "conserve",
     phonetic: "/kənˈsɝːv/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Protect (something, especially an environmentally or culturally important place or thing) from harm or destruction.",
+    meaningEn: "Protect (something, especially an environmentally or culturally important place or thing) from harm or destruction.",
     meaningVi: "Bảo tồn/Giữ gìn/Mứt quả.",
     exampleEn: "Conserve energy.",
     exampleVi: "Tiết kiệm/Bảo tồn năng lượng.",
-    categories: ["Environment", "Science", "General"],
+    categories: ["Environment","Science","General"],
   },
   {
     id: "gen-174",
@@ -982,7 +959,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Ân cần/Chu đáo/Biết nghĩ cho người khác.",
     exampleEn: "Be considerate of others.",
     exampleVi: "Hãy biết nghĩ cho người khác.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-3763",
@@ -994,7 +971,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Sự xem xét/Sự cân nhắc/Sự quan tâm.",
     exampleEn: "Take into consideration.",
     exampleVi: "Đưa vào xem xét/cân nhắc.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-3764",
@@ -1014,12 +991,11 @@ export const C11: VocabularyWord[] = [
     slug: "consign",
     phonetic: "/kənˈsaɪn/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Deliver (something) to a person's custody, typically in order for it to be sold.",
+    meaningEn: "Deliver (something) to a person's custody, typically in order for it to be sold.",
     meaningVi: "Ký gửi/Giao phó/Quăng đi.",
     exampleEn: "Consign to the flames.",
     exampleVi: "Quăng vào lửa.",
-    categories: ["Business", "General"],
+    categories: ["Business","General"],
   },
   {
     id: "gen-3766",
@@ -1051,8 +1027,7 @@ export const C11: VocabularyWord[] = [
     slug: "consistency",
     phonetic: "/kənˈsɪs.tən.si/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Conformity in the application of something, typically that which is necessary for the sake of logic, accuracy, or fairness.",
+    meaningEn: "Conformity in the application of something, typically that which is necessary for the sake of logic, accuracy, or fairness.",
     meaningVi: "Sự nhất quán.",
     exampleEn: "Consistency is important in learning.",
     exampleVi: "Sự nhất quán rất quan trọng trong việc học.",
@@ -1064,8 +1039,7 @@ export const C11: VocabularyWord[] = [
     slug: "consistent",
     phonetic: "/kənˈsɪs.tənt/",
     partOfSpeech: "adj",
-    meaningEn:
-      "Acting or done in the same way over time, especially so as to be fair or accurate.",
+    meaningEn: "Acting or done in the same way over time, especially so as to be fair or accurate.",
     meaningVi: "Nhất quán.",
     exampleEn: "Consistent results.",
     exampleVi: "Kết quả nhất quán.",
@@ -1093,7 +1067,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Sự an ủi/Giải khuyến khích.",
     exampleEn: "Consolation prize.",
     exampleVi: "Giải khuyến khích.",
-    categories: ["Psychology", "Social", "Sports"],
+    categories: ["Psychology","Social","Sports"],
   },
   {
     id: "gen-3772",
@@ -1105,7 +1079,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "An ủi/Bảng điều khiển/Thiết bị chơi game.",
     exampleEn: "Game console.",
     exampleVi: "Máy chơi game.",
-    categories: ["Psychology", "Technology", "Social"],
+    categories: ["Psychology","Technology","Social"],
   },
   {
     id: "gen-3773",
@@ -1117,7 +1091,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Củng cố/Hợp nhất.",
     exampleEn: "Consolidate power.",
     exampleVi: "Củng cố quyền lực.",
-    categories: ["General", "Politics", "Business"],
+    categories: ["General","Politics","Business"],
   },
   {
     id: "gen-3774",
@@ -1125,12 +1099,11 @@ export const C11: VocabularyWord[] = [
     slug: "consolidation",
     phonetic: "/kənˌsɑː.ləˈdeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action or process of making something stronger or more solid.",
+    meaningEn: "The action or process of making something stronger or more solid.",
     meaningVi: "Sự củng cố/Sự hợp nhất.",
     exampleEn: "Debt consolidation.",
     exampleVi: "Hợp nhất các khoản nợ.",
-    categories: ["Business", "Politics", "General"],
+    categories: ["Business","Politics","General"],
   },
   {
     id: "gen-3775",
@@ -1142,7 +1115,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Sự hòa hợp/Phép lặp phụ âm (văn chương).",
     exampleEn: "In consonance with.",
     exampleVi: "Hòa hợp với/Phù hợp với...",
-    categories: ["Music", "Literature", "General"],
+    categories: ["Music","Literature","General"],
   },
   {
     id: "gen-3776",
@@ -1150,12 +1123,11 @@ export const C11: VocabularyWord[] = [
     slug: "consonant",
     phonetic: "/ˈkɑːn.sə.nənt/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A basic speech sound in which the breath is at least partly obstructed.",
+    meaningEn: "A basic speech sound in which the breath is at least partly obstructed.",
     meaningVi: "Phụ âm/Hòa hợp.",
     exampleEn: "Vowels and consonants.",
     exampleVi: "Nguyên âm và phụ âm.",
-    categories: ["Literature", "Education"],
+    categories: ["Literature","Education"],
   },
   {
     id: "gen-3777",
@@ -1163,12 +1135,11 @@ export const C11: VocabularyWord[] = [
     slug: "consort",
     phonetic: "/ˈkɑːn.sɔːrt/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A wife, husband, or companion, in particular the spouse of a reigning monarch.",
+    meaningEn: "A wife, husband, or companion, in particular the spouse of a reigning monarch.",
     meaningVi: "Vợ hoặc chồng (của vua/nữ hoàng)/Giao du.",
     exampleEn: "Prince consort.",
     exampleVi: "Hoàng thân (chồng của nữ hoàng).",
-    categories: ["People", "Social", "History"],
+    categories: ["People","Social","History"],
   },
   {
     id: "gen-3778",
@@ -1180,7 +1151,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Tập đoàn/Hiệp hội.",
     exampleEn: "International consortium.",
     exampleVi: "Hiệp hội/Tập đoàn quốc tế.",
-    categories: ["Business", "Politics", "Social"],
+    categories: ["Business","Politics","Social"],
   },
   {
     id: "c2-13",
@@ -1204,7 +1175,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Âm mưu.",
     exampleEn: "Conspiracy theory.",
     exampleVi: "Thuyết âm mưu.",
-    categories: ["Law", "Politics", "Social"],
+    categories: ["Law","Politics","Social"],
   },
   {
     id: "gen-3781",
@@ -1216,7 +1187,7 @@ export const C11: VocabularyWord[] = [
     meaningVi: "Người tham gia âm mưu/Kẻ phản nghịch.",
     exampleEn: "Arrest the conspirators.",
     exampleVi: "Bắt giữ những kẻ âm mưu.",
-    categories: ["People", "Law", "Politics"],
+    categories: ["People","Law","Politics"],
   },
   {
     id: "gen-3782",
@@ -1224,24 +1195,10 @@ export const C11: VocabularyWord[] = [
     slug: "conspire",
     phonetic: "/kənˈspaɪr/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Make secret plans jointly to commit an unlawful or harmful act.",
+    meaningEn: "Make secret plans jointly to commit an unlawful or harmful act.",
     meaningVi: "Âm mưu/Hợp lực (theo nghĩa xấu).",
     exampleEn: "Conspire against the king.",
     exampleVi: "Âm mưu chống lại đức vua.",
-    categories: ["Law", "Politics", "Social"],
-  },
-  {
-    id: "gen-3783",
-    word: "Constable",
-    slug: "constable",
-    phonetic: "/ˈkɑːn.stə.bəl/",
-    partOfSpeech: "noun",
-    meaningEn:
-      "A peace officer with limited policing authority, typically in a small town.",
-    meaningVi: "Cảnh sát khu vực/Cảnh sát viên.",
-    exampleEn: "Police constable.",
-    exampleVi: "Cảnh sát viên.",
-    categories: ["People", "Law"],
-  },
+    categories: ["Law","Politics","Social"],
+  }
 ];

@@ -2,19 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const E8: VocabularyWord[] = [
   {
-    id: "gen-7349",
-    word: "Essence",
-    slug: "essence",
-    phonetic: "/ˈes.əns/",
-    partOfSpeech: "noun",
-    meaningEn:
-      "The intrinsic nature or indispensable quality of something, especially something abstract, that determines its character.",
-    meaningVi: "Bản chất/Cốt lõi.",
-    exampleEn: "Essence of life.",
-    exampleVi: "Cốt lõi của cuộc sống.",
-    categories: ["Philosophy", "General"],
-  },
-  {
     id: "gen-402",
     word: "Essential",
     slug: "essential",
@@ -32,8 +19,7 @@ export const E8: VocabularyWord[] = [
     slug: "essentially",
     phonetic: "/ɪˈsen.ʃəl.i/",
     partOfSpeech: "adverb",
-    meaningEn:
-      "Used to emphasize the basic, fundamental, or intrinsic nature of a person, thing, or situation.",
+    meaningEn: "Used to emphasize the basic, fundamental, or intrinsic nature of a person, thing, or situation.",
     meaningVi: "Về cơ bản/Cốt yếu.",
     exampleEn: "Essentially the same.",
     exampleVi: "Về cơ bản là giống nhau.",
@@ -61,7 +47,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Sự thành lập/Cơ sở.",
     exampleEn: "Business establishment.",
     exampleVi: "Cơ sở kinh doanh.",
-    categories: ["Business", "General"],
+    categories: ["Business","General"],
   },
   {
     id: "gen-7354",
@@ -69,12 +55,11 @@ export const E8: VocabularyWord[] = [
     slug: "estate",
     phonetic: "/ɪˈsteɪt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An extensive area of land in the country, usually with a large house, owned by one person, family, or organization.",
+    meaningEn: "An extensive area of land in the country, usually with a large house, owned by one person, family, or organization.",
     meaningVi: "Điền trang/Di sản.",
     exampleEn: "Real estate.",
     exampleVi: "Bất động sản.",
-    categories: ["Business", "Law"],
+    categories: ["Business","Law"],
   },
   {
     id: "gen-7355",
@@ -86,7 +71,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Sự kính trọng/Đánh giá cao.",
     exampleEn: "Held in high esteem.",
     exampleVi: "Được kính trọng.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-7356",
@@ -98,7 +83,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Thẩm mỹ.",
     exampleEn: "Esthetic appeal.",
     exampleVi: "Sự hấp dẫn về mặt thẩm mỹ.",
-    categories: ["Art", "General"],
+    categories: ["Art","General"],
   },
   {
     id: "b2-10",
@@ -106,8 +91,7 @@ export const E8: VocabularyWord[] = [
     slug: "estimate",
     phonetic: "/ˈes.tə.meɪt/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Roughly calculate or judge the value, number, quantity, or extent of.",
+    meaningEn: "Roughly calculate or judge the value, number, quantity, or extent of.",
     meaningVi: "Ước tính.",
     exampleEn: "I estimate the cost will be around $500.",
     exampleVi: "Tôi ước tính chi phí sẽ khoảng 500 đô la.",
@@ -131,12 +115,11 @@ export const E8: VocabularyWord[] = [
     slug: "estrange",
     phonetic: "/ɪˈstreɪndʒ/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Cause (someone) to be no longer close or affectionate to someone; alienate.",
+    meaningEn: "Cause (someone) to be no longer close or affectionate to someone; alienate.",
     meaningVi: "Làm xa lánh/Làm ghẻ lạnh.",
     exampleEn: "Estranged husband.",
     exampleVi: "Người chồng đã ly thân/xa lánh.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-7360",
@@ -144,12 +127,11 @@ export const E8: VocabularyWord[] = [
     slug: "estrangement",
     phonetic: "/ɪˈstreɪndʒ.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The fact of no longer being on friendly terms or part of a social group.",
+    meaningEn: "The fact of no longer being on friendly terms or part of a social group.",
     meaningVi: "Sự xa lánh/Sự ghẻ lạnh.",
     exampleEn: "Family estrangement.",
     exampleVi: "Sự xa lánh trong gia đình.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-7361",
@@ -157,12 +139,11 @@ export const E8: VocabularyWord[] = [
     slug: "estuary",
     phonetic: "/ˈes.tʃu.er.i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The tidal mouth of a large river, where the tide meets the stream.",
+    meaningEn: "The tidal mouth of a large river, where the tide meets the stream.",
     meaningVi: "Cửa sông.",
     exampleEn: "Thames estuary.",
     exampleVi: "Cửa sông Thames.",
-    categories: ["Geography", "Nature"],
+    categories: ["Geography","Nature"],
   },
   {
     id: "gen-7362",
@@ -174,7 +155,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Khắc/Ăn mòn.",
     exampleEn: "Etched in stone.",
     exampleVi: "Khắc vào đá.",
-    categories: ["Art", "General"],
+    categories: ["Art","General"],
   },
   {
     id: "gen-7363",
@@ -198,7 +179,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Vĩnh cửu/Đời đời.",
     exampleEn: "Eternal life.",
     exampleVi: "Sự sống đời đời.",
-    categories: ["Religion", "Philosophy"],
+    categories: ["Religion","Philosophy"],
   },
   {
     id: "gen-7365",
@@ -222,7 +203,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Sự vĩnh cửu/Vô tận.",
     exampleEn: "For all eternity.",
     exampleVi: "Cho đến muôn đời.",
-    categories: ["Religion", "Philosophy"],
+    categories: ["Religion","Philosophy"],
   },
   {
     id: "gen-7367",
@@ -230,12 +211,11 @@ export const E8: VocabularyWord[] = [
     slug: "ethanol",
     phonetic: "/ˈeθ.ə.nɒl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Alcohol generally used as fuel, solvent, or in alcoholic drinks.",
+    meaningEn: "Alcohol generally used as fuel, solvent, or in alcoholic drinks.",
     meaningVi: "Etanol (Cồn).",
     exampleEn: "Ethanol fuel.",
     exampleVi: "Nhiên liệu etanol.",
-    categories: ["Chemistry", "Science"],
+    categories: ["Chemistry","Science"],
   },
   {
     id: "gen-7368",
@@ -243,12 +223,11 @@ export const E8: VocabularyWord[] = [
     slug: "ether",
     phonetic: "/ˈiː.θɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A pleasant-smelling, colorless, volatile liquid used as an anesthetic and solvent.",
+    meaningEn: "A pleasant-smelling, colorless, volatile liquid used as an anesthetic and solvent.",
     meaningVi: "Ete.",
     exampleEn: "Smell of ether.",
     exampleVi: "Mùi ete.",
-    categories: ["Chemistry", "Science"],
+    categories: ["Chemistry","Science"],
   },
   {
     id: "gen-7369",
@@ -256,12 +235,11 @@ export const E8: VocabularyWord[] = [
     slug: "ethical",
     phonetic: "/ˈeθ.ɪ.kəl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to moral principles or the branch of knowledge dealing with these.",
+    meaningEn: "Relating to moral principles or the branch of knowledge dealing with these.",
     meaningVi: "Thuộc đạo đức/Luân lý.",
     exampleEn: "Ethical issues.",
     exampleVi: "Các vấn đề đạo đức.",
-    categories: ["Philosophy", "General"],
+    categories: ["Philosophy","General"],
   },
   {
     id: "gen-7370",
@@ -269,12 +247,11 @@ export const E8: VocabularyWord[] = [
     slug: "ethics",
     phonetic: "/ˈeθ.ɪks/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Moral principles that govern a person's behavior or the conducting of an activity.",
+    meaningEn: "Moral principles that govern a person's behavior or the conducting of an activity.",
     meaningVi: "Đạo đức học/Luân thường đạo lý.",
     exampleEn: "Business ethics.",
     exampleVi: "Đạo đức kinh doanh.",
-    categories: ["Philosophy", "Social"],
+    categories: ["Philosophy","Social"],
   },
   {
     id: "gen-7371",
@@ -282,12 +259,11 @@ export const E8: VocabularyWord[] = [
     slug: "ethnic",
     phonetic: "/ˈeθ.nɪk/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to a population subgroup (within a larger or dominant national or cultural group) with a common national or cultural tradition.",
+    meaningEn: "Relating to a population subgroup (within a larger or dominant national or cultural group) with a common national or cultural tradition.",
     meaningVi: "Thuộc sắc tộc/Dân tộc.",
     exampleEn: "Ethnic minorities.",
     exampleVi: "Các dân tộc thiểu số.",
-    categories: ["Social", "General"],
+    categories: ["Social","General"],
   },
   {
     id: "gen-7372",
@@ -295,12 +271,11 @@ export const E8: VocabularyWord[] = [
     slug: "ethnicity",
     phonetic: "/eθˈnɪs.ə.t̬i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The fact or state of belonging to a social group that has a common national or cultural tradition.",
+    meaningEn: "The fact or state of belonging to a social group that has a common national or cultural tradition.",
     meaningVi: "Sắc tộc.",
     exampleEn: "Diverse ethnicity.",
     exampleVi: "Sắc tộc đa dạng.",
-    categories: ["Social", "General"],
+    categories: ["Social","General"],
   },
   {
     id: "gen-7373",
@@ -308,12 +283,11 @@ export const E8: VocabularyWord[] = [
     slug: "ethos",
     phonetic: "/ˈiː.θɑːs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The characteristic spirit of a culture, era, or community as manifested in its beliefs and aspirations.",
+    meaningEn: "The characteristic spirit of a culture, era, or community as manifested in its beliefs and aspirations.",
     meaningVi: "Đặc tính/Tinh thần (của một thời đại, cộng đồng).",
     exampleEn: "Corporate ethos.",
     exampleVi: "Văn hóa doanh nghiệp.",
-    categories: ["Social", "Philosophy"],
+    categories: ["Social","Philosophy"],
   },
   {
     id: "gen-7374",
@@ -321,8 +295,7 @@ export const E8: VocabularyWord[] = [
     slug: "etiquette",
     phonetic: "/ˈet.ɪ.ket/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The customary code of polite behavior in society or among members of a particular profession or group.",
+    meaningEn: "The customary code of polite behavior in society or among members of a particular profession or group.",
     meaningVi: "Nghi thức/Phép xã giao.",
     exampleEn: "Social etiquette.",
     exampleVi: "Phép xã giao.",
@@ -334,8 +307,7 @@ export const E8: VocabularyWord[] = [
     slug: "etymology",
     phonetic: "/ˌet.ɪˈmɑː.lə.dʒi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The study of the origin of words and the way in which their meanings have changed throughout history.",
+    meaningEn: "The study of the origin of words and the way in which their meanings have changed throughout history.",
     meaningVi: "Từ nguyên học.",
     exampleEn: "Study etymology.",
     exampleVi: "Nghiên cứu từ nguyên học.",
@@ -347,12 +319,11 @@ export const E8: VocabularyWord[] = [
     slug: "eucalyptus",
     phonetic: "/ˌjuː.kəˈlɪp.təs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A fast-growing evergreen Australasian tree that has been widely introduced elsewhere.",
+    meaningEn: "A fast-growing evergreen Australasian tree that has been widely introduced elsewhere.",
     meaningVi: "Cây bạch đàn/Khuynh diệp.",
     exampleEn: "Eucalyptus oil.",
     exampleVi: "Dầu khuynh diệp.",
-    categories: ["Nature", "Plants"],
+    categories: ["Nature","Plants"],
   },
   {
     id: "gen-7377",
@@ -360,12 +331,11 @@ export const E8: VocabularyWord[] = [
     slug: "eulogy",
     phonetic: "/ˈjuː.lə.dʒi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A speech or piece of writing that praises someone or something highly, typically someone who has just died.",
+    meaningEn: "A speech or piece of writing that praises someone or something highly, typically someone who has just died.",
     meaningVi: "Điếu văn/Bài tán dương.",
     exampleEn: "Deliver a eulogy.",
     exampleVi: "Đọc điếu văn.",
-    categories: ["Social", "Religion"],
+    categories: ["Social","Religion"],
   },
   {
     id: "gen-7378",
@@ -373,12 +343,11 @@ export const E8: VocabularyWord[] = [
     slug: "euphemism",
     phonetic: "/ˈjuː.fə.mɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A mild or indirect word or expression substituted for one considered to be too harsh or blunt when referring to something unpleasant or embarrassing.",
+    meaningEn: "A mild or indirect word or expression substituted for one considered to be too harsh or blunt when referring to something unpleasant or embarrassing.",
     meaningVi: "Uyển ngữ/Cách nói giảm nói tránh.",
     exampleEn: "Use a euphemism.",
     exampleVi: "Sử dụng uyển ngữ.",
-    categories: ["Linguistics", "General"],
+    categories: ["Linguistics","General"],
   },
   {
     id: "gen-7379",
@@ -390,7 +359,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Sự hưng phấn/Niềm hạnh phúc vô bờ.",
     exampleEn: "A state of euphoria.",
     exampleVi: "Trạng thái hưng phấn.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-7380",
@@ -402,7 +371,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Hưng phấn/Hạnh phúc tột độ.",
     exampleEn: "Euphoric mood.",
     exampleVi: "Tâm trạng hưng phấn.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-7381",
@@ -414,7 +383,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Đồng Euro.",
     exampleEn: "Pay in Euros.",
     exampleVi: "Thanh toán bằng đồng Euro.",
-    categories: ["Finance", "Business"],
+    categories: ["Finance","Business"],
   },
   {
     id: "gen-7382",
@@ -422,8 +391,7 @@ export const E8: VocabularyWord[] = [
     slug: "europe",
     phonetic: "/ˈjʊr.əp/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A continent located entirely in the Northern Hemisphere and mostly in the Eastern Hemisphere.",
+    meaningEn: "A continent located entirely in the Northern Hemisphere and mostly in the Eastern Hemisphere.",
     meaningVi: "Châu Âu.",
     exampleEn: "Travel to Europe.",
     exampleVi: "Du lịch đến Châu Âu.",
@@ -439,7 +407,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Thuộc Châu Âu/Người Châu Âu.",
     exampleEn: "European culture.",
     exampleVi: "Văn hóa Châu Âu.",
-    categories: ["Geography", "Social"],
+    categories: ["Geography","Social"],
   },
   {
     id: "gen-7384",
@@ -447,12 +415,11 @@ export const E8: VocabularyWord[] = [
     slug: "euthanasia",
     phonetic: "/ˌjuː.θəˈneɪ.ʒə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The painless killing of a patient suffering from an incurable and painful disease or in an irreversible coma.",
+    meaningEn: "The painless killing of a patient suffering from an incurable and painful disease or in an irreversible coma.",
     meaningVi: "An tử/Cái chết êm ái.",
     exampleEn: "Debate on euthanasia.",
     exampleVi: "Tranh luận về trợ tử/an tử.",
-    categories: ["Social", "Medical"],
+    categories: ["Social","Medical"],
   },
   {
     id: "gen-7385",
@@ -460,12 +427,11 @@ export const E8: VocabularyWord[] = [
     slug: "euthanize",
     phonetic: "/ˈjuː.θə.naɪz/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Put (a living being, especially a dog or cat) to death humanely.",
+    meaningEn: "Put (a living being, especially a dog or cat) to death humanely.",
     meaningVi: "Làm chết không đau đớn (thường dùng cho động vật).",
     exampleEn: "Euthanize a pet.",
     exampleVi: "Làm chết nhân đạo thú cưng.",
-    categories: ["Social", "Medical"],
+    categories: ["Social","Medical"],
   },
   {
     id: "gen-7386",
@@ -477,7 +443,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Sơ tán/Di tản.",
     exampleEn: "Evacuate the building.",
     exampleVi: "Sơ tán khỏi tòa nhà.",
-    categories: ["Security", "General"],
+    categories: ["Security","General"],
   },
   {
     id: "gen-7387",
@@ -489,7 +455,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Sự sơ tán/Di tản.",
     exampleEn: "Mass evacuation.",
     exampleVi: "Cuộc sơ tán quy mô lớn.",
-    categories: ["Security", "General"],
+    categories: ["Security","General"],
   },
   {
     id: "gen-7388",
@@ -501,7 +467,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Trốn tránh/Lẩn tránh.",
     exampleEn: "Evade taxes.",
     exampleVi: "Trốn thuế.",
-    categories: ["General", "Law"],
+    categories: ["General","Law"],
   },
   {
     id: "gen-7389",
@@ -513,7 +479,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Đánh giá/Định giá.",
     exampleEn: "Evaluate the performance.",
     exampleVi: "Đánh giá hiệu suất.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "c1-29",
@@ -521,8 +487,7 @@ export const E8: VocabularyWord[] = [
     slug: "evaluation",
     phonetic: "/ɪˌvæl.juˈeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The making of a judgment about the amount, number, or value of something; assessment.",
+    meaningEn: "The making of a judgment about the amount, number, or value of something; assessment.",
     meaningVi: "Sự đánh giá.",
     exampleEn: "The teacher gave a positive evaluation.",
     exampleVi: "Giáo viên đã đưa ra một đánh giá tích cực.",
@@ -534,12 +499,11 @@ export const E8: VocabularyWord[] = [
     slug: "evanescent",
     phonetic: "/ˌev.əˈnes.ənt/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Soon passing out of sight, memory, or existence; quickly fading or disappearing.",
+    meaningEn: "Soon passing out of sight, memory, or existence; quickly fading or disappearing.",
     meaningVi: "Phù du/Mau tan.",
     exampleEn: "Evanescent bubble.",
     exampleVi: "Bong bóng phù du.",
-    categories: ["General", "Environment"],
+    categories: ["General","Environment"],
   },
   {
     id: "gen-7392",
@@ -547,8 +511,7 @@ export const E8: VocabularyWord[] = [
     slug: "evangelical",
     phonetic: "/ˌiː.vænˈdʒel.ɪ.kəl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Of or according to the teaching of the gospel or the Christian religion.",
+    meaningEn: "Of or according to the teaching of the gospel or the Christian religion.",
     meaningVi: "Thuộc phúc âm/Tin lành.",
     exampleEn: "Evangelical church.",
     exampleVi: "Nhà thờ Tin lành.",
@@ -560,8 +523,7 @@ export const E8: VocabularyWord[] = [
     slug: "evangelism",
     phonetic: "/ɪˈvæn.dʒə.lɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The spreading of the Christian gospel by public preaching or personal witness.",
+    meaningEn: "The spreading of the Christian gospel by public preaching or personal witness.",
     meaningVi: "Sự truyền bá phúc âm.",
     exampleEn: "Engage in evangelism.",
     exampleVi: "Tham gia truyền bá phúc âm.",
@@ -573,8 +535,7 @@ export const E8: VocabularyWord[] = [
     slug: "evangelist",
     phonetic: "/ɪˈvæn.dʒə.lɪst/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who seeks to convert others to the Christian faith, especially by public preaching.",
+    meaningEn: "A person who seeks to convert others to the Christian faith, especially by public preaching.",
     meaningVi: "Người truyền giáo.",
     exampleEn: "TV evangelist.",
     exampleVi: "Người truyền giáo trên truyền hình.",
@@ -590,7 +551,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Bay hơi/Bốc hơi.",
     exampleEn: "Water evaporates.",
     exampleVi: "Nước bốc hơi.",
-    categories: ["Science", "General"],
+    categories: ["Science","General"],
   },
   {
     id: "gen-7396",
@@ -602,7 +563,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Sự bay hơi.",
     exampleEn: "Rate of evaporation.",
     exampleVi: "Tốc độ bay hơi.",
-    categories: ["Science", "General"],
+    categories: ["Science","General"],
   },
   {
     id: "gen-7397",
@@ -614,7 +575,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Sự trốn tránh.",
     exampleEn: "Tax evasion.",
     exampleVi: "Trốn thuế.",
-    categories: ["Law", "General"],
+    categories: ["Law","General"],
   },
   {
     id: "gen-7398",
@@ -622,8 +583,7 @@ export const E8: VocabularyWord[] = [
     slug: "evasive",
     phonetic: "/ɪˈveɪ.sɪv/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Tending to avoid commitment or self-revelation, especially by responding only indirectly.",
+    meaningEn: "Tending to avoid commitment or self-revelation, especially by responding only indirectly.",
     meaningVi: "Lẩn tránh/Thoái thác.",
     exampleEn: "Evasive answer.",
     exampleVi: "Câu trả lời lẩn tránh.",
@@ -635,12 +595,11 @@ export const E8: VocabularyWord[] = [
     slug: "eve",
     phonetic: "/iːv/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The day or period of time immediately before an event or occasion.",
+    meaningEn: "The day or period of time immediately before an event or occasion.",
     meaningVi: "Đêm trước/Thời điểm ngay trước.",
     exampleEn: "New Year's Eve.",
     exampleVi: "Đêm giao thừa.",
-    categories: ["Time", "General"],
+    categories: ["Time","General"],
   },
   {
     id: "gen-7400",
@@ -652,7 +611,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Bằng phẳng/Chẵn/Thậm chí.",
     exampleEn: "Even surface.",
     exampleVi: "Bề mặt bằng phẳng.",
-    categories: ["General", "Mathematics"],
+    categories: ["General","Mathematics"],
   },
   {
     id: "a1-163",
@@ -708,8 +667,7 @@ export const E8: VocabularyWord[] = [
     slug: "eventual",
     phonetic: "/ɪˈven.tʃu.əl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Occurring at the end of or as a result of a series of events; final; ultimate.",
+    meaningEn: "Occurring at the end of or as a result of a series of events; final; ultimate.",
     meaningVi: "Cuối cùng/Kết cục.",
     exampleEn: "Eventual success.",
     exampleVi: "Thành công cuối cùng.",
@@ -761,7 +719,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Vĩnh viễn/Bất diệt.",
     exampleEn: "Everlasting love.",
     exampleVi: "Tình yêu vĩnh cửu.",
-    categories: ["General", "Religion"],
+    categories: ["General","Religion"],
   },
   {
     id: "gen-7410",
@@ -853,12 +811,11 @@ export const E8: VocabularyWord[] = [
     slug: "evict",
     phonetic: "/ɪˈvɪkt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Expel (someone) from a property, especially with the support of the law.",
+    meaningEn: "Expel (someone) from a property, especially with the support of the law.",
     meaningVi: "Đuổi (ai) ra khỏi nhà/trục xuất.",
     exampleEn: "Evicted from the apartment.",
     exampleVi: "Bị đuổi khỏi căn hộ.",
-    categories: ["Law", "General"],
+    categories: ["Law","General"],
   },
   {
     id: "gen-7418",
@@ -866,12 +823,11 @@ export const E8: VocabularyWord[] = [
     slug: "eviction",
     phonetic: "/ɪˈvɪk.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action of expelling someone, especially a tenant, from a property; expulsion.",
+    meaningEn: "The action of expelling someone, especially a tenant, from a property; expulsion.",
     meaningVi: "Sự trục xuất/Sự đuổi nhà.",
     exampleEn: "Face eviction.",
     exampleVi: "Đối mặt với việc bị đuổi khỏi nhà.",
-    categories: ["Law", "General"],
+    categories: ["Law","General"],
   },
   {
     id: "b2-11",
@@ -879,12 +835,11 @@ export const E8: VocabularyWord[] = [
     slug: "evidence",
     phonetic: "/ˈev.ə.dəns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The available body of facts or information indicating whether a belief or proposition is true or valid.",
+    meaningEn: "The available body of facts or information indicating whether a belief or proposition is true or valid.",
     meaningVi: "Bằng chứng.",
     exampleEn: "There is no evidence to support his claim.",
     exampleVi: "Không có bằng chứng nào ủng hộ khẳng định của anh ta.",
-    categories: ["Academic", "Social"],
+    categories: ["Academic","Social"],
   },
   {
     id: "gen-7420",
@@ -904,8 +859,7 @@ export const E8: VocabularyWord[] = [
     slug: "evidently",
     phonetic: "/ˈev.ə.dənt.li/",
     partOfSpeech: "adverb",
-    meaningEn:
-      "Plainly or obviously; in a way that is clearly seen or understood.",
+    meaningEn: "Plainly or obviously; in a way that is clearly seen or understood.",
     meaningVi: "Rõ ràng/Hiển nhiên.",
     exampleEn: "Evidently mistaken.",
     exampleVi: "Rõ ràng là đã nhầm.",
@@ -921,7 +875,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Ác độc/Cái ác.",
     exampleEn: "Evil spirits.",
     exampleVi: "Linh hồn tà ác.",
-    categories: ["Religion", "General"],
+    categories: ["Religion","General"],
   },
   {
     id: "gen-7423",
@@ -933,7 +887,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Gợi lên/Gợi nhớ.",
     exampleEn: "Evoke memories.",
     exampleVi: "Gợi lại những ký ức.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-7424",
@@ -941,12 +895,11 @@ export const E8: VocabularyWord[] = [
     slug: "evolution",
     phonetic: "/ˌev.əˈluː.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The process by which different kinds of living organisms are thought to have developed and diversified from earlier forms during the history of the earth.",
+    meaningEn: "The process by which different kinds of living organisms are thought to have developed and diversified from earlier forms during the history of the earth.",
     meaningVi: "Sự tiến hóa.",
     exampleEn: "Theory of evolution.",
     exampleVi: "Thuyết tiến hóa.",
-    categories: ["Science", "Biology"],
+    categories: ["Science","Biology"],
   },
   {
     id: "gen-7425",
@@ -958,7 +911,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Thuộc sự tiến hóa/Phát triển dần dần.",
     exampleEn: "Evolutionary process.",
     exampleVi: "Quá trình tiến hóa.",
-    categories: ["Science", "Biology"],
+    categories: ["Science","Biology"],
   },
   {
     id: "gen-7426",
@@ -966,12 +919,11 @@ export const E8: VocabularyWord[] = [
     slug: "evolve",
     phonetic: "/ɪˈvɑːlv/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Develop gradually, especially from a simple to a more complex form.",
+    meaningEn: "Develop gradually, especially from a simple to a more complex form.",
     meaningVi: "Tiến hóa/Phát triển.",
     exampleEn: "Evolve over time.",
     exampleVi: "Phát triển theo thời gian.",
-    categories: ["Science", "General"],
+    categories: ["Science","General"],
   },
   {
     id: "c1-30",
@@ -982,8 +934,7 @@ export const E8: VocabularyWord[] = [
     meaningEn: "Make (a problem, bad situation, or negative feeling) worse.",
     meaningVi: "Làm trầm trọng thêm.",
     exampleEn: "Traffic can exacerbate air pollution.",
-    exampleVi:
-      "Giao thông có thể làm trầm trọng thêm tình trạng ô nhiễm không khí.",
+    exampleVi: "Giao thông có thể làm trầm trọng thêm tình trạng ô nhiễm không khí.",
     categories: ["Daily"],
   },
   {
@@ -1004,8 +955,7 @@ export const E8: VocabularyWord[] = [
     slug: "exacting",
     phonetic: "/ɪɡˈzæk.tɪŋ/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Making great demands on one's skill, attention, or other resources.",
+    meaningEn: "Making great demands on one's skill, attention, or other resources.",
     meaningVi: "Đòi hỏi khắt khe/Nghiêm ngặt.",
     exampleEn: "Exacting standards.",
     exampleVi: "Những tiêu chuẩn khắt khe.",
@@ -1029,8 +979,7 @@ export const E8: VocabularyWord[] = [
     slug: "exaggerate",
     phonetic: "/ɪɡˈzædʒ.ə.reɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Represent (something) as being larger, greater, better, or worse than it really is.",
+    meaningEn: "Represent (something) as being larger, greater, better, or worse than it really is.",
     meaningVi: "Phóng đại/Thổi phồng.",
     exampleEn: "Don't exaggerate.",
     exampleVi: "Đừng phóng đại.",
@@ -1042,8 +991,7 @@ export const E8: VocabularyWord[] = [
     slug: "exaggeration",
     phonetic: "/ɪɡˌzædʒ.əˈreɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A statement that represents something as better or worse than it really is.",
+    meaningEn: "A statement that represents something as better or worse than it really is.",
     meaningVi: "Sự phóng đại.",
     exampleEn: "Gross exaggeration.",
     exampleVi: "Sự phóng đại quá mức.",
@@ -1055,12 +1003,11 @@ export const E8: VocabularyWord[] = [
     slug: "exalt",
     phonetic: "/ɪɡˈzɑːlt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Hold (someone or something) in very high regard; think or speak very highly of.",
+    meaningEn: "Hold (someone or something) in very high regard; think or speak very highly of.",
     meaningVi: "Đề cao/Tán dương.",
     exampleEn: "Exalt the virtues.",
     exampleVi: "Đề cao các đức tính.",
-    categories: ["General", "Religion"],
+    categories: ["General","Religion"],
   },
   {
     id: "a2-116",
@@ -1068,8 +1015,7 @@ export const E8: VocabularyWord[] = [
     slug: "exam",
     phonetic: "/ɪɡˈzæm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A formal test of a person's knowledge or proficiency in a particular subject or skill.",
+    meaningEn: "A formal test of a person's knowledge or proficiency in a particular subject or skill.",
     meaningVi: "Kỳ thi.",
     exampleEn: "I have an entrance exam tomorrow.",
     exampleVi: "Tôi có một kỳ thi đầu vào vào ngày mai.",
@@ -1085,7 +1031,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Sự kiểm tra/Sự xem xét kỹ.",
     exampleEn: "Medical examination.",
     exampleVi: "Kiểm tra y tế.",
-    categories: ["Education", "Medical"],
+    categories: ["Education","Medical"],
   },
   {
     id: "gen-415",
@@ -1097,7 +1043,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Kiểm tra.",
     exampleEn: "Examine the patient.",
     exampleVi: "Kiểm tra bệnh nhân.",
-    categories: ["Medical", "General"],
+    categories: ["Medical","General"],
   },
   {
     id: "gen-416",
@@ -1121,7 +1067,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Làm bực tức/Làm cáu tiết.",
     exampleEn: "Exasperate someone.",
     exampleVi: "Làm ai đó cáu tiết.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-7439",
@@ -1133,7 +1079,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Sự bực tức/Sự cáu tiết.",
     exampleEn: "Look of exasperation.",
     exampleVi: "Vẻ mặt bực tức.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-7440",
@@ -1145,7 +1091,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Đào/Khai quật.",
     exampleEn: "Excavate a site.",
     exampleVi: "Khai quật một địa điểm.",
-    categories: ["Construction", "History"],
+    categories: ["Construction","History"],
   },
   {
     id: "gen-7441",
@@ -1153,12 +1099,11 @@ export const E8: VocabularyWord[] = [
     slug: "excavation",
     phonetic: "/ˌek.skəˈveɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action of excavating something, especially an archaeological site.",
+    meaningEn: "The action of excavating something, especially an archaeological site.",
     meaningVi: "Sự khai quật/Sự đào hố.",
     exampleEn: "Archaeological excavation.",
     exampleVi: "Cuộc khai quật khảo cổ.",
-    categories: ["Construction", "History"],
+    categories: ["Construction","History"],
   },
   {
     id: "gen-7442",
@@ -1166,12 +1111,11 @@ export const E8: VocabularyWord[] = [
     slug: "exceed",
     phonetic: "/ɪkˈsiːd/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Be greater in number or size than (a quantity, number, or other measurable thing).",
+    meaningEn: "Be greater in number or size than (a quantity, number, or other measurable thing).",
     meaningVi: "Vượt quá/Phóng đại.",
     exampleEn: "Exceed the limit.",
     exampleVi: "Vượt quá giới hạn.",
-    categories: ["General", "Mathematics"],
+    categories: ["General","Mathematics"],
   },
   {
     id: "gen-7443",
@@ -1203,12 +1147,11 @@ export const E8: VocabularyWord[] = [
     slug: "excel",
     phonetic: "/ɪkˈsel/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Be exceptionally good at or proficient in an activity or subject.",
+    meaningEn: "Be exceptionally good at or proficient in an activity or subject.",
     meaningVi: "Xuất sắc/Trội hơn.",
     exampleEn: "Excel in sports.",
     exampleVi: "Xuất sắc trong thể thao.",
-    categories: ["General", "Education"],
+    categories: ["General","Education"],
   },
   {
     id: "gen-7446",
@@ -1220,7 +1163,7 @@ export const E8: VocabularyWord[] = [
     meaningVi: "Sự xuất sắc/Ưu tú.",
     exampleEn: "Center for excellence.",
     exampleVi: "Trung tâm xuất sắc.",
-    categories: ["General", "Education"],
+    categories: ["General","Education"],
   },
   {
     id: "gen-7447",
@@ -1228,12 +1171,11 @@ export const E8: VocabularyWord[] = [
     slug: "excellency",
     phonetic: "/ˈek.səl.ən.si/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A title or form of address for certain high officials of state.",
+    meaningEn: "A title or form of address for certain high officials of state.",
     meaningVi: "Ngài (tước hiệu).",
     exampleEn: "Your Excellency.",
     exampleVi: "Thưa Ngài.",
-    categories: ["Social", "Government"],
+    categories: ["Social","Government"],
   },
   {
     id: "gen-417",
@@ -1247,4 +1189,16 @@ export const E8: VocabularyWord[] = [
     exampleVi: "Làm việc xuất sắc!",
     categories: ["General"],
   },
+  {
+    id: "gen-418",
+    word: "Except",
+    slug: "except",
+    phonetic: "/ɪkˈsept/",
+    partOfSpeech: "preposition",
+    meaningEn: "Not including; other than.",
+    meaningVi: "Ngoại trừ.",
+    exampleEn: "Everyone except me.",
+    exampleVi: "Mọi người ngoại trừ tôi.",
+    categories: ["General"],
+  }
 ];

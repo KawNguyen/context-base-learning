@@ -2,17 +2,40 @@ import { VocabularyWord } from "../../types";
 
 export const D2: VocabularyWord[] = [
   {
+    id: "gen-4844",
+    word: "Day-boarder",
+    slug: "day-boarder",
+    phonetic: "/ˈdeɪˌbɔːrdər/",
+    partOfSpeech: "noun",
+    meaningEn: "A student who eats meals at school but does not sleep there.",
+    meaningVi: "Học sinh bán trú.",
+    exampleEn: "Primary school day-boarder.",
+    exampleVi: "Học sinh bán trú tiểu học.",
+    categories: ["Education","People"],
+  },
+  {
+    id: "gen-4845",
+    word: "Day-break",
+    slug: "day-break",
+    phonetic: "/ˈdeɪ.breɪk/",
+    partOfSpeech: "noun",
+    meaningEn: "The time in the morning when daylight first appears.",
+    meaningVi: "Rạng đông/Lúc tảng sáng.",
+    exampleEn: "Wake up at day-break.",
+    exampleVi: "Thức dậy khi vừa tảng sáng.",
+    categories: ["Nature","General"],
+  },
+  {
     id: "gen-4846",
     word: "Day-dream",
     slug: "day-dream",
     phonetic: "/ˈdeɪ.driːm/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A series of pleasant thoughts that distract one's attention from the present.",
+    meaningEn: "A series of pleasant thoughts that distract one's attention from the present.",
     meaningVi: "Mơ mộng giữa ban ngày/Sự mơ mộng.",
     exampleEn: "Day-dream about the future.",
     exampleVi: "Mơ mộng viển vông về tương lai.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-4848",
@@ -20,12 +43,11 @@ export const D2: VocabularyWord[] = [
     slug: "day-student",
     phonetic: "/ˈdeɪˌstjuːdənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A student who lives at home and attends school only during the day.",
+    meaningEn: "A student who lives at home and attends school only during the day.",
     meaningVi: "Học sinh ngoại trú.",
     exampleEn: "College day-student.",
     exampleVi: "Sinh viên ngoại trú.",
-    categories: ["Education", "People"],
+    categories: ["Education","People"],
   },
   {
     id: "gen-4849",
@@ -37,7 +59,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Ban ngày/Thời gian ban ngày.",
     exampleEn: "Sleep during the day-time.",
     exampleVi: "Ngủ vào ban ngày.",
-    categories: ["General", "Nature"],
+    categories: ["General","Nature"],
   },
   {
     id: "gen-4847",
@@ -49,7 +71,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Ánh sáng ban ngày/Ban ngày/Công khai.",
     exampleEn: "Broad daylight.",
     exampleVi: "Giữa ban ngày ban mặt.",
-    categories: ["Nature", "General"],
+    categories: ["Nature","General"],
   },
   {
     id: "gen-4850",
@@ -57,12 +79,11 @@ export const D2: VocabularyWord[] = [
     slug: "daze",
     phonetic: "/deɪz/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Make (someone) unable to think or react properly; a state of stunned confusion or bewilderment.",
+    meaningEn: "Make (someone) unable to think or react properly; a state of stunned confusion or bewilderment.",
     meaningVi: "Làm sửng sốt/Làm ngớ ngẩn/Sự sững sờ.",
     exampleEn: "In a daze.",
     exampleVi: "Trong trạng thái sững sờ.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-4851",
@@ -82,12 +103,11 @@ export const D2: VocabularyWord[] = [
     slug: "dazzle",
     phonetic: "/ˈdæz.əl/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "(of a bright light) blind (a person) temporarily; amaze or overwhelm (someone) with a particular impressive quality.",
+    meaningEn: "(of a bright light) blind (a person) temporarily; amaze or overwhelm (someone) with a particular impressive quality.",
     meaningVi: "Làm lóa mắt/Làm kinh ngạc/Sự rực rỡ.",
     exampleEn: "Dazzled by her beauty.",
     exampleVi: "Bị mê hoặc bởi vẻ đẹp của cô ấy.",
-    categories: ["General", "Body", "Psychology"],
+    categories: ["General","Body","Psychology"],
   },
   {
     id: "gen-4853",
@@ -95,12 +115,11 @@ export const D2: VocabularyWord[] = [
     slug: "dazzling",
     phonetic: "/ˈdæz.lɪŋ/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Extremely bright, especially so as to blind the eyes temporarily.",
+    meaningEn: "Extremely bright, especially so as to blind the eyes temporarily.",
     meaningVi: "Lóa mắt/Rực rỡ/Tuyệt vời.",
     exampleEn: "Dazzling smile.",
     exampleVi: "Nụ cười rạng rỡ/lóa mắt.",
-    categories: ["Body", "General"],
+    categories: ["Body","General"],
   },
   {
     id: "gen-4948",
@@ -108,12 +127,11 @@ export const D2: VocabularyWord[] = [
     slug: "decentralization",
     phonetic: "/diːˌsen.trə.laɪˈzeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The transfer of control of an activity or organization to several local offices or authorities rather than one single one.",
+    meaningEn: "The transfer of control of an activity or organization to several local offices or authorities rather than one single one.",
     meaningVi: "Sự phân quyền/Sự tản quyền.",
     exampleEn: "Policy of de-centralization.",
     exampleVi: "Chính sách phân quyền.",
-    categories: ["Politics", "Business", "Social"],
+    categories: ["Politics","Business","Social"],
   },
   {
     id: "gen-4949",
@@ -121,12 +139,11 @@ export const D2: VocabularyWord[] = [
     slug: "decentralize",
     phonetic: "/diːˈsen.trə.laɪz/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Transfer powers from a central government or authority to local ones.",
+    meaningEn: "Transfer powers from a central government or authority to local ones.",
     meaningVi: "Phân quyền/Tản quyền.",
     exampleEn: "De-centralize authority.",
     exampleVi: "Phân tán quyền lực.",
-    categories: ["Politics", "Business"],
+    categories: ["Politics","Business"],
   },
   {
     id: "gen-4990",
@@ -138,7 +155,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Ngừng hoạt động/Loại bỏ khỏi biên chế/Tháo dỡ.",
     exampleEn: "De-commission a ship.",
     exampleVi: "Loại bỏ một chiếc tàu khỏi biên chế.",
-    categories: ["Engineering", "Politics", "Science"],
+    categories: ["Engineering","Politics","Science"],
   },
   {
     id: "gen-4991",
@@ -150,7 +167,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Sự ngừng hoạt động/Quá trình tháo dỡ.",
     exampleEn: "Reactor de-commissioning.",
     exampleVi: "Việc tháo dỡ lò phản ứng.",
-    categories: ["Engineering", "Science"],
+    categories: ["Engineering","Science"],
   },
   {
     id: "gen-4998",
@@ -162,7 +179,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Tước bỏ sự thiêng liêng/Chuyển mục đích sử dụng (nhà thờ).",
     exampleEn: "De-consecrate a chapel.",
     exampleVi: "Tước bỏ thánh tính của một nhà nguyện.",
-    categories: ["Religion", "Social"],
+    categories: ["Religion","Social"],
   },
   {
     id: "gen-4999",
@@ -182,12 +199,11 @@ export const D2: VocabularyWord[] = [
     slug: "decontaminate",
     phonetic: "/ˌdiː.kənˈtæm.ə.neɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Purify (something) by removing poisonous or polluting substances.",
+    meaningEn: "Purify (something) by removing poisonous or polluting substances.",
     meaningVi: "Khử trùng/Khử nhiễm/Làm sạch.",
     exampleEn: "De-contaminate the soil.",
     exampleVi: "Khử nhiễm đất.",
-    categories: ["Science", "Environment", "Medical"],
+    categories: ["Science","Environment","Medical"],
   },
   {
     id: "gen-5001",
@@ -199,7 +215,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Sự khử nhiễm/Sự làm sạch.",
     exampleEn: "Chemical de-contamination.",
     exampleVi: "Sự khử nhiễm hóa chất.",
-    categories: ["Science", "Environment"],
+    categories: ["Science","Environment"],
   },
   {
     id: "gen-5144",
@@ -211,7 +227,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Cưa sừng/Cắt sừng (động vật).",
     exampleEn: "De-horn cattle.",
     exampleVi: "Cưa sừng gia súc.",
-    categories: ["Animals", "Business"],
+    categories: ["Animals","Business"],
   },
   {
     id: "gen-5150",
@@ -223,7 +239,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Làm thoát khỏi trạng thái thôi miên.",
     exampleEn: "De-hypnotize the subject.",
     exampleVi: "Làm đối tượng thoát khỏi thôi miên.",
-    categories: ["Psychology", "Medical"],
+    categories: ["Psychology","Medical"],
   },
   {
     id: "gen-4854",
@@ -235,7 +251,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Phó tế.",
     exampleEn: "Parish deacon.",
     exampleVi: "Phó tế giáo khu.",
-    categories: ["People", "Religion", "Social"],
+    categories: ["People","Religion","Social"],
   },
   {
     id: "gen-240",
@@ -255,12 +271,11 @@ export const D2: VocabularyWord[] = [
     slug: "dead-eye",
     phonetic: "/ˈded.aɪ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An expert marksman; a round wooden block with holes used in ship rigging.",
+    meaningEn: "An expert marksman; a round wooden block with holes used in ship rigging.",
     meaningVi: "Người thiện xạ/Con mắt híp (dụng cụ tàu thủy).",
     exampleEn: "He's a real dead-eye.",
     exampleVi: "Anh ta là một tay súng thiện xạ thực thụ.",
-    categories: ["People", "Engineering", "General"],
+    categories: ["People","Engineering","General"],
   },
   {
     id: "gen-4858",
@@ -268,12 +283,11 @@ export const D2: VocabularyWord[] = [
     slug: "dead-fall",
     phonetic: "/ˈded.fɔːl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A trap for large animals that works by dropping a heavy weight on them.",
+    meaningEn: "A trap for large animals that works by dropping a heavy weight on them.",
     meaningVi: "Bẫy sập (bẫy thú lớn).",
     exampleEn: "Set a dead-fall.",
     exampleVi: "Đặt một cái bẫy sập.",
-    categories: ["General", "Animals"],
+    categories: ["General","Animals"],
   },
   {
     id: "gen-4859",
@@ -281,12 +295,11 @@ export const D2: VocabularyWord[] = [
     slug: "dead-heat",
     phonetic: "/ˈdedˌhiːt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A race or contest in which two or more competitors finish at exactly the same time.",
+    meaningEn: "A race or contest in which two or more competitors finish at exactly the same time.",
     meaningVi: "Cuộc đua bất phân thắng bại (về cùng lúc).",
     exampleEn: "The race ended in a dead-heat.",
     exampleVi: "Cuộc đua kết thúc với kết quả hòa (về cùng lúc).",
-    categories: ["Sports", "General"],
+    categories: ["Sports","General"],
   },
   {
     id: "gen-4860",
@@ -294,12 +307,11 @@ export const D2: VocabularyWord[] = [
     slug: "dead-letter",
     phonetic: "/ˈdedˌlet̬.ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A law or rule that is no longer enforced; a letter that cannot be delivered or returned.",
+    meaningEn: "A law or rule that is no longer enforced; a letter that cannot be delivered or returned.",
     meaningVi: "Lục lệ hết hiệu lực/Thư không người nhận.",
     exampleEn: "The law remains a dead-letter.",
     exampleVi: "Đạo luật đó vẫn không có hiệu lực thi hành.",
-    categories: ["Law", "Social", "General"],
+    categories: ["Law","Social","General"],
   },
   {
     id: "gen-4861",
@@ -307,12 +319,11 @@ export const D2: VocabularyWord[] = [
     slug: "deadlock",
     phonetic: "/ˈded.lɒk/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A situation, typically one involving opposing parties, in which no progress can be made.",
+    meaningEn: "A situation, typically one involving opposing parties, in which no progress can be made.",
     meaningVi: "Sự bế tắc/Tình trạng tiến thoái lưỡng nan/Đình trệ.",
     exampleEn: "Negotiations reached a dead-lock.",
     exampleVi: "Cuộc đàm phán rơi vào bế tắc.",
-    categories: ["General", "Politics", "Business"],
+    categories: ["General","Politics","Business"],
   },
   {
     id: "gen-4863",
@@ -324,7 +335,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Nhạc đám tang.",
     exampleEn: "Playing the dead-march.",
     exampleVi: "Đang chơi bản nhạc đám ma.",
-    categories: ["Music", "Social"],
+    categories: ["Music","Social"],
   },
   {
     id: "gen-4865",
@@ -336,7 +347,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Vẻ mặt thản nhiên/Không cảm xúc/Vô cảm (thường để gây cười).",
     exampleEn: "Dead-pan humor.",
     exampleVi: "Lối hài hước tỉnh bơ/thản nhiên.",
-    categories: ["Psychology", "Art", "General"],
+    categories: ["Psychology","Art","General"],
   },
   {
     id: "gen-4866",
@@ -344,12 +355,11 @@ export const D2: VocabularyWord[] = [
     slug: "dead-reckoning",
     phonetic: "/ˌded ˈrek.ən.ɪŋ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The process of calculating one's position by using a previously determined position.",
+    meaningEn: "The process of calculating one's position by using a previously determined position.",
     meaningVi: "Sự ước tính vị trí (trong hàng hải).",
     exampleEn: "Navigate by dead-reckoning.",
     exampleVi: "Định hướng bằng cách ước tính vị trí.",
-    categories: ["Science", "Travel", "Engineering"],
+    categories: ["Science","Travel","Engineering"],
   },
   {
     id: "gen-4867",
@@ -361,7 +371,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Trọng tải tĩnh/Vật nặng/Gánh nặng.",
     exampleEn: "Remove the dead-weight.",
     exampleVi: "Loại bỏ gánh nặng/vật cản.",
-    categories: ["General", "Engineering", "Business"],
+    categories: ["General","Engineering","Business"],
   },
   {
     id: "gen-4856",
@@ -373,7 +383,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Làm giảm bớt/Làm tê liệt/Làm giảm nhuệ khí.",
     exampleEn: "Deaden the pain.",
     exampleVi: "Làm giảm đau.",
-    categories: ["Medical", "General", "Psychology"],
+    categories: ["Medical","General","Psychology"],
   },
   {
     id: "gen-4862",
@@ -385,7 +395,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Gây chết người/Chí mạng/Cực kỳ.",
     exampleEn: "Deadly poison.",
     exampleVi: "Thuốc độc chết người.",
-    categories: ["General", "Medical", "Science"],
+    categories: ["General","Medical","Science"],
   },
   {
     id: "gen-4864",
@@ -397,7 +407,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Sự vô vị/Sự tê liệt/Tình trạng chết chóc.",
     exampleEn: "Deadness of the landscape.",
     exampleVi: "Sự hiu quạnh của cảnh vật.",
-    categories: ["General", "Nature"],
+    categories: ["General","Nature"],
   },
   {
     id: "gen-4868",
@@ -409,7 +419,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Điếc/Làm ngơ/Giả điếc.",
     exampleEn: "Deaf as a post.",
     exampleVi: "Điếc đặc.",
-    categories: ["Medical", "General"],
+    categories: ["Medical","General"],
   },
   {
     id: "gen-4872",
@@ -421,7 +431,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Người câm điếc.",
     exampleEn: "Sign language for deaf-mutes.",
     exampleVi: "Ngôn ngữ ký hiệu cho người câm điếc.",
-    categories: ["People", "Medical", "Social"],
+    categories: ["People","Medical","Social"],
   },
   {
     id: "gen-4869",
@@ -429,12 +439,11 @@ export const D2: VocabularyWord[] = [
     slug: "deafen",
     phonetic: "/ˈdef.ən/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Cause (someone) to lose the power of hearing temporarily or permanently.",
+    meaningEn: "Cause (someone) to lose the power of hearing temporarily or permanently.",
     meaningVi: "Làm cho điếc tai/Làm chói tai.",
     exampleEn: "Deafened by the explosion.",
     exampleVi: "Bị điếc tai vì vụ nổ.",
-    categories: ["Medical", "General"],
+    categories: ["Medical","General"],
   },
   {
     id: "gen-4870",
@@ -442,12 +451,11 @@ export const D2: VocabularyWord[] = [
     slug: "deafening",
     phonetic: "/ˈdef.ən.ɪŋ/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a noise) so loud as to make it impossible to hear anything else.",
+    meaningEn: "(of a noise) so loud as to make it impossible to hear anything else.",
     meaningVi: "Làm điếc tai/Chói tai/Vang dội.",
     exampleEn: "Deafening applause.",
     exampleVi: "Tiếng vỗ tay vang dội.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-4871",
@@ -483,7 +491,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Giao dịch, xử lý.",
     exampleEn: "Let's make a deal.",
     exampleVi: "Hãy thỏa thuận.",
-    categories: ["Business", "General"],
+    categories: ["Business","General"],
   },
   {
     id: "gen-4875",
@@ -495,7 +503,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Người buôn bán/Đại lý/Người chia bài.",
     exampleEn: "Car dealer.",
     exampleVi: "Đại lý xe hơi.",
-    categories: ["People", "Business", "Business"],
+    categories: ["People","Business","Business"],
   },
   {
     id: "gen-4876",
@@ -507,7 +515,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Sự giao thiệp/Cách đối xử/Sự buôn bán.",
     exampleEn: "Fair dealing.",
     exampleVi: "Cách đối xử công bằng/Làm ăn lương thiện.",
-    categories: ["Business", "Social", "Business"],
+    categories: ["Business","Social","Business"],
   },
   {
     id: "gen-4877",
@@ -519,7 +527,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Trưởng khoa (đại học)/Chánh mục phục vụ.",
     exampleEn: "Dean of students.",
     exampleVi: "Trưởng khoa quản lý sinh viên.",
-    categories: ["People", "Education", "Social"],
+    categories: ["People","Education","Social"],
   },
   {
     id: "gen-4878",
@@ -531,7 +539,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Nhà/Văn phòng của trưởng khoa/mục sư.",
     exampleEn: "Located near the deanery.",
     exampleVi: "Nằm gần văn phòng trưởng khoa.",
-    categories: ["Education", "Architecture"],
+    categories: ["Education","Architecture"],
   },
   {
     id: "gen-242",
@@ -543,7 +551,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Thân yêu.",
     exampleEn: "My dear friend.",
     exampleVi: "Người bạn thân yêu của tôi.",
-    categories: ["General", "Emotions"],
+    categories: ["General","Emotions"],
   },
   {
     id: "gen-4880",
@@ -555,7 +563,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Rất nhiều/Hết sức yêu mến/Với giá đắt.",
     exampleEn: "Love him dearly.",
     exampleVi: "Yêu anh ấy hết mực.",
-    categories: ["Social", "General", "Economics"],
+    categories: ["Social","General","Economics"],
   },
   {
     id: "gen-4881",
@@ -567,7 +575,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Sự yêu quý/Sự đắt đỏ.",
     exampleEn: "The dearness of life.",
     exampleVi: "Sự đắt đỏ của cuộc sống.",
-    categories: ["General", "Economics"],
+    categories: ["General","Economics"],
   },
   {
     id: "gen-4882",
@@ -579,7 +587,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Sự khan hiếm/Sự thiếu thốn.",
     exampleEn: "A dearth of information.",
     exampleVi: "Sự thiếu hụt thông tin.",
-    categories: ["General", "Economics", "Nature"],
+    categories: ["General","Economics","Nature"],
   },
   {
     id: "gen-4883",
@@ -606,18 +614,6 @@ export const D2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-4891",
-    word: "Death's-head",
-    slug: "deaths-head",
-    phonetic: "/ˈdeθs.hed/",
-    partOfSpeech: "noun",
-    meaningEn: "A human skull as a symbol of mortality.",
-    meaningVi: "Hình đầu lâu (biểu tượng cái chết).",
-    exampleEn: "Insignia with a death's-head.",
-    exampleVi: "Phù hiệu có hình đầu lâu.",
-    categories: ["Art", "History"],
-  },
-  {
     id: "gen-4885",
     word: "Death-bed",
     slug: "death-bed",
@@ -627,7 +623,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Giường bệnh (lúc lâm chung).",
     exampleEn: "Death-bed confession.",
     exampleVi: "Lời thú tội lúc lâm chung.",
-    categories: ["General", "Daily"],
+    categories: ["General","Daily"],
   },
   {
     id: "gen-4886",
@@ -639,7 +635,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Đòn chí mạng/Cú đánh chết người.",
     exampleEn: "Deal a death-blow to the plan.",
     exampleVi: "Giáng một đòn chí mạng vào kế hoạch.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-4889",
@@ -647,12 +643,11 @@ export const D2: VocabularyWord[] = [
     slug: "death-rate",
     phonetic: "/ˈdeθ ˌreɪt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The ratio of deaths to the population of a particular area during a particular period of time.",
+    meaningEn: "The ratio of deaths to the population of a particular area during a particular period of time.",
     meaningVi: "Tỉ lệ tử vong.",
     exampleEn: "Falling death-rate.",
     exampleVi: "Tỉ lệ tử vong đang giảm.",
-    categories: ["Science", "Social", "Medical"],
+    categories: ["Science","Social","Medical"],
   },
   {
     id: "gen-4890",
@@ -664,7 +659,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Danh sách người chết/Tử số.",
     exampleEn: "The death-roll is rising.",
     exampleVi: "Danh sách người thiệt mạng đang tăng lên.",
-    categories: ["Social", "General"],
+    categories: ["Social","General"],
   },
   {
     id: "gen-4892",
@@ -676,7 +671,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Nơi cực kỳ nguy hiểm (bẫy chết người).",
     exampleEn: "That car is a death-trap.",
     exampleVi: "Chiếc xe đó là một cái bẫy chết người.",
-    categories: ["General", "Travel"],
+    categories: ["General","Travel"],
   },
   {
     id: "gen-4893",
@@ -688,7 +683,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Lệnh tử hình/Dấu chấm hết cho điều gì đó.",
     exampleEn: "Signed the death-warrant.",
     exampleVi: "Ký lệnh tử hình.",
-    categories: ["Law", "Social"],
+    categories: ["Law","Social"],
   },
   {
     id: "gen-4894",
@@ -696,12 +691,23 @@ export const D2: VocabularyWord[] = [
     slug: "death-watch",
     phonetic: "/ˈdeθ.wɒtʃ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The vigil kept beside a dying or dead person; a beetle that makes a ticking sound.",
+    meaningEn: "The vigil kept beside a dying or dead person; a beetle that makes a ticking sound.",
     meaningVi: "Sự canh xác (người chết)/Con mọt gỗ (phát tiếng tích tắc).",
     exampleEn: "A long death-watch.",
     exampleVi: "Một cuộc canh xác dài.",
-    categories: ["Social", "Animals", "Nature"],
+    categories: ["Social","Animals","Nature"],
+  },
+  {
+    id: "gen-4891",
+    word: "Death's-head",
+    slug: "deaths-head",
+    phonetic: "/ˈdeθs.hed/",
+    partOfSpeech: "noun",
+    meaningEn: "A human skull as a symbol of mortality.",
+    meaningVi: "Hình đầu lâu (biểu tượng cái chết).",
+    exampleEn: "Insignia with a death's-head.",
+    exampleVi: "Phù hiệu có hình đầu lâu.",
+    categories: ["Art","History"],
   },
   {
     id: "gen-4887",
@@ -713,7 +719,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Bất tử/Bất diệt.",
     exampleEn: "Deathless fame.",
     exampleVi: "Danh tiếng bất diệt.",
-    categories: ["General", "Philosophy"],
+    categories: ["General","Philosophy"],
   },
   {
     id: "gen-4888",
@@ -725,7 +731,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Như chết/Chết chóc/Cực kỳ.",
     exampleEn: "Deathly silence.",
     exampleVi: "Sự im lặng đáng sợ (như chết).",
-    categories: ["General", "Body"],
+    categories: ["General","Body"],
   },
   {
     id: "gen-4895",
@@ -737,7 +743,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Sự tan rã/Sự sụp đổ/Thất bại thảm hại.",
     exampleEn: "The whole system ended in a debacle.",
     exampleVi: "Toàn bộ hệ thống kết thúc trong một sự thất bại thảm hại.",
-    categories: ["General", "Business", "Politics"],
+    categories: ["General","Business","Politics"],
   },
   {
     id: "gen-4896",
@@ -749,7 +755,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Ngăn cản/Cấm đoán/Loại trừ.",
     exampleEn: "Debarred from the competition.",
     exampleVi: "Bị cấm tham gia cuộc thi.",
-    categories: ["Law", "Social", "Business"],
+    categories: ["Law","Social","Business"],
   },
   {
     id: "gen-4897",
@@ -761,7 +767,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Làm giảm giá trị/Làm thấp kém/Làm mất nhân phẩm.",
     exampleEn: "Debase the currency.",
     exampleVi: "Làm mất giá đồng tiền.",
-    categories: ["General", "Economics", "Psychology"],
+    categories: ["General","Economics","Psychology"],
   },
   {
     id: "gen-4898",
@@ -773,7 +779,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Sự làm giảm giá trị/Sự hạ thấp nhân phẩm.",
     exampleEn: "Moral debasement.",
     exampleVi: "Sự suy đồi về đạo đức.",
-    categories: ["Social", "Philosophy"],
+    categories: ["Social","Philosophy"],
   },
   {
     id: "gen-4899",
@@ -785,7 +791,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Có thể tranh luận/Gây tranh cãi.",
     exampleEn: "It is debatable whether...",
     exampleVi: "Vấn đề liệu... vẫn còn gây tranh cãi.",
-    categories: ["General", "Education"],
+    categories: ["General","Education"],
   },
   {
     id: "b2-55",
@@ -793,8 +799,7 @@ export const D2: VocabularyWord[] = [
     slug: "debate",
     phonetic: "/dɪˈbeɪt/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A formal discussion on a particular matter in a public meeting or legislative assembly.",
+    meaningEn: "A formal discussion on a particular matter in a public meeting or legislative assembly.",
     meaningVi: "Tranh luận.",
     exampleEn: "A heated debate.",
     exampleVi: "Một cuộc tranh luận nảy lửa.",
@@ -810,7 +815,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Người tranh luận/Nhà hùng biện.",
     exampleEn: "Skilled debater.",
     exampleVi: "Người tranh luận sắc sảo.",
-    categories: ["People", "Social", "Education"],
+    categories: ["People","Social","Education"],
   },
   {
     id: "gen-4902",
@@ -818,12 +823,11 @@ export const D2: VocabularyWord[] = [
     slug: "debauch",
     phonetic: "/dɪˈbɔːtʃ/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Destroy or corrupt the chastity of; a bout of excessive indulgence in sensual pleasures.",
+    meaningEn: "Destroy or corrupt the chastity of; a bout of excessive indulgence in sensual pleasures.",
     meaningVi: "Lờ đơ/Trụy lạc/Làm hư hỏng/Cuộc chè chén say sưa.",
     exampleEn: "Debauch the youth.",
     exampleVi: "Làm hư hỏng thanh niên.",
-    categories: ["Social", "Psychology"],
+    categories: ["Social","Psychology"],
   },
   {
     id: "gen-4903",
@@ -831,12 +835,11 @@ export const D2: VocabularyWord[] = [
     slug: "debauched",
     phonetic: "/dɪˈbɔːtʃt/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Indulging in or characterized by sensual pleasures to a degree perceived to be morally harmful.",
+    meaningEn: "Indulging in or characterized by sensual pleasures to a degree perceived to be morally harmful.",
     meaningVi: "Trụy lạc/Hư hỏng/Đồi bại.",
     exampleEn: "Debauched lifestyle.",
     exampleVi: "Lối sống đồi bại.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-4904",
@@ -848,7 +851,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Kẻ trụy lạc/Kẻ dâm đãng.",
     exampleEn: "Rich debauchee.",
     exampleVi: "Kẻ trụy lạc giàu có.",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-4905",
@@ -860,7 +863,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Sự trụy lạc/Sự ăn chơi đồi bại.",
     exampleEn: "Drunk with debauchery.",
     exampleVi: "Chìm đắm trong sự trụy lạc.",
-    categories: ["Social", "Psychology"],
+    categories: ["Social","Psychology"],
   },
   {
     id: "c2-14",
@@ -884,7 +887,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Sự suy nhược/Sự yếu đuối.",
     exampleEn: "General debility.",
     exampleVi: "Sự suy nhược cơ thể nói chung.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-4908",
@@ -892,12 +895,11 @@ export const D2: VocabularyWord[] = [
     slug: "debit",
     phonetic: "/ˈdeb.ɪt/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "An entry recording an amount owed; remove an amount of money from an account.",
+    meaningEn: "An entry recording an amount owed; remove an amount of money from an account.",
     meaningVi: "Ghi nợ/Sự ghi nợ/Khoản nợ.",
     exampleEn: "Debit card.",
     exampleVi: "Thẻ ghi nợ.",
-    categories: ["Business", "Economics", "Daily"],
+    categories: ["Business","Economics","Daily"],
   },
   {
     id: "gen-4909",
@@ -909,7 +911,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Lịch thiệp/Hào hoa/Vui vẻ.",
     exampleEn: "Debonair gentleman.",
     exampleVi: "Quý ông lịch lãm.",
-    categories: ["Body", "People", "Social"],
+    categories: ["Body","People","Social"],
   },
   {
     id: "gen-4910",
@@ -921,7 +923,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Đổ ra (sông)/Đi ra chỗ rộng.",
     exampleEn: "The troops debouched onto the plain.",
     exampleVi: "Đoàn quân tiến ra đồng bằng.",
-    categories: ["Nature", "General", "Engineering"],
+    categories: ["Nature","General","Engineering"],
   },
   {
     id: "gen-4911",
@@ -933,7 +935,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Mảnh vụn/Mảnh vỡ/Xác tàu xe/Đống đổ nát.",
     exampleEn: "Space debris.",
     exampleVi: "Rác vũ trụ.",
-    categories: ["General", "Nature", "Engineering"],
+    categories: ["General","Nature","Engineering"],
   },
   {
     id: "gen-245",
@@ -945,7 +947,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Nợ.",
     exampleEn: "He has a lot of debt.",
     exampleVi: "Anh ấy có nhiều nợ.",
-    categories: ["Finance", "Business"],
+    categories: ["Finance","Business"],
   },
   {
     id: "gen-4913",
@@ -957,7 +959,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Con nợ/Người mắc nợ.",
     exampleEn: "Debtor nation.",
     exampleVi: "Quốc gia mắc nợ.",
-    categories: ["People", "Business", "Economics"],
+    categories: ["People","Business","Economics"],
   },
   {
     id: "gen-4914",
@@ -965,12 +967,11 @@ export const D2: VocabularyWord[] = [
     slug: "debut",
     phonetic: "/ˈdeɪ.bju/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A person's first appearance or performance in a particular capacity or role.",
+    meaningEn: "A person's first appearance or performance in a particular capacity or role.",
     meaningVi: "Cuộc ra mắt/Sự ra mắt lần đầu.",
     exampleEn: "Debut album.",
     exampleVi: "An-bum đầu tay.",
-    categories: ["Art", "Social", "Business"],
+    categories: ["Art","Social","Business"],
   },
   {
     id: "gen-4915",
@@ -978,12 +979,11 @@ export const D2: VocabularyWord[] = [
     slug: "debutante",
     phonetic: "/ˈdeb.ju.tɑːnt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An upper-class young woman making her first appearance in fashionable society.",
+    meaningEn: "An upper-class young woman making her first appearance in fashionable society.",
     meaningVi: "Thiếu nữ quý tộc mới ra mắt xã hội.",
     exampleEn: "Debutante ball.",
     exampleVi: "Dạ hội ra mắt của các thiếu nữ.",
-    categories: ["People", "Social", "History"],
+    categories: ["People","Social","History"],
   },
   {
     id: "gen-246",
@@ -1003,12 +1003,11 @@ export const D2: VocabularyWord[] = [
     slug: "decadence",
     phonetic: "/ˈdek.ə.dəns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Moral or cultural decline as characterized by excessive indulgence in pleasure or luxury.",
+    meaningEn: "Moral or cultural decline as characterized by excessive indulgence in pleasure or luxury.",
     meaningVi: "Sự suy đồi/Sự đồi trụy.",
     exampleEn: "Cultural decadence.",
     exampleVi: "Sự suy đồi về văn hóa.",
-    categories: ["Social", "History", "Psychology"],
+    categories: ["Social","History","Psychology"],
   },
   {
     id: "gen-4918",
@@ -1016,12 +1015,11 @@ export const D2: VocabularyWord[] = [
     slug: "decadent",
     phonetic: "/ˈdek.ə.dənt/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "Characterized by or reflecting a state of moral or cultural decline.",
+    meaningEn: "Characterized by or reflecting a state of moral or cultural decline.",
     meaningVi: "Suy đồi/Đồi trụy.",
     exampleEn: "Decadent dessert.",
     exampleVi: "Món tráng miệng cực kỳ xa xỉ/ngon (nghĩa bóng).",
-    categories: ["Social", "General"],
+    categories: ["Social","General"],
   },
   {
     id: "gen-4919",
@@ -1053,12 +1051,11 @@ export const D2: VocabularyWord[] = [
     slug: "decalcomania",
     phonetic: "/dəˌkæl.kəˈmeɪ.ni.ə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The process of transferring designs from specially prepared paper to glass or porcelain.",
+    meaningEn: "The process of transferring designs from specially prepared paper to glass or porcelain.",
     meaningVi: "Nghệ thuật in hình lên kính/sứ.",
     exampleEn: "Using decalcomania.",
     exampleVi: "Sử dụng kỹ thuật in decal.",
-    categories: ["Art", "Engineering"],
+    categories: ["Art","Engineering"],
   },
   {
     id: "gen-4921",
@@ -1070,7 +1067,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Mười điều răn (trong Kinh Thánh).",
     exampleEn: "Biblical decalogue.",
     exampleVi: "Mười điều răn trong Kinh Thánh.",
-    categories: ["Religion", "History"],
+    categories: ["Religion","History"],
   },
   {
     id: "gen-4923",
@@ -1078,12 +1075,11 @@ export const D2: VocabularyWord[] = [
     slug: "decamp",
     phonetic: "/dɪˈkæmp/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Depart suddenly or secretly, especially to avoid debt or punishment.",
+    meaningEn: "Depart suddenly or secretly, especially to avoid debt or punishment.",
     meaningVi: "Nhổ trại/Chuồn/Bỏ trốn.",
     exampleEn: "Decamp without paying.",
     exampleVi: "Bỏ trốn mà không trả tiền.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-4924",
@@ -1107,7 +1103,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Thuộc về trưởng khoa/mục sư chính.",
     exampleEn: "Decanal duties.",
     exampleVi: "Nhiệm vụ của cấp trưởng khoa.",
-    categories: ["Education", "Social"],
+    categories: ["Education","Social"],
   },
   {
     id: "gen-4926",
@@ -1115,12 +1111,11 @@ export const D2: VocabularyWord[] = [
     slug: "decant",
     phonetic: "/dɪˈkænt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Gradually pour (liquid, typically wine or a solution) from one container into another.",
+    meaningEn: "Gradually pour (liquid, typically wine or a solution) from one container into another.",
     meaningVi: "Chắt ra/Gạn ra/Rót rượu.",
     exampleEn: "Decant the wine.",
     exampleVi: "Gạn rượu ra bình.",
-    categories: ["General", "Food & Drink", "Science"],
+    categories: ["General","Food & Drink","Science"],
   },
   {
     id: "gen-4927",
@@ -1128,12 +1123,11 @@ export const D2: VocabularyWord[] = [
     slug: "decanter",
     phonetic: "/dɪˈkæn.t̬ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A stoppered glass container into which wine or spirit is poured.",
+    meaningEn: "A stoppered glass container into which wine or spirit is poured.",
     meaningVi: "Bình đựng rượu (bằng thủy tinh có nút).",
     exampleEn: "Antique crystal decanter.",
     exampleVi: "Bình đựng rượu cổ bằng pha lê.",
-    categories: ["Daily", "Home", "Food & Drink"],
+    categories: ["Daily","Home","Food & Drink"],
   },
   {
     id: "gen-4828",
@@ -1145,7 +1139,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Chặt đầu/Trảm thủ.",
     exampleEn: "Decapitated body.",
     exampleVi: "Cái xác bị chặt mất đầu.",
-    categories: ["General", "History", "Medical"],
+    categories: ["General","History","Medical"],
   },
   {
     id: "gen-4929",
@@ -1157,7 +1151,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Sự chặt đầu.",
     exampleEn: "Public decapitation.",
     exampleVi: "Hình phạt chặt đầu công khai.",
-    categories: ["History", "Law"],
+    categories: ["History","Law"],
   },
   {
     id: "gen-4930",
@@ -1169,7 +1163,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Động vật mười chân (tôm, cua).",
     exampleEn: "Lobster is a decapod.",
     exampleVi: "Tôm hùm là loại động vật mười chân.",
-    categories: ["Animals", "Science"],
+    categories: ["Animals","Science"],
   },
   {
     id: "gen-4931",
@@ -1181,7 +1175,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Sự khử các-bon.",
     exampleEn: "Global decarbonization effort.",
     exampleVi: "Nỗ lực khử các-bon toàn cầu.",
-    categories: ["Science", "Engineering", "Nature"],
+    categories: ["Science","Engineering","Nature"],
   },
   {
     id: "gen-4932",
@@ -1193,7 +1187,7 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Khử các-bon.",
     exampleEn: "Decarbonize the economy.",
     exampleVi: "Khử các-bon trong nền kinh tế.",
-    categories: ["Science", "Nature", "Economics"],
+    categories: ["Science","Nature","Economics"],
   },
   {
     id: "gen-4933",
@@ -1205,31 +1199,6 @@ export const D2: VocabularyWord[] = [
     meaningVi: "Câu thơ mười âm tiết.",
     exampleEn: "Decasyllabic verse.",
     exampleVi: "Thơ mười âm tiết.",
-    categories: ["Art", "Education"],
-  },
-  {
-    id: "gen-4934",
-    word: "Decay",
-    slug: "decay",
-    phonetic: "/dɪˈkeɪ/",
-    partOfSpeech: "verb/noun",
-    meaningEn:
-      "(of organic matter) rot or decompose through the action of bacteria and fungi.",
-    meaningVi: "Sâu (răng)/Héo úa/Suy tàn/Sự thối rữa/Sự phân rã.",
-    exampleEn: "Tooth decay.",
-    exampleVi: "Sâu răng.",
-    categories: ["General", "Science", "Nature", "Medical"],
-  },
-  {
-    id: "gen-4935",
-    word: "Decease",
-    slug: "decease",
-    phonetic: "/dɪˈsiːs/",
-    partOfSpeech: "noun/verb",
-    meaningEn: "A person's death.",
-    meaningVi: "Sự qua đời/Cái chết/Băng hà.",
-    exampleEn: "On his decease.",
-    exampleVi: "Khi ông ấy qua đời.",
-    categories: ["General", "Social"],
-  },
+    categories: ["Art","Education"],
+  }
 ];

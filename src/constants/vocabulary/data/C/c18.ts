@@ -2,17 +2,28 @@ import { VocabularyWord } from "../../types";
 
 export const C18: VocabularyWord[] = [
   {
+    id: "gen-204",
+    word: "Crazy",
+    slug: "crazy",
+    phonetic: "/ˈkreɪ.zi/",
+    partOfSpeech: "adjective",
+    meaningEn: "Mad, insane.",
+    meaningVi: "Điên.",
+    exampleEn: "That's a crazy idea!",
+    exampleVi: "Đó là một ý tưởng điên rồ!",
+    categories: ["General"],
+  },
+  {
     id: "gen-4383",
     word: "Crazy-quilt",
     slug: "crazy-quilt",
     phonetic: "/ˈkreɪ.ziˌkwɪlt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A patchwork quilt made of pieces of varied size, shape, and color.",
+    meaningEn: "A patchwork quilt made of pieces of varied size, shape, and color.",
     meaningVi: "Chăn ghép (làm từ nhiều mảnh vải lộn xộn).",
     exampleEn: "Colorful crazy-quilt.",
     exampleVi: "Chiếc chăn ghép đầy màu sắc.",
-    categories: ["Daily", "Art", "Home"],
+    categories: ["Daily","Art","Home"],
   },
   {
     id: "gen-4384",
@@ -48,7 +59,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Cót két/Cũ kỹ/Yếu đuối.",
     exampleEn: "Creaky joints.",
     exampleVi: "Khớp xương kêu lục cục.",
-    categories: ["General", "Medical"],
+    categories: ["General","Medical"],
   },
   {
     id: "gen-4387",
@@ -56,12 +67,11 @@ export const C18: VocabularyWord[] = [
     slug: "cream",
     phonetic: "/kriːm/",
     partOfSpeech: "noun/verb/adjective",
-    meaningEn:
-      "The thick white or pale yellow fatty liquid which rises to the top when milk is left; the very best of a group.",
+    meaningEn: "The thick white or pale yellow fatty liquid which rises to the top when milk is left; the very best of a group.",
     meaningVi: "Kem/Váng sữa/Tinh hoa/Màu kem.",
     exampleEn: "Ice cream.",
     exampleVi: "Kem lạnh.",
-    categories: ["Food & Drink", "Daily", "Body"],
+    categories: ["Food & Drink","Daily","Body"],
   },
   {
     id: "gen-4388",
@@ -69,12 +79,11 @@ export const C18: VocabularyWord[] = [
     slug: "creamer",
     phonetic: "/ˈkriː.mɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Shortening for non-dairy creamer; a small jug for holding cream.",
+    meaningEn: "Shortening for non-dairy creamer; a small jug for holding cream.",
     meaningVi: "Bột kem (pha cà phê)/Bình đựng kem.",
     exampleEn: "Coffee creamer.",
     exampleVi: "Bột kem pha cà phê.",
-    categories: ["Daily", "Food & Drink"],
+    categories: ["Daily","Food & Drink"],
   },
   {
     id: "gen-4389",
@@ -82,12 +91,11 @@ export const C18: VocabularyWord[] = [
     slug: "creamery",
     phonetic: "/ˈkriː.mɚ.i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An establishment where butter and cheese are made or where milk and cream are sold.",
+    meaningEn: "An establishment where butter and cheese are made or where milk and cream are sold.",
     meaningVi: "Nhà máy sản xuất bơ sữa/Cửa hàng bán sản phẩm sữa.",
     exampleEn: "Local creamery.",
     exampleVi: "Cửa hàng sản phẩm sữa địa phương.",
-    categories: ["Business", "Food & Drink"],
+    categories: ["Business","Food & Drink"],
   },
   {
     id: "gen-4390",
@@ -111,7 +119,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Mịn màng/Béo ngậy/Có màu kem.",
     exampleEn: "Creamy texture.",
     exampleVi: "Kết cấu mịn màng.",
-    categories: ["Food & Drink", "Body", "General"],
+    categories: ["Food & Drink","Body","General"],
   },
   {
     id: "gen-4392",
@@ -119,12 +127,11 @@ export const C18: VocabularyWord[] = [
     slug: "crease",
     phonetic: "/kriːs/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A line or ridge produced on paper or cloth by folding, pressing, or crushing it.",
+    meaningEn: "A line or ridge produced on paper or cloth by folding, pressing, or crushing it.",
     meaningVi: "Nếp gấp/Nếp nhăn/Đường kẻ (thể thao).",
     exampleEn: "Iron out the creases.",
     exampleVi: "Ủi phẳng các nếp nhăn.",
-    categories: ["Daily", "Body", "General"],
+    categories: ["Daily","Body","General"],
   },
   {
     id: "gen-205",
@@ -148,7 +155,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Sự tạo thành/Tác phẩm/Sự sáng tạo.",
     exampleEn: "Artistic creation.",
     exampleVi: "Sáng tạo nghệ thuật.",
-    categories: ["General", "Art", "Science"],
+    categories: ["General","Art","Science"],
   },
   {
     id: "gen-206",
@@ -160,7 +167,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Sáng tạo.",
     exampleEn: "She is very creative.",
     exampleVi: "Cô ấy rất sáng tạo.",
-    categories: ["Art", "General"],
+    categories: ["Art","General"],
   },
   {
     id: "b1-179",
@@ -168,8 +175,7 @@ export const C18: VocabularyWord[] = [
     slug: "creativity",
     phonetic: "/ˌkriː.eɪˈtɪv.ə.ti/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The use of the imagination or original ideas, especially in the production of an artistic work.",
+    meaningEn: "The use of the imagination or original ideas, especially in the production of an artistic work.",
     meaningVi: "Sự sáng tạo.",
     exampleEn: "Enhance creativity.",
     exampleVi: "Tăng cường sự sáng tạo.",
@@ -185,7 +191,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Người sáng tạo/Đấng tạo hóa.",
     exampleEn: "Content creator.",
     exampleVi: "Người sáng tạo nội dung.",
-    categories: ["People", "Business", "Religion"],
+    categories: ["People","Business","Religion"],
   },
   {
     id: "gen-4397",
@@ -197,7 +203,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Sinh vật/Loài vật/Kẻ dưới quyền (nghĩa rộng).",
     exampleEn: "Sea creatures.",
     exampleVi: "Các sinh vật biển.",
-    categories: ["Animals", "General", "Science"],
+    categories: ["Animals","General","Science"],
   },
   {
     id: "gen-4398",
@@ -209,7 +215,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Lòng tin/Sự tin tưởng.",
     exampleEn: "Give credence to.",
     exampleVi: "Tin vào điều gì đó.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-4399",
@@ -217,12 +223,11 @@ export const C18: VocabularyWord[] = [
     slug: "credentials",
     phonetic: "/krɪˈden.ʃəlz/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A qualification, achievement, personal quality, or aspect of a person's background, typically when used to indicate that they are suitable for something.",
+    meaningEn: "A qualification, achievement, personal quality, or aspect of a person's background, typically when used to indicate that they are suitable for something.",
     meaningVi: "Chứng chỉ/Chứng nhận/Giấy giới thiệu.",
     exampleEn: "Check credentials.",
     exampleVi: "Kiểm tra bằng cấp/chứng chỉ.",
-    categories: ["Education", "Business", "Politics"],
+    categories: ["Education","Business","Politics"],
   },
   {
     id: "gen-4400",
@@ -234,7 +239,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Sự uy tín/Sự đáng tin.",
     exampleEn: "Establish credibility.",
     exampleVi: "Xây dựng uy tín.",
-    categories: ["Social", "Business", "Psychology"],
+    categories: ["Social","Business","Psychology"],
   },
   {
     id: "gen-4401",
@@ -246,7 +251,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Đáng tin/Có thể tin được.",
     exampleEn: "Credible witness.",
     exampleVi: "Nhân chứng đáng tin.",
-    categories: ["Social", "Law", "General"],
+    categories: ["Social","Law","General"],
   },
   {
     id: "gen-4402",
@@ -258,7 +263,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Một cách đáng tin cậy.",
     exampleEn: "Credibly informed.",
     exampleVi: "Được thông báo một cách đáng tin cậy.",
-    categories: ["Social", "General"],
+    categories: ["Social","General"],
   },
   {
     id: "c1-49",
@@ -266,8 +271,7 @@ export const C18: VocabularyWord[] = [
     slug: "credit",
     phonetic: "/ˈkred.ɪt/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "The ability of a customer to obtain goods or services before payment.",
+    meaningEn: "The ability of a customer to obtain goods or services before payment.",
     meaningVi: "Tín dụng, tín nhiệm.",
     exampleEn: "I bought it on credit.",
     exampleVi: "Tôi đã mua nó bằng hình thức trả góp (tín dụng).",
@@ -279,8 +283,7 @@ export const C18: VocabularyWord[] = [
     slug: "credit-card",
     phonetic: "/ˈkred.ɪt kɑːrd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A small plastic card issued by a bank or other financial organization.",
+    meaningEn: "A small plastic card issued by a bank or other financial organization.",
     meaningVi: "Thẻ tín dụng.",
     exampleEn: "Can I pay with a credit card?",
     exampleVi: "Tôi có thể thanh toán bằng thẻ tín dụng không?",
@@ -292,12 +295,11 @@ export const C18: VocabularyWord[] = [
     slug: "creditable",
     phonetic: "/ˈkred.ɪ.t̬ə.bəl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of an action, effort, or person) deserving public acknowledgment and praise but not necessarily outstanding or successful.",
+    meaningEn: "(of an action, effort, or person) deserving public acknowledgment and praise but not necessarily outstanding or successful.",
     meaningVi: "Vẻ vang/Đáng khen ngợi.",
     exampleEn: "Creditable performance.",
     exampleVi: "Màn trình diễn đáng khen ngợi.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-4405",
@@ -321,7 +323,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Chủ nợ/Bên cho vay.",
     exampleEn: "Principal creditor.",
     exampleVi: "Chủ nợ chính.",
-    categories: ["People", "Business", "Law"],
+    categories: ["People","Business","Law"],
   },
   {
     id: "gen-4407",
@@ -329,12 +331,11 @@ export const C18: VocabularyWord[] = [
     slug: "credulity",
     phonetic: "/krəˈduː.lə.t̬i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A tendency to be too ready to believe that something is real or true.",
+    meaningEn: "A tendency to be too ready to believe that something is real or true.",
     meaningVi: "Sự cả tin/Tính dễ tin.",
     exampleEn: "Standard of credulity.",
     exampleVi: "Mức độ cả tin.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-4408",
@@ -346,7 +347,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Cả tin/Dễ tin.",
     exampleEn: "Credulous public.",
     exampleVi: "Thế hệ công chúng dễ tin.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-4409",
@@ -370,7 +371,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Tín ngưỡng/Cương lĩnh/Niềm tin.",
     exampleEn: "Political creed.",
     exampleVi: "Cương lĩnh chính trị.",
-    categories: ["Religion", "Philosophy", "Social"],
+    categories: ["Religion","Philosophy","Social"],
   },
   {
     id: "gen-4411",
@@ -382,7 +383,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Nhánh sông/Con lạch.",
     exampleEn: "Deep creek.",
     exampleVi: "Con lạch sâu.",
-    categories: ["Geography", "Nature"],
+    categories: ["Geography","Nature"],
   },
   {
     id: "gen-4412",
@@ -394,7 +395,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Giỏ đựng cá (bằng mây tre).",
     exampleEn: "Empty creel.",
     exampleVi: "Giỏ cá trống không.",
-    categories: ["Animals", "Daily", "General"],
+    categories: ["Animals","Daily","General"],
   },
   {
     id: "gen-4413",
@@ -402,12 +403,11 @@ export const C18: VocabularyWord[] = [
     slug: "creep",
     phonetic: "/kriːp/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Move slowly and carefully in order to avoid being heard or noticed.",
+    meaningEn: "Move slowly and carefully in order to avoid being heard or noticed.",
     meaningVi: "Đi rón rén/Bò/Trườn/Kẻ đáng ghét.",
     exampleEn: "Creep up on him.",
     exampleVi: "Lẻn tới chỗ anh ta.",
-    categories: ["General", "Nature", "Psychology"],
+    categories: ["General","Nature","Psychology"],
   },
   {
     id: "gen-4414",
@@ -419,7 +419,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Cây leo/Người bò/Con vật bò sát.",
     exampleEn: "Green creeper.",
     exampleVi: "Cây leo xanh.",
-    categories: ["Nature", "Plants", "Animals"],
+    categories: ["Nature","Plants","Animals"],
   },
   {
     id: "gen-4415",
@@ -431,7 +431,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Một cách ghê rợn/rợn tóc gáy.",
     exampleEn: "Staring creepily.",
     exampleVi: "Nhìn chằm chằm một cách ghê rợn.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-4416",
@@ -443,7 +443,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Sự ghê rợn/Sự rùng mình.",
     exampleEn: "Feel the creepiness.",
     exampleVi: "Cảm nhận thấy sự ghê rợn.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-4417",
@@ -455,7 +455,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Ghê rợn/Rùng mình/Kỳ quái.",
     exampleEn: "Creepy house.",
     exampleVi: "Ngôi nhà rùng rợn.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-4418",
@@ -467,7 +467,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Hỏa táng.",
     exampleEn: "Request to be cremated.",
     exampleVi: "Yêu cầu được hỏa táng.",
-    categories: ["Social", "Religion"],
+    categories: ["Social","Religion"],
   },
   {
     id: "gen-4419",
@@ -479,7 +479,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Sự hỏa táng.",
     exampleEn: "Cremation ceremony.",
     exampleVi: "Lễ hỏa táng.",
-    categories: ["Social", "Religion"],
+    categories: ["Social","Religion"],
   },
   {
     id: "gen-4420",
@@ -491,7 +491,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Lò hỏa táng (crematorium).",
     exampleEn: "Modern crematory.",
     exampleVi: "Lò hỏa táng hiện đại.",
-    categories: ["Social", "Religion"],
+    categories: ["Social","Religion"],
   },
   {
     id: "gen-4421",
@@ -503,7 +503,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Hình răng cưa tròn (ở mép lá).",
     exampleEn: "Crenated leaf.",
     exampleVi: "Lá có mép hình răng cưa tròn.",
-    categories: ["Science", "Nature"],
+    categories: ["Science","Nature"],
   },
   {
     id: "gen-4422",
@@ -515,7 +515,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Xây lỗ châu mai/Xây tường có răng cưa.",
     exampleEn: "Crenellated tower.",
     exampleVi: "Ngọn tháp có lỗ châu mai.",
-    categories: ["Architecture", "History"],
+    categories: ["Architecture","History"],
   },
   {
     id: "gen-4423",
@@ -523,12 +523,11 @@ export const C18: VocabularyWord[] = [
     slug: "creole",
     phonetic: "/ˈkriː.oʊl/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A person of mixed European and black descent, especially in the Caribbean; a mother tongue formed from the contact of two languages.",
+    meaningEn: "A person of mixed European and black descent, especially in the Caribbean; a mother tongue formed from the contact of two languages.",
     meaningVi: "Người lai (Trung và Nam Mỹ)/Tiếng bồi.",
     exampleEn: "Louisiana Creole.",
     exampleVi: "Người Creole ở Louisiana.",
-    categories: ["People", "Social", "Education"],
+    categories: ["People","Social","Education"],
   },
   {
     id: "gen-4424",
@@ -536,12 +535,11 @@ export const C18: VocabularyWord[] = [
     slug: "creosote",
     phonetic: "/ˈkriː.ə.soʊt/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A dark brown oil distilled from coal tar, used as a wood preservative.",
+    meaningEn: "A dark brown oil distilled from coal tar, used as a wood preservative.",
     meaningVi: "Hợp chất hắc ín (dùng để bảo quản gỗ).",
     exampleEn: "Smell of creosote.",
     exampleVi: "Mùi creosote.",
-    categories: ["Science", "Daily", "General"],
+    categories: ["Science","Daily","General"],
   },
   {
     id: "gen-4425",
@@ -553,7 +551,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Vải kếp/Bánh kếp.",
     exampleEn: "French crepe.",
     exampleVi: "Bánh kếp Pháp.",
-    categories: ["Food & Drink", "Body", "Daily"],
+    categories: ["Food & Drink","Body","Daily"],
   },
   {
     id: "gen-4426",
@@ -565,7 +563,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Nổ lách tách/Kêu lạo xạo.",
     exampleEn: "Crepitating sound.",
     exampleVi: "Âm thanh nổ lách tách.",
-    categories: ["General", "Medical"],
+    categories: ["General","Medical"],
   },
   {
     id: "gen-4427",
@@ -577,7 +575,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Tiếng lạo xạo/Tiếng lách tách.",
     exampleEn: "Lung crepitation.",
     exampleVi: "Tiếng lạo xạo trong phổi.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-4428",
@@ -597,13 +595,11 @@ export const C18: VocabularyWord[] = [
     slug: "crepuscular",
     phonetic: "/krɪˈpʌs.kjə.lɚ/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to twilight; (of animals) appearing or active at twilight.",
-    meaningVi:
-      "Thuộc về lúc hoàng hôn/Mờ ảo/Sinh vật hoạt động lúc bình minh/hoàng hôn.",
+    meaningEn: "Relating to twilight; (of animals) appearing or active at twilight.",
+    meaningVi: "Thuộc về lúc hoàng hôn/Mờ ảo/Sinh vật hoạt động lúc bình minh/hoàng hôn.",
     exampleEn: "Crepuscular rays.",
     exampleVi: "Những tia sáng hoàng hôn.",
-    categories: ["Science", "Nature", "Animals"],
+    categories: ["Science","Nature","Animals"],
   },
   {
     id: "gen-4430",
@@ -615,7 +611,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Cao trào/Mạnh dần lên (âm nhạc).",
     exampleEn: "Reached a crescendo.",
     exampleVi: "Đã đạt tới cao trào.",
-    categories: ["Music", "General"],
+    categories: ["Music","General"],
   },
   {
     id: "gen-4431",
@@ -627,7 +623,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Hình lưỡi liềm/Trăng khuyết.",
     exampleEn: "Crescent moon.",
     exampleVi: "Trăng lưỡi liềm.",
-    categories: ["Science", "Space", "General"],
+    categories: ["Science","Space","General"],
   },
   {
     id: "gen-4432",
@@ -635,12 +631,11 @@ export const C18: VocabularyWord[] = [
     slug: "cress",
     phonetic: "/kres/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A plant of the cabbage family, typically having small hot-tasting leaves.",
+    meaningEn: "A plant of the cabbage family, typically having small hot-tasting leaves.",
     meaningVi: "Cải xoong/Các loại cây thuộc họ cải làm rau.",
     exampleEn: "Water cress.",
     exampleVi: "Cải xoong.",
-    categories: ["Nature", "Food & Drink"],
+    categories: ["Nature","Food & Drink"],
   },
   {
     id: "gen-4433",
@@ -648,12 +643,11 @@ export const C18: VocabularyWord[] = [
     slug: "crest",
     phonetic: "/krest/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "The top of a mountain or hill; a comb or tuft of feathers or fur on the head of a bird or mammal.",
+    meaningEn: "The top of a mountain or hill; a comb or tuft of feathers or fur on the head of a bird or mammal.",
     meaningVi: "Đỉnh/Nóc/Mào/Gia huy/Huy hiệu.",
     exampleEn: "Crest of a wave.",
     exampleVi: "Ngọn sóng.",
-    categories: ["Geography", "Animals", "Social", "History"],
+    categories: ["Geography","Animals","Social","History"],
   },
   {
     id: "gen-4435",
@@ -677,7 +671,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Có mào/Có huy hiệu/Có đỉnh.",
     exampleEn: "Crested ibis.",
     exampleVi: "Chim cò quăm có mào.",
-    categories: ["Animals", "General"],
+    categories: ["Animals","General"],
   },
   {
     id: "gen-4436",
@@ -689,7 +683,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Kỷ Phấn trắng.",
     exampleEn: "Cretaceous dinosaurs.",
     exampleVi: "Các loài khủng long kỷ Phấn trắng.",
-    categories: ["Science", "History", "Nature"],
+    categories: ["Science","History","Nature"],
   },
   {
     id: "gen-4437",
@@ -697,12 +691,11 @@ export const C18: VocabularyWord[] = [
     slug: "cretin",
     phonetic: "/ˈkriː.tɪn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A stupid person (offensive); a person affected with cretinism (medical).",
+    meaningEn: "A stupid person (offensive); a person affected with cretinism (medical).",
     meaningVi: "Kẻ đần độn (xúc phạm)/Bệnh đần.",
     exampleEn: "Don't be a cretin.",
     exampleVi: "Đừng có đần độn thế.",
-    categories: ["People", "Psychology", "Medical"],
+    categories: ["People","Psychology","Medical"],
   },
   {
     id: "gen-4438",
@@ -710,12 +703,11 @@ export const C18: VocabularyWord[] = [
     slug: "cretinism",
     phonetic: "/ˈkriː.tɪ.nɪz.əm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A condition of severely stunted physical and mental growth due to untreated congenital deficiency of thyroid hormones.",
+    meaningEn: "A condition of severely stunted physical and mental growth due to untreated congenital deficiency of thyroid hormones.",
     meaningVi: "Bệnh đần do thiếu hụt hormone tuyến giáp.",
     exampleEn: "Medical cretinism.",
     exampleVi: "Bệnh đần trong y khoa.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-4439",
@@ -723,12 +715,11 @@ export const C18: VocabularyWord[] = [
     slug: "cretonne",
     phonetic: "/kreˈtɑːn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A heavy cotton fabric, typically with a floral pattern printed on one or both sides.",
+    meaningEn: "A heavy cotton fabric, typically with a floral pattern printed on one or both sides.",
     meaningVi: "Vải Creton (vải bông dày in hoa).",
     exampleEn: "Cretonne curtains.",
     exampleVi: "Rèm bằng vải creton.",
-    categories: ["Body", "Home", "Art"],
+    categories: ["Body","Home","Art"],
   },
   {
     id: "gen-4440",
@@ -740,7 +731,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Sprong băng/Vết nứt sâu (trong băng).",
     exampleEn: "Deep crevasse.",
     exampleVi: "Sprong băng sâu.",
-    categories: ["Geography", "Nature"],
+    categories: ["Geography","Nature"],
   },
   {
     id: "gen-4441",
@@ -752,7 +743,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Kẽ hở/Kẽ nứt (đá, tường).",
     exampleEn: "Rock crevice.",
     exampleVi: "Kẽ nứt đá.",
-    categories: ["Geography", "Nature", "General"],
+    categories: ["Geography","Nature","General"],
   },
   {
     id: "gen-4442",
@@ -760,12 +751,11 @@ export const C18: VocabularyWord[] = [
     slug: "crew",
     phonetic: "/kruː/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A group of people who work on and operate a ship, aircraft, etc.",
+    meaningEn: "A group of people who work on and operate a ship, aircraft, etc.",
     meaningVi: "Thủy thủ đoàn/Phi hành đoàn/Đội ngũ công nhân.",
     exampleEn: "Flight crew.",
     exampleVi: "Phi hành đoàn.",
-    categories: ["People", "Business", "Travel"],
+    categories: ["People","Business","Travel"],
   },
   {
     id: "gen-4443",
@@ -773,12 +763,11 @@ export const C18: VocabularyWord[] = [
     slug: "crewel",
     phonetic: "/ˈkruː.əl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A thin yarn of two threads, typically of wool, used for embroidery.",
+    meaningEn: "A thin yarn of two threads, typically of wool, used for embroidery.",
     meaningVi: "Sợi len thêu.",
     exampleEn: "Crewel embroidery.",
     exampleVi: "Nghệ thuật thêu bằng sợi len.",
-    categories: ["Art", "Daily"],
+    categories: ["Art","Daily"],
   },
   {
     id: "gen-4444",
@@ -790,7 +779,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Cái cũi/Nhà nhỏ/Máng cỏ/Sao chép (quay cóp).",
     exampleEn: "Crib from a book.",
     exampleVi: "Chép trộm từ một cuốn sách.",
-    categories: ["Daily", "Home", "Education"],
+    categories: ["Daily","Home","Education"],
   },
   {
     id: "gen-4445",
@@ -802,7 +791,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Trò chơi bài Cribbage.",
     exampleEn: "Playing cribbage.",
     exampleVi: "Chơi bài cribbage.",
-    categories: ["Daily", "Social"],
+    categories: ["Daily","Social"],
   },
   {
     id: "gen-4446",
@@ -814,7 +803,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Chứng vẹo cổ (do đau cơ)/Cứng cơ.",
     exampleEn: "Crick in the neck.",
     exampleVi: "Đau vẹo cổ.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-4447",
@@ -822,12 +811,11 @@ export const C18: VocabularyWord[] = [
     slug: "cricket",
     phonetic: "/ˈkrɪk.ɪt/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "An insect related to the grasshopper; an open-air game played with a bat and ball.",
+    meaningEn: "An insect related to the grasshopper; an open-air game played with a bat and ball.",
     meaningVi: "Con dế/Môn bóng chày Anh (Cricket).",
     exampleEn: "Chirping cricket.",
     exampleVi: "Con dế đang gáy.",
-    categories: ["Animals", "Sports", "General"],
+    categories: ["Animals","Sports","General"],
   },
   {
     id: "gen-4448",
@@ -839,7 +827,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Đã khóc/Đã kêu lên (quá khứ của cry).",
     exampleEn: "She cried for help.",
     exampleVi: "Cô ấy đã kêu cứu.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-4449",
@@ -847,12 +835,11 @@ export const C18: VocabularyWord[] = [
     slug: "crier",
     phonetic: "/ˈkraɪ.ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who cries out; an officer who makes public announcements in a court or town.",
+    meaningEn: "A person who cries out; an officer who makes public announcements in a court or town.",
     meaningVi: "Người rao tin/Người kêu khóc.",
     exampleEn: "Town crier.",
     exampleVi: "Người rao tin của thị trấn.",
-    categories: ["People", "Business", "History"],
+    categories: ["People","Business","History"],
   },
   {
     id: "gen-208",
@@ -876,7 +863,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Tội phạm/Có tính chất tội phạm.",
     exampleEn: "Criminal record.",
     exampleVi: "Tiền án tiền sự.",
-    categories: ["People", "Law", "Social"],
+    categories: ["People","Law","Social"],
   },
   {
     id: "gen-4452",
@@ -888,7 +875,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Sự phạm tội/Hành vi tội ác.",
     exampleEn: "Rise in criminality.",
     exampleVi: "Sự gia tăng tỉ lệ phạm tội.",
-    categories: ["Law", "Social"],
+    categories: ["Law","Social"],
   },
   {
     id: "gen-4453",
@@ -912,7 +899,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Nhà tội phạm học.",
     exampleEn: "A leading criminologist.",
     exampleVi: "Một nhà tội phạm học hàng đầu.",
-    categories: ["People", "Law", "Science"],
+    categories: ["People","Law","Science"],
   },
   {
     id: "gen-4455",
@@ -924,7 +911,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Tội phạm học.",
     exampleEn: "Degrees in criminology.",
     exampleVi: "Bằng cấp về tội phạm học.",
-    categories: ["Science", "Law", "Education"],
+    categories: ["Science","Law","Education"],
   },
   {
     id: "gen-4456",
@@ -936,7 +923,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Uốn nếp/Khía/Dập ghim/Làm quăn.",
     exampleEn: "Crimp the edges.",
     exampleVi: "Bấm mép (bánh).",
-    categories: ["Daily", "Engineering", "General"],
+    categories: ["Daily","Engineering","General"],
   },
   {
     id: "gen-4457",
@@ -948,7 +935,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Màu đỏ thẫm/Đỏ rực.",
     exampleEn: "Crimson sky.",
     exampleVi: "Bầu trời đỏ rực.",
-    categories: ["Body", "Nature", "General"],
+    categories: ["Body","Nature","General"],
   },
   {
     id: "gen-4458",
@@ -960,7 +947,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Co rúm lại/Khúm núm/Luồn cúi/Thấy hổ thẹn (lóng).",
     exampleEn: "Cringe with embarrassment.",
     exampleVi: "Thấy hổ thẹn phát ngượng.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-4459",
@@ -972,7 +959,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Vòng khuy dây (ở mép buồm).",
     exampleEn: "Rope cringle.",
     exampleVi: "Vòng dây thừng.",
-    categories: ["Travel", "Engineering"],
+    categories: ["Travel","Engineering"],
   },
   {
     id: "gen-4460",
@@ -984,7 +971,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Làm nhăn/Làm gợn sóng/Nếp nhăn nhỏ.",
     exampleEn: "Crinkled paper.",
     exampleVi: "Giấy bị nhăn.",
-    categories: ["General", "Body"],
+    categories: ["General","Body"],
   },
   {
     id: "gen-4461",
@@ -996,7 +983,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Có nhiều nếp nhăn/Gợn sóng.",
     exampleEn: "Crinkly hair.",
     exampleVi: "Mái tóc gợn sóng.",
-    categories: ["Body", "General"],
+    categories: ["Body","General"],
   },
   {
     id: "gen-4462",
@@ -1004,12 +991,11 @@ export const C18: VocabularyWord[] = [
     slug: "crinoid",
     phonetic: "/ˈkraɪ.nɔɪd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An echinoderm of a large class that includes the sea lilies and feather stars.",
+    meaningEn: "An echinoderm of a large class that includes the sea lilies and feather stars.",
     meaningVi: "Huệ biển (động vật da gai).",
     exampleEn: "Fossilized crinoid.",
     exampleVi: "Hóa thạch huệ biển.",
-    categories: ["Animals", "Science", "Nature"],
+    categories: ["Animals","Science","Nature"],
   },
   {
     id: "gen-4463",
@@ -1017,12 +1003,11 @@ export const C18: VocabularyWord[] = [
     slug: "crinoline",
     phonetic: "/ˈkrɪn.ə.liːn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A stiffened or hooped petticoat worn to make a long skirt stand out.",
+    meaningEn: "A stiffened or hooped petticoat worn to make a long skirt stand out.",
     meaningVi: "Khung váy phồng (thời xưa).",
     exampleEn: "Victorian crinoline.",
     exampleVi: "Khung váy phồng thời Victoria.",
-    categories: ["Body", "History"],
+    categories: ["Body","History"],
   },
   {
     id: "gen-4464",
@@ -1030,12 +1015,11 @@ export const C18: VocabularyWord[] = [
     slug: "cripple",
     phonetic: "/ˈkrɪp.əl/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A person with a physical disability, especially one that prevents them from walking or moving normally (now offensive); cause (someone) to become unable to walk or move properly.",
+    meaningEn: "A person with a physical disability, especially one that prevents them from walking or moving normally (now offensive); cause (someone) to become unable to walk or move properly.",
     meaningVi: "Người tàn tật/Làm què/Làm tê liệt/Gây thiệt hại nặng.",
     exampleEn: "Cripple the economy.",
     exampleVi: "Làm tê liệt nền kinh tế.",
-    categories: ["People", "Medical", "Business", "General"],
+    categories: ["People","Medical","Business","General"],
   },
   {
     id: "b1-180",
@@ -1055,12 +1039,11 @@ export const C18: VocabularyWord[] = [
     slug: "crisp",
     phonetic: "/krɪsp/",
     partOfSpeech: "adjective/noun/verb",
-    meaningEn:
-      "(of a substance) firm, dry, and brittle, especially in a way that is pleasant to eat.",
+    meaningEn: "(of a substance) firm, dry, and brittle, especially in a way that is pleasant to eat.",
     meaningVi: "Giòn/Khô ráo/Trong lành (không khí)/Quả quyết.",
     exampleEn: "Crisp morning air.",
     exampleVi: "Không khí buổi sáng trong lành.",
-    categories: ["Food & Drink", "Daily", "General", "Nature"],
+    categories: ["Food & Drink","Daily","General","Nature"],
   },
   {
     id: "gen-4467",
@@ -1084,7 +1067,19 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Độ giòn/Sự trong lành/Tính ngắn gọn.",
     exampleEn: "Desired crispness.",
     exampleVi: "Độ giòn mong muốn.",
-    categories: ["Food & Drink", "General"],
+    categories: ["Food & Drink","General"],
+  },
+  {
+    id: "spec-c-001",
+    word: "CRISPR-Cas9",
+    slug: "crispr-cas9",
+    phonetic: "/ˈkrɪspər kæz naɪn/",
+    partOfSpeech: "noun",
+    meaningEn: "A revolutionary gene-editing technology.",
+    meaningVi: "Công nghệ chỉnh sửa gen mang tính cách mạng.",
+    exampleEn: "Scientists use CRISPR-Cas9 for genetic research.",
+    exampleVi: "Các nhà khoa học sử dụng CRISPR-Cas9 cho nghiên cứu di truyền.",
+    categories: ["Science","Technology"],
   },
   {
     id: "gen-4469",
@@ -1108,7 +1103,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Hình chữ thập/Đường chéo nhau/Đi ngang qua lại.",
     exampleEn: "Criss-cross pattern.",
     exampleVi: "Họa tiết sọc chéo.",
-    categories: ["General", "Art"],
+    categories: ["General","Art"],
   },
   {
     id: "gen-4471",
@@ -1116,12 +1111,11 @@ export const C18: VocabularyWord[] = [
     slug: "criterion",
     phonetic: "/kraɪˈtɪr.i.ən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A principle or standard by which something may be judged or decided.",
+    meaningEn: "A principle or standard by which something may be judged or decided.",
     meaningVi: "Tiêu chuẩn/Tiêu chí.",
     exampleEn: "Success criterion.",
     exampleVi: "Tiêu chí thành công.",
-    categories: ["Education", "Business", "General"],
+    categories: ["Education","Business","General"],
   },
   {
     id: "gen-210",
@@ -1133,7 +1127,7 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Nhà phê bình.",
     exampleEn: "He is a film critic.",
     exampleVi: "Anh ấy là nhà phê bình phim.",
-    categories: ["Art", "Media"],
+    categories: ["Art","Media"],
   },
   {
     id: "gen-211",
@@ -1153,12 +1147,11 @@ export const C18: VocabularyWord[] = [
     slug: "critically",
     phonetic: "/ˈkrɪt.ɪ.kəl.i/",
     partOfSpeech: "adverb",
-    meaningEn:
-      "In a way that expresses disapproval; in a way that is of the greatest importance.",
+    meaningEn: "In a way that expresses disapproval; in a way that is of the greatest importance.",
     meaningVi: "Một cách phê bình/nghiêm trọng/then chốt.",
     exampleEn: "Critically ill.",
     exampleVi: "Bị ốm rất nặng.",
-    categories: ["General", "Medical"],
+    categories: ["General","Medical"],
   },
   {
     id: "gen-4475",
@@ -1166,12 +1159,11 @@ export const C18: VocabularyWord[] = [
     slug: "criticism",
     phonetic: "/ˈkrɪt.ɪ.sɪz.əm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The expression of disapproval of someone or something based on perceived faults or mistakes.",
+    meaningEn: "The expression of disapproval of someone or something based on perceived faults or mistakes.",
     meaningVi: "Sự chỉ trích/Sự phê bình/Lời phê bình.",
     exampleEn: "Constructive criticism.",
     exampleVi: "Sự phê bình mang tính xây dựng.",
-    categories: ["Social", "Art", "Psychology"],
+    categories: ["Social","Art","Psychology"],
   },
   {
     id: "gen-4476",
@@ -1179,12 +1171,11 @@ export const C18: VocabularyWord[] = [
     slug: "criticize",
     phonetic: "/ˈkrɪt.ɪ.saɪz/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Indicate the faults of (someone or something) in a disapproving way.",
+    meaningEn: "Indicate the faults of (someone or something) in a disapproving way.",
     meaningVi: "Chỉ trích/Phê bình/Đánh giá.",
     exampleEn: "Don't criticize others.",
     exampleVi: "Đừng chỉ trích người khác.",
-    categories: ["Social", "Psychology"],
+    categories: ["Social","Psychology"],
   },
   {
     id: "b2-51",
@@ -1192,8 +1183,7 @@ export const C18: VocabularyWord[] = [
     slug: "critique",
     phonetic: "/krɪˈtiːk/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A detailed analysis and assessment of something, especially a literary, philosophical, or political theory.",
+    meaningEn: "A detailed analysis and assessment of something, especially a literary, philosophical, or political theory.",
     meaningVi: "Bài phê bình, phê bình.",
     exampleEn: "A fair critique of the film.",
     exampleVi: "Một bài phê bình công tâm về bộ phim.",
@@ -1209,30 +1199,6 @@ export const C18: VocabularyWord[] = [
     meaningVi: "Tiếng ếch kêu/Tiếng quạ kêu/Giọng khàn khàn.",
     exampleEn: "Frog's croak.",
     exampleVi: "Tiếng ếch kêu.",
-    categories: ["Animals", "General", "Nature"],
-  },
-  {
-    id: "gen-4479",
-    word: "Croakily",
-    slug: "croakily",
-    phonetic: "/ˈkroʊ.kɪ.li/",
-    partOfSpeech: "adverb",
-    meaningEn: "In a croaky manner.",
-    meaningVi: "Với giọng khàn khàn.",
-    exampleEn: "Spoke croakily.",
-    exampleVi: "Nói với giọng khàn đặc.",
-    categories: ["General"],
-  },
-  {
-    id: "gen-4480",
-    word: "Croaky",
-    slug: "croaky",
-    phonetic: "/ˈkroʊ.ki/",
-    partOfSpeech: "adjective",
-    meaningEn: "(of a person's voice) deep and hoarse.",
-    meaningVi: "Khàn khàn.",
-    exampleEn: "A croaky throat.",
-    exampleVi: "Cổ họng bị khàn.",
-    categories: ["General", "Medical"],
-  },
+    categories: ["Animals","General","Nature"],
+  }
 ];

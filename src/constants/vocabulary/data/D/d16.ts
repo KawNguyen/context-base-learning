@@ -2,6 +2,78 @@ import { VocabularyWord } from "../../types";
 
 export const D16: VocabularyWord[] = [
   {
+    id: "gen-6252",
+    word: "Doddering",
+    slug: "doddering",
+    phonetic: "/ˈdɑː.dɚ.ɪŋ/",
+    partOfSpeech: "adjective",
+    meaningEn: "Trembling or tottering, typically because of old age.",
+    meaningVi: "Lảo đảo/Run rẩy (do già yếu).",
+    exampleEn: "Doddering old man.",
+    exampleVi: "Ông già lảo đảo.",
+    categories: ["General","People"],
+  },
+  {
+    id: "gen-6253",
+    word: "Dodecagon",
+    slug: "dodecagon",
+    phonetic: "/doʊˈdek.ə.ɡɑːn/",
+    partOfSpeech: "noun",
+    meaningEn: "A plane figure with twelve sides and twelve angles.",
+    meaningVi: "Hình thập nhị giác (hình 12 cạnh).",
+    exampleEn: "Regular dodecagon.",
+    exampleVi: "Hình 12 cạnh đều.",
+    categories: ["Mathematics","Science"],
+  },
+  {
+    id: "gen-6254",
+    word: "Dodge",
+    slug: "dodge",
+    phonetic: "/dɑːdʒ/",
+    partOfSpeech: "verb/noun",
+    meaningEn: "Avoid (someone or something) by a sudden quick movement.",
+    meaningVi: "Né tránh/Lẩn tránh/Mưu mẹo.",
+    exampleEn: "Dodge the question.",
+    exampleVi: "Né tránh câu hỏi.",
+    categories: ["General","Daily"],
+  },
+  {
+    id: "gen-6255",
+    word: "Dodger",
+    slug: "dodger",
+    phonetic: "/ˈdɑː.dʒɚ/",
+    partOfSpeech: "noun",
+    meaningEn: "A person who evades a duty or obligation.",
+    meaningVi: "Người né tránh/Người lẩn tránh/Tờ quảng cáo nhỏ.",
+    exampleEn: "Draft dodger.",
+    exampleVi: "Người trốn quân dịch.",
+    categories: ["People","Social"],
+  },
+  {
+    id: "gen-6256",
+    word: "Doe",
+    slug: "doe",
+    phonetic: "/doʊ/",
+    partOfSpeech: "noun",
+    meaningEn: "A female deer, especially a fallow deer, roe deer, or reindeer.",
+    meaningVi: "Con hươu cái/Con nai cái.",
+    exampleEn: "A herd of does.",
+    exampleVi: "Một đàn hươu cái.",
+    categories: ["Animals","Nature"],
+  },
+  {
+    id: "gen-6257",
+    word: "Doeskin",
+    slug: "doeskin",
+    phonetic: "/ˈdoʊ.skɪn/",
+    partOfSpeech: "noun",
+    meaningEn: "The skin of a doe; a fine soft leather or cloth.",
+    meaningVi: "Da hươu cái/Vải giả da hươu.",
+    exampleEn: "Doeskin gloves.",
+    exampleVi: "Găng tay da hươu.",
+    categories: ["Fashion","Daily"],
+  },
+  {
     id: "gen-6258",
     word: "Doff",
     slug: "doff",
@@ -11,7 +83,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Cởi (mũ/áo)/Bỏ đi.",
     exampleEn: "Doff one's hat.",
     exampleVi: "Ngả mũ chào.",
-    categories: ["General", "Daily", "Social"],
+    categories: ["General","Daily","Social"],
   },
   {
     id: "a1-10",
@@ -35,7 +107,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Góc trang sách bị gấp lại (như tai chó).",
     exampleEn: "Dog-eared pages.",
     exampleVi: "Những trang sách bị gấp góc.",
-    categories: ["Literature", "General"],
+    categories: ["Literature","General"],
   },
   {
     id: "gen-6261",
@@ -43,12 +115,11 @@ export const D16: VocabularyWord[] = [
     slug: "dog-eared",
     phonetic: "/ˈdɑːɡ.ɪrd/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of an object, especially a book) having the corners worn or folded down through use.",
+    meaningEn: "(of an object, especially a book) having the corners worn or folded down through use.",
     meaningVi: "Bị gấp góc/Bị cũ nát.",
     exampleEn: "Dog-eared dictionary.",
     exampleVi: "Cuốn từ điển cũ nát.",
-    categories: ["Literature", "General"],
+    categories: ["Literature","General"],
   },
   {
     id: "gen-6262",
@@ -60,7 +131,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Mệt rã rời/Mệt như chó.",
     exampleEn: "Home after a long day, dog-tired.",
     exampleVi: "Về nhà sau một ngày dài, mệt rã rời.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6263",
@@ -68,12 +139,11 @@ export const D16: VocabularyWord[] = [
     slug: "dogcart",
     phonetic: "/ˈdɑːɡ.kɑːrt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A light horse-drawn vehicle, originally one with a box under the seat for carrying sporting dogs.",
+    meaningEn: "A light horse-drawn vehicle, originally one with a box under the seat for carrying sporting dogs.",
     meaningVi: "Xe ngựa nhẹ (có ngăn để chó săn).",
     exampleEn: "Ride in a dogcart.",
     exampleVi: "Đi trên xe ngựa nhẹ.",
-    categories: ["Travel", "History"],
+    categories: ["Travel","History"],
   },
   {
     id: "gen-6264",
@@ -85,7 +155,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Công tước (người đứng đầu Venice/Genoa thời xưa).",
     exampleEn: "Palace of the Doge.",
     exampleVi: "Cung điện của Công tước.",
-    categories: ["Politics", "History", "People"],
+    categories: ["Politics","History","People"],
   },
   {
     id: "gen-6265",
@@ -93,12 +163,11 @@ export const D16: VocabularyWord[] = [
     slug: "dogfish",
     phonetic: "/ˈdɑːɡ.fɪʃ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A small shark that typically lives in coastal waters and is often hunted for food.",
+    meaningEn: "A small shark that typically lives in coastal waters and is often hunted for food.",
     meaningVi: "Cá nhám/Cá chó (một loài cá mập nhỏ).",
     exampleEn: "Spiny dogfish.",
     exampleVi: "Loài cá nhám có gai.",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-6266",
@@ -110,7 +179,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Lì lợm/Kiên cường/Bền bỉ.",
     exampleEn: "Dogged determination.",
     exampleVi: "Sự quyết tâm lì lợm/bền bỉ.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6267",
@@ -146,7 +215,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Thuyền đánh cá hai buồm.",
     exampleEn: "Dutch dogger.",
     exampleVi: "Thuyền đánh cá kiểu Hà Lan.",
-    categories: ["Travel", "Nature", "Business"],
+    categories: ["Travel","Nature","Business"],
   },
   {
     id: "gen-6270",
@@ -158,7 +227,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Thơ vè/Thơ dở.",
     exampleEn: "Rhyming doggerel.",
     exampleVi: "Bài vè có vần điệu.",
-    categories: ["Literature", "Art"],
+    categories: ["Literature","Art"],
   },
   {
     id: "gen-6271",
@@ -166,8 +235,7 @@ export const D16: VocabularyWord[] = [
     slug: "doggo",
     phonetic: "/ˈdɑː.ɡoʊ/",
     partOfSpeech: "adverb",
-    meaningEn:
-      "Remained motionless or quiet to escape attention (especially in 'lie doggo').",
+    meaningEn: "Remained motionless or quiet to escape attention (especially in 'lie doggo').",
     meaningVi: "Nằm im/Ẩn mình.",
     exampleEn: "Lie doggo.",
     exampleVi: "Nằm im ẩn mình.",
@@ -195,7 +263,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Chó con/Thuộc về chó.",
     exampleEn: "Doggy bag.",
     exampleVi: "Túi đựng thức ăn thừa (mang về từ nhà hàng).",
-    categories: ["Animals", "Daily", "General"],
+    categories: ["Animals","Daily","General"],
   },
   {
     id: "gen-6274",
@@ -207,7 +275,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Chuồng chó.",
     exampleEn: "In the doghouse.",
     exampleVi: "Bị thất sủng/Bị phạt.",
-    categories: ["Animals", "Home", "General"],
+    categories: ["Animals","Home","General"],
   },
   {
     id: "gen-6275",
@@ -215,12 +283,11 @@ export const D16: VocabularyWord[] = [
     slug: "dogma",
     phonetic: "/ˈdɑːɡ.mə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A principle or set of principles laid down by an authority as incontrovertibly true.",
+    meaningEn: "A principle or set of principles laid down by an authority as incontrovertibly true.",
     meaningVi: "Giáo điều/Tín điều.",
     exampleEn: "Religious dogma.",
     exampleVi: "Giáo điều tôn giáo.",
-    categories: ["Religion", "Philosophy", "General"],
+    categories: ["Religion","Philosophy","General"],
   },
   {
     id: "gen-6276",
@@ -232,7 +299,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Giáo điều/Độc đoán.",
     exampleEn: "Dogmatic approach.",
     exampleVi: "Cách tiếp cận giáo điều.",
-    categories: ["Philosophy", "Politics", "General"],
+    categories: ["Philosophy","Politics","General"],
   },
   {
     id: "gen-6277",
@@ -252,12 +319,11 @@ export const D16: VocabularyWord[] = [
     slug: "dogmatism",
     phonetic: "/ˈdɔːɡ.mə.tɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The tendency to lay down principles as incontrovertibly true, without consideration of evidence or the opinions of others.",
+    meaningEn: "The tendency to lay down principles as incontrovertibly true, without consideration of evidence or the opinions of others.",
     meaningVi: "Chủ nghĩa giáo điều.",
     exampleEn: "Avoid intellectual dogmatism.",
     exampleVi: "Tránh chủ nghĩa giáo điều về trí tuệ.",
-    categories: ["Academic", "Philosophy", "Social"],
+    categories: ["Academic","Philosophy","Social"],
   },
   {
     id: "gen-6279",
@@ -269,7 +335,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Người giáo điều/Người độc đoán.",
     exampleEn: "Arrogant dogmatist.",
     exampleVi: "Kẻ giáo điều kiêu ngạo.",
-    categories: ["People", "Philosophy"],
+    categories: ["People","Philosophy"],
   },
   {
     id: "gen-6280",
@@ -293,7 +359,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Người sai vặt/Người làm công việc vất vả.",
     exampleEn: "Office dogsbody.",
     exampleVi: "Người sai vặt trong văn phòng.",
-    categories: ["People", "Business"],
+    categories: ["People","Business"],
   },
   {
     id: "gen-6282",
@@ -305,7 +371,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Răng nanh/Họa tiết răng sói (răng chó).",
     exampleEn: "Dogtooth check jacket.",
     exampleVi: "Áo khoác họa tiết răng sói.",
-    categories: ["Medical", "Fashion"],
+    categories: ["Medical","Fashion"],
   },
   {
     id: "gen-6283",
@@ -313,12 +379,11 @@ export const D16: VocabularyWord[] = [
     slug: "dogwood",
     phonetic: "/ˈdɑːɡ.wʊd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A shrub or small tree of Old World and North American temperate regions.",
+    meaningEn: "A shrub or small tree of Old World and North American temperate regions.",
     meaningVi: "Cây sơn thù du.",
     exampleEn: "Dogwood blossoms.",
     exampleVi: "Hoa sơn thù du.",
-    categories: ["Nature", "Plants"],
+    categories: ["Nature","Plants"],
   },
   {
     id: "gen-6284",
@@ -330,7 +395,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Khăn trải bàn nhỏ bằng ren.",
     exampleEn: "Lace doily.",
     exampleVi: "Khăn ren nhỏ.",
-    categories: ["Home", "Daily", "Art"],
+    categories: ["Home","Daily","Art"],
   },
   {
     id: "gen-6285",
@@ -342,7 +407,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Việc làm/Hành động/Sự thực hiện.",
     exampleEn: "It takes some doing.",
     exampleVi: "Việc này cần nhiều nỗ lực.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-6286",
@@ -354,7 +419,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Đồng tiền nhỏ/Số tiền không đáng kể.",
     exampleEn: "Not worth a doit.",
     exampleVi: "Không đáng một xu.",
-    categories: ["Economics", "History"],
+    categories: ["Economics","History"],
   },
   {
     id: "gen-6287",
@@ -366,7 +431,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Sự đình trệ/Vùng lặng gió (khí hậu)/Sự buồn chán.",
     exampleEn: "Economic doldrums.",
     exampleVi: "Sự đình trệ kinh tế.",
-    categories: ["Economics", "Psychology", "Nature", "General"],
+    categories: ["Economics","Psychology","Nature","General"],
   },
   {
     id: "gen-6288",
@@ -374,12 +439,11 @@ export const D16: VocabularyWord[] = [
     slug: "dole",
     phonetic: "/doʊl/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "Benefit paid by the state to the unemployed; distribute shares of something.",
+    meaningEn: "Benefit paid by the state to the unemployed; distribute shares of something.",
     meaningVi: "Tiền trợ cấp thất nghiệp/Phát (phần).",
     exampleEn: "On the dole.",
     exampleVi: "Sống bằng tiền trợ cấp thất nghiệp.",
-    categories: ["Social", "Economics", "Politics"],
+    categories: ["Social","Economics","Politics"],
   },
   {
     id: "gen-6289",
@@ -391,7 +455,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "U sầu/Buồn thảm.",
     exampleEn: "Doleful expression.",
     exampleVi: "Vẻ mặt u sầu.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6290",
@@ -403,7 +467,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Một cách u sầu/buồn thảm.",
     exampleEn: "Looked dolefully at the rain.",
     exampleVi: "Nhìn cơn mưa một cách buồn bã.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-6291",
@@ -411,12 +475,11 @@ export const D16: VocabularyWord[] = [
     slug: "doll",
     phonetic: "/dɑːl/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A small model of a human figure, typically one of a baby or girl.",
+    meaningEn: "A small model of a human figure, typically one of a baby or girl.",
     meaningVi: "Búp bê/Cô gái đẹp.",
     exampleEn: "Play with dolls.",
     exampleVi: "Chơi với búp bê.",
-    categories: ["Daily", "General", "Art"],
+    categories: ["Daily","General","Art"],
   },
   {
     id: "gen-322",
@@ -440,7 +503,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Một viên/Một khối (thức ăn mềm)/Một ít.",
     exampleEn: "A dollop of cream.",
     exampleVi: "Một viên kem.",
-    categories: ["Daily", "General"],
+    categories: ["Daily","General"],
   },
   {
     id: "gen-6294",
@@ -452,7 +515,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Búp bê/Xe đẩy nhỏ/Giá đẩy (camera).",
     exampleEn: "Camera dolly.",
     exampleVi: "Giá đẩy camera.",
-    categories: ["Art", "Daily", "Technology"],
+    categories: ["Art","Daily","Technology"],
   },
   {
     id: "gen-6295",
@@ -464,7 +527,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Áo choàng dài (Thổ Nhĩ Kỳ)/Áo khoác kỵ binh.",
     exampleEn: "Embroidered dolman.",
     exampleVi: "Áo choàng thêu.",
-    categories: ["Fashion", "History"],
+    categories: ["Fashion","History"],
   },
   {
     id: "gen-6296",
@@ -472,12 +535,11 @@ export const D16: VocabularyWord[] = [
     slug: "dolmen",
     phonetic: "/ˈdoʊl.men/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A megalithic tomb with a large flat stone laid on upright ones.",
+    meaningEn: "A megalithic tomb with a large flat stone laid on upright ones.",
     meaningVi: "Mộ đá (thời tiền sử).",
     exampleEn: "Prehistoric dolmen.",
     exampleVi: "Mộ đá thời tiền sử.",
-    categories: ["History", "Architecture"],
+    categories: ["History","Architecture"],
   },
   {
     id: "gen-6297",
@@ -485,12 +547,11 @@ export const D16: VocabularyWord[] = [
     slug: "dolomite",
     phonetic: "/ˈdoʊ.lə.maɪt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A translucent mineral consisting of a carbonate of calcium and magnesium.",
+    meaningEn: "A translucent mineral consisting of a carbonate of calcium and magnesium.",
     meaningVi: "Đá đô-lô-mít.",
     exampleEn: "Dolomite peaks.",
     exampleVi: "Những đỉnh núi đá đô-lô-mít.",
-    categories: ["Science", "Nature", "Geography"],
+    categories: ["Science","Nature","Geography"],
   },
   {
     id: "gen-6298",
@@ -502,7 +563,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Đô-lôn (nhân vật trong thần thoại Hy Lạp).",
     exampleEn: "Story of Dolon.",
     exampleVi: "Câu chuyện về Đô-lôn.",
-    categories: ["Literature", "History", "Religion"],
+    categories: ["Literature","History","Religion"],
   },
   {
     id: "gen-6299",
@@ -514,7 +575,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Nỗi đau khổ/Sự phiền muộn.",
     exampleEn: "Deep dolor.",
     exampleVi: "Nỗi đau thấu xương.",
-    categories: ["Psychology", "Literature"],
+    categories: ["Psychology","Literature"],
   },
   {
     id: "gen-6300",
@@ -526,7 +587,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Đau buồn/Đau thương.",
     exampleEn: "Dolorous song.",
     exampleVi: "Bài hát bi lụy/đau buồn.",
-    categories: ["Psychology", "Literature"],
+    categories: ["Psychology","Literature"],
   },
   {
     id: "gen-6301",
@@ -538,7 +599,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Một cách đau buồn/bi thương.",
     exampleEn: "Sighed dolorously.",
     exampleVi: "Thở dài một cách đau thương.",
-    categories: ["General", "Literature"],
+    categories: ["General","Literature"],
   },
   {
     id: "gen-6302",
@@ -546,12 +607,11 @@ export const D16: VocabularyWord[] = [
     slug: "dolphin",
     phonetic: "/ˈdɑːl.fɪn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A small gregarious toothed whale that typically has a curved dorsfin and a snout point into a beak.",
+    meaningEn: "A small gregarious toothed whale that typically has a curved dorsfin and a snout point into a beak.",
     meaningVi: "Cá heo.",
     exampleEn: "Dolphin show.",
     exampleVi: "Buổi biểu diễn cá heo.",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-6303",
@@ -563,7 +623,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Người ngốc nghếch/Kẻ đần độn.",
     exampleEn: "Complete dolt.",
     exampleVi: "Kẻ hoàn toàn ngốc nghếch.",
-    categories: ["People", "Psychology"],
+    categories: ["People","Psychology"],
   },
   {
     id: "gen-6304",
@@ -575,7 +635,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Ngốc nghếch/Đần độn.",
     exampleEn: "Doltish behaviour.",
     exampleVi: "Hành vi ngốc nghếch.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "b2-77",
@@ -583,8 +643,7 @@ export const D16: VocabularyWord[] = [
     slug: "domain",
     phonetic: "/doʊˈmeɪn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An area of territory owned or controlled by a ruler or government.",
+    meaningEn: "An area of territory owned or controlled by a ruler or government.",
     meaningVi: "Lĩnh vực, tên miền.",
     exampleEn: "This topic is outside my domain.",
     exampleVi: "Chủ đề này nằm ngoài lĩnh vực của tôi.",
@@ -596,12 +655,11 @@ export const D16: VocabularyWord[] = [
     slug: "dome",
     phonetic: "/doʊm/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A rounded vault forming the roof of a building or structure; shape as a dome.",
+    meaningEn: "A rounded vault forming the roof of a building or structure; shape as a dome.",
     meaningVi: "Mái vòm.",
     exampleEn: "Cathedral dome.",
     exampleVi: "Mái vòm nhà thờ.",
-    categories: ["Architecture", "Art", "Science"],
+    categories: ["Architecture","Art","Science"],
   },
   {
     id: "gen-6307",
@@ -613,7 +671,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Có mái vòm.",
     exampleEn: "Domed stadium.",
     exampleVi: "Sân vận động có mái vòm.",
-    categories: ["Architecture", "General"],
+    categories: ["Architecture","General"],
   },
   {
     id: "b2-78",
@@ -633,12 +691,11 @@ export const D16: VocabularyWord[] = [
     slug: "domestically",
     phonetic: "/dəˈmes.tɪ.kəl.i/",
     partOfSpeech: "adverb",
-    meaningEn:
-      "In a way that relates to the running of a home or to family relations; in one's own country.",
+    meaningEn: "In a way that relates to the running of a home or to family relations; in one's own country.",
     meaningVi: "Về mặt nội địa/Trong gia đình.",
     exampleEn: "Produced domestically.",
     exampleVi: "Được sản xuất trong nước.",
-    categories: ["Economics", "General"],
+    categories: ["Economics","General"],
   },
   {
     id: "gen-6310",
@@ -646,12 +703,11 @@ export const D16: VocabularyWord[] = [
     slug: "domesticate",
     phonetic: "/dəˈmes.tɪ.keɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Tame (an animal) and keep it as a pet or for food; cultivate (a plant) for food.",
+    meaningEn: "Tame (an animal) and keep it as a pet or for food; cultivate (a plant) for food.",
     meaningVi: "Thuần hóa.",
     exampleEn: "Domesticate wild animals.",
     exampleVi: "Thuần hóa động vật hoang dã.",
-    categories: ["Animals", "Science", "History"],
+    categories: ["Animals","Science","History"],
   },
   {
     id: "gen-6311",
@@ -663,7 +719,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Cuộc sống gia đình/Cảnh gia đình.",
     exampleEn: "Enjoy domesticity.",
     exampleVi: "Tận hưởng cuộc sống gia đình.",
-    categories: ["Social", "Home"],
+    categories: ["Social","Home"],
   },
   {
     id: "gen-6312",
@@ -671,12 +727,11 @@ export const D16: VocabularyWord[] = [
     slug: "domicile",
     phonetic: "/ˈdɑː.mə.saɪl/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "The country that a person treats as their permanent home, or lives in and has a substantial connection with.",
+    meaningEn: "The country that a person treats as their permanent home, or lives in and has a substantial connection with.",
     meaningVi: "Nơi cư trú/Nhà ở.",
     exampleEn: "Legal domicile.",
     exampleVi: "Nơi cư trú hợp pháp.",
-    categories: ["Law", "Social", "General"],
+    categories: ["Law","Social","General"],
   },
   {
     id: "gen-6313",
@@ -688,7 +743,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Thuộc về nhà ở/Nơi cư trú.",
     exampleEn: "Domiciliary visit.",
     exampleVi: "Cuộc viếng thăm tại nhà.",
-    categories: ["Law", "Medical", "Social"],
+    categories: ["Law","Medical","Social"],
   },
   {
     id: "gen-6314",
@@ -700,7 +755,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Sự thống trị/Ưu thế.",
     exampleEn: "Market dominance.",
     exampleVi: "Sự thống trị thị trường.",
-    categories: ["Management", "Economics", "Politics", "Science"],
+    categories: ["Management","Economics","Politics","Science"],
   },
   {
     id: "b2-79",
@@ -724,7 +779,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Thống trị/Chi phối/Vượt trội.",
     exampleEn: "Dominate the conversation.",
     exampleVi: "Chi phối cuộc trò chuyện.",
-    categories: ["Social", "Politics", "General"],
+    categories: ["Social","Politics","General"],
   },
   {
     id: "gen-6317",
@@ -732,12 +787,11 @@ export const D16: VocabularyWord[] = [
     slug: "domination",
     phonetic: "/ˌdɑː.məˈneɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The exercise of control or influence over someone or something.",
+    meaningEn: "The exercise of control or influence over someone or something.",
     meaningVi: "Sự thống trị/Sự chi phối.",
     exampleEn: "World domination.",
     exampleVi: "Sự thống trị thế giới.",
-    categories: ["Politics", "History", "General"],
+    categories: ["Politics","History","General"],
   },
   {
     id: "gen-6318",
@@ -749,7 +803,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Áp đặt/Độc đoán.",
     exampleEn: "Try to domineer.",
     exampleVi: "Cố gắng áp đặt người khác.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6319",
@@ -761,7 +815,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Độc đoán/Hống hách.",
     exampleEn: "Domineering personality.",
     exampleVi: "Tính cách độc đoán.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6320",
@@ -769,12 +823,11 @@ export const D16: VocabularyWord[] = [
     slug: "dominican",
     phonetic: "/dəˈmɪn.ɪ.kən/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A member of the Roman Catholic order of preaching friars founded by St. Dominic; relating to the Dominican Republic.",
+    meaningEn: "A member of the Roman Catholic order of preaching friars founded by St. Dominic; relating to the Dominican Republic.",
     meaningVi: "Dòng Đa Minh (tôn giáo)/Người Dominica.",
     exampleEn: "Dominican monk.",
     exampleVi: "Tu sĩ dòng Đa Minh.",
-    categories: ["Religion", "People", "Geography"],
+    categories: ["Religion","People","Geography"],
   },
   {
     id: "gen-6321",
@@ -786,7 +839,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Quyền thống trị/Lãnh thổ tự trị.",
     exampleEn: "Under British dominion.",
     exampleVi: "Dưới sự thống trị của Anh.",
-    categories: ["Politics", "History", "General"],
+    categories: ["Politics","History","General"],
   },
   {
     id: "gen-6322",
@@ -798,7 +851,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Quân đô-mi-nô.",
     exampleEn: "Domino effect.",
     exampleVi: "Hiệu ứng đô-mi-nô.",
-    categories: ["Daily", "Daily", "General"],
+    categories: ["Daily","Daily","General"],
   },
   {
     id: "gen-6323",
@@ -806,13 +859,11 @@ export const D16: VocabularyWord[] = [
     slug: "don",
     phonetic: "/dɑːn/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A university teacher, especially a senior member of a college at Oxford or Cambridge; put on (an item of clothing).",
-    meaningVi:
-      "Giáo sư đại học/Người đứng đầu (tổ chức tội phạm)/Mặc (quần áo).",
+    meaningEn: "A university teacher, especially a senior member of a college at Oxford or Cambridge; put on (an item of clothing).",
+    meaningVi: "Giáo sư đại học/Người đứng đầu (tổ chức tội phạm)/Mặc (quần áo).",
     exampleEn: "Don his coat.",
     exampleVi: "Mặc áo khoác vào.",
-    categories: ["Education", "People", "Fashion", "General"],
+    categories: ["Education","People","Fashion","General"],
   },
   {
     id: "gen-6324",
@@ -836,7 +887,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Quyên góp.",
     exampleEn: "Donate to charity.",
     exampleVi: "Quyên góp cho từ thiện.",
-    categories: ["Social", "Finance"],
+    categories: ["Social","Finance"],
   },
   {
     id: "gen-6326",
@@ -844,12 +895,11 @@ export const D16: VocabularyWord[] = [
     slug: "donation",
     phonetic: "/doʊˈneɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Something that is given to a charity, especially a sum of money.",
+    meaningEn: "Something that is given to a charity, especially a sum of money.",
     meaningVi: "Sự quyên góp/Sự tặng dữ.",
     exampleEn: "Generous donation.",
     exampleVi: "Khoản quyên góp hào phóng.",
-    categories: ["Social", "General", "Economics"],
+    categories: ["Social","General","Economics"],
   },
   {
     id: "gen-6327",
@@ -861,7 +911,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Người quyên góp/Người hiến tặng.",
     exampleEn: "Frequent donator.",
     exampleVi: "Người thường xuyên quyên góp.",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-6328",
@@ -873,7 +923,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Xong/Hoàn thành/Đã chín (thức ăn).",
     exampleEn: "Job well done.",
     exampleVi: "Công việc đã hoàn thành tốt.",
-    categories: ["General", "Daily"],
+    categories: ["General","Daily"],
   },
   {
     id: "gen-6329",
@@ -881,12 +931,11 @@ export const D16: VocabularyWord[] = [
     slug: "donjon",
     phonetic: "/ˈdʌn.dʒən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The strongest or central tower of a castle, which acted as a final refuge.",
+    meaningEn: "The strongest or central tower of a castle, which acted as a final refuge.",
     meaningVi: "Tháp canh chính (trong lâu đài).",
     exampleEn: "Castle donjon.",
     exampleVi: "Tháp chính của lâu đài.",
-    categories: ["Architecture", "History"],
+    categories: ["Architecture","History"],
   },
   {
     id: "gen-6330",
@@ -894,12 +943,11 @@ export const D16: VocabularyWord[] = [
     slug: "donkey",
     phonetic: "/ˈdɑːŋ.ki/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A domesticated hoofed mammal of the horse family with long ears and a braying call.",
+    meaningEn: "A domesticated hoofed mammal of the horse family with long ears and a braying call.",
     meaningVi: "Con lừa.",
     exampleEn: "Donkey work.",
     exampleVi: "Công việc nặng nhọc và nhàm chán.",
-    categories: ["Animals", "General"],
+    categories: ["Animals","General"],
   },
   {
     id: "gen-6331",
@@ -911,7 +959,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Có vẻ giáo sư/Mọt sách.",
     exampleEn: "Donnish manner.",
     exampleVi: "Phong thái giáo sư.",
-    categories: ["People", "Education"],
+    categories: ["People","Education"],
   },
   {
     id: "gen-6332",
@@ -919,12 +967,11 @@ export const D16: VocabularyWord[] = [
     slug: "donor",
     phonetic: "/ˈdoʊ.nɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who provides something, especially blood, an organ, or money.",
+    meaningEn: "A person who provides something, especially blood, an organ, or money.",
     meaningVi: "Người cho/Người hiến tặng.",
     exampleEn: "Blood donor.",
     exampleVi: "Người hiến máu.",
-    categories: ["People", "Social", "Medical"],
+    categories: ["People","Social","Medical"],
   },
   {
     id: "gen-6333",
@@ -936,7 +983,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Bánh vòng/Bánh đô-nút.",
     exampleEn: "Chocolate donut.",
     exampleVi: "Bánh vòng sô-cô-la.",
-    categories: ["Daily", "General"],
+    categories: ["Daily","General"],
   },
   {
     id: "gen-6334",
@@ -948,7 +995,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Vẽ nguệch ngoạc.",
     exampleEn: "Doodle in a notebook.",
     exampleVi: "Vẽ nguệch ngoạc vào sổ tay.",
-    categories: ["Art", "General", "Daily"],
+    categories: ["Art","General","Daily"],
   },
   {
     id: "gen-6335",
@@ -956,8 +1003,7 @@ export const D16: VocabularyWord[] = [
     slug: "doohickey",
     phonetic: "/ˈduː.hɪk.i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A small object or device whose name you have forgotten or do not know.",
+    meaningEn: "A small object or device whose name you have forgotten or do not know.",
     meaningVi: "Cái vật nhỏ/Cái thứ đó (khi không nhớ tên).",
     exampleEn: "Where is that doohickey?",
     exampleVi: "Cái vật đó nằm ở đâu rồi?",
@@ -973,7 +1019,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Sự sụp đổ/Số kiếp bi đát/Định mệnh (xấu).",
     exampleEn: "Prophet of doom.",
     exampleVi: "Người tiên đoán về thảm họa/điềm xấu.",
-    categories: ["Psychology", "Literature", "General"],
+    categories: ["Psychology","Literature","General"],
   },
   {
     id: "gen-6337",
@@ -981,12 +1027,11 @@ export const D16: VocabularyWord[] = [
     slug: "doomed",
     phonetic: "/duːmd/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Likely to have an unfortunate and inescapable outcome; ill-fated.",
+    meaningEn: "Likely to have an unfortunate and inescapable outcome; ill-fated.",
     meaningVi: "Bị kết án/Có số phận bi thảm.",
     exampleEn: "Doomed to failure.",
     exampleVi: "Cầm chắc thất bại.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6338",
@@ -998,7 +1043,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Ngày tận thế.",
     exampleEn: "Doomsday scenario.",
     exampleVi: "Kịch bản ngày tận thế.",
-    categories: ["Religion", "Science", "General"],
+    categories: ["Religion","Science","General"],
   },
   {
     id: "a1-20",
@@ -1006,8 +1051,7 @@ export const D16: VocabularyWord[] = [
     slug: "door",
     phonetic: "/dɔːr/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A hinged, sliding, or revolving barrier at the entrance to a building.",
+    meaningEn: "A hinged, sliding, or revolving barrier at the entrance to a building.",
     meaningVi: "Cánh cửa.",
     exampleEn: "Open the door.",
     exampleVi: "Mở cửa ra.",
@@ -1019,12 +1063,11 @@ export const D16: VocabularyWord[] = [
     slug: "doorbell",
     phonetic: "/ˈdɔːr.bel/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A bell, buzzer, or chime in or near a door, typically one rung by visitors.",
+    meaningEn: "A bell, buzzer, or chime in or near a door, typically one rung by visitors.",
     meaningVi: "Chuông cửa.",
     exampleEn: "Ring the doorbell.",
     exampleVi: "Rung chuông cửa.",
-    categories: ["Home", "Daily"],
+    categories: ["Home","Daily"],
   },
   {
     id: "gen-6341",
@@ -1036,7 +1079,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Tay nắm cửa.",
     exampleEn: "Turn the doorknob.",
     exampleVi: "Xoay tay nắm cửa.",
-    categories: ["Home", "Daily"],
+    categories: ["Home","Daily"],
   },
   {
     id: "gen-6342",
@@ -1048,7 +1091,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Cái gõ cửa.",
     exampleEn: "Heavy doorknocker.",
     exampleVi: "Cái gõ cửa nặng.",
-    categories: ["Home", "Architecture"],
+    categories: ["Home","Architecture"],
   },
   {
     id: "gen-6343",
@@ -1056,12 +1099,11 @@ export const D16: VocabularyWord[] = [
     slug: "doorman",
     phonetic: "/ˈdɔːr.mən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person, especially one in uniform, who is employed to stand at the entrance to a hotel or apartment block and help people.",
+    meaningEn: "A person, especially one in uniform, who is employed to stand at the entrance to a hotel or apartment block and help people.",
     meaningVi: "Người gác cửa/Người bảo vệ (khách sạn).",
     exampleEn: "The hotel doorman.",
     exampleVi: "Người gác cửa khách sạn.",
-    categories: ["People", "Business", "Daily"],
+    categories: ["People","Business","Daily"],
   },
   {
     id: "gen-6344",
@@ -1073,7 +1115,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Sườn cửa/Cột cửa.",
     exampleEn: "Lean against the doorpost.",
     exampleVi: "Dựa vào cột cửa.",
-    categories: ["Home", "Architecture"],
+    categories: ["Home","Architecture"],
   },
   {
     id: "gen-6345",
@@ -1085,7 +1127,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Bậc cửa.",
     exampleEn: "On my doorstep.",
     exampleVi: "Ngay trước thềm nhà tôi/Rất gần.",
-    categories: ["Home", "General"],
+    categories: ["Home","General"],
   },
   {
     id: "gen-6346",
@@ -1093,12 +1135,11 @@ export const D16: VocabularyWord[] = [
     slug: "doorstop",
     phonetic: "/ˈdɔːr.stɑːp/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An object used to keep a door open or to prevent it from slamming.",
+    meaningEn: "An object used to keep a door open or to prevent it from slamming.",
     meaningVi: "Cái chặn cửa.",
     exampleEn: "Heavy iron doorstop.",
     exampleVi: "Cái chặn cửa bằng sắt nặng.",
-    categories: ["Home", "Daily"],
+    categories: ["Home","Daily"],
   },
   {
     id: "gen-6347",
@@ -1110,7 +1151,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Ngõ ra vào/Cửa vào.",
     exampleEn: "Stand in the doorway.",
     exampleVi: "Đứng ở lối vào.",
-    categories: ["Home", "General", "Daily"],
+    categories: ["Home","General","Daily"],
   },
   {
     id: "gen-6348",
@@ -1122,7 +1163,7 @@ export const D16: VocabularyWord[] = [
     meaningVi: "Sân trước cửa nhà.",
     exampleEn: "Lilacs in the dooryard.",
     exampleVi: "Hoa tử đinh hương ở sân trước.",
-    categories: ["Home", "Nature"],
+    categories: ["Home","Nature"],
   },
   {
     id: "gen-6349",
@@ -1130,12 +1171,11 @@ export const D16: VocabularyWord[] = [
     slug: "dope",
     phonetic: "/doʊp/",
     partOfSpeech: "noun/verb/adjective",
-    meaningEn:
-      "A drug taken illegally for recreational purposes; information; very good (slang).",
+    meaningEn: "A drug taken illegally for recreational purposes; information; very good (slang).",
     meaningVi: "Chất kích thích/Thông tin nội bộ/Rất ngầu (lóng).",
     exampleEn: "That's dope.",
     exampleVi: "Cái đó ngầu thật.",
-    categories: ["General", "Social", "Medical"],
+    categories: ["General","Social","Medical"],
   },
   {
     id: "gen-6350",
@@ -1160,81 +1200,5 @@ export const D16: VocabularyWord[] = [
     exampleEn: "Doppy look.",
     exampleVi: "Vẻ mặt ngớ ngẩn.",
     categories: ["Psychology"],
-  },
-  {
-    id: "gen-6352",
-    word: "Dora",
-    slug: "dora",
-    phonetic: "/ˈdɔːr.ə/",
-    partOfSpeech: "noun",
-    meaningEn: "A female given name.",
-    meaningVi: "Tên riêng nữ (Dora).",
-    exampleEn: "Aunt Dora.",
-    exampleVi: "Dì Dora.",
-    categories: ["People"],
-  },
-  {
-    id: "gen-6353",
-    word: "Dorian",
-    slug: "dorian",
-    phonetic: "/ˈdɔːr.i.ən/",
-    partOfSpeech: "adjective/noun",
-    meaningEn:
-      "Relating to the Dorians (Ancient Greek people) or their dialect of Ancient Greek.",
-    meaningVi: "Dân tộc Đô-ri-êng/Phong cách Hy Lạp cổ.",
-    exampleEn: "Dorian mode.",
-    exampleVi: "Điệu thức Dorian (trong âm nhạc).",
-    categories: ["History", "Art", "Music"],
-  },
-  {
-    id: "gen-6354",
-    word: "Doric",
-    slug: "doric",
-    phonetic: "/ˈdɔːr.ɪk/",
-    partOfSpeech: "adjective/noun",
-    meaningEn:
-      "Relating to the simplest of the classical Greek architectural styles; a dialect of Ancient Greek.",
-    meaningVi: "Phong cách kiến trúc cổ điển (với cột trơn, đơn giản).",
-    exampleEn: "Doric column.",
-    exampleVi: "Cột Hy Lạp phong cách Doric.",
-    categories: ["Architecture", "History", "Art"],
-  },
-  {
-    id: "gen-6355",
-    word: "Dormancy",
-    slug: "dormancy",
-    phonetic: "/ˈdɔːr.mən.si/",
-    partOfSpeech: "noun",
-    meaningEn:
-      "A state of quiet (but potentially active) study; a period in which a plant's growth or activity stops.",
-    meaningVi: "Sự tiềm tàng/Tình trạng ngủ đông/Tạm ngừng hoạt động.",
-    exampleEn: "Seeds in dormancy.",
-    exampleVi: "Hạt giống đang trong thời kỳ tiềm tàng.",
-    categories: ["Science", "Nature", "General"],
-  },
-  {
-    id: "gen-6356",
-    word: "Dormant",
-    slug: "dormant",
-    phonetic: "/ˈdɔːr.mənt/",
-    partOfSpeech: "adjective",
-    meaningEn:
-      "Having normal physical functions suspended or slowed down for a period of time; in or as if in a deep sleep.",
-    meaningVi: "Tiềm tàng/Ngủ đông/Không hoạt động.",
-    exampleEn: "Dormant volcano.",
-    exampleVi: "Núi lửa đang ngủ.",
-    categories: ["Science", "Nature", "General"],
-  },
-  {
-    id: "gen-6357",
-    word: "Dormer",
-    slug: "dormer",
-    phonetic: "/ˈdɔːr.mɚ/",
-    partOfSpeech: "noun",
-    meaningEn: "A window that projects vertically from a sloping roof.",
-    meaningVi: "Cửa sổ mái (phòng áp mái).",
-    exampleEn: "Dormer window.",
-    exampleVi: "Cửa sổ nhô ra từ mái nhà.",
-    categories: ["Architecture", "Home"],
-  },
+  }
 ];

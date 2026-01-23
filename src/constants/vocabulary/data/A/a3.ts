@@ -7,12 +7,11 @@ export const A3: VocabularyWord[] = [
     slug: "analyse",
     phonetic: "/ˈæn.əl.aɪz/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Examine methodically and in detail the constitution or structure of something.",
+    meaningEn: "Examine methodically and in detail the constitution or structure of something.",
     meaningVi: "Phân tích.",
     exampleEn: "Analyse data.",
     exampleVi: "Phân tích dữ liệu.",
-    categories: ["Science", "Education"],
+    categories: ["Science","Education"],
   },
   {
     id: "b1-195",
@@ -20,12 +19,11 @@ export const A3: VocabularyWord[] = [
     slug: "analysis",
     phonetic: "/əˈnæl.ə.sɪs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Detailed examination of the elements or structure of something.",
+    meaningEn: "Detailed examination of the elements or structure of something.",
     meaningVi: "Sự phân tích.",
     exampleEn: "Perform a data analysis.",
     exampleVi: "Thực hiện phân tích dữ liệu.",
-    categories: ["Academic", "Business"],
+    categories: ["Academic","Business"],
   },
   {
     id: "gen-2051",
@@ -37,7 +35,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Nhà phân tích.",
     exampleEn: "Financial analyst.",
     exampleVi: "Nhà phân tích tài chính.",
-    categories: ["Business", "People", "Jobs"],
+    categories: ["Business","People","Jobs"],
   },
   {
     id: "gen-2052",
@@ -49,7 +47,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Thuộc về phân tích.",
     exampleEn: "Analytic skill.",
     exampleVi: "Kỹ năng phân tích.",
-    categories: ["Education", "Science"],
+    categories: ["Education","Science"],
   },
   {
     id: "c2-173",
@@ -61,7 +59,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Thuộc về phân tích.",
     exampleEn: "He has an analytical mind.",
     exampleVi: "Anh ấy có một đầu óc phân tích.",
-    categories: ["Academic", "Daily"],
+    categories: ["Academic","Daily"],
   },
   {
     id: "b2-3",
@@ -69,8 +67,7 @@ export const A3: VocabularyWord[] = [
     slug: "analyze",
     phonetic: "/ˈæn.əl.aɪz/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Examine methodically and in detail the constitution or structure of (something, especially information), typically for purposes of explanation and interpretation.",
+    meaningEn: "Examine methodically and in detail the constitution or structure of (something, especially information), typically for purposes of explanation and interpretation.",
     meaningVi: "Phân tích.",
     exampleEn: "Analyze the data.",
     exampleVi: "Phân tích dữ liệu.",
@@ -82,12 +79,11 @@ export const A3: VocabularyWord[] = [
     slug: "anarchy",
     phonetic: "/ˈæn.ə.ki/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A state of disorder due to absence or nonrecognition of authority.",
+    meaningEn: "A state of disorder due to absence or nonrecognition of authority.",
     meaningVi: "Tình trạng hỗn loạn, vô chính phủ.",
     exampleEn: "The country descended into anarchy.",
     exampleVi: "Đất nước rơi vào tình trạng hỗn loạn.",
-    categories: ["Politics", "General"],
+    categories: ["Politics","General"],
   },
   {
     id: "b2-168",
@@ -95,8 +91,7 @@ export const A3: VocabularyWord[] = [
     slug: "ancestor",
     phonetic: "/ˈæn.ses.tər/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person, typically one more remote than a grandparent, from whom one is descended.",
+    meaningEn: "A person, typically one more remote than a grandparent, from whom one is descended.",
     meaningVi: "Tổ tiên.",
     exampleEn: "Common ancestor.",
     exampleVi: "Tổ tiên chung.",
@@ -108,8 +103,7 @@ export const A3: VocabularyWord[] = [
     slug: "anchor",
     phonetic: "/ˈæŋ.kər/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A heavy object attached to a rope or chain and used to moor a ship to the sea bottom.",
+    meaningEn: "A heavy object attached to a rope or chain and used to moor a ship to the sea bottom.",
     meaningVi: "Mỏ neo.",
     exampleEn: "Drop the anchor.",
     exampleVi: "Thả neo.",
@@ -145,8 +139,7 @@ export const A3: VocabularyWord[] = [
     slug: "anecdote",
     phonetic: "/ˈæn.ɪk.doʊt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A short amusing or interesting story about a real incident or person.",
+    meaningEn: "A short amusing or interesting story about a real incident or person.",
     meaningVi: "Giai thoại.",
     exampleEn: "Amusing anecdote.",
     exampleVi: "Giai thoại thú vị.",
@@ -170,8 +163,7 @@ export const A3: VocabularyWord[] = [
     slug: "angle",
     phonetic: "/ˈæŋ.ɡəl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The space between two intersecting lines or surfaces at or close to the point where they meet.",
+    meaningEn: "The space between two intersecting lines or surfaces at or close to the point where they meet.",
     meaningVi: "Góc.",
     exampleEn: "A right angle.",
     exampleVi: "Một góc vuông.",
@@ -183,8 +175,7 @@ export const A3: VocabularyWord[] = [
     slug: "angry",
     phonetic: "/ˈæŋ.ɡri/",
     partOfSpeech: "adj",
-    meaningEn:
-      "Feeling or showing strong annoyance, displeasure, or hostility.",
+    meaningEn: "Feeling or showing strong annoyance, displeasure, or hostility.",
     meaningVi: "Tức giận.",
     exampleEn: "Don't be angry with me.",
     exampleVi: "Đừng giận tôi nhé.",
@@ -212,7 +203,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Hoạt náo.",
     exampleEn: "Animate the scene.",
     exampleVi: "Làm sống động cảnh quay.",
-    categories: ["Art", "General"],
+    categories: ["Art","General"],
   },
   {
     id: "gen-2061",
@@ -220,12 +211,11 @@ export const A3: VocabularyWord[] = [
     slug: "animation",
     phonetic: "/ˌæn.əˈmeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The technique of photographing successive drawings or positions of puppets to create an illusion of movement.",
+    meaningEn: "The technique of photographing successive drawings or positions of puppets to create an illusion of movement.",
     meaningVi: "Hoạt hình.",
     exampleEn: "Computer animation.",
     exampleVi: "Hoạt hình máy tính.",
-    categories: ["Art", "Technology", "Media"],
+    categories: ["Art","Technology","Media"],
   },
   {
     id: "c2-183",
@@ -237,7 +227,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Tiêu diệt hoàn toàn.",
     exampleEn: "The army was annihilated.",
     exampleVi: "Đội quân đã bị tiêu diệt hoàn toàn.",
-    categories: ["Daily", "Social"],
+    categories: ["Daily","Social"],
   },
   {
     id: "gen-2062",
@@ -249,7 +239,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Ngày kỷ niệm.",
     exampleEn: "Wedding anniversary.",
     exampleVi: "Kỷ niệm ngày cưới.",
-    categories: ["Daily", "Social"],
+    categories: ["Daily","Social"],
   },
   {
     id: "b2-119",
@@ -257,8 +247,7 @@ export const A3: VocabularyWord[] = [
     slug: "annotate",
     phonetic: "/ˈæn.ə.teɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Add notes to (a text or diagram) giving explanation or comment.",
+    meaningEn: "Add notes to (a text or diagram) giving explanation or comment.",
     meaningVi: "Chú thích.",
     exampleEn: "Annotate a document.",
     exampleVi: "Chú thích một tài liệu.",
@@ -270,12 +259,11 @@ export const A3: VocabularyWord[] = [
     slug: "announce",
     phonetic: "/əˈnaʊns/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Make a formal public statement about a fact, occurrence, or intention.",
+    meaningEn: "Make a formal public statement about a fact, occurrence, or intention.",
     meaningVi: "Thông báo.",
     exampleEn: "Announce the winner.",
     exampleVi: "Thông báo người chiến thắng.",
-    categories: ["General", "Media"],
+    categories: ["General","Media"],
   },
   {
     id: "gen-39",
@@ -283,8 +271,7 @@ export const A3: VocabularyWord[] = [
     slug: "announcement",
     phonetic: "/əˈnaʊns.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A public and formal statement about a fact, occurrence, or intention.",
+    meaningEn: "A public and formal statement about a fact, occurrence, or intention.",
     meaningVi: "Thông báo.",
     exampleEn: "The president made an announcement.",
     exampleVi: "Tổng thống đã đưa ra một thông báo.",
@@ -296,12 +283,11 @@ export const A3: VocabularyWord[] = [
     slug: "announcer",
     phonetic: "/əˈnaʊn.sɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who announces something, especially someone who introduces or gives information about programs on radio or television.",
+    meaningEn: "A person who announces something, especially someone who introduces or gives information about programs on radio or television.",
     meaningVi: "Người thông báo.",
     exampleEn: "Radio announcer.",
     exampleVi: "Phát thanh viên đài phát thanh.",
-    categories: ["People", "Media"],
+    categories: ["People","Media"],
   },
   {
     id: "gen-2066",
@@ -313,7 +299,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Làm phiền.",
     exampleEn: "It annoys me.",
     exampleVi: "Nó làm tôi khó chịu.",
-    categories: ["Emotions", "General"],
+    categories: ["Emotions","General"],
   },
   {
     id: "b2-173",
@@ -337,7 +323,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Một cách thường niên.",
     exampleEn: "Meet annually.",
     exampleVi: "Họp mặt hàng năm.",
-    categories: ["Daily", "Business"],
+    categories: ["Daily","Business"],
   },
   {
     id: "gen-40",
@@ -369,8 +355,7 @@ export const A3: VocabularyWord[] = [
     slug: "another",
     phonetic: "/əˈnʌð.ɚ/",
     partOfSpeech: "determiner/pronoun",
-    meaningEn:
-      "Used to refer to an additional person or thing of the same type as one already mentioned or known about.",
+    meaningEn: "Used to refer to an additional person or thing of the same type as one already mentioned or known about.",
     meaningVi: "Thêm một cái nữa.",
     exampleEn: "Have another cup.",
     exampleVi: "Uống thêm một tách nữa.",
@@ -382,8 +367,7 @@ export const A3: VocabularyWord[] = [
     slug: "answer",
     phonetic: "/ˈɑːn.sər/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A thing said, written, or done to deal with or as a reaction to a question, statement, or situation.",
+    meaningEn: "A thing said, written, or done to deal with or as a reaction to a question, statement, or situation.",
     meaningVi: "Câu trả lời, lời giải đáp.",
     exampleEn: "I don't know the answer.",
     exampleVi: "Tôi không biết câu trả lời.",
@@ -395,8 +379,7 @@ export const A3: VocabularyWord[] = [
     slug: "ant",
     phonetic: "/ænt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A small insect, typically having a sting and living in a complex social colony.",
+    meaningEn: "A small insect, typically having a sting and living in a complex social colony.",
     meaningVi: "Con kiến.",
     exampleEn: "Busy ant.",
     exampleVi: "Con kiến bận rộn.",
@@ -412,7 +395,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Nam Cực.",
     exampleEn: "Antarctic expedition.",
     exampleVi: "Thám hiểm Nam Cực.",
-    categories: ["Geography", "Environment"],
+    categories: ["Geography","Environment"],
   },
   {
     id: "gen-2074",
@@ -420,12 +403,11 @@ export const A3: VocabularyWord[] = [
     slug: "antenna",
     phonetic: "/ænˈten.ə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A rod, wire, or other device used to transmit or receive radio or television signals.",
+    meaningEn: "A rod, wire, or other device used to transmit or receive radio or television signals.",
     meaningVi: "Ăng-ten.",
     exampleEn: "TV antenna.",
     exampleVi: "Ăng-ten TV.",
-    categories: ["Technology", "Media"],
+    categories: ["Technology","Media"],
   },
   {
     id: "gen-2075",
@@ -433,12 +415,11 @@ export const A3: VocabularyWord[] = [
     slug: "anthem",
     phonetic: "/ˈæn.θəm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A rousing or uplifting song identified with a particular group, body, or cause.",
+    meaningEn: "A rousing or uplifting song identified with a particular group, body, or cause.",
     meaningVi: "Bài hát ca ngợi/Quốc ca.",
     exampleEn: "National anthem.",
     exampleVi: "Quốc ca.",
-    categories: ["Politics", "Music"],
+    categories: ["Politics","Music"],
   },
   {
     id: "gen-2076",
@@ -450,7 +431,19 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Tuyển tập.",
     exampleEn: "Poetry anthology.",
     exampleVi: "Tuyển tập thơ.",
-    categories: ["Literature", "Education"],
+    categories: ["Literature","Education"],
+  },
+  {
+    id: "gen-ak42",
+    word: "Anthropocene",
+    slug: "anthropocene",
+    phonetic: "/ˌæn.θrə.pəˈsiːn/",
+    partOfSpeech: "noun",
+    meaningEn: "The current geological age, viewed as the period during which human activity has been the dominant influence on climate and the environment.",
+    meaningVi: "Kỷ Anthropocene.",
+    exampleEn: "The Anthropocene epoch.",
+    exampleVi: "Kỷ nguyên Anthropocene.",
+    categories: ["Environment","Geology"],
   },
   {
     id: "gen-2077",
@@ -462,7 +455,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Nhà nhân chủng học.",
     exampleEn: "Forensic anthropologist.",
     exampleVi: "Nhà nhân chủng học pháp y.",
-    categories: ["People", "Science"],
+    categories: ["People","Science"],
   },
   {
     id: "gen-2078",
@@ -470,25 +463,11 @@ export const A3: VocabularyWord[] = [
     slug: "anthropology",
     phonetic: "/ˌæn.θrəˈpɑː.lə.dʒi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The study of human societies and cultures and their development.",
+    meaningEn: "The study of human societies and cultures and their development.",
     meaningVi: "Nhân chủng học.",
     exampleEn: "Social anthropology.",
     exampleVi: "Nhân chủng học xã hội.",
-    categories: ["Social", "Science"],
-  },
-  {
-    id: "gen-ak42",
-    word: "Anthropocene",
-    slug: "anthropocene",
-    phonetic: "/ˌæn.θrə.pəˈsiːn/",
-    partOfSpeech: "noun",
-    meaningEn:
-      "The current geological age, viewed as the period during which human activity has been the dominant influence on climate and the environment.",
-    meaningVi: "Kỷ Anthropocene.",
-    exampleEn: "The Anthropocene epoch.",
-    exampleVi: "Kỷ nguyên Anthropocene.",
-    categories: ["Environment", "Geology"],
+    categories: ["Social","Science"],
   },
   {
     id: "gen-2079",
@@ -500,7 +479,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Chống lại.",
     exampleEn: "Anti-war.",
     exampleVi: "Phản chiến.",
-    categories: ["General", "Politics"],
+    categories: ["General","Politics"],
   },
   {
     id: "b1-236",
@@ -532,12 +511,11 @@ export const A3: VocabularyWord[] = [
     slug: "anticipation",
     phonetic: "/ænˌtɪs.əˈpeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action of anticipating something; expectation or prediction.",
+    meaningEn: "The action of anticipating something; expectation or prediction.",
     meaningVi: "Sự mong đợi.",
     exampleEn: "In anticipation of.",
     exampleVi: "Trong sự mong chờ.",
-    categories: ["General", "Emotions"],
+    categories: ["General","Emotions"],
   },
   {
     id: "c2-68",
@@ -557,12 +535,11 @@ export const A3: VocabularyWord[] = [
     slug: "antique",
     phonetic: "/ænˈtiːk/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A collectible object such as a piece of furniture or work of art that has a high value because of its considerable age.",
+    meaningEn: "A collectible object such as a piece of furniture or work of art that has a high value because of its considerable age.",
     meaningVi: "Đồ cổ.",
     exampleEn: "Antique shop.",
     exampleVi: "Cửa hàng đồ cổ.",
-    categories: ["General", "Shopping", "Art"],
+    categories: ["General","Shopping","Art"],
   },
   {
     id: "c2-5",
@@ -570,8 +547,7 @@ export const A3: VocabularyWord[] = [
     slug: "antithesis",
     phonetic: "/ænˈtɪθ.ə.sɪs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person or thing that is the direct opposite of someone or something else.",
+    meaningEn: "A person or thing that is the direct opposite of someone or something else.",
     meaningVi: "Phép đối chọi, sự tương phản hoàn toàn.",
     exampleEn: "Love is the antithesis of selfishness.",
     exampleVi: "Tình yêu là sự đối chọi của tính ích kỷ.",
@@ -583,8 +559,7 @@ export const A3: VocabularyWord[] = [
     slug: "anxiety",
     phonetic: "/æŋˈzaɪ.ə.ti/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A feeling of worry, nervousness, or unease, typically about an imminent event or something with an uncertain outcome.",
+    meaningEn: "A feeling of worry, nervousness, or unease, typically about an imminent event or something with an uncertain outcome.",
     meaningVi: "Sự lo lắng.",
     exampleEn: "Extreme anxiety.",
     exampleVi: "Sự lo lắng tột độ.",
@@ -600,7 +575,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Lo lắng.",
     exampleEn: "Anxious about the exam.",
     exampleVi: "Lo lắng về kỳ thi.",
-    categories: ["Emotions", "Medical"],
+    categories: ["Emotions","Medical"],
   },
   {
     id: "gen-2086",
@@ -608,8 +583,7 @@ export const A3: VocabularyWord[] = [
     slug: "any",
     phonetic: "/ˈen.i/",
     partOfSpeech: "determiner/pronoun/adverb",
-    meaningEn:
-      "Used to refer to one or some of a thing or number of things, no matter how much or many.",
+    meaningEn: "Used to refer to one or some of a thing or number of things, no matter how much or many.",
     meaningVi: "Bất kỳ.",
     exampleEn: "Any questions?",
     exampleVi: "Có câu hỏi nào không?",
@@ -649,7 +623,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Bất cứ ai.",
     exampleEn: "Anyone can join.",
     exampleVi: "Bất cứ ai cũng có thể tham gia.",
-    categories: ["General", "People"],
+    categories: ["General","People"],
   },
   {
     id: "gen-2090",
@@ -705,8 +679,7 @@ export const A3: VocabularyWord[] = [
     slug: "apart",
     phonetic: "/əˈpɑːrt/",
     partOfSpeech: "adverb/adjective",
-    meaningEn:
-      "Separated by a distance; at a specified distance from each other in time or space.",
+    meaningEn: "Separated by a distance; at a specified distance from each other in time or space.",
     meaningVi: "Tách rời.",
     exampleEn: "Live apart.",
     exampleVi: "Sống xa nhau.",
@@ -718,12 +691,11 @@ export const A3: VocabularyWord[] = [
     slug: "apartment",
     phonetic: "/əˈpɑːrt.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A suite of rooms forming one residence, typically on one floor of a building.",
+    meaningEn: "A suite of rooms forming one residence, typically on one floor of a building.",
     meaningVi: "Căn hộ.",
     exampleEn: "I live in a small apartment.",
     exampleVi: "Tôi sống trong một căn hộ nhỏ.",
-    categories: ["Home", "Daily"],
+    categories: ["Home","Daily"],
   },
   {
     id: "c2-184",
@@ -735,7 +707,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Thờ ơ, vô cảm.",
     exampleEn: "Apathetic voters.",
     exampleVi: "Những cử tri thờ ơ.",
-    categories: ["Social", "Daily"],
+    categories: ["Social","Daily"],
   },
   {
     id: "gen-2096",
@@ -743,8 +715,7 @@ export const A3: VocabularyWord[] = [
     slug: "ape",
     phonetic: "/eɪp/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A large primate that lacks a tail, including the gorilla, chimpanzees, orangutan, and gibbons.",
+    meaningEn: "A large primate that lacks a tail, including the gorilla, chimpanzees, orangutan, and gibbons.",
     meaningVi: "Loài vượn.",
     exampleEn: "Great ape.",
     exampleVi: "Vượn lớn.",
@@ -768,12 +739,11 @@ export const A3: VocabularyWord[] = [
     slug: "apocalyptic",
     phonetic: "/əˌpɑː.kəˈlɪp.tɪk/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Describing or prophesying the complete destruction of the world.",
+    meaningEn: "Describing or prophesying the complete destruction of the world.",
     meaningVi: "Thuộc về tận thế.",
     exampleEn: "Apocalyptic vision.",
     exampleVi: "Tầm nhìn về ngày tận thế.",
-    categories: ["General", "Literature"],
+    categories: ["General","Literature"],
   },
   {
     id: "b2-176",
@@ -809,7 +779,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Lời xin lỗi.",
     exampleEn: "Sincere apology.",
     exampleVi: "Lời xin lỗi chân thành.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "a2-184",
@@ -817,12 +787,11 @@ export const A3: VocabularyWord[] = [
     slug: "app",
     phonetic: "/æp/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An application, especially as downloaded by a user to a mobile device.",
+    meaningEn: "An application, especially as downloaded by a user to a mobile device.",
     meaningVi: "Ứng dụng.",
     exampleEn: "Download the app.",
     exampleVi: "Tải xuống ứng dụng.",
-    categories: ["Technology", "Daily"],
+    categories: ["Technology","Daily"],
   },
   {
     id: "b2-177",
@@ -909,25 +878,12 @@ export const A3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-44",
-    word: "Body",
-    slug: "Body",
-    phonetic: "/əˈpɪr.əns/",
-    partOfSpeech: "noun",
-    meaningEn: "The way that someone or something looks.",
-    meaningVi: "Vẻ bề ngoài, sự xuất hiện.",
-    exampleEn: "Appearance is not everything.",
-    exampleVi: "Vẻ bề ngoài không phải là tất cả.",
-    categories: ["General"],
-  },
-  {
     id: "b2-122",
     word: "Appendix",
     slug: "appendix",
     phonetic: "/əˈpen.dɪks/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A section or table of additional matter at the end of a book or document.",
+    meaningEn: "A section or table of additional matter at the end of a book or document.",
     meaningVi: "Phụ lục; ruột thừa.",
     exampleEn: "See Appendix A.",
     exampleVi: "Xem phụ lục A.",
@@ -939,12 +895,11 @@ export const A3: VocabularyWord[] = [
     slug: "appetite",
     phonetic: "/ˈæp.ə.taɪt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A natural desire to satisfy a bodily need, especially for food.",
+    meaningEn: "A natural desire to satisfy a bodily need, especially for food.",
     meaningVi: "Sự ngon miệng.",
     exampleEn: "Healthy appetite.",
     exampleVi: "Sự thèm ăn lành mạnh.",
-    categories: ["Food & Drink", "Medical"],
+    categories: ["Food & Drink","Medical"],
   },
   {
     id: "b2-180",
@@ -964,8 +919,7 @@ export const A3: VocabularyWord[] = [
     slug: "apple",
     phonetic: "/ˈæpl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A round fruit with red, yellow, or green skin and firm white flesh.",
+    meaningEn: "A round fruit with red, yellow, or green skin and firm white flesh.",
     meaningVi: "Quả táo.",
     exampleEn: "She is eating an apple.",
     exampleVi: "Cô ấy đang ăn một quả táo.",
@@ -977,12 +931,11 @@ export const A3: VocabularyWord[] = [
     slug: "appliance",
     phonetic: "/əˈplaɪ.əns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A device or piece of equipment designed to perform a specific task.",
+    meaningEn: "A device or piece of equipment designed to perform a specific task.",
     meaningVi: "Thiết bị/Đồ gia dụng.",
     exampleEn: "Household appliances.",
     exampleVi: "Thiết bị gia dụng.",
-    categories: ["Home", "Technology"],
+    categories: ["Home","Technology"],
   },
   {
     id: "b2-181",
@@ -1006,7 +959,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Người nộp đơn.",
     exampleEn: "Job applicant.",
     exampleVi: "Người nộp đơn xin việc.",
-    categories: ["Business", "People"],
+    categories: ["Business","People"],
   },
   {
     id: "b1-127",
@@ -1018,7 +971,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Ứng dụng, đơn xin.",
     exampleEn: "He submitted his application for the job.",
     exampleVi: "Anh ấy đã nộp đơn xin việc.",
-    categories: ["Business", "Technology"],
+    categories: ["Business","Technology"],
   },
   {
     id: "gen-2115",
@@ -1030,7 +983,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Ứng dụng.",
     exampleEn: "Applied science.",
     exampleVi: "Khoa học ứng dụng.",
-    categories: ["Science", "Education"],
+    categories: ["Science","Education"],
   },
   {
     id: "b2-123",
@@ -1054,7 +1007,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Bổ nhiệm.",
     exampleEn: "Appoint a director.",
     exampleVi: "Bổ nhiệm giám đốc.",
-    categories: ["Business", "Business"],
+    categories: ["Business","Business"],
   },
   {
     id: "a2-168",
@@ -1066,7 +1019,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Cuộc hẹn.",
     exampleEn: "I have a dentist appointment.",
     exampleVi: "Tôi có một cuộc hẹn với nha sĩ.",
-    categories: ["Daily", "Medical"],
+    categories: ["Daily","Medical"],
   },
   {
     id: "gen-2119",
@@ -1078,7 +1031,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Đánh giá.",
     exampleEn: "Performance appraisal.",
     exampleVi: "Đánh giá năng lực.",
-    categories: ["Business", "Business"],
+    categories: ["Business","Business"],
   },
   {
     id: "b2-124",
@@ -1098,12 +1051,11 @@ export const A3: VocabularyWord[] = [
     slug: "appreciation",
     phonetic: "/əˌpriː.ʃiˈeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The recognition and enjoyment of the good qualities of someone or something.",
+    meaningEn: "The recognition and enjoyment of the good qualities of someone or something.",
     meaningVi: "Sự trân trọng.",
     exampleEn: "Show appreciation.",
     exampleVi: "Thể hiện sự trân trọng.",
-    categories: ["Emotions", "General"],
+    categories: ["Emotions","General"],
   },
   {
     id: "gen-2122",
@@ -1115,7 +1067,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Người học việc.",
     exampleEn: "Young apprentice.",
     exampleVi: "Người học việc trẻ.",
-    categories: ["Business", "People"],
+    categories: ["Business","People"],
   },
   {
     id: "b2-4",
@@ -1163,7 +1115,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Sự phê duyệt.",
     exampleEn: "Give approval.",
     exampleVi: "Phê duyệt.",
-    categories: ["Business", "General"],
+    categories: ["Business","General"],
   },
   {
     id: "gen-2127",
@@ -1175,7 +1127,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Phê duyệt.",
     exampleEn: "Approve the plan.",
     exampleVi: "Phê duyệt kế hoạch.",
-    categories: ["Business", "General"],
+    categories: ["Business","General"],
   },
   {
     id: "b2-125",
@@ -1195,12 +1147,11 @@ export const A3: VocabularyWord[] = [
     slug: "approximately",
     phonetic: "/əˈprɑːk.sə.mət.li/",
     partOfSpeech: "adverb",
-    meaningEn:
-      "Used to show that something is almost, but not completely, accurate or exact; roughly.",
+    meaningEn: "Used to show that something is almost, but not completely, accurate or exact; roughly.",
     meaningVi: "Xấp xỉ.",
     exampleEn: "Approximately two hours.",
     exampleVi: "Khoảng hai giờ.",
-    categories: ["General", "Mathematics"],
+    categories: ["General","Mathematics"],
   },
   {
     id: "gen-2130",
@@ -1224,7 +1175,7 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Năng khiếu.",
     exampleEn: "Aptitude test.",
     exampleVi: "Bài kiểm tra năng khiếu.",
-    categories: ["Education", "General"],
+    categories: ["Education","General"],
   },
   {
     id: "c1-62",
@@ -1232,8 +1183,7 @@ export const A3: VocabularyWord[] = [
     slug: "arbitrary",
     phonetic: "/ˈɑː.bɪ.trər.i/",
     partOfSpeech: "adj",
-    meaningEn:
-      "Based on random choice or personal whim, rather than any reason or system.",
+    meaningEn: "Based on random choice or personal whim, rather than any reason or system.",
     meaningVi: "Tùy ý, độc đoán.",
     exampleEn: "An arbitrary decision.",
     exampleVi: "Một quyết định tùy ý.",
@@ -1249,6 +1199,6 @@ export const A3: VocabularyWord[] = [
     meaningVi: "Kiến trúc sư.",
     exampleEn: "A famous architect.",
     exampleVi: "Một kiến trúc sư nổi tiếng.",
-    categories: ["Engineering", "Jobs"],
-  },
+    categories: ["Engineering","Jobs"],
+  }
 ];

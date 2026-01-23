@@ -2,19 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const E4: VocabularyWord[] = [
   {
-    id: "gen-6956",
-    word: "Embark",
-    slug: "embark",
-    phonetic: "/ɪmˈbɑːrk/",
-    partOfSpeech: "verb",
-    meaningEn:
-      "Go on board a ship, aircraft, or other vehicle; begin (a course of action, especially one that is important or demanding).",
-    meaningVi: "Lên tàu/Bắt đầu (một công việc/hành trình).",
-    exampleEn: "Embark on a new career.",
-    exampleVi: "Bắt đầu một sự nghiệp mới.",
-    categories: ["Travel", "General", "Business"],
-  },
-  {
     id: "gen-6957",
     word: "Embarkation",
     slug: "embarkation",
@@ -24,7 +11,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Sự lên tàu/Sự bắt đầu hành trình.",
     exampleEn: "Port of embarkation.",
     exampleVi: "Cảng bốc hàng/Cảng lên tàu.",
-    categories: ["Travel", "Business"],
+    categories: ["Travel","Business"],
   },
   {
     id: "gen-373",
@@ -48,7 +35,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Lúng túng/Ngượng ngùng/Xấu hổ.",
     exampleEn: "Deeply embarrassed.",
     exampleVi: "Cực kỳ xấu hổ.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-6960",
@@ -60,7 +47,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Gây lúng túng/Gây xấu hổ/Ngượng nghịu.",
     exampleEn: "Embarrassing situation.",
     exampleVi: "Tình huống trớ trêu/ngượng ngùng.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-6961",
@@ -72,7 +59,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Một cách lúng túng/Đáng xấu hổ.",
     exampleEn: "Embarrassingly slow.",
     exampleVi: "Chậm chạp đến mức đáng xấu hổ.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-6962",
@@ -84,7 +71,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Sự lúng túng/Sự ngượng ngùng/Điều gây xấu hổ.",
     exampleEn: "Financial embarrassment.",
     exampleVi: "Tình trạng túng quẫn (về tài chính).",
-    categories: ["Psychology", "Social", "Business"],
+    categories: ["Psychology","Social","Business"],
   },
   {
     id: "gen-6963",
@@ -96,7 +83,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Đại sứ quán.",
     exampleEn: "American Embassy.",
     exampleVi: "Đại sứ quán Mỹ.",
-    categories: ["Politics", "Architecture", "Social"],
+    categories: ["Politics","Architecture","Social"],
   },
   {
     id: "gen-6964",
@@ -108,7 +95,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Chuẩn bị chiến đấu/Bủa vây bởi khó khăn.",
     exampleEn: "Embattled city.",
     exampleVi: "Thành phố đang bị bủa vây/chiến tranh.",
-    categories: ["Politics", "Social", "History"],
+    categories: ["Politics","Social","History"],
   },
   {
     id: "gen-6965",
@@ -116,12 +103,11 @@ export const E4: VocabularyWord[] = [
     slug: "embattled",
     phonetic: "/ɪmˈbæt̬.əld/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a place or people) beset by difficulties; prepared for battle.",
+    meaningEn: "(of a place or people) beset by difficulties; prepared for battle.",
     meaningVi: "Đang trong tình trạng khó khăn/Sẵn sàng chiến đấu.",
     exampleEn: "Embattled prime minister.",
     exampleVi: "Vị thủ tướng đang khốn đốn (vì khủng hoảng).",
-    categories: ["Politics", "Social"],
+    categories: ["Politics","Social"],
   },
   {
     id: "gen-6966",
@@ -133,7 +119,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Gắn vào/Nhúng vào/Ghi sâu vào.",
     exampleEn: "Embed a video.",
     exampleVi: "Nhúng một video.",
-    categories: ["Technology", "General", "Technology"],
+    categories: ["Technology","General","Technology"],
   },
   {
     id: "gen-6967",
@@ -141,12 +127,11 @@ export const E4: VocabularyWord[] = [
     slug: "embedded",
     phonetic: "/ɪmˈbed.ɪd/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Fixed firmly and deeply in a surrounding mass; (of a journalist) attached to a military unit during a conflict.",
+    meaningEn: "Fixed firmly and deeply in a surrounding mass; (of a journalist) attached to a military unit during a conflict.",
     meaningVi: "Được gắn vào/Nằm sâu/Nhúng.",
     exampleEn: "Embedded system.",
     exampleVi: "Hệ thống nhúng.",
-    categories: ["Technology", "Technology", "General"],
+    categories: ["Technology","Technology","General"],
   },
   {
     id: "gen-6968",
@@ -154,12 +139,11 @@ export const E4: VocabularyWord[] = [
     slug: "embellish",
     phonetic: "/ɪmˈbel.ɪʃ/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Make (something) more attractive by the addition of decorative details or features.",
+    meaningEn: "Make (something) more attractive by the addition of decorative details or features.",
     meaningVi: "Trang trí/Tô điểm/Thêm thắt (vào câu chuyện).",
     exampleEn: "Embellish the truth.",
     exampleVi: "Thêu dệt sự thật.",
-    categories: ["Art", "Literature", "General"],
+    categories: ["Art","Literature","General"],
   },
   {
     id: "gen-6969",
@@ -167,12 +151,11 @@ export const E4: VocabularyWord[] = [
     slug: "embellishment",
     phonetic: "/ɪmˈbel.ɪʃ.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A decorative detail or feature added to something to make it more attractive.",
+    meaningEn: "A decorative detail or feature added to something to make it more attractive.",
     meaningVi: "Sự trang trí/Sự tô điểm/Sự thêm thắt.",
     exampleEn: "Musical embellishment.",
     exampleVi: "Sự tô điểm trong âm nhạc.",
-    categories: ["Art", "General", "Music"],
+    categories: ["Art","General","Music"],
   },
   {
     id: "gen-6970",
@@ -184,7 +167,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Than hồng/Tàn lửa.",
     exampleEn: "Dying embers.",
     exampleVi: "Những đống than hồng đang lụi dần.",
-    categories: ["General", "Nature"],
+    categories: ["General","Nature"],
   },
   {
     id: "gen-6971",
@@ -192,12 +175,11 @@ export const E4: VocabularyWord[] = [
     slug: "embezzle",
     phonetic: "/ɪmˈbez.əl/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Steal or misappropriate (money placed in one's trust or belonging to the organization for which one works).",
+    meaningEn: "Steal or misappropriate (money placed in one's trust or belonging to the organization for which one works).",
     meaningVi: "Tham ô/Biển thủ.",
     exampleEn: "Embezzle funds.",
     exampleVi: "Biển thủ công quỹ.",
-    categories: ["Law", "Business", "Politics"],
+    categories: ["Law","Business","Politics"],
   },
   {
     id: "gen-6972",
@@ -205,12 +187,11 @@ export const E4: VocabularyWord[] = [
     slug: "embezzlement",
     phonetic: "/ɪmˈbez.əl.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Theft or misappropriation of funds placed in one's trust or belonging to one's employer.",
+    meaningEn: "Theft or misappropriation of funds placed in one's trust or belonging to one's employer.",
     meaningVi: "Sự tham ô/Sự biển thủ.",
     exampleEn: "Accused of embezzlement.",
     exampleVi: "Bị buộc tội tham ô.",
-    categories: ["Law", "Business", "Politics"],
+    categories: ["Law","Business","Politics"],
   },
   {
     id: "gen-6973",
@@ -222,7 +203,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Kẻ tham ô/Kẻ biển thủ.",
     exampleEn: "Convicted embezzler.",
     exampleVi: "Bị kết án là kẻ tham ô.",
-    categories: ["People", "Law", "Business"],
+    categories: ["People","Law","Business"],
   },
   {
     id: "gen-6974",
@@ -234,7 +215,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Làm cho cay đắng/Làm cho oán giận.",
     exampleEn: "Embittered by failure.",
     exampleVi: "Bị oán giận/cay đắng bởi thất bại.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6975",
@@ -246,7 +227,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Trang trí rực rỡ/Ghi chú nổi bật.",
     exampleEn: "Shirt emblazoned with a logo.",
     exampleVi: "Chiếc áo phông in nổi bật một biểu tượng.",
-    categories: ["Art", "General"],
+    categories: ["Art","General"],
   },
   {
     id: "gen-6976",
@@ -254,12 +235,11 @@ export const E4: VocabularyWord[] = [
     slug: "emblem",
     phonetic: "/ˈem.bləm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A heraldic device or symbolic object as a distinctive badge of a nation, organization, or family.",
+    meaningEn: "A heraldic device or symbolic object as a distinctive badge of a nation, organization, or family.",
     meaningVi: "Biểu tượng/Huy hiệu/Tượng trưng.",
     exampleEn: "National emblem.",
     exampleVi: "Quốc huy/Biểu tượng quốc gia.",
-    categories: ["Social", "Politics", "General", "History"],
+    categories: ["Social","Politics","General","History"],
   },
   {
     id: "gen-6977",
@@ -271,7 +251,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Được hiện thân/Được cụ thể hóa.",
     exampleEn: "Embodied spirit.",
     exampleVi: "Linh hồn hiện thân.",
-    categories: ["Philosophy", "General"],
+    categories: ["Philosophy","General"],
   },
   {
     id: "gen-6978",
@@ -283,7 +263,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Sự hiện thân/Sự cụ thể hóa/Hình mẫu.",
     exampleEn: "He is the embodiment of evil.",
     exampleVi: "Hắn ta là hiện thân của cái ác.",
-    categories: ["Philosophy", "General", "Psychology"],
+    categories: ["Philosophy","General","Psychology"],
   },
   {
     id: "gen-6979",
@@ -291,12 +271,11 @@ export const E4: VocabularyWord[] = [
     slug: "embody",
     phonetic: "/ɪmˈbɑː.di/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Be an expression of or give a tangible or visible form to (an idea, quality, or feeling).",
+    meaningEn: "Be an expression of or give a tangible or visible form to (an idea, quality, or feeling).",
     meaningVi: "Hiện thân/Bao gồm/Cụ thể hóa.",
     exampleEn: "Embody the principles.",
     exampleVi: "Thể hiện các nguyên tắc.",
-    categories: ["General", "Social", "Philosophy"],
+    categories: ["General","Social","Philosophy"],
   },
   {
     id: "gen-6980",
@@ -304,12 +283,11 @@ export const E4: VocabularyWord[] = [
     slug: "embolden",
     phonetic: "/ɪmˈboʊl.dən/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Give (someone) the courage or confidence to do something or to behave in a certain way.",
+    meaningEn: "Give (someone) the courage or confidence to do something or to behave in a certain way.",
     meaningVi: "Làm cho bạo dạn/Khuyến khích.",
     exampleEn: "Emboldened by drink.",
     exampleVi: "Trở nên bạo dạn hơn nhờ có hơi men.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6981",
@@ -317,12 +295,11 @@ export const E4: VocabularyWord[] = [
     slug: "embolism",
     phonetic: "/ˈem.bə.lɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Obstruction of an artery, typically by a clot of blood or an air bubble.",
+    meaningEn: "Obstruction of an artery, typically by a clot of blood or an air bubble.",
     meaningVi: "Sự tắc mạch (máu).",
     exampleEn: "Pulmonary embolism.",
     exampleVi: "Tắc mạch phổi.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-6982",
@@ -330,12 +307,11 @@ export const E4: VocabularyWord[] = [
     slug: "emboss",
     phonetic: "/ɪmˈbɑːs/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Carve, mould, or stamp a design on (a surface) so that it stands out in relief.",
+    meaningEn: "Carve, mould, or stamp a design on (a surface) so that it stands out in relief.",
     meaningVi: "Chạm nổi/Dập nổi.",
     exampleEn: "Embossed stationery.",
     exampleVi: "Giấy viết thư được dập nổi hoa văn.",
-    categories: ["Art", "General"],
+    categories: ["Art","General"],
   },
   {
     id: "gen-6983",
@@ -343,12 +319,11 @@ export const E4: VocabularyWord[] = [
     slug: "embossed",
     phonetic: "/ɪmˈbɑːst/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a surface) decorated with a design that stands out in relief.",
+    meaningEn: "(of a surface) decorated with a design that stands out in relief.",
     meaningVi: "Được chạm nổi/Được dập nổi.",
     exampleEn: "Embossed logo.",
     exampleVi: "Logo được dập nổi.",
-    categories: ["Art", "General"],
+    categories: ["Art","General"],
   },
   {
     id: "gen-6984",
@@ -356,12 +331,11 @@ export const E4: VocabularyWord[] = [
     slug: "embrace",
     phonetic: "/ɪmˈbreɪs/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Hold (someone) closely in one's arms, especially as a sign of affection; accept or support (a belief, theory, or change) willingly and enthusiastically.",
+    meaningEn: "Hold (someone) closely in one's arms, especially as a sign of affection; accept or support (a belief, theory, or change) willingly and enthusiastically.",
     meaningVi: "Ôm/Chấp nhận/Đi theo (niềm tin/lý tưởng).",
     exampleEn: "Embrace a new culture.",
     exampleVi: "Đón nhận một nền văn hóa mới.",
-    categories: ["Social", "Psychology", "General"],
+    categories: ["Social","Psychology","General"],
   },
   {
     id: "gen-6985",
@@ -373,7 +347,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Bao gồm/Đón nhận/Cử chỉ ôm.",
     exampleEn: "All-embracing.",
     exampleVi: "Bao quát tất cả.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-6986",
@@ -381,12 +355,11 @@ export const E4: VocabularyWord[] = [
     slug: "embrasure",
     phonetic: "/ɪmˈbreɪ.ʒɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An opening in a wall through which a gun may be fired; a recessed area within a building.",
+    meaningEn: "An opening in a wall through which a gun may be fired; a recessed area within a building.",
     meaningVi: "Lỗ châu mai/Hốc cửa.",
     exampleEn: "Window embrasure.",
     exampleVi: "Hốc cửa sổ.",
-    categories: ["Architecture", "History", "Military"],
+    categories: ["Architecture","History","Military"],
   },
   {
     id: "gen-6987",
@@ -394,12 +367,11 @@ export const E4: VocabularyWord[] = [
     slug: "embroider",
     phonetic: "/ɪmˈbrɔɪ.dɚ/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Decorate (cloth) by sewing patterns on it with thread; add fictitious or exaggerated details to (a story) to make it more interesting.",
+    meaningEn: "Decorate (cloth) by sewing patterns on it with thread; add fictitious or exaggerated details to (a story) to make it more interesting.",
     meaningVi: "Thêu/Thêm thắt/Thêu dệt (chuyện).",
     exampleEn: "Embroider a pillowcase.",
     exampleVi: "Thêu một chiếc vỏ gối.",
-    categories: ["Art", "Daily", "General"],
+    categories: ["Art","Daily","General"],
   },
   {
     id: "gen-6988",
@@ -411,7 +383,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Người thợ thêu.",
     exampleEn: "Skillful embroiderer.",
     exampleVi: "Người thợ thêu khéo tay.",
-    categories: ["People", "Art", "Business"],
+    categories: ["People","Art","Business"],
   },
   {
     id: "gen-6989",
@@ -423,7 +395,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Nghệ thuật thêu/Hàng thêu/Sự thêm thắt.",
     exampleEn: "Intricate embroidery.",
     exampleVi: "Hàng thêu tinh xảo.",
-    categories: ["Art", "History"],
+    categories: ["Art","History"],
   },
   {
     id: "gen-6990",
@@ -431,12 +403,11 @@ export const E4: VocabularyWord[] = [
     slug: "embroil",
     phonetic: "/ɪmˈbrɔɪl/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Involve (someone) deeply in an argument, conflict, or difficult situation.",
+    meaningEn: "Involve (someone) deeply in an argument, conflict, or difficult situation.",
     meaningVi: "Lôi cuốn vào (vụ rắc rối)/Làm lộn xộn.",
     exampleEn: "Embroiled in a scandal.",
     exampleVi: "Bị lôi kéo vào một vụ bê bối.",
-    categories: ["Social", "Politics", "Law"],
+    categories: ["Social","Politics","Law"],
   },
   {
     id: "gen-6991",
@@ -448,7 +419,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Sự bị lôi cuốn vào rắc rối/Sự hỗn loạn.",
     exampleEn: "Avoid political embroilment.",
     exampleVi: "Tránh sự can thiệp/lôi cuốn vào chính trị.",
-    categories: ["Social", "Politics"],
+    categories: ["Social","Politics"],
   },
   {
     id: "gen-6992",
@@ -456,12 +427,11 @@ export const E4: VocabularyWord[] = [
     slug: "embryo",
     phonetic: "/ˈem.bri.oʊ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An unborn or unhatched offspring in the process of development.",
+    meaningEn: "An unborn or unhatched offspring in the process of development.",
     meaningVi: "Phôi thai/Mầm mống.",
     exampleEn: "In embryo.",
     exampleVi: "Trong giai đoạn phôi thai/Mới bắt đầu.",
-    categories: ["Biology", "Science", "Nature"],
+    categories: ["Biology","Science","Nature"],
   },
   {
     id: "gen-6993",
@@ -469,12 +439,11 @@ export const E4: VocabularyWord[] = [
     slug: "embryology",
     phonetic: "/ˌem.briˈɑː.lə.dʒi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The branch of biology and medicine concerned with the study of embryos and their development.",
+    meaningEn: "The branch of biology and medicine concerned with the study of embryos and their development.",
     meaningVi: "Phôi thai học.",
     exampleEn: "Classes in embryology.",
     exampleVi: "Các lớp học về phôi thai học.",
-    categories: ["Science", "Education", "Medical"],
+    categories: ["Science","Education","Medical"],
   },
   {
     id: "gen-6994",
@@ -482,12 +451,11 @@ export const E4: VocabularyWord[] = [
     slug: "embryonic",
     phonetic: "/ˌem.briˈɑː.nɪk/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to an embryo; in a rudimentary stage with potential for further development.",
+    meaningEn: "Relating to an embryo; in a rudimentary stage with potential for further development.",
     meaningVi: "Thuộc về phôi thai/Còn phôi thai/Chưa phát triển.",
     exampleEn: "Embryonic stage.",
     exampleVi: "Giai đoạn phôi thai/Giai đoạn sơ khai.",
-    categories: ["Science", "Biology", "General"],
+    categories: ["Science","Biology","General"],
   },
   {
     id: "gen-6995",
@@ -499,7 +467,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Hiệu đính/Sửa đổi (văn bản).",
     exampleEn: "Emend a manuscript.",
     exampleVi: "Hiệu đính một bản thảo.",
-    categories: ["Literature", "Education"],
+    categories: ["Literature","Education"],
   },
   {
     id: "gen-6996",
@@ -511,7 +479,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Sự hiệu đính/Sự sửa đổi.",
     exampleEn: "Textual emendation.",
     exampleVi: "Sự hiệu đính văn bản.",
-    categories: ["Literature", "Education"],
+    categories: ["Literature","Education"],
   },
   {
     id: "gen-6997",
@@ -523,7 +491,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Ngọc lục bảo/Màu xanh lục bảo.",
     exampleEn: "Emerald necklace.",
     exampleVi: "Vòng cổ ngọc lục bảo.",
-    categories: ["General", "Nature", "Fashion"],
+    categories: ["General","Nature","Fashion"],
   },
   {
     id: "b2-87",
@@ -543,12 +511,11 @@ export const E4: VocabularyWord[] = [
     slug: "emergence",
     phonetic: "/iˈmɝː.dʒəns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The process of coming into view or becoming exposed after being concealed.",
+    meaningEn: "The process of coming into view or becoming exposed after being concealed.",
     meaningVi: "Sự hiện ra/Sự nổi lên.",
     exampleEn: "Emergence of new ideas.",
     exampleVi: "Sự xuất hiện của những ý tưởng mới.",
-    categories: ["General", "Science", "Philosophy"],
+    categories: ["General","Science","Philosophy"],
   },
   {
     id: "a2-216",
@@ -556,12 +523,11 @@ export const E4: VocabularyWord[] = [
     slug: "emergency",
     phonetic: "/ɪˈmɜːr.dʒən.si/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A serious, unexpected, and often dangerous situation requiring immediate action.",
+    meaningEn: "A serious, unexpected, and often dangerous situation requiring immediate action.",
     meaningVi: "Trường hợp khẩn cấp.",
     exampleEn: "In case of emergency, call 911.",
     exampleVi: "Trong trường hợp khẩn cấp, hãy gọi 911.",
-    categories: ["Daily", "Medical"],
+    categories: ["Daily","Medical"],
   },
   {
     id: "gen-7001",
@@ -573,7 +539,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Mới nổi/Đang hiện ra.",
     exampleEn: "Emergent markets.",
     exampleVi: "Các thị trường mới nổi.",
-    categories: ["General", "Economics", "Science"],
+    categories: ["General","Economics","Science"],
   },
   {
     id: "gen-7002",
@@ -581,12 +547,11 @@ export const E4: VocabularyWord[] = [
     slug: "emeritus",
     phonetic: "/iˈmer.ə.t̬əs/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of the former holder of an office, especially a college professor) having retired but allowed to retain their title as an honor.",
+    meaningEn: "(of the former holder of an office, especially a college professor) having retired but allowed to retain their title as an honor.",
     meaningVi: "Danh dự/Đã nghỉ hưu (nhưng vẫn giữ tước vị tôn vinh).",
     exampleEn: "Professor emeritus.",
     exampleVi: "Giáo sư danh dự.",
-    categories: ["Education", "People"],
+    categories: ["Education","People"],
   },
   {
     id: "gen-7003",
@@ -594,12 +559,11 @@ export const E4: VocabularyWord[] = [
     slug: "emery",
     phonetic: "/ˈem.ər.i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A grayish-black form of corundum used as an abrasive in the form of powder or on paper.",
+    meaningEn: "A grayish-black form of corundum used as an abrasive in the form of powder or on paper.",
     meaningVi: "Bột mài/Đá mài (cát nhám).",
     exampleEn: "Emery board.",
     exampleVi: "Dũa móng tay.",
-    categories: ["General", "Beauty", "Engineering"],
+    categories: ["General","Beauty","Engineering"],
   },
   {
     id: "gen-7004",
@@ -611,7 +575,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Gây nôn/Thuốc nôn.",
     exampleEn: "Emetic substance.",
     exampleVi: "Chất gây nôn.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-7005",
@@ -619,12 +583,11 @@ export const E4: VocabularyWord[] = [
     slug: "emigrant",
     phonetic: "/ˈem.ə.ɡrənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who leaves their own country in order to settle permanently in another.",
+    meaningEn: "A person who leaves their own country in order to settle permanently in another.",
     meaningVi: "Người di cư.",
     exampleEn: "Irish emigrants.",
     exampleVi: "Những người di cư Ireland.",
-    categories: ["People", "Social", "Politics"],
+    categories: ["People","Social","Politics"],
   },
   {
     id: "gen-7006",
@@ -632,12 +595,11 @@ export const E4: VocabularyWord[] = [
     slug: "emigrate",
     phonetic: "/ˈem.ə.ɡreɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Leave one's own country in order to settle permanently in another.",
+    meaningEn: "Leave one's own country in order to settle permanently in another.",
     meaningVi: "Di cư/Xuất cảnh.",
     exampleEn: "Emigrate to Canada.",
     exampleVi: "Di cư sang Canada.",
-    categories: ["Social", "Politics", "General"],
+    categories: ["Social","Politics","General"],
   },
   {
     id: "gen-7007",
@@ -645,12 +607,11 @@ export const E4: VocabularyWord[] = [
     slug: "emigration",
     phonetic: "/ˌem.əˈɡreɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The act of leaving one's own country to settle permanently in another; moving abroad.",
+    meaningEn: "The act of leaving one's own country to settle permanently in another; moving abroad.",
     meaningVi: "Sự di cư.",
     exampleEn: "Mass emigration.",
     exampleVi: "Sự di cư ồ ạt.",
-    categories: ["Social", "Politics", "History"],
+    categories: ["Social","Politics","History"],
   },
   {
     id: "gen-7008",
@@ -658,12 +619,11 @@ export const E4: VocabularyWord[] = [
     slug: "eminence",
     phonetic: "/ˈem.ə.nəns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Fame or recognized superiority, especially within a particular sphere or profession.",
+    meaningEn: "Fame or recognized superiority, especially within a particular sphere or profession.",
     meaningVi: "Sự lỗi lạc/Sự xuất sắc/Sự ưu tú.",
     exampleEn: "Scientist of great eminence.",
     exampleVi: "Nhà khoa học lỗi lạc.",
-    categories: ["General", "Psychology", "People"],
+    categories: ["General","Psychology","People"],
   },
   {
     id: "gen-7009",
@@ -671,12 +631,11 @@ export const E4: VocabularyWord[] = [
     slug: "eminent",
     phonetic: "/ˈem.ə.nənt/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a person) famous and respected within a particular sphere or profession.",
+    meaningEn: "(of a person) famous and respected within a particular sphere or profession.",
     meaningVi: "Lỗi lạc/Xuất chúng/Nổi tiếng.",
     exampleEn: "Eminent scholar.",
     exampleVi: "Học giả lỗi lạc.",
-    categories: ["General", "People", "Social"],
+    categories: ["General","People","Social"],
   },
   {
     id: "gen-7010",
@@ -700,7 +659,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Vương vương (tước vị hồi giáo).",
     exampleEn: "The Emir of Kuwait.",
     exampleVi: "Tiểu vương Kuwait.",
-    categories: ["People", "Politics", "History"],
+    categories: ["People","Politics","History"],
   },
   {
     id: "gen-7012",
@@ -712,7 +671,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Tiểu vương quốc.",
     exampleEn: "United Arab Emirates.",
     exampleVi: "Các Tiểu vương quốc Ả Rập Thống nhất.",
-    categories: ["Politics", "Geography", "History"],
+    categories: ["Politics","Geography","History"],
   },
   {
     id: "gen-7013",
@@ -720,12 +679,11 @@ export const E4: VocabularyWord[] = [
     slug: "emissary",
     phonetic: "/ˈem.ə.ser.i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person sent on a special mission, usually as a diplomatic representative.",
+    meaningEn: "A person sent on a special mission, usually as a diplomatic representative.",
     meaningVi: "Phái viên/Sứ giả.",
     exampleEn: "Peace emissary.",
     exampleVi: "Sứ giả hòa bình.",
-    categories: ["People", "Politics", "Social"],
+    categories: ["People","Politics","Social"],
   },
   {
     id: "gen-7014",
@@ -733,12 +691,11 @@ export const E4: VocabularyWord[] = [
     slug: "emission",
     phonetic: "/iˈmɪʃ.ən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The production and discharge of something, especially gas or radiation.",
+    meaningEn: "The production and discharge of something, especially gas or radiation.",
     meaningVi: "Sự phát ra/Sự tỏa ra/Khí thải.",
     exampleEn: "Carbon emissions.",
     exampleVi: "Lượng khí thải carbon.",
-    categories: ["Science", "Environment", "Technology"],
+    categories: ["Science","Environment","Technology"],
   },
   {
     id: "gen-7015",
@@ -746,12 +703,11 @@ export const E4: VocabularyWord[] = [
     slug: "emissive",
     phonetic: "/iˈmɪs.ɪv/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Having the power to radiate something, especially light, heat, or radiation.",
+    meaningEn: "Having the power to radiate something, especially light, heat, or radiation.",
     meaningVi: "Có khả năng phát xạ/Tỏa ra.",
     exampleEn: "Emissive light source.",
     exampleVi: "Nguồn sáng phát xạ.",
-    categories: ["Science", "Physics"],
+    categories: ["Science","Physics"],
   },
   {
     id: "gen-7016",
@@ -759,12 +715,11 @@ export const E4: VocabularyWord[] = [
     slug: "emit",
     phonetic: "/iˈmɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Produce and discharge (something, especially gas or radiation).",
+    meaningEn: "Produce and discharge (something, especially gas or radiation).",
     meaningVi: "Phát ra/Tỏa ra/Phát hành.",
     exampleEn: "Emit a sound.",
     exampleVi: "Phát ra âm thanh.",
-    categories: ["Science", "General", "Environment"],
+    categories: ["Science","General","Environment"],
   },
   {
     id: "gen-7017",
@@ -776,7 +731,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Sự phát xạ/Sự phát ra.",
     exampleEn: "Light emittance.",
     exampleVi: "Sự phát ánh sáng.",
-    categories: ["Science", "Physics"],
+    categories: ["Science","Physics"],
   },
   {
     id: "gen-7018",
@@ -788,7 +743,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Vật phát ra/Nguồn phát.",
     exampleEn: "Alpha emitter.",
     exampleVi: "Nguồn phát tia alpha.",
-    categories: ["Science", "Physics", "Technology"],
+    categories: ["Science","Physics","Technology"],
   },
   {
     id: "gen-7019",
@@ -800,7 +755,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Làm mềm (da)/Thuốc làm mềm da.",
     exampleEn: "Emollient cream.",
     exampleVi: "Kem làm mềm da.",
-    categories: ["Medical", "Beauty", "Medical"],
+    categories: ["Medical","Beauty","Medical"],
   },
   {
     id: "gen-7020",
@@ -812,7 +767,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Thù lao/Lương bổng.",
     exampleEn: "High emolument.",
     exampleVi: "Lương bổng hậu hĩnh.",
-    categories: ["Business", "Business", "Economics"],
+    categories: ["Business","Business","Economics"],
   },
   {
     id: "gen-375",
@@ -824,7 +779,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Cảm xúc.",
     exampleEn: "Express your emotions.",
     exampleVi: "Thể hiện cảm xúc của bạn.",
-    categories: ["Emotions", "Psychology"],
+    categories: ["Emotions","Psychology"],
   },
   {
     id: "gen-376",
@@ -836,7 +791,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Cảm xúc.",
     exampleEn: "An emotional moment.",
     exampleVi: "Một khoảnh khắc cảm xúc.",
-    categories: ["Emotions", "Psychology"],
+    categories: ["Emotions","Psychology"],
   },
   {
     id: "gen-7023",
@@ -848,7 +803,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Về mặt tình cảm/cảm xúc.",
     exampleEn: "Emotionally attached.",
     exampleVi: "Gắn bó về mặt tình cảm.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-7024",
@@ -860,7 +815,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Gây xúc động mạnh/Có xu hướng khêu gợi cảm xúc.",
     exampleEn: "Emotive issue.",
     exampleVi: "Vấn đề gây xúc động/tranh cãi mạnh.",
-    categories: ["Psychology", "General", "Literature"],
+    categories: ["Psychology","General","Literature"],
   },
   {
     id: "gen-7025",
@@ -868,12 +823,11 @@ export const E4: VocabularyWord[] = [
     slug: "empathetic",
     phonetic: "/ˌem.pəˈθet̬.ɪk/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Showing an ability to understand and share the feelings of another.",
+    meaningEn: "Showing an ability to understand and share the feelings of another.",
     meaningVi: "Đồng cảm.",
     exampleEn: "Empathetic listener.",
     exampleVi: "Người lắng nghe đầy sự đồng cảm.",
-    categories: ["Psychology", "Social", "General"],
+    categories: ["Psychology","Social","General"],
   },
   {
     id: "gen-7026",
@@ -885,7 +839,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Đồng cảm/Cảm thông.",
     exampleEn: "Empathize with the victims.",
     exampleVi: "Đồng cảm với các nạn nhân.",
-    categories: ["Psychology", "Social", "General"],
+    categories: ["Psychology","Social","General"],
   },
   {
     id: "gen-7027",
@@ -897,7 +851,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Sự đồng cảm.",
     exampleEn: "Lack of empathy.",
     exampleVi: "Sự thiếu đồng cảm.",
-    categories: ["Psychology", "Social", "General"],
+    categories: ["Psychology","Social","General"],
   },
   {
     id: "gen-7028",
@@ -905,12 +859,11 @@ export const E4: VocabularyWord[] = [
     slug: "emperor",
     phonetic: "/ˈem.pɚ.ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A sovereign ruler of great power and rank, especially one ruling an empire.",
+    meaningEn: "A sovereign ruler of great power and rank, especially one ruling an empire.",
     meaningVi: "Hoàng đế.",
     exampleEn: "The Roman Emperor.",
     exampleVi: "Hoàng đế La Mã.",
-    categories: ["People", "History", "Politics"],
+    categories: ["People","History","Politics"],
   },
   {
     id: "b2-88",
@@ -930,12 +883,11 @@ export const E4: VocabularyWord[] = [
     slug: "emphasize",
     phonetic: "/ˈem.fə.saɪz/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Give special importance or prominence to (something) in speaking or writing.",
+    meaningEn: "Give special importance or prominence to (something) in speaking or writing.",
     meaningVi: "Nhấn mạnh/Làm nổi bật.",
     exampleEn: "Emphasize a point.",
     exampleVi: "Nhấn mạnh một quan điểm.",
-    categories: ["General", "Education", "Social"],
+    categories: ["General","Education","Social"],
   },
   {
     id: "gen-7031",
@@ -943,12 +895,11 @@ export const E4: VocabularyWord[] = [
     slug: "emphatic",
     phonetic: "/emˈfæt̬.ɪk/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Showing or giving emphasis; expressing something forcibly and clearly.",
+    meaningEn: "Showing or giving emphasis; expressing something forcibly and clearly.",
     meaningVi: "Mạnh mẽ/Dứt khoát/Nhấn mạnh.",
     exampleEn: "Emphatic denial.",
     exampleVi: "Sự phủ nhận dứt khoát.",
-    categories: ["General", "Social", "Psychology"],
+    categories: ["General","Social","Psychology"],
   },
   {
     id: "gen-7032",
@@ -960,7 +911,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Một cách mạnh mẽ/dứt khoát.",
     exampleEn: "Denied it emphatically.",
     exampleVi: "Phủ nhận điều đó một cách dứt khoát.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-7033",
@@ -968,12 +919,11 @@ export const E4: VocabularyWord[] = [
     slug: "empire",
     phonetic: "/ˈem.paɪɪr/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An extensive group of states or countries under a single supreme authority.",
+    meaningEn: "An extensive group of states or countries under a single supreme authority.",
     meaningVi: "Đế chế/Đế quốc.",
     exampleEn: "The British Empire.",
     exampleVi: "Đế quốc Anh.",
-    categories: ["Politics", "History", "General"],
+    categories: ["Politics","History","General"],
   },
   {
     id: "c2-174",
@@ -981,8 +931,7 @@ export const E4: VocabularyWord[] = [
     slug: "empirical",
     phonetic: "/emˈpɪr.ɪ.kəl/",
     partOfSpeech: "adj",
-    meaningEn:
-      "Based on, concerned with, or verifiable by observation or experience rather than theory or pure logic.",
+    meaningEn: "Based on, concerned with, or verifiable by observation or experience rather than theory or pure logic.",
     meaningVi: "Dựa trên kinh nghiệm/thực tế.",
     exampleEn: "Empirical evidence supports this theory.",
     exampleVi: "Bằng chứng thực nghiệm hỗ trợ cho lý thuyết này.",
@@ -994,12 +943,11 @@ export const E4: VocabularyWord[] = [
     slug: "empiricism",
     phonetic: "/emˈpɪr.ə.sɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The theory that all knowledge is derived from sense-experience.",
+    meaningEn: "The theory that all knowledge is derived from sense-experience.",
     meaningVi: "Chủ nghĩa kinh nghiệm.",
     exampleEn: "Scientific empiricism relies on observation.",
     exampleVi: "Chủ nghĩa kinh nghiệm khoa học dựa vào sự quan sát.",
-    categories: ["Academic", "Philosophy"],
+    categories: ["Academic","Philosophy"],
   },
   {
     id: "gen-7036",
@@ -1011,7 +959,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Đặt vào vị trí/Bố trí (súng/pháo).",
     exampleEn: "Emplaced artillery.",
     exampleVi: "Pháo đã được bố trí vào vị trí.",
-    categories: ["Military", "General"],
+    categories: ["Military","General"],
   },
   {
     id: "gen-377",
@@ -1023,7 +971,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Thuê, tổng dụng.",
     exampleEn: "Employ workers.",
     exampleVi: "Thuê công nhân.",
-    categories: ["Business", "Business"],
+    categories: ["Business","Business"],
   },
   {
     id: "gen-7038",
@@ -1035,7 +983,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Khả năng được tuyển dụng.",
     exampleEn: "Improve employability.",
     exampleVi: "Cải thiện khả năng được tuyển dụng.",
-    categories: ["Business", "Business", "Education"],
+    categories: ["Business","Business","Education"],
   },
   {
     id: "gen-7039",
@@ -1047,7 +995,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Có thể tuyển dụng được.",
     exampleEn: "Employable skills.",
     exampleVi: "Các kỹ năng giúp dễ kiếm việc.",
-    categories: ["Business", "Business"],
+    categories: ["Business","Business"],
   },
   {
     id: "b1-193",
@@ -1059,7 +1007,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Nhân viên.",
     exampleEn: "The company has 500 employees.",
     exampleVi: "Công ty có 500 nhân viên.",
-    categories: ["Business", "Business"],
+    categories: ["Business","Business"],
   },
   {
     id: "gen-379",
@@ -1071,7 +1019,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Người thuê.",
     exampleEn: "My employer.",
     exampleVi: "Người thuê tôi.",
-    categories: ["Business", "Business"],
+    categories: ["Business","Business"],
   },
   {
     id: "gen-380",
@@ -1095,7 +1043,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Trung tâm mua sắm/Cửa hàng bách hóa lớn.",
     exampleEn: "Fashion emporium.",
     exampleVi: "Trung tâm thời trang.",
-    categories: ["Business", "Shopping"],
+    categories: ["Business","Shopping"],
   },
   {
     id: "c1-26",
@@ -1119,7 +1067,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Sự trao quyền.",
     exampleEn: "Youth empowerment.",
     exampleVi: "Trao quyền cho thanh niên.",
-    categories: ["Social", "Politics"],
+    categories: ["Social","Politics"],
   },
   {
     id: "gen-7046",
@@ -1131,7 +1079,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Nữ hoàng.",
     exampleEn: "Empress of Russia.",
     exampleVi: "Nữ hoàng Nga.",
-    categories: ["People", "History", "Politics"],
+    categories: ["People","History","Politics"],
   },
   {
     id: "gen-7047",
@@ -1143,7 +1091,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Sự trống rỗng.",
     exampleEn: "Feeling of emptiness.",
     exampleVi: "Cảm giác trống rỗng.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-381",
@@ -1167,7 +1115,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Làm cho tím/Nhuộm tím.",
     exampleEn: "Sky empurpled by sunset.",
     exampleVi: "Bầu trời nhuốm tím bởi hoàng hôn.",
-    categories: ["Literature", "Art"],
+    categories: ["Literature","Art"],
   },
   {
     id: "gen-7050",
@@ -1179,7 +1127,7 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Thuộc thiên đường/Thuộc chín tầng mây.",
     exampleEn: "Empyreal beauty.",
     exampleVi: "Vẻ đẹp ngất ngây/thiên thai.",
-    categories: ["Literature", "Religion"],
+    categories: ["Literature","Religion"],
   },
   {
     id: "gen-7051",
@@ -1187,12 +1135,11 @@ export const E4: VocabularyWord[] = [
     slug: "empyrean",
     phonetic: "/ˌem.paɪˈriː.ən/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "The highest heaven, thought by the ancients to be the realm of pure fire.",
+    meaningEn: "The highest heaven, thought by the ancients to be the realm of pure fire.",
     meaningVi: "Chín tầng mây/Thiên đường cao nhất.",
     exampleEn: "Soar into the empyrean.",
     exampleVi: "Bay vút lên chín tầng mây.",
-    categories: ["Literature", "Religion"],
+    categories: ["Literature","Religion"],
   },
   {
     id: "gen-7052",
@@ -1200,12 +1147,11 @@ export const E4: VocabularyWord[] = [
     slug: "emu",
     phonetic: "/ˈiː.mjuː/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A large flightless fast-running Australian bird resembling the ostrich.",
+    meaningEn: "A large flightless fast-running Australian bird resembling the ostrich.",
     meaningVi: "Chim đà điểu Úc.",
     exampleEn: "Running emu.",
     exampleVi: "Con đà điểu Úc đang chạy.",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-7053",
@@ -1213,12 +1159,11 @@ export const E4: VocabularyWord[] = [
     slug: "emulate",
     phonetic: "/ˈem.jə.leɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Match or surpass (a person or achievement), typically by imitation.",
+    meaningEn: "Match or surpass (a person or achievement), typically by imitation.",
     meaningVi: "Thi đua/Bắt chước/Cạnh tranh.",
     exampleEn: "Emulate success.",
     exampleVi: "Thi đua với thành công.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "gen-7054",
@@ -1226,12 +1171,11 @@ export const E4: VocabularyWord[] = [
     slug: "emulation",
     phonetic: "/ˌem.jəˈleɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Effort to match or surpass a person or achievement, typically by imitation.",
+    meaningEn: "Effort to match or surpass a person or achievement, typically by imitation.",
     meaningVi: "Sự thi đua/Sự cạnh tranh/Sự mô phỏng.",
     exampleEn: "Spirit of emulation.",
     exampleVi: "Tinh thần thi đua.",
-    categories: ["General", "Business", "Technology"],
+    categories: ["General","Business","Technology"],
   },
   {
     id: "gen-7057",
@@ -1243,6 +1187,18 @@ export const E4: VocabularyWord[] = [
     meaningVi: "Có tính chất thi đua/Bắt chước.",
     exampleEn: "Emulative behavior.",
     exampleVi: "Hành vi bắt chước/thi đua.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
+  {
+    id: "gen-7055",
+    word: "Emulator",
+    slug: "emulator",
+    phonetic: "/ˈem.jə.leɪ.t̬ɚ/",
+    partOfSpeech: "noun",
+    meaningEn: "Hardware or software that enables one computer system to behave like another.",
+    meaningVi: "Trình giả lập.",
+    exampleEn: "Game boy emulator.",
+    exampleVi: "Trình giả lập Game Boy.",
+    categories: ["Technology","Technology"],
+  }
 ];

@@ -2,13 +2,24 @@ import { VocabularyWord } from "../../types";
 
 export const A5: VocabularyWord[] = [
   {
+    id: "gen-2224",
+    word: "Atomic",
+    slug: "atomic",
+    phonetic: "/əˈtɑː.mɪk/",
+    partOfSpeech: "adjective",
+    meaningEn: "Relating to an atom or atoms.",
+    meaningVi: "Thuộc về nguyên tử.",
+    exampleEn: "Atomic energy.",
+    exampleVi: "Năng lượng nguyên tử.",
+    categories: ["Science","Physics"],
+  },
+  {
     id: "c1-152",
     word: "Atrocity",
     slug: "atrocity",
     phonetic: "/əˈtrɒs.ə.ti/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An extremely wicked or cruel act, typically one involving physical violence or injury.",
+    meaningEn: "An extremely wicked or cruel act, typically one involving physical violence or injury.",
     meaningVi: "Sự tàn bạo.",
     exampleEn: "Commit an atrocity.",
     exampleVi: "Phạm tội ác tàn bạo.",
@@ -24,7 +35,7 @@ export const A5: VocabularyWord[] = [
     meaningVi: "Đính kèm.",
     exampleEn: "Attach a file.",
     exampleVi: "Đính kèm tệp.",
-    categories: ["General", "Technology"],
+    categories: ["General","Technology"],
   },
   {
     id: "b2-140",
@@ -32,8 +43,7 @@ export const A5: VocabularyWord[] = [
     slug: "attachment",
     phonetic: "/əˈtætʃ.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An extra part or extension that is or can be attached to something to perform a particular function.",
+    meaningEn: "An extra part or extension that is or can be attached to something to perform a particular function.",
     meaningVi: "Đồ đính kèm, sự gắn bó.",
     exampleEn: "Email attachment.",
     exampleVi: "Tập tin đính kèm email.",
@@ -45,8 +55,7 @@ export const A5: VocabularyWord[] = [
     slug: "attack",
     phonetic: "/əˈtæk/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Take aggressive action against; an aggressive and violent action.",
+    meaningEn: "Take aggressive action against; an aggressive and violent action.",
     meaningVi: "Tấn công.",
     exampleEn: "The army attacked at dawn.",
     exampleVi: "Quân đội tấn công lúc bình minh.",
@@ -58,8 +67,7 @@ export const A5: VocabularyWord[] = [
     slug: "attain",
     phonetic: "/əˈteɪn/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Succeed in achieving (something that one desires and has worked for).",
+    meaningEn: "Succeed in achieving (something that one desires and has worked for).",
     meaningVi: "Đạt được.",
     exampleEn: "Attain a goal.",
     exampleVi: "Đạt được mục tiêu.",
@@ -71,8 +79,7 @@ export const A5: VocabularyWord[] = [
     slug: "attempt",
     phonetic: "/əˈtempt/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Make an effort to achieve or complete (something, typically a difficult task or action).",
+    meaningEn: "Make an effort to achieve or complete (something, typically a difficult task or action).",
     meaningVi: "Nỗ lực, cố gắng.",
     exampleEn: "He made an attempt to solve the problem.",
     exampleVi: "Anh ấy đã nỗ lực để giải quyết vấn đề.",
@@ -88,7 +95,7 @@ export const A5: VocabularyWord[] = [
     meaningVi: "Tham gia.",
     exampleEn: "Attend a meeting.",
     exampleVi: "Dự họp.",
-    categories: ["Social", "Education", "Business"],
+    categories: ["Social","Education","Business"],
   },
   {
     id: "gen-2231",
@@ -96,12 +103,11 @@ export const A5: VocabularyWord[] = [
     slug: "attendance",
     phonetic: "/əˈten.dəns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action or state of going regularly to or being present at a place or event.",
+    meaningEn: "The action or state of going regularly to or being present at a place or event.",
     meaningVi: "Sự có mặt.",
     exampleEn: "Check attendance.",
     exampleVi: "Điểm danh.",
-    categories: ["Social", "Education", "Business"],
+    categories: ["Social","Education","Business"],
   },
   {
     id: "gen-59",
@@ -109,8 +115,7 @@ export const A5: VocabularyWord[] = [
     slug: "attention",
     phonetic: "/əˈten.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Notice taken of someone or something; the regarding of someone or something as interesting or important.",
+    meaningEn: "Notice taken of someone or something; the regarding of someone or something as interesting or important.",
     meaningVi: "Sự chú ý.",
     exampleEn: "Please pay attention to the teacher.",
     exampleVi: "Hãy chú ý đến giáo viên.",
@@ -122,8 +127,7 @@ export const A5: VocabularyWord[] = [
     slug: "attic",
     phonetic: "/ˈæt̬.ɪk/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A space or room inside or partly inside the roof of a building.",
+    meaningEn: "A space or room inside or partly inside the roof of a building.",
     meaningVi: "Gác mái.",
     exampleEn: "Old attic.",
     exampleVi: "Gác mái cũ.",
@@ -135,12 +139,11 @@ export const A5: VocabularyWord[] = [
     slug: "attitude",
     phonetic: "/ˈæt̬.ə.tuːd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A settled way of thinking or feeling about someone or something, typically one that is reflected in a person's behavior.",
+    meaningEn: "A settled way of thinking or feeling about someone or something, typically one that is reflected in a person's behavior.",
     meaningVi: "Thái độ.",
     exampleEn: "Positive attitude.",
     exampleVi: "Thái độ tích cực.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-2235",
@@ -148,12 +151,11 @@ export const A5: VocabularyWord[] = [
     slug: "attorney",
     phonetic: "/əˈtɝː.ni/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person, typically a lawyer, appointed to act for another in business or legal matters.",
+    meaningEn: "A person, typically a lawyer, appointed to act for another in business or legal matters.",
     meaningVi: "Luật sư/Người được ủy quyền.",
     exampleEn: "District attorney.",
     exampleVi: "Biện lý quận.",
-    categories: ["Law", "People", "Jobs"],
+    categories: ["Law","People","Jobs"],
   },
   {
     id: "gen-2236",
@@ -161,12 +163,11 @@ export const A5: VocabularyWord[] = [
     slug: "attract",
     phonetic: "/əˈtrækt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Cause to come to a place or participate in a venture by offering something of interest, favorable conditions, or opportunities.",
+    meaningEn: "Cause to come to a place or participate in a venture by offering something of interest, favorable conditions, or opportunities.",
     meaningVi: "Thu hút.",
     exampleEn: "Attract customers.",
     exampleVi: "Thu hút khách hàng.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "gen-2237",
@@ -174,12 +175,11 @@ export const A5: VocabularyWord[] = [
     slug: "attraction",
     phonetic: "/əˈtræk.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action or power of evoking interest, pleasure, or liking for someone or something.",
+    meaningEn: "The action or power of evoking interest, pleasure, or liking for someone or something.",
     meaningVi: "Sự thu hút.",
     exampleEn: "Tourist attraction.",
     exampleVi: "Điểm thu hút khách du lịch.",
-    categories: ["General", "Travel"],
+    categories: ["General","Travel"],
   },
   {
     id: "gen-60",
@@ -199,8 +199,7 @@ export const A5: VocabularyWord[] = [
     slug: "attribute",
     phonetic: "/ˈæt.rɪ.bjuːt/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A quality or feature regarded as a characteristic or inherent part of someone or something.",
+    meaningEn: "A quality or feature regarded as a characteristic or inherent part of someone or something.",
     meaningVi: "Thuộc tính; quy cho.",
     exampleEn: "Positive attributes.",
     exampleVi: "Những thuộc tính tích cực.",
@@ -212,8 +211,7 @@ export const A5: VocabularyWord[] = [
     slug: "auction",
     phonetic: "/ˈɑːk.ʃən/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A public sale in which goods or property are sold to the highest bidder.",
+    meaningEn: "A public sale in which goods or property are sold to the highest bidder.",
     meaningVi: "Đấu giá.",
     exampleEn: "Buy at an auction.",
     exampleVi: "Mua tại một buổi đấu giá.",
@@ -241,7 +239,7 @@ export const A5: VocabularyWord[] = [
     meaningVi: "Khán giả.",
     exampleEn: "Large audience.",
     exampleVi: "Lượng khán giả lớn.",
-    categories: ["Social", "Art", "Media"],
+    categories: ["Social","Art","Media"],
   },
   {
     id: "b2-141",
@@ -261,8 +259,7 @@ export const A5: VocabularyWord[] = [
     slug: "audit",
     phonetic: "/ˈɑː.dɪt/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "An official inspection of an individual's or organization's accounts.",
+    meaningEn: "An official inspection of an individual's or organization's accounts.",
     meaningVi: "Kiểm toán, kiểm tra.",
     exampleEn: "The company is undergoing an audit.",
     exampleVi: "Công ty đang trải qua một đợt kiểm toán.",
@@ -278,7 +275,7 @@ export const A5: VocabularyWord[] = [
     meaningVi: "Kiểm toán viên.",
     exampleEn: "Internal auditor.",
     exampleVi: "Kiểm toán viên nội bộ.",
-    categories: ["Business", "People"],
+    categories: ["Business","People"],
   },
   {
     id: "gen-2245",
@@ -286,12 +283,11 @@ export const A5: VocabularyWord[] = [
     slug: "auditorium",
     phonetic: "/ˌɑː.dəˈtɔːr.i.əm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The part of a theater, concert hall, or other public building in which the audience sits.",
+    meaningEn: "The part of a theater, concert hall, or other public building in which the audience sits.",
     meaningVi: "Thính phòng.",
     exampleEn: "University auditorium.",
     exampleVi: "Giảng đường đại học.",
-    categories: ["Art", "Education"],
+    categories: ["Art","Education"],
   },
   {
     id: "gen-2246",
@@ -335,8 +331,7 @@ export const A5: VocabularyWord[] = [
     slug: "aunt",
     phonetic: "/ænt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The sister of one's father or mother or the wife of one's uncle.",
+    meaningEn: "The sister of one's father or mother or the wife of one's uncle.",
     meaningVi: "Dì, cô.",
     exampleEn: "My aunt lives in Hanoi.",
     exampleVi: "Dì tôi sống ở Hà Nội.",
@@ -400,7 +395,7 @@ export const A5: VocabularyWord[] = [
     meaningVi: "Tác giả.",
     exampleEn: "Who is the author of this book?",
     exampleVi: "Ai là tác giả của cuốn sách này?",
-    categories: ["Literature", "People"],
+    categories: ["Literature","People"],
   },
   {
     id: "c1-70",
@@ -420,12 +415,11 @@ export const A5: VocabularyWord[] = [
     slug: "authority",
     phonetic: "/əˈθɔːr.ə.t̬i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The power or right to give orders, make decisions, and enforce obedience.",
+    meaningEn: "The power or right to give orders, make decisions, and enforce obedience.",
     meaningVi: "Quyền lực/Chính quyền.",
     exampleEn: "Local authority.",
     exampleVi: "Chính quyền địa phương.",
-    categories: ["Politics", "Social"],
+    categories: ["Politics","Social"],
   },
   {
     id: "b1-249",
@@ -437,7 +431,7 @@ export const A5: VocabularyWord[] = [
     meaningVi: "Sự cấp phép.",
     exampleEn: "Request authorization.",
     exampleVi: "Yêu cầu cấp phép.",
-    categories: ["Technology", "Business"],
+    categories: ["Technology","Business"],
   },
   {
     id: "gen-2252",
@@ -449,7 +443,7 @@ export const A5: VocabularyWord[] = [
     meaningVi: "Ủy quyền.",
     exampleEn: "Authorize access.",
     exampleVi: "Ủy quyền truy cập.",
-    categories: ["Business", "Law"],
+    categories: ["Business","Law"],
   },
   {
     id: "gen-2253",
@@ -461,7 +455,7 @@ export const A5: VocabularyWord[] = [
     meaningVi: "Tự động/Ô tô.",
     exampleEn: "Auto industry.",
     exampleVi: "Ngành công nghiệp ô tô.",
-    categories: ["Technology", "General"],
+    categories: ["Technology","General"],
   },
   {
     id: "gen-2254",
@@ -473,7 +467,7 @@ export const A5: VocabularyWord[] = [
     meaningVi: "Tự động.",
     exampleEn: "Automatic doors.",
     exampleVi: "Cửa tự động.",
-    categories: ["General", "Technology"],
+    categories: ["General","Technology"],
   },
   {
     id: "c1-137",
@@ -481,8 +475,7 @@ export const A5: VocabularyWord[] = [
     slug: "automation",
     phonetic: "/ˌɑː.t̬əˈmeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The use of largely automatic equipment in a system of manufacturing or other production process.",
+    meaningEn: "The use of largely automatic equipment in a system of manufacturing or other production process.",
     meaningVi: "Sự tự động hóa.",
     exampleEn: "Industrial automation increases efficiency.",
     exampleVi: "Tự động hóa công nghiệp giúp tăng hiệu quả.",
@@ -518,8 +511,7 @@ export const A5: VocabularyWord[] = [
     slug: "avail",
     phonetic: "/əˈveɪl/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Use or take advantage of (an opportunity or available resource).",
+    meaningEn: "Use or take advantage of (an opportunity or available resource).",
     meaningVi: "Có ích, tận dụng.",
     exampleEn: "To no avail.",
     exampleVi: "Vô ích.",
@@ -555,12 +547,11 @@ export const A5: VocabularyWord[] = [
     slug: "avatar",
     phonetic: "/ˈæv.ə.tɑːr/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An icon or figure representing a particular person in computer games, internet forums, etc.",
+    meaningEn: "An icon or figure representing a particular person in computer games, internet forums, etc.",
     meaningVi: "Ảnh đại diện.",
     exampleEn: "User avatar.",
     exampleVi: "Ảnh đại diện người dùng.",
-    categories: ["Technology", "Media"],
+    categories: ["Technology","Media"],
   },
   {
     id: "gen-2259",
@@ -568,12 +559,11 @@ export const A5: VocabularyWord[] = [
     slug: "avenue",
     phonetic: "/ˈæv.ə.nuː/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A broad road in a town or city, typically having trees at intervals along it.",
+    meaningEn: "A broad road in a town or city, typically having trees at intervals along it.",
     meaningVi: "Đại lộ.",
     exampleEn: "Fifth Avenue.",
     exampleVi: "Đại lộ số 5.",
-    categories: ["Geography", "Travel"],
+    categories: ["Geography","Travel"],
   },
   {
     id: "gen-64",
@@ -581,12 +571,11 @@ export const A5: VocabularyWord[] = [
     slug: "average",
     phonetic: "/ˈæv.ɚ.ɪdʒ/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "A number expressing the central or typical value in a set of data.",
+    meaningEn: "A number expressing the central or typical value in a set of data.",
     meaningVi: "Trung bình.",
     exampleEn: "The average age is 25.",
     exampleVi: "Độ tuổi trung bình là 25.",
-    categories: ["Mathematics", "General"],
+    categories: ["Mathematics","General"],
   },
   {
     id: "c1-161",
@@ -606,8 +595,7 @@ export const A5: VocabularyWord[] = [
     slug: "avocado",
     phonetic: "/ˌæv.əˈkɑː.doʊ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A pear-shaped fruit with a rough leathery skin, smooth oily edible flesh, and a large stone.",
+    meaningEn: "A pear-shaped fruit with a rough leathery skin, smooth oily edible flesh, and a large stone.",
     meaningVi: "Quả bơ.",
     exampleEn: "Fresh avocado.",
     exampleVi: "Bơ tươi.",
@@ -635,7 +623,7 @@ export const A5: VocabularyWord[] = [
     meaningVi: "Sự né tránh.",
     exampleEn: "Tax avoidance.",
     exampleVi: "Né thuế.",
-    categories: ["General", "Law"],
+    categories: ["General","Law"],
   },
   {
     id: "gen-2264",
@@ -659,7 +647,7 @@ export const A5: VocabularyWord[] = [
     meaningVi: "Thức tỉnh.",
     exampleEn: "Wide awake.",
     exampleVi: "Tỉnh như sáo.",
-    categories: ["General", "Medical"],
+    categories: ["General","Medical"],
   },
   {
     id: "gen-2266",
@@ -679,12 +667,11 @@ export const A5: VocabularyWord[] = [
     slug: "award",
     phonetic: "/əˈwɔːrd/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A prize or other mark of recognition given in honor of an achievement.",
+    meaningEn: "A prize or other mark of recognition given in honor of an achievement.",
     meaningVi: "Giải thưởng.",
     exampleEn: "Academy award.",
     exampleVi: "Giải thưởng học thuật.",
-    categories: ["General", "Art", "Education"],
+    categories: ["General","Art","Education"],
   },
   {
     id: "gen-66",
@@ -728,12 +715,11 @@ export const A5: VocabularyWord[] = [
     slug: "awesome",
     phonetic: "/ˈɑː.səm/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Extremely impressive or daunting; inspiring great admiration, apprehension, or fear.",
+    meaningEn: "Extremely impressive or daunting; inspiring great admiration, apprehension, or fear.",
     meaningVi: "Tuyệt vời.",
     exampleEn: "Awesome view.",
     exampleVi: "Quang cảnh tuyệt vời.",
-    categories: ["General", "Emotions"],
+    categories: ["General","Emotions"],
   },
   {
     id: "gen-2272",
@@ -745,7 +731,7 @@ export const A5: VocabularyWord[] = [
     meaningVi: "Kinh khủng.",
     exampleEn: "Awful smell.",
     exampleVi: "Mùi kinh khủng.",
-    categories: ["General", "Emotions"],
+    categories: ["General","Emotions"],
   },
   {
     id: "gen-2273",
@@ -769,7 +755,7 @@ export const A5: VocabularyWord[] = [
     meaningVi: "Vụng về/Lúng túng.",
     exampleEn: "Awkward silence.",
     exampleVi: "Sự im lặng đáng sợ.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-2275",
@@ -777,12 +763,11 @@ export const A5: VocabularyWord[] = [
     slug: "axe",
     phonetic: "/æks/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A tool used for chopping wood, typically of iron with a steel edge and wooden handle.",
+    meaningEn: "A tool used for chopping wood, typically of iron with a steel edge and wooden handle.",
     meaningVi: "Cái rìu.",
     exampleEn: "Sharpen the axe.",
     exampleVi: "Mài rìu.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "c2-249",
@@ -790,12 +775,11 @@ export const A5: VocabularyWord[] = [
     slug: "axiom",
     phonetic: "/ˈæk.si.əm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A statement or proposition which is regarded as being established, accepted, or self-evidently true.",
+    meaningEn: "A statement or proposition which is regarded as being established, accepted, or self-evidently true.",
     meaningVi: "Tiên đề.",
     exampleEn: "Euclidean axioms.",
     exampleVi: "Các tiên đề Euclid.",
-    categories: ["Academic", "Philosophy", "Mathematics"],
+    categories: ["Academic","Philosophy","Mathematics"],
   },
   {
     id: "gen-2276",
@@ -807,6 +791,6 @@ export const A5: VocabularyWord[] = [
     meaningVi: "Trục.",
     exampleEn: "Earth's axis.",
     exampleVi: "Trục của Trái Đất.",
-    categories: ["Science", "Mathematics"],
-  },
+    categories: ["Science","Mathematics"],
+  }
 ];

@@ -2,6 +2,18 @@ import { VocabularyWord } from "../../types";
 
 export const C14: VocabularyWord[] = [
   {
+    id: "gen-3982",
+    word: "Cooper",
+    slug: "cooper",
+    phonetic: "/ˈkuː.pɚ/",
+    partOfSpeech: "noun",
+    meaningEn: "A person who makes or repairs casks and barrels.",
+    meaningVi: "Thợ đóng thùng.",
+    exampleEn: "Traditional cooper.",
+    exampleVi: "Thợ đóng thùng truyền thống.",
+    categories: ["People","Business"],
+  },
+  {
     id: "gen-3983",
     word: "Cooperate",
     slug: "cooperate",
@@ -11,7 +23,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Hợp tác.",
     exampleEn: "Willing to cooperate.",
     exampleVi: "Sẵn lòng hợp tác.",
-    categories: ["General", "Social", "Business"],
+    categories: ["General","Social","Business"],
   },
   {
     id: "gen-3984",
@@ -23,7 +35,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Sự hợp tác.",
     exampleEn: "International cooperation.",
     exampleVi: "Sự hợp tác quốc tế.",
-    categories: ["General", "Social", "Politics"],
+    categories: ["General","Social","Politics"],
   },
   {
     id: "gen-3985",
@@ -35,7 +47,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Có tính hợp tác/Hợp tác xã.",
     exampleEn: "Agricultural cooperative.",
     exampleVi: "Hợp tác xã nông nghiệp.",
-    categories: ["General", "Social", "Business"],
+    categories: ["General","Social","Business"],
   },
   {
     id: "gen-3986",
@@ -43,12 +55,11 @@ export const C14: VocabularyWord[] = [
     slug: "coordinate",
     phonetic: "/koʊˈɔːr.də.neɪt/",
     partOfSpeech: "verb/noun/adjective",
-    meaningEn:
-      "Bring the different elements of (a complex activity or organization) into a harmonious or efficient relationship.",
+    meaningEn: "Bring the different elements of (a complex activity or organization) into a harmonious or efficient relationship.",
     meaningVi: "Phối hợp/Tọa độ.",
     exampleEn: "Coordinate efforts.",
     exampleVi: "Phối hợp các nỗ lực.",
-    categories: ["General", "Mathematics", "Science"],
+    categories: ["General","Mathematics","Science"],
   },
   {
     id: "gen-3987",
@@ -56,12 +67,11 @@ export const C14: VocabularyWord[] = [
     slug: "coordination",
     phonetic: "/koʊˌɔːr.dəˈneɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The organization of the different elements of a complex body or activity so as to enable them to work together effectively.",
+    meaningEn: "The organization of the different elements of a complex body or activity so as to enable them to work together effectively.",
     meaningVi: "Sự phối hợp/Sự điều phối.",
     exampleEn: "Lack of coordination.",
     exampleVi: "Thiếu sự phối hợp.",
-    categories: ["General", "Business", "Science"],
+    categories: ["General","Business","Science"],
   },
   {
     id: "gen-3988",
@@ -73,7 +83,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Điều phối viên.",
     exampleEn: "Event coordinator.",
     exampleVi: "Người điều phối sự kiện.",
-    categories: ["People", "Business"],
+    categories: ["People","Business"],
   },
   {
     id: "gen-3989",
@@ -81,12 +91,11 @@ export const C14: VocabularyWord[] = [
     slug: "coot",
     phonetic: "/kuːt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An aquatic bird of the rail family; a foolish or eccentric person (informal).",
+    meaningEn: "An aquatic bird of the rail family; a foolish or eccentric person (informal).",
     meaningVi: "Chim sâm cầm/Người gàn dở (thân mật).",
     exampleEn: "The old coot.",
     exampleVi: "Lão già gàn dở.",
-    categories: ["Animals", "Social", "People"],
+    categories: ["Animals","Social","People"],
   },
   {
     id: "gen-3990",
@@ -98,7 +107,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Cảnh sát (thân mật)/Tóm lấy.",
     exampleEn: "Traffic cop.",
     exampleVi: "Cảnh sát giao thông.",
-    categories: ["People", "Law"],
+    categories: ["People","Law"],
   },
   {
     id: "gen-3991",
@@ -110,7 +119,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Dầu cô-pay-ba (dùng trong y học/vảy sơn).",
     exampleEn: "Copaiba oil.",
     exampleVi: "Tinh dầu copaiba.",
-    categories: ["Science", "Medical", "Nature"],
+    categories: ["Science","Medical","Nature"],
   },
   {
     id: "gen-3992",
@@ -118,12 +127,11 @@ export const C14: VocabularyWord[] = [
     slug: "copal",
     phonetic: "/ˈkoʊ.pəl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Resin from any of various tropical trees, used to make varnish.",
+    meaningEn: "Resin from any of various tropical trees, used to make varnish.",
     meaningVi: "Nhựa cô-pan (dùng làm vảy sơn/hương).",
     exampleEn: "Copal resin.",
     exampleVi: "Nhựa copal.",
-    categories: ["Nature", "Art", "Science"],
+    categories: ["Nature","Art","Science"],
   },
   {
     id: "gen-3993",
@@ -135,7 +143,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Sự cùng thừa kế.",
     exampleEn: "Right of coparcenary.",
     exampleVi: "Quyền cùng thừa kế.",
-    categories: ["Law", "Social"],
+    categories: ["Law","Social"],
   },
   {
     id: "gen-3994",
@@ -147,7 +155,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Người cùng cộng tác/Đối tác.",
     exampleEn: "Business copartner.",
     exampleVi: "Đối tác kinh doanh.",
-    categories: ["People", "Business"],
+    categories: ["People","Business"],
   },
   {
     id: "gen-3995",
@@ -155,12 +163,11 @@ export const C14: VocabularyWord[] = [
     slug: "cope",
     phonetic: "/koʊp/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "(of a person) deal effectively with something difficult; a long cloak or mantle worn by a priest on ceremonial occasions.",
+    meaningEn: "(of a person) deal effectively with something difficult; a long cloak or mantle worn by a priest on ceremonial occasions.",
     meaningVi: "Đối phó/Đương đầu/Áo choàng (linh mục).",
     exampleEn: "Cope with stress.",
     exampleVi: "Đối phó với căng thẳng.",
-    categories: ["Psychology", "General", "Social"],
+    categories: ["Psychology","General","Social"],
   },
   {
     id: "gen-3996",
@@ -168,12 +175,11 @@ export const C14: VocabularyWord[] = [
     slug: "copernican",
     phonetic: "/kəˈpɝː.nɪ.kən/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to Copernicus or the astronomical system he developed.",
+    meaningEn: "Relating to Copernicus or the astronomical system he developed.",
     meaningVi: "Thuộc về Cô-péc-ních (thuyết nhật tâm).",
     exampleEn: "Copernican revolution.",
     exampleVi: "Cuộc cách mạng Cô-péc-ních.",
-    categories: ["Science", "History"],
+    categories: ["Science","History"],
   },
   {
     id: "gen-3997",
@@ -181,12 +187,11 @@ export const C14: VocabularyWord[] = [
     slug: "copier",
     phonetic: "/ˈkɑː.pi.ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A machine that makes exact copies of something, especially documents.",
+    meaningEn: "A machine that makes exact copies of something, especially documents.",
     meaningVi: "Máy photocopy/Người sao chép.",
     exampleEn: "Office copier.",
     exampleVi: "Máy photocopy văn phòng.",
-    categories: ["Technology", "Business", "Daily"],
+    categories: ["Technology","Business","Daily"],
   },
   {
     id: "gen-3998",
@@ -198,7 +203,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Phi công phụ.",
     exampleEn: "Flight copilot.",
     exampleVi: "Phi công phụ của chuyến bay.",
-    categories: ["People", "Travel"],
+    categories: ["People","Travel"],
   },
   {
     id: "gen-3999",
@@ -206,12 +211,11 @@ export const C14: VocabularyWord[] = [
     slug: "coping",
     phonetic: "/ˈkoʊ.pɪŋ/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "The top, typically sloping, course of a brick or stone wall; dealing with difficulties.",
+    meaningEn: "The top, typically sloping, course of a brick or stone wall; dealing with difficulties.",
     meaningVi: "Sự đối phó/Lớp gạch trên cùng/Mái tường.",
     exampleEn: "Coping mechanisms.",
     exampleVi: "Cơ chế đối phó/thích nghi.",
-    categories: ["Psychology", "Architecture", "General"],
+    categories: ["Psychology","Architecture","General"],
   },
   {
     id: "gen-4000",
@@ -223,7 +227,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Dồi dào/Phong phú.",
     exampleEn: "Copious information.",
     exampleVi: "Thông tin dồi dào.",
-    categories: ["General", "Literature"],
+    categories: ["General","Literature"],
   },
   {
     id: "gen-4001",
@@ -247,7 +251,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Đồng (kim loại)/Cảnh sát (từ lóng Anh).",
     exampleEn: "Copper wire.",
     exampleVi: "Dây đồng.",
-    categories: ["Science", "Engineering", "General"],
+    categories: ["Science","Engineering","General"],
   },
   {
     id: "gen-4003",
@@ -259,7 +263,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Sắt sulfat (dùng trong nhuộm/mực).",
     exampleEn: "Green copperas.",
     exampleVi: "Phèn xanh (sắt sulfat).",
-    categories: ["Science", "Nature"],
+    categories: ["Science","Nature"],
   },
   {
     id: "gen-4004",
@@ -271,7 +275,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Rắn đầu đồng.",
     exampleEn: "Dangerous copperhead.",
     exampleVi: "Loài rắn đầu đồng nguy hiểm.",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-4005",
@@ -279,13 +283,11 @@ export const C14: VocabularyWord[] = [
     slug: "copperplate",
     phonetic: "/ˈkɑː.pɚ.pleɪt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A polished copper plate on which a design is etched or engraved; a form of handwriting.",
-    meaningVi:
-      "Bản kẽm (in ấn)/Chữ viết kiểu đồng bản (nghiêng và thanh mảnh).",
+    meaningEn: "A polished copper plate on which a design is etched or engraved; a form of handwriting.",
+    meaningVi: "Bản kẽm (in ấn)/Chữ viết kiểu đồng bản (nghiêng và thanh mảnh).",
     exampleEn: "Copperplate engraving.",
     exampleVi: "Bản khắc đồng.",
-    categories: ["Art", "Literature", "History"],
+    categories: ["Art","Literature","History"],
   },
   {
     id: "gen-4006",
@@ -297,7 +299,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Như đồng/Có màu đồng.",
     exampleEn: "Coppery glow.",
     exampleVi: "Ánh sáng màu đồng.",
-    categories: ["General", "Body"],
+    categories: ["General","Body"],
   },
   {
     id: "gen-4007",
@@ -305,12 +307,11 @@ export const C14: VocabularyWord[] = [
     slug: "coppice",
     phonetic: "/ˈkɑː.pɪs/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "An area of woodland in which the trees or shrubs are, or formerly were, periodically cut back to ground level to stimulate growth.",
+    meaningEn: "An area of woodland in which the trees or shrubs are, or formerly were, periodically cut back to ground level to stimulate growth.",
     meaningVi: "Bụi cây rậm/Rừng nhỏ/Cắt tỉa cây.",
     exampleEn: "Hazel coppice.",
     exampleVi: "Bụi cây phỉ.",
-    categories: ["Nature", "Agriculture"],
+    categories: ["Nature","Agriculture"],
   },
   {
     id: "gen-4008",
@@ -322,7 +323,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Cơm dừa khô.",
     exampleEn: "Export copra.",
     exampleVi: "Xuất khẩu cơm dừa khô.",
-    categories: ["Food & Drink", "Business", "Nature"],
+    categories: ["Food & Drink","Business","Nature"],
   },
   {
     id: "gen-4009",
@@ -342,12 +343,11 @@ export const C14: VocabularyWord[] = [
     slug: "copula",
     phonetic: "/ˈkɑː.pjə.lə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A connecting word, especially a form of the verb be, connecting a subject and complement.",
+    meaningEn: "A connecting word, especially a form of the verb be, connecting a subject and complement.",
     meaningVi: "Hệ từ (ngôn ngữ học).",
     exampleEn: "The verb 'be' is a copula.",
     exampleVi: "Động từ 'be' là một hệ từ.",
-    categories: ["Literature", "Education"],
+    categories: ["Literature","Education"],
   },
   {
     id: "gen-4011",
@@ -383,7 +383,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Có tính chất nối/Liên quan đến giao phối.",
     exampleEn: "Copulative conjunction.",
     exampleVi: "Liên từ chính (liên từ nối).",
-    categories: ["Literature", "Biology"],
+    categories: ["Literature","Biology"],
   },
   {
     id: "gen-190",
@@ -395,7 +395,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Sao chép.",
     exampleEn: "Copy this file.",
     exampleVi: "Sao chép tệp này.",
-    categories: ["General", "Technology"],
+    categories: ["General","Technology"],
   },
   {
     id: "gen-4015",
@@ -403,12 +403,11 @@ export const C14: VocabularyWord[] = [
     slug: "copybook",
     phonetic: "/ˈkɑː.pi.bʊk/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A book containing models of handwriting for learners to imitate.",
+    meaningEn: "A book containing models of handwriting for learners to imitate.",
     meaningVi: "Vở tập viết.",
     exampleEn: "Clean copybook.",
     exampleVi: "Vở tập viết sạch đẹp/Hồ sơ sạch.",
-    categories: ["Education", "Literature"],
+    categories: ["Education","Literature"],
   },
   {
     id: "gen-4016",
@@ -420,7 +419,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Người hay bắt chước.",
     exampleEn: "Copycat crime.",
     exampleVi: "Tội phạm bắt chước.",
-    categories: ["Social", "People", "Law"],
+    categories: ["Social","People","Law"],
   },
   {
     id: "gen-4017",
@@ -432,7 +431,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Quyền thuê đất theo bản sao (luật cũ Anh).",
     exampleEn: "Copyhold tenure.",
     exampleVi: "Hình thức thuê đất copyhold.",
-    categories: ["Law", "History"],
+    categories: ["Law","History"],
   },
   {
     id: "gen-4018",
@@ -440,12 +439,11 @@ export const C14: VocabularyWord[] = [
     slug: "copyholder",
     phonetic: "/ˈkɑː.pi.hoʊl.dɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A tenant by copyhold; a device to hold a paper on which a copy is written.",
+    meaningEn: "A tenant by copyhold; a device to hold a paper on which a copy is written.",
     meaningVi: "Người thuê đất copyhold/Kẹp giữ giấy bản thảo.",
     exampleEn: "Desk copyholder.",
     exampleVi: "Kẹp giữ giấy trên bàn làm việc.",
-    categories: ["Law", "Technology"],
+    categories: ["Law","Technology"],
   },
   {
     id: "gen-4019",
@@ -457,7 +455,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Người sao chép bản thảo/Họa sĩ chép tranh.",
     exampleEn: "Professional copyist.",
     exampleVi: "Người sao chép chuyên nghiệp.",
-    categories: ["People", "Business", "Art"],
+    categories: ["People","Business","Art"],
   },
   {
     id: "gen-4020",
@@ -465,12 +463,11 @@ export const C14: VocabularyWord[] = [
     slug: "copyright",
     phonetic: "/ˈkɑː.pi.raɪt/",
     partOfSpeech: "noun/verb/adjective",
-    meaningEn:
-      "The exclusive legal right, given to an originator or an assignee to print, publish, perform, film, or record literary, artistic, or musical material.",
+    meaningEn: "The exclusive legal right, given to an originator or an assignee to print, publish, perform, film, or record literary, artistic, or musical material.",
     meaningVi: "Bản quyền.",
     exampleEn: "Copyright infringement.",
     exampleVi: "Vi phạm bản quyền.",
-    categories: ["Law", "Business", "Media"],
+    categories: ["Law","Business","Media"],
   },
   {
     id: "gen-4021",
@@ -478,12 +475,11 @@ export const C14: VocabularyWord[] = [
     slug: "copywriter",
     phonetic: "/ˈkɑː.pi.raɪ.t̬ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who writes the text of advertisements or publicity material.",
+    meaningEn: "A person who writes the text of advertisements or publicity material.",
     meaningVi: "Người viết quảng cáo.",
     exampleEn: "Freelance copywriter.",
     exampleVi: "Người viết quảng cáo tự do.",
-    categories: ["People", "Business", "Business"],
+    categories: ["People","Business","Business"],
   },
   {
     id: "gen-4022",
@@ -495,7 +491,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Thả thính/Tán tỉnh.",
     exampleEn: "Coquet with success.",
     exampleVi: "Đùa giỡn với thành công.",
-    categories: ["Social", "Psychology"],
+    categories: ["Social","Psychology"],
   },
   {
     id: "gen-4023",
@@ -507,7 +503,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Sự tán tỉnh/Sự làm dáng.",
     exampleEn: "Innocent coquetry.",
     exampleVi: "Sự làm duyên vô tư.",
-    categories: ["Social", "Psychology"],
+    categories: ["Social","Psychology"],
   },
   {
     id: "gen-4024",
@@ -519,7 +515,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Người phụ nữ thích tán tỉnh/đong đưa.",
     exampleEn: "Charming coquette.",
     exampleVi: "Người phụ nữ đong đưa đầy quyến rũ.",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-4025",
@@ -527,12 +523,11 @@ export const C14: VocabularyWord[] = [
     slug: "coquettish",
     phonetic: "/koʊˈket.ɪʃ/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Behaving in such a way as to suggest a playful sexual attraction.",
+    meaningEn: "Behaving in such a way as to suggest a playful sexual attraction.",
     meaningVi: "Lẳng lơ/Có tính chất đong đưa.",
     exampleEn: "Coquettish smile.",
     exampleVi: "Nụ cười đong đưa.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-4026",
@@ -540,12 +535,11 @@ export const C14: VocabularyWord[] = [
     slug: "coracle",
     phonetic: "/ˈkɔːr.ə.kəl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A small round boat made of wickerwork covered with a watertight layer of animal skin or felt.",
+    meaningEn: "A small round boat made of wickerwork covered with a watertight layer of animal skin or felt.",
     meaningVi: "Thuyền thúng/Thuyền đan bằng nan.",
     exampleEn: "Traditional Welsh coracle.",
     exampleVi: "Thuyền thúng truyền thống của xứ Wales.",
-    categories: ["Travel", "History"],
+    categories: ["Travel","History"],
   },
   {
     id: "gen-4027",
@@ -553,12 +547,11 @@ export const C14: VocabularyWord[] = [
     slug: "coral",
     phonetic: "/ˈkɔːr.əl/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A hard stony substance secreted by certain marine coelenterates as an external skeleton.",
+    meaningEn: "A hard stony substance secreted by certain marine coelenterates as an external skeleton.",
     meaningVi: "San hô/Màu san hô.",
     exampleEn: "Coral reef.",
     exampleVi: "Rặng san hô.",
-    categories: ["Nature", "Science", "Body"],
+    categories: ["Nature","Science","Body"],
   },
   {
     id: "gen-4028",
@@ -570,7 +563,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Thuộc về san hô/Dạng san hô.",
     exampleEn: "Coralline algae.",
     exampleVi: "Tảo san hô.",
-    categories: ["Science", "Nature"],
+    categories: ["Science","Nature"],
   },
   {
     id: "gen-4029",
@@ -578,12 +571,11 @@ export const C14: VocabularyWord[] = [
     slug: "corban",
     phonetic: "/ˈkɔːr.bən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A gift dedicated to God which meant that it could not be used for anything else.",
+    meaningEn: "A gift dedicated to God which meant that it could not be used for anything else.",
     meaningVi: "Lễ vật dâng hiến cho Chúa.",
     exampleEn: "The vow of corban.",
     exampleVi: "Lời thề dâng hiến corban.",
-    categories: ["Philosophy", "History"],
+    categories: ["Philosophy","History"],
   },
   {
     id: "gen-4030",
@@ -591,12 +583,11 @@ export const C14: VocabularyWord[] = [
     slug: "corbel",
     phonetic: "/ˈkɔːr.bəl/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A projection jutting out from a wall to support a structure above it.",
+    meaningEn: "A projection jutting out from a wall to support a structure above it.",
     meaningVi: "Công-xôn/Rầm chìa (kiến trúc).",
     exampleEn: "Stone corbel.",
     exampleVi: "Công-xôn bằng đá.",
-    categories: ["Architecture", "Engineering"],
+    categories: ["Architecture","Engineering"],
   },
   {
     id: "gen-4031",
@@ -608,7 +599,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Con quạ (tiếng địa phương).",
     exampleEn: "The black corbie.",
     exampleVi: "Con quạ đen.",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-4032",
@@ -616,12 +607,11 @@ export const C14: VocabularyWord[] = [
     slug: "cord",
     phonetic: "/kɔːrd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Thin, flexible string or rope made from several twisted strands.",
+    meaningEn: "Thin, flexible string or rope made from several twisted strands.",
     meaningVi: "Dây thừng nhỏ/Dây điện/Dây thanh âm.",
     exampleEn: "Power cord.",
     exampleVi: "Dây nguồn.",
-    categories: ["General", "Technology", "Daily"],
+    categories: ["General","Technology","Daily"],
   },
   {
     id: "gen-4033",
@@ -633,7 +623,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Dây dợ/Lượng dây (trên tàu).",
     exampleEn: "Ship's cordage.",
     exampleVi: "Hệ thống dây thừng trên tàu.",
-    categories: ["Travel", "Engineering"],
+    categories: ["Travel","Engineering"],
   },
   {
     id: "gen-4034",
@@ -645,7 +635,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Hình tim (lá cây).",
     exampleEn: "Cordate leaf.",
     exampleVi: "Lá hình tim.",
-    categories: ["Science", "Nature"],
+    categories: ["Science","Nature"],
   },
   {
     id: "gen-4035",
@@ -657,7 +647,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Có dây/Dạng gân.",
     exampleEn: "Corded phone.",
     exampleVi: "Điện thoại có dây.",
-    categories: ["Technology", "General"],
+    categories: ["Technology","General"],
   },
   {
     id: "gen-4036",
@@ -669,7 +659,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Thân ái/Chân thành/Rượu thuốc bổ.",
     exampleEn: "Cordial welcome.",
     exampleVi: "Sự chào đón nồng nhiệt.",
-    categories: ["Social", "Food & Drink", "General"],
+    categories: ["Social","Food & Drink","General"],
   },
   {
     id: "gen-4037",
@@ -681,7 +671,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Sự thân ái/Sự chân thành.",
     exampleEn: "Atmosphere of cordiality.",
     exampleVi: "Bầu không khí đầy sự chân thành.",
-    categories: ["Social", "General"],
+    categories: ["Social","General"],
   },
   {
     id: "gen-4038",
@@ -693,7 +683,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Một cách chân thành/Trân trọng.",
     exampleEn: "You are cordially invited.",
     exampleVi: "Bạn được trân trọng kính mời.",
-    categories: ["Social", "General"],
+    categories: ["Social","General"],
   },
   {
     id: "gen-4039",
@@ -705,7 +695,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Đá cordierite (khoáng vật silicat).",
     exampleEn: "Gem-quality cordierite.",
     exampleVi: "Đá cordierite chất lượng đá quý.",
-    categories: ["Science", "Nature"],
+    categories: ["Science","Nature"],
   },
   {
     id: "gen-4040",
@@ -717,7 +707,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Thuộc về hệ thống dãy núi.",
     exampleEn: "Cordilleran mountains.",
     exampleVi: "Các dãy núi cordillera.",
-    categories: ["Geography", "Nature"],
+    categories: ["Geography","Nature"],
   },
   {
     id: "gen-4041",
@@ -725,12 +715,11 @@ export const C14: VocabularyWord[] = [
     slug: "cordite",
     phonetic: "/ˈkɔːr.daɪt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A smokeless explosive made from nitrocellulose and nitroglycerine.",
+    meaningEn: "A smokeless explosive made from nitrocellulose and nitroglycerine.",
     meaningVi: "Thuốc súng không khói.",
     exampleEn: "Smell of cordite.",
     exampleVi: "Mùi thuốc súng cordite.",
-    categories: ["Science", "History"],
+    categories: ["Science","History"],
   },
   {
     id: "gen-4042",
@@ -738,12 +727,11 @@ export const C14: VocabularyWord[] = [
     slug: "cordless",
     phonetic: "/ˈkɔːrd.ləs/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of an electrical device) working without a physical connection to a power supply.",
+    meaningEn: "(of an electrical device) working without a physical connection to a power supply.",
     meaningVi: "Không dây.",
     exampleEn: "Cordless drill.",
     exampleVi: "Máy khoan không dây.",
-    categories: ["Technology", "Daily"],
+    categories: ["Technology","Daily"],
   },
   {
     id: "gen-4043",
@@ -751,12 +739,11 @@ export const C14: VocabularyWord[] = [
     slug: "cordon",
     phonetic: "/ˈkɔːr.dən/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A line of police, sentinels, or military posts enclosing or guarding an area.",
+    meaningEn: "A line of police, sentinels, or military posts enclosing or guarding an area.",
     meaningVi: "Hàng rào bảo vệ/Dây đai danh dự.",
     exampleEn: "Police cordon.",
     exampleVi: "Hàng rào cảnh sát.",
-    categories: ["Social", "Law", "Politics"],
+    categories: ["Social","Law","Politics"],
   },
   {
     id: "gen-4044",
@@ -764,12 +751,11 @@ export const C14: VocabularyWord[] = [
     slug: "cordonnet",
     phonetic: "/ˌkɔːr.dəˈnet/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A heavy silk, cotton, or linen thread used for embroidery, etc.",
+    meaningEn: "A heavy silk, cotton, or linen thread used for embroidery, etc.",
     meaningVi: "Chỉ thêu dày/Dây thêu.",
     exampleEn: "Fine cordonnet.",
     exampleVi: "Sợi chỉ thêu mịn.",
-    categories: ["Art", "Daily"],
+    categories: ["Art","Daily"],
   },
   {
     id: "gen-4045",
@@ -781,7 +767,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Da thành phẩm (loại da mềm của Tây Ban Nha).",
     exampleEn: "Cordovan shoes.",
     exampleVi: "Giày da cordovan.",
-    categories: ["Body", "History"],
+    categories: ["Body","History"],
   },
   {
     id: "gen-4046",
@@ -793,7 +779,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Vải nhung kẻ/Vải băng.",
     exampleEn: "Corduroy trousers.",
     exampleVi: "Quần vải nhung kẻ.",
-    categories: ["Body", "Daily"],
+    categories: ["Body","Daily"],
   },
   {
     id: "gen-4047",
@@ -805,7 +791,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Thợ đóng giày (đồ mới).",
     exampleEn: "Master cordwainer.",
     exampleVi: "Bậc thầy đóng giày.",
-    categories: ["People", "Business", "History"],
+    categories: ["People","Business","History"],
   },
   {
     id: "gen-4048",
@@ -813,12 +799,11 @@ export const C14: VocabularyWord[] = [
     slug: "core",
     phonetic: "/kɔːr/",
     partOfSpeech: "noun/adjective/verb",
-    meaningEn:
-      "The tough central part of various fruits, containing the seeds; the central or most important part of something.",
+    meaningEn: "The tough central part of various fruits, containing the seeds; the central or most important part of something.",
     meaningVi: "Lõi/Cốt lõi.",
     exampleEn: "Core values.",
     exampleVi: "Các giá trị cốt lõi.",
-    categories: ["General", "Science", "Psychology"],
+    categories: ["General","Science","Psychology"],
   },
   {
     id: "gen-4049",
@@ -830,7 +815,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Hãng phần mềm Corel.",
     exampleEn: "CorelDRAW software.",
     exampleVi: "Phần mềm CorelDRAW.",
-    categories: ["Technology", "Business", "Technology"],
+    categories: ["Technology","Business","Technology"],
   },
   {
     id: "gen-4050",
@@ -838,12 +823,11 @@ export const C14: VocabularyWord[] = [
     slug: "corespondent",
     phonetic: "/ˌkoʊ.rɪˈspɑːn.dənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person cited in a divorce case as having committed adultery with the respondent.",
+    meaningEn: "A person cited in a divorce case as having committed adultery with the respondent.",
     meaningVi: "Người đồng phạm (trong vụ kiện ly hôn).",
     exampleEn: "Named as corespondent.",
     exampleVi: "Bị kiện là người đồng phạm.",
-    categories: ["Law", "Social"],
+    categories: ["Law","Social"],
   },
   {
     id: "gen-4051",
@@ -855,7 +839,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Chó Corgi.",
     exampleEn: "Pembroke Welsh Corgi.",
     exampleVi: "Corgi xứ Wales cổ ngắn.",
-    categories: ["Animals", "Daily"],
+    categories: ["Animals","Daily"],
   },
   {
     id: "gen-4052",
@@ -867,7 +851,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Như da/Dai như da.",
     exampleEn: "Coriaceous leaves.",
     exampleVi: "Các loại lá dai như da.",
-    categories: ["Science", "Nature"],
+    categories: ["Science","Nature"],
   },
   {
     id: "gen-4053",
@@ -875,12 +859,11 @@ export const C14: VocabularyWord[] = [
     slug: "corian",
     phonetic: "/ˈkɔːr.i.ən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A solid material used for kitchen surfaces and other building applications.",
+    meaningEn: "A solid material used for kitchen surfaces and other building applications.",
     meaningVi: "Vật liệu Corian (đá nhân tạo).",
     exampleEn: "Corian countertops.",
     exampleVi: "Mặt bàn bằng đá Corian.",
-    categories: ["Architecture", "Engineering", "Daily"],
+    categories: ["Architecture","Engineering","Daily"],
   },
   {
     id: "gen-4054",
@@ -892,7 +875,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Rau mùi/Ngò rí.",
     exampleEn: "Fresh coriander.",
     exampleVi: "Rau mùi tươi.",
-    categories: ["Food & Drink", "Nature"],
+    categories: ["Food & Drink","Nature"],
   },
   {
     id: "gen-4055",
@@ -900,12 +883,11 @@ export const C14: VocabularyWord[] = [
     slug: "corinthian",
     phonetic: "/kəˈrɪn.θi.ən/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "Relating to Corinth; a person of Corinth; an ornate style of pillar.",
+    meaningEn: "Relating to Corinth; a person of Corinth; an ornate style of pillar.",
     meaningVi: "Thuộc về Cô-rin-tô/Kiểu cột Cô-rin-tô (trang trí hoa lá).",
     exampleEn: "Corinthian column.",
     exampleVi: "Cột Corinthian.",
-    categories: ["History", "Architecture", "Art"],
+    categories: ["History","Architecture","Art"],
   },
   {
     id: "gen-4056",
@@ -913,12 +895,11 @@ export const C14: VocabularyWord[] = [
     slug: "cork",
     phonetic: "/kɔːrk/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "Buoyant light brown substance from the bark of a Mediterranean oak; a bottle stopper.",
+    meaningEn: "Buoyant light brown substance from the bark of a Mediterranean oak; a bottle stopper.",
     meaningVi: "Vỏ cây sồi/Nút bần/Nút chai.",
     exampleEn: "Bottle cork.",
     exampleVi: "Nút chai (bằng bần).",
-    categories: ["Daily", "Food & Drink", "General"],
+    categories: ["Daily","Food & Drink","General"],
   },
   {
     id: "gen-4057",
@@ -926,12 +907,11 @@ export const C14: VocabularyWord[] = [
     slug: "corkage",
     phonetic: "/ˈkɔːr.kɪdʒ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A charge made by a restaurant for serving wine that has been brought in by the customer.",
+    meaningEn: "A charge made by a restaurant for serving wine that has been brought in by the customer.",
     meaningVi: "Phí mở nút chai (khi mang rượu vào nhà hàng).",
     exampleEn: "Pay corkage fee.",
     exampleVi: "Trả phí mở nút chai.",
-    categories: ["Food & Drink", "Business", "Social"],
+    categories: ["Food & Drink","Business","Social"],
   },
   {
     id: "gen-4058",
@@ -943,7 +923,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Đã đậy nút bần/Rượu bị hỏng do nút bần.",
     exampleEn: "Corked wine.",
     exampleVi: "Rượu bị hỏng do nút bần.",
-    categories: ["Food & Drink", "Daily"],
+    categories: ["Food & Drink","Daily"],
   },
   {
     id: "gen-4059",
@@ -955,7 +935,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Đồ khui nút chai/Hình xoắn ốc.",
     exampleEn: "Corkscrew motion.",
     exampleVi: "Chuyển động xoắn ốc.",
-    categories: ["Daily", "Technology", "General"],
+    categories: ["Daily","Technology","General"],
   },
   {
     id: "gen-4060",
@@ -967,7 +947,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Thân hành/Giò (thực vật).",
     exampleEn: "Gladiolus corm.",
     exampleVi: "Thân hành hoa lay-ơn.",
-    categories: ["Science", "Nature"],
+    categories: ["Science","Nature"],
   },
   {
     id: "gen-4061",
@@ -979,7 +959,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Chim cốc/Người tham ăn.",
     exampleEn: "Cormorant fishing.",
     exampleVi: "Đánh cá bằng chim cốc.",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-4062",
@@ -987,12 +967,11 @@ export const C14: VocabularyWord[] = [
     slug: "corn",
     phonetic: "/kɔːrn/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A North American cereal plant with large grains set in rows on a cob (maize); a small sore area of thickened skin.",
+    meaningEn: "A North American cereal plant with large grains set in rows on a cob (maize); a small sore area of thickened skin.",
     meaningVi: "Ngô/Bắp/Hạt ngũ cốc/Chai chân.",
     exampleEn: "Corn on the cob.",
     exampleVi: "Ngô bắp.",
-    categories: ["Food & Drink", "Nature", "Medical"],
+    categories: ["Food & Drink","Nature","Medical"],
   },
   {
     id: "gen-4063",
@@ -1004,7 +983,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Người sến súa/Vẻ sến súa (thân mật).",
     exampleEn: "Total cornball.",
     exampleVi: "Một kẻ cực kỳ sến súa.",
-    categories: ["Social", "People"],
+    categories: ["Social","People"],
   },
   {
     id: "gen-4064",
@@ -1016,7 +995,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Bánh mì ngô.",
     exampleEn: "Hot cornbread.",
     exampleVi: "Bánh mì ngô nóng hổi.",
-    categories: ["Food & Drink", "Daily"],
+    categories: ["Food & Drink","Daily"],
   },
   {
     id: "gen-4065",
@@ -1028,7 +1007,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Chim gà lôi nước.",
     exampleEn: "Cry of the corncrake.",
     exampleVi: "Tiếng kêu của chim gà lôi nước.",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-4066",
@@ -1040,7 +1019,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Giác mạc.",
     exampleEn: "Cornea transplant.",
     exampleVi: "Ghép giác mạc.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-4067",
@@ -1052,7 +1031,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Thuộc về giác mạc.",
     exampleEn: "Corneal ulcer.",
     exampleVi: "Loét giác mạc.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-4068",
@@ -1064,7 +1043,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Muối (thịt bò muối).",
     exampleEn: "Corned beef.",
     exampleVi: "Thịt bò muối.",
-    categories: ["Food & Drink", "Daily"],
+    categories: ["Food & Drink","Daily"],
   },
   {
     id: "gen-4069",
@@ -1076,7 +1055,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Cây sơn thù du.",
     exampleEn: "Cornel cherry.",
     exampleVi: "Quả sơn thù du.",
-    categories: ["Nature", "Science"],
+    categories: ["Nature","Science"],
   },
   {
     id: "gen-4070",
@@ -1100,7 +1079,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Mã não đỏ/Đá carnelian.",
     exampleEn: "Cornelian ring.",
     exampleVi: "Nhân mã não đỏ.",
-    categories: ["Science", "Nature", "Body"],
+    categories: ["Science","Nature","Body"],
   },
   {
     id: "gen-191",
@@ -1120,12 +1099,11 @@ export const C14: VocabularyWord[] = [
     slug: "cornerstone",
     phonetic: "/ˈkɔːr.nɚ.stoʊn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An important quality or feature on which a particular thing is based or depends.",
+    meaningEn: "An important quality or feature on which a particular thing is based or depends.",
     meaningVi: "Đá tảng/Nền tảng/Điểm mấu chốt.",
     exampleEn: "The cornerstone of democracy.",
     exampleVi: "Nền tảng của dân chủ.",
-    categories: ["General", "Architecture", "Politics"],
+    categories: ["General","Architecture","Politics"],
   },
   {
     id: "gen-4074",
@@ -1137,7 +1115,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Kèn cornet/Ốc quế (kem).",
     exampleEn: "Play the cornet.",
     exampleVi: "Chơi kèn cornet.",
-    categories: ["Music", "Daily", "Food & Drink"],
+    categories: ["Music","Daily","Food & Drink"],
   },
   {
     id: "gen-4075",
@@ -1149,7 +1127,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Người chơi kèn cornet.",
     exampleEn: "Jazz cornetist.",
     exampleVi: "Người chơi kèn cornet nhạc jazz.",
-    categories: ["People", "Music"],
+    categories: ["People","Music"],
   },
   {
     id: "gen-4076",
@@ -1161,7 +1139,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Hoa thanh cúc/Hoa ngô.",
     exampleEn: "Cornflower blue.",
     exampleVi: "Màu xanh thanh cúc.",
-    categories: ["Nature", "Body"],
+    categories: ["Nature","Body"],
   },
   {
     id: "gen-4077",
@@ -1169,12 +1147,11 @@ export const C14: VocabularyWord[] = [
     slug: "cornice",
     phonetic: "/ˈkɔːr.nɪs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An ornamental molding around the wall of a room just below the ceiling.",
+    meaningEn: "An ornamental molding around the wall of a room just below the ceiling.",
     meaningVi: "Gờ tường/Phào chỉ/Mái đua.",
     exampleEn: "Decorative cornice.",
     exampleVi: "Gờ tường trang trí.",
-    categories: ["Architecture", "Art"],
+    categories: ["Architecture","Art"],
   },
   {
     id: "gen-4078",
@@ -1186,7 +1163,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Dưa chuột bao tử muối.",
     exampleEn: "Serve with cornichons.",
     exampleVi: "Ăn kèm với dưa chuột bao tử muối.",
-    categories: ["Food & Drink", "Daily"],
+    categories: ["Food & Drink","Daily"],
   },
   {
     id: "gen-4079",
@@ -1198,7 +1175,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Thuộc về Cornwall/Người/Tiếng Cornwall.",
     exampleEn: "Cornish pasty.",
     exampleVi: "Bánh Cornish pasty.",
-    categories: ["History", "Geography", "Food & Drink"],
+    categories: ["History","Geography","Food & Drink"],
   },
   {
     id: "gen-4080",
@@ -1210,7 +1187,7 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Thân cây ngô.",
     exampleEn: "Dry cornstalks.",
     exampleVi: "Những thân cây ngô khô.",
-    categories: ["Nature", "Agriculture"],
+    categories: ["Nature","Agriculture"],
   },
   {
     id: "gen-4081",
@@ -1222,19 +1199,6 @@ export const C14: VocabularyWord[] = [
     meaningVi: "Bột ngô.",
     exampleEn: "Thicken with cornstarch.",
     exampleVi: "Làm đặc bằng bột ngô.",
-    categories: ["Food & Drink", "Daily"],
-  },
-  {
-    id: "gen-4082",
-    word: "Cornucopia",
-    slug: "cornucopia",
-    phonetic: "/ˌkɔːr.njəˈkoʊ.pi.ə/",
-    partOfSpeech: "noun",
-    meaningEn:
-      "A symbol of plenty consisting of a goat's horn overflowing with flowers, fruit, and corn.",
-    meaningVi: "Chiếc sừng sung túc/Sự phong phú dồi dào.",
-    exampleEn: "A cornucopia of ideas.",
-    exampleVi: "Một kho tàng ý tưởng dồi dào.",
-    categories: ["General", "History", "Literature"],
-  },
+    categories: ["Food & Drink","Daily"],
+  }
 ];

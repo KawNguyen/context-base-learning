@@ -2,6 +2,18 @@ import { VocabularyWord } from "../../types";
 
 export const C16: VocabularyWord[] = [
   {
+    id: "gen-4183",
+    word: "Costermonger",
+    slug: "costermonger",
+    phonetic: "/ˈkɑː.stɚˌmʌŋ.ɡɚ/",
+    partOfSpeech: "noun",
+    meaningEn: "A person who sells fruit and vegetables from a barrow in the street.",
+    meaningVi: "Người bán hoa quả dạo/Người bán rau dạo.",
+    exampleEn: "London costermonger.",
+    exampleVi: "Người bán quả dạo ở Luân Đôn.",
+    categories: ["People","Business","History"],
+  },
+  {
     id: "gen-4184",
     word: "Costive",
     slug: "costive",
@@ -11,7 +23,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Bị táo bón/Chậm chạp/Kín đáo (ý kiến).",
     exampleEn: "Costive nature.",
     exampleVi: "Bản tính kín đáo/ít nói.",
-    categories: ["Medical", "Psychology"],
+    categories: ["Medical","Psychology"],
   },
   {
     id: "gen-4185",
@@ -23,7 +35,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Không tốn kém/Miễn phí.",
     exampleEn: "Costless advice.",
     exampleVi: "Lời khuyên miễn phí.",
-    categories: ["Business", "General"],
+    categories: ["Business","General"],
   },
   {
     id: "gen-4186",
@@ -35,7 +47,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Đắt đỏ/Tốn kém.",
     exampleEn: "Costly mistake.",
     exampleVi: "Sai lầm đắt giá.",
-    categories: ["Business", "General"],
+    categories: ["Business","General"],
   },
   {
     id: "gen-4187",
@@ -43,12 +55,11 @@ export const C16: VocabularyWord[] = [
     slug: "costume",
     phonetic: "/ˈkɑː.stuːm/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A set of clothes in a style typical of a particular country or historical period.",
+    meaningEn: "A set of clothes in a style typical of a particular country or historical period.",
     meaningVi: "Trang phục/Y phục.",
     exampleEn: "Traditional costume.",
     exampleVi: "Trang phục truyền thống.",
-    categories: ["Body", "Social", "Art"],
+    categories: ["Body","Social","Art"],
   },
   {
     id: "gen-4188",
@@ -56,12 +67,11 @@ export const C16: VocabularyWord[] = [
     slug: "costumer",
     phonetic: "/ˈkɑː.stuː.mɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person or company that makes or supplies theatrical costumes.",
+    meaningEn: "A person or company that makes or supplies theatrical costumes.",
     meaningVi: "Người thiết kế trang phục/Chủ cửa hàng cho thuê trang phục.",
     exampleEn: "Professional costumer.",
     exampleVi: "Người thiết kế trang phục chuyên nghiệp.",
-    categories: ["People", "Business", "Art"],
+    categories: ["People","Business","Art"],
   },
   {
     id: "gen-4189",
@@ -73,7 +83,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Ấm cúng/Thoải mái.",
     exampleEn: "Cosy fireplace.",
     exampleVi: "Lò sưởi ấm cúng.",
-    categories: ["General", "Social", "Psychology"],
+    categories: ["General","Social","Psychology"],
   },
   {
     id: "gen-4190",
@@ -81,12 +91,11 @@ export const C16: VocabularyWord[] = [
     slug: "cot",
     phonetic: "/kɑːt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A small bed with high barred sides for a baby or very young child (crib); a light portable bed.",
+    meaningEn: "A small bed with high barred sides for a baby or very young child (crib); a light portable bed.",
     meaningVi: "Cái cũi/Giường gấp/Giường hẹp.",
     exampleEn: "Baby's cot.",
     exampleVi: "Gường cũi của em bé.",
-    categories: ["Daily", "Home", "General"],
+    categories: ["Daily","Home","General"],
   },
   {
     id: "gen-4192",
@@ -98,7 +107,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Chuồng (chim bồ câu)/Lều nhốt gia súc.",
     exampleEn: "Dove cote.",
     exampleVi: "Chuồng chim bồ câu.",
-    categories: ["Animals", "General", "Home"],
+    categories: ["Animals","General","Home"],
   },
   {
     id: "gen-4193",
@@ -110,7 +119,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Cùng thời/Hiện đại (cách viết ít dùng của contemporary).",
     exampleEn: "Cotemporary records.",
     exampleVi: "Bản ghi cùng thời.",
-    categories: ["General", "History"],
+    categories: ["General","History"],
   },
   {
     id: "gen-4194",
@@ -118,12 +127,11 @@ export const C16: VocabularyWord[] = [
     slug: "coterie",
     phonetic: "/ˈkoʊ.t̬ɚ.i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A small group of people with shared interests or tastes, especially one that is exclusive of other people.",
+    meaningEn: "A small group of people with shared interests or tastes, especially one that is exclusive of other people.",
     meaningVi: "Nhóm/Phường/Hội (có tính riêng biệt).",
     exampleEn: "Literary coterie.",
     exampleVi: "Nhóm văn học.",
-    categories: ["Social", "Psychology", "Business"],
+    categories: ["Social","Psychology","Business"],
   },
   {
     id: "gen-4195",
@@ -131,12 +139,11 @@ export const C16: VocabularyWord[] = [
     slug: "cothurnus",
     phonetic: "/kəˈθɝː.nəs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A buskin; a tragic buskin worn by ancient Greek and Roman actors.",
+    meaningEn: "A buskin; a tragic buskin worn by ancient Greek and Roman actors.",
     meaningVi: "Giày ống cao (diễn viên kịch cổ đại).",
     exampleEn: "Ancient cothurnus.",
     exampleVi: "Giày cothurnus cổ đại.",
-    categories: ["Art", "History", "Body"],
+    categories: ["Art","History","Body"],
   },
   {
     id: "gen-4196",
@@ -148,7 +155,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Điệu nhảy cotillon (Pháp cổ).",
     exampleEn: "Dancing the cotillon.",
     exampleVi: "Nhảy điệu cotillon.",
-    categories: ["Art", "History", "Social"],
+    categories: ["Art","History","Social"],
   },
   {
     id: "gen-4197",
@@ -160,7 +167,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Nhà tranh/Nhà nhỏ vùng quê.",
     exampleEn: "Thatched cottage.",
     exampleVi: "Nhà tranh mái lá.",
-    categories: ["General", "Geography", "Home"],
+    categories: ["General","Geography","Home"],
   },
   {
     id: "gen-4198",
@@ -172,7 +179,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Người sống trong nhà tranh/Người dân quê.",
     exampleEn: "Humble cottager.",
     exampleVi: "Người dân quê khiêm nhường.",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-4199",
@@ -180,12 +187,11 @@ export const C16: VocabularyWord[] = [
     slug: "cotter",
     phonetic: "/ˈkɑː.t̬ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A bolt, wedge, or pin used to fasten parts of machinery together.",
+    meaningEn: "A bolt, wedge, or pin used to fasten parts of machinery together.",
     meaningVi: "Chốt/Cái chốt/Người thuê đất nhỏ (cũ).",
     exampleEn: "Cotter pin.",
     exampleVi: "Chốt chẻ.",
-    categories: ["Engineering", "General"],
+    categories: ["Engineering","General"],
   },
   {
     id: "gen-194",
@@ -209,7 +215,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Hạt bông (dùng để ép dầu).",
     exampleEn: "Cottonseed oil.",
     exampleVi: "Dầu hạt bông.",
-    categories: ["Food & Drink", "Nature", "Science"],
+    categories: ["Food & Drink","Nature","Science"],
   },
   {
     id: "gen-4202",
@@ -217,12 +223,11 @@ export const C16: VocabularyWord[] = [
     slug: "cottonwood",
     phonetic: "/ˈkɑː.tən.wʊd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A North American poplar with seeds covered in white cottony hairs.",
+    meaningEn: "A North American poplar with seeds covered in white cottony hairs.",
     meaningVi: "Cây dương (loại có hạt phủ bông).",
     exampleEn: "Cottonwood tree.",
     exampleVi: "Cây dương cottonwood.",
-    categories: ["Nature", "Science"],
+    categories: ["Nature","Science"],
   },
   {
     id: "gen-4203",
@@ -234,7 +239,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Như bông/Mềm như bông.",
     exampleEn: "Cottony clouds.",
     exampleVi: "Những đám mây như bông.",
-    categories: ["General", "Body"],
+    categories: ["General","Body"],
   },
   {
     id: "gen-4204",
@@ -242,12 +247,11 @@ export const C16: VocabularyWord[] = [
     slug: "cotyledon",
     phonetic: "/ˌkɑː.t̬əˈliː.dən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An embryonic leaf in seed-bearing plants, one or more of which are the first leaves to appear from a germinating seed.",
+    meaningEn: "An embryonic leaf in seed-bearing plants, one or more of which are the first leaves to appear from a germinating seed.",
     meaningVi: "Lá mầm.",
     exampleEn: "The first cotyledon.",
     exampleVi: "Lá mầm đầu tiên.",
-    categories: ["Science", "Nature"],
+    categories: ["Science","Nature"],
   },
   {
     id: "gen-4205",
@@ -255,12 +259,11 @@ export const C16: VocabularyWord[] = [
     slug: "couch",
     phonetic: "/kaʊtʃ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A long upholstered piece of furniture for several people to sit on (sofa).",
+    meaningEn: "A long upholstered piece of furniture for several people to sit on (sofa).",
     meaningVi: "Ghế trường kỷ/Ghế sofa/Nằm nghỉ.",
     exampleEn: "Couch potato.",
     exampleVi: "Người lười biếng (chỉ ngồi xem TV trên sofa).",
-    categories: ["Daily", "Home", "General"],
+    categories: ["Daily","Home","General"],
   },
   {
     id: "gen-4206",
@@ -272,7 +275,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Nằm phục/Nằm bò (đầu ngẩng lên).",
     exampleEn: "Lion couchant.",
     exampleVi: "Sư tử nằm phục.",
-    categories: ["Animals", "Art", "General"],
+    categories: ["Animals","Art","General"],
   },
   {
     id: "gen-4207",
@@ -284,7 +287,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Báo sư tử/Mèo rừng Bắc Mỹ.",
     exampleEn: "Sleek cougar.",
     exampleVi: "Con báo sư tử mượt mà.",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "a1-205",
@@ -316,8 +319,7 @@ export const C16: VocabularyWord[] = [
     slug: "council",
     phonetic: "/ˈkaʊn.səl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An advisory, deliberative, or legislative body of people formally constituted, distributed, or elected.",
+    meaningEn: "An advisory, deliberative, or legislative body of people formally constituted, distributed, or elected.",
     meaningVi: "Hội đồng.",
     exampleEn: "City council.",
     exampleVi: "Hội đồng thành phố.",
@@ -333,7 +335,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Nam ủy viên hội đồng.",
     exampleEn: "Elected councilman.",
     exampleVi: "Nam ủy viên hội đồng được bầu.",
-    categories: ["People", "Politics", "Business"],
+    categories: ["People","Politics","Business"],
   },
   {
     id: "gen-4211",
@@ -345,7 +347,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Ủy viên hội đồng.",
     exampleEn: "Town councilor.",
     exampleVi: "Ủy viên hội đồng thị trấn.",
-    categories: ["People", "Politics", "Business"],
+    categories: ["People","Politics","Business"],
   },
   {
     id: "gen-4213",
@@ -357,7 +359,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Lời khuyên/Sự tư vấn/Cố vấn/Luật sư.",
     exampleEn: "Legal counsel.",
     exampleVi: "Cố vấn pháp lý.",
-    categories: ["Social", "Law", "Psychology"],
+    categories: ["Social","Law","Psychology"],
   },
   {
     id: "gen-4214",
@@ -365,12 +367,11 @@ export const C16: VocabularyWord[] = [
     slug: "counselor",
     phonetic: "/ˈkaʊn.sə.lɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person trained to give guidance on personal, social, or psychological problems.",
+    meaningEn: "A person trained to give guidance on personal, social, or psychological problems.",
     meaningVi: "Người cố vấn/Chuyên viên tư vấn.",
     exampleEn: "School counselor.",
     exampleVi: "Cố vấn học đường.",
-    categories: ["People", "Jobs", "Education"],
+    categories: ["People","Jobs","Education"],
   },
   {
     id: "gen-196",
@@ -382,7 +383,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Đếm.",
     exampleEn: "Count to ten.",
     exampleVi: "Đếm đến mười.",
-    categories: ["Mathematics", "General"],
+    categories: ["Mathematics","General"],
   },
   {
     id: "pv-60",
@@ -406,7 +407,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Có thể đếm được.",
     exampleEn: "Countable noun.",
     exampleVi: "Danh từ đếm được.",
-    categories: ["Education", "General"],
+    categories: ["Education","General"],
   },
   {
     id: "gen-4217",
@@ -418,7 +419,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Vẻ mặt/Sắc mặt/Sự ủng hộ.",
     exampleEn: "A sad countenance.",
     exampleVi: "Vẻ mặt buồn bã.",
-    categories: ["Body", "Psychology", "Literature"],
+    categories: ["Body","Psychology","Literature"],
   },
   {
     id: "gen-4218",
@@ -426,12 +427,11 @@ export const C16: VocabularyWord[] = [
     slug: "counter",
     phonetic: "/ˈkaʊn.t̬ɚ/",
     partOfSpeech: "noun/verb/adverb/adjective",
-    meaningEn:
-      "A long flat surface on which goods are sold or business is transacted in a shop or bank; act in opposition to.",
+    meaningEn: "A long flat surface on which goods are sold or business is transacted in a shop or bank; act in opposition to.",
     meaningVi: "Quầy hàng/Máy đếm/Phản đối/Ngược lại.",
     exampleEn: "Kitchen counter.",
     exampleVi: "Bàn bếp.",
-    categories: ["Daily", "General", "Business"],
+    categories: ["Daily","General","Business"],
   },
   {
     id: "gen-4222",
@@ -443,7 +443,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Phản công.",
     exampleEn: "Launch a counter-attack.",
     exampleVi: "Phát động cuộc phản công.",
-    categories: ["Politics", "Social", "General"],
+    categories: ["Politics","Social","General"],
   },
   {
     id: "gen-4225",
@@ -451,12 +451,11 @@ export const C16: VocabularyWord[] = [
     slug: "counter-clockwise",
     phonetic: "/ˌkaʊn.t̬ɚˈklɑːk.waɪz/",
     partOfSpeech: "adjective/adverb",
-    meaningEn:
-      "In the opposite direction to the way in which the hands of a clock move.",
+    meaningEn: "In the opposite direction to the way in which the hands of a clock move.",
     meaningVi: "Ngược chiều kim đồng hồ.",
     exampleEn: "Rotate counter-clockwise.",
     exampleVi: "Xoay ngược chiều kim đồng hồ.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "gen-4226",
@@ -468,7 +467,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Phản gián.",
     exampleEn: "Department of counter-espionage.",
     exampleVi: "Cục phản gián.",
-    categories: ["Politics", "Social"],
+    categories: ["Politics","Social"],
   },
   {
     id: "gen-4238",
@@ -480,7 +479,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Cuộc phản cách mạng.",
     exampleEn: "Threat of counter-revolution.",
     exampleVi: "Mối đe dọa phản cách mạng.",
-    categories: ["Politics", "History"],
+    categories: ["Politics","History"],
   },
   {
     id: "gen-4239",
@@ -492,7 +491,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Người phản cách mạng/Có tính phản cách mạng.",
     exampleEn: "Counter-revolutionary forces.",
     exampleVi: "Các lực lượng phản cách mạng.",
-    categories: ["People", "Politics", "History"],
+    categories: ["People","Politics","History"],
   },
   {
     id: "gen-4242",
@@ -504,7 +503,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Giọng phản nam cao (giọng nam cao nhất).",
     exampleEn: "Solo counter-tenor.",
     exampleVi: "Ca sĩ đơn ca nam phản nam cao.",
-    categories: ["Music", "People"],
+    categories: ["Music","People"],
   },
   {
     id: "gen-4219",
@@ -512,12 +511,11 @@ export const C16: VocabularyWord[] = [
     slug: "counteract",
     phonetic: "/ˌkaʊn.t̬ɚˈækt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Act against (something) in order to reduce its force or neutralize it.",
+    meaningEn: "Act against (something) in order to reduce its force or neutralize it.",
     meaningVi: "Phản tác dụng/Chống lại/Làm mất tác dụng.",
     exampleEn: "Counteract the poison.",
     exampleVi: "Chống lại chất độc.",
-    categories: ["General", "Science", "Law"],
+    categories: ["General","Science","Law"],
   },
   {
     id: "gen-4220",
@@ -529,7 +527,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Sự phản tác dụng/Hành động chống lại.",
     exampleEn: "Immediate counteraction.",
     exampleVi: "Hành động đối phó ngay lập tức.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "gen-4221",
@@ -553,7 +551,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Đối trọng/Bù lại.",
     exampleEn: "Counterbalance the stress.",
     exampleVi: "Cân bằng lại sự căng thẳng.",
-    categories: ["General", "Engineering", "Psychology"],
+    categories: ["General","Engineering","Psychology"],
   },
   {
     id: "gen-4224",
@@ -565,7 +563,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Kiểm tra chéo/Kiểm tra lại.",
     exampleEn: "Double countercheck.",
     exampleVi: "Kiểm tra chéo hai lần.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "gen-4227",
@@ -573,12 +571,11 @@ export const C16: VocabularyWord[] = [
     slug: "counterfeit",
     phonetic: "/ˈkaʊn.t̬ɚ.fɪt/",
     partOfSpeech: "adjective/noun/verb",
-    meaningEn:
-      "Made in exact imitation of something valuable or important with the intention to deceive or defraud.",
+    meaningEn: "Made in exact imitation of something valuable or important with the intention to deceive or defraud.",
     meaningVi: "Giả mạo/Giả/Tiền giả.",
     exampleEn: "Counterfeit money.",
     exampleVi: "Tiền giả.",
-    categories: ["Business", "Law", "General"],
+    categories: ["Business","Law","General"],
   },
   {
     id: "gen-4228",
@@ -590,7 +587,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Kẻ làm giả/Kẻ sản xuất hàng giả.",
     exampleEn: "Notorious counterfeiter.",
     exampleVi: "Kẻ làm giả khét tiếng.",
-    categories: ["People", "Law"],
+    categories: ["People","Law"],
   },
   {
     id: "gen-4229",
@@ -598,12 +595,11 @@ export const C16: VocabularyWord[] = [
     slug: "counterfoil",
     phonetic: "/ˈkaʊn.t̬ɚ.fɔɪl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The part of a check, ticket, or other document that is kept by the issuer as a record.",
+    meaningEn: "The part of a check, ticket, or other document that is kept by the issuer as a record.",
     meaningVi: "Cuống (séc/vé/hóa đơn).",
     exampleEn: "Keep the counterfoil.",
     exampleVi: "Giữ lại cuống vé.",
-    categories: ["Business", "Daily"],
+    categories: ["Business","Daily"],
   },
   {
     id: "gen-4231",
@@ -615,7 +611,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Nam nhân viên bán hàng tại quầy.",
     exampleEn: "Deli counterman.",
     exampleVi: "Nam nhân viên quầy thực phẩm.",
-    categories: ["People", "Business"],
+    categories: ["People","Business"],
   },
   {
     id: "gen-4230",
@@ -627,7 +623,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Hủy bỏ/Thu hồi (lệnh/yêu cầu).",
     exampleEn: "Countermand the order.",
     exampleVi: "Thu hồi lệnh.",
-    categories: ["General", "Law", "Politics"],
+    categories: ["General","Law","Politics"],
   },
   {
     id: "gen-4232",
@@ -639,7 +635,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Diễu hành ngược lại/Hành quân ngược lại/Đổi hướng.",
     exampleEn: "Strategic countermarch.",
     exampleVi: "Cuộc hành quân ngược hướng chiến thuật.",
-    categories: ["Politics", "Social", "General"],
+    categories: ["Politics","Social","General"],
   },
   {
     id: "gen-4233",
@@ -651,7 +647,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Đường hầm phá mìn/Phá hủy âm mưu.",
     exampleEn: "Dig a countermine.",
     exampleVi: "Đào đường hầm phá mìn.",
-    categories: ["Politics", "Social"],
+    categories: ["Politics","Social"],
   },
   {
     id: "gen-4234",
@@ -663,7 +659,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Khăn trải giường.",
     exampleEn: "Silk counterpane.",
     exampleVi: "Khăn trải giường bằng lụa.",
-    categories: ["Daily", "Home"],
+    categories: ["Daily","Home"],
   },
   {
     id: "gen-4235",
@@ -671,12 +667,11 @@ export const C16: VocabularyWord[] = [
     slug: "counterpart",
     phonetic: "/ˈkaʊn.t̬ɚ.pɑːrt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person or thing holding a position or performing a function that corresponds to that of another person or thing in another place.",
+    meaningEn: "A person or thing holding a position or performing a function that corresponds to that of another person or thing in another place.",
     meaningVi: "Bên tương ứng/Người có vị trí tương đương/Bản sao.",
     exampleEn: "Meet his counterpart.",
     exampleVi: "Gặp gỡ người đồng cấp với mình.",
-    categories: ["General", "Social", "Business"],
+    categories: ["General","Social","Business"],
   },
   {
     id: "gen-4236",
@@ -684,12 +679,11 @@ export const C16: VocabularyWord[] = [
     slug: "counterpoint",
     phonetic: "/ˈkaʊn.t̬ɚ.pɔɪnt/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "The art or technique of setting, writing, or playing a melody or melodies in conjunction with another.",
+    meaningEn: "The art or technique of setting, writing, or playing a melody or melodies in conjunction with another.",
     meaningVi: "Đối điểm (âm nhạc)/Điểm tương phản.",
     exampleEn: "Musical counterpoint.",
     exampleVi: "Đối điểm âm nhạc.",
-    categories: ["Art", "Music", "General"],
+    categories: ["Art","Music","General"],
   },
   {
     id: "gen-4237",
@@ -697,12 +691,11 @@ export const C16: VocabularyWord[] = [
     slug: "counterpoise",
     phonetic: "/ˈkaʊn.t̬ɚ.pɔɪz/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A factor, force, or influence that balances or neutralizes another.",
+    meaningEn: "A factor, force, or influence that balances or neutralizes another.",
     meaningVi: "Cái cân bằng/Đối trọng/Trạng thái cân bằng.",
     exampleEn: "Act as a counterpoise.",
     exampleVi: "Đóng vai trò như một đối trọng.",
-    categories: ["General", "Science", "Psychology"],
+    categories: ["General","Science","Psychology"],
   },
   {
     id: "gen-4240",
@@ -714,7 +707,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Ký xác nhận (sau khi người khác đã ký)/Mật khẩu.",
     exampleEn: "Must be countersigned.",
     exampleVi: "Phải được ký xác nhận.",
-    categories: ["Business", "Law", "Social"],
+    categories: ["Business","Law","Social"],
   },
   {
     id: "gen-4241",
@@ -722,12 +715,11 @@ export const C16: VocabularyWord[] = [
     slug: "countersink",
     phonetic: "/ˈkaʊn.t̬ɚ.sɪŋk/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Enlarge the upper part of (a hole) so that the head of a screw or bolt can be sunk into it so as to be flush with the surface.",
+    meaningEn: "Enlarge the upper part of (a hole) so that the head of a screw or bolt can be sunk into it so as to be flush with the surface.",
     meaningVi: "Khoan lỗ loe/Đầu vít âm.",
     exampleEn: "Countersink the screws.",
     exampleVi: "Khoan cho đầu vít âm xuống bề mặt.",
-    categories: ["Engineering", "General"],
+    categories: ["Engineering","General"],
   },
   {
     id: "gen-4243",
@@ -735,12 +727,11 @@ export const C16: VocabularyWord[] = [
     slug: "countervail",
     phonetic: "/ˌkaʊn.t̬ɚˈveɪl/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Offset the effect of (something) by countering it with something of equal force.",
+    meaningEn: "Offset the effect of (something) by countering it with something of equal force.",
     meaningVi: "Bù lại/Chống lại/Có tác dụng tương đương.",
     exampleEn: "Countervailing power.",
     exampleVi: "Sức mạnh đối kháng.",
-    categories: ["General", "Politics"],
+    categories: ["General","Politics"],
   },
   {
     id: "gen-4244",
@@ -752,7 +743,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Nữ bá tước/Vợ bá tước.",
     exampleEn: "The rich countess.",
     exampleVi: "Nữ bá tước giàu có.",
-    categories: ["People", "Politics", "History"],
+    categories: ["People","Politics","History"],
   },
   {
     id: "gen-4245",
@@ -760,12 +751,11 @@ export const C16: VocabularyWord[] = [
     slug: "counting-house",
     phonetic: "/ˈkaʊn.tɪŋ.haʊs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An office or building in which accounts are kept and commercial business is transacted (archaic).",
+    meaningEn: "An office or building in which accounts are kept and commercial business is transacted (archaic).",
     meaningVi: "Phòng kế toán/Văn phòng giao dịch (từ cũ).",
     exampleEn: "In the counting-house.",
     exampleVi: "Ở văn phòng giao dịch.",
-    categories: ["History", "Business"],
+    categories: ["History","Business"],
   },
   {
     id: "b1-178",
@@ -789,7 +779,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Hóa ra nhà quê/Có vẻ dân quê.",
     exampleEn: "Countrified manners.",
     exampleVi: "Cách cư xử có vẻ dân quê.",
-    categories: ["Social", "Body"],
+    categories: ["Social","Body"],
   },
   {
     id: "a1-151",
@@ -797,8 +787,7 @@ export const C16: VocabularyWord[] = [
     slug: "country",
     phonetic: "/ˈkʌn.tri/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A nation with its own government, occupying a particular territory.",
+    meaningEn: "A nation with its own government, occupying a particular territory.",
     meaningVi: "Quốc gia, đất nước.",
     exampleEn: "Vietnam is my country.",
     exampleVi: "Việt Nam là đất nước của tôi.",
@@ -810,12 +799,11 @@ export const C16: VocabularyWord[] = [
     slug: "country-dance",
     phonetic: "/ˈkʌn.tri.dæns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A traditional English dance in which pairs of dancers are arranged in rows or circles.",
+    meaningEn: "A traditional English dance in which pairs of dancers are arranged in rows or circles.",
     meaningVi: "Điệu nhảy đồng quê (truyền thống Anh).",
     exampleEn: "Lively country-dance.",
     exampleVi: "Điệu nhảy đồng quê sôi động.",
-    categories: ["Art", "Social", "History"],
+    categories: ["Art","Social","History"],
   },
   {
     id: "gen-4250",
@@ -823,12 +811,11 @@ export const C16: VocabularyWord[] = [
     slug: "countryman",
     phonetic: "/ˈkʌn.tri.mən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person from one's own country; a person living in a rural area.",
+    meaningEn: "A person from one's own country; a person living in a rural area.",
     meaningVi: "Người đồng hương/Người dân nông thôn.",
     exampleEn: "Fellow countryman.",
     exampleVi: "Người đồng bào/đồng hương.",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-4251",
@@ -840,7 +827,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Vùng nông thôn/Ngoại ô.",
     exampleEn: "Rolling countryside.",
     exampleVi: "Vùng nông thôn nhấp nhô đồi núi.",
-    categories: ["Geography", "Nature"],
+    categories: ["Geography","Nature"],
   },
   {
     id: "gen-4252",
@@ -848,12 +835,11 @@ export const C16: VocabularyWord[] = [
     slug: "county",
     phonetic: "/ˈkaʊn.ti/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A territorial division of some countries, forming the chief unit of local administration.",
+    meaningEn: "A territorial division of some countries, forming the chief unit of local administration.",
     meaningVi: "Hạt/Quận (đơn vị hành chính).",
     exampleEn: "County fair.",
     exampleVi: "Hội chợ của hạt/quận.",
-    categories: ["Geography", "Politics"],
+    categories: ["Geography","Politics"],
   },
   {
     id: "gen-4253",
@@ -861,12 +847,11 @@ export const C16: VocabularyWord[] = [
     slug: "coup",
     phonetic: "/kuː/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A sudden, violent, and illegal seizure of power from a government.",
+    meaningEn: "A sudden, violent, and illegal seizure of power from a government.",
     meaningVi: "Cuộc đảo chính/Hành động ngoạn mục.",
     exampleEn: "Military coup.",
     exampleVi: "Cuộc đảo chính quân sự.",
-    categories: ["Politics", "History"],
+    categories: ["Politics","History"],
   },
   {
     id: "gen-4254",
@@ -878,7 +863,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Xe coupe (xe 2 cửa mái cố định).",
     exampleEn: "Sports coupe.",
     exampleVi: "Xe thể thao coupe.",
-    categories: ["Travel", "Daily", "Engineering"],
+    categories: ["Travel","Daily","Engineering"],
   },
   {
     id: "gen-198",
@@ -890,7 +875,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Cặp đôi.",
     exampleEn: "They are a happy couple.",
     exampleVi: "Họ là một cặp đôi hạnh phúc.",
-    categories: ["Social", "Family"],
+    categories: ["Social","Family"],
   },
   {
     id: "gen-4255",
@@ -898,12 +883,11 @@ export const C16: VocabularyWord[] = [
     slug: "couplet",
     phonetic: "/ˈkʌp.lət/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Two lines of verse, usually in the same meter and joined by rhyme.",
+    meaningEn: "Two lines of verse, usually in the same meter and joined by rhyme.",
     meaningVi: "Cặp câu thơ nôm/Câu đối.",
     exampleEn: "Rhyming couplet.",
     exampleVi: "Cặp câu lục bát (có vần).",
-    categories: ["Literature", "Art"],
+    categories: ["Literature","Art"],
   },
   {
     id: "gen-4256",
@@ -911,12 +895,11 @@ export const C16: VocabularyWord[] = [
     slug: "coupon",
     phonetic: "/ˈkuː.pɑːn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A voucher entitling the holder to a discount for a particular product.",
+    meaningEn: "A voucher entitling the holder to a discount for a particular product.",
     meaningVi: "Phiếu giảm giá/Cuống vé.",
     exampleEn: "Discount coupon.",
     exampleVi: "Phiếu giảm giá.",
-    categories: ["Business", "Daily"],
+    categories: ["Business","Daily"],
   },
   {
     id: "gen-199",
@@ -928,7 +911,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Lòng dũng cảm.",
     exampleEn: "She showed great courage.",
     exampleVi: "Cô ấy đã thể hiện lòng dũng cảm lớn.",
-    categories: ["General", "Emotions"],
+    categories: ["General","Emotions"],
   },
   {
     id: "gen-4258",
@@ -940,7 +923,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Can đảm/Dũng cảm.",
     exampleEn: "Courageous decision.",
     exampleVi: "Quyết định dũng cảm.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-4259",
@@ -952,7 +935,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Một cách can đảm.",
     exampleEn: "Fought courageously.",
     exampleVi: "Đã chiến đấu một cách dũng cảm.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-4260",
@@ -960,12 +943,11 @@ export const C16: VocabularyWord[] = [
     slug: "courier",
     phonetic: "/ˈkʊr.i.ɚ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A messenger who transports goods or documents, in particular someone employed by a specialist delivery firm.",
+    meaningEn: "A messenger who transports goods or documents, in particular someone employed by a specialist delivery firm.",
     meaningVi: "Người đưa thư/Nhân viên chuyển phát nhanh.",
     exampleEn: "International courier.",
     exampleVi: "Chuyển phát nhanh quốc tế.",
-    categories: ["Business", "Travel", "Business"],
+    categories: ["Business","Travel","Business"],
   },
   {
     id: "gen-4261",
@@ -977,7 +959,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Chim Courlan (hành đường).",
     exampleEn: "Screech of the courlan.",
     exampleVi: "Tiếng rít của chim courlan.",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-200",
@@ -1001,7 +983,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Ngựa chiến/Ngựa chạy nhanh.",
     exampleEn: "Galloping courser.",
     exampleVi: "Con ngựa chiến đang phi nước đại.",
-    categories: ["Animals", "History"],
+    categories: ["Animals","History"],
   },
   {
     id: "gen-201",
@@ -1025,7 +1007,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Trụ sở tòa án.",
     exampleEn: "County court-house.",
     exampleVi: "Trụ sở tòa án của quận.",
-    categories: ["Law", "Politics"],
+    categories: ["Law","Politics"],
   },
   {
     id: "gen-4273",
@@ -1037,7 +1019,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Tòa án quân sự/Đưa ra xét xử quân sự.",
     exampleEn: "Face a court-martial.",
     exampleVi: "Đối mặt với tòa án quân sự.",
-    categories: ["Law", "Politics"],
+    categories: ["Law","Politics"],
   },
   {
     id: "gen-4274",
@@ -1045,12 +1027,11 @@ export const C16: VocabularyWord[] = [
     slug: "court-plaster",
     phonetic: "/ˈkɔːrtˌplæs.tɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Adhesive plaster made of silk or similar material used for protecting slight wounds.",
+    meaningEn: "Adhesive plaster made of silk or similar material used for protecting slight wounds.",
     meaningVi: "Băng dán vết thương bằng lụa.",
     exampleEn: "Patch with court-plaster.",
     exampleVi: "Dán vết thương bằng băng lụa.",
-    categories: ["Medical", "Daily"],
+    categories: ["Medical","Daily"],
   },
   {
     id: "gen-4265",
@@ -1062,7 +1043,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Lịch sự/Nhã nhặn.",
     exampleEn: "Courteous staff.",
     exampleVi: "Nhân viên lịch sự.",
-    categories: ["Social", "Psychology"],
+    categories: ["Social","Psychology"],
   },
   {
     id: "gen-4266",
@@ -1074,7 +1055,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Một cách lịch sự.",
     exampleEn: "Treated courteously.",
     exampleVi: "Được đối xử một cách lịch sự.",
-    categories: ["Social", "Psychology"],
+    categories: ["Social","Psychology"],
   },
   {
     id: "gen-4267",
@@ -1082,12 +1063,11 @@ export const C16: VocabularyWord[] = [
     slug: "courtesan",
     phonetic: "/ˈkɔːr.t̬ə.zæn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A prostitute, especially one with wealthy or upper-class clients.",
+    meaningEn: "A prostitute, especially one with wealthy or upper-class clients.",
     meaningVi: "Kỹ nữ/Gái bao hạng sang (cũ).",
     exampleEn: "Famous courtesan.",
     exampleVi: "Kỹ nữ nổi tiếng.",
-    categories: ["People", "Social", "History"],
+    categories: ["People","Social","History"],
   },
   {
     id: "gen-4268",
@@ -1095,12 +1075,11 @@ export const C16: VocabularyWord[] = [
     slug: "courtesy",
     phonetic: "/ˈkɝː.t̬ə.si/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "The showing of politeness in one's attitude and behavior toward others.",
+    meaningEn: "The showing of politeness in one's attitude and behavior toward others.",
     meaningVi: "Sự lịch sự/Cử chỉ nhã nhặn/Lòng tốt (miễn phí).",
     exampleEn: "Professional courtesy.",
     exampleVi: "Sự lịch sự chuyên nghiệp.",
-    categories: ["Social", "Psychology", "General"],
+    categories: ["Social","Psychology","General"],
   },
   {
     id: "gen-4270",
@@ -1108,12 +1087,11 @@ export const C16: VocabularyWord[] = [
     slug: "courtier",
     phonetic: "/ˈkɔːr.t̬i.ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who attends a royal court as a companion or adviser to the king or queen.",
+    meaningEn: "A person who attends a royal court as a companion or adviser to the king or queen.",
     meaningVi: "Quan triều đình/Người hay nịnh hót.",
     exampleEn: "Royal courtier.",
     exampleVi: "Quan trong triều đình.",
-    categories: ["People", "Politics", "History"],
+    categories: ["People","Politics","History"],
   },
   {
     id: "gen-4271",
@@ -1125,7 +1103,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Sự phong lưu/Sự lịch thiệp đúng kiểu triều đình.",
     exampleEn: "Traditional courtliness.",
     exampleVi: "Sự lịch thiệp truyền thống.",
-    categories: ["Social", "Psychology"],
+    categories: ["Social","Psychology"],
   },
   {
     id: "gen-4272",
@@ -1137,7 +1115,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Lịch thiệp/Tao nhã/Kiểu triều đình.",
     exampleEn: "Courtly love.",
     exampleVi: "Tình yêu kiểu hiệp sĩ (tao nhã).",
-    categories: ["Social", "Literature", "History"],
+    categories: ["Social","Literature","History"],
   },
   {
     id: "gen-4275",
@@ -1145,12 +1123,11 @@ export const C16: VocabularyWord[] = [
     slug: "courtship",
     phonetic: "/ˈkɔːrt.ʃɪp/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A period during which a couple develop a romantic relationship, especially with a view to marriage.",
+    meaningEn: "A period during which a couple develop a romantic relationship, especially with a view to marriage.",
     meaningVi: "Sự tán tỉnh/Giai đoạn tìm hiểu.",
     exampleEn: "Long courtship.",
     exampleVi: "Giai đoạn tìm hiểu dài.",
-    categories: ["Social", "Psychology"],
+    categories: ["Social","Psychology"],
   },
   {
     id: "gen-4276",
@@ -1158,12 +1135,11 @@ export const C16: VocabularyWord[] = [
     slug: "courtyard",
     phonetic: "/ˈkɔːrt.jɑːrd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An unroofed area completely or mostly enclosed by the walls of a large building.",
+    meaningEn: "An unroofed area completely or mostly enclosed by the walls of a large building.",
     meaningVi: "Sân trong/Sân vườn.",
     exampleEn: "Ancient courtyard.",
     exampleVi: "Sân trong cổ kính.",
-    categories: ["Architecture", "Home", "General"],
+    categories: ["Architecture","Home","General"],
   },
   {
     id: "gen-4277",
@@ -1175,7 +1151,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Anh chị em họ.",
     exampleEn: "First cousin.",
     exampleVi: "Anh chị em họ đời đầu.",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-4278",
@@ -1183,12 +1159,11 @@ export const C16: VocabularyWord[] = [
     slug: "couvade",
     phonetic: "/kuːˈvɑːd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A custom among some peoples in which a man experiences the pains of child-bearing while his wife is giving birth.",
+    meaningEn: "A custom among some peoples in which a man experiences the pains of child-bearing while his wife is giving birth.",
     meaningVi: "Tục ở cữ cho chồng.",
     exampleEn: "Practice of couvade.",
     exampleVi: "Tục lệ ở cữ cho chồng.",
-    categories: ["Social", "History", "Psychology"],
+    categories: ["Social","History","Psychology"],
   },
   {
     id: "gen-4279",
@@ -1200,7 +1175,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Vịnh nhỏ/Hang nhỏ/Người (từ lóng Anh).",
     exampleEn: "Hidden cove.",
     exampleVi: "Vịnh nhỏ bị ẩn giấu.",
-    categories: ["Geography", "Nature"],
+    categories: ["Geography","Nature"],
   },
   {
     id: "gen-4280",
@@ -1212,7 +1187,7 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Nhóm phù thủy/Hội kín.",
     exampleEn: "Witch's coven.",
     exampleVi: "Nhóm các phù thủy.",
-    categories: ["Social", "General"],
+    categories: ["Social","General"],
   },
   {
     id: "gen-4281",
@@ -1224,18 +1199,6 @@ export const C16: VocabularyWord[] = [
     meaningVi: "Hiệp ước/Lời thề/Giao ước.",
     exampleEn: "Make a covenant.",
     exampleVi: "Lập một giao ước.",
-    categories: ["Law", "Politics", "Philosophy"],
-  },
-  {
-    id: "gen-4283",
-    word: "Covenanted",
-    slug: "covenanted",
-    phonetic: "/ˈkʌv.ə.nən.tɪd/",
-    partOfSpeech: "adjective",
-    meaningEn: "Bound by a formal agreement.",
-    meaningVi: "Đã giao ước/Bị ràng buộc bởi hiệp ước.",
-    exampleEn: "Covenanted services.",
-    exampleVi: "Các dịch vụ đã được ký kết giao ước.",
-    categories: ["Law", "Business"],
-  },
+    categories: ["Law","Politics","Philosophy"],
+  }
 ];

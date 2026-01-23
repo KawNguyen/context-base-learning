@@ -2,18 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const E10: VocabularyWord[] = [
   {
-    id: "gen-7561",
-    word: "Expressive",
-    slug: "expressive",
-    phonetic: "/ɪkˈspres.ɪv/",
-    partOfSpeech: "adjective",
-    meaningEn: "Effectively conveying thought or feeling.",
-    meaningVi: "Biểu cảm.",
-    exampleEn: "Expressive eyes.",
-    exampleVi: "Đôi mắt biểu cảm.",
-    categories: ["General", "Art"],
-  },
-  {
     id: "gen-7562",
     word: "Expressly",
     slug: "expressly",
@@ -35,7 +23,7 @@ export const E10: VocabularyWord[] = [
     meaningVi: "Tinh tế/Tuyệt đẹp.",
     exampleEn: "Exquisite workmanship.",
     exampleVi: "Tay nghề tinh xảo.",
-    categories: ["General", "Art"],
+    categories: ["General","Art"],
   },
   {
     id: "gen-7564",
@@ -47,7 +35,7 @@ export const E10: VocabularyWord[] = [
     meaningVi: "Một cách tinh tế.",
     exampleEn: "Exquisitely carved.",
     exampleVi: "Được chạm khắc tinh xảo.",
-    categories: ["General", "Art"],
+    categories: ["General","Art"],
   },
   {
     id: "gen-437",
@@ -83,7 +71,7 @@ export const E10: VocabularyWord[] = [
     meaningVi: "Sự mở rộng/Phần mở rộng.",
     exampleEn: "File extension.",
     exampleVi: "Phần mở rộng tập tin.",
-    categories: ["General", "Technology"],
+    categories: ["General","Technology"],
   },
   {
     id: "gen-7568",
@@ -107,7 +95,7 @@ export const E10: VocabularyWord[] = [
     meaningVi: "Một cách rộng rãi.",
     exampleEn: "Traveled extensively.",
     exampleVi: "Đi du lịch rộng rãi.",
-    categories: ["General", "Travel"],
+    categories: ["General","Travel"],
   },
   {
     id: "gen-7570",
@@ -131,7 +119,7 @@ export const E10: VocabularyWord[] = [
     meaningVi: "Bên ngoài/Ngoại thất.",
     exampleEn: "Exterior walls.",
     exampleVi: "Những bức tường bên ngoài.",
-    categories: ["General", "Architecture"],
+    categories: ["General","Architecture"],
   },
   {
     id: "gen-7572",
@@ -151,12 +139,11 @@ export const E10: VocabularyWord[] = [
     slug: "external",
     phonetic: "/ɪkˈstɝː.nəl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Belonging to or forming the outer surface or structure of something.",
+    meaningEn: "Belonging to or forming the outer surface or structure of something.",
     meaningVi: "Bên ngoài/Đối ngoại.",
     exampleEn: "External affairs.",
     exampleVi: "Công việc đối ngoại.",
-    categories: ["General", "Politics"],
+    categories: ["General","Politics"],
   },
   {
     id: "gen-7574",
@@ -164,8 +151,7 @@ export const E10: VocabularyWord[] = [
     slug: "externally",
     phonetic: "/ɪkˈstɝː.nəl.i/",
     partOfSpeech: "adverb",
-    meaningEn:
-      "With reference to the outer surface or structure of something; outside.",
+    meaningEn: "With reference to the outer surface or structure of something; outside.",
     meaningVi: "Bên ngoài.",
     exampleEn: "Applied externally.",
     exampleVi: "Được áp dụng bên ngoài.",
@@ -177,12 +163,11 @@ export const E10: VocabularyWord[] = [
     slug: "extinct",
     phonetic: "/ɪkˈstɪŋkt/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a species, family, or other larger group) having no living members.",
+    meaningEn: "(of a species, family, or other larger group) having no living members.",
     meaningVi: "Tuyệt chủng.",
     exampleEn: "Extinct animals.",
     exampleVi: "Động vật đã tuyệt chủng.",
-    categories: ["Nature", "Science"],
+    categories: ["Nature","Science"],
   },
   {
     id: "gen-7576",
@@ -190,12 +175,11 @@ export const E10: VocabularyWord[] = [
     slug: "extinction",
     phonetic: "/ɪkˈstɪŋk.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The fact or process of a species, family, or other group of animals or plants becoming extinct.",
+    meaningEn: "The fact or process of a species, family, or other group of animals or plants becoming extinct.",
     meaningVi: "Sự tuyệt chủng.",
     exampleEn: "Mass extinction.",
     exampleVi: "Sự tuyệt chủng hàng loạt.",
-    categories: ["Nature", "Science"],
+    categories: ["Nature","Science"],
   },
   {
     id: "gen-7577",
@@ -231,7 +215,7 @@ export const E10: VocabularyWord[] = [
     meaningVi: "Tống tiền/Cưỡng đoạt.",
     exampleEn: "Extort money.",
     exampleVi: "Tống tiền.",
-    categories: ["Law", "Crime"],
+    categories: ["Law","Crime"],
   },
   {
     id: "gen-7580",
@@ -239,12 +223,11 @@ export const E10: VocabularyWord[] = [
     slug: "extortion",
     phonetic: "/ɪkˈstɔːr.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The practice of obtaining something, especially money, through force or threats.",
+    meaningEn: "The practice of obtaining something, especially money, through force or threats.",
     meaningVi: "Sự tống tiền/Sự cưỡng đoạt.",
     exampleEn: "Charged with extortion.",
     exampleVi: "Bị buộc tội tống tiền.",
-    categories: ["Law", "Crime"],
+    categories: ["Law","Crime"],
   },
   {
     id: "gen-438",
@@ -268,7 +251,7 @@ export const E10: VocabularyWord[] = [
     meaningVi: "Chiết xuất/Trích xuất.",
     exampleEn: "Extract juice.",
     exampleVi: "Chiết xuất nước ép.",
-    categories: ["Science", "General"],
+    categories: ["Science","General"],
   },
   {
     id: "gen-7583",
@@ -276,12 +259,11 @@ export const E10: VocabularyWord[] = [
     slug: "extraction",
     phonetic: "/ɪkˈstræk.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action of taking out something, especially using effort or force.",
+    meaningEn: "The action of taking out something, especially using effort or force.",
     meaningVi: "Sự chiết xuất/Sự khai thác.",
     exampleEn: "Oil extraction.",
     exampleVi: "Khai thác dầu.",
-    categories: ["Science", "Business"],
+    categories: ["Science","Business"],
   },
   {
     id: "gen-7584",
@@ -293,7 +275,7 @@ export const E10: VocabularyWord[] = [
     meaningVi: "Máy chiết xuất/Máy hút.",
     exampleEn: "Juice extractor.",
     exampleVi: "Máy ép trái cây.",
-    categories: ["General", "Technology"],
+    categories: ["General","Technology"],
   },
   {
     id: "gen-7585",
@@ -301,8 +283,7 @@ export const E10: VocabularyWord[] = [
     slug: "extracurricular",
     phonetic: "/ˌek.strə.kəˈrɪk.jə.lɚ/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of an activity at a school or college) pursued in addition to the normal course of study.",
+    meaningEn: "(of an activity at a school or college) pursued in addition to the normal course of study.",
     meaningVi: "Ngoại khóa.",
     exampleEn: "Extracurricular activities.",
     exampleVi: "Các hoạt động ngoại khóa.",
@@ -314,12 +295,11 @@ export const E10: VocabularyWord[] = [
     slug: "extradite",
     phonetic: "/ˈek.strə.daɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Hand over (a person accused or convicted of a crime) to the jurisdiction of the foreign state in which the crime was committed.",
+    meaningEn: "Hand over (a person accused or convicted of a crime) to the jurisdiction of the foreign state in which the crime was committed.",
     meaningVi: "Dẫn độ.",
     exampleEn: "Extradite a criminal.",
     exampleVi: "Dẫn độ một tội phạm.",
-    categories: ["Law", "Politics"],
+    categories: ["Law","Politics"],
   },
   {
     id: "gen-7587",
@@ -327,12 +307,11 @@ export const E10: VocabularyWord[] = [
     slug: "extradition",
     phonetic: "/ˌek.strəˈdɪʃ.ən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action of extraditing a person accused or convicted of a crime.",
+    meaningEn: "The action of extraditing a person accused or convicted of a crime.",
     meaningVi: "Sự dẫn độ.",
     exampleEn: "Extradition treaty.",
     exampleVi: "Hiệp ước dẫn độ.",
-    categories: ["Law", "Politics"],
+    categories: ["Law","Politics"],
   },
   {
     id: "gen-7588",
@@ -376,12 +355,11 @@ export const E10: VocabularyWord[] = [
     slug: "extrapolate",
     phonetic: "/ɪkˈstræp.ə.leɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Extend the application of (a method or conclusion, especially one based on statistics) to an unknown situation by assuming that existing trends will continue or similar methods will be applicable.",
+    meaningEn: "Extend the application of (a method or conclusion, especially one based on statistics) to an unknown situation by assuming that existing trends will continue or similar methods will be applicable.",
     meaningVi: "Suy luận/Ngoại suy.",
     exampleEn: "Extrapolate from the data.",
     exampleVi: "Suy luận từ dữ liệu.",
-    categories: ["Science", "Mathematics"],
+    categories: ["Science","Mathematics"],
   },
   {
     id: "gen-7592",
@@ -389,12 +367,11 @@ export const E10: VocabularyWord[] = [
     slug: "extrapolation",
     phonetic: "/ɪkˌstræp.əˈleɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action of estimating or concluding something by assuming that existing trends will continue or a current method will remain applicable.",
+    meaningEn: "The action of estimating or concluding something by assuming that existing trends will continue or a current method will remain applicable.",
     meaningVi: "Sự suy luận/Sự ngoại suy.",
     exampleEn: "Based on extrapolation.",
     exampleVi: "Dựa trên sự ngoại suy.",
-    categories: ["Science", "Mathematics"],
+    categories: ["Science","Mathematics"],
   },
   {
     id: "gen-7593",
@@ -406,7 +383,7 @@ export const E10: VocabularyWord[] = [
     meaningVi: "Ngoại cảm.",
     exampleEn: "Extrasensory perception.",
     exampleVi: "Giác quan ngoại cảm.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "gen-7594",
@@ -418,7 +395,7 @@ export const E10: VocabularyWord[] = [
     meaningVi: "Ngoài trái đất.",
     exampleEn: "Extraterrestrial life.",
     exampleVi: "Sự sống ngoài trái đất.",
-    categories: ["Science", "Space"],
+    categories: ["Science","Space"],
   },
   {
     id: "gen-7595",
@@ -430,7 +407,7 @@ export const E10: VocabularyWord[] = [
     meaningVi: "Sự phung phí/Sự xa hoa.",
     exampleEn: "Live in extravagance.",
     exampleVi: "Sống trong sự xa hoa.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "gen-7596",
@@ -442,7 +419,7 @@ export const E10: VocabularyWord[] = [
     meaningVi: "Phung phí/Xa hoa.",
     exampleEn: "Extravagant spending.",
     exampleVi: "Chi tiêu phung phí.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "gen-439",
@@ -474,12 +451,11 @@ export const E10: VocabularyWord[] = [
     slug: "extremist",
     phonetic: "/ɪkˈstriː.mɪst/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who holds extreme or fanatical political or religious views.",
+    meaningEn: "A person who holds extreme or fanatical political or religious views.",
     meaningVi: "Kẻ cực đoan.",
     exampleEn: "Political extremist.",
     exampleVi: "Kẻ cực đoan chính trị.",
-    categories: ["Politics", "Religion"],
+    categories: ["Politics","Religion"],
   },
   {
     id: "gen-7600",
@@ -491,7 +467,7 @@ export const E10: VocabularyWord[] = [
     meaningVi: "Điểm cực hạn/Đầu chi (tay chân).",
     exampleEn: "Extremity of the island.",
     exampleVi: "Điểm tận cùng của hòn đảo.",
-    categories: ["General", "Medical"],
+    categories: ["General","Medical"],
   },
   {
     id: "gen-7601",
@@ -511,12 +487,11 @@ export const E10: VocabularyWord[] = [
     slug: "extrinsic",
     phonetic: "/ekˈstrɪn.zɪk/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Not part of the essential nature of someone or something; coming or operating from outside.",
+    meaningEn: "Not part of the essential nature of someone or something; coming or operating from outside.",
     meaningVi: "Bên ngoài/Không bản chất.",
     exampleEn: "Extrinsic factors.",
     exampleVi: "Các yếu tố bên ngoài.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "gen-7603",
@@ -528,7 +503,7 @@ export const E10: VocabularyWord[] = [
     meaningVi: "Người hướng ngoại.",
     exampleEn: "An energetic extrovert.",
     exampleVi: "Một người hướng ngoại tràn đầy năng lượng.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-7604",
@@ -540,7 +515,7 @@ export const E10: VocabularyWord[] = [
     meaningVi: "Đùn ra/Ép ra.",
     exampleEn: "Extrude plastic.",
     exampleVi: "Đùn nhựa.",
-    categories: ["Technology", "Industry"],
+    categories: ["Technology","Industry"],
   },
   {
     id: "gen-7605",
@@ -548,12 +523,11 @@ export const E10: VocabularyWord[] = [
     slug: "extrusion",
     phonetic: "/ɪkˈstruː.ʒən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action or process of forcing something out through a shaped opening.",
+    meaningEn: "The action or process of forcing something out through a shaped opening.",
     meaningVi: "Sự đùn/Sự ép.",
     exampleEn: "Plastic extrusion.",
     exampleVi: "Sự đùn nhựa.",
-    categories: ["Technology", "Industry"],
+    categories: ["Technology","Industry"],
   },
   {
     id: "gen-7606",
@@ -573,8 +547,7 @@ export const E10: VocabularyWord[] = [
     slug: "exult",
     phonetic: "/ɪɡˈzʌlt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Show or feel elation or jubilation, especially as the result of a success.",
+    meaningEn: "Show or feel elation or jubilation, especially as the result of a success.",
     meaningVi: "Hoan hỉ/Hân hoan.",
     exampleEn: "Exult in victory.",
     exampleVi: "Hân hoan trong chiến thắng.",
@@ -614,7 +587,7 @@ export const E10: VocabularyWord[] = [
     meaningVi: "Mắt.",
     exampleEn: "She has beautiful eyes.",
     exampleVi: "Cô ấy có đôi mắt đẹp.",
-    categories: ["Daily", "Medical"],
+    categories: ["Daily","Medical"],
   },
   {
     id: "gen-7611",
@@ -626,7 +599,7 @@ export const E10: VocabularyWord[] = [
     meaningVi: "Nhãn cầu.",
     exampleEn: "Move your eyeballs.",
     exampleVi: "Di chuyển nhãn cầu.",
-    categories: ["Medical", "Body"],
+    categories: ["Medical","Body"],
   },
   {
     id: "gen-7612",
@@ -634,12 +607,11 @@ export const E10: VocabularyWord[] = [
     slug: "eyebrow",
     phonetic: "/ˈaɪ.braʊ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The strip of hair growing on the ridge above a person's eye socket.",
+    meaningEn: "The strip of hair growing on the ridge above a person's eye socket.",
     meaningVi: "Lông mày.",
     exampleEn: "Raise an eyebrow.",
     exampleVi: "Nhướng mày.",
-    categories: ["Medical", "Body"],
+    categories: ["Medical","Body"],
   },
   {
     id: "gen-7613",
@@ -647,12 +619,11 @@ export const E10: VocabularyWord[] = [
     slug: "eyeglass",
     phonetic: "/ˈaɪ.ɡlæs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A single lens for correcting defective eyesight, especially a monocle.",
+    meaningEn: "A single lens for correcting defective eyesight, especially a monocle.",
     meaningVi: "Kính mắt (đơn).",
     exampleEn: "Wear an eyeglass.",
     exampleVi: "Đeo kính mắt.",
-    categories: ["Medical", "General"],
+    categories: ["Medical","General"],
   },
   {
     id: "gen-7614",
@@ -660,12 +631,11 @@ export const E10: VocabularyWord[] = [
     slug: "eyelash",
     phonetic: "/ˈaɪ.læʃ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Each of the short curved hairs growing on the edges of the eyelids.",
+    meaningEn: "Each of the short curved hairs growing on the edges of the eyelids.",
     meaningVi: "Lông mi.",
     exampleEn: "Long eyelashes.",
     exampleVi: "Lông mi dài.",
-    categories: ["Medical", "Body"],
+    categories: ["Medical","Body"],
   },
   {
     id: "gen-7615",
@@ -673,12 +643,11 @@ export const E10: VocabularyWord[] = [
     slug: "eyelid",
     phonetic: "/ˈaɪ.lɪd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Each of the upper and lower folds of skin that cover the eye when closed.",
+    meaningEn: "Each of the upper and lower folds of skin that cover the eye when closed.",
     meaningVi: "Mí mắt.",
     exampleEn: "Close your eyelids.",
     exampleVi: "Nhắm mắt lại.",
-    categories: ["Medical", "Body"],
+    categories: ["Medical","Body"],
   },
   {
     id: "gen-7616",
@@ -698,11 +667,10 @@ export const E10: VocabularyWord[] = [
     slug: "eyewitness",
     phonetic: "/ˈaɪ.wɪt.nəs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who has personally seen something happen and so can give a first-hand description of it.",
+    meaningEn: "A person who has personally seen something happen and so can give a first-hand description of it.",
     meaningVi: "Nhân chứng.",
     exampleEn: "Eyewitness account.",
     exampleVi: "Lời khai của nhân chứng.",
-    categories: ["Law", "General"],
-  },
+    categories: ["Law","General"],
+  }
 ];

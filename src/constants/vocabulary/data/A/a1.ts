@@ -31,8 +31,7 @@ export const A1: VocabularyWord[] = [
     slug: "able",
     phonetic: "/ˈeɪ.bəl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Having the power, skill, means, or opportunity to do something.",
+    meaningEn: "Having the power, skill, means, or opportunity to do something.",
     meaningVi: "Có thể.",
     exampleEn: "Be able to.",
     exampleVi: "Có khả năng.",
@@ -84,7 +83,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Hấp thụ.",
     exampleEn: "Absorb moisture.",
     exampleVi: "Hấp thụ độ ẩm.",
-    categories: ["Science", "General"],
+    categories: ["Science","General"],
   },
   {
     id: "c2-179",
@@ -92,12 +91,11 @@ export const A1: VocabularyWord[] = [
     slug: "abstinence",
     phonetic: "/ˈæb.stə.nəns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The fact or practice of restraining oneself from indulging in something.",
+    meaningEn: "The fact or practice of restraining oneself from indulging in something.",
     meaningVi: "Sự kiêng khem, sự tiết chế.",
     exampleEn: "Abstinence from alcohol.",
     exampleVi: "Sự kiêng rượu.",
-    categories: ["Daily", "Medical"],
+    categories: ["Daily","Medical"],
   },
   {
     id: "b1-198",
@@ -105,8 +103,7 @@ export const A1: VocabularyWord[] = [
     slug: "abstract",
     phonetic: "/ˈæb.strækt/",
     partOfSpeech: "adj/noun",
-    meaningEn:
-      "Existing in thought or as an idea but not having a physical or concrete existence.",
+    meaningEn: "Existing in thought or as an idea but not having a physical or concrete existence.",
     meaningVi: "Trừu tượng; bản tóm tắt.",
     exampleEn: "Read the abstract of the paper.",
     exampleVi: "Đọc bản tóm tắt của bài báo.",
@@ -122,7 +119,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Sự trừu tượng.",
     exampleEn: "Data abstraction.",
     exampleVi: "Trừu tượng hóa dữ liệu.",
-    categories: ["Technology", "Academic", "Philosophy"],
+    categories: ["Technology","Academic","Philosophy"],
   },
   {
     id: "c2-2",
@@ -158,7 +155,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Học thuật.",
     exampleEn: "Academic year.",
     exampleVi: "Năm học.",
-    categories: ["Education", "Academic"],
+    categories: ["Education","Academic"],
   },
   {
     id: "b2-105",
@@ -206,7 +203,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Quyền truy cập.",
     exampleEn: "Deny access.",
     exampleVi: "Từ chối quyền truy cập.",
-    categories: ["Technology", "Daily"],
+    categories: ["Technology","Daily"],
   },
   {
     id: "a2-241",
@@ -218,7 +215,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Tai nạn.",
     exampleEn: "A car accident.",
     exampleVi: "Một vụ tai nạn ô tô.",
-    categories: ["Daily", "Medical"],
+    categories: ["Daily","Medical"],
   },
   {
     id: "gen-3",
@@ -250,12 +247,11 @@ export const A1: VocabularyWord[] = [
     slug: "accommodation",
     phonetic: "/əˌkɑː.məˈdeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A room, group of rooms, or building in which someone may live or stay.",
+    meaningEn: "A room, group of rooms, or building in which someone may live or stay.",
     meaningVi: "Chỗ ở.",
     exampleEn: "Hotel accommodation is included in the price.",
     exampleVi: "Chỗ ở khách sạn đã bao gồm trong giá.",
-    categories: ["Travel", "Daily"],
+    categories: ["Travel","Daily"],
   },
   {
     id: "gen-1900",
@@ -267,7 +263,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Đi cùng.",
     exampleEn: "Accompany a friend.",
     exampleVi: "Đi cùng một người bạn.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-1901",
@@ -303,7 +299,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Tài khoản.",
     exampleEn: "Create a new account.",
     exampleVi: "Tạo một tài khoản mới.",
-    categories: ["Technology", "Daily", "Business"],
+    categories: ["Technology","Daily","Business"],
   },
   {
     id: "gen-5",
@@ -315,7 +311,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Trách nhiệm giải trình.",
     exampleEn: "There is a need for greater accountability in the government.",
     exampleVi: "Cần có trách nhiệm giải trình cao hơn trong chính phủ.",
-    categories: ["Business", "General"],
+    categories: ["Business","General"],
   },
   {
     id: "job-001",
@@ -327,7 +323,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Kế toán viên.",
     exampleEn: "She works as an accountant at a large firm.",
     exampleVi: "Cô ấy làm kế toán tại một công ty lớn.",
-    categories: ["Jobs", "Finance"],
+    categories: ["Jobs","Finance"],
   },
   {
     id: "b2-149",
@@ -335,8 +331,7 @@ export const A1: VocabularyWord[] = [
     slug: "accumulate",
     phonetic: "/əˈkjuː.mjə.leɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Gather together or acquire an increasing number or quantity of.",
+    meaningEn: "Gather together or acquire an increasing number or quantity of.",
     meaningVi: "Tích lũy.",
     exampleEn: "Accumulate wealth.",
     exampleVi: "Tích lũy tài sản.",
@@ -352,7 +347,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Độ chính xác.",
     exampleEn: "We worry about the accuracy of his report.",
     exampleVi: "Chúng tôi lo lắng về độ chính xác của báo cáo của anh ấy.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "b2-106",
@@ -420,8 +415,7 @@ export const A1: VocabularyWord[] = [
     slug: "achieve",
     phonetic: "/əˈtʃiːv/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Successfully bring about or reach (a desired objective, level, or result) by effort, skill, or courage.",
+    meaningEn: "Successfully bring about or reach (a desired objective, level, or result) by effort, skill, or courage.",
     meaningVi: "Đạt được.",
     exampleEn: "He achieved his goals through hard work.",
     exampleVi: "Anh ấy đạt được mục tiêu nhờ làm việc chăm chỉ.",
@@ -433,8 +427,7 @@ export const A1: VocabularyWord[] = [
     slug: "achievement",
     phonetic: "/əˈtʃiːv.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A thing done successfully, typically by effort, courage, or skill.",
+    meaningEn: "A thing done successfully, typically by effort, courage, or skill.",
     meaningVi: "Thành tựu.",
     exampleEn: "Lifetime achievement.",
     exampleVi: "Thành tựu trọn đời.",
@@ -450,7 +443,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "A-xít.",
     exampleEn: "Strong acid.",
     exampleVi: "A-xít mạnh.",
-    categories: ["Science", "Chemistry"],
+    categories: ["Science","Chemistry"],
   },
   {
     id: "c1-52",
@@ -474,7 +467,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Bằng lòng, ưng thuận (miễn cưỡng).",
     exampleEn: "He acquiesced to the new rules.",
     exampleVi: "Anh ấy đã bằng lòng với các quy tắc mới.",
-    categories: ["Daily", "Social"],
+    categories: ["Daily","Social"],
   },
   {
     id: "b2-108",
@@ -494,12 +487,11 @@ export const A1: VocabularyWord[] = [
     slug: "acquisition",
     phonetic: "/ˌæk.wəˈzɪʃ.ən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An asset or object bought or obtained, typically by a library or museum; the learning or developing of a skill.",
+    meaningEn: "An asset or object bought or obtained, typically by a library or museum; the learning or developing of a skill.",
     meaningVi: "Sự mua lại, thâu tóm; sự lĩnh hội.",
     exampleEn: "The company announced a new acquisition.",
     exampleVi: "Công ty đã thông báo về một thương vụ thâu tóm mới.",
-    categories: ["Business", "Academic"],
+    categories: ["Business","Academic"],
   },
   {
     id: "gen-1913",
@@ -531,8 +523,7 @@ export const A1: VocabularyWord[] = [
     slug: "action",
     phonetic: "/ˈæk.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The fact or process of doing something, typically to achieve an aim.",
+    meaningEn: "The fact or process of doing something, typically to achieve an aim.",
     meaningVi: "Hành động.",
     exampleEn: "Actions speak louder than words.",
     exampleVi: "Hành động quan trọng hơn lời nói.",
@@ -548,7 +539,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Kích hoạt.",
     exampleEn: "Activate the account.",
     exampleVi: "Kích hoạt tài khoản.",
-    categories: ["General", "Technology"],
+    categories: ["General","Technology"],
   },
   {
     id: "b1-34",
@@ -580,12 +571,11 @@ export const A1: VocabularyWord[] = [
     slug: "activist",
     phonetic: "/ˈæk.tɪ.vɪst/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A person who campaigns to bring about political or social change.",
+    meaningEn: "A person who campaigns to bring about political or social change.",
     meaningVi: "Người hoạt động xã hội.",
     exampleEn: "Environmental activist.",
     exampleVi: "Nhà hoạt động vì môi trường.",
-    categories: ["Social", "People"],
+    categories: ["Social","People"],
   },
   {
     id: "b1-122",
@@ -605,12 +595,11 @@ export const A1: VocabularyWord[] = [
     slug: "actor",
     phonetic: "/ˈæk.tɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person whose profession is acting on the stage, in movies, or on television.",
+    meaningEn: "A person whose profession is acting on the stage, in movies, or on television.",
     meaningVi: "Nam diễn viên.",
     exampleEn: "Famous actor.",
     exampleVi: "Nam diễn viên nổi tiếng.",
-    categories: ["Art", "People", "Media", "Jobs"],
+    categories: ["Art","People","Media","Jobs"],
   },
   {
     id: "gen-1922",
@@ -622,7 +611,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Nữ diễn viên.",
     exampleEn: "Talented actress.",
     exampleVi: "Nữ diễn viên tài năng.",
-    categories: ["Art", "People", "Media", "Jobs"],
+    categories: ["Art","People","Media","Jobs"],
   },
   {
     id: "gen-1923",
@@ -658,7 +647,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Cấp tính, nghiêm trọng.",
     exampleEn: "Acute respiratory syndrome.",
     exampleVi: "Hội chứng hô hấp cấp tính.",
-    categories: ["Medical", "Daily"],
+    categories: ["Medical","Daily"],
   },
   {
     id: "gen-1926",
@@ -670,7 +659,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Quảng cáo.",
     exampleEn: "Watch an ad.",
     exampleVi: "Xem quảng cáo.",
-    categories: ["Media", "Business"],
+    categories: ["Media","Business"],
   },
   {
     id: "b2-109",
@@ -683,6 +672,18 @@ export const A1: VocabularyWord[] = [
     exampleEn: "Adapt to change.",
     exampleVi: "Thích nghi với sự thay đổi.",
     categories: ["Daily"],
+  },
+  {
+    id: "gen-90017",
+    word: "Adapter",
+    slug: "adapter",
+    phonetic: "/əˈdæp.tər/",
+    partOfSpeech: "noun",
+    meaningEn: "A device that allows different plugs or connectors to be used together.",
+    meaningVi: "Bộ chuyển đổi; thiết bị cho phép sử dụng phích cắm/đầu nối khác nhau.",
+    exampleEn: "Use a travel adapter for different sockets.",
+    exampleVi: "Dùng bộ chuyển đổi khi đi du lịch để dùng ổ cắm khác nhau.",
+    categories: ["Travel","Technology"],
   },
   {
     id: "gen-1928",
@@ -706,7 +707,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Thêm.",
     exampleEn: "Add more sugar.",
     exampleVi: "Thêm đường.",
-    categories: ["General", "Mathematics"],
+    categories: ["General","Mathematics"],
   },
   {
     id: "gen-7",
@@ -714,12 +715,11 @@ export const A1: VocabularyWord[] = [
     slug: "addicted",
     phonetic: "/əˈdɪk.tɪd/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Physically and mentally dependent on a particular substance, and unable to stop taking it.",
+    meaningEn: "Physically and mentally dependent on a particular substance, and unable to stop taking it.",
     meaningVi: "Nghiện.",
     exampleEn: "He became addicted to video games.",
     exampleVi: "Anh ấy đã bị nghiện trò chơi điện tử.",
-    categories: ["Medical", "General"],
+    categories: ["Medical","General"],
   },
   {
     id: "b1-123",
@@ -739,8 +739,7 @@ export const A1: VocabularyWord[] = [
     slug: "additional",
     phonetic: "/əˈdɪʃ.ən.əl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Added, extra, or supplementary to what is already present or available.",
+    meaningEn: "Added, extra, or supplementary to what is already present or available.",
     meaningVi: "Bổ sung.",
     exampleEn: "Additional resources.",
     exampleVi: "Tài liệu bổ sung.",
@@ -764,8 +763,7 @@ export const A1: VocabularyWord[] = [
     slug: "address",
     phonetic: "/əˈdres/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "The particulars of the place where someone lives or an organization is situated.",
+    meaningEn: "The particulars of the place where someone lives or an organization is situated.",
     meaningVi: "Địa chỉ.",
     exampleEn: "Please write down your address.",
     exampleVi: "Làm ơn hãy viết địa chỉ của bạn lại.",
@@ -805,7 +803,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Tuân thủ.",
     exampleEn: "Adhere to the rule.",
     exampleVi: "Tuân thủ quy định.",
-    categories: ["General", "Law"],
+    categories: ["General","Law"],
   },
   {
     id: "b2-152",
@@ -825,8 +823,7 @@ export const A1: VocabularyWord[] = [
     slug: "adjust",
     phonetic: "/əˈdʒʌst/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Alter or move (something) slightly in order to achieve the desired fit, appearance, or result.",
+    meaningEn: "Alter or move (something) slightly in order to achieve the desired fit, appearance, or result.",
     meaningVi: "Điều chỉnh.",
     exampleEn: "Adjust the volume.",
     exampleVi: "Điều chỉnh âm lượng.",
@@ -854,7 +851,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Quản trị.",
     exampleEn: "Administer the law.",
     exampleVi: "Quản lý luật pháp.",
-    categories: ["Business", "Law"],
+    categories: ["Business","Law"],
   },
   {
     id: "b2-111",
@@ -862,8 +859,7 @@ export const A1: VocabularyWord[] = [
     slug: "administration",
     phonetic: "/ədˌmɪn.ɪˈstreɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The process or activity of running a business, organization, etc.",
+    meaningEn: "The process or activity of running a business, organization, etc.",
     meaningVi: "Sự quản lý, hành chính.",
     exampleEn: "School administration.",
     exampleVi: "Ban giám hiệu nhà trường.",
@@ -891,7 +887,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Người quản trị.",
     exampleEn: "System administrator.",
     exampleVi: "Người quản trị hệ thống.",
-    categories: ["Business", "People", "Technology"],
+    categories: ["Business","People","Technology"],
   },
   {
     id: "gen-9",
@@ -903,7 +899,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Ngưỡng mộ.",
     exampleEn: "I admire your courage.",
     exampleVi: "Tôi ngưỡng mộ lòng dũng cảm của bạn.",
-    categories: ["General", "Emotions"],
+    categories: ["General","Emotions"],
   },
   {
     id: "gen-1945",
@@ -911,12 +907,11 @@ export const A1: VocabularyWord[] = [
     slug: "admission",
     phonetic: "/ədˈmɪʃ.ən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The process or fact of entering or being allowed to enter a place.",
+    meaningEn: "The process or fact of entering or being allowed to enter a place.",
     meaningVi: "Nhận vào.",
     exampleEn: "University admission.",
     exampleVi: "Nhận học đại học.",
-    categories: ["General", "Education"],
+    categories: ["General","Education"],
   },
   {
     id: "gen-10",
@@ -924,8 +919,7 @@ export const A1: VocabularyWord[] = [
     slug: "admit",
     phonetic: "/ədˈmɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Confess to be true or to be the case, typically with reluctance.",
+    meaningEn: "Confess to be true or to be the case, typically with reluctance.",
     meaningVi: "Thừa nhận.",
     exampleEn: "He admitted his mistake.",
     exampleVi: "Anh ấy đã thừa nhận lỗi lầm của mình.",
@@ -941,7 +935,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Cảnh báo, khiển trách.",
     exampleEn: "She admonished him for being late.",
     exampleVi: "Cô ấy khiển trách anh ta vì đến muộn.",
-    categories: ["Daily", "Social"],
+    categories: ["Daily","Social"],
   },
   {
     id: "gen-1947",
@@ -949,12 +943,11 @@ export const A1: VocabularyWord[] = [
     slug: "adolescence",
     phonetic: "/ˌæd.əˈles.əns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The period following the onset of puberty during which a young person develops from a child into an adult.",
+    meaningEn: "The period following the onset of puberty during which a young person develops from a child into an adult.",
     meaningVi: "Tuổi vị thành niên.",
     exampleEn: "Period of adolescence.",
     exampleVi: "Giai đoạn dậy thì.",
-    categories: ["Biology", "Social"],
+    categories: ["Biology","Social"],
   },
   {
     id: "gen-1948",
@@ -966,7 +959,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Thanh thiếu niên.",
     exampleEn: "Adolescent behavior.",
     exampleVi: "Hành vi của trẻ ở tuổi dậy thì.",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "b2-153",
@@ -986,12 +979,11 @@ export const A1: VocabularyWord[] = [
     slug: "adoption",
     phonetic: "/əˈdɑːp.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action or fact of legally taking another's child and bringing it up as one's own.",
+    meaningEn: "The action or fact of legally taking another's child and bringing it up as one's own.",
     meaningVi: "Sự nhận nuôi.",
     exampleEn: "She decided to put the baby up for adoption.",
     exampleVi: "Cô ấy quyết định cho đứa bé đi làm con nuôi.",
-    categories: ["Family", "Law"],
+    categories: ["Family","Law"],
   },
   {
     id: "gen-12",
@@ -1027,7 +1019,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Nâng cao, tiên tiến.",
     exampleEn: "This is an advanced course.",
     exampleVi: "Đây là một khóa học nâng cao.",
-    categories: ["Education", "General"],
+    categories: ["Education","General"],
   },
   {
     id: "b1-11",
@@ -1035,8 +1027,7 @@ export const A1: VocabularyWord[] = [
     slug: "advantage",
     phonetic: "/ədˈvæn.tɪdʒ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A condition or circumstance that puts one in a favorable or superior position.",
+    meaningEn: "A condition or circumstance that puts one in a favorable or superior position.",
     meaningVi: "Lợi thế.",
     exampleEn: "Being tall is an advantage in basketball.",
     exampleVi: "Cao là một lợi thế trong bóng rổ.",
@@ -1048,12 +1039,11 @@ export const A1: VocabularyWord[] = [
     slug: "adventure",
     phonetic: "/ədˈven.tʃɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An unusual and exciting, typically hazardous, experience or activity.",
+    meaningEn: "An unusual and exciting, typically hazardous, experience or activity.",
     meaningVi: "Cuộc phiêu lưu.",
     exampleEn: "They went on an adventure into the jungle.",
     exampleVi: "Họ đã tham gia một cuộc phiêu lưu vào rừng rậm.",
-    categories: ["Travel", "General"],
+    categories: ["Travel","General"],
   },
   {
     id: "b2-155",
@@ -1077,7 +1067,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Quảng cáo.",
     exampleEn: "Advertise a product.",
     exampleVi: "Quảng cáo một sản phẩm.",
-    categories: ["Business", "Media"],
+    categories: ["Business","Media"],
   },
   {
     id: "gen-1957",
@@ -1085,12 +1075,11 @@ export const A1: VocabularyWord[] = [
     slug: "advertisement",
     phonetic: "/ˌæd.vɚˈtaɪz.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A notice or announcement in a public medium promoting a product.",
+    meaningEn: "A notice or announcement in a public medium promoting a product.",
     meaningVi: "Sự quảng cáo.",
     exampleEn: "Job advertisement.",
     exampleVi: "Thông báo tuyển dụng.",
-    categories: ["Business", "Media"],
+    categories: ["Business","Media"],
   },
   {
     id: "gen-1958",
@@ -1102,7 +1091,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Ngành quảng cáo.",
     exampleEn: "Online advertising.",
     exampleVi: "Quảng cáo trực tuyến.",
-    categories: ["Business", "Media"],
+    categories: ["Business","Media"],
   },
   {
     id: "a2-126",
@@ -1110,8 +1099,7 @@ export const A1: VocabularyWord[] = [
     slug: "advice",
     phonetic: "/ədˈvaɪs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Guidance or recommendations offered with regard to prudent future action.",
+    meaningEn: "Guidance or recommendations offered with regard to prudent future action.",
     meaningVi: "Lời khuyên.",
     exampleEn: "I need some advice.",
     exampleVi: "Tôi cần một vài lời khuyên.",
@@ -1135,12 +1123,11 @@ export const A1: VocabularyWord[] = [
     slug: "adviser",
     phonetic: "/ədˈvaɪ.zɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who offers advice, typically someone who is expert in a particular field.",
+    meaningEn: "A person who offers advice, typically someone who is expert in a particular field.",
     meaningVi: "Người cố vấn.",
     exampleEn: "Financial adviser.",
     exampleVi: "Cố vấn tài chính.",
-    categories: ["Business", "People"],
+    categories: ["Business","People"],
   },
   {
     id: "b2-112",
@@ -1148,8 +1135,7 @@ export const A1: VocabularyWord[] = [
     slug: "advocate",
     phonetic: "/ˈæd.və.keɪt/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A person who publicly supports or recommends a particular cause or policy.",
+    meaningEn: "A person who publicly supports or recommends a particular cause or policy.",
     meaningVi: "Người ủng hộ; bào chữa.",
     exampleEn: "Advocate for human rights.",
     exampleVi: "Ủng hộ nhân quyền.",
@@ -1165,7 +1151,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Khí động lực học.",
     exampleEn: "The car design improves aerodynamics.",
     exampleVi: "Thiết kế xe hơi cải thiện tính khí động học.",
-    categories: ["Engineering", "Academic"],
+    categories: ["Engineering","Academic"],
   },
   {
     id: "c2-203",
@@ -1177,7 +1163,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Thẩm mỹ.",
     exampleEn: "Aesthetic value.",
     exampleVi: "Giá trị thẩm mỹ.",
-    categories: ["Art", "Daily"],
+    categories: ["Art","Daily"],
   },
   {
     id: "gen-1964",
@@ -1189,7 +1175,7 @@ export const A1: VocabularyWord[] = [
     meaningVi: "Vấn đề.",
     exampleEn: "Current affairs.",
     exampleVi: "Thời sự.",
-    categories: ["Social", "General"],
+    categories: ["Social","General"],
   },
   {
     id: "gen-1965",
@@ -1209,47 +1195,10 @@ export const A1: VocabularyWord[] = [
     slug: "affluent",
     phonetic: "/ˈæf.lu.ənt/",
     partOfSpeech: "adj",
-    meaningEn:
-      "(especially of a group or area) having a great deal of money; wealthy.",
+    meaningEn: "(especially of a group or area) having a great deal of money; wealthy.",
     meaningVi: "Giàu có, thịnh vượng.",
     exampleEn: "An affluent neighborhood.",
     exampleVi: "Một khu phố giàu có.",
     categories: ["Social"],
-  },
-  {
-    id: "gen-1966",
-    word: "Afford",
-    slug: "afford",
-    phonetic: "/əˈfɔːrd/",
-    partOfSpeech: "verb",
-    meaningEn: "Have enough money to pay for.",
-    meaningVi: "Đủ khả năng chi trả.",
-    exampleEn: "Can't afford it.",
-    exampleVi: "Không đủ khả năng mua nó.",
-    categories: ["Finance", "General"],
-  },
-  {
-    id: "gen-15",
-    word: "Affordable",
-    slug: "affordable",
-    phonetic: "/əˈfɔːr.də.bəl/",
-    partOfSpeech: "adjective",
-    meaningEn: "Inexpensive; reasonably priced.",
-    meaningVi: "Giá cả phải chăng.",
-    exampleEn: "This car is affordable.",
-    exampleVi: "Chiếc xe này có giá phải chăng.",
-    categories: ["Shopping", "Finance"],
-  },
-  {
-    id: "gen-16",
-    word: "Afraid",
-    slug: "afraid",
-    phonetic: "/əˈfreɪd/",
-    partOfSpeech: "adjective",
-    meaningEn: "Feeling fear or anxiety; frightened.",
-    meaningVi: "Sợ hãi.",
-    exampleEn: "Are you afraid of the dark?",
-    exampleVi: "Bạn có sợ bóng tối không?",
-    categories: ["Emotions"],
-  },
+  }
 ];

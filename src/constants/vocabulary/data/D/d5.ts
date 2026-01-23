@@ -2,6 +2,54 @@ import { VocabularyWord } from "../../types";
 
 export const D5: VocabularyWord[] = [
   {
+    id: "gen-5141",
+    word: "Degraded",
+    slug: "degraded",
+    phonetic: "/dɪˈɡreɪ.dɪd/",
+    partOfSpeech: "adjective",
+    meaningEn: "Reduced in quality; humiliated.",
+    meaningVi: "Bị suy thoái/Bị làm nhục.",
+    exampleEn: "Degraded soil.",
+    exampleVi: "Đất bị bạc màu/suy thoái.",
+    categories: ["Environment","General"],
+  },
+  {
+    id: "gen-4142",
+    word: "Degrading",
+    slug: "degrading",
+    phonetic: "/dɪˈɡreɪ.dɪŋ/",
+    partOfSpeech: "adjective",
+    meaningEn: "Causing a loss of self-respect; humiliating.",
+    meaningVi: "Làm nhục/Xúc phạm nhân phẩm.",
+    exampleEn: "Degrading treatment.",
+    exampleVi: "Sự đối xử xúc phạm nhân phẩm.",
+    categories: ["Psychology","Social"],
+  },
+  {
+    id: "gen-260",
+    word: "Degree",
+    slug: "degree",
+    phonetic: "/dɪˈɡriː/",
+    partOfSpeech: "noun",
+    meaningEn: "The amount, level, or extent to which something happens.",
+    meaningVi: "Độ, mức độ.",
+    exampleEn: "To some degree.",
+    exampleVi: "Ở một mức độ nào đó.",
+    categories: ["General","Education"],
+  },
+  {
+    id: "gen-5145",
+    word: "Dehumanize",
+    slug: "dehumanize",
+    phonetic: "/ˌdiːˈhjuː.mə.naɪz/",
+    partOfSpeech: "verb",
+    meaningEn: "Deprive of positive human qualities.",
+    meaningVi: "Làm mất tính người/Hạ thấp phẩm giá con người.",
+    exampleEn: "Dehumanizing conditions.",
+    exampleVi: "Những điều kiện sống tồi tệ làm mất phẩm giá con người.",
+    categories: ["Psychology","Social","Politics"],
+  },
+  {
     id: "gen-5146",
     word: "Dehumidify",
     slug: "dehumidify",
@@ -11,7 +59,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Hút ẩm.",
     exampleEn: "Dehumidify the basement.",
     exampleVi: "Hút ẩm tầng hầm.",
-    categories: ["Daily", "Home", "Technology"],
+    categories: ["Daily","Home","Technology"],
   },
   {
     id: "gen-5147",
@@ -19,12 +67,11 @@ export const D5: VocabularyWord[] = [
     slug: "dehydrate",
     phonetic: "/ˌdiː.haɪˈdreɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Cause (a person or their body) to lose a large amount of water.",
+    meaningEn: "Cause (a person or their body) to lose a large amount of water.",
     meaningVi: "Làm mất nước/Khử nước.",
     exampleEn: "Feel dehydrated.",
     exampleVi: "Cảm thấy bị mất nước.",
-    categories: ["Medical", "Science", "Medical"],
+    categories: ["Medical","Science","Medical"],
   },
   {
     id: "gen-5148",
@@ -36,7 +83,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Sự mất nước.",
     exampleEn: "Dangers of dehydration.",
     exampleVi: "Những nguy hiểm của việc mất nước.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-5149",
@@ -48,7 +95,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Máy làm khô/Máy sấy thực phẩm.",
     exampleEn: "Food dehydrator.",
     exampleVi: "Máy sấy thực phẩm.",
-    categories: ["Technology", "Food & Drink", "Home"],
+    categories: ["Technology","Food & Drink","Home"],
   },
   {
     id: "gen-5151",
@@ -60,7 +107,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Tội giết thần.",
     exampleEn: "Accusation of deicide.",
     exampleVi: "Cáo buộc giết thần.",
-    categories: ["Religion", "History"],
+    categories: ["Religion","History"],
   },
   {
     id: "gen-5152",
@@ -72,7 +119,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Sự thần thánh hóa.",
     exampleEn: "Deification of heroes.",
     exampleVi: "Sự thần thánh hóa các anh hùng.",
-    categories: ["Social", "Religion", "History"],
+    categories: ["Social","Religion","History"],
   },
   {
     id: "gen-5153",
@@ -84,7 +131,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Thần thánh hóa/Sùng bái như thần.",
     exampleEn: "Deify money.",
     exampleVi: "Sùng bái đồng tiền như thần thánh.",
-    categories: ["Social", "Religion", "Psychology"],
+    categories: ["Social","Religion","Psychology"],
   },
   {
     id: "gen-5154",
@@ -96,7 +143,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Hạ cố/Rủ lòng thương/Chiếu cố.",
     exampleEn: "Would not deign to answer.",
     exampleVi: "Không thầm hạ cố trả lời.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-5155",
@@ -104,12 +151,11 @@ export const D5: VocabularyWord[] = [
     slug: "deism",
     phonetic: "/ˈdiː.ɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Belief in the existence of a supreme being, specifically of a creator who does not intervene in the universe.",
+    meaningEn: "Belief in the existence of a supreme being, specifically of a creator who does not intervene in the universe.",
     meaningVi: "Thuyết tự nhiên thần/Thuyết nhất thần.",
     exampleEn: "The principles of deism.",
     exampleVi: "Các nguyên tắc của thuyết tự nhiên thần.",
-    categories: ["Philosophy", "Religion"],
+    categories: ["Philosophy","Religion"],
   },
   {
     id: "gen-5156",
@@ -121,7 +167,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Vị thần/Thượng đế.",
     exampleEn: "Ancient Greek deities.",
     exampleVi: "Các vị thần Hy Lạp cổ đại.",
-    categories: ["Religion", "History"],
+    categories: ["Religion","History"],
   },
   {
     id: "gen-5157",
@@ -157,7 +203,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Một cách chán nản/ủ rũ.",
     exampleEn: "Walked dejectedly.",
     exampleVi: "Đi một cách ủ rũ.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-5160",
@@ -193,7 +239,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Ngon lành/Thú vị/Hấp dẫn.",
     exampleEn: "Delectable meal.",
     exampleVi: "Bữa ăn ngon lành.",
-    categories: ["Food & Drink", "Body", "General"],
+    categories: ["Food & Drink","Body","General"],
   },
   {
     id: "gen-5163",
@@ -205,7 +251,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Sự thú vị/Sự khoái trá.",
     exampleEn: "For your delectation.",
     exampleVi: "Để bạn thưởng thức/thấy thú vị.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5164",
@@ -213,12 +259,11 @@ export const D5: VocabularyWord[] = [
     slug: "delegate",
     phonetic: "/ˈdel.ə.ɡət/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A person sent or authorized to represent others; entrust (a task or responsibility) to another person.",
+    meaningEn: "A person sent or authorized to represent others; entrust (a task or responsibility) to another person.",
     meaningVi: "Đại biểu/Giao phó/Ủy thác.",
     exampleEn: "Delegate tasks.",
     exampleVi: "Giao phó các nhiệm vụ.",
-    categories: ["General", "Politics", "Management"],
+    categories: ["General","Politics","Management"],
   },
   {
     id: "gen-5165",
@@ -230,7 +275,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Phái đoàn/Sự ủy thác/Sự giao phó.",
     exampleEn: "Foreign delegation.",
     exampleVi: "Phái đoàn nước ngoài.",
-    categories: ["Politics", "Management", "Social"],
+    categories: ["Politics","Management","Social"],
   },
   {
     id: "gen-5166",
@@ -242,7 +287,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Có thể xóa được.",
     exampleEn: "Deletable files.",
     exampleVi: "Các tập tin có thể xóa được.",
-    categories: ["Technology", "General"],
+    categories: ["Technology","General"],
   },
   {
     id: "a1-217",
@@ -266,7 +311,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Có hại/Độc hại.",
     exampleEn: "Deleterious effects.",
     exampleVi: "Những tác động có hại.",
-    categories: ["General", "Science", "Medical"],
+    categories: ["General","Science","Medical"],
   },
   {
     id: "gen-5169",
@@ -278,7 +323,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Sự xóa bỏ/Sự gạch đi.",
     exampleEn: "Deletion of data.",
     exampleVi: "Việc xóa dữ liệu.",
-    categories: ["Technology", "General"],
+    categories: ["Technology","General"],
   },
   {
     id: "gen-5170",
@@ -286,12 +331,11 @@ export const D5: VocabularyWord[] = [
     slug: "deliberate",
     phonetic: "/dɪˈlɪb.ɚ.ət/",
     partOfSpeech: "adjective/verb",
-    meaningEn:
-      "Done consciously and intentionally; engage in long and careful consideration.",
+    meaningEn: "Done consciously and intentionally; engage in long and careful consideration.",
     meaningVi: "Cố ý/Thận trọng/Suy nghĩ kỹ.",
     exampleEn: "Deliberate attempt.",
     exampleVi: "Nỗ lực có tính toán/cố ý.",
-    categories: ["General", "Psychology", "Politics"],
+    categories: ["General","Psychology","Politics"],
   },
   {
     id: "gen-5171",
@@ -315,7 +359,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Sự cố ý/Sự thận trọng.",
     exampleEn: "Calculated deliberateness.",
     exampleVi: "Sự thận trọng có tính toán.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5173",
@@ -327,7 +371,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Sự cân nhắc/Sự thảo luận kỹ.",
     exampleEn: "After much deliberation.",
     exampleVi: "Sau khi cân nhắc kỹ lưỡng.",
-    categories: ["General", "Politics", "Law"],
+    categories: ["General","Politics","Law"],
   },
   {
     id: "gen-5174",
@@ -339,7 +383,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Để thảo luận/Để bàn bạc.",
     exampleEn: "Deliberative body.",
     exampleVi: "Cơ quan thảo luận/nghị sự.",
-    categories: ["Politics", "Social"],
+    categories: ["Politics","Social"],
   },
   {
     id: "gen-5175",
@@ -347,12 +391,11 @@ export const D5: VocabularyWord[] = [
     slug: "delicacy",
     phonetic: "/ˈdel.ə.kə.si/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The quality of being very fine in texture or structure; a choice or expensive food item.",
+    meaningEn: "The quality of being very fine in texture or structure; a choice or expensive food item.",
     meaningVi: "Sự tinh tế/Đồ ăn ngon/Sự mỏng manh.",
     exampleEn: "Local delicacy.",
     exampleVi: "Đặc sản địa phương.",
-    categories: ["General", "Food & Drink", "Art"],
+    categories: ["General","Food & Drink","Art"],
   },
   {
     id: "gen-5176",
@@ -360,12 +403,11 @@ export const D5: VocabularyWord[] = [
     slug: "delicate",
     phonetic: "/ˈdel.ə.kət/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Very fine in texture or structure; of intricate workmanship or quality.",
+    meaningEn: "Very fine in texture or structure; of intricate workmanship or quality.",
     meaningVi: "Tinh tế/Mỏng manh/Nhạy cảm.",
     exampleEn: "Delicate instrument.",
     exampleVi: "Dụng cụ tinh vi.",
-    categories: ["General", "Art", "Engineering"],
+    categories: ["General","Art","Engineering"],
   },
   {
     id: "gen-5177",
@@ -377,7 +419,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Một cách tinh tế/nhẹ nhàng.",
     exampleEn: "Handled delicately.",
     exampleVi: "Được xử lý một cách nhẹ nhàng/khéo léo.",
-    categories: ["General", "Art"],
+    categories: ["General","Art"],
   },
   {
     id: "gen-5178",
@@ -385,12 +427,11 @@ export const D5: VocabularyWord[] = [
     slug: "delicatessen",
     phonetic: "/ˌdel.ɪ.kəˈtes.ən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A shop selling cooked meats, cheeses, and unusual or foreign prepared foods.",
+    meaningEn: "A shop selling cooked meats, cheeses, and unusual or foreign prepared foods.",
     meaningVi: "Cửa hàng đồ ăn chế biến sẵn/Cửa hàng thực phẩm cao cấp.",
     exampleEn: "Italian delicatessen.",
     exampleVi: "Cửa hàng thực phẩm Ý cao cấp.",
-    categories: ["Food & Drink", "Business", "Daily"],
+    categories: ["Food & Drink","Business","Daily"],
   },
   {
     id: "gen-5179",
@@ -402,7 +443,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Ngon lành.",
     exampleEn: "Delicious food.",
     exampleVi: "Thức ăn ngon.",
-    categories: ["Food & Drink", "General"],
+    categories: ["Food & Drink","General"],
   },
   {
     id: "gen-5180",
@@ -414,7 +455,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Một cách ngon lành/thú vị.",
     exampleEn: "Deliciously scented.",
     exampleVi: "Có mùi thơm ngào ngạt/thú vị.",
-    categories: ["General", "Food & Drink"],
+    categories: ["General","Food & Drink"],
   },
   {
     id: "gen-5181",
@@ -426,7 +467,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Sự vui thích/Niềm hân hoan/Làm vui lòng.",
     exampleEn: "With delight.",
     exampleVi: "Với niềm vui sướng.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5182",
@@ -438,7 +479,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Vui mừng/Hân hoan.",
     exampleEn: "I'm delighted to meet you.",
     exampleVi: "Tôi rất vui mừng được gặp bạn.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-5183",
@@ -450,7 +491,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Thú vị/Làm say mê.",
     exampleEn: "Delightful evening.",
     exampleVi: "Một buổi tối thú vị.",
-    categories: ["General", "Psychology", "Social"],
+    categories: ["General","Psychology","Social"],
   },
   {
     id: "gen-5184",
@@ -462,7 +503,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Một cách thú vị/quyến rũ.",
     exampleEn: "Delightfully surprise.",
     exampleVi: "Ngạc nhiên một cách thú vị.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-5185",
@@ -474,7 +515,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Phân ranh giới/Xác định giới hạn.",
     exampleEn: "Delimit the scope.",
     exampleVi: "Xác định giới hạn phạm vi.",
-    categories: ["General", "Science", "Politics"],
+    categories: ["General","Science","Politics"],
   },
   {
     id: "gen-5186",
@@ -486,7 +527,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Sự định ranh giới/Sự phân định giới hạn.",
     exampleEn: "Boundary delimitation.",
     exampleVi: "Sự phân định biên giới.",
-    categories: ["General", "Politics", "Geography"],
+    categories: ["General","Politics","Geography"],
   },
   {
     id: "c2-15",
@@ -510,7 +551,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Sự phác họa/Sự mô tả chi tiết.",
     exampleEn: "Clear delineation.",
     exampleVi: "Sự phác họa rõ ràng.",
-    categories: ["General", "Art", "Education"],
+    categories: ["General","Art","Education"],
   },
   {
     id: "gen-5189",
@@ -522,7 +563,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Sự phạm tội (của thanh thiếu niên)/Sự thiếu sót nhiệm vụ.",
     exampleEn: "Juvenile delinquency.",
     exampleVi: "Tình trạng tội phạm vị thành niên.",
-    categories: ["Social", "Law"],
+    categories: ["Social","Law"],
   },
   {
     id: "gen-5190",
@@ -530,12 +571,11 @@ export const D5: VocabularyWord[] = [
     slug: "delinquent",
     phonetic: "/dɪˈlɪŋ.kwənt/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "(typically of a young person or that person's behavior) showing or characterized by a tendency to commit crime, particularly minor crime.",
+    meaningEn: "(typically of a young person or that person's behavior) showing or characterized by a tendency to commit crime, particularly minor crime.",
     meaningVi: "Kẻ phạm pháp (trẻ)/Thiếu sót/Chậm trả nợ.",
     exampleEn: "Delinquent account.",
     exampleVi: "Tài khoản quá hạn/nợ đọng.",
-    categories: ["Law", "Social", "Business"],
+    categories: ["Law","Social","Business"],
   },
   {
     id: "gen-5191",
@@ -543,12 +583,11 @@ export const D5: VocabularyWord[] = [
     slug: "delirious",
     phonetic: "/dɪˈlɪr.i.əs/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "In an acutely disturbed state of mind resulting from illness or intoxication and characterized by restlessness, illusions, and incoherence of thought and speech.",
+    meaningEn: "In an acutely disturbed state of mind resulting from illness or intoxication and characterized by restlessness, illusions, and incoherence of thought and speech.",
     meaningVi: "Mê sảng/Cuồng nhiệt/Vui sướng cực độ.",
     exampleEn: "Delirious with joy.",
     exampleVi: "Vui sướng đến phát điên.",
-    categories: ["Medical", "Psychology"],
+    categories: ["Medical","Psychology"],
   },
   {
     id: "gen-5192",
@@ -560,7 +599,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Sự mê sảng/Sự cuồng loạn.",
     exampleEn: "Delirium tremens.",
     exampleVi: "Chứng mê sảng run (do rượu).",
-    categories: ["Medical", "Psychology"],
+    categories: ["Medical","Psychology"],
   },
   {
     id: "gen-263",
@@ -572,7 +611,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Giao hàng.",
     exampleEn: "Deliver the package.",
     exampleVi: "Giao gói hàng.",
-    categories: ["Business", "General"],
+    categories: ["Business","General"],
   },
   {
     id: "gen-5194",
@@ -584,7 +623,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Sự giải thoát/Sự cứu rỗi/Lời phán quyết.",
     exampleEn: "Pray for deliverance.",
     exampleVi: "Cầu nguyện được giải thoát.",
-    categories: ["Psychology", "Religion", "General"],
+    categories: ["Psychology","Religion","General"],
   },
   {
     id: "gen-5195",
@@ -596,7 +635,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Người giao hàng/Người cứu thoát/Người giải phóng.",
     exampleEn: "Expected deliverer.",
     exampleVi: "Người giải cứu được mong đợi.",
-    categories: ["People", "General"],
+    categories: ["People","General"],
   },
   {
     id: "gen-5196",
@@ -608,7 +647,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Sự giao hàng/Sự phân phối/Sự sinh con/Cách nói năng.",
     exampleEn: "Fast delivery.",
     exampleVi: "Giao hàng nhanh.",
-    categories: ["General", "Business", "Medical"],
+    categories: ["General","Business","Medical"],
   },
   {
     id: "gen-5197",
@@ -620,7 +659,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Thung lũng nhỏ (có nhiều cây).",
     exampleEn: "Green dell.",
     exampleVi: "Thung lũng nhỏ xanh tươi.",
-    categories: ["Nature", "Geography"],
+    categories: ["Nature","Geography"],
   },
   {
     id: "gen-5198",
@@ -632,7 +671,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Đánh lừa/Làm cho ảo tưởng.",
     exampleEn: "Delude oneself.",
     exampleVi: "Tự huyễn hoặc bản thân.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5199",
@@ -644,7 +683,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Trận đại hồng thủy/Sự tràn ngập/Làm ngập.",
     exampleEn: "A deluge of complaints.",
     exampleVi: "Một loạt các lời phàn nàn tràn ngập.",
-    categories: ["Nature", "General", "Social"],
+    categories: ["Nature","General","Social"],
   },
   {
     id: "gen-5200",
@@ -652,12 +691,11 @@ export const D5: VocabularyWord[] = [
     slug: "delusion",
     phonetic: "/dɪˈluː.ʒən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An idiosyncratic belief or impression that is firmly maintained despite being contradicted by what is generally accepted as reality or rational argument.",
+    meaningEn: "An idiosyncratic belief or impression that is firmly maintained despite being contradicted by what is generally accepted as reality or rational argument.",
     meaningVi: "Sự ảo tưởng/Sự đánh lừa.",
     exampleEn: "Delusions of grandeur.",
     exampleVi: "Ảo tưởng về quyền lực/sự vĩ đại.",
-    categories: ["Psychology", "Medical"],
+    categories: ["Psychology","Medical"],
   },
   {
     id: "gen-5201",
@@ -669,7 +707,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Huyễn hoặc/Ảo tưởng/Lừa dối.",
     exampleEn: "Delusive hopes.",
     exampleVi: "Những hy vọng hão huyền.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5202",
@@ -705,7 +743,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Sang trọng/Xa xỉ.",
     exampleEn: "Deluxe hotel.",
     exampleVi: "Khách sạn sang trọng.",
-    categories: ["Travel", "General", "Business"],
+    categories: ["Travel","General","Business"],
   },
   {
     id: "gen-5205",
@@ -713,12 +751,11 @@ export const D5: VocabularyWord[] = [
     slug: "delve",
     phonetic: "/delv/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Reach inside a receptacle and search for something; research or make inquiries into something.",
+    meaningEn: "Reach inside a receptacle and search for something; research or make inquiries into something.",
     meaningVi: "Đào sâu/Nghiên cứu kỹ/Bới tìm.",
     exampleEn: "Delve into the past.",
     exampleVi: "Tìm hiểu sâu về quá khứ.",
-    categories: ["General", "Education", "Psychology"],
+    categories: ["General","Education","Psychology"],
   },
   {
     id: "gen-5206",
@@ -730,7 +767,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Người đào bới/Người nghiên cứu sâu.",
     exampleEn: "Arcane delver.",
     exampleVi: "Người nghiên cứu những điều bí ẩn.",
-    categories: ["People", "Education"],
+    categories: ["People","Education"],
   },
   {
     id: "gen-5207",
@@ -742,7 +779,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Khử từ tính.",
     exampleEn: "Demagnetize the tool.",
     exampleVi: "Khử từ cho công cụ.",
-    categories: ["Science", "Engineering"],
+    categories: ["Science","Engineering"],
   },
   {
     id: "c2-78",
@@ -750,8 +787,7 @@ export const D5: VocabularyWord[] = [
     slug: "demagogue",
     phonetic: "/ˈdem.ə.ɡɑːɡ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A political leader who seeks support by appealing to the desires and prejudices of ordinary people.",
+    meaningEn: "A political leader who seeks support by appealing to the desires and prejudices of ordinary people.",
     meaningVi: "Kẻ mị dân.",
     exampleEn: "A dangerous demagogue.",
     exampleVi: "Một kẻ mị dân nguy hiểm.",
@@ -767,7 +803,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Thuật mị dân.",
     exampleEn: "Rise of demagogy.",
     exampleVi: "Sự trỗi dậy của thuật mị dân.",
-    categories: ["Politics", "Social"],
+    categories: ["Politics","Social"],
   },
   {
     id: "gen-264",
@@ -787,12 +823,11 @@ export const D5: VocabularyWord[] = [
     slug: "demanding",
     phonetic: "/dɪˈmæn.dɪŋ/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a task) requiring much skill or effort; (of a person) making others work hard or meet high standards.",
+    meaningEn: "(of a task) requiring much skill or effort; (of a person) making others work hard or meet high standards.",
     meaningVi: "Đòi hỏi cao/Khắt khe/Vất vả.",
     exampleEn: "Demanding job.",
     exampleVi: "Công việc đòi hỏi cao.",
-    categories: ["Business", "Psychology", "General"],
+    categories: ["Business","Psychology","General"],
   },
   {
     id: "gen-5212",
@@ -804,7 +839,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Phân ranh giới/Phân định.",
     exampleEn: "Demarcate the border.",
     exampleVi: "Phân định biên giới.",
-    categories: ["General", "Politics", "Geography"],
+    categories: ["General","Politics","Geography"],
   },
   {
     id: "gen-5213",
@@ -816,7 +851,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Sự phân ranh giới/Sự phân định.",
     exampleEn: "Demarcation line.",
     exampleVi: "Đường phân định.",
-    categories: ["General", "Politics", "Geography"],
+    categories: ["General","Politics","Geography"],
   },
   {
     id: "gen-5214",
@@ -824,12 +859,11 @@ export const D5: VocabularyWord[] = [
     slug: "demean",
     phonetic: "/dɪˈmiːn/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Cause a severe loss in the dignity of and respect for (someone or something).",
+    meaningEn: "Cause a severe loss in the dignity of and respect for (someone or something).",
     meaningVi: "Làm hạ phẩm giá/Làm nhục/Hành xử (cổ).",
     exampleEn: "Demean oneself.",
     exampleVi: "Làm hạ thấp bản thân mình.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-5215",
@@ -841,7 +875,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Thái độ/Cách cư xử/Diện mạo.",
     exampleEn: "Calm demeanor.",
     exampleVi: "Thái độ bình tĩnh.",
-    categories: ["Psychology", "Social", "General"],
+    categories: ["Psychology","Social","General"],
   },
   {
     id: "gen-5216",
@@ -849,12 +883,11 @@ export const D5: VocabularyWord[] = [
     slug: "demented",
     phonetic: "/dɪˈmen.t̬ɪd/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Suffering from dementia; driven to behave irrationally due to anger, distress, or excitement.",
+    meaningEn: "Suffering from dementia; driven to behave irrationally due to anger, distress, or excitement.",
     meaningVi: "Bị chứng mất trí/Điên cuồng/Mất trí.",
     exampleEn: "Demented by grief.",
     exampleVi: "Mất trí vì đau buồn.",
-    categories: ["Medical", "Psychology"],
+    categories: ["Medical","Psychology"],
   },
   {
     id: "gen-5217",
@@ -862,12 +895,11 @@ export const D5: VocabularyWord[] = [
     slug: "dementia",
     phonetic: "/dɪˈmen.ʃə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A chronic or persistent disorder of the mental processes caused by brain disease or injury.",
+    meaningEn: "A chronic or persistent disorder of the mental processes caused by brain disease or injury.",
     meaningVi: "Chứng mất trí nhớ/Chứng sa sút trí tuệ.",
     exampleEn: "Dementia patient.",
     exampleVi: "Bệnh nhân mất trí nhớ.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-5218",
@@ -875,12 +907,11 @@ export const D5: VocabularyWord[] = [
     slug: "demerit",
     phonetic: "/ˌdiːˈmer.ɪt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A fault or flaw; a mark awarded against someone for a fault or offense.",
+    meaningEn: "A fault or flaw; a mark awarded against someone for a fault or offense.",
     meaningVi: "Khuyết điểm/Lỗi/Điểm phạt.",
     exampleEn: "Merits and demerits.",
     exampleVi: "Những ưu điểm và khuyết điểm.",
-    categories: ["General", "Education"],
+    categories: ["General","Education"],
   },
   {
     id: "gen-5219",
@@ -892,7 +923,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Lãnh địa/Khu đất thuộc quyền sở hữu.",
     exampleEn: "Lord's demesne.",
     exampleVi: "Lãnh địa của lãnh chúa.",
-    categories: ["History", "Geography"],
+    categories: ["History","Geography"],
   },
   {
     id: "gen-5220",
@@ -900,12 +931,11 @@ export const D5: VocabularyWord[] = [
     slug: "demigod",
     phonetic: "/ˈdem.i.ɡɑːd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A being with partial or lesser divine status, such as an offspring of a god and a mortal.",
+    meaningEn: "A being with partial or lesser divine status, such as an offspring of a god and a mortal.",
     meaningVi: "Bán thần.",
     exampleEn: "Hercules was a demigod.",
     exampleVi: "Hercules là một vị bán thần.",
-    categories: ["Religion", "History", "Literature"],
+    categories: ["Religion","History","Literature"],
   },
   {
     id: "gen-5221",
@@ -917,7 +947,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Giới ăn chơi/Giới sống ngoài lề xã hội thượng lưu.",
     exampleEn: "Life in the demi-monde.",
     exampleVi: "Cuộc sống trong giới ăn chơi.",
-    categories: ["Social", "History"],
+    categories: ["Social","History"],
   },
   {
     id: "gen-5225",
@@ -929,7 +959,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Bán chính thức/Phần nào mang tính chính thức.",
     exampleEn: "Demi-official letter.",
     exampleVi: "Bức thư bán chính thức.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "gen-5227",
@@ -953,7 +983,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Chó lai chó sói/Chó sói lai.",
     exampleEn: "Legendary demi-wolf.",
     exampleVi: "Loài sói lai huyền thoại.",
-    categories: ["Animals", "Literature"],
+    categories: ["Animals","Literature"],
   },
   {
     id: "gen-5222",
@@ -965,7 +995,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Bình lớn có vỏ mây (để đựng rượu/dầu).",
     exampleEn: "Wicker-covered demijohn.",
     exampleVi: "Bình lớn bọc mây.",
-    categories: ["Daily", "Home"],
+    categories: ["Daily","Home"],
   },
   {
     id: "gen-5223",
@@ -977,7 +1007,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Phi quân sự hóa.",
     exampleEn: "Demilitarize the zone.",
     exampleVi: "Phi quân sự hóa khu vực.",
-    categories: ["Politics", "History"],
+    categories: ["Politics","History"],
   },
   {
     id: "gen-5224",
@@ -989,7 +1019,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Đã phi quân sự hóa.",
     exampleEn: "Demilitarized Zone (DMZ).",
     exampleVi: "Khu vực phi quân sự (DMZ).",
-    categories: ["Politics", "History"],
+    categories: ["Politics","History"],
   },
   {
     id: "gen-5226",
@@ -997,13 +1027,11 @@ export const D5: VocabularyWord[] = [
     slug: "demise",
     phonetic: "/dɪˈmaɪz/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A person's death; the end or failure of an enterprise or institution.",
-    meaningVi:
-      "Sự qua đời/Sự kết liễu/Sự giải thể/Chuyển nhượng (bằng chúc thư).",
+    meaningEn: "A person's death; the end or failure of an enterprise or institution.",
+    meaningVi: "Sự qua đời/Sự kết liễu/Sự giải thể/Chuyển nhượng (bằng chúc thư).",
     exampleEn: "Demise of the empire.",
     exampleVi: "Sự sụp đổ của đế chế.",
-    categories: ["General", "Politics", "Law"],
+    categories: ["General","Politics","Law"],
   },
   {
     id: "gen-5228",
@@ -1015,7 +1043,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Từ chức/Thôi việc.",
     exampleEn: "Demit the office.",
     exampleVi: "Từ bỏ chức vụ.",
-    categories: ["Business", "Politics"],
+    categories: ["Business","Politics"],
   },
   {
     id: "gen-265",
@@ -1039,7 +1067,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Người theo chế độ dân chủ/Đảng viên Đảng Dân chủ.",
     exampleEn: "He is a lifelong democrat.",
     exampleVi: "Ông ấy là người ủng hộ dân chủ suốt đời.",
-    categories: ["People", "Politics"],
+    categories: ["People","Politics"],
   },
   {
     id: "gen-5232",
@@ -1051,7 +1079,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Thuộc về dân chủ/Mang tính dân chủ.",
     exampleEn: "Democratic election.",
     exampleVi: "Cuộc bầu cử dân chủ.",
-    categories: ["Politics", "Social"],
+    categories: ["Politics","Social"],
   },
   {
     id: "gen-5233",
@@ -1063,7 +1091,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Một cách dân chủ.",
     exampleEn: "Elected democratically.",
     exampleVi: "Được bầu chọn một cách dân chủ.",
-    categories: ["Politics", "Social"],
+    categories: ["Politics","Social"],
   },
   {
     id: "gen-5234",
@@ -1074,9 +1102,8 @@ export const D5: VocabularyWord[] = [
     meaningEn: "Make (a country or institution) democratic.",
     meaningVi: "Dân chủ hóa.",
     exampleEn: "Democratize the access to data.",
-    exampleVi:
-      "Dân chủ hóa việc truy cập dữ liệu (làm cho mọi người đều tiếp cận được).",
-    categories: ["Politics", "Social", "Technology"],
+    exampleVi: "Dân chủ hóa việc truy cập dữ liệu (làm cho mọi người đều tiếp cận được).",
+    categories: ["Politics","Social","Technology"],
   },
   {
     id: "gen-5235",
@@ -1088,7 +1115,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Lỗi mốt/Không còn hợp thời trang.",
     exampleEn: "Incredibly demode.",
     exampleVi: "Hết sức lỗi thời.",
-    categories: ["Fashion", "Body"],
+    categories: ["Fashion","Body"],
   },
   {
     id: "gen-5236",
@@ -1096,12 +1123,11 @@ export const D5: VocabularyWord[] = [
     slug: "demography",
     phonetic: "/dɪˈmɑː.ɡrə.fi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The study of statistics such as births, deaths, income, or the incidence of disease.",
+    meaningEn: "The study of statistics such as births, deaths, income, or the incidence of disease.",
     meaningVi: "Nhân khẩu học.",
     exampleEn: "Change in demography.",
     exampleVi: "Sự thay đổi về nhân khẩu học.",
-    categories: ["Science", "Social", "Economics"],
+    categories: ["Science","Social","Economics"],
   },
   {
     id: "gen-5237",
@@ -1109,12 +1135,11 @@ export const D5: VocabularyWord[] = [
     slug: "demolish",
     phonetic: "/dɪˈmɑː.lɪʃ/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Pull down or break up (a building); comprehensively refute (an argument).",
+    meaningEn: "Pull down or break up (a building); comprehensively refute (an argument).",
     meaningVi: "Phá hủy/Đánh đổ (lập luận)/Ăn ngấu nghiến.",
     exampleEn: "Demolish the old house.",
     exampleVi: "Phá bỏ ngôi nhà cũ.",
-    categories: ["General", "Engineering", "Architecture"],
+    categories: ["General","Engineering","Architecture"],
   },
   {
     id: "gen-5238",
@@ -1126,7 +1151,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Sự phá hủy/Sự phá dỡ/Sự đánh đổ.",
     exampleEn: "Demolition derby.",
     exampleVi: "Cuộc thi xe đụng phá hủy.",
-    categories: ["General", "Engineering", "Architecture"],
+    categories: ["General","Engineering","Architecture"],
   },
   {
     id: "gen-5239",
@@ -1134,12 +1159,11 @@ export const D5: VocabularyWord[] = [
     slug: "demon",
     phonetic: "/ˈdiː.mən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An evil spirit or devil, especially one thought to possess a person or inhabit hell.",
+    meaningEn: "An evil spirit or devil, especially one thought to possess a person or inhabit hell.",
     meaningVi: "Con quỷ/Yêu ma/Người rất giỏi (nghĩa bóng).",
     exampleEn: "Inner demons.",
     exampleVi: "Những bóng ma nội tâm/Nỗi ám ảnh tâm lý.",
-    categories: ["Religion", "Psychology", "Literature"],
+    categories: ["Religion","Psychology","Literature"],
   },
   {
     id: "gen-5240",
@@ -1151,7 +1175,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Người bị quỷ ám/Như quỷ.",
     exampleEn: "Demoniac strength.",
     exampleVi: "Sức mạnh như quỷ.",
-    categories: ["Religion", "Psychology"],
+    categories: ["Religion","Psychology"],
   },
   {
     id: "gen-5241",
@@ -1163,7 +1187,7 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Thuộc về ma quỷ/Ác quỷ.",
     exampleEn: "Demoniacal laughter.",
     exampleVi: "Tiếng cười ác quỷ.",
-    categories: ["Religion", "Literature"],
+    categories: ["Religion","Literature"],
   },
   {
     id: "gen-5242",
@@ -1175,55 +1199,6 @@ export const D5: VocabularyWord[] = [
     meaningVi: "Như ác quỷ/Ma quái.",
     exampleEn: "Demonic possession.",
     exampleVi: "Sự quỷ ám.",
-    categories: ["Religion", "Literature"],
-  },
-  {
-    id: "gen-5243",
-    word: "Demonology",
-    slug: "demonology",
-    phonetic: "/ˌdiː.məˈnɑː.lə.dʒi/",
-    partOfSpeech: "noun",
-    meaningEn: "The study of demons or beliefs about them.",
-    meaningVi: "Quỷ học (nghiên cứu về ma quỷ).",
-    exampleEn: "Occult demonology.",
-    exampleVi: "Quỷ học huyền bí.",
-    categories: ["Religion", "Science", "History"],
-  },
-  {
-    id: "gen-5244",
-    word: "Demonstrable",
-    slug: "demonstrable",
-    phonetic: "/dɪˈmɑːn.strə.bəl/",
-    partOfSpeech: "adjective",
-    meaningEn: "Clearly apparent or capable of being logically proved.",
-    meaningVi: "Có thể chứng minh được/Rõ ràng.",
-    exampleEn: "Demonstrable facts.",
-    exampleVi: "Những sự thật có thể chứng minh được.",
-    categories: ["Science", "General"],
-  },
-  {
-    id: "gen-5245",
-    word: "Demonstrably",
-    slug: "demonstrably",
-    phonetic: "/dɪˈmɑːn.strə.bli/",
-    partOfSpeech: "adverb",
-    meaningEn:
-      "In a way that is clearly apparent or capable of being proved logically.",
-    meaningVi: "Một cách rõ ràng/có thể chứng minh được.",
-    exampleEn: "Demonstrably false.",
-    exampleVi: "Sai lầm một cách rõ ràng.",
-    categories: ["Science", "General"],
-  },
-  {
-    id: "gen-266",
-    word: "Demonstrate",
-    slug: "demonstrate",
-    phonetic: "/ˈdem.ən.streɪt/",
-    partOfSpeech: "verb",
-    meaningEn: "Clearly show the existence or truth of something.",
-    meaningVi: "Chứng minh.",
-    exampleEn: "Demonstrate your skills.",
-    exampleVi: "Chứng minh kỹ năng của bạn.",
-    categories: ["General"],
-  },
+    categories: ["Religion","Literature"],
+  }
 ];

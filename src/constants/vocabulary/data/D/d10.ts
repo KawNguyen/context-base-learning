@@ -2,6 +2,54 @@ import { VocabularyWord } from "../../types";
 
 export const D10: VocabularyWord[] = [
   {
+    id: "gen-5641",
+    word: "Diehard",
+    slug: "diehard",
+    phonetic: "/ˈdaɪ.hɑːrd/",
+    partOfSpeech: "noun/adjective",
+    meaningEn: "A person who strongly opposes change or who continues to support something in spite of opposition.",
+    meaningVi: "Người ngoan cố/Người khó chết/Người bảo thủ.",
+    exampleEn: "Diehard fan.",
+    exampleVi: "Người hâm mộ cuồng nhiệt/trung thành.",
+    categories: ["People","Psychology","Social"],
+  },
+  {
+    id: "gen-5642",
+    word: "Diesel",
+    slug: "diesel",
+    phonetic: "/ˈdiː.zəl/",
+    partOfSpeech: "noun",
+    meaningEn: "An internal combustion engine in which heat produced by the compression of air in the cylinder is used to ignite the fuel.",
+    meaningVi: "Động cơ diesel/Dầu diesel.",
+    exampleEn: "Diesel tractor.",
+    exampleVi: "Máy kéo chạy dầu diesel.",
+    categories: ["Technology","Engineering","Science"],
+  },
+  {
+    id: "a2-245",
+    word: "Diet",
+    slug: "diet",
+    phonetic: "/ˈdaɪ.ət/",
+    partOfSpeech: "noun/verb",
+    meaningEn: "The kinds of food that a person habitual eats.",
+    meaningVi: "Chế độ ăn uống/ăn kiêng.",
+    exampleEn: "A healthy diet.",
+    exampleVi: "Một chế độ ăn uống lành mạnh.",
+    categories: ["Daily","Medical"],
+  },
+  {
+    id: "gen-5644",
+    word: "Dietary",
+    slug: "dietary",
+    phonetic: "/ˈdaɪ.ə.ter.i/",
+    partOfSpeech: "adjective/noun",
+    meaningEn: "Relating to diets or dieting.",
+    meaningVi: "Thuộc về chế độ ăn uống.",
+    exampleEn: "Dietary restrictions.",
+    exampleVi: "Các hạn chế về ăn uống.",
+    categories: ["Medical","Medical","Food & Drink"],
+  },
+  {
     id: "gen-5645",
     word: "Dietetic",
     slug: "dietetic",
@@ -11,7 +59,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Thuộc về ăn uống/dinh dưỡng.",
     exampleEn: "Dietetic food.",
     exampleVi: "Thức ăn dinh dưỡng/đặc biệt.",
-    categories: ["Medical", "Medical", "Food & Drink"],
+    categories: ["Medical","Medical","Food & Drink"],
   },
   {
     id: "gen-5646",
@@ -19,12 +67,11 @@ export const D10: VocabularyWord[] = [
     slug: "dietetics",
     phonetic: "/ˌdaɪ.əˈtet̬.ɪks/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The branch of knowledge concerned with the diet and its effects on health.",
+    meaningEn: "The branch of knowledge concerned with the diet and its effects on health.",
     meaningVi: "Dinh dưỡng học.",
     exampleEn: "Specialist in dietetics.",
     exampleVi: "Chuyên gia về dinh dưỡng.",
-    categories: ["Medical", "Medical", "Science"],
+    categories: ["Medical","Medical","Science"],
   },
   {
     id: "gen-5647",
@@ -36,7 +83,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Chuyên gia dinh dưỡng.",
     exampleEn: "Registered dietitian.",
     exampleVi: "Chuyên gia dinh dưỡng đã đăng ký.",
-    categories: ["People", "Medical", "Business"],
+    categories: ["People","Medical","Business"],
   },
   {
     id: "gen-5648",
@@ -48,7 +95,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Khác với/Bất đồng.",
     exampleEn: "Opinions differ.",
     exampleVi: "Các ý kiến trái chiều/khác nhau.",
-    categories: ["General", "Social", "Science"],
+    categories: ["General","Social","Science"],
   },
   {
     id: "a2-133",
@@ -84,7 +131,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Biệt hóa/Phân biệt/Vi phân (toán).",
     exampleEn: "Differential calculus.",
     exampleVi: "Phép tính vi phân.",
-    categories: ["Science", "Economics", "Engineering"],
+    categories: ["Science","Economics","Engineering"],
   },
   {
     id: "gen-5652",
@@ -104,8 +151,7 @@ export const D10: VocabularyWord[] = [
     slug: "differentiate",
     phonetic: "/ˌdɪf.əˈren.ʃi.eɪt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Recognize or ascertain what makes (someone or something) different.",
+    meaningEn: "Recognize or ascertain what makes (someone or something) different.",
     meaningVi: "Phân biệt.",
     exampleEn: "Differentiate between the two options.",
     exampleVi: "Phân biệt giữa hai lựa chọn.",
@@ -121,7 +167,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Sự phân biệt/Sự biệt hóa.",
     exampleEn: "Product differentiation.",
     exampleVi: "Sự khác biệt hóa sản phẩm.",
-    categories: ["Science", "Economics", "Business"],
+    categories: ["Science","Economics","Business"],
   },
   {
     id: "gen-5655",
@@ -141,8 +187,7 @@ export const D10: VocabularyWord[] = [
     slug: "difficult",
     phonetic: "/ˈdɪf.ə.kəlt/",
     partOfSpeech: "adj",
-    meaningEn:
-      "Needing much effort or skill to accomplish, deal with, or understand.",
+    meaningEn: "Needing much effort or skill to accomplish, deal with, or understand.",
     meaningVi: "Khó.",
     exampleEn: "A difficult problem.",
     exampleVi: "Một vấn đề khó.",
@@ -170,7 +215,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Sự thiếu tự tin/Sự e dè.",
     exampleEn: "Overcome diffidence.",
     exampleVi: "Vượt qua sự e dè.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "c2-81",
@@ -194,7 +239,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Một cách e dè/thiếu tự tin.",
     exampleEn: "Spoke diffidently.",
     exampleVi: "Nói chuyện một cách e dè.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5661",
@@ -202,12 +247,11 @@ export const D10: VocabularyWord[] = [
     slug: "diffract",
     phonetic: "/dɪˈfrækt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "(of a beam of light or other system of waves) spread out as a result of passing through a narrow aperture or across an edge.",
+    meaningEn: "(of a beam of light or other system of waves) spread out as a result of passing through a narrow aperture or across an edge.",
     meaningVi: "Làm nhiễu xạ.",
     exampleEn: "Light diffracted by the slit.",
     exampleVi: "Ánh sáng bị nhiễu xạ qua khe hẹp.",
-    categories: ["Science", "Education"],
+    categories: ["Science","Education"],
   },
   {
     id: "gen-5662",
@@ -215,12 +259,11 @@ export const D10: VocabularyWord[] = [
     slug: "diffraction",
     phonetic: "/dɪˈfræk.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The process by which a beam of light or other system of waves is spread out.",
+    meaningEn: "The process by which a beam of light or other system of waves is spread out.",
     meaningVi: "Sự nhiễu xạ.",
     exampleEn: "Electron diffraction.",
     exampleVi: "Nhiễu xạ điện tử.",
-    categories: ["Science", "Education"],
+    categories: ["Science","Education"],
   },
   {
     id: "gen-5663",
@@ -228,12 +271,11 @@ export const D10: VocabularyWord[] = [
     slug: "diffuse",
     phonetic: "/dɪˈfjuːs/",
     partOfSpeech: "verb/adjective",
-    meaningEn:
-      "Spread or cause to spread over a wide area or among a large number of people.",
+    meaningEn: "Spread or cause to spread over a wide area or among a large number of people.",
     meaningVi: "Khuếch tán/Lan truyền/Dông dài (văn chương).",
     exampleEn: "Diffuse light.",
     exampleVi: "Ánh sáng khuếch tán.",
-    categories: ["Science", "General", "Literature"],
+    categories: ["Science","General","Literature"],
   },
   {
     id: "gen-5664",
@@ -245,7 +287,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Một cách khuếch tán/lan rộng.",
     exampleEn: "Diffusely distributed.",
     exampleVi: "Được phân bố lan rộng.",
-    categories: ["Science", "General"],
+    categories: ["Science","General"],
   },
   {
     id: "gen-5665",
@@ -257,7 +299,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Sự khuếch tán/Sự dông dài.",
     exampleEn: "Extreme diffuseness.",
     exampleVi: "Sự dông dài thái quá.",
-    categories: ["Science", "Literature"],
+    categories: ["Science","Literature"],
   },
   {
     id: "gen-5666",
@@ -269,7 +311,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Sự khuếch tán/Sự lan truyền.",
     exampleEn: "Diffusion of ideas.",
     exampleVi: "Sự lan truyền các ý tưởng.",
-    categories: ["Science", "Social", "General"],
+    categories: ["Science","Social","General"],
   },
   {
     id: "gen-5667",
@@ -281,7 +323,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Có tính khuếch tán/Lan rộng.",
     exampleEn: "Diffusive power.",
     exampleVi: "Khả năng khuếch tán.",
-    categories: ["Science", "General"],
+    categories: ["Science","General"],
   },
   {
     id: "gen-5668",
@@ -293,7 +335,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Đào/Bới/Xới.",
     exampleEn: "Dig a hole.",
     exampleVi: "Đào một cái hố.",
-    categories: ["General", "Daily", "Science"],
+    categories: ["General","Daily","Science"],
   },
   {
     id: "gen-5669",
@@ -301,12 +343,11 @@ export const D10: VocabularyWord[] = [
     slug: "digest",
     phonetic: "/daɪˈdʒest/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Break down food in the alimentary canal into substances that can be absorbed and used by the body; a compilation or summary of material.",
+    meaningEn: "Break down food in the alimentary canal into substances that can be absorbed and used by the body; a compilation or summary of material.",
     meaningVi: "Tiêu hóa/Lĩnh hội/Sách tóm tắt.",
     exampleEn: "Digest information.",
     exampleVi: "Lĩnh hội thông tin.",
-    categories: ["Medical", "Education", "General"],
+    categories: ["Medical","Education","General"],
   },
   {
     id: "gen-5670",
@@ -314,12 +355,11 @@ export const D10: VocabularyWord[] = [
     slug: "digester",
     phonetic: "/daɪˈdʒes.tɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A container in which substances are decomposed by bacteria or heat.",
+    meaningEn: "A container in which substances are decomposed by bacteria or heat.",
     meaningVi: "Thiết bị phân hủy/Bể tự hoại.",
     exampleEn: "Anaerobic digester.",
     exampleVi: "Bể phân hủy kỵ khí.",
-    categories: ["Science", "Technology", "Environment"],
+    categories: ["Science","Technology","Environment"],
   },
   {
     id: "gen-5671",
@@ -331,7 +371,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Khả năng có thể tiêu hóa được.",
     exampleEn: "High digestibility.",
     exampleVi: "Khả năng tiêu hóa cao.",
-    categories: ["Science", "Medical", "Food & Drink"],
+    categories: ["Science","Medical","Food & Drink"],
   },
   {
     id: "gen-5672",
@@ -343,7 +383,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Có thể tiêu hóa được/Dễ hiểu.",
     exampleEn: "Digestible food.",
     exampleVi: "Thức ăn dễ tiêu hóa.",
-    categories: ["Medical", "Food & Drink", "General"],
+    categories: ["Medical","Food & Drink","General"],
   },
   {
     id: "gen-5673",
@@ -355,7 +395,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Sự tiêu hóa.",
     exampleEn: "Poor digestion.",
     exampleVi: "Tiêu hóa kém.",
-    categories: ["Medical", "Science", "Medical"],
+    categories: ["Medical","Science","Medical"],
   },
   {
     id: "gen-5674",
@@ -367,7 +407,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Thuộc về tiêu hóa.",
     exampleEn: "Digestive system.",
     exampleVi: "Hệ tiêu hóa.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-5675",
@@ -379,7 +419,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Người đào/Máy xúc.",
     exampleEn: "Mechanical digger.",
     exampleVi: "Máy xúc cơ giới.",
-    categories: ["Business", "Technology", "General"],
+    categories: ["Business","Technology","General"],
   },
   {
     id: "gen-5676",
@@ -391,7 +431,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Vật đào được/Khu mỏ/Khu khảo cổ.",
     exampleEn: "New diggings.",
     exampleVi: "Khu vực đào bới mới.",
-    categories: ["History", "Science", "General"],
+    categories: ["History","Science","General"],
   },
   {
     id: "gen-5677",
@@ -403,7 +443,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Chữ số/Ngón (tay/chân).",
     exampleEn: "Three-digit number.",
     exampleVi: "Số có ba chữ số.",
-    categories: ["Science", "Education", "General"],
+    categories: ["Science","Education","General"],
   },
   {
     id: "a1-225",
@@ -415,7 +455,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Kỹ thuật số.",
     exampleEn: "A digital watch.",
     exampleVi: "Một chiếc đồng hồ kỹ thuật số.",
-    categories: ["Technology", "Daily"],
+    categories: ["Technology","Daily"],
   },
   {
     id: "gen-5678asd",
@@ -423,12 +463,11 @@ export const D10: VocabularyWord[] = [
     slug: "digital-marketing",
     phonetic: "/ˈdɪdʒ.ɪ.t̬əl ˈmɑːr.kɪ.t̬ɪŋ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The promotion of products or brands via electronic media, primarily on the internet.",
+    meaningEn: "The promotion of products or brands via electronic media, primarily on the internet.",
     meaningVi: "Tiếp thị kỹ thuật số.",
     exampleEn: "Digital marketing strategies.",
     exampleVi: "Các chiến lược tiếp thị kỹ thuật số.",
-    categories: ["Business", "Technology", "Marketing"],
+    categories: ["Business","Technology","Marketing"],
   },
   {
     id: "gen-5679",
@@ -436,12 +475,11 @@ export const D10: VocabularyWord[] = [
     slug: "digitalis",
     phonetic: "/ˌdɪdʒ.əˈteɪ.lɪs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A drug prepared from the dried leaves of foxglove, used to treat heart conditions.",
+    meaningEn: "A drug prepared from the dried leaves of foxglove, used to treat heart conditions.",
     meaningVi: "Thuốc Digitalis (điều trị tim)/Cây mao địa hoàng.",
     exampleEn: "Treat with digitalis.",
     exampleVi: "Điều trị bằng digitalis.",
-    categories: ["Medical", "Plants", "Science"],
+    categories: ["Medical","Plants","Science"],
   },
   {
     id: "gen-5680",
@@ -461,12 +499,11 @@ export const D10: VocabularyWord[] = [
     slug: "digitization",
     phonetic: "/ˌdɪdʒ.ə.təˈzeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The conversion of text, pictures, or sound into a digital form.",
+    meaningEn: "The conversion of text, pictures, or sound into a digital form.",
     meaningVi: "Sự số hóa.",
     exampleEn: "Digitization of archives.",
     exampleVi: "Sự số hóa các tài liệu lưu trữ.",
-    categories: ["Technology", "Science", "General"],
+    categories: ["Technology","Science","General"],
   },
   {
     id: "gen-5682",
@@ -478,7 +515,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Số hóa.",
     exampleEn: "Digitize documents.",
     exampleVi: "Số hóa các tài liệu.",
-    categories: ["Technology", "Science", "General"],
+    categories: ["Technology","Science","General"],
   },
   {
     id: "gen-5683",
@@ -498,12 +535,11 @@ export const D10: VocabularyWord[] = [
     slug: "dignified",
     phonetic: "/ˈdɪɡ.nə.faɪd/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Having or showing a composed or serious manner that is worthy of respect.",
+    meaningEn: "Having or showing a composed or serious manner that is worthy of respect.",
     meaningVi: "Trang nghiêm/Đáng tôn quý.",
     exampleEn: "Dignified response.",
     exampleVi: "Phản hồi đầy trang nghiêm.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-5685",
@@ -515,7 +551,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Làm cho trang nghiêm/Đề cao/Làm rạng danh.",
     exampleEn: "Dignify with a title.",
     exampleVi: "Làm cho trang trọng hơn bằng một chức danh.",
-    categories: ["Psychology", "Social", "General"],
+    categories: ["Psychology","Social","General"],
   },
   {
     id: "gen-5686",
@@ -523,12 +559,11 @@ export const D10: VocabularyWord[] = [
     slug: "dignitary",
     phonetic: "/ˈdɪɡ.nə.ter.i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person considered to be important because of high rank or office.",
+    meaningEn: "A person considered to be important because of high rank or office.",
     meaningVi: "Vị chức sắc/Người giữ địa vị cao.",
     exampleEn: "Foreign dignitaries.",
     exampleVi: "Các vị quan khách nước ngoài.",
-    categories: ["People", "Politics", "Social"],
+    categories: ["People","Politics","Social"],
   },
   {
     id: "gen-5687",
@@ -540,7 +575,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Phẩm giá/Lòng tự trọng/Vẻ trang trọng.",
     exampleEn: "Human dignity.",
     exampleVi: "Phẩm giá con người.",
-    categories: ["Psychology", "Social", "General"],
+    categories: ["Psychology","Social","General"],
   },
   {
     id: "gen-5688",
@@ -552,7 +587,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Chữ ghép (hai chữ cái thành một âm).",
     exampleEn: "The digraph 'th'.",
     exampleVi: "Chữ ghép 'th'.",
-    categories: ["Literature", "General"],
+    categories: ["Literature","General"],
   },
   {
     id: "gen-5689",
@@ -564,7 +599,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Lạc đề/Lan man.",
     exampleEn: "Allow me to digress.",
     exampleVi: "Cho phép tôi nói ngoài lề một chút.",
-    categories: ["General", "Literature", "Education"],
+    categories: ["General","Literature","Education"],
   },
   {
     id: "gen-5690",
@@ -572,12 +607,11 @@ export const D10: VocabularyWord[] = [
     slug: "digression",
     phonetic: "/daɪˈɡreʃ.ən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A temporary departure from the main subject in speech or writing.",
+    meaningEn: "A temporary departure from the main subject in speech or writing.",
     meaningVi: "Sự lạc đề/Sự lan man.",
     exampleEn: "Brief digression.",
     exampleVi: "Sự lạc đề ngắn.",
-    categories: ["General", "Literature", "Education"],
+    categories: ["General","Literature","Education"],
   },
   {
     id: "gen-5691",
@@ -589,7 +623,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Lan man/Lạc đề.",
     exampleEn: "Digressive style.",
     exampleVi: "Phong cách (viết/nói) lan man.",
-    categories: ["Literature", "Education"],
+    categories: ["Literature","Education"],
   },
   {
     id: "gen-5692",
@@ -601,7 +635,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Có hai mặt phẳng/Nhị diện.",
     exampleEn: "Dihedral angle.",
     exampleVi: "Góc nhị diện (trong hàng không/toán học).",
-    categories: ["Science", "Engineering", "Education"],
+    categories: ["Science","Engineering","Education"],
   },
   {
     id: "gen-5693",
@@ -609,12 +643,11 @@ export const D10: VocabularyWord[] = [
     slug: "dike",
     phonetic: "/daɪk/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A long wall or embankment built to prevent flooding from the sea; a ditch.",
+    meaningEn: "A long wall or embankment built to prevent flooding from the sea; a ditch.",
     meaningVi: "Con đê/Rãnh thoát nước.",
     exampleEn: "Build a dike.",
     exampleVi: "Xây đê.",
-    categories: ["Geography", "Environment", "Engineering"],
+    categories: ["Geography","Environment","Engineering"],
   },
   {
     id: "gen-5694",
@@ -626,7 +659,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Làm đổ nát/Làm hư hại.",
     exampleEn: "Dilapidated building.",
     exampleVi: "Tòa nhà đổ nát.",
-    categories: ["General", "Architecture"],
+    categories: ["General","Architecture"],
   },
   {
     id: "gen-5695",
@@ -634,12 +667,11 @@ export const D10: VocabularyWord[] = [
     slug: "dilapidated",
     phonetic: "/dɪˈlæp.ə.deɪ.t̬ɪd/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a building or object) in a state of disrepair or ruin as a result of age or neglect.",
+    meaningEn: "(of a building or object) in a state of disrepair or ruin as a result of age or neglect.",
     meaningVi: "Đổ nát/Xiêu vẹo/Hư nát.",
     exampleEn: "Dilapidated shack.",
     exampleVi: "Túp lều nát.",
-    categories: ["General", "Architecture"],
+    categories: ["General","Architecture"],
   },
   {
     id: "gen-5696",
@@ -647,12 +679,11 @@ export const D10: VocabularyWord[] = [
     slug: "dilapidation",
     phonetic: "/dɪˌlæp.əˈdeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The state or process of falling into decay or being in disrepair.",
+    meaningEn: "The state or process of falling into decay or being in disrepair.",
     meaningVi: "Sự đổ nát/Tình trạng hư hỏng.",
     exampleEn: "Extreme dilapidation.",
     exampleVi: "Sự đổ nát nghiêm trọng.",
-    categories: ["General", "Architecture"],
+    categories: ["General","Architecture"],
   },
   {
     id: "gen-5697",
@@ -664,7 +695,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Khả năng co giãn/giãn nở.",
     exampleEn: "Dilatability of gases.",
     exampleVi: "Khả năng giãn nở của chất khí.",
-    categories: ["Science", "Engineering"],
+    categories: ["Science","Engineering"],
   },
   {
     id: "gen-5698",
@@ -676,7 +707,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Có thể giãn nở được.",
     exampleEn: "Dilatable tissues.",
     exampleVi: "Các mô có thể giãn nở.",
-    categories: ["Science", "Medical"],
+    categories: ["Science","Medical"],
   },
   {
     id: "gen-5699",
@@ -688,7 +719,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Sự giãn nở/Sự mở rộng.",
     exampleEn: "Dilatation of blood vessels.",
     exampleVi: "Sự giãn nở mạch máu.",
-    categories: ["Science", "Medical"],
+    categories: ["Science","Medical"],
   },
   {
     id: "gen-5700",
@@ -700,7 +731,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Giãn ra/Làm nở ra.",
     exampleEn: "Pupils dilate.",
     exampleVi: "Đồng tử giãn ra.",
-    categories: ["Science", "Medical", "General"],
+    categories: ["Science","Medical","General"],
   },
   {
     id: "gen-5701",
@@ -712,7 +743,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Vật làm giãn/Cơ làm nở (như cơ nới lỏng).",
     exampleEn: "Muscle dilator.",
     exampleVi: "Cơ giãn.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-5702",
@@ -736,7 +767,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Sự chậm trễ/Tính lề mề.",
     exampleEn: "Annoying dilatoriness.",
     exampleVi: "Sự lề mề khó chịu.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-5704",
@@ -748,7 +779,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Chậm chạp/Lề mề/Có ý muốn trì hoãn.",
     exampleEn: "Dilatory tactics.",
     exampleVi: "Các chiến thuật trì hoãn.",
-    categories: ["General", "Business", "Psychology"],
+    categories: ["General","Business","Psychology"],
   },
   {
     id: "gen-5705",
@@ -756,12 +787,11 @@ export const D10: VocabularyWord[] = [
     slug: "dilemma",
     phonetic: "/daɪˈlem.ə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A situation in which a difficult choice has to be made between two or more alternatives.",
+    meaningEn: "A situation in which a difficult choice has to be made between two or more alternatives.",
     meaningVi: "Tình trạng tiến thoái lưỡng nan/Thế khó xử.",
     exampleEn: "Moral dilemma.",
     exampleVi: "Thế khó xử về đạo đức.",
-    categories: ["Psychology", "Social", "General"],
+    categories: ["Psychology","Social","General"],
   },
   {
     id: "gen-5706",
@@ -769,12 +799,11 @@ export const D10: VocabularyWord[] = [
     slug: "dilettante",
     phonetic: "/ˌdɪl.əˈtæn.ti/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who cultivates an area of interest, such as the arts, without real commitment or knowledge.",
+    meaningEn: "A person who cultivates an area of interest, such as the arts, without real commitment or knowledge.",
     meaningVi: "Người nghiệp dư/Người tài tử (không chuyên sâu).",
     exampleEn: "Intellectual dilettante.",
     exampleVi: "Người trí thức không chuyên sâu.",
-    categories: ["People", "Art", "Social"],
+    categories: ["People","Art","Social"],
   },
   {
     id: "gen-5707",
@@ -786,7 +815,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Lối làm việc tài tử/nghiệp dư.",
     exampleEn: "Accused of dilettantism.",
     exampleVi: "Bị cáo buộc làm việc thiếu chuyên nghiệp/kiểu tài tử.",
-    categories: ["Art", "Business"],
+    categories: ["Art","Business"],
   },
   {
     id: "gen-5708",
@@ -798,7 +827,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Sự siêng năng/Sự cần mẫn.",
     exampleEn: "Due diligence.",
     exampleVi: "Thẩm định chuyên sâu (trong kinh doanh/luật).",
-    categories: ["General", "Business", "Education"],
+    categories: ["General","Business","Education"],
   },
   {
     id: "gen-5709",
@@ -806,12 +835,11 @@ export const D10: VocabularyWord[] = [
     slug: "diligent",
     phonetic: "/ˈdɪl.ə.dʒənt/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Having or showing care and conscientiousness in one's work or duties.",
+    meaningEn: "Having or showing care and conscientiousness in one's work or duties.",
     meaningVi: "Siêng năng/Cần mẫn.",
     exampleEn: "Diligent student.",
     exampleVi: "Học sinh cần cù.",
-    categories: ["General", "Education", "Business"],
+    categories: ["General","Education","Business"],
   },
   {
     id: "gen-5710",
@@ -819,12 +847,11 @@ export const D10: VocabularyWord[] = [
     slug: "diligently",
     phonetic: "/ˈdɪl.ə.dʒənt.li/",
     partOfSpeech: "adverb",
-    meaningEn:
-      "In a way that shows care and conscientiousness in one's work or duties.",
+    meaningEn: "In a way that shows care and conscientiousness in one's work or duties.",
     meaningVi: "Một cách siêng năng.",
     exampleEn: "Work diligently.",
     exampleVi: "Làm việc một cách siêng năng.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "gen-5711",
@@ -836,7 +863,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Cây thì là.",
     exampleEn: "Dill pickles.",
     exampleVi: "Dưa chuột muối thì là.",
-    categories: ["Food & Drink", "Nature", "Plants"],
+    categories: ["Food & Drink","Nature","Plants"],
   },
   {
     id: "gen-5712",
@@ -856,12 +883,11 @@ export const D10: VocabularyWord[] = [
     slug: "dilute",
     phonetic: "/daɪˈluːt/",
     partOfSpeech: "verb/adjective",
-    meaningEn:
-      "Make (a liquid) thinner or weaker by adding water or another solvent to it.",
+    meaningEn: "Make (a liquid) thinner or weaker by adding water or another solvent to it.",
     meaningVi: "Pha loãng/Làm giảm bớt.",
     exampleEn: "Dilute the milk.",
     exampleVi: "Pha loãng sữa.",
-    categories: ["Science", "Daily", "General"],
+    categories: ["Science","Daily","General"],
   },
   {
     id: "gen-5714",
@@ -869,12 +895,11 @@ export const D10: VocabularyWord[] = [
     slug: "dilution",
     phonetic: "/daɪˈluː.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action of making a liquid weaker in concentration by adding water or another solvent to it.",
+    meaningEn: "The action of making a liquid weaker in concentration by adding water or another solvent to it.",
     meaningVi: "Sự pha loãng/Sự làm loãng.",
     exampleEn: "Serial dilution.",
     exampleVi: "Pha loãng liên tiếp.",
-    categories: ["Science", "Education"],
+    categories: ["Science","Education"],
   },
   {
     id: "gen-5715",
@@ -886,7 +911,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Thuộc về trận lụt/Đại hồng thủy.",
     exampleEn: "Diluvial deposits.",
     exampleVi: "Các trầm tích do lụt.",
-    categories: ["Geography", "History", "Religion"],
+    categories: ["Geography","History","Religion"],
   },
   {
     id: "gen-5716",
@@ -894,12 +919,11 @@ export const D10: VocabularyWord[] = [
     slug: "dim",
     phonetic: "/dɪm/",
     partOfSpeech: "adjective/verb",
-    meaningEn:
-      "(of a light, color, or object) not shining brightly or clearly.",
+    meaningEn: "(of a light, color, or object) not shining brightly or clearly.",
     meaningVi: "Mờ/Lờ mờ/Làm mờ đi.",
     exampleEn: "Dim light.",
     exampleVi: "Ánh sáng lờ mờ.",
-    categories: ["General", "Daily"],
+    categories: ["General","Daily"],
   },
   {
     id: "gen-5717",
@@ -911,7 +935,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Đồng 10 xu (Mỹ/Canada).",
     exampleEn: "Dime a dozen.",
     exampleVi: "Rất phổ biến/Tầm thường.",
-    categories: ["Economics", "Daily"],
+    categories: ["Economics","Daily"],
   },
   {
     id: "gen-5718",
@@ -919,12 +943,11 @@ export const D10: VocabularyWord[] = [
     slug: "dimension",
     phonetic: "/ˌdaɪˈmen.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A measurable extent of some kind, such as length, breadth, depth, or height.",
+    meaningEn: "A measurable extent of some kind, such as length, breadth, depth, or height.",
     meaningVi: "Kích thước/Chiều/Khía cạnh.",
     exampleEn: "Three dimensions.",
     exampleVi: "Ba chiều (3D).",
-    categories: ["Science", "Education", "General"],
+    categories: ["Science","Education","General"],
   },
   {
     id: "gen-5719",
@@ -936,7 +959,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Thuộc về kích thước/về chiều.",
     exampleEn: "Three-dimensional image.",
     exampleVi: "Hình ảnh ba chiều.",
-    categories: ["Science", "Education"],
+    categories: ["Science","Education"],
   },
   {
     id: "gen-5720",
@@ -948,7 +971,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Đặc tính về chiều/Kích cỡ.",
     exampleEn: "Complexity and dimensionality.",
     exampleVi: "Sự phức tạp và đặc tính về chiều.",
-    categories: ["Science", "Education"],
+    categories: ["Science","Education"],
   },
   {
     id: "gen-5721",
@@ -960,7 +983,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Không có kích thước/Vô thứ nguyên.",
     exampleEn: "Dimensionless quantity.",
     exampleVi: "Đại lượng vô thứ nguyên (trong vật lý).",
-    categories: ["Science", "Education"],
+    categories: ["Science","Education"],
   },
   {
     id: "b2-64",
@@ -968,8 +991,7 @@ export const D10: VocabularyWord[] = [
     slug: "dimensions",
     phonetic: "/ˌdaɪˈmen.ʃənz/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A measurable extent of some kind, such as length, breadth, depth, or height.",
+    meaningEn: "A measurable extent of some kind, such as length, breadth, depth, or height.",
     meaningVi: "Kích thước, khía cạnh.",
     exampleEn: "The dimensions of the box.",
     exampleVi: "Kích thước của chiếc hộp.",
@@ -985,7 +1007,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Chia đôi.",
     exampleEn: "Dimidiate leaf.",
     exampleVi: "Lá chia đôi (trong thực vật học).",
-    categories: ["Science", "Nature"],
+    categories: ["Science","Nature"],
   },
   {
     id: "b2-65",
@@ -1009,7 +1031,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Có thể giảm bớt được.",
     exampleEn: "Diminishable assets.",
     exampleVi: "Tài sản có thể bị giảm giá trị.",
-    categories: ["Economics", "General"],
+    categories: ["Economics","General"],
   },
   {
     id: "gen-5725",
@@ -1021,7 +1043,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Sự giảm bớt/Sự hạ bớt giá trị.",
     exampleEn: "Diminution of wealth.",
     exampleVi: "Sự sụt giảm tài sản.",
-    categories: ["Economics", "General", "Science"],
+    categories: ["Economics","General","Science"],
   },
   {
     id: "gen-5726",
@@ -1033,7 +1055,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Nhỏ nhắn/Bé xíu/Từ giảm nhẹ.",
     exampleEn: "Diminutive figure.",
     exampleVi: "Vóc dáng nhỏ nhắn.",
-    categories: ["General", "Literature"],
+    categories: ["General","Literature"],
   },
   {
     id: "gen-5727",
@@ -1081,7 +1103,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Sự lưỡng hình.",
     exampleEn: "Sexual dimorphism.",
     exampleVi: "Sự lưỡng hình giới tính.",
-    categories: ["Science", "Nature"],
+    categories: ["Science","Nature"],
   },
   {
     id: "gen-5731",
@@ -1093,7 +1115,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Có hai hình thái/Lưỡng hình.",
     exampleEn: "Dimorphous crystals.",
     exampleVi: "Tinh thể lưỡng hình.",
-    categories: ["Science", "Nature"],
+    categories: ["Science","Nature"],
   },
   {
     id: "gen-5732",
@@ -1101,12 +1123,11 @@ export const D10: VocabularyWord[] = [
     slug: "dimple",
     phonetic: "/ˈdɪm.pəl/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A small natural hollow in the flesh, especially one formed in the cheek when one smiles.",
+    meaningEn: "A small natural hollow in the flesh, especially one formed in the cheek when one smiles.",
     meaningVi: "Lúm đồng tiền/Chỗ trũng nhỏ.",
     exampleEn: "Cute dimples.",
     exampleVi: "Lúm đồng tiền xinh xắn.",
-    categories: ["Medical", "General", "Nature"],
+    categories: ["Medical","General","Nature"],
   },
   {
     id: "gen-5733",
@@ -1138,12 +1159,11 @@ export const D10: VocabularyWord[] = [
     slug: "dinar",
     phonetic: "/dɪˈnɑːr/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The basic monetary unit of several countries in the Middle East and North Africa.",
+    meaningEn: "The basic monetary unit of several countries in the Middle East and North Africa.",
     meaningVi: "Đồng Đina (tiền tệ của một số nước).",
     exampleEn: "Iraqi dinar.",
     exampleVi: "Đồng Đina của Iraq.",
-    categories: ["Economics", "Daily"],
+    categories: ["Economics","Daily"],
   },
   {
     id: "gen-5736",
@@ -1155,7 +1175,7 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Ăn tối/Dùng bữa tối.",
     exampleEn: "Dine out.",
     exampleVi: "Đi ăn tối ở ngoài.",
-    categories: ["Daily", "Social", "Home"],
+    categories: ["Daily","Social","Home"],
   },
   {
     id: "gen-5737",
@@ -1163,12 +1183,11 @@ export const D10: VocabularyWord[] = [
     slug: "diner",
     phonetic: "/ˈdaɪ.nɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who is eating, typically a customer in a restaurant; a small roadside restaurant.",
+    meaningEn: "A person who is eating, typically a customer in a restaurant; a small roadside restaurant.",
     meaningVi: "Người ăn/Quán ăn rẻ tiền ven đường.",
     exampleEn: "Late-night diner.",
     exampleVi: "Quán ăn đêm ven đường.",
-    categories: ["People", "Daily", "General"],
+    categories: ["People","Daily","General"],
   },
   {
     id: "gen-5738",
@@ -1180,67 +1199,6 @@ export const D10: VocabularyWord[] = [
     meaningVi: "Bộ bàn ăn nhỏ/Góc ăn uống.",
     exampleEn: "Kitchen dinette.",
     exampleVi: "Góc ăn uống trong bếp.",
-    categories: ["Daily", "Home", "Architecture"],
-  },
-  {
-    id: "gen-5739",
-    word: "Ding",
-    slug: "ding",
-    phonetic: "/dɪŋ/",
-    partOfSpeech: "verb/noun",
-    meaningEn: "Make a ringing sound.",
-    meaningVi: "Tiếng chuông/Kêu leng keng.",
-    exampleEn: "Bell dings.",
-    exampleVi: "Chuông kêu leng keng.",
-    categories: ["Daily", "General"],
-  },
-  {
-    id: "gen-5740",
-    word: "Dinghy",
-    slug: "dinghy",
-    phonetic: "/ˈdɪŋ.ɡi/",
-    partOfSpeech: "noun",
-    meaningEn:
-      "A small boat for recreation or racing, especially an open one with a mast.",
-    meaningVi: "Xuồng nhỏ/Thuyền nhỏ.",
-    exampleEn: "Inflatable dinghy.",
-    exampleVi: "Xuồng cao su bơm hơi.",
-    categories: ["General", "Sports", "Travel"],
-  },
-  {
-    id: "gen-5741",
-    word: "Dingily",
-    slug: "dingily",
-    phonetic: "/ˈdɪn.dʒɪ.li/",
-    partOfSpeech: "adverb",
-    meaningEn: "In a dingy or gloomy manner.",
-    meaningVi: "Một cách tối tăm/nhếch nhác.",
-    exampleEn: "Furnished dingily.",
-    exampleVi: "Được bài trí một cách nhếch nhác.",
-    categories: ["General"],
-  },
-  {
-    id: "gen-5742",
-    word: "Dinginess",
-    slug: "dinginess",
-    phonetic: "/ˈdɪn.dʒɪ.nəs/",
-    partOfSpeech: "noun",
-    meaningEn: "The state of being dingy.",
-    meaningVi: "Sự tối tăm/Sự nhếch nhác.",
-    exampleEn: "Overall dinginess.",
-    exampleVi: "Tình trạng nhếch nhác bao trùm.",
-    categories: ["General"],
-  },
-  {
-    id: "gen-5743",
-    word: "Dingle",
-    slug: "dingle",
-    phonetic: "/ˈdɪŋ.ɡəl/",
-    partOfSpeech: "noun",
-    meaningEn: "A small wooded valley or hollow.",
-    meaningVi: "Thung lũng nhỏ có cây cối.",
-    exampleEn: "Hidden dingle.",
-    exampleVi: "Thung lũng nhỏ lẩn khuất.",
-    categories: ["Nature", "Environment", "Geography"],
-  },
+    categories: ["Daily","Home","Architecture"],
+  }
 ];

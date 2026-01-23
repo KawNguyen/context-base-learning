@@ -7,12 +7,11 @@ export const Z1: VocabularyWord[] = [
     slug: "zeal",
     phonetic: "/ziːl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Great energy or enthusiasm in pursuit of a cause or an objective.",
+    meaningEn: "Great energy or enthusiasm in pursuit of a cause or an objective.",
     meaningVi: "Nhiệt tình, sốt sắng.",
     exampleEn: "Work with zeal.",
     exampleVi: "Làm việc với nhiệt tình.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-1890",
@@ -24,7 +23,7 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Ngựa vằn.",
     exampleEn: "Zebra crossing.",
     exampleVi: "Vạch sang đường (sọc ngựa vằn).",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-1884",
@@ -36,7 +35,7 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Số không.",
     exampleEn: "Zero degrees.",
     exampleVi: "Không độ.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "gen-1891",
@@ -48,7 +47,7 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Hình zíc zắc, đường quanh co.",
     exampleEn: "Zigzag pattern.",
     exampleVi: "Hoa văn zíc zắc.",
-    categories: ["General", "Art"],
+    categories: ["General","Art"],
   },
   {
     id: "gen-1892",
@@ -60,7 +59,7 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Kẽm (nguyên tố hóa học).",
     exampleEn: "Zinc coating.",
     exampleVi: "Lớp mạ kẽm.",
-    categories: ["Science", "Chemistry"],
+    categories: ["Science","Chemistry"],
   },
   {
     id: "gen-1893",
@@ -68,12 +67,11 @@ export const Z1: VocabularyWord[] = [
     slug: "zip",
     phonetic: "/zɪp/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A fastener for clothes or bags that is made of two rows of metal or plastic teeth.",
+    meaningEn: "A fastener for clothes or bags that is made of two rows of metal or plastic teeth.",
     meaningVi: "Khóa kéo.",
     exampleEn: "Zip up your jacket.",
     exampleVi: "Kéo khóa áo khoác lên.",
-    categories: ["Fashion", "Daily"],
+    categories: ["Fashion","Daily"],
   },
   {
     id: "gen-1894",
@@ -81,12 +79,11 @@ export const Z1: VocabularyWord[] = [
     slug: "zipper",
     phonetic: "/ˈzɪp.ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A device for fastening, consisting of two flexible strips with interlocking projections closed or opened by pulling a slide along them.",
+    meaningEn: "A device for fastening, consisting of two flexible strips with interlocking projections closed or opened by pulling a slide along them.",
     meaningVi: "Dây kéo, khóa kéo.",
     exampleEn: "Broken zipper.",
     exampleVi: "Khóa kéo bị hỏng.",
-    categories: ["Fashion", "Daily"],
+    categories: ["Fashion","Daily"],
   },
   {
     id: "gen-1885",
@@ -98,7 +95,7 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Khu vực.",
     exampleEn: "Time zone.",
     exampleVi: "Múi giờ.",
-    categories: ["Geography", "General"],
+    categories: ["Geography","General"],
   },
   {
     id: "gen-1886",
@@ -110,20 +107,7 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Sở thú.",
     exampleEn: "Visit the zoo.",
     exampleVi: "Đi sở thú.",
-    categories: ["Travel", "Daily"],
-  },
-  {
-    id: "gen-1895",
-    word: "Zoom",
-    slug: "zoom",
-    phonetic: "/zuːm/",
-    partOfSpeech: "verb/noun",
-    meaningEn:
-      "Move or travel very quickly; a camera shot that changes smoothly from a long shot to a close-up.",
-    meaningVi: "Di chuyển nhanh; thu phóng (hình ảnh).",
-    exampleEn: "Zoom in/out.",
-    exampleVi: "Phóng to/thu nhỏ.",
-    categories: ["Technology", "General"],
+    categories: ["Travel","Daily"],
   },
   {
     id: "job-0037",
@@ -135,6 +119,18 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Người chăm sóc thú",
     exampleEn: "The zookeeper feeds the animals daily.",
     exampleVi: "Người chăm sóc thú cho động vật ăn mỗi ngày.",
-    categories: ["Jobs", "Animals"],
+    categories: ["Jobs","Animals"],
   },
+  {
+    id: "gen-1895",
+    word: "Zoom",
+    slug: "zoom",
+    phonetic: "/zuːm/",
+    partOfSpeech: "verb/noun",
+    meaningEn: "Move or travel very quickly; a camera shot that changes smoothly from a long shot to a close-up.",
+    meaningVi: "Di chuyển nhanh; thu phóng (hình ảnh).",
+    exampleEn: "Zoom in/out.",
+    exampleVi: "Phóng to/thu nhỏ.",
+    categories: ["Technology","General"],
+  }
 ];

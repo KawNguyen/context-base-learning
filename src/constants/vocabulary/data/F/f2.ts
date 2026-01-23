@@ -2,6 +2,18 @@ import { VocabularyWord } from "../../types";
 
 export const F2: VocabularyWord[] = [
   {
+    id: "a1-93",
+    word: "Fast",
+    slug: "fast",
+    phonetic: "/fæst/",
+    partOfSpeech: "adj/adv",
+    meaningEn: "Moving or capable of moving at high speed.",
+    meaningVi: "Nhanh.",
+    exampleEn: "A fast car.",
+    exampleVi: "Một chiếc xe nhanh.",
+    categories: ["Daily"],
+  },
+  {
     id: "gen-7715",
     word: "Fasten",
     slug: "fasten",
@@ -59,7 +71,7 @@ export const F2: VocabularyWord[] = [
     meaningVi: "Gây chết người.",
     exampleEn: "Fatal accident.",
     exampleVi: "Tai nạn chết người.",
-    categories: ["Medical", "General"],
+    categories: ["Medical","General"],
   },
   {
     id: "gen-7719",
@@ -67,8 +79,7 @@ export const F2: VocabularyWord[] = [
     slug: "fatalism",
     phonetic: "/ˈfeɪ.t̬əl.ɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The belief that all events are predetermined and therefore inevitable.",
+    meaningEn: "The belief that all events are predetermined and therefore inevitable.",
     meaningVi: "Định mệnh luận.",
     exampleEn: "Sense of fatalism.",
     exampleVi: "Cảm giác định mệnh.",
@@ -84,7 +95,7 @@ export const F2: VocabularyWord[] = [
     meaningVi: "Sự tử vong.",
     exampleEn: "Traffic fatality.",
     exampleVi: "Tử vong do giao thông.",
-    categories: ["Medical", "Social"],
+    categories: ["Medical","Social"],
   },
   {
     id: "gen-7721",
@@ -92,8 +103,7 @@ export const F2: VocabularyWord[] = [
     slug: "fate",
     phonetic: "/feɪt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The development of events beyond a person's control, regarded as determined by a supernatural power.",
+    meaningEn: "The development of events beyond a person's control, regarded as determined by a supernatural power.",
     meaningVi: "Định mệnh/Số phận.",
     exampleEn: "Twist of fate.",
     exampleVi: "Vòng xoáy định mệnh.",
@@ -153,12 +163,11 @@ export const F2: VocabularyWord[] = [
     slug: "fatherly",
     phonetic: "/ˈfɑː.ðɚ.li/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Resembling or characteristic of a father, especially in being protective and affectionate.",
+    meaningEn: "Resembling or characteristic of a father, especially in being protective and affectionate.",
     meaningVi: "Như cha.",
     exampleEn: "Fatherly advice.",
     exampleVi: "Lời khuyên của cha.",
-    categories: ["Family", "General"],
+    categories: ["Family","General"],
   },
   {
     id: "gen-7727",
@@ -166,12 +175,11 @@ export const F2: VocabularyWord[] = [
     slug: "fathom",
     phonetic: "/ˈfæð.əm/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Understand (a difficult problem or an enigmatic person) after much thought; a unit of length (6 feet) for water depth.",
+    meaningEn: "Understand (a difficult problem or an enigmatic person) after much thought; a unit of length (6 feet) for water depth.",
     meaningVi: "Hiểu rõ/Đơn vị đo độ sâu (sải).",
     exampleEn: "Hard to fathom.",
     exampleVi: "Khó hiểu.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "gen-7728",
@@ -179,8 +187,7 @@ export const F2: VocabularyWord[] = [
     slug: "fatigue",
     phonetic: "/fəˈtiːg/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "Extreme tiredness resulting from mental or physical exertion or illness.",
+    meaningEn: "Extreme tiredness resulting from mental or physical exertion or illness.",
     meaningVi: "Sự mệt mỏi.",
     exampleEn: "Chronic fatigue.",
     exampleVi: "Mệt mỏi mãn tính.",
@@ -208,7 +215,7 @@ export const F2: VocabularyWord[] = [
     meaningVi: "Làm béo/Vỗ béo.",
     exampleEn: "Fatten the livestock.",
     exampleVi: "Vỗ béo gia súc.",
-    categories: ["Agriculture", "Medical"],
+    categories: ["Agriculture","Medical"],
   },
   {
     id: "gen-7731",
@@ -220,7 +227,7 @@ export const F2: VocabularyWord[] = [
     meaningVi: "Nhiều mỡ/Béo.",
     exampleEn: "Fatty foods.",
     exampleVi: "Thức ăn nhiều dầu mỡ.",
-    categories: ["Food & Drink", "Medical"],
+    categories: ["Food & Drink","Medical"],
   },
   {
     id: "gen-7732",
@@ -228,8 +235,7 @@ export const F2: VocabularyWord[] = [
     slug: "faucet",
     phonetic: "/ˈfɑː.sət/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A device by which a flow of liquid or gas from a pipe or container can be controlled; a tap.",
+    meaningEn: "A device by which a flow of liquid or gas from a pipe or container can be controlled; a tap.",
     meaningVi: "Vòi nước.",
     exampleEn: "Leaky faucet.",
     exampleVi: "Vòi nước bị rò rỉ.",
@@ -269,7 +275,7 @@ export const F2: VocabularyWord[] = [
     meaningVi: "Bị lỗi/Hỏng.",
     exampleEn: "Faulty wiring.",
     exampleVi: "Dây điện bị hỏng.",
-    categories: ["General", "Technology"],
+    categories: ["General","Technology"],
   },
   {
     id: "gen-462",
@@ -389,7 +395,7 @@ export const F2: VocabularyWord[] = [
     meaningVi: "Bữa tiệc/Yến tiệc.",
     exampleEn: "Wedding feast.",
     exampleVi: "Tiệc cưới.",
-    categories: ["Food & Drink", "Social"],
+    categories: ["Food & Drink","Social"],
   },
   {
     id: "gen-7746",
@@ -397,8 +403,7 @@ export const F2: VocabularyWord[] = [
     slug: "feat",
     phonetic: "/fiːt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An achievement that requires great courage, skill, or strength.",
+    meaningEn: "An achievement that requires great courage, skill, or strength.",
     meaningVi: "Kỳ công/Chiến công.",
     exampleEn: "Remarkable feat.",
     exampleVi: "Kỳ công đáng chú ý.",
@@ -410,8 +415,7 @@ export const F2: VocabularyWord[] = [
     slug: "feather",
     phonetic: "/ˈfeð.ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Any of the flat appendages growing from a bird's skin and forming its plumage.",
+    meaningEn: "Any of the flat appendages growing from a bird's skin and forming its plumage.",
     meaningVi: "Lông vũ.",
     exampleEn: "Light as a feather.",
     exampleVi: "Nhẹ như lông hồng.",
@@ -459,12 +463,11 @@ export const F2: VocabularyWord[] = [
     slug: "feces",
     phonetic: "/ˈfiː.siːz/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Waste matter discharged from the bowels after food has been digested.",
+    meaningEn: "Waste matter discharged from the bowels after food has been digested.",
     meaningVi: "Phân.",
     exampleEn: "Examine the feces.",
     exampleVi: "Kiểm tra phân.",
-    categories: ["Medical", "Biology"],
+    categories: ["Medical","Biology"],
   },
   {
     id: "gen-7751",
@@ -472,12 +475,11 @@ export const F2: VocabularyWord[] = [
     slug: "federal",
     phonetic: "/ˈfed.ɚ.əl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Having or relating to a system of government in which several states form a unity but remain independent in internal affairs.",
+    meaningEn: "Having or relating to a system of government in which several states form a unity but remain independent in internal affairs.",
     meaningVi: "Liên bang.",
     exampleEn: "Federal government.",
     exampleVi: "Chính phủ liên bang.",
-    categories: ["Politics", "Government"],
+    categories: ["Politics","Government"],
   },
   {
     id: "gen-7752",
@@ -485,12 +487,11 @@ export const F2: VocabularyWord[] = [
     slug: "federation",
     phonetic: "/ˌfed.əˈreɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A group of states with a central government but independence in internal affairs.",
+    meaningEn: "A group of states with a central government but independence in internal affairs.",
     meaningVi: "Liên đoàn/Liên bang.",
     exampleEn: "Russian Federation.",
     exampleVi: "Liên bang Nga.",
-    categories: ["Politics", "Government"],
+    categories: ["Politics","Government"],
   },
   {
     id: "gen-466",
@@ -510,12 +511,11 @@ export const F2: VocabularyWord[] = [
     slug: "feeble",
     phonetic: "/ˈfiː.bəl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Lacking physical strength, especially as a result of age or illness.",
+    meaningEn: "Lacking physical strength, especially as a result of age or illness.",
     meaningVi: "Yếu đuối.",
     exampleEn: "Feeble excuse.",
     exampleVi: "Lời bào chữa yếu ớt.",
-    categories: ["Medical", "General"],
+    categories: ["Medical","General"],
   },
   {
     id: "gen-467",
@@ -535,12 +535,11 @@ export const F2: VocabularyWord[] = [
     slug: "feedback",
     phonetic: "/ˈfiːd.bæk/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Information about reactions to a product, a person's performance of a task, etc., used as a basis for improvement.",
+    meaningEn: "Information about reactions to a product, a person's performance of a task, etc., used as a basis for improvement.",
     meaningVi: "Phản hồi.",
     exampleEn: "Constructive feedback.",
     exampleVi: "Phản hồi mang tính xây dựng.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "gen-468",
@@ -552,7 +551,7 @@ export const F2: VocabularyWord[] = [
     meaningVi: "Cảm thấy.",
     exampleEn: "I feel happy.",
     exampleVi: "Tôi cảm thấy vui.",
-    categories: ["Emotions", "General"],
+    categories: ["Emotions","General"],
   },
   {
     id: "gen-469",
@@ -600,7 +599,7 @@ export const F2: VocabularyWord[] = [
     meaningVi: "Đòn nhử/Giả vờ tấn công.",
     exampleEn: "Make a feint.",
     exampleVi: "Thực hiện đòn nhử.",
-    categories: ["Sports", "War"],
+    categories: ["Sports","War"],
   },
   {
     id: "gen-7762",
@@ -620,8 +619,7 @@ export const F2: VocabularyWord[] = [
     slug: "feline",
     phonetic: "/ˈfiː.laɪn/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "Relating to or affecting cats or other members of the cat family.",
+    meaningEn: "Relating to or affecting cats or other members of the cat family.",
     meaningVi: "Thuộc họ mèo.",
     exampleEn: "Feline species.",
     exampleVi: "Loài mèo.",
@@ -657,12 +655,11 @@ export const F2: VocabularyWord[] = [
     slug: "fellowship",
     phonetic: "/ˈfel.oʊ.ʃɪp/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Friendly association, especially with people who share one's interests.",
+    meaningEn: "Friendly association, especially with people who share one's interests.",
     meaningVi: "Tình bằng hữu/Học bổng.",
     exampleEn: "Research fellowship.",
     exampleVi: "Học bổng nghiên cứu.",
-    categories: ["Education", "Social"],
+    categories: ["Education","Social"],
   },
   {
     id: "gen-7767",
@@ -674,7 +671,7 @@ export const F2: VocabularyWord[] = [
     meaningVi: "Kẻ phạm tội trọng.",
     exampleEn: "Convicted felon.",
     exampleVi: "Kẻ phạm tội bị kết án.",
-    categories: ["Crime", "Law"],
+    categories: ["Crime","Law"],
   },
   {
     id: "gen-7768",
@@ -682,12 +679,11 @@ export const F2: VocabularyWord[] = [
     slug: "felony",
     phonetic: "/ˈfel.ə.ni/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A crime, typically one involving violence, regarded as more serious than a misdemeanor.",
+    meaningEn: "A crime, typically one involving violence, regarded as more serious than a misdemeanor.",
     meaningVi: "Trọng tội.",
     exampleEn: "Charged with a felony.",
     exampleVi: "Bị buộc tội trọng tội.",
-    categories: ["Crime", "Law"],
+    categories: ["Crime","Law"],
   },
   {
     id: "gen-7769",
@@ -695,8 +691,7 @@ export const F2: VocabularyWord[] = [
     slug: "felt",
     phonetic: "/felt/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "Kind of cloth made by rolling and pressing wool or another suitable textile accompanied by the application of moisture or heat; past of feel.",
+    meaningEn: "Kind of cloth made by rolling and pressing wool or another suitable textile accompanied by the application of moisture or heat; past of feel.",
     meaningVi: "Vải nỉ/Đã cảm thấy.",
     exampleEn: "Felt hat.",
     exampleVi: "Mũ nỉ.",
@@ -720,8 +715,7 @@ export const F2: VocabularyWord[] = [
     slug: "feminine",
     phonetic: "/ˈfem.ə.nɪn/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Having qualities or appearance traditionally associated with women.",
+    meaningEn: "Having qualities or appearance traditionally associated with women.",
     meaningVi: "Nữ tính.",
     exampleEn: "Feminine beauty.",
     exampleVi: "Vẻ đẹp nữ tính.",
@@ -733,12 +727,11 @@ export const F2: VocabularyWord[] = [
     slug: "feminism",
     phonetic: "/ˈfem.ə.nɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The advocacy of women's rights on the basis of the equality of the sexes.",
+    meaningEn: "The advocacy of women's rights on the basis of the equality of the sexes.",
     meaningVi: "Chủ nghĩa nữ quyền.",
     exampleEn: "Rise of feminism.",
     exampleVi: "Sự trỗi dậy của chủ nghĩa nữ quyền.",
-    categories: ["Politics", "Social"],
+    categories: ["Politics","Social"],
   },
   {
     id: "gen-7773",
@@ -750,7 +743,7 @@ export const F2: VocabularyWord[] = [
     meaningVi: "Người ủng hộ nữ quyền.",
     exampleEn: "Feminist movement.",
     exampleVi: "Phong trào nữ quyền.",
-    categories: ["Politics", "Social"],
+    categories: ["Politics","Social"],
   },
   {
     id: "gen-7774",
@@ -762,7 +755,7 @@ export const F2: VocabularyWord[] = [
     meaningVi: "Xương đùi.",
     exampleEn: "Fractured femur.",
     exampleVi: "Gãy xương đùi.",
-    categories: ["Body", "Medical"],
+    categories: ["Body","Medical"],
   },
   {
     id: "gen-7775",
@@ -770,12 +763,11 @@ export const F2: VocabularyWord[] = [
     slug: "fence",
     phonetic: "/fens/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A barrier, railing, or other upright structure, typically of wood or wire.",
+    meaningEn: "A barrier, railing, or other upright structure, typically of wood or wire.",
     meaningVi: "Hàng rào.",
     exampleEn: "Wooden fence.",
     exampleVi: "Hàng rào gỗ.",
-    categories: ["Home", "Construction"],
+    categories: ["Home","Construction"],
   },
   {
     id: "gen-7776",
@@ -795,8 +787,7 @@ export const F2: VocabularyWord[] = [
     slug: "fend",
     phonetic: "/fend/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Look after and provide for oneself, without any help from others.",
+    meaningEn: "Look after and provide for oneself, without any help from others.",
     meaningVi: "Tự lo liệu.",
     exampleEn: "Fend for yourself.",
     exampleVi: "Tự lo cho bản thân.",
@@ -808,12 +799,11 @@ export const F2: VocabularyWord[] = [
     slug: "fender",
     phonetic: "/ˈfen.dɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A low frame bordering a fireplace to contain burning coal or wood.",
+    meaningEn: "A low frame bordering a fireplace to contain burning coal or wood.",
     meaningVi: "Tấm chắn lò sưởi/Chắn bùn.",
     exampleEn: "Car fender.",
     exampleVi: "Chắn bùn xe hơi.",
-    categories: ["Home", "Transportation"],
+    categories: ["Home","Transportation"],
   },
   {
     id: "gen-7779",
@@ -821,8 +811,7 @@ export const F2: VocabularyWord[] = [
     slug: "feral",
     phonetic: "/ˈfer.əl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(Especially of an animal) in a wild state, especially after escape from captivity or domestication.",
+    meaningEn: "(Especially of an animal) in a wild state, especially after escape from captivity or domestication.",
     meaningVi: "Hoang dã.",
     exampleEn: "Feral cat.",
     exampleVi: "Mèo hoang.",
@@ -838,7 +827,7 @@ export const F2: VocabularyWord[] = [
     meaningVi: "Lên men/Kích động.",
     exampleEn: "Ferment revolution.",
     exampleVi: "Kích động cách mạng.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "gen-7781",
@@ -846,12 +835,11 @@ export const F2: VocabularyWord[] = [
     slug: "fermentation",
     phonetic: "/ˌfɝː.menˈteɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The chemical breakdown of a substance by bacteria, yeasts, or other microorganisms.",
+    meaningEn: "The chemical breakdown of a substance by bacteria, yeasts, or other microorganisms.",
     meaningVi: "Sự lên men.",
     exampleEn: "Wine fermentation.",
     exampleVi: "Sự lên men rượu.",
-    categories: ["Science", "Food & Drink"],
+    categories: ["Science","Food & Drink"],
   },
   {
     id: "gen-7782",
@@ -859,8 +847,7 @@ export const F2: VocabularyWord[] = [
     slug: "fern",
     phonetic: "/fɝːn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A flowerless plant that has feathery or leafy fronds and reproduces by spores.",
+    meaningEn: "A flowerless plant that has feathery or leafy fronds and reproduces by spores.",
     meaningVi: "Cây dương xỉ.",
     exampleEn: "Boston fern.",
     exampleVi: "Dương xỉ Boston.",
@@ -876,7 +863,7 @@ export const F2: VocabularyWord[] = [
     meaningVi: "Dữ tợn/Hung bạo.",
     exampleEn: "Ferocious beast.",
     exampleVi: "Quái thú dữ tợn.",
-    categories: ["Animals", "General"],
+    categories: ["Animals","General"],
   },
   {
     id: "gen-7784",
@@ -896,8 +883,7 @@ export const F2: VocabularyWord[] = [
     slug: "ferry",
     phonetic: "/ˈfer.i/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A boat or ship for conveying passengers and goods, especially over a relatively short distance and as a regular service.",
+    meaningEn: "A boat or ship for conveying passengers and goods, especially over a relatively short distance and as a regular service.",
     meaningVi: "Phà.",
     exampleEn: "Take the ferry.",
     exampleVi: "Đi phà.",
@@ -909,12 +895,11 @@ export const F2: VocabularyWord[] = [
     slug: "fertile",
     phonetic: "/ˈfɝː.t̬əl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(Of soil or land) producing or capable of producing abundant vegetation or crops.",
+    meaningEn: "(Of soil or land) producing or capable of producing abundant vegetation or crops.",
     meaningVi: "Màu mỡ.",
     exampleEn: "Fertile soil.",
     exampleVi: "Đất màu mỡ.",
-    categories: ["Agriculture", "Science"],
+    categories: ["Agriculture","Science"],
   },
   {
     id: "gen-7787",
@@ -926,7 +911,7 @@ export const F2: VocabularyWord[] = [
     meaningVi: "Khả năng sinh sản/Sự màu mỡ.",
     exampleEn: "Decline in fertility.",
     exampleVi: "Suy giảm khả năng sinh sản.",
-    categories: ["Medical", "Agriculture"],
+    categories: ["Medical","Agriculture"],
   },
   {
     id: "gen-7788",
@@ -934,12 +919,11 @@ export const F2: VocabularyWord[] = [
     slug: "fertilization",
     phonetic: "/ˌfɝː.t̬əl.əˈzeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action or process of fertilizing an egg, female animal, or plant, involving the fusion of male and female gametes.",
+    meaningEn: "The action or process of fertilizing an egg, female animal, or plant, involving the fusion of male and female gametes.",
     meaningVi: "Sự thụ tinh/Sự bón phân.",
     exampleEn: "In vitro fertilization.",
     exampleVi: "Thụ tinh trong ống nghiệm.",
-    categories: ["Science", "Agriculture"],
+    categories: ["Science","Agriculture"],
   },
   {
     id: "gen-7789",
@@ -947,12 +931,11 @@ export const F2: VocabularyWord[] = [
     slug: "fertilize",
     phonetic: "/ˈfɝː.t̬əl.aɪz/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Cause (an egg, female animal, or plant) to develop a new individual by introducing male reproductive material.",
+    meaningEn: "Cause (an egg, female animal, or plant) to develop a new individual by introducing male reproductive material.",
     meaningVi: "Thụ tinh/Bón phân.",
     exampleEn: "Fertilize the fields.",
     exampleVi: "Bón phân cho ruộng.",
-    categories: ["Agriculture", "Science"],
+    categories: ["Agriculture","Science"],
   },
   {
     id: "gen-7790",
@@ -960,8 +943,7 @@ export const F2: VocabularyWord[] = [
     slug: "fertilizer",
     phonetic: "/ˈfɝː.t̬əl.aɪ.zɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A chemical or natural substance added to soil or land to increase its fertility.",
+    meaningEn: "A chemical or natural substance added to soil or land to increase its fertility.",
     meaningVi: "Phân bón.",
     exampleEn: "Organic fertilizer.",
     exampleVi: "Phân bón hữu cơ.",
@@ -989,7 +971,7 @@ export const F2: VocabularyWord[] = [
     meaningVi: "Sự nhiệt tình/Sự hăng hái.",
     exampleEn: "Religious fervor.",
     exampleVi: "Sự nhiệt thành tôn giáo.",
-    categories: ["Emotions", "Religion"],
+    categories: ["Emotions","Religion"],
   },
   {
     id: "gen-471",
@@ -1013,7 +995,7 @@ export const F2: VocabularyWord[] = [
     meaningVi: "Thuộc lễ hội/Vui vẻ.",
     exampleEn: "Festive atmosphere.",
     exampleVi: "Không khí lễ hội.",
-    categories: ["Culture", "General"],
+    categories: ["Culture","General"],
   },
   {
     id: "gen-7795",
@@ -1025,7 +1007,7 @@ export const F2: VocabularyWord[] = [
     meaningVi: "Sự vui chơi/Lễ hội.",
     exampleEn: "Join the festivities.",
     exampleVi: "Tham gia lễ hội.",
-    categories: ["Culture", "Entertainment"],
+    categories: ["Culture","Entertainment"],
   },
   {
     id: "gen-7796",
@@ -1045,12 +1027,11 @@ export const F2: VocabularyWord[] = [
     slug: "fete",
     phonetic: "/feɪt/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A public function, typically held outdoors and organized to raise funds for a charity.",
+    meaningEn: "A public function, typically held outdoors and organized to raise funds for a charity.",
     meaningVi: "Lễ hội ngoài trời.",
     exampleEn: "Summer fete.",
     exampleVi: "Lễ hội mùa hè.",
-    categories: ["Culture", "Social"],
+    categories: ["Culture","Social"],
   },
   {
     id: "gen-7798",
@@ -1070,12 +1051,11 @@ export const F2: VocabularyWord[] = [
     slug: "fetish",
     phonetic: "/ˈfet.ɪʃ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An inanimate object worshiped for its supposed magical powers or because it is considered to be inhabited by a spirit.",
+    meaningEn: "An inanimate object worshiped for its supposed magical powers or because it is considered to be inhabited by a spirit.",
     meaningVi: "Vật thờ/Sự mê luyến.",
     exampleEn: "Foot fetish.",
     exampleVi: "Sự mê luyến chân.",
-    categories: ["Psychology", "Culture"],
+    categories: ["Psychology","Culture"],
   },
   {
     id: "gen-7800",
@@ -1095,12 +1075,11 @@ export const F2: VocabularyWord[] = [
     slug: "fetus",
     phonetic: "/ˈfiː.t̬əs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An unborn offspring of a mammal, in particular an unborn human baby more than eight weeks after conception.",
+    meaningEn: "An unborn offspring of a mammal, in particular an unborn human baby more than eight weeks after conception.",
     meaningVi: "Bào thai.",
     exampleEn: "Developing fetus.",
     exampleVi: "Bào thai đang phát triển.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-7802",
@@ -1124,7 +1103,7 @@ export const F2: VocabularyWord[] = [
     meaningVi: "Phong kiến.",
     exampleEn: "Feudal system.",
     exampleVi: "Chế độ phong kiến.",
-    categories: ["History", "Politics"],
+    categories: ["History","Politics"],
   },
   {
     id: "a2-166",
@@ -1148,7 +1127,7 @@ export const F2: VocabularyWord[] = [
     meaningVi: "Sốt/Háo hức.",
     exampleEn: "Feverish excitement.",
     exampleVi: "Sự háo hức sôi nổi.",
-    categories: ["Medical", "Emotions"],
+    categories: ["Medical","Emotions"],
   },
   {
     id: "gen-472",
@@ -1172,7 +1151,7 @@ export const F2: VocabularyWord[] = [
     meaningVi: "Chồng chưa cưới.",
     exampleEn: "Her fiancé.",
     exampleVi: "Chồng chưa cưới của cô ấy.",
-    categories: ["Social", "Family"],
+    categories: ["Social","Family"],
   },
   {
     id: "gen-7808",
@@ -1184,7 +1163,7 @@ export const F2: VocabularyWord[] = [
     meaningVi: "Vợ chưa cưới.",
     exampleEn: "His fiancée.",
     exampleVi: "Vợ chưa cưới của anh ấy.",
-    categories: ["Social", "Family"],
+    categories: ["Social","Family"],
   },
   {
     id: "gen-7809",
@@ -1192,8 +1171,7 @@ export const F2: VocabularyWord[] = [
     slug: "fiasco",
     phonetic: "/fiˈæs.koʊ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A thing that is a complete failure, especially in a ludicrous or humiliating way.",
+    meaningEn: "A thing that is a complete failure, especially in a ludicrous or humiliating way.",
     meaningVi: "Sự thất bại thảm hại.",
     exampleEn: "Total fiasco.",
     exampleVi: "Thất bại toàn tập.",
@@ -1209,7 +1187,7 @@ export const F2: VocabularyWord[] = [
     meaningVi: "Sắc lệnh.",
     exampleEn: "Government fiat.",
     exampleVi: "Sắc lệnh chính phủ.",
-    categories: ["Politics", "Law"],
+    categories: ["Politics","Law"],
   },
   {
     id: "gen-7811",
@@ -1222,18 +1200,5 @@ export const F2: VocabularyWord[] = [
     exampleEn: "Tell a fib.",
     exampleVi: "Nói dối vô hại.",
     categories: ["General"],
-  },
-  {
-    id: "gen-7812",
-    word: "Fiber",
-    slug: "fiber",
-    phonetic: "/ˈfaɪ.bɚ/",
-    partOfSpeech: "noun",
-    meaningEn:
-      "A thread or filament from which a vegetable tissue, mineral substance, or textile is formed.",
-    meaningVi: "Sợi/Chất xơ.",
-    exampleEn: "Dietary fiber.",
-    exampleVi: "Chất xơ trong chế độ ăn.",
-    categories: ["Medical", "Food & Drink"],
-  },
+  }
 ];

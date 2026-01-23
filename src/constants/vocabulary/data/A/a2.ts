@@ -2,6 +2,42 @@ import { VocabularyWord } from "../../types";
 
 export const A2: VocabularyWord[] = [
   {
+    id: "gen-1966",
+    word: "Afford",
+    slug: "afford",
+    phonetic: "/əˈfɔːrd/",
+    partOfSpeech: "verb",
+    meaningEn: "Have enough money to pay for.",
+    meaningVi: "Đủ khả năng chi trả.",
+    exampleEn: "Can't afford it.",
+    exampleVi: "Không đủ khả năng mua nó.",
+    categories: ["Finance","General"],
+  },
+  {
+    id: "gen-15",
+    word: "Affordable",
+    slug: "affordable",
+    phonetic: "/əˈfɔːr.də.bəl/",
+    partOfSpeech: "adjective",
+    meaningEn: "Inexpensive; reasonably priced.",
+    meaningVi: "Giá cả phải chăng.",
+    exampleEn: "This car is affordable.",
+    exampleVi: "Chiếc xe này có giá phải chăng.",
+    categories: ["Shopping","Finance"],
+  },
+  {
+    id: "gen-16",
+    word: "Afraid",
+    slug: "afraid",
+    phonetic: "/əˈfreɪd/",
+    partOfSpeech: "adjective",
+    meaningEn: "Feeling fear or anxiety; frightened.",
+    meaningVi: "Sợ hãi.",
+    exampleEn: "Are you afraid of the dark?",
+    exampleVi: "Bạn có sợ bóng tối không?",
+    categories: ["Emotions"],
+  },
+  {
     id: "gen-1968",
     word: "African",
     slug: "african",
@@ -11,7 +47,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Thuộc về Châu Phi.",
     exampleEn: "African elephant.",
     exampleVi: "Voi Châu Phi.",
-    categories: ["Geography", "People"],
+    categories: ["Geography","People"],
   },
   {
     id: "gen-1969",
@@ -71,7 +107,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Chống lại.",
     exampleEn: "Against the law.",
     exampleVi: "Trái luật.",
-    categories: ["General", "Law"],
+    categories: ["General","Law"],
   },
   {
     id: "gen-1974",
@@ -83,7 +119,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Tuổi.",
     exampleEn: "At the age of 10.",
     exampleVi: "Ở tuổi lên 10.",
-    categories: ["People", "General"],
+    categories: ["People","General"],
   },
   {
     id: "gen-17",
@@ -91,8 +127,7 @@ export const A2: VocabularyWord[] = [
     slug: "agency",
     phonetic: "/ˈeɪ.dʒən.si/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A business or organization established to provide a particular service.",
+    meaningEn: "A business or organization established to provide a particular service.",
     meaningVi: "Đại lý, cơ quan.",
     exampleEn: "He works for an advertising agency.",
     exampleVi: "Anh ấy làm việc cho một công ty quảng cáo.",
@@ -120,7 +155,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Đại lý/Đặc vụ.",
     exampleEn: "Real estate agent.",
     exampleVi: "Nhân viên môi giới bất động sản.",
-    categories: ["Business", "People"],
+    categories: ["Business","People"],
   },
   {
     id: "c1-56",
@@ -152,8 +187,7 @@ export const A2: VocabularyWord[] = [
     slug: "aggressive",
     phonetic: "/əˈɡres.ɪv/",
     partOfSpeech: "adj",
-    meaningEn:
-      "Ready or likely to attack or confront; characterized by or resulting from aggression.",
+    meaningEn: "Ready or likely to attack or confront; characterized by or resulting from aggression.",
     meaningVi: "Hung hăng, quyết đoán.",
     exampleEn: "Aggressive behavior.",
     exampleVi: "Hành vi hung hăng.",
@@ -169,7 +203,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Nhanh nhẹn, phương pháp Agile.",
     exampleEn: "Agile development.",
     exampleVi: "Phát triển Agile.",
-    categories: ["Technology", "Business"],
+    categories: ["Technology","Business"],
   },
   {
     id: "gen-19",
@@ -181,7 +215,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Sự nhanh nhẹn.",
     exampleEn: "He moved with great agility.",
     exampleVi: "Anh ấy di chuyển rất nhanh nhẹn.",
-    categories: ["Sports", "General"],
+    categories: ["Sports","General"],
   },
   {
     id: "gen-1979",
@@ -217,7 +251,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Hiệp định/Sự đồng ý.",
     exampleEn: "International agreement.",
     exampleVi: "Hiệp định quốc tế.",
-    categories: ["Politics", "Business"],
+    categories: ["Politics","Business"],
   },
   {
     id: "gen-1982",
@@ -229,7 +263,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Thuộc về nông nghiệp.",
     exampleEn: "Agricultural land.",
     exampleVi: "Đất nông nghiệp.",
-    categories: ["Environment", "Business"],
+    categories: ["Environment","Business"],
   },
   {
     id: "gen-1983",
@@ -241,7 +275,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Nông nghiệp.",
     exampleEn: "Develop agriculture.",
     exampleVi: "Phát triển nông nghiệp.",
-    categories: ["Environment", "Business"],
+    categories: ["Environment","Business"],
   },
   {
     id: "gen-1984",
@@ -249,8 +283,7 @@ export const A2: VocabularyWord[] = [
     slug: "ah",
     phonetic: "/ɑː/",
     partOfSpeech: "exclamation",
-    meaningEn:
-      "Used to express a range of emotions including surprise, pleasure, or pain.",
+    meaningEn: "Used to express a range of emotions including surprise, pleasure, or pain.",
     meaningVi: "À.",
     exampleEn: "Ah, I see.",
     exampleVi: "À, tôi hiểu rồi.",
@@ -278,7 +311,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Sự giúp đỡ.",
     exampleEn: "First aid.",
     exampleVi: "Sơ cứu.",
-    categories: ["Medical", "Social"],
+    categories: ["Medical","Social"],
   },
   {
     id: "gen-1987",
@@ -290,7 +323,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Trợ lý.",
     exampleEn: "Political aide.",
     exampleVi: "Trợ lý chính trị.",
-    categories: ["Politics", "People", "Business"],
+    categories: ["Politics","People","Business"],
   },
   {
     id: "gen-1988",
@@ -302,7 +335,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Bệnh AIDS.",
     exampleEn: "Aids research.",
     exampleVi: "Nghiên cứu về bệnh AIDS.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-20",
@@ -326,7 +359,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Không khí.",
     exampleEn: "Fresh air.",
     exampleVi: "Không khí trong lành.",
-    categories: ["Environment", "Science"],
+    categories: ["Environment","Science"],
   },
   {
     id: "gen-1991",
@@ -338,7 +371,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Máy bay.",
     exampleEn: "Military aircraft.",
     exampleVi: "Máy bay quân sự.",
-    categories: ["Travel", "Technology"],
+    categories: ["Travel","Technology"],
   },
   {
     id: "gen-1992",
@@ -346,12 +379,11 @@ export const A2: VocabularyWord[] = [
     slug: "airline",
     phonetic: "/ˈer.laɪn/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "An organization providing a regular public service of air transport.",
+    meaningEn: "An organization providing a regular public service of air transport.",
     meaningVi: "Hãng hàng không.",
     exampleEn: "National airline.",
     exampleVi: "Hãng hàng không quốc gia.",
-    categories: ["Travel", "Business"],
+    categories: ["Travel","Business"],
   },
   {
     id: "a2-2",
@@ -359,8 +391,7 @@ export const A2: VocabularyWord[] = [
     slug: "airport",
     phonetic: "/ˈer.pɔːrt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A complex of runways and buildings for the takeoff, landing, and maintenance of civil aircraft.",
+    meaningEn: "A complex of runways and buildings for the takeoff, landing, and maintenance of civil aircraft.",
     meaningVi: "Sân bay.",
     exampleEn: "We arrived at the airport early.",
     exampleVi: "Chúng tôi đã đến sân bay sớm.",
@@ -376,7 +407,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Lối đi.",
     exampleEn: "Would you like an aisle seat?",
     exampleVi: "Bạn có muốn ngồi ở ghế cạnh lối đi không?",
-    categories: ["Travel", "Daily"],
+    categories: ["Travel","Daily"],
   },
   {
     id: "c2-66",
@@ -424,7 +455,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Album.",
     exampleEn: "Music album.",
     exampleVi: "Album nhạc.",
-    categories: ["Art", "Media"],
+    categories: ["Art","Media"],
   },
   {
     id: "gen-1997",
@@ -432,12 +463,11 @@ export const A2: VocabularyWord[] = [
     slug: "alcohol",
     phonetic: "/ˈæl.kə.hɑːl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A colorless volatile flammable liquid which is the intoxicating constituent of wine, beer, and other drinks.",
+    meaningEn: "A colorless volatile flammable liquid which is the intoxicating constituent of wine, beer, and other drinks.",
     meaningVi: "Rượu/Cồn.",
     exampleEn: "Rubbing alcohol.",
     exampleVi: "Cồn xoa bóp.",
-    categories: ["Food & Drink", "Chemistry"],
+    categories: ["Food & Drink","Chemistry"],
   },
   {
     id: "gen-1998",
@@ -449,7 +479,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Người nghiện rượu.",
     exampleEn: "Alcoholic drinks.",
     exampleVi: "Đồ uống có cồn.",
-    categories: ["Food & Drink", "Medical"],
+    categories: ["Food & Drink","Medical"],
   },
   {
     id: "gen-1999",
@@ -457,8 +487,7 @@ export const A2: VocabularyWord[] = [
     slug: "alert",
     phonetic: "/əˈlɝːt/",
     partOfSpeech: "noun/adjective/verb",
-    meaningEn:
-      "Quick to notice any unusual and potentially dangerous or difficult circumstances.",
+    meaningEn: "Quick to notice any unusual and potentially dangerous or difficult circumstances.",
     meaningVi: "Cảnh giác.",
     exampleEn: "Red alert.",
     exampleVi: "Báo động đỏ.",
@@ -474,7 +503,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Thuật toán.",
     exampleEn: "Complex algorithm.",
     exampleVi: "Thuật toán phức tạp.",
-    categories: ["Technology", "Academic"],
+    categories: ["Technology","Academic"],
   },
   {
     id: "b2-159",
@@ -518,8 +547,7 @@ export const A2: VocabularyWord[] = [
     slug: "alignment",
     phonetic: "/əˈlaɪn.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Arrangement in a straight line, or in correct or appropriate relative positions.",
+    meaningEn: "Arrangement in a straight line, or in correct or appropriate relative positions.",
     meaningVi: "Sự căn chỉnh, sự liên kết.",
     exampleEn: "The wheels need alignment.",
     exampleVi: "Các bánh xe cần được căn chỉnh.",
@@ -547,7 +575,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Còn sống.",
     exampleEn: "Still alive.",
     exampleVi: "Vẫn còn sống.",
-    categories: ["General", "Biology"],
+    categories: ["General","Biology"],
   },
   {
     id: "gen-2005",
@@ -555,8 +583,7 @@ export const A2: VocabularyWord[] = [
     slug: "all",
     phonetic: "/ɑːl/",
     partOfSpeech: "determiner/pronoun/adverb",
-    meaningEn:
-      "Used to refer to the whole quantity or extent of a particular group or thing.",
+    meaningEn: "Used to refer to the whole quantity or extent of a particular group or thing.",
     meaningVi: "Tất cả.",
     exampleEn: "All people.",
     exampleVi: "Tất cả mọi người.",
@@ -568,8 +595,7 @@ export const A2: VocabularyWord[] = [
     slug: "allegation",
     phonetic: "/ˌæl.əˈɡeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A claim or assertion that someone has done something illegal or wrong, typically one made without proof.",
+    meaningEn: "A claim or assertion that someone has done something illegal or wrong, typically one made without proof.",
     meaningVi: "Sự cáo buộc.",
     exampleEn: "Allegations of corruption.",
     exampleVi: "Những cáo buộc về tham nhũng.",
@@ -581,12 +607,11 @@ export const A2: VocabularyWord[] = [
     slug: "allege",
     phonetic: "/əˈledʒ/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Claim or assert that someone has done something illegal or wrong.",
+    meaningEn: "Claim or assert that someone has done something illegal or wrong.",
     meaningVi: "Cáo buộc.",
     exampleEn: "Allege that...",
     exampleVi: "Cáo buộc rằng...",
-    categories: ["Law", "Social"],
+    categories: ["Law","Social"],
   },
   {
     id: "gen-26",
@@ -594,12 +619,11 @@ export const A2: VocabularyWord[] = [
     slug: "alleged",
     phonetic: "/əˈledʒd/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Said, without proof, to have taken place or to have a specified illegal or undesirable quality.",
+    meaningEn: "Said, without proof, to have taken place or to have a specified illegal or undesirable quality.",
     meaningVi: "Được cho là, bị cáo buộc.",
     exampleEn: "The alleged crime took place yesterday.",
     exampleVi: "Vụ án được cho là đã xảy ra ngày hôm qua.",
-    categories: ["Law", "News"],
+    categories: ["Law","News"],
   },
   {
     id: "gen-2008",
@@ -607,12 +631,11 @@ export const A2: VocabularyWord[] = [
     slug: "allegedly",
     phonetic: "/əˈledʒ.ɪd.li/",
     partOfSpeech: "adverb",
-    meaningEn:
-      "Used to convey that something is claimed to be the case or have taken place.",
+    meaningEn: "Used to convey that something is claimed to be the case or have taken place.",
     meaningVi: "Được cho là.",
     exampleEn: "Allegedly committed crime.",
     exampleVi: "Tội phạm được cho là đã thực hiện.",
-    categories: ["Law", "Social"],
+    categories: ["Law","Social"],
   },
   {
     id: "a2-213",
@@ -648,7 +671,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Liên minh.",
     exampleEn: "Form an alliance.",
     exampleVi: "Hình thành liên minh.",
-    categories: ["Politics", "Social"],
+    categories: ["Politics","Social"],
   },
   {
     id: "b2-115",
@@ -692,8 +715,7 @@ export const A2: VocabularyWord[] = [
     slug: "allowance",
     phonetic: "/əˈlaʊ.əns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The amount of something that is permitted, especially within a set of regulations or for a specified purpose.",
+    meaningEn: "The amount of something that is permitted, especially within a set of regulations or for a specified purpose.",
     meaningVi: "Tiền trợ cấp, sự cho phép.",
     exampleEn: "Baggage allowance.",
     exampleVi: "Trọng lượng hành lý cho phép.",
@@ -705,8 +727,7 @@ export const A2: VocabularyWord[] = [
     slug: "ally",
     phonetic: "/ˈæl.aɪ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A state formally cooperating with another for a military or other purpose.",
+    meaningEn: "A state formally cooperating with another for a military or other purpose.",
     meaningVi: "Đồng minh.",
     exampleEn: "A close ally.",
     exampleVi: "Một đồng minh thân cận.",
@@ -782,7 +803,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Chữ Alpha.",
     exampleEn: "Alpha male.",
     exampleVi: "Người dẫn đầu.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "gen-2020",
@@ -838,8 +859,7 @@ export const A2: VocabularyWord[] = [
     slug: "alter",
     phonetic: "/ˈɒl.tər/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Change or cause to change in character or composition, typically in a comparatively small but significant way.",
+    meaningEn: "Change or cause to change in character or composition, typically in a comparatively small but significant way.",
     meaningVi: "Thay đổi.",
     exampleEn: "Plans have altered.",
     exampleVi: "Kế hoạch đã thay đổi.",
@@ -887,12 +907,11 @@ export const A2: VocabularyWord[] = [
     slug: "altitude",
     phonetic: "/ˈæl.tə.tuːd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The height of an object or point in relation to sea level or ground level.",
+    meaningEn: "The height of an object or point in relation to sea level or ground level.",
     meaningVi: "Độ cao.",
     exampleEn: "High altitude.",
     exampleVi: "Độ cao lớn.",
-    categories: ["Science", "Geography"],
+    categories: ["Science","Geography"],
   },
   {
     id: "gen-2030",
@@ -912,12 +931,11 @@ export const A2: VocabularyWord[] = [
     slug: "altruism",
     phonetic: "/ˈæl.tru.ɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The belief in or practice of disinterested and selfless concern for the well-being of others.",
+    meaningEn: "The belief in or practice of disinterested and selfless concern for the well-being of others.",
     meaningVi: "Lòng vị tha.",
     exampleEn: "His altruism is inspiring.",
     exampleVi: "Lòng vị tha của anh ấy thật truyền cảm hứng.",
-    categories: ["Philosophy", "General"],
+    categories: ["Philosophy","General"],
   },
   {
     id: "gen-2031",
@@ -929,7 +947,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Nhôm.",
     exampleEn: "Aluminum foil.",
     exampleVi: "Giấy nhôm.",
-    categories: ["Science", "Chemistry"],
+    categories: ["Science","Chemistry"],
   },
   {
     id: "gen-34",
@@ -961,12 +979,11 @@ export const A2: VocabularyWord[] = [
     slug: "amateur",
     phonetic: "/ˈæm.ə.tʃɚ/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A person who engages in a pursuit on an unpaid rather than a professional basis.",
+    meaningEn: "A person who engages in a pursuit on an unpaid rather than a professional basis.",
     meaningVi: "Nghiệp dư.",
     exampleEn: "Amateur actor.",
     exampleVi: "Diễn viên nghiệp dư.",
-    categories: ["General", "People"],
+    categories: ["General","People"],
   },
   {
     id: "gen-2035",
@@ -978,7 +995,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Làm ngạc nhiên.",
     exampleEn: "Amaze the audience.",
     exampleVi: "Làm khán giả ngạc nhiên.",
-    categories: ["General", "Emotions"],
+    categories: ["General","Emotions"],
   },
   {
     id: "gen-2036",
@@ -1010,12 +1027,11 @@ export const A2: VocabularyWord[] = [
     slug: "ambassador",
     phonetic: "/æmˈbæs.ə.dɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An accredited diplomat sent by a country as its official representative to a foreign country.",
+    meaningEn: "An accredited diplomat sent by a country as its official representative to a foreign country.",
     meaningVi: "Đại sứ.",
     exampleEn: "Ambassador to Vietnam.",
     exampleVi: "Đại sứ tại Việt Nam.",
-    categories: ["Politics", "People"],
+    categories: ["Politics","People"],
   },
   {
     id: "c2-182",
@@ -1023,12 +1039,11 @@ export const A2: VocabularyWord[] = [
     slug: "ambiguity",
     phonetic: "/ˌæm.bɪˈɡjuː.ə.t̬i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The quality of being open to more than one interpretation; inexactness.",
+    meaningEn: "The quality of being open to more than one interpretation; inexactness.",
     meaningVi: "Sự mơ hồ.",
     exampleEn: "Avoid ambiguity in legal documents.",
     exampleVi: "Tránh sự mơ hồ trong các văn bản pháp lý.",
-    categories: ["Academic", "Daily"],
+    categories: ["Academic","Daily"],
   },
   {
     id: "c1-1",
@@ -1036,8 +1051,7 @@ export const A2: VocabularyWord[] = [
     slug: "ambiguous",
     phonetic: "/æmˈbɪɡ.ju.əs/",
     partOfSpeech: "adj",
-    meaningEn:
-      "Open to more than one interpretation; not having one obvious meaning.",
+    meaningEn: "Open to more than one interpretation; not having one obvious meaning.",
     meaningVi: "Mơ hồ, nhập nhằng.",
     exampleEn: "The rules are somewhat ambiguous.",
     exampleVi: "Các quy tắc có phần mơ hồ.",
@@ -1053,7 +1067,7 @@ export const A2: VocabularyWord[] = [
     meaningVi: "Tham vọng.",
     exampleEn: "Great ambition.",
     exampleVi: "Tham vọng lớn.",
-    categories: ["General", "Emotions"],
+    categories: ["General","Emotions"],
   },
   {
     id: "gen-36",
@@ -1061,8 +1075,7 @@ export const A2: VocabularyWord[] = [
     slug: "ambitious",
     phonetic: "/æmˈbɪʃ.əs/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Having or showing a strong desire and determination to succeed.",
+    meaningEn: "Having or showing a strong desire and determination to succeed.",
     meaningVi: "Tham vọng.",
     exampleEn: "She is an ambitious student.",
     exampleVi: "Cô ấy là một học sinh đầy tham vọng.",
@@ -1074,8 +1087,7 @@ export const A2: VocabularyWord[] = [
     slug: "ambivalent",
     phonetic: "/æmˈbɪv.ə.lənt/",
     partOfSpeech: "adj",
-    meaningEn:
-      "Having mixed feelings or contradictory ideas about something or someone.",
+    meaningEn: "Having mixed feelings or contradictory ideas about something or someone.",
     meaningVi: "Mâu thuẫn, vừa yêu vừa ghét.",
     exampleEn: "She was ambivalent about her new job.",
     exampleVi: "Cô ấy đã có những cảm xúc mâu thuẫn về công việc mới.",
@@ -1087,12 +1099,11 @@ export const A2: VocabularyWord[] = [
     slug: "ambulance",
     phonetic: "/ˈæm.bjə.ləns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A vehicle equipped for taking sick or injured people to and from hospital.",
+    meaningEn: "A vehicle equipped for taking sick or injured people to and from hospital.",
     meaningVi: "Xe cứu thương.",
     exampleEn: "Call an ambulance.",
     exampleVi: "Gọi xe cứu thương.",
-    categories: ["Medical", "General"],
+    categories: ["Medical","General"],
   },
   {
     id: "b2-117",
@@ -1100,8 +1111,7 @@ export const A2: VocabularyWord[] = [
     slug: "amend",
     phonetic: "/əˈmend/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Make minor changes in (a text) in order to make it fairer, more accurate, or more up-to-date.",
+    meaningEn: "Make minor changes in (a text) in order to make it fairer, more accurate, or more up-to-date.",
     meaningVi: "Sửa đổi, bổ sung.",
     exampleEn: "Amend the law.",
     exampleVi: "Sửa đổi luật.",
@@ -1113,12 +1123,11 @@ export const A2: VocabularyWord[] = [
     slug: "amendment",
     phonetic: "/əˈmend.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A minor change or addition designed to improve a text, piece of legislation.",
+    meaningEn: "A minor change or addition designed to improve a text, piece of legislation.",
     meaningVi: "Sửa đổi.",
     exampleEn: "First amendment.",
     exampleVi: "Tu chính án thứ nhất.",
-    categories: ["Law", "Politics"],
+    categories: ["Law","Politics"],
   },
   {
     id: "b2-166",
@@ -1150,8 +1159,7 @@ export const A2: VocabularyWord[] = [
     slug: "amount",
     phonetic: "/əˈmaʊnt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A quantity of something, especially the total of a thing or things in number, size, value, or extent.",
+    meaningEn: "A quantity of something, especially the total of a thing or things in number, size, value, or extent.",
     meaningVi: "Số lượng, khoản tiền.",
     exampleEn: "A large amount of money.",
     exampleVi: "Một khoản tiền lớn.",
@@ -1175,8 +1183,7 @@ export const A2: VocabularyWord[] = [
     slug: "anachronism",
     phonetic: "/əˈnæk.rə.nɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A thing belonging or appropriate to a period other than that in which it exists.",
+    meaningEn: "A thing belonging or appropriate to a period other than that in which it exists.",
     meaningVi: "Sự lỗi thời, sự sai niên đại.",
     exampleEn: "The sword is an anachronism in modern warfare.",
     exampleVi: "Thanh kiếm là một sự lỗi thời trong chiến tranh hiện đại.",
@@ -1188,11 +1195,10 @@ export const A2: VocabularyWord[] = [
     slug: "analogy",
     phonetic: "/əˈnæl.ə.dʒi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A comparison between two things, typically for the purpose of explanation or clarification.",
+    meaningEn: "A comparison between two things, typically for the purpose of explanation or clarification.",
     meaningVi: "Sự tương tự, phép loại suy.",
     exampleEn: "Draw an analogy.",
     exampleVi: "Đưa ra một sự tương tự.",
     categories: ["Academic"],
-  },
+  }
 ];

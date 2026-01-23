@@ -2,6 +2,78 @@ import { VocabularyWord } from "../../types";
 
 export const D15: VocabularyWord[] = [
   {
+    id: "b2-73",
+    word: "Distribute",
+    slug: "distribute",
+    phonetic: "/dɪˈstrɪb.juːt/",
+    partOfSpeech: "verb",
+    meaningEn: "Give shares of; deal out.",
+    meaningVi: "Phân phối.",
+    exampleEn: "The flyers were distributed to everyone.",
+    exampleVi: "Những tờ rơi đã được phân phối cho mọi người.",
+    categories: ["Daily"],
+  },
+  {
+    id: "gen-6155",
+    word: "Distributor",
+    slug: "distributor",
+    phonetic: "/dɪˈstrɪb.jə.t̬ɚ/",
+    partOfSpeech: "noun",
+    meaningEn: "An agent who supplies goods to retailers.",
+    meaningVi: "Nhà phân phối/Người phân phát/Bộ chia điện.",
+    exampleEn: "Authorized distributor.",
+    exampleVi: "Nhà phân phối ủy quyền.",
+    categories: ["Business","Economics","Technology"],
+  },
+  {
+    id: "gen-317",
+    word: "District",
+    slug: "district",
+    phonetic: "/ˈdɪs.trɪkt/",
+    partOfSpeech: "noun",
+    meaningEn: "An area of a country or city.",
+    meaningVi: "Quận.",
+    exampleEn: "The business district.",
+    exampleVi: "Khu kinh doanh.",
+    categories: ["Geography"],
+  },
+  {
+    id: "gen-6157",
+    word: "Distrust",
+    slug: "distrust",
+    phonetic: "/dɪsˈtrʌst/",
+    partOfSpeech: "noun/verb",
+    meaningEn: "The feeling that someone or something cannot be relied on.",
+    meaningVi: "Sự ngờ vực/Sự không tin tưởng/Nghi ngờ.",
+    exampleEn: "Mutual distrust.",
+    exampleVi: "Sự ngờ vực lẫn nhau.",
+    categories: ["Psychology","General"],
+  },
+  {
+    id: "gen-6158",
+    word: "Distrustful",
+    slug: "distrustful",
+    phonetic: "/dɪsˈtrʌst.fəl/",
+    partOfSpeech: "adjective",
+    meaningEn: "Feeling or showing lack of trust.",
+    meaningVi: "Ngờ vực/Hoài nghi.",
+    exampleEn: "Distrustful of strangers.",
+    exampleVi: "Ngờ vực người lạ.",
+    categories: ["Psychology","General"],
+  },
+  {
+    id: "gen-6159",
+    word: "Distrustfully",
+    slug: "distrustfully",
+    phonetic: "/dɪsˈtrʌst.fəl.i/",
+    partOfSpeech: "adverb",
+    meaningEn: "In a way that shows a lack of trust.",
+    meaningVi: "Một cách ngờ vực/hoài nghi.",
+    exampleEn: "Looked distrustfully at the offer.",
+    exampleVi: "Nhìn lời đề nghị một cách đầy hoài nghi.",
+    categories: ["General"],
+  },
+  {
     id: "gen-6160",
     word: "Disturb",
     slug: "disturb",
@@ -11,7 +83,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Làm phiền/Quấy rầy/Làm xáo trộn.",
     exampleEn: "Do not disturb.",
     exampleVi: "Xin đừng làm phiền.",
-    categories: ["General", "Daily"],
+    categories: ["General","Daily"],
   },
   {
     id: "gen-6161",
@@ -23,7 +95,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Sự làm phiền/Sự náo động/Sự xáo trộn.",
     exampleEn: "Create a disturbance.",
     exampleVi: "Gây ra sự náo động.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-6162",
@@ -35,7 +107,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Sự chia rẽ/Sự bất hòa.",
     exampleEn: "Political disunion.",
     exampleVi: "Sự chia rẽ chính trị.",
-    categories: ["Social", "Politics"],
+    categories: ["Social","Politics"],
   },
   {
     id: "gen-6163",
@@ -47,7 +119,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Làm chia rẽ/Làm mất đoàn kết.",
     exampleEn: "Civil war disunited the nation.",
     exampleVi: "Nội chiến làm chia rẽ đất nước.",
-    categories: ["Social", "Politics"],
+    categories: ["Social","Politics"],
   },
   {
     id: "gen-6164",
@@ -79,12 +151,11 @@ export const D15: VocabularyWord[] = [
     slug: "ditch",
     phonetic: "/dɪtʃ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A narrow channel dug in the ground, typically used for drainage beside a road or field; get rid of or give up.",
+    meaningEn: "A narrow channel dug in the ground, typically used for drainage beside a road or field; get rid of or give up.",
     meaningVi: "Mương/Rãnh/Bỏ (ai đó/cái gì).",
     exampleEn: "Ditch the plan.",
     exampleVi: "Bỏ kế hoạch.",
-    categories: ["Environment", "General", "Daily"],
+    categories: ["Environment","General","Daily"],
   },
   {
     id: "gen-6167",
@@ -96,7 +167,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Do dự/Lưỡng lự/Sự nao núng.",
     exampleEn: "Stop dithering and choose.",
     exampleVi: "Đừng do dự nữa và hãy chọn đi.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6168",
@@ -104,12 +175,11 @@ export const D15: VocabularyWord[] = [
     slug: "ditto",
     phonetic: "/ˈdɪt̬.oʊ/",
     partOfSpeech: "noun/adverb",
-    meaningEn:
-      "The same thing again (used in lists and tables and sometimes in speech to avoid repeating a word).",
+    meaningEn: "The same thing again (used in lists and tables and sometimes in speech to avoid repeating a word).",
     meaningVi: "Như trên/Cùng thế.",
     exampleEn: "I'll have the same. - Ditto.",
     exampleVi: "Tôi cũng ăn món đó. - Tôi cũng vậy (như trên).",
-    categories: ["Daily", "General"],
+    categories: ["Daily","General"],
   },
   {
     id: "gen-6169",
@@ -121,7 +191,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Bài hát ngắn/Bài vè.",
     exampleEn: "Cheerful ditty.",
     exampleVi: "Bài hát ngắn vui vẻ.",
-    categories: ["Music", "Literature"],
+    categories: ["Music","Literature"],
   },
   {
     id: "gen-6170",
@@ -133,7 +203,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Thuốc lợi tiểu.",
     exampleEn: "Natural diuretic.",
     exampleVi: "Chất lợi tiểu tự nhiên.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-6171",
@@ -145,7 +215,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Thuộc về ban ngày/Hàng ngày.",
     exampleEn: "Diurnal animals.",
     exampleVi: "Động vật hoạt động ban ngày.",
-    categories: ["Nature", "Science", "Animals"],
+    categories: ["Nature","Science","Animals"],
   },
   {
     id: "gen-6172",
@@ -157,7 +227,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Hàng ngày/Vào ban ngày.",
     exampleEn: "Active diurnally.",
     exampleVi: "Hoạt động vào ban ngày.",
-    categories: ["Science", "General"],
+    categories: ["Science","General"],
   },
   {
     id: "gen-6173",
@@ -165,12 +235,11 @@ export const D15: VocabularyWord[] = [
     slug: "diva",
     phonetic: "/ˈdiː.və/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A famous female opera singer; a self-important person who is difficult to please.",
+    meaningEn: "A famous female opera singer; a self-important person who is difficult to please.",
     meaningVi: "Nữ danh ca/Người kiêu kỳ.",
     exampleEn: "Opera diva.",
     exampleVi: "Nữ danh ca opera.",
-    categories: ["Music", "People"],
+    categories: ["Music","People"],
   },
   {
     id: "gen-6174",
@@ -182,7 +251,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Lan man/Lạc đề.",
     exampleEn: "Divagate from the topic.",
     exampleVi: "Lạc khỏi chủ đề.",
-    categories: ["General", "Literature"],
+    categories: ["General","Literature"],
   },
   {
     id: "gen-6175",
@@ -194,7 +263,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Sự lan man/Sự lạc đề.",
     exampleEn: "Prone to divagation.",
     exampleVi: "Dễ bị lạc đề.",
-    categories: ["General", "Literature"],
+    categories: ["General","Literature"],
   },
   {
     id: "gen-6176",
@@ -206,7 +275,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Trường kỷ/Ghế đi-văng.",
     exampleEn: "Recline on the divan.",
     exampleVi: "Nằm trên ghế đi-văng.",
-    categories: ["Home", "Furniture"],
+    categories: ["Home","Furniture"],
   },
   {
     id: "gen-6177",
@@ -218,7 +287,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Chia nhánh/Tách đôi.",
     exampleEn: "Divaricate branches.",
     exampleVi: "Các cành cây chia nhánh.",
-    categories: ["Nature", "Science"],
+    categories: ["Nature","Science"],
   },
   {
     id: "gen-6178",
@@ -230,7 +299,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Sự chia nhánh/Sự tách đôi.",
     exampleEn: "Path divarication.",
     exampleVi: "Sự chia nhánh của con đường.",
-    categories: ["Nature", "Science"],
+    categories: ["Nature","Science"],
   },
   {
     id: "gen-6179",
@@ -242,7 +311,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Lặn/Lao xuống/Cú nhảy chúi đầu.",
     exampleEn: "Deep dive.",
     exampleVi: "Lặn sâu/Tìm hiểu kỹ.",
-    categories: ["Sports", "Daily", "General"],
+    categories: ["Sports","Daily","General"],
   },
   {
     id: "gen-6180",
@@ -254,7 +323,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Thợ lặn/Vận động viên nhảy cầu.",
     exampleEn: "Scuba diver.",
     exampleVi: "Thợ lặn có bình khí.",
-    categories: ["People", "Sports", "Business"],
+    categories: ["People","Sports","Business"],
   },
   {
     id: "gen-6181",
@@ -262,12 +331,11 @@ export const D15: VocabularyWord[] = [
     slug: "diverge",
     phonetic: "/daɪˈvɝːdʒ/",
     partOfSpeech: "verb",
-    meaningEn:
-      "(of a road, route, or line) separate from another route and go in a different direction.",
+    meaningEn: "(of a road, route, or line) separate from another route and go in a different direction.",
     meaningVi: "Phân ra/Rẽ ra/Khác nhau.",
     exampleEn: "Opinions diverge.",
     exampleVi: "Ý kiến khác nhau.",
-    categories: ["General", "Science", "Mathematics"],
+    categories: ["General","Science","Mathematics"],
   },
   {
     id: "gen-6182",
@@ -279,7 +347,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Sự phân kỳ/Sự rẽ ra/Sự khác nhau.",
     exampleEn: "Cultural divergence.",
     exampleVi: "Sự khác biệt về văn hóa.",
-    categories: ["General", "Science", "Mathematics"],
+    categories: ["General","Science","Mathematics"],
   },
   {
     id: "gen-6183",
@@ -291,7 +359,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Phân kỳ/Khác nhau/Bất đồng.",
     exampleEn: "Divergent views.",
     exampleVi: "Các quan điểm bất đồng.",
-    categories: ["General", "Science", "Mathematics"],
+    categories: ["General","Science","Mathematics"],
   },
   {
     id: "gen-6184",
@@ -303,7 +371,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Nhiều loại khác nhau/Nhiều.",
     exampleEn: "Divers reasons.",
     exampleVi: "Nhiều lý do khác nhau.",
-    categories: ["Literature", "General"],
+    categories: ["Literature","General"],
   },
   {
     id: "c1-8",
@@ -327,7 +395,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Một cách đa dạng.",
     exampleEn: "Diversely talented.",
     exampleVi: "Có tài năng đa dạng.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "c1-140",
@@ -351,7 +419,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Đa dạng hóa.",
     exampleEn: "Diversify the economy.",
     exampleVi: "Đa dạng hóa nền kinh tế.",
-    categories: ["Economics", "Management", "General"],
+    categories: ["Economics","Management","General"],
   },
   {
     id: "gen-6189",
@@ -363,7 +431,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Sự làm lệch/Sự giải trí/Sự đổi hướng traffic.",
     exampleEn: "Road diversion.",
     exampleVi: "Sự đổi hướng đường đi.",
-    categories: ["General", "Social", "Management"],
+    categories: ["General","Social","Management"],
   },
   {
     id: "gen-6190",
@@ -371,12 +439,11 @@ export const D15: VocabularyWord[] = [
     slug: "diversionary",
     phonetic: "/daɪˈvɝː.ʃən.er.i/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Tending to draw attention away from something and towards something else.",
+    meaningEn: "Tending to draw attention away from something and towards something else.",
     meaningVi: "Để đánh lạc hướng.",
     exampleEn: "Diversionary tactics.",
     exampleVi: "Chiến thuật đánh lạc hướng.",
-    categories: ["General", "Politics"],
+    categories: ["General","Politics"],
   },
   {
     id: "b2-75",
@@ -396,12 +463,11 @@ export const D15: VocabularyWord[] = [
     slug: "divert",
     phonetic: "/daɪˈvɝːt/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Cause (someone or something) to change course or turn from one direction to another.",
+    meaningEn: "Cause (someone or something) to change course or turn from one direction to another.",
     meaningVi: "Làm đổi hướng/Làm giải trí.",
     exampleEn: "Divert traffic.",
     exampleVi: "Phân luồng giao thông.",
-    categories: ["General", "Management"],
+    categories: ["General","Management"],
   },
   {
     id: "gen-6193",
@@ -413,7 +479,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Thú vị/Làm giải trí.",
     exampleEn: "Diverting story.",
     exampleVi: "Câu chuyện thú vị.",
-    categories: ["General", "Literature"],
+    categories: ["General","Literature"],
   },
   {
     id: "gen-6194",
@@ -425,7 +491,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Khúc nhạc ngắn để giải trí/Điệu múa ngắn.",
     exampleEn: "Evening divertisement.",
     exampleVi: "Màn giải trí tối.",
-    categories: ["Music", "Dance"],
+    categories: ["Music","Dance"],
   },
   {
     id: "gen-6195",
@@ -437,7 +503,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Cởi bỏ/Tước bỏ quyền lợi.",
     exampleEn: "Divest oneself of responsibility.",
     exampleVi: "Trút bỏ trách nhiệm.",
-    categories: ["General", "Law", "Politics"],
+    categories: ["General","Law","Politics"],
   },
   {
     id: "gen-6196",
@@ -445,12 +511,11 @@ export const D15: VocabularyWord[] = [
     slug: "divestiture",
     phonetic: "/daɪˈves.tɪ.tʃɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action or process of selling off subsidiary business interests or investments.",
+    meaningEn: "The action or process of selling off subsidiary business interests or investments.",
     meaningVi: "Sự thoái vốn/Sự cởi bỏ.",
     exampleEn: "Plan for divestiture.",
     exampleVi: "Kế hoạch thoái vốn.",
-    categories: ["Economics", "Finance"],
+    categories: ["Economics","Finance"],
   },
   {
     id: "gen-6197",
@@ -458,12 +523,11 @@ export const D15: VocabularyWord[] = [
     slug: "divestment",
     phonetic: "/daɪˈvest.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action or process of selling off subsidiary business interests or investments.",
+    meaningEn: "The action or process of selling off subsidiary business interests or investments.",
     meaningVi: "Sự thoái vốn/Sự tước bỏ.",
     exampleEn: "Divestment policy.",
     exampleVi: "Chính sách thoái vốn.",
-    categories: ["Economics", "Finance"],
+    categories: ["Economics","Finance"],
   },
   {
     id: "gen-318",
@@ -475,7 +539,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Chia.",
     exampleEn: "Divide the cake.",
     exampleVi: "Chia bánh.",
-    categories: ["Mathematics", "General"],
+    categories: ["Mathematics","General"],
   },
   {
     id: "b2-206",
@@ -483,8 +547,7 @@ export const D15: VocabularyWord[] = [
     slug: "dividend",
     phonetic: "/ˈdɪv.ɪ.dend/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A sum of money paid regularly by a company to its shareholders.",
+    meaningEn: "A sum of money paid regularly by a company to its shareholders.",
     meaningVi: "Cổ tức.",
     exampleEn: "The company paid a generous dividend.",
     exampleVi: "Công ty đã trả một khoản cổ tức hào phóng.",
@@ -500,7 +563,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Vách ngăn/Cái compa chia.",
     exampleEn: "Room divider.",
     exampleVi: "Vách ngăn phòng.",
-    categories: ["Home", "General", "Mathematics"],
+    categories: ["Home","General","Mathematics"],
   },
   {
     id: "gen-6201",
@@ -508,12 +571,11 @@ export const D15: VocabularyWord[] = [
     slug: "divination",
     phonetic: "/ˌdɪv.əˈneɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The practice of seeking knowledge of the future or the unknown by supernatural means.",
+    meaningEn: "The practice of seeking knowledge of the future or the unknown by supernatural means.",
     meaningVi: "Sự bói toán.",
     exampleEn: "Art of divination.",
     exampleVi: "Nghệ thuật bói toán.",
-    categories: ["General", "Religion", "History"],
+    categories: ["General","Religion","History"],
   },
   {
     id: "gen-6202",
@@ -525,7 +587,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Thiêng liêng/Thần thánh/Tiên đoán.",
     exampleEn: "Divine intervention.",
     exampleVi: "Sự can thiệp của thần thánh.",
-    categories: ["Religion", "Literature", "General"],
+    categories: ["Religion","Literature","General"],
   },
   {
     id: "gen-6203",
@@ -537,7 +599,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Một cách thần thánh/Tuyệt diệu.",
     exampleEn: "Divinely inspired.",
     exampleVi: "Được thần linh truyền cảm hứng.",
-    categories: ["Religion", "Literature"],
+    categories: ["Religion","Literature"],
   },
   {
     id: "gen-6204",
@@ -549,7 +611,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Thầy bói/Nhà tiên tri.",
     exampleEn: "Ancient diviner.",
     exampleVi: "Thầy bói thời cổ đại.",
-    categories: ["People", "Religion"],
+    categories: ["People","Religion"],
   },
   {
     id: "gen-6205",
@@ -561,7 +623,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Thần tính/Chúa/Thần học.",
     exampleEn: "Study divinity.",
     exampleVi: "Học thần học.",
-    categories: ["Religion", "Education"],
+    categories: ["Religion","Education"],
   },
   {
     id: "gen-6206",
@@ -573,7 +635,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Có thể chia hết (trong toán học).",
     exampleEn: "Divisible by three.",
     exampleVi: "Chia hết cho 3.",
-    categories: ["Mathematics", "Science"],
+    categories: ["Mathematics","Science"],
   },
   {
     id: "gen-6207",
@@ -585,7 +647,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Sự phân chia/Phép chia/Sư đoàn/Phòng (của công ty).",
     exampleEn: "Division of labor.",
     exampleVi: "Phân công lao động.",
-    categories: ["Mathematics", "General", "Business", "Politics"],
+    categories: ["Mathematics","General","Business","Politics"],
   },
   {
     id: "gen-6208",
@@ -597,7 +659,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Thuộc về bộ phận/sư đoàn.",
     exampleEn: "Divisional manager.",
     exampleVi: "Quản lý bộ phận.",
-    categories: ["Business", "Management"],
+    categories: ["Business","Management"],
   },
   {
     id: "gen-6209",
@@ -609,7 +671,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Gây chia rẽ/Gây bất hòa.",
     exampleEn: "Divisive issue.",
     exampleVi: "Vấn đề gây chia rẽ.",
-    categories: ["Social", "Politics", "General"],
+    categories: ["Social","Politics","General"],
   },
   {
     id: "gen-6210",
@@ -621,7 +683,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Số chia.",
     exampleEn: "Common divisor.",
     exampleVi: "Ước số chung.",
-    categories: ["Mathematics", "Science"],
+    categories: ["Mathematics","Science"],
   },
   {
     id: "gen-319",
@@ -633,7 +695,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Ly hôn.",
     exampleEn: "They got a divorce.",
     exampleVi: "Họ đã ly hôn.",
-    categories: ["Family", "Law"],
+    categories: ["Family","Law"],
   },
   {
     id: "gen-6212",
@@ -645,7 +707,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Người đã ly dị.",
     exampleEn: "Young divorcee.",
     exampleVi: "Người trẻ đã ly dị.",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-6213",
@@ -653,12 +715,11 @@ export const D15: VocabularyWord[] = [
     slug: "divot",
     phonetic: "/ˈdɪv.ət/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A piece of turf cut out of the ground by a golf club in making a stroke.",
+    meaningEn: "A piece of turf cut out of the ground by a golf club in making a stroke.",
     meaningVi: "Mảnh cỏ bị tung lên (khi chơi golf).",
     exampleEn: "Replace the divot.",
     exampleVi: "Đặt lại mẩu cỏ (về chỗ cũ sau khi đánh bóng).",
-    categories: ["Sports", "Nature"],
+    categories: ["Sports","Nature"],
   },
   {
     id: "gen-6214",
@@ -670,7 +731,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Tiết lộ/Hé lộ.",
     exampleEn: "Divulge a secret.",
     exampleVi: "Tiết lộ một bí mật.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-6215",
@@ -682,7 +743,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Sự tiết lộ.",
     exampleEn: "Unauthorized divulgement.",
     exampleVi: "Sự tiết lộ trái phép.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-6216",
@@ -694,7 +755,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Sự nhổ phăng/Sự tách rời mạnh.",
     exampleEn: "Forceful divulsion.",
     exampleVi: "Sự tách rời mạnh mẽ.",
-    categories: ["Science", "General"],
+    categories: ["Science","General"],
   },
   {
     id: "gen-6217",
@@ -706,7 +767,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Hội đồng chính phủ (Hồi giáo)/Tập thơ.",
     exampleEn: "Royal diwan.",
     exampleVi: "Hội đồng hoàng gia.",
-    categories: ["Politics", "Literature", "History"],
+    categories: ["Politics","Literature","History"],
   },
   {
     id: "gen-6218",
@@ -714,8 +775,7 @@ export const D15: VocabularyWord[] = [
     slug: "dixieland",
     phonetic: "/ˈdɪk.si.lænd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A kind of jazz with a strong two-beat rhythm and collective improvisation.",
+    meaningEn: "A kind of jazz with a strong two-beat rhythm and collective improvisation.",
     meaningVi: "Nhạc jazz Dixieland.",
     exampleEn: "Dixieland band.",
     exampleVi: "Ban nhạc Dixieland.",
@@ -731,7 +791,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Khác trứng (sinh đôi).",
     exampleEn: "Dizygotic twins.",
     exampleVi: "Cặp song sinh khác trứng.",
-    categories: ["Science", "Medical"],
+    categories: ["Science","Medical"],
   },
   {
     id: "gen-6220",
@@ -739,12 +799,11 @@ export const D15: VocabularyWord[] = [
     slug: "dizzily",
     phonetic: "/ˈdɪz.əl.i/",
     partOfSpeech: "adverb",
-    meaningEn:
-      "In a way that makes you feel as if everything is turning around.",
+    meaningEn: "In a way that makes you feel as if everything is turning around.",
     meaningVi: "Một cách chóng mặt/Hoa mắt.",
     exampleEn: "Spinning dizzily.",
     exampleVi: "Quay cuồng một cách chóng mặt.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6221",
@@ -756,7 +815,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Sự chóng mặt/Sự hoa mắt.",
     exampleEn: "Complain of dizziness.",
     exampleVi: "Phàn nàn về chứng chóng mặt.",
-    categories: ["Medical", "Psychology", "General"],
+    categories: ["Medical","Psychology","General"],
   },
   {
     id: "gen-6222",
@@ -768,7 +827,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Chóng mặt/Làm cho chóng mặt.",
     exampleEn: "Dizzy heights.",
     exampleVi: "Độ cao chóng mặt.",
-    categories: ["Medical", "Psychology", "General"],
+    categories: ["Medical","Psychology","General"],
   },
   {
     id: "gen-6223",
@@ -780,7 +839,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Áo choàng dài có mũ (Mắc-rốc).",
     exampleEn: "Cotton djellaba.",
     exampleVi: "Áo choàng vải cotton.",
-    categories: ["Fashion", "Daily", "General"],
+    categories: ["Fashion","Daily","General"],
   },
   {
     id: "gen-6224",
@@ -792,7 +851,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Thần đèn/Yêu tinh (Hồi giáo).",
     exampleEn: "Release the djinni.",
     exampleVi: "Giải phóng thần đèn.",
-    categories: ["Religion", "Literature", "History"],
+    categories: ["Religion","Literature","History"],
   },
   {
     id: "gen-6225",
@@ -800,12 +859,11 @@ export const D15: VocabularyWord[] = [
     slug: "do",
     phonetic: "/duː/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Perform (an action, the precise nature of which is often unspecified).",
+    meaningEn: "Perform (an action, the precise nature of which is often unspecified).",
     meaningVi: "Làm/Thực hiện/Hành động.",
     exampleEn: "Do your best.",
     exampleVi: "Hãy nỗ lực hết mình.",
-    categories: ["General", "Daily"],
+    categories: ["General","Daily"],
   },
   {
     id: "pv-61",
@@ -815,8 +873,7 @@ export const D15: VocabularyWord[] = [
     partOfSpeech: "phrasal verb",
     meaningEn: "Do something again.",
     meaningVi: "Làm lại.",
-    exampleEn:
-      "I have to do my homework over because I made too many mistakes.",
+    exampleEn: "I have to do my homework over because I made too many mistakes.",
     exampleVi: "Tôi phải làm lại bài tập vì đã mắc quá nhiều lỗi.",
     categories: ["Phrasal Verb"],
   },
@@ -838,12 +895,11 @@ export const D15: VocabularyWord[] = [
     slug: "do-gooder",
     phonetic: "/ˈduːˌɡʊd.ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who tries to help other people but is often regarded as naive.",
+    meaningEn: "A person who tries to help other people but is often regarded as naive.",
     meaningVi: "Người thích làm việc thiện (đôi khi mỉa mai).",
     exampleEn: "Annoying do-gooder.",
     exampleVi: "Người thích làm việc thiện gây phiền hà.",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-6227",
@@ -851,12 +907,11 @@ export const D15: VocabularyWord[] = [
     slug: "do-it-yourself",
     phonetic: "/ˌduː.ɪt.jɚˈself/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "The activity of decorating or repairing one's house, or making things for oneself rather than paying more for someone else to do it.",
+    meaningEn: "The activity of decorating or repairing one's house, or making things for oneself rather than paying more for someone else to do it.",
     meaningVi: "Tự tay làm lấy (DIY).",
     exampleEn: "DIY project.",
     exampleVi: "Dự án tự tay làm lấy.",
-    categories: ["Daily", "General", "Home"],
+    categories: ["Daily","General","Home"],
   },
   {
     id: "gen-6228",
@@ -868,7 +923,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Có thể làm được/Khả thi.",
     exampleEn: "The task is doable.",
     exampleVi: "Nhiệm vụ này là khả thi.",
-    categories: ["General", "Management"],
+    categories: ["General","Management"],
   },
   {
     id: "gen-6229",
@@ -880,7 +935,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Mê mẩn/Yêu mến thái quá.",
     exampleEn: "Doat on his grandchildren.",
     exampleVi: "Mê mẩn các cháu của mình.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-6230",
@@ -892,7 +947,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Ngựa kéo/Ngựa thồ.",
     exampleEn: "Patient dobbin.",
     exampleVi: "Con ngựa thồ kiên nhẫn.",
-    categories: ["Animals", "History"],
+    categories: ["Animals","History"],
   },
   {
     id: "gen-6231",
@@ -900,12 +955,11 @@ export const D15: VocabularyWord[] = [
     slug: "docent",
     phonetic: "/ˈdoʊ.sənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who acts as a guide, typically on a voluntary basis, in a museum, art gallery, or zoo.",
+    meaningEn: "A person who acts as a guide, typically on a voluntary basis, in a museum, art gallery, or zoo.",
     meaningVi: "Người hướng dẫn (trong bảo tàng/vườn thú).",
     exampleEn: "Museum docent.",
     exampleVi: "Hướng dẫn viên bảo tàng.",
-    categories: ["People", "Education", "Art"],
+    categories: ["People","Education","Art"],
   },
   {
     id: "gen-6232",
@@ -917,7 +971,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Dễ bảo/Ngoan ngoãn.",
     exampleEn: "Docile animal.",
     exampleVi: "Con vật dễ bảo.",
-    categories: ["Psychology", "Animals", "General"],
+    categories: ["Psychology","Animals","General"],
   },
   {
     id: "gen-6233",
@@ -949,12 +1003,11 @@ export const D15: VocabularyWord[] = [
     slug: "dock",
     phonetic: "/dɑːk/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A structure extending from or into water in which ships may be anchored for loading and unloading; cut short (a tail).",
+    meaningEn: "A structure extending from or into water in which ships may be anchored for loading and unloading; cut short (a tail).",
     meaningVi: "Bến tàu/Hàng rào (tòa án)/Cắt bớt.",
     exampleEn: "Dock the ship.",
     exampleVi: "Cho tàu vào bến.",
-    categories: ["Travel", "General", "Law"],
+    categories: ["Travel","General","Law"],
   },
   {
     id: "gen-6236",
@@ -966,7 +1019,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Tiền bến bãi/Phí cập cảng.",
     exampleEn: "Pay for dockage.",
     exampleVi: "Trả tiền bến bãi.",
-    categories: ["Finance", "Travel"],
+    categories: ["Finance","Travel"],
   },
   {
     id: "gen-6237",
@@ -978,7 +1031,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Công nhân bốc xếp ở cảng.",
     exampleEn: "Strike of dockers.",
     exampleVi: "Cuộc đình công của công nhân cảng.",
-    categories: ["People", "Business"],
+    categories: ["People","Business"],
   },
   {
     id: "gen-6238",
@@ -986,12 +1039,11 @@ export const D15: VocabularyWord[] = [
     slug: "docket",
     phonetic: "/ˈdɑː.kɪt/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A list or calendar of causes to be tried in a court; summary of a document.",
+    meaningEn: "A list or calendar of causes to be tried in a court; summary of a document.",
     meaningVi: "Bản kê khai (trong tòa án)/Nhãn/Tóm tắt.",
     exampleEn: "Full docket.",
     exampleVi: "Danh sách vụ án đầy đủ.",
-    categories: ["Law", "General"],
+    categories: ["Law","General"],
   },
   {
     id: "gen-6239",
@@ -1003,7 +1055,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Sự cập bến/Sự kết nối (tàu vũ trụ).",
     exampleEn: "Spacecraft docking.",
     exampleVi: "Sự kết nối tàu vũ trụ.",
-    categories: ["Technology", "Travel", "Science"],
+    categories: ["Technology","Travel","Science"],
   },
   {
     id: "gen-6240",
@@ -1011,12 +1063,11 @@ export const D15: VocabularyWord[] = [
     slug: "dockyard",
     phonetic: "/ˈdɑːk.jɑːrd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An area with docks and equipment for building and repairing ships.",
+    meaningEn: "An area with docks and equipment for building and repairing ships.",
     meaningVi: "Xưởng đóng tàu.",
     exampleEn: "Naval dockyard.",
     exampleVi: "Xưởng đóng tàu hải quân.",
-    categories: ["Engineering", "Business", "Politics"],
+    categories: ["Engineering","Business","Politics"],
   },
   {
     id: "a1-173",
@@ -1028,7 +1079,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Bác sĩ.",
     exampleEn: "I need to see a doctor.",
     exampleVi: "Tôi cần đi khám bác sĩ.",
-    categories: ["Daily", "Medical", "Business", "Jobs"],
+    categories: ["Daily","Medical","Business","Jobs"],
   },
   {
     id: "gen-6242",
@@ -1048,8 +1099,7 @@ export const D15: VocabularyWord[] = [
     slug: "doctorate",
     phonetic: "/ˈdɑːk.tɚ.ət/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The highest degree awarded by a graduate school or other approved educational institution.",
+    meaningEn: "The highest degree awarded by a graduate school or other approved educational institution.",
     meaningVi: "Học vị tiến sĩ.",
     exampleEn: "Earn a doctorate.",
     exampleVi: "Lấy bằng tiến sĩ.",
@@ -1061,12 +1111,11 @@ export const D15: VocabularyWord[] = [
     slug: "doctrinaire",
     phonetic: "/ˌdɑːk.trəˈner/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "Seeking to impose a doctrine without regard to practical considerations.",
+    meaningEn: "Seeking to impose a doctrine without regard to practical considerations.",
     meaningVi: "Lý thuyết suông/Giáo điều.",
     exampleEn: "Doctrinaire approach.",
     exampleVi: "Cách tiếp cận giáo điều.",
-    categories: ["Philosophy", "Politics", "General"],
+    categories: ["Philosophy","Politics","General"],
   },
   {
     id: "gen-6245",
@@ -1078,7 +1127,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Thuộc về giáo lý/Học thuyết.",
     exampleEn: "Doctrinal differences.",
     exampleVi: "Những khác biệt về giáo lý.",
-    categories: ["Religion", "Philosophy", "General"],
+    categories: ["Religion","Philosophy","General"],
   },
   {
     id: "gen-6246",
@@ -1086,12 +1135,11 @@ export const D15: VocabularyWord[] = [
     slug: "doctrine",
     phonetic: "/ˈdɑːk.trɪn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A belief or set of beliefs held and taught by a church, political party, or other group.",
+    meaningEn: "A belief or set of beliefs held and taught by a church, political party, or other group.",
     meaningVi: "Học thuyết/Giáo lý.",
     exampleEn: "Monroe Doctrine.",
     exampleVi: "Học thuyết Monroe.",
-    categories: ["Philosophy", "Politics", "Religion"],
+    categories: ["Philosophy","Politics","Religion"],
   },
   {
     id: "b2-76",
@@ -1099,8 +1147,7 @@ export const D15: VocabularyWord[] = [
     slug: "document",
     phonetic: "/ˈdɑː.kjə.mənt/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A piece of written, printed, or electronic matter that provides information or evidence.",
+    meaningEn: "A piece of written, printed, or electronic matter that provides information or evidence.",
     meaningVi: "Tài liệu.",
     exampleEn: "Please sign the document.",
     exampleVi: "Làm ơn hãy ký vào tài liệu.",
@@ -1112,12 +1159,11 @@ export const D15: VocabularyWord[] = [
     slug: "documentary",
     phonetic: "/ˌdɑː.kjəˈmen.t̬ɚ.i/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A movie or a television or radio program that provides a factual record or report.",
+    meaningEn: "A movie or a television or radio program that provides a factual record or report.",
     meaningVi: "Phim tài liệu/Thuộc về tài liệu.",
     exampleEn: "Documentary film.",
     exampleVi: "Phim tài liệu.",
-    categories: ["Daily", "Education", "Literature"],
+    categories: ["Daily","Education","Literature"],
   },
   {
     id: "gen-6249",
@@ -1125,12 +1171,11 @@ export const D15: VocabularyWord[] = [
     slug: "documentation",
     phonetic: "/ˌdɑː.kjə.menˈteɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Material that provides official information or evidence or that serves as a record.",
+    meaningEn: "Material that provides official information or evidence or that serves as a record.",
     meaningVi: "Sự ghi chép/Hồ sơ tài liệu/Hướng dẫn sử dụng.",
     exampleEn: "Technical documentation.",
     exampleVi: "Tài liệu kỹ thuật.",
-    categories: ["General", "Business", "Science"],
+    categories: ["General","Business","Science"],
   },
   {
     id: "gen-6250",
@@ -1142,7 +1187,7 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Người ghi chép lại/Người lập hồ sơ.",
     exampleEn: "Diligent documenter.",
     exampleVi: "Người lập hồ sơ tận tụy.",
-    categories: ["People", "Business"],
+    categories: ["People","Business"],
   },
   {
     id: "gen-6251",
@@ -1154,79 +1199,6 @@ export const D15: VocabularyWord[] = [
     meaningVi: "Run rẩy/Đi đứng lảo đảo (do tuổi già)/Cây tơ hồng.",
     exampleEn: "Dodder along the street.",
     exampleVi: "Đi lảo đảo trên phố.",
-    categories: ["General", "Nature"],
-  },
-  {
-    id: "gen-6252",
-    word: "Doddering",
-    slug: "doddering",
-    phonetic: "/ˈdɑː.dɚ.ɪŋ/",
-    partOfSpeech: "adjective",
-    meaningEn: "Trembling or tottering, typically because of old age.",
-    meaningVi: "Lảo đảo/Run rẩy (do già yếu).",
-    exampleEn: "Doddering old man.",
-    exampleVi: "Ông già lảo đảo.",
-    categories: ["General", "People"],
-  },
-  {
-    id: "gen-6253",
-    word: "Dodecagon",
-    slug: "dodecagon",
-    phonetic: "/doʊˈdek.ə.ɡɑːn/",
-    partOfSpeech: "noun",
-    meaningEn: "A plane figure with twelve sides and twelve angles.",
-    meaningVi: "Hình thập nhị giác (hình 12 cạnh).",
-    exampleEn: "Regular dodecagon.",
-    exampleVi: "Hình 12 cạnh đều.",
-    categories: ["Mathematics", "Science"],
-  },
-  {
-    id: "gen-6254",
-    word: "Dodge",
-    slug: "dodge",
-    phonetic: "/dɑːdʒ/",
-    partOfSpeech: "verb/noun",
-    meaningEn: "Avoid (someone or something) by a sudden quick movement.",
-    meaningVi: "Né tránh/Lẩn tránh/Mưu mẹo.",
-    exampleEn: "Dodge the question.",
-    exampleVi: "Né tránh câu hỏi.",
-    categories: ["General", "Daily"],
-  },
-  {
-    id: "gen-6255",
-    word: "Dodger",
-    slug: "dodger",
-    phonetic: "/ˈdɑː.dʒɚ/",
-    partOfSpeech: "noun",
-    meaningEn: "A person who evades a duty or obligation.",
-    meaningVi: "Người né tránh/Người lẩn tránh/Tờ quảng cáo nhỏ.",
-    exampleEn: "Draft dodger.",
-    exampleVi: "Người trốn quân dịch.",
-    categories: ["People", "Social"],
-  },
-  {
-    id: "gen-6256",
-    word: "Doe",
-    slug: "doe",
-    phonetic: "/doʊ/",
-    partOfSpeech: "noun",
-    meaningEn:
-      "A female deer, especially a fallow deer, roe deer, or reindeer.",
-    meaningVi: "Con hươu cái/Con nai cái.",
-    exampleEn: "A herd of does.",
-    exampleVi: "Một đàn hươu cái.",
-    categories: ["Animals", "Nature"],
-  },
-  {
-    id: "gen-6257",
-    word: "Doeskin",
-    slug: "doeskin",
-    phonetic: "/ˈdoʊ.skɪn/",
-    partOfSpeech: "noun",
-    meaningEn: "The skin of a doe; a fine soft leather or cloth.",
-    meaningVi: "Da hươu cái/Vải giả da hươu.",
-    exampleEn: "Doeskin gloves.",
-    exampleVi: "Găng tay da hươu.",
-    categories: ["Fashion", "Daily"],
-  },
+    categories: ["General","Nature"],
+  }
 ];

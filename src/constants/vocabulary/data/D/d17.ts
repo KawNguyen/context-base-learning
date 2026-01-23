@@ -2,17 +2,88 @@ import { VocabularyWord } from "../../types";
 
 export const D17: VocabularyWord[] = [
   {
+    id: "gen-6352",
+    word: "Dora",
+    slug: "dora",
+    phonetic: "/ˈdɔːr.ə/",
+    partOfSpeech: "noun",
+    meaningEn: "A female given name.",
+    meaningVi: "Tên riêng nữ (Dora).",
+    exampleEn: "Aunt Dora.",
+    exampleVi: "Dì Dora.",
+    categories: ["People"],
+  },
+  {
+    id: "gen-6353",
+    word: "Dorian",
+    slug: "dorian",
+    phonetic: "/ˈdɔːr.i.ən/",
+    partOfSpeech: "adjective/noun",
+    meaningEn: "Relating to the Dorians (Ancient Greek people) or their dialect of Ancient Greek.",
+    meaningVi: "Dân tộc Đô-ri-êng/Phong cách Hy Lạp cổ.",
+    exampleEn: "Dorian mode.",
+    exampleVi: "Điệu thức Dorian (trong âm nhạc).",
+    categories: ["History","Art","Music"],
+  },
+  {
+    id: "gen-6354",
+    word: "Doric",
+    slug: "doric",
+    phonetic: "/ˈdɔːr.ɪk/",
+    partOfSpeech: "adjective/noun",
+    meaningEn: "Relating to the simplest of the classical Greek architectural styles; a dialect of Ancient Greek.",
+    meaningVi: "Phong cách kiến trúc cổ điển (với cột trơn, đơn giản).",
+    exampleEn: "Doric column.",
+    exampleVi: "Cột Hy Lạp phong cách Doric.",
+    categories: ["Architecture","History","Art"],
+  },
+  {
+    id: "gen-6355",
+    word: "Dormancy",
+    slug: "dormancy",
+    phonetic: "/ˈdɔːr.mən.si/",
+    partOfSpeech: "noun",
+    meaningEn: "A state of quiet (but potentially active) study; a period in which a plant's growth or activity stops.",
+    meaningVi: "Sự tiềm tàng/Tình trạng ngủ đông/Tạm ngừng hoạt động.",
+    exampleEn: "Seeds in dormancy.",
+    exampleVi: "Hạt giống đang trong thời kỳ tiềm tàng.",
+    categories: ["Science","Nature","General"],
+  },
+  {
+    id: "gen-6356",
+    word: "Dormant",
+    slug: "dormant",
+    phonetic: "/ˈdɔːr.mənt/",
+    partOfSpeech: "adjective",
+    meaningEn: "Having normal physical functions suspended or slowed down for a period of time; in or as if in a deep sleep.",
+    meaningVi: "Tiềm tàng/Ngủ đông/Không hoạt động.",
+    exampleEn: "Dormant volcano.",
+    exampleVi: "Núi lửa đang ngủ.",
+    categories: ["Science","Nature","General"],
+  },
+  {
+    id: "gen-6357",
+    word: "Dormer",
+    slug: "dormer",
+    phonetic: "/ˈdɔːr.mɚ/",
+    partOfSpeech: "noun",
+    meaningEn: "A window that projects vertically from a sloping roof.",
+    meaningVi: "Cửa sổ mái (phòng áp mái).",
+    exampleEn: "Dormer window.",
+    exampleVi: "Cửa sổ nhô ra từ mái nhà.",
+    categories: ["Architecture","Home"],
+  },
+  {
     id: "gen-6358",
     word: "Dormitory",
     slug: "dormitory",
     phonetic: "/ˈdɔːr.mə.tɔːr.i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A large bedroom for a number of people in a school or institution.",
+    meaningEn: "A large bedroom for a number of people in a school or institution.",
     meaningVi: "Ký túc xá.",
     exampleEn: "College dormitory.",
     exampleVi: "Ký túc xá đại học.",
-    categories: ["Education", "Home", "Daily"],
+    categories: ["Education","Home","Daily"],
   },
   {
     id: "gen-6359",
@@ -20,12 +91,11 @@ export const D17: VocabularyWord[] = [
     slug: "dormouse",
     phonetic: "/ˈdɔːr.maʊs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A small bushy-tailed Old World rodent that is active at night and spends the winter in hibernation.",
+    meaningEn: "A small bushy-tailed Old World rodent that is active at night and spends the winter in hibernation.",
     meaningVi: "Sóc chuột (loài gặm nhấm nhỏ hay ngủ đông).",
     exampleEn: "Alice and the Dormouse.",
     exampleVi: "Alice và con sóc chuột (trong truyện Alice).",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-6360",
@@ -33,12 +103,11 @@ export const D17: VocabularyWord[] = [
     slug: "dorsal",
     phonetic: "/ˈdɔːr.səl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to the back (upper side) of an animal, plant, or organ.",
+    meaningEn: "Relating to the back (upper side) of an animal, plant, or organ.",
     meaningVi: "Ở lưng/Mặt lưng.",
     exampleEn: "Dorsal fin.",
     exampleVi: "Vây lưng (của cá mập chẳng hạn).",
-    categories: ["Science", "Animals", "Medical"],
+    categories: ["Science","Animals","Medical"],
   },
   {
     id: "gen-6361",
@@ -50,7 +119,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Liều lượng.",
     exampleEn: "High dosage.",
     exampleVi: "Liều lượng cao.",
-    categories: ["Medical", "Science", "Daily"],
+    categories: ["Medical","Science","Daily"],
   },
   {
     id: "gen-6362",
@@ -58,12 +127,11 @@ export const D17: VocabularyWord[] = [
     slug: "dose",
     phonetic: "/doʊs/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A quantity of a medicine or drug taken or recommended to be taken at a particular time.",
+    meaningEn: "A quantity of a medicine or drug taken or recommended to be taken at a particular time.",
     meaningVi: "Liều thuốc/Một lượng.",
     exampleEn: "A dose of optimism.",
     exampleVi: "Một liều lạc quan.",
-    categories: ["Medical", "General", "Psychology"],
+    categories: ["Medical","General","Psychology"],
   },
   {
     id: "gen-6363",
@@ -71,12 +139,11 @@ export const D17: VocabularyWord[] = [
     slug: "doss",
     phonetic: "/dɑːs/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Sleep in rough or makeshift conditions (British slang); easy task.",
+    meaningEn: "Sleep in rough or makeshift conditions (British slang); easy task.",
     meaningVi: "Ngủ lang bạt/Việc dễ dàng (lóng Anh).",
     exampleEn: "Doss down for the night.",
     exampleVi: "Ngủ vạ vật qua đêm.",
-    categories: ["Daily", "General"],
+    categories: ["Daily","General"],
   },
   {
     id: "gen-6364",
@@ -84,12 +151,11 @@ export const D17: VocabularyWord[] = [
     slug: "dossier",
     phonetic: "/ˈdɑː.si.eɪ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A collection of documents about a particular person, event, or subject.",
+    meaningEn: "A collection of documents about a particular person, event, or subject.",
     meaningVi: "Hồ sơ/Tập tài liệu chi tiết.",
     exampleEn: "Confidential dossier.",
     exampleVi: "Hồ sơ mật.",
-    categories: ["General", "Business", "Politics"],
+    categories: ["General","Business","Politics"],
   },
   {
     id: "gen-6365",
@@ -101,7 +167,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Chấm/Điểm/Dấu chấm.",
     exampleEn: "Connect the dots.",
     exampleVi: "Nối các điểm lại.",
-    categories: ["General", "Art", "Mathematics"],
+    categories: ["General","Art","Mathematics"],
   },
   {
     id: "gen-6366",
@@ -113,7 +179,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Sự già yếu/Lú lẫn do tuổi già.",
     exampleEn: "In his dotage.",
     exampleVi: "Lúc ông ấy đã già yếu/lú lẫn.",
-    categories: ["Psychology", "People"],
+    categories: ["Psychology","People"],
   },
   {
     id: "gen-6367",
@@ -125,7 +191,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Người già lẩm cẩm/Hết thời.",
     exampleEn: "Babbling dotard.",
     exampleVi: "Ông già lẩm cẩm nói nhảm.",
-    categories: ["People", "Psychology"],
+    categories: ["People","Psychology"],
   },
   {
     id: "gen-6368",
@@ -137,7 +203,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Mê mẩn/Yêu mến say đắm.",
     exampleEn: "Dote on his children.",
     exampleVi: "Yêu mến các con hết mực.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-6369",
@@ -149,7 +215,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Mê mẩn/Yêu thương hết mực.",
     exampleEn: "Doting parents.",
     exampleVi: "Những bậc cha mẹ yêu thương con hết mình.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-6370",
@@ -161,7 +227,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Một cách yêu thương hết mực.",
     exampleEn: "Spoke dotingly.",
     exampleVi: "Nói một cách trìu mến.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-6371",
@@ -173,7 +239,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Tàn thuốc (còn lại trong tẩu).",
     exampleEn: "Tap out the dottle.",
     exampleVi: "Gõ tàn thuốc ra khỏi tẩu.",
-    categories: ["Daily", "General"],
+    categories: ["Daily","General"],
   },
   {
     id: "gen-326",
@@ -193,12 +259,11 @@ export const D17: VocabularyWord[] = [
     slug: "double-cross",
     phonetic: "/ˌdʌb.əlˈkrɑːs/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Deceive or betray (a person with whom one is supposedly cooperating).",
+    meaningEn: "Deceive or betray (a person with whom one is supposedly cooperating).",
     meaningVi: "Phản bội/Lừa đảo (đồng bọn).",
     exampleEn: "He double-crossed the gang.",
     exampleVi: "Anh ta đã lừa cả băng nhóm.",
-    categories: ["Social", "General"],
+    categories: ["Social","General"],
   },
   {
     id: "gen-6374",
@@ -210,7 +275,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Kẻ lừa đảo/Kẻ tráo trở.",
     exampleEn: "Notorious double-dealer.",
     exampleVi: "Kẻ tráo trở khét tiếng.",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-6375",
@@ -218,12 +283,11 @@ export const D17: VocabularyWord[] = [
     slug: "double-edged",
     phonetic: "/ˌdʌb.əlˈedʒd/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Having two edges; having two aspects, typically one favorable and one unfavorable.",
+    meaningEn: "Having two edges; having two aspects, typically one favorable and one unfavorable.",
     meaningVi: "Hai lưỡi/Gậy ông đập lưng ông.",
     exampleEn: "Double-edged sword.",
     exampleVi: "Con dao hai lưỡi.",
-    categories: ["General", "Social", "Politics"],
+    categories: ["General","Social","Politics"],
   },
   {
     id: "gen-6376",
@@ -235,7 +299,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Hai mặt/Giả tạo.",
     exampleEn: "Double-faced politician.",
     exampleVi: "Chính trị gia hai mặt.",
-    categories: ["Psychology", "Social", "Politics"],
+    categories: ["Psychology","Social","Politics"],
   },
   {
     id: "gen-6377",
@@ -243,12 +307,11 @@ export const D17: VocabularyWord[] = [
     slug: "doublet",
     phonetic: "/ˈdʌb.lət/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A man's short close-fitting padded jacket, commonly worn from the 14th to the 17th century.",
+    meaningEn: "A man's short close-fitting padded jacket, commonly worn from the 14th to the 17th century.",
     meaningVi: "Áo chẽn (thời xưa).",
     exampleEn: "Velvet doublet.",
     exampleVi: "Áo chẽn bằng nhung.",
-    categories: ["Fashion", "History"],
+    categories: ["Fashion","History"],
   },
   {
     id: "gen-6378",
@@ -260,7 +323,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Đồng tiền vàng Tây Ban Nha (thời xưa).",
     exampleEn: "Buried doubloons.",
     exampleVi: "Những đồng vàng bị chôn giấu.",
-    categories: ["Economics", "History"],
+    categories: ["Economics","History"],
   },
   {
     id: "gen-6379",
@@ -272,7 +335,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Gấp đôi/Hai lần/Nhiều hơn.",
     exampleEn: "Doubly sure.",
     exampleVi: "Chắc chắn gấp đôi.",
-    categories: ["General", "Mathematics"],
+    categories: ["General","Mathematics"],
   },
   {
     id: "gen-327",
@@ -292,12 +355,11 @@ export const D17: VocabularyWord[] = [
     slug: "doubter",
     phonetic: "/ˈdaʊ.t̬ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who questions or lacks conviction about something; a skeptic.",
+    meaningEn: "A person who questions or lacks conviction about something; a skeptic.",
     meaningVi: "Người nghi ngờ/Kẻ hoài nghi.",
     exampleEn: "Silence the doubters.",
     exampleVi: "Làm những kẻ hoài nghi phải im tiếng.",
-    categories: ["People", "Psychology"],
+    categories: ["People","Psychology"],
   },
   {
     id: "gen-6382",
@@ -309,7 +371,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Nghi ngờ/Ngờ vực/Bất định.",
     exampleEn: "Doubtful outcome.",
     exampleVi: "Kết quả bất định.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6383",
@@ -321,7 +383,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Một cách ngờ vực/không chắc chắn.",
     exampleEn: "Looked doubtfully at the food.",
     exampleVi: "Nhìn món ăn một cách đầy nghi ngại.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-6384",
@@ -357,7 +419,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Sự tắm vòi hoa sen/Sự thụt rửa (y khoa)/Kẻ khó ưa (lóng).",
     exampleEn: "Vaginal douche.",
     exampleVi: "Sự thụt rửa âm đạo.",
-    categories: ["Daily", "Medical", "Social"],
+    categories: ["Daily","Medical","Social"],
   },
   {
     id: "gen-6387",
@@ -365,12 +427,11 @@ export const D17: VocabularyWord[] = [
     slug: "dough",
     phonetic: "/doʊ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A thick mixture of flour and liquid, used for baking into bread or pastry; money (slang).",
+    meaningEn: "A thick mixture of flour and liquid, used for baking into bread or pastry; money (slang).",
     meaningVi: "Bột nhào/Tiền (lóng).",
     exampleEn: "Roll the dough.",
     exampleVi: "Cán bột.",
-    categories: ["Daily", "General", "Economics"],
+    categories: ["Daily","General","Economics"],
   },
   {
     id: "gen-6388",
@@ -382,7 +443,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Bánh vòng/Bánh đô-nút.",
     exampleEn: "Glazed doughnut.",
     exampleVi: "Bánh vòng phủ đường.",
-    categories: ["Daily", "General"],
+    categories: ["Daily","General"],
   },
   {
     id: "gen-6389",
@@ -394,7 +455,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Dũng cảm/Gan dạ.",
     exampleEn: "Doughty warrior.",
     exampleVi: "Chiến binh gan dạ.",
-    categories: ["Psychology", "Literature", "History"],
+    categories: ["Psychology","Literature","History"],
   },
   {
     id: "gen-6390",
@@ -406,7 +467,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Dẻo như bột/Trắng bệch (da).",
     exampleEn: "Doughy texture.",
     exampleVi: "Kết cấu dẻo như bột.",
-    categories: ["Daily", "General"],
+    categories: ["Daily","General"],
   },
   {
     id: "gen-6391",
@@ -418,7 +479,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Nghiêm khắc/Khó tính/Lầm lì.",
     exampleEn: "Dour expression.",
     exampleVi: "Vẻ mặt lầm lì/khó đăm đăm.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6392",
@@ -430,7 +491,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Một cách nghiêm khắc/lầm lì.",
     exampleEn: "Answered dourly.",
     exampleVi: "Trả lời một cách lầm lì.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-6393",
@@ -442,7 +503,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Dội nước/Làm ướt sũng/Dập tắt.",
     exampleEn: "Douse the flames.",
     exampleVi: "Dập tắt ngọn lửa.",
-    categories: ["General", "Emergency"],
+    categories: ["General","Emergency"],
   },
   {
     id: "gen-6394",
@@ -450,12 +511,11 @@ export const D17: VocabularyWord[] = [
     slug: "dove",
     phonetic: "/dʌv/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A stocky fruit-eating bird with a small head, short legs, and a cooing voice; a person who advocates peaceful or conciliatory policies.",
+    meaningEn: "A stocky fruit-eating bird with a small head, short legs, and a cooing voice; a person who advocates peaceful or conciliatory policies.",
     meaningVi: "Chim bồ câu/Phe bồ câu (ôn hòa).",
     exampleEn: "Peace dove.",
     exampleVi: "Bồ câu hòa bình.",
-    categories: ["Animals", "Nature", "Politics"],
+    categories: ["Animals","Nature","Politics"],
   },
   {
     id: "gen-6395",
@@ -467,7 +527,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Thị trấn Dover (Anh)/Thủ đô của Delaware (Mỹ).",
     exampleEn: "White Cliffs of Dover.",
     exampleVi: "Những vách đá trắng ở Dover.",
-    categories: ["Geography", "Travel"],
+    categories: ["Geography","Travel"],
   },
   {
     id: "gen-6396",
@@ -475,12 +535,11 @@ export const D17: VocabularyWord[] = [
     slug: "dovetail",
     phonetic: "/ˈdʌv.teɪl/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A joint formed by one or more wedge-shaped projections; fit or cause to fit together easily and conveniently.",
+    meaningEn: "A joint formed by one or more wedge-shaped projections; fit or cause to fit together easily and conveniently.",
     meaningVi: "Mộng đuôi én/Khớp nhau hoàn toàn.",
     exampleEn: "Our plans dovetail nicely.",
     exampleVi: "Các kế hoạch của chúng ta khớp nhau rất tốt.",
-    categories: ["Engineering", "Art", "General"],
+    categories: ["Engineering","Art","General"],
   },
   {
     id: "gen-6397",
@@ -488,12 +547,11 @@ export const D17: VocabularyWord[] = [
     slug: "dowager",
     phonetic: "/ˈdaʊ.ə.dʒɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A widow with a title or property derived from her late husband.",
+    meaningEn: "A widow with a title or property derived from her late husband.",
     meaningVi: "Góa phụ có tước vị/tài sản.",
     exampleEn: "Queen dowager.",
     exampleVi: "Thái hậu.",
-    categories: ["People", "Social", "History"],
+    categories: ["People","Social","History"],
   },
   {
     id: "gen-6398",
@@ -501,12 +559,11 @@ export const D17: VocabularyWord[] = [
     slug: "dowdy",
     phonetic: "/ˈdaʊ.di/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a person or their clothes) unfashionable and without style in appearance.",
+    meaningEn: "(of a person or their clothes) unfashionable and without style in appearance.",
     meaningVi: "Ăn mặc lôi thôi/Nhếch nhác.",
     exampleEn: "Dowdy clothes.",
     exampleVi: "Quần áo lỗi mốt/nhếch nhác.",
-    categories: ["Fashion", "General"],
+    categories: ["Fashion","General"],
   },
   {
     id: "gen-6399",
@@ -514,12 +571,11 @@ export const D17: VocabularyWord[] = [
     slug: "dowel",
     phonetic: "/ˈdaʊ.əl/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A headless wooden or metal pin used for fastening together two pieces of wood or stone.",
+    meaningEn: "A headless wooden or metal pin used for fastening together two pieces of wood or stone.",
     meaningVi: "Chốt gỗ/Tắc kê.",
     exampleEn: "Wooden dowel.",
     exampleVi: "Chốt gỗ.",
-    categories: ["Engineering", "General", "Home"],
+    categories: ["Engineering","General","Home"],
   },
   {
     id: "gen-6400",
@@ -531,7 +587,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Của hồi môn/Phần tài sản thừa kế cho góa phụ.",
     exampleEn: "Richly dowered.",
     exampleVi: "Được thừa hưởng tài sản lớn.",
-    categories: ["Law", "Social", "Economics"],
+    categories: ["Law","Social","Economics"],
   },
   {
     id: "gen-6401",
@@ -543,7 +599,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Xuống/Ở dưới/Lông vũ/Vùng đồi thấp.",
     exampleEn: "Sit down.",
     exampleVi: "Ngồi xuống.",
-    categories: ["General", "Nature", "Daily"],
+    categories: ["General","Nature","Daily"],
   },
   {
     id: "gen-6402",
@@ -551,12 +607,11 @@ export const D17: VocabularyWord[] = [
     slug: "downcast",
     phonetic: "/ˈdaʊn.kæst/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a person) feeling despondent; (of a person's eyes) looking downwards.",
+    meaningEn: "(of a person) feeling despondent; (of a person's eyes) looking downwards.",
     meaningVi: "Chán nản/Thất vọng/Nhìn xuống.",
     exampleEn: "Downcast eyes.",
     exampleVi: "Ánh mắt nhìn xuống (buồn bã).",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6403",
@@ -568,7 +623,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Sự sụp đổ/Sự sa sút.",
     exampleEn: "Reason for his downfall.",
     exampleVi: "Lý do cho sự sụp đổ của anh ta.",
-    categories: ["Politics", "History", "General"],
+    categories: ["Politics","History","General"],
   },
   {
     id: "gen-6404",
@@ -580,7 +635,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Hạ cấp/Giáng chức/Làm giảm giá trị.",
     exampleEn: "Downgrade the rating.",
     exampleVi: "Hạ bậc xếp hạng.",
-    categories: ["General", "Management", "Economics"],
+    categories: ["General","Management","Economics"],
   },
   {
     id: "gen-6405",
@@ -592,7 +647,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Nản lòng/Thất vọng.",
     exampleEn: "Don't be downhearted.",
     exampleVi: "Đừng nản lòng.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6406",
@@ -604,7 +659,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Xuống dốc/Tệ đi.",
     exampleEn: "Going downhill.",
     exampleVi: "Đang trở nên tệ đi/Xuống dốc.",
-    categories: ["General", "Nature", "Sports"],
+    categories: ["General","Nature","Sports"],
   },
   {
     id: "a2-219",
@@ -612,12 +667,11 @@ export const D17: VocabularyWord[] = [
     slug: "download",
     phonetic: "/ˌdaʊn.ˈloʊd/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Copy data from one computer system to another, typically over the internet.",
+    meaningEn: "Copy data from one computer system to another, typically over the internet.",
     meaningVi: "Tải xuống.",
     exampleEn: "Download the file.",
     exampleVi: "Tải tập tin xuống.",
-    categories: ["Technology", "Daily"],
+    categories: ["Technology","Daily"],
   },
   {
     id: "gen-6407",
@@ -629,7 +683,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Mưa rào/Mưa như trút nước.",
     exampleEn: "Sudden downpour.",
     exampleVi: "Trận mưa rào bất ngờ.",
-    categories: ["Nature", "Daily"],
+    categories: ["Nature","Daily"],
   },
   {
     id: "gen-6408",
@@ -641,7 +695,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Hoàn toàn/Rành rành/Thẳng thắn.",
     exampleEn: "Downright lies.",
     exampleVi: "Những lời nói dối rành rành.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-6409",
@@ -653,7 +707,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Dưới lầu/Dưới nhà/Tầng dưới.",
     exampleEn: "Go downstairs.",
     exampleVi: "Đi xuống lầu.",
-    categories: ["Home", "General", "Daily"],
+    categories: ["Home","General","Daily"],
   },
   {
     id: "gen-6410",
@@ -665,7 +719,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Hạ lưu/Xuôi dòng.",
     exampleEn: "Floating downstream.",
     exampleVi: "Trôi xuôi dòng.",
-    categories: ["Nature", "Geography", "Engineering"],
+    categories: ["Nature","Geography","Engineering"],
   },
   {
     id: "gen-6411",
@@ -677,7 +731,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Nét gạch xuống/Cú đánh xuống.",
     exampleEn: "Heavy downstroke.",
     exampleVi: "Nét gạch xuống đậm.",
-    categories: ["Art", "General"],
+    categories: ["Art","General"],
   },
   {
     id: "gen-329",
@@ -689,7 +743,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Trung tâm thành phố.",
     exampleEn: "Go downtown.",
     exampleVi: "Đi trung tâm thành phố.",
-    categories: ["Geography", "Daily"],
+    categories: ["Geography","Daily"],
   },
   {
     id: "gen-6412",
@@ -701,7 +755,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Hướng xuống dưới.",
     exampleEn: "Slope downwards.",
     exampleVi: "Dốc xuống dưới.",
-    categories: ["General", "Science"],
+    categories: ["General","Science"],
   },
   {
     id: "gen-6413",
@@ -713,7 +767,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Xuôi chiều gió.",
     exampleEn: "Sailing downwind.",
     exampleVi: "Thuyền buồm đang chạy xuôi chiều gió.",
-    categories: ["Nature", "Travel"],
+    categories: ["Nature","Travel"],
   },
   {
     id: "gen-6414",
@@ -725,7 +779,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Mềm mại như lông tơ.",
     exampleEn: "Downy feathers.",
     exampleVi: "Bộ lông tơ mềm mại.",
-    categories: ["Nature", "Animals", "General"],
+    categories: ["Nature","Animals","General"],
   },
   {
     id: "gen-6415",
@@ -733,12 +787,11 @@ export const D17: VocabularyWord[] = [
     slug: "dowry",
     phonetic: "/ˈdaʊ.ri/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Property or money brought by a bride to her husband on their marriage.",
+    meaningEn: "Property or money brought by a bride to her husband on their marriage.",
     meaningVi: "Của hồi môn.",
     exampleEn: "Ample dowry.",
     exampleVi: "Của hồi môn dồi dào.",
-    categories: ["Social", "Daily", "Economics"],
+    categories: ["Social","Daily","Economics"],
   },
   {
     id: "gen-6416",
@@ -750,7 +803,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Tìm mạch nước ngầm (bằng que thăm).",
     exampleEn: "Dowse for water.",
     exampleVi: "Tìm mạch nước ngầm.",
-    categories: ["General", "Science", "Nature"],
+    categories: ["General","Science","Nature"],
   },
   {
     id: "gen-6417",
@@ -758,12 +811,11 @@ export const D17: VocabularyWord[] = [
     slug: "dowser",
     phonetic: "/ˈdaʊ.zɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who uses a dowsing rod to search for underground water or minerals.",
+    meaningEn: "A person who uses a dowsing rod to search for underground water or minerals.",
     meaningVi: "Người tìm mạch nước ngầm.",
     exampleEn: "Experienced dowser.",
     exampleVi: "Người tìm mạch nước ngầm kinh nghiệm.",
-    categories: ["People", "Science"],
+    categories: ["People","Science"],
   },
   {
     id: "gen-6418",
@@ -775,7 +827,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Kinh tụng ca/Bài tụng vinh danh Chúa.",
     exampleEn: "Sing the doxology.",
     exampleVi: "Hát bài tụng ca.",
-    categories: ["Religion", "Music"],
+    categories: ["Religion","Music"],
   },
   {
     id: "gen-6419",
@@ -787,7 +839,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Học thuyết/Người tình (từ cổ).",
     exampleEn: "Religious doxy.",
     exampleVi: "Học thuyết tôn giáo.",
-    categories: ["Philosophy", "Religion"],
+    categories: ["Philosophy","Religion"],
   },
   {
     id: "gen-6420",
@@ -799,7 +851,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Ngủ gật/Giấc ngủ ngắn.",
     exampleEn: "Doze off.",
     exampleVi: "Ngủ thiếp đi.",
-    categories: ["Daily", "General"],
+    categories: ["Daily","General"],
   },
   {
     id: "gen-6421",
@@ -811,7 +863,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Tá (12 cái).",
     exampleEn: "A dozen eggs.",
     exampleVi: "Một tá trứng.",
-    categories: ["Mathematics", "Daily", "General"],
+    categories: ["Mathematics","Daily","General"],
   },
   {
     id: "gen-6422",
@@ -823,7 +875,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Ngái ngủ/Lờ đờ/Ngớ ngẩn.",
     exampleEn: "Feeling dozy.",
     exampleVi: "Cảm thấy ngái ngủ/buồn ngủ.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-6423",
@@ -835,7 +887,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Xám xịt/Buồn tẻ/Vô vị.",
     exampleEn: "Drab landscape.",
     exampleVi: "Cảnh vật buồn tẻ.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-6424",
@@ -847,7 +899,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Một cách buồn tẻ/vô vị.",
     exampleEn: "Dressed drably.",
     exampleVi: "Ăn mặc một cách buồn tẻ.",
-    categories: ["General", "Fashion"],
+    categories: ["General","Fashion"],
   },
   {
     id: "gen-6425",
@@ -871,7 +923,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Đồng Đrắc-ma (Hy Lạp).",
     exampleEn: "Greek drachma.",
     exampleVi: "Đồng Đrắc-ma của Hy Lạp.",
-    categories: ["Economics", "History"],
+    categories: ["Economics","History"],
   },
   {
     id: "gen-6427",
@@ -883,7 +935,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Hà khắc/Khắt khe.",
     exampleEn: "Draconian measures.",
     exampleVi: "Các biện pháp hà khắc.",
-    categories: ["Law", "Politics", "General"],
+    categories: ["Law","Politics","General"],
   },
   {
     id: "b2-80",
@@ -907,7 +959,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Có gió lùa.",
     exampleEn: "Drafty apartment.",
     exampleVi: "Căn hộ có gió lùa.",
-    categories: ["Home", "General"],
+    categories: ["Home","General"],
   },
   {
     id: "gen-6430",
@@ -915,12 +967,11 @@ export const D17: VocabularyWord[] = [
     slug: "drag",
     phonetic: "/dræɡ/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Pull (someone or something) along forcefully, roughly, or with difficulty.",
+    meaningEn: "Pull (someone or something) along forcefully, roughly, or with difficulty.",
     meaningVi: "Kéo lê/Lôi đi/Sự cản trở/Hào hứng (lóng).",
     exampleEn: "Drag and drop.",
     exampleVi: "Kéo và thả (trong máy tính).",
-    categories: ["General", "Technology", "Daily"],
+    categories: ["General","Technology","Daily"],
   },
   {
     id: "gen-6431",
@@ -932,7 +983,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Làm bẩn/Làm ướt (do kéo lê dưới đất).",
     exampleEn: "Draggled hem.",
     exampleVi: "Gấu áo bị bẩn do kéo lê.",
-    categories: ["General", "Fashion"],
+    categories: ["General","Fashion"],
   },
   {
     id: "gen-6432",
@@ -940,12 +991,11 @@ export const D17: VocabularyWord[] = [
     slug: "dragnet",
     phonetic: "/ˈdræɡ.net/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A net drawn through a river or across ground to trap fish or game.",
+    meaningEn: "A net drawn through a river or across ground to trap fish or game.",
     meaningVi: "Lưới vét/Hệ thống bao vây (tội phạm).",
     exampleEn: "Police dragnet.",
     exampleVi: "Cuộc truy quét của cảnh sát.",
-    categories: ["Law", "Nature", "Business"],
+    categories: ["Law","Nature","Business"],
   },
   {
     id: "gen-6433",
@@ -957,7 +1007,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Con rồng/Người phụ nữ ác nghiệt.",
     exampleEn: "Fire-breathing dragon.",
     exampleVi: "Con rồng phun lửa.",
-    categories: ["Animals", "Literature", "Religion"],
+    categories: ["Animals","Literature","Religion"],
   },
   {
     id: "gen-6434",
@@ -965,12 +1015,11 @@ export const D17: VocabularyWord[] = [
     slug: "dragonfly",
     phonetic: "/ˈdræɡ.ən.flaɪ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A fast-flying insect with a long body and two pairs of large transparent wings.",
+    meaningEn: "A fast-flying insect with a long body and two pairs of large transparent wings.",
     meaningVi: "Con chuồn chuồn.",
     exampleEn: "Skimming dragonfly.",
     exampleVi: "Con chuồn chuồn lướt trên mặt nước.",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-6435",
@@ -978,12 +1027,11 @@ export const D17: VocabularyWord[] = [
     slug: "dragoon",
     phonetic: "/drəˈɡuːn/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A member of any of several cavalry regiments in the British army; coerce (someone) into doing something.",
+    meaningEn: "A member of any of several cavalry regiments in the British army; coerce (someone) into doing something.",
     meaningVi: "Lính kỵ binh/Ép buộc/Cưỡng chế.",
     exampleEn: "Dragooned into helping.",
     exampleVi: "Bị ép buộc phải giúp đỡ.",
-    categories: ["Politics", "History", "Business"],
+    categories: ["Politics","History","Business"],
   },
   {
     id: "gen-6436",
@@ -995,7 +1043,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Thoát nước/Rút hết/Ống dẫn nước thải.",
     exampleEn: "Brain drain.",
     exampleVi: "Chảy máu chất xám.",
-    categories: ["General", "Engineering", "Daily", "Medical"],
+    categories: ["General","Engineering","Daily","Medical"],
   },
   {
     id: "gen-6437",
@@ -1007,7 +1055,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Sự thoát nước/Hệ thống thoát nước.",
     exampleEn: "Poor drainage.",
     exampleVi: "Hệ thống thoát nước kém.",
-    categories: ["Engineering", "Science", "Nature"],
+    categories: ["Engineering","Science","Nature"],
   },
   {
     id: "gen-6438",
@@ -1019,7 +1067,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Con vịt đực.",
     exampleEn: "Drake and hen.",
     exampleVi: "Vịt đực và vịt cái.",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-6439",
@@ -1031,7 +1079,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Một ngụm rượu (whiskey)/Một lượng nhỏ.",
     exampleEn: "A wee dram.",
     exampleVi: "Một ngụm rượu nhỏ.",
-    categories: ["Daily", "General"],
+    categories: ["Daily","General"],
   },
   {
     id: "gen-6440",
@@ -1043,7 +1091,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Kịch/Kịch tính/Tình tiết bất ngờ.",
     exampleEn: "Family drama.",
     exampleVi: "Bi kịch gia đình/Chuyện rắc rối trong gia đình.",
-    categories: ["Art", "Literature", "General"],
+    categories: ["Art","Literature","General"],
   },
   {
     id: "gen-6441",
@@ -1051,12 +1099,11 @@ export const D17: VocabularyWord[] = [
     slug: "dramatic",
     phonetic: "/drəˈmæt̬.ɪk/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to drama or the performance or study of drama; sudden and striking.",
+    meaningEn: "Relating to drama or the performance or study of drama; sudden and striking.",
     meaningVi: "Kịch tính/Ấn tượng/Đáng kể.",
     exampleEn: "Dramatic change.",
     exampleVi: "Sự thay đổi đáng kể/ấn tượng.",
-    categories: ["General", "Art", "Social"],
+    categories: ["General","Art","Social"],
   },
   {
     id: "gen-6442",
@@ -1064,12 +1111,11 @@ export const D17: VocabularyWord[] = [
     slug: "dramatically",
     phonetic: "/drəˈmæt̬.ɪ.kəl.i/",
     partOfSpeech: "adverb",
-    meaningEn:
-      "In a way that relates to drama; by a strikingly large amount or to a strikingly large extent.",
+    meaningEn: "In a way that relates to drama; by a strikingly large amount or to a strikingly large extent.",
     meaningVi: "Một cách kịch tính/đáng kể.",
     exampleEn: "Increased dramatically.",
     exampleVi: "Tăng lên một cách đáng kể.",
-    categories: ["General", "Economics"],
+    categories: ["General","Economics"],
   },
   {
     id: "gen-6443",
@@ -1081,7 +1127,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Nhà soạn kịch.",
     exampleEn: "Famous dramatist.",
     exampleVi: "Nhà soạn kịch nổi tiếng.",
-    categories: ["People", "Literature", "Art"],
+    categories: ["People","Literature","Art"],
   },
   {
     id: "gen-6444",
@@ -1089,12 +1135,11 @@ export const D17: VocabularyWord[] = [
     slug: "dramatization",
     phonetic: "/ˌdræm.ə.t̬əˈzeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A play or movie adapted from a novel or depicting a particular incident.",
+    meaningEn: "A play or movie adapted from a novel or depicting a particular incident.",
     meaningVi: "Sự chuyển thể thành kịch/Sự kịch hóa.",
     exampleEn: "Radio dramatization.",
     exampleVi: "Vở kịch truyền thanh.",
-    categories: ["Art", "Literature"],
+    categories: ["Art","Literature"],
   },
   {
     id: "gen-6445",
@@ -1106,7 +1151,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Kịch hóa/Chuyển thể thành kịch/Làm quá lên.",
     exampleEn: "Dramatize the story.",
     exampleVi: "Kịch hóa câu chuyện.",
-    categories: ["Art", "Literature", "General"],
+    categories: ["Art","Literature","General"],
   },
   {
     id: "gen-6446",
@@ -1118,7 +1163,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Nghệ thuật soạn kịch/Kịch pháp học.",
     exampleEn: "Principles of dramaturgy.",
     exampleVi: "Các nguyên tắc của nghệ thuật soạn kịch.",
-    categories: ["Art", "Literature", "Education"],
+    categories: ["Art","Literature","Education"],
   },
   {
     id: "gen-6447",
@@ -1130,7 +1175,7 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Đã uống.",
     exampleEn: "He drank water.",
     exampleVi: "Anh ấy đã uống nước.",
-    categories: ["General", "Daily"],
+    categories: ["General","Daily"],
   },
   {
     id: "gen-6448",
@@ -1138,12 +1183,11 @@ export const D17: VocabularyWord[] = [
     slug: "drape",
     phonetic: "/dreɪp/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Arrange (loose patches of cloth) loosely or casually on or around something.",
+    meaningEn: "Arrange (loose patches of cloth) loosely or casually on or around something.",
     meaningVi: "Giăng/Phủ/Màn/Rèm.",
     exampleEn: "Drape the table.",
     exampleVi: "Phủ khăn lên bàn.",
-    categories: ["Home", "General", "Art"],
+    categories: ["Home","General","Art"],
   },
   {
     id: "gen-6449",
@@ -1155,82 +1199,6 @@ export const D17: VocabularyWord[] = [
     meaningVi: "Người bán vải.",
     exampleEn: "Local draper.",
     exampleVi: "Người bán vải địa phương.",
-    categories: ["People", "Daily", "Business"],
-  },
-  {
-    id: "gen-6450",
-    word: "Drapery",
-    slug: "drapery",
-    phonetic: "/ˈdreɪ.pɚ.i/",
-    partOfSpeech: "noun",
-    meaningEn:
-      "Cloth, especially when used for curtains or as a decoration; the business of a draper.",
-    meaningVi: "Hàng vải/Màn trướng/Hàng dệt.",
-    exampleEn: "Heavy drapery.",
-    exampleVi: "Tấm màn trướng nặng.",
-    categories: ["Home", "Fashion", "Art"],
-  },
-  {
-    id: "gen-6451",
-    word: "Drastic",
-    slug: "drastic",
-    phonetic: "/ˈdræs.tɪk/",
-    partOfSpeech: "adjective",
-    meaningEn:
-      "Likely to have a strong or far-reaching effect; radical and extreme.",
-    meaningVi: "Quyết liệt/Mạnh mẽ/Trầm trọng.",
-    exampleEn: "Drastic measures.",
-    exampleVi: "Các biện pháp quyết liệt.",
-    categories: ["General", "Politics"],
-  },
-  {
-    id: "gen-6452",
-    word: "Drastically",
-    slug: "drastically",
-    phonetic: "/ˈdræs.tɪ.kəl.i/",
-    partOfSpeech: "adverb",
-    meaningEn: "In a drastic manner.",
-    meaningVi: "Một cách quyết liệt/mạnh mẽ/trầm trọng.",
-    exampleEn: "Prices fell drastically.",
-    exampleVi: "Giá cả giảm xuống một cách trầm trọng.",
-    categories: ["General", "Economics"],
-  },
-  {
-    id: "gen-6453",
-    word: "Drat",
-    slug: "drat",
-    phonetic: "/dræt/",
-    partOfSpeech: "exclamation",
-    meaningEn: "Used to express mild annoyance.",
-    meaningVi: "Chết tiệt/Đáng ghét (thán từ).",
-    exampleEn: "Drat! I forgot.",
-    exampleVi: "Chết tiệt! Tôi quên mất rồi.",
-    categories: ["General"],
-  },
-  {
-    id: "gen-6454",
-    word: "Draught",
-    slug: "draught",
-    phonetic: "/dræft/",
-    partOfSpeech: "noun/verb",
-    meaningEn:
-      "A current of cool air; a preliminary version of a piece of writing (British spelling of draft).",
-    meaningVi: "Gió lùa/Bản nháp/Sự kéo/Độ mớn nước (tàu).",
-    exampleEn: "Feel a draught.",
-    exampleVi: "Cảm thấy có luồng gió lùa.",
-    categories: ["General", "Science", "Nature", "Engineering"],
-  },
-  {
-    id: "gen-6455",
-    word: "Draughts",
-    slug: "draughts",
-    phonetic: "/dræfts/",
-    partOfSpeech: "noun",
-    meaningEn:
-      "A board game for two players, played on a checkered board (checkers).",
-    meaningVi: "Cờ đam.",
-    exampleEn: "Play draughts.",
-    exampleVi: "Chơi cờ đam.",
-    categories: ["Daily", "General"],
-  },
+    categories: ["People","Daily","Business"],
+  }
 ];

@@ -23,7 +23,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Người độc thân/Cử nhân.",
     exampleEn: "Bachelor's degree.",
     exampleVi: "Bằng cử nhân.",
-    categories: ["People", "Education"],
+    categories: ["People","Education"],
   },
   {
     id: "a1-241",
@@ -35,7 +35,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Cái lưng; phía sau.",
     exampleEn: "Her back hurts.",
     exampleVi: "Lưng cô ấy bị đau.",
-    categories: ["Medical", "Daily"],
+    categories: ["Medical","Daily"],
   },
   {
     id: "pv-97",
@@ -79,8 +79,7 @@ export const B1: VocabularyWord[] = [
     slug: "back-end",
     phonetic: "/ˈbæk end/",
     partOfSpeech: "noun/adj",
-    meaningEn:
-      "The part of a computer system or application that is not directly accessed by the user.",
+    meaningEn: "The part of a computer system or application that is not directly accessed by the user.",
     meaningVi: "Phần máy chủ, hậu phương.",
     exampleEn: "He works as a back-end developer.",
     exampleVi: "Anh ấy làm việc như một nhà phát triển back-end.",
@@ -92,12 +91,11 @@ export const B1: VocabularyWord[] = [
     slug: "backbone",
     phonetic: "/ˈbæk.boʊn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The series of vertebrae extending from the skull to the pelvis, forming the main support of the body.",
+    meaningEn: "The series of vertebrae extending from the skull to the pelvis, forming the main support of the body.",
     meaningVi: "Xương sống.",
     exampleEn: "Backbone of the economy.",
     exampleVi: "Xương sống của nền kinh tế.",
-    categories: ["Biology", "General"],
+    categories: ["Biology","General"],
   },
   {
     id: "gen-2281",
@@ -105,12 +103,11 @@ export const B1: VocabularyWord[] = [
     slug: "backdrop",
     phonetic: "/ˈbæk.drɑːp/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A painted cloth hung at the back of a theater stage as part of the scenery.",
+    meaningEn: "A painted cloth hung at the back of a theater stage as part of the scenery.",
     meaningVi: "Phông nền.",
     exampleEn: "Scenic backdrop.",
     exampleVi: "Phông nền đẹp mắt.",
-    categories: ["Art", "General"],
+    categories: ["Art","General"],
   },
   {
     id: "gen-2282",
@@ -122,7 +119,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Được hỗ trợ.",
     exampleEn: "Government-backed loan.",
     exampleVi: "Khoản vay được nhà nước bảo lãnh.",
-    categories: ["Business", "Finance"],
+    categories: ["Business","Finance"],
   },
   {
     id: "gen-2283",
@@ -130,12 +127,11 @@ export const B1: VocabularyWord[] = [
     slug: "background",
     phonetic: "/ˈbæk.ɡraʊnd/",
     partOfSpeech: "noun/adjective/verb",
-    meaningEn:
-      "The part of a picture, scene, or design that forms a setting for the main figures or objects.",
+    meaningEn: "The part of a picture, scene, or design that forms a setting for the main figures or objects.",
     meaningVi: "Nền tảng/Bối cảnh.",
     exampleEn: "Academic background.",
     exampleVi: "Nền tảng học vấn.",
-    categories: ["General", "Education"],
+    categories: ["General","Education"],
   },
   {
     id: "gen-2284",
@@ -147,7 +143,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Sự ủng hộ.",
     exampleEn: "Financial backing.",
     exampleVi: "Hỗ trợ tài chính.",
-    categories: ["Business", "Finance"],
+    categories: ["Business","Finance"],
   },
   {
     id: "gen-2285",
@@ -155,12 +151,11 @@ export const B1: VocabularyWord[] = [
     slug: "backlash",
     phonetic: "/ˈbæk.læʃ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A strong and adverse reaction by a large number of people, especially to a social or political development.",
+    meaningEn: "A strong and adverse reaction by a large number of people, especially to a social or political development.",
     meaningVi: "Phản ứng dữ dội.",
     exampleEn: "Public backlash.",
     exampleVi: "Phản ứng gay gắt từ dư luận.",
-    categories: ["Social", "Politics"],
+    categories: ["Social","Politics"],
   },
   {
     id: "gen-2286",
@@ -168,12 +163,11 @@ export const B1: VocabularyWord[] = [
     slug: "backlog",
     phonetic: "/ˈbæk.lɑːɡ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "An accumulation of uncompleted work or matters needing to be dealt with.",
+    meaningEn: "An accumulation of uncompleted work or matters needing to be dealt with.",
     meaningVi: "Công việc tồn đọng.",
     exampleEn: "Orders backlog.",
     exampleVi: "Đơn hàng tồn đọng.",
-    categories: ["Business", "Business"],
+    categories: ["Business","Business"],
   },
   {
     id: "gen-68",
@@ -185,7 +179,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Ba lô.",
     exampleEn: "I carry my books in a backpack.",
     exampleVi: "Tôi mang sách trong ba lô.",
-    categories: ["Daily", "Travel"],
+    categories: ["Daily","Travel"],
   },
   {
     id: "gen-2288",
@@ -193,12 +187,11 @@ export const B1: VocabularyWord[] = [
     slug: "backstage",
     phonetic: "/ˌbækˈsteɪdʒ/",
     partOfSpeech: "adverb/adjective/noun",
-    meaningEn:
-      "In or to the area behind the stage and especially in the dressing rooms of a theater.",
+    meaningEn: "In or to the area behind the stage and especially in the dressing rooms of a theater.",
     meaningVi: "Hậu trường.",
     exampleEn: "Passes for backstage.",
     exampleVi: "Thẻ vào hậu trường.",
-    categories: ["Art", "Social"],
+    categories: ["Art","Social"],
   },
   {
     id: "gen-2289",
@@ -210,7 +203,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Sao lưu/Dự phòng.",
     exampleEn: "Data backup.",
     exampleVi: "Sao lưu dữ liệu.",
-    categories: ["Technology", "General"],
+    categories: ["Technology","General"],
   },
   {
     id: "gen-2290",
@@ -270,7 +263,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Vi khuẩn.",
     exampleEn: "Bacteria can cause infections.",
     exampleVi: "Vi khuẩn có thể gây nhiễm trùng.",
-    categories: ["Biology", "Medical"],
+    categories: ["Biology","Medical"],
   },
   {
     id: "gen-2294",
@@ -282,7 +275,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Thuộc về vi khuẩn.",
     exampleEn: "Bacterial infection.",
     exampleVi: "Nhiễm khuẩn.",
-    categories: ["Medical", "Medical", "Science"],
+    categories: ["Medical","Medical","Science"],
   },
   {
     id: "a1-41",
@@ -302,12 +295,11 @@ export const B1: VocabularyWord[] = [
     slug: "badge",
     phonetic: "/bædʒ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A distinctive emblem worn as a mark of office, membership, achievement.",
+    meaningEn: "A distinctive emblem worn as a mark of office, membership, achievement.",
     meaningVi: "Phù hiệu.",
     exampleEn: "Police badge.",
     exampleVi: "Phù hiệu cảnh sát.",
-    categories: ["General", "Politics"],
+    categories: ["General","Politics"],
   },
   {
     id: "gen-2297",
@@ -331,7 +323,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Làm bối rối.",
     exampleEn: "Baffle the mind.",
     exampleVi: "Làm trí óc bối rối.",
-    categories: ["Emotions", "General"],
+    categories: ["Emotions","General"],
   },
   {
     id: "a1-202",
@@ -347,6 +339,18 @@ export const B1: VocabularyWord[] = [
   },
   {
     id: "gen-2300",
+    word: "Baggage",
+    slug: "baggage",
+    phonetic: "/ˈbæɡ.ɪdʒ/",
+    partOfSpeech: "noun",
+    meaningEn: "Suitcases and bags containing personal belongings packed for traveling.",
+    meaningVi: "Hành lý.",
+    exampleEn: "Excess baggage.",
+    exampleVi: "Hành lý quá cước.",
+    categories: ["Travel","General"],
+  },
+  {
+    id: "gen-2300",
     word: "Baguette",
     slug: "baguette",
     phonetic: "/bæɡˈet/",
@@ -355,20 +359,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Bánh mì dài kiểu Pháp.",
     exampleEn: "I bought a fresh baguette from the bakery.",
     exampleVi: "Tôi đã mua một chiếc bánh mì dài tươi từ tiệm bánh.",
-    categories: ["Food & Drink", "Daily"],
-  },
-  {
-    id: "gen-2300",
-    word: "Baggage",
-    slug: "baggage",
-    phonetic: "/ˈbæɡ.ɪdʒ/",
-    partOfSpeech: "noun",
-    meaningEn:
-      "Suitcases and bags containing personal belongings packed for traveling.",
-    meaningVi: "Hành lý.",
-    exampleEn: "Excess baggage.",
-    exampleVi: "Hành lý quá cước.",
-    categories: ["Travel", "General"],
+    categories: ["Food & Drink","Daily"],
   },
   {
     id: "gen-2301",
@@ -376,12 +367,11 @@ export const B1: VocabularyWord[] = [
     slug: "bail",
     phonetic: "/beɪl/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "The temporary release of an accused person awaiting trial, sometimes on condition that a sum of money be lodged to guarantee their appearance in court.",
+    meaningEn: "The temporary release of an accused person awaiting trial, sometimes on condition that a sum of money be lodged to guarantee their appearance in court.",
     meaningVi: "Tiền bảo lãnh.",
     exampleEn: "Release on bail.",
     exampleVi: "Được tại ngoại sau khi nộp tiền bảo lãnh.",
-    categories: ["Law", "Social"],
+    categories: ["Law","Social"],
   },
   {
     id: "gen-2302",
@@ -389,12 +379,11 @@ export const B1: VocabularyWord[] = [
     slug: "bake",
     phonetic: "/beɪk/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Cook food by dry heat without direct exposure to a flame, typically in an oven.",
+    meaningEn: "Cook food by dry heat without direct exposure to a flame, typically in an oven.",
     meaningVi: "Nướng bánh.",
     exampleEn: "Bake a cake.",
     exampleVi: "Nướng bánh kem.",
-    categories: ["Food & Drink", "Daily"],
+    categories: ["Food & Drink","Daily"],
   },
   {
     id: "gen-2303",
@@ -406,7 +395,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Thợ làm bánh.",
     exampleEn: "Master baker.",
     exampleVi: "Thợ làm bánh bậc thầy.",
-    categories: ["People", "Food & Drink", "Business", "Jobs"],
+    categories: ["People","Food & Drink","Business","Jobs"],
   },
   {
     id: "gen-2304",
@@ -418,7 +407,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Tiệm bánh.",
     exampleEn: "Local bakery.",
     exampleVi: "Tiệm bánh địa phương.",
-    categories: ["Food & Drink", "Shopping"],
+    categories: ["Food & Drink","Shopping"],
   },
   {
     id: "b1-35",
@@ -426,8 +415,7 @@ export const B1: VocabularyWord[] = [
     slug: "balance",
     phonetic: "/ˈbæl.əns/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "An even distribution of weight enabling someone or something to remain upright and steady.",
+    meaningEn: "An even distribution of weight enabling someone or something to remain upright and steady.",
     meaningVi: "Sự cân bằng, số dư.",
     exampleEn: "Keep your balance.",
     exampleVi: "Hãy giữ thăng bằng.",
@@ -443,7 +431,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Cân đối.",
     exampleEn: "Balanced diet.",
     exampleVi: "Chế độ ăn uống cân bằng.",
-    categories: ["Medical", "Food & Drink", "General"],
+    categories: ["Medical","Food & Drink","General"],
   },
   {
     id: "gen-71",
@@ -451,12 +439,11 @@ export const B1: VocabularyWord[] = [
     slug: "balcony",
     phonetic: "/ˈbæl.kə.ni/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A platform enclosed by a wall or balustrade on the outside of a building.",
+    meaningEn: "A platform enclosed by a wall or balustrade on the outside of a building.",
     meaningVi: "Ban công.",
     exampleEn: "We sat on the balcony.",
     exampleVi: "Chúng tôi ngồi trên ban công.",
-    categories: ["Home", "Home"],
+    categories: ["Home","Home"],
   },
   {
     id: "gen-2308",
@@ -468,7 +455,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Hói.",
     exampleEn: "Go bald.",
     exampleVi: "Bị hói đầu.",
-    categories: ["People", "Body"],
+    categories: ["People","Body"],
   },
   {
     id: "gen-2309",
@@ -476,12 +463,11 @@ export const B1: VocabularyWord[] = [
     slug: "ball",
     phonetic: "/bɑːl/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A solid or hollow spherical or egg-shaped object used in a game.",
+    meaningEn: "A solid or hollow spherical or egg-shaped object used in a game.",
     meaningVi: "Quả bóng.",
     exampleEn: "Tennis ball.",
     exampleVi: "Bóng quần vợt.",
-    categories: ["Sports", "General"],
+    categories: ["Sports","General"],
   },
   {
     id: "gen-2310",
@@ -489,12 +475,11 @@ export const B1: VocabularyWord[] = [
     slug: "ballet",
     phonetic: "/bælˈeɪ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An artistic dance form performed to music using precise and highly formalized set steps and gestures.",
+    meaningEn: "An artistic dance form performed to music using precise and highly formalized set steps and gestures.",
     meaningVi: "Múa ba-lê.",
     exampleEn: "Ballet dancer.",
     exampleVi: "Vũ công ba-lê.",
-    categories: ["Art", "Social"],
+    categories: ["Art","Social"],
   },
   {
     id: "gen-2311",
@@ -502,12 +487,11 @@ export const B1: VocabularyWord[] = [
     slug: "balloon",
     phonetic: "/bəˈluːn/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A small colored rubber bag which is inflated with air and then sealed at the neck.",
+    meaningEn: "A small colored rubber bag which is inflated with air and then sealed at the neck.",
     meaningVi: "Bóng bay.",
     exampleEn: "Hot air balloon.",
     exampleVi: "Khinh khí cầu.",
-    categories: ["General", "Travel"],
+    categories: ["General","Travel"],
   },
   {
     id: "gen-2312",
@@ -519,7 +503,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Bỏ phiếu.",
     exampleEn: "Secret ballot.",
     exampleVi: "Bỏ phiếu kín.",
-    categories: ["Politics", "Social"],
+    categories: ["Politics","Social"],
   },
   {
     id: "gen-2313",
@@ -531,7 +515,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Phòng khiêu vũ.",
     exampleEn: "Ballroom dancing.",
     exampleVi: "Khiêu vũ cổ điển.",
-    categories: ["Art", "Social"],
+    categories: ["Art","Social"],
   },
   {
     id: "gen-2314",
@@ -543,7 +527,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Cây tre.",
     exampleEn: "Bamboo forest.",
     exampleVi: "Rừng tre.",
-    categories: ["Biology", "Environment"],
+    categories: ["Biology","Environment"],
   },
   {
     id: "gen-2315",
@@ -555,7 +539,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Cấm.",
     exampleEn: "Ban smoking.",
     exampleVi: "Cấm hút thuốc.",
-    categories: ["General", "Law", "Social"],
+    categories: ["General","Law","Social"],
   },
   {
     id: "c1-162",
@@ -591,7 +575,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Ban nhạc/Dây đai.",
     exampleEn: "Rock band.",
     exampleVi: "Ban nhạc rock.",
-    categories: ["Music", "General"],
+    categories: ["Music","General"],
   },
   {
     id: "gen-2318",
@@ -599,12 +583,11 @@ export const B1: VocabularyWord[] = [
     slug: "bandage",
     phonetic: "/ˈbæn.dɪdʒ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A strip of material used to bind up a wound or a protect an injured part of the body.",
+    meaningEn: "A strip of material used to bind up a wound or a protect an injured part of the body.",
     meaningVi: "Băng gạc.",
     exampleEn: "Change the bandage.",
     exampleVi: "Thay băng.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-2319",
@@ -616,7 +599,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Tên cướp.",
     exampleEn: "Armed bandit.",
     exampleVi: "Tên cướp có vũ khí.",
-    categories: ["People", "Law"],
+    categories: ["People","Law"],
   },
   {
     id: "b2-219",
@@ -640,7 +623,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Tiếng nổ/Tiếng va chạm mạnh.",
     exampleEn: "Big Bang.",
     exampleVi: "Vụ nổ lớn.",
-    categories: ["Science", "General"],
+    categories: ["Science","General"],
   },
   {
     id: "a1-196",
@@ -652,7 +635,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Ngân hàng.",
     exampleEn: "I need to go to the bank to withdraw some money.",
     exampleVi: "Tôi cần đến ngân hàng để rút một ít tiền.",
-    categories: ["Daily", "Business"],
+    categories: ["Daily","Business"],
   },
   {
     id: "gen-2323",
@@ -664,19 +647,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Nhân viên ngân hàng.",
     exampleEn: "Investment banker.",
     exampleVi: "Chuyên gia ngân hàng đầu tư.",
-    categories: ["Finance", "Business", "Jobs"],
-  },
-  {
-    id: "job-012",
-    word: "Bartender",
-    slug: "bartender",
-    phonetic: "/ˈbɑːrˌten.dər/",
-    partOfSpeech: "noun",
-    meaningEn: "A person who serves drinks at a bar.",
-    meaningVi: "Nhân viên pha chế.",
-    exampleEn: "The bartender made an excellent cocktail.",
-    exampleVi: "Nhân viên pha chế đã làm một ly cocktail tuyệt vời.",
-    categories: ["Jobs", "Food & Drink"],
+    categories: ["Finance","Business","Jobs"],
   },
   {
     id: "gen-2325",
@@ -688,7 +659,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Sự phá sản.",
     exampleEn: "Declare bankruptcy.",
     exampleVi: "Tuyên bố phá sản.",
-    categories: ["Business", "Finance", "Law"],
+    categories: ["Business","Finance","Law"],
   },
   {
     id: "gen-2326",
@@ -700,7 +671,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Biển hiệu/Biểu ngữ.",
     exampleEn: "Website banner.",
     exampleVi: "Biểu ngữ trang web.",
-    categories: ["General", "Media", "Technology"],
+    categories: ["General","Media","Technology"],
   },
   {
     id: "gen-2327",
@@ -712,7 +683,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Yến tiệc.",
     exampleEn: "Wedding banquet.",
     exampleVi: "Tiệc cưới.",
-    categories: ["Food & Drink", "Social"],
+    categories: ["Food & Drink","Social"],
   },
   {
     id: "gen-2328",
@@ -724,7 +695,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Người theo đạo Rửa Tội.",
     exampleEn: "Baptist church.",
     exampleVi: "Nhà thờ đạo Rửa Tội.",
-    categories: ["Social", "People"],
+    categories: ["Social","People"],
   },
   {
     id: "gen-2329",
@@ -736,7 +707,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Thanh/Quán bar/Rào cản.",
     exampleEn: "Bar of soap.",
     exampleVi: "Thanh xà phòng.",
-    categories: ["General", "Food & Drink", "Business"],
+    categories: ["General","Food & Drink","Business"],
   },
   {
     id: "gen-2330",
@@ -744,12 +715,11 @@ export const B1: VocabularyWord[] = [
     slug: "barbarian",
     phonetic: "/bɑːrˈber.i.ən/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A member of a community or tribe not belonging to one of the great civilizations.",
+    meaningEn: "A member of a community or tribe not belonging to one of the great civilizations.",
     meaningVi: "Kẻ man tộc.",
     exampleEn: "Barbarian invasion.",
     exampleVi: "Sự xâm lăng của bộ tộc man di.",
-    categories: ["People", "History"],
+    categories: ["People","History"],
   },
   {
     id: "gen-2331",
@@ -757,12 +727,11 @@ export const B1: VocabularyWord[] = [
     slug: "barbecue",
     phonetic: "/ˈbɑːr.bə.kjuː/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A meal or gathering at which meat, fish, or other food is cooked out of doors on a rack over an open fire or on a special appliance.",
+    meaningEn: "A meal or gathering at which meat, fish, or other food is cooked out of doors on a rack over an open fire or on a special appliance.",
     meaningVi: "Tiệc nướng.",
     exampleEn: "Outdoor barbecue.",
     exampleVi: "Tiệc nướng ngoài trời.",
-    categories: ["Food & Drink", "Social"],
+    categories: ["Food & Drink","Social"],
   },
   {
     id: "gen-2332",
@@ -770,12 +739,11 @@ export const B1: VocabularyWord[] = [
     slug: "barber",
     phonetic: "/ˈbɑːr.bɚ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A person whose business is cutting and dressing men's and boys' hair.",
+    meaningEn: "A person whose business is cutting and dressing men's and boys' hair.",
     meaningVi: "Thợ cắt tóc.",
     exampleEn: "Barber shop.",
     exampleVi: "Tiệm cắt tóc.",
-    categories: ["Beauty", "Jobs"],
+    categories: ["Beauty","Jobs"],
   },
   {
     id: "gen-2333",
@@ -807,12 +775,11 @@ export const B1: VocabularyWord[] = [
     slug: "bargain",
     phonetic: "/ˈbɑːr.ɡɪn/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "An agreement between two or more parties as to what each party will do for the other.",
+    meaningEn: "An agreement between two or more parties as to what each party will do for the other.",
     meaningVi: "Món hời/Mặc cả.",
     exampleEn: "Bargain price.",
     exampleVi: "Giá hời.",
-    categories: ["Shopping", "Finance", "Business"],
+    categories: ["Shopping","Finance","Business"],
   },
   {
     id: "gen-2336",
@@ -824,7 +791,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Sủa/Vỏ cây.",
     exampleEn: "Dog bark.",
     exampleVi: "Tiếng chó sủa.",
-    categories: ["Biology", "Environment"],
+    categories: ["Biology","Environment"],
   },
   {
     id: "gen-2337",
@@ -832,12 +799,11 @@ export const B1: VocabularyWord[] = [
     slug: "barley",
     phonetic: "/ˈbɑːr.li/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A hardy cereal that has coarse bristles extending from the ears.",
+    meaningEn: "A hardy cereal that has coarse bristles extending from the ears.",
     meaningVi: "Lúa mạch.",
     exampleEn: "Barley water.",
     exampleVi: "Nước lúa mạch.",
-    categories: ["Food & Drink", "Biology"],
+    categories: ["Food & Drink","Biology"],
   },
   {
     id: "gen-2338",
@@ -845,12 +811,11 @@ export const B1: VocabularyWord[] = [
     slug: "barn",
     phonetic: "/bɑːrn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A large farm building used for storing grain, hay, or straw or for housing livestock.",
+    meaningEn: "A large farm building used for storing grain, hay, or straw or for housing livestock.",
     meaningVi: "Chuồng bò/Kho thóc.",
     exampleEn: "Red barn.",
     exampleVi: "Kho thóc đỏ.",
-    categories: ["Environment", "Home"],
+    categories: ["Environment","Home"],
   },
   {
     id: "gen-2339",
@@ -862,7 +827,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Nam tước.",
     exampleEn: "Drug baron.",
     exampleVi: "Trùm ma túy.",
-    categories: ["People", "Politics", "Law"],
+    categories: ["People","Politics","Law"],
   },
   {
     id: "gen-2340",
@@ -870,12 +835,11 @@ export const B1: VocabularyWord[] = [
     slug: "barrel",
     phonetic: "/ˈber.əl/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A cylindrical container bulging out in the middle, traditionally made of wooden staves with metal hoops round them.",
+    meaningEn: "A cylindrical container bulging out in the middle, traditionally made of wooden staves with metal hoops round them.",
     meaningVi: "Thùng phuy.",
     exampleEn: "Oil barrel.",
     exampleVi: "Thùng dầu.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "gen-73",
@@ -895,12 +859,23 @@ export const B1: VocabularyWord[] = [
     slug: "barrister",
     phonetic: "/ˈber.ɪ.stɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A lawyer entitled to practice as an advocate, particularly in the higher courts.",
+    meaningEn: "A lawyer entitled to practice as an advocate, particularly in the higher courts.",
     meaningVi: "Luật sư bào chữa.",
     exampleEn: "Defense barrister.",
     exampleVi: "Luật sư bào chữa cho bị cáo.",
-    categories: ["Law", "People"],
+    categories: ["Law","People"],
+  },
+  {
+    id: "job-012",
+    word: "Bartender",
+    slug: "bartender",
+    phonetic: "/ˈbɑːrˌten.dər/",
+    partOfSpeech: "noun",
+    meaningEn: "A person who serves drinks at a bar.",
+    meaningVi: "Nhân viên pha chế.",
+    exampleEn: "The bartender made an excellent cocktail.",
+    exampleVi: "Nhân viên pha chế đã làm một ly cocktail tuyệt vời.",
+    categories: ["Jobs","Food & Drink"],
   },
   {
     id: "gen-2343",
@@ -908,12 +883,11 @@ export const B1: VocabularyWord[] = [
     slug: "base",
     phonetic: "/beɪs/",
     partOfSpeech: "noun/verb/adjective",
-    meaningEn:
-      "The lowest part or edge of something, especially the part on which it rests or is supported.",
+    meaningEn: "The lowest part or edge of something, especially the part on which it rests or is supported.",
     meaningVi: "Căn cứ/Nền tảng.",
     exampleEn: "Military base.",
     exampleVi: "Căn cứ quân sự.",
-    categories: ["General", "Politics", "Mathematics"],
+    categories: ["General","Politics","Mathematics"],
   },
   {
     id: "gen-74",
@@ -921,8 +895,7 @@ export const B1: VocabularyWord[] = [
     slug: "baseball",
     phonetic: "/ˈbeɪs.bɔːl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A ball game played between two teams of nine on a field with a diamond-shaped circuit of four bases.",
+    meaningEn: "A ball game played between two teams of nine on a field with a diamond-shaped circuit of four bases.",
     meaningVi: "Bóng chày.",
     exampleEn: "He plays baseball every weekend.",
     exampleVi: "Anh ấy chơi bóng chày mỗi cuối tuần.",
@@ -950,7 +923,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Đường cơ sở.",
     exampleEn: "Baseline study.",
     exampleVi: "Nghiên cứu cơ bản.",
-    categories: ["General", "Sports"],
+    categories: ["General","Sports"],
   },
   {
     id: "gen-2347",
@@ -958,12 +931,11 @@ export const B1: VocabularyWord[] = [
     slug: "basement",
     phonetic: "/ˈbeɪs.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The floor of a building which is partly or entirely below ground level.",
+    meaningEn: "The floor of a building which is partly or entirely below ground level.",
     meaningVi: "Tầng hầm.",
     exampleEn: "Old basement.",
     exampleVi: "Tầng hầm cũ.",
-    categories: ["Home", "Home"],
+    categories: ["Home","Home"],
   },
   {
     id: "gen-2348",
@@ -975,7 +947,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Các căn cứ/Các nền tảng.",
     exampleEn: "Military bases.",
     exampleVi: "Các căn cứ quân sự.",
-    categories: ["General", "Politics"],
+    categories: ["General","Politics"],
   },
   {
     id: "gen-2349",
@@ -987,7 +959,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Đập mạnh.",
     exampleEn: "Birthday bash.",
     exampleVi: "Tiệc sinh nhận thịnh soạn.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-2350",
@@ -995,8 +967,7 @@ export const B1: VocabularyWord[] = [
     slug: "basic",
     phonetic: "/ˈbeɪ.sɪk/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "Forming an essential foundation or starting point; fundamental.",
+    meaningEn: "Forming an essential foundation or starting point; fundamental.",
     meaningVi: "Cơ bản.",
     exampleEn: "Basic needs.",
     exampleVi: "Các nhu cầu cơ bản.",
@@ -1020,12 +991,11 @@ export const B1: VocabularyWord[] = [
     slug: "basin",
     phonetic: "/ˈbeɪ.sən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A wide open container used for preparing food or for holding liquid.",
+    meaningEn: "A wide open container used for preparing food or for holding liquid.",
     meaningVi: "Cái chậu/Lưu vực.",
     exampleEn: "River basin.",
     exampleVi: "Lưu vực sông.",
-    categories: ["General", "Geography", "Home"],
+    categories: ["General","Geography","Home"],
   },
   {
     id: "b1-129",
@@ -1033,8 +1003,7 @@ export const B1: VocabularyWord[] = [
     slug: "basis",
     phonetic: "/ˈbeɪ.sɪs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The underlying support or foundation for an idea, argument, or process.",
+    meaningEn: "The underlying support or foundation for an idea, argument, or process.",
     meaningVi: "Nền tảng, cơ sở.",
     exampleEn: "On a daily basis.",
     exampleVi: "Hàng ngày.",
@@ -1046,12 +1015,11 @@ export const B1: VocabularyWord[] = [
     slug: "basket",
     phonetic: "/ˈbæs.kət/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A container used to hold or carry things, typically made from interwoven strips of cane or wire.",
+    meaningEn: "A container used to hold or carry things, typically made from interwoven strips of cane or wire.",
     meaningVi: "Cái giỏ.",
     exampleEn: "Shopping basket.",
     exampleVi: "Giỏ hàng.",
-    categories: ["General", "Shopping"],
+    categories: ["General","Shopping"],
   },
   {
     id: "gen-75",
@@ -1059,8 +1027,7 @@ export const B1: VocabularyWord[] = [
     slug: "basketball",
     phonetic: "/ˈbæs.kɪt.bɔːl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A game played between two teams of five players in which goals are scored by throwing a ball through a netted hoop.",
+    meaningEn: "A game played between two teams of five players in which goals are scored by throwing a ball through a netted hoop.",
     meaningVi: "Bóng rổ.",
     exampleEn: "They are playing basketball.",
     exampleVi: "Họ đang chơi bóng rổ.",
@@ -1076,7 +1043,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Âm trầm/Giọng nam trầm.",
     exampleEn: "Bass guitar.",
     exampleVi: "Đàn guitar bass.",
-    categories: ["Music", "Art"],
+    categories: ["Music","Art"],
   },
   {
     id: "gen-2357",
@@ -1088,7 +1055,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Gậy/Con dơi.",
     exampleEn: "Cricket bat.",
     exampleVi: "Gậy chơi cricket.",
-    categories: ["Sports", "Biology"],
+    categories: ["Sports","Biology"],
   },
   {
     id: "gen-2358",
@@ -1100,7 +1067,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Lô hàng/Đợt.",
     exampleEn: "First batch of bread.",
     exampleVi: "Mẻ bánh mì đầu tiên.",
-    categories: ["General", "Business", "Technology"],
+    categories: ["General","Business","Technology"],
   },
   {
     id: "gen-2359",
@@ -1108,12 +1075,11 @@ export const B1: VocabularyWord[] = [
     slug: "bath",
     phonetic: "/bæθ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "An act or process of immersing and washing one's body in a large container of water.",
+    meaningEn: "An act or process of immersing and washing one's body in a large container of water.",
     meaningVi: "Sự tắm/Bồn tắm.",
     exampleEn: "Take a bath.",
     exampleVi: "Đi tắm.",
-    categories: ["Daily", "Home"],
+    categories: ["Daily","Home"],
   },
   {
     id: "gen-2360",
@@ -1125,7 +1091,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Tắm rửa.",
     exampleEn: "Bathe the baby.",
     exampleVi: "Tắm cho em bé.",
-    categories: ["Daily", "Medical"],
+    categories: ["Daily","Medical"],
   },
   {
     id: "a1-193",
@@ -1133,12 +1099,11 @@ export const B1: VocabularyWord[] = [
     slug: "bathroom",
     phonetic: "/ˈbæθruːm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A room containing a toilet and a sink, and often a bathtub or shower.",
+    meaningEn: "A room containing a toilet and a sink, and often a bathtub or shower.",
     meaningVi: "Phòng tắm.",
     exampleEn: "Where is the bathroom?",
     exampleVi: "Phòng tắm ở đâu?",
-    categories: ["Daily", "Home"],
+    categories: ["Daily","Home"],
   },
   {
     id: "a2-225",
@@ -1150,7 +1115,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Pin.",
     exampleEn: "My phone battery is low.",
     exampleVi: "Pin điện thoại của tôi đang yếu.",
-    categories: ["Technology", "Daily"],
+    categories: ["Technology","Daily"],
   },
   {
     id: "gen-2363",
@@ -1162,7 +1127,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Trận chiến.",
     exampleEn: "Blood battle.",
     exampleVi: "Trận chiến đẫm máu.",
-    categories: ["Politics", "Social"],
+    categories: ["Politics","Social"],
   },
   {
     id: "gen-2364",
@@ -1174,7 +1139,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Chiến trường.",
     exampleEn: "On the battlefield.",
     exampleVi: "Trên chiến trường.",
-    categories: ["Politics", "Geography"],
+    categories: ["Politics","Geography"],
   },
   {
     id: "gen-2365",
@@ -1186,7 +1151,7 @@ export const B1: VocabularyWord[] = [
     meaningVi: "Vịnh.",
     exampleEn: "Ha Long Bay.",
     exampleVi: "Vịnh Hạ Long.",
-    categories: ["Geography", "Environment"],
+    categories: ["Geography","Environment"],
   },
   {
     id: "a1-146",
@@ -1206,12 +1171,11 @@ export const B1: VocabularyWord[] = [
     slug: "bead",
     phonetic: "/biːd/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A small piece of glass, stone, or similar material, typically rounded and perforated for threading with others as a necklace or rosary or for sewing onto fabric.",
+    meaningEn: "A small piece of glass, stone, or similar material, typically rounded and perforated for threading with others as a necklace or rosary or for sewing onto fabric.",
     meaningVi: "Hạt chuỗi.",
     exampleEn: "Glass bead.",
     exampleVi: "Hạt thủy tinh.",
-    categories: ["Art", "General"],
+    categories: ["Art","General"],
   },
   {
     id: "gen-2368",
@@ -1219,12 +1183,11 @@ export const B1: VocabularyWord[] = [
     slug: "beam",
     phonetic: "/biːm/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A long, sturdy piece of squared timber or metal spanning an opening or part of a building, typically to support the roof or floor above.",
+    meaningEn: "A long, sturdy piece of squared timber or metal spanning an opening or part of a building, typically to support the roof or floor above.",
     meaningVi: "Chùm tia/Xà ngang.",
     exampleEn: "Laser beam.",
     exampleVi: "Tia laser.",
-    categories: ["Science", "Physics", "General"],
+    categories: ["Science","Physics","General"],
   },
   {
     id: "gen-77",
@@ -1232,23 +1195,10 @@ export const B1: VocabularyWord[] = [
     slug: "bean",
     phonetic: "/biːn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An edible seed, typically kidney-shaped, growing in long pods on certain leguminous plants.",
+    meaningEn: "An edible seed, typically kidney-shaped, growing in long pods on certain leguminous plants.",
     meaningVi: "Đậu.",
     exampleEn: "I like green beans.",
     exampleVi: "Tôi thích đậu xanh.",
     categories: ["Food & Drink"],
-  },
-  {
-    id: "gen-2370",
-    word: "Bear",
-    slug: "bear",
-    phonetic: "/ber/",
-    partOfSpeech: "verb/noun",
-    meaningEn: "Carry, support, or endure something.",
-    meaningVi: "Chịu đựng/Con gấu.",
-    exampleEn: "I can't bear it.",
-    exampleVi: "Tôi không thể chịu nổi.",
-    categories: ["General", "Biology", "Emotions"],
-  },
+  }
 ];

@@ -7,12 +7,11 @@ export const D1: VocabularyWord[] = [
     slug: "dab",
     phonetic: "/dæb/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Press against (something) lightly with a piece of absorbent material; a small amount of something.",
+    meaningEn: "Press against (something) lightly with a piece of absorbent material; a small amount of something.",
     meaningVi: "Vỗ nhẹ/Chấm nhẹ/Một chút/Cái vỗ nhẹ.",
     exampleEn: "A dab of perfume.",
     exampleVi: "Một chút nước hoa.",
-    categories: ["General", "Body"],
+    categories: ["General","Body"],
   },
   {
     id: "gen-4748",
@@ -20,12 +19,11 @@ export const D1: VocabularyWord[] = [
     slug: "dabble",
     phonetic: "/ˈdæb.əl/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Immerse (one's hands or feet) partially in water and move them around gently; take part in an activity in a casual or superficial way.",
+    meaningEn: "Immerse (one's hands or feet) partially in water and move them around gently; take part in an activity in a casual or superficial way.",
     meaningVi: "Học đòi/Làm việc gì đó cho vui/Vọc nước.",
     exampleEn: "Dabble in politics.",
     exampleVi: "Tham gia chính trị cho vui.",
-    categories: ["General", "Social", "Business"],
+    categories: ["General","Social","Business"],
   },
   {
     id: "gen-4749",
@@ -37,7 +35,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Người làm việc gì đó không chuyên/Người học đòi.",
     exampleEn: "Amateur dabbler.",
     exampleVi: "Người nghiệp dư học đòi.",
-    categories: ["People", "General"],
+    categories: ["People","General"],
   },
   {
     id: "gen-4750",
@@ -49,7 +47,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Cá diếc (loại nhỏ).",
     exampleEn: "Fishing for dace.",
     exampleVi: "Câu cá diếc.",
-    categories: ["Animals", "Food & Drink"],
+    categories: ["Animals","Food & Drink"],
   },
   {
     id: "gen-4751",
@@ -61,7 +59,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Chó xúc xích (Lạp xưởng).",
     exampleEn: "Friendly dachshund.",
     exampleVi: "Chú chó lạp xưởng thân thiện.",
-    categories: ["Animals", "Daily"],
+    categories: ["Animals","Daily"],
   },
   {
     id: "gen-4752",
@@ -69,12 +67,11 @@ export const D1: VocabularyWord[] = [
     slug: "dactyl",
     phonetic: "/ˈdæk.tɪl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A metrical foot consisting of one stressed syllable followed by two unstressed syllables.",
+    meaningEn: "A metrical foot consisting of one stressed syllable followed by two unstressed syllables.",
     meaningVi: "Phách ba (trong thơ/âm nhạc).",
     exampleEn: "Dactyl meter.",
     exampleVi: "Nhịp dactyl.",
-    categories: ["Art", "Music", "Education"],
+    categories: ["Art","Music","Education"],
   },
   {
     id: "gen-4753",
@@ -86,7 +83,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Thuộc về phách ba/Nhịp dactyl.",
     exampleEn: "Dactylic hexameter.",
     exampleVi: "Thể thơ sáu phách dactyl.",
-    categories: ["Art", "Education"],
+    categories: ["Art","Education"],
   },
   {
     id: "gen-4754",
@@ -98,7 +95,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Bố/Ba/Cha.",
     exampleEn: "Hi dad!",
     exampleVi: "Chào bố!",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-4755",
@@ -110,7 +107,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Ba/Bố (thân mật).",
     exampleEn: "Daddy's girl.",
     exampleVi: "Con gái rượu của bố.",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-4756",
@@ -118,12 +115,11 @@ export const D1: VocabularyWord[] = [
     slug: "dado",
     phonetic: "/ˈdeɪ.doʊ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The lower part of a wall of a room, flavored differently from the upper part.",
+    meaningEn: "The lower part of a wall of a room, flavored differently from the upper part.",
     meaningVi: "Phần dưới của tường (trong phòng, thường có màu khác).",
     exampleEn: "Wooden dado.",
     exampleVi: "Phần chân tường bằng gỗ.",
-    categories: ["Home", "Architecture"],
+    categories: ["Home","Architecture"],
   },
   {
     id: "gen-4757",
@@ -131,12 +127,11 @@ export const D1: VocabularyWord[] = [
     slug: "daffodil",
     phonetic: "/ˈdæf.ə.dɪl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A bulbous plant that typically bears bright yellow flowers with a large central trumpet.",
+    meaningEn: "A bulbous plant that typically bears bright yellow flowers with a large central trumpet.",
     meaningVi: "Hoa thủy tiên vàng.",
     exampleEn: "Golden daffodils.",
     exampleVi: "Những bông hoa thủy tiên vàng rực.",
-    categories: ["Nature", "Plants"],
+    categories: ["Nature","Plants"],
   },
   {
     id: "gen-4758",
@@ -148,7 +143,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Ngớ ngẩn/Khờ dại/Ngu ngốc.",
     exampleEn: "A daft idea.",
     exampleVi: "Một ý tưởng ngớ ngẩn.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-4759",
@@ -180,12 +175,11 @@ export const D1: VocabularyWord[] = [
     slug: "dagger",
     phonetic: "/ˈdæɡ.ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A short knife with a pointed and edged blade, used as a weapon.",
+    meaningEn: "A short knife with a pointed and edged blade, used as a weapon.",
     meaningVi: "Con dao găm/Dấu chữ thập (văn bản).",
     exampleEn: "Look daggers at someone.",
     exampleVi: "Nhìn ai đó một cách giận dữ.",
-    categories: ["General", "History"],
+    categories: ["General","History"],
   },
   {
     id: "gen-4762",
@@ -197,7 +191,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Phép chụp hình kiểu Đa-ghe (kiểu cổ).",
     exampleEn: "Antique daguerreotype.",
     exampleVi: "Bức hình chụp kiểu cổ.",
-    categories: ["History", "Art"],
+    categories: ["History","Art"],
   },
   {
     id: "gen-4763",
@@ -205,12 +199,11 @@ export const D1: VocabularyWord[] = [
     slug: "dahlia",
     phonetic: "/ˈdeɪl.jə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A tuberous-rooted Mexican plant of the daisy family, cultivated for its brightly colored flowers.",
+    meaningEn: "A tuberous-rooted Mexican plant of the daisy family, cultivated for its brightly colored flowers.",
     meaningVi: "Hoa thược dược.",
     exampleEn: "Red dahlias.",
     exampleVi: "Những bông hoa thược dược đỏ.",
-    categories: ["Nature", "Plants"],
+    categories: ["Nature","Plants"],
   },
   {
     id: "gen-229",
@@ -234,7 +227,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Một cách xinh xắn/Nhã nhặn/Tế nhị.",
     exampleEn: "Ate daintily.",
     exampleVi: "Ăn một cách nhã nhặn.",
-    categories: ["General", "Body"],
+    categories: ["General","Body"],
   },
   {
     id: "gen-4766",
@@ -258,7 +251,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Xinh xắn/Thanh tao/Tao nhã/Món quà ngon lành.",
     exampleEn: "Dainty features.",
     exampleVi: "Những nét thanh tú.",
-    categories: ["Body", "General", "Food & Drink"],
+    categories: ["Body","General","Food & Drink"],
   },
   {
     id: "gen-4768",
@@ -266,12 +259,11 @@ export const D1: VocabularyWord[] = [
     slug: "dairy",
     phonetic: "/ˈder.i/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A building for keeping and processing milk; relating to milk or its products.",
+    meaningEn: "A building for keeping and processing milk; relating to milk or its products.",
     meaningVi: "Nơi làm sữa/Cửa hàng sữa/Sản phẩm từ sữa.",
     exampleEn: "Dairy products.",
     exampleVi: "Các sản phẩm từ sữa.",
-    categories: ["Food & Drink", "Daily", "General"],
+    categories: ["Food & Drink","Daily","General"],
   },
   {
     id: "gen-4769",
@@ -279,12 +271,11 @@ export const D1: VocabularyWord[] = [
     slug: "dairying",
     phonetic: "/ˈdeə.ri.ɪŋ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The business of producing, processing, and selling milk and milk products.",
+    meaningEn: "The business of producing, processing, and selling milk and milk products.",
     meaningVi: "Nghề làm sữa/Công nghiệp sữa.",
     exampleEn: "Modern dairying.",
     exampleVi: "Ngành công nghiệp sữa hiện đại.",
-    categories: ["Business", "Economics"],
+    categories: ["Business","Economics"],
   },
   {
     id: "gen-4770",
@@ -292,12 +283,11 @@ export const D1: VocabularyWord[] = [
     slug: "daisy",
     phonetic: "/ˈdeɪ.zi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A small grassland plant that has flowers with a yellow center and white petals.",
+    meaningEn: "A small grassland plant that has flowers with a yellow center and white petals.",
     meaningVi: "Hoa cúc họa mi.",
     exampleEn: "Pushing up the daisies.",
     exampleVi: "Đã chết và được chôn cất (thành ngữ).",
-    categories: ["Nature", "Plants"],
+    categories: ["Nature","Plants"],
   },
   {
     id: "gen-4771",
@@ -317,12 +307,11 @@ export const D1: VocabularyWord[] = [
     slug: "dalliance",
     phonetic: "/ˈdæl.i.əns/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A casual romantic or sexual relationship; brief or casual involvement with something.",
+    meaningEn: "A casual romantic or sexual relationship; brief or casual involvement with something.",
     meaningVi: "Sự chơi bời/Mối tình thoáng qua/Sự lờ đờ.",
     exampleEn: "Dalliance with reform.",
     exampleVi: "Sự can dự hờ hững vào cuộc cải cách.",
-    categories: ["Social", "General", "Psychology"],
+    categories: ["Social","General","Psychology"],
   },
   {
     id: "gen-4773",
@@ -330,12 +319,11 @@ export const D1: VocabularyWord[] = [
     slug: "dally",
     phonetic: "/ˈdæl.i/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Act or move slowly; have a casual romantic or sexual liaison with someone.",
+    meaningEn: "Act or move slowly; have a casual romantic or sexual liaison with someone.",
     meaningVi: "Chơi bời/Lê thê/Hành động chậm chạp/Tán tỉnh.",
     exampleEn: "Do not dally.",
     exampleVi: "Đừng có lề mề.",
-    categories: ["General", "Social", "Psychology"],
+    categories: ["General","Social","Psychology"],
   },
   {
     id: "gen-4774",
@@ -343,12 +331,11 @@ export const D1: VocabularyWord[] = [
     slug: "dam",
     phonetic: "/dæm/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A barrier constructed to hold back water and raise its level; the female parent of an animal.",
+    meaningEn: "A barrier constructed to hold back water and raise its level; the female parent of an animal.",
     meaningVi: "Đập nước/Vật ngăn/Mẹ kiến/Chặn nước (làm đập).",
     exampleEn: "Hydroelectric dam.",
     exampleVi: "Đập thủy điện.",
-    categories: ["Engineering", "Nature", "Animals"],
+    categories: ["Engineering","Nature","Animals"],
   },
   {
     id: "gen-230",
@@ -372,7 +359,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Gây hại/Có hại.",
     exampleEn: "Damaging rumors.",
     exampleVi: "Những lời đồn đại gây hại.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-4777",
@@ -380,12 +367,11 @@ export const D1: VocabularyWord[] = [
     slug: "damask",
     phonetic: "/ˈdæm.əsk/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A figured woven fabric with a pattern visible on both sides, typically used for table linen.",
+    meaningEn: "A figured woven fabric with a pattern visible on both sides, typically used for table linen.",
     meaningVi: "Vải gấm/Màu hồng nhung.",
     exampleEn: "Damask tablecloth.",
     exampleVi: "Khăn trải bàn bằng vải gấm.",
-    categories: ["Daily", "Home", "Body"],
+    categories: ["Daily","Home","Body"],
   },
   {
     id: "gen-4778",
@@ -393,12 +379,11 @@ export const D1: VocabularyWord[] = [
     slug: "dame",
     phonetic: "/deɪm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The title of a woman who has been awarded the Order of the British Empire; a woman (informal).",
+    meaningEn: "The title of a woman who has been awarded the Order of the British Empire; a woman (informal).",
     meaningVi: "Phu nhân/Quý bà (tước hiệu).",
     exampleEn: "Dame Judi Dench.",
     exampleVi: "Bà Judi Dench.",
-    categories: ["People", "Social", "History"],
+    categories: ["People","Social","History"],
   },
   {
     id: "gen-4779",
@@ -406,12 +391,11 @@ export const D1: VocabularyWord[] = [
     slug: "damn",
     phonetic: "/dæm/",
     partOfSpeech: "verb/noun/adjective/adverb",
-    meaningEn:
-      "Be condemned by God to suffer eternal punishment in hell; used to express anger or frustration.",
+    meaningEn: "Be condemned by God to suffer eternal punishment in hell; used to express anger or frustration.",
     meaningVi: "Nguyền rủa/Kết án/Tồi tệ/Quá chừng/Lời nguyền rủa.",
     exampleEn: "Damn it!",
     exampleVi: "Chết tiệt!",
-    categories: ["General", "Psychology", "Religion"],
+    categories: ["General","Psychology","Religion"],
   },
   {
     id: "gen-4780",
@@ -423,7 +407,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Đáng nguyền rủa/Tệ hại/Kinh khủng.",
     exampleEn: "Damnable luck.",
     exampleVi: "Vận đen tệ hại.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-4781",
@@ -447,7 +431,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Sự đầy đọa/Sự xuống địa ngục/Lệnh kết án.",
     exampleEn: "Eternal damnation.",
     exampleVi: "Sự đày đọa vĩnh viễn.",
-    categories: ["Religion", "Psychology"],
+    categories: ["Religion","Psychology"],
   },
   {
     id: "gen-4783",
@@ -459,7 +443,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Bị nguyền rủa/Cực kỳ/Tệ hại.",
     exampleEn: "I'll be damned!",
     exampleVi: "Tôi thề là tôi sẽ không bao giờ (làm việc đó)!/Thật là lạ!",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-4784",
@@ -471,7 +455,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Ẩm ướt/Sự ẩm thấp/Làm nản lòng/Làm ẩm.",
     exampleEn: "Damp cloth.",
     exampleVi: "Vải ẩm.",
-    categories: ["General", "Nature", "Psychology"],
+    categories: ["General","Nature","Psychology"],
   },
   {
     id: "gen-4785",
@@ -483,7 +467,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Làm ẩm/Làm nản lòng/Làm giảm bớt.",
     exampleEn: "Dampen spirits.",
     exampleVi: "Làm nản lòng/Làm mất nhuệ khí.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-4786",
@@ -491,12 +475,11 @@ export const D1: VocabularyWord[] = [
     slug: "damper",
     phonetic: "/ˈdæm.pɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person or thing that has a depressing or subduing effect; a device for reducing vibrations.",
+    meaningEn: "A person or thing that has a depressing or subduing effect; a device for reducing vibrations.",
     meaningVi: "Người làm nản lòng/Vật giảm chấn/Tấm ngăn lò.",
     exampleEn: "Put a damper on things.",
     exampleVi: "Làm cho sự việc kém vui/Gây nản lòng.",
-    categories: ["General", "Engineering", "Psychology"],
+    categories: ["General","Engineering","Psychology"],
   },
   {
     id: "gen-4787",
@@ -520,7 +503,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Sự ẩm ướt/Độ ẩm.",
     exampleEn: "High dampness.",
     exampleVi: "Độ ẩm cao.",
-    categories: ["General", "Nature"],
+    categories: ["General","Nature"],
   },
   {
     id: "gen-4789",
@@ -532,7 +515,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Thiếu nữ/Cô gái chưa chồng.",
     exampleEn: "Damsel in distress.",
     exampleVi: "Thiếu nữ gặp nạn.",
-    categories: ["People", "History", "General"],
+    categories: ["People","History","General"],
   },
   {
     id: "gen-4790",
@@ -544,7 +527,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Thanh mai (loại nhỏ, màu tím đen).",
     exampleEn: "Damson jam.",
     exampleVi: "Mứt thanh mai.",
-    categories: ["Food & Drink", "Nature"],
+    categories: ["Food & Drink","Nature"],
   },
   {
     id: "gen-231",
@@ -556,7 +539,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Nhảy, khiêu vũ.",
     exampleEn: "Let's dance!",
     exampleVi: "Hãy nhảy nào!",
-    categories: ["Art", "Social"],
+    categories: ["Art","Social"],
   },
   {
     id: "gen-4792",
@@ -568,7 +551,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Vũ công/Người khiêu vũ.",
     exampleEn: "Professional dancer.",
     exampleVi: "Vũ công chuyên nghiệp.",
-    categories: ["People", "Art", "Business", "Jobs"],
+    categories: ["People","Art","Business","Jobs"],
   },
   {
     id: "gen-4793",
@@ -580,7 +563,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Sự nhảy múa/Sự khiêu vũ.",
     exampleEn: "Dancing lessons.",
     exampleVi: "Các lớp học nhảy.",
-    categories: ["Art", "Daily"],
+    categories: ["Art","Daily"],
   },
   {
     id: "gen-4794",
@@ -588,12 +571,11 @@ export const D1: VocabularyWord[] = [
     slug: "dandelion",
     phonetic: "/ˈdæn.də.laɪ.ən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A widely distributed weed of the daisy family, with a rosette of leaves and large bright yellow flowers.",
+    meaningEn: "A widely distributed weed of the daisy family, with a rosette of leaves and large bright yellow flowers.",
     meaningVi: "Hoa bồ công anh.",
     exampleEn: "Blow away dandelion seeds.",
     exampleVi: "Thổi bay những hạt bồ công anh.",
-    categories: ["Nature", "Plants"],
+    categories: ["Nature","Plants"],
   },
   {
     id: "gen-4795",
@@ -601,12 +583,11 @@ export const D1: VocabularyWord[] = [
     slug: "dandle",
     phonetic: "/ˈdæn.dəl/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Move (a baby or young child) up and down in a playful or affectionate way.",
+    meaningEn: "Move (a baby or young child) up and down in a playful or affectionate way.",
     meaningVi: "Nựng/Ầu ơ/Nhảy nhót trẻ con trên đầu gối.",
     exampleEn: "Dandle the baby.",
     exampleVi: "Nựng em bé.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-4796",
@@ -618,7 +599,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Gàu (trên đầu).",
     exampleEn: "Anti-dandruff shampoo.",
     exampleVi: "Dầu gội trị gàu.",
-    categories: ["Medical", "Body", "Daily"],
+    categories: ["Medical","Body","Daily"],
   },
   {
     id: "gen-4797",
@@ -626,12 +607,11 @@ export const D1: VocabularyWord[] = [
     slug: "dandy",
     phonetic: "/ˈdæn.di/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A man unduly devoted to style, neatness, and fashion in dress and appearance.",
+    meaningEn: "A man unduly devoted to style, neatness, and fashion in dress and appearance.",
     meaningVi: "Công tử bột/Kẻ bảnh bao/Xịn/Tuyệt.",
     exampleEn: "Fine and dandy.",
     exampleVi: "Rất tốt/Tuyệt vời.",
-    categories: ["People", "Body"],
+    categories: ["People","Body"],
   },
   {
     id: "gen-4798",
@@ -643,7 +623,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Người Đan Mạch.",
     exampleEn: "Great Dane.",
     exampleVi: "Giống chó Great Dane (chó Ngao Đan Mạch).",
-    categories: ["People", "Social", "Animals"],
+    categories: ["People","Social","Animals"],
   },
   {
     id: "gen-232",
@@ -691,7 +671,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Đu đưa/Lúc lắc/Treo lủng lẳng.",
     exampleEn: "Dangling keys.",
     exampleVi: "Chùm chìa khóa lủng lẳng.",
-    categories: ["General", "Body"],
+    categories: ["General","Body"],
   },
   {
     id: "gen-4803",
@@ -700,11 +680,10 @@ export const D1: VocabularyWord[] = [
     phonetic: "/ˈdeɪ.nɪʃ/",
     partOfSpeech: "adjective/noun",
     meaningEn: "Relating to Denmark, its people, or their language.",
-    meaningVi:
-      "Thuộc về Đan Mạch/Tiếng Đan Mạch/Bánh sừng bò (loại bánh ngọt).",
+    meaningVi: "Thuộc về Đan Mạch/Tiếng Đan Mạch/Bánh sừng bò (loại bánh ngọt).",
     exampleEn: "Danish pastry.",
     exampleVi: "Bánh ngọt Đan Mạch.",
-    categories: ["Social", "Food & Drink", "General"],
+    categories: ["Social","Food & Drink","General"],
   },
   {
     id: "gen-4804",
@@ -716,7 +695,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Ẩm thấp khó chịu/Mốc.",
     exampleEn: "Dank cellar.",
     exampleVi: "Hầm chứa ẩm mốc.",
-    categories: ["General", "Nature"],
+    categories: ["General","Nature"],
   },
   {
     id: "gen-4805",
@@ -740,7 +719,19 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Nữ vũ công ba lê.",
     exampleEn: "Principal danseuse.",
     exampleVi: "Nữ vũ công chính.",
-    categories: ["People", "Art"],
+    categories: ["People","Art"],
+  },
+  {
+    id: "spec-d-001",
+    word: "DAO",
+    slug: "dao",
+    phonetic: "/diː eɪ oʊ/",
+    partOfSpeech: "noun",
+    meaningEn: "Decentralized Autonomous Organization: an organization represented by rules encoded as a computer program, controlled by its members.",
+    meaningVi: "Tổ chức tự trị phi tập trung: tổ chức có quy tắc được mã hóa dưới dạng chương trình, do các thành viên kiểm soát.",
+    exampleEn: "A DAO can manage pooled funds via smart contracts.",
+    exampleVi: "DAO có thể quản lý quỹ chung thông qua smart contract.",
+    categories: ["Technology","Business"],
   },
   {
     id: "gen-4807",
@@ -752,7 +743,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Bảnh bao/Sáng sủa/Nhỏ nhắn xinh xắn.",
     exampleEn: "Dapper young man.",
     exampleVi: "Chàng trai trẻ bảnh bao.",
-    categories: ["Body", "People"],
+    categories: ["Body","People"],
   },
   {
     id: "gen-4808",
@@ -764,7 +755,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Làm lốm đốm/Vết lốm đốm.",
     exampleEn: "Dapple grey horse.",
     exampleVi: "Con ngựa xám lốm đốm trắng.",
-    categories: ["Body", "General", "Animals"],
+    categories: ["Body","General","Animals"],
   },
   {
     id: "gen-4809",
@@ -776,7 +767,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Lốm đốm/Có vết.",
     exampleEn: "Dappled sunlight.",
     exampleVi: "Ánh nắng lốm đốm (xuyên qua kẽ lá).",
-    categories: ["Nature", "Body"],
+    categories: ["Nature","Body"],
   },
   {
     id: "gen-4810",
@@ -784,12 +775,11 @@ export const D1: VocabularyWord[] = [
     slug: "dare",
     phonetic: "/der/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Have the courage to do something; challenge (someone) to do something.",
+    meaningEn: "Have the courage to do something; challenge (someone) to do something.",
     meaningVi: "Dám/Thách thức/Sự thách thức.",
     exampleEn: "How dare you!",
     exampleVi: "Sao anh dám!",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-4811",
@@ -801,7 +791,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Người táo tợn/Kẻ liều mạng.",
     exampleEn: "Dare-devil stunt.",
     exampleVi: "Phóng xe liều mạng/Màn trình diễn mạo hiểm.",
-    categories: ["People", "Psychology", "General"],
+    categories: ["People","Psychology","General"],
   },
   {
     id: "gen-4812",
@@ -813,7 +803,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Táo bạo/Cả gan/Sự dũng cảm.",
     exampleEn: "Daring rescue.",
     exampleVi: "Cuộc giải cứu táo bạo.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-4813",
@@ -849,7 +839,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Làm tối đi/Trở nên sẫm màu/Làm u ám.",
     exampleEn: "The sky darkened.",
     exampleVi: "Bầu trời tối sầm lại.",
-    categories: ["General", "Nature"],
+    categories: ["General","Nature"],
   },
   {
     id: "gen-fasd",
@@ -861,7 +851,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Tối nhất.",
     exampleEn: "The darkest night.",
     exampleVi: "Đêm tối nhất.",
-    categories: ["General", "Nature"],
+    categories: ["General","Nature"],
   },
   {
     id: "gen-4816",
@@ -873,7 +863,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Một cách tăm tối/u ám/bí mật.",
     exampleEn: "Muttered darkly.",
     exampleVi: "Lẩm bẩm một cách đầy u ám.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-4817",
@@ -885,7 +875,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Bóng tối/Sự tăm tối/Sự mù quáng.",
     exampleEn: "Afraid of the darkness.",
     exampleVi: "Sợ bóng tối.",
-    categories: ["General", "Nature", "Psychology"],
+    categories: ["General","Nature","Psychology"],
   },
   {
     id: "gen-4818",
@@ -897,7 +887,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Phòng tối (rửa ảnh).",
     exampleEn: "Develop film in a darkroom.",
     exampleVi: "Tráng phim trong phòng tối.",
-    categories: ["Art", "General"],
+    categories: ["Art","General"],
   },
   {
     id: "gen-4819",
@@ -909,7 +899,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Người yêu dấu/Cục cưng/Đáng yêu.",
     exampleEn: "Hello, darling!",
     exampleVi: "Chào em yêu/anh yêu!",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-4820",
@@ -917,12 +907,11 @@ export const D1: VocabularyWord[] = [
     slug: "darn",
     phonetic: "/dɑːrn/",
     partOfSpeech: "verb/noun/adjective/adverb",
-    meaningEn:
-      "Mend (a hole in knitted clothing) by interweaving yarn with a needle.",
+    meaningEn: "Mend (a hole in knitted clothing) by interweaving yarn with a needle.",
     meaningVi: "Vá/Mảnh vá/Chết tiệt (lời nhẹ của damn).",
     exampleEn: "Darn the socks.",
     exampleVi: "Vá đôi tất.",
-    categories: ["Daily", "General"],
+    categories: ["Daily","General"],
   },
   {
     id: "gen-4821",
@@ -934,7 +923,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Việc vá/Đồ cần vá.",
     exampleEn: "Darning needle.",
     exampleVi: "Kim vá.",
-    categories: ["Daily", "Business"],
+    categories: ["Daily","Business"],
   },
   {
     id: "gen-4822",
@@ -942,12 +931,11 @@ export const D1: VocabularyWord[] = [
     slug: "dart",
     phonetic: "/dɑːrt/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A small pointed missile with feathers or plastic vanes; move or run somewhere suddenly and rapidly.",
+    meaningEn: "A small pointed missile with feathers or plastic vanes; move or run somewhere suddenly and rapidly.",
     meaningVi: "Phi tiêu/Mũi tên/Sự lao tới/Phóng lao đi.",
     exampleEn: "Darts game.",
     exampleVi: "Trò chơi phóng phi tiêu.",
-    categories: ["Sports", "General", "Animals"],
+    categories: ["Sports","General","Animals"],
   },
   {
     id: "gen-4823",
@@ -955,12 +943,11 @@ export const D1: VocabularyWord[] = [
     slug: "dartboard",
     phonetic: "/ˈdɑːrt.bɔːrd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A circular board with numbers and a central bullseye, used in the game of darts.",
+    meaningEn: "A circular board with numbers and a central bullseye, used in the game of darts.",
     meaningVi: "Bảng phi tiêu.",
     exampleEn: "Hit the bullseye on the dartboard.",
     exampleVi: "Phi trúng hồng tâm trên bảng.",
-    categories: ["Sports", "Daily"],
+    categories: ["Sports","Daily"],
   },
   {
     id: "gen-4824",
@@ -968,12 +955,11 @@ export const D1: VocabularyWord[] = [
     slug: "dash",
     phonetic: "/dæʃ/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Run or travel somewhere in a great hurry; a small amount of something added to something else.",
+    meaningEn: "Run or travel somewhere in a great hurry; a small amount of something added to something else.",
     meaningVi: "Lao tới/Chạy nhanh/Sự hăng hái/Gạch nối/Một chút.",
     exampleEn: "A dash of salt.",
     exampleVi: "Một chút muối.",
-    categories: ["General", "Food & Drink"],
+    categories: ["General","Food & Drink"],
   },
   {
     id: "gen-4825",
@@ -985,7 +971,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Bảng điều khiển (trên xe).",
     exampleEn: "Car dashboard.",
     exampleVi: "Bảng điều khiển xe hơi.",
-    categories: ["Engineering", "Travel", "Technology"],
+    categories: ["Engineering","Travel","Technology"],
   },
   {
     id: "gen-4826",
@@ -993,12 +979,11 @@ export const D1: VocabularyWord[] = [
     slug: "dashing",
     phonetic: "/ˈdæʃ.ɪŋ/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a man) attractive in a confident, exciting, and stylish way.",
+    meaningEn: "(of a man) attractive in a confident, exciting, and stylish way.",
     meaningVi: "Bảnh bao/Sôi nổi/Hào hiệp.",
     exampleEn: "Dashing officer.",
     exampleVi: "Viên sĩ quan bảnh bao.",
-    categories: ["Body", "People"],
+    categories: ["Body","People"],
   },
   {
     id: "gen-4827",
@@ -1010,7 +995,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Kẻ hèn hạ/Kẻ đê tiện.",
     exampleEn: "Dastardly deed.",
     exampleVi: "Hành động hèn hạ.",
-    categories: ["People", "Psychology", "History"],
+    categories: ["People","Psychology","History"],
   },
   {
     id: "gen-4828",
@@ -1022,7 +1007,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Hèn hạ/Đê tiện/Độc ác.",
     exampleEn: "Dastardly plot.",
     exampleVi: "Âm mưu đê tiện.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "a2-190",
@@ -1030,12 +1015,11 @@ export const D1: VocabularyWord[] = [
     slug: "data",
     phonetic: "/ˈdeɪ.tə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Facts and statistics collected together for reference or analysis.",
+    meaningEn: "Facts and statistics collected together for reference or analysis.",
     meaningVi: "Dữ liệu.",
     exampleEn: "Process the data.",
     exampleVi: "Xử lý dữ liệu.",
-    categories: ["Technology", "Business"],
+    categories: ["Technology","Business"],
   },
   {
     id: "b1-93",
@@ -1043,8 +1027,7 @@ export const D1: VocabularyWord[] = [
     slug: "database",
     phonetic: "/ˈdeɪ.tə.beɪs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A structured set of data held in a computer, especially one that is accessible in various ways.",
+    meaningEn: "A structured set of data held in a computer, especially one that is accessible in various ways.",
     meaningVi: "Cơ sở dữ liệu.",
     exampleEn: "The customer information is stored in a database.",
     exampleVi: "Thông tin khách hàng được lưu trữ trong một cơ sở dữ liệu.",
@@ -1072,7 +1055,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Không có ngày tháng/Vĩnh cửu/Không lỗi thời.",
     exampleEn: "Dateless antiques.",
     exampleVi: "Những món đồ cổ không ghi niên đại.",
-    categories: ["History", "General"],
+    categories: ["History","General"],
   },
   {
     id: "gen-4832",
@@ -1080,12 +1063,11 @@ export const D1: VocabularyWord[] = [
     slug: "dative",
     phonetic: "/ˈdeɪ.t̬ɪv/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "Relating to or denoting a case of nouns and pronouns (in some languages) used for the indirect object of a verb.",
+    meaningEn: "Relating to or denoting a case of nouns and pronouns (in some languages) used for the indirect object of a verb.",
     meaningVi: "Gián cách (trong ngôn ngữ học).",
     exampleEn: "Dative case.",
     exampleVi: "Cách gián cách.",
-    categories: ["Education", "Social"],
+    categories: ["Education","Social"],
   },
   {
     id: "gen-4833",
@@ -1097,7 +1079,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Một dữ liệu/Số liệu đơn lẻ.",
     exampleEn: "A key datum.",
     exampleVi: "Một dữ liệu chủ chốt.",
-    categories: ["Science", "Technology"],
+    categories: ["Science","Technology"],
   },
   {
     id: "gen-4834",
@@ -1105,12 +1087,11 @@ export const D1: VocabularyWord[] = [
     slug: "daub",
     phonetic: "/dɔːb/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Coat or smear (a surface) with a thick or sticky substance in a carelessly rough or liberal way.",
+    meaningEn: "Coat or smear (a surface) with a thick or sticky substance in a carelessly rough or liberal way.",
     meaningVi: "Phết/Bôi/Trét/Bức vẽ tồi.",
     exampleEn: "Daub with paint.",
     exampleVi: "Phết sơn.",
-    categories: ["General", "Art"],
+    categories: ["General","Art"],
   },
   {
     id: "gen-238",
@@ -1134,7 +1115,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Con dâu.",
     exampleEn: "Kind daughter-in-law.",
     exampleVi: "Nàng dâu tốt bụng.",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-4837",
@@ -1146,7 +1127,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Làm nản lòng/Làm nao núng.",
     exampleEn: "Nothing could daunt him.",
     exampleVi: "Không gì có thể làm anh ta nao núng.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-4838",
@@ -1158,7 +1139,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Bất khuất/Dũng cảm/Không sợ hãi.",
     exampleEn: "Dauntless warriors.",
     exampleVi: "Những chiến binh dũng cảm.",
-    categories: ["Psychology", "General", "History"],
+    categories: ["Psychology","General","History"],
   },
   {
     id: "gen-4839",
@@ -1182,7 +1163,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Thái tử nước Pháp (trước năm 1830).",
     exampleEn: "Young dauphin.",
     exampleVi: "Thái tử trẻ.",
-    categories: ["People", "History", "Politics"],
+    categories: ["People","History","Politics"],
   },
   {
     id: "gen-4841",
@@ -1194,7 +1175,7 @@ export const D1: VocabularyWord[] = [
     meaningVi: "Lề mề/Nhởn nhơ/Phí thời gian.",
     exampleEn: "Stop dawdling!",
     exampleVi: "Đừng có lề mề nữa!",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-4842",
@@ -1202,12 +1183,11 @@ export const D1: VocabularyWord[] = [
     slug: "dawn",
     phonetic: "/dɔːn/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "The first appearance of light in the sky before sunrise; start to become clear.",
+    meaningEn: "The first appearance of light in the sky before sunrise; start to become clear.",
     meaningVi: "Bình minh/Rạng đông/Sự bắt đầu/Hiện ra/Ló rạng.",
     exampleEn: "At the dawn of history.",
     exampleVi: "Vào thời kỳ rạng đông của lịch sử.",
-    categories: ["Nature", "General", "History"],
+    categories: ["Nature","General","History"],
   },
   {
     id: "a1-154",
@@ -1220,29 +1200,5 @@ export const D1: VocabularyWord[] = [
     exampleEn: "Have a nice day!",
     exampleVi: "Chúc một ngày tốt lành!",
     categories: ["Daily"],
-  },
-  {
-    id: "gen-4844",
-    word: "Day-boarder",
-    slug: "day-boarder",
-    phonetic: "/ˈdeɪˌbɔːrdər/",
-    partOfSpeech: "noun",
-    meaningEn: "A student who eats meals at school but does not sleep there.",
-    meaningVi: "Học sinh bán trú.",
-    exampleEn: "Primary school day-boarder.",
-    exampleVi: "Học sinh bán trú tiểu học.",
-    categories: ["Education", "People"],
-  },
-  {
-    id: "gen-4845",
-    word: "Day-break",
-    slug: "day-break",
-    phonetic: "/ˈdeɪ.breɪk/",
-    partOfSpeech: "noun",
-    meaningEn: "The time in the morning when daylight first appears.",
-    meaningVi: "Rạng đông/Lúc tảng sáng.",
-    exampleEn: "Wake up at day-break.",
-    exampleVi: "Thức dậy khi vừa tảng sáng.",
-    categories: ["Nature", "General"],
-  },
+  }
 ];

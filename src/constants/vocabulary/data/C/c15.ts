@@ -2,6 +2,18 @@ import { VocabularyWord } from "../../types";
 
 export const C15: VocabularyWord[] = [
   {
+    id: "gen-4082",
+    word: "Cornucopia",
+    slug: "cornucopia",
+    phonetic: "/ˌkɔːr.njəˈkoʊ.pi.ə/",
+    partOfSpeech: "noun",
+    meaningEn: "A symbol of plenty consisting of a goat's horn overflowing with flowers, fruit, and corn.",
+    meaningVi: "Chiếc sừng sung túc/Sự phong phú dồi dào.",
+    exampleEn: "A cornucopia of ideas.",
+    exampleVi: "Một kho tàng ý tưởng dồi dào.",
+    categories: ["General","History","Literature"],
+  },
+  {
     id: "gen-4083",
     word: "Cornute",
     slug: "cornute",
@@ -11,7 +23,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Có sừng/Có hình sừng.",
     exampleEn: "Cornute ornament.",
     exampleVi: "Đồ trang trí hình sừng.",
-    categories: ["General", "Nature"],
+    categories: ["General","Nature"],
   },
   {
     id: "gen-4084",
@@ -23,7 +35,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Sến súa/Cũ rích/Ngớ ngẩn.",
     exampleEn: "Corny joke.",
     exampleVi: "Trò đùa cũ rích/nhạt nhẽo.",
-    categories: ["Social", "Psychology"],
+    categories: ["Social","Psychology"],
   },
   {
     id: "gen-4085",
@@ -31,12 +43,11 @@ export const C15: VocabularyWord[] = [
     slug: "corolla",
     phonetic: "/kəˈrɑː.lə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The petals of a flower, typically forming a whorl within the sepals.",
+    meaningEn: "The petals of a flower, typically forming a whorl within the sepals.",
     meaningVi: "Tràng hoa.",
     exampleEn: "Bright corolla.",
     exampleVi: "Tràng hoa rực rỡ.",
-    categories: ["Science", "Nature"],
+    categories: ["Science","Nature"],
   },
   {
     id: "gen-4086",
@@ -48,7 +59,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Hệ quả/Kết quả tất yếu.",
     exampleEn: "Inevitably corollary.",
     exampleVi: "Hệ quả tất yếu.",
-    categories: ["Science", "Mathematics", "General"],
+    categories: ["Science","Mathematics","General"],
   },
   {
     id: "gen-4087",
@@ -60,7 +71,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Vành nhật hoa/Hào quang/Vương miện.",
     exampleEn: "Solar corona.",
     exampleVi: "Vành nhật hoa của mặt trời.",
-    categories: ["Science", "Space", "General"],
+    categories: ["Science","Space","General"],
   },
   {
     id: "gen-4088",
@@ -68,12 +79,11 @@ export const C15: VocabularyWord[] = [
     slug: "coronal",
     phonetic: "/kəˈroʊ.nəl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to the corona of the sun or a star; relating to the crown of the head.",
+    meaningEn: "Relating to the corona of the sun or a star; relating to the crown of the head.",
     meaningVi: "Thuộc về vành nhật hoa/Thuộc về đỉnh đầu.",
     exampleEn: "Coronal discharge.",
     exampleVi: "Sự phóng điện vành quang.",
-    categories: ["Science", "Medical"],
+    categories: ["Science","Medical"],
   },
   {
     id: "gen-4089",
@@ -85,7 +95,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Thuộc về mạch vành.",
     exampleEn: "Coronary artery disease.",
     exampleVi: "Bệnh động mạch vành.",
-    categories: ["Medical", "Medical"],
+    categories: ["Medical","Medical"],
   },
   {
     id: "gen-4090",
@@ -97,7 +107,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Lễ đăng quang.",
     exampleEn: "Royal coronation.",
     exampleVi: "Lễ đăng quang của hoàng gia.",
-    categories: ["Politics", "History", "Social"],
+    categories: ["Politics","History","Social"],
   },
   {
     id: "gen-4091",
@@ -105,12 +115,11 @@ export const C15: VocabularyWord[] = [
     slug: "coroner",
     phonetic: "/ˈkɔːr.ə.nɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An official who investigates violent, sudden, or suspicious deaths.",
+    meaningEn: "An official who investigates violent, sudden, or suspicious deaths.",
     meaningVi: "Người khám nghiệm tử thi/Điều tra viên pháp y.",
     exampleEn: "County coroner.",
     exampleVi: "Điều tra viên pháp y của quận.",
-    categories: ["People", "Medical", "Law"],
+    categories: ["People","Medical","Law"],
   },
   {
     id: "gen-4092",
@@ -122,7 +131,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Vương miện nhỏ/Vòng hoa đeo đầu (trang trí).",
     exampleEn: "Bespangled coronet.",
     exampleVi: "Vương miện nhỏ lấp lánh.",
-    categories: ["History", "Body", "Art"],
+    categories: ["History","Body","Art"],
   },
   {
     id: "gen-4093",
@@ -130,12 +139,11 @@ export const C15: VocabularyWord[] = [
     slug: "corporal",
     phonetic: "/ˈkɔːr.pɚ.əl/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "Relating to the human body; a low-ranking non-commissioned officer.",
+    meaningEn: "Relating to the human body; a low-ranking non-commissioned officer.",
     meaningVi: "Thuộc về thân thể/Hạ sĩ.",
     exampleEn: "Corporal punishment.",
     exampleVi: "Hình phạt thân thể.",
-    categories: ["Law", "Medical", "Politics"],
+    categories: ["Law","Medical","Politics"],
   },
   {
     id: "b1-176",
@@ -155,8 +163,7 @@ export const C15: VocabularyWord[] = [
     slug: "corporation",
     phonetic: "/ˌkɔːr.pəˈreɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A large company or group of companies authorized to act as a single entity.",
+    meaningEn: "A large company or group of companies authorized to act as a single entity.",
     meaningVi: "Tập đoàn/Công ty.",
     exampleEn: "Multinational corporation.",
     exampleVi: "Tập đoàn đa quốc gia.",
@@ -168,12 +175,11 @@ export const C15: VocabularyWord[] = [
     slug: "corporatism",
     phonetic: "/ˈkɔːr.pɚ.ə.tɪz.əm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The control of a state or organization by large interest groups.",
+    meaningEn: "The control of a state or organization by large interest groups.",
     meaningVi: "Chủ nghĩa nghiệp đoàn.",
     exampleEn: "State corporatism.",
     exampleVi: "Chủ nghĩa nghiệp đoàn nhà nước.",
-    categories: ["Politics", "Business"],
+    categories: ["Politics","Business"],
   },
   {
     id: "gen-4097",
@@ -181,12 +187,11 @@ export const C15: VocabularyWord[] = [
     slug: "corporeal",
     phonetic: "/kɔːrˈpɔːr.i.əl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to a person's body, especially as opposed to their spirit.",
+    meaningEn: "Relating to a person's body, especially as opposed to their spirit.",
     meaningVi: "Hữu hình/Vật chất/Thuộc về thân thể.",
     exampleEn: "Corporeal existence.",
     exampleVi: "Sự tồn tại hữu hình.",
-    categories: ["Philosophy", "General", "Medical"],
+    categories: ["Philosophy","General","Medical"],
   },
   {
     id: "gen-4098",
@@ -198,7 +203,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Quân đoàn/Đoàn/Nhóm.",
     exampleEn: "Press corps.",
     exampleVi: "Đoàn báo chí.",
-    categories: ["Politics", "Social", "Business"],
+    categories: ["Politics","Social","Business"],
   },
   {
     id: "gen-4099",
@@ -206,12 +211,11 @@ export const C15: VocabularyWord[] = [
     slug: "corpse",
     phonetic: "/kɔːrps/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A dead body, especially of a human being rather than an animal.",
+    meaningEn: "A dead body, especially of a human being rather than an animal.",
     meaningVi: "Xác chết/Tử thi.",
     exampleEn: "Discover a corpse.",
     exampleVi: "Phát hiện một tử thi.",
-    categories: ["Medical", "Social"],
+    categories: ["Medical","Social"],
   },
   {
     id: "gen-4100",
@@ -223,7 +227,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Sự béo tốt/Sự phì nhiêu (thân thể).",
     exampleEn: "Struggle with corpulence.",
     exampleVi: "Đấu tranh với sự béo phì.",
-    categories: ["General", "Medical"],
+    categories: ["General","Medical"],
   },
   {
     id: "gen-4101",
@@ -235,7 +239,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Béo tốt/Mập mạp.",
     exampleEn: "Corpulent man.",
     exampleVi: "Người đàn ông mập mạp.",
-    categories: ["General", "Body"],
+    categories: ["General","Body"],
   },
   {
     id: "gen-4102",
@@ -247,7 +251,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Tập ngữ liệu/Bộ sưu tập văn bản/Xác.",
     exampleEn: "Text corpus.",
     exampleVi: "Kho ngữ liệu văn bản.",
-    categories: ["Literature", "Education", "Technology"],
+    categories: ["Literature","Education","Technology"],
   },
   {
     id: "gen-4103",
@@ -255,12 +259,11 @@ export const C15: VocabularyWord[] = [
     slug: "corpuscle",
     phonetic: "/ˈkɔːr.pəs.əl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A minute body or cell in an organism, especially a red or white cell in the blood.",
+    meaningEn: "A minute body or cell in an organism, especially a red or white cell in the blood.",
     meaningVi: "Huyết cầu/Hạt (vật lý cũ).",
     exampleEn: "Blood corpuscles.",
     exampleVi: "Các huyết cầu.",
-    categories: ["Science", "Medical", "Biology"],
+    categories: ["Science","Medical","Biology"],
   },
   {
     id: "gen-4104",
@@ -272,7 +275,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Mài mòn/Xâm thực.",
     exampleEn: "Corraded rocks.",
     exampleVi: "Những tảng đá bị mài mòn.",
-    categories: ["Science", "Geography"],
+    categories: ["Science","Geography"],
   },
   {
     id: "gen-4105",
@@ -284,7 +287,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Sự mài mòn cơ học (địa chất).",
     exampleEn: "Glacial corrasion.",
     exampleVi: "Sự mài mòn do băng hà.",
-    categories: ["Science", "Geography"],
+    categories: ["Science","Geography"],
   },
   {
     id: "a2-52",
@@ -320,7 +323,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Sự sửa chữa/Sự trừng phạt (cải huấn).",
     exampleEn: "Make corrections.",
     exampleVi: "Thực hiện các chỉnh sửa.",
-    categories: ["General", "Education", "Law"],
+    categories: ["General","Education","Law"],
   },
   {
     id: "gen-4109",
@@ -328,12 +331,11 @@ export const C15: VocabularyWord[] = [
     slug: "correctional",
     phonetic: "/kəˈrek.ʃən.əl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Relating to the punishment of criminals in a way intended to rectify their behavior.",
+    meaningEn: "Relating to the punishment of criminals in a way intended to rectify their behavior.",
     meaningVi: "Thuộc về cải huấn/Trừng phạt.",
     exampleEn: "Correctional facility.",
     exampleVi: "Cơ sở cải huấn/Nhà tù.",
-    categories: ["Law", "Politics"],
+    categories: ["Law","Politics"],
   },
   {
     id: "gen-4111",
@@ -345,7 +347,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Sự đoan trang/Sự đúng đắn (lễ nghi/hành vi).",
     exampleEn: "Proper correctitude.",
     exampleVi: "Sự đúng đắn về lễ nghi.",
-    categories: ["Psychology", "Social"],
+    categories: ["Psychology","Social"],
   },
   {
     id: "gen-4110",
@@ -353,12 +355,11 @@ export const C15: VocabularyWord[] = [
     slug: "corrective",
     phonetic: "/kəˈrek.tɪv/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "Designed to correct or counteract something harmful or undesirable.",
+    meaningEn: "Designed to correct or counteract something harmful or undesirable.",
     meaningVi: "Để sửa chữa/Để ngăn chặn (điều xấu).",
     exampleEn: "Corrective measures.",
     exampleVi: "Các biện pháp khắc phục.",
-    categories: ["General", "Medical", "Law"],
+    categories: ["General","Medical","Law"],
   },
   {
     id: "gen-4112",
@@ -370,7 +371,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Tính chính xác/Sự đúng đắn.",
     exampleEn: "Political correctness.",
     exampleVi: "Sự đúng đắn về mặt chính trị.",
-    categories: ["General", "Politics"],
+    categories: ["General","Politics"],
   },
   {
     id: "gen-4113",
@@ -382,7 +383,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Người sửa lỗi/Bộ sửa lỗi.",
     exampleEn: "Grammar corrector.",
     exampleVi: "Phần mềm sửa lỗi ngữ pháp.",
-    categories: ["People", "Technology", "Education"],
+    categories: ["People","Technology","Education"],
   },
   {
     id: "gen-4114",
@@ -394,7 +395,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Tương quan/Có liên quan lẫn nhau.",
     exampleEn: "Correlate with age.",
     exampleVi: "Tương quan với độ tuổi.",
-    categories: ["Science", "Mathematics", "General"],
+    categories: ["Science","Mathematics","General"],
   },
   {
     id: "c1-234",
@@ -402,12 +403,11 @@ export const C15: VocabularyWord[] = [
     slug: "correlation",
     phonetic: "/ˌkɔːr.əˈleɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A mutual relationship or connection between two or more things.",
+    meaningEn: "A mutual relationship or connection between two or more things.",
     meaningVi: "Sự tương quan.",
     exampleEn: "Statistical correlation.",
     exampleVi: "Sự tương quan thống kê.",
-    categories: ["Academic", "Technology"],
+    categories: ["Academic","Technology"],
   },
   {
     id: "gen-4116",
@@ -419,7 +419,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Tương quan lẫn nhau/Cùng quan hệ.",
     exampleEn: "Correlative conjunctions.",
     exampleVi: "Các cặp liên từ tương quan (ví dụ: both...and).",
-    categories: ["Literature", "Science"],
+    categories: ["Literature","Science"],
   },
   {
     id: "gen-4117",
@@ -427,12 +427,11 @@ export const C15: VocabularyWord[] = [
     slug: "correspond",
     phonetic: "/ˌkɔːr.əˈspɑːnd/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Have a close similarity; match or agree almost exactly; communicate by exchanging letters.",
+    meaningEn: "Have a close similarity; match or agree almost exactly; communicate by exchanging letters.",
     meaningVi: "Tương ứng/Trao đổi thư từ.",
     exampleEn: "Correspond with evidence.",
     exampleVi: "Khớp với bằng chứng.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-4118",
@@ -444,7 +443,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Sự tương ứng/Thư từ trao đổi.",
     exampleEn: "Business correspondence.",
     exampleVi: "Thư từ giao dịch thương mại.",
-    categories: ["General", "Social", "Business"],
+    categories: ["General","Social","Business"],
   },
   {
     id: "gen-4119",
@@ -452,12 +451,11 @@ export const C15: VocabularyWord[] = [
     slug: "correspondent",
     phonetic: "/ˌkɔːr.əˈspɑːn.dənt/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A person who writes letters to a person or a newspaper; a reporter.",
+    meaningEn: "A person who writes letters to a person or a newspaper; a reporter.",
     meaningVi: "Phóng viên thường trú/Người viết thư.",
     exampleEn: "Foreign correspondent.",
     exampleVi: "Phóng viên thường trú nước ngoài.",
-    categories: ["People", "Business", "Media"],
+    categories: ["People","Business","Media"],
   },
   {
     id: "gen-4120",
@@ -481,7 +479,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Hành lang.",
     exampleEn: "Hotel corridor.",
     exampleVi: "Hành lang khách sạn.",
-    categories: ["Architecture", "General"],
+    categories: ["Architecture","General"],
   },
   {
     id: "gen-4122",
@@ -493,7 +491,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Lời đính chính/Lỗi cần sửa.",
     exampleEn: "List of corrigenda.",
     exampleVi: "Danh sách đính chính.",
-    categories: ["Literature", "Education"],
+    categories: ["Literature","Education"],
   },
   {
     id: "gen-4123",
@@ -505,7 +503,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Có thể sửa được/Dễ uốn nắn.",
     exampleEn: "Corrigible child.",
     exampleVi: "Đứa trẻ dễ uốn nắn.",
-    categories: ["Psychology", "Education"],
+    categories: ["Psychology","Education"],
   },
   {
     id: "gen-4125",
@@ -517,7 +515,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Xác nhận/Chứng thực (bằng chứng/lời khai).",
     exampleEn: "Corroborate the story.",
     exampleVi: "Chứng thực câu chuyện.",
-    categories: ["Law", "Science", "General"],
+    categories: ["Law","Science","General"],
   },
   {
     id: "gen-4126",
@@ -525,12 +523,11 @@ export const C15: VocabularyWord[] = [
     slug: "corroboration",
     phonetic: "/kəˌrɑː.bəˈreɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Evidence that confirms or supports a statement, theory, or finding; confirmation.",
+    meaningEn: "Evidence that confirms or supports a statement, theory, or finding; confirmation.",
     meaningVi: "Sự chứng thực/Bằng chứng hỗ trợ.",
     exampleEn: "Lack of corroboration.",
     exampleVi: "Thiếu sự chứng thực.",
-    categories: ["Law", "Science", "General"],
+    categories: ["Law","Science","General"],
   },
   {
     id: "gen-4127",
@@ -542,7 +539,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Có tính chứng thực.",
     exampleEn: "Corroborative evidence.",
     exampleVi: "Bằng chứng chứng thực.",
-    categories: ["Law", "Science"],
+    categories: ["Law","Science"],
   },
   {
     id: "gen-4124",
@@ -554,7 +551,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Lễ hội nhảy múa của thổ dân Úc.",
     exampleEn: "Annual corroboree.",
     exampleVi: "Lễ hội corroboree hàng năm.",
-    categories: ["History", "Social", "Art"],
+    categories: ["History","Social","Art"],
   },
   {
     id: "gen-4128",
@@ -562,12 +559,11 @@ export const C15: VocabularyWord[] = [
     slug: "corrode",
     phonetic: "/kəˈroʊd/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Destroy or damage (metal, stone, or other materials) slowly by chemical action.",
+    meaningEn: "Destroy or damage (metal, stone, or other materials) slowly by chemical action.",
     meaningVi: "Ăn mòn/Gỉ sét.",
     exampleEn: "Acid corrodes metal.",
     exampleVi: "A-xít ăn mòn kim loại.",
-    categories: ["Science", "Chemistry", "Engineering"],
+    categories: ["Science","Chemistry","Engineering"],
   },
   {
     id: "gen-4129",
@@ -579,7 +575,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Sự ăn mòn.",
     exampleEn: "Corrosion resistance.",
     exampleVi: "Khả năng chống ăn mòn.",
-    categories: ["Science", "Engineering"],
+    categories: ["Science","Engineering"],
   },
   {
     id: "gen-4130",
@@ -591,7 +587,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Gây ăn mòn/Chất ăn mòn.",
     exampleEn: "Corrosive substance.",
     exampleVi: "Chất ăn mòn.",
-    categories: ["Science", "Chemistry"],
+    categories: ["Science","Chemistry"],
   },
   {
     id: "gen-4131",
@@ -603,7 +599,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Gợn sóng/Làm nhăn/Gấp nếp.",
     exampleEn: "Corrugate iron.",
     exampleVi: "Làm gợn sóng sắt (tôn).",
-    categories: ["Engineering", "General"],
+    categories: ["Engineering","General"],
   },
   {
     id: "gen-4132",
@@ -611,12 +607,11 @@ export const C15: VocabularyWord[] = [
     slug: "corrugated",
     phonetic: "/ˈkɔːr.ə.ɡeɪ.t̬ɪd/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "(of a material, surface, or structure) shaped into alternate ridges and grooves.",
+    meaningEn: "(of a material, surface, or structure) shaped into alternate ridges and grooves.",
     meaningVi: "Được gấp nếp/Dạng gợn sóng.",
     exampleEn: "Corrugated cardboard.",
     exampleVi: "Các-tông gợn sóng.",
-    categories: ["Engineering", "Business"],
+    categories: ["Engineering","Business"],
   },
   {
     id: "gen-4133",
@@ -628,7 +623,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Sự gấp nếp/Sự gợn sóng/Nếp nhăn.",
     exampleEn: "Surface corrugations.",
     exampleVi: "Các nếp gợn sóng bề mặt.",
-    categories: ["Engineering", "General"],
+    categories: ["Engineering","General"],
   },
   {
     id: "gen-4134",
@@ -636,12 +631,11 @@ export const C15: VocabularyWord[] = [
     slug: "corrupt",
     phonetic: "/kəˈrʌpt/",
     partOfSpeech: "adjective/verb",
-    meaningEn:
-      "Having or showing a willingness to act dishonestly in return for money or personal gain.",
+    meaningEn: "Having or showing a willingness to act dishonestly in return for money or personal gain.",
     meaningVi: "Tham nhũng/Hư hỏng/Đồi bại.",
     exampleEn: "Corrupt official.",
     exampleVi: "Quan chức tham nhũng.",
-    categories: ["Politics", "Social", "Technology"],
+    categories: ["Politics","Social","Technology"],
   },
   {
     id: "gen-4135",
@@ -653,7 +647,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Tính dễ bị mua chuộc/dễ tham nhũng.",
     exampleEn: "High corruptibility.",
     exampleVi: "Dễ bị lôi kéo/mua chuộc.",
-    categories: ["Psychology", "Politics"],
+    categories: ["Psychology","Politics"],
   },
   {
     id: "gen-4136",
@@ -665,7 +659,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Có thể bị mua chuộc.",
     exampleEn: "Corruptible nature.",
     exampleVi: "Bản chất dễ bị mua chuộc.",
-    categories: ["Psychology", "Politics"],
+    categories: ["Psychology","Politics"],
   },
   {
     id: "gen-4137",
@@ -677,7 +671,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Sự tham nhũng/Sự đồi bại/Lỗi dữ liệu (IT).",
     exampleEn: "Fight corruption.",
     exampleVi: "Chống tham nhũng.",
-    categories: ["Politics", "Social", "Technology"],
+    categories: ["Politics","Social","Technology"],
   },
   {
     id: "gen-4138",
@@ -689,7 +683,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Một cách tham nhũng/đồi bại.",
     exampleEn: "Acted corruptly.",
     exampleVi: "Đã hành động một cách đồi bại/tham nhũng.",
-    categories: ["Politics", "Social"],
+    categories: ["Politics","Social"],
   },
   {
     id: "gen-4142",
@@ -697,12 +691,11 @@ export const C15: VocabularyWord[] = [
     slug: "corsage",
     phonetic: "/kɔːrˈsɑːʒ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A small bouquet of flowers worn on a woman's dress or around her wrist.",
+    meaningEn: "A small bouquet of flowers worn on a woman's dress or around her wrist.",
     meaningVi: "Bó hoa nhỏ cài áo/đeo tay.",
     exampleEn: "Orchid corsage.",
     exampleVi: "Bó hoa lan cài áo.",
-    categories: ["Body", "Social"],
+    categories: ["Body","Social"],
   },
   {
     id: "gen-4139",
@@ -714,7 +707,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Hải tặc (vùng Berbery)/Tàu hải tặc.",
     exampleEn: "Legendary corsair.",
     exampleVi: "Hải tặc huyền thoại.",
-    categories: ["People", "History", "Travel"],
+    categories: ["People","History","Travel"],
   },
   {
     id: "gen-4140",
@@ -726,7 +719,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Áo giáp che thân/Áo nịt ngực (cũ).",
     exampleEn: "Steel corselet.",
     exampleVi: "Áo giáp thép.",
-    categories: ["History", "Body"],
+    categories: ["History","Body"],
   },
   {
     id: "gen-4141",
@@ -734,12 +727,11 @@ export const C15: VocabularyWord[] = [
     slug: "corset",
     phonetic: "/ˈkɔːr.sət/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A woman's tightly fitting undergarment extending from below the chest to the hips, worn to shape the figure.",
+    meaningEn: "A woman's tightly fitting undergarment extending from below the chest to the hips, worn to shape the figure.",
     meaningVi: "Áo nịt bụng/Áo coóc-xê.",
     exampleEn: "Tight corset.",
     exampleVi: "Áo nịt bụng bó sát.",
-    categories: ["Body", "Daily"],
+    categories: ["Body","Daily"],
   },
   {
     id: "gen-4143",
@@ -751,7 +743,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Đoàn tùy tùng/Đám rước (đám tang).",
     exampleEn: "Funeral cortege.",
     exampleVi: "Đoàn xe tang.",
-    categories: ["Social", "History"],
+    categories: ["Social","History"],
   },
   {
     id: "gen-4144",
@@ -763,7 +755,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Quốc hội Tây Ban Nha hoặc Bồ Đào Nha.",
     exampleEn: "Member of the Cortes.",
     exampleVi: "Nghị sĩ của Cortes.",
-    categories: ["Politics", "History"],
+    categories: ["Politics","History"],
   },
   {
     id: "gen-4145",
@@ -771,12 +763,11 @@ export const C15: VocabularyWord[] = [
     slug: "cortex",
     phonetic: "/ˈkɔːr.teks/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The outer layer of the cerebrum; the outer layer of another organ or biological structure.",
+    meaningEn: "The outer layer of the cerebrum; the outer layer of another organ or biological structure.",
     meaningVi: "Vỏ não/Vỏ (thực vật, cơ quan).",
     exampleEn: "Cerebral cortex.",
     exampleVi: "Vỏ não.",
-    categories: ["Science", "Medical", "Biology"],
+    categories: ["Science","Medical","Biology"],
   },
   {
     id: "gen-4146",
@@ -788,7 +779,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Thuộc về vỏ não/Thuộc về vỏ.",
     exampleEn: "Cortical activity.",
     exampleVi: "Hoạt động vỏ não.",
-    categories: ["Science", "Medical", "Biology"],
+    categories: ["Science","Medical","Biology"],
   },
   {
     id: "gen-4147",
@@ -796,12 +787,11 @@ export const C15: VocabularyWord[] = [
     slug: "corticosteroid",
     phonetic: "/ˌkɔːr.t̬ɪ.koʊˈstɪr.ɔɪd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Any of a group of steroid hormones produced in the adrenal cortex.",
+    meaningEn: "Any of a group of steroid hormones produced in the adrenal cortex.",
     meaningVi: "Hoóc-môn vỏ thượng thận.",
     exampleEn: "Corticosteroid treatment.",
     exampleVi: "Điều trị bằng corticosteroid.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-4148",
@@ -813,7 +803,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Hoóc-môn cortisol (thường gọi là hoóc-môn căng thẳng).",
     exampleEn: "Stress hormone cortisol.",
     exampleVi: "Hoóc-môn căng thẳng cortisol.",
-    categories: ["Science", "Medical", "Psychology"],
+    categories: ["Science","Medical","Psychology"],
   },
   {
     id: "gen-4149",
@@ -825,7 +815,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Khoáng vật corundum (nhôm oxit).",
     exampleEn: "Ruby is a variety of corundum.",
     exampleVi: "Hồng ngọc là một biến thể của corundum.",
-    categories: ["Science", "Nature"],
+    categories: ["Science","Nature"],
   },
   {
     id: "gen-4151",
@@ -837,7 +827,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Lấp lánh/Sáng bóng/Rực rỡ.",
     exampleEn: "Coruscant colors.",
     exampleVi: "Những màu sắc rực rỡ.",
-    categories: ["Literature", "Body"],
+    categories: ["Literature","Body"],
   },
   {
     id: "gen-4150",
@@ -849,7 +839,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Lấp lánh/Chiếu sáng rực rỡ/Sáng ngời (trí tuệ).",
     exampleEn: "Coruscating wit.",
     exampleVi: "Sự thông minh rực sáng.",
-    categories: ["Literature", "Body", "Psychology"],
+    categories: ["Literature","Body","Psychology"],
   },
   {
     id: "gen-4152",
@@ -861,7 +851,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Tàu hộ tống/Tàu chiến nhỏ.",
     exampleEn: "Naval corvette.",
     exampleVi: "Tàu hộ tống hải quân.",
-    categories: ["Travel", "Politics", "Engineering"],
+    categories: ["Travel","Politics","Engineering"],
   },
   {
     id: "gen-4153",
@@ -873,7 +863,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Cụm hoa mang (thực vật).",
     exampleEn: "Dense corymb.",
     exampleVi: "Cụm hoa mọc dày.",
-    categories: ["Science", "Nature"],
+    categories: ["Science","Nature"],
   },
   {
     id: "gen-4154",
@@ -885,7 +875,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Người chỉ huy dàn hợp xướng.",
     exampleEn: "Ancient Greek coryphaeus.",
     exampleVi: "Người chỉ huy hợp xướng Hy Lạp cổ đại.",
-    categories: ["People", "Music", "History"],
+    categories: ["People","Music","History"],
   },
   {
     id: "gen-4155",
@@ -897,7 +887,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Xà lách Cos/Xà lách Romaine.",
     exampleEn: "Cos lettuce.",
     exampleVi: "Xà lách Cos.",
-    categories: ["Food & Drink", "Nature"],
+    categories: ["Food & Drink","Nature"],
   },
   {
     id: "gen-4156",
@@ -905,12 +895,11 @@ export const C15: VocabularyWord[] = [
     slug: "cosecant",
     phonetic: "/ˌkoʊˈsiː.kənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The ratio of the hypotenuse to the opposite side of a right-angled triangle.",
+    meaningEn: "The ratio of the hypotenuse to the opposite side of a right-angled triangle.",
     meaningVi: "Cô-sê-can (toán học).",
     exampleEn: "Calculate the cosecant.",
     exampleVi: "Tính cô-sê-can.",
-    categories: ["Mathematics", "Science"],
+    categories: ["Mathematics","Science"],
   },
   {
     id: "gen-4158",
@@ -922,7 +911,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Người cùng ký tên/Người bảo lãnh ký cùng.",
     exampleEn: "Need a cosigner.",
     exampleVi: "Cần một người cùng ký tên bảo lãnh.",
-    categories: ["People", "Business", "Law"],
+    categories: ["People","Business","Law"],
   },
   {
     id: "gen-4159",
@@ -934,7 +923,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Mỹ phẩm/Thuộc về thẩm mỹ.",
     exampleEn: "Cosmetic surgery.",
     exampleVi: "Phẫu thuật thẩm mỹ.",
-    categories: ["Daily", "Body", "Medical"],
+    categories: ["Daily","Body","Medical"],
   },
   {
     id: "gen-4160",
@@ -946,7 +935,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Chuyên viên thẩm mỹ/Người bán mỹ phẩm.",
     exampleEn: "Professional cosmetician.",
     exampleVi: "Chuyên viên thẩm mỹ chuyên nghiệp.",
-    categories: ["People", "Business", "Body"],
+    categories: ["People","Business","Body"],
   },
   {
     id: "gen-4161",
@@ -954,12 +943,11 @@ export const C15: VocabularyWord[] = [
     slug: "cosmetology",
     phonetic: "/ˌkɑːz.məˈtɑː.lə.dʒi/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The professional skill or practice of beautifying the face, hair, and skin.",
+    meaningEn: "The professional skill or practice of beautifying the face, hair, and skin.",
     meaningVi: "Ngành thẩm mỹ/Nghệ thuật làm đẹp.",
     exampleEn: "Study cosmetology.",
     exampleVi: "Học ngành thẩm mỹ.",
-    categories: ["Education", "Business", "Body"],
+    categories: ["Education","Business","Body"],
   },
   {
     id: "gen-4162",
@@ -971,7 +959,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Thuộc về vũ trụ/Khắp thế giới.",
     exampleEn: "Cosmic rays.",
     exampleVi: "Các tia vũ trụ.",
-    categories: ["Science", "Space"],
+    categories: ["Science","Space"],
   },
   {
     id: "gen-4163",
@@ -983,7 +971,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Thuyết vũ trụ/Chủ nghĩa vũ trụ.",
     exampleEn: "Russian Cosmism.",
     exampleVi: "Chủ nghĩa vũ trụ Nga.",
-    categories: ["Philosophy", "Science"],
+    categories: ["Philosophy","Science"],
   },
   {
     id: "gen-4164",
@@ -995,7 +983,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Thế giới/Vũ trụ (tiền tố hoặc từ lóng).",
     exampleEn: "Cosmo magazine.",
     exampleVi: "Tạp chí Cosmo.",
-    categories: ["General", "Space"],
+    categories: ["General","Space"],
   },
   {
     id: "gen-4165",
@@ -1007,7 +995,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Nhà vũ trụ học/Người nghiên cứu nguồn gốc vũ trụ.",
     exampleEn: "Famous cosmogonist.",
     exampleVi: "Nhà vũ trụ học nổi tiếng.",
-    categories: ["People", "Science", "Space"],
+    categories: ["People","Science","Space"],
   },
   {
     id: "gen-4166",
@@ -1015,12 +1003,11 @@ export const C15: VocabularyWord[] = [
     slug: "cosmogony",
     phonetic: "/kɑːzˈmɑː.ɡə.ni/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The branch of science that deals with the origin of the universe.",
+    meaningEn: "The branch of science that deals with the origin of the universe.",
     meaningVi: "Vũ trụ luận/Thuyết nguồn gốc vũ trụ.",
     exampleEn: "Ancient cosmogony.",
     exampleVi: "Vũ trụ luận cổ đại.",
-    categories: ["Science", "Space", "History"],
+    categories: ["Science","Space","History"],
   },
   {
     id: "gen-4167",
@@ -1032,7 +1019,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Thuộc về vũ trụ chí.",
     exampleEn: "Cosmographical studies.",
     exampleVi: "Nghiên cứu vũ trụ chí.",
-    categories: ["Science", "Geography"],
+    categories: ["Science","Geography"],
   },
   {
     id: "gen-4168",
@@ -1044,7 +1031,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Vũ trụ chí.",
     exampleEn: "Study of cosmography.",
     exampleVi: "Môn vũ trụ chí.",
-    categories: ["Science", "Space"],
+    categories: ["Science","Space"],
   },
   {
     id: "gen-4169",
@@ -1056,7 +1043,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Thuộc về vũ trụ học.",
     exampleEn: "Cosmological constant.",
     exampleVi: "Hằng số vũ trụ.",
-    categories: ["Science", "Space"],
+    categories: ["Science","Space"],
   },
   {
     id: "gen-4170",
@@ -1068,7 +1055,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Vũ trụ học.",
     exampleEn: "Modern cosmology.",
     exampleVi: "Vũ trụ học hiện đại.",
-    categories: ["Science", "Space", "Education"],
+    categories: ["Science","Space","Education"],
   },
   {
     id: "gen-4171",
@@ -1080,7 +1067,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Phi hành gia (người Nga).",
     exampleEn: "Famous cosmonaut.",
     exampleVi: "Phi hành gia nổi tiếng.",
-    categories: ["People", "Space", "Business"],
+    categories: ["People","Space","Business"],
   },
   {
     id: "gen-4172",
@@ -1092,7 +1079,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Thành phố đa quốc gia/Thành phố thế giới.",
     exampleEn: "Global cosmopolis.",
     exampleVi: "Thành phố thế giới toàn cầu.",
-    categories: ["Geography", "Social"],
+    categories: ["Geography","Social"],
   },
   {
     id: "gen-4173",
@@ -1100,12 +1087,11 @@ export const C15: VocabularyWord[] = [
     slug: "cosmopolitan",
     phonetic: "/ˌkɑːz.məˈpɑː.lɪ.tən/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "Familiar with and at ease in many different countries and cultures.",
+    meaningEn: "Familiar with and at ease in many different countries and cultures.",
     meaningVi: "Có tính quốc tế/Người thế giới.",
     exampleEn: "Cosmopolitan city.",
     exampleVi: "Thành phố quốc tế.",
-    categories: ["Social", "Geography", "General"],
+    categories: ["Social","Geography","General"],
   },
   {
     id: "gen-4174",
@@ -1113,12 +1099,11 @@ export const C15: VocabularyWord[] = [
     slug: "cosmopolitanism",
     phonetic: "/ˌkɑːz.məˈpɑː.lɪ.tən.ɪz.əm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The ideology that all human beings belong to a single community.",
+    meaningEn: "The ideology that all human beings belong to a single community.",
     meaningVi: "Chủ nghĩa thế giới/Tính chất quốc tế.",
     exampleEn: "Cultural cosmopolitanism.",
     exampleVi: "Chủ nghĩa thế giới về văn hóa.",
-    categories: ["Social", "Politics", "Philosophy"],
+    categories: ["Social","Politics","Philosophy"],
   },
   {
     id: "gen-4175",
@@ -1130,7 +1115,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Người thế giới/Người có tính quốc tế.",
     exampleEn: "True cosmopolite.",
     exampleVi: "Một người thế giới thực thụ.",
-    categories: ["People", "Social"],
+    categories: ["People","Social"],
   },
   {
     id: "gen-4176",
@@ -1142,7 +1127,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Vũ trụ/Hoa sao nhái.",
     exampleEn: "Harmony of the cosmos.",
     exampleVi: "Sự hài hòa của vũ trụ.",
-    categories: ["Science", "Space", "Nature"],
+    categories: ["Science","Space","Nature"],
   },
   {
     id: "gen-4177",
@@ -1150,12 +1135,11 @@ export const C15: VocabularyWord[] = [
     slug: "cossack",
     phonetic: "/ˈkɑː.sæk/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "A member of a people of southern Russia and Ukraine, noted for horsemanship and military skill.",
+    meaningEn: "A member of a people of southern Russia and Ukraine, noted for horsemanship and military skill.",
     meaningVi: "Người Cô-dắc (Nga/Ukraine).",
     exampleEn: "Cossack cavalry.",
     exampleVi: "Kỵ binh Cô-dắc.",
-    categories: ["People", "History", "History"],
+    categories: ["People","History","History"],
   },
   {
     id: "gen-4178",
@@ -1167,7 +1151,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Cưng chiều/Nâng niu/Nuông chiều.",
     exampleEn: "Cosseted child.",
     exampleVi: "Đứa trẻ được nuông chiều.",
-    categories: ["Social", "Psychology", "General"],
+    categories: ["Social","Psychology","General"],
   },
   {
     id: "gen-193",
@@ -1179,7 +1163,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Chi phí.",
     exampleEn: "What does it cost?",
     exampleVi: "Nó có giá bao nhiêu?",
-    categories: ["Finance", "Shopping"],
+    categories: ["Finance","Shopping"],
   },
   {
     id: "gen-4180",
@@ -1191,7 +1175,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Gân lá/Xương sườn.",
     exampleEn: "Plant costa.",
     exampleVi: "Gân lá cây.",
-    categories: ["Science", "Nature", "Medical"],
+    categories: ["Science","Nature","Medical"],
   },
   {
     id: "gen-4181",
@@ -1203,7 +1187,7 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Thuộc về xương sườn.",
     exampleEn: "Costal cartilages.",
     exampleVi: "Sụn sườn.",
-    categories: ["Medical", "Science"],
+    categories: ["Medical","Science"],
   },
   {
     id: "gen-4182",
@@ -1215,19 +1199,6 @@ export const C15: VocabularyWord[] = [
     meaningVi: "Có gân/Có xẻ rãnh.",
     exampleEn: "Costate shell.",
     exampleVi: "Vỏ sò có gân.",
-    categories: ["Science", "Nature"],
-  },
-  {
-    id: "gen-4183",
-    word: "Costermonger",
-    slug: "costermonger",
-    phonetic: "/ˈkɑː.stɚˌmʌŋ.ɡɚ/",
-    partOfSpeech: "noun",
-    meaningEn:
-      "A person who sells fruit and vegetables from a barrow in the street.",
-    meaningVi: "Người bán hoa quả dạo/Người bán rau dạo.",
-    exampleEn: "London costermonger.",
-    exampleVi: "Người bán quả dạo ở Luân Đôn.",
-    categories: ["People", "Business", "History"],
-  },
+    categories: ["Science","Nature"],
+  }
 ];

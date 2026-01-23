@@ -2,18 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const E6: VocabularyWord[] = [
   {
-    id: "gen-7153",
-    word: "Engender",
-    slug: "engender",
-    phonetic: "/ɪnˈdʒen.dɚ/",
-    partOfSpeech: "verb",
-    meaningEn: "Cause or give rise to (a feeling, situation, or condition).",
-    meaningVi: "Sinh ra/Gây ra/Đem lại.",
-    exampleEn: "Engender controversy.",
-    exampleVi: "Gây ra tranh cãi.",
-    categories: ["General", "Literature"],
-  },
-  {
     id: "gen-388",
     word: "Engine",
     slug: "engine",
@@ -23,7 +11,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Động cơ.",
     exampleEn: "The car engine.",
     exampleVi: "Động cơ xe hơi.",
-    categories: ["Technology", "Engineering"],
+    categories: ["Technology","Engineering"],
   },
   {
     id: "gen-389",
@@ -31,12 +19,11 @@ export const E6: VocabularyWord[] = [
     slug: "engineer",
     phonetic: "/ˌen.dʒɪˈnɪr/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who designs, builds, or maintains engines or machines.",
+    meaningEn: "A person who designs, builds, or maintains engines or machines.",
     meaningVi: "Kỹ sư.",
     exampleEn: "A software engineer.",
     exampleVi: "Kỹ sư phần mềm.",
-    categories: ["Business", "Engineering", "Jobs"],
+    categories: ["Business","Engineering","Jobs"],
   },
   {
     id: "gen-7156",
@@ -44,12 +31,11 @@ export const E6: VocabularyWord[] = [
     slug: "engineering",
     phonetic: "/ˌen.dʒɪˈnɪr.ɪŋ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The branch of science and technology concerned with the design, building, and use of engines, machines, and structures.",
+    meaningEn: "The branch of science and technology concerned with the design, building, and use of engines, machines, and structures.",
     meaningVi: "Kỹ thuật/Nghề kỹ sư.",
     exampleEn: "Civil engineering.",
     exampleVi: "Kỹ thuật xây dựng dân dụng.",
-    categories: ["Technology", "Education"],
+    categories: ["Technology","Education"],
   },
   {
     id: "gen-7157",
@@ -57,12 +43,11 @@ export const E6: VocabularyWord[] = [
     slug: "english",
     phonetic: "/ˈɪŋ.ɡlɪʃ/",
     partOfSpeech: "noun/adjective",
-    meaningEn:
-      "The language of England, widely used in many varieties throughout the world.",
+    meaningEn: "The language of England, widely used in many varieties throughout the world.",
     meaningVi: "Tiếng Anh/Thuộc về nước Anh.",
     exampleEn: "Speak English.",
     exampleVi: "Nói tiếng Anh.",
-    categories: ["General", "Education", "Language"],
+    categories: ["General","Education","Language"],
   },
   {
     id: "gen-7158",
@@ -70,12 +55,11 @@ export const E6: VocabularyWord[] = [
     slug: "engrave",
     phonetic: "/ɪnˈɡreɪv/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Cut or carve (a text or design) on the surface of a hard object.",
+    meaningEn: "Cut or carve (a text or design) on the surface of a hard object.",
     meaningVi: "Khắc/Trạm trổ.",
     exampleEn: "Engrave a ring.",
     exampleVi: "Khắc lên chiếc nhẫn.",
-    categories: ["Art", "Technology"],
+    categories: ["Art","Technology"],
   },
   {
     id: "gen-7159",
@@ -99,7 +83,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Thu hút hoàn toàn/Chiếm hết tâm trí.",
     exampleEn: "Engrossed in a book.",
     exampleVi: "Say mê cuốn sách.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-7161",
@@ -119,12 +103,11 @@ export const E6: VocabularyWord[] = [
     slug: "engulf",
     phonetic: "/ɪnˈɡʌlf/",
     partOfSpeech: "verb",
-    meaningEn:
-      "(of a natural force) sweep over so as to surround or cover it completely.",
+    meaningEn: "(of a natural force) sweep over so as to surround or cover it completely.",
     meaningVi: "Nhấn chìm/Bao phủ completely.",
     exampleEn: "Flames engulfed the house.",
     exampleVi: "Ngọn lửa bao trùm ngôi nhà.",
-    categories: ["General", "Nature"],
+    categories: ["General","Nature"],
   },
   {
     id: "gen-7163",
@@ -132,12 +115,11 @@ export const E6: VocabularyWord[] = [
     slug: "enhance",
     phonetic: "/ɪnˈhæns/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Intensify, increase, or further improve the quality, value, or extent of.",
+    meaningEn: "Intensify, increase, or further improve the quality, value, or extent of.",
     meaningVi: "Nâng cao/Tăng cường.",
     exampleEn: "Enhance the quality.",
     exampleVi: "Nâng cao chất lượng.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "gen-7164",
@@ -149,7 +131,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Sự nâng cao/Sự tăng cường.",
     exampleEn: "Performance enhancement.",
     exampleVi: "Tăng cường hiệu suất.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "gen-7165",
@@ -161,7 +143,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Chất tăng cường/Yếu tố nâng cao.",
     exampleEn: "Flavor enhancer.",
     exampleVi: "Chất điều vị.",
-    categories: ["General", "Food & Drink"],
+    categories: ["General","Food & Drink"],
   },
   {
     id: "gen-7166",
@@ -169,12 +151,11 @@ export const E6: VocabularyWord[] = [
     slug: "enigma",
     phonetic: "/əˈnɪɡ.mə/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person or thing that is mysterious, puzzling, or difficult to understand.",
+    meaningEn: "A person or thing that is mysterious, puzzling, or difficult to understand.",
     meaningVi: "Điều bí ẩn/Người khó hiểu.",
     exampleEn: "He is an enigma.",
     exampleVi: "Anh ấy là một ẩn số.",
-    categories: ["General", "Mystery"],
+    categories: ["General","Mystery"],
   },
   {
     id: "gen-7167",
@@ -186,7 +167,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Bí ẩn/Khó hiểu.",
     exampleEn: "Enigmatic smile.",
     exampleVi: "Nụ cười bí ẩn.",
-    categories: ["General", "Mystery"],
+    categories: ["General","Mystery"],
   },
   {
     id: "gen-7168",
@@ -198,7 +179,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Ra lệnh/Chỉ thị/Ngăn cấm (pháp lý).",
     exampleEn: "Enjoin silence.",
     exampleVi: "Ra lệnh giữ im lặng.",
-    categories: ["Law", "General"],
+    categories: ["Law","General"],
   },
   {
     id: "gen-390",
@@ -258,7 +239,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Mở rộng/Phóng to.",
     exampleEn: "Enlarge a photo.",
     exampleVi: "Phóng to một bức ảnh.",
-    categories: ["General", "Photography"],
+    categories: ["General","Photography"],
   },
   {
     id: "gen-7174",
@@ -270,7 +251,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Sự mở rộng/Bản phóng to.",
     exampleEn: "NATO enlargement.",
     exampleVi: "Sự mở rộng NATO.",
-    categories: ["General", "Politics"],
+    categories: ["General","Politics"],
   },
   {
     id: "gen-7175",
@@ -278,12 +259,11 @@ export const E6: VocabularyWord[] = [
     slug: "enlighten",
     phonetic: "/ɪnˈlaɪ.tən/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Give (someone) greater knowledge and understanding about a subject or situation.",
+    meaningEn: "Give (someone) greater knowledge and understanding about a subject or situation.",
     meaningVi: "Khai sáng/Làm sáng tỏ.",
     exampleEn: "Please enlighten me.",
     exampleVi: "Làm ơn hãy khai sáng cho tôi.",
-    categories: ["Education", "Philosophy"],
+    categories: ["Education","Philosophy"],
   },
   {
     id: "gen-7176",
@@ -291,12 +271,11 @@ export const E6: VocabularyWord[] = [
     slug: "enlightened",
     phonetic: "/ɪnˈlaɪ.tənd/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Having or showing a rational, modern, and well-informed outlook.",
+    meaningEn: "Having or showing a rational, modern, and well-informed outlook.",
     meaningVi: "Được khai sáng/Hiểu biết.",
     exampleEn: "Enlightened policy.",
     exampleVi: "Chính sách sáng suốt.",
-    categories: ["Education", "Politics"],
+    categories: ["Education","Politics"],
   },
   {
     id: "gen-7177",
@@ -308,7 +287,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Sự khai sáng/Sự giác ngộ.",
     exampleEn: "Spiritual enlightenment.",
     exampleVi: "Giác ngộ tâm linh.",
-    categories: ["Education", "Philosophy", "Religion"],
+    categories: ["Education","Philosophy","Religion"],
   },
   {
     id: "gen-7178",
@@ -320,7 +299,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Đăng ký nhập ngũ/Tham gia.",
     exampleEn: "Enlist in the army.",
     exampleVi: "Nhập ngũ gia nhập quân đội.",
-    categories: ["War", "General"],
+    categories: ["War","General"],
   },
   {
     id: "gen-7179",
@@ -340,8 +319,7 @@ export const E6: VocabularyWord[] = [
     slug: "enlistment",
     phonetic: "/ɪnˈlɪst.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action of enrolling or being enrolled in the armed services.",
+    meaningEn: "The action of enrolling or being enrolled in the armed services.",
     meaningVi: "Sự nhập ngũ/Sự tham gia.",
     exampleEn: "Term of enlistment.",
     exampleVi: "Thời hạn nhập ngũ.",
@@ -377,12 +355,11 @@ export const E6: VocabularyWord[] = [
     slug: "enmity",
     phonetic: "/ˈen.mə.t̬i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The state or feeling of being actively opposed or hostile to someone or something.",
+    meaningEn: "The state or feeling of being actively opposed or hostile to someone or something.",
     meaningVi: "Sự thù địch/Sự hiềm khích.",
     exampleEn: "Deep enmity.",
     exampleVi: "Mối thù sâu sắc.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-7184",
@@ -394,7 +371,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Phong tước/Làm cao quý.",
     exampleEn: "Actions that ennoble us.",
     exampleVi: "Những hành động làm chúng ta trở nên cao quý.",
-    categories: ["General", "History"],
+    categories: ["General","History"],
   },
   {
     id: "gen-7185",
@@ -402,12 +379,11 @@ export const E6: VocabularyWord[] = [
     slug: "enormity",
     phonetic: "/əˈnɔːr.mə.t̬i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The great or extreme scale, seriousness, or extent of something perceived as bad or morally wrong.",
+    meaningEn: "The great or extreme scale, seriousness, or extent of something perceived as bad or morally wrong.",
     meaningVi: "Sự tàn ác/Sự to lớn (về mức độ nghiêm trọng).",
     exampleEn: "The enormity of the crime.",
     exampleVi: "Sự tàn ác của tội ác.",
-    categories: ["General", "Law"],
+    categories: ["General","Law"],
   },
   {
     id: "b2-93",
@@ -479,7 +455,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Làm nổi điên/Chọc giận.",
     exampleEn: "Enraged by his comments.",
     exampleVi: "Nổi điên vì những bình luận của anh ta.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-7192",
@@ -491,7 +467,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Làm mê mẩn/Làm vô cùng thích thú.",
     exampleEn: "Enraptured by the music.",
     exampleVi: "Mê mẩn vì âm nhạc.",
-    categories: ["General", "Music", "Art"],
+    categories: ["General","Music","Art"],
   },
   {
     id: "gen-7193",
@@ -503,7 +479,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Làm giàu/Làm phong phú.",
     exampleEn: "Enrich your vocabulary.",
     exampleVi: "Làm phong phú từ vựng của bạn.",
-    categories: ["Education", "General"],
+    categories: ["Education","General"],
   },
   {
     id: "gen-7194",
@@ -511,12 +487,11 @@ export const E6: VocabularyWord[] = [
     slug: "enrichment",
     phonetic: "/ɪnˈrɪtʃ.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action of improving or enhancing the quality or value of something.",
+    meaningEn: "The action of improving or enhancing the quality or value of something.",
     meaningVi: "Sự làm giàu/Sự làm phong phú.",
     exampleEn: "Cultural enrichment.",
     exampleVi: "Sự làm phong phú văn hóa.",
-    categories: ["Education", "Culture"],
+    categories: ["Education","Culture"],
   },
   {
     id: "gen-7195",
@@ -524,8 +499,7 @@ export const E6: VocabularyWord[] = [
     slug: "enroll",
     phonetic: "/ɪnˈroʊl/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Officially register as a member of an institution or a student on a course.",
+    meaningEn: "Officially register as a member of an institution or a student on a course.",
     meaningVi: "Ghi danh/Đăng ký học.",
     exampleEn: "Enroll in a course.",
     exampleVi: "Đăng ký một khóa học.",
@@ -549,8 +523,7 @@ export const E6: VocabularyWord[] = [
     slug: "ensconce",
     phonetic: "/ɪnˈskɑːns/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Establish or settle (someone) in a comfortable, safe, or secret place.",
+    meaningEn: "Establish or settle (someone) in a comfortable, safe, or secret place.",
     meaningVi: "Ổn định (ở một nơi an toàn/thoải mái).",
     exampleEn: "Ensconced in an armchair.",
     exampleVi: "Ngồi thoải mái trên ghế bành.",
@@ -566,7 +539,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Đoàn (nhạc/kịch)/Bộ (quần áo).",
     exampleEn: "Jazz ensemble.",
     exampleVi: "Ban nhạc Jazz.",
-    categories: ["Music", "Fashion"],
+    categories: ["Music","Fashion"],
   },
   {
     id: "gen-7199",
@@ -574,12 +547,11 @@ export const E6: VocabularyWord[] = [
     slug: "enshrine",
     phonetic: "/ɪnˈʃraɪn/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Place (a precious object) within a shrine; preserve (a right, tradition, or idea) in a form that ensures it will be protected and respected.",
+    meaningEn: "Place (a precious object) within a shrine; preserve (a right, tradition, or idea) in a form that ensures it will be protected and respected.",
     meaningVi: "Cất giữ/Trân trọng/Ghi vào (luật pháp/hiến pháp).",
     exampleEn: "Rights enshrined in the constitution.",
     exampleVi: "Các quyền được ghi trong hiến pháp.",
-    categories: ["Law", "Religion"],
+    categories: ["Law","Religion"],
   },
   {
     id: "gen-7200",
@@ -591,7 +563,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Bao phủ/Che khuất.",
     exampleEn: "Mist enshrouded the mountains.",
     exampleVi: "Màn sương bao phủ những ngọn núi.",
-    categories: ["General", "Nature"],
+    categories: ["General","Nature"],
   },
   {
     id: "gen-7201",
@@ -599,12 +571,11 @@ export const E6: VocabularyWord[] = [
     slug: "ensign",
     phonetic: "/ˈen.saɪn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A flag or standard, especially a military or naval one indicating nationality.",
+    meaningEn: "A flag or standard, especially a military or naval one indicating nationality.",
     meaningVi: "Cờ hiệu (quân sự/hải quân)/Thiếu úy (hải quân).",
     exampleEn: "Naval ensign.",
     exampleVi: "Cờ hải quân.",
-    categories: ["War", "General"],
+    categories: ["War","General"],
   },
   {
     id: "gen-7202",
@@ -616,7 +587,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Bắt làm nô lệ/Biến thành nô lệ.",
     exampleEn: "Enslaved people.",
     exampleVi: "Những người bị bắt làm nô lệ.",
-    categories: ["History", "Social"],
+    categories: ["History","Social"],
   },
   {
     id: "gen-7203",
@@ -672,8 +643,7 @@ export const E6: VocabularyWord[] = [
     slug: "entail",
     phonetic: "/ɪnˈteɪl/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Involve (something) as a necessary or inevitable part or consequence.",
+    meaningEn: "Involve (something) as a necessary or inevitable part or consequence.",
     meaningVi: "Đòi hỏi/Kéo theo (như một hậu quả tất yếu).",
     exampleEn: "The project entails a lot of work.",
     exampleVi: "Dự án đòi hỏi rất nhiều công việc.",
@@ -701,7 +671,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Sự vướng mắc/Sự lộn xộn.",
     exampleEn: "Quantum entanglement.",
     exampleVi: "Sự vướng lượng tử.",
-    categories: ["Science", "General"],
+    categories: ["Science","General"],
   },
   {
     id: "gen-7210",
@@ -709,12 +679,11 @@ export const E6: VocabularyWord[] = [
     slug: "entente",
     phonetic: "/ɑːnˈtɑːnt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A friendly understanding or informal alliance between states or factions.",
+    meaningEn: "A friendly understanding or informal alliance between states or factions.",
     meaningVi: "Hiệp ước thân thiện/Sự thỏa thuận.",
     exampleEn: "Triple Entente.",
     exampleVi: "Khối Hiệp ước.",
-    categories: ["History", "Politics"],
+    categories: ["History","Politics"],
   },
   {
     id: "gen-393",
@@ -734,8 +703,7 @@ export const E6: VocabularyWord[] = [
     slug: "enterprise",
     phonetic: "/ˈen.t̬ɚ.praɪz/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A project or undertaking, typically one that is difficult or requires effort; a business or company.",
+    meaningEn: "A project or undertaking, typically one that is difficult or requires effort; a business or company.",
     meaningVi: "Doanh nghiệp/Dự án lớn.",
     exampleEn: "A successful enterprise.",
     exampleVi: "Một doanh nghiệp thành công.",
@@ -771,12 +739,11 @@ export const E6: VocabularyWord[] = [
     slug: "entertainer",
     phonetic: "/en.t̬ɚˈteɪ.nɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person, such as a singer, dancer, or comedian, whose job is to entertain others.",
+    meaningEn: "A person, such as a singer, dancer, or comedian, whose job is to entertain others.",
     meaningVi: "Người làm giải trí/Nghệ sĩ.",
     exampleEn: "Street entertainer.",
     exampleVi: "Nghệ sĩ đường phố.",
-    categories: ["Jobs", "Art"],
+    categories: ["Jobs","Art"],
   },
   {
     id: "gen-7216",
@@ -796,12 +763,11 @@ export const E6: VocabularyWord[] = [
     slug: "entertainment",
     phonetic: "/en.t̬ɚˈteɪn.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The action of providing or being provided with amusement or enjoyment.",
+    meaningEn: "The action of providing or being provided with amusement or enjoyment.",
     meaningVi: "Sự giải trí/Ngành giải trí.",
     exampleEn: "Live entertainment.",
     exampleVi: "Giải trí trực tiếp.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-7218",
@@ -813,7 +779,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Làm mê hoặc/Làm say đắm.",
     exampleEn: "Enthralled by the performance.",
     exampleVi: "Bị mê hoặc bởi màn trình diễn.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-7219",
@@ -825,7 +791,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Sự nhiệt tình/Hăng hái.",
     exampleEn: "Full of enthusiasm.",
     exampleVi: "Tràn đầy sự nhiệt tình.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-7220",
@@ -833,8 +799,7 @@ export const E6: VocabularyWord[] = [
     slug: "enthusiast",
     phonetic: "/ɪnˈθuː.zi.æst/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who is very interested in a particular activity or subject.",
+    meaningEn: "A person who is very interested in a particular activity or subject.",
     meaningVi: "Người đam mê/Người say mê.",
     exampleEn: "Car enthusiast.",
     exampleVi: "Người đam mê xe hơi.",
@@ -846,12 +811,11 @@ export const E6: VocabularyWord[] = [
     slug: "enthusiastic",
     phonetic: "/ɪnˌθuː.ziˈæs.tɪk/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Having or showing intense and eager enjoyment, interest, or approval.",
+    meaningEn: "Having or showing intense and eager enjoyment, interest, or approval.",
     meaningVi: "Nhiệt tình/Hăng hái.",
     exampleEn: "Enthusiastic support.",
     exampleVi: "Sự ủng hộ nhiệt tình.",
-    categories: ["General", "Psychology"],
+    categories: ["General","Psychology"],
   },
   {
     id: "gen-7222",
@@ -859,8 +823,7 @@ export const E6: VocabularyWord[] = [
     slug: "enthusiastically",
     phonetic: "/ɪnˌθuː.ziˈæs.tɪk.li/",
     partOfSpeech: "adverb",
-    meaningEn:
-      "In a way that shows intense and eager enjoyment, interest, or approval.",
+    meaningEn: "In a way that shows intense and eager enjoyment, interest, or approval.",
     meaningVi: "Một cách nhiệt tình/Hăng hái.",
     exampleEn: "Greeted enthusiastically.",
     exampleVi: "Chào đón một cách nhiệt tình.",
@@ -876,7 +839,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Dụ dỗ/Lôi kéo.",
     exampleEn: "Entice customers.",
     exampleVi: "Lôi kéo khách hàng.",
-    categories: ["Business", "General"],
+    categories: ["Business","General"],
   },
   {
     id: "gen-7224",
@@ -888,7 +851,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Sự dụ dỗ/Mồi nhử.",
     exampleEn: "Financial enticements.",
     exampleVi: "Những sự cám dỗ về tài chính.",
-    categories: ["General", "Business"],
+    categories: ["General","Business"],
   },
   {
     id: "gen-394",
@@ -932,12 +895,11 @@ export const E6: VocabularyWord[] = [
     slug: "entitle",
     phonetic: "/ɪnˈtaɪ.t̬əl/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Give (someone) a legal right or a just claim to receive or do something.",
+    meaningEn: "Give (someone) a legal right or a just claim to receive or do something.",
     meaningVi: "Cho quyền/Được quyền.",
     exampleEn: "Entitled to a refund.",
     exampleVi: "Được quyền hoàn tiền.",
-    categories: ["Law", "General"],
+    categories: ["Law","General"],
   },
   {
     id: "gen-7229",
@@ -949,7 +911,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Quyền lợi/Sự được quyền.",
     exampleEn: "Sense of entitlement.",
     exampleVi: "Cảm giác được quyền (tự cho mình là đúng).",
-    categories: ["Law", "Social"],
+    categories: ["Law","Social"],
   },
   {
     id: "c1-27",
@@ -961,7 +923,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Thực thể, tổ chức.",
     exampleEn: "The company is a legal entity.",
     exampleVi: "Công ty là một thực thể pháp lý.",
-    categories: ["Business", "Academic", "Technology"],
+    categories: ["Business","Academic","Technology"],
   },
   {
     id: "gen-7231",
@@ -973,7 +935,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Chôn cất/Mai táng.",
     exampleEn: "Entombed in a pyramid.",
     exampleVi: "Được chôn cất trong kim tự tháp.",
-    categories: ["History", "Religion"],
+    categories: ["History","Religion"],
   },
   {
     id: "gen-7232",
@@ -985,7 +947,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Côn trùng học.",
     exampleEn: "Study entomology.",
     exampleVi: "Nghiên cứu côn trùng học.",
-    categories: ["Science", "Education"],
+    categories: ["Science","Education"],
   },
   {
     id: "gen-7233",
@@ -993,12 +955,11 @@ export const E6: VocabularyWord[] = [
     slug: "entourage",
     phonetic: "/ˌɑːn.tuːˈrɑːʒ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A group of people attending or surrounding an important person.",
+    meaningEn: "A group of people attending or surrounding an important person.",
     meaningVi: "Đoàn tùy tùng/Nhóm người đi theo.",
     exampleEn: "The president's entourage.",
     exampleVi: "Đoàn tùy tùng của tổng thống.",
-    categories: ["Social", "Politics"],
+    categories: ["Social","Politics"],
   },
   {
     id: "gen-7234",
@@ -1006,12 +967,11 @@ export const E6: VocabularyWord[] = [
     slug: "entrails",
     phonetic: "/ˈen.treɪlz/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person or animal's intestines or internal organs, especially when removed or exposed.",
+    meaningEn: "A person or animal's intestines or internal organs, especially when removed or exposed.",
     meaningVi: "Ruột/Lòng (động vật).",
     exampleEn: "Examined the entrails.",
     exampleVi: "Kiểm tra nội tạng.",
-    categories: ["Science", "Biology"],
+    categories: ["Science","Biology"],
   },
   {
     id: "gen-7235",
@@ -1019,12 +979,11 @@ export const E6: VocabularyWord[] = [
     slug: "entrance",
     phonetic: "/ˈen.trəns/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "An opening, such as a door, passage, or gate, that allows access to a place.",
+    meaningEn: "An opening, such as a door, passage, or gate, that allows access to a place.",
     meaningVi: "Lối vào/Cổng vào.",
     exampleEn: "Main entrance.",
     exampleVi: "Cổng chính.",
-    categories: ["General", "Architecture"],
+    categories: ["General","Architecture"],
   },
   {
     id: "gen-7236",
@@ -1036,7 +995,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Người đăng ký/Người tham gia.",
     exampleEn: "New entrant to the market.",
     exampleVi: "Người mới tham gia thị trường.",
-    categories: ["Business", "General"],
+    categories: ["Business","General"],
   },
   {
     id: "gen-7237",
@@ -1056,8 +1015,7 @@ export const E6: VocabularyWord[] = [
     slug: "entrapment",
     phonetic: "/ɪnˈtræp.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The state of being caught in or as in a trap; (law) the action of tricking someone into committing a crime.",
+    meaningEn: "The state of being caught in or as in a trap; (law) the action of tricking someone into committing a crime.",
     meaningVi: "Sự gài bẫy/Sự dụ dỗ phạm tội.",
     exampleEn: "Police entrapment.",
     exampleVi: "Sự gài bẫy của cảnh sát.",
@@ -1097,7 +1055,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Món chính/Quyền nhập học/Quyền gia nhập.",
     exampleEn: "Steak entree.",
     exampleVi: "Món chính là bít tết.",
-    categories: ["Food & Drink", "General"],
+    categories: ["Food & Drink","General"],
   },
   {
     id: "gen-7242",
@@ -1105,12 +1063,11 @@ export const E6: VocabularyWord[] = [
     slug: "entrench",
     phonetic: "/ɪnˈtrentʃ/",
     partOfSpeech: "verb",
-    meaningEn:
-      "Establish (an attitude, habit, or belief) so firmly that change is very difficult or unlikely.",
+    meaningEn: "Establish (an attitude, habit, or belief) so firmly that change is very difficult or unlikely.",
     meaningVi: "Cố thủ/Bám chặt/Ăn sâu.",
     exampleEn: "Entrenched ideas.",
     exampleVi: "Những ý tưởng ăn sâu.",
-    categories: ["General", "Politics"],
+    categories: ["General","Politics"],
   },
   {
     id: "gen-7243",
@@ -1130,12 +1087,11 @@ export const E6: VocabularyWord[] = [
     slug: "entrepreneur",
     phonetic: "/ˌɒn.trə.prəˈnɜːr/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who organizes and operates a business or businesses, taking on greater than normal financial risks in order to do so.",
+    meaningEn: "A person who organizes and operates a business or businesses, taking on greater than normal financial risks in order to do so.",
     meaningVi: "Doanh nhân.",
     exampleEn: "He is a successful entrepreneur.",
     exampleVi: "Anh ấy là một doanh nhân thành đạt.",
-    categories: ["Business", "Jobs"],
+    categories: ["Business","Jobs"],
   },
   {
     id: "gen-7245",
@@ -1143,8 +1099,7 @@ export const E6: VocabularyWord[] = [
     slug: "entrepreneurial",
     phonetic: "/ˌɑːn.trə.prəˈnɝː.i.əl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Characterized by the taking of financial risks in the hope of profit; enterprising.",
+    meaningEn: "Characterized by the taking of financial risks in the hope of profit; enterprising.",
     meaningVi: "Thuộc về doanh nhân/Mang tính khởi nghiệp.",
     exampleEn: "Entrepreneurial spirit.",
     exampleVi: "Tinh thần khởi nghiệp.",
@@ -1156,8 +1111,7 @@ export const E6: VocabularyWord[] = [
     slug: "entrepreneurship",
     phonetic: "/ˌɑːn.trə.prəˈnɝː.ʃɪp/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The activity of setting up a business or businesses, taking on financial risks in the hope of profit.",
+    meaningEn: "The activity of setting up a business or businesses, taking on financial risks in the hope of profit.",
     meaningVi: "Tinh thần khởi nghiệp/Hoạt động kinh doanh.",
     exampleEn: "Promote entrepreneurship.",
     exampleVi: "Thúc đẩy tinh thần khởi nghiệp.",
@@ -1181,8 +1135,7 @@ export const E6: VocabularyWord[] = [
     slug: "entry",
     phonetic: "/ˈen.tri/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An act of going or coming in; an item written or printed in a diary, list, account book, or reference book.",
+    meaningEn: "An act of going or coming in; an item written or printed in a diary, list, account book, or reference book.",
     meaningVi: "Sự đi vào/Mục nhập/Bài dự thi.",
     exampleEn: "Data entry.",
     exampleVi: "Nhập dữ liệu.",
@@ -1198,7 +1151,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Cấp độ đầu vào (cho người mới bắt đầu).",
     exampleEn: "Entry-level job.",
     exampleVi: "Công việc cấp độ đầu vào.",
-    categories: ["Business", "Jobs"],
+    categories: ["Business","Jobs"],
   },
   {
     id: "gen-7250",
@@ -1222,7 +1175,7 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Liệt kê.",
     exampleEn: "Enumerate the benefits.",
     exampleVi: "Liệt kê những lợi ích.",
-    categories: ["General", "Mathematics"],
+    categories: ["General","Mathematics"],
   },
   {
     id: "gen-7252",
@@ -1234,6 +1187,18 @@ export const E6: VocabularyWord[] = [
     meaningVi: "Phát âm rõ ràng.",
     exampleEn: "Enunciate clearly.",
     exampleVi: "Phát âm rõ ràng.",
-    categories: ["General", "Linguistics"],
+    categories: ["General","Linguistics"],
   },
+  {
+    id: "gen-7253",
+    word: "Envelop",
+    slug: "envelop",
+    phonetic: "/ɪnˈvel.əp/",
+    partOfSpeech: "verb",
+    meaningEn: "Wrap up, cover, or surround completely.",
+    meaningVi: "Bao bọc/Bao phủ.",
+    exampleEn: "Fog enveloped the city.",
+    exampleVi: "Sương mù bao phủ thành phố.",
+    categories: ["General"],
+  }
 ];

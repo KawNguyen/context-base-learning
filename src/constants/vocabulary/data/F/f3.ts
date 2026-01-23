@@ -2,13 +2,24 @@ import { VocabularyWord } from "../../types";
 
 export const F3: VocabularyWord[] = [
   {
+    id: "gen-7812",
+    word: "Fiber",
+    slug: "fiber",
+    phonetic: "/ˈfaɪ.bɚ/",
+    partOfSpeech: "noun",
+    meaningEn: "A thread or filament from which a vegetable tissue, mineral substance, or textile is formed.",
+    meaningVi: "Sợi/Chất xơ.",
+    exampleEn: "Dietary fiber.",
+    exampleVi: "Chất xơ trong chế độ ăn.",
+    categories: ["Medical","Food & Drink"],
+  },
+  {
     id: "gen-7813",
     word: "Fickle",
     slug: "fickle",
     phonetic: "/ˈfɪk.əl/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Changing frequently, especially as regards one's loyalties, interests, or affection.",
+    meaningEn: "Changing frequently, especially as regards one's loyalties, interests, or affection.",
     meaningVi: "Hay thay đổi (tính cách).",
     exampleEn: "Fickle weather.",
     exampleVi: "Thời tiết thất thường.",
@@ -20,8 +31,7 @@ export const F3: VocabularyWord[] = [
     slug: "fiction",
     phonetic: "/ˈfɪk.ʃən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Literature in the form of prose, especially short stories and novels, that describes imaginary events and people.",
+    meaningEn: "Literature in the form of prose, especially short stories and novels, that describes imaginary events and people.",
     meaningVi: "Hư cấu/Tiểu thuyết.",
     exampleEn: "Science fiction.",
     exampleVi: "Khoa học viễn tưởng.",
@@ -61,7 +71,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Đàn violon/Nghịch/Gian lận.",
     exampleEn: "Play the fiddle.",
     exampleVi: "Chơi đàn violon.",
-    categories: ["Music", "General"],
+    categories: ["Music","General"],
   },
   {
     id: "gen-7818",
@@ -69,12 +79,11 @@ export const F3: VocabularyWord[] = [
     slug: "fidelity",
     phonetic: "/fɪˈdel.ə.t̬i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "Faithfulness to a person, cause, or belief, demonstrated by continuing loyalty and support.",
+    meaningEn: "Faithfulness to a person, cause, or belief, demonstrated by continuing loyalty and support.",
     meaningVi: "Lòng trung thành/Tính trung thực.",
     exampleEn: "Marital fidelity.",
     exampleVi: "Lòng chung thủy trong hôn nhân.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-7819",
@@ -82,12 +91,11 @@ export const F3: VocabularyWord[] = [
     slug: "fidget",
     phonetic: "/ˈfɪdʒ.ət/",
     partOfSpeech: "verb/noun",
-    meaningEn:
-      "Make small movements, especially of the hands and feet, through nervousness or impatience.",
+    meaningEn: "Make small movements, especially of the hands and feet, through nervousness or impatience.",
     meaningVi: "Bồn chồn/Cựa quậy.",
     exampleEn: "Stop fidgeting.",
     exampleVi: "Đừng cựa quậy nữa.",
-    categories: ["General", "Body"],
+    categories: ["General","Body"],
   },
   {
     id: "gen-7820",
@@ -107,12 +115,11 @@ export const F3: VocabularyWord[] = [
     slug: "fiduciary",
     phonetic: "/fɪˈduː.ʃi.er.i/",
     partOfSpeech: "adjective/noun",
-    meaningEn:
-      "Involving trust, especially with regard to the relationship between a trustee and a beneficiary.",
+    meaningEn: "Involving trust, especially with regard to the relationship between a trustee and a beneficiary.",
     meaningVi: "Ủy thác/Người được ủy thác.",
     exampleEn: "Fiduciary duty.",
     exampleVi: "Nghĩa vụ ủy thác.",
-    categories: ["Law", "Business"],
+    categories: ["Law","Business"],
   },
   {
     id: "gen-7822",
@@ -120,12 +127,11 @@ export const F3: VocabularyWord[] = [
     slug: "fief",
     phonetic: "/fiːf/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An estate of land, especially one held on condition of feudal service.",
+    meaningEn: "An estate of land, especially one held on condition of feudal service.",
     meaningVi: "Đất phong.",
     exampleEn: "Held as a fief.",
     exampleVi: "Được giữ như một vùng đất phong.",
-    categories: ["History", "Law"],
+    categories: ["History","Law"],
   },
   {
     id: "gen-473",
@@ -149,7 +155,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Ác quỷ/Người nghiện (thứ gì đó).",
     exampleEn: "A drug fiend.",
     exampleVi: "Một con nghiện ma túy.",
-    categories: ["General", "Social"],
+    categories: ["General","Social"],
   },
   {
     id: "gen-7825",
@@ -173,7 +179,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Hung dữ/Dữ dội.",
     exampleEn: "Fierce dog.",
     exampleVi: "Con chó hung dữ.",
-    categories: ["Animals", "General"],
+    categories: ["Animals","General"],
   },
   {
     id: "gen-7827",
@@ -197,7 +203,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Rực lửa/Nóng nảy.",
     exampleEn: "Fiery temper.",
     exampleVi: "Tính khí nóng nảy.",
-    categories: ["General", "Nature"],
+    categories: ["General","Nature"],
   },
   {
     id: "gen-7829",
@@ -209,7 +215,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Lễ hội.",
     exampleEn: "Annual fiesta.",
     exampleVi: "Lễ hội hàng năm.",
-    categories: ["Culture", "Entertainment"],
+    categories: ["Culture","Entertainment"],
   },
   {
     id: "gen-7830",
@@ -217,12 +223,11 @@ export const F3: VocabularyWord[] = [
     slug: "fife",
     phonetic: "/faɪf/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A kind of small shrill flute used chiefly with the drum in military bands.",
+    meaningEn: "A kind of small shrill flute used chiefly with the drum in military bands.",
     meaningVi: "Sáo fife (sáo quân sự).",
     exampleEn: "Play the fife.",
     exampleVi: "Thổi sáo fife.",
-    categories: ["Music", "Military"],
+    categories: ["Music","Military"],
   },
   {
     id: "gen-7831",
@@ -234,7 +239,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Số mười lăm.",
     exampleEn: "Fifteen minutes.",
     exampleVi: "Mười lăm phút.",
-    categories: ["Mathematics", "General"],
+    categories: ["Mathematics","General"],
   },
   {
     id: "gen-7832",
@@ -246,7 +251,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Thứ mười lăm.",
     exampleEn: "Fifteenth floor.",
     exampleVi: "Tầng mười lăm.",
-    categories: ["Mathematics", "General"],
+    categories: ["Mathematics","General"],
   },
   {
     id: "gen-7833",
@@ -258,7 +263,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Thứ năm.",
     exampleEn: "Fifth avenue.",
     exampleVi: "Đại lộ số năm.",
-    categories: ["Mathematics", "General"],
+    categories: ["Mathematics","General"],
   },
   {
     id: "gen-7834",
@@ -270,7 +275,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Thứ năm mươi.",
     exampleEn: "Fiftieth anniversary.",
     exampleVi: "Kỷ niệm lần thứ năm mươi.",
-    categories: ["Mathematics", "General"],
+    categories: ["Mathematics","General"],
   },
   {
     id: "gen-7835",
@@ -282,7 +287,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Số năm mươi.",
     exampleEn: "Fifty percent.",
     exampleVi: "Năm mươi phần trăm.",
-    categories: ["Mathematics", "General"],
+    categories: ["Mathematics","General"],
   },
   {
     id: "gen-7836",
@@ -290,12 +295,11 @@ export const F3: VocabularyWord[] = [
     slug: "fig",
     phonetic: "/fɪɡ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A soft pear-shaped fruit with sweet dark flesh and many small seeds.",
+    meaningEn: "A soft pear-shaped fruit with sweet dark flesh and many small seeds.",
     meaningVi: "Quả sung/Quả vả.",
     exampleEn: "Dried figs.",
     exampleVi: "Quả vả khô.",
-    categories: ["Food & Drink", "Nature"],
+    categories: ["Food & Drink","Nature"],
   },
   {
     id: "gen-474",
@@ -315,12 +319,11 @@ export const F3: VocabularyWord[] = [
     slug: "fighter",
     phonetic: "/ˈfaɪ.t̬ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person or animal that fights, especially as a professional boxer or soldier.",
+    meaningEn: "A person or animal that fights, especially as a professional boxer or soldier.",
     meaningVi: "Chiến binh/Đấu sĩ/Máy bay chiến đấu.",
     exampleEn: "Jet fighter.",
     exampleVi: "Máy bay chiến đấu phản lực.",
-    categories: ["Military", "People", "Sports"],
+    categories: ["Military","People","Sports"],
   },
   {
     id: "gen-7839",
@@ -332,7 +335,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Sự chiến đấu/Giao tranh.",
     exampleEn: "Heavy fighting.",
     exampleVi: "Giao tranh ác liệt.",
-    categories: ["Military", "General"],
+    categories: ["Military","General"],
   },
   {
     id: "gen-7840",
@@ -340,12 +343,11 @@ export const F3: VocabularyWord[] = [
     slug: "figment",
     phonetic: "/ˈfɪɡ.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A thing that someone believes to be real but that exists only in their imagination.",
+    meaningEn: "A thing that someone believes to be real but that exists only in their imagination.",
     meaningVi: "Điều tưởng tượng/Hư cấu.",
     exampleEn: "Figment of imagination.",
     exampleVi: "Điều do trí tưởng tượng tạo ra.",
-    categories: ["Psychology", "General"],
+    categories: ["Psychology","General"],
   },
   {
     id: "gen-7841",
@@ -357,7 +359,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Bóng gió/Ẩn dụ/Tượng hình.",
     exampleEn: "Figurative language.",
     exampleVi: "Ngôn ngữ tượng hình/bóng gió.",
-    categories: ["Literature", "Art"],
+    categories: ["Literature","Art"],
   },
   {
     id: "gen-475",
@@ -369,7 +371,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Con số.",
     exampleEn: "A high figure.",
     exampleVi: "Một con số cao.",
-    categories: ["Mathematics", "General"],
+    categories: ["Mathematics","General"],
   },
   {
     id: "pv-63",
@@ -393,7 +395,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Bức tượng nhỏ.",
     exampleEn: "Porcelain figurine.",
     exampleVi: "Tượng nhỏ bằng sứ.",
-    categories: ["Art", "Home"],
+    categories: ["Art","Home"],
   },
   {
     id: "gen-7844",
@@ -401,12 +403,11 @@ export const F3: VocabularyWord[] = [
     slug: "filament",
     phonetic: "/ˈfɪl.ə.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A slender threadlike object or fiber, especially one found in animal or plant structures.",
+    meaningEn: "A slender threadlike object or fiber, especially one found in animal or plant structures.",
     meaningVi: "Sợi nhỏ/Dây tóc (bóng đèn).",
     exampleEn: "Tungsten filament.",
     exampleVi: "Dây tóc vonfram.",
-    categories: ["Science", "Technology"],
+    categories: ["Science","Technology"],
   },
   {
     id: "a2-192",
@@ -414,12 +415,11 @@ export const F3: VocabularyWord[] = [
     slug: "file",
     phonetic: "/faɪl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A folder or box for holding loose papers together and in order.",
+    meaningEn: "A folder or box for holding loose papers together and in order.",
     meaningVi: "Tệp, hồ sơ.",
     exampleEn: "Save the file.",
     exampleVi: "Lưu tệp.",
-    categories: ["Technology", "Daily", "Business"],
+    categories: ["Technology","Daily","Business"],
   },
   {
     id: "gen-7846",
@@ -431,7 +431,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Thuộc về con cái/Hiếu thảo.",
     exampleEn: "Filial duty.",
     exampleVi: "Bổn phận đạo hiếu.",
-    categories: ["Family", "Social"],
+    categories: ["Family","Social"],
   },
   {
     id: "gen-7847",
@@ -443,7 +443,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Sự sắp xếp hồ sơ/Mạt dũa.",
     exampleEn: "Filing system.",
     exampleVi: "Hệ thống lưu trữ hồ sơ.",
-    categories: ["Office", "Business"],
+    categories: ["Office","Business"],
   },
   {
     id: "gen-477",
@@ -479,7 +479,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Chất lấp đầy/Độn/Người lấp chỗ trống.",
     exampleEn: "Filler words.",
     exampleVi: "Từ đệm.",
-    categories: ["General", "Construction"],
+    categories: ["General","Construction"],
   },
   {
     id: "gen-7850",
@@ -487,8 +487,7 @@ export const F3: VocabularyWord[] = [
     slug: "fillet",
     phonetic: "/ˈfɪl.ɪt/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A fleshy boneless piece of meat from near the loins or the ribs of an animal.",
+    meaningEn: "A fleshy boneless piece of meat from near the loins or the ribs of an animal.",
     meaningVi: "Phi lê (thịt/cá).",
     exampleEn: "Fish fillet.",
     exampleVi: "Phi lê cá.",
@@ -504,7 +503,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Chất làm đầy/Nhân (bánh)/Trám (răng).",
     exampleEn: "Pie filling.",
     exampleVi: "Nhân bánh.",
-    categories: ["Food & Drink", "Medical"],
+    categories: ["Food & Drink","Medical"],
   },
   {
     id: "gen-478",
@@ -516,7 +515,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Phim.",
     exampleEn: "Watch a film.",
     exampleVi: "Xem phim.",
-    categories: ["Art", "Media"],
+    categories: ["Art","Media"],
   },
   {
     id: "gen-7853",
@@ -524,12 +523,11 @@ export const F3: VocabularyWord[] = [
     slug: "filter",
     phonetic: "/ˈfɪl.t̬ɚ/",
     partOfSpeech: "noun/verb",
-    meaningEn:
-      "A porous device for removing impurities or solid particles from a liquid or gas passed through it.",
+    meaningEn: "A porous device for removing impurities or solid particles from a liquid or gas passed through it.",
     meaningVi: "Bộ lọc/Lọc.",
     exampleEn: "Water filter.",
     exampleVi: "Bộ lọc nước.",
-    categories: ["Technology", "Science", "Home"],
+    categories: ["Technology","Science","Home"],
   },
   {
     id: "gen-7854",
@@ -541,7 +539,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Rác rưởi/Sự bẩn thỉu.",
     exampleEn: "Covered in filth.",
     exampleVi: "Phủ đầy rác rưởi.",
-    categories: ["General", "Environment"],
+    categories: ["General","Environment"],
   },
   {
     id: "gen-7855",
@@ -561,12 +559,11 @@ export const F3: VocabularyWord[] = [
     slug: "fin",
     phonetic: "/fɪn/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A flattened appendage on various parts of the body of many aquatic vertebrates and some invertebrates, including fish.",
+    meaningEn: "A flattened appendage on various parts of the body of many aquatic vertebrates and some invertebrates, including fish.",
     meaningVi: "Vây (cá).",
     exampleEn: "Shark fin.",
     exampleVi: "Vây cá mập.",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-479",
@@ -586,12 +583,11 @@ export const F3: VocabularyWord[] = [
     slug: "finale",
     phonetic: "/fɪˈnæl.i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The last part of a piece of music, a performance, or a public event.",
+    meaningEn: "The last part of a piece of music, a performance, or a public event.",
     meaningVi: "Phần kết/Đoạn cuối.",
     exampleEn: "Grand finale.",
     exampleVi: "Màn kết hoành tráng.",
-    categories: ["Art", "Entertainment", "Music"],
+    categories: ["Art","Entertainment","Music"],
   },
   {
     id: "gen-7859",
@@ -599,12 +595,11 @@ export const F3: VocabularyWord[] = [
     slug: "finalist",
     phonetic: "/ˈfaɪ.nəl.ɪst/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person or team attempting to win a competition who has reached the final.",
+    meaningEn: "A person or team attempting to win a competition who has reached the final.",
     meaningVi: "Người/đội vào chung kết.",
     exampleEn: "World Cup finalist.",
     exampleVi: "Đội vào chung kết World Cup.",
-    categories: ["Sports", "Competition"],
+    categories: ["Sports","Competition"],
   },
   {
     id: "gen-7860",
@@ -628,7 +623,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Hoàn tất/Thông qua lần cuối.",
     exampleEn: "Finalize the deal.",
     exampleVi: "Hoàn tất thỏa thuận.",
-    categories: ["Business", "General"],
+    categories: ["Business","General"],
   },
   {
     id: "gen-480",
@@ -652,7 +647,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Tài chính.",
     exampleEn: "Study finance.",
     exampleVi: "Học tài chính.",
-    categories: ["Business", "Finance"],
+    categories: ["Business","Finance"],
   },
   {
     id: "gen-482",
@@ -664,7 +659,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Tài chính.",
     exampleEn: "Financial problems.",
     exampleVi: "Vấn đề tài chính.",
-    categories: ["Business", "Finance"],
+    categories: ["Business","Finance"],
   },
   {
     id: "gen-7865",
@@ -676,7 +671,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Về mặt tài chính.",
     exampleEn: "Financially stable.",
     exampleVi: "Ổn định về mặt tài chính.",
-    categories: ["Business", "Finance"],
+    categories: ["Business","Finance"],
   },
   {
     id: "gen-7866",
@@ -684,12 +679,11 @@ export const F3: VocabularyWord[] = [
     slug: "financier",
     phonetic: "/ˌfɪn.ənˈsɪr/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person concerned with the management of large amounts of money.",
+    meaningEn: "A person concerned with the management of large amounts of money.",
     meaningVi: "Chuyên gia tài chính/Nhà tư bản tài chính.",
     exampleEn: "Wall Street financier.",
     exampleVi: "Nhà tài chính phố Wall.",
-    categories: ["Business", "People", "Finance"],
+    categories: ["Business","People","Finance"],
   },
   {
     id: "gen-7867",
@@ -701,7 +695,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Chim sẻ (họ chim sẻ).",
     exampleEn: "Goldfinch.",
     exampleVi: "Chim sẻ cánh vàng.",
-    categories: ["Animals", "Nature"],
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-483",
@@ -733,12 +727,11 @@ export const F3: VocabularyWord[] = [
     slug: "finding",
     phonetic: "/ˈfaɪn.dɪŋ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A conclusion reached as a result of an inquiry, investigation, or trial.",
+    meaningEn: "A conclusion reached as a result of an inquiry, investigation, or trial.",
     meaningVi: "Sự phát hiện/Kết quả tìm kiếm.",
     exampleEn: "Report findings.",
     exampleVi: "Kết quả báo cáo.",
-    categories: ["Science", "General"],
+    categories: ["Science","General"],
   },
   {
     id: "gen-484",
@@ -762,7 +755,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Mịn/Tinh vi/Đẹp đẽ.",
     exampleEn: "Finely chopped.",
     exampleVi: "Băm nhỏ.",
-    categories: ["Food & Drink", "General"],
+    categories: ["Food & Drink","General"],
   },
   {
     id: "gen-7872",
@@ -774,7 +767,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Quần áo lộng lẫy/Đồ trang trí đẹp.",
     exampleEn: "Dressed in finery.",
     exampleVi: "Ăn mặc lộng lẫy.",
-    categories: ["Fashion", "Body"],
+    categories: ["Fashion","Body"],
   },
   {
     id: "gen-7873",
@@ -786,7 +779,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Sự khéo léo/Mưu mẹo.",
     exampleEn: "Handle with finesse.",
     exampleVi: "Xử lý một cách khéo léo.",
-    categories: ["General", "Art"],
+    categories: ["General","Art"],
   },
   {
     id: "a1-121",
@@ -806,12 +799,11 @@ export const F3: VocabularyWord[] = [
     slug: "fingernail",
     phonetic: "/ˈfɪŋ.ɡɚ.neɪl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The flattish horny part on the upper surface of the tip of each finger.",
+    meaningEn: "The flattish horny part on the upper surface of the tip of each finger.",
     meaningVi: "Móng tay.",
     exampleEn: "Cut your fingernails.",
     exampleVi: "Cắt móng tay.",
-    categories: ["Body", "Beauty"],
+    categories: ["Body","Beauty"],
   },
   {
     id: "gen-7876",
@@ -819,12 +811,11 @@ export const F3: VocabularyWord[] = [
     slug: "fingerprint",
     phonetic: "/ˈfɪŋ.ɡɚ.prɪnt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An impression or mark made on a surface by a person's fingertip.",
+    meaningEn: "An impression or mark made on a surface by a person's fingertip.",
     meaningVi: "Dấu vân tay.",
     exampleEn: "Fingerprint scanner.",
     exampleVi: "Máy quét vân tay.",
-    categories: ["Body", "Security", "Law"],
+    categories: ["Body","Security","Law"],
   },
   {
     id: "gen-7877",
@@ -836,7 +827,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Đầu ngón tay.",
     exampleEn: "At your fingertips.",
     exampleVi: "Trong tầm tay (dễ dàng tiếp cận).",
-    categories: ["Body", "General"],
+    categories: ["Body","General"],
   },
   {
     id: "gen-486",
@@ -860,7 +851,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Hữu hạn.",
     exampleEn: "Finite resources.",
     exampleVi: "Tài nguyên hữu hạn.",
-    categories: ["Mathematics", "Science", "General"],
+    categories: ["Mathematics","Science","General"],
   },
   {
     id: "gen-7880",
@@ -868,12 +859,11 @@ export const F3: VocabularyWord[] = [
     slug: "fir",
     phonetic: "/fɝː/",
     partOfSpeech: "noun",
-    meaningEn:
-      "An evergreen coniferous tree with upright cones and flat needle-shaped leaves.",
+    meaningEn: "An evergreen coniferous tree with upright cones and flat needle-shaped leaves.",
     meaningVi: "Cây thông (cây sam).",
     exampleEn: "Fir tree.",
     exampleVi: "Cây thông.",
-    categories: ["Plants", "Nature"],
+    categories: ["Plants","Nature"],
   },
   {
     id: "gen-487",
@@ -897,7 +887,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Súng cầm tay.",
     exampleEn: "Possession of a firearm.",
     exampleVi: "Tàng trữ súng.",
-    categories: ["Military", "Law"],
+    categories: ["Military","Law"],
   },
   {
     id: "gen-7883",
@@ -905,12 +895,11 @@ export const F3: VocabularyWord[] = [
     slug: "firebrand",
     phonetic: "/ˈfaɪr.brænd/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person who is passionate about a particular cause, typically inciting change and taking radical action.",
+    meaningEn: "A person who is passionate about a particular cause, typically inciting change and taking radical action.",
     meaningVi: "Kẻ gây rối/Người kích động/Thanh củi đang cháy.",
     exampleEn: "Political firebrand.",
     exampleVi: "Kẻ kích động chính trị.",
-    categories: ["Politics", "People"],
+    categories: ["Politics","People"],
   },
   {
     id: "gen-7884",
@@ -925,19 +914,6 @@ export const F3: VocabularyWord[] = [
     categories: ["Entertainment"],
   },
   {
-    id: "gen-7885",
-    word: "Firefly",
-    slug: "firefly",
-    phonetic: "/ˈfaɪr.flaɪ/",
-    partOfSpeech: "noun",
-    meaningEn:
-      "A soft-bodied beetle related to the glowworm, the winged male and flightless female of which both emit light.",
-    meaningVi: "Con đom đóm.",
-    exampleEn: "Glowing firefly.",
-    exampleVi: "Đom đóm phát sáng.",
-    categories: ["Animals", "Nature"],
-  },
-  {
     id: "job-040",
     word: "Firefighter",
     slug: "firefighter",
@@ -947,7 +923,19 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Lính cứu hỏa.",
     exampleEn: "The firefighter rescued people from the building.",
     exampleVi: "Lính cứu hỏa đã cứu người khỏi tòa nhà.",
-    categories: ["Jobs", "Emergency"],
+    categories: ["Jobs","Emergency"],
+  },
+  {
+    id: "gen-7885",
+    word: "Firefly",
+    slug: "firefly",
+    phonetic: "/ˈfaɪr.flaɪ/",
+    partOfSpeech: "noun",
+    meaningEn: "A soft-bodied beetle related to the glowworm, the winged male and flightless female of which both emit light.",
+    meaningVi: "Con đom đóm.",
+    exampleEn: "Glowing firefly.",
+    exampleVi: "Đom đóm phát sáng.",
+    categories: ["Animals","Nature"],
   },
   {
     id: "gen-7886",
@@ -955,12 +943,11 @@ export const F3: VocabularyWord[] = [
     slug: "fireman",
     phonetic: "/ˈfaɪr.mən/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A person employed to extinguish or prevent fires; a firefighter.",
+    meaningEn: "A person employed to extinguish or prevent fires; a firefighter.",
     meaningVi: "Lính cứu hỏa.",
     exampleEn: "Brave fireman.",
     exampleVi: "Người lính cứu hỏa dũng cảm.",
-    categories: ["Business", "Emergency", "People"],
+    categories: ["Business","Emergency","People"],
   },
   {
     id: "gen-7887",
@@ -968,12 +955,11 @@ export const F3: VocabularyWord[] = [
     slug: "fireplace",
     phonetic: "/ˈfaɪr.pleɪs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A place for a domestic fire, typically at the base of a chimney.",
+    meaningEn: "A place for a domestic fire, typically at the base of a chimney.",
     meaningVi: "Lò sưởi.",
     exampleEn: "Sit by the fireplace.",
     exampleVi: "Ngồi bên lò sưởi.",
-    categories: ["Home", "Furniture"],
+    categories: ["Home","Furniture"],
   },
   {
     id: "gen-7888",
@@ -985,7 +971,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Chịu lửa/Chống cháy.",
     exampleEn: "Fireproof safe.",
     exampleVi: "Két sắt chống cháy.",
-    categories: ["Safety", "Materials"],
+    categories: ["Safety","Materials"],
   },
   {
     id: "gen-7889",
@@ -997,7 +983,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Khu vực bên lò sưởi.",
     exampleEn: "Fireside chat.",
     exampleVi: "Trò chuyện bên lò sưởi.",
-    categories: ["Home", "General"],
+    categories: ["Home","General"],
   },
   {
     id: "b1-183",
@@ -1005,8 +991,7 @@ export const F3: VocabularyWord[] = [
     slug: "firewall",
     phonetic: "/ˈfaɪər.wɔːl/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A part of a computer system or network which is designed to block unauthorized access.",
+    meaningEn: "A part of a computer system or network which is designed to block unauthorized access.",
     meaningVi: "Tường lửa.",
     exampleEn: "The firewall blocked the suspicious traffic.",
     exampleVi: "Tường lửa đã chặn lưu lượng truy cập đáng ngờ.",
@@ -1022,7 +1007,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Củi.",
     exampleEn: "Chop firewood.",
     exampleVi: "Chẻ củi.",
-    categories: ["Home", "Materials"],
+    categories: ["Home","Materials"],
   },
   {
     id: "gen-7891",
@@ -1030,8 +1015,7 @@ export const F3: VocabularyWord[] = [
     slug: "firework",
     phonetic: "/ˈfaɪr.wɝːk/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A device containing gunpowder and other combustible chemicals that causes a spectacular explosion when ignited.",
+    meaningEn: "A device containing gunpowder and other combustible chemicals that causes a spectacular explosion when ignited.",
     meaningVi: "Pháo hoa.",
     exampleEn: "Firework display.",
     exampleVi: "Bắn pháo hoa.",
@@ -1055,12 +1039,11 @@ export const F3: VocabularyWord[] = [
     slug: "firmament",
     phonetic: "/ˈfɝː.mə.mənt/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The heavens or the sky, especially when regarded as a tangible thing.",
+    meaningEn: "The heavens or the sky, especially when regarded as a tangible thing.",
     meaningVi: "Bầu trời/Vòm trời.",
     exampleEn: "Stars in the firmament.",
     exampleVi: "Những ngôi sao trên bầu trời.",
-    categories: ["Literature", "Nature"],
+    categories: ["Literature","Nature"],
   },
   {
     id: "gen-7894",
@@ -1068,8 +1051,7 @@ export const F3: VocabularyWord[] = [
     slug: "firmly",
     phonetic: "/ˈfɝːm.li/",
     partOfSpeech: "adverb",
-    meaningEn:
-      "With little possibility of movement; in a way that uses steady power or strength.",
+    meaningEn: "With little possibility of movement; in a way that uses steady power or strength.",
     meaningVi: "Một cách chắc chắn/Kiên quyết.",
     exampleEn: "Hold firmly.",
     exampleVi: "Nắm chặt.",
@@ -1081,8 +1063,7 @@ export const F3: VocabularyWord[] = [
     slug: "firmness",
     phonetic: "/ˈfɝːm.nəs/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The quality of having a solid, almost unyielding surface or structure.",
+    meaningEn: "The quality of having a solid, almost unyielding surface or structure.",
     meaningVi: "Sự chắc chắn/Sự kiên quyết.",
     exampleEn: "Firmness of purpose.",
     exampleVi: "Sự kiên định trong mục đích.",
@@ -1101,6 +1082,18 @@ export const F3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    id: "gen-7897",
+    word: "Firstborn",
+    slug: "firstborn",
+    phonetic: "/ˈfɝːst.bɔːrn/",
+    partOfSpeech: "adjective/noun",
+    meaningEn: "The first child born to a set of parents.",
+    meaningVi: "Con đầu lòng.",
+    exampleEn: "Firstborn son.",
+    exampleVi: "Con trai đầu lòng.",
+    categories: ["Family","People"],
+  },
+  {
     id: "gen-7896",
     word: "Firstly",
     slug: "firstly",
@@ -1113,18 +1106,6 @@ export const F3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-7897",
-    word: "Firstborn",
-    slug: "firstborn",
-    phonetic: "/ˈfɝːst.bɔːrn/",
-    partOfSpeech: "adjective/noun",
-    meaningEn: "The first child born to a set of parents.",
-    meaningVi: "Con đầu lòng.",
-    exampleEn: "Firstborn son.",
-    exampleVi: "Con trai đầu lòng.",
-    categories: ["Family", "People"],
-  },
-  {
     id: "gen-7898",
     word: "Fiscal",
     slug: "fiscal",
@@ -1134,7 +1115,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Thuộc tài chính (ngân khố).",
     exampleEn: "Fiscal year.",
     exampleVi: "Năm tài chính.",
-    categories: ["Finance", "Politics", "Government"],
+    categories: ["Finance","Politics","Government"],
   },
   {
     id: "a1-64",
@@ -1142,8 +1123,7 @@ export const F3: VocabularyWord[] = [
     slug: "fish",
     phonetic: "/fɪʃ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A limbless cold-blooded vertebrate animal with gills and fins and living wholly in water.",
+    meaningEn: "A limbless cold-blooded vertebrate animal with gills and fins and living wholly in water.",
     meaningVi: "Con cá.",
     exampleEn: "They are fishing in the lake.",
     exampleVi: "Họ đang câu cá ở hồ.",
@@ -1159,7 +1139,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Ngư dân/Người câu cá.",
     exampleEn: "Local fisherman.",
     exampleVi: "Ngư dân địa phương.",
-    categories: ["People", "Jobs"],
+    categories: ["People","Jobs"],
   },
   {
     id: "gen-7901",
@@ -1171,7 +1151,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Nghề cá/Ngư trường/Trại nuôi cá.",
     exampleEn: "Sustainable fishery.",
     exampleVi: "Nghề cá bền vững.",
-    categories: ["Industry", "Agriculture"],
+    categories: ["Industry","Agriculture"],
   },
   {
     id: "gen-7902",
@@ -1183,7 +1163,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Việc đánh cá/Câu cá.",
     exampleEn: "Gone fishing.",
     exampleVi: "Đã đi câu cá.",
-    categories: ["Sports", "Industry"],
+    categories: ["Sports","Industry"],
   },
   {
     id: "gen-7903",
@@ -1195,7 +1175,7 @@ export const F3: VocabularyWord[] = [
     meaningVi: "Người bán cá.",
     exampleEn: "Buy from the fishmonger.",
     exampleVi: "Mua từ hàng cá.",
-    categories: ["Business", "Food & Drink", "Shopping"],
+    categories: ["Business","Food & Drink","Shopping"],
   },
   {
     id: "gen-7904",
@@ -1203,12 +1183,11 @@ export const F3: VocabularyWord[] = [
     slug: "fishy",
     phonetic: "/ˈfɪʃ.i/",
     partOfSpeech: "adjective",
-    meaningEn:
-      "Of or resembling fish; arousing feelings of doubt or suspicion.",
+    meaningEn: "Of or resembling fish; arousing feelings of doubt or suspicion.",
     meaningVi: "Có mùi cá/Đáng ngờ.",
     exampleEn: "Something fishy.",
     exampleVi: "Có cái gì đó đáng ngờ.",
-    categories: ["General", "Food & Drink"],
+    categories: ["General","Food & Drink"],
   },
   {
     id: "gen-7905",
@@ -1216,49 +1195,10 @@ export const F3: VocabularyWord[] = [
     slug: "fissure",
     phonetic: "/ˈfɪʃ.ɚ/",
     partOfSpeech: "noun",
-    meaningEn:
-      "A long, narrow opening or line of breakage made by cracking or splitting, especially in rock or earth.",
+    meaningEn: "A long, narrow opening or line of breakage made by cracking or splitting, especially in rock or earth.",
     meaningVi: "Vết nứt/Khe hở.",
     exampleEn: "Deep fissure.",
     exampleVi: "Vết nứt sâu.",
-    categories: ["Science", "Geology"],
-  },
-  {
-    id: "gen-7906",
-    word: "Fist",
-    slug: "fist",
-    phonetic: "/fɪst/",
-    partOfSpeech: "noun",
-    meaningEn:
-      "A person's hand when the fingers are bent in towards the palm and held there tightly.",
-    meaningVi: "Nắm đấm.",
-    exampleEn: "Clench your fist.",
-    exampleVi: "Siết chặt nắm đấm.",
-    categories: ["Body"],
-  },
-  {
-    id: "gen-491",
-    word: "Fit",
-    slug: "fit",
-    phonetic: "/fɪt/",
-    partOfSpeech: "verb/adjective",
-    meaningEn: "Be of the right shape and size.",
-    meaningVi: "Vừa.",
-    exampleEn: "Does it fit?",
-    exampleVi: "Nó có vừa không?",
-    categories: ["General"],
-  },
-  {
-    id: "gen-7908",
-    word: "Fitful",
-    slug: "fitful",
-    phonetic: "/ˈfɪt.fəl/",
-    partOfSpeech: "adjective",
-    meaningEn:
-      "Active or occurring spasmodically or intermittently; not regular or steady.",
-    meaningVi: "Thất thường/Chập chờn.",
-    exampleEn: "Fitful sleep.",
-    exampleVi: "Giấc ngủ chập chờn.",
-    categories: ["General", "Medical"],
-  },
+    categories: ["Science","Geology"],
+  }
 ];
