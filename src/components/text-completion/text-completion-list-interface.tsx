@@ -136,17 +136,6 @@ export function TextCompletionListInterface({
   return (
     <div className="space-y-6">
       {/* Header */}
-      <QuizBottomBar
-        level={level}
-        answeredCount={answeredCount}
-        totalQuestions={totalQuestions}
-        progress={progress}
-        score={correct}
-        isSubmitted={showResult}
-        onSubmit={handleSubmit}
-        onReset={handleReset}
-        onBack={handleBack}
-      />
 
       {isLoading ? (
         <TextCompletionSkeleton />
@@ -175,6 +164,17 @@ export function TextCompletionListInterface({
           </div>
         </>
       )}
+      <QuizBottomBar
+        level={level}
+        answeredCount={answeredCount}
+        totalQuestions={totalQuestions}
+        progress={progress}
+        score={correct}
+        isSubmitted={showResult}
+        onSubmit={handleSubmit}
+        onReset={handleReset}
+        onBack={handleBack}
+      />
     </div>
   );
 }

@@ -11,7 +11,6 @@ import CEFRBadge from "../cefr-badge";
 import { CEFRLevel } from "@/types";
 import { AnswerButton } from "@/components/answer-button";
 import { ExplanationAlert } from "@/components/explanation-alert";
-import { useShuffleOptions } from "@/hooks/use-shuffle-options";
 
 interface ReadingQuizProps {
   passage: ReadingPassage;
@@ -41,12 +40,6 @@ export function ReadingQuiz({
   onPreviousQuestion,
 }: ReadingQuizProps) {
   const { words } = useInteractiveText(passage.passage);
-
-  // No longer shuffling here, it's done in the wrapper
-  // const currentOptions = passage.questions[currentQuestion].options;
-  // const correctOptionIndex = currentOptions.findIndex(
-  //   (o: { isCorrect: boolean }) => o.isCorrect
-  // );
 
   return (
     <div className="h-full">

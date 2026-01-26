@@ -5,7 +5,6 @@ import { QuestionResponseExercise } from "@/constants/question-response/types";
 import { useRouter, useParams } from "next/navigation";
 import { CEFRLevel } from "@/types";
 import { QuizBottomBar } from "../ui/quiz-header";
-import { Card, CardContent } from "../ui/card";
 import { QuestionResponseCard } from "./question-response-card";
 import { QuestionResponseSkeleton } from "../skeletons";
 
@@ -96,17 +95,6 @@ export function QuestionResponseRandomQuiz({
   return (
     <div className="space-y-6">
       {/* Header */}
-      <QuizBottomBar
-        level={level}
-        answeredCount={answeredCount}
-        totalQuestions={totalQuestions}
-        progress={progress}
-        score={correctCount}
-        isSubmitted={isSubmitted}
-        onSubmit={handleSubmit}
-        onReset={handleReset}
-        onBack={handleBack}
-      />
 
       {isLoading ? (
         <QuestionResponseSkeleton />
@@ -131,22 +119,17 @@ export function QuestionResponseRandomQuiz({
               />
             ))}
           </div>
-
-          {/* Summary */}
-          {isSubmitted && (
-            <Card className="border-primary/20 bg-card/50">
-              <CardContent className="pt-6">
-                <div className="text-center space-y-2">
-                  <h3 className="text-2xl font-bold">
-                    Score: {correctCount} / {totalQuestions}
-                  </h3>
-                  <p className="text-muted-foreground">
-                    {Math.round((correctCount / totalQuestions) * 100)}% Correct
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
-          )}
+          <QuizBottomBar
+            level={level}
+            answeredCount={answeredCount}
+            totalQuestions={totalQuestions}
+            progress={progress}
+            score={correctCount}
+            isSubmitted={isSubmitted}
+            onSubmit={handleSubmit}
+            onReset={handleReset}
+            onBack={handleBack}
+          />
         </>
       )}
     </div>

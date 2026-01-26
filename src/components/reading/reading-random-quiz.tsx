@@ -6,7 +6,6 @@ import { useRouter, useParams } from "next/navigation";
 import { CEFRLevel } from "@/types";
 import { QuizBottomBar } from "../ui/quiz-header";
 import { ReadingCard } from "./reading-card";
-import { ReadingSummary } from "./reading-summary";
 import { ReadingSkeleton } from "@/components/skeletons";
 
 interface ReadingRandomQuizProps {
@@ -114,17 +113,6 @@ export function ReadingRandomQuiz({ level }: ReadingRandomQuizProps) {
   return (
     <div className="space-y-6">
       {/* Header */}
-      <QuizBottomBar
-        level={level}
-        answeredCount={answeredCount}
-        totalQuestions={totalQuestions}
-        progress={progress}
-        score={correctCount}
-        isSubmitted={isSubmitted}
-        onSubmit={handleSubmit}
-        onReset={handleReset}
-        onBack={handleBackToReadings}
-      />
 
       {isLoading ? (
         <ReadingSkeleton />
@@ -148,16 +136,18 @@ export function ReadingRandomQuiz({ level }: ReadingRandomQuizProps) {
                 }
               />
             ))}
-          </div>
-
-          {/* Summary */}
-          {isSubmitted && (
-            <ReadingSummary
-              score={correctCount}
+            <QuizBottomBar
+              level={level}
+              answeredCount={answeredCount}
               totalQuestions={totalQuestions}
-              totalPassages={randomPassages.length}
+              progress={progress}
+              score={correctCount}
+              isSubmitted={isSubmitted}
+              onSubmit={handleSubmit}
+              onReset={handleReset}
+              onBack={handleBackToReadings}
             />
-          )}
+          </div>
         </>
       )}
     </div>

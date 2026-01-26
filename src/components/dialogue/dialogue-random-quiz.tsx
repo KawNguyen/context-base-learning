@@ -6,7 +6,6 @@ import { useRouter, useParams } from "next/navigation";
 import { CEFRLevel } from "@/types";
 import { QuizBottomBar } from "../ui/quiz-header";
 import { DialogueCard } from "./dialogue-card";
-import { DialogueSummary } from "./dialogue-summary";
 import { DialogueSkeleton } from "@/components/skeletons";
 
 interface DialogueRandomQuizProps {
@@ -109,17 +108,6 @@ export function DialogueRandomQuiz({ level }: DialogueRandomQuizProps) {
   return (
     <div className="space-y-6">
       {/* Header */}
-      <QuizBottomBar
-        level={level}
-        answeredCount={answeredCount}
-        totalQuestions={totalQuestions}
-        progress={progress}
-        score={correctCount}
-        isSubmitted={isSubmitted}
-        onSubmit={handleSubmit}
-        onReset={handleReset}
-        onBack={handleBackToDialogues}
-      />
 
       {isLoading ? (
         <DialogueSkeleton />
@@ -144,15 +132,17 @@ export function DialogueRandomQuiz({ level }: DialogueRandomQuizProps) {
               />
             ))}
           </div>
-
-          {/* Summary */}
-          {isSubmitted && (
-            <DialogueSummary
-              score={correctCount}
-              totalQuestions={totalQuestions}
-              totalDialogues={randomDialogues.length}
-            />
-          )}
+          <QuizBottomBar
+            level={level}
+            answeredCount={answeredCount}
+            totalQuestions={totalQuestions}
+            progress={progress}
+            score={correctCount}
+            isSubmitted={isSubmitted}
+            onSubmit={handleSubmit}
+            onReset={handleReset}
+            onBack={handleBackToDialogues}
+          />
         </>
       )}
     </div>
