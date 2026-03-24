@@ -421,6 +421,7 @@ export function lemmatize(word: string): string {
       base.endsWith("rd") || // rewarding -> reward (not rewarde)
       base.endsWith("rt") ||
       base.endsWith("st") ||
+      base.endsWith("ct") || // predicting -> predict
       base.endsWith("nd") || // finding -> find
       base.endsWith("ld") || // building -> build
       base.endsWith("er") || // offering -> offer, answering -> answer

@@ -463,6 +463,17 @@ export const M2: VocabularyWord[] = [
     categories: ["Daily", "Psychology"],
   },
   {
+    word: "Motive",
+    slug: "motive",
+    phonetic: "/ˈmoʊ.tɪv/",
+    partOfSpeech: "noun",
+    meaningEn: "A reason for doing something.",
+    meaningVi: "Động cơ.",
+    exampleEn: "The motive behind the crime was robbery.",
+    exampleVi: "Động cơ đằng sau vụ án là cướp của.",
+    categories: ["General"],
+  },
+  {
     word: "Motley",
     slug: "motley",
     phonetic: "/ˈmɑːt.li/",

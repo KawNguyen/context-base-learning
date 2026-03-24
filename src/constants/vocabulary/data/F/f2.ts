@@ -13,6 +13,17 @@ export const F2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
+    word: "Fast-paced",
+    slug: "fast-paced",
+    phonetic: "/ˈfæstˌpeɪst/",
+    partOfSpeech: "adj",
+    meaningEn: "Moving or developing very quickly.",
+    meaningVi: "Nhanh chóng.",
+    exampleEn: "A fast-paced movie.",
+    exampleVi: "Một bộ phim nhanh chóng.",
+    categories: ["Entertainment"],
+  },
+  {
     word: "Fasten",
     slug: "fasten",
     phonetic: "/ˈfæs.ən/",

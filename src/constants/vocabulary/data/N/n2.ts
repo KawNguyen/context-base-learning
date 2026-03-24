@@ -208,6 +208,19 @@ export const N2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Non-fiction",
+    slug: "non-fiction",
+    phonetic: "/ˌnɑːnˈfɪk.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "Prose writing that is based on facts, real events, and real people.",
+    meaningVi:
+      "Phi hư cấu: Văn xuôi dựa trên sự kiện có thật, con người có thật.",
+    exampleEn: "She prefers reading non-fiction books.",
+    exampleVi: "Cô ấy thích đọc sách phi hư cấu.",
+    categories: ["Literature"],
+  },
+  {
     word: "None",
     slug: "none",
     phonetic: "/nʌn/",
@@ -484,6 +497,17 @@ export const N2: VocabularyWord[] = [
     meaningVi: "Số.",
     exampleEn: "Phone number.",
     exampleVi: "Số điện thoại.",
+    categories: ["General"],
+  },
+  {
+    word: "Numerous",
+    slug: "numerous",
+    phonetic: "/ˈnuː.mɚ.əs/",
+    partOfSpeech: "adjective",
+    meaningEn: "Great in number; many.",
+    meaningVi: "Nhiều.",
+    exampleEn: "Numerous studies have shown the benefits of exercise.",
+    exampleVi: "Nhiều nghiên cứu đã chỉ ra lợi ích của việc tập thể dục.",
     categories: ["General"],
   },
   {

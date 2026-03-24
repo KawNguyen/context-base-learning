@@ -24,6 +24,17 @@ export const I2: VocabularyWord[] = [
     categories: ["Academic"],
   },
   {
+    word: "Inevitably",
+    slug: "inevitably",
+    phonetic: "/ˌɪnˈev.ɪ.t̬ə.bli/",
+    partOfSpeech: "adverb",
+    meaningEn: "As is certain to happen; unavoidably.",
+    meaningVi: "Một cách không thể tránh khỏi.",
+    exampleEn: "Inevitably, there were delays.",
+    exampleVi: "Không thể tránh khỏi, đã có những sự chậm trễ.",
+    categories: ["Academic"],
+  },
+  {
     word: "Infect",
     slug: "infect",
     phonetic: "/ɪnˈfekt/",

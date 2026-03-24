@@ -2,6 +2,28 @@ import { VocabularyWord } from "../../types";
 
 export const D15: VocabularyWord[] = [
   {
+    word: "Distract",
+    slug: "distract",
+    phonetic: "/dɪˈstrækt/",
+    partOfSpeech: "verb",
+    meaningEn: "Prevent (someone) from giving full attention to something.",
+    meaningVi: "Làm sao lãng/Làm phân tâm.",
+    exampleEn: "Don't distract me while I'm working.",
+    exampleVi: "Đừng làm tôi phân tâm khi tôi đang làm việc.",
+    categories: ["Psychology", "General"],
+  },
+  {
+    word: "Distraction",
+    slug: "distraction",
+    phonetic: "/dɪˈstræk.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn: "Something that prevents concentration or attention.",
+    meaningVi: "Sự phân tâm.",
+    exampleEn: "The noise was a distraction.",
+    exampleVi: "Tiếng ồn là một sự phân tâm.",
+    categories: ["Psychology", "General"],
+  },
+  {
     word: "Distribute",
     slug: "distribute",
     phonetic: "/dɪˈstrɪb.juːt/",

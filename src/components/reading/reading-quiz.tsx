@@ -11,6 +11,8 @@ import CEFRBadge from "../cefr-badge";
 import { CEFRLevel } from "@/types";
 import { AnswerButton } from "@/components/answer-button";
 import { ExplanationAlert } from "@/components/explanation-alert";
+import { pronounceWord } from "@/lib/speech";
+import { Volume2 } from "lucide-react";
 
 interface ReadingQuizProps {
   passage: ReadingPassage;
@@ -75,8 +77,20 @@ export function ReadingQuiz({
                             {word.word?.partOfSpeech || "Unknown"}
                           </Badge>
                         </div>
-                        <div className="text-sm text-muted-foreground">
-                          {word.word?.phonetic}
+                        <div className="flex items-center justify-between">
+                          <div className="text-sm text-muted-foreground">
+                            {word.word?.phonetic}
+                          </div>
+                          <Button
+                            variant="ghost"
+                            size="icon"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              pronounceWord(word.normalized);
+                            }}
+                          >
+                            <Volume2 className="h-4 w-4" />
+                          </Button>
                         </div>
                         <Separator className="my-2" />
                         <div className="text-sm text-muted-foreground">

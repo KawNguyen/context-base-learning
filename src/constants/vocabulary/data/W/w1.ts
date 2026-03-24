@@ -603,6 +603,17 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Well-written",
+    slug: "well-written",
+    phonetic: "/ˌwelˈrɪt.ən/",
+    partOfSpeech: "adjective",
+    meaningEn: "Written in a good or effective way.",
+    meaningVi: "Viết tốt.",
+    exampleEn: "A well-written book.",
+    exampleVi: "Một cuốn sách viết tốt.",
+    categories: ["General"],
+  },
+  {
     word: "West",
     slug: "west",
     phonetic: "/west/",

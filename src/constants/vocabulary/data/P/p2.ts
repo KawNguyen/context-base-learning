@@ -190,6 +190,17 @@ export const P2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
+    word: "Plot",
+    slug: "plot",
+    phonetic: "/plɑːt/",
+    partOfSpeech: "noun/verb",
+    meaningEn: "The main events of a play, novel, movie, or similar work.",
+    meaningVi: "Cốt truyện; vẽ sơ đồ.",
+    exampleEn: "The plot of the story is interesting.",
+    exampleVi: "Cốt truyện của câu chuyện rất thú vị.",
+    categories: ["Literature", "General"],
+  },
+  {
     word: "Plug",
     slug: "plug",
     phonetic: "/plʌɡ/",

@@ -966,7 +966,7 @@ export const D3: VocabularyWord[] = [
     partOfSpeech: "verb",
     meaningEn:
       "Devote (time, effort, or oneself) to a particular task or purpose.",
-    meaningVi: "Cống hiến/Dâng hiến/Đề tặng.",
+    meaningVi: "Cống hiến/Dâng hiến/Đề tặng/Dành riêng.",
     exampleEn: "Dedicate a book to someone.",
     exampleVi: "Đề tặng một cuốn sách cho ai đó.",
     categories: ["General", "Art", "Social"],

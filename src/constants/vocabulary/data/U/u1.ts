@@ -985,6 +985,30 @@ export const U1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Unparalleled",
+    slug: "unparalleled",
+    phonetic: "/ʌnˈpær.ə.leld/",
+    partOfSpeech: "adjective",
+    meaningEn: "Having no parallel or equal; exceptional.",
+    meaningVi: "Vô song/Không gì sánh được.",
+    exampleEn:
+      "The athlete's performance was unparalleled in the history of the sport.",
+    exampleVi:
+      "Hiệu suất của vận động viên là vô song (không gì sánh được) trong lịch sử của môn thể thao này.",
+    categories: ["General"],
+  },
+  {
+    word: "Unprecedented",
+    slug: "unprecedented",
+    phonetic: "/ʌnˈpres.ɪ.den.tɪd/",
+    partOfSpeech: "adjective",
+    meaningEn: "Never done or known before.",
+    meaningVi: "Chưa từng có/Chưa từng xảy ra.",
+    exampleEn: "The pandemic has caused unprecedented challenges.",
+    exampleVi: "Đại dịch đã gây ra những thách thức chưa từng có.",
+    categories: ["General"],
+  },
+  {
     word: "Unscathed",
     slug: "unscathed",
     phonetic: "/ʌnˈskeɪðd/",
