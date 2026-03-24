@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const L2: VocabularyWord[] = [
   {
-    id: "b1-228",
     word: "Livelihood",
     slug: "livelihood",
     phonetic: "/ˈlaɪv.li.hʊd/",
@@ -11,10 +10,9 @@ export const L2: VocabularyWord[] = [
     meaningVi: "Kế sinh nhai.",
     exampleEn: "Fishing is their livelihood.",
     exampleVi: "Câu cá là kế sinh nhai của họ.",
-    categories: ["Social","Daily"],
+    categories: ["Social", "Daily"],
   },
   {
-    id: "gen-816",
     word: "Liver",
     slug: "liver",
     phonetic: "/ˈlɪv.ɚ/",
@@ -23,10 +21,9 @@ export const L2: VocabularyWord[] = [
     meaningVi: "Gan.",
     exampleEn: "The liver processes toxins.",
     exampleVi: "Gan xử lý độc tố.",
-    categories: ["Biology","Medical"],
+    categories: ["Biology", "Medical"],
   },
   {
-    id: "b2-206",
     word: "Livestock",
     slug: "livestock",
     phonetic: "/ˈlaɪv.stɑːk/",
@@ -35,10 +32,9 @@ export const L2: VocabularyWord[] = [
     meaningVi: "Gia súc.",
     exampleEn: "Raise livestock.",
     exampleVi: "Chăn nuôi gia súc.",
-    categories: ["Agriculture","Environment"],
+    categories: ["Agriculture", "Environment"],
   },
   {
-    id: "a2-235",
     word: "Living",
     slug: "living",
     phonetic: "/ˈlɪv.ɪŋ/",
@@ -47,10 +43,9 @@ export const L2: VocabularyWord[] = [
     meaningVi: "Sống.",
     exampleEn: "Living organisms.",
     exampleVi: "Sinh vật sống.",
-    categories: ["Daily","Biology"],
+    categories: ["Daily", "Biology"],
   },
   {
-    id: "a2-235",
     word: "Living room",
     slug: "living-room",
     phonetic: "/ˈlɪv.ɪŋ ruːm/",
@@ -59,10 +54,9 @@ export const L2: VocabularyWord[] = [
     meaningVi: "Phòng khách.",
     exampleEn: "We watch TV in the living room.",
     exampleVi: "Chúng tôi xem TV trong phòng khách.",
-    categories: ["Daily","Home"],
+    categories: ["Daily", "Home"],
   },
   {
-    id: "gen-817",
     word: "Load",
     slug: "load",
     phonetic: "/loʊd/",
@@ -74,7 +68,6 @@ export const L2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-818",
     word: "Loan",
     slug: "loan",
     phonetic: "/loʊn/",
@@ -83,10 +76,9 @@ export const L2: VocabularyWord[] = [
     meaningVi: "Khoản vay.",
     exampleEn: "Bank loan.",
     exampleVi: "Vay ngân hàng.",
-    categories: ["Finance","Business"],
+    categories: ["Finance", "Business"],
   },
   {
-    id: "a2-234",
     word: "Local",
     slug: "local",
     phonetic: "/ˈloʊ.kəl/",
@@ -95,10 +87,9 @@ export const L2: VocabularyWord[] = [
     meaningVi: "Địa phương, cục bộ.",
     exampleEn: "Local storage.",
     exampleVi: "Bộ nhớ cục bộ.",
-    categories: ["Daily","Technology"],
+    categories: ["Daily", "Technology"],
   },
   {
-    id: "gen-123as",
     word: "Locate",
     slug: "locate",
     phonetic: "/loʊˈkeɪt/",
@@ -107,10 +98,9 @@ export const L2: VocabularyWord[] = [
     meaningVi: "Xác định vị trí.",
     exampleEn: "Locate the missing item.",
     exampleVi: "Xác định vị trí món đồ bị mất.",
-    categories: ["General","Technology"],
+    categories: ["General", "Technology"],
   },
   {
-    id: "b1-70",
     word: "Location",
     slug: "location",
     phonetic: "/loʊˈkeɪ.ʃən/",
@@ -122,7 +112,6 @@ export const L2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-821",
     word: "Lock",
     slug: "lock",
     phonetic: "/lɑːk/",
@@ -134,7 +123,6 @@ export const L2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-195",
     word: "Log",
     slug: "log",
     phonetic: "/lɔːɡ/",
@@ -143,10 +131,9 @@ export const L2: VocabularyWord[] = [
     meaningVi: "Đăng nhập; bản ghi.",
     exampleEn: "Log in to the system.",
     exampleVi: "Đăng nhập vào hệ thống.",
-    categories: ["Technology","Business"],
+    categories: ["Technology", "Business"],
   },
   {
-    id: "pv-43",
     word: "Log in",
     slug: "log-in",
     phonetic: "/lɔːɡ ɪn/",
@@ -158,7 +145,6 @@ export const L2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-116",
     word: "Log off",
     slug: "log-off",
     phonetic: "/lɔːɡ ɒf/",
@@ -167,10 +153,9 @@ export const L2: VocabularyWord[] = [
     meaningVi: "Đăng xuất.",
     exampleEn: "Log off after use.",
     exampleVi: "Đăng xuất sau khi sử dụng.",
-    categories: ["Phrasal Verb","Technology"],
+    categories: ["Phrasal Verb", "Technology"],
   },
   {
-    id: "pv-44",
     word: "Log out",
     slug: "log-out",
     phonetic: "/lɔːɡ aʊt/",
@@ -182,7 +167,6 @@ export const L2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "b1-227",
     word: "Logic",
     slug: "logic",
     phonetic: "/ˈlɑː.dʒɪk/",
@@ -191,10 +175,9 @@ export const L2: VocabularyWord[] = [
     meaningVi: "Lô-gic.",
     exampleEn: "Business logic.",
     exampleVi: "Lô-gic nghiệp vụ.",
-    categories: ["Academic","Technology"],
+    categories: ["Academic", "Technology"],
   },
   {
-    id: "gen-823",
     word: "Lonely",
     slug: "lonely",
     phonetic: "/ˈloʊn.li/",
@@ -206,7 +189,6 @@ export const L2: VocabularyWord[] = [
     categories: ["Emotions"],
   },
   {
-    id: "gen-824",
     word: "Long",
     slug: "long",
     phonetic: "/lɔːŋ/",
@@ -218,7 +200,6 @@ export const L2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-825",
     word: "Look",
     slug: "look",
     phonetic: "/lʊk/",
@@ -230,7 +211,6 @@ export const L2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "pv-1",
     word: "Look after",
     slug: "look-after",
     phonetic: "/lʊk ˈæf.tər/",
@@ -242,7 +222,6 @@ export const L2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-55",
     word: "Look back on",
     slug: "look-back-on",
     phonetic: "/lʊk bæk ɒn/",
@@ -254,7 +233,6 @@ export const L2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-28",
     word: "Look for",
     slug: "look-for",
     phonetic: "/lʊk fɔːr/",
@@ -266,7 +244,6 @@ export const L2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-5",
     word: "Look forward to",
     slug: "look-forward-to",
     phonetic: "/lʊk ˈfɔːr.wɚd tuː/",
@@ -278,7 +255,6 @@ export const L2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-70",
     word: "Look into",
     slug: "look-into",
     phonetic: "/lʊk ˈɪntuː/",
@@ -290,7 +266,6 @@ export const L2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-46",
     word: "Look out",
     slug: "look-out",
     phonetic: "/lʊk aʊt/",
@@ -302,7 +277,6 @@ export const L2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-16",
     word: "Look up to",
     slug: "look-up-to",
     phonetic: "/lʊk ʌp tuː/",
@@ -314,7 +288,6 @@ export const L2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "exp-b5b-l-20",
     word: "Loquacious",
     slug: "loquacious",
     phonetic: "/loʊˈkweɪ.ʃəs/",
@@ -322,11 +295,11 @@ export const L2: VocabularyWord[] = [
     meaningEn: "Tending to talk a great deal; talkative.",
     meaningVi: "Nói nhiều/Lắm lời.",
     exampleEn: "The loquacious host kept the party lively.",
-    exampleVi: "Người chủ nhà nói nhiều (lắm lời) đã giữ cho bữa tiệc luôn sống động.",
-    categories: ["General"]
+    exampleVi:
+      "Người chủ nhà nói nhiều (lắm lời) đã giữ cho bữa tiệc luôn sống động.",
+    categories: ["General"],
   },
   {
-    id: "a1-145",
     word: "Lose",
     slug: "lose",
     phonetic: "/luːz/",
@@ -338,7 +311,6 @@ export const L2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-827",
     word: "Loss",
     slug: "loss",
     phonetic: "/lɔːs/",
@@ -350,7 +322,6 @@ export const L2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-828",
     word: "Lost",
     slug: "lost",
     phonetic: "/lɔːst/",
@@ -362,7 +333,6 @@ export const L2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-829",
     word: "Lot",
     slug: "lot",
     phonetic: "/lɑːt/",
@@ -374,7 +344,6 @@ export const L2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-830",
     word: "Loud",
     slug: "loud",
     phonetic: "/laʊd/",
@@ -386,7 +355,6 @@ export const L2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-831",
     word: "Love",
     slug: "love",
     phonetic: "/lʌv/",
@@ -398,7 +366,6 @@ export const L2: VocabularyWord[] = [
     categories: ["Emotions"],
   },
   {
-    id: "gen-832",
     word: "Lovely",
     slug: "lovely",
     phonetic: "/ˈlʌv.li/",
@@ -410,7 +377,6 @@ export const L2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-833",
     word: "Low",
     slug: "low",
     phonetic: "/loʊ/",
@@ -422,7 +388,6 @@ export const L2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-834",
     word: "Lower",
     slug: "lower",
     phonetic: "/ˈloʊ.ɚ/",
@@ -434,7 +399,6 @@ export const L2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-835",
     word: "Luck",
     slug: "luck",
     phonetic: "/lʌk/",
@@ -446,7 +410,6 @@ export const L2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-836",
     word: "Lucky",
     slug: "lucky",
     phonetic: "/ˈlʌk.i/",
@@ -458,7 +421,6 @@ export const L2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-837",
     word: "Lunch",
     slug: "lunch",
     phonetic: "/lʌntʃ/",
@@ -467,10 +429,9 @@ export const L2: VocabularyWord[] = [
     meaningVi: "Bữa trưa.",
     exampleEn: "Have lunch.",
     exampleVi: "Ăn trưa.",
-    categories: ["Food & Drink","Daily"],
+    categories: ["Food & Drink", "Daily"],
   },
   {
-    id: "gen-838",
     word: "Lung",
     slug: "lung",
     phonetic: "/lʌŋ/",
@@ -479,6 +440,6 @@ export const L2: VocabularyWord[] = [
     meaningVi: "Phổi.",
     exampleEn: "Healthy lungs.",
     exampleVi: "Phổi khỏe mạnh.",
-    categories: ["Biology","Medical"],
-  }
+    categories: ["Biology", "Medical"],
+  },
 ];

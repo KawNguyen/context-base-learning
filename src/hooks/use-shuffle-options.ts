@@ -8,10 +8,7 @@ import { shuffleArray } from "@/lib/utils";
  * @param seed - Seed để đảm bảo shuffle nhất quán (optional, ví dụ: questionId)
  * @returns Object chứa shuffled options và correct index mới
  */
-export function useShuffleOptions<T>(
-  options: T[],
-  correctIndex?: number,
-) {
+export function useShuffleOptions<T>(options: T[], correctIndex?: number) {
   return useMemo(() => {
     const indexedOptions = options.map((option, index) => ({
       option,

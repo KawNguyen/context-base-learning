@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const T1: VocabularyWord[] = [
   {
-    id: "a1-17",
     word: "Table",
     slug: "table",
     phonetic: "/ˈteɪ.bəl/",
@@ -14,19 +13,20 @@ export const T1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "exp-b5c-t-1",
     word: "Taciturn",
     slug: "taciturn",
     phonetic: "/ˈtæs.ə.tɝːn/",
     partOfSpeech: "noun",
-    meaningEn: "(of a person) reserved or uncommunicative in speech; saying little.",
+    meaningEn:
+      "(of a person) reserved or uncommunicative in speech; saying little.",
     meaningVi: "Trầm mặc/Ít nói.",
-    exampleEn: "Neighbors described the man as a quiet and taciturn individual.",
-    exampleVi: "Hàng xóm mô tả người đàn ông này là một cá nhân trầm mặc và ít nói.",
-    categories: ["General"]
+    exampleEn:
+      "Neighbors described the man as a quiet and taciturn individual.",
+    exampleVi:
+      "Hàng xóm mô tả người đàn ông này là một cá nhân trầm mặc và ít nói.",
+    categories: ["General"],
   },
   {
-    id: "job-0024",
     word: "Tailor",
     slug: "tailor",
     phonetic: "/ˈteɪ.lɚ/",
@@ -35,10 +35,9 @@ export const T1: VocabularyWord[] = [
     meaningVi: "Thợ may",
     exampleEn: "The tailor adjusted my suit.",
     exampleVi: "Thợ may chỉnh lại bộ vest của tôi.",
-    categories: ["Jobs","Fashion"],
+    categories: ["Jobs", "Fashion"],
   },
   {
-    id: "gen-1519",
     word: "Take",
     slug: "take",
     phonetic: "/teɪk/",
@@ -50,7 +49,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "pv-48",
     word: "Take after",
     slug: "take-after",
     phonetic: "/teɪk ˈæftər/",
@@ -62,7 +60,6 @@ export const T1: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-75",
     word: "Take along",
     slug: "take-along",
     phonetic: "/teɪk əˈlɔːŋ/",
@@ -74,7 +71,6 @@ export const T1: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-76",
     word: "Take apart",
     slug: "take-apart",
     phonetic: "/teɪk əˈpɑːrt/",
@@ -86,7 +82,6 @@ export const T1: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-74",
     word: "Take away",
     slug: "take-away",
     phonetic: "/teɪk əˈweɪ/",
@@ -98,7 +93,6 @@ export const T1: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-77",
     word: "Take back",
     slug: "take-back",
     phonetic: "/teɪk bæk/",
@@ -110,7 +104,6 @@ export const T1: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-3",
     word: "Take off",
     slug: "take-off",
     phonetic: "/teɪk ɔːf/",
@@ -122,7 +115,6 @@ export const T1: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-21",
     word: "Take up",
     slug: "take-up",
     phonetic: "/teɪk ʌp/",
@@ -134,7 +126,6 @@ export const T1: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "gen-1521",
     word: "Takeaway",
     slug: "takeaway",
     phonetic: "/ˈteɪk.ə.weɪ/",
@@ -146,7 +137,6 @@ export const T1: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
-    id: "gen-1520",
     word: "Talk",
     slug: "talk",
     phonetic: "/tɔːk/",
@@ -158,7 +148,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "pv-471",
     word: "Talk about",
     slug: "talk-about",
     phonetic: "/tɔːk əˈbaʊt/",
@@ -170,7 +159,6 @@ export const T1: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "a1-82",
     word: "Tall",
     slug: "tall",
     phonetic: "/tɔːl/",
@@ -182,19 +170,19 @@ export const T1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "exp-b5c-t-2",
     word: "Tantamount",
     slug: "tantamount",
     phonetic: "/ˈtæn.t̬ə.maʊnt/",
     partOfSpeech: "noun",
     meaningEn: "Equivalent in seriousness to; virtually the same as.",
     meaningVi: "Tương đương với.",
-    exampleEn: "Silence in this situation is tantamount to an admission of guilt.",
-    exampleVi: "Im lặng trong tình huống này tương đương với một sự thừa nhận tội lỗi.",
-    categories: ["General"]
+    exampleEn:
+      "Silence in this situation is tantamount to an admission of guilt.",
+    exampleVi:
+      "Im lặng trong tình huống này tương đương với một sự thừa nhận tội lỗi.",
+    categories: ["General"],
   },
   {
-    id: "a2-211",
     word: "Task",
     slug: "task",
     phonetic: "/tæsk/",
@@ -203,10 +191,9 @@ export const T1: VocabularyWord[] = [
     meaningVi: "Nhiệm vụ, công việc.",
     exampleEn: "Complete the task.",
     exampleVi: "Hoàn thành nhiệm vụ.",
-    categories: ["Daily","Business"],
+    categories: ["Daily", "Business"],
   },
   {
-    id: "gen-1523",
     word: "Taste",
     slug: "taste",
     phonetic: "/teɪst/",
@@ -218,7 +205,6 @@ export const T1: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
-    id: "gen-1524",
     word: "Tax",
     slug: "tax",
     phonetic: "/tæks/",
@@ -227,34 +213,33 @@ export const T1: VocabularyWord[] = [
     meaningVi: "Thuế.",
     exampleEn: "Pay tax.",
     exampleVi: "Trả thuế.",
-    categories: ["Finance","Politics"],
+    categories: ["Finance", "Politics"],
   },
   {
-    id: "a1-15",
     word: "Tea",
     slug: "tea",
     phonetic: "/tiː/",
     partOfSpeech: "noun",
-    meaningEn: "A hot drink made by infusing dried crushed leaves of the tea plant in boiling water.",
+    meaningEn:
+      "A hot drink made by infusing dried crushed leaves of the tea plant in boiling water.",
     meaningVi: "Trà.",
     exampleEn: "She likes drinking green tea.",
     exampleVi: "Cô ấy thích uống trà xanh.",
     categories: ["Food & Drink"],
   },
   {
-    id: "a1-79",
     word: "Teach",
     slug: "teach",
     phonetic: "/tiːtʃ/",
     partOfSpeech: "verb",
-    meaningEn: "Impart knowledge to or instruct (someone) as to how to do something.",
+    meaningEn:
+      "Impart knowledge to or instruct (someone) as to how to do something.",
     meaningVi: "Dạy.",
     exampleEn: "She teaches English at a school.",
     exampleVi: "Cô ấy dạy tiếng Anh ở một trường học.",
     categories: ["Daily"],
   },
   {
-    id: "gen-1527",
     word: "Teacher",
     slug: "teacher",
     phonetic: "/ˈtiː.tʃɚ/",
@@ -263,10 +248,9 @@ export const T1: VocabularyWord[] = [
     meaningVi: "Giáo viên.",
     exampleEn: "Good teacher.",
     exampleVi: "Giáo viên giỏi.",
-    categories: ["Education","Business","Jobs"],
+    categories: ["Education", "Business", "Jobs"],
   },
   {
-    id: "a2-23",
     word: "Team",
     slug: "team",
     phonetic: "/tiːm/",
@@ -278,7 +262,6 @@ export const T1: VocabularyWord[] = [
     categories: ["Social"],
   },
   {
-    id: "job-0026",
     word: "Technician",
     slug: "technician",
     phonetic: "/tekˈnɪʃ.ən/",
@@ -287,34 +270,33 @@ export const T1: VocabularyWord[] = [
     meaningVi: "Kỹ thuật viên",
     exampleEn: "The technician repaired the machine.",
     exampleVi: "Kỹ thuật viên sửa máy móc.",
-    categories: ["Jobs","Technology"],
+    categories: ["Jobs", "Technology"],
   },
   {
-    id: "b1-115",
     word: "Technique",
     slug: "technique",
     phonetic: "/tekˈniːk/",
     partOfSpeech: "noun",
-    meaningEn: "A way of carrying out a particular task, especially the execution or performance of an artistic work or a scientific procedure.",
+    meaningEn:
+      "A way of carrying out a particular task, especially the execution or performance of an artistic work or a scientific procedure.",
     meaningVi: "Kỹ thuật, phương pháp.",
     exampleEn: "She has perfect piano technique.",
     exampleVi: "Cô ấy có kỹ thuật chơi piano hoàn hảo.",
     categories: ["Academic"],
   },
   {
-    id: "a2-146",
     word: "Technology",
     slug: "technology",
     phonetic: "/tekˈnɑː.lə.dʒi/",
     partOfSpeech: "noun",
-    meaningEn: "The application of scientific knowledge for practical purposes.",
+    meaningEn:
+      "The application of scientific knowledge for practical purposes.",
     meaningVi: "Công nghệ.",
     exampleEn: "Modern technology.",
     exampleVi: "Công nghệ hiện đại.",
     categories: ["Technology"],
   },
   {
-    id: "c2-211",
     word: "Telemedicine",
     slug: "telemedicine",
     phonetic: "/ˈtel.iˌmed.ɪ.sɪn/",
@@ -323,10 +305,9 @@ export const T1: VocabularyWord[] = [
     meaningVi: "Khám chữa bệnh từ xa.",
     exampleEn: "Rise of telemedicine.",
     exampleVi: "Sự trỗi dậy của y tế từ xa.",
-    categories: ["Medical","Technology"],
+    categories: ["Medical", "Technology"],
   },
   {
-    id: "c2-235",
     word: "Telemetery",
     slug: "telemetery",
     phonetic: "/təˈlem.ə.tri/",
@@ -335,10 +316,9 @@ export const T1: VocabularyWord[] = [
     meaningVi: "Phép đo từ xa.",
     exampleEn: "Software telemetry.",
     exampleVi: "Phép đo từ xa phần mềm.",
-    categories: ["Technology","Engineering"],
+    categories: ["Technology", "Engineering"],
   },
   {
-    id: "c2-191",
     word: "Teleology",
     slug: "teleology",
     phonetic: "/ˌtel.iˈɑː.lə.dʒi/",
@@ -347,10 +327,9 @@ export const T1: VocabularyWord[] = [
     meaningVi: "Mục đích luận.",
     exampleEn: "A teleological argument.",
     exampleVi: "Một lập luận mục đích luận.",
-    categories: ["Academic","Philosophy"],
+    categories: ["Academic", "Philosophy"],
   },
   {
-    id: "gen-1530",
     word: "Telephone",
     slug: "telephone",
     phonetic: "/ˈtel.ə.foʊn/",
@@ -362,7 +341,6 @@ export const T1: VocabularyWord[] = [
     categories: ["Technology"],
   },
   {
-    id: "gen-1531",
     word: "Television",
     slug: "television",
     phonetic: "/ˈtel.ə.vɪʒ.ən/",
@@ -374,7 +352,6 @@ export const T1: VocabularyWord[] = [
     categories: ["Technology"],
   },
   {
-    id: "gen-1532",
     word: "Tell",
     slug: "tell",
     phonetic: "/tel/",
@@ -386,7 +363,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5c-t-3",
     word: "Temerity",
     slug: "temerity",
     phonetic: "/təˈmer.ə.t̬i/",
@@ -394,23 +370,23 @@ export const T1: VocabularyWord[] = [
     meaningEn: "Excessive confidence or boldness; audacity.",
     meaningVi: "Sự táo bạo/Sự liều lĩnh.",
     exampleEn: "He had the temerity to challenge the world champion.",
-    exampleVi: "Anh ta có sự táo bạo (liều lĩnh) để thách thức nhà vô địch thế giới.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ta có sự táo bạo (liều lĩnh) để thách thức nhà vô địch thế giới.",
+    categories: ["General"],
   },
   {
-    id: "b1-108",
     word: "Temperature",
     slug: "temperature",
     phonetic: "/ˈtem.prə.tʃər/",
     partOfSpeech: "noun",
-    meaningEn: "The degree or intensity of heat present in a substance or object.",
+    meaningEn:
+      "The degree or intensity of heat present in a substance or object.",
     meaningVi: "Nhiệt độ.",
     exampleEn: "The temperature is dropping.",
     exampleVi: "Nhiệt độ đang giảm xuống.",
     categories: ["Daily"],
   },
   {
-    id: "gen-1533",
     word: "Temporary",
     slug: "temporary",
     phonetic: "/ˈtem.pə.rer.i/",
@@ -422,7 +398,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1534",
     word: "Ten",
     slug: "ten",
     phonetic: "/ten/",
@@ -434,7 +409,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1535",
     word: "Tend",
     slug: "tend",
     phonetic: "/tend/",
@@ -446,7 +420,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1536",
     word: "Tennis",
     slug: "tennis",
     phonetic: "/ˈten.ɪs/",
@@ -458,7 +431,6 @@ export const T1: VocabularyWord[] = [
     categories: ["Sports"],
   },
   {
-    id: "exp-b5c-t-4",
     word: "Tenuous",
     slug: "tenuous",
     phonetic: "/ˈten.ju.əs/",
@@ -466,11 +438,11 @@ export const T1: VocabularyWord[] = [
     meaningEn: "Very weak or slight.",
     meaningVi: "Mong manh/Hời hợt.",
     exampleEn: "The link between the two events is tenuous at best.",
-    exampleVi: "Mối liên hệ giữa hai sự kiện này tốt nhất cũng chỉ là mong manh (hời hợt).",
-    categories: ["General"]
+    exampleVi:
+      "Mối liên hệ giữa hai sự kiện này tốt nhất cũng chỉ là mong manh (hời hợt).",
+    categories: ["General"],
   },
   {
-    id: "gen-1537",
     word: "Term",
     slug: "term",
     phonetic: "/tɜːrm/",
@@ -482,7 +454,73 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1538",
+    word: "Terminally ill",
+    slug: "terminally-ill",
+    phonetic: "/ˈtɜːr.mɪ.nəl.i ɪl/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Suffering from a disease that cannot be cured and will result in death.",
+    meaningVi: "Bệnh nặng, không thể chữa khỏi và sẽ dẫn đến tử vong.",
+    exampleEn: "She is terminally ill.",
+    exampleVi: "Cô ấy đang mắc bệnh nặng, không thể chữa khỏi.",
+    categories: ["Medical"],
+  },
+  {
+    word: "Term and condition",
+    slug: "term-and-condition",
+    phonetic: "/ˈtɜːrm ənd kənˈdɪʃ.ən/",
+    partOfSpeech: "noun",
+    meaningEn: "A rule or requirement.",
+    meaningVi: "Điều khoản.",
+    exampleEn: "Read the terms and conditions.",
+    exampleVi: "Đọc các điều khoản và điều kiện.",
+    categories: ["Business"],
+  },
+  {
+    word: "Terminal",
+    slug: "terminal",
+    phonetic: "/ˈtɜːr.mɪ.nəl/",
+    partOfSpeech: "noun",
+    meaningEn: "A building where passengers embark or disembark.",
+    meaningVi: "Nhà ga.",
+    exampleEn: "Airport terminal.",
+    exampleVi: "Nhà ga sân bay.",
+    categories: ["Travel"],
+  },
+  {
+    word: "Terminate",
+    slug: "terminate",
+    phonetic: "/ˈtɜːr.mɪ.neɪt/",
+    partOfSpeech: "verb",
+    meaningEn: "Bring to an end.",
+    meaningVi: "Kết thúc.",
+    exampleEn: "Terminate the contract.",
+    exampleVi: "Chấm dứt hợp đồng.",
+    categories: ["Business"],
+  },
+  {
+    word: "Termination",
+    slug: "termination",
+    phonetic: "/ˌtɜːr.mɪˈneɪ.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn: "The act of ending something.",
+    meaningVi: "Sự kết thúc.",
+    exampleEn: "The termination of the contract.",
+    exampleVi: "Sự chấm dứt hợp đồng.",
+    categories: ["Business"],
+  },
+  {
+    word: "Terminology",
+    slug: "terminology",
+    phonetic: "/ˌtɜːr.mɪˈnɑː.lə.dʒi/",
+    partOfSpeech: "noun",
+    meaningEn: "The body of terms used in a particular subject.",
+    meaningVi: "Thuật ngữ học.",
+    exampleEn: "Medical terminology.",
+    exampleVi: "Thuật ngữ y học.",
+    categories: ["Academic"],
+  },
+  {
     word: "Terrible",
     slug: "terrible",
     phonetic: "/ˈter.ə.bəl/",
@@ -494,7 +532,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1539",
     word: "Test",
     slug: "test",
     phonetic: "/test/",
@@ -506,7 +543,6 @@ export const T1: VocabularyWord[] = [
     categories: ["Education"],
   },
   {
-    id: "gen-1540",
     word: "Text",
     slug: "text",
     phonetic: "/tekst/",
@@ -518,7 +554,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1541",
     word: "Than",
     slug: "than",
     phonetic: "/ðæn/",
@@ -530,7 +565,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1542",
     word: "Thank",
     slug: "thank",
     phonetic: "/θæŋk/",
@@ -542,7 +576,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1543",
     word: "That",
     slug: "that",
     phonetic: "/ðæt/",
@@ -554,7 +587,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1544",
     word: "The",
     slug: "the",
     phonetic: "/ðə/",
@@ -566,19 +598,19 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a1-99",
     word: "The prevailing paradigm",
     slug: "the-prevailing-paradigm",
     phonetic: "/ðə prɪˈveɪ.lɪŋ ˈpær.ə.daɪm/",
     partOfSpeech: "noun",
     meaningEn: "The dominant model or pattern in a particular field.",
     meaningVi: "Mô hình chi phối trong một lĩnh vực cụ thể.",
-    exampleEn: "The prevailing paradigm in education is shifting towards more student-centered learning.",
-    exampleVi: "Mô hình chi phối trong giáo dục đang chuyển hướng sang học tập lấy học sinh làm trung tâm nhiều hơn.",
-    categories: ["Academic","Education"],
+    exampleEn:
+      "The prevailing paradigm in education is shifting towards more student-centered learning.",
+    exampleVi:
+      "Mô hình chi phối trong giáo dục đang chuyển hướng sang học tập lấy học sinh làm trung tâm nhiều hơn.",
+    categories: ["Academic", "Education"],
   },
   {
-    id: "gen-1545",
     word: "Theater",
     slug: "theater",
     phonetic: "/ˈθiː.ə.tɚ/",
@@ -590,7 +622,6 @@ export const T1: VocabularyWord[] = [
     categories: ["Art"],
   },
   {
-    id: "gen-1546",
     word: "Their",
     slug: "their",
     phonetic: "/ðer/",
@@ -602,7 +633,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1547",
     word: "Them",
     slug: "them",
     phonetic: "/ðem/",
@@ -614,7 +644,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1549lotr",
     word: "Theme",
     slug: "theme",
     phonetic: "/θiːm/",
@@ -626,7 +655,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1548",
     word: "Then",
     slug: "then",
     phonetic: "/ðen/",
@@ -638,31 +666,30 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "c2-172",
     word: "Theoretical",
     slug: "theoretical",
     phonetic: "/ˌθiː.əˈret̬.ɪ.kəl/",
     partOfSpeech: "adj",
-    meaningEn: "Concerned with or involving the theory of a subject or area of study rather than its practical application.",
+    meaningEn:
+      "Concerned with or involving the theory of a subject or area of study rather than its practical application.",
     meaningVi: "Thuộc về lý thuyết.",
     exampleEn: "A theoretical framework.",
     exampleVi: "Một khung lý thuyết.",
     categories: ["Academic"],
   },
   {
-    id: "b1-116",
     word: "Theory",
     slug: "theory",
     phonetic: "/ˈθɪə.ri/",
     partOfSpeech: "noun",
-    meaningEn: "A supposition or a system of ideas intended to explain something, especially one based on general principles independent of the thing to be explained.",
+    meaningEn:
+      "A supposition or a system of ideas intended to explain something, especially one based on general principles independent of the thing to be explained.",
     meaningVi: "Lý thuyết.",
     exampleEn: "Einstein's theory of relativity.",
     exampleVi: "Thuyết tương đối của Einstein.",
     categories: ["Academic"],
   },
   {
-    id: "job-0027",
     word: "Therapist",
     slug: "therapist",
     phonetic: "/ˈθer.ə.pɪst/",
@@ -671,10 +698,9 @@ export const T1: VocabularyWord[] = [
     meaningVi: "Nhà trị liệu",
     exampleEn: "The therapist helps patients recover.",
     exampleVi: "Nhà trị liệu giúp bệnh nhân hồi phục.",
-    categories: ["Jobs","Medical"],
+    categories: ["Jobs", "Medical"],
   },
   {
-    id: "a2-215",
     word: "Therapy",
     slug: "therapy",
     phonetic: "/ˈθer.ə.pi/",
@@ -686,7 +712,6 @@ export const T1: VocabularyWord[] = [
     categories: ["Medical"],
   },
   {
-    id: "gen-1550",
     word: "There",
     slug: "there",
     phonetic: "/ðer/",
@@ -698,7 +723,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-t120",
     word: "Therefore",
     slug: "therefore",
     phonetic: "/ˈðer.fɔːr/",
@@ -710,19 +734,18 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "c1-199",
     word: "Thermodynamics",
     slug: "thermodynamics",
     phonetic: "/ˌθɜːr.moʊ.daɪˈnæm.ɪks/",
     partOfSpeech: "noun",
-    meaningEn: "The branch of physical science that deals with the relations between heat and other forms of energy.",
+    meaningEn:
+      "The branch of physical science that deals with the relations between heat and other forms of energy.",
     meaningVi: "Nhiệt động lực học.",
     exampleEn: "The laws of thermodynamics.",
     exampleVi: "Các định luật nhiệt động lực học.",
-    categories: ["Engineering","Academic"],
+    categories: ["Engineering", "Academic"],
   },
   {
-    id: "gen-1551",
     word: "These",
     slug: "these",
     phonetic: "/ðiːz/",
@@ -734,7 +757,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b1-199",
     word: "Thesis",
     slug: "thesis",
     phonetic: "/ˈθiː.sɪs/",
@@ -746,7 +768,6 @@ export const T1: VocabularyWord[] = [
     categories: ["Academic"],
   },
   {
-    id: "gen-1552",
     word: "They",
     slug: "they",
     phonetic: "/ðeɪ/",
@@ -758,7 +779,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1553",
     word: "Thick",
     slug: "thick",
     phonetic: "/θɪk/",
@@ -770,7 +790,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1554",
     word: "Thin",
     slug: "thin",
     phonetic: "/θɪn/",
@@ -782,7 +801,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1555",
     word: "Thing",
     slug: "thing",
     phonetic: "/θɪŋ/",
@@ -794,7 +812,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1556",
     word: "Think",
     slug: "think",
     phonetic: "/θɪŋk/",
@@ -806,7 +823,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "pv-78",
     word: "Think over",
     slug: "think-over",
     phonetic: "/θɪŋk ˈoʊvər/",
@@ -818,7 +834,6 @@ export const T1: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "gen-1557",
     word: "Thinking",
     slug: "thinking",
     phonetic: "/ˈθɪŋ.kɪŋ/",
@@ -830,7 +845,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1558",
     word: "Third",
     slug: "third",
     phonetic: "/θɜːrd/",
@@ -842,7 +856,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-tsas1",
     word: "Thirdly",
     slug: "thirdly",
     phonetic: "/ˈθɜːr.dli/",
@@ -854,7 +867,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a1-98",
     word: "Thirsty",
     slug: "thirsty",
     phonetic: "/ˈθɜːr.sti/",
@@ -866,7 +878,6 @@ export const T1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1560",
     word: "Thirteen",
     slug: "thirteen",
     phonetic: "/ˌθɜːrˈtiːn/",
@@ -878,7 +889,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1561",
     word: "Thirty",
     slug: "thirty",
     phonetic: "/ˈθɜːr.t̬i/",
@@ -890,7 +900,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1562",
     word: "This",
     slug: "this",
     phonetic: "/ðɪs/",
@@ -902,7 +911,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1563",
     word: "Thorough",
     slug: "thorough",
     phonetic: "/ˈθʌr.ə/",
@@ -914,7 +922,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1564",
     word: "Those",
     slug: "those",
     phonetic: "/ðoʊz/",
@@ -926,7 +933,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1565",
     word: "Though",
     slug: "though",
     phonetic: "/ðoʊ/",
@@ -938,7 +944,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1566",
     word: "Thought",
     slug: "thought",
     phonetic: "/θɔːt/",
@@ -950,7 +955,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1567",
     word: "Thousand",
     slug: "thousand",
     phonetic: "/ˈθaʊ.zənd/",
@@ -962,7 +966,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1568",
     word: "Three",
     slug: "three",
     phonetic: "/θriː/",
@@ -974,19 +977,18 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-182",
     word: "Throat",
     slug: "throat",
     phonetic: "/θroʊt/",
     partOfSpeech: "noun",
-    meaningEn: "The passage which leads from the back of the mouth of a person or animal.",
+    meaningEn:
+      "The passage which leads from the back of the mouth of a person or animal.",
     meaningVi: "Cổ họng.",
     exampleEn: "I have a sore throat.",
     exampleVi: "Tôi bị đau họng.",
-    categories: ["Medical","Daily"],
+    categories: ["Medical", "Daily"],
   },
   {
-    id: "gen-1570",
     word: "Through",
     slug: "through",
     phonetic: "/θruː/",
@@ -998,7 +1000,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1571",
     word: "Throughout",
     slug: "throughout",
     phonetic: "/θruːˈaʊt/",
@@ -1010,7 +1011,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b2-220",
     word: "Throughput",
     slug: "throughput",
     phonetic: "/ˈθruː.pʊt/",
@@ -1019,10 +1019,9 @@ export const T1: VocabularyWord[] = [
     meaningVi: "Thông lượng.",
     exampleEn: "Max throughput.",
     exampleVi: "Thông lượng tối đa.",
-    categories: ["Technology","Engineering"],
+    categories: ["Technology", "Engineering"],
   },
   {
-    id: "gen-1572",
     word: "Throw",
     slug: "throw",
     phonetic: "/θroʊ/",
@@ -1034,7 +1033,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1573",
     word: "Thursday",
     slug: "thursday",
     phonetic: "/ˈθɜːrz.deɪ/",
@@ -1046,19 +1044,18 @@ export const T1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "a1-200",
     word: "Ticket",
     slug: "ticket",
     phonetic: "/ˈtɪkɪt/",
     partOfSpeech: "noun",
-    meaningEn: "A piece of paper or card that gives the holder a certain right.",
+    meaningEn:
+      "A piece of paper or card that gives the holder a certain right.",
     meaningVi: "Vé.",
     exampleEn: "I bought two tickets for the concert.",
     exampleVi: "Tôi đã mua hai chiếc vé đi xem hòa nhạc.",
     categories: ["Daily"],
   },
   {
-    id: "gen-1575",
     word: "Tie",
     slug: "tie",
     phonetic: "/taɪ/",
@@ -1070,7 +1067,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1576",
     word: "Tight",
     slug: "tight",
     phonetic: "/taɪt/",
@@ -1082,7 +1078,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1577",
     word: "Till",
     slug: "till",
     phonetic: "/tɪl/",
@@ -1094,7 +1089,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a1-8",
     word: "Time",
     slug: "time",
     phonetic: "/taɪm/",
@@ -1106,19 +1100,18 @@ export const T1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "exp-b5c-t-5",
     word: "Timorous",
     slug: "timorous",
     phonetic: "/ˈtɪm.ər.əs/",
     partOfSpeech: "noun",
-    meaningEn: "Showing or suffering from nervousness, fear, or a lack of confidence.",
+    meaningEn:
+      "Showing or suffering from nervousness, fear, or a lack of confidence.",
     meaningVi: "Nhút nhát/Sợ sệt.",
     exampleEn: "The timorous kitten hid under the sofa.",
     exampleVi: "Chú mèo con nhút nhát (sợ sệt) đã trốn dưới ghế sofa.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1579",
     word: "Tin",
     slug: "tin",
     phonetic: "/tɪn/",
@@ -1130,7 +1123,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1580",
     word: "Tiny",
     slug: "tiny",
     phonetic: "/ˈtaɪ.ni/",
@@ -1142,7 +1134,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1581",
     word: "Tip",
     slug: "tip",
     phonetic: "/tɪp/",
@@ -1154,7 +1145,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a1-101",
     word: "Tired",
     slug: "tired",
     phonetic: "/ˈtaɪərd/",
@@ -1166,7 +1156,6 @@ export const T1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1583",
     word: "Title",
     slug: "title",
     phonetic: "/ˈtaɪ.t̬əl/",
@@ -1178,7 +1167,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1584",
     word: "To",
     slug: "to",
     phonetic: "/tuː/",
@@ -1190,7 +1178,6 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-t1232",
     word: "Toast",
     slug: "toast",
     phonetic: "/toʊst/",
@@ -1200,5 +1187,5 @@ export const T1: VocabularyWord[] = [
     exampleEn: "I like my toast with butter.",
     exampleVi: "Tôi thích bánh mì nướng với bơ.",
     categories: ["Food & Drink"],
-  }
+  },
 ];

@@ -5,7 +5,7 @@ import { CEFRLevel } from "@/types";
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: Promise<{ level: string }> }
+  { params }: { params: Promise<{ level: string }> },
 ) {
   try {
     const { level } = await params;
@@ -19,7 +19,7 @@ export async function GET(
           error: `No question-response exercises found for level: ${level}`,
           availableLevels: Object.keys(QUESTION_RESPONSE_DATA),
         },
-        { status: 404 }
+        { status: 404 },
       );
     }
 
@@ -35,7 +35,7 @@ export async function GET(
     console.error("Question Response API error:", error);
     return NextResponse.json(
       { error: "Failed to fetch exercises" },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }

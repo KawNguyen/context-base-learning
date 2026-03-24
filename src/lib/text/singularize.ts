@@ -157,33 +157,24 @@ export function singularize(word: string): string {
     return matchCase(word, result);
   }
 
-  // Other -ses endings like buses, gases
-  // But NOT phrases, uses, causes (which are just phrase+s, use+s, cause+s)
   if (lower.endsWith("ses") && lower.length > 3 && !lower.endsWith("sses")) {
-    const withoutS = lower.slice(0, -1); // Remove just 's' → "phrase", "use", "cause" OR "buse", "gase"
+    const withoutS = lower.slice(0, -1);
 
-    // If the word (minus final 's') ends in 'se', it's phrase+s pattern
-    // Otherwise (ends in just 'e' without 's'), it's likely bus+es pattern
     if (withoutS.endsWith("se")) {
-      // phrase+s, use+s, cause+s → just remove 's'
       result = withoutS;
       return matchCase(word, result);
     } else {
-      // buses → bus, gases → gas (remove 'es')
       result = lower.slice(0, -2);
       return matchCase(word, result);
     }
   }
 
-  // Regular -s plurals (cats → cat, dogs → dog)
-  // But NOT words ending in common suffixes: -ous, -us, -ness, -less, -ious, -eous
   if (lower.endsWith("s") && !lower.endsWith("ss")) {
-    // Skip if word ends with common non-plural suffixes
     if (
-      lower.endsWith("ous") || // nervous, famous, dangerous
-      lower.endsWith("ious") || // curious, serious, various
-      lower.endsWith("eous") || // gorgeous, courageous
-      lower.endsWith("uous") || // continuous, ambiguous
+      lower.endsWith("ous") ||
+      lower.endsWith("ious") ||
+      lower.endsWith("eous") ||
+      lower.endsWith("uous") ||
       lower.endsWith("ness") || // happiness, sadness
       lower.endsWith("less") || // helpless, careless
       lower.endsWith("us") || // virus, focus, cactus (but not buses)

@@ -59,8 +59,8 @@ export function PassageSelection({ level }: PassageSelectionProps) {
       </Card>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {readingPassages[level].map((passage) => (
-          <PassageCard key={passage.slug} passage={passage} />
+        {readingPassages[level].map((passage, idx) => (
+          <PassageCard key={passage.slug + idx} passage={passage} />
         ))}
       </div>
     </div>

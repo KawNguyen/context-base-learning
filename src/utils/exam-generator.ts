@@ -60,9 +60,9 @@ export const generateMockExam = (settings: ExamSettings): MockExam => {
     T extends {
       level?: string;
       category?: string;
-    }
+    },
   >(
-    data: T[]
+    data: T[],
   ): T[] => {
     if (levelMix || !targetLevel) return data;
     return data.filter((item) => {

@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2, XCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-export type AnswerButtonVariant =  "standard" | "compact";
+export type AnswerButtonVariant = "standard" | "compact";
 
 export interface AnswerButtonProps {
   /** Nội dung hiển thị của option */
@@ -93,7 +93,9 @@ export function AnswerButton({
         <span className="flex items-center gap-2 flex-1">
           {label && <span className="font-semibold">{label}</span>}
           <span
-            className={cn(variant === "standard" ? "font-normal" : "font-medium")}
+            className={cn(
+              variant === "standard" ? "font-normal" : "font-medium",
+            )}
           >
             {children}
           </span>

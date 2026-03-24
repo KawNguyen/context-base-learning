@@ -6,7 +6,7 @@ import { Dialogue } from "@/constants/dialogues";
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: Promise<{ level: string }> }
+  { params }: { params: Promise<{ level: string }> },
 ) {
   try {
     const { level } = await params;
@@ -20,7 +20,7 @@ export async function GET(
           error: `No dialogues found for level: ${upperLevel}`,
           availableLevels: Object.keys(dialogues),
         },
-        { status: 404 }
+        { status: 404 },
       );
     }
 
@@ -41,11 +41,11 @@ export async function GET(
         // Find new correct index after shuffle
         const newCorrectIndex = shuffled.findIndex(
           (item: { originalIndex: number }) =>
-            item.originalIndex === correctIndex
+            item.originalIndex === correctIndex,
         );
 
         const shuffledOptions = shuffled.map(
-          (item: { option: string }) => item.option
+          (item: { option: string }) => item.option,
         );
 
         return {
@@ -73,7 +73,7 @@ export async function GET(
     console.error("Dialogue API error:", error);
     return NextResponse.json(
       { error: "Failed to fetch dialogues" },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }

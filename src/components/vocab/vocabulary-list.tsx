@@ -118,7 +118,7 @@ export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
           <TableBody>
             {filteredVocabulary.map((word) => (
               <TableRow
-                key={word.id}
+                key={word.slug}
                 className="group cursor-pointer hover:bg-accent/50"
                 onClick={() => {
                   setSelectedWord(word);

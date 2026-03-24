@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const O1: VocabularyWord[] = [
   {
-    id: "added-o-1",
     word: "Oasis",
     slug: "oasis",
     phonetic: "/oʊˈeɪ.sɪs/",
@@ -11,10 +10,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Ốc đảo.",
     exampleEn: "The small oasis was a welcome relief in the desert.",
     exampleVi: "Ốc đảo nhỏ là một sự giải thoát đáng mừng giữa sa mạc.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-o-2",
     word: "Oath",
     slug: "oath",
     phonetic: "/oʊθ/",
@@ -23,10 +21,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Lời thề/Lời tuyên thệ.",
     exampleEn: "The witness took an oath to tell the truth in court.",
     exampleVi: "Nhân chứng đã thực hiện một lời thề nói sự thật tại tòa.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-o-1",
     word: "Obdurate",
     slug: "obdurate",
     phonetic: "/ˈɑːb.dʒə.reɪt/",
@@ -35,10 +32,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Ngoan cố.",
     exampleEn: "Despite the evidence, he remained obdurate in his denial.",
     exampleVi: "Mặc dù có bằng chứng, anh ta vẫn ngoan cố trong việc phủ nhận.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-o-2",
     word: "Obeisance",
     slug: "obeisance",
     phonetic: "/oʊˈbeɪ.səns/",
@@ -47,10 +43,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Sự cung kính.",
     exampleEn: "The subjects made a humble obeisance to the king.",
     exampleVi: "Các thần dân đã bày tỏ sự cung kính khiêm tốn trước nhà vua.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-o-3",
     word: "Obelisk",
     slug: "obelisk",
     phonetic: "/ˈɑː.bə.lɪsk/",
@@ -59,10 +54,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Đài kỷ niệm hình tháp.",
     exampleEn: "The ancient obelisk stood tall in the city center.",
     exampleVi: "Ngọn tháp cổ đứng cao sừng sững ở giữa trung tâm thành phố.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-o-4",
     word: "Obese",
     slug: "obese",
     phonetic: "/oʊˈbiːs/",
@@ -71,10 +65,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Béo phì.",
     exampleEn: "The doctor advised the obese patient to lose weight.",
     exampleVi: "Bác sĩ khuyên bệnh nhân béo phì nên giảm cân.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-o-3",
     word: "Obfuscate",
     slug: "obfuscate",
     phonetic: "/ˈɑːb.fə.skeɪt/",
@@ -82,11 +75,11 @@ export const O1: VocabularyWord[] = [
     meaningEn: "Render obscure, unclear, or unintelligible.",
     meaningVi: "Làm mờ mịt/Làm khó hiểu.",
     exampleEn: "The lawyer tried to obfuscate the facts of the case.",
-    exampleVi: "Luật sư đã cố gắng làm khó hiểu (mờ mịt) các tình tiết của vụ án.",
-    categories: ["General"]
+    exampleVi:
+      "Luật sư đã cố gắng làm khó hiểu (mờ mịt) các tình tiết của vụ án.",
+    categories: ["General"],
   },
   {
-    id: "added-o-5",
     word: "Obituary",
     slug: "obituary",
     phonetic: "/oʊˈbɪtʃ.u.er.i/",
@@ -95,10 +88,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Cáo phó.",
     exampleEn: "I read his obituary in the newspaper this morning.",
     exampleVi: "Tôi đã đọc cáo phó của ông ấy trên báo sáng nay.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "b1-222",
     word: "Object",
     slug: "object",
     phonetic: "/ˈɑːb.dʒekt/",
@@ -107,22 +99,21 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Vật thể; đối tượng.",
     exampleEn: "Create an object.",
     exampleVi: "Tạo một đối tượng.",
-    categories: ["Technology","Daily"],
+    categories: ["Technology", "Daily"],
   },
   {
-    id: "added-o-2",
     word: "Objection",
     slug: "objection",
     phonetic: "/əbˈdʒek.ʃən/",
     partOfSpeech: "noun",
-    meaningEn: "An expression or feeling of disapproval or opposition; a reason for disagreeing.",
+    meaningEn:
+      "An expression or feeling of disapproval or opposition; a reason for disagreeing.",
     meaningVi: "Sự phản đối.",
     exampleEn: "Does anyone have an objection to the new proposal?",
     exampleVi: "Có ai có sự phản đối nào đối với đề xuất mới không?",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-o-4",
     word: "Objective",
     slug: "objective",
     phonetic: "/əbˈdʒek.tɪv/",
@@ -131,10 +122,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Khách quan.",
     exampleEn: "We need an objective opinion from an outsider.",
     exampleVi: "Chúng tôi cần một ý kiến khách quan từ khách hàng bên ngoài.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-o-4",
     word: "Oblation",
     slug: "oblation",
     phonetic: "/əˈbleɪ.ʃən/",
@@ -143,10 +133,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Vật cúng/Lễ vật.",
     exampleEn: "They offered a simple oblation at the altar.",
     exampleVi: "Họ đã dâng một lễ vật đơn giản tại bàn thờ.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-o-5",
     word: "Obligate",
     slug: "obligate",
     phonetic: "/ˈɑː.blə.ɡeɪt/",
@@ -155,22 +144,21 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Bắt buộc.",
     exampleEn: "The contract will obligate you to complete the work.",
     exampleVi: "Hợp đồng sẽ bắt buộc bạn phải hoàn thành công việc.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-1",
     word: "Obligation",
     slug: "obligation",
     phonetic: "/ˌɑː.bləˈɡeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn: "An act or course of action to which a person is morally or legally bound.",
+    meaningEn:
+      "An act or course of action to which a person is morally or legally bound.",
     meaningVi: "Nghĩa vụ.",
     exampleEn: "She explained the concept of obligation to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm obligation cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-2",
     word: "Obligatory",
     slug: "obligatory",
     phonetic: "/əˈblɪɡ.ə.tɔːr.i/",
@@ -179,22 +167,22 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Bắt buộc.",
     exampleEn: "She explained the concept of obligatory to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm obligatory cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-o-8",
     word: "Oblige",
     slug: "oblige",
     phonetic: "/əˈblaɪdʒ/",
     partOfSpeech: "noun",
-    meaningEn: "Make (someone) legally or morally bound to an action or course of action.",
+    meaningEn:
+      "Make (someone) legally or morally bound to an action or course of action.",
     meaningVi: "Bắt buộc/Giúp đỡ.",
     exampleEn: "The manager was happy to oblige with our request.",
-    exampleVi: "Quản lý đã rất vui lòng giúp đỡ (thực hiện) yêu cầu của chúng tôi.",
-    categories: ["General"]
+    exampleVi:
+      "Quản lý đã rất vui lòng giúp đỡ (thực hiện) yêu cầu của chúng tôi.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-3",
     word: "Obliging",
     slug: "obliging",
     phonetic: "/əˈblaɪ.dʒɪŋ/",
@@ -203,10 +191,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Sẵn lòng giúp đỡ.",
     exampleEn: "She explained the concept of obliging to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm obliging cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-4",
     word: "Oblique",
     slug: "oblique",
     phonetic: "/əˈbliːk/",
@@ -215,10 +202,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Xiên/Chếch.",
     exampleEn: "She explained the concept of oblique to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm oblique cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-o-5",
     word: "Obliterate",
     slug: "obliterate",
     phonetic: "/əˈblɪt̬.ə.reɪt/",
@@ -227,46 +213,45 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Xóa sạch.",
     exampleEn: "The bombing raid managed to obliterate the bridge.",
     exampleVi: "Cuộc oanh tạc đã xóa sạch (phá hủy hoàn toàn) cây cầu.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-o-6",
     word: "Oblivion",
     slug: "oblivion",
     phonetic: "/əˈblɪv.i.ən/",
     partOfSpeech: "noun",
-    meaningEn: "The state of being unaware or unconscious of what is happening.",
+    meaningEn:
+      "The state of being unaware or unconscious of what is happening.",
     meaningVi: "Sự lãng quên.",
     exampleEn: "The ancient civilization was lost to oblivion.",
     exampleVi: "Nền văn minh cổ đại đã bị rơi vào sự lãng quên.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-6",
     word: "Oblivious",
     slug: "oblivious",
     phonetic: "/əˈblɪv.i.əs/",
     partOfSpeech: "noun",
-    meaningEn: "Not aware of or not concerned about what is happening around one.",
+    meaningEn:
+      "Not aware of or not concerned about what is happening around one.",
     meaningVi: "Lãng quên/Không để ý.",
     exampleEn: "She explained the concept of oblivious to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm oblivious cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-7",
     word: "Oblong",
     slug: "oblong",
     phonetic: "/ˈɑːb.lɑːŋ/",
     partOfSpeech: "noun",
-    meaningEn: "An object or flat figure in an elongated rectangle or oval shape.",
+    meaningEn:
+      "An object or flat figure in an elongated rectangle or oval shape.",
     meaningVi: "Hình chữ nhật.",
     exampleEn: "She explained the concept of oblong to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm oblong cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-8",
     word: "Obnoxious",
     slug: "obnoxious",
     phonetic: "/əbˈnɑːk.ʃəs/",
@@ -275,10 +260,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Khó chịu.",
     exampleEn: "She explained the concept of obnoxious to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm obnoxious cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-o-16",
     word: "Obscure",
     slug: "obscure",
     phonetic: "/əbˈskjʊr/",
@@ -287,10 +271,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Mơ hồ/Ít người biết đến.",
     exampleEn: "The meaning of the poem is somewhat obscure.",
     exampleVi: "Ý nghĩa của bài thơ này có phần mơ hồ (khó hiểu).",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-o-17",
     word: "Obscurity",
     slug: "obscurity",
     phonetic: "/əbˈskjʊr.ə.t̬i/",
@@ -298,11 +281,11 @@ export const O1: VocabularyWord[] = [
     meaningEn: "The state of being unknown, inconspicuous, or unimportant.",
     meaningVi: "Sự tối tăm/Sự mờ mịt.",
     exampleEn: "The artist lived in obscurity for many years.",
-    exampleVi: "Nghệ sĩ đã sống trong sự mờ mịt (không tên tuổi) trong nhiều năm.",
-    categories: ["General"]
+    exampleVi:
+      "Nghệ sĩ đã sống trong sự mờ mịt (không tên tuổi) trong nhiều năm.",
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-o-7",
     word: "Obsequious",
     slug: "obsequious",
     phonetic: "/əbˈsiː.kwi.əs/",
@@ -311,10 +294,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Khúm núm/Nịnh hót.",
     exampleEn: "The waiter was obsequious and overly attentive.",
     exampleVi: "Người phục vụ rất khúm núm (nịnh hót) và chú ý quá mức.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "c2-234",
     word: "Observability",
     slug: "observability",
     phonetic: "/əbˌzɜːr.vəˈbɪl.ə.ti/",
@@ -323,10 +305,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Khả năng quan sát.",
     exampleEn: "System observability.",
     exampleVi: "Khả năng quan sát hệ thống.",
-    categories: ["Technology","Engineering"],
+    categories: ["Technology", "Engineering"],
   },
   {
-    id: "added-o-18",
     word: "Observable",
     slug: "observable",
     phonetic: "/əbˈzɝː.və.bəl/",
@@ -335,10 +316,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Có thể quan sát được.",
     exampleEn: "The changes were easily observable under a microscope.",
     exampleVi: "Các thay đổi có thể dễ dàng quan sát được dưới kính hiển vi.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-9",
     word: "Observance",
     slug: "observance",
     phonetic: "/əbˈzɝː.vəns/",
@@ -347,10 +327,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Sự tuân thủ.",
     exampleEn: "She explained the concept of observance to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm observance cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-10",
     word: "Observant",
     slug: "observant",
     phonetic: "/əbˈzɝː.vənt/",
@@ -359,22 +338,21 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Tinh mắt.",
     exampleEn: "She explained the concept of observant to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm observant cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-11",
     word: "Observation",
     slug: "observation",
     phonetic: "/ˌɑːb.zɚˈveɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn: "The action or process of observing something or someone carefully.",
+    meaningEn:
+      "The action or process of observing something or someone carefully.",
     meaningVi: "Sự quan sát.",
     exampleEn: "She explained the concept of observation to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm observation cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-12",
     word: "Observatory",
     slug: "observatory",
     phonetic: "/əbˈzɝː.və.tɔːr.i/",
@@ -383,22 +361,21 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Đài quan sát.",
     exampleEn: "She explained the concept of observatory to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm observatory cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-13",
     word: "Observe",
     slug: "observe",
     phonetic: "/əbˈzɝːv/",
     partOfSpeech: "noun",
-    meaningEn: "Notice or perceive (something) and register it as being significant.",
+    meaningEn:
+      "Notice or perceive (something) and register it as being significant.",
     meaningVi: "Quan sát.",
     exampleEn: "She explained the concept of observe to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm observe cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-14",
     word: "Observer",
     slug: "observer",
     phonetic: "/əbˈzɝː.vɚ/",
@@ -407,10 +384,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Người quan sát.",
     exampleEn: "She explained the concept of observer to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm observer cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-15",
     word: "Obsession",
     slug: "obsession",
     phonetic: "/əbˈseʃ.ən/",
@@ -419,10 +395,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Sự ám ảnh.",
     exampleEn: "She explained the concept of obsession to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm obsession cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-16",
     word: "Obsessive",
     slug: "obsessive",
     phonetic: "/əbˈses.ɪv/",
@@ -431,10 +406,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Ám ảnh.",
     exampleEn: "She explained the concept of obsessive to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm obsessive cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-o-8",
     word: "Obsolete",
     slug: "obsolete",
     phonetic: "/ˌɑːb.səˈliːt/",
@@ -443,10 +417,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Lỗi thời.",
     exampleEn: "Floppy disks are now obsolete technology.",
     exampleVi: "Đĩa mềm hiện nay là một công nghệ lỗi thời.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-17",
     word: "Obstacle",
     slug: "obstacle",
     phonetic: "/ˈɑːb.stə.kəl/",
@@ -455,10 +428,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Chướng ngại vật.",
     exampleEn: "She explained the concept of obstacle to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm obstacle cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-o-9",
     word: "Obstinate",
     slug: "obstinate",
     phonetic: "/ˈɑːb.stə.nət/",
@@ -467,10 +439,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Bướng bỉnh.",
     exampleEn: "She is too obstinate to admit she was wrong.",
     exampleVi: "Cô ấy quá bướng bỉnh để thừa nhận mình đã sai.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-o-10",
     word: "Obstreperous",
     slug: "obstreperous",
     phonetic: "/əbˈstrep.ɚ.əs/",
@@ -478,11 +449,11 @@ export const O1: VocabularyWord[] = [
     meaningEn: "Noisy and difficult to control.",
     meaningVi: "Om sòm/Khó kiểm soát.",
     exampleEn: "The obstreperous children were finally quieted down.",
-    exampleVi: "Những đứa trẻ om sòm (khó kiểm soát) cuối cùng đã chịu yên lặng.",
-    categories: ["General"]
+    exampleVi:
+      "Những đứa trẻ om sòm (khó kiểm soát) cuối cùng đã chịu yên lặng.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-19",
     word: "Obstruct",
     slug: "obstruct",
     phonetic: "/əbˈstrʌkt/",
@@ -491,10 +462,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Cản trở.",
     exampleEn: "She explained the concept of obstruct to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm obstruct cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-20",
     word: "Obstruction",
     slug: "obstruction",
     phonetic: "/əbˈstrʌk.ʃən/",
@@ -503,10 +473,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Sự tắc nghẽn/Chướng ngại.",
     exampleEn: "She explained the concept of obstruction to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm obstruction cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-21",
     word: "Obtain",
     slug: "obtain",
     phonetic: "/əbˈteɪn/",
@@ -515,10 +484,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Đạt được.",
     exampleEn: "She explained the concept of obtain to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm obtain cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-22",
     word: "Obtainable",
     slug: "obtainable",
     phonetic: "/əbˈteɪ.nə.bəl/",
@@ -527,10 +495,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Có thể đạt được.",
     exampleEn: "She explained the concept of obtainable to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm obtainable cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-o-11",
     word: "Obtrusive",
     slug: "obtrusive",
     phonetic: "/əbˈtruː.sɪv/",
@@ -539,10 +506,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Phô trương/Quấy rầy.",
     exampleEn: "The loud music was very obtrusive during the lecture.",
     exampleVi: "Tiếng nhạc lớn gây quấy rầy (phô trương) trong suốt bài giảng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-o-12",
     word: "Obviate",
     slug: "obviate",
     phonetic: "/ˈɑːb.vi.eɪt/",
@@ -550,11 +516,11 @@ export const O1: VocabularyWord[] = [
     meaningEn: "Remove (a need or difficulty).",
     meaningVi: "Lại bỏ/Tẩy trừ.",
     exampleEn: "Precautionary measures will obviate the risk of fire.",
-    exampleVi: "Các biện pháp phòng ngừa sẽ loại bỏ (tẩy trừ) nguy cơ hỏa hoạn.",
-    categories: ["General"]
+    exampleVi:
+      "Các biện pháp phòng ngừa sẽ loại bỏ (tẩy trừ) nguy cơ hỏa hoạn.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-24",
     word: "Obvious",
     slug: "obvious",
     phonetic: "/ˈɑːb.vi.əs/",
@@ -563,10 +529,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Rõ ràng.",
     exampleEn: "She explained the concept of obvious to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm obvious cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-25",
     word: "Obviously",
     slug: "obviously",
     phonetic: "/ˈɑːb.vi.əs.li/",
@@ -575,10 +540,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Một cách rõ ràng.",
     exampleEn: "She explained the concept of obviously to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm obviously cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-26",
     word: "Occasion",
     slug: "occasion",
     phonetic: "/əˈkeɪ.ʒən/",
@@ -587,10 +551,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Dịp/Cơ hội.",
     exampleEn: "She explained the concept of occasion to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm occasion cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-27",
     word: "Occasional",
     slug: "occasional",
     phonetic: "/əˈkeɪ.ʒən.əl/",
@@ -599,10 +562,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Thỉnh thoảng.",
     exampleEn: "She explained the concept of occasional to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm occasional cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-28",
     word: "Occasionally",
     slug: "occasionally",
     phonetic: "/əˈkeɪ.ʒən.əl.i/",
@@ -611,10 +573,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Thỉnh thoảng.",
     exampleEn: "She explained the concept of occasionally to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm occasionally cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "c2-114",
     word: "Occlude",
     slug: "occlude",
     phonetic: "/əˈkluːd/",
@@ -626,19 +587,19 @@ export const O1: VocabularyWord[] = [
     categories: ["Medical"],
   },
   {
-    id: "exp-b5b-o-13",
     word: "Occult",
     slug: "occult",
     phonetic: "/əˈkʌlt/",
     partOfSpeech: "noun",
-    meaningEn: "Mystical, supernatural, or magical powers, practices, or phenomena.",
+    meaningEn:
+      "Mystical, supernatural, or magical powers, practices, or phenomena.",
     meaningVi: "Huyền bí.",
     exampleEn: "He spent years studying occult practices and rituals.",
-    exampleVi: "Anh ấy đã dành nhiều năm để nghiên cứu các hủ tục và nghi lễ huyền bí.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ấy đã dành nhiều năm để nghiên cứu các hủ tục và nghi lễ huyền bí.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-29",
     word: "Occupancy",
     slug: "occupancy",
     phonetic: "/ˈɑː.kjə.pən.si/",
@@ -647,22 +608,21 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Sự chiếm giữ/Cư ngụ.",
     exampleEn: "She explained the concept of occupancy to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm occupancy cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-o-30",
     word: "Occupant",
     slug: "occupant",
     phonetic: "/ˈɑː.kjə.pənt/",
     partOfSpeech: "noun",
-    meaningEn: "A person who resides or is present in a house, vehicle, seat, etc., at a given time.",
+    meaningEn:
+      "A person who resides or is present in a house, vehicle, seat, etc., at a given time.",
     meaningVi: "Người cư ngụ.",
     exampleEn: "She explained the concept of occupant to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm occupant cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "b2-20",
     word: "Occur",
     slug: "occur",
     phonetic: "/əˈkɜːr/",
@@ -674,7 +634,6 @@ export const O1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-996",
     word: "Ocean",
     slug: "ocean",
     phonetic: "/ˈoʊ.ʃən/",
@@ -686,7 +645,6 @@ export const O1: VocabularyWord[] = [
     categories: ["Geography"],
   },
   {
-    id: "gen-997",
     word: "October",
     slug: "october",
     phonetic: "/ɑːkˈtoʊ.bɚ/",
@@ -698,7 +656,6 @@ export const O1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-998",
     word: "Odd",
     slug: "odd",
     phonetic: "/ɑːd/",
@@ -710,7 +667,6 @@ export const O1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5b-o-14",
     word: "Odious",
     slug: "odious",
     phonetic: "/ˈoʊ.di.əs/",
@@ -718,11 +674,11 @@ export const O1: VocabularyWord[] = [
     meaningEn: "Extremely unpleasant; repulsive.",
     meaningVi: "Đáng ghét/Kinh tởm.",
     exampleEn: "Racism is an odious ideology that must be eliminated.",
-    exampleVi: "Phân biệt chủng tộc là một hệ tư tưởng đáng ghét (kinh tởm) cần phải được xóa bỏ.",
-    categories: ["General"]
+    exampleVi:
+      "Phân biệt chủng tộc là một hệ tư tưởng đáng ghét (kinh tởm) cần phải được xóa bỏ.",
+    categories: ["General"],
   },
   {
-    id: "added-final-o-3",
     word: "Of",
     slug: "of",
     phonetic: "/əv/",
@@ -731,10 +687,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Của.",
     exampleEn: "The lid of the box was missing.",
     exampleVi: "Cái nắp của chiếc hộp đã bị mất.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-final-o-1",
     word: "Off",
     slug: "off",
     phonetic: "/ɑːf/",
@@ -743,10 +698,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Tắt/Rời khỏi.",
     exampleEn: "Please turn off the lights when you leave.",
     exampleVi: "Vui lòng tắt đèn khi bạn rời đi.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-999",
     word: "Offer",
     slug: "offer",
     phonetic: "/ˈɔː.fɚ/",
@@ -758,7 +712,6 @@ export const O1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-73",
     word: "Office",
     slug: "office",
     phonetic: "/ˈɑː.fɪs/",
@@ -770,7 +723,6 @@ export const O1: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "gen-1001",
     word: "Officer",
     slug: "officer",
     phonetic: "/ˈɔː.fɪ.sɚ/",
@@ -779,10 +731,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Sĩ quan.",
     exampleEn: "Police officer.",
     exampleVi: "Cảnh sát.",
-    categories: ["Business","Law"],
+    categories: ["Business", "Law"],
   },
   {
-    id: "gen-1002",
     word: "Official",
     slug: "official",
     phonetic: "/əˈfɪʃ.əl/",
@@ -794,7 +745,6 @@ export const O1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5b-o-15",
     word: "Officious",
     slug: "officious",
     phonetic: "/əˈfɪʃ.əs/",
@@ -802,11 +752,11 @@ export const O1: VocabularyWord[] = [
     meaningEn: "Assertive of authority in an overbearing way.",
     meaningVi: "Lăng xăng/Hay can thiệp.",
     exampleEn: "The officious security guard asked to see my ID again.",
-    exampleVi: "Anh bảo vệ lăng xăng (hay can thiệp) đã yêu cầu xem CMND của tôi một lần nữa.",
-    categories: ["General"]
+    exampleVi:
+      "Anh bảo vệ lăng xăng (hay can thiệp) đã yêu cầu xem CMND của tôi một lần nữa.",
+    categories: ["General"],
   },
   {
-    id: "a2-199",
     word: "Offline",
     slug: "offline",
     phonetic: "/ˌɔːfˈlaɪn/",
@@ -815,10 +765,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Ngoại tuyến.",
     exampleEn: "Read it offline.",
     exampleVi: "Đọc nó ở chế độ ngoại tuyến.",
-    categories: ["Technology","Daily"],
+    categories: ["Technology", "Daily"],
   },
   {
-    id: "gen-1003",
     word: "Often",
     slug: "often",
     phonetic: "/ˈɔː.fən/",
@@ -830,7 +779,6 @@ export const O1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1004",
     word: "Oil",
     slug: "oil",
     phonetic: "/ɔɪl/",
@@ -842,7 +790,6 @@ export const O1: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
-    id: "a1-38",
     word: "Old",
     slug: "old",
     phonetic: "/oʊld/",
@@ -854,7 +801,6 @@ export const O1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "exp-b5b-o-16",
     word: "Ominous",
     slug: "ominous",
     phonetic: "/ˈɑː.mous/",
@@ -863,10 +809,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Điềm xấu.",
     exampleEn: "The sudden silence in the room was ominous.",
     exampleVi: "Sự im lặng đột ngột trong căn phòng thật đáng ngại (điềm xấu).",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-o-17",
     word: "Omnipotence",
     slug: "omnipotence",
     phonetic: "/ɑːmˈnɪp.ə.təns/",
@@ -874,11 +819,11 @@ export const O1: VocabularyWord[] = [
     meaningEn: "The quality of having unlimited or very great power.",
     meaningVi: "Sự toàn năng.",
     exampleEn: "Ancient Greeks believed in the omnipotence of their gods.",
-    exampleVi: "Người Hy Lạp cổ đại tin vào sự toàn năng của các vị thần của họ.",
-    categories: ["General"]
+    exampleVi:
+      "Người Hy Lạp cổ đại tin vào sự toàn năng của các vị thần của họ.",
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-o-18",
     word: "Omnipresent",
     slug: "omnipresent",
     phonetic: "/ˌɑːm.nɪˈprez.ənt/",
@@ -887,10 +832,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Có mặt khắp nơi.",
     exampleEn: "The smell of spices is omnipresent in the local market.",
     exampleVi: "Mùi hương gia vị có mặt khắp nơi trong khu chợ địa phương.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-o-19",
     word: "Omniscient",
     slug: "omniscient",
     phonetic: "/ɑːmˈnɪʃ.ənt/",
@@ -898,11 +842,11 @@ export const O1: VocabularyWord[] = [
     meaningEn: "Knowing everything.",
     meaningVi: "Toàn tri/Thông suốt mọi sự.",
     exampleEn: "The narrator in the novel is omniscient.",
-    exampleVi: "Người kể chuyện trong cuốn tiểu thuyết là người toàn tri (thông suốt mọi sự).",
-    categories: ["General"]
+    exampleVi:
+      "Người kể chuyện trong cuốn tiểu thuyết là người toàn tri (thông suốt mọi sự).",
+    categories: ["General"],
   },
   {
-    id: "c2-158",
     word: "Oncology",
     slug: "oncology",
     phonetic: "/ɑːnˈkɑː.lə.dʒi/",
@@ -914,31 +858,30 @@ export const O1: VocabularyWord[] = [
     categories: ["Medical"],
   },
   {
-    id: "exp-b5b-o-20",
     word: "Onerous",
     slug: "onerous",
     phonetic: "/ˈoʊ.nɚ.əs/",
     partOfSpeech: "noun",
-    meaningEn: "(of a task, duty, or responsibility) involving an amount of effort and difficulty that is oppressively burdensome.",
+    meaningEn:
+      "(of a task, duty, or responsibility) involving an amount of effort and difficulty that is oppressively burdensome.",
     meaningVi: "Nặng nề/Khó nhọc.",
     exampleEn: "The task of cleaning the whole house was onerous.",
     exampleVi: "Nhiệm vụ dọn dẹp cả ngôi nhà thật nặng nề (khó nhọc).",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "a2-198",
     word: "Online",
     slug: "online",
     phonetic: "/ˌɑːnˈlaɪn/",
     partOfSpeech: "adj/adv",
-    meaningEn: "Controlled by or connected to another computer or to a network.",
+    meaningEn:
+      "Controlled by or connected to another computer or to a network.",
     meaningVi: "Trực tuyến.",
     exampleEn: "I shop online.",
     exampleVi: "Tôi mua sắm trực tuyến.",
-    categories: ["Technology","Daily"],
+    categories: ["Technology", "Daily"],
   },
   {
-    id: "gen-1007",
     word: "Only",
     slug: "only",
     phonetic: "/ˈoʊn.li/",
@@ -950,7 +893,6 @@ export const O1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "c2-190",
     word: "Ontology",
     slug: "ontology",
     phonetic: "/ɑːnˈtɑː.lə.dʒi/",
@@ -959,10 +901,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Bản thể luận.",
     exampleEn: "Web ontology.",
     exampleVi: "Bản thể luận web.",
-    categories: ["Academic","Philosophy","Technology"],
+    categories: ["Academic", "Philosophy", "Technology"],
   },
   {
-    id: "exp-b5b-o-21",
     word: "Opaque",
     slug: "opaque",
     phonetic: "/oʊˈpeɪk/",
@@ -971,10 +912,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Mờ đục/Bóng tối.",
     exampleEn: "The frosted glass is opaque and provides privacy.",
     exampleVi: "Kính phủ mờ đục và tạo sự riêng tư.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "a1-70",
     word: "Open",
     slug: "open",
     phonetic: "/ˈoʊ.pən/",
@@ -986,7 +926,6 @@ export const O1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1009",
     word: "Operate",
     slug: "operate",
     phonetic: "/ˈɑː.pə.reɪt/",
@@ -998,31 +937,30 @@ export const O1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-237",
     word: "Operation",
     slug: "operation",
     phonetic: "/ˌɑː.pəˈreɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn: "The action of functioning or being active; a surgical procedure.",
+    meaningEn:
+      "The action of functioning or being active; a surgical procedure.",
     meaningVi: "Sự vận hành; ca phẫu thuật.",
     exampleEn: "The system is in operation.",
     exampleVi: "Hệ thống đang vận hành.",
-    categories: ["Technology","Medical","Daily"],
+    categories: ["Technology", "Medical", "Daily"],
   },
   {
-    id: "c2-165",
     word: "Ophthalmology",
     slug: "ophthalmology",
     phonetic: "/ˌɑːf.θælˈmɑː.lə.dʒi/",
     partOfSpeech: "noun",
-    meaningEn: "The branch of medicine concerned with the study and treatment of disorders and diseases of the eye.",
+    meaningEn:
+      "The branch of medicine concerned with the study and treatment of disorders and diseases of the eye.",
     meaningVi: "Nhãn khoa.",
     exampleEn: "Ophthalmology surgery.",
     exampleVi: "Phẫu thuật nhãn khoa.",
     categories: ["Medical"],
   },
   {
-    id: "b1-15",
     word: "Opinion",
     slug: "opinion",
     phonetic: "/əˈpɪn.jən/",
@@ -1034,19 +972,18 @@ export const O1: VocabularyWord[] = [
     categories: ["Social"],
   },
   {
-    id: "b1-4",
     word: "Opponent",
     slug: "opponent",
     phonetic: "/əˈpoʊ.nənt/",
     partOfSpeech: "noun",
-    meaningEn: "Someone who competes against or fights another in a contest, game, or argument.",
+    meaningEn:
+      "Someone who competes against or fights another in a contest, game, or argument.",
     meaningVi: "Đối thủ.",
     exampleEn: "He respects his opponent.",
     exampleVi: "Anh ấy tôn trọng đối thủ của mình.",
     categories: ["Social"],
   },
   {
-    id: "a2-143",
     word: "Opportunity",
     slug: "opportunity",
     phonetic: "/ˌɑː.pərˈtuː.nə.ti/",
@@ -1058,7 +995,6 @@ export const O1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1013",
     word: "Opposite",
     slug: "opposite",
     phonetic: "/ˈɑː.pə.zɪt/",
@@ -1070,7 +1006,6 @@ export const O1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5b-o-22",
     word: "Opprobrium",
     slug: "opprobrium",
     phonetic: "/əˈproʊ.bri.əm/",
@@ -1078,11 +1013,11 @@ export const O1: VocabularyWord[] = [
     meaningEn: "Harsh criticism or censure.",
     meaningVi: "Sự chỉ trích/Sự nhục nhã.",
     exampleEn: "The scandal brought public opprobrium on the company.",
-    exampleVi: "Vụ bê bối đã mang lại sự chỉ trích (nhục nhã) từ công chúng đối với công ty.",
-    categories: ["General"]
+    exampleVi:
+      "Vụ bê bối đã mang lại sự chỉ trích (nhục nhã) từ công chúng đối với công ty.",
+    categories: ["General"],
   },
   {
-    id: "job-072",
     word: "Optician",
     slug: "optician",
     phonetic: "/ɒpˈtɪʃ.ən/",
@@ -1091,10 +1026,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Chuyên viên mắt kính.",
     exampleEn: "The optician fitted my new glasses.",
     exampleVi: "Chuyên viên mắt kính đã đo kính mới cho tôi.",
-    categories: ["Jobs","Medical"],
+    categories: ["Jobs", "Medical"],
   },
   {
-    id: "c1-224",
     word: "Optimal",
     slug: "optimal",
     phonetic: "/ˈɑːp.tə.məl/",
@@ -1103,22 +1037,21 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Tối ưu.",
     exampleEn: "In optimal conditions.",
     exampleVi: "Trong những điều kiện tối ưu.",
-    categories: ["Daily","Engineering","Academic"],
+    categories: ["Daily", "Engineering", "Academic"],
   },
   {
-    id: "b2-184",
     word: "Optimization",
     slug: "optimization",
     phonetic: "/ˌɑːp.tə.məˈzeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn: "The action of making the best or most effective use of a situation or resource.",
+    meaningEn:
+      "The action of making the best or most effective use of a situation or resource.",
     meaningVi: "Tối ưu hóa.",
     exampleEn: "Search engine optimization (SEO).",
     exampleVi: "Tối ưu hóa công cụ tìm kiếm (SEO).",
-    categories: ["Technology","Business","Academic"],
+    categories: ["Technology", "Business", "Academic"],
   },
   {
-    id: "gen-1014",
     word: "Option",
     slug: "option",
     phonetic: "/ˈɑːp.ʃən/",
@@ -1130,7 +1063,6 @@ export const O1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5b-o-23",
     word: "Opulence",
     slug: "opulence",
     phonetic: "/ˈɑː.pjə.ləns/",
@@ -1139,10 +1071,9 @@ export const O1: VocabularyWord[] = [
     meaningVi: "Sự giàu có/Sự phong phú.",
     exampleEn: "The palace was a display of royal opulence.",
     exampleVi: "Cung điện là sự thể hiện sự giàu có (phong phú) của hoàng gia.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-o-24",
     word: "Oracular",
     slug: "oracular",
     phonetic: "/ɔːˈræk.jə.lɚ/",
@@ -1150,11 +1081,11 @@ export const O1: VocabularyWord[] = [
     meaningEn: "Relating to or resembling an oracle.",
     meaningVi: "Có tính tiên tri/Khó hiểu.",
     exampleEn: "His oracular statement left everyone confused.",
-    exampleVi: "Lời tuyên bố có tính tiên tri (khó hiểu) của ông khiến mọi người bối rối.",
-    categories: ["General"]
+    exampleVi:
+      "Lời tuyên bố có tính tiên tri (khó hiểu) của ông khiến mọi người bối rối.",
+    categories: ["General"],
   },
   {
-    id: "a1-61",
     word: "Orange",
     slug: "orange",
     phonetic: "/ˈɔːr.ɪndʒ/",
@@ -1166,7 +1097,6 @@ export const O1: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
-    id: "c2-230",
     word: "Orchestration",
     slug: "orchestration",
     phonetic: "/ˌɔːr.kəˈstreɪ.ʃən/",
@@ -1178,7 +1108,6 @@ export const O1: VocabularyWord[] = [
     categories: ["Technology"],
   },
   {
-    id: "gen-1016",
     word: "Order",
     slug: "order",
     phonetic: "/ˈɔːr.dɚ/",
@@ -1190,7 +1119,6 @@ export const O1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1017",
     word: "Ordinary",
     slug: "ordinary",
     phonetic: "/ˈɔːr.dən.er.i/",
@@ -1200,5 +1128,5 @@ export const O1: VocabularyWord[] = [
     exampleEn: "An ordinary day.",
     exampleVi: "Một ngày bình thường.",
     categories: ["General"],
-  }
+  },
 ];

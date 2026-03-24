@@ -28,7 +28,7 @@ export function ReadingQuizWrapper({
   // Shuffle options cho câu hỏi hiện tại
   const { shuffledOptions, newCorrectIndex } = useShuffleOptions(
     passage.questions[currentQuestion].options,
-    passage.questions[currentQuestion].options.findIndex((o) => o.isCorrect)
+    passage.questions[currentQuestion].options.findIndex((o) => o.isCorrect),
   );
 
   const handleAnswerSelect = (answerIndex: number) => {

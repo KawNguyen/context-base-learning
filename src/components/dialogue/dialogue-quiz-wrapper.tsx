@@ -36,7 +36,7 @@ export function DialogueQuizWrapper({
   const { shuffledOptions, newCorrectIndex, shuffledToOriginal } =
     useShuffleOptions(
       dialogue.questions[currentQuestion]?.options ?? [],
-      dialogue.questions[currentQuestion]?.correct
+      dialogue.questions[currentQuestion]?.correct,
     );
 
   const handleAnswerSelect = (answerIndex: number) => {
@@ -131,7 +131,7 @@ export function DialogueQuizWrapper({
           </p>
           <p className="text-sm text-muted-foreground">
             {Math.round(
-              ((currentQuestion + 1) / dialogue.questions.length) * 100
+              ((currentQuestion + 1) / dialogue.questions.length) * 100,
             )}
             %
           </p>

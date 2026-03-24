@@ -50,7 +50,7 @@ export function QuestionResponseCard({
     exercise.transcript?.responses[selectedOption]?.isCorrect;
 
   const correctIndex = exercise.transcript?.responses.findIndex(
-    (r) => r.isCorrect
+    (r) => r.isCorrect,
   );
 
   return (
@@ -114,11 +114,11 @@ export function QuestionResponseCard({
                     ? showAsCorrect
                       ? "border-green-500 bg-green-500/10"
                       : showAsWrong
-                      ? "border-red-500 bg-red-500/10"
-                      : "border-white/10 bg-card/50"
+                        ? "border-red-500 bg-red-500/10"
+                        : "border-white/10 bg-card/50"
                     : isSelected
-                    ? "border-primary bg-primary/10"
-                    : "border-white/10 hover:border-primary/50 hover:bg-card/50"
+                      ? "border-primary bg-primary/10"
+                      : "border-white/10 hover:border-primary/50 hover:bg-card/50"
                 } ${isSubmitted ? "cursor-not-allowed" : "cursor-pointer"}`}
               >
                 <div className="flex items-center gap-3">
@@ -127,10 +127,10 @@ export function QuestionResponseCard({
                       showAsCorrect
                         ? "bg-green-500 text-white"
                         : showAsWrong
-                        ? "bg-red-500 text-white"
-                        : isSelected
-                        ? "bg-primary text-primary-foreground"
-                        : "bg-muted text-muted-foreground"
+                          ? "bg-red-500 text-white"
+                          : isSelected
+                            ? "bg-primary text-primary-foreground"
+                            : "bg-muted text-muted-foreground"
                     }`}
                   >
                     {label}

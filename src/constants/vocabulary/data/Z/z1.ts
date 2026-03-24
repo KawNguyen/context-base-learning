@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const Z1: VocabularyWord[] = [
   {
-    id: "gen-z-001",
     word: "Zany",
     slug: "zany",
     phonetic: "/ˈzeɪ.ni/",
@@ -11,10 +10,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Khờ dại, kỳ quặc một cách vui nhộn.",
     exampleEn: "A zany comedy.",
     exampleVi: "Một vở hài kịch kỳ quặc.",
-    categories: ["Entertainment", "General"]
+    categories: ["Entertainment", "General"],
   },
   {
-    id: "gen-z-002",
     word: "Zap",
     slug: "zap",
     phonetic: "/zæp/",
@@ -23,10 +21,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Tiêu diệt; tiếng vút mạnh.",
     exampleEn: "Zap the insects with a bug zapper.",
     exampleVi: "Diệt côn trùng bằng máy diệt côn trùng.",
-    categories: ["General", "Technology"]
+    categories: ["General", "Technology"],
   },
   {
-    id: "exp-b5c-z-1",
     word: "Zeal",
     slug: "zeal",
     phonetic: "/ziːl/",
@@ -34,11 +31,11 @@ export const Z1: VocabularyWord[] = [
     meaningEn: "Great energy or enthusiasm.",
     meaningVi: "Sự hăng hái.",
     exampleEn: "Her zeal for her work is truly impressive.",
-    exampleVi: "Lòng nhiệt tình (sự hăng hái) của cô ấy đối với công việc thật sự ấn tượng.",
-    categories: ["General"]
+    exampleVi:
+      "Lòng nhiệt tình (sự hăng hái) của cô ấy đối với công việc thật sự ấn tượng.",
+    categories: ["General"],
   },
   {
-    id: "gen-z-005",
     word: "Zeally",
     slug: "zeally",
     phonetic: "/ˈzel.i/",
@@ -47,22 +44,22 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Một cách sốt sắng.",
     exampleEn: "Zeally guarded secrets.",
     exampleVi: "Những bí mật được canh giữ một cách nghiêm ngặt.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-final-z-2",
     word: "Zealot",
     slug: "zealot",
     phonetic: "/ˈzel.ət/",
     partOfSpeech: "noun",
-    meaningEn: "A person who is fanatical and uncompromising in pursuit of their religious, political, or other ideals.",
+    meaningEn:
+      "A person who is fanatical and uncompromising in pursuit of their religious, political, or other ideals.",
     meaningVi: "Người cuồng tín.",
     exampleEn: "He is a religious zealot who spends all day preaching.",
-    exampleVi: "Anh ta là một người cuồng tín tôn giáo, người dành cả ngày để thuyết giáo.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ta là một người cuồng tín tôn giáo, người dành cả ngày để thuyết giáo.",
+    categories: ["General"],
   },
   {
-    id: "gen-z-006",
     word: "Zealotry",
     slug: "zealotry",
     phonetic: "/ˈzel.ə.tri/",
@@ -71,10 +68,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Sự cuồng tín.",
     exampleEn: "Ideological zealotry.",
     exampleVi: "Sự cuồng tín về tư tưởng.",
-    categories: ["Politics", "Religion"]
+    categories: ["Politics", "Religion"],
   },
   {
-    id: "exp-b5c-z-2",
     word: "Zealous",
     slug: "zealous",
     phonetic: "/ˈzel.əs/",
@@ -83,10 +79,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Sốt sắng.",
     exampleEn: "She is a zealous supporter of environment protection.",
     exampleVi: "Cô ấy là một người ủng hộ sốt sắng cho việc bảo vệ môi trường.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1890",
     word: "Zebra",
     slug: "zebra",
     phonetic: "/ˈziː.brə/",
@@ -95,10 +90,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Ngựa vằn.",
     exampleEn: "Zebra crossing.",
     exampleVi: "Vạch sang đường (sọc ngựa vằn).",
-    categories: ["Animals", "Nature"]
+    categories: ["Animals", "Nature"],
   },
   {
-    id: "gen-z-008",
     word: "Zebrafish",
     slug: "zebrafish",
     phonetic: "/ˈzeː.brə.fɪʃ/",
@@ -107,10 +101,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Cá ngựa vằn (cá nước ngọt nhỏ).",
     exampleEn: "Zebrafish are used in genetic research.",
     exampleVi: "Cá ngựa vằn được sử dụng trong nghiên cứu di truyền.",
-    categories: ["Animals", "Biology", "Science"]
+    categories: ["Animals", "Biology", "Science"],
   },
   {
-    id: "gen-z-007",
     word: "Zebrawood",
     slug: "zebrawood",
     phonetic: "/ˈziː.brə.wʊd/",
@@ -119,10 +112,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Gỗ sọc (loại gỗ có vân sọc).",
     exampleEn: "A table made of zebrawood.",
     exampleVi: "Một chiếc bàn làm bằng gỗ sọc.",
-    categories: ["Materials", "Nature"]
+    categories: ["Materials", "Nature"],
   },
   {
-    id: "gen-z-009",
     word: "Zebroid",
     slug: "zebroid",
     phonetic: "/ˈziː.brɔɪd/",
@@ -131,10 +123,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Con lai giữa ngựa vằn và các loài ngựa khác.",
     exampleEn: "A zebroid is part zebra, part horse.",
     exampleVi: "Zebroid là loài lai giữa ngựa vằn và ngựa.",
-    categories: ["Animals", "Biology"]
+    categories: ["Animals", "Biology"],
   },
   {
-    id: "gen-z-010",
     word: "Zebu",
     slug: "zebu",
     phonetic: "/ˈziː.buː/",
@@ -143,10 +134,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Bò u (bò Zebu).",
     exampleEn: "Zebu cattle are adaptable to hot climates.",
     exampleVi: "Bò Zebu có khả năng thích nghi với khí hậu nóng.",
-    categories: ["Animals", "Agriculture"]
+    categories: ["Animals", "Agriculture"],
   },
   {
-    id: "gen-z-011",
     word: "Zen",
     slug: "zen",
     phonetic: "/zen/",
@@ -155,10 +145,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Thiền tông; sự thanh thản.",
     exampleEn: "Find your zen.",
     exampleVi: "Tìm thấy sự thanh thản trong bạn.",
-    categories: ["Religion", "Philosophy", "Psychology"]
+    categories: ["Religion", "Philosophy", "Psychology"],
   },
   {
-    id: "exp-final-z-3",
     word: "Zenith",
     slug: "zenith",
     phonetic: "/ˈziː.nɪθ/",
@@ -167,10 +156,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Thiên đỉnh/Cực điểm.",
     exampleEn: "The sun reached its zenith at noon.",
     exampleVi: "Mặt trời đạt đến thiên đỉnh vào buổi trưa.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-final-z-4",
     word: "Zephyr",
     slug: "zephyr",
     phonetic: "/ˈzef.ɚ/",
@@ -179,10 +167,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Gió mơn man/Gió nhẹ.",
     exampleEn: "A cool zephyr blew softly through the open window.",
     exampleVi: "Một làn gió nhẹ mơn man (gió nhẹ) thổi dịu dàng qua cửa sổ mở.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-z-014",
     word: "Zeppelin",
     slug: "zeppelin",
     phonetic: "/ˈzep.əl.ɪn/",
@@ -191,10 +178,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Khí cầu Zeppelin.",
     exampleEn: "The Hindenburg was a famous zeppelin.",
     exampleVi: "Hindenburg là một chiếc khí cầu Zeppelin nổi tiếng.",
-    categories: ["Travel", "History", "Technology"]
+    categories: ["Travel", "History", "Technology"],
   },
   {
-    id: "gen-1884",
     word: "Zero",
     slug: "zero",
     phonetic: "/ˈzɪr.oʊ/",
@@ -203,22 +189,22 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Số không.",
     exampleEn: "Zero degrees.",
     exampleVi: "Không độ.",
-    categories: ["General", "Science"]
+    categories: ["General", "Science"],
   },
   {
-    id: "gen-z-015",
     word: "Zero-sum",
     slug: "zero-sum",
     phonetic: "/ˌzɪr.oʊˈsʌm/",
     partOfSpeech: "adjective",
-    meaningEn: "Relating to a situation in which whatever is gained by one side is lost by the other.",
-    meaningVi: "Tổng bằng không (trò chơi mà kẻ thắng người thua bù trừ cho nhau).",
+    meaningEn:
+      "Relating to a situation in which whatever is gained by one side is lost by the other.",
+    meaningVi:
+      "Tổng bằng không (trò chơi mà kẻ thắng người thua bù trừ cho nhau).",
     exampleEn: "A zero-sum game.",
     exampleVi: "Một trò chơi có tổng bằng không.",
-    categories: ["Economics", "Mathematics", "Social"]
+    categories: ["Economics", "Mathematics", "Social"],
   },
   {
-    id: "gen-z-016",
     word: "Zero-tolerance",
     slug: "zero-tolerance",
     phonetic: "/ˌzɪr.oʊˈtɑː.lɚ.əns/",
@@ -227,10 +213,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Không khoan nhượng (quy định nghiêm ngặt).",
     exampleEn: "Zero-tolerance policy on bullying.",
     exampleVi: "Chính sách không khoan nhượng đối với hành vi bắt nạt.",
-    categories: ["Law", "Social", "Politics"]
+    categories: ["Law", "Social", "Politics"],
   },
   {
-    id: "gen-z-017",
     word: "Zeroth",
     slug: "zeroth",
     phonetic: "/ˈzɪr.oʊθ/",
@@ -239,10 +224,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Thứ không (vị trí số 0).",
     exampleEn: "The zeroth law of thermodynamics.",
     exampleVi: "Định luật thứ không của nhiệt động lực học.",
-    categories: ["Physics", "Mathematics", "Science"]
+    categories: ["Physics", "Mathematics", "Science"],
   },
   {
-    id: "exp-final-z-5",
     word: "Zest",
     slug: "zest",
     phonetic: "/zest/",
@@ -250,11 +234,11 @@ export const Z1: VocabularyWord[] = [
     meaningEn: "Great enthusiasm and energy.",
     meaningVi: "Sự hào hứng/Vỏ cam chanh.",
     exampleEn: "She has a real zest for life and loves new adventures.",
-    exampleVi: "Cô ấy có một sự hào hứng (nhiệt huyết) thực sự với cuộc sống và yêu thích những cuộc phiêu lưu mới.",
-    categories: ["General"]
+    exampleVi:
+      "Cô ấy có một sự hào hứng (nhiệt huyết) thực sự với cuộc sống và yêu thích những cuộc phiêu lưu mới.",
+    categories: ["General"],
   },
   {
-    id: "exp-b5c-z-3",
     word: "Zestful",
     slug: "zestful",
     phonetic: "/ˈzest.fəl/",
@@ -262,11 +246,11 @@ export const Z1: VocabularyWord[] = [
     meaningEn: "Characterized by great energy and enthusiasm.",
     meaningVi: "Hào hứng.",
     exampleEn: "The kids gave a zestful performance at the school play.",
-    exampleVi: "Lũ trẻ đã có một màn trình diễn hào hứng tại vở kịch của trường.",
-    categories: ["General"]
+    exampleVi:
+      "Lũ trẻ đã có một màn trình diễn hào hứng tại vở kịch của trường.",
+    categories: ["General"],
   },
   {
-    id: "gen-z-020",
     word: "Zesty",
     slug: "zesty",
     phonetic: "/ˈzes.ti/",
@@ -275,10 +259,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Có vị đậm đà; đầy sinh lực.",
     exampleEn: "A zesty dressing.",
     exampleVi: "Nước xốt có vị đậm đà.",
-    categories: ["Food & Drink", "General"]
+    categories: ["Food & Drink", "General"],
   },
   {
-    id: "gen-z-021",
     word: "Zeta",
     slug: "zeta",
     phonetic: "/ˈzeɪ.tə/",
@@ -287,22 +270,23 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Chữ cái thứ sáu trong bảng chữ cái Hy Lạp.",
     exampleEn: "Zeta function.",
     exampleVi: "Hàm Zeta.",
-    categories: ["Mathematics", "Science"]
+    categories: ["Mathematics", "Science"],
   },
   {
-    id: "gen-z-022",
     word: "Zeugma",
     slug: "zeugma",
     phonetic: "/ˈzuːɡ.mə/",
     partOfSpeech: "noun",
-    meaningEn: "A figure of speech in which a word applies to two others in different senses.",
-    meaningVi: "Phép lặp (một từ đi đôi với hai từ khác theo hai nghĩa khác nhau).",
+    meaningEn:
+      "A figure of speech in which a word applies to two others in different senses.",
+    meaningVi:
+      "Phép lặp (một từ đi đôi với hai từ khác theo hai nghĩa khác nhau).",
     exampleEn: "‘She opened her door and her heart to the orphan’ is a zeugma.",
-    exampleVi: "‘Cô ấy mở cửa và mở lòng với đứa trẻ mồ côi’ là một ví dụ của phép lặp.",
-    categories: ["Grammar", "Language", "Literature"]
+    exampleVi:
+      "‘Cô ấy mở cửa và mở lòng với đứa trẻ mồ côi’ là một ví dụ của phép lặp.",
+    categories: ["Grammar", "Language", "Literature"],
   },
   {
-    id: "gen-z-023",
     word: "Zig",
     slug: "zig",
     phonetic: "/zɪɡ/",
@@ -311,10 +295,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Sự chuyển hướng đột ngột.",
     exampleEn: "Zig and zag.",
     exampleVi: "Ngụp lặn/Chuyển hướng liên tục.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-z-1",
     word: "Zigzag",
     slug: "zigzag",
     phonetic: "/ˈzɪɡ.zæɡ/",
@@ -323,10 +306,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Đường ngoằn ngoèo.",
     exampleEn: "The road to the mountain top follows a zigzag course.",
     exampleVi: "Con đường lên đỉnh núi đi theo một lộ trình ngoằn ngoèo.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-z-024",
     word: "Zigzagged",
     slug: "zigzagged",
     phonetic: "/ˈzɪɡ.zæɡd/",
@@ -335,10 +317,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Đã di chuyển theo đường zíc zắc.",
     exampleEn: "The path zigzagged up the hill.",
     exampleVi: "Con đường uốn lượn theo hình zíc zắc lên đồi.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-z-025",
     word: "Zigzagging",
     slug: "zigzagging",
     phonetic: "/ˈzɪɡ.zæɡ.ɪŋ/",
@@ -347,10 +328,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Di chuyển theo hình zíc zắc.",
     exampleEn: "Zigzagging through traffic.",
     exampleVi: "Len lỏi theo hình zíc zắc qua dòng xe cộ.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-z-026",
     word: "Zilch",
     slug: "zilch",
     phonetic: "/zɪltʃ/",
@@ -359,10 +339,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Không có gì (số không).",
     exampleEn: "I have zilch in my bank account.",
     exampleVi: "Tôi không còn xu nào trong tài khoản ngân hàng.",
-    categories: ["General", "Finance"]
+    categories: ["General", "Finance"],
   },
   {
-    id: "gen-z-027",
     word: "Zill",
     slug: "zill",
     phonetic: "/zɪl/",
@@ -371,10 +350,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Chũm chọe nhỏ gắn vào ngón tay (dùng trong múa bụng).",
     exampleEn: "The dancer played the zills.",
     exampleVi: "Vũ công chơi chũm chọe ngón tay.",
-    categories: ["Music", "Dance", "Art"]
+    categories: ["Music", "Dance", "Art"],
   },
   {
-    id: "gen-z-028",
     word: "Zillion",
     slug: "zillion",
     phonetic: "/ˈzɪl.jən/",
@@ -383,10 +361,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Số lượng cực lớn.",
     exampleEn: "I've told you a zillion times.",
     exampleVi: "Tôi đã nói với bạn cả tỉ lần rồi.",
-    categories: ["Mathematics", "General"]
+    categories: ["Mathematics", "General"],
   },
   {
-    id: "gen-z-029",
     word: "Zillionaire",
     slug: "zillionaire",
     phonetic: "/ˌzɪl.jəˈner/",
@@ -395,10 +372,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Người cực kỳ giàu có.",
     exampleEn: "He lives like a zillionaire.",
     exampleVi: "Anh ấy sống như một tỷ phú.",
-    categories: ["People", "Business", "Finance"]
+    categories: ["People", "Business", "Finance"],
   },
   {
-    id: "exp-b4b-z-2",
     word: "Zinc",
     slug: "zinc",
     phonetic: "/zɪŋk/",
@@ -407,10 +383,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Kẽm.",
     exampleEn: "Zinc is an essential mineral for human health.",
     exampleVi: "Kẽm là một khoáng chất thiết yếu cho sức khỏe con người.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-z-035",
     word: "Zinc-plated",
     slug: "zinc-plated",
     phonetic: "/zɪŋk ˈpleɪ.tɪd/",
@@ -419,10 +394,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Được mạ kẽm.",
     exampleEn: "Zinc-plated screws.",
     exampleVi: "Vít được mạ kẽm.",
-    categories: ["Engineering", "Construction"]
+    categories: ["Engineering", "Construction"],
   },
   {
-    id: "gen-z-030",
     word: "Zincify",
     slug: "zincify",
     phonetic: "/ˈzɪŋ.kɪ.faɪ/",
@@ -431,10 +405,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Mạ kẽm.",
     exampleEn: "Zincify the iron pipe.",
     exampleVi: "Mạ kẽm cho ống sắt.",
-    categories: ["Engineering", "Science"]
+    categories: ["Engineering", "Science"],
   },
   {
-    id: "gen-z-033",
     word: "Zincky",
     slug: "zincky",
     phonetic: "/ˈzɪŋ.ki/",
@@ -443,10 +416,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Giống kẽm/Có chứa kẽm.",
     exampleEn: "A zincky taste.",
     exampleVi: "Vị như vị kẽm.",
-    categories: ["Science", "Chemistry"]
+    categories: ["Science", "Chemistry"],
   },
   {
-    id: "gen-z-031",
     word: "Zincograph",
     slug: "zincograph",
     phonetic: "/ˈzɪŋ.kə.ɡræf/",
@@ -455,10 +427,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Bản kẽm (để in).",
     exampleEn: "Making a zincograph.",
     exampleVi: "Làm một bản kẽm in.",
-    categories: ["Art", "Technology"]
+    categories: ["Art", "Technology"],
   },
   {
-    id: "gen-z-032",
     word: "Zincographic",
     slug: "zincographic",
     phonetic: "/ˌzɪŋ.kəˈɡræf.ɪk/",
@@ -467,10 +438,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Thuộc về kỹ thuật in bản kẽm.",
     exampleEn: "Zincographic process.",
     exampleVi: "Quy trình in bản kẽm.",
-    categories: ["Art", "Technology"]
+    categories: ["Art", "Technology"],
   },
   {
-    id: "gen-z-034",
     word: "Zincous",
     slug: "zincous",
     phonetic: "/ˈzɪŋ.kəz/",
@@ -479,10 +449,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Thuộc về kẽm.",
     exampleEn: "Zincous properties.",
     exampleVi: "Các đặc tính của kẽm.",
-    categories: ["Science", "Chemistry"]
+    categories: ["Science", "Chemistry"],
   },
   {
-    id: "gen-z-036",
     word: "Zinfandel",
     slug: "zinfandel",
     phonetic: "/ˈzɪn.fən.del/",
@@ -491,10 +460,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Một giống nho làm rượu vang (màu đen).",
     exampleEn: "A glass of Zinfandel.",
     exampleVi: "Một ly rượu vang Zinfandel.",
-    categories: ["Food & Drink"]
+    categories: ["Food & Drink"],
   },
   {
-    id: "gen-z-037",
     word: "Zing",
     slug: "zing",
     phonetic: "/zɪŋ/",
@@ -503,10 +471,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Sức sống/Sự nhiệt tình/Hương vị đậm đà.",
     exampleEn: "The sauce has real zing.",
     exampleVi: "Nước xốt có hương vị thực sự đậm đà.",
-    categories: ["General", "Food & Drink"]
+    categories: ["General", "Food & Drink"],
   },
   {
-    id: "gen-z-038",
     word: "Zinger",
     slug: "zinger",
     phonetic: "/ˈzɪŋ.ɚ/",
@@ -515,10 +482,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Lời nhận xét gây ấn tượng/Hài hước.",
     exampleEn: "The comedian delivered a zinger.",
     exampleVi: "Diễn viên hài đã tung ra một câu đùa cực hay.",
-    categories: ["Entertainment", "General"]
+    categories: ["Entertainment", "General"],
   },
   {
-    id: "gen-z-039",
     word: "Zingy",
     slug: "zingy",
     phonetic: "/ˈzɪŋ.i/",
@@ -527,22 +493,21 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Hấp dẫn/Đầy sức sống.",
     exampleEn: "A zingy lime flavor.",
     exampleVi: "Hương vị chanh tươi mát.",
-    categories: ["General", "Food & Drink"]
+    categories: ["General", "Food & Drink"],
   },
   {
-    id: "gen-z-040",
     word: "Zinnia",
     slug: "zinnia",
     phonetic: "/ˈzɪn.i.ə/",
     partOfSpeech: "noun",
-    meaningEn: "An American plant of the daisy family, widely cultivated for its bright showy flowers.",
+    meaningEn:
+      "An American plant of the daisy family, widely cultivated for its bright showy flowers.",
     meaningVi: "Hoa cúc cánh giấy/Hoa bách nhật.",
     exampleEn: "A vase of zinnias.",
     exampleVi: "Một bình hoa cúc cánh giấy.",
-    categories: ["Nature", "Plants"]
+    categories: ["Nature", "Plants"],
   },
   {
-    id: "gen-z-041",
     word: "Zionism",
     slug: "zionism",
     phonetic: "/ˈzaɪ.ə.nɪ.zəm/",
@@ -551,10 +516,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Chủ nghĩa phục quốc Do Thái.",
     exampleEn: "History of Zionism.",
     exampleVi: "Lịch sử của chủ nghĩa phục quốc Do Thái.",
-    categories: ["Politics", "History", "Religion"]
+    categories: ["Politics", "History", "Religion"],
   },
   {
-    id: "gen-z-042",
     word: "Zionist",
     slug: "zionist",
     phonetic: "/ˈzaɪ.ə.nɪst/",
@@ -563,22 +527,21 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Người theo chủ nghĩa phục quốc Do Thái.",
     exampleEn: "Zionist organizations.",
     exampleVi: "Các tổ chức phục quốc Do Thái.",
-    categories: ["Politics", "People"]
+    categories: ["Politics", "People"],
   },
   {
-    id: "gen-1893",
     word: "Zip",
     slug: "zip",
     phonetic: "/zɪp/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A fastener for clothes or bags that is made of two rows of metal or plastic teeth.",
+    meaningEn:
+      "A fastener for clothes or bags that is made of two rows of metal or plastic teeth.",
     meaningVi: "Khóa kéo.",
     exampleEn: "Zip up your jacket.",
     exampleVi: "Kéo khóa áo khoác lên.",
-    categories: ["Fashion", "Daily"]
+    categories: ["Fashion", "Daily"],
   },
   {
-    id: "gen-z-043",
     word: "Zip-top",
     slug: "zip-top",
     phonetic: "/zɪp tɑːp/",
@@ -587,10 +550,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Có khóa kéo ở phía trên.",
     exampleEn: "A zip-top bag.",
     exampleVi: "Một chiếc túi có khóa kéo trên đầu.",
-    categories: ["Daily", "Shopping"]
+    categories: ["Daily", "Shopping"],
   },
   {
-    id: "gen-z-044",
     word: "Zipcode",
     slug: "zipcode",
     phonetic: "/ˈzɪp ˌkoʊd/",
@@ -599,10 +561,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Mã bưu chính.",
     exampleEn: "Please enter your zipcode.",
     exampleVi: "Vui lòng nhập mã bưu chính của bạn.",
-    categories: ["Daily", "Geography"]
+    categories: ["Daily", "Geography"],
   },
   {
-    id: "gen-z-046",
     word: "Zipless",
     slug: "zipless",
     phonetic: "/ˈzɪp.ləs/",
@@ -611,10 +572,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Không có khóa kéo.",
     exampleEn: "Zipless boots.",
     exampleVi: "Ủng không có khóa kéo.",
-    categories: ["Fashion"]
+    categories: ["Fashion"],
   },
   {
-    id: "gen-z-045",
     word: "Zipped",
     slug: "zipped",
     phonetic: "/zɪpt/",
@@ -623,22 +583,21 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Đã kéo khóa; đã nén (tệp tin).",
     exampleEn: "A zipped file.",
     exampleVi: "Một tệp tin đã nén.",
-    categories: ["Technology", "Fashion"]
+    categories: ["Technology", "Fashion"],
   },
   {
-    id: "gen-1894",
     word: "Zipper",
     slug: "zipper",
     phonetic: "/ˈzɪp.ɚ/",
     partOfSpeech: "noun",
-    meaningEn: "A device for fastening, consisting of two flexible strips with interlocking projections closed or opened by pulling a slide along them.",
+    meaningEn:
+      "A device for fastening, consisting of two flexible strips with interlocking projections closed or opened by pulling a slide along them.",
     meaningVi: "Dây kéo, khóa kéo.",
     exampleEn: "Broken zipper.",
     exampleVi: "Khóa kéo bị hỏng.",
-    categories: ["Fashion", "Daily"]
+    categories: ["Fashion", "Daily"],
   },
   {
-    id: "gen-z-047",
     word: "Zipping",
     slug: "zipping",
     phonetic: "/ˈzɪp.ɪŋ/",
@@ -647,10 +606,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Đang kéo khóa; đang di chuyển nhanh.",
     exampleEn: "Zipping through the work.",
     exampleVi: "Giải quyết công việc một cách nhanh chóng.",
-    categories: ["General", "Fashion"]
+    categories: ["General", "Fashion"],
   },
   {
-    id: "gen-z-048",
     word: "Zippy",
     slug: "zippy",
     phonetic: "/ˈzɪp.i/",
@@ -659,10 +617,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Nhanh nhẹn/Sinh động.",
     exampleEn: "A zippy little car.",
     exampleVi: "Một chiếc xe hơi nhỏ nhanh nhẹn.",
-    categories: ["General", "Travel"]
+    categories: ["General", "Travel"],
   },
   {
-    id: "gen-z-049",
     word: "Zircon",
     slug: "zircon",
     phonetic: "/ˈzɝː.kɑːn/",
@@ -671,10 +628,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Đá Zircon (khoáng vật dùng làm đá quý).",
     exampleEn: "Blue zircon necklace.",
     exampleVi: "Vòng cổ đá Zircon xanh.",
-    categories: ["Nature", "Science", "Materials"]
+    categories: ["Nature", "Science", "Materials"],
   },
   {
-    id: "gen-z-050",
     word: "Zirconia",
     slug: "zirconia",
     phonetic: "/zɝːˈkoʊ.ni.ə/",
@@ -683,10 +639,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Oxit zirconi (dùng làm đá giả kim cương).",
     exampleEn: "Cubic zirconia.",
     exampleVi: "Kim cương nhân tạo (Cubic zirconia).",
-    categories: ["Science", "Materials"]
+    categories: ["Science", "Materials"],
   },
   {
-    id: "gen-z-078",
     word: "Zirconic",
     slug: "zirconic",
     phonetic: "/zɝːˈkɒn.ɪk/",
@@ -695,10 +650,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Thuộc về hoặc chứa zirconi.",
     exampleEn: "Zirconic acid.",
     exampleVi: "Axit zirconic.",
-    categories: ["Science", "Chemistry"]
+    categories: ["Science", "Chemistry"],
   },
   {
-    id: "gen-z-051",
     word: "Zirconium",
     slug: "zirconium",
     phonetic: "/zɝːˈkoʊ.ni.əm/",
@@ -707,10 +661,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Nguyên tố zirconi (kim loại màu xám trắng).",
     exampleEn: "Zirconium is resistant to corrosion.",
     exampleVi: "Zirconi có khả năng chống ăn mòn.",
-    categories: ["Science", "Chemistry"]
+    categories: ["Science", "Chemistry"],
   },
   {
-    id: "gen-z-052",
     word: "Zit",
     slug: "zit",
     phonetic: "/zɪt/",
@@ -719,22 +672,21 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Mụn nhọt.",
     exampleEn: "I have a zit on my chin.",
     exampleVi: "Tôi có một cái mụn trên cằm.",
-    categories: ["Medical", "Body"]
+    categories: ["Medical", "Body"],
   },
   {
-    id: "gen-z-053",
     word: "Zither",
     slug: "zither",
     phonetic: "/ˈzɪð.ɚ/",
     partOfSpeech: "noun",
-    meaningEn: "A musical instrument with numerous strings stretched over a flat box.",
+    meaningEn:
+      "A musical instrument with numerous strings stretched over a flat box.",
     meaningVi: "Đàn tranh/Đàn sắt.",
     exampleEn: "Playing the zither.",
     exampleVi: "Chơi đàn tranh.",
-    categories: ["Music", "Art", "Instruments"]
+    categories: ["Music", "Art", "Instruments"],
   },
   {
-    id: "gen-z-054",
     word: "Zodiac",
     slug: "zodiac",
     phonetic: "/ˈzoʊ.di.æk/",
@@ -743,10 +695,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Cung hoàng đạo.",
     exampleEn: "The signs of the zodiac.",
     exampleVi: "Các cung hoàng đạo.",
-    categories: ["Astronomy", "General"]
+    categories: ["Astronomy", "General"],
   },
   {
-    id: "gen-z-055",
     word: "Zodiacal",
     slug: "zodiacal",
     phonetic: "/zoʊˈdaɪ.ə.kəl/",
@@ -755,10 +706,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Thuộc về cung hoàng đạo.",
     exampleEn: "Zodiacal light.",
     exampleVi: "Ánh sáng hoàng đạo.",
-    categories: ["Astronomy", "General"]
+    categories: ["Astronomy", "General"],
   },
   {
-    id: "gen-z-079",
     word: "Zoic",
     slug: "zoic",
     phonetic: "/ˈzoʊ.ɪk/",
@@ -767,10 +717,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Liên quan đến đời sống động vật.",
     exampleEn: "The Mesozoic era.",
     exampleVi: "Kỷ Trung sinh.",
-    categories: ["Science", "History"]
+    categories: ["Science", "History"],
   },
   {
-    id: "gen-z-056",
     word: "Zombi",
     slug: "zombi",
     phonetic: "/ˈzɑːm.bi/",
@@ -779,10 +728,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Xác sống (biến thể cách viết).",
     exampleEn: "Traditional zombi stories.",
     exampleVi: "Những câu chuyện truyền thống về xác sống.",
-    categories: ["Mystery", "Entertainment"]
+    categories: ["Mystery", "Entertainment"],
   },
   {
-    id: "gen-z-058",
     word: "Zombie",
     slug: "zombie",
     phonetic: "/ˈzɑːm.bi/",
@@ -791,10 +739,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Xác sống/Thược dược.",
     exampleEn: "Zombie apocalypse.",
     exampleVi: "Ngày tận thế xác sống.",
-    categories: ["Mystery", "Entertainment", "People"]
+    categories: ["Mystery", "Entertainment", "People"],
   },
   {
-    id: "gen-z-059",
     word: "Zombieism",
     slug: "zombieism",
     phonetic: "/ˈzɑːm.bi.ɪ.zəm/",
@@ -803,10 +750,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Tình trạng xác sống.",
     exampleEn: "A study of zombieism.",
     exampleVi: "Một nghiên cứu về tình trạng xác sống.",
-    categories: ["Mystery", "Psychology"]
+    categories: ["Mystery", "Psychology"],
   },
   {
-    id: "gen-z-057",
     word: "Zombification",
     slug: "zombification",
     phonetic: "/ˌzɑːm.bə.fəˈkeɪ.ʃən/",
@@ -815,10 +761,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Sự biến thành xác sống.",
     exampleEn: "The zombification of the masses.",
     exampleVi: "Sự biến đại chúng thành những kẻ vô hồn.",
-    categories: ["Mystery", "Psychology"]
+    categories: ["Mystery", "Psychology"],
   },
   {
-    id: "gen-z-060",
     word: "Zonal",
     slug: "zonal",
     phonetic: "/ˈzoʊ.nəl/",
@@ -827,10 +772,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Thuộc về khu vực/Theo vùng.",
     exampleEn: "Zonal distribution.",
     exampleVi: "Phân phối theo vùng.",
-    categories: ["Geography", "General"]
+    categories: ["Geography", "General"],
   },
   {
-    id: "gen-z-061",
     word: "Zonate",
     slug: "zonate",
     phonetic: "/ˈzoʊ.neɪt/",
@@ -839,10 +783,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Có vạch sọc/Có phân vùng.",
     exampleEn: "Zonate leaf spots.",
     exampleVi: "Những đốm lá có vạch.",
-    categories: ["Biology", "Plants"]
+    categories: ["Biology", "Plants"],
   },
   {
-    id: "gen-1885",
     word: "Zone",
     slug: "zone",
     phonetic: "/zoʊn/",
@@ -851,10 +794,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Khu vực.",
     exampleEn: "Time zone.",
     exampleVi: "Múi giờ.",
-    categories: ["Geography", "General"]
+    categories: ["Geography", "General"],
   },
   {
-    id: "gen-z-080",
     word: "Zone-out",
     slug: "zone-out",
     phonetic: "/zoʊn aʊt/",
@@ -863,10 +805,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Mất tập trung/Thẫn thờ.",
     exampleEn: "I often zone out during long meetings.",
     exampleVi: "Tôi thường mất tập trung trong những cuộc họp dài.",
-    categories: ["General", "Psychology"]
+    categories: ["General", "Psychology"],
   },
   {
-    id: "gen-z-081",
     word: "Zonular",
     slug: "zonular",
     phonetic: "/ˈzoʊ.njʊ.lɚ/",
@@ -875,10 +816,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Thuộc về vùng nhỏ.",
     exampleEn: "Zonular fibers in the eye.",
     exampleVi: "Các sợi vùng trong mắt.",
-    categories: ["Medical", "Science"]
+    categories: ["Medical", "Science"],
   },
   {
-    id: "gen-1886",
     word: "Zoo",
     slug: "zoo",
     phonetic: "/zuː/",
@@ -887,10 +827,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Sở thú.",
     exampleEn: "Visit the zoo.",
     exampleVi: "Đi sở thú.",
-    categories: ["Travel", "Daily"]
+    categories: ["Travel", "Daily"],
   },
   {
-    id: "gen-z-082",
     word: "Zoobiotic",
     slug: "zoobiotic",
     phonetic: "/ˌzoʊ.ə.baɪˈɑː.tɪk/",
@@ -899,10 +838,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Liên quan đến đời sống động vật.",
     exampleEn: "Zoobiotic environment.",
     exampleVi: "Môi trường sống của động vật.",
-    categories: ["Biology", "Environment"]
+    categories: ["Biology", "Environment"],
   },
   {
-    id: "gen-z-083",
     word: "Zoochorous",
     slug: "zoochorous",
     phonetic: "/ˈzoʊ.əˌkɔːr.əs/",
@@ -911,10 +849,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Phát tán nhờ động vật (về hạt giống).",
     exampleEn: "Zoochorous plants.",
     exampleVi: "Các loài thực vật phát tán hạt nhờ động vật.",
-    categories: ["Biology", "Nature"]
+    categories: ["Biology", "Nature"],
   },
   {
-    id: "gen-z-062",
     word: "Zoogamy",
     slug: "zoogamy",
     phonetic: "/zoʊˈɑː.ɡə.mi/",
@@ -923,10 +860,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Sự sinh sản hữu tính ở động vật.",
     exampleEn: "Studies in zoogamy.",
     exampleVi: "Các nghiên cứu về sự sinh sản hữu tính ở động vật.",
-    categories: ["Biology", "Science"]
+    categories: ["Biology", "Science"],
   },
   {
-    id: "gen-z-084",
     word: "Zoogenic",
     slug: "zoogenic",
     phonetic: "/ˌzoʊ.əˈdʒen.ɪk/",
@@ -935,34 +871,33 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Do động vật tạo ra.",
     exampleEn: "Zoogenic limestone.",
     exampleVi: "Đá vôi có nguồn gốc động vật.",
-    categories: ["Science", "Geology"]
+    categories: ["Science", "Geology"],
   },
   {
-    id: "gen-z-063",
     word: "Zoogeography",
     slug: "zoogeography",
     phonetic: "/ˌzoʊ.ə.dʒiˈɑː.ɡrə.fi/",
     partOfSpeech: "noun",
-    meaningEn: "The branch of zoology that deals with the geographical distribution of animals.",
+    meaningEn:
+      "The branch of zoology that deals with the geographical distribution of animals.",
     meaningVi: "Động vật địa lý học.",
     exampleEn: "Zoogeography explains animal migration.",
     exampleVi: "Động vật địa lý học giải thích sự di cư của động vật.",
-    categories: ["Biology", "Geography", "Science"]
+    categories: ["Biology", "Geography", "Science"],
   },
   {
-    id: "gen-z-064",
     word: "Zoography",
     slug: "zoography",
     phonetic: "/zoʊˈɑː.ɡrə.fi/",
     partOfSpeech: "noun",
-    meaningEn: "The branch of zoology that deals with the description of animals.",
+    meaningEn:
+      "The branch of zoology that deals with the description of animals.",
     meaningVi: "Phép tả động vật.",
     exampleEn: "Detailed zoography of mountain species.",
     exampleVi: "Phép tả động vật chi tiết về các loài trên núi.",
-    categories: ["Biology", "Science"]
+    categories: ["Biology", "Science"],
   },
   {
-    id: "gen-z-065",
     word: "Zoohelminth",
     slug: "zoohelminth",
     phonetic: "/ˌzoʊ.əˈhel.mɪnθ/",
@@ -971,22 +906,21 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Giun ký sinh ở động vật.",
     exampleEn: "Treating zoohelminth infections.",
     exampleVi: "Điều trị các bệnh nhiễm giun ký sinh ở động vật.",
-    categories: ["Biology", "Science", "Medical"]
+    categories: ["Biology", "Science", "Medical"],
   },
   {
-    id: "gen-z-067",
     word: "Zooid",
     slug: "zooid",
     phonetic: "/ˈzoʊ.ɔɪd/",
     partOfSpeech: "noun",
-    meaningEn: "An individual animal that is part of a colonial or compound organism.",
+    meaningEn:
+      "An individual animal that is part of a colonial or compound organism.",
     meaningVi: "Cá thể động vật (trong một quần thể).",
     exampleEn: "A coral zooid.",
     exampleVi: "Một cá thể san hô.",
-    categories: ["Biology", "Science"]
+    categories: ["Biology", "Science"],
   },
   {
-    id: "gen-z-066",
     word: "Zooidal",
     slug: "zooidal",
     phonetic: "/zoʊˈɔɪ.dəl/",
@@ -995,10 +929,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Thuộc về cá thể động vật.",
     exampleEn: "Zooidal structure.",
     exampleVi: "Cấu trúc cá thể động vật.",
-    categories: ["Biology", "Science"]
+    categories: ["Biology", "Science"],
   },
   {
-    id: "job-0037",
     word: "Zookeeper",
     slug: "zookeeper",
     phonetic: "/ˈzuːˌkiː.pɚ/",
@@ -1007,10 +940,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Người chăm sóc thú",
     exampleEn: "The zookeeper feeds the animals daily.",
     exampleVi: "Người chăm sóc thú cho động vật ăn mỗi ngày.",
-    categories: ["Jobs", "Animals"]
+    categories: ["Jobs", "Animals"],
   },
   {
-    id: "gen-z-068",
     word: "Zoologist",
     slug: "zoologist",
     phonetic: "/zoʊˈɑː.lə.dʒɪst/",
@@ -1019,34 +951,34 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Nhà động vật học.",
     exampleEn: "The zoologist observed the lions.",
     exampleVi: "Nhà động vật học đã quan sát những con sư tử.",
-    categories: ["People", "Jobs", "Science", "Biology"]
+    categories: ["People", "Jobs", "Science", "Biology"],
   },
   {
-    id: "exp-b4b-z-3",
     word: "Zoology",
     slug: "zoology",
     phonetic: "/zoʊˈɑː.lə.dʒi/",
     partOfSpeech: "noun",
-    meaningEn: "The scientific study of the behavior, structure, and classification of animals.",
+    meaningEn:
+      "The scientific study of the behavior, structure, and classification of animals.",
     meaningVi: "Động vật học.",
     exampleEn: "He is studying zoology to work in a wildlife sanctuary.",
-    exampleVi: "Anh ấy đang học động vật học để làm việc trong một khu bảo tồn động vật hoang dã.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ấy đang học động vật học để làm việc trong một khu bảo tồn động vật hoang dã.",
+    categories: ["General"],
   },
   {
-    id: "gen-1895",
     word: "Zoom",
     slug: "zoom",
     phonetic: "/zuːm/",
     partOfSpeech: "verb/noun",
-    meaningEn: "Move or travel very quickly; a camera shot that changes smoothly from a long shot to a close-up.",
+    meaningEn:
+      "Move or travel very quickly; a camera shot that changes smoothly from a long shot to a close-up.",
     meaningVi: "Di chuyển nhanh; thu phóng (hình ảnh).",
     exampleEn: "Zoom in/out.",
     exampleVi: "Phóng to/thu nhỏ.",
-    categories: ["Technology", "General"]
+    categories: ["Technology", "General"],
   },
   {
-    id: "gen-z-085",
     word: "Zoomania",
     slug: "zoomania",
     phonetic: "/ˌzoʊ.əˈmeɪ.ni.ə/",
@@ -1054,11 +986,11 @@ export const Z1: VocabularyWord[] = [
     meaningEn: "An intense love of animals.",
     meaningVi: "Chứng cuồng động vật.",
     exampleEn: "Her zoomania led her to own twenty cats.",
-    exampleVi: "Chứng cuồng động vật của cô ấy dẫn đến việc cô sở hữu hai mươi con mèo.",
-    categories: ["Psychology", "General"]
+    exampleVi:
+      "Chứng cuồng động vật của cô ấy dẫn đến việc cô sở hữu hai mươi con mèo.",
+    categories: ["Psychology", "General"],
   },
   {
-    id: "gen-z-070",
     word: "Zoomed",
     slug: "zoomed",
     phonetic: "/zuːmd/",
@@ -1067,10 +999,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Đã thu phóng/Đã di chuyển nhanh.",
     exampleEn: "The car zoomed past.",
     exampleVi: "Chiếc xe phóng vụt qua.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-z-086",
     word: "Zoometric",
     slug: "zoometric",
     phonetic: "/ˌzoʊ.əˈmet.rɪk/",
@@ -1079,10 +1010,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Thuộc về phép đo động vật.",
     exampleEn: "Zoometric data.",
     exampleVi: "Dữ liệu đo đạc động vật.",
-    categories: ["Biology", "Science"]
+    categories: ["Biology", "Science"],
   },
   {
-    id: "gen-z-071",
     word: "Zooming",
     slug: "zooming",
     phonetic: "/ˈzuː.mɪŋ/",
@@ -1091,10 +1021,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Đang thu phóng/Đang phóng nhanh.",
     exampleEn: "Zooming onto the target.",
     exampleVi: "Đang tập trung nhanh vào mục tiêu.",
-    categories: ["General", "Technology"]
+    categories: ["General", "Technology"],
   },
   {
-    id: "gen-z-072",
     word: "Zoomlens",
     slug: "zoomlens",
     phonetic: "/ˈzuːm.lenz/",
@@ -1103,10 +1032,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Ống kính thu phóng.",
     exampleEn: "A powerful zoomlens.",
     exampleVi: "Một ống kính thu phóng mạnh mẽ.",
-    categories: ["Technology"]
+    categories: ["Technology"],
   },
   {
-    id: "gen-z-087",
     word: "Zoonosis",
     slug: "zoonosis",
     phonetic: "/ˌzoʊ.əˈnoʊ.sɪs/",
@@ -1114,11 +1042,11 @@ export const Z1: VocabularyWord[] = [
     meaningEn: "A disease which can be transmitted to humans from animals.",
     meaningVi: "Bệnh lây truyền từ động vật sang người.",
     exampleEn: "Rabies is a well-known zoonosis.",
-    exampleVi: "Bệnh dại là một bệnh lây truyền từ động vật sang người nổi tiếng.",
-    categories: ["Medical", "Biology", "Science"]
+    exampleVi:
+      "Bệnh dại là một bệnh lây truyền từ động vật sang người nổi tiếng.",
+    categories: ["Medical", "Biology", "Science"],
   },
   {
-    id: "gen-z-088",
     word: "Zoonotic",
     slug: "zoonotic",
     phonetic: "/ˌzoʊ.əˈnɑː.tɪk/",
@@ -1127,10 +1055,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Thuộc về bệnh lây truyền từ động vật.",
     exampleEn: "Zoonotic viruses.",
     exampleVi: "Virus lây truyền từ động vật.",
-    categories: ["Medical", "Biology", "Science"]
+    categories: ["Medical", "Biology", "Science"],
   },
   {
-    id: "gen-z-089",
     word: "Zoopathology",
     slug: "zoopathology",
     phonetic: "/ˌzoʊ.oʊ.pəˈθɑː.lə.dʒi/",
@@ -1139,22 +1066,21 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Bệnh lý học động vật.",
     exampleEn: "A specialist in zoopathology.",
     exampleVi: "Một chuyên gia về bệnh lý học động vật.",
-    categories: ["Biology", "Medical", "Science"]
+    categories: ["Biology", "Medical", "Science"],
   },
   {
-    id: "gen-z-073",
     word: "Zooplankton",
     slug: "zooplankton",
     phonetic: "/ˌzoʊ.əˈplæŋk.tən/",
     partOfSpeech: "noun",
-    meaningEn: "Plankton consisting of small animals and the immature stages of larger animals.",
+    meaningEn:
+      "Plankton consisting of small animals and the immature stages of larger animals.",
     meaningVi: "Động vật phù du.",
     exampleEn: "Whales eat zooplankton.",
     exampleVi: "Cá voi ăn động vật phù du.",
-    categories: ["Biology", "Environment", "Science"]
+    categories: ["Biology", "Environment", "Science"],
   },
   {
-    id: "gen-z-074",
     word: "Zucchini",
     slug: "zucchini",
     phonetic: "/zuːˈkiː.ni/",
@@ -1163,10 +1089,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Bí ngòi.",
     exampleEn: "Grilled zucchini.",
     exampleVi: "Bí ngòi nướng.",
-    categories: ["Food & Drink", "Nature"]
+    categories: ["Food & Drink", "Nature"],
   },
   {
-    id: "gen-z-075",
     word: "Zulu",
     slug: "zulu",
     phonetic: "/ˈzuː.luː/",
@@ -1175,10 +1100,9 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Người Zulu/Tiếng Zulu.",
     exampleEn: "Zulu traditions.",
     exampleVi: "Truyền thống của người Zulu.",
-    categories: ["Politics", "People", "History", "Language"]
+    categories: ["Politics", "People", "History", "Language"],
   },
   {
-    id: "gen-z-076",
     word: "Zydeco",
     slug: "zydeco",
     phonetic: "/ˈzaɪ.də.koʊ/",
@@ -1187,18 +1111,18 @@ export const Z1: VocabularyWord[] = [
     meaningVi: "Nhạc Zydeco (nhạc khiêu vũ của người Mỹ da đen ở Louisiana).",
     exampleEn: "Dancing to zydeco.",
     exampleVi: "Nhảy theo nhạc zydeco.",
-    categories: ["Music", "Art", "Culture"]
+    categories: ["Music", "Art", "Culture"],
   },
   {
-    id: "gen-z-077",
     word: "Zygote",
     slug: "zygote",
     phonetic: "/ˈzaɪ.ɡoʊt/",
     partOfSpeech: "noun",
-    meaningEn: "A diploid cell resulting from the fusion of two haploid gametes.",
+    meaningEn:
+      "A diploid cell resulting from the fusion of two haploid gametes.",
     meaningVi: "Hợp tử.",
     exampleEn: "The formation of a zygote.",
     exampleVi: "Sự hình thành một hợp tử.",
-    categories: ["Biology", "Science", "Medical"]
-  }
+    categories: ["Biology", "Science", "Medical"],
+  },
 ];

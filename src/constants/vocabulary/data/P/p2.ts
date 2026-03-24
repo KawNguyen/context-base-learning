@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const P2: VocabularyWord[] = [
   {
-    id: "gen-1091",
     word: "Place",
     slug: "place",
     phonetic: "/pleɪs/",
@@ -14,7 +13,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-25",
     word: "Plan",
     slug: "plan",
     phonetic: "/plæn/",
@@ -26,7 +24,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1093",
     word: "Plane",
     slug: "plane",
     phonetic: "/pleɪn/",
@@ -38,7 +35,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Travel"],
   },
   {
-    id: "gen-1094",
     word: "Planet",
     slug: "planet",
     phonetic: "/ˈplæn.ɪt/",
@@ -50,7 +46,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Science"],
   },
   {
-    id: "gen-1095",
     word: "Plant",
     slug: "plant",
     phonetic: "/plænt/",
@@ -59,10 +54,9 @@ export const P2: VocabularyWord[] = [
     meaningVi: "Cây.",
     exampleEn: "Water the plant.",
     exampleVi: "Tưới cây.",
-    categories: ["Biology","Environment"],
+    categories: ["Biology", "Environment"],
   },
   {
-    id: "gen-1096",
     word: "Plastic",
     slug: "plastic",
     phonetic: "/ˈplæs.tɪk/",
@@ -74,7 +68,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1097",
     word: "Plate",
     slug: "plate",
     phonetic: "/pleɪt/",
@@ -86,7 +79,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "a2-223",
     word: "Platform",
     slug: "platform",
     phonetic: "/ˈplæt.fɔːrm/",
@@ -95,22 +87,21 @@ export const P2: VocabularyWord[] = [
     meaningVi: "Nền tảng.",
     exampleEn: "A social media platform.",
     exampleVi: "Một nền tảng mạng xã hội.",
-    categories: ["Technology","Business"],
+    categories: ["Technology", "Business"],
   },
   {
-    id: "c2-134",
     word: "Platitude",
     slug: "platitude",
     phonetic: "/ˈplæt.ə.tuːd/",
     partOfSpeech: "noun",
-    meaningEn: "A remark or statement, especially one with a moral content, that has been used too often to be interesting or thoughtful.",
+    meaningEn:
+      "A remark or statement, especially one with a moral content, that has been used too often to be interesting or thoughtful.",
     meaningVi: "Lời nói suông, lời nói tầm thường.",
     exampleEn: "Mouth empty platitudes.",
     exampleVi: "Nói những lời suông rỗng tuếch.",
     categories: ["Social"],
   },
   {
-    id: "c1-227",
     word: "Plausible",
     slug: "plausible",
     phonetic: "/ˈplɑː.zə.bl̩/",
@@ -119,10 +110,9 @@ export const P2: VocabularyWord[] = [
     meaningVi: "Hợp lý, đáng tin.",
     exampleEn: "A plausible explanation.",
     exampleVi: "Một lời giải thích hợp lý.",
-    categories: ["Daily","Academic"],
+    categories: ["Daily", "Academic"],
   },
   {
-    id: "a1-81",
     word: "Play",
     slug: "play",
     phonetic: "/pleɪ/",
@@ -134,7 +124,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1100",
     word: "Player",
     slug: "player",
     phonetic: "/ˈpleɪ.ɚ/",
@@ -146,7 +135,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Sports"],
   },
   {
-    id: "gen-1101",
     word: "Pleasant",
     slug: "pleasant",
     phonetic: "/ˈplez.ənt/",
@@ -158,7 +146,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1102",
     word: "Please",
     slug: "please",
     phonetic: "/pliːz/",
@@ -170,7 +157,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1103",
     word: "Pleasure",
     slug: "pleasure",
     phonetic: "/ˈpleʒ.ɚ/",
@@ -182,7 +168,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Emotions"],
   },
   {
-    id: "gen-1104",
     word: "Plenty",
     slug: "plenty",
     phonetic: "/ˈplen.ti/",
@@ -194,7 +179,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "c2-135",
     word: "Plethora",
     slug: "plethora",
     phonetic: "/ˈpleθ.ɚ.ə/",
@@ -206,19 +190,18 @@ export const P2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-90014",
     word: "Plug",
     slug: "plug",
     phonetic: "/plʌɡ/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A device with prongs used to connect an electrical appliance to a power outlet.",
+    meaningEn:
+      "A device with prongs used to connect an electrical appliance to a power outlet.",
     meaningVi: "Phích cắm; thiết bị cắm vào ổ điện.",
     exampleEn: "Unplug the toaster after use.",
     exampleVi: "Rút phích cắm máy nướng sau khi sử dụng.",
-    categories: ["Technology","Daily"],
+    categories: ["Technology", "Daily"],
   },
   {
-    id: "job-0007",
     word: "Plumber",
     slug: "plumber",
     phonetic: "/ˈplʌm.ɚ/",
@@ -227,10 +210,9 @@ export const P2: VocabularyWord[] = [
     meaningVi: "Thợ sửa ống nước",
     exampleEn: "We called a plumber to fix the leak.",
     exampleVi: "Chúng tôi gọi thợ sửa ống nước để sửa chỗ rò rỉ.",
-    categories: ["Jobs","Construction"],
+    categories: ["Jobs", "Construction"],
   },
   {
-    id: "gen-1105",
     word: "Pocket",
     slug: "pocket",
     phonetic: "/ˈpɑː.kɪt/",
@@ -242,7 +224,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1106",
     word: "Poem",
     slug: "poem",
     phonetic: "/ˈpoʊ.əm/",
@@ -254,7 +235,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Literature"],
   },
   {
-    id: "gen-1107",
     word: "Poet",
     slug: "poet",
     phonetic: "/ˈpoʊ.ət/",
@@ -263,10 +243,9 @@ export const P2: VocabularyWord[] = [
     meaningVi: "Nhà thơ.",
     exampleEn: "Famous poet.",
     exampleVi: "Nhà thơ nổi tiếng.",
-    categories: ["Literature","Business"],
+    categories: ["Literature", "Business"],
   },
   {
-    id: "gen-1108",
     word: "Point",
     slug: "point",
     phonetic: "/pɔɪnt/",
@@ -278,7 +257,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "pv-73",
     word: "Point out",
     slug: "point-out",
     phonetic: "/pɔɪnt aʊt/",
@@ -290,7 +268,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "gen-1109",
     word: "Police",
     slug: "police",
     phonetic: "/pəˈliːs/",
@@ -302,7 +279,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Law"],
   },
   {
-    id: "job-0008",
     word: "Police officer",
     slug: "police-officer",
     phonetic: "/pəˈliːs ˌɒf.ɪ.sɚ/",
@@ -311,10 +287,9 @@ export const P2: VocabularyWord[] = [
     meaningVi: "Cảnh sát",
     exampleEn: "The police officer directed traffic.",
     exampleVi: "Cảnh sát điều tiết giao thông.",
-    categories: ["Jobs","Law"],
+    categories: ["Jobs", "Law"],
   },
   {
-    id: "a2-165",
     word: "Policy",
     slug: "policy",
     phonetic: "/ˈpɑː.lə.si/",
@@ -326,7 +301,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "gen-1111",
     word: "Polite",
     slug: "polite",
     phonetic: "/pəˈlaɪt/",
@@ -338,7 +312,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1112",
     word: "Political",
     slug: "political",
     phonetic: "/pəˈlɪt.ɪ.kəl/",
@@ -350,7 +323,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Politics"],
   },
   {
-    id: "job-0009",
     word: "Politician",
     slug: "politician",
     phonetic: "/ˌpɑː.ləˈtɪʃ.ən/",
@@ -359,10 +331,9 @@ export const P2: VocabularyWord[] = [
     meaningVi: "Chính trị gia",
     exampleEn: "He became a well-known politician.",
     exampleVi: "Ông ấy trở thành một chính trị gia nổi tiếng.",
-    categories: ["Jobs","Politics"],
+    categories: ["Jobs", "Politics"],
   },
   {
-    id: "gen-1113",
     word: "Politics",
     slug: "politics",
     phonetic: "/ˈpɑː.lə.tɪks/",
@@ -374,19 +345,18 @@ export const P2: VocabularyWord[] = [
     categories: ["Politics"],
   },
   {
-    id: "a2-95",
     word: "Pollution",
     slug: "pollution",
     phonetic: "/pəˈluː.ʃən/",
     partOfSpeech: "noun",
-    meaningEn: "Introduction into the environment of a substance which has harmful effects.",
+    meaningEn:
+      "Introduction into the environment of a substance which has harmful effects.",
     meaningVi: "Ô nhiễm.",
     exampleEn: "Air pollution.",
     exampleVi: "Ô nhiễm không khí.",
     categories: ["Social"],
   },
   {
-    id: "b2-250",
     word: "Polymorphism",
     slug: "polymorphism",
     phonetic: "/ˌpɑː.liˈmɔːr.fɪ.zəm/",
@@ -395,10 +365,9 @@ export const P2: VocabularyWord[] = [
     meaningVi: "Tính đa hình.",
     exampleEn: "Runtime polymorphism.",
     exampleVi: "Tính đa hình lúc thực thi.",
-    categories: ["Technology","Biology"],
+    categories: ["Technology", "Biology"],
   },
   {
-    id: "gen-1115",
     word: "Pool",
     slug: "pool",
     phonetic: "/puːl/",
@@ -410,19 +379,18 @@ export const P2: VocabularyWord[] = [
     categories: ["Sports"],
   },
   {
-    id: "a1-92",
     word: "Poor",
     slug: "poor",
     phonetic: "/pʊr/",
     partOfSpeech: "adj",
-    meaningEn: "Lacking sufficient money to live at a standard considered comfortable or normal in a society.",
+    meaningEn:
+      "Lacking sufficient money to live at a standard considered comfortable or normal in a society.",
     meaningVi: "Nghèo.",
     exampleEn: "A poor family.",
     exampleVi: "Một gia đình nghèo.",
     categories: ["Daily"],
   },
   {
-    id: "gen-1117",
     word: "Popular",
     slug: "popular",
     phonetic: "/ˈpɑː.pjə.lɚ/",
@@ -434,7 +402,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1118",
     word: "Population",
     slug: "population",
     phonetic: "/ˌpɑː.pjəˈleɪ.ʃən/",
@@ -446,7 +413,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-226",
     word: "Portable",
     slug: "portable",
     phonetic: "/ˈpɔːr.t̬ə.bl̩/",
@@ -455,10 +421,9 @@ export const P2: VocabularyWord[] = [
     meaningVi: "Có thể di chuyển, cầm tay.",
     exampleEn: "A portable speaker.",
     exampleVi: "Một chiếc loa cầm tay.",
-    categories: ["Daily","Technology"],
+    categories: ["Daily", "Technology"],
   },
   {
-    id: "gen-1119",
     word: "Position",
     slug: "position",
     phonetic: "/pəˈzɪʃ.ən/",
@@ -470,7 +435,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b1-80",
     word: "Positive",
     slug: "positive",
     phonetic: "/ˈpɑː.zə.t̬ɪv/",
@@ -482,7 +446,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1121",
     word: "Possess",
     slug: "possess",
     phonetic: "/pəˈzes/",
@@ -494,7 +457,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-49",
     word: "Possible",
     slug: "possible",
     phonetic: "/ˈpɑː.sə.bl̩/",
@@ -506,7 +468,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "a2-200",
     word: "Post",
     slug: "post",
     phonetic: "/poʊst/",
@@ -515,10 +476,9 @@ export const P2: VocabularyWord[] = [
     meaningVi: "Bài đăng; đăng bài.",
     exampleEn: "Post a photo.",
     exampleVi: "Đăng một bức ảnh.",
-    categories: ["Technology","Social","Daily"],
+    categories: ["Technology", "Social", "Daily"],
   },
   {
-    id: "gen-1124",
     word: "Potato",
     slug: "potato",
     phonetic: "/pəˈteɪ.toʊ/",
@@ -530,31 +490,30 @@ export const P2: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
-    id: "c1-228",
     word: "Potential",
     slug: "potential",
     phonetic: "/pəˈten.ʃəl/",
     partOfSpeech: "adj/noun",
-    meaningEn: "Having or showing the capacity to become or develop into something in the future.",
+    meaningEn:
+      "Having or showing the capacity to become or develop into something in the future.",
     meaningVi: "Tiềm năng.",
     exampleEn: "Unlock your full potential.",
     exampleVi: "Khai phá toàn bộ tiềm năng của bạn.",
-    categories: ["Daily","Business","Academic"],
+    categories: ["Daily", "Business", "Academic"],
   },
   {
-    id: "c1-22821",
     word: "Potentially",
     slug: "potentially",
     phonetic: "/pəˈten.ʃəl.i/",
     partOfSpeech: "adv",
-    meaningEn: "With the capacity to become or develop into something in the future.",
+    meaningEn:
+      "With the capacity to become or develop into something in the future.",
     meaningVi: "Có tiềm năng.",
     exampleEn: "Potentially dangerous.",
     exampleVi: "Có thể nguy hiểm.",
-    categories: ["Daily","Business","Academic"],
+    categories: ["Daily", "Business", "Academic"],
   },
   {
-    id: "gen-1126",
     word: "Pound",
     slug: "pound",
     phonetic: "/paʊnd/",
@@ -566,7 +525,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1127",
     word: "Pour",
     slug: "pour",
     phonetic: "/pɔːr/",
@@ -578,7 +536,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1128",
     word: "Poverty",
     slug: "poverty",
     phonetic: "/ˈpɑː.vɚ.ti/",
@@ -590,7 +547,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1129",
     word: "Power",
     slug: "power",
     phonetic: "/ˈpaʊ.ɚ/",
@@ -602,7 +558,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "pv-121",
     word: "Power up",
     slug: "power-up",
     phonetic: "/ˈpaʊ.ər ʌp/",
@@ -611,10 +566,9 @@ export const P2: VocabularyWord[] = [
     meaningVi: "Bật nguồn.",
     exampleEn: "Power up the server.",
     exampleVi: "Bật nguồn máy chủ.",
-    categories: ["Phrasal Verb","Technology"],
+    categories: ["Phrasal Verb", "Technology"],
   },
   {
-    id: "gen-1130",
     word: "Powerful",
     slug: "powerful",
     phonetic: "/ˈpaʊ.ɚ.fəl/",
@@ -626,7 +580,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1131",
     word: "Practice",
     slug: "practice",
     phonetic: "/ˈpræk.tɪs/",
@@ -638,31 +591,30 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "c2-136",
     word: "Pragmatic",
     slug: "pragmatic",
     phonetic: "/præɡˈmæt.ɪk/",
     partOfSpeech: "adj",
-    meaningEn: "Dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations.",
+    meaningEn:
+      "Dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations.",
     meaningVi: "Thực tế, thực dụng.",
     exampleEn: "A pragmatic approach.",
     exampleVi: "Một cách tiếp cận thực tế.",
     categories: ["Academic"],
   },
   {
-    id: "c2-192",
     word: "Pragmatism",
     slug: "pragmatism",
     phonetic: "/ˈpræɡ.mə.tɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn: "An approach that assesses the truth of theories in terms of their practical application.",
+    meaningEn:
+      "An approach that assesses the truth of theories in terms of their practical application.",
     meaningVi: "Chủ nghĩa thực dụng.",
     exampleEn: "Political pragmatism.",
     exampleVi: "Chủ nghĩa thực dụng chính trị.",
-    categories: ["Academic","Philosophy"],
+    categories: ["Academic", "Philosophy"],
   },
   {
-    id: "gen-1132",
     word: "Praise",
     slug: "praise",
     phonetic: "/preɪz/",
@@ -674,7 +626,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1133",
     word: "Pray",
     slug: "pray",
     phonetic: "/preɪ/",
@@ -686,7 +637,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1134",
     word: "Prayer",
     slug: "prayer",
     phonetic: "/prer/",
@@ -698,19 +648,18 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "c1-229",
     word: "Precedent",
     slug: "precedent",
     phonetic: "/ˈpres.ɪ.dənt/",
     partOfSpeech: "noun",
-    meaningEn: "An earlier event or action that is regarded as an example or guide to be considered in subsequent similar circumstances.",
+    meaningEn:
+      "An earlier event or action that is regarded as an example or guide to be considered in subsequent similar circumstances.",
     meaningVi: "Tiền lệ.",
     exampleEn: "Setting a dangerous precedent.",
     exampleVi: "Thiết lập một tiền lệ nguy hiểm.",
-    categories: ["Law","Social","Academic"],
+    categories: ["Law", "Social", "Academic"],
   },
   {
-    id: "c2-137",
     word: "Precipitous",
     slug: "precipitous",
     phonetic: "/preˈsɪp.ə.t̬əs/",
@@ -722,7 +671,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "gen-1135",
     word: "Predict",
     slug: "predict",
     phonetic: "/prɪˈdɪkt/",
@@ -734,7 +682,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1136",
     word: "Prefer",
     slug: "prefer",
     phonetic: "/prɪˈfɜːr/",
@@ -746,7 +693,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1137",
     word: "Preparation",
     slug: "preparation",
     phonetic: "/ˌprep.əˈreɪ.ʃən/",
@@ -758,7 +704,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b1-27",
     word: "Prepare",
     slug: "prepare",
     phonetic: "/prɪˈper/",
@@ -770,31 +715,30 @@ export const P2: VocabularyWord[] = [
     categories: ["Academic"],
   },
   {
-    id: "c2-138",
     word: "Prescience",
     slug: "prescience",
     phonetic: "/ˈpre.ʃəns/",
     partOfSpeech: "noun",
-    meaningEn: "The fact of knowing something before it takes place; foreknowledge.",
+    meaningEn:
+      "The fact of knowing something before it takes place; foreknowledge.",
     meaningVi: "Sự tiên tri, sự biết trước.",
     exampleEn: "Possess great prescience.",
     exampleVi: "Có khả năng tiên tri tuyệt vời.",
     categories: ["Academic"],
   },
   {
-    id: "b2-147",
     word: "Prescription",
     slug: "prescription",
     phonetic: "/prɪˈskrɪp.ʃən/",
     partOfSpeech: "noun",
-    meaningEn: "An instruction written by a medical practitioner that authorizes a patient to be provided with a medicine.",
+    meaningEn:
+      "An instruction written by a medical practitioner that authorizes a patient to be provided with a medicine.",
     meaningVi: "Đơn thuốc.",
     exampleEn: "The doctor gave me a prescription.",
     exampleVi: "Bác sĩ đã đưa cho tôi một đơn thuốc.",
     categories: ["Medical"],
   },
   {
-    id: "a2-147",
     word: "Present",
     slug: "present",
     phonetic: "/ˈprez.ənt/",
@@ -806,7 +750,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1140",
     word: "Presentation",
     slug: "presentation",
     phonetic: "/ˌprez.ənˈteɪ.ʃən/",
@@ -815,10 +758,9 @@ export const P2: VocabularyWord[] = [
     meaningVi: "Bài thuyết trình.",
     exampleEn: "Give a presentation.",
     exampleVi: "Thuyết trình.",
-    categories: ["Business","Education"],
+    categories: ["Business", "Education"],
   },
   {
-    id: "gen-1141",
     word: "President",
     slug: "president",
     phonetic: "/ˈprez.ɪ.dənt/",
@@ -830,7 +772,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Politics"],
   },
   {
-    id: "gen-1142",
     word: "Press",
     slug: "press",
     phonetic: "/pres/",
@@ -842,7 +783,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1143",
     word: "Pressure",
     slug: "pressure",
     phonetic: "/ˈpreʃ.ɚ/",
@@ -854,7 +794,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1144",
     word: "Pretty",
     slug: "pretty",
     phonetic: "/ˈprɪt.i/",
@@ -866,7 +805,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "c2-139",
     word: "Prevaricate",
     slug: "prevaricate",
     phonetic: "/prɪˈver.ə.keɪt/",
@@ -878,7 +816,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Social"],
   },
   {
-    id: "gen-1145",
     word: "Prevent",
     slug: "prevent",
     phonetic: "/prɪˈvent/",
@@ -890,7 +827,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b1-240",
     word: "Prevention",
     slug: "prevention",
     phonetic: "/prɪˈven.ʃən/",
@@ -899,10 +835,9 @@ export const P2: VocabularyWord[] = [
     meaningVi: "Sự phòng ngừa.",
     exampleEn: "Crime prevention; disease prevention.",
     exampleVi: "Phòng ngừa tội phạm; phòng ngừa bệnh tật.",
-    categories: ["Daily","Medical","Social"],
+    categories: ["Daily", "Medical", "Social"],
   },
   {
-    id: "gen-1146",
     word: "Previous",
     slug: "previous",
     phonetic: "/ˈpriː.vi.əs/",
@@ -914,19 +849,18 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a1-131",
     word: "Price",
     slug: "price",
     phonetic: "/praɪs/",
     partOfSpeech: "noun",
-    meaningEn: "The amount of money expected, required, or given in payment for something.",
+    meaningEn:
+      "The amount of money expected, required, or given in payment for something.",
     meaningVi: "Giá cả.",
     exampleEn: "What is the price?",
     exampleVi: "Giá bao nhiêu?",
     categories: ["Business"],
   },
   {
-    id: "gen-1148",
     word: "Pride",
     slug: "pride",
     phonetic: "/praɪd/",
@@ -938,7 +872,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Emotions"],
   },
   {
-    id: "gen-1149",
     word: "Primary",
     slug: "primary",
     phonetic: "/ˈpraɪ.mer.i/",
@@ -950,7 +883,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Education"],
   },
   {
-    id: "gen-1150",
     word: "Prince",
     slug: "prince",
     phonetic: "/prɪns/",
@@ -962,7 +894,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1151",
     word: "Princess",
     slug: "princess",
     phonetic: "/ˈprɪn.ses/",
@@ -974,7 +905,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1152",
     word: "Principal",
     slug: "principal",
     phonetic: "/ˈprɪn.sə.pəl/",
@@ -986,7 +916,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Education"],
   },
   {
-    id: "b2-24",
     word: "Principle",
     slug: "principle",
     phonetic: "/ˈprɪn.sə.pəl/",
@@ -998,7 +927,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Academic"],
   },
   {
-    id: "gen-1154",
     word: "Print",
     slug: "print",
     phonetic: "/prɪnt/",
@@ -1010,7 +938,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Technology"],
   },
   {
-    id: "gen-1155",
     word: "Priority",
     slug: "priority",
     phonetic: "/praɪˈɔːr.ə.ti/",
@@ -1022,7 +949,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1156",
     word: "Prison",
     slug: "prison",
     phonetic: "/ˈprɪz.ən/",
@@ -1034,7 +960,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Law"],
   },
   {
-    id: "gen-1157lhogsrtu",
     word: "Prisoner",
     slug: "prisoner",
     phonetic: "/ˈprɪz.ən.ɚ/",
@@ -1046,7 +971,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Law"],
   },
   {
-    id: "c2-140",
     word: "Pristine",
     slug: "pristine",
     phonetic: "/ˈprɪs.tiːn/",
@@ -1058,7 +982,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "a2-231",
     word: "Privacy",
     slug: "privacy",
     phonetic: "/ˈpraɪ.və.si/",
@@ -1067,22 +990,21 @@ export const P2: VocabularyWord[] = [
     meaningVi: "Sự riêng tư.",
     exampleEn: "Privacy policy.",
     exampleVi: "Chính sách bảo mật.",
-    categories: ["Technology","Social","Daily"],
+    categories: ["Technology", "Social", "Daily"],
   },
   {
-    id: "a2-57",
     word: "Private",
     slug: "private",
     phonetic: "/ˈpraɪ.vət/",
     partOfSpeech: "adj",
-    meaningEn: "Belonging to or for the use of one particular person or group of people only.",
+    meaningEn:
+      "Belonging to or for the use of one particular person or group of people only.",
     meaningVi: "Riêng tư.",
     exampleEn: "Private life.",
     exampleVi: "Cuộc sống riêng tư.",
     categories: ["Social"],
   },
   {
-    id: "gen-1158",
     word: "Prize",
     slug: "prize",
     phonetic: "/praɪz/",
@@ -1094,7 +1016,6 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1159",
     word: "Probably",
     slug: "probably",
     phonetic: "/ˈprɑː.bə.bli/",
@@ -1106,31 +1027,30 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "c2-141",
     word: "Probity",
     slug: "probity",
     phonetic: "/ˈproʊ.bə.t̬i/",
     partOfSpeech: "noun",
-    meaningEn: "The quality of having strong moral principles; honesty and decency.",
+    meaningEn:
+      "The quality of having strong moral principles; honesty and decency.",
     meaningVi: "Sự liêm khiết, sự chính trực.",
     exampleEn: "Financial probity.",
     exampleVi: "Sự liêm khiết về tài chính.",
     categories: ["Business"],
   },
   {
-    id: "a2-75",
     word: "Problem",
     slug: "problem",
     phonetic: "/ˈprɑː.bləm/",
     partOfSpeech: "noun",
-    meaningEn: "A matter or situation regarded as unwelcome or harmful and needing to be dealt with.",
+    meaningEn:
+      "A matter or situation regarded as unwelcome or harmful and needing to be dealt with.",
     meaningVi: "Vấn đề.",
     exampleEn: "I have a problem with my car.",
     exampleVi: "Tôi có vấn đề với chiếc xe của mình.",
     categories: ["Daily"],
   },
   {
-    id: "b2-25",
     word: "Proceed",
     slug: "proceed",
     phonetic: "/proʊˈsiːd/",
@@ -1142,7 +1062,6 @@ export const P2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "a2-164",
     word: "Process",
     slug: "process",
     phonetic: "/ˈprɑː.ses/",
@@ -1154,31 +1073,30 @@ export const P2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "c2-142",
     word: "Proclivity",
     slug: "proclivity",
     phonetic: "/proʊˈklɪv.ə.t̬i/",
     partOfSpeech: "noun",
-    meaningEn: "A tendency to choose or do something regularly; an inclination or predisposition toward a particular thing.",
+    meaningEn:
+      "A tendency to choose or do something regularly; an inclination or predisposition toward a particular thing.",
     meaningVi: "Khuynh hướng, sự thiên về.",
     exampleEn: "A proclivity for hard work.",
     exampleVi: "Một khuynh hướng làm việc chăm chỉ.",
     categories: ["Daily"],
   },
   {
-    id: "c2-143",
     word: "Prodigal",
     slug: "prodigal",
     phonetic: "/ˈprɑː.dɪ.ɡəl/",
     partOfSpeech: "adj",
-    meaningEn: "Spending money or resources freely and recklessly; wastefully extravagant.",
+    meaningEn:
+      "Spending money or resources freely and recklessly; wastefully extravagant.",
     meaningVi: "Hoang phí.",
     exampleEn: "The prodigal son.",
     exampleVi: "Đứa con hoang phí.",
     categories: ["Daily"],
   },
   {
-    id: "gen-1162",
     word: "Produce",
     slug: "produce",
     phonetic: "/prəˈduːs/",
@@ -1190,15 +1108,15 @@ export const P2: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "a2-105",
     word: "Product",
     slug: "product",
     phonetic: "/ˈprɑː.dʌkt/",
     partOfSpeech: "noun",
-    meaningEn: "An article or substance that is manufactured or refined for sale.",
+    meaningEn:
+      "An article or substance that is manufactured or refined for sale.",
     meaningVi: "Sản phẩm.",
     exampleEn: "This company sells high-quality products.",
     exampleVi: "Công ty này bán những sản phẩm chất lượng cao.",
     categories: ["Business"],
-  }
+  },
 ];

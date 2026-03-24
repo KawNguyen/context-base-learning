@@ -5,7 +5,7 @@ import { ComprehensionExercise } from "@/constants/listening/types";
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: Promise<{ level: string; type: string }> }
+  { params }: { params: Promise<{ level: string; type: string }> },
 ) {
   try {
     const { level, type } = await params;
@@ -20,7 +20,7 @@ export async function GET(
           error: `No listening data found for level: ${level}`,
           availableLevels: Object.keys(LISTENING_DATA),
         },
-        { status: 404 }
+        { status: 404 },
       );
     }
 
@@ -34,7 +34,7 @@ export async function GET(
         {
           error: `Invalid type: ${type}. Must be 'dictation' or 'comprehension'`,
         },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
@@ -43,7 +43,7 @@ export async function GET(
         {
           error: `No ${type} exercises found for level: ${level}`,
         },
-        { status: 404 }
+        { status: 404 },
       );
     }
 
@@ -55,7 +55,7 @@ export async function GET(
           const shuffledQuestions = exercise.questions.map((question) => {
             // Find correct answer index before shuffle
             const correctIndex = question.options.findIndex(
-              (opt) => opt.isCorrect
+              (opt) => opt.isCorrect,
             );
 
             // Shuffle options
@@ -69,11 +69,11 @@ export async function GET(
             // Find new correct index after shuffle
             const newCorrectIndex = shuffled.findIndex(
               (item: { originalIndex: number }) =>
-                item.originalIndex === correctIndex
+                item.originalIndex === correctIndex,
             );
 
             const shuffledOptions = shuffled.map(
-              (item: { option: (typeof question.options)[0] }) => item.option
+              (item: { option: (typeof question.options)[0] }) => item.option,
             );
 
             return {
@@ -87,7 +87,7 @@ export async function GET(
             ...exercise,
             questions: shuffledQuestions,
           };
-        }
+        },
       );
 
       // Shuffle exercises order
@@ -114,7 +114,7 @@ export async function GET(
     console.error("Listening API error:", error);
     return NextResponse.json(
       { error: "Failed to fetch exercises" },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }

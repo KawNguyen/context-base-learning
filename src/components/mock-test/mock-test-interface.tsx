@@ -219,8 +219,8 @@ export function MockTestInterface({ exam, onExit }: MockTestInterfaceProps) {
                     currentIndex === actualIdx
                       ? "w-6 bg-primary"
                       : answers[exam.questions[actualIdx].id]
-                      ? "bg-muted-foreground"
-                      : "bg-muted"
+                        ? "bg-muted-foreground"
+                        : "bg-muted",
                   )}
                 />
               );

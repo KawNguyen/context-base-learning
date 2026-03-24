@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const V2: VocabularyWord[] = [
   {
-    id: "gen-1739",
     word: "Violent",
     slug: "violent",
     phonetic: "/ˈvaɪə.lənt/",
@@ -14,7 +13,6 @@ export const V2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1740",
     word: "Virgin",
     slug: "virgin",
     phonetic: "/ˈvɝː.dʒɪn/",
@@ -26,7 +24,6 @@ export const V2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1741",
     word: "Virtual",
     slug: "virtual",
     phonetic: "/ˈvɝː.tʃu.əl/",
@@ -38,7 +35,6 @@ export const V2: VocabularyWord[] = [
     categories: ["Technology"],
   },
   {
-    id: "c2-216",
     word: "Virtualization",
     slug: "virtualization",
     phonetic: "/ˌvɜːr.tʃu.ə.laɪˈzeɪ.ʃən/",
@@ -50,7 +46,6 @@ export const V2: VocabularyWord[] = [
     categories: ["Technology"],
   },
   {
-    id: "gen-1742",
     word: "Virtually",
     slug: "virtually",
     phonetic: "/ˈvɝː.tʃu.ə.li/",
@@ -62,43 +57,43 @@ export const V2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-final-v-21",
     word: "Virulent",
     slug: "virulent",
     phonetic: "/ˈvɪr.jə.lənt/",
     partOfSpeech: "noun",
-    meaningEn: "(of a disease or poison) extremely severe or harmful in its effects.",
+    meaningEn:
+      "(of a disease or poison) extremely severe or harmful in its effects.",
     meaningVi: "Độc hại/Hiểm ác.",
     exampleEn: "The virus proved to be extremely virulent and spread fast.",
-    exampleVi: "Loại vi-rút này đã chứng tỏ là cực kỳ độc hại (hiểm ác) và lây lan nhanh.",
-    categories: ["General"]
+    exampleVi:
+      "Loại vi-rút này đã chứng tỏ là cực kỳ độc hại (hiểm ác) và lây lan nhanh.",
+    categories: ["General"],
   },
   {
-    id: "a1-248",
     word: "Virus",
     slug: "virus",
     phonetic: "/ˈvaɪ.rəs/",
     partOfSpeech: "noun",
-    meaningEn: "An infective agent that typically consists of a nucleic acid molecule.",
+    meaningEn:
+      "An infective agent that typically consists of a nucleic acid molecule.",
     meaningVi: "Vi-rút.",
     exampleEn: "Computer virus; flu virus.",
     exampleVi: "Vi-rút máy tính; vi-rút cúm.",
-    categories: ["Medical","Technology"],
+    categories: ["Medical", "Technology"],
   },
   {
-    id: "gen-90019",
     word: "Visa",
     slug: "visa",
     phonetic: "/ˈviː.zə/",
     partOfSpeech: "noun",
-    meaningEn: "An endorsement on a passport indicating that the holder is allowed to enter a country.",
+    meaningEn:
+      "An endorsement on a passport indicating that the holder is allowed to enter a country.",
     meaningVi: "Thị thực; giấy cho phép nhập cảnh vào một quốc gia.",
     exampleEn: "Apply for a tourist visa before you travel.",
     exampleVi: "Nộp đơn xin visa du lịch trước khi đi.",
     categories: ["Travel"],
   },
   {
-    id: "exp-final-v-22",
     word: "Visceral",
     slug: "visceral",
     phonetic: "/ˈvɪs.ər.əl/",
@@ -106,11 +101,11 @@ export const V2: VocabularyWord[] = [
     meaningEn: "Relating to deep inward feelings rather than to the intellect.",
     meaningVi: "Thuộc về nội tạng/Theo bản năng.",
     exampleEn: "The movie evokes a visceral reaction from the audience.",
-    exampleVi: "Bộ phim khơi gợi một phản ứng theo bản năng (thuộc nội tạng) từ khán giả.",
-    categories: ["General"]
+    exampleVi:
+      "Bộ phim khơi gợi một phản ứng theo bản năng (thuộc nội tạng) từ khán giả.",
+    categories: ["General"],
   },
   {
-    id: "gen-1744",
     word: "Vision",
     slug: "vision",
     phonetic: "/ˈvɪʒ.ən/",
@@ -119,10 +114,9 @@ export const V2: VocabularyWord[] = [
     meaningVi: "Tầm nhìn.",
     exampleEn: "Night vision.",
     exampleVi: "Tầm nhìn ban đêm.",
-    categories: ["General","Biology"],
+    categories: ["General", "Biology"],
   },
   {
-    id: "gen-1745",
     word: "Visit",
     slug: "visit",
     phonetic: "/ˈvɪz.ɪt/",
@@ -131,10 +125,9 @@ export const V2: VocabularyWord[] = [
     meaningVi: "Thăm.",
     exampleEn: "Visit friends.",
     exampleVi: "Thăm bạn bè.",
-    categories: ["Daily","Social"],
+    categories: ["Daily", "Social"],
   },
   {
-    id: "gen-1746",
     word: "Visitor",
     slug: "visitor",
     phonetic: "/ˈvɪz.ɪ.t̬ɚ/",
@@ -143,10 +136,9 @@ export const V2: VocabularyWord[] = [
     meaningVi: "Khách thăm.",
     exampleEn: "Hotel visitor.",
     exampleVi: "Khách lưu trú khách sạn.",
-    categories: ["Travel","People"],
+    categories: ["Travel", "People"],
   },
   {
-    id: "gen-1747",
     word: "Visual",
     slug: "visual",
     phonetic: "/ˈvɪʒ.u.əl/",
@@ -158,7 +150,6 @@ export const V2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1748",
     word: "Vital",
     slug: "vital",
     phonetic: "/ˈvaɪ.t̬əl/",
@@ -170,7 +161,6 @@ export const V2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-final-v-23",
     word: "Vituperate",
     slug: "vituperate",
     phonetic: "/vaɪˈtuː.pə.reɪt/",
@@ -178,11 +168,11 @@ export const V2: VocabularyWord[] = [
     meaningEn: "Blame or insult (someone) in strong or violent language.",
     meaningVi: "Chửi rủa/Lăng mạ.",
     exampleEn: "Critics began to vituperate the director's latest film.",
-    exampleVi: "Các nhà phê bình bắt đầu chửi rủa (lăng mạ) bộ phim mới nhất của vị đạo diễn.",
-    categories: ["General"]
+    exampleVi:
+      "Các nhà phê bình bắt đầu chửi rủa (lăng mạ) bộ phim mới nhất của vị đạo diễn.",
+    categories: ["General"],
   },
   {
-    id: "exp-final-v-24",
     word: "Vivacious",
     slug: "vivacious",
     phonetic: "/vɪˈveɪ.ʃəs/",
@@ -191,10 +181,9 @@ export const V2: VocabularyWord[] = [
     meaningVi: "Sống động/Hoạt bát.",
     exampleEn: "The vivacious child danced around the room.",
     exampleVi: "Đứa trẻ sống động (hoạt bát) nhảy múa quanh phòng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1749",
     word: "Vocabulary",
     slug: "vocabulary",
     phonetic: "/vəˈkæb.jə.ler.i/",
@@ -206,7 +195,6 @@ export const V2: VocabularyWord[] = [
     categories: ["Education"],
   },
   {
-    id: "exp-final-v-25",
     word: "Vociferous",
     slug: "vociferous",
     phonetic: "/voʊˈsɪf.ɚ.əs/",
@@ -215,10 +203,9 @@ export const V2: VocabularyWord[] = [
     meaningVi: "Om sòm/Ầm ĩ.",
     exampleEn: "There was a vociferous protest outside the embassy.",
     exampleVi: "Đã có một cuộc biểu tình om sòm (ầm ĩ) bên ngoài đại sứ quán.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1750",
     word: "Voice",
     slug: "voice",
     phonetic: "/vɔɪs/",
@@ -227,34 +214,34 @@ export const V2: VocabularyWord[] = [
     meaningVi: "Giọng nói.",
     exampleEn: "Loud voice.",
     exampleVi: "Giọng nói lớn.",
-    categories: ["General","Biology"],
+    categories: ["General", "Biology"],
   },
   {
-    id: "exp-final-v-26",
     word: "Volatile",
     slug: "volatile",
     phonetic: "/ˈvɑː.lə.t̬əl/",
     partOfSpeech: "noun",
-    meaningEn: "Liable to change rapidly and unpredictably, especially for the worse.",
+    meaningEn:
+      "Liable to change rapidly and unpredictably, especially for the worse.",
     meaningVi: "Dễ bay hơi/Biến động mạnh.",
     exampleEn: "The political situation in the region is highly volatile.",
-    exampleVi: "Tình hình chính trị trong khu vực đang rất biến động (dễ bay hơi).",
-    categories: ["General"]
+    exampleVi:
+      "Tình hình chính trị trong khu vực đang rất biến động (dễ bay hơi).",
+    categories: ["General"],
   },
   {
-    id: "b2-201",
     word: "Volatility",
     slug: "volatility",
     phonetic: "/ˌvɑː.ləˈtɪl.ə.ti/",
     partOfSpeech: "noun",
-    meaningEn: "Liability to change rapidly and unpredictably, especially for the worse.",
+    meaningEn:
+      "Liability to change rapidly and unpredictably, especially for the worse.",
     meaningVi: "Sự biến động.",
     exampleEn: "Stock market volatility.",
     exampleVi: "Sự biến động của thị trường chứng khoán.",
     categories: ["Business"],
   },
   {
-    id: "exp-final-v-27",
     word: "Volition",
     slug: "volition",
     phonetic: "/vəˈlɪʃ.ən/",
@@ -263,10 +250,9 @@ export const V2: VocabularyWord[] = [
     meaningVi: "Ý muốn/Nghị lực.",
     exampleEn: "She left the company of her own volition.",
     exampleVi: "Cô ấy đã rời công ty theo ý muốn (nghị lực) của riêng mình.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-final-v-28",
     word: "Voluble",
     slug: "voluble",
     phonetic: "/ˈvɑːl.jə.bəl/",
@@ -274,23 +260,23 @@ export const V2: VocabularyWord[] = [
     meaningEn: "Speaking or spoken incessantly and fluently.",
     meaningVi: "Lưu loát/Nhanh nhảu.",
     exampleEn: "The voluble guide told many stories about the statues.",
-    exampleVi: "Người hướng dẫn lưu loát (nhanh nhảu) đã kể nhiều câu chuyện về các bức tượng.",
-    categories: ["General"]
+    exampleVi:
+      "Người hướng dẫn lưu loát (nhanh nhảu) đã kể nhiều câu chuyện về các bức tượng.",
+    categories: ["General"],
   },
   {
-    id: "b1-118",
     word: "Volume",
     slug: "volume",
     phonetic: "/ˈvɒl.juːm/",
     partOfSpeech: "noun",
-    meaningEn: "The amount of space that a substance or object occupies, or that is enclosed within a container.",
+    meaningEn:
+      "The amount of space that a substance or object occupies, or that is enclosed within a container.",
     meaningVi: "Thể tích, âm lượng.",
     exampleEn: "Turn down the volume.",
     exampleVi: "Vặn nhỏ âm lượng xuống.",
     categories: ["Daily"],
   },
   {
-    id: "gen-1752",
     word: "Volunteer",
     slug: "volunteer",
     phonetic: "/ˌvɑːl.ənˈtɪr/",
@@ -299,10 +285,9 @@ export const V2: VocabularyWord[] = [
     meaningVi: "Tình nguyện viên.",
     exampleEn: "Volunteer work.",
     exampleVi: "Công việc tình nguyện.",
-    categories: ["Social","People"],
+    categories: ["Social", "People"],
   },
   {
-    id: "exp-final-v-29",
     word: "Voracious",
     slug: "voracious",
     phonetic: "/vəˈreɪ.ʃəs/",
@@ -311,10 +296,9 @@ export const V2: VocabularyWord[] = [
     meaningVi: "Phàm ăn/Tham lam.",
     exampleEn: "Sharks are known for their voracious appetites.",
     exampleVi: "Cá mập được biết đến với sự phàm ăn (tham lam) của chúng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1753",
     word: "Vote",
     slug: "vote",
     phonetic: "/voʊt/",
@@ -326,7 +310,6 @@ export const V2: VocabularyWord[] = [
     categories: ["Politics"],
   },
   {
-    id: "gen-1754",
     word: "Voter",
     slug: "voter",
     phonetic: "/ˈvoʊ.t̬ɚ/",
@@ -335,22 +318,29 @@ export const V2: VocabularyWord[] = [
     meaningVi: "Cử tri.",
     exampleEn: "Identify voters.",
     exampleVi: "Xác định cử tri.",
-    categories: ["Politics","People"],
+    categories: ["Politics", "People"],
   },
   {
-    id: "b2-186",
     word: "Vulnerability",
     slug: "vulnerability",
     phonetic: "/ˌvʌl.nər.əˈbɪl.ə.ti/",
     partOfSpeech: "noun",
-    meaningEn: "The quality or state of being exposed to the possibility of being attacked or harmed.",
+    meaningEn:
+      "The quality or state of being exposed to the possibility of being attacked or harmed.",
     meaningVi: "Lỗ hổng, tính dễ bị tổn thương.",
     exampleEn: "Fix the security vulnerability.",
     exampleVi: "Hãy sửa lỗ hổng bảo mật.",
-    categories: ["Technology","Medical","Psychology","Social","Business","Daily","Academic"],
+    categories: [
+      "Technology",
+      "Medical",
+      "Psychology",
+      "Social",
+      "Business",
+      "Daily",
+      "Academic",
+    ],
   },
   {
-    id: "exp-final-v-30",
     word: "Vulnerable",
     slug: "vulnerable",
     phonetic: "/ˈvʌl.nər.ə.bəl/",
@@ -358,7 +348,8 @@ export const V2: VocabularyWord[] = [
     meaningEn: "Susceptible to physical or emotional attack or harm.",
     meaningVi: "Dễ bị tổn thương.",
     exampleEn: "The plan leaves the city vulnerable to attack.",
-    exampleVi: "Kế hoạch này để cho thành phố dễ bị tổn thương trước các cuộc tấn công.",
-    categories: ["General"]
-  }
+    exampleVi:
+      "Kế hoạch này để cho thành phố dễ bị tổn thương trước các cuộc tấn công.",
+    categories: ["General"],
+  },
 ];

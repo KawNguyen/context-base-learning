@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const T2: VocabularyWord[] = [
   {
-    id: "a1-158",
     word: "Today",
     slug: "today",
     phonetic: "/təˈdeɪ/",
@@ -14,7 +13,6 @@ export const T2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1586",
     word: "Toe",
     slug: "toe",
     phonetic: "/toʊ/",
@@ -26,7 +24,6 @@ export const T2: VocabularyWord[] = [
     categories: ["Biology"],
   },
   {
-    id: "gen-1587",
     word: "Together",
     slug: "together",
     phonetic: "/təˈɡeð.ɚ/",
@@ -38,7 +35,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1588",
     word: "Toilet",
     slug: "toilet",
     phonetic: "/ˈtɔɪ.lət/",
@@ -50,19 +46,19 @@ export const T2: VocabularyWord[] = [
     categories: ["Home"],
   },
   {
-    id: "spec-t-001",
     word: "Tokenization",
     slug: "tokenization",
     phonetic: "/ˌtoʊ.kən.aɪˈzeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn: "The process of converting rights to an asset into a digital token on a blockchain.",
-    meaningVi: "Quá trình chuyển đổi quyền đối với một tài sản thành token kỹ thuật số trên blockchain.",
+    meaningEn:
+      "The process of converting rights to an asset into a digital token on a blockchain.",
+    meaningVi:
+      "Quá trình chuyển đổi quyền đối với một tài sản thành token kỹ thuật số trên blockchain.",
     exampleEn: "Tokenization allows fractional ownership of real estate.",
     exampleVi: "Tokenization cho phép sở hữu phân đoạn bất động sản.",
-    categories: ["Finance","Technology"],
+    categories: ["Finance", "Technology"],
   },
   {
-    id: "gen-1589",
     word: "Tomato",
     slug: "tomato",
     phonetic: "/təˈmeɪ.t̬oʊ/",
@@ -74,7 +70,6 @@ export const T2: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
-    id: "a1-160",
     word: "Tomorrow",
     slug: "tomorrow",
     phonetic: "/təˈmɑːr.oʊ/",
@@ -86,7 +81,6 @@ export const T2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1591",
     word: "Ton",
     slug: "ton",
     phonetic: "/tʌn/",
@@ -98,7 +92,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1592",
     word: "Tongue",
     slug: "tongue",
     phonetic: "/tʌŋ/",
@@ -110,7 +103,6 @@ export const T2: VocabularyWord[] = [
     categories: ["Biology"],
   },
   {
-    id: "gen-1593",
     word: "Tonight",
     slug: "tonight",
     phonetic: "/təˈnaɪt/",
@@ -122,7 +114,6 @@ export const T2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1594",
     word: "Too",
     slug: "too",
     phonetic: "/tuː/",
@@ -134,7 +125,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-206",
     word: "Tool",
     slug: "tool",
     phonetic: "/tuːl/",
@@ -143,10 +133,9 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Công cụ.",
     exampleEn: "A useful tool.",
     exampleVi: "Một công cụ hữu ích.",
-    categories: ["Daily","Technology","Business"],
+    categories: ["Daily", "Technology", "Business"],
   },
   {
-    id: "a1-179",
     word: "Tooth",
     slug: "tooth",
     phonetic: "/tuːθ/",
@@ -155,10 +144,9 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Răng.",
     exampleEn: "Brush your teeth twice a day.",
     exampleVi: "Hãy đánh răng hai lần một ngày.",
-    categories: ["Daily","Medical"],
+    categories: ["Daily", "Medical"],
   },
   {
-    id: "gen-1597",
     word: "Top",
     slug: "top",
     phonetic: "/tɑːp/",
@@ -170,7 +158,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1598",
     word: "Topic",
     slug: "topic",
     phonetic: "/ˈtɑː.pɪk/",
@@ -179,10 +166,9 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Chủ đề.",
     exampleEn: "Interesting topic.",
     exampleVi: "Chủ đề thú vị.",
-    categories: ["General","Education"],
+    categories: ["General", "Education"],
   },
   {
-    id: "exp-b5c-t-6",
     word: "Torpid",
     slug: "torpid",
     phonetic: "/ˈtɔːr.pɪd/",
@@ -190,11 +176,11 @@ export const T2: VocabularyWord[] = [
     meaningEn: "Mentally or physically inactive; lethargic.",
     meaningVi: "Uể oải/Đình trệ.",
     exampleEn: "The weather made us feel torpid and lazy.",
-    exampleVi: "Thời tiết khiến chúng tôi cảm thấy uể oải (đình trệ) và lười biếng.",
-    categories: ["General"]
+    exampleVi:
+      "Thời tiết khiến chúng tôi cảm thấy uể oải (đình trệ) và lười biếng.",
+    categories: ["General"],
   },
   {
-    id: "gen-1599",
     word: "Total",
     slug: "total",
     phonetic: "/ˈtoʊ.t̬əl/",
@@ -203,10 +189,9 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Tổng cộng.",
     exampleEn: "Total amount.",
     exampleVi: "Tổng số tiền.",
-    categories: ["General","Finance"],
+    categories: ["General", "Finance"],
   },
   {
-    id: "gen-1600",
     word: "Totally",
     slug: "totally",
     phonetic: "/ˈtoʊ.t̬əl.i/",
@@ -218,7 +203,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1601",
     word: "Touch",
     slug: "touch",
     phonetic: "/tʌtʃ/",
@@ -230,7 +214,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1602",
     word: "Tough",
     slug: "tough",
     phonetic: "/tʌf/",
@@ -242,7 +225,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1603",
     word: "Tour",
     slug: "tour",
     phonetic: "/tʊr/",
@@ -254,7 +236,6 @@ export const T2: VocabularyWord[] = [
     categories: ["Travel"],
   },
   {
-    id: "job-0028",
     word: "Tour guide",
     slug: "tour-guide",
     phonetic: "/tʊr ɡaɪd/",
@@ -263,10 +244,9 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Hướng dẫn viên du lịch",
     exampleEn: "The tour guide explained the history of the city.",
     exampleVi: "Hướng dẫn viên giới thiệu lịch sử thành phố.",
-    categories: ["Jobs","Travel"],
+    categories: ["Jobs", "Travel"],
   },
   {
-    id: "gen-1604",
     word: "Tourist",
     slug: "tourist",
     phonetic: "/ˈtʊr.ɪst/",
@@ -275,10 +255,9 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Khách du lịch.",
     exampleEn: "Foreign tourist.",
     exampleVi: "Khách du lịch nước ngoài.",
-    categories: ["Travel","People"],
+    categories: ["Travel", "People"],
   },
   {
-    id: "gen-1605",
     word: "Toward",
     slug: "toward",
     phonetic: "/təˈwɔːrd/",
@@ -290,7 +269,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1606",
     word: "Towards",
     slug: "towards",
     phonetic: "/təˈwɔːrdz/",
@@ -302,7 +280,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1607",
     word: "Towel",
     slug: "towel",
     phonetic: "/taʊəl/",
@@ -314,7 +291,6 @@ export const T2: VocabularyWord[] = [
     categories: ["Home"],
   },
   {
-    id: "gen-1608",
     word: "Tower",
     slug: "tower",
     phonetic: "/ˈtaʊ.ɚ/",
@@ -323,22 +299,21 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Tháp.",
     exampleEn: "Control tower.",
     exampleVi: "Tháp điều khiển.",
-    categories: ["Geography","Home"],
+    categories: ["Geography", "Home"],
   },
   {
-    id: "a1-149",
     word: "Town",
     slug: "town",
     phonetic: "/taʊn/",
     partOfSpeech: "noun",
-    meaningEn: "An urban area that has a name, defined boundaries, and local government.",
+    meaningEn:
+      "An urban area that has a name, defined boundaries, and local government.",
     meaningVi: "Thị trấn.",
     exampleEn: "It's a small town.",
     exampleVi: "Đó là một thị trấn nhỏ.",
     categories: ["Daily"],
   },
   {
-    id: "gen-1610",
     word: "Toy",
     slug: "toy",
     phonetic: "/tɔɪ/",
@@ -350,7 +325,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1611",
     word: "Trace",
     slug: "trace",
     phonetic: "/treɪs/",
@@ -362,7 +336,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1612",
     word: "Track",
     slug: "track",
     phonetic: "/træk/",
@@ -374,7 +347,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5c-t-7",
     word: "Tractable",
     slug: "tractable",
     phonetic: "/ˈtræk.tə.bəl/",
@@ -383,10 +355,9 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Dễ bảo/Dễ điều khiển.",
     exampleEn: "The new dog is very tractable and easy to train.",
     exampleVi: "Con chó mới rất dễ bảo và dễ huấn luyện.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1613",
     word: "Trade",
     slug: "trade",
     phonetic: "/treɪd/",
@@ -395,22 +366,21 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Thương mại.",
     exampleEn: "International trade.",
     exampleVi: "Thương mại quốc tế.",
-    categories: ["Business","Finance"],
+    categories: ["Business", "Finance"],
   },
   {
-    id: "b1-90",
     word: "Tradition",
     slug: "tradition",
     phonetic: "/trəˈdɪʃ.ən/",
     partOfSpeech: "noun",
-    meaningEn: "The transmission of customs or beliefs from generation to generation.",
+    meaningEn:
+      "The transmission of customs or beliefs from generation to generation.",
     meaningVi: "Truyền thống.",
     exampleEn: "A long tradition.",
     exampleVi: "Một truyền thống lâu đời.",
     categories: ["Social"],
   },
   {
-    id: "a2-61",
     word: "Traditional",
     slug: "traditional",
     phonetic: "/trəˈdɪʃ.ən.əl/",
@@ -422,7 +392,6 @@ export const T2: VocabularyWord[] = [
     categories: ["Social"],
   },
   {
-    id: "gen-1615",
     word: "Traffic",
     slug: "traffic",
     phonetic: "/ˈtræf.ɪk/",
@@ -434,7 +403,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1616",
     word: "Train",
     slug: "train",
     phonetic: "/treɪn/",
@@ -443,10 +411,9 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Tàu hỏa.",
     exampleEn: "Catch a train.",
     exampleVi: "Bắt tàu.",
-    categories: ["Travel","General"],
+    categories: ["Travel", "General"],
   },
   {
-    id: "job-0029",
     word: "Trainer",
     slug: "trainer",
     phonetic: "/ˈtreɪ.nɚ/",
@@ -455,10 +422,9 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Huấn luyện viên",
     exampleEn: "The trainer prepared the team for the match.",
     exampleVi: "Huấn luyện viên chuẩn bị cho đội thi đấu.",
-    categories: ["Jobs","Sports"],
+    categories: ["Jobs", "Sports"],
   },
   {
-    id: "gen-1617",
     word: "Training",
     slug: "training",
     phonetic: "/ˈtreɪ.nɪŋ/",
@@ -467,22 +433,33 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Đào tạo.",
     exampleEn: "Staff training.",
     exampleVi: "Đào tạo nhân viên.",
-    categories: ["Education","Business"],
+    categories: ["Education", "Business"],
   },
   {
-    id: "spec-t-004",
     word: "Transaction",
     slug: "transaction",
     phonetic: "/trænˈzæk.ʃən/",
     partOfSpeech: "noun",
-    meaningEn: "An instance of buying or selling something; any business deal or exchange.",
-    meaningVi: "Một giao dịch mua bán; bất kỳ giao dịch thương mại hoặc trao đổi nào.",
+    meaningEn:
+      "An instance of buying or selling something; any business deal or exchange.",
+    meaningVi:
+      "Một giao dịch mua bán; bất kỳ giao dịch thương mại hoặc trao đổi nào.",
     exampleEn: "The transaction was completed online.",
     exampleVi: "Giao dịch đã được hoàn tất trực tuyến.",
-    categories: ["Finance","Business"],
+    categories: ["Finance", "Business"],
   },
   {
-    id: "gen-1618",
+    word: "Tranquility",
+    slug: "tranquility",
+    phonetic: "/træŋˈkwaɪ.ləti/",
+    partOfSpeech: "noun",
+    meaningEn: "A state of peace and calm.",
+    meaningVi: "Sự yên bình.",
+    exampleEn: "The tranquility of the forest was soothing.",
+    exampleVi: "Sự yên bình của khu rừng là rất thư giãn.",
+    categories: ["General"],
+  },
+  {
     word: "Transfer",
     slug: "transfer",
     phonetic: "/trænsˈfɜːr/",
@@ -491,10 +468,9 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Chuyển giao.",
     exampleEn: "Transfer money.",
     exampleVi: "Chuyển tiền.",
-    categories: ["General","Finance"],
+    categories: ["General", "Finance"],
   },
   {
-    id: "gen-1619",
     word: "Transform",
     slug: "transform",
     phonetic: "/trænsˈfɔːrm/",
@@ -506,7 +482,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b2-225",
     word: "Transformation",
     slug: "transformation",
     phonetic: "/ˌtræns.fɚˈmeɪ.ʃən/",
@@ -515,10 +490,9 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Sự biến đổi, chuyển đổi.",
     exampleEn: "Digital transformation.",
     exampleVi: "Chuyển đổi số.",
-    categories: ["Technology","Business","Academic"],
+    categories: ["Technology", "Business", "Academic"],
   },
   {
-    id: "exp-b5c-t-8",
     word: "Transient",
     slug: "transient",
     phonetic: "/ˈtræn.zi.ənt/",
@@ -526,11 +500,11 @@ export const T2: VocabularyWord[] = [
     meaningEn: "Lasting only for a short time; impermanent.",
     meaningVi: "Ngắn ngủi/Tạm thời.",
     exampleEn: "The colorful sunset was a beautiful but transient sight.",
-    exampleVi: "Hoàng hôn rực rỡ là một cảnh tượng đẹp nhưng ngắn ngủi (tạm thời).",
-    categories: ["General"]
+    exampleVi:
+      "Hoàng hôn rực rỡ là một cảnh tượng đẹp nhưng ngắn ngủi (tạm thời).",
+    categories: ["General"],
   },
   {
-    id: "gen-1620",
     word: "Transition",
     slug: "transition",
     phonetic: "/trænˈzɪʃ.ən/",
@@ -542,7 +516,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1621",
     word: "Translate",
     slug: "translate",
     phonetic: "/trænsˈleɪt/",
@@ -554,7 +527,6 @@ export const T2: VocabularyWord[] = [
     categories: ["Education"],
   },
   {
-    id: "gen-1622",
     word: "Translation",
     slug: "translation",
     phonetic: "/trænsˈleɪ.ʃən/",
@@ -566,7 +538,6 @@ export const T2: VocabularyWord[] = [
     categories: ["Education"],
   },
   {
-    id: "job-0030",
     word: "Translator",
     slug: "translator",
     phonetic: "/trænzˈleɪ.tɚ/",
@@ -575,10 +546,9 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Biên dịch viên",
     exampleEn: "The translator works with international clients.",
     exampleVi: "Biên dịch viên làm việc với khách hàng quốc tế.",
-    categories: ["Jobs","Language"],
+    categories: ["Jobs", "Language"],
   },
   {
-    id: "b1-239",
     word: "Transmission",
     slug: "transmission",
     phonetic: "/trænzˈmɪʃ.ən/",
@@ -587,10 +557,20 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Sự truyền đạt; sự lây truyền.",
     exampleEn: "Virus transmission.",
     exampleVi: "Sự lây truyền vi-rút.",
-    categories: ["Medical","Technology"],
+    categories: ["Medical", "Technology"],
   },
   {
-    id: "gen-1623",
+    word: "Transparent",
+    slug: "transparent",
+    phonetic: "/trænsˈpær.ənt/",
+    partOfSpeech: "adjective",
+    meaningEn: "Allowing light to pass through; clear.",
+    meaningVi: "Trong suốt.",
+    exampleEn: "The glass is transparent.",
+    exampleVi: "Kính trong suốt.",
+    categories: ["General"],
+  },
+  {
     word: "Transportation",
     slug: "Transportation",
     phonetic: "/ˈtræn.spɔːrt/",
@@ -599,10 +579,9 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Vận tải.",
     exampleEn: "Public transport.",
     exampleVi: "Giao thông công cộng.",
-    categories: ["General","Travel"],
+    categories: ["General", "Travel"],
   },
   {
-    id: "gen-1625",
     word: "Trap",
     slug: "trap",
     phonetic: "/træp/",
@@ -614,7 +593,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-90016",
     word: "Trash",
     slug: "trash",
     phonetic: "/træʃ/",
@@ -623,22 +601,21 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Rác; vứt bỏ.",
     exampleEn: "Take out the trash.",
     exampleVi: "Đổ rác.",
-    categories: ["Home","Daily"],
+    categories: ["Home", "Daily"],
   },
   {
-    id: "a2-1",
     word: "Travel",
     slug: "travel",
     phonetic: "/ˈtræv.əl/",
     partOfSpeech: "verb",
-    meaningEn: "To go from one place to another, typically over a distance of some length.",
+    meaningEn:
+      "To go from one place to another, typically over a distance of some length.",
     meaningVi: "Du lịch, di chuyển.",
     exampleEn: "I love to travel around the world.",
     exampleVi: "Tôi yêu thích đi du lịch vòng quanh thế giới.",
     categories: ["Travel"],
   },
   {
-    id: "gen-1627",
     word: "Traveler",
     slug: "traveler",
     phonetic: "/ˈtræv.əl.ɚ/",
@@ -647,10 +624,9 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Khách du lịch.",
     exampleEn: "Seasoned traveler.",
     exampleVi: "Khách du lịch dày dạn kinh nghiệm.",
-    categories: ["Travel","People"],
+    categories: ["Travel", "People"],
   },
   {
-    id: "exp-b5c-t-9",
     word: "Treachery",
     slug: "treachery",
     phonetic: "/ˈtretʃ.ɚ.i/",
@@ -658,11 +634,11 @@ export const T2: VocabularyWord[] = [
     meaningEn: "Betrayal of trust; deceptive action or nature.",
     meaningVi: "Sự phản bội/Sự bội bạc.",
     exampleEn: "The traitor was punished for his treachery against the king.",
-    exampleVi: "Kẻ phản bội đã bị trừng phạt vì sự bội bạc (phản bội) đối với nhà vua.",
-    categories: ["General"]
+    exampleVi:
+      "Kẻ phản bội đã bị trừng phạt vì sự bội bạc (phản bội) đối với nhà vua.",
+    categories: ["General"],
   },
   {
-    id: "gen-1628",
     word: "Treasure",
     slug: "treasure",
     phonetic: "/ˈtreʒ.ɚ/",
@@ -674,7 +650,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1629",
     word: "Treat",
     slug: "treat",
     phonetic: "/triːt/",
@@ -686,7 +661,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-240",
     word: "Treatment",
     slug: "treatment",
     phonetic: "/ˈtriːt.mənt/",
@@ -698,19 +672,18 @@ export const T2: VocabularyWord[] = [
     categories: ["Medical"],
   },
   {
-    id: "a1-105",
     word: "Tree",
     slug: "tree",
     phonetic: "/triː/",
     partOfSpeech: "noun",
-    meaningEn: "A woody perennial plant, typically having a single stem or trunk.",
+    meaningEn:
+      "A woody perennial plant, typically having a single stem or trunk.",
     meaningVi: "Cái cây.",
     exampleEn: "The tree is growing tall.",
     exampleVi: "Cái cây đang mọc cao.",
     categories: ["Daily"],
   },
   {
-    id: "gen-1632",
     word: "Trend",
     slug: "trend",
     phonetic: "/trend/",
@@ -719,10 +692,9 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Xu hướng.",
     exampleEn: "Fashion trend.",
     exampleVi: "Xu hướng thời trang.",
-    categories: ["General","Business"],
+    categories: ["General", "Business"],
   },
   {
-    id: "gen-1633",
     word: "Trial",
     slug: "trial",
     phonetic: "/traɪəl/",
@@ -731,10 +703,9 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Thử nghiệm.",
     exampleEn: "Clinical trial.",
     exampleVi: "Thử nghiệm lâm sàng.",
-    categories: ["Law","Science"],
+    categories: ["Law", "Science"],
   },
   {
-    id: "gen-1634",
     word: "Triangle",
     slug: "triangle",
     phonetic: "/ˈtraɪ.æŋ.ɡəl/",
@@ -743,10 +714,9 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Hình tam giác.",
     exampleEn: "Triangle shape.",
     exampleVi: "Hình tam giác.",
-    categories: ["General","Mathematics"],
+    categories: ["General", "Mathematics"],
   },
   {
-    id: "gen-1635",
     word: "Trick",
     slug: "trick",
     phonetic: "/trɪk/",
@@ -758,7 +728,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1636",
     word: "Trip",
     slug: "trip",
     phonetic: "/trɪp/",
@@ -770,7 +739,6 @@ export const T2: VocabularyWord[] = [
     categories: ["Travel"],
   },
   {
-    id: "gen-1637",
     word: "Trouble",
     slug: "trouble",
     phonetic: "/ˈtrʌb.əl/",
@@ -782,19 +750,18 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b1-186",
     word: "Troubleshoot",
     slug: "troubleshoot",
     phonetic: "/ˈtrʌb.əl.ʃuːt/",
     partOfSpeech: "verb",
-    meaningEn: "Analyze and solve serious problems for a company or other organization.",
+    meaningEn:
+      "Analyze and solve serious problems for a company or other organization.",
     meaningVi: "Khắc phục sự cố.",
     exampleEn: "I need to troubleshoot the network problem.",
     exampleVi: "Tôi cần khắc phục sự cố mạng.",
-    categories: ["Technology","Business"],
+    categories: ["Technology", "Business"],
   },
   {
-    id: "b1-230",
     word: "Troubleshooting",
     slug: "troubleshooting",
     phonetic: "/ˈtrʌb.əl.ʃuː.tɪŋ/",
@@ -803,22 +770,21 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Xử lý sự cố.",
     exampleEn: "Basic troubleshooting.",
     exampleVi: "Xử lý sự cố cơ bản.",
-    categories: ["Technology","Business"],
+    categories: ["Technology", "Business"],
   },
   {
-    id: "gen-1638",
     word: "Trousers",
     slug: "trousers",
     phonetic: "/ˈtraʊ.zɚz/",
     partOfSpeech: "noun",
-    meaningEn: "An outer garment covering the body from the waist to the ankles.",
+    meaningEn:
+      "An outer garment covering the body from the waist to the ankles.",
     meaningVi: "Quần dài.",
     exampleEn: "Pair of trousers.",
     exampleVi: "Chiếc quần dài.",
     categories: ["Fashion"],
   },
   {
-    id: "gen-1639",
     word: "Truck",
     slug: "truck",
     phonetic: "/trʌk/",
@@ -827,10 +793,9 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Xe tải.",
     exampleEn: "Drive a truck.",
     exampleVi: "Lái xe tải.",
-    categories: ["Travel","General"],
+    categories: ["Travel", "General"],
   },
   {
-    id: "exp-b5c-t-10",
     word: "Truculent",
     slug: "truculent",
     phonetic: "/ˈtrʌk.jə.lənt/",
@@ -838,11 +803,11 @@ export const T2: VocabularyWord[] = [
     meaningEn: "Eager or quick to argue or fight; aggressively defiant.",
     meaningVi: "Hung hăng/Dữ tợn.",
     exampleEn: "He became truculent when asked to pay the bill.",
-    exampleVi: "Anh ta trở nên hung hăng (dữ tợn) khi được yêu cầu thanh toán hóa đơn.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ta trở nên hung hăng (dữ tợn) khi được yêu cầu thanh toán hóa đơn.",
+    categories: ["General"],
   },
   {
-    id: "a2-54",
     word: "True",
     slug: "true",
     phonetic: "/truː/",
@@ -854,7 +819,6 @@ export const T2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1641",
     word: "Truly",
     slug: "truly",
     phonetic: "/ˈtruː.li/",
@@ -866,7 +830,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1642",
     word: "Trust",
     slug: "trust",
     phonetic: "/trʌst/",
@@ -875,10 +838,9 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Tin tưởng.",
     exampleEn: "Trust me.",
     exampleVi: "Tin tôi đi.",
-    categories: ["General","Emotions"],
+    categories: ["General", "Emotions"],
   },
   {
-    id: "gen-1643",
     word: "Truth",
     slug: "truth",
     phonetic: "/truːθ/",
@@ -890,7 +852,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1644",
     word: "Try",
     slug: "try",
     phonetic: "/traɪ/",
@@ -902,7 +863,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1645",
     word: "Tube",
     slug: "tube",
     phonetic: "/tuːb/",
@@ -914,7 +874,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1646",
     word: "Tuesday",
     slug: "tuesday",
     phonetic: "/ˈtuːz.deɪ/",
@@ -926,7 +885,6 @@ export const T2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1647",
     word: "Tuna",
     slug: "tuna",
     phonetic: "/ˈtuː.nə/",
@@ -938,7 +896,6 @@ export const T2: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
-    id: "gen-1648",
     word: "Tune",
     slug: "tune",
     phonetic: "/tuːn/",
@@ -950,7 +907,6 @@ export const T2: VocabularyWord[] = [
     categories: ["Music"],
   },
   {
-    id: "gen-1649",
     word: "Tunnel",
     slug: "tunnel",
     phonetic: "/ˈtʌn.əl/",
@@ -959,10 +915,9 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Đường hầm.",
     exampleEn: "Mountain tunnel.",
     exampleVi: "Đường hầm xuyên núi.",
-    categories: ["General","Geography"],
+    categories: ["General", "Geography"],
   },
   {
-    id: "gen-1650",
     word: "Turkey",
     slug: "turkey",
     phonetic: "/ˈtɜːr.ki/",
@@ -974,7 +929,6 @@ export const T2: VocabularyWord[] = [
     categories: ["Geography"],
   },
   {
-    id: "gen-1651",
     word: "Turn",
     slug: "turn",
     phonetic: "/tɜːrn/",
@@ -986,7 +940,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "pv-22",
     word: "Turn down",
     slug: "turn-down",
     phonetic: "/tɜːrn daʊn/",
@@ -998,7 +951,6 @@ export const T2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-27",
     word: "Turn off",
     slug: "turn-off",
     phonetic: "/tɜːrn ɔːf/",
@@ -1010,7 +962,6 @@ export const T2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-26",
     word: "Turn on",
     slug: "turn-on",
     phonetic: "/tɜːrn ɑːn/",
@@ -1022,7 +973,6 @@ export const T2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-49",
     word: "Turn up",
     slug: "turn-up",
     phonetic: "/tɜːrn ʌp/",
@@ -1034,7 +984,6 @@ export const T2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "gen-1652",
     word: "TV",
     slug: "tv",
     phonetic: "/ˌtiːˈviː/",
@@ -1046,7 +995,6 @@ export const T2: VocabularyWord[] = [
     categories: ["Technology"],
   },
   {
-    id: "gen-1653",
     word: "Twelve",
     slug: "twelve",
     phonetic: "/twelv/",
@@ -1058,7 +1006,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1654",
     word: "Twenty",
     slug: "twenty",
     phonetic: "/ˈtwen.ti/",
@@ -1070,7 +1017,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1655",
     word: "Twice",
     slug: "twice",
     phonetic: "/twaɪs/",
@@ -1082,7 +1028,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a1-106lgfd",
     word: "Twin",
     slug: "twin",
     phonetic: "/twɪn/",
@@ -1091,10 +1036,9 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Sinh đôi.",
     exampleEn: "My twin sister is older than me.",
     exampleVi: "Chị gái sinh đôi của tôi lớn hơn tôi.",
-    categories: ["Daily","People"],
+    categories: ["Daily", "People"],
   },
   {
-    id: "endfsa-213",
     word: "Twist",
     slug: "twist",
     phonetic: "/twɪst/",
@@ -1106,7 +1050,6 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1656",
     word: "Type",
     slug: "type",
     phonetic: "/taɪp/",
@@ -1118,15 +1061,15 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b2-100",
     word: "Typical",
     slug: "typical",
     phonetic: "/ˈtɪp.ɪ.kəl/",
     partOfSpeech: "adj",
-    meaningEn: "Having the distinctive qualities of a particular type of person or thing.",
+    meaningEn:
+      "Having the distinctive qualities of a particular type of person or thing.",
     meaningVi: "Điển hình.",
     exampleEn: "A typical day.",
     exampleVi: "Một ngày điển hình.",
     categories: ["Daily"],
-  }
+  },
 ];

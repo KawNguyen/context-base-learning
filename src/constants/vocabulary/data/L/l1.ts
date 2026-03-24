@@ -2,19 +2,18 @@ import { VocabularyWord } from "../../types";
 
 export const L1: VocabularyWord[] = [
   {
-    id: "gen-755",
     word: "Label",
     slug: "label",
     phonetic: "/ˈleɪ.bəl/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A small piece of paper or other material attached to an object.",
+    meaningEn:
+      "A small piece of paper or other material attached to an object.",
     meaningVi: "Nhãn.",
     exampleEn: "Read the label.",
     exampleVi: "Đọc nhãn.",
     categories: ["General"],
   },
   {
-    id: "gen-756",
     word: "Labor",
     slug: "labor",
     phonetic: "/ˈleɪ.bɚ/",
@@ -26,7 +25,6 @@ export const L1: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "gen-757",
     word: "Laboratory",
     slug: "laboratory",
     phonetic: "/ˈlæb.rə.ˌtɔːr.i/",
@@ -38,7 +36,6 @@ export const L1: VocabularyWord[] = [
     categories: ["Science"],
   },
   {
-    id: "c2-47",
     word: "Labyrinth",
     slug: "labyrinth",
     phonetic: "/ˈlæb.ə.rɪnθ/",
@@ -50,7 +47,6 @@ export const L1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "exp-b5b-l-1",
     word: "Labyrinthine",
     slug: "labyrinthine",
     phonetic: "/ˌlæb.əˈrɪn.θaɪn/",
@@ -59,10 +55,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Rắc rối/Như mê cung.",
     exampleEn: "The old city is a labyrinthine maze of narrow streets.",
     exampleVi: "Khu phố cổ là một mê cung rắc rối những con phố hẹp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-758",
     word: "Lack",
     slug: "lack",
     phonetic: "/læk/",
@@ -74,19 +69,18 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5b-l-2",
     word: "Laconic",
     slug: "laconic",
     phonetic: "/ləˈkɑː.nɪk/",
     partOfSpeech: "noun",
-    meaningEn: "(of a person, speech, or style of writing) using very few words.",
+    meaningEn:
+      "(of a person, speech, or style of writing) using very few words.",
     meaningVi: "Vắn tắt/Gọn gàng.",
     exampleEn: "His laconic reply meant that he was not interested.",
     exampleVi: "Câu trả lời vắn tắt của anh ấy có nghĩa là anh không quan tâm.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-759",
     word: "Lady",
     slug: "lady",
     phonetic: "/ˈleɪ.di/",
@@ -98,7 +92,6 @@ export const L1: VocabularyWord[] = [
     categories: ["People"],
   },
   {
-    id: "gen-760",
     word: "Lake",
     slug: "lake",
     phonetic: "/leɪk/",
@@ -107,10 +100,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Hồ.",
     exampleEn: "Swim in the lake.",
     exampleVi: "Bơi ở hồ.",
-    categories: ["Geography","Environment"],
+    categories: ["Geography", "Environment"],
   },
   {
-    id: "exp-b5b-l-3",
     word: "Lamentation",
     slug: "lamentation",
     phonetic: "/ˌlæm.enˈteɪ.ʃən/",
@@ -119,10 +111,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Lời than vãn/Thương tiếc.",
     exampleEn: "The sound of lamentation was heard throughout the village.",
     exampleVi: "Tiếng than vãn vang lên khắp ngôi làng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-90009",
     word: "Lamp",
     slug: "lamp",
     phonetic: "/læmp/",
@@ -131,10 +122,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Đèn; thiết bị phát sáng.",
     exampleEn: "Turn on the lamp when it gets dark.",
     exampleVi: "Bật đèn khi trời tối.",
-    categories: ["Home","Daily"],
+    categories: ["Home", "Daily"],
   },
   {
-    id: "gen-761",
     word: "Land",
     slug: "land",
     phonetic: "/lænd/",
@@ -146,19 +136,18 @@ export const L1: VocabularyWord[] = [
     categories: ["Geography"],
   },
   {
-    id: "spec-l-003",
     word: "Landlord",
     slug: "landlord",
     phonetic: "/ˈlænd.lɔːrd/",
     partOfSpeech: "noun",
-    meaningEn: "A person who rents land, a building, or accommodation to a tenant.",
+    meaningEn:
+      "A person who rents land, a building, or accommodation to a tenant.",
     meaningVi: "Chủ nhà cho thuê; người cho thuê đất hoặc nhà cho người thuê.",
     exampleEn: "The landlord fixed the heating system.",
     exampleVi: "Chủ nhà đã sửa hệ thống sưởi.",
     categories: ["Daily"],
   },
   {
-    id: "a1-153",
     word: "Language",
     slug: "language",
     phonetic: "/ˈlæŋ.ɡwɪdʒ/",
@@ -170,19 +159,18 @@ export const L1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "exp-b5b-l-4",
     word: "Languid",
     slug: "languid",
     phonetic: "/ˈlæŋ.ɡwɪd/",
     partOfSpeech: "noun",
-    meaningEn: "(of a person, manner, or gesture) displaying or having a disinclination for physical exertion.",
+    meaningEn:
+      "(of a person, manner, or gesture) displaying or having a disinclination for physical exertion.",
     meaningVi: "Uể oải/Lờ đờ.",
     exampleEn: "It was a languid afternoon in the summer heat.",
     exampleVi: "Đó là một buổi chiều uể oải (lờ đờ) trong cái nóng của mùa hè.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "a1-186",
     word: "Laptop",
     slug: "laptop",
     phonetic: "/ˈlæptɑːp/",
@@ -191,10 +179,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Máy tính xách tay.",
     exampleEn: "I carry my laptop to school.",
     exampleVi: "Tôi mang theo laptop đến trường.",
-    categories: ["Daily","Technology","Business"],
+    categories: ["Daily", "Technology", "Business"],
   },
   {
-    id: "exp-b5b-l-5",
     word: "Larceny",
     slug: "larceny",
     phonetic: "/ˈlɑːr.sən.i/",
@@ -203,10 +190,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Tội trộm cắp.",
     exampleEn: "Grand larceny is a very serious crime.",
     exampleVi: "Đại tội trộm cắp là một tội lỗi rất nghiêm trọng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-764",
     word: "Large",
     slug: "large",
     phonetic: "/lɑːrdʒ/",
@@ -218,19 +204,18 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5b-l-6",
     word: "Lascivious",
     slug: "lascivious",
     phonetic: "/ləˈsɪv.i.əs/",
     partOfSpeech: "noun",
-    meaningEn: "(of a person, manner, or gesture) feeling or revealing an overt and often offensive sexual desire.",
+    meaningEn:
+      "(of a person, manner, or gesture) feeling or revealing an overt and often offensive sexual desire.",
     meaningVi: "Dâm ô/Gợi dục.",
     exampleEn: "He was known for his lascivious remarks.",
     exampleVi: "Ông ta nổi tiếng với những nhận xét dâm ô (gợi dục).",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-l-7",
     word: "Lassitude",
     slug: "lassitude",
     phonetic: "/ˈlæs.ə.tuːd/",
@@ -238,11 +223,11 @@ export const L1: VocabularyWord[] = [
     meaningEn: "A state of physical or mental weariness; lack of energy.",
     meaningVi: "Sự mệt mỏi/Uể oải.",
     exampleEn: "A feeling of lassitude overcame him after the long run.",
-    exampleVi: "Một cảm giác mệt mỏi (uể oải) đã bao trùm lấy anh sau chặng chạy dài.",
-    categories: ["General"]
+    exampleVi:
+      "Một cảm giác mệt mỏi (uể oải) đã bao trùm lấy anh sau chặng chạy dài.",
+    categories: ["General"],
   },
   {
-    id: "gen-765",
     word: "Last",
     slug: "last",
     phonetic: "/læst/",
@@ -254,7 +239,6 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-dsa9432",
     word: "Lasting",
     slug: "lasting",
     phonetic: "/ˈlæstɪŋ/",
@@ -266,7 +250,6 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-766",
     word: "Late",
     slug: "late",
     phonetic: "/leɪt/",
@@ -278,19 +261,18 @@ export const L1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "c1-205",
     word: "Latency",
     slug: "latency",
     phonetic: "/ˈleɪ.tən.si/",
     partOfSpeech: "noun",
-    meaningEn: "The delay before a transfer of data begins following an instruction for its transfer.",
+    meaningEn:
+      "The delay before a transfer of data begins following an instruction for its transfer.",
     meaningVi: "Độ trễ.",
     exampleEn: "Low latency is required for online gaming.",
     exampleVi: "Độ trễ thấp là yêu cầu bắt buộc đối với trò chơi trực tuyến.",
-    categories: ["Technology","Engineering"],
+    categories: ["Technology", "Engineering"],
   },
   {
-    id: "gen-767",
     word: "Later",
     slug: "later",
     phonetic: "/ˈleɪ.tɚ/",
@@ -302,7 +284,6 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-768",
     word: "Latest",
     slug: "latest",
     phonetic: "/ˈleɪ.tɪst/",
@@ -314,7 +295,6 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-l123",
     word: "laud",
     slug: "laud",
     phonetic: "/lɔːd/",
@@ -326,19 +306,18 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5b-l-8",
     word: "Laudable",
     slug: "laudable",
     phonetic: "/ˈlɑː.də.bəl/",
     partOfSpeech: "noun",
-    meaningEn: "(of an action, idea, or aim) deserving praise and commendation.",
+    meaningEn:
+      "(of an action, idea, or aim) deserving praise and commendation.",
     meaningVi: "Đáng khen ngợi.",
     exampleEn: "Supporting local farmers is a laudable goal.",
     exampleVi: "Ủng hộ nông dân địa phương là một mục tiêu đáng khen ngợi.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-769",
     word: "Laugh",
     slug: "laugh",
     phonetic: "/læf/",
@@ -347,10 +326,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Cười.",
     exampleEn: "Laugh out loud.",
     exampleVi: "Cười lớn.",
-    categories: ["Emotions","General"],
+    categories: ["Emotions", "General"],
   },
   {
-    id: "gen-770",
     word: "Launch",
     slug: "launch",
     phonetic: "/lɔːntʃ/",
@@ -359,10 +337,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Khởi động.",
     exampleEn: "Launch a product.",
     exampleVi: "Ra mắt sản phẩm.",
-    categories: ["Business","General"],
+    categories: ["Business", "General"],
   },
   {
-    id: "gen-90010",
     word: "Laundry",
     slug: "laundry",
     phonetic: "/ˈlɔːn.dri/",
@@ -371,10 +348,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Quần áo cần giặt/đồ giặt.",
     exampleEn: "I have a pile of laundry to do.",
     exampleVi: "Tôi có một đống đồ cần giặt.",
-    categories: ["Home","Daily"],
+    categories: ["Home", "Daily"],
   },
   {
-    id: "b1-43",
     word: "Law",
     slug: "Law",
     phonetic: "/ˈliː.ɡəl/",
@@ -386,7 +362,6 @@ export const L1: VocabularyWord[] = [
     categories: ["Social"],
   },
   {
-    id: "gen-772",
     word: "Lawyer",
     slug: "lawyer",
     phonetic: "/ˈlɔː.jɚ/",
@@ -395,10 +370,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Luật sư.",
     exampleEn: "Hire a lawyer.",
     exampleVi: "Thuê luật sư.",
-    categories: ["Law","Business","Jobs"],
+    categories: ["Law", "Business", "Jobs"],
   },
   {
-    id: "exp-b5b-l-9",
     word: "Laxity",
     slug: "laxity",
     phonetic: "/ˈlæk.sə.t̬i/",
@@ -406,11 +380,11 @@ export const L1: VocabularyWord[] = [
     meaningEn: "Lack of strictness or care.",
     meaningVi: "Sự lỏng lẻo/Sự hời hợt.",
     exampleEn: "The laxity of the new regulations concerns some experts.",
-    exampleVi: "Sự lỏng lẻo của các quy định mới khiến một số chuyên gia lo ngại.",
-    categories: ["General"]
+    exampleVi:
+      "Sự lỏng lẻo của các quy định mới khiến một số chuyên gia lo ngại.",
+    categories: ["General"],
   },
   {
-    id: "gen-773",
     word: "Lay",
     slug: "lay",
     phonetic: "/leɪ/",
@@ -422,7 +396,6 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "pv-69",
     word: "Lay off",
     slug: "lay-off",
     phonetic: "/leɪ ɒf/",
@@ -434,7 +407,6 @@ export const L1: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "gen-774",
     word: "Layer",
     slug: "layer",
     phonetic: "/ˈleɪ.ɚ/",
@@ -446,7 +418,6 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-775",
     word: "Lazy",
     slug: "lazy",
     phonetic: "/ˈleɪ.zi/",
@@ -458,7 +429,6 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-776",
     word: "Lead",
     slug: "lead",
     phonetic: "/liːd/",
@@ -470,7 +440,6 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-777",
     word: "Leader",
     slug: "leader",
     phonetic: "/ˈliː.dɚ/",
@@ -479,10 +448,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Lãnh đạo.",
     exampleEn: "A great leader.",
     exampleVi: "Một lãnh đạo vĩ đại.",
-    categories: ["Business","Politics"],
+    categories: ["Business", "Politics"],
   },
   {
-    id: "b1-211",
     word: "Leadership",
     slug: "leadership",
     phonetic: "/ˈliː.dər.ʃɪp/",
@@ -491,10 +459,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Khả năng lãnh đạo.",
     exampleEn: "Strong leadership skills.",
     exampleVi: "Kỹ năng lãnh đạo mạnh mẽ.",
-    categories: ["Business","Business"],
+    categories: ["Business", "Business"],
   },
   {
-    id: "a1-107",
     word: "Leaf",
     slug: "leaf",
     phonetic: "/liːf/",
@@ -506,19 +473,18 @@ export const L1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-780",
     word: "League",
     slug: "league",
     phonetic: "/liːɡ/",
     partOfSpeech: "noun",
-    meaningEn: "A collection of people or groups that combine for mutual protection.",
+    meaningEn:
+      "A collection of people or groups that combine for mutual protection.",
     meaningVi: "Liên đoàn.",
     exampleEn: "Football league.",
     exampleVi: "Giải bóng đá.",
-    categories: ["Sports","General"],
+    categories: ["Sports", "General"],
   },
   {
-    id: "gen-781",
     word: "Lean",
     slug: "lean",
     phonetic: "/liːn/",
@@ -530,31 +496,31 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a1-78",
     word: "Learn",
     slug: "learn",
     phonetic: "/lɜːrn/",
     partOfSpeech: "verb",
-    meaningEn: "Acquire knowledge of or skill in (something) by study, experience, or being taught.",
+    meaningEn:
+      "Acquire knowledge of or skill in (something) by study, experience, or being taught.",
     meaningVi: "Học.",
     exampleEn: "I want to learn English.",
     exampleVi: "Tôi muốn học tiếng Anh.",
     categories: ["Daily"],
   },
   {
-    id: "spec-l-004",
     word: "Lease",
     slug: "lease",
     phonetic: "/liːs/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A contract by which one party conveys land, property, services, etc. to another for a specified time, usually in return for a periodic payment.",
-    meaningVi: "Hợp đồng cho thuê tài sản trong một khoảng thời gian xác định, thường có trả phí định kỳ.",
+    meaningEn:
+      "A contract by which one party conveys land, property, services, etc. to another for a specified time, usually in return for a periodic payment.",
+    meaningVi:
+      "Hợp đồng cho thuê tài sản trong một khoảng thời gian xác định, thường có trả phí định kỳ.",
     exampleEn: "They signed a two-year lease for the apartment.",
     exampleVi: "Họ ký hợp đồng thuê căn hộ 2 năm.",
-    categories: ["Daily","Business"],
+    categories: ["Daily", "Business"],
   },
   {
-    id: "gen-783",
     word: "Least",
     slug: "least",
     phonetic: "/liːst/",
@@ -566,7 +532,6 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-784",
     word: "Leather",
     slug: "leather",
     phonetic: "/ˈleð.ɚ/",
@@ -578,7 +543,6 @@ export const L1: VocabularyWord[] = [
     categories: ["Fashion"],
   },
   {
-    id: "gen-785",
     word: "Leave",
     slug: "leave",
     phonetic: "/liːv/",
@@ -590,7 +554,6 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5b-l-10",
     word: "Lecherous",
     slug: "lecherous",
     phonetic: "/ˈletʃ.ɚ.əs/",
@@ -599,10 +562,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Dâm đãng.",
     exampleEn: "He had a lecherous smile that made her uncomfortable.",
     exampleVi: "Ông ta có một nụ cười dâm đãng khiến cô thấy khó chịu.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-786",
     word: "Lecture",
     slug: "lecture",
     phonetic: "/ˈlek.tʃɚ/",
@@ -614,7 +576,6 @@ export const L1: VocabularyWord[] = [
     categories: ["Education"],
   },
   {
-    id: "job-059",
     word: "Lecturer",
     slug: "lecturer",
     phonetic: "/ˈlek.tʃər.ər/",
@@ -623,22 +584,21 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Giảng viên.",
     exampleEn: "The lecturer explained the theory clearly.",
     exampleVi: "Giảng viên đã giải thích lý thuyết rõ ràng.",
-    categories: ["Jobs","Education"],
+    categories: ["Jobs", "Education"],
   },
   {
-    id: "gen-787",
     word: "Left",
     slug: "left",
     phonetic: "/left/",
     partOfSpeech: "adjective/noun",
-    meaningEn: "On or toward the side of the body to the west when facing north.",
+    meaningEn:
+      "On or toward the side of the body to the west when facing north.",
     meaningVi: "Trái.",
     exampleEn: "Turn left.",
     exampleVi: "Rẽ trái.",
     categories: ["General"],
   },
   {
-    id: "a1-122",
     word: "Leg",
     slug: "leg",
     phonetic: "/leɡ/",
@@ -647,10 +607,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Chân.",
     exampleEn: "My legs are tired.",
     exampleVi: "Chân tôi mệt quá.",
-    categories: ["Daily","Medical"],
+    categories: ["Daily", "Medical"],
   },
   {
-    id: "c1-240",
     word: "Legacy",
     slug: "legacy",
     phonetic: "/ˈleɡ.ə.si/",
@@ -659,10 +618,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Di sản; hệ thống cũ.",
     exampleEn: "Legacy system.",
     exampleVi: "Hệ thống cũ/di sản.",
-    categories: ["Technology","Business","Daily"],
+    categories: ["Technology", "Business", "Daily"],
   },
   {
-    id: "gen-790",
     word: "Legend",
     slug: "legend",
     phonetic: "/ˈledʒ.ənd/",
@@ -674,7 +632,6 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5b-l-11",
     word: "Legerdemain",
     slug: "legerdemain",
     phonetic: "/ˌledʒ.ɚ.dəˈmeɪn/",
@@ -682,11 +639,11 @@ export const L1: VocabularyWord[] = [
     meaningEn: "Skillful use of one's hands when performing conjuring tricks.",
     meaningVi: "Trò ảo thuật/Sự nhanh tay.",
     exampleEn: "The magician's legerdemain amazed the audience.",
-    exampleVi: "Sự nhanh tay (trò ảo thuật) của nhà ảo thuật khiến khán giả kinh ngạc.",
-    categories: ["General"]
+    exampleVi:
+      "Sự nhanh tay (trò ảo thuật) của nhà ảo thuật khiến khán giả kinh ngạc.",
+    categories: ["General"],
   },
   {
-    id: "c1-235",
     word: "Legitimacy",
     slug: "legitimacy",
     phonetic: "/ləˈdʒɪt̬.ə.mə.si/",
@@ -695,10 +652,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Sự chính thống, tính hợp pháp.",
     exampleEn: "Question the legitimacy.",
     exampleVi: "Nghi ngờ tính hợp pháp.",
-    categories: ["Law","Social","Academic"],
+    categories: ["Law", "Social", "Academic"],
   },
   {
-    id: "c1-210",
     word: "Legitimate",
     slug: "legitimate",
     phonetic: "/ləˈdʒɪt̬.ə.mət/",
@@ -707,10 +663,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Hợp pháp, chính đáng.",
     exampleEn: "A legitimate business concern.",
     exampleVi: "Một mối quan tâm kinh doanh chính đáng.",
-    categories: ["Daily","Business","Academic"],
+    categories: ["Daily", "Business", "Academic"],
   },
   {
-    id: "gen-791",
     word: "Lemon",
     slug: "lemon",
     phonetic: "/ˈlem.ən/",
@@ -722,7 +677,6 @@ export const L1: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
-    id: "gen-792",
     word: "Lend",
     slug: "lend",
     phonetic: "/lend/",
@@ -734,7 +688,6 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-793",
     word: "Length",
     slug: "length",
     phonetic: "/leŋθ/",
@@ -746,7 +699,6 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-794",
     word: "Less",
     slug: "less",
     phonetic: "/les/",
@@ -758,7 +710,6 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-795",
     word: "Lesson",
     slug: "lesson",
     phonetic: "/ˈles.ən/",
@@ -770,7 +721,6 @@ export const L1: VocabularyWord[] = [
     categories: ["Education"],
   },
   {
-    id: "pv-114",
     word: "Let down",
     slug: "let-down",
     phonetic: "/let daʊn/",
@@ -782,7 +732,6 @@ export const L1: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "exp-b5b-l-12",
     word: "Lethargic",
     slug: "lethargic",
     phonetic: "/ləˈθɑːr.dʒɪk/",
@@ -791,10 +740,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Hôn mê/Thờ ơ.",
     exampleEn: "I felt lethargic all day because I didn't sleep well.",
     exampleVi: "Tôi cảm thấy uể oải (thờ ơ) cả ngày vì đã không ngủ ngon.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-796",
     word: "Letter",
     slug: "letter",
     phonetic: "/ˈlet.ɚ/",
@@ -806,7 +754,6 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-797",
     word: "Level",
     slug: "level",
     phonetic: "/ˈlev.əl/",
@@ -818,43 +765,43 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5b-l-13",
     word: "Levity",
     slug: "levity",
     phonetic: "/ˈlev.ə.t̬i/",
     partOfSpeech: "noun",
-    meaningEn: "Humor or frivolity, especially the treatment of a serious matter with humor.",
+    meaningEn:
+      "Humor or frivolity, especially the treatment of a serious matter with humor.",
     meaningVi: "Sự khinh suất/Coi thường.",
     exampleEn: "The joke added a bit of levity to the serious meeting.",
-    exampleVi: "Lời nói đùa đã thêm một chút khinh suất (vui vẻ) vào cuộc họp nghiêm túc.",
-    categories: ["General"]
+    exampleVi:
+      "Lời nói đùa đã thêm một chút khinh suất (vui vẻ) vào cuộc họp nghiêm túc.",
+    categories: ["General"],
   },
   {
-    id: "b2-205",
     word: "Liability",
     slug: "liability",
     phonetic: "/ˌlaɪ.əˈbɪl.ə.ti/",
     partOfSpeech: "noun",
-    meaningEn: "The state of being responsible for something, especially by law.",
+    meaningEn:
+      "The state of being responsible for something, especially by law.",
     meaningVi: "Nợ phải trả; trách nhiệm pháp lý.",
     exampleEn: "A financial liability.",
     exampleVi: "Một khoản nợ tài chính.",
     categories: ["Business"],
   },
   {
-    id: "exp-b5b-l-14",
     word: "Libertine",
     slug: "libertine",
     phonetic: "/ˈlɪb.ɚ.tiːn/",
     partOfSpeech: "noun",
-    meaningEn: "A person, especially a man, who behaves without moral principles or a sense of responsibility.",
+    meaningEn:
+      "A person, especially a man, who behaves without moral principles or a sense of responsibility.",
     meaningVi: "Kẻ phóng đãng.",
     exampleEn: "He lived the life of a wealthy libertine.",
     exampleVi: "Anh ấy đã sống cuộc đời của một kẻ phóng đãng giàu có.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "job-060",
     word: "Librarian",
     slug: "librarian",
     phonetic: "/laɪˈbrer.i.ən/",
@@ -863,10 +810,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Thủ thư.",
     exampleEn: "The librarian helped me find the book.",
     exampleVi: "Thủ thư đã giúp tôi tìm sách.",
-    categories: ["Jobs","Education"],
+    categories: ["Jobs", "Education"],
   },
   {
-    id: "a1-198",
     word: "Library",
     slug: "library",
     phonetic: "/ˈlaɪbreri/",
@@ -875,10 +821,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Thư viện.",
     exampleEn: "I study in the library when it's quiet.",
     exampleVi: "Tôi học trong thư viện khi trời yên tĩnh.",
-    categories: ["Daily","Academic"],
+    categories: ["Daily", "Academic"],
   },
   {
-    id: "gen-799",
     word: "License",
     slug: "license",
     phonetic: "/ˈlaɪ.səns/",
@@ -890,7 +835,6 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5b-l-15",
     word: "Licentious",
     slug: "licentious",
     phonetic: "/laɪˈsen.ʃəs/",
@@ -899,10 +843,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Phóng túng/Dâm loàn.",
     exampleEn: "The novel was banned for its licentious content.",
     exampleVi: "Cuốn tiểu thuyết bị cấm vì nội dung dâm loàn (phóng túng).",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-800",
     word: "Lie",
     slug: "lie",
     phonetic: "/laɪ/",
@@ -914,19 +857,18 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-801",
     word: "Life",
     slug: "life",
     phonetic: "/laɪf/",
     partOfSpeech: "noun",
-    meaningEn: "The condition that distinguishes animals and plants from inorganic matter.",
+    meaningEn:
+      "The condition that distinguishes animals and plants from inorganic matter.",
     meaningVi: "Cuộc sống.",
     exampleEn: "Enjoy life.",
     exampleVi: "Tận hưởng cuộc sống.",
     categories: ["General"],
   },
   {
-    id: "job-061",
     word: "Lifeguard",
     slug: "lifeguard",
     phonetic: "/ˈlaɪf.ɡɑːrd/",
@@ -935,10 +877,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Nhân viên cứu hộ.",
     exampleEn: "The lifeguard saved the drowning child.",
     exampleVi: "Nhân viên cứu hộ đã cứu đứa trẻ đuối nước.",
-    categories: ["Jobs","Emergency"],
+    categories: ["Jobs", "Emergency"],
   },
   {
-    id: "gen-802",
     word: "Lifestyle",
     slug: "lifestyle",
     phonetic: "/ˈlaɪf.staɪl/",
@@ -950,7 +891,6 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-803",
     word: "Lift",
     slug: "lift",
     phonetic: "/lɪft/",
@@ -962,7 +902,6 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-804",
     word: "Light",
     slug: "light",
     phonetic: "/laɪt/",
@@ -974,7 +913,6 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a1-235",
     word: "Like",
     slug: "like",
     phonetic: "/laɪk/",
@@ -983,10 +921,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Thích.",
     exampleEn: "I like this song.",
     exampleVi: "Tôi thích bài hát này.",
-    categories: ["Daily","Social"],
+    categories: ["Daily", "Social"],
   },
   {
-    id: "gen-806",
     word: "Likely",
     slug: "likely",
     phonetic: "/ˈlaɪk.li/",
@@ -998,7 +935,6 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-806bas",
     word: "Likeness",
     slug: "likeness",
     phonetic: "/ˈlaɪk.nəs/",
@@ -1010,7 +946,6 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5b-l-16",
     word: "Lilliputian",
     slug: "lilliputian",
     phonetic: "/ˌlɪl.ɪˈpjuː.ʃən/",
@@ -1018,11 +953,11 @@ export const L1: VocabularyWord[] = [
     meaningEn: "Trivial or very small.",
     meaningVi: "Nhỏ bé/Trivial.",
     exampleEn: "The tiny houses were built on a lilliputian scale.",
-    exampleVi: "Những ngôi nhà nhỏ xíu được xây dựng theo tỷ lệ nhỏ bé (lilliputian).",
-    categories: ["General"]
+    exampleVi:
+      "Những ngôi nhà nhỏ xíu được xây dựng theo tỷ lệ nhỏ bé (lilliputian).",
+    categories: ["General"],
   },
   {
-    id: "gen-807",
     word: "Limit",
     slug: "limit",
     phonetic: "/ˈlɪm.ɪt/",
@@ -1034,7 +969,6 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5b-l-17",
     word: "Limpid",
     slug: "limpid",
     phonetic: "/ˈlɪm.pɪd/",
@@ -1043,10 +977,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Trong trẻo.",
     exampleEn: "The limpid waters of the lake were perfect for swimming.",
     exampleVi: "Làn nước trong trẻo của hồ rất thích hợp để bơi lội.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-808",
     word: "Line",
     slug: "line",
     phonetic: "/laɪn/",
@@ -1058,31 +991,31 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5b-l-18",
     word: "Linguistic",
     slug: "linguistic",
     phonetic: "/lɪŋˈɡwɪs.tɪk/",
     partOfSpeech: "noun",
     meaningEn: "Relating to language or linguistics.",
     meaningVi: "Thuộc về ngôn ngữ học.",
-    exampleEn: "She has excellent linguistic abilities and speaks five languages.",
-    exampleVi: "Cô ấy có khả năng ngôn ngữ tuyệt vời và nói được năm thứ tiếng.",
-    categories: ["General"]
+    exampleEn:
+      "She has excellent linguistic abilities and speaks five languages.",
+    exampleVi:
+      "Cô ấy có khả năng ngôn ngữ tuyệt vời và nói được năm thứ tiếng.",
+    categories: ["General"],
   },
   {
-    id: "a2-194",
     word: "Link",
     slug: "link",
     phonetic: "/lɪŋk/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A relationship between two things or situations, especially where one thing affects the other.",
+    meaningEn:
+      "A relationship between two things or situations, especially where one thing affects the other.",
     meaningVi: "Liên kết.",
     exampleEn: "Follow the link.",
     exampleVi: "Theo liên kết.",
-    categories: ["Technology","Daily"],
+    categories: ["Technology", "Daily"],
   },
   {
-    id: "gen-810",
     word: "Lion",
     slug: "lion",
     phonetic: "/ˈlaɪ.ən/",
@@ -1094,7 +1027,6 @@ export const L1: VocabularyWord[] = [
     categories: ["Biology"],
   },
   {
-    id: "gen-811",
     word: "Lip",
     slug: "lip",
     phonetic: "/lɪp/",
@@ -1106,7 +1038,6 @@ export const L1: VocabularyWord[] = [
     categories: ["Biology"],
   },
   {
-    id: "b2-200",
     word: "Liquidity",
     slug: "liquidity",
     phonetic: "/lɪˈkwɪd.ə.ti/",
@@ -1118,7 +1049,6 @@ export const L1: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "a1-231",
     word: "List",
     slug: "list",
     phonetic: "/lɪst/",
@@ -1130,7 +1060,6 @@ export const L1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "a1-76",
     word: "Listen",
     slug: "listen",
     phonetic: "/ˈlɪs.ən/",
@@ -1142,7 +1071,6 @@ export const L1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-814",
     word: "Literature",
     slug: "literature",
     phonetic: "/ˈlɪt.ər.ə.tʃɚ/",
@@ -1151,10 +1079,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Văn học.",
     exampleEn: "Study literature.",
     exampleVi: "Học văn học.",
-    categories: ["Literature","Education"],
+    categories: ["Literature", "Education"],
   },
   {
-    id: "exp-b5b-l-19",
     word: "Litigious",
     slug: "litigious",
     phonetic: "/lɪˈtɪdʒ.əs/",
@@ -1163,10 +1090,9 @@ export const L1: VocabularyWord[] = [
     meaningVi: "Hay kiện tụng.",
     exampleEn: "We live in an increasingly litigious society.",
     exampleVi: "Chúng ta đang sống trong một xã hội ngày càng hay kiện tụng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-815",
     word: "Little",
     slug: "little",
     phonetic: "/ˈlɪt.əl/",
@@ -1178,7 +1104,6 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a1-136",
     word: "Live",
     slug: "live",
     phonetic: "/lɪv/",
@@ -1190,7 +1115,6 @@ export const L1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "pv-92",
     word: "Live up to",
     slug: "live-up-to",
     phonetic: "/lɪv ʌp tuː/",
@@ -1198,7 +1122,8 @@ export const L1: VocabularyWord[] = [
     meaningEn: "Fulfill expectations.",
     meaningVi: "Sống xứng đáng với, đạt tới mong đợi.",
     exampleEn: "He found it hard to live up to his father's reputation.",
-    exampleVi: "Anh ấy thấy thật khó để sống xứng danh với danh tiếng của bố mình.",
+    exampleVi:
+      "Anh ấy thấy thật khó để sống xứng danh với danh tiếng của bố mình.",
     categories: ["Phrasal Verb"],
-  }
+  },
 ];

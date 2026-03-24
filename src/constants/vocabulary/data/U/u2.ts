@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const U2: VocabularyWord[] = [
   {
-    id: "gen-1698",
     word: "Upper",
     slug: "upper",
     phonetic: "/ˈʌp.ɚ/",
@@ -14,7 +13,6 @@ export const U2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "added-final-u-9",
     word: "Uppermost",
     slug: "uppermost",
     phonetic: "/ˈʌp.ɚ.moʊst/",
@@ -22,11 +20,11 @@ export const U2: VocabularyWord[] = [
     meaningEn: "Highest in place, rank, or importance.",
     meaningVi: "Trên hết/Cao nhất.",
     exampleEn: "Safety should be uppermost in your mind during the trip.",
-    exampleVi: "Sự an toàn nên là điều quan trọng nhất (trên hết) trong tâm trí bạn trong suốt chuyến đi.",
-    categories: ["General"]
+    exampleVi:
+      "Sự an toàn nên là điều quan trọng nhất (trên hết) trong tâm trí bạn trong suốt chuyến đi.",
+    categories: ["General"],
   },
   {
-    id: "added-final-u-10",
     word: "Upright",
     slug: "upright",
     phonetic: "/ˈʌp.raɪt/",
@@ -35,10 +33,9 @@ export const U2: VocabularyWord[] = [
     meaningVi: "Thẳng đứng/Ngay thẳng.",
     exampleEn: "He is a man of upright character and integrity.",
     exampleVi: "Ông ấy là một người có tính cách ngay thẳng và liêm chính.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1699",
     word: "Upset",
     slug: "upset",
     phonetic: "/ʌpˈset/",
@@ -50,7 +47,6 @@ export const U2: VocabularyWord[] = [
     categories: ["Emotions"],
   },
   {
-    id: "gen-1700",
     word: "Upstairs",
     slug: "upstairs",
     phonetic: "/ˌʌpˈsterz/",
@@ -62,7 +58,6 @@ export const U2: VocabularyWord[] = [
     categories: ["Home"],
   },
   {
-    id: "gen-1701",
     word: "Upward",
     slug: "upward",
     phonetic: "/ˈʌp.wɚd/",
@@ -74,7 +69,6 @@ export const U2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1702",
     word: "Urban",
     slug: "urban",
     phonetic: "/ˈɜːr.bən/",
@@ -83,10 +77,9 @@ export const U2: VocabularyWord[] = [
     meaningVi: "Thành thị.",
     exampleEn: "Urban area.",
     exampleVi: "Khu vực thành thị.",
-    categories: ["Geography","Social"],
+    categories: ["Geography", "Social"],
   },
   {
-    id: "gen-1703",
     word: "Urge",
     slug: "urge",
     phonetic: "/ɝːdʒ/",
@@ -98,7 +91,6 @@ export const U2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "c2-166",
     word: "Urgency",
     slug: "urgency",
     phonetic: "/ˈɜːr.dʒən.si/",
@@ -110,7 +102,6 @@ export const U2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1704",
     word: "Url",
     slug: "url",
     phonetic: "/ˌjuː.ɑːrˈel/",
@@ -122,19 +113,18 @@ export const U2: VocabularyWord[] = [
     categories: ["Technology"],
   },
   {
-    id: "c2-167",
     word: "Urology",
     slug: "urology",
     phonetic: "/jʊˈrɑː.lə.dʒi/",
     partOfSpeech: "noun",
-    meaningEn: "The branch of medicine and physiology concerned with the function and disorders of the urinary system.",
+    meaningEn:
+      "The branch of medicine and physiology concerned with the function and disorders of the urinary system.",
     meaningVi: "Tiết niệu học.",
     exampleEn: "Urology department.",
     exampleVi: "Khoa tiết niệu.",
     categories: ["Medical"],
   },
   {
-    id: "gen-1705",
     word: "Us",
     slug: "us",
     phonetic: "/ʌs/",
@@ -146,7 +136,6 @@ export const U2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1706",
     word: "Use",
     slug: "use",
     phonetic: "/juːz/",
@@ -158,7 +147,6 @@ export const U2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "pv-79",
     word: "Use up",
     slug: "use-up",
     phonetic: "/juːz ʌp/",
@@ -170,7 +158,6 @@ export const U2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "gen-1707",
     word: "Used",
     slug: "used",
     phonetic: "/juːzd/",
@@ -179,10 +166,9 @@ export const U2: VocabularyWord[] = [
     meaningVi: "Đã qua sử dụng.",
     exampleEn: "Used car.",
     exampleVi: "Xe hơi cũ.",
-    categories: ["General","Shopping"],
+    categories: ["General", "Shopping"],
   },
   {
-    id: "b1-92",
     word: "Useful",
     slug: "useful",
     phonetic: "/ˈjuːs.fəl/",
@@ -194,7 +180,6 @@ export const U2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "a2-207",
     word: "User",
     slug: "user",
     phonetic: "/ˈjuː.zər/",
@@ -203,22 +188,21 @@ export const U2: VocabularyWord[] = [
     meaningVi: "Người dùng.",
     exampleEn: "New user registration.",
     exampleVi: "Đăng ký người dùng mới.",
-    categories: ["Technology","Daily"],
+    categories: ["Technology", "Daily"],
   },
   {
-    id: "a2-222",
     word: "Username",
     slug: "username",
     phonetic: "/ˈjuː.zər.neɪm/",
     partOfSpeech: "noun",
-    meaningEn: "An identification used by a person with access to a computer network.",
+    meaningEn:
+      "An identification used by a person with access to a computer network.",
     meaningVi: "Tên người dùng.",
     exampleEn: "Choose a unique username.",
     exampleVi: "Chọn một tên người dùng duy nhất.",
-    categories: ["Technology","Daily"],
+    categories: ["Technology", "Daily"],
   },
   {
-    id: "gen-1710",
     word: "Usual",
     slug: "usual",
     phonetic: "/ˈjuː.ʒu.əl/",
@@ -230,7 +214,6 @@ export const U2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1711",
     word: "Usually",
     slug: "usually",
     phonetic: "/ˈjuː.ʒu.ə.li/",
@@ -242,19 +225,18 @@ export const U2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "c2-151",
     word: "Utilitarianism",
     slug: "utilitarianism",
     phonetic: "/juːˌtɪl.ɪˈter.i.ə.nɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn: "The doctrine that actions are right if they are useful or for the benefit of a majority.",
+    meaningEn:
+      "The doctrine that actions are right if they are useful or for the benefit of a majority.",
     meaningVi: "Chủ nghĩa công dụng/vị lợi.",
     exampleEn: "The ethics of utilitarianism.",
     exampleVi: "Đạo đức học của chủ nghĩa vị lợi.",
-    categories: ["Academic","Philosophy"],
+    categories: ["Academic", "Philosophy"],
   },
   {
-    id: "gen-1712",
     word: "Utility",
     slug: "utility",
     phonetic: "/juːˈtɪl.ə.ti/",
@@ -263,6 +245,6 @@ export const U2: VocabularyWord[] = [
     meaningVi: "Tiện ích.",
     exampleEn: "Public utilities.",
     exampleVi: "Dịch vụ công cộng.",
-    categories: ["General","Technology"],
-  }
+    categories: ["General", "Technology"],
+  },
 ];

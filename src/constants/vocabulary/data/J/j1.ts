@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const J1: VocabularyWord[] = [
   {
-    id: "gen-8495",
     word: "Jab",
     slug: "jab",
     phonetic: "/dʒæb/",
@@ -11,10 +10,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Đâm, thọc; cú đấm nhanh",
     exampleEn: "He jabbed the needle into the patient's arm.",
     exampleVi: "Anh ấy thọc kim vào cánh tay bệnh nhân.",
-    categories: ["Medical","Medical"],
+    categories: ["Medical", "Medical"],
   },
   {
-    id: "added-j-1",
     word: "Jabber",
     slug: "jabber",
     phonetic: "/ˈdʒæb.ɚ/",
@@ -23,22 +21,21 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Nói lải nhải/Líu lo.",
     exampleEn: "They started to jabber excitedly when they heard the news.",
     exampleVi: "Họ bắt đầu nói lảm nhảm đầy hào hứng khi nghe tin tức.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8496",
     word: "Jack",
     slug: "jack",
     phonetic: "/dʒæk/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A device for lifting heavy objects; to lift with such a device.",
+    meaningEn:
+      "A device for lifting heavy objects; to lift with such a device.",
     meaningVi: "Kích; nâng bằng kích",
     exampleEn: "Use the jack to lift the car.",
     exampleVi: "Dùng kích để nâng xe.",
-    categories: ["Tools","Transportation"],
+    categories: ["Tools", "Transportation"],
   },
   {
-    id: "gen-8497",
     word: "Jacket",
     slug: "jacket",
     phonetic: "/ˈdʒæk.ɪt/",
@@ -47,10 +44,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Áo khoác",
     exampleEn: "She put on a jacket before going out.",
     exampleVi: "Cô ấy khoác áo trước khi ra ngoài.",
-    categories: ["Clothing","Daily"],
+    categories: ["Clothing", "Daily"],
   },
   {
-    id: "exp-b5b-j-1",
     word: "Jackpot",
     slug: "jackpot",
     phonetic: "/ˈdʒæk.pɑːt/",
@@ -58,11 +54,11 @@ export const J1: VocabularyWord[] = [
     meaningEn: "A large cash prize in a game or lottery.",
     meaningVi: "Giải độc đắc.",
     exampleEn: "He won the jackpot in the lottery last weekend.",
-    exampleVi: "Anh ấy đã trúng giải độc đắc trong tờ vé số vào cuối tuần trước.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ấy đã trúng giải độc đắc trong tờ vé số vào cuối tuần trước.",
+    categories: ["General"],
   },
   {
-    id: "added-j-2",
     word: "Jacuzzi",
     slug: "jacuzzi",
     phonetic: "/dʒəˈkuː.zi/",
@@ -70,11 +66,11 @@ export const J1: VocabularyWord[] = [
     meaningEn: "A large bath with jets of water.",
     meaningVi: "Bồn tắm sục Jacuzzi.",
     exampleEn: "Relaxing in a Jacuzzi is a great way to relieve stress.",
-    exampleVi: "Thư giãn trong bồn tắm massage (Jacuzzi) là một cách tuyệt vời để giải tỏa căng thẳng.",
-    categories: ["General"]
+    exampleVi:
+      "Thư giãn trong bồn tắm massage (Jacuzzi) là một cách tuyệt vời để giải tỏa căng thẳng.",
+    categories: ["General"],
   },
   {
-    id: "gen-8498",
     word: "Jade",
     slug: "jade",
     phonetic: "/dʒeɪd/",
@@ -83,10 +79,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Đá ngọc",
     exampleEn: "The pendant was carved from green jade.",
     exampleVi: "Mặt dây chuyền được chạm khắc từ ngọc xanh.",
-    categories: ["Shopping","Art"],
+    categories: ["Shopping", "Art"],
   },
   {
-    id: "added-j-4",
     word: "Jaguar",
     slug: "jaguar",
     phonetic: "/ˈdʒæɡ.wɑːr/",
@@ -94,35 +89,35 @@ export const J1: VocabularyWord[] = [
     meaningEn: "A large, heavily built cat.",
     meaningVi: "Con báo đốm Mỹ.",
     exampleEn: "The jaguar is a powerful predator native to the Americas.",
-    exampleVi: "Báo đốm Mỹ là một loài săn mồi mạnh mẽ có nguồn gốc từ Châu Mỹ.",
-    categories: ["General"]
+    exampleVi:
+      "Báo đốm Mỹ là một loài săn mồi mạnh mẽ có nguồn gốc từ Châu Mỹ.",
+    categories: ["General"],
   },
   {
-    id: "gen-8499",
     word: "Jail",
     slug: "jail",
     phonetic: "/dʒeɪl/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A place for the confinement of people accused or convicted of a crime; to put someone in prison.",
+    meaningEn:
+      "A place for the confinement of people accused or convicted of a crime; to put someone in prison.",
     meaningVi: "Nhà tù; bỏ tù",
     exampleEn: "The suspect was jailed pending trial.",
     exampleVi: "Nghi phạm bị giam giữ chờ xét xử.",
-    categories: ["Law","Security"],
+    categories: ["Law", "Security"],
   },
   {
-    id: "gen-8500",
     word: "Jam",
     slug: "jam",
     phonetic: "/dʒæm/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A sweet spread made from fruit and sugar; a crowded or blocked situation.",
+    meaningEn:
+      "A sweet spread made from fruit and sugar; a crowded or blocked situation.",
     meaningVi: "Mứt; tắc nghẽn",
     exampleEn: "We were stuck in a traffic jam.",
     exampleVi: "Chúng tôi kẹt trong một vụ tắc đường.",
-    categories: ["Food & Drink","Transportation"],
+    categories: ["Food & Drink", "Transportation"],
   },
   {
-    id: "exp-b4a-j-1",
     word: "Jam-packed",
     slug: "jam-packed",
     phonetic: "/ˌdʒæmˈpækt/",
@@ -131,10 +126,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Đông nghịt/Chật như nêm.",
     exampleEn: "The bus was jam-packed with morning commuters.",
     exampleVi: "Xe buýt đông nghịt những người đi làm vào buổi sáng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "job-056",
     word: "Janitor",
     slug: "janitor",
     phonetic: "/ˈdʒæn.ɪ.tər/",
@@ -143,10 +137,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Người bảo vệ/lao công.",
     exampleEn: "The janitor opened the building early.",
     exampleVi: "Người bảo vệ đã mở cửa tòa nhà sớm.",
-    categories: ["Jobs","Business"],
+    categories: ["Jobs", "Business"],
   },
   {
-    id: "exp-b4a-j-2",
     word: "Japanese",
     slug: "japanese",
     phonetic: "/ˌdʒæp.əˈniːz/",
@@ -155,34 +148,33 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Thuộc về Nhật Bản.",
     exampleEn: "She is learning how to speak Japanese.",
     exampleVi: "Cô ấy đang học cách nói tiếng Nhật.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8501",
     word: "Jar",
     slug: "jar",
     phonetic: "/dʒɑːr/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A wide-mouthed container; to have a disturbing or unpleasant effect.",
+    meaningEn:
+      "A wide-mouthed container; to have a disturbing or unpleasant effect.",
     meaningVi: "Hũ; gây khó chịu",
     exampleEn: "Store the pickles in a glass jar.",
     exampleVi: "Cất dưa muối vào hũ thủy tinh.",
-    categories: ["Home","Food & Drink"],
+    categories: ["Home", "Food & Drink"],
   },
   {
-    id: "gen-8502",
     word: "Jargon",
     slug: "jargon",
     phonetic: "/ˈdʒɑːr.ɡən/",
     partOfSpeech: "noun",
-    meaningEn: "Special words or expressions used by a profession or group that are difficult for others to understand.",
+    meaningEn:
+      "Special words or expressions used by a profession or group that are difficult for others to understand.",
     meaningVi: "Thuật ngữ chuyên ngành",
     exampleEn: "The manual is full of technical jargon.",
     exampleVi: "Sổ tay đầy các thuật ngữ kỹ thuật.",
-    categories: ["Education","Business"],
+    categories: ["Education", "Business"],
   },
   {
-    id: "exp-b4a-j-3",
     word: "Jarring",
     slug: "jarring",
     phonetic: "/ˈdʒɑː.rɪŋ/",
@@ -191,10 +183,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Chói tai/Xung đột mạnh.",
     exampleEn: "The sudden noise was a jarring experience.",
     exampleVi: "Tiếng ồn đột ngột là một trải nghiệm chói tai (xung đột mạnh).",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-j-2",
     word: "Jasmine",
     slug: "jasmine",
     phonetic: "/ˈdʒæz.mɪn/",
@@ -203,10 +194,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Hoa nhài.",
     exampleEn: "The scent of jasmine filled the garden at night.",
     exampleVi: "Hương hoa nhài tràn ngập khu vườn vào ban đêm.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8503",
     word: "Jaunt",
     slug: "jaunt",
     phonetic: "/dʒɔːnt/",
@@ -218,7 +208,6 @@ export const J1: VocabularyWord[] = [
     categories: ["Travel"],
   },
   {
-    id: "exp-b4a-j-4",
     word: "Jauntily",
     slug: "jauntily",
     phonetic: "/ˈdʒɑːn.t̬ə.li/",
@@ -227,22 +216,22 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Một cách hoạt bát.",
     exampleEn: "She walked jauntily down the street.",
     exampleVi: "Cô ấy bước đi một cách hoạt bát xuống phố.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-j-2",
     word: "Jaunty",
     slug: "jaunty",
     phonetic: "/ˈdʒɑːn.t̬i/",
     partOfSpeech: "noun",
-    meaningEn: "Having or expressing a lively, cheerful, and self-confident manner.",
+    meaningEn:
+      "Having or expressing a lively, cheerful, and self-confident manner.",
     meaningVi: "Hoạt bát/Vui vẻ/Sành điệu.",
     exampleEn: "He walked with a jaunty step and a whistle.",
-    exampleVi: "Anh ấy bước đi với một bước chân hoạt bát và một tiếng huýt sáo.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ấy bước đi với một bước chân hoạt bát và một tiếng huýt sáo.",
+    categories: ["General"],
   },
   {
-    id: "added-j-3",
     word: "Javelin",
     slug: "javelin",
     phonetic: "/ˈdʒæv.əl.ɪn/",
@@ -251,22 +240,21 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Cái lao (trong thể thao).",
     exampleEn: "The athlete threw the javelin a record distance.",
     exampleVi: "Vận động viên đã ném lao đi một khoảng cách kỷ lục.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8504",
     word: "Jaw",
     slug: "jaw",
     phonetic: "/dʒɔː/",
     partOfSpeech: "noun/verb",
-    meaningEn: "Either of the two bony structures in the mouth that hold the teeth; to talk at length.",
+    meaningEn:
+      "Either of the two bony structures in the mouth that hold the teeth; to talk at length.",
     meaningVi: "Hàm; nói chuyện dài dòng",
     exampleEn: "He clenched his jaw with anger.",
     exampleVi: "Anh ấy nghiến chặt hàm vì tức giận.",
-    categories: ["Body","Conversation"],
+    categories: ["Body", "Conversation"],
   },
   {
-    id: "added-j-4",
     word: "Jawbone",
     slug: "jawbone",
     phonetic: "/ˈdʒɑː.boʊn/",
@@ -275,10 +263,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Xương hàm.",
     exampleEn: "The remains included a fragment of a prehistoric jawbone.",
     exampleVi: "Di hài bao gồm một mảnh xương hàm thời tiền sử.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-j-5",
     word: "Jawbreaker",
     slug: "jawbreaker",
     phonetic: "/ˈdʒɑː.breɪ.kɚ/",
@@ -286,23 +273,25 @@ export const J1: VocabularyWord[] = [
     meaningEn: "Something difficult to pronounce; a hard candy.",
     meaningVi: "Từ khó phát âm; kẹo cứng.",
     exampleEn: "That scientific term is a real jawbreaker.",
-    exampleVi: "Thuật ngữ khoa học đó thật sự là một từ khó phát âm (dài và khó).",
-    categories: ["General"]
+    exampleVi:
+      "Thuật ngữ khoa học đó thật sự là một từ khó phát âm (dài và khó).",
+    categories: ["General"],
   },
   {
-    id: "added-j-6",
     word: "Jaywalk",
     slug: "jaywalk",
     phonetic: "/ˈdʒeɪ.wɑːk/",
     partOfSpeech: "noun",
-    meaningEn: "Cross or walk in the street or road unlawfully or without regard for approaching traffic.",
+    meaningEn:
+      "Cross or walk in the street or road unlawfully or without regard for approaching traffic.",
     meaningVi: "Đi bộ qua đường không đúng luật.",
-    exampleEn: "It is dangerous and illegal to jaywalk across this busy street.",
-    exampleVi: "Đi bộ sai luật qua con phố đông đúc này là nguy hiểm và phạm pháp.",
-    categories: ["General"]
+    exampleEn:
+      "It is dangerous and illegal to jaywalk across this busy street.",
+    exampleVi:
+      "Đi bộ sai luật qua con phố đông đúc này là nguy hiểm và phạm pháp.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-j-5",
     word: "Jaywalking",
     slug: "jaywalking",
     phonetic: "/ˈdʒeɪˌwɔː.kɪŋ/",
@@ -311,10 +300,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Hành động đi bộ sai luật.",
     exampleEn: "He was fined for jaywalking across a busy intersection.",
     exampleVi: "Anh ta đã bị phạt vì đi bộ sai luật qua một ngã tư đông đúc.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-j-7",
     word: "Jazz",
     slug: "jazz",
     phonetic: "/dʒæz/",
@@ -322,23 +310,23 @@ export const J1: VocabularyWord[] = [
     meaningEn: "A type of music of black American origin.",
     meaningVi: "Nhạc Jazz.",
     exampleEn: "New Orleans is world-famous as the home of jazz.",
-    exampleVi: "New Orleans nổi tiếng khắp thế giới là quê hương của nhạc jazz.",
-    categories: ["General"]
+    exampleVi:
+      "New Orleans nổi tiếng khắp thế giới là quê hương của nhạc jazz.",
+    categories: ["General"],
   },
   {
-    id: "gen-8505",
     word: "Jealous",
     slug: "jealous",
     phonetic: "/ˈdʒel.əs/",
     partOfSpeech: "adjective",
-    meaningEn: "Feeling or showing envy of someone or their achievements or advantages.",
+    meaningEn:
+      "Feeling or showing envy of someone or their achievements or advantages.",
     meaningVi: "Ghen tị",
     exampleEn: "She felt jealous when he received the award.",
     exampleVi: "Cô ấy cảm thấy ghen khi anh ấy nhận giải.",
-    categories: ["Emotions","People"],
+    categories: ["Emotions", "People"],
   },
   {
-    id: "gen-8506",
     word: "Jealousy",
     slug: "jealousy",
     phonetic: "/ˈdʒel.ə.si/",
@@ -347,22 +335,21 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Sự ghen tuông",
     exampleEn: "His jealousy caused problems in the relationship.",
     exampleVi: "Sự ghen tuông của anh ta gây ra vấn đề trong mối quan hệ.",
-    categories: ["Emotions","Social"],
+    categories: ["Emotions", "Social"],
   },
   {
-    id: "gen-8507",
     word: "Jeans",
     slug: "jeans",
     phonetic: "/dʒiːnz/",
     partOfSpeech: "noun",
-    meaningEn: "Sturdy cotton trousers dyed with indigo, worn as casual clothing.",
+    meaningEn:
+      "Sturdy cotton trousers dyed with indigo, worn as casual clothing.",
     meaningVi: "Quần jean",
     exampleEn: "She bought a new pair of jeans.",
     exampleVi: "Cô ấy mua một chiếc quần jean mới.",
-    categories: ["Clothing","Daily"],
+    categories: ["Clothing", "Daily"],
   },
   {
-    id: "gen-8508",
     word: "Jeep",
     slug: "jeep",
     phonetic: "/dʒiːp/",
@@ -371,10 +358,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Xe jeep/địa hình",
     exampleEn: "They drove a jeep through the hills.",
     exampleVi: "Họ lái xe jeep qua những ngọn đồi.",
-    categories: ["Transportation","Travel"],
+    categories: ["Transportation", "Travel"],
   },
   {
-    id: "gen-8509",
     word: "Jeer",
     slug: "jeer",
     phonetic: "/dʒɪər/",
@@ -383,10 +369,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Chế giễu; lời chế nhạo",
     exampleEn: "The crowd began to jeer the referee.",
     exampleVi: "Đám đông bắt đầu la ó trọng tài.",
-    categories: ["Behavior","Social"],
+    categories: ["Behavior", "Social"],
   },
   {
-    id: "added-j-9",
     word: "Jeering",
     slug: "jeering",
     phonetic: "/ˈdʒɪr.ɪŋ/",
@@ -394,11 +379,11 @@ export const J1: VocabularyWord[] = [
     meaningEn: "Making rude and mocking remarks.",
     meaningVi: "Sự chế nhạo.",
     exampleEn: "The players ignored the jeering from the opposing fans.",
-    exampleVi: "Các cầu thủ đã phớt lờ những tiếng chế nhạo từ người hâm mộ đối thủ.",
-    categories: ["General"]
+    exampleVi:
+      "Các cầu thủ đã phớt lờ những tiếng chế nhạo từ người hâm mộ đối thủ.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-j-6",
     word: "Jehovah",
     slug: "jehovah",
     phonetic: "/dʒəˈhoʊ.və/",
@@ -407,10 +392,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Thượng đế Giê-hô-va.",
     exampleEn: "Many people worship Jehovah as their God.",
     exampleVi: "Nhiều người thờ phụng Thượng đế Giê-hô-va.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-j-7",
     word: "Jellied",
     slug: "jellied",
     phonetic: "/ˈdʒel.id/",
@@ -419,34 +403,33 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Đóng đông/Làm thành thạch.",
     exampleEn: "Jellied eels are a traditional dish in London.",
     exampleVi: "Lươn đóng thạch là một món ăn truyền thống ở London.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8510",
     word: "Jelly",
     slug: "jelly",
     phonetic: "/ˈdʒel.i/",
     partOfSpeech: "noun",
-    meaningEn: "A soft, gelatinous food made from fruit juice and sugar; a gel-like substance.",
+    meaningEn:
+      "A soft, gelatinous food made from fruit juice and sugar; a gel-like substance.",
     meaningVi: "Mứt mềm/Thạch",
     exampleEn: "Spread some jelly on the toast.",
     exampleVi: "Bôi một ít mứt lên bánh mì nướng.",
-    categories: ["Food & Drink","Daily"],
+    categories: ["Food & Drink", "Daily"],
   },
   {
-    id: "added-j-10",
     word: "Jellyfish",
     slug: "jellyfish",
     phonetic: "/ˈdʒel.i.fɪʃ/",
     partOfSpeech: "noun",
-    meaningEn: "A free-swimming marine coelenterate with a jellylike bell- or saucer-shaped body.",
+    meaningEn:
+      "A free-swimming marine coelenterate with a jellylike bell- or saucer-shaped body.",
     meaningVi: "Con sứa.",
     exampleEn: "Be careful of jellyfish when swimming in these waters.",
     exampleVi: "Hãy cẩn thận với sứa khi bơi ở vùng biển này.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-j-8",
     word: "Jeopardize",
     slug: "jeopardize",
     phonetic: "/ˈdʒep.ɚ.daɪz/",
@@ -455,10 +438,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Gây nguy hiểm.",
     exampleEn: "Smoking will jeopardize your health.",
     exampleVi: "Hút thuốc sẽ gây nguy hiểm cho sức khỏe của bạn.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8512",
     word: "Jeopardy",
     slug: "jeopardy",
     phonetic: "/ˈdʒep.ə.di/",
@@ -467,10 +449,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Nguy cơ; sự gặp nguy hiểm",
     exampleEn: "The decision put the company in jeopardy.",
     exampleVi: "Quyết định khiến công ty gặp nguy hiểm.",
-    categories: ["Technology","Daily","Engineering","Business","Business"],
+    categories: ["Technology", "Daily", "Engineering", "Business", "Business"],
   },
   {
-    id: "exp-b4a-j-9",
     word: "Jeremiad",
     slug: "jeremiad",
     phonetic: "/ˌdʒer.əˈmaɪ.əd/",
@@ -479,22 +460,21 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Lời than vãn dài.",
     exampleEn: "The newspaper published a jeremiad about modern culture.",
     exampleVi: "Tờ báo đã xuất bản một lời than vãn dài về văn hóa hiện đại.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8513",
     word: "Jerk",
     slug: "jerk",
     phonetic: "/dʒɜːrk/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A sudden sharp movement; a rude or unpleasant person; to make a sudden sharp movement.",
+    meaningEn:
+      "A sudden sharp movement; a rude or unpleasant person; to make a sudden sharp movement.",
     meaningVi: "Cú giật; người thô lỗ; giật mạnh",
     exampleEn: "He gave the rope a final jerk.",
     exampleVi: "Anh ấy giật dây một cái cuối cùng.",
-    categories: ["General","Behavior"],
+    categories: ["General", "Behavior"],
   },
   {
-    id: "gen-8514",
     word: "Jersey",
     slug: "jersey",
     phonetic: "/ˈdʒɜːr.zi/",
@@ -503,10 +483,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Áo len mỏng; áo đội",
     exampleEn: "He wore his team's jersey to the game.",
     exampleVi: "Anh ấy mặc áo đội đến trận đấu.",
-    categories: ["Clothing","Sports"],
+    categories: ["Clothing", "Sports"],
   },
   {
-    id: "gen-8515",
     word: "Jest",
     slug: "jest",
     phonetic: "/dʒest/",
@@ -515,10 +494,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Trò đùa; nói đùa",
     exampleEn: "It was said in jest, not to offend.",
     exampleVi: "Đó là lời nói đùa, không nhằm xúc phạm.",
-    categories: ["Conversation","Entertainment"],
+    categories: ["Conversation", "Entertainment"],
   },
   {
-    id: "added-j-15",
     word: "Jester",
     slug: "jester",
     phonetic: "/ˈdʒes.tɚ/",
@@ -527,10 +505,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Anh hề/Người hay đùa.",
     exampleEn: "The medieval jester wore a colorful hat with bells.",
     exampleVi: "Anh hề thời trung cổ đội một chiếc mũ sặc sỡ có gắn chuông.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8516",
     word: "Jet",
     slug: "jet",
     phonetic: "/dʒet/",
@@ -539,46 +516,47 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Máy bay phản lực; bay bằng máy bay phản lực",
     exampleEn: "They took a jet to the conference.",
     exampleVi: "Họ đi máy bay phản lực đến hội nghị.",
-    categories: ["Transportation","Travel"],
+    categories: ["Transportation", "Travel"],
   },
   {
-    id: "added-j-16",
     word: "Jetlag",
     slug: "jetlag",
     phonetic: "/ˈdʒet.læɡ/",
     partOfSpeech: "noun",
-    meaningEn: "Extreme tiredness and other physical effects felt after a long flight across different time zones.",
+    meaningEn:
+      "Extreme tiredness and other physical effects felt after a long flight across different time zones.",
     meaningVi: "Sự mệt mỏi sau chuyến bay dài xuyên múi giờ.",
-    exampleEn: "It took several days to recover from the jetlag after the flight.",
-    exampleVi: "Mất vài ngày để phục hồi sau cảm giác mệt mỏi vì lệch múi giờ (jetlag) sau chuyến bay.",
-    categories: ["General"]
+    exampleEn:
+      "It took several days to recover from the jetlag after the flight.",
+    exampleVi:
+      "Mất vài ngày để phục hồi sau cảm giác mệt mỏi vì lệch múi giờ (jetlag) sau chuyến bay.",
+    categories: ["General"],
   },
   {
-    id: "added-j-17",
     word: "Jetsam",
     slug: "jetsam",
     phonetic: "/ˈdʒet.səm/",
     partOfSpeech: "noun",
-    meaningEn: "Unwanted material or goods that have been thrown overboard from a ship.",
+    meaningEn:
+      "Unwanted material or goods that have been thrown overboard from a ship.",
     meaningVi: "Hàng hóa vứt xuống biển (để nhẹ tàu).",
     exampleEn: "The wreckage and jetsam washed up on the shore.",
     exampleVi: "Đống đổ nát và hàng hóa vứt xuống biển đã dạt vào bờ.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8517",
     word: "Jettison",
     slug: "jettison",
     phonetic: "/ˈdʒet.ɪ.sən/",
     partOfSpeech: "verb",
-    meaningEn: "Throw or drop (something) from an aircraft or ship to lighten the load.",
+    meaningEn:
+      "Throw or drop (something) from an aircraft or ship to lighten the load.",
     meaningVi: "Thả xuống; loại bỏ",
     exampleEn: "The crew had to jettison cargo during the storm.",
     exampleVi: "Phi hành đoàn phải thả hàng hóa để giảm tải trong bão.",
-    categories: ["Transportation","Safety"],
+    categories: ["Transportation", "Safety"],
   },
   {
-    id: "gen-8518",
     word: "Jewel",
     slug: "jewel",
     phonetic: "/ˈdʒuː.əl/",
@@ -587,10 +565,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Viên ngọc; đồ trang sức",
     exampleEn: "The crown was set with many jewels.",
     exampleVi: "Vương miện được đính nhiều viên ngọc.",
-    categories: ["Shopping","Art"],
+    categories: ["Shopping", "Art"],
   },
   {
-    id: "job-057",
     word: "Jeweler",
     slug: "jeweler",
     phonetic: "/ˈdʒuː.əl.ər/",
@@ -599,10 +576,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Thợ kim hoàn.",
     exampleEn: "The jeweler repaired my ring.",
     exampleVi: "Thợ kim hoàn đã sửa nhẫn của tôi.",
-    categories: ["Jobs","Business"],
+    categories: ["Jobs", "Business"],
   },
   {
-    id: "exp-b4a-j-10",
     word: "Jewelled",
     slug: "jewelled",
     phonetic: "/ˈdʒuː.əld/",
@@ -611,10 +587,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Đính đá quý.",
     exampleEn: "She explained the concept of jewelled to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm jewelled cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8519",
     word: "Jewelry",
     slug: "jewelry",
     phonetic: "/ˈdʒuː.əl.ri/",
@@ -623,34 +598,33 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Trang sức",
     exampleEn: "She sells handmade jewelry online.",
     exampleVi: "Cô ấy bán trang sức thủ công trên mạng.",
-    categories: ["Shopping","Culture"],
+    categories: ["Shopping", "Culture"],
   },
   {
-    id: "gen-8520",
     word: "Jib",
     slug: "jib",
     phonetic: "/dʒɪb/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A triangular sail set forward of the foremast of a ship; to move sideways or to refuse to proceed.",
+    meaningEn:
+      "A triangular sail set forward of the foremast of a ship; to move sideways or to refuse to proceed.",
     meaningVi: "Buồm tam giác; chuyển sang một bên",
     exampleEn: "The boat trimmed its jib for better speed.",
     exampleVi: "Thuyền điều chỉnh buồm jib để tăng tốc.",
-    categories: ["Transportation","Nautical"],
+    categories: ["Transportation", "Nautical"],
   },
   {
-    id: "gen-8521",
     word: "Jig",
     slug: "jig",
     phonetic: "/dʒɪɡ/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A lively dance; to move up and down or from side to side with quick jerks.",
+    meaningEn:
+      "A lively dance; to move up and down or from side to side with quick jerks.",
     meaningVi: "Điệu nhảy; nhảy nhót",
     exampleEn: "They danced a traditional jig.",
     exampleVi: "Họ nhảy một điệu jig truyền thống.",
-    categories: ["Dance","Culture"],
+    categories: ["Dance", "Culture"],
   },
   {
-    id: "gen-8522",
     word: "Jiggle",
     slug: "jiggle",
     phonetic: "/ˈdʒɪɡ.əl/",
@@ -659,22 +633,21 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Lắc nhẹ",
     exampleEn: "Jiggle the handle until it opens.",
     exampleVi: "Lắc tay cầm cho đến khi mở.",
-    categories: ["Home","General"],
+    categories: ["Home", "General"],
   },
   {
-    id: "gen-8523",
     word: "Jigsaw",
     slug: "jigsaw",
     phonetic: "/ˈdʒɪɡ.sɔː/",
     partOfSpeech: "noun",
-    meaningEn: "A puzzle consisting of irregularly shaped pieces that fit together to form a picture.",
+    meaningEn:
+      "A puzzle consisting of irregularly shaped pieces that fit together to form a picture.",
     meaningVi: "Trò ghép hình",
     exampleEn: "We spent the afternoon doing a jigsaw puzzle.",
     exampleVi: "Chúng tôi dành buổi chiều để ghép hình.",
-    categories: ["Entertainment","Education"],
+    categories: ["Entertainment", "Education"],
   },
   {
-    id: "exp-b4a-j-11",
     word: "Jihad",
     slug: "jihad",
     phonetic: "/dʒɪˈhæd/",
@@ -683,10 +656,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Thánh chiến.",
     exampleEn: "The term jihad has multiple meanings in Islamic law.",
     exampleVi: "Thuật ngữ thánh chiến có nhiều ý nghĩa trong luật Hồi giáo.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-j-12",
     word: "Jillion",
     slug: "jillion",
     phonetic: "/ˈdʒɪl.jən/",
@@ -695,22 +667,21 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Vô số.",
     exampleEn: "I've told you a jillion times to clean your room.",
     exampleVi: "Mẹ đã bảo con vô số lần là phải dọn phòng rồi.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8525",
     word: "Jingle",
     slug: "jingle",
     phonetic: "/ˈdʒɪŋ.ɡəl/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A short, catchy tune used in advertising; to make a light ringing sound.",
+    meaningEn:
+      "A short, catchy tune used in advertising; to make a light ringing sound.",
     meaningVi: "Bản nhạc ngắn; tiếng leng keng",
     exampleEn: "The radio jingle was easy to remember.",
     exampleVi: "Bản nhạc quảng cáo trên radio dễ nhớ.",
-    categories: ["Media","Music"],
+    categories: ["Media", "Music"],
   },
   {
-    id: "exp-b4a-j-13",
     word: "Jingly",
     slug: "jingly",
     phonetic: "/ˈdʒɪŋ.ɡli/",
@@ -719,22 +690,22 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Leng keng.",
     exampleEn: "The bell made a jingly sound whenever the door opened.",
     exampleVi: "Chiếc chuông phát ra tiếng leng keng mỗi khi cửa mở.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-j-22",
     word: "Jingoism",
     slug: "jingoism",
     phonetic: "/ˈdʒɪŋ.ɡoʊ.ɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn: "Extreme patriotism in the form of aggressive or warlike foreign policy.",
+    meaningEn:
+      "Extreme patriotism in the form of aggressive or warlike foreign policy.",
     meaningVi: "Chủ nghĩa sô-vân/U mê ái quốc.",
     exampleEn: "His speech was criticized for its aggressive jingoism.",
-    exampleVi: "Bài phát biểu của anh ta bị chỉ trích vì chủ nghĩa sô-vân hung hăng.",
-    categories: ["General"]
+    exampleVi:
+      "Bài phát biểu của anh ta bị chỉ trích vì chủ nghĩa sô-vân hung hăng.",
+    categories: ["General"],
   },
   {
-    id: "gen-8524",
     word: "Jinx",
     slug: "jinx",
     phonetic: "/dʒɪŋks/",
@@ -743,10 +714,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Điềm xấu; gây xui xẻo",
     exampleEn: "They thought the broken mirror was a jinx.",
     exampleVi: "Họ nghĩ tấm gương vỡ là điều xui.",
-    categories: ["Culture","Emotions","Mystery"],
+    categories: ["Culture", "Emotions", "Mystery"],
   },
   {
-    id: "exp-b5b-j-3",
     word: "Jitter",
     slug: "jitter",
     phonetic: "/ˈdʒɪt̬.ɚ/",
@@ -754,11 +724,11 @@ export const J1: VocabularyWord[] = [
     meaningEn: "Slight irregular movement, variation, or unsteadiness.",
     meaningVi: "Sự bồn chồn/Sự rung pha.",
     exampleEn: "The electronics exhibit some jitter in the signal.",
-    exampleVi: "Các thiết bị điện tử có một chút sự rung pha (không ổn định) trong tín hiệu.",
-    categories: ["General"]
+    exampleVi:
+      "Các thiết bị điện tử có một chút sự rung pha (không ổn định) trong tín hiệu.",
+    categories: ["General"],
   },
   {
-    id: "added-j-25",
     word: "Jittery",
     slug: "jittery",
     phonetic: "/ˈdʒɪt̬.ɚ.i/",
@@ -766,23 +736,23 @@ export const J1: VocabularyWord[] = [
     meaningEn: "Nervous or unable to relax.",
     meaningVi: "Bồn chồn/Lo sợ.",
     exampleEn: "I felt jittery before starting my big presentation.",
-    exampleVi: "Tôi cảm thấy bồn chồn (lo lắng) trước khi bắt đầu bài thuyết trình lớn của mình.",
-    categories: ["General"]
+    exampleVi:
+      "Tôi cảm thấy bồn chồn (lo lắng) trước khi bắt đầu bài thuyết trình lớn của mình.",
+    categories: ["General"],
   },
   {
-    id: "gen-8526",
     word: "Job",
     slug: "job",
     phonetic: "/dʒɒb/",
     partOfSpeech: "noun",
-    meaningEn: "A paid position of regular employment; a task or piece of work.",
+    meaningEn:
+      "A paid position of regular employment; a task or piece of work.",
     meaningVi: "Công việc; nghề nghiệp",
     exampleEn: "She started a new job last month.",
     exampleVi: "Cô ấy bắt đầu công việc mới tháng trước.",
-    categories: ["Business","Business"],
+    categories: ["Business", "Business"],
   },
   {
-    id: "exp-b4a-j-14",
     word: "Jobholder",
     slug: "jobholder",
     phonetic: "/ˈdʒɑːbˌhoʊl.dɚ/",
@@ -791,10 +761,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Người có công ăn việc làm.",
     exampleEn: "The new law protects the rights of every jobholder.",
     exampleVi: "Luật mới bảo vệ quyền lợi của mọi người có công ăn việc làm.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-j-15",
     word: "Jobless",
     slug: "jobless",
     phonetic: "/ˈdʒɑːb.ləs/",
@@ -803,22 +772,21 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Thất nghiệp.",
     exampleEn: "The jobless rate has decreased this month.",
     exampleVi: "Tỷ lệ thất nghiệp đã giảm trong tháng này.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8527",
     word: "Jockey",
     slug: "jockey",
     phonetic: "/ˈdʒɒk.i/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A person who rides horses in races; to maneuver or manipulate for an advantage.",
+    meaningEn:
+      "A person who rides horses in races; to maneuver or manipulate for an advantage.",
     meaningVi: "Người cưỡi ngựa đua; thao túng",
     exampleEn: "The jockey guided the horse to victory.",
     exampleVi: "Người cưỡi hướng dẫn con ngựa đến chiến thắng.",
-    categories: ["Sports","Business"],
+    categories: ["Sports", "Business"],
   },
   {
-    id: "exp-b4a-j-16",
     word: "Jocosity",
     slug: "jocosity",
     phonetic: "/dʒoʊˈkɑː.sə.t̬i/",
@@ -827,10 +795,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Tính hài hước.",
     exampleEn: "His constant jocosity was sometimes annoying.",
     exampleVi: "Tính hay đùa cợt liên tục của anh ấy đôi khi gây khó chịu.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-j-4",
     word: "Jocund",
     slug: "jocund",
     phonetic: "/ˈdʒoʊ.kənd/",
@@ -839,22 +806,21 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Vui vẻ/Hớn hở.",
     exampleEn: "The wedding was a jocund and festive affair.",
     exampleVi: "Đám cưới là một sự kiện vui vẻ và mang tính lễ hội.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8528",
     word: "Jog",
     slug: "jog",
     phonetic: "/dʒɒɡ/",
     partOfSpeech: "verb/noun",
-    meaningEn: "Run at a steady gentle pace as a form of exercise; a short run.",
+    meaningEn:
+      "Run at a steady gentle pace as a form of exercise; a short run.",
     meaningVi: "Chạy bộ nhẹ; chạy chậm",
     exampleEn: "I jog every morning to stay fit.",
     exampleVi: "Tôi chạy bộ nhẹ mỗi sáng để giữ dáng.",
-    categories: ["Medical","Sports"],
+    categories: ["Medical", "Sports"],
   },
   {
-    id: "gen-8529",
     word: "Jogger",
     slug: "jogger",
     phonetic: "/ˈdʒɒɡ.ər/",
@@ -863,10 +829,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Người chạy bộ; quần thể thao",
     exampleEn: "The jogger passed us on the trail.",
     exampleVi: "Người chạy bộ vượt qua chúng tôi trên đường mòn.",
-    categories: ["Medical","Clothing"],
+    categories: ["Medical", "Clothing"],
   },
   {
-    id: "gen-8530",
     word: "Join",
     slug: "join",
     phonetic: "/dʒɔɪn/",
@@ -875,10 +840,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Tham gia; nối",
     exampleEn: "Would you like to join our team?",
     exampleVi: "Bạn có muốn tham gia đội của chúng tôi không?",
-    categories: ["Social","Business"],
+    categories: ["Social", "Business"],
   },
   {
-    id: "pv-91",
     word: "Join in",
     slug: "join-in",
     phonetic: "/dʒɔɪn ɪn/",
@@ -890,19 +854,18 @@ export const J1: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "gen-8531",
     word: "Joint",
     slug: "joint",
     phonetic: "/dʒɔɪnt/",
     partOfSpeech: "noun/adjective",
-    meaningEn: "A point where two things are joined; shared by two or more parties.",
+    meaningEn:
+      "A point where two things are joined; shared by two or more parties.",
     meaningVi: "Khớp; chung",
     exampleEn: "They opened a joint bank account.",
     exampleVi: "Họ mở tài khoản ngân hàng chung.",
-    categories: ["Finance","Medical"],
+    categories: ["Finance", "Medical"],
   },
   {
-    id: "exp-b4a-j-17",
     word: "Jointed",
     slug: "jointed",
     phonetic: "/ˈdʒɔɪn.t̬ɪd/",
@@ -911,10 +874,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Có khớp.",
     exampleEn: "The robot has complex jointed limbs.",
     exampleVi: "Robot có các chi có khớp phức tạp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-j-18",
     word: "Jointly",
     slug: "jointly",
     phonetic: "/ˈdʒɔɪnt.li/",
@@ -923,22 +885,22 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Cùng nhau/Liên kết.",
     exampleEn: "The project was funded jointly by two companies.",
     exampleVi: "Dự án được tài trợ cùng nhau bởi hai công ty.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-final-j-1",
     word: "Joist",
     slug: "joist",
     phonetic: "/dʒɔɪst/",
     partOfSpeech: "noun",
-    meaningEn: "A slender length of timber or metal supporting part of the structure of a building.",
+    meaningEn:
+      "A slender length of timber or metal supporting part of the structure of a building.",
     meaningVi: "Rầm/Xà lòng.",
     exampleEn: "The floor joists need to be reinforced for the extra weight.",
-    exampleVi: "Các hầm (thanh dầm sàn) cần được gia cố để chịu thêm trọng lượng.",
-    categories: ["General"]
+    exampleVi:
+      "Các hầm (thanh dầm sàn) cần được gia cố để chịu thêm trọng lượng.",
+    categories: ["General"],
   },
   {
-    id: "gen-8533",
     word: "Joke",
     slug: "joke",
     phonetic: "/dʒoʊk/",
@@ -947,22 +909,21 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Trò đùa; nói đùa",
     exampleEn: "He told a joke that made everyone laugh.",
     exampleVi: "Anh ấy kể một câu chuyện cười khiến mọi người bật cười.",
-    categories: ["Entertainment","Conversation"],
+    categories: ["Entertainment", "Conversation"],
   },
   {
-    id: "gen-8532",
     word: "Joker",
     slug: "joker",
     phonetic: "/ˈdʒoʊ.kər/",
     partOfSpeech: "noun",
-    meaningEn: "A person who jokes or a playing card that can act as a wild card.",
+    meaningEn:
+      "A person who jokes or a playing card that can act as a wild card.",
     meaningVi: "Người hay đùa; lá bài Joker",
     exampleEn: "He's the joker of the group.",
     exampleVi: "Anh ấy là người thích đùa trong nhóm.",
-    categories: ["Entertainment","Games"],
+    categories: ["Entertainment", "Games"],
   },
   {
-    id: "exp-b4a-j-19",
     word: "Jokester",
     slug: "jokester",
     phonetic: "/ˈdʒoʊk.stɚ/",
@@ -971,10 +932,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Người hay đùa.",
     exampleEn: "He is a well-known jokester in the office.",
     exampleVi: "Anh ấy là một người hay đùa nổi tiếng trong văn phòng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-final-j-3",
     word: "Jollity",
     slug: "jollity",
     phonetic: "/ˈdʒɑː.lə.t̬i/",
@@ -983,10 +943,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Sự vui vẻ/Sự khoái lạc.",
     exampleEn: "The holiday season is a time of laughter and jollity.",
     exampleVi: "Mùa lễ hội là thời gian của tiếng cười và sự vui vẻ.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-j-20",
     word: "Jolly",
     slug: "jolly",
     phonetic: "/ˈdʒɑː.li/",
@@ -995,10 +954,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Vui tươi.",
     exampleEn: "He is a jolly old man who loves telling stories.",
     exampleVi: "Ông ấy là một ông lão vui vẻ thích kể chuyện.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8535",
     word: "Jolt",
     slug: "jolt",
     phonetic: "/dʒəʊlt/",
@@ -1007,10 +965,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Cú giật; làm giật mạnh",
     exampleEn: "The car hit a pothole and gave us a jolt.",
     exampleVi: "Xe chạm ổ gà khiến chúng tôi bị giật.",
-    categories: ["Transportation","General"],
+    categories: ["Transportation", "General"],
   },
   {
-    id: "gen-8536",
     word: "Jostle",
     slug: "jostle",
     phonetic: "/ˈdʒɒs.əl/",
@@ -1019,22 +976,21 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Chen lấn; xô đẩy",
     exampleEn: "Shoppers jostled each other in the aisle.",
     exampleVi: "Người mua sắm chen lấn nhau trong lối đi.",
-    categories: ["Social","Shopping"],
+    categories: ["Social", "Shopping"],
   },
   {
-    id: "gen-8537",
     word: "Journal",
     slug: "journal",
     phonetic: "/ˈdʒɜːr.nəl/",
     partOfSpeech: "noun",
-    meaningEn: "A daily record of news and events or a periodical publication dealing with a subject.",
+    meaningEn:
+      "A daily record of news and events or a periodical publication dealing with a subject.",
     meaningVi: "Nhật ký; tạp chí chuyên ngành",
     exampleEn: "She kept a journal of her travels.",
     exampleVi: "Cô ấy ghi nhật ký những chuyến đi của mình.",
-    categories: ["Media","Literature","Education"],
+    categories: ["Media", "Literature", "Education"],
   },
   {
-    id: "added-final-j-6",
     word: "Journalism",
     slug: "journalism",
     phonetic: "/ˈdʒɝː.nə.lɪ.zəm/",
@@ -1042,11 +998,11 @@ export const J1: VocabularyWord[] = [
     meaningEn: "The activity of writing for newspapers.",
     meaningVi: "Nghề làm báo.",
     exampleEn: "Modern journalism faces many challenges in the digital age.",
-    exampleVi: "Nghề làm báo hiện đại đối mặt với nhiều thử thách trong kỷ nguyên số.",
-    categories: ["General"]
+    exampleVi:
+      "Nghề làm báo hiện đại đối mặt với nhiều thử thách trong kỷ nguyên số.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-j-21",
     word: "Journalist",
     slug: "journalist",
     phonetic: "/ˈdʒɝː.nə.lɪst/",
@@ -1055,10 +1011,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Nhà báo.",
     exampleEn: "The journalist interviewed the world leaders.",
     exampleVi: "Nhà báo đã phỏng vấn các nhà lãnh đạo thế giới.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-j-22",
     word: "Journey",
     slug: "journey",
     phonetic: "/ˈdʒɝː.ni/",
@@ -1067,10 +1022,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Cuộc hành trình.",
     exampleEn: "It was a long and difficult journey across the sea.",
     exampleVi: "Đó là một cuộc hành trình dài và khó khăn xuyên biển.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-final-j-9",
     word: "Journeyman",
     slug: "journeyman",
     phonetic: "/ˈdʒɝː.ni.mən/",
@@ -1079,10 +1033,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Thợ lành nghề.",
     exampleEn: "He worked as a journeyman plumber for several companies.",
     exampleVi: "Anh ấy đã làm thợ sửa ống nước lành nghề cho vài công ty.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8540",
     word: "Jovial",
     slug: "jovial",
     phonetic: "/ˈdʒoʊ.vi.əl/",
@@ -1091,10 +1044,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Vui vẻ; hoan hỉ",
     exampleEn: "He was in a jovial mood at the party.",
     exampleVi: "Anh ấy có tâm trạng vui vẻ tại bữa tiệc.",
-    categories: ["Emotions","Social"],
+    categories: ["Emotions", "Social"],
   },
   {
-    id: "exp-b5b-j-5",
     word: "Joviality",
     slug: "joviality",
     phonetic: "/ˌdʒoʊ.viˈæl.ə.t̬i/",
@@ -1102,11 +1054,11 @@ export const J1: VocabularyWord[] = [
     meaningEn: "The quality of being cheerful and friendly.",
     meaningVi: "Sự vui vẻ/Hào hiệp.",
     exampleEn: "The host's joviality put everyone at ease.",
-    exampleVi: "Sự vui vẻ (hào hiệp) của chủ nhà đã làm mọi người thấy thoải mái.",
-    categories: ["General"]
+    exampleVi:
+      "Sự vui vẻ (hào hiệp) của chủ nhà đã làm mọi người thấy thoải mái.",
+    categories: ["General"],
   },
   {
-    id: "gen-8541",
     word: "Joy",
     slug: "joy",
     phonetic: "/dʒɔɪ/",
@@ -1115,10 +1067,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Niềm vui",
     exampleEn: "She felt great joy at the news.",
     exampleVi: "Cô ấy cảm thấy rất vui về tin tức đó.",
-    categories: ["Emotions","Daily"],
+    categories: ["Emotions", "Daily"],
   },
   {
-    id: "gen-8542",
     word: "Joyful",
     slug: "joyful",
     phonetic: "/ˈdʒɔɪ.fəl/",
@@ -1127,10 +1078,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Vui sướng; hân hoan",
     exampleEn: "They shared a joyful meal together.",
     exampleVi: "Họ chia sẻ một bữa ăn vui vẻ cùng nhau.",
-    categories: ["Emotions","Social"],
+    categories: ["Emotions", "Social"],
   },
   {
-    id: "exp-b4a-j-23",
     word: "Joyfully",
     slug: "joyfully",
     phonetic: "/ˈdʒɔɪ.fəl.i/",
@@ -1139,10 +1089,9 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Một cách vui sướng.",
     exampleEn: "The bird sang joyfully in the early morning sun.",
     exampleVi: "Con chim hót một cách vui sướng dưới nắng sớm.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-j-24",
     word: "Joyride",
     slug: "joyride",
     phonetic: "/ˈdʒɔɪ.raɪd/",
@@ -1151,34 +1100,34 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Cuộc đi chơi bằng xe (thường là xe lấy trộm).",
     exampleEn: "They took the stolen car for a joyride.",
     exampleVi: "Họ đã lấy trộm chiếc xe để đi chơi (đua xe mạo hiểm).",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8543",
     word: "Joystick",
     slug: "joystick",
     phonetic: "/ˈdʒɔɪ.stɪk/",
     partOfSpeech: "noun",
-    meaningEn: "A lever used to control the movement of a cursor or machine, commonly in video games.",
+    meaningEn:
+      "A lever used to control the movement of a cursor or machine, commonly in video games.",
     meaningVi: "Cần điều khiển (trò chơi)",
     exampleEn: "He grabbed the joystick to play the game.",
     exampleVi: "Anh ấy cầm cần điều khiển để chơi trò chơi.",
-    categories: ["Technology","Entertainment"],
+    categories: ["Technology", "Entertainment"],
   },
   {
-    id: "gen-8544",
     word: "Judge",
     slug: "judge",
     phonetic: "/dʒʌdʒ/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A public official who decides cases in a court of law; to form an opinion about.",
+    meaningEn:
+      "A public official who decides cases in a court of law; to form an opinion about.",
     meaningVi: "Thẩm phán; xét xử; đánh giá",
     exampleEn: "You shouldn't judge people without the facts.",
-    exampleVi: "Bạn không nên phán xét người khác khi chưa có đầy đủ thông tin.",
-    categories: ["Law","Ethics","Daily"],
+    exampleVi:
+      "Bạn không nên phán xét người khác khi chưa có đầy đủ thông tin.",
+    categories: ["Law", "Ethics", "Daily"],
   },
   {
-    id: "exp-b4a-j-25",
     word: "Judgment",
     slug: "judgment",
     phonetic: "/ˈdʒʌdʒ.mənt/",
@@ -1186,11 +1135,11 @@ export const J1: VocabularyWord[] = [
     meaningEn: "The ability to make considered decisions.",
     meaningVi: "Sự phán xét/Óc phán đoán.",
     exampleEn: "Use your best judgment to solve the problem.",
-    exampleVi: "Hãy sử dụng óc phán đoán tốt nhất của mình để giải quyết vấn đề.",
-    categories: ["General"]
+    exampleVi:
+      "Hãy sử dụng óc phán đoán tốt nhất của mình để giải quyết vấn đề.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-j-26",
     word: "Judiciary",
     slug: "judiciary",
     phonetic: "/dʒuːˈdɪʃ.i.er.i/",
@@ -1199,6 +1148,6 @@ export const J1: VocabularyWord[] = [
     meaningVi: "Bộ máy tư pháp.",
     exampleEn: "The independence of the judiciary is vital for democracy.",
     exampleVi: "Sự độc lập của bộ máy tư pháp là quan trọng đối với dân chủ.",
-    categories: ["General"]
-  }
+    categories: ["General"],
+  },
 ];

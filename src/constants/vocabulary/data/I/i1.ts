@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const I1: VocabularyWord[] = [
   {
-    id: "gen-639",
     word: "Ice",
     slug: "ice",
     phonetic: "/aɪs/",
@@ -14,7 +13,6 @@ export const I1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-8376",
     word: "Icon",
     slug: "icon",
     phonetic: "/ˈaɪ.kɒn/",
@@ -23,10 +21,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Biểu tượng; người nổi tiếng",
     exampleEn: "She is an icon of modern fashion.",
     exampleVi: "Cô ấy là một biểu tượng thời trang hiện đại.",
-    categories: ["Culture","Technology"],
+    categories: ["Culture", "Technology"],
   },
   {
-    id: "c2-32",
     word: "Iconoclast",
     slug: "iconoclast",
     phonetic: "/aɪˈkɑː.nə.klæst/",
@@ -38,7 +35,6 @@ export const I1: VocabularyWord[] = [
     categories: ["Social"],
   },
   {
-    id: "gen-8377",
     word: "Idea",
     slug: "idea",
     phonetic: "/aɪˈdɪə/",
@@ -47,10 +43,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Ý tưởng",
     exampleEn: "He had an idea for a new app.",
     exampleVi: "Anh ấy có một ý tưởng cho ứng dụng mới.",
-    categories: ["Daily","Academic"],
+    categories: ["Daily", "Academic"],
   },
   {
-    id: "gen-641",
     word: "Ideal",
     slug: "ideal",
     phonetic: "/aɪˈdiː.əl/",
@@ -62,19 +57,19 @@ export const I1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5a-i-1",
     word: "Idealism",
     slug: "idealism",
     phonetic: "/aɪˈdiː.ə.lɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn: "The practice of forming or pursuing ideals, especially unrealistically.",
+    meaningEn:
+      "The practice of forming or pursuing ideals, especially unrealistically.",
     meaningVi: "Chủ nghĩa duy tâm/Sự mơ tưởng.",
     exampleEn: "His idealism often clashes with the reality of politics.",
-    exampleVi: "Chủ nghĩa duy tâm của anh ấy thường xung đột với thực tế chính trị.",
-    categories: ["General"]
+    exampleVi:
+      "Chủ nghĩa duy tâm của anh ấy thường xung đột với thực tế chính trị.",
+    categories: ["General"],
   },
   {
-    id: "c2-228",
     word: "Idempotency",
     slug: "idempotency",
     phonetic: "/ˌaɪ.dəmˈpoʊ.tən.si/",
@@ -83,22 +78,21 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Tính lũy đẳng.",
     exampleEn: "API idempotency.",
     exampleVi: "Tính lũy đẳng của API.",
-    categories: ["Technology","Academic"],
+    categories: ["Technology", "Academic"],
   },
   {
-    id: "c1-248",
     word: "Idempotent",
     slug: "idempotent",
     phonetic: "/ˌaɪ.dəmˈpoʊ.tənt/",
     partOfSpeech: "adj",
-    meaningEn: "Denoting an element of a set which is unchanged in value when multiplied or otherwise operated on by itself.",
+    meaningEn:
+      "Denoting an element of a set which is unchanged in value when multiplied or otherwise operated on by itself.",
     meaningVi: "Lũy đẳng.",
     exampleEn: "Idempotent API design.",
     exampleVi: "Thiết kế API lũy đẳng.",
-    categories: ["Technology","Academic"],
+    categories: ["Technology", "Academic"],
   },
   {
-    id: "exp-b5a-i-2",
     word: "Identical",
     slug: "identical",
     phonetic: "/aɪˈden.t̬ɪ.kəl/",
@@ -107,10 +101,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Giống hệt nhau.",
     exampleEn: "The two towers are identical in design.",
     exampleVi: "Hai tòa tháp có thiết kế giống hệt nhau.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-3",
     word: "Identify",
     slug: "identify",
     phonetic: "/aɪˈden.t̬ə.faɪ/",
@@ -119,10 +112,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Nhận dạng/Xác định.",
     exampleEn: "She was able to identify the thief from the photo.",
     exampleVi: "Cô đã có thể nhận dạng tên trộm từ bức ảnh.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-643",
     word: "Identity",
     slug: "identity",
     phonetic: "/aɪˈden.t̬ə.t̬i/",
@@ -134,31 +126,31 @@ export const I1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5a-i-4",
     word: "Idiomatic",
     slug: "idiomatic",
     phonetic: "/ˌɪd.i.əˈmæt̬.ɪk/",
     partOfSpeech: "noun",
-    meaningEn: "Using, containing, or denoting expressions that are natural to a native speaker.",
+    meaningEn:
+      "Using, containing, or denoting expressions that are natural to a native speaker.",
     meaningVi: "Có tính thành ngữ.",
     exampleEn: "The teacher explained several idiomatic expressions.",
-    exampleVi: "Giáo viên đã giải thích một số cách diễn đạt mang tính thành ngữ.",
-    categories: ["General"]
+    exampleVi:
+      "Giáo viên đã giải thích một số cách diễn đạt mang tính thành ngữ.",
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-5",
     word: "Idiosyncrasy",
     slug: "idiosyncrasy",
     phonetic: "/ˌɪd.i.əˈsɪŋ.krə.si/",
     partOfSpeech: "noun",
-    meaningEn: "A mode of behavior or way of thought peculiar to an individual.",
+    meaningEn:
+      "A mode of behavior or way of thought peculiar to an individual.",
     meaningVi: "Đặc điểm riêng biệt/Phong cách lập dị.",
     exampleEn: "One of his idiosyncrasies is always wearing a hat.",
     exampleVi: "Một trong những điểm riêng biệt của anh ấy là luôn đội mũ.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8381",
     word: "Idle",
     slug: "idle",
     phonetic: "/ˈaɪ.dəl/",
@@ -167,10 +159,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Nhàn rỗi; lười biếng",
     exampleEn: "The machine stood idle all morning.",
     exampleVi: "Máy đứng không hoạt động suốt buổi sáng.",
-    categories: ["Business","Daily"],
+    categories: ["Business", "Daily"],
   },
   {
-    id: "gen-8382",
     word: "Idol",
     slug: "idol",
     phonetic: "/ˈaɪ.dəl/",
@@ -179,10 +170,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Thần tượng",
     exampleEn: "Many young fans adore the pop idol.",
     exampleVi: "Nhiều người trẻ ngưỡng mộ thần tượng nhạc pop.",
-    categories: ["Culture","People"],
+    categories: ["Culture", "People"],
   },
   {
-    id: "exp-b5a-i-6",
     word: "Ignominious",
     slug: "ignominious",
     phonetic: "/ˌɪɡ.nəˈmɪn.i.əs/",
@@ -191,10 +181,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Nhục nhã/Đáng hổ thẹn.",
     exampleEn: "The team suffered an ignominious defeat.",
     exampleVi: "Đội bóng đã phải chịu một thất bại nhục nhã.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-644",
     word: "Ignore",
     slug: "ignore",
     phonetic: "/ɪɡˈnɔːr/",
@@ -206,7 +195,6 @@ export const I1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-645",
     word: "Ill",
     slug: "ill",
     phonetic: "/ɪl/",
@@ -218,7 +206,6 @@ export const I1: VocabularyWord[] = [
     categories: ["Medical"],
   },
   {
-    id: "gen-646",
     word: "Illegal",
     slug: "illegal",
     phonetic: "/ɪˈliː.ɡəl/",
@@ -230,7 +217,6 @@ export const I1: VocabularyWord[] = [
     categories: ["Law"],
   },
   {
-    id: "exp-b5a-i-7",
     word: "Illegible",
     slug: "illegible",
     phonetic: "/ɪˈledʒ.ə.bəl/",
@@ -239,10 +225,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Khó đọc/Không đọc được.",
     exampleEn: "His handwriting is completely illegible.",
     exampleVi: "Chữ viết tay của anh ấy hoàn toàn không thể đọc được.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-8",
     word: "Illicit",
     slug: "illicit",
     phonetic: "/ɪˈlɪs.ɪt/",
@@ -251,10 +236,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Bất hợp pháp.",
     exampleEn: "The police are cracking down on illicit drug trade.",
     exampleVi: "Cảnh sát đang trấn áp việc buôn bán ma túy bất hợp pháp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-647",
     word: "Illness",
     slug: "illness",
     phonetic: "/ˈɪl.nəs/",
@@ -263,58 +247,57 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Bệnh tật.",
     exampleEn: "Serious illness.",
     exampleVi: "Bệnh nghiêm trọng.",
-    categories: ["Medical","Medical"],
+    categories: ["Medical", "Medical"],
   },
   {
-    id: "exp-b5a-i-9",
     word: "Illuminate",
     slug: "illuminate",
     phonetic: "/ɪˈluː.mə.neɪt/",
     partOfSpeech: "noun",
-    meaningEn: "Make (something) visible or bright by shining light on it; help to clarify or explain.",
+    meaningEn:
+      "Make (something) visible or bright by shining light on it; help to clarify or explain.",
     meaningVi: "Chiếu sáng/Làm sáng tỏ.",
     exampleEn: "The moon helped to illuminate the dark path.",
     exampleVi: "Mặt trăng đã giúp chiếu sáng con đường tối tăm.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-10",
     word: "Illusion",
     slug: "illusion",
     phonetic: "/ɪˈluː.ʒən/",
     partOfSpeech: "noun",
-    meaningEn: "A thing that is or is likely to be wrongly perceived or interpreted by the senses.",
+    meaningEn:
+      "A thing that is or is likely to be wrongly perceived or interpreted by the senses.",
     meaningVi: "Ảo giác/Ảo tưởng.",
     exampleEn: "The oasis in the desert was just an optical illusion.",
     exampleVi: "Ốc đảo trên sa mạc chỉ là một ảo giác quang học.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8387",
     word: "Illustrate",
     slug: "illustrate",
     phonetic: "/ˈɪl.ə.streɪt/",
     partOfSpeech: "verb",
-    meaningEn: "Explain or make something clear by using examples, charts, or pictures.",
+    meaningEn:
+      "Explain or make something clear by using examples, charts, or pictures.",
     meaningVi: "Minh họa; giải thích",
     exampleEn: "The teacher used diagrams to illustrate the point.",
     exampleVi: "Giáo viên dùng sơ đồ để minh họa ý kiến.",
-    categories: ["Education","Art"],
+    categories: ["Education", "Art"],
   },
   {
-    id: "job-051",
     word: "Illustrator",
     slug: "illustrator",
     phonetic: "/ˈɪl.ə.streɪ.tər/",
     partOfSpeech: "noun",
-    meaningEn: "A person who draws or creates pictures for books, magazines, etc.",
+    meaningEn:
+      "A person who draws or creates pictures for books, magazines, etc.",
     meaningVi: "Họa sĩ minh họa.",
     exampleEn: "The illustrator drew the book covers.",
     exampleVi: "Họa sĩ minh họa đã vẽ bìa sách.",
-    categories: ["Jobs","Art"],
+    categories: ["Jobs", "Art"],
   },
   {
-    id: "exp-b5a-i-11",
     word: "Illustrious",
     slug: "illustrious",
     phonetic: "/ɪˈlʌs.tri.əs/",
@@ -323,10 +306,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Lừng lẫy/Vinh quang.",
     exampleEn: "He has had an illustrious career in medicine.",
     exampleVi: "Ông đã có một sự nghiệp lừng lẫy trong ngành y.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-648",
     word: "Image",
     slug: "image",
     phonetic: "/ˈɪm.ɪdʒ/",
@@ -338,7 +320,6 @@ export const I1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b1-24",
     word: "Imagine",
     slug: "imagine",
     phonetic: "/ɪˈmædʒ.ɪn/",
@@ -350,19 +331,19 @@ export const I1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "exp-b5a-i-12",
     word: "Immaculate",
     slug: "immaculate",
     phonetic: "/ɪˈmæk.jə.lət/",
     partOfSpeech: "noun",
-    meaningEn: "(especially of a person or their clothes) perfectly clean, neat, or tidy.",
+    meaningEn:
+      "(especially of a person or their clothes) perfectly clean, neat, or tidy.",
     meaningVi: "Tinh khiết/Không tì vết.",
     exampleEn: "Her house is always in immaculate condition.",
-    exampleVi: "Ngôi nhà của cô ấy luôn ở trong tình trạng tinh khiết (sạch sẽ không tì vết).",
-    categories: ["General"]
+    exampleVi:
+      "Ngôi nhà của cô ấy luôn ở trong tình trạng tinh khiết (sạch sẽ không tì vết).",
+    categories: ["General"],
   },
   {
-    id: "gen-650",
     word: "Immediate",
     slug: "immediate",
     phonetic: "/ɪˈmiː.di.ət/",
@@ -374,7 +355,6 @@ export const I1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-651",
     word: "Immigrant",
     slug: "immigrant",
     phonetic: "/ˈɪm.ɪ.ɡrənt/",
@@ -386,7 +366,6 @@ export const I1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-8391",
     word: "Immigrate",
     slug: "immigrate",
     phonetic: "/ˈɪm.ɪ.ɡreɪt/",
@@ -395,10 +374,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Nhập cư",
     exampleEn: "They plan to immigrate next year.",
     exampleVi: "Họ dự định nhập cư vào năm tới.",
-    categories: ["Social","Travel"],
+    categories: ["Social", "Travel"],
   },
   {
-    id: "gen-8392",
     word: "Immigration",
     slug: "immigration",
     phonetic: "/ˌɪm.ɪˈɡreɪ.ʃən/",
@@ -407,10 +385,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Sự nhập cư",
     exampleEn: "Immigration laws vary by country.",
     exampleVi: "Luật nhập cư khác nhau giữa các quốc gia.",
-    categories: ["Law","Social"],
+    categories: ["Law", "Social"],
   },
   {
-    id: "exp-b5a-i-13",
     word: "Imminent",
     slug: "imminent",
     phonetic: "/ˈɪm.ə.nənt/",
@@ -419,10 +396,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Sắp xảy ra.",
     exampleEn: "The storm clouds mean that rain is imminent.",
     exampleVi: "Những đám mây bão có nghĩa là mưa sắp sửa xảy ra.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "b1-238",
     word: "Immunity",
     slug: "immunity",
     phonetic: "/ɪˈmjuː.nə.ti/",
@@ -431,10 +407,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Khả năng miễn dịch.",
     exampleEn: "Herd immunity.",
     exampleVi: "Miễn dịch cộng đồng.",
-    categories: ["Medical","Social"],
+    categories: ["Medical", "Social"],
   },
   {
-    id: "exp-b5a-i-14",
     word: "Immutable",
     slug: "immutable",
     phonetic: "/ɪˈmjuː.t̬ə.bəl/",
@@ -443,22 +418,21 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Bất biến/Không thể thay đổi.",
     exampleEn: "The laws of physics are considered immutable.",
     exampleVi: "Các định luật vật lý được coi là bất biến.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "b1-63",
     word: "Impact",
     slug: "impact",
     phonetic: "/ˈɪm.pækt/",
     partOfSpeech: "noun/verb",
-    meaningEn: "The action of one object coming forcibly into contact with another; a marked effect or influence.",
+    meaningEn:
+      "The action of one object coming forcibly into contact with another; a marked effect or influence.",
     meaningVi: "Tác động, ảnh hưởng.",
     exampleEn: "The new law had a big impact on the economy.",
     exampleVi: "Đạo luật mới đã có tác động lớn đến nền kinh tế.",
     categories: ["Social"],
   },
   {
-    id: "vcxl210fds-21",
     word: "Impactful",
     slug: "impactful",
     phonetic: "/ˈɪm.pækt.fəl/",
@@ -467,10 +441,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Có tác động lớn.",
     exampleEn: "An impactful speech.",
     exampleVi: "Bài phát biểu có tác động lớn.",
-    categories: ["Business","Social"],
+    categories: ["Business", "Social"],
   },
   {
-    id: "exp-b5a-i-15",
     word: "Impartial",
     slug: "impartial",
     phonetic: "/ɪmˈpɑːr.ʃəl/",
@@ -479,22 +452,21 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Công bằng/Không thiên vị.",
     exampleEn: "A judge must remain impartial during a trial.",
     exampleVi: "Một thẩm phán phải giữ sự công bằng trong suốt một phiên tòa.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-16",
     word: "Impeccable",
     slug: "impeccable",
     phonetic: "/ɪmˈpek.ə.bəl/",
     partOfSpeech: "noun",
-    meaningEn: "(of behavior, performance, or appearance) in accordance with the highest standards; faultless.",
+    meaningEn:
+      "(of behavior, performance, or appearance) in accordance with the highest standards; faultless.",
     meaningVi: "Hoàn hảo/Không chê vào đâu được.",
     exampleEn: "She speaks English with impeccable grammar.",
     exampleVi: "Cô ấy nói tiếng Anh với ngữ pháp hoàn hảo.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-17",
     word: "Impecunious",
     slug: "impecunious",
     phonetic: "/ˌɪm.pəˈkjuː.ni.əs/",
@@ -502,23 +474,23 @@ export const I1: VocabularyWord[] = [
     meaningEn: "Having little or no money.",
     meaningVi: "Túng thiếu/Nghèo khổ.",
     exampleEn: "The impecunious student struggled to pay for books.",
-    exampleVi: "Cậu sinh viên nghèo khổ đã gặp khó khăn trong việc trả tiền mua sách.",
-    categories: ["General"]
+    exampleVi:
+      "Cậu sinh viên nghèo khổ đã gặp khó khăn trong việc trả tiền mua sách.",
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-18",
     word: "Impede",
     slug: "impede",
     phonetic: "/ɪmˈpiːd/",
     partOfSpeech: "noun",
-    meaningEn: "Delay or prevent (someone or something) by obstructing them; hinder.",
+    meaningEn:
+      "Delay or prevent (someone or something) by obstructing them; hinder.",
     meaningVi: "Cản trở.",
     exampleEn: "The fallen tree will impede traffic on the main road.",
     exampleVi: "Cây đổ sẽ cản trở giao thông trên con đường chính.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-19",
     word: "Impenetrable",
     slug: "impenetrable",
     phonetic: "/ɪmˈpen.ə.trə.bəl/",
@@ -527,10 +499,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Không thể xuyên thấu.",
     exampleEn: "The jungle was dense and impenetrable.",
     exampleVi: "Khu rừng rậm rạp và không thể xuyên thấu.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-20",
     word: "Imperative",
     slug: "imperative",
     phonetic: "/ɪmˈper.ə.t̬ɪv/",
@@ -539,10 +510,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Cấp bách/Bắt buộc.",
     exampleEn: "It is imperative that you arrive on time.",
     exampleVi: "Điều cấp bách là bạn phải đến đúng giờ.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-21",
     word: "Imperceptible",
     slug: "imperceptible",
     phonetic: "/ˌɪm.pɚˈsep.tə.bəl/",
@@ -551,22 +521,21 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Không thể nhận thấy.",
     exampleEn: "The slight change in temperature was imperceptible.",
     exampleVi: "Sự thay đổi nhiệt độ nhẹ nhàng đó là không thể nhận thấy.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-22",
     word: "Imperious",
     slug: "imperious",
     phonetic: "/ɪmˈpɪr.i.əs/",
     partOfSpeech: "noun",
-    meaningEn: "Assuming power or authority without justification; arrogant and domineering.",
+    meaningEn:
+      "Assuming power or authority without justification; arrogant and domineering.",
     meaningVi: "Hách dịch/Uy quyền.",
     exampleEn: "She gave orders in an imperious tone.",
     exampleVi: "Cô ấy ra lệnh với một giọng điệu hách dịch.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-23",
     word: "Impermeable",
     slug: "impermeable",
     phonetic: "/ɪmˈpɝː.mi.ə.bəl/",
@@ -575,10 +544,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Không thấm.",
     exampleEn: "The coat is made of an impermeable fabric.",
     exampleVi: "Chiếc áo khoác được làm từ một loại vải không thấm nước.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-24",
     word: "Imperturbable",
     slug: "imperturbable",
     phonetic: "/ˌɪm.pɚˈtɝː.bə.bəl/",
@@ -586,11 +554,11 @@ export const I1: VocabularyWord[] = [
     meaningEn: "Unable to be upset or excited; calm.",
     meaningVi: "Điềm tĩnh/Bình thản.",
     exampleEn: "The captain remained imperturbable during the crisis.",
-    exampleVi: "Thuyền trưởng vẫn giữ được sự điềm tĩnh trong suốt cuộc khủng hoảng.",
-    categories: ["General"]
+    exampleVi:
+      "Thuyền trưởng vẫn giữ được sự điềm tĩnh trong suốt cuộc khủng hoảng.",
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-25",
     word: "Impetuous",
     slug: "impetuous",
     phonetic: "/ɪmˈpetʃ.u.əs/",
@@ -599,10 +567,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Hấp tấp/Bốc đồng.",
     exampleEn: "His impetuous decision led to many problems.",
     exampleVi: "Quyết định hấp tấp của anh ấy đã dẫn đến nhiều rắc rối.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-26",
     word: "Implacable",
     slug: "implacable",
     phonetic: "/ɪmˈplæk.ə.bəl/",
@@ -610,23 +577,23 @@ export const I1: VocabularyWord[] = [
     meaningEn: "Unable to be placated.",
     meaningVi: "Không thể làm nguôi/Tàn nhẫn.",
     exampleEn: "He was an implacable enemy who never gave up.",
-    exampleVi: "Anh ta là một kẻ thù tàn nhẫn (không thể làm nguôi cơn giận) không bao giờ bỏ cuộc.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ta là một kẻ thù tàn nhẫn (không thể làm nguôi cơn giận) không bao giờ bỏ cuộc.",
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-27",
     word: "Implausible",
     slug: "implausible",
     phonetic: "/ɪmˈplɑː.zə.bəl/",
     partOfSpeech: "noun",
-    meaningEn: "(of an argument or statement) not seeming reasonable or probable; failing to convince.",
+    meaningEn:
+      "(of an argument or statement) not seeming reasonable or probable; failing to convince.",
     meaningVi: "Khó tin/Không hợp lý.",
     exampleEn: "The witness gave an implausible account of the events.",
     exampleVi: "Nhân chứng đã đưa ra một lời kể không hợp lý về các sự kiện.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8395",
     word: "Implement",
     slug: "implement",
     phonetic: "/ˈɪm.plɪ.ment/",
@@ -635,10 +602,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Triển khai; dụng cụ",
     exampleEn: "We will implement the new system next month.",
     exampleVi: "Chúng tôi sẽ triển khai hệ thống mới vào tháng tới.",
-    categories: ["Business","Technology"],
+    categories: ["Business", "Technology"],
   },
   {
-    id: "b2-227",
     word: "Implementation",
     slug: "implementation",
     phonetic: "/ˌɪm.plə.menˈteɪ.ʃən/",
@@ -647,10 +613,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Sự thực thi, triển khai.",
     exampleEn: "Project implementation.",
     exampleVi: "Triển khai dự án.",
-    categories: ["Business","Technology","Engineering"],
+    categories: ["Business", "Technology", "Engineering"],
   },
   {
-    id: "exp-b5a-i-28",
     word: "Implicate",
     slug: "implicate",
     phonetic: "/ˈɪm.plə.keɪt/",
@@ -659,22 +624,21 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Lôi kéo vào/Ám chỉ.",
     exampleEn: "New evidence may implicate the prime suspect.",
     exampleVi: "Bằng chứng mới có thể lôi kéo (buộc tội) kẻ tình nghi chính.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "c1-37",
     word: "Implication",
     slug: "implication",
     phonetic: "/ˌɪm.pləˈkeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn: "The conclusion that can be drawn from something although it is not explicitly stated.",
+    meaningEn:
+      "The conclusion that can be drawn from something although it is not explicitly stated.",
     meaningVi: "Hệ quả, ngụ ý.",
     exampleEn: "The decision has serious implications.",
     exampleVi: "Quyết định này có nhiều hệ quả nghiêm trọng.",
     categories: ["Academic"],
   },
   {
-    id: "exp-b5a-i-29",
     word: "Implicit",
     slug: "implicit",
     phonetic: "/ɪmˈplɪs.ɪt/",
@@ -683,10 +647,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Ngầm hiểu.",
     exampleEn: "There was an implicit agreement between the partners.",
     exampleVi: "Đã có một thỏa thuận ngầm giữa các đối tác.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-30",
     word: "Implore",
     slug: "implore",
     phonetic: "/ɪmˈplɔːr/",
@@ -695,10 +658,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Cầu khẩn.",
     exampleEn: "I implore you to change your mind before it's too late.",
     exampleVi: "Tôi cầu khẩn bạn hãy thay đổi ý định trước khi quá muộn.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-654",
     word: "Imply",
     slug: "imply",
     phonetic: "/ɪmˈplaɪ/",
@@ -710,7 +672,6 @@ export const I1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5a-i-31",
     word: "Impolitic",
     slug: "impolitic",
     phonetic: "/ɪmˈpɑː.lə.tɪk/",
@@ -718,11 +679,11 @@ export const I1: VocabularyWord[] = [
     meaningEn: "Failing to possess or display prudence; unwise.",
     meaningVi: "Không khôn ngoan.",
     exampleEn: "It would be impolitic to mention the mistake now.",
-    exampleVi: "Sẽ thật không khôn ngoan nếu đề cập đến sai lầm đó vào lúc này.",
-    categories: ["General"]
+    exampleVi:
+      "Sẽ thật không khôn ngoan nếu đề cập đến sai lầm đó vào lúc này.",
+    categories: ["General"],
   },
   {
-    id: "gen-655",
     word: "Import",
     slug: "import",
     phonetic: "/ɪmˈpɔːrt/",
@@ -734,7 +695,6 @@ export const I1: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "gen-656",
     word: "Importance",
     slug: "importance",
     phonetic: "/ɪmˈpɔːr.təns/",
@@ -746,7 +706,6 @@ export const I1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-47",
     word: "Important",
     slug: "important",
     phonetic: "/ɪmˈpɔːr.tənt/",
@@ -758,7 +717,6 @@ export const I1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-658",
     word: "Impose",
     slug: "impose",
     phonetic: "/ɪmˈpoʊz/",
@@ -770,7 +728,6 @@ export const I1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5a-i-32",
     word: "Imposing",
     slug: "imposing",
     phonetic: "/ɪmˈpoʊ.zɪŋ/",
@@ -779,10 +736,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Oai nghiêm/Hùng vĩ.",
     exampleEn: "The castle is an imposing sight on the hilltop.",
     exampleVi: "Lâu đài là một cảnh tượng hùng vĩ trên đỉnh đồi.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-659",
     word: "Impossible",
     slug: "impossible",
     phonetic: "/ɪmˈpɑː.sə.bəl/",
@@ -794,7 +750,6 @@ export const I1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5a-i-33",
     word: "Impotent",
     slug: "impotent",
     phonetic: "/ˈɪm.pə.t̬ənt/",
@@ -803,10 +758,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Bất lực.",
     exampleEn: "Without funding, the organization is impotent.",
     exampleVi: "Nếu không có quỹ, tổ chức này sẽ trở nên bất lực.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-34",
     word: "Impoverish",
     slug: "impoverish",
     phonetic: "/ɪmˈpɑː.vɚ.ɪʃ/",
@@ -815,10 +769,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Làm cho nghèo khó.",
     exampleEn: "The high taxes began to impoverish the middle class.",
     exampleVi: "Thuế cao bắt đầu làm cho tầng lớp trung lưu trở nên nghèo khó.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-35",
     word: "Impregnable",
     slug: "impregnable",
     phonetic: "/ɪmˈpreɡ.nə.bəl/",
@@ -827,10 +780,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Bất khả xâm phạm.",
     exampleEn: "The fortress was considered impregnable to attack.",
     exampleVi: "Pháo đài được coi là bất khả xâm phạm trước các cuộc tấn công.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-660",
     word: "Impress",
     slug: "impress",
     phonetic: "/ɪmˈpres/",
@@ -842,7 +794,6 @@ export const I1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-661",
     word: "Impression",
     slug: "impression",
     phonetic: "/ɪmˈpreʃ.ən/",
@@ -854,7 +805,6 @@ export const I1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-662",
     word: "Impressive",
     slug: "impressive",
     phonetic: "/ɪmˈpres.ɪv/",
@@ -866,7 +816,6 @@ export const I1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-663xvcb43",
     word: "Imprison",
     slug: "imprison",
     phonetic: "/ɪmˈprɪz.ən/",
@@ -878,7 +827,6 @@ export const I1: VocabularyWord[] = [
     categories: ["Law"],
   },
   {
-    id: "gen-cxl9321",
     word: "Imprisonment",
     slug: "imprisonment",
     phonetic: "/ɪmˈprɪz.ən.mənt/",
@@ -890,7 +838,6 @@ export const I1: VocabularyWord[] = [
     categories: ["Law"],
   },
   {
-    id: "exp-b5a-i-36",
     word: "Impromptu",
     slug: "impromptu",
     phonetic: "/ɪmˈprɑːmp.tuː/",
@@ -899,22 +846,22 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Ứng khẩu/Cười ngay.",
     exampleEn: "They gave an impromptu performance in the park.",
     exampleVi: "Họ đã có một buổi biểu diễn ứng khẩu trong công viên.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-37",
     word: "Impropriety",
     slug: "impropriety",
     phonetic: "/ˌɪm.prəˈpraɪ.ə.t̬i/",
     partOfSpeech: "noun",
-    meaningEn: "Failure to observe standards or show due honesty or modesty; improper behavior.",
+    meaningEn:
+      "Failure to observe standards or show due honesty or modesty; improper behavior.",
     meaningVi: "Sự không đứng đắn.",
     exampleEn: "The politician was accused of financial impropriety.",
-    exampleVi: "Chính trị gia bị buộc tội có những hành vi không đứng đắn về tài chính.",
-    categories: ["General"]
+    exampleVi:
+      "Chính trị gia bị buộc tội có những hành vi không đứng đắn về tài chính.",
+    categories: ["General"],
   },
   {
-    id: "b1-64",
     word: "Improve",
     slug: "improve",
     phonetic: "/ɪmˈpruːv/",
@@ -926,7 +873,6 @@ export const I1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-664",
     word: "Improvement",
     slug: "improvement",
     phonetic: "/ɪmˈpruːv.mənt/",
@@ -938,7 +884,6 @@ export const I1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5a-i-38",
     word: "Improvident",
     slug: "improvident",
     phonetic: "/ɪmˈprɑː.və.dənt/",
@@ -946,23 +891,23 @@ export const I1: VocabularyWord[] = [
     meaningEn: "Not having or showing foresight; spendthrift or thoughtless.",
     meaningVi: "Không lo xa/Hoang phí.",
     exampleEn: "His improvident lifestyle left him with no savings.",
-    exampleVi: "Lối sống không lo xa của anh ấy đã khiến anh không còn tiền tiết kiệm.",
-    categories: ["General"]
+    exampleVi:
+      "Lối sống không lo xa của anh ấy đã khiến anh không còn tiền tiết kiệm.",
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-39",
     word: "Improvise",
     slug: "improvise",
     phonetic: "/ˈɪm.prə.vaɪz/",
     partOfSpeech: "noun",
-    meaningEn: "Create and perform (music, drama, or verse) spontaneously without preparation.",
+    meaningEn:
+      "Create and perform (music, drama, or verse) spontaneously without preparation.",
     meaningVi: "Ứng biến.",
     exampleEn: "Since we lost the map, we had to improvise.",
     exampleVi: "Vì chúng tôi làm mất bản đồ, chúng tôi đã phải ứng biến.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-40",
     word: "Imprudent",
     slug: "imprudent",
     phonetic: "/ɪmˈpruː.dənt/",
@@ -971,10 +916,9 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Khinh suất.",
     exampleEn: "It was imprudent to leave the car unlocked.",
     exampleVi: "Thật khinh suất khi để xe mà không khóa.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-41",
     word: "Impudence",
     slug: "impudence",
     phonetic: "/ˈɪm.pjə.dəns/",
@@ -983,22 +927,22 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Sự láo xược.",
     exampleEn: "The teacher was shocked by the boy's impudence.",
     exampleVi: "Giáo viên đã bị sốc trước sự láo xược của cậu bé.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-42",
     word: "Impugn",
     slug: "impugn",
     phonetic: "/ɪmˈpjuːn/",
     partOfSpeech: "noun",
-    meaningEn: "Dispute the truth, validity, or honesty of (a statement or motive); call into question.",
+    meaningEn:
+      "Dispute the truth, validity, or honesty of (a statement or motive); call into question.",
     meaningVi: "Công kích/Nghi ngờ.",
     exampleEn: "They attempted to impugn her integrity in court.",
-    exampleVi: "Họ đã cố gắng nghi ngờ (công kích) sự liêm chính của cô ấy tại tòa.",
-    categories: ["General"]
+    exampleVi:
+      "Họ đã cố gắng nghi ngờ (công kích) sự liêm chính của cô ấy tại tòa.",
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-43",
     word: "Impulse",
     slug: "impulse",
     phonetic: "/ˈɪm.pʌls/",
@@ -1007,34 +951,35 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Sự thúc đẩy/Sự bốc đồng.",
     exampleEn: "I bought the dress on an impulse.",
     exampleVi: "Tôi đã mua chiếc váy vì một sự bốc đồng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-44",
     word: "Impunity",
     slug: "impunity",
     phonetic: "/ɪmˈpjuː.nə.t̬i/",
     partOfSpeech: "noun",
-    meaningEn: "Exemption from punishment or freedom from the injurious consequences of an action.",
+    meaningEn:
+      "Exemption from punishment or freedom from the injurious consequences of an action.",
     meaningVi: "Sự được miễn trừng phạt.",
     exampleEn: "You cannot break the law with impunity.",
-    exampleVi: "Bạn không thể phá luật mà không phải chịu sự trừng phạt (được miễn trừng phạt).",
-    categories: ["General"]
+    exampleVi:
+      "Bạn không thể phá luật mà không phải chịu sự trừng phạt (được miễn trừng phạt).",
+    categories: ["General"],
   },
   {
-    id: "exp-b5a-i-45",
     word: "Impute",
     slug: "impute",
     phonetic: "/ɪmˈpjuːt/",
     partOfSpeech: "noun",
-    meaningEn: "Represent (something, especially something undesirable) as being done, caused, or possessed by someone; attribute.",
+    meaningEn:
+      "Represent (something, especially something undesirable) as being done, caused, or possessed by someone; attribute.",
     meaningVi: "Quy cho/Đổ lỗi cho.",
     exampleEn: "We cannot impute bad motives to everyone.",
-    exampleVi: "Chúng ta không thể quy cho (đổ lỗi) những động cơ xấu cho tất cả mọi người.",
-    categories: ["General"]
+    exampleVi:
+      "Chúng ta không thể quy cho (đổ lỗi) những động cơ xấu cho tất cả mọi người.",
+    categories: ["General"],
   },
   {
-    id: "c2-37",
     word: "Incentive",
     slug: "incentive",
     phonetic: "/ɪnˈsen.t̬ɪv/",
@@ -1046,7 +991,6 @@ export const I1: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "c2-97",
     word: "Inchoate",
     slug: "inchoate",
     phonetic: "/ɪnˈkoʊ.ət/",
@@ -1058,7 +1002,6 @@ export const I1: VocabularyWord[] = [
     categories: ["Academic"],
   },
   {
-    id: "b1-65",
     word: "Include",
     slug: "include",
     phonetic: "/ɪnˈkluːd/",
@@ -1070,7 +1013,6 @@ export const I1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "b2-231",
     word: "Inclusion",
     slug: "inclusion",
     phonetic: "/ɪnˈkluː.ʒən/",
@@ -1079,22 +1021,21 @@ export const I1: VocabularyWord[] = [
     meaningVi: "Sự bao hàm, hòa nhập.",
     exampleEn: "Social inclusion.",
     exampleVi: "Sự hòa nhập xã hội.",
-    categories: ["Social","Daily"],
+    categories: ["Social", "Daily"],
   },
   {
-    id: "b2-14",
     word: "Income",
     slug: "income",
     phonetic: "/ˈɪn.kʌm/",
     partOfSpeech: "noun",
-    meaningEn: "Money received, especially on a regular basis, for work or through investments.",
+    meaningEn:
+      "Money received, especially on a regular basis, for work or through investments.",
     meaningVi: "Thu nhập.",
     exampleEn: "He has a high annual income.",
     exampleVi: "Anh ấy có thu nhập hàng năm cao.",
     categories: ["Business"],
   },
   {
-    id: "c1-39",
     word: "Incorporate",
     slug: "incorporate",
     phonetic: "/ɪnˈkɔːr.pər.eɪt/",
@@ -1106,7 +1047,6 @@ export const I1: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "b1-66",
     word: "Increase",
     slug: "increase",
     phonetic: "/ɪnˈkriːs/",
@@ -1118,7 +1058,6 @@ export const I1: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "gen-667asdzxn",
     word: "Increasingly",
     slug: "increasingly",
     phonetic: "/ɪnˈkriː.sɪŋ.li/",
@@ -1130,7 +1069,6 @@ export const I1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-668",
     word: "Indeed",
     slug: "indeed",
     phonetic: "/ɪnˈdiːd/",
@@ -1142,7 +1080,6 @@ export const I1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-669",
     word: "Independent",
     slug: "independent",
     phonetic: "/ˌɪn.dɪˈpen.dənt/",
@@ -1154,7 +1091,6 @@ export const I1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b2-15",
     word: "Indicate",
     slug: "indicate",
     phonetic: "/ˈɪn.də.keɪt/",
@@ -1166,19 +1102,18 @@ export const I1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "c1-40",
     word: "Indigenous",
     slug: "indigenous",
     phonetic: "/ɪnˈdɪdʒ.ə.nəs/",
     partOfSpeech: "adjective",
-    meaningEn: "Originating or occurring naturally in a particular place; native.",
+    meaningEn:
+      "Originating or occurring naturally in a particular place; native.",
     meaningVi: "Bản địa.",
     exampleEn: "Indigenous people.",
     exampleVi: "Người bản địa.",
     categories: ["Social"],
   },
   {
-    id: "b1-67",
     word: "Individual",
     slug: "individual",
     phonetic: "/ˌɪn.dəˈvɪdʒ.u.əl/",
@@ -1190,7 +1125,6 @@ export const I1: VocabularyWord[] = [
     categories: ["Social"],
   },
   {
-    id: "c2-38",
     word: "Indolent",
     slug: "indolent",
     phonetic: "/ˈɪn.dəl.ənt/",
@@ -1200,5 +1134,5 @@ export const I1: VocabularyWord[] = [
     exampleEn: "Indolent youth.",
     exampleVi: "Thế hệ trẻ lười biếng.",
     categories: ["Daily"],
-  }
+  },
 ];

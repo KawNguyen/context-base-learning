@@ -1788,7 +1788,8 @@ export const questions: Question[] = [
     contextEn: "Asking about a past business trip.",
     contextVi: "Hỏi về một chuyến công tác trong quá khứ.",
     questionEn: "_____ you visit the Tokyo office last month?",
-    questionVi: "Bạn _____ có đến thăm văn phòng ở Tokyo vào tháng trước không?",
+    questionVi:
+      "Bạn _____ có đến thăm văn phòng ở Tokyo vào tháng trước không?",
     options: [
       { option: "Do", isCorrect: false },
       { option: "Does", isCorrect: false },
@@ -2540,7 +2541,8 @@ export const questions: Question[] = [
     contextEn: "Talking about someone's previous job role.",
     contextVi: "Nói về vai trò công việc trước đây của ai đó.",
     questionEn: "Ms. Tanaka _____ a sales manager five years ago.",
-    questionVi: "Bà Tanaka _____ đã là một quản lý kinh doanh cách đây năm năm.",
+    questionVi:
+      "Bà Tanaka _____ đã là một quản lý kinh doanh cách đây năm năm.",
     options: [
       { option: "was", isCorrect: true },
       { option: "is", isCorrect: false },

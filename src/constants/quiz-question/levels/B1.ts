@@ -547,7 +547,8 @@ export const questions: Question[] = [
     questionType: "structure",
     contextEn: "An announcement about a workshop.",
     contextVi: "Thông báo về một buổi hội thảo.",
-    questionEn: "The workshop will show you how to _____ a professional resume.",
+    questionEn:
+      "The workshop will show you how to _____ a professional resume.",
     questionVi:
       "Buổi hội thảo sẽ chỉ cho bạn cách để _____ một bản sơ yếu lý lịch chuyên nghiệp.",
     options: [
@@ -734,7 +735,8 @@ export const questions: Question[] = [
     contextEn: "Comparing two marketing strategies.",
     contextVi: "So sánh hai chiến lược tiếp thị.",
     questionEn: "The second strategy is much _____ than the first one.",
-    questionVi: "Chiến lược thứ hai _____ hơn nhiều so với chiến lược đầu tiên.",
+    questionVi:
+      "Chiến lược thứ hai _____ hơn nhiều so với chiến lược đầu tiên.",
     options: [
       { option: "effective", isCorrect: false },
       { option: "more effective", isCorrect: true },
@@ -1166,7 +1168,8 @@ export const questions: Question[] = [
     questionType: "grammar",
     contextEn: "Informing about a finished task.",
     contextVi: "Thông báo về một nhiệm vụ đã hoàn thành.",
-    questionEn: "I _____ already _____ the quarterly report to the head office.",
+    questionEn:
+      "I _____ already _____ the quarterly report to the head office.",
     questionVi: "Tôi _____ vừa mới _____ báo cáo hàng quý cho văn phòng chính.",
     options: [
       { option: "have / submitted", isCorrect: true },

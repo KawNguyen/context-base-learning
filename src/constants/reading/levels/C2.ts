@@ -767,7 +767,6 @@ export const C2: ReadingPassage[] = [
     ],
   },
   {
-
     title: "Quantum Entanglement and Information Theory",
     slug: "quantum-entanglement",
     passage:
@@ -778,7 +777,10 @@ export const C2: ReadingPassage[] = [
         options: [
           { isCorrect: true, option: "'Spooky action at a distance'" },
           { isCorrect: false, option: "'A linear accumulation of energy'" },
-          { isCorrect: false, option: "'The cornerstone of classical physics'" },
+          {
+            isCorrect: false,
+            option: "'The cornerstone of classical physics'",
+          },
           { isCorrect: false, option: "'A predictable pattern of light'" },
         ],
         explanation:
@@ -813,7 +815,10 @@ export const C2: ReadingPassage[] = [
             isCorrect: false,
             option: "The process of making quantum keys stronger.",
           },
-          { isCorrect: false, option: "A type of high-speed quantum internet." },
+          {
+            isCorrect: false,
+            option: "A type of high-speed quantum internet.",
+          },
           {
             isCorrect: false,
             option: "The accumulation of new particles in a system.",
@@ -841,7 +846,8 @@ export const C2: ReadingPassage[] = [
           "Trong bài: 'rely on the computational difficulty of factoring large prime numbers—a task that could potentially be rendered obsolete...'",
       },
       {
-        question: "What does maintaining entanglement over long distances need?",
+        question:
+          "What does maintaining entanglement over long distances need?",
         options: [
           { isCorrect: false, option: "More electricity from solar panels." },
           { isCorrect: false, option: "Better satellite television." },
@@ -867,19 +873,39 @@ export const C2: ReadingPassage[] = [
         options: [
           { isCorrect: true, option: "Automation and wealth inequality" },
           { isCorrect: false, option: "A decrease in the global population" },
-          { isCorrect: false, option: "The discovery of new natural resources" },
-          { isCorrect: false, option: "A sudden rise in global interest rates" },
+          {
+            isCorrect: false,
+            option: "The discovery of new natural resources",
+          },
+          {
+            isCorrect: false,
+            option: "A sudden rise in global interest rates",
+          },
         ],
         explanation:
           "Trong bài: 'primarily driven by the specter of automation and the widening gap of wealth inequality.'",
       },
       {
-        question: "How might UBI affect the relationship between employers and employees?",
+        question:
+          "How might UBI affect the relationship between employers and employees?",
         options: [
-          { isCorrect: false, option: "It would make employees work for free." },
-          { isCorrect: false, option: "It would give employers absolute power." },
-          { isCorrect: true, option: "It could lead to a more equitable distribution of bargaining power." },
-          { isCorrect: false, option: "It would eliminate the need for any management." },
+          {
+            isCorrect: false,
+            option: "It would make employees work for free.",
+          },
+          {
+            isCorrect: false,
+            option: "It would give employers absolute power.",
+          },
+          {
+            isCorrect: true,
+            option:
+              "It could lead to a more equitable distribution of bargaining power.",
+          },
+          {
+            isCorrect: false,
+            option: "It would eliminate the need for any management.",
+          },
         ],
         explanation:
           "Trong bài: 'UBI could fundamentally reshape the power dynamics... potentially leading to... a more equitable distribution of bargaining power.'",
@@ -888,9 +914,18 @@ export const C2: ReadingPassage[] = [
         question: "What is a common fiscal concern regarding UBI?",
         options: [
           { isCorrect: false, option: "That it would make people too rich." },
-          { isCorrect: true, option: "The immense cost and sustainability of the program." },
-          { isCorrect: false, option: "That it would require no taxes at all." },
-          { isCorrect: false, option: "That it would only benefit the wealthy." },
+          {
+            isCorrect: true,
+            option: "The immense cost and sustainability of the program.",
+          },
+          {
+            isCorrect: false,
+            option: "That it would require no taxes at all.",
+          },
+          {
+            isCorrect: false,
+            option: "That it would only benefit the wealthy.",
+          },
         ],
         explanation:
           "Trong bài: 'Skeptics frequently cite the immense fiscal cost of such a program...'",
@@ -898,20 +933,37 @@ export const C2: ReadingPassage[] = [
       {
         question: "What is the 'labor supply effect' mentioned in the text?",
         options: [
-          { isCorrect: false, option: "An increase in the number of high-tech jobs." },
-          { isCorrect: true, option: "The possibility that guaranteed income might disincentivize work." },
-          { isCorrect: false, option: "The movement of workers from farms to cities." },
+          {
+            isCorrect: false,
+            option: "An increase in the number of high-tech jobs.",
+          },
+          {
+            isCorrect: true,
+            option:
+              "The possibility that guaranteed income might disincentivize work.",
+          },
+          {
+            isCorrect: false,
+            option: "The movement of workers from farms to cities.",
+          },
           { isCorrect: false, option: "The use of robots in manufacturing." },
         ],
         explanation:
           "Trong bài: '...concerns regarding the 'labor supply effect'—the possibility that a guaranteed income might disincentivize work...'",
       },
       {
-        question: "What potential negative outcome do critics link to increased purchasing power?",
+        question:
+          "What potential negative outcome do critics link to increased purchasing power?",
         options: [
-          { isCorrect: false, option: "A decrease in the quality of education." },
+          {
+            isCorrect: false,
+            option: "A decrease in the quality of education.",
+          },
           { isCorrect: false, option: "A sudden drop in the stock market." },
-          { isCorrect: true, option: "Inflation and a rise in the cost of essential goods." },
+          {
+            isCorrect: true,
+            option: "Inflation and a rise in the cost of essential goods.",
+          },
           { isCorrect: false, option: "An oversupply of electronic gadgets." },
         ],
         explanation:
@@ -930,7 +982,11 @@ export const C2: ReadingPassage[] = [
         options: [
           { isCorrect: false, option: "Narrow AI is much faster than AGI." },
           { isCorrect: false, option: "Narrow AI can solve any human task." },
-          { isCorrect: true, option: "AGI can perform any intellectual task, while narrow AI is specific." },
+          {
+            isCorrect: true,
+            option:
+              "AGI can perform any intellectual task, while narrow AI is specific.",
+          },
           { isCorrect: false, option: "AGI only works in laboratories." },
         ],
         explanation:
@@ -939,9 +995,18 @@ export const C2: ReadingPassage[] = [
       {
         question: "What is the 'alignment problem'?",
         options: [
-          { isCorrect: false, option: "Making sure AI can read all languages." },
-          { isCorrect: true, option: "Ensuring AGI's goals match human values." },
-          { isCorrect: false, option: "Improving the speed of internet connections." },
+          {
+            isCorrect: false,
+            option: "Making sure AI can read all languages.",
+          },
+          {
+            isCorrect: true,
+            option: "Ensuring AGI's goals match human values.",
+          },
+          {
+            isCorrect: false,
+            option: "Improving the speed of internet connections.",
+          },
           { isCorrect: false, option: "Teaching robots how to dance." },
         ],
         explanation:
@@ -950,10 +1015,23 @@ export const C2: ReadingPassage[] = [
       {
         question: "Describe the 'intelligence explosion' scenario.",
         options: [
-          { isCorrect: false, option: "The physical destruction of computer servers." },
-          { isCorrect: true, option: "AI rapidly improving itself faster than humans can control." },
-          { isCorrect: false, option: "A sudden increase in the cost of CPUs." },
-          { isCorrect: false, option: "More people getting degrees in computer science." },
+          {
+            isCorrect: false,
+            option: "The physical destruction of computer servers.",
+          },
+          {
+            isCorrect: true,
+            option:
+              "AI rapidly improving itself faster than humans can control.",
+          },
+          {
+            isCorrect: false,
+            option: "A sudden increase in the cost of CPUs.",
+          },
+          {
+            isCorrect: false,
+            option: "More people getting degrees in computer science.",
+          },
         ],
         explanation:
           "Trong bài: '...where an AGI recursively improves its own code at a speed far exceeding human oversight...'",
@@ -962,9 +1040,16 @@ export const C2: ReadingPassage[] = [
         question: "What is the 'black box' problem?",
         options: [
           { isCorrect: false, option: "AI systems being built in dark rooms." },
-          { isCorrect: true, option: "Inability to understand the internal reasoning of complex AI." },
+          {
+            isCorrect: true,
+            option:
+              "Inability to understand the internal reasoning of complex AI.",
+          },
           { isCorrect: false, option: "The failure of hardware components." },
-          { isCorrect: false, option: "The high energy consumption of supercomputers." },
+          {
+            isCorrect: false,
+            option: "The high energy consumption of supercomputers.",
+          },
         ],
         explanation:
           "Trong bài: '...our current inability to fully comprehend the decision-making processes of complex neural networks.'",
@@ -972,10 +1057,22 @@ export const C2: ReadingPassage[] = [
       {
         question: "What approach is recommended to address AGI risks?",
         options: [
-          { isCorrect: false, option: "Waiting until a problem occurs to fix it." },
-          { isCorrect: true, option: "Proactive intervention and international cooperation." },
-          { isCorrect: false, option: "Banning all forms of computer programming." },
-          { isCorrect: false, option: "Letting AGI develop without any rules." },
+          {
+            isCorrect: false,
+            option: "Waiting until a problem occurs to fix it.",
+          },
+          {
+            isCorrect: true,
+            option: "Proactive intervention and international cooperation.",
+          },
+          {
+            isCorrect: false,
+            option: "Banning all forms of computer programming.",
+          },
+          {
+            isCorrect: false,
+            option: "Letting AGI develop without any rules.",
+          },
         ],
         explanation:
           "Trong bài: 'Addressing these risks requires proactive intervention... demands an unprecedented level of international cooperation...'",
@@ -1002,21 +1099,40 @@ export const C2: ReadingPassage[] = [
       {
         question: "What is the 'stream of consciousness' technique?",
         options: [
-          { isCorrect: false, option: "A method for teaching children to read faster." },
-          { isCorrect: true, option: "Reproducing the raw, unfiltered flow of inner thoughts." },
-          { isCorrect: false, option: "A type of physical exercise for writers." },
-          { isCorrect: false, option: "Using only simple and short sentences." },
+          {
+            isCorrect: false,
+            option: "A method for teaching children to read faster.",
+          },
+          {
+            isCorrect: true,
+            option: "Reproducing the raw, unfiltered flow of inner thoughts.",
+          },
+          {
+            isCorrect: false,
+            option: "A type of physical exercise for writers.",
+          },
+          {
+            isCorrect: false,
+            option: "Using only simple and short sentences.",
+          },
         ],
         explanation:
           "Trong bài: '...attempts to reproduce the raw, unfiltered flow of a character's inner thoughts and perceptions...'",
       },
       {
-        question: "What did modernist writers reflect through their stylistic choices?",
+        question:
+          "What did modernist writers reflect through their stylistic choices?",
         options: [
           { isCorrect: false, option: "A great sense of optimism and wealth." },
-          { isCorrect: true, option: "Disillusionment and the breakdown of tradition." },
+          {
+            isCorrect: true,
+            option: "Disillusionment and the breakdown of tradition.",
+          },
           { isCorrect: false, option: "A desire to write only about nature." },
-          { isCorrect: false, option: "Satisfaction with the political system." },
+          {
+            isCorrect: false,
+            option: "Satisfaction with the political system.",
+          },
         ],
         explanation:
           "Trong bài: '...modernist writers reflected the widespread sense of disillusionment and the breakdown of traditional authority.'",
@@ -1024,10 +1140,16 @@ export const C2: ReadingPassage[] = [
       {
         question: "How did T.S. Eliot use voices in 'The Waste Land'?",
         options: [
-          { isCorrect: true, option: "As a collage to depict a desolate Europe." },
+          {
+            isCorrect: true,
+            option: "As a collage to depict a desolate Europe.",
+          },
           { isCorrect: false, option: "To sing happy songs about the future." },
           { isCorrect: false, option: "By using only one main narrator." },
-          { isCorrect: false, option: "To explain scientific facts about water." },
+          {
+            isCorrect: false,
+            option: "To explain scientific facts about water.",
+          },
         ],
         explanation:
           "Trong bài: '...uses a collage of voices and historical references to depict a spiritually desolate post-war Europe...'",
@@ -1036,8 +1158,15 @@ export const C2: ReadingPassage[] = [
         question: "What is the legacy of modernism in contemporary literature?",
         options: [
           { isCorrect: false, option: "A return to very simple stories." },
-          { isCorrect: true, option: "Emphasis on subjectivity, ambiguity, and reader creativity." },
-          { isCorrect: false, option: "The total disappearance of all poetry." },
+          {
+            isCorrect: true,
+            option:
+              "Emphasis on subjectivity, ambiguity, and reader creativity.",
+          },
+          {
+            isCorrect: false,
+            option: "The total disappearance of all poetry.",
+          },
           { isCorrect: false, option: "Strict adherence to Victorian rules." },
         ],
         explanation:
@@ -1054,9 +1183,19 @@ export const C2: ReadingPassage[] = [
       {
         question: "What is a major difference between CBDCs and Bitcoin?",
         options: [
-          { isCorrect: false, option: "CBDCs are only used in small countries." },
-          { isCorrect: true, option: "CBDCs are digital liabilities of a central bank, not decentralized." },
-          { isCorrect: false, option: "Bitcoin is controlled by the government." },
+          {
+            isCorrect: false,
+            option: "CBDCs are only used in small countries.",
+          },
+          {
+            isCorrect: true,
+            option:
+              "CBDCs are digital liabilities of a central bank, not decentralized.",
+          },
+          {
+            isCorrect: false,
+            option: "Bitcoin is controlled by the government.",
+          },
           { isCorrect: false, option: "CBDCs are not actually digital." },
         ],
         explanation:
@@ -1066,8 +1205,15 @@ export const C2: ReadingPassage[] = [
         question: "What promise do CBDCs offer to central banks?",
         options: [
           { isCorrect: false, option: "Banning all other forms of money." },
-          { isCorrect: true, option: "More granular tools for managing money supply and increased efficiency." },
-          { isCorrect: false, option: "Reducing the number of employees in the bank." },
+          {
+            isCorrect: true,
+            option:
+              "More granular tools for managing money supply and increased efficiency.",
+          },
+          {
+            isCorrect: false,
+            option: "Reducing the number of employees in the bank.",
+          },
           { isCorrect: false, option: "Finding new gold mines." },
         ],
         explanation:
@@ -1076,10 +1222,20 @@ export const C2: ReadingPassage[] = [
       {
         question: "Explain the risk of 'banking system disintermediation.'",
         options: [
-          { isCorrect: false, option: "Commercial banks getting too many customers." },
-          { isCorrect: true, option: "A flight of deposits from commercial banks as people hold money at the central bank." },
+          {
+            isCorrect: false,
+            option: "Commercial banks getting too many customers.",
+          },
+          {
+            isCorrect: true,
+            option:
+              "A flight of deposits from commercial banks as people hold money at the central bank.",
+          },
           { isCorrect: false, option: "The internet breaking down." },
-          { isCorrect: false, option: "People forgetting their bank passwords." },
+          {
+            isCorrect: false,
+            option: "People forgetting their bank passwords.",
+          },
         ],
         explanation:
           "Trong bài: '...commercial banks might see a significant flight of deposits, potentially reducing their ability to lend...'",
@@ -1088,18 +1244,29 @@ export const C2: ReadingPassage[] = [
         question: "How could digital currencies affect financial crises?",
         options: [
           { isCorrect: false, option: "By making everything cheaper." },
-          { isCorrect: true, option: "By accelerating the speed of financial contagion due to high velocity." },
-          { isCorrect: false, option: "By preventing any losses from occurring." },
+          {
+            isCorrect: true,
+            option:
+              "By accelerating the speed of financial contagion due to high velocity.",
+          },
+          {
+            isCorrect: false,
+            option: "By preventing any losses from occurring.",
+          },
           { isCorrect: false, option: "They have no effect on crises." },
         ],
         explanation:
           "Trong bài: '...could accelerate the speed of financial contagion... as digital assets can be moved or liquidated with unprecedented velocity.'",
       },
       {
-        question: "What is a concern regarding the direct transmission of interest rate changes?",
+        question:
+          "What is a concern regarding the direct transmission of interest rate changes?",
         options: [
           { isCorrect: false, option: "It would make banks too profitable." },
-          { isCorrect: true, option: "Financial privacy and concentration of power." },
+          {
+            isCorrect: true,
+            option: "Financial privacy and concentration of power.",
+          },
           { isCorrect: false, option: "It would be too slow." },
           { isCorrect: false, option: "Nobody would notice the change." },
         ],

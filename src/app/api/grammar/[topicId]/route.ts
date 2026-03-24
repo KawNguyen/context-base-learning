@@ -4,7 +4,7 @@ import { shuffleArray } from "@/lib/utils";
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: Promise<{ topicId: string }> }
+  { params }: { params: Promise<{ topicId: string }> },
 ) {
   try {
     const { topicId } = await params;
@@ -43,7 +43,7 @@ export async function GET(
             ...new Set(flatQuestions.map((q) => q.category)),
           ],
         },
-        { status: 404 }
+        { status: 404 },
       );
     }
 
@@ -62,7 +62,7 @@ export async function GET(
 
       // Find new correct index after shuffle
       const newCorrectIndex = shuffled.findIndex(
-        (item) => item.originalIndex === correctIndex
+        (item) => item.originalIndex === correctIndex,
       );
 
       const shuffledOptions = shuffled.map((item) => item.option);
@@ -92,7 +92,7 @@ export async function GET(
     console.error("Grammar API error:", error);
     return NextResponse.json(
       { error: "Failed to fetch questions" },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }

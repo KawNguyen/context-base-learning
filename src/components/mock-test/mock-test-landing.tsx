@@ -23,7 +23,7 @@ export function MockTestLanding() {
     targetLevel: "B1",
   });
   const [exam, setExam] = useState<ReturnType<typeof generateMockExam> | null>(
-    null
+    null,
   );
 
   const handleStart = () => {
@@ -103,8 +103,8 @@ export function MockTestLanding() {
                     {len === 50
                       ? "Mini Test"
                       : len === 100
-                      ? "Half Test"
-                      : "Full Exam"}
+                        ? "Half Test"
+                        : "Full Exam"}
                   </span>
                 </Button>
               ))}
@@ -184,8 +184,8 @@ export function MockTestLanding() {
                   {settings.length === 200
                     ? "120 mins"
                     : settings.length === 100
-                    ? "60 mins"
-                    : "30 mins"}
+                      ? "60 mins"
+                      : "30 mins"}
                 </div>
               </div>
             </div>

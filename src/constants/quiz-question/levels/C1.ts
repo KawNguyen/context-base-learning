@@ -285,7 +285,8 @@ export const questions: Question[] = [
   {
     id: "C1-0022",
     questionEn: "Much _____ I respect him, I disagree.",
-    questionVi: "Mặc dù _____ tôi rất tôn trọng anh ấy, nhưng tôi không đồng ý.",
+    questionVi:
+      "Mặc dù _____ tôi rất tôn trọng anh ấy, nhưng tôi không đồng ý.",
     options: [
       { option: "as", isCorrect: true },
       { option: "so", isCorrect: false },
@@ -691,7 +692,8 @@ export const questions: Question[] = [
   {
     id: "C1-0053",
     questionEn: "As well _____ French, she speaks German.",
-    questionVi: "Cũng như _____ nói tiếng Pháp, cô ấy còn có thể nói tiếng Đức.",
+    questionVi:
+      "Cũng như _____ nói tiếng Pháp, cô ấy còn có thể nói tiếng Đức.",
     options: [
       { option: "as", isCorrect: true },
       { option: "to", isCorrect: false },

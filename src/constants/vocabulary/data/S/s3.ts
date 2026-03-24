@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const S3: VocabularyWord[] = [
   {
-    id: "gen-1459",
     word: "Stairs",
     slug: "stairs",
     phonetic: "/sterz/",
@@ -14,19 +13,18 @@ export const S3: VocabularyWord[] = [
     categories: ["Home"],
   },
   {
-    id: "b2-208",
     word: "Stakeholder",
     slug: "stakeholder",
     phonetic: "/ˈsteɪkˌhoʊl.dər/",
     partOfSpeech: "noun",
-    meaningEn: "A person with an interest or concern in something, especially a business.",
+    meaningEn:
+      "A person with an interest or concern in something, especially a business.",
     meaningVi: "Bên liên quan.",
     exampleEn: "Balance the needs of all stakeholders.",
     exampleVi: "Cân bằng nhu cầu của tất cả các bên liên quan.",
     categories: ["Business"],
   },
   {
-    id: "gen-1460",
     word: "Stand",
     slug: "stand",
     phonetic: "/stænd/",
@@ -38,7 +36,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-162",
     word: "Standard",
     slug: "standard",
     phonetic: "/ˈstæn.dərd/",
@@ -50,7 +47,6 @@ export const S3: VocabularyWord[] = [
     categories: ["Academic"],
   },
   {
-    id: "c1-236",
     word: "Standardization",
     slug: "standardization",
     phonetic: "/ˌstæn.də.daɪˈzeɪ.ʃən/",
@@ -59,10 +55,9 @@ export const S3: VocabularyWord[] = [
     meaningVi: "Sự tiêu chuẩn hóa.",
     exampleEn: "Product standardization.",
     exampleVi: "Sự tiêu chuẩn hóa sản phẩm.",
-    categories: ["Business","Technology","Engineering"],
+    categories: ["Business", "Technology", "Engineering"],
   },
   {
-    id: "a1-102",
     word: "Star",
     slug: "star",
     phonetic: "/stɑːr/",
@@ -74,7 +69,6 @@ export const S3: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1463",
     word: "Start",
     slug: "start",
     phonetic: "/stɑːrt/",
@@ -86,7 +80,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1464",
     word: "State",
     slug: "state",
     phonetic: "/steɪt/",
@@ -95,10 +88,9 @@ export const S3: VocabularyWord[] = [
     meaningVi: "Tiểu bang.",
     exampleEn: "United States.",
     exampleVi: "Hoa Kỳ.",
-    categories: ["Politics","Geography"],
+    categories: ["Politics", "Geography"],
   },
   {
-    id: "gen-1465",
     word: "Statement",
     slug: "statement",
     phonetic: "/ˈsteɪt.mənt/",
@@ -110,7 +102,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1466",
     word: "Station",
     slug: "station",
     phonetic: "/ˈsteɪ.ʃən/",
@@ -122,7 +113,6 @@ export const S3: VocabularyWord[] = [
     categories: ["Travel"],
   },
   {
-    id: "gen-1467",
     word: "Stay",
     slug: "stay",
     phonetic: "/steɪ/",
@@ -134,7 +124,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1468",
     word: "Steal",
     slug: "steal",
     phonetic: "/stiːl/",
@@ -146,7 +135,6 @@ export const S3: VocabularyWord[] = [
     categories: ["Law"],
   },
   {
-    id: "gen-1469",
     word: "Step",
     slug: "step",
     phonetic: "/step/",
@@ -158,7 +146,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-12as",
     word: "Steward",
     slug: "steward",
     phonetic: "/ˈstjuː.ərd/",
@@ -167,10 +154,9 @@ export const S3: VocabularyWord[] = [
     meaningVi: "Người quản lý, người phục vụ (Nam) trên máy bay hoặc tàu thủy.",
     exampleEn: "The steward assisted passengers.",
     exampleVi: "Người quản lý đã hỗ trợ hành khách.",
-    categories: ["Travel","Jobs"],
+    categories: ["Travel", "Jobs"],
   },
   {
-    id: "gen-saks",
     word: "Stewardess",
     slug: "stewardess",
     phonetic: "/ˈstjuː.ər.dəs/",
@@ -179,10 +165,9 @@ export const S3: VocabularyWord[] = [
     meaningVi: "Người quản lý, người phục vụ (Nữ) trên máy bay hoặc tàu thủy.",
     exampleEn: "The stewardess assisted passengers.",
     exampleVi: "Người quản lý đã hỗ trợ hành khách.",
-    categories: ["Travel","Jobs"],
+    categories: ["Travel", "Jobs"],
   },
   {
-    id: "gen-1470",
     word: "Stick",
     slug: "stick",
     phonetic: "/stɪk/",
@@ -194,7 +179,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1471",
     word: "Still",
     slug: "still",
     phonetic: "/stɪl/",
@@ -206,43 +190,43 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5c-s-9",
     word: "Stoic",
     slug: "stoic",
     phonetic: "/ˈstoʊ.ɪk/",
     partOfSpeech: "noun",
-    meaningEn: "A person who can endure pain or hardship without showing their feelings or complaining.",
+    meaningEn:
+      "A person who can endure pain or hardship without showing their feelings or complaining.",
     meaningVi: "Người khắc kỷ/Kiên cường.",
     exampleEn: "He remained stoic despite the pain from his injury.",
-    exampleVi: "Anh ấy vẫn kiên cường (khắc kỷ) bất chấp cơn đau từ chấn thương.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ấy vẫn kiên cường (khắc kỷ) bất chấp cơn đau từ chấn thương.",
+    categories: ["General"],
   },
   {
-    id: "c2-153",
     word: "Stoicism",
     slug: "stoicism",
     phonetic: "/ˈstoʊ.ɪ.sɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn: "The endurance of pain or hardship without a display of feelings and without complaint.",
+    meaningEn:
+      "The endurance of pain or hardship without a display of feelings and without complaint.",
     meaningVi: "Chủ nghĩa khắc kỷ.",
     exampleEn: "Practicing stoicism in daily life.",
     exampleVi: "Thực hành chủ nghĩa khắc kỷ trong cuộc sống hàng ngày.",
-    categories: ["Academic","Philosophy"],
+    categories: ["Academic", "Philosophy"],
   },
   {
-    id: "a1-207",
     word: "Stomach",
     slug: "stomach",
     phonetic: "/ˈstʌm.ək/",
     partOfSpeech: "noun",
-    meaningEn: "The internal organ in which the first part of digestion occurs.",
+    meaningEn:
+      "The internal organ in which the first part of digestion occurs.",
     meaningVi: "Dạ dày, bụng.",
     exampleEn: "My stomach hurts.",
     exampleVi: "Bụng tôi bị đau.",
-    categories: ["Medical","Daily"],
+    categories: ["Medical", "Daily"],
   },
   {
-    id: "gen-1473",
     word: "Stone",
     slug: "stone",
     phonetic: "/stoʊn/",
@@ -254,7 +238,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1474",
     word: "Stop",
     slug: "stop",
     phonetic: "/stɑːp/",
@@ -266,7 +249,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-224",
     word: "Storage",
     slug: "storage",
     phonetic: "/ˈstɔːr.ɪdʒ/",
@@ -275,10 +257,9 @@ export const S3: VocabularyWord[] = [
     meaningVi: "Bộ lưu trữ.",
     exampleEn: "Cloud storage.",
     exampleVi: "Lưu trữ đám mây.",
-    categories: ["Technology","Daily"],
+    categories: ["Technology", "Daily"],
   },
   {
-    id: "gen-1475",
     word: "Store",
     slug: "store",
     phonetic: "/stɔːr/",
@@ -290,7 +271,6 @@ export const S3: VocabularyWord[] = [
     categories: ["Shopping"],
   },
   {
-    id: "gen-1476",
     word: "Storm",
     slug: "storm",
     phonetic: "/stɔːrm/",
@@ -302,7 +282,6 @@ export const S3: VocabularyWord[] = [
     categories: ["Environment"],
   },
   {
-    id: "gen-1477",
     word: "Story",
     slug: "story",
     phonetic: "/ˈstɔːr.i/",
@@ -314,7 +293,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-90005",
     word: "Stove",
     slug: "stove",
     phonetic: "/stoʊv/",
@@ -323,10 +301,9 @@ export const S3: VocabularyWord[] = [
     meaningVi: "Bếp; thiết bị nấu ăn có mặt bếp.",
     exampleEn: "Turn on the stove to boil water.",
     exampleVi: "Bật bếp để đun nước.",
-    categories: ["Home","Food & Drink"],
+    categories: ["Home", "Food & Drink"],
   },
   {
-    id: "gen-1478",
     word: "Straight",
     slug: "straight",
     phonetic: "/streɪt/",
@@ -338,7 +315,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1479",
     word: "Strange",
     slug: "strange",
     phonetic: "/streɪndʒ/",
@@ -350,7 +326,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1480",
     word: "Stranger",
     slug: "stranger",
     phonetic: "/ˈstreɪn.dʒɚ/",
@@ -362,31 +337,31 @@ export const S3: VocabularyWord[] = [
     categories: ["People"],
   },
   {
-    id: "b1-106",
     word: "Strategy",
     slug: "strategy",
     phonetic: "/ˈstræt.ə.dʒi/",
     partOfSpeech: "noun",
-    meaningEn: "A plan of action or policy designed to achieve a major or overall aim.",
+    meaningEn:
+      "A plan of action or policy designed to achieve a major or overall aim.",
     meaningVi: "Chiến lược.",
     exampleEn: "The company needs a new marketing strategy.",
     exampleVi: "Công ty cần một chiến lược tiếp thị mới.",
     categories: ["Business"],
   },
   {
-    id: "spec-s-003",
     word: "Streaming",
     slug: "streaming",
     phonetic: "/ˈstriː.mɪŋ/",
     partOfSpeech: "noun/verb",
-    meaningEn: "Transmitting or receiving data (especially video and audio material) over the internet in a continuous flow.",
-    meaningVi: "Truyền hoặc nhận dữ liệu (đặc biệt là video và âm thanh) qua internet dưới dạng luồng liên tục.",
+    meaningEn:
+      "Transmitting or receiving data (especially video and audio material) over the internet in a continuous flow.",
+    meaningVi:
+      "Truyền hoặc nhận dữ liệu (đặc biệt là video và âm thanh) qua internet dưới dạng luồng liên tục.",
     exampleEn: "Streaming movies has become very popular.",
     exampleVi: "Xem phim trực tuyến đã trở nên rất phổ biến.",
-    categories: ["Technology","Media"],
+    categories: ["Technology", "Media"],
   },
   {
-    id: "gen-1481",
     word: "Street",
     slug: "street",
     phonetic: "/striːt/",
@@ -398,7 +373,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1482",
     word: "Strength",
     slug: "strength",
     phonetic: "/streŋkθ/",
@@ -410,7 +384,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1483",
     word: "Stress",
     slug: "stress",
     phonetic: "/stres/",
@@ -419,10 +392,9 @@ export const S3: VocabularyWord[] = [
     meaningVi: "Căng thẳng.",
     exampleEn: "Feel stress.",
     exampleVi: "Cảm thấy căng thẳng.",
-    categories: ["Medical","Emotions"],
+    categories: ["Medical", "Emotions"],
   },
   {
-    id: "gen-1484",
     word: "Strict",
     slug: "strict",
     phonetic: "/strɪkt/",
@@ -434,7 +406,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1485",
     word: "Strike",
     slug: "strike",
     phonetic: "/straɪk/",
@@ -446,7 +417,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b1-224",
     word: "String",
     slug: "string",
     phonetic: "/strɪŋ/",
@@ -455,22 +425,21 @@ export const S3: VocabularyWord[] = [
     meaningVi: "Sợi dây; chuỗi.",
     exampleEn: "Empty string.",
     exampleVi: "Chuỗi rỗng.",
-    categories: ["Daily","Technology"],
+    categories: ["Daily", "Technology"],
   },
   {
-    id: "a2-250",
     word: "Stroke",
     slug: "stroke",
     phonetic: "/stroʊk/",
     partOfSpeech: "noun",
-    meaningEn: "A sudden disabling attack or loss of consciousness caused by an interruption in the blood supply to the brain.",
+    meaningEn:
+      "A sudden disabling attack or loss of consciousness caused by an interruption in the blood supply to the brain.",
     meaningVi: "Đột quỵ (não).",
     exampleEn: "Recognize the signs of a stroke.",
     exampleVi: "Nhận biết các dấu hiệu của một cơn đột quỵ.",
     categories: ["Medical"],
   },
   {
-    id: "a1-95",
     word: "Strong",
     slug: "strong",
     phonetic: "/strɑːŋ/",
@@ -482,19 +451,18 @@ export const S3: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "b2-36",
     word: "Structure",
     slug: "structure",
     phonetic: "/ˈstrʌk.tʃər/",
     partOfSpeech: "noun/verb",
-    meaningEn: "The arrangement of and relations between the parts or elements of something complex.",
+    meaningEn:
+      "The arrangement of and relations between the parts or elements of something complex.",
     meaningVi: "Cấu trúc.",
     exampleEn: "The structure of the building is unique.",
     exampleVi: "Cấu trúc của tòa nhà rất độc đáo.",
     categories: ["Engineering"],
   },
   {
-    id: "a1-171",
     word: "Student",
     slug: "student",
     phonetic: "/ˈstuː.dənt/",
@@ -506,31 +474,31 @@ export const S3: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "a2-117",
     word: "Study",
     slug: "study",
     phonetic: "/ˈstʌd.i/",
     partOfSpeech: "verb/noun",
-    meaningEn: "The devotion of time and attention to acquiring knowledge on an academic subject.",
+    meaningEn:
+      "The devotion of time and attention to acquiring knowledge on an academic subject.",
     meaningVi: "Học tập, nghiên cứu.",
     exampleEn: "I need to study for the test.",
     exampleVi: "Tôi cần học để chuẩn bị cho bài kiểm tra.",
     categories: ["Academic"],
   },
   {
-    id: "exp-b5c-s-10",
     word: "Stultify",
     slug: "stultify",
     phonetic: "/ˈstʌl.tə.faɪ/",
     partOfSpeech: "noun",
-    meaningEn: "Cause to lose enthusiasm and initiative, especially as a result of a tedious or restrictive routine.",
+    meaningEn:
+      "Cause to lose enthusiasm and initiative, especially as a result of a tedious or restrictive routine.",
     meaningVi: "Làm mất hiệu quả/Làm cho đần độn.",
     exampleEn: "The boring routine began to stultify her creativity.",
-    exampleVi: "Thói quen nhàm chán bắt đầu làm mất hiệu quả (đần độn) sự sáng tạo của cô.",
-    categories: ["General"]
+    exampleVi:
+      "Thói quen nhàm chán bắt đầu làm mất hiệu quả (đần độn) sự sáng tạo của cô.",
+    categories: ["General"],
   },
   {
-    id: "gen-1490",
     word: "Stupid",
     slug: "stupid",
     phonetic: "/ˈstuː.pɪd/",
@@ -542,7 +510,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1491",
     word: "Style",
     slug: "style",
     phonetic: "/staɪl/",
@@ -551,10 +518,9 @@ export const S3: VocabularyWord[] = [
     meaningVi: "Phong cách.",
     exampleEn: "Fashion style.",
     exampleVi: "Phong cách thời trang.",
-    categories: ["Fashion","General"],
+    categories: ["Fashion", "General"],
   },
   {
-    id: "a2-21",
     word: "Subject",
     slug: "subject",
     phonetic: "/ˈsʌb.dʒekt/",
@@ -566,7 +532,6 @@ export const S3: VocabularyWord[] = [
     categories: ["Academic"],
   },
   {
-    id: "gen-1493",
     word: "Succeed",
     slug: "succeed",
     phonetic: "/səkˈsiːd/",
@@ -578,7 +543,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-122",
     word: "Success",
     slug: "success",
     phonetic: "/səkˈses/",
@@ -590,7 +554,6 @@ export const S3: VocabularyWord[] = [
     categories: ["Academic"],
   },
   {
-    id: "gen-1495",
     word: "Successful",
     slug: "successful",
     phonetic: "/səkˈses.fəl/",
@@ -602,7 +565,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1496",
     word: "Such",
     slug: "such",
     phonetic: "/sʌtʃ/",
@@ -614,7 +576,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1497",
     word: "Sudden",
     slug: "sudden",
     phonetic: "/ˈsʌd.ən/",
@@ -626,7 +587,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1498",
     word: "Suffer",
     slug: "suffer",
     phonetic: "/ˈsʌf.ɚ/",
@@ -635,10 +595,9 @@ export const S3: VocabularyWord[] = [
     meaningVi: "Chịu đựng.",
     exampleEn: "Suffer pain.",
     exampleVi: "Chịu đau đớn.",
-    categories: ["Medical","Emotions"],
+    categories: ["Medical", "Emotions"],
   },
   {
-    id: "gen-1499",
     word: "Sugar",
     slug: "sugar",
     phonetic: "/ˈʃʊɡ.ɚ/",
@@ -650,7 +609,6 @@ export const S3: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
-    id: "b1-29",
     word: "Suggest",
     slug: "suggest",
     phonetic: "/səˈdʒest/",
@@ -662,7 +620,6 @@ export const S3: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1501",
     word: "Suit",
     slug: "suit",
     phonetic: "/suːt/",
@@ -674,7 +631,6 @@ export const S3: VocabularyWord[] = [
     categories: ["Fashion"],
   },
   {
-    id: "a2-9",
     word: "Summer",
     slug: "summer",
     phonetic: "/ˈsʌm.ər/",
@@ -686,7 +642,6 @@ export const S3: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "a1-27",
     word: "Sun",
     slug: "sun",
     phonetic: "/sʌn/",
@@ -698,7 +653,6 @@ export const S3: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1504",
     word: "Sunday",
     slug: "sunday",
     phonetic: "/ˈsʌn.deɪ/",
@@ -710,7 +664,6 @@ export const S3: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1505",
     word: "Supermarket",
     slug: "supermarket",
     phonetic: "/ˈsuː.pɚ.mɑːr.kɪt/",
@@ -722,7 +675,6 @@ export const S3: VocabularyWord[] = [
     categories: ["Shopping"],
   },
   {
-    id: "spec-s-005",
     word: "Supplier",
     slug: "supplier",
     phonetic: "/səˈplaɪ.ər/",
@@ -734,7 +686,6 @@ export const S3: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "gen-1506",
     word: "Supply",
     slug: "supply",
     phonetic: "/səˈplaɪ/",
@@ -746,7 +697,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-151",
     word: "Support",
     slug: "support",
     phonetic: "/səˈpɔːrt/",
@@ -758,7 +708,6 @@ export const S3: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "gen-1508",
     word: "Sure",
     slug: "sure",
     phonetic: "/ʃʊr/",
@@ -770,7 +719,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1509",
     word: "Surface",
     slug: "surface",
     phonetic: "/ˈsɜːr.fɪs/",
@@ -782,7 +730,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-239",
     word: "Surgeon",
     slug: "surgeon",
     phonetic: "/ˈsɜːr.dʒən/",
@@ -791,10 +738,9 @@ export const S3: VocabularyWord[] = [
     meaningVi: "Bác sĩ phẫu thuật.",
     exampleEn: "The surgeon is very skilled.",
     exampleVi: "Bác sĩ phẫu thuật rất lành nghề.",
-    categories: ["Medical","Business","Jobs"],
+    categories: ["Medical", "Business", "Jobs"],
   },
   {
-    id: "a2-238",
     word: "Surgery",
     slug: "surgery",
     phonetic: "/ˈsɜːr.dʒər.i/",
@@ -806,7 +752,6 @@ export const S3: VocabularyWord[] = [
     categories: ["Medical"],
   },
   {
-    id: "gen-1510",
     word: "Surprise",
     slug: "surprise",
     phonetic: "/səˈpraɪz/",
@@ -818,7 +763,6 @@ export const S3: VocabularyWord[] = [
     categories: ["Emotions"],
   },
   {
-    id: "gen-1511",
     word: "Surprised",
     slug: "surprised",
     phonetic: "/səˈpraɪzd/",
@@ -830,7 +774,6 @@ export const S3: VocabularyWord[] = [
     categories: ["Emotions"],
   },
   {
-    id: "gen-1512",
     word: "Surround",
     slug: "surround",
     phonetic: "/səˈraʊnd/",
@@ -842,7 +785,6 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1513",
     word: "Survive",
     slug: "survive",
     phonetic: "/səˈvaɪv/",
@@ -854,7 +796,17 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b2-226",
+    word: "Sustain",
+    slug: "sustain",
+    phonetic: "/səˈsteɪn/",
+    partOfSpeech: "verb",
+    meaningEn: "Support physically or mentally.",
+    meaningVi: "Duy trì, chịu đựng.",
+    exampleEn: "Sustain a long conversation.",
+    exampleVi: "Duy trì một cuộc trò chuyện dài.",
+    categories: ["General"],
+  },
+  {
     word: "Sustainability",
     slug: "sustainability",
     phonetic: "/səˌsteɪ.nəˈbɪl.ə.ti/",
@@ -863,22 +815,21 @@ export const S3: VocabularyWord[] = [
     meaningVi: "Sự bền vững.",
     exampleEn: "Environmental sustainability.",
     exampleVi: "Sự bền vững về môi trường.",
-    categories: ["Business","Daily","Academic"],
+    categories: ["Business", "Daily", "Academic"],
   },
   {
-    id: "b2-202",
     word: "Sustainable",
     slug: "sustainable",
     phonetic: "/səˈsteɪ.nə.bl̩/",
     partOfSpeech: "adj",
-    meaningEn: "Able to be maintained at a certain rate or level; conserving an ecological balance.",
+    meaningEn:
+      "Able to be maintained at a certain rate or level; conserving an ecological balance.",
     meaningVi: "Bền vững.",
     exampleEn: "Sustainable development goals.",
     exampleVi: "Các mục tiêu phát triển bền vững.",
-    categories: ["Business","Daily","Environment"],
+    categories: ["Business", "Daily", "Environment"],
   },
   {
-    id: "gen-1514",
     word: "Sweet",
     slug: "sweet",
     phonetic: "/swiːt/",
@@ -890,7 +841,6 @@ export const S3: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
-    id: "gen-1515",
     word: "Swim",
     slug: "swim",
     phonetic: "/swɪm/",
@@ -902,7 +852,6 @@ export const S3: VocabularyWord[] = [
     categories: ["Sports"],
   },
   {
-    id: "gen-1516",
     word: "Swimming",
     slug: "swimming",
     phonetic: "/ˈswɪm.ɪŋ/",
@@ -914,19 +863,18 @@ export const S3: VocabularyWord[] = [
     categories: ["Sports"],
   },
   {
-    id: "c2-198",
     word: "Sycophant",
     slug: "sycophant",
     phonetic: "/ˈsɪk.ə.fænt/",
     partOfSpeech: "noun",
-    meaningEn: "A person who acts obsequiously toward someone important in order to gain advantage.",
+    meaningEn:
+      "A person who acts obsequiously toward someone important in order to gain advantage.",
     meaningVi: "Kẻ nịnh hót.",
     exampleEn: "Surrounded by sycophants.",
     exampleVi: "Bị bao quanh bởi những kẻ nịnh hót.",
-    categories: ["Social","Daily"],
+    categories: ["Social", "Daily"],
   },
   {
-    id: "b2-20zx3",
     word: "Symmetrical",
     slug: "symmetrical",
     phonetic: "/sɪˈmet.rɪ.kəl/",
@@ -935,22 +883,21 @@ export const S3: VocabularyWord[] = [
     meaningVi: "Đối xứng.",
     exampleEn: "A symmetrical design.",
     exampleVi: "Một thiết kế đối xứng.",
-    categories: ["Art","General"],
+    categories: ["Art", "General"],
   },
   {
-    id: "a2-172",
     word: "Symptom",
     slug: "symptom",
     phonetic: "/ˈsɪmp.təm/",
     partOfSpeech: "noun",
-    meaningEn: "A physical or mental feature which is regarded as indicating a condition of disease.",
+    meaningEn:
+      "A physical or mental feature which is regarded as indicating a condition of disease.",
     meaningVi: "Triệu chứng.",
     exampleEn: "What are your symptoms?",
     exampleVi: "Triệu chứng của bạn là gì?",
     categories: ["Medical"],
   },
   {
-    id: "b1-185",
     word: "Synchronize",
     slug: "synchronize",
     phonetic: "/ˈsɪŋ.krə.naɪz/",
@@ -959,10 +906,9 @@ export const S3: VocabularyWord[] = [
     meaningVi: "Đồng bộ hóa.",
     exampleEn: "Synchronize your data with the cloud.",
     exampleVi: "Đồng bộ hóa dữ liệu của bạn với đám mây.",
-    categories: ["Technology","Daily"],
+    categories: ["Technology", "Daily"],
   },
   {
-    id: "b2-245",
     word: "Synchronous",
     slug: "synchronous",
     phonetic: "/ˈsɪŋ.krə.nəs/",
@@ -974,7 +920,6 @@ export const S3: VocabularyWord[] = [
     categories: ["Technology"],
   },
   {
-    id: "c2-193",
     word: "Synergy",
     slug: "synergy",
     phonetic: "/ˈsɪn.ɚ.dʒi/",
@@ -983,10 +928,9 @@ export const S3: VocabularyWord[] = [
     meaningVi: "Sự hiệp lực.",
     exampleEn: "Company synergy.",
     exampleVi: "Sự hiệp lực của công ty.",
-    categories: ["Business","Social","Daily"],
+    categories: ["Business", "Social", "Daily"],
   },
   {
-    id: "c1-196",
     word: "Synthesis",
     slug: "synthesis",
     phonetic: "/ˈsɪn.θə.sɪs/",
@@ -995,10 +939,9 @@ export const S3: VocabularyWord[] = [
     meaningVi: "Sự tổng hợp.",
     exampleEn: "A synthesis of modern and traditional styles.",
     exampleVi: "Sự tổng hợp giữa phong cách hiện đại và truyền thống.",
-    categories: ["Academic","Chemistry","Daily"],
+    categories: ["Academic", "Chemistry", "Daily"],
   },
   {
-    id: "gen-151sa7",
     word: "Synthetic",
     slug: "synthetic",
     phonetic: "/sɪnˈθet̬.ɪk/",
@@ -1008,5 +951,5 @@ export const S3: VocabularyWord[] = [
     exampleEn: "Synthetic materials.",
     exampleVi: "Vật liệu tổng hợp.",
     categories: ["General"],
-  }
+  },
 ];

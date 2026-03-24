@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const W1: VocabularyWord[] = [
   {
-    id: "gen-1755",
     word: "Wage",
     slug: "wage",
     phonetic: "/weɪdʒ/",
@@ -11,10 +10,9 @@ export const W1: VocabularyWord[] = [
     meaningVi: "Tiền lương.",
     exampleEn: "Minimum wage.",
     exampleVi: "Mức lương tối thiểu.",
-    categories: ["Business","Finance"],
+    categories: ["Business", "Finance"],
   },
   {
-    id: "gen-1756",
     word: "Wait",
     slug: "wait",
     phonetic: "/weɪt/",
@@ -26,31 +24,30 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "pv-33",
     word: "Wait for",
     slug: "wait-for",
     phonetic: "/weɪt fɔːr/",
     partOfSpeech: "phrasal verb",
-    meaningEn: "Stay where one is or delay action until a particular time or event.",
+    meaningEn:
+      "Stay where one is or delay action until a particular time or event.",
     meaningVi: "Chờ đợi.",
     exampleEn: "Wait for me!",
     exampleVi: "Đợi tôi với!",
     categories: ["Phrasal Verb"],
   },
   {
-    id: "gen-1757",
     word: "Waiter",
     slug: "waiter",
     phonetic: "/ˈweɪ.t̬ɚ/",
     partOfSpeech: "noun",
-    meaningEn: "A man whose job is to serve customers at their tables in a restaurant.",
+    meaningEn:
+      "A man whose job is to serve customers at their tables in a restaurant.",
     meaningVi: "Người hầu bàn.",
     exampleEn: "Call the waiter.",
     exampleVi: "Gọi người bồi bàn.",
-    categories: ["Business","People","Jobs"],
+    categories: ["Business", "People", "Jobs"],
   },
   {
-    id: "job-0034",
     word: "Waitress",
     slug: "waitress",
     phonetic: "/ˈweɪ.trəs/",
@@ -62,7 +59,6 @@ export const W1: VocabularyWord[] = [
     categories: ["Jobs"],
   },
   {
-    id: "gen-1758",
     word: "Wake",
     slug: "wake",
     phonetic: "/weɪk/",
@@ -74,7 +70,6 @@ export const W1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "pv-31",
     word: "Wake up",
     slug: "wake-up",
     phonetic: "/weɪk ʌp/",
@@ -86,19 +81,18 @@ export const W1: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "a1-69",
     word: "Walk",
     slug: "walk",
     phonetic: "/wɔːk/",
     partOfSpeech: "verb",
-    meaningEn: "Move at a regular pace by lifting and setting down each foot in turn.",
+    meaningEn:
+      "Move at a regular pace by lifting and setting down each foot in turn.",
     meaningVi: "Đi bộ.",
     exampleEn: "I walk to school every day.",
     exampleVi: "Tôi đi bộ đến trường mỗi ngày.",
     categories: ["Daily"],
   },
   {
-    id: "a1-139",
     word: "Wall",
     slug: "wall",
     phonetic: "/wɑːl/",
@@ -110,7 +104,6 @@ export const W1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1761",
     word: "Wallet",
     slug: "wallet",
     phonetic: "/ˈwɑː.lɪt/",
@@ -119,10 +112,9 @@ export const W1: VocabularyWord[] = [
     meaningVi: "Cái ví.",
     exampleEn: "Leather wallet.",
     exampleVi: "Ví da.",
-    categories: ["Daily","Finance"],
+    categories: ["Daily", "Finance"],
   },
   {
-    id: "gen-1762",
     word: "Wander",
     slug: "wander",
     phonetic: "/ˈwɑːn.dɚ/",
@@ -134,7 +126,6 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5c-w-1",
     word: "Wanderlust",
     slug: "wanderlust",
     phonetic: "/ˈwɑːn.dɚ.lʌst/",
@@ -142,11 +133,11 @@ export const W1: VocabularyWord[] = [
     meaningEn: "A strong desire to travel.",
     meaningVi: "Sự cuồng đi/Lòng ham du lịch.",
     exampleEn: "Her wanderlust took her to over fifty different countries.",
-    exampleVi: "Sự cuồng đi (lòng ham du lịch) của cô đã đưa cô đến hơn năm mươi quốc gia khác nhau.",
-    categories: ["General"]
+    exampleVi:
+      "Sự cuồng đi (lòng ham du lịch) của cô đã đưa cô đến hơn năm mươi quốc gia khác nhau.",
+    categories: ["General"],
   },
   {
-    id: "gen-1763",
     word: "Want",
     slug: "want",
     phonetic: "/wɑːnt/",
@@ -158,7 +149,6 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5c-w-2",
     word: "Wanton",
     slug: "wanton",
     phonetic: "/ˈwɑːn.tən/",
@@ -166,11 +156,11 @@ export const W1: VocabularyWord[] = [
     meaningEn: "(of a cruel or violent action) deliberate and unprovoked.",
     meaningVi: "Vô cớ/Bừa bãi/Dâm ô.",
     exampleEn: "The vandals were guilty of wanton destruction of property.",
-    exampleVi: "Những kẻ phá hoại đã phạm tội bừa bãi (vô cớ) phá hoại tài sản.",
-    categories: ["General"]
+    exampleVi:
+      "Những kẻ phá hoại đã phạm tội bừa bãi (vô cớ) phá hoại tài sản.",
+    categories: ["General"],
   },
   {
-    id: "gen-1764",
     word: "War",
     slug: "war",
     phonetic: "/wɔːr/",
@@ -179,10 +169,9 @@ export const W1: VocabularyWord[] = [
     meaningVi: "Chiến tranh.",
     exampleEn: "Civil war.",
     exampleVi: "Nội chiến.",
-    categories: ["Politics","Social"],
+    categories: ["Politics", "Social"],
   },
   {
-    id: "gen-90015",
     word: "Wardrobe",
     slug: "wardrobe",
     phonetic: "/ˈwɔːr.droʊb/",
@@ -191,10 +180,9 @@ export const W1: VocabularyWord[] = [
     meaningVi: "Tủ quần áo; nơi cất giữ trang phục.",
     exampleEn: "Hang your coat in the wardrobe.",
     exampleVi: "Treo áo khoác vào tủ quần áo.",
-    categories: ["Home","Furniture"],
+    categories: ["Home", "Furniture"],
   },
   {
-    id: "gen-1765",
     word: "Warm",
     slug: "warm",
     phonetic: "/wɔːrm/",
@@ -206,7 +194,6 @@ export const W1: VocabularyWord[] = [
     categories: ["Environment"],
   },
   {
-    id: "gen-1766",
     word: "Warmth",
     slug: "warmth",
     phonetic: "/wɔːrmθ/",
@@ -218,7 +205,6 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1767",
     word: "Warn",
     slug: "warn",
     phonetic: "/wɔːrn/",
@@ -230,31 +216,31 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1768",
     word: "Warning",
     slug: "warning",
     phonetic: "/ˈwɔːr.nɪŋ/",
     partOfSpeech: "noun",
-    meaningEn: "A statement or event that indicates a possible or impending danger.",
+    meaningEn:
+      "A statement or event that indicates a possible or impending danger.",
     meaningVi: "Lời cảnh báo.",
     exampleEn: "Flood warning.",
     exampleVi: "Cảnh báo lũ lụt.",
     categories: ["General"],
   },
   {
-    id: "spec-w-004",
     word: "Warranty",
     slug: "warranty",
     phonetic: "/ˈwɒr.ən.ti/",
     partOfSpeech: "noun",
-    meaningEn: "A guarantee provided by a manufacturer or seller that a product will meet certain standards or will be repaired/replaced if defective.",
-    meaningVi: "Bảo hành do nhà sản xuất hoặc người bán cung cấp đảm bảo sản phẩm đạt tiêu chuẩn hoặc được sửa/chuyển nếu bị lỗi.",
+    meaningEn:
+      "A guarantee provided by a manufacturer or seller that a product will meet certain standards or will be repaired/replaced if defective.",
+    meaningVi:
+      "Bảo hành do nhà sản xuất hoặc người bán cung cấp đảm bảo sản phẩm đạt tiêu chuẩn hoặc được sửa/chuyển nếu bị lỗi.",
     exampleEn: "The appliance comes with a two-year warranty.",
     exampleVi: "Thiết bị kèm theo bảo hành 2 năm.",
     categories: ["Shopping"],
   },
   {
-    id: "exp-b5c-w-3",
     word: "Wary",
     slug: "wary",
     phonetic: "/ˈwer.i/",
@@ -262,11 +248,11 @@ export const W1: VocabularyWord[] = [
     meaningEn: "Feeling or showing caution about possible dangers or problems.",
     meaningVi: "Thận trọng/Cảnh giác.",
     exampleEn: "Be wary of strangers who offer you free gifts.",
-    exampleVi: "Hãy thận trọng (cảnh giác) với những người lạ tặng bạn quà miễn phí.",
-    categories: ["General"]
+    exampleVi:
+      "Hãy thận trọng (cảnh giác) với những người lạ tặng bạn quà miễn phí.",
+    categories: ["General"],
   },
   {
-    id: "gen-1769",
     word: "Wash",
     slug: "wash",
     phonetic: "/wɑːʃ/",
@@ -278,7 +264,6 @@ export const W1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1770",
     word: "Washing",
     slug: "washing",
     phonetic: "/ˈwɑːʃ.ɪŋ/",
@@ -290,7 +275,6 @@ export const W1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1771",
     word: "Waste",
     slug: "waste",
     phonetic: "/weɪst/",
@@ -302,7 +286,6 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a1-166",
     word: "Watch",
     slug: "watch",
     phonetic: "/wɑːtʃ/",
@@ -314,31 +297,30 @@ export const W1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "a1-3",
     word: "Water",
     slug: "water",
     phonetic: "/ˈwɔːtər/",
     partOfSpeech: "noun",
-    meaningEn: "A colorless, transparent, odorless liquid that forms the seas, lakes, rivers, and rain.",
+    meaningEn:
+      "A colorless, transparent, odorless liquid that forms the seas, lakes, rivers, and rain.",
     meaningVi: "Nước.",
     exampleEn: "Can I have some water, please?",
     exampleVi: "Cho tôi xin ít nước được không?",
     categories: ["Daily"],
   },
   {
-    id: "gen-1774",
     word: "Wave",
     slug: "wave",
     phonetic: "/weɪv/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A long body of water curling into an arched form and breaking on the shore.",
+    meaningEn:
+      "A long body of water curling into an arched form and breaking on the shore.",
     meaningVi: "Sóng.",
     exampleEn: "Big ocean wave.",
     exampleVi: "Sóng đại dương lớn.",
-    categories: ["Environment","General"],
+    categories: ["Environment", "General"],
   },
   {
-    id: "gen-1775",
     word: "Way",
     slug: "way",
     phonetic: "/weɪ/",
@@ -350,19 +332,18 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1776",
     word: "We",
     slug: "we",
     phonetic: "/wiː/",
     partOfSpeech: "pronoun",
-    meaningEn: "Used by a speaker to refer to himself or herself and one or more other people.",
+    meaningEn:
+      "Used by a speaker to refer to himself or herself and one or more other people.",
     meaningVi: "Chúng tôi.",
     exampleEn: "We are family.",
     exampleVi: "Chúng tôi là gia đình.",
     categories: ["General"],
   },
   {
-    id: "a1-96",
     word: "Weak",
     slug: "weak",
     phonetic: "/wiːk/",
@@ -374,7 +355,6 @@ export const W1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1778",
     word: "Wealth",
     slug: "wealth",
     phonetic: "/welθ/",
@@ -383,34 +363,33 @@ export const W1: VocabularyWord[] = [
     meaningVi: "Sự giàu có.",
     exampleEn: "Accumulate wealth.",
     exampleVi: "Tích lũy của cải.",
-    categories: ["Finance","Social"],
+    categories: ["Finance", "Social"],
   },
   {
-    id: "gen-1779",
     word: "Weapon",
     slug: "weapon",
     phonetic: "/ˈwep.ən/",
     partOfSpeech: "noun",
-    meaningEn: "A thing designed or used for inflicting bodily harm or physical damage.",
+    meaningEn:
+      "A thing designed or used for inflicting bodily harm or physical damage.",
     meaningVi: "Vũ khí.",
     exampleEn: "Dangerous weapon.",
     exampleVi: "Vũ khí nguy hiểm.",
-    categories: ["General","Law"],
+    categories: ["General", "Law"],
   },
   {
-    id: "gen-1780",
     word: "Wear",
     slug: "wear",
     phonetic: "/wer/",
     partOfSpeech: "verb/noun",
-    meaningEn: "Have on one's body or a part of one's body as clothing, decoration, or protection.",
+    meaningEn:
+      "Have on one's body or a part of one's body as clothing, decoration, or protection.",
     meaningVi: "Mặc.",
     exampleEn: "Wear a dress.",
     exampleVi: "Mặc váy.",
-    categories: ["Fashion","Daily"],
+    categories: ["Fashion", "Daily"],
   },
   {
-    id: "pv-80",
     word: "Wear out",
     slug: "wear-out",
     phonetic: "/wer aʊt/",
@@ -422,7 +401,6 @@ export const W1: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "a2-6",
     word: "Weather",
     slug: "weather",
     phonetic: "/ˈweð.ər/",
@@ -434,7 +412,6 @@ export const W1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "a2-209",
     word: "Web",
     slug: "web",
     phonetic: "/web/",
@@ -443,22 +420,23 @@ export const W1: VocabularyWord[] = [
     meaningVi: "Mạng lưới, Web.",
     exampleEn: "Surfing the web.",
     exampleVi: "Lướt web.",
-    categories: ["Technology","Daily"],
+    categories: ["Technology", "Daily"],
   },
   {
-    id: "spec-w-001",
     word: "Web3",
     slug: "web3",
     phonetic: "/wɛb θriː/",
     partOfSpeech: "noun",
-    meaningEn: "The idea of a decentralized web built on blockchain and peer-to-peer protocols.",
-    meaningVi: "Ý tưởng về một web phi tập trung xây dựng trên blockchain và các giao thức ngang hàng.",
+    meaningEn:
+      "The idea of a decentralized web built on blockchain and peer-to-peer protocols.",
+    meaningVi:
+      "Ý tưởng về một web phi tập trung xây dựng trên blockchain và các giao thức ngang hàng.",
     exampleEn: "Many startups build decentralized apps in the Web3 space.",
-    exampleVi: "Nhiều startup xây dựng ứng dụng phi tập trung trong lĩnh vực Web3.",
+    exampleVi:
+      "Nhiều startup xây dựng ứng dụng phi tập trung trong lĩnh vực Web3.",
     categories: ["Technology"],
   },
   {
-    id: "a1-184",
     word: "Website",
     slug: "website",
     phonetic: "/ˈwebsaɪt/",
@@ -467,22 +445,21 @@ export const W1: VocabularyWord[] = [
     meaningVi: "Trang web.",
     exampleEn: "This website is very useful.",
     exampleVi: "Trang web này rất hữu ích.",
-    categories: ["Daily","Technology"],
+    categories: ["Daily", "Technology"],
   },
   {
-    id: "gen-1784",
     word: "Wedding",
     slug: "wedding",
     phonetic: "/ˈwed.ɪŋ/",
     partOfSpeech: "noun",
-    meaningEn: "A marriage ceremony, especially considered as including the associated celebrations.",
+    meaningEn:
+      "A marriage ceremony, especially considered as including the associated celebrations.",
     meaningVi: "Đám cưới.",
     exampleEn: "Wedding cake.",
     exampleVi: "Bánh cưới.",
-    categories: ["Social","Daily"],
+    categories: ["Social", "Daily"],
   },
   {
-    id: "gen-1785",
     word: "Wednesday",
     slug: "wednesday",
     phonetic: "/ˈwenz.deɪ/",
@@ -494,7 +471,6 @@ export const W1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1786",
     word: "Weed",
     slug: "weed",
     phonetic: "/wiːd/",
@@ -503,10 +479,9 @@ export const W1: VocabularyWord[] = [
     meaningVi: "Cỏ dại.",
     exampleEn: "Pull out weeds.",
     exampleVi: "Nhổ cỏ dại.",
-    categories: ["Biology","Environment"],
+    categories: ["Biology", "Environment"],
   },
   {
-    id: "a1-155",
     word: "Week",
     slug: "week",
     phonetic: "/wiːk/",
@@ -518,7 +493,6 @@ export const W1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1788",
     word: "Weekend",
     slug: "weekend",
     phonetic: "/ˈwiːk.end/",
@@ -530,7 +504,6 @@ export const W1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1789",
     word: "Weekly",
     slug: "weekly",
     phonetic: "/ˈwiː.kli/",
@@ -542,7 +515,6 @@ export const W1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1790",
     word: "Weigh",
     slug: "weigh",
     phonetic: "/weɪ/",
@@ -551,10 +523,9 @@ export const W1: VocabularyWord[] = [
     meaningVi: "Cân.",
     exampleEn: "Weigh accurately.",
     exampleVi: "Cân chính xác.",
-    categories: ["General","Science"],
+    categories: ["General", "Science"],
   },
   {
-    id: "a2-246",
     word: "Weight",
     slug: "weight",
     phonetic: "/weɪt/",
@@ -563,10 +534,9 @@ export const W1: VocabularyWord[] = [
     meaningVi: "Trọng lượng, cân nặng.",
     exampleEn: "Lose weight.",
     exampleVi: "Giảm cân.",
-    categories: ["Daily","Medical"],
+    categories: ["Daily", "Medical"],
   },
   {
-    id: "gen-1792",
     word: "Weird",
     slug: "weird",
     phonetic: "/wɪərd/",
@@ -578,7 +548,6 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1793",
     word: "Welcome",
     slug: "welcome",
     phonetic: "/ˈwel.kəm/",
@@ -587,10 +556,9 @@ export const W1: VocabularyWord[] = [
     meaningVi: "Chào mừng.",
     exampleEn: "Welcome home.",
     exampleVi: "Chào mừng về nhà.",
-    categories: ["General","Social"],
+    categories: ["General", "Social"],
   },
   {
-    id: "job-0035",
     word: "Welder",
     slug: "welder",
     phonetic: "/ˈwel.dɚ/",
@@ -599,10 +567,9 @@ export const W1: VocabularyWord[] = [
     meaningVi: "Thợ hàn",
     exampleEn: "The welder repaired the steel frame.",
     exampleVi: "Thợ hàn sửa khung thép.",
-    categories: ["Jobs","Construction"],
+    categories: ["Jobs", "Construction"],
   },
   {
-    id: "gen-1794",
     word: "Well",
     slug: "well",
     phonetic: "/wel/",
@@ -611,22 +578,43 @@ export const W1: VocabularyWord[] = [
     meaningVi: "Tốt.",
     exampleEn: "Get well soon.",
     exampleVi: "Sớm bình phục nhé.",
-    categories: ["General","Medical"],
+    categories: ["General", "Medical"],
   },
   {
-    id: "gen-1795",
+    word: "Well-being",
+    slug: "well-being",
+    phonetic: "/ˈwel.beɪŋ/",
+    partOfSpeech: "noun",
+    meaningEn: "A state of being healthy and happy.",
+    meaningVi: "Sức khỏe và hạnh phúc.",
+    exampleEn: "Mental well-being.",
+    exampleVi: "Sức khỏe tinh thần.",
+    categories: ["General", "Medical"],
+  },
+  {
+    word: "Well-known",
+    slug: "well-known",
+    phonetic: "/ˌwelˈnoʊn/",
+    partOfSpeech: "adjective",
+    meaningEn: "Famous.",
+    meaningVi: "Nổi tiếng.",
+    exampleEn: "A well-known actor.",
+    exampleVi: "Một diễn viên nổi tiếng.",
+    categories: ["General"],
+  },
+  {
     word: "West",
     slug: "west",
     phonetic: "/west/",
     partOfSpeech: "noun/adjective/adverb",
-    meaningEn: "The direction toward the point of the horizon where the sun sets.",
+    meaningEn:
+      "The direction toward the point of the horizon where the sun sets.",
     meaningVi: "Hướng tây.",
     exampleEn: "Go west.",
     exampleVi: "Đi về hướng tây.",
     categories: ["Geography"],
   },
   {
-    id: "gen-1796",
     word: "Western",
     slug: "western",
     phonetic: "/ˈwes.tɚn/",
@@ -635,10 +623,9 @@ export const W1: VocabularyWord[] = [
     meaningVi: "Thuộc về miền tây.",
     exampleEn: "Western culture.",
     exampleVi: "Văn hóa phương Tây.",
-    categories: ["General","Social"],
+    categories: ["General", "Social"],
   },
   {
-    id: "gen-1797",
     word: "Wet",
     slug: "wet",
     phonetic: "/wet/",
@@ -647,10 +634,9 @@ export const W1: VocabularyWord[] = [
     meaningVi: "Ướt.",
     exampleEn: "Wet paint.",
     exampleVi: "Sơn ướt.",
-    categories: ["General","Environment"],
+    categories: ["General", "Environment"],
   },
   {
-    id: "gen-1798",
     word: "What",
     slug: "what",
     phonetic: "/wɑːt/",
@@ -662,19 +648,18 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1799",
     word: "Whatever",
     slug: "whatever",
     phonetic: "/wɑːtˈev.ɚ/",
     partOfSpeech: "pronoun/determiner",
-    meaningEn: "Used to emphasize a lack of restriction in referring to any thing.",
+    meaningEn:
+      "Used to emphasize a lack of restriction in referring to any thing.",
     meaningVi: "Bất cứ cái gì.",
     exampleEn: "Do whatever you want.",
     exampleVi: "Làm bất cứ điều gì bạn muốn.",
     categories: ["General"],
   },
   {
-    id: "gen-1800",
     word: "Wheel",
     slug: "wheel",
     phonetic: "/wiːl/",
@@ -683,10 +668,9 @@ export const W1: VocabularyWord[] = [
     meaningVi: "Bánh xe.",
     exampleEn: "Steering wheel.",
     exampleVi: "Vô lăng.",
-    categories: ["General","Technology"],
+    categories: ["General", "Technology"],
   },
   {
-    id: "gen-1801",
     word: "When",
     slug: "when",
     phonetic: "/wen/",
@@ -698,7 +682,6 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1802",
     word: "Whenever",
     slug: "whenever",
     phonetic: "/wenˈev.ɚ/",
@@ -710,7 +693,6 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1803",
     word: "Where",
     slug: "where",
     phonetic: "/wer/",
@@ -722,7 +704,6 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1804",
     word: "Whereas",
     slug: "whereas",
     phonetic: "/werˈæz/",
@@ -734,7 +715,6 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1805",
     word: "Wherever",
     slug: "wherever",
     phonetic: "/werˈev.ɚ/",
@@ -746,7 +726,6 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1806",
     word: "Whether",
     slug: "whether",
     phonetic: "/ˈweð.ɚ/",
@@ -758,19 +737,18 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1807",
     word: "Which",
     slug: "which",
     phonetic: "/wɪtʃ/",
     partOfSpeech: "pronoun/determiner",
-    meaningEn: "Asking for information specifying one or more people or things from a definite set.",
+    meaningEn:
+      "Asking for information specifying one or more people or things from a definite set.",
     meaningVi: "Cái nào.",
     exampleEn: "Which one?",
     exampleVi: "Cái nào?",
     categories: ["General"],
   },
   {
-    id: "gen-1808",
     word: "While",
     slug: "while",
     phonetic: "/waɪl/",
@@ -782,31 +760,30 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1809",
     word: "Whisper",
     slug: "whisper",
     phonetic: "/ˈwɪs.pɚ/",
     partOfSpeech: "verb/noun",
-    meaningEn: "Speak very softly using one's breath without one's vocal cords.",
+    meaningEn:
+      "Speak very softly using one's breath without one's vocal cords.",
     meaningVi: "Thì thầm.",
     exampleEn: "Whisper a secret.",
     exampleVi: "Thì thầm một bí mật.",
     categories: ["General"],
   },
   {
-    id: "gen-1810",
     word: "Whistle",
     slug: "whistle",
     phonetic: "/ˈwɪs.əl/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A clear, high-pitched sound made by forcing breath through a small hole.",
+    meaningEn:
+      "A clear, high-pitched sound made by forcing breath through a small hole.",
     meaningVi: "Cái còi.",
     exampleEn: "Blow a whistle.",
     exampleVi: "Thổi còi.",
-    categories: ["General","Sports"],
+    categories: ["General", "Sports"],
   },
   {
-    id: "a1-47",
     word: "White",
     slug: "white",
     phonetic: "/waɪt/",
@@ -818,7 +795,6 @@ export const W1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1812",
     word: "Who",
     slug: "who",
     phonetic: "/huː/",
@@ -830,7 +806,6 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1813",
     word: "Whoever",
     slug: "whoever",
     phonetic: "/huːˈev.ɚ/",
@@ -842,7 +817,6 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1814",
     word: "Whole",
     slug: "whole",
     phonetic: "/hoʊl/",
@@ -854,7 +828,6 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1815",
     word: "Whom",
     slug: "whom",
     phonetic: "/huːm/",
@@ -866,7 +839,6 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1816",
     word: "Whose",
     slug: "whose",
     phonetic: "/huːz/",
@@ -878,7 +850,6 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1817",
     word: "Why",
     slug: "why",
     phonetic: "/waɪ/",
@@ -890,7 +861,6 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1818",
     word: "Wide",
     slug: "wide",
     phonetic: "/waɪd/",
@@ -902,7 +872,6 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1819",
     word: "Widely",
     slug: "widely",
     phonetic: "/ˈwaɪd.li/",
@@ -914,7 +883,6 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1820",
     word: "Wife",
     slug: "wife",
     phonetic: "/waɪf/",
@@ -923,10 +891,9 @@ export const W1: VocabularyWord[] = [
     meaningVi: "Vợ.",
     exampleEn: "My wife.",
     exampleVi: "Vợ tôi.",
-    categories: ["Family","People"],
+    categories: ["Family", "People"],
   },
   {
-    id: "gen-1821",
     word: "Wild",
     slug: "wild",
     phonetic: "/waɪld/",
@@ -935,10 +902,9 @@ export const W1: VocabularyWord[] = [
     meaningVi: "Hoang dã.",
     exampleEn: "Wild animals.",
     exampleVi: "Động vật hoang dã.",
-    categories: ["Biology","Environment"],
+    categories: ["Biology", "Environment"],
   },
   {
-    id: "gen-1822",
     word: "Will",
     slug: "will",
     phonetic: "/wɪl/",
@@ -950,7 +916,6 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1823",
     word: "Willing",
     slug: "willing",
     phonetic: "/ˈwɪl.ɪŋ/",
@@ -962,7 +927,6 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a1-144",
     word: "Win",
     slug: "win",
     phonetic: "/wɪn/",
@@ -974,7 +938,6 @@ export const W1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "a1-104",
     word: "Wind",
     slug: "wind",
     phonetic: "/wɪnd/",
@@ -986,7 +949,6 @@ export const W1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "a1-21",
     word: "Window",
     slug: "window",
     phonetic: "/ˈwɪn.doʊ/",
@@ -998,7 +960,6 @@ export const W1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1827",
     word: "Wine",
     slug: "wine",
     phonetic: "/waɪn/",
@@ -1010,19 +971,18 @@ export const W1: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
-    id: "gen-1828",
     word: "Wing",
     slug: "wing",
     phonetic: "/wɪŋ/",
     partOfSpeech: "noun/verb",
-    meaningEn: "Any of the specialized paired appendages by which a bird is able to fly.",
+    meaningEn:
+      "Any of the specialized paired appendages by which a bird is able to fly.",
     meaningVi: "Cánh.",
     exampleEn: "Bird wing.",
     exampleVi: "Cánh chim.",
     categories: ["Biology"],
   },
   {
-    id: "gen-1829",
     word: "Winner",
     slug: "winner",
     phonetic: "/ˈwɪn.ɚ/",
@@ -1031,10 +991,9 @@ export const W1: VocabularyWord[] = [
     meaningVi: "Người chiến thắng.",
     exampleEn: "And the winner is...",
     exampleVi: "Và người chiến thắng là...",
-    categories: ["Sports","People"],
+    categories: ["Sports", "People"],
   },
   {
-    id: "exp-b5c-w-4",
     word: "Winsome",
     slug: "winsome",
     phonetic: "/ˈwɪn.səm/",
@@ -1042,11 +1001,11 @@ export const W1: VocabularyWord[] = [
     meaningEn: "Attractive or appealing in appearance or character.",
     meaningVi: "Hấp dẫn/Dễ thương.",
     exampleEn: "She gave a winsome smile that charmed everyone.",
-    exampleVi: "Cô ấy đã nở một nụ cười hấp dẫn (dễ thương) làm say đắm mọi người.",
-    categories: ["General"]
+    exampleVi:
+      "Cô ấy đã nở một nụ cười hấp dẫn (dễ thương) làm say đắm mọi người.",
+    categories: ["General"],
   },
   {
-    id: "a2-11",
     word: "Winter",
     slug: "winter",
     phonetic: "/ˈwɪn.tər/",
@@ -1058,7 +1017,6 @@ export const W1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1831",
     word: "Wipe",
     slug: "wipe",
     phonetic: "/waɪp/",
@@ -1070,7 +1028,6 @@ export const W1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "pv-124",
     word: "Wipe out",
     slug: "wipe-out",
     phonetic: "/waɪp aʊt/",
@@ -1079,22 +1036,21 @@ export const W1: VocabularyWord[] = [
     meaningVi: "Xóa sạch; tiêu diệt.",
     exampleEn: "Wipe out the hard drive.",
     exampleVi: "Xóa sạch ổ cứng.",
-    categories: ["Phrasal Verb","Technology","Daily"],
+    categories: ["Phrasal Verb", "Technology", "Daily"],
   },
   {
-    id: "gen-1832",
     word: "Wire",
     slug: "wire",
     phonetic: "/waɪɚ/",
     partOfSpeech: "noun/verb",
-    meaningEn: "Metal drawn out into the form of a thin flexible thread or rod.",
+    meaningEn:
+      "Metal drawn out into the form of a thin flexible thread or rod.",
     meaningVi: "Dây điện.",
     exampleEn: "Electric wire.",
     exampleVi: "Dây điện.",
-    categories: ["Technology","General"],
+    categories: ["Technology", "General"],
   },
   {
-    id: "a2-227",
     word: "Wireless",
     slug: "wireless",
     phonetic: "/ˈwaɪr.ləs/",
@@ -1103,22 +1059,21 @@ export const W1: VocabularyWord[] = [
     meaningVi: "Không dây.",
     exampleEn: "Wireless mouse.",
     exampleVi: "Chuột không dây.",
-    categories: ["Technology","Daily"],
+    categories: ["Technology", "Daily"],
   },
   {
-    id: "gen-1833",
     word: "Wisdom",
     slug: "wisdom",
     phonetic: "/ˈwɪz.dəm/",
     partOfSpeech: "noun",
-    meaningEn: "The quality of having experience, knowledge, and good judgment.",
+    meaningEn:
+      "The quality of having experience, knowledge, and good judgment.",
     meaningVi: "Sự khôn ngoan.",
     exampleEn: "Words of wisdom.",
     exampleVi: "Lời nói khôn ngoan.",
     categories: ["General"],
   },
   {
-    id: "gen-1834",
     word: "Wise",
     slug: "wise",
     phonetic: "/waɪz/",
@@ -1130,7 +1085,6 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1835",
     word: "Wish",
     slug: "wish",
     phonetic: "/wɪʃ/",
@@ -1139,10 +1093,9 @@ export const W1: VocabularyWord[] = [
     meaningVi: "Ước.",
     exampleEn: "Make a wish.",
     exampleVi: "Ước một điều.",
-    categories: ["General","Emotions"],
+    categories: ["General", "Emotions"],
   },
   {
-    id: "exp-b5c-w-5",
     word: "Wistful",
     slug: "wistful",
     phonetic: "/ˈwɪst.fəl/",
@@ -1150,11 +1103,11 @@ export const W1: VocabularyWord[] = [
     meaningEn: "Having or showing a feeling of vague or regretful longing.",
     meaningVi: "Nuối tiếc/U sầu.",
     exampleEn: "He cast a wistful look at the old family home.",
-    exampleVi: "Anh ấy đã dành một cái nhìn nuối tiếc (u sầu) cho ngôi nhà cũ của gia đình.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ấy đã dành một cái nhìn nuối tiếc (u sầu) cho ngôi nhà cũ của gia đình.",
+    categories: ["General"],
   },
   {
-    id: "gen-1836",
     word: "With",
     slug: "with",
     phonetic: "/wɪð/",
@@ -1166,7 +1119,6 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1837",
     word: "Within",
     slug: "within",
     phonetic: "/wɪˈðɪn/",
@@ -1178,7 +1130,6 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1838",
     word: "Without",
     slug: "without",
     phonetic: "/wɪˈðaʊt/",
@@ -1190,15 +1141,15 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1839",
     word: "Witness",
     slug: "witness",
     phonetic: "/ˈwɪt.nəs/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A person who sees an event, typically a crime or accident, take place.",
+    meaningEn:
+      "A person who sees an event, typically a crime or accident, take place.",
     meaningVi: "Nhân chứng.",
     exampleEn: "Eye witness.",
     exampleVi: "Nhân chứng mục kích.",
-    categories: ["Law","People"],
-  }
+    categories: ["Law", "People"],
+  },
 ];

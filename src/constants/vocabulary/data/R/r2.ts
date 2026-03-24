@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const R2: VocabularyWord[] = [
   {
-    id: "gen-1268",
     word: "Resolve",
     slug: "resolve",
     phonetic: "/rɪˈzɑːlv/",
@@ -14,19 +13,18 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b1-49",
     word: "Resource",
     slug: "resource",
     phonetic: "/ˈriː.sɔːrs/",
     partOfSpeech: "noun",
-    meaningEn: "A stock or supply of money, materials, staff, and other assets that can be drawn on by a person or organization in order to function effectively.",
+    meaningEn:
+      "A stock or supply of money, materials, staff, and other assets that can be drawn on by a person or organization in order to function effectively.",
     meaningVi: "Tài nguyên.",
     exampleEn: "Natural resources.",
     exampleVi: "Tài nguyên thiên nhiên.",
     categories: ["Academic"],
   },
   {
-    id: "b2-235",
     word: "Resources",
     slug: "resources",
     phonetic: "/ˈriː.sɔːrsɪz/",
@@ -35,10 +33,9 @@ export const R2: VocabularyWord[] = [
     meaningVi: "Tài nguyên, nguồn lực.",
     exampleEn: "Allocating resources.",
     exampleVi: "Phân bổ nguồn lực.",
-    categories: ["Business","Business"],
+    categories: ["Business", "Business"],
   },
   {
-    id: "gen-1270",
     word: "Respect",
     slug: "respect",
     phonetic: "/rɪˈspekt/",
@@ -50,19 +47,18 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b2-214",
     word: "Respiratory",
     slug: "respiratory",
     phonetic: "/ˈres.pə.rə.tɔːr.i/",
     partOfSpeech: "adj",
-    meaningEn: "Relating to or affecting respiration or the organs of respiration.",
+    meaningEn:
+      "Relating to or affecting respiration or the organs of respiration.",
     meaningVi: "Thuộc về hô hấp.",
     exampleEn: "Respiratory system.",
     exampleVi: "Hệ hô hấp.",
     categories: ["Medical"],
   },
   {
-    id: "gen-1271",
     word: "Respond",
     slug: "respond",
     phonetic: "/rɪˈspɑːnd/",
@@ -74,7 +70,6 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b2-29",
     word: "Response",
     slug: "response",
     phonetic: "/rɪˈspɑːns/",
@@ -86,7 +81,6 @@ export const R2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1273",
     word: "Responsibility",
     slug: "responsibility",
     phonetic: "/rɪˌspaʊn.səˈbɪl.ə.ti/",
@@ -98,7 +92,6 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1274",
     word: "Responsible",
     slug: "responsible",
     phonetic: "/rɪˈspɑːn.sə.bəl/",
@@ -110,7 +103,6 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a1-246",
     word: "Rest",
     slug: "rest",
     phonetic: "/rest/",
@@ -119,10 +111,9 @@ export const R2: VocabularyWord[] = [
     meaningVi: "Nghỉ ngơi.",
     exampleEn: "You need some rest.",
     exampleVi: "Bạn cần nghỉ ngơi.",
-    categories: ["Daily","Medical"],
+    categories: ["Daily", "Medical"],
   },
   {
-    id: "a1-199",
     word: "Restaurant",
     slug: "restaurant",
     phonetic: "/ˈrestrɑːnt/",
@@ -131,10 +122,9 @@ export const R2: VocabularyWord[] = [
     meaningVi: "Nhà hàng.",
     exampleEn: "This is a famous Italian restaurant.",
     exampleVi: "Đây là một nhà hàng Ý nổi tiếng.",
-    categories: ["Daily","Food & Drink","Social"],
+    categories: ["Daily", "Food & Drink", "Social"],
   },
   {
-    id: "a2-130",
     word: "Result",
     slug: "result",
     phonetic: "/rɪˈzʌlt/",
@@ -146,19 +136,18 @@ export const R2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "spec-r-004",
     word: "Retailer",
     slug: "retailer",
     phonetic: "/ˈriː.teɪ.lər/",
     partOfSpeech: "noun",
-    meaningEn: "A person or business that sells goods to the public in relatively small quantities for use or consumption.",
+    meaningEn:
+      "A person or business that sells goods to the public in relatively small quantities for use or consumption.",
     meaningVi: "Người hoặc doanh nghiệp bán lẻ hàng hóa cho công chúng.",
     exampleEn: "The retailer offers a 30-day return policy.",
     exampleVi: "Nhà bán lẻ cung cấp chính sách đổi trả trong 30 ngày.",
     categories: ["Business"],
   },
   {
-    id: "exp-b5c-r-19",
     word: "Reticent",
     slug: "reticent",
     phonetic: "/ˈret̬.ə.sənt/",
@@ -167,10 +156,9 @@ export const R2: VocabularyWord[] = [
     meaningVi: "Kín đáo/Ít nói.",
     exampleEn: "He is very reticent about his personal life.",
     exampleVi: "Anh ấy rất kín đáo (ít nói) về cuộc sống cá nhân của mình.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1278",
     word: "Return",
     slug: "return",
     phonetic: "/rɪˈtɜːrn/",
@@ -182,7 +170,6 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1279",
     word: "Reveal",
     slug: "reveal",
     phonetic: "/rɪˈviːl/",
@@ -194,19 +181,18 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b1-190",
     word: "Revenue",
     slug: "revenue",
     phonetic: "/ˈrev.ə.nuː/",
     partOfSpeech: "noun",
-    meaningEn: "Income, especially when of a company or organization and of a substantial nature.",
+    meaningEn:
+      "Income, especially when of a company or organization and of a substantial nature.",
     meaningVi: "Doanh thu.",
     exampleEn: "Total revenue increased by 20%.",
     exampleVi: "Tổng doanh thu tăng 20%.",
     categories: ["Business"],
   },
   {
-    id: "a2-236",
     word: "Review",
     slug: "review",
     phonetic: "/rɪˈvjuː/",
@@ -215,10 +201,9 @@ export const R2: VocabularyWord[] = [
     meaningVi: "Đánh giá, xem lại.",
     exampleEn: "Read the customer reviews.",
     exampleVi: "Đọc các đánh giá của khách hàng.",
-    categories: ["Daily","Business"],
+    categories: ["Daily", "Business"],
   },
   {
-    id: "gen-gh123",
     word: "Revise",
     slug: "revise",
     phonetic: "/rɪˈvaɪz/",
@@ -230,7 +215,6 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-po12",
     word: "Revolutionize",
     slug: "revolutionize",
     phonetic: "/ˌrev.əˈluː.ʃən.aɪz/",
@@ -239,34 +223,33 @@ export const R2: VocabularyWord[] = [
     meaningVi: "Cách mạng hóa.",
     exampleEn: "The internet has revolutionized communication.",
     exampleVi: "Internet đã cách mạng hóa giao tiếp.",
-    categories: ["Technology","Business"],
+    categories: ["Technology", "Business"],
   },
   {
-    id: "c1-195",
     word: "Rhetoric",
     slug: "rhetoric",
     phonetic: "/ˈret̬.ər.ɪk/",
     partOfSpeech: "noun",
-    meaningEn: "The art of effective or persuasive speaking or writing, especially the use of figures of speech.",
+    meaningEn:
+      "The art of effective or persuasive speaking or writing, especially the use of figures of speech.",
     meaningVi: "Phép hùng biện.",
     exampleEn: "The politician's rhetoric was impressive.",
     exampleVi: "Phép hùng biện của chính trị gia rất ấn tượng.",
-    categories: ["Academic","Social"],
+    categories: ["Academic", "Social"],
   },
   {
-    id: "exp-b5c-r-20",
     word: "Ribald",
     slug: "ribald",
     phonetic: "/ˈrɪb.əld/",
     partOfSpeech: "noun",
-    meaningEn: "Referring to sexual matters in an amusingly rude or irreverent way.",
+    meaningEn:
+      "Referring to sexual matters in an amusingly rude or irreverent way.",
     meaningVi: "Phóng đãng/Tục tĩu (một cách hài hước).",
     exampleEn: "The comedian told many ribald jokes.",
     exampleVi: "Diễn viên hài đã kể nhiều câu đố tục tĩu (phóng đãng).",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "a1-16",
     word: "Rice",
     slug: "rice",
     phonetic: "/raɪs/",
@@ -278,7 +261,6 @@ export const R2: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
-    id: "a1-91",
     word: "Rich",
     slug: "rich",
     phonetic: "/rɪtʃ/",
@@ -290,7 +272,6 @@ export const R2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1283",
     word: "Ride",
     slug: "ride",
     phonetic: "/raɪd/",
@@ -302,7 +283,6 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1284",
     word: "Right",
     slug: "right",
     phonetic: "/raɪt/",
@@ -314,7 +294,6 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1285",
     word: "Ring",
     slug: "ring",
     phonetic: "/rɪŋ/",
@@ -326,7 +305,6 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1286",
     word: "Rise",
     slug: "rise",
     phonetic: "/raɪz/",
@@ -338,7 +316,6 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-158",
     word: "Risk",
     slug: "risk",
     phonetic: "/rɪsk/",
@@ -350,7 +327,6 @@ export const R2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-ds12",
     word: "Rival",
     slug: "rival",
     phonetic: "/ˈraɪ.vəl/",
@@ -362,19 +338,18 @@ export const R2: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "a1-109",
     word: "River",
     slug: "river",
     phonetic: "/ˈrɪv.ər/",
     partOfSpeech: "noun",
-    meaningEn: "A large natural stream of water flowing in a channel to the sea, a lake, or another such stream.",
+    meaningEn:
+      "A large natural stream of water flowing in a channel to the sea, a lake, or another such stream.",
     meaningVi: "Con sông.",
     exampleEn: "The river is very deep.",
     exampleVi: "Con sông rất sâu.",
     categories: ["Daily"],
   },
   {
-    id: "gen-1289",
     word: "Road",
     slug: "road",
     phonetic: "/roʊd/",
@@ -386,7 +361,6 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1290",
     word: "Rock",
     slug: "rock",
     phonetic: "/rɑːk/",
@@ -398,19 +372,18 @@ export const R2: VocabularyWord[] = [
     categories: ["Environment"],
   },
   {
-    id: "b2-30",
     word: "Role",
     slug: "role",
     phonetic: "/roʊl/",
     partOfSpeech: "noun",
-    meaningEn: "The function assumed or part played by a person or thing in a particular situation.",
+    meaningEn:
+      "The function assumed or part played by a person or thing in a particular situation.",
     meaningVi: "Vai trò.",
     exampleEn: "Everyone has a role to play.",
     exampleVi: "Mọi người đều có một vai trò.",
     categories: ["Social"],
   },
   {
-    id: "gen-1292",
     word: "Roll",
     slug: "roll",
     phonetic: "/roʊl/",
@@ -422,7 +395,6 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1291",
     word: "Roller",
     slug: "roller",
     phonetic: "/ˈroʊ.lɚ/",
@@ -434,7 +406,6 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1293",
     word: "Roof",
     slug: "roof",
     phonetic: "/ruːf/",
@@ -446,7 +417,6 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a1-138",
     word: "Room",
     slug: "room",
     phonetic: "/ruːm/",
@@ -458,7 +428,6 @@ export const R2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1294",
     word: "Root",
     slug: "root",
     phonetic: "/ruːt/",
@@ -470,7 +439,6 @@ export const R2: VocabularyWord[] = [
     categories: ["Biology"],
   },
   {
-    id: "gen-1295",
     word: "Rough",
     slug: "rough",
     phonetic: "/rʌf/",
@@ -482,7 +450,6 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1296",
     word: "Round",
     slug: "round",
     phonetic: "/raʊnd/",
@@ -494,7 +461,6 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1297",
     word: "Route",
     slug: "route",
     phonetic: "/ruːt/",
@@ -506,7 +472,6 @@ export const R2: VocabularyWord[] = [
     categories: ["Travel"],
   },
   {
-    id: "gen-1298",
     word: "Routine",
     slug: "routine",
     phonetic: "/ruːˈtiːn/",
@@ -518,7 +483,6 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1299",
     word: "Row",
     slug: "row",
     phonetic: "/roʊ/",
@@ -530,7 +494,6 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1300",
     word: "Royal",
     slug: "royal",
     phonetic: "/ˈrɔɪ.əl/",
@@ -542,7 +505,6 @@ export const R2: VocabularyWord[] = [
     categories: ["Politics"],
   },
   {
-    id: "gen-1301",
     word: "Rub",
     slug: "rub",
     phonetic: "/rʌb/",
@@ -554,7 +516,6 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1302",
     word: "Rude",
     slug: "rude",
     phonetic: "/ruːd/",
@@ -566,7 +527,6 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-90011",
     word: "Rug",
     slug: "rug",
     phonetic: "/rʌɡ/",
@@ -578,7 +538,6 @@ export const R2: VocabularyWord[] = [
     categories: ["Home"],
   },
   {
-    id: "gen-1303",
     word: "Rule",
     slug: "rule",
     phonetic: "/ruːl/",
@@ -590,7 +549,6 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "pv-125",
     word: "Rule out",
     slug: "rule-out",
     phonetic: "/ruːl aʊt/",
@@ -599,10 +557,9 @@ export const R2: VocabularyWord[] = [
     meaningVi: "Loại trừ.",
     exampleEn: "The doctor ruled out a broken bone.",
     exampleVi: "Bác sĩ đã loại trừ khả năng bị gãy xương.",
-    categories: ["Phrasal Verb","Daily","Medical"],
+    categories: ["Phrasal Verb", "Daily", "Medical"],
   },
   {
-    id: "a1-68",
     word: "Run",
     slug: "run",
     phonetic: "/rʌn/",
@@ -614,7 +571,6 @@ export const R2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1304",
     word: "Run away",
     slug: "run-away",
     phonetic: "/rʌn əˈweɪ/",
@@ -626,7 +582,6 @@ export const R2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-75",
     word: "Run into",
     slug: "run-into",
     phonetic: "/rʌn ˈɪntuː/",
@@ -638,7 +593,6 @@ export const R2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-19",
     word: "Run out of",
     slug: "run-out-of",
     phonetic: "/rʌn aʊt əv/",
@@ -650,7 +604,6 @@ export const R2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "gen-1305",
     word: "Rural",
     slug: "rural",
     phonetic: "/ˈrʊr.əl/",
@@ -660,5 +613,5 @@ export const R2: VocabularyWord[] = [
     exampleEn: "Rural area.",
     exampleVi: "Khu vực nông thôn.",
     categories: ["Geography"],
-  }
+  },
 ];

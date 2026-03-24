@@ -6,7 +6,7 @@ import { ReadingPassage } from "@/constants/reading/type";
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: Promise<{ level: string }> }
+  { params }: { params: Promise<{ level: string }> },
 ) {
   try {
     const { level } = await params;
@@ -20,7 +20,7 @@ export async function GET(
           error: `No passages found for level: ${upperLevel}`,
           availableLevels: Object.keys(readingPassages),
         },
-        { status: 404 }
+        { status: 404 },
       );
     }
 
@@ -41,11 +41,11 @@ export async function GET(
         // Find new correct index after shuffle
         const newCorrectIndex = shuffled.findIndex(
           (item: { originalIndex: number }) =>
-            item.originalIndex === correctIndex
+            item.originalIndex === correctIndex,
         );
 
         const shuffledOptions = shuffled.map(
-          (item: { option: (typeof question.options)[0] }) => item.option
+          (item: { option: (typeof question.options)[0] }) => item.option,
         );
 
         return {
@@ -73,7 +73,7 @@ export async function GET(
     console.error("Reading API error:", error);
     return NextResponse.json(
       { error: "Failed to fetch passages" },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }

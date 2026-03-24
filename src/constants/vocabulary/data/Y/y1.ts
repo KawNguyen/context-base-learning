@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const Y1: VocabularyWord[] = [
   {
-    id: "gen-y-001",
     word: "Yacht",
     slug: "yacht",
     phonetic: "/jɑːt/",
@@ -11,10 +10,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Du thuyền.",
     exampleEn: "Luxury yacht.",
     exampleVi: "Du thuyền sang trọng.",
-    categories: ["Travel", "Sports"]
+    categories: ["Travel", "Sports"],
   },
   {
-    id: "gen-y-002",
     word: "Yachting",
     slug: "yachting",
     phonetic: "/ˈjɑː.t̬ɪŋ/",
@@ -23,10 +21,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Môn đua du thuyền/Đi du thuyền.",
     exampleEn: "Enjoy yachting in the summer.",
     exampleVi: "Thưởng thức việc đi du thuyền vào mùa hè.",
-    categories: ["Sports", "Travel"]
+    categories: ["Sports", "Travel"],
   },
   {
-    id: "gen-y-073",
     word: "Yacked",
     slug: "yacked",
     phonetic: "/jækt/",
@@ -35,10 +32,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Đã nói tán chuyện/Nói nhảm.",
     exampleEn: "They yacked all night.",
     exampleVi: "Họ đã buôn chuyện cả đêm.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-y-074",
     word: "Yacking",
     slug: "yacking",
     phonetic: "/ˈjæk.ɪŋ/",
@@ -47,34 +43,33 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Đang nói nhảm/Chuyện phiếm.",
     exampleEn: "Enough yacking, let's work.",
     exampleVi: "Thôi nói nhảm đi, hãy làm việc thôi.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-y-003",
     word: "Yak",
     slug: "yak",
     phonetic: "/jæk/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A large domesticated wild ox with shaggy hair, native to Tibet; trivial or unduly prolonged talk.",
+    meaningEn:
+      "A large domesticated wild ox with shaggy hair, native to Tibet; trivial or unduly prolonged talk.",
     meaningVi: "Con bò Tây Tạng; nói chuyện phiếm.",
     exampleEn: "Yaks live in high altitudes.",
     exampleVi: "Bò Tây Tạng sống ở độ cao lớn.",
-    categories: ["Animals", "Biology"]
+    categories: ["Animals", "Biology"],
   },
   {
-    id: "gen-y-004",
     word: "Yam",
     slug: "yam",
     phonetic: "/jæm/",
     partOfSpeech: "noun",
-    meaningEn: "The edible starchy tuber of a climbing plant, widely eaten as a vegetable in tropical countries.",
+    meaningEn:
+      "The edible starchy tuber of a climbing plant, widely eaten as a vegetable in tropical countries.",
     meaningVi: "Củ từ/Khoai mỡ.",
     exampleEn: "Roasted yams.",
     exampleVi: "Khoai mỡ nướng.",
-    categories: ["Food & Drink", "Nature"]
+    categories: ["Food & Drink", "Nature"],
   },
   {
-    id: "exp-b5c-y-1",
     word: "Yammer",
     slug: "yammer",
     phonetic: "/ˈjæm.ɚ/",
@@ -82,11 +77,11 @@ export const Y1: VocabularyWord[] = [
     meaningEn: "To make a loud, repetitive noise or talk incessantly.",
     meaningVi: "Than vãn/Nói liên miên.",
     exampleEn: "The neighbors continue to yammer about their problems.",
-    exampleVi: "Hàng xóm tiếp tục than vãn (nói liên miên) về những vấn đề của họ.",
-    categories: ["General"]
+    exampleVi:
+      "Hàng xóm tiếp tục than vãn (nói liên miên) về những vấn đề của họ.",
+    categories: ["General"],
   },
   {
-    id: "gen-y-076",
     word: "Yammering",
     slug: "yammering",
     phonetic: "/ˈjæm.ɚ.ɪŋ/",
@@ -95,10 +90,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Tiếng than vãn/Nói lải nhải.",
     exampleEn: "Constant yammering.",
     exampleVi: "Sự nói lải nhải liên tục.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-y-005",
     word: "Yank",
     slug: "yank",
     phonetic: "/jæŋk/",
@@ -107,10 +101,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Kéo mạnh/Giật mạnh.",
     exampleEn: "Yank the door open.",
     exampleVi: "Giật mạnh cửa mở ra.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-y-006",
     word: "Yankee",
     slug: "yankee",
     phonetic: "/ˈjæŋ.ki/",
@@ -119,10 +112,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Người Mỹ (đặc biệt là người miền Bắc).",
     exampleEn: "Yankee ingenuity.",
     exampleVi: "Sự khéo léo của người Mỹ.",
-    categories: ["Politics", "History", "People"]
+    categories: ["Politics", "History", "People"],
   },
   {
-    id: "gen-y-007",
     word: "Yap",
     slug: "yap",
     phonetic: "/jæp/",
@@ -131,10 +123,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Sủa ăng ẳng/Nói lải nhải.",
     exampleEn: "The small dog yapped at everyone.",
     exampleVi: "Con chó nhỏ sủa ăng ẳng vào mặt mọi người.",
-    categories: ["Animals", "General"]
+    categories: ["Animals", "General"],
   },
   {
-    id: "gen-y-077",
     word: "Yappiness",
     slug: "yappiness",
     phonetic: "/ˈjæp.i.nəs/",
@@ -143,10 +134,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Sự sủa ăng ẳng.",
     exampleEn: "The yappiness of the neighbor's dog.",
     exampleVi: "Tiếng sủa ăng ẳng của con chó nhà hàng xóm.",
-    categories: ["Animals"]
+    categories: ["Animals"],
   },
   {
-    id: "gen-y-078",
     word: "Yapping",
     slug: "yapping",
     phonetic: "/ˈjæp.ɪŋ/",
@@ -155,10 +145,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Đang sủa ăng ẳng.",
     exampleEn: "A yapping terrier.",
     exampleVi: "Một con chó sục đang sủa ăng ẳng.",
-    categories: ["Animals"]
+    categories: ["Animals"],
   },
   {
-    id: "gen-1870",
     word: "Yard",
     slug: "yard",
     phonetic: "/jɑːrd/",
@@ -167,10 +156,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Sân/Thước.",
     exampleEn: "Back yard.",
     exampleVi: "Sân sau.",
-    categories: ["Home", "General"]
+    categories: ["Home", "General"],
   },
   {
-    id: "gen-y-008",
     word: "Yardage",
     slug: "yardage",
     phonetic: "/ˈjɑːr.dɪdʒ/",
@@ -179,10 +167,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Chiều dài tính bằng thước Anh (yards).",
     exampleEn: "The fabric's yardage.",
     exampleVi: "Chiều dài thước của tấm vải.",
-    categories: ["Mathematics", "Construction"]
+    categories: ["Mathematics", "Construction"],
   },
   {
-    id: "gen-y-009",
     word: "Yardarm",
     slug: "yardarm",
     phonetic: "/ˈjɑːrd.ɑːrm/",
@@ -191,10 +178,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Đầu xà buồm.",
     exampleEn: "Hanging from the yardarm.",
     exampleVi: "Treo từ đầu xà buồm.",
-    categories: ["Travel", "History"]
+    categories: ["Travel", "History"],
   },
   {
-    id: "gen-y-010",
     word: "Yardstick",
     slug: "yardstick",
     phonetic: "/ˈjɑːrd.stɪk/",
@@ -203,10 +189,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Thước đo/Tiêu chuẩn so sánh.",
     exampleEn: "GPD is a yardstick of economic health.",
     exampleVi: "GDP là thước đo sức khỏe kinh tế.",
-    categories: ["General", "Mathematics", "Business"]
+    categories: ["General", "Mathematics", "Business"],
   },
   {
-    id: "gen-y-011",
     word: "Yarn",
     slug: "yarn",
     phonetic: "/jɑːrn/",
@@ -215,34 +200,33 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Sợi len/Sợi chỉ; chuyện kể hão huyền.",
     exampleEn: "Woolen yarn.",
     exampleVi: "Sợi len cừu.",
-    categories: ["Materials", "Art", "Fashion"]
+    categories: ["Materials", "Art", "Fashion"],
   },
   {
-    id: "gen-y-012",
     word: "Yaw",
     slug: "yaw",
     phonetic: "/jɔː/",
     partOfSpeech: "verb/noun",
-    meaningEn: "(of a ship or aircraft) twist or oscillate about a vertical axis.",
+    meaningEn:
+      "(of a ship or aircraft) twist or oscillate about a vertical axis.",
     meaningVi: "Sự chệch hướng (của tàu thủy/máy bay).",
     exampleEn: "The pilot corrected the yaw.",
     exampleVi: "Phi công đã điều chỉnh sự chệch hướng.",
-    categories: ["Travel", "Technology"]
+    categories: ["Travel", "Technology"],
   },
   {
-    id: "gen-y-013",
     word: "Yawn",
     slug: "yawn",
     phonetic: "/jɑːn/",
     partOfSpeech: "verb/noun",
-    meaningEn: "Involuntarily open one's mouth wide and inhale deeply due to tiredness or boredom.",
+    meaningEn:
+      "Involuntarily open one's mouth wide and inhale deeply due to tiredness or boredom.",
     meaningVi: "Ngáp.",
     exampleEn: "He couldn't stop yawning.",
     exampleVi: "Anh ấy không thể ngừng ngáp.",
-    categories: ["General", "Body"]
+    categories: ["General", "Body"],
   },
   {
-    id: "added-y-1",
     word: "Yawner",
     slug: "yawner",
     phonetic: "/ˈjɑː.nɚ/",
@@ -251,10 +235,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Người/Sự việc nhàm chán.",
     exampleEn: "The long lecture was a real yawner.",
     exampleVi: "Bài giảng dài đó thật sự là một thứ gây buồn ngủ (nhàm chán).",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-y-014",
     word: "Yawning",
     slug: "yawning",
     phonetic: "/ˈjɑː.nɪŋ/",
@@ -263,10 +246,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Rộng hoác/Hé mở.",
     exampleEn: "A yawning gap.",
     exampleVi: "Một khoảng cách lớn.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-y-079",
     word: "Yay",
     slug: "yay",
     phonetic: "/jeɪ/",
@@ -275,10 +257,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Tuyệt quá!/Hoan hô!",
     exampleEn: "Yay! We won the game!",
     exampleVi: "Tuyệt quá! Chúng ta thắng rồi!",
-    categories: ["General", "Emotions"]
+    categories: ["General", "Emotions"],
   },
   {
-    id: "gen-y-015",
     word: "Yea",
     slug: "yea",
     phonetic: "/jeɪ/",
@@ -287,22 +268,21 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Đồng ý/Vâng.",
     exampleEn: "The yeas have it.",
     exampleVi: "Phe đồng ý đã thắng.",
-    categories: ["General", "Politics"]
+    categories: ["General", "Politics"],
   },
   {
-    id: "a1-157",
     word: "Year",
     slug: "year",
     phonetic: "/jɪr/",
     partOfSpeech: "noun",
-    meaningEn: "The time taken by a planet to make one revolution around the sun.",
+    meaningEn:
+      "The time taken by a planet to make one revolution around the sun.",
     meaningVi: "Năm.",
     exampleEn: "Happy New Year!",
     exampleVi: "Chúc mừng năm mới!",
-    categories: ["Daily"]
+    categories: ["Daily"],
   },
   {
-    id: "gen-y-082",
     word: "Year-round",
     slug: "year-round",
     phonetic: "/jɪr raʊnd/",
@@ -311,22 +291,21 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Quanh năm.",
     exampleEn: "Year-round resort.",
     exampleVi: "Khu nghỉ mát hoạt động quanh năm.",
-    categories: ["Time", "General"]
+    categories: ["Time", "General"],
   },
   {
-    id: "gen-y-016",
     word: "Yearbook",
     slug: "yearbook",
     phonetic: "/ˈjɪr.bʊk/",
     partOfSpeech: "noun",
-    meaningEn: "A book published annually by a school containing information about the previous year.",
+    meaningEn:
+      "A book published annually by a school containing information about the previous year.",
     meaningVi: "Kỷ yếu hàng năm.",
     exampleEn: "Look at the high school yearbook.",
     exampleVi: "Xem kỷ yếu trường cấp ba.",
-    categories: ["Education", "General"]
+    categories: ["Education", "General"],
   },
   {
-    id: "exp-b4b-y-1",
     word: "Yearling",
     slug: "yearling",
     phonetic: "/ˈjɪr.lɪŋ/",
@@ -335,10 +314,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Thú một tuổi.",
     exampleEn: "The rancher is training the young yearling for riding.",
     exampleVi: "Chủ trại đang huấn luyện chú ngựa một tuổi cho việc cưỡi ngựa.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-y-018",
     word: "Yearlong",
     slug: "yearlong",
     phonetic: "/ˈjɪr.lɑːŋ/",
@@ -347,10 +325,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Kéo dài suốt cả năm.",
     exampleEn: "A yearlong investigation.",
     exampleVi: "Một cuộc điều tra kéo dài cả năm.",
-    categories: ["Time", "General"]
+    categories: ["Time", "General"],
   },
   {
-    id: "gen-1872",
     word: "Yearly",
     slug: "yearly",
     phonetic: "/ˈjɪr.li/",
@@ -359,10 +336,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Hàng năm.",
     exampleEn: "Yearly report.",
     exampleVi: "Báo cáo hàng năm.",
-    categories: ["Daily"]
+    categories: ["Daily"],
   },
   {
-    id: "gen-y-080",
     word: "Yearly-updated",
     slug: "yearly-updated",
     phonetic: "/ˈjɪr.li ʌpˈdeɪ.tɪd/",
@@ -371,10 +347,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Được cập nhật hàng năm.",
     exampleEn: "Yearly-updated statistics.",
     exampleVi: "Số liệu thống kê được cập nhật hàng năm.",
-    categories: ["General", "Time"]
+    categories: ["General", "Time"],
   },
   {
-    id: "exp-final-y-1",
     word: "Yearn",
     slug: "yearn",
     phonetic: "/jɝːn/",
@@ -383,10 +358,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Khao khát.",
     exampleEn: "Sometimes I yearn for the simple life of my childhood.",
     exampleVi: "Đôi khi tôi khao khát cuộc sống đơn giản thời thơ ấu của mình.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-y-020",
     word: "Yearning",
     slug: "yearning",
     phonetic: "/ˈjɝː.nɪŋ/",
@@ -395,10 +369,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Sự khao khát.",
     exampleEn: "Deep yearning.",
     exampleVi: "Sự khao khát sâu sắc.",
-    categories: ["Emotions", "Psychology"]
+    categories: ["Emotions", "Psychology"],
   },
   {
-    id: "added-y-2",
     word: "Yearningly",
     slug: "yearningly",
     phonetic: "/ˈjɝː.nɪŋ.li/",
@@ -407,10 +380,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Một cách khao khát.",
     exampleEn: "She looked yearningly at the photo of her home.",
     exampleVi: "Cô ấy nhìn một cách khao khát vào bức ảnh quê hương mình.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-y-081",
     word: "Yearns",
     slug: "yearns",
     phonetic: "/jɝːnz/",
@@ -419,22 +391,21 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Khao khát (ngôi thứ 3 số ít).",
     exampleEn: "He yearns for home.",
     exampleVi: "Anh ấy khao khát được về nhà.",
-    categories: ["Emotions"]
+    categories: ["Emotions"],
   },
   {
-    id: "gen-y-021",
     word: "Yeast",
     slug: "yeast",
     phonetic: "/jiːst/",
     partOfSpeech: "noun",
-    meaningEn: "A microscopic fungus capable of converting sugar into alcohol and carbon dioxide, used in baking and brewing.",
+    meaningEn:
+      "A microscopic fungus capable of converting sugar into alcohol and carbon dioxide, used in baking and brewing.",
     meaningVi: "Men (để làm bánh/nấu rượu).",
     exampleEn: "Bread yeast.",
     exampleVi: "Men bánh mì.",
-    categories: ["Food & Drink", "Biology", "Science"]
+    categories: ["Food & Drink", "Biology", "Science"],
   },
   {
-    id: "gen-y-022",
     word: "Yell",
     slug: "yell",
     phonetic: "/jel/",
@@ -443,10 +414,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "La hét.",
     exampleEn: "Stop yelling at me.",
     exampleVi: "Đừng quát tôi nữa.",
-    categories: ["General", "Social"]
+    categories: ["General", "Social"],
   },
   {
-    id: "a1-45",
     word: "Yellow",
     slug: "yellow",
     phonetic: "/ˈjel.oʊ/",
@@ -455,10 +425,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Màu vàng.",
     exampleEn: "Sunflowers are yellow.",
     exampleVi: "Hoa hướng dương màu vàng.",
-    categories: ["Daily"]
+    categories: ["Daily"],
   },
   {
-    id: "gen-y-083",
     word: "Yellow-fever",
     slug: "yellow-fever",
     phonetic: "/ˌjel.oʊ ˈfiː.vɚ/",
@@ -467,10 +436,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Bệnh sốt vàng da.",
     exampleEn: "Vaccination against yellow-fever.",
     exampleVi: "Tiêm phòng bệnh sốt vàng da.",
-    categories: ["Medical", "Science"]
+    categories: ["Medical", "Science"],
   },
   {
-    id: "gen-y-085",
     word: "Yellow-jacket",
     slug: "yellow-jacket",
     phonetic: "/ˌjel.oʊ ˈdʒæk.ɪt/",
@@ -479,10 +447,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Ong bắp cày vàng.",
     exampleEn: "Stung by a yellow-jacket.",
     exampleVi: "Bị ong bắp cày vàng đốt.",
-    categories: ["Animals", "Biology"]
+    categories: ["Animals", "Biology"],
   },
   {
-    id: "gen-y-084",
     word: "Yellowish",
     slug: "yellowish",
     phonetic: "/ˈjel.oʊ.ɪʃ/",
@@ -491,10 +458,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Hơi vàng/Có màu vàng nhạt.",
     exampleEn: "Yellowish leaves.",
     exampleVi: "Những chiếc lá hơi vàng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-y-3",
     word: "Yellowishness",
     slug: "yellowishness",
     phonetic: "/ˈjel.oʊ.ɪʃ.nəs/",
@@ -503,10 +469,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Sắc vàng.",
     exampleEn: "The yellowishness of the leaves suggests a lack of water.",
     exampleVi: "Màu hơi vàng của lá cây cho thấy sự thiếu nước.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-y-023",
     word: "Yelp",
     slug: "yelp",
     phonetic: "/jelp/",
@@ -515,10 +480,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Tiếng sủa đau đớn/Tiếng kêu la.",
     exampleEn: "The puppy gave a yelp.",
     exampleVi: "Con chó con kêu lên ăng ẳng.",
-    categories: ["Animals", "General", "Emotions"]
+    categories: ["Animals", "General", "Emotions"],
   },
   {
-    id: "gen-y-086",
     word: "Yelped",
     slug: "yelped",
     phonetic: "/jelpt/",
@@ -527,10 +491,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Đã kêu lên (đau đớn).",
     exampleEn: "The dog yelped when I stepped on its tail.",
     exampleVi: "Con chó đã kêu lên khi tôi giẫm vào đuôi nó.",
-    categories: ["Animals"]
+    categories: ["Animals"],
   },
   {
-    id: "gen-y-087",
     word: "Yelping",
     slug: "yelping",
     phonetic: "/ˈjel.pɪŋ/",
@@ -539,10 +502,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Tiếng sủa/Tiếng kêu ăng ẳng.",
     exampleEn: "Yelping sound.",
     exampleVi: "Tiếng kêu ăng ẳng.",
-    categories: ["Animals"]
+    categories: ["Animals"],
   },
   {
-    id: "gen-y-024",
     word: "Yen",
     slug: "yen",
     phonetic: "/jen/",
@@ -551,10 +513,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Đồng Yên (Nhật); sự thèm muốn.",
     exampleEn: "Japanese Yen.",
     exampleVi: "Đồng Yên Nhật.",
-    categories: ["Finance", "Business", "Emotions"]
+    categories: ["Finance", "Business", "Emotions"],
   },
   {
-    id: "gen-y-088",
     word: "Yen-bond",
     slug: "yen-bond",
     phonetic: "/jen bɑːnd/",
@@ -563,22 +524,21 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Trái phiếu bằng đồng Yên.",
     exampleEn: "Investing in yen-bonds.",
     exampleVi: "Đầu tư vào trái phiếu đồng Yên.",
-    categories: ["Finance", "Business"]
+    categories: ["Finance", "Business"],
   },
   {
-    id: "gen-y-025",
     word: "Yeoman",
     slug: "yeoman",
     phonetic: "/ˈjoʊ.mən/",
     partOfSpeech: "noun",
-    meaningEn: "A man holding and cultivating a small landed estate; a freeholder.",
+    meaningEn:
+      "A man holding and cultivating a small landed estate; a freeholder.",
     meaningVi: "Nông dân tự do (thời xưa); lính hộ vệ.",
     exampleEn: "Yeoman duty.",
     exampleVi: "Nhiệm vụ tận tụy.",
-    categories: ["History", "People"]
+    categories: ["History", "People"],
   },
   {
-    id: "added-y-5",
     word: "Yeomanry",
     slug: "yeomanry",
     phonetic: "/ˈjoʊ.mən.ri/",
@@ -586,11 +546,11 @@ export const Y1: VocabularyWord[] = [
     meaningEn: "A group of yeomen.",
     meaningVi: "Giai cấp nông dân tự do.",
     exampleEn: "The yeomanry played a vital role in the history of the county.",
-    exampleVi: "Tầng lớp tiểu nông (yeomanry) đã đóng một vai trò quan trọng trong lịch sử của hạt.",
-    categories: ["General"]
+    exampleVi:
+      "Tầng lớp tiểu nông (yeomanry) đã đóng một vai trò quan trọng trong lịch sử của hạt.",
+    categories: ["General"],
   },
   {
-    id: "gen-1874",
     word: "Yes",
     slug: "yes",
     phonetic: "/jes/",
@@ -599,10 +559,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Vâng.",
     exampleEn: "Say yes.",
     exampleVi: "Hãy nói đồng ý.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-y-2",
     word: "Yesterday",
     slug: "yesterday",
     phonetic: "/ˈjes.tɚ.deɪ/",
@@ -611,10 +570,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Ngày hôm qua.",
     exampleEn: "Yesterday was a beautiful sunny day.",
     exampleVi: "Ngày hôm qua là một ngày nắng đẹp trời.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-y-6",
     word: "Yesterday-night",
     slug: "yesterday-night",
     phonetic: "/ˈjes.tɚ.deɪ naɪt/",
@@ -623,10 +581,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Tối hôm qua.",
     exampleEn: "We stayed at home and watched a movie yesterday-night.",
     exampleVi: "Chúng tôi đã ở nhà và xem một bộ phim vào tối hôm qua.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1876",
     word: "Yet",
     slug: "yet",
     phonetic: "/jet/",
@@ -635,34 +592,33 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Chưa.",
     exampleEn: "Not yet.",
     exampleVi: "Chưa được.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-y-026",
     word: "Yeti",
     slug: "yeti",
     phonetic: "/ˈjet.i/",
     partOfSpeech: "noun",
-    meaningEn: "A large hairy creature resembling a human or bear, said to inhabit the Himalayas.",
+    meaningEn:
+      "A large hairy creature resembling a human or bear, said to inhabit the Himalayas.",
     meaningVi: "Người tuyết (Yeti).",
     exampleEn: "Tales of the Yeti.",
     exampleVi: "Những câu chuyện về người tuyết.",
-    categories: ["Mystery", "History", "Nature"]
+    categories: ["Mystery", "History", "Nature"],
   },
   {
-    id: "gen-y-027",
     word: "Yew",
     slug: "yew",
     phonetic: "/juː/",
     partOfSpeech: "noun",
-    meaningEn: "A coniferous tree with poisonous red berry-like fruits and wood used for making bows.",
+    meaningEn:
+      "A coniferous tree with poisonous red berry-like fruits and wood used for making bows.",
     meaningVi: "Cây thủy tùng.",
     exampleEn: "Yew tree.",
     exampleVi: "Cây thủy tùng.",
-    categories: ["Nature", "Plants"]
+    categories: ["Nature", "Plants"],
   },
   {
-    id: "exp-final-y-2",
     word: "Yield",
     slug: "yield",
     phonetic: "/jiːld/",
@@ -670,11 +626,11 @@ export const Y1: VocabularyWord[] = [
     meaningEn: "Produce or provide; give way.",
     meaningVi: "Sản lượng/Nhường đường/Chịu thua.",
     exampleEn: "The fields yield a bumper crop of wheat this year.",
-    exampleVi: "Những cánh đồng mang lại sản lượng lúa mì bội thu trong năm nay.",
-    categories: ["General"]
+    exampleVi:
+      "Những cánh đồng mang lại sản lượng lúa mì bội thu trong năm nay.",
+    categories: ["General"],
   },
   {
-    id: "added-y-7",
     word: "Yieldable",
     slug: "yieldable",
     phonetic: "/ˈjiːl.də.bəl/",
@@ -682,11 +638,11 @@ export const Y1: VocabularyWord[] = [
     meaningEn: "Capable of being yielded.",
     meaningVi: "Có thể nhường được/Có thể sinh ra được.",
     exampleEn: "The issue proved to be yieldable after a long debate.",
-    exampleVi: "Vấn đề đã chứng tỏ là có thể giải quyết (mang lại kết quả) sau một cuộc tranh luận dài.",
-    categories: ["General"]
+    exampleVi:
+      "Vấn đề đã chứng tỏ là có thể giải quyết (mang lại kết quả) sau một cuộc tranh luận dài.",
+    categories: ["General"],
   },
   {
-    id: "gen-y-028",
     word: "Yielding",
     slug: "yielding",
     phonetic: "/ˈjiːl.dɪŋ/",
@@ -695,10 +651,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Dễ uốn/Mềm dẻo; hay nhường nhịn.",
     exampleEn: "A yielding substance.",
     exampleVi: "Một chất liệu dễ uốn.",
-    categories: ["General", "Materials"]
+    categories: ["General", "Materials"],
   },
   {
-    id: "gen-y-029",
     word: "Yippee",
     slug: "yippee",
     phonetic: "/jɪˈpiː/",
@@ -707,34 +662,33 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Hoan hô! (biểu đạt sự vui mừng).",
     exampleEn: "Yippee! We won!",
     exampleVi: "Hoan hô! Chúng ta thắng rồi!",
-    categories: ["Emotions", "General"]
+    categories: ["Emotions", "General"],
   },
   {
-    id: "gen-y-046",
     word: "Yo-yo",
     slug: "yo-yo",
     phonetic: "/ˈjoʊ.joʊ/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A toy consisting of a pair of joined discs with a deep groove between them in which string is attached and wound.",
+    meaningEn:
+      "A toy consisting of a pair of joined discs with a deep groove between them in which string is attached and wound.",
     meaningVi: "Trò chơi Yo-yo.",
     exampleEn: "Playing with a yo-yo.",
     exampleVi: "Chơi với con yo-yo.",
-    categories: ["General", "Games"]
+    categories: ["General", "Games"],
   },
   {
-    id: "gen-y-030",
     word: "Yodel",
     slug: "yodel",
     phonetic: "/ˈjoʊ.dəl/",
     partOfSpeech: "verb/noun",
-    meaningEn: "Sing with a frequent change from the ordinary voice to falsetto.",
+    meaningEn:
+      "Sing with a frequent change from the ordinary voice to falsetto.",
     meaningVi: "Hát lối Yodel (kiểu hát của người vùng núi Alps).",
     exampleEn: "He can yodel.",
     exampleVi: "Anh ấy có thể hát lối yodel.",
-    categories: ["Music", "Art"]
+    categories: ["Music", "Art"],
   },
   {
-    id: "gen-y-031",
     word: "Yoga",
     slug: "yoga",
     phonetic: "/ˈjoʊ.ɡə/",
@@ -743,10 +697,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Yoga.",
     exampleEn: "Practice yoga daily.",
     exampleVi: "Tập yoga hàng ngày.",
-    categories: ["Sports", "Religion"]
+    categories: ["Sports", "Religion"],
   },
   {
-    id: "added-y-8",
     word: "Yoga-teacher",
     slug: "yoga-teacher",
     phonetic: "/ˈjoʊ.ɡə tiː.tʃɚ/",
@@ -755,10 +708,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Giảng viên yoga.",
     exampleEn: "The yoga-teacher helped us with our breathing techniques.",
     exampleVi: "Giáo viên yoga đã giúp chúng tôi với các kỹ thuật thở.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-y-032",
     word: "Yogi",
     slug: "yogi",
     phonetic: "/ˈjoʊ.ɡi/",
@@ -767,10 +719,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Người tập yoga điêu luyện/Đạo sĩ yoga.",
     exampleEn: "A wise yogi.",
     exampleVi: "Một đạo sĩ yoga thông thái.",
-    categories: ["People", "Philosophy"]
+    categories: ["People", "Philosophy"],
   },
   {
-    id: "exp-b4b-y-3",
     word: "Yogic",
     slug: "yogic",
     phonetic: "/ˈjoʊ.ɡɪk/",
@@ -779,22 +730,21 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Thuộc về yoga.",
     exampleEn: "The center offers yogic exercises for relaxation.",
     exampleVi: "Trung tâm cung cấp các bài tập thuộc về yoga để thư giãn.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-y-033",
     word: "Yogurt",
     slug: "yogurt",
     phonetic: "/ˈjoʊ.ɡɚt/",
     partOfSpeech: "noun",
-    meaningEn: "A semi-solid sourish food prepared from milk fermented by added bacteria.",
+    meaningEn:
+      "A semi-solid sourish food prepared from milk fermented by added bacteria.",
     meaningVi: "Sữa chua.",
     exampleEn: "Greek yogurt.",
     exampleVi: "Sữa chua Hy Lạp.",
-    categories: ["Food & Drink"]
+    categories: ["Food & Drink"],
   },
   {
-    id: "added-y-9",
     word: "Yogurt-maker",
     slug: "yogurt-maker",
     phonetic: "/ˈjoʊ.ɡɚt ˌmeɪ.kɚ/",
@@ -802,11 +752,11 @@ export const Y1: VocabularyWord[] = [
     meaningEn: "A machine for making yogurt.",
     meaningVi: "Máy làm sữa chua.",
     exampleEn: "Using a yogurt-maker is an easy way to have fresh yogurt.",
-    exampleVi: "Sử dụng máy làm sữa chua là một cách dễ dàng để có sữa chua tươi.",
-    categories: ["General"]
+    exampleVi:
+      "Sử dụng máy làm sữa chua là một cách dễ dàng để có sữa chua tươi.",
+    categories: ["General"],
   },
   {
-    id: "exp-b5c-y-2",
     word: "Yoke",
     slug: "yoke",
     phonetic: "/joʊk/",
@@ -815,10 +765,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Cái ách/Sự áp bức.",
     exampleEn: "The farmers placed a heavy yoke on the oxen.",
     exampleVi: "Các nông dân đã đặt một chiếc ách nặng lên đôi bò.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5c-y-3",
     word: "Yokel",
     slug: "yokel",
     phonetic: "/ˈjoʊ.kəl/",
@@ -826,11 +775,11 @@ export const Y1: VocabularyWord[] = [
     meaningEn: "An uneducated and unsophisticated person from the countryside.",
     meaningVi: "Người nhà quê/Anh chàng khờ khạo.",
     exampleEn: "The city people laughed at the simple country yokel.",
-    exampleVi: "Những người thành phố đã cười nhạo anh chàng nhà quê (khờ khạo) đơn giản này.",
-    categories: ["General"]
+    exampleVi:
+      "Những người thành phố đã cười nhạo anh chàng nhà quê (khờ khạo) đơn giản này.",
+    categories: ["General"],
   },
   {
-    id: "gen-y-036",
     word: "Yolk",
     slug: "yolk",
     phonetic: "/joʊk/",
@@ -839,10 +788,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Lòng đỏ trứng.",
     exampleEn: "Egg yolk.",
     exampleVi: "Lòng đỏ trứng gà.",
-    categories: ["Food & Drink", "Biology"]
+    categories: ["Food & Drink", "Biology"],
   },
   {
-    id: "gen-y-037",
     word: "Yom Kippur",
     slug: "yom-kippur",
     phonetic: "/ˌjɑːm kɪˈpʊr/",
@@ -851,10 +799,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Lễ Chuộc tội (ngày lễ trang trọng nhất của người Do Thái).",
     exampleEn: "Celebrating Yom Kippur.",
     exampleVi: "Kỷ niệm ngày Lễ Chuộc tội.",
-    categories: ["Religion", "History"]
+    categories: ["Religion", "History"],
   },
   {
-    id: "gen-y-038",
     word: "Yon",
     slug: "yon",
     phonetic: "/jɑːn/",
@@ -863,10 +810,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Phía kia/Đằng kia.",
     exampleEn: "Yon hills.",
     exampleVi: "Những ngọn đồi đằng kia.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-y-039",
     word: "Yonder",
     slug: "yonder",
     phonetic: "/ˈjɑːn.dɚ/",
@@ -875,10 +821,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Ở đằng kia.",
     exampleEn: "Over yonder.",
     exampleVi: "Ở ngay đằng kia.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-y-040",
     word: "Yore",
     slug: "yore",
     phonetic: "/jɔːr/",
@@ -887,22 +832,21 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Ngày xưa/Thuở xưa.",
     exampleEn: "Days of yore.",
     exampleVi: "Những ngày xa xưa.",
-    categories: ["History", "Time"]
+    categories: ["History", "Time"],
   },
   {
-    id: "gen-1878",
     word: "You",
     slug: "you",
     phonetic: "/juː/",
     partOfSpeech: "pronoun",
-    meaningEn: "Used to refer to the person or people that the speaker is addressing.",
+    meaningEn:
+      "Used to refer to the person or people that the speaker is addressing.",
     meaningVi: "Bạn.",
     exampleEn: "I love you.",
     exampleVi: "Tôi yêu bạn.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "a1-84",
     word: "Young",
     slug: "young",
     phonetic: "/jʌŋ/",
@@ -911,10 +855,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Trẻ.",
     exampleEn: "A young girl.",
     exampleVi: "Một cô gái trẻ.",
-    categories: ["Daily"]
+    categories: ["Daily"],
   },
   {
-    id: "added-y-1",
     word: "Youngish",
     slug: "youngish",
     phonetic: "/ˈjʌŋ.ɪʃ/",
@@ -922,11 +865,11 @@ export const Y1: VocabularyWord[] = [
     meaningEn: "Relatively young.",
     meaningVi: "Khá trẻ.",
     exampleEn: "He is a youngish man, probably in his early thirties.",
-    exampleVi: "Anh ấy là một người đàn ông hơi trẻ, có lẽ đang ở độ tuổi đầu ba mươi.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ấy là một người đàn ông hơi trẻ, có lẽ đang ở độ tuổi đầu ba mươi.",
+    categories: ["General"],
   },
   {
-    id: "gen-y-041",
     word: "Youngster",
     slug: "youngster",
     phonetic: "/ˈjʌŋ.stɚ/",
@@ -935,46 +878,45 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Người trẻ tuổi/Thanh thiếu niên.",
     exampleEn: "Energetic youngsters.",
     exampleVi: "Những người trẻ đầy năng lượng.",
-    categories: ["People", "Social"]
+    categories: ["People", "Social"],
   },
   {
-    id: "gen-1880",
     word: "Your",
     slug: "your",
     phonetic: "/jɔːr/",
     partOfSpeech: "determiner",
-    meaningEn: "Belonging to or associated with the person or people that the speaker is addressing.",
+    meaningEn:
+      "Belonging to or associated with the person or people that the speaker is addressing.",
     meaningVi: "Của bạn.",
     exampleEn: "Your book.",
     exampleVi: "Sách của bạn.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1881",
     word: "Yours",
     slug: "yours",
     phonetic: "/jɔːrz/",
     partOfSpeech: "pronoun",
-    meaningEn: "Used to refer to a thing or things belonging to or associated with the person or people that the speaker is addressing.",
+    meaningEn:
+      "Used to refer to a thing or things belonging to or associated with the person or people that the speaker is addressing.",
     meaningVi: "Của bạn.",
     exampleEn: "Is this yours?",
     exampleVi: "Cái này là của bạn phải không?",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1882",
     word: "Yourself",
     slug: "yourself",
     phonetic: "/jɔːrˈself/",
     partOfSpeech: "pronoun",
-    meaningEn: "Used as the object of a verb or preposition when the person spoken to is the same as the subject of the verb.",
+    meaningEn:
+      "Used as the object of a verb or preposition when the person spoken to is the same as the subject of the verb.",
     meaningVi: "Chính bạn.",
     exampleEn: "Do it yourself.",
     exampleVi: "Hãy tự mình làm.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-y-042",
     word: "Yourselves",
     slug: "yourselves",
     phonetic: "/jʊərˈselvz/",
@@ -983,10 +925,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Chính các bạn.",
     exampleEn: "Take care of yourselves.",
     exampleVi: "Hãy chăm sóc chính các bạn.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1883",
     word: "Youth",
     slug: "youth",
     phonetic: "/juːθ/",
@@ -995,10 +936,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Tuổi trẻ.",
     exampleEn: "Fountain of youth.",
     exampleVi: "Suối nguồn tươi trẻ.",
-    categories: ["General", "People"]
+    categories: ["General", "People"],
   },
   {
-    id: "added-y-2",
     word: "Youth-hostel",
     slug: "youth-hostel",
     phonetic: "/juːθ ˈhɑː.stəl/",
@@ -1006,11 +946,11 @@ export const Y1: VocabularyWord[] = [
     meaningEn: "Cheap accommodation for young travelers.",
     meaningVi: "Nhà nghỉ cho thanh niên.",
     exampleEn: "We stayed at a cheap youth-hostel during our trip.",
-    exampleVi: "Chúng tôi đã ở tại một nhà trọ thanh niên (youth hostel) giá rẻ trong chuyến đi của mình.",
-    categories: ["General"]
+    exampleVi:
+      "Chúng tôi đã ở tại một nhà trọ thanh niên (youth hostel) giá rẻ trong chuyến đi của mình.",
+    categories: ["General"],
   },
   {
-    id: "gen-y-043",
     word: "Youthful",
     slug: "youthful",
     phonetic: "/ˈjuːθ.fəl/",
@@ -1019,10 +959,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Trẻ trung.",
     exampleEn: "Youthful appearance.",
     exampleVi: "Vẻ ngoài trẻ trung.",
-    categories: ["General", "Body"]
+    categories: ["General", "Body"],
   },
   {
-    id: "gen-y-089",
     word: "Youthfully",
     slug: "youthfully",
     phonetic: "/ˈjuːθ.fəl.i/",
@@ -1031,10 +970,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Một cách trẻ trung.",
     exampleEn: "He dressed youthfully.",
     exampleVi: "Anh ấy ăn mặc một cách trẻ trung.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-y-044",
     word: "Youthfulness",
     slug: "youthfulness",
     phonetic: "/ˈjuːθ.fəl.nəs/",
@@ -1043,22 +981,21 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Sự tươi trẻ.",
     exampleEn: "Maintaining youthfulness.",
     exampleVi: "Duy trì sự tươi trẻ.",
-    categories: ["General", "Body"]
+    categories: ["General", "Body"],
   },
   {
-    id: "gen-y-045",
     word: "Yowl",
     slug: "yowl",
     phonetic: "/jaʊl/",
     partOfSpeech: "verb/noun",
-    meaningEn: "Utter a loud wailing cry which is typical of an animal in pain or distress.",
+    meaningEn:
+      "Utter a loud wailing cry which is typical of an animal in pain or distress.",
     meaningVi: "Tiếng hú/Tiếng kêu gào (đau đớn).",
     exampleEn: "The cat yowled in the night.",
     exampleVi: "Con mèo kêu gào thảm thiết trong đêm.",
-    categories: ["Animals", "General", "Emotions"]
+    categories: ["Animals", "General", "Emotions"],
   },
   {
-    id: "gen-y-065",
     word: "Yowling",
     slug: "yowling",
     phonetic: "/ˈjaʊ.lɪŋ/",
@@ -1067,10 +1004,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Tiếng hú/Tiếng gào thét.",
     exampleEn: "The yowling of wolves.",
     exampleVi: "Tiếng hú của bầy sói.",
-    categories: ["Animals", "General"]
+    categories: ["Animals", "General"],
   },
   {
-    id: "gen-y-066",
     word: "Yuan",
     slug: "yuan",
     phonetic: "/juˈɑːn/",
@@ -1079,10 +1015,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Đồng Nhân dân tệ (Trung Quốc).",
     exampleEn: "The exchange rate of the Yuan.",
     exampleVi: "Tỷ giá hối đoái của đồng Nhân dân tệ.",
-    categories: ["Finance", "Business"]
+    categories: ["Finance", "Business"],
   },
   {
-    id: "gen-y-067",
     word: "Yucatan",
     slug: "yucatan",
     phonetic: "/ˌjuː.kəˈtæn/",
@@ -1091,10 +1026,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Bán đảo Yucatan (Mexico).",
     exampleEn: "The Yucatan Peninsula.",
     exampleVi: "Bán đảo Yucatan.",
-    categories: ["Geography"]
+    categories: ["Geography"],
   },
   {
-    id: "gen-y-068",
     word: "Yucky",
     slug: "yucky",
     phonetic: "/ˈjʌk.i/",
@@ -1103,10 +1037,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Kinh tởm/Bẩn thỉu.",
     exampleEn: "Yucky food.",
     exampleVi: "Thức ăn tệ hại.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-y-069",
     word: "Yukon",
     slug: "yukon",
     phonetic: "/ˈjuː.kɑːn/",
@@ -1115,10 +1048,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Lãnh thổ Yukon (Canada).",
     exampleEn: "The Yukon River.",
     exampleVi: "Sông Yukon.",
-    categories: ["Geography"]
+    categories: ["Geography"],
   },
   {
-    id: "gen-y-051",
     word: "Yule",
     slug: "yule",
     phonetic: "/juːl/",
@@ -1127,22 +1059,21 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Lễ Giáng sinh.",
     exampleEn: "Yule log.",
     exampleVi: "Khúc cây Giáng sinh.",
-    categories: ["Religion", "History", "Daily"]
+    categories: ["Religion", "History", "Daily"],
   },
   {
-    id: "gen-y-070",
     word: "Yule-log",
     slug: "yule-log",
     phonetic: "/ˈjuːl lɑːɡ/",
     partOfSpeech: "noun",
-    meaningEn: "A large log traditionally burnt in the hearth on Christmas Eve.",
+    meaningEn:
+      "A large log traditionally burnt in the hearth on Christmas Eve.",
     meaningVi: "Khúc gỗ Giáng sinh.",
     exampleEn: "Lighting the yule-log.",
     exampleVi: "Đốt khúc gỗ Giáng sinh.",
-    categories: ["History", "Culture"]
+    categories: ["History", "Culture"],
   },
   {
-    id: "gen-y-052",
     word: "Yuletide",
     slug: "yuletide",
     phonetic: "/ˈjuːl.taɪd/",
@@ -1151,10 +1082,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Mùa Giáng sinh.",
     exampleEn: "Yuletide greetings.",
     exampleVi: "Lời chào mừng mùa Giáng sinh.",
-    categories: ["Religion", "History", "Daily"]
+    categories: ["Religion", "History", "Daily"],
   },
   {
-    id: "gen-y-053",
     word: "Yummy",
     slug: "yummy",
     phonetic: "/ˈjʌm.i/",
@@ -1163,10 +1093,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Ngon tuyệt.",
     exampleEn: "Yummy cake.",
     exampleVi: "Bánh ngon tuyệt.",
-    categories: ["Food & Drink", "General"]
+    categories: ["Food & Drink", "General"],
   },
   {
-    id: "gen-y-054",
     word: "Yup",
     slug: "yup",
     phonetic: "/jʌp/",
@@ -1175,10 +1104,9 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Vâng (suồng sã).",
     exampleEn: "Yup, that's right.",
     exampleVi: "Vâng, đúng vậy đó.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-y-071",
     word: "Yup-yup",
     slug: "yup-yup",
     phonetic: "/jʌp jʌp/",
@@ -1187,18 +1115,18 @@ export const Y1: VocabularyWord[] = [
     meaningVi: "Đúng đúng/Vâng vâng (đồng ý mạnh mẽ).",
     exampleEn: "‘Coming?’ ‘Yup-yup!’",
     exampleVi: "‘Đi chứ?’ ‘Đúng đúng!’",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-y-055",
     word: "Yuppie",
     slug: "yuppie",
     phonetic: "/ˈjʌp.i/",
     partOfSpeech: "noun",
-    meaningEn: "A young, affluent person who works in a professional occupation and lives in an urban area.",
+    meaningEn:
+      "A young, affluent person who works in a professional occupation and lives in an urban area.",
     meaningVi: "Người trẻ trung thượng lưu.",
     exampleEn: "Yuppie lifestyle.",
     exampleVi: "Lối sống của giới trẻ thượng lưu.",
-    categories: ["People", "Social", "Business"]
-  }
+    categories: ["People", "Social", "Business"],
+  },
 ];

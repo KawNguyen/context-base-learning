@@ -29,12 +29,12 @@ export function QuestionNavigation({
               currentIndex === idx
                 ? "default"
                 : answers[q.id]
-                ? "secondary"
-                : "outline"
+                  ? "secondary"
+                  : "outline"
             }
             className={cn(
               "h-8 w-8 p-0 text-[10px] font-bold",
-              currentIndex === idx && "ring-2 ring-primary ring-offset-1"
+              currentIndex === idx && "ring-2 ring-primary ring-offset-1",
             )}
             onClick={() => onNavigate(idx)}
           >

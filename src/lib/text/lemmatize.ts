@@ -314,6 +314,63 @@ const IRREGULAR_VERBS: Record<string, string> = {
   wringing: "wring",
 };
 
+// Words ending in -ed or -ing that are base words (e.g. adjectives, nouns)
+// and should not have their suffixes stripped down to verbs.
+const DO_NOT_STEM = new Set([
+  "sophisticated",
+  "complicated",
+  "dedicated",
+  "detailed",
+  "limited",
+  "related",
+  "associated",
+  "united",
+  "required",
+  "advanced",
+  "tired",
+  "excited",
+  "interested",
+  "bored",
+  "naked",
+  "sacred",
+  "wicked",
+  "rugged",
+  "wretched",
+  "beloved",
+  "crooked",
+  "blessed",
+  "learned",
+  "aged",
+  "dogged",
+  "ragged",
+  "jagged",
+  "unprecedented",
+  "during",
+  "meaning",
+  "something",
+  "nothing",
+  "anything",
+  "everything",
+  "morning",
+  "evening",
+  "wedding",
+  "building",
+  "ceiling",
+  "reading",
+  "listening",
+  "speaking",
+  "writing",
+  "learning",
+  "training",
+  "understanding",
+  "marketing",
+  "meeting",
+  "clothing",
+  "engineering",
+  "well-being",
+  "being",
+]);
+
 function matchCase(original: string, result: string) {
   if (original === original.toUpperCase()) {
     return result.toUpperCase();
@@ -329,7 +386,12 @@ export function lemmatize(word: string): string {
 
   const lower = word.toLowerCase();
 
-  // Check irregular verbs first
+  // Check if word ends in -ed or -ing but shouldn't be stemmed down
+  if (DO_NOT_STEM.has(lower)) {
+    return word;
+  }
+
+  // Check irregular verbs after exceptions
   if (IRREGULAR_VERBS[lower]) {
     return matchCase(word, IRREGULAR_VERBS[lower]);
   }
@@ -354,13 +416,57 @@ export function lemmatize(word: string): string {
       base.endsWith("sh") ||
       base.endsWith("tch") ||
       base.endsWith("dge") ||
-      base.endsWith("nge")
+      base.endsWith("nge") ||
+      base.endsWith("ng") || // offering -> offer (not offere)
+      base.endsWith("rd") || // rewarding -> reward (not rewarde)
+      base.endsWith("rt") ||
+      base.endsWith("st") ||
+      base.endsWith("nd") || // finding -> find
+      base.endsWith("ld") || // building -> build
+      base.endsWith("er") || // offering -> offer, answering -> answer
+      base.endsWith("ar") ||
+      base.endsWith("or") ||
+      base.endsWith("ur") ||
+      base.endsWith("en") || // listening -> listen
+      base.endsWith("on") ||
+      base.endsWith("in") ||
+      base.endsWith("el") || // traveling -> travel
+      base.endsWith("al") ||
+      base.endsWith("il") ||
+      base.endsWith("ol") ||
+      base.endsWith("ul") ||
+      base.endsWith("ow") || // showing -> show
+      base.endsWith("ew") ||
+      base.endsWith("ay") || // playing -> play
+      base.endsWith("ey") ||
+      base.endsWith("oy")
     ) {
       result = base;
     }
     // Most other -ing forms need 'e' added back (making -> make, taking -> take)
     // But only if base doesn't already end in 'e'
-    else if (base.length >= 1 && !base.endsWith("e")) {
+    else if (
+      base.length >= 2 &&
+      !base.endsWith("e") &&
+      !["a", "e", "i", "o", "u"].includes(base[base.length - 2]) && // prevent e if second to last is vowel (e.g., read -> reading, wait -> waiting)
+      [
+        "b",
+        "c",
+        "d",
+        "f",
+        "g",
+        "k",
+        "l",
+        "m",
+        "n",
+        "p",
+        "r",
+        "s",
+        "t",
+        "v",
+        "z",
+      ].includes(base[base.length - 1]) // typical consonants that drop 'e'
+    ) {
       result = base + "e";
     } else {
       result = base;
@@ -381,26 +487,24 @@ export function lemmatize(word: string): string {
     else if (lower.endsWith("ied") && lower.length > 3) {
       result = lower.slice(0, -3) + "y";
     }
-    // Just remove -ed, but check if needs 'e' at end
+    // 'eed' -> remove only 'd' if it's from word like 'agreed' -> 'agree'
+    else if (lower.endsWith("eed")) {
+      result = lower.slice(0, -1);
+    }
+    // Just remove -ed
     else {
-      // For words ending in consonant + consonant (not doubled), likely needs 'e'
-      // Examples: nuanced -> nuance, balanced -> balance, forced -> force
+      result = base; // "regarded" -> "regard", "wanted" -> "want", etc.
+
+      // Specifically add 'e' back ONLY for specific consonant patterns that mean it dropped 'e'
+      // Words ending in 'c', 'v', 'z', 'g' almost always need 'e' added back (force, behave, amaze, change)
       if (base.length >= 2) {
         const last = base[base.length - 1];
-        const secondLast = base[base.length - 2];
-
-        // If ends with 'nc', 'rc', 'lc', 'st', etc. (consonant clusters), add 'e'
         if (
-          !"aeiou".includes(last) &&
-          !"aeiou".includes(secondLast) &&
-          last !== secondLast // not a double consonant
+          ["c", "v", "z"].includes(last) ||
+          (base.endsWith("g") && !base.endsWith("ng"))
         ) {
-          result = base + "e";
-        } else {
-          result = base;
+          result = base + "e"; // balanced -> balance, saved -> save
         }
-      } else {
-        result = base;
       }
     }
   }

@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const M1: VocabularyWord[] = [
   {
-    id: "gen-839",
     word: "Machine",
     slug: "machine",
     phonetic: "/məˈʃiːn/",
@@ -14,7 +13,6 @@ export const M1: VocabularyWord[] = [
     categories: ["Technology"],
   },
   {
-    id: "gen-840",
     word: "Magazine",
     slug: "magazine",
     phonetic: "/ˌmæɡ.əˈziːn/",
@@ -26,7 +24,6 @@ export const M1: VocabularyWord[] = [
     categories: ["Media"],
   },
   {
-    id: "gen-841",
     word: "Magic",
     slug: "magic",
     phonetic: "/ˈmædʒ.ɪk/",
@@ -38,7 +35,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "job-062",
     word: "Magician",
     slug: "magician",
     phonetic: "/məˈdʒɪʃ.ən/",
@@ -47,22 +43,22 @@ export const M1: VocabularyWord[] = [
     meaningVi: "Ảo thuật gia.",
     exampleEn: "The magician amazed the audience.",
     exampleVi: "Ảo thuật gia đã làm khán giả kinh ngạc.",
-    categories: ["Jobs","Entertainment"],
+    categories: ["Jobs", "Entertainment"],
   },
   {
-    id: "exp-b5b-m-1",
     word: "Magnanimous",
     slug: "magnanimous",
     phonetic: "/mæɡˈnæn.ə.məs/",
     partOfSpeech: "noun",
-    meaningEn: "Generous or forgiving, especially toward a rival or less powerful person.",
+    meaningEn:
+      "Generous or forgiving, especially toward a rival or less powerful person.",
     meaningVi: "Hào hiệp/Khoan dung.",
     exampleEn: "He was magnanimous in victory and congratulated his opponent.",
-    exampleVi: "Anh ấy rất hào hiệp khi chiến thắng và đã chúc mừng đối thủ của mình.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ấy rất hào hiệp khi chiến thắng và đã chúc mừng đối thủ của mình.",
+    categories: ["General"],
   },
   {
-    id: "c1-48",
     word: "Magnitude",
     slug: "magnitude",
     phonetic: "/ˈmæɡ.nə.tuːd/",
@@ -74,7 +70,6 @@ export const M1: VocabularyWord[] = [
     categories: ["Academic"],
   },
   {
-    id: "gen-842",
     word: "Mail",
     slug: "mail",
     phonetic: "/meɪl/",
@@ -86,7 +81,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-843",
     word: "Main",
     slug: "main",
     phonetic: "/meɪn/",
@@ -98,19 +92,18 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "c1-220",
     word: "Mainstream",
     slug: "mainstream",
     phonetic: "/ˈmeɪn.striːm/",
     partOfSpeech: "noun/adj",
-    meaningEn: "The ideas, attitudes, or activities that are regarded as normal or conventional.",
+    meaningEn:
+      "The ideas, attitudes, or activities that are regarded as normal or conventional.",
     meaningVi: "Xu hướng chính, chủ đạo.",
     exampleEn: "Mainstream media.",
     exampleVi: "Truyền thông chính thống/chủ đạo.",
-    categories: ["Social","Daily"],
+    categories: ["Social", "Daily"],
   },
   {
-    id: "gen-844",
     word: "Maintain",
     slug: "maintain",
     phonetic: "/meɪnˈteɪn/",
@@ -122,7 +115,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b1-229",
     word: "Maintenance",
     slug: "maintenance",
     phonetic: "/ˈmeɪn.tə.nəns/",
@@ -131,10 +123,9 @@ export const M1: VocabularyWord[] = [
     meaningVi: "Sự bảo trì.",
     exampleEn: "System maintenance.",
     exampleVi: "Bảo trì hệ thống.",
-    categories: ["Technology","Daily","Business"],
+    categories: ["Technology", "Daily", "Business"],
   },
   {
-    id: "gen-845",
     word: "Major",
     slug: "major",
     phonetic: "/ˈmeɪ.dʒɚ/",
@@ -146,7 +137,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-846",
     word: "Majority",
     slug: "majority",
     phonetic: "/məˈdʒɔːr.ə.ti/",
@@ -158,7 +148,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-847",
     word: "Make",
     slug: "make",
     phonetic: "/meɪk/",
@@ -170,7 +159,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "pv-71",
     word: "Make out",
     slug: "make-out",
     phonetic: "/meɪk aʊt/",
@@ -182,7 +170,6 @@ export const M1: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-17",
     word: "Make up",
     slug: "make-up",
     phonetic: "/meɪk ʌp/",
@@ -194,7 +181,6 @@ export const M1: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-93",
     word: "Make up for",
     slug: "make-up-for",
     phonetic: "/meɪk ʌp fɔːr/",
@@ -202,11 +188,11 @@ export const M1: VocabularyWord[] = [
     meaningEn: "Compensate for something.",
     meaningVi: "Đền bù cho.",
     exampleEn: "I hope this gift makes up for my lateness.",
-    exampleVi: "Tôi hy vọng món quà này có thể bù đắp cho sự muộn màng của mình.",
+    exampleVi:
+      "Tôi hy vọng món quà này có thể bù đắp cho sự muộn màng của mình.",
     categories: ["Phrasal Verb"],
   },
   {
-    id: "exp-b5b-m-2",
     word: "Maladroit",
     slug: "maladroit",
     phonetic: "/ˌmæl.əˈdrɔɪt/",
@@ -214,11 +200,11 @@ export const M1: VocabularyWord[] = [
     meaningEn: "Inefficient or inept; clumsy.",
     meaningVi: "Vụng về/Hậu đậu.",
     exampleEn: "His maladroit handling of the situation made things worse.",
-    exampleVi: "Sự xử lý vụng về của anh ấy đối với tình huống này đã làm mọi chuyện tồi tệ hơn.",
-    categories: ["General"]
+    exampleVi:
+      "Sự xử lý vụng về của anh ấy đối với tình huống này đã làm mọi chuyện tồi tệ hơn.",
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-m-3",
     word: "Malaise",
     slug: "malaise",
     phonetic: "/mælˈeɪz/",
@@ -227,10 +213,9 @@ export const M1: VocabularyWord[] = [
     meaningVi: "Sự khó chịu/Bất an.",
     exampleEn: "A general malaise has settled over the economy.",
     exampleVi: "Một sự bất an (khó chịu) chung đã bao trùm lên nền kinh tế.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-m-4",
     word: "Malapropism",
     slug: "malapropism",
     phonetic: "/ˈmæl.ə.prɑː.pɪ.zəm/",
@@ -238,11 +223,11 @@ export const M1: VocabularyWord[] = [
     meaningEn: "The mistaken use of a word in place of a similar-sounding one.",
     meaningVi: "Sự dùng từ nhầm lẫn khôi hài.",
     exampleEn: "The speaker's malapropisms caused much laughter.",
-    exampleVi: "Việc dùng từ nhầm lẫn khôi hài của diễn giả đã gây ra nhiều tiếng cười.",
-    categories: ["General"]
+    exampleVi:
+      "Việc dùng từ nhầm lẫn khôi hài của diễn giả đã gây ra nhiều tiếng cười.",
+    categories: ["General"],
   },
   {
-    id: "gen-848",
     word: "Male",
     slug: "male",
     phonetic: "/meɪl/",
@@ -254,7 +239,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5b-m-5",
     word: "Malevolent",
     slug: "malevolent",
     phonetic: "/məˈlev.əl.ənt/",
@@ -262,11 +246,11 @@ export const M1: VocabularyWord[] = [
     meaningEn: "Having or showing a wish to do evil to others.",
     meaningVi: "Có ác ý.",
     exampleEn: "He gave her a malevolent look across the room.",
-    exampleVi: "Anh ta nhìn cô với một ánh mắt đầy ác ý từ phía bên kia căn phòng.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ta nhìn cô với một ánh mắt đầy ác ý từ phía bên kia căn phòng.",
+    categories: ["General"],
   },
   {
-    id: "gen-849",
     word: "Mall",
     slug: "mall",
     phonetic: "/mɔːl/",
@@ -278,19 +262,18 @@ export const M1: VocabularyWord[] = [
     categories: ["Shopping"],
   },
   {
-    id: "exp-b5b-m-6",
     word: "Malleable",
     slug: "malleable",
     phonetic: "/ˈmæl.i.ə.bəl/",
     partOfSpeech: "noun",
-    meaningEn: "Able to be hammered or pressed permanently out of shape without breaking.",
+    meaningEn:
+      "Able to be hammered or pressed permanently out of shape without breaking.",
     meaningVi: "Dễ uốn/Dễ bảo.",
     exampleEn: "Children's minds are very malleable and easy to influence.",
     exampleVi: "Tâm trí trẻ em rất dễ uốn nắn (dễ bảo) và dễ bị ảnh hưởng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "a1-50",
     word: "Man",
     slug: "man",
     phonetic: "/mæn/",
@@ -299,10 +282,9 @@ export const M1: VocabularyWord[] = [
     meaningVi: "Người đàn ông.",
     exampleEn: "He is a tall man.",
     exampleVi: "Anh ấy là một người đàn ông cao lớn.",
-    categories: ["Daily","People"],
+    categories: ["Daily", "People"],
   },
   {
-    id: "gen-851",
     word: "Manage",
     slug: "manage",
     phonetic: "/ˈmæn.ɪdʒ/",
@@ -314,7 +296,6 @@ export const M1: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "a2-152",
     word: "Management",
     slug: "management",
     phonetic: "/ˈmæn.ɪdʒ.mənt/",
@@ -326,7 +307,6 @@ export const M1: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "gen-853",
     word: "Manager",
     slug: "manager",
     phonetic: "/ˈmæn.ɪ.dʒɚ/",
@@ -335,10 +315,9 @@ export const M1: VocabularyWord[] = [
     meaningVi: "Người quản lý.",
     exampleEn: "The store manager.",
     exampleVi: "Quản lý cửa hàng.",
-    categories: ["Jobs","Business"],
+    categories: ["Jobs", "Business"],
   },
   {
-    id: "exp-b5b-m-7",
     word: "Mandatory",
     slug: "mandatory",
     phonetic: "/ˈmæn.də.tɔːr.i/",
@@ -347,34 +326,33 @@ export const M1: VocabularyWord[] = [
     meaningVi: "Bắt buộc.",
     exampleEn: "The safety training is mandatory for all new staff.",
     exampleVi: "Huấn luyện an toàn là bắt buộc đối với tất cả nhân viên mới.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-m-8",
     word: "Manifest",
     slug: "manifest",
     phonetic: "/ˈmæn.ə.fest/",
     partOfSpeech: "noun",
     meaningEn: "Clear or obvious to the eye or mind.",
     meaningVi: "Rõ ràng/Biểu lộ.",
-    exampleEn: "The symptoms of the disease began to manifest themselves clearly.",
+    exampleEn:
+      "The symptoms of the disease began to manifest themselves clearly.",
     exampleVi: "Các triệu chứng của căn bệnh bắt đầu biểu lộ rõ ràng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-850lmvj",
     word: "Manipulate",
     slug: "manipulate",
     phonetic: "/məˈnɪp.jə.leɪt/",
     partOfSpeech: "verb",
-    meaningEn: "Handle or control (a tool, mechanism, etc.), typically in a skillful manner.",
+    meaningEn:
+      "Handle or control (a tool, mechanism, etc.), typically in a skillful manner.",
     meaningVi: "Vận dụng, thao túng.",
     exampleEn: "Manipulate the controls.",
     exampleVi: "Vận dụng các điều khiển.",
     categories: ["General"],
   },
   {
-    id: "gen-854",
     word: "Manner",
     slug: "manner",
     phonetic: "/ˈmæn.ɚ/",
@@ -386,7 +364,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-855",
     word: "Many",
     slug: "many",
     phonetic: "/ˈmen.i/",
@@ -398,7 +375,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-856",
     word: "Map",
     slug: "map",
     phonetic: "/mæp/",
@@ -410,7 +386,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-857",
     word: "March",
     slug: "march",
     phonetic: "/mɑːrtʃ/",
@@ -422,7 +397,6 @@ export const M1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-858",
     word: "Mark",
     slug: "mark",
     phonetic: "/mɑːrk/",
@@ -434,31 +408,30 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-103",
     word: "Market",
     slug: "market",
     phonetic: "/ˈmɑːr.kɪt/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A regular gathering of people for the purchase and sale of provisions, livestock, and other goods.",
+    meaningEn:
+      "A regular gathering of people for the purchase and sale of provisions, livestock, and other goods.",
     meaningVi: "Chợ, thị trường.",
     exampleEn: "They are going to the local market.",
     exampleVi: "Họ đang đi chợ địa phương.",
-    categories: ["Business","Shopping"],
+    categories: ["Business", "Shopping"],
   },
   {
-    id: "b1-99",
     word: "Marketing",
     slug: "marketing",
     phonetic: "/ˈmɑːr.kɪ.tɪŋ/",
     partOfSpeech: "noun",
-    meaningEn: "The action or business of promoting and selling products or services.",
+    meaningEn:
+      "The action or business of promoting and selling products or services.",
     meaningVi: "Tiếp thị.",
     exampleEn: "She works in the marketing department.",
     exampleVi: "Cô ấy làm việc ở bộ phận tiếp thị.",
     categories: ["Business"],
   },
   {
-    id: "gen-861",
     word: "Marriage",
     slug: "marriage",
     phonetic: "/ˈmær.ɪdʒ/",
@@ -470,7 +443,6 @@ export const M1: VocabularyWord[] = [
     categories: ["Family"],
   },
   {
-    id: "gen-862",
     word: "Married",
     slug: "married",
     phonetic: "/ˈmær.id/",
@@ -482,7 +454,6 @@ export const M1: VocabularyWord[] = [
     categories: ["Family"],
   },
   {
-    id: "gen-863",
     word: "Marry",
     slug: "marry",
     phonetic: "/ˈmær.i/",
@@ -494,7 +465,6 @@ export const M1: VocabularyWord[] = [
     categories: ["Family"],
   },
   {
-    id: "gen-864",
     word: "Mass",
     slug: "mass",
     phonetic: "/mæs/",
@@ -506,7 +476,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-865",
     word: "Master",
     slug: "master",
     phonetic: "/ˈmæs.tɚ/",
@@ -518,7 +487,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-92pgfds",
     word: "Masterfully",
     slug: "masterfully",
     phonetic: "/ˈmæs.tɚ.fəl.i/",
@@ -530,7 +498,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "c2-104",
     word: "Masticate",
     slug: "masticate",
     phonetic: "/ˈmæs.tɪ.keɪt/",
@@ -542,7 +509,6 @@ export const M1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-866",
     word: "Match",
     slug: "match",
     phonetic: "/mætʃ/",
@@ -554,7 +520,6 @@ export const M1: VocabularyWord[] = [
     categories: ["Sports"],
   },
   {
-    id: "gen-867",
     word: "Material",
     slug: "material",
     phonetic: "/məˈtɪr.i.əl/",
@@ -566,7 +531,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-91",
     word: "Mathematics",
     slug: "mathematics",
     phonetic: "/ˌmæθˈmæt.ɪks/",
@@ -575,10 +539,9 @@ export const M1: VocabularyWord[] = [
     meaningVi: "Toán học.",
     exampleEn: "He is good at mathematics.",
     exampleVi: "Anh ấy giỏi toán học.",
-    categories: ["Academic","Education"],
+    categories: ["Academic", "Education"],
   },
   {
-    id: "gen-869",
     word: "Matter",
     slug: "matter",
     phonetic: "/ˈmæt.ɚ/",
@@ -590,7 +553,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5b-m-9",
     word: "Maudlin",
     slug: "maudlin",
     phonetic: "/ˈmɑːd.lɪn/",
@@ -599,10 +561,9 @@ export const M1: VocabularyWord[] = [
     meaningVi: "Ủy mị/Sướt mướt.",
     exampleEn: "The movie was so maudlin that I felt like crying.",
     exampleVi: "Bộ phim quá ủy mị (sướt mướt) khiến tôi cảm thấy muốn khóc.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-m-10",
     word: "Mawkish",
     slug: "mawkish",
     phonetic: "/ˈmɑː.kɪʃ/",
@@ -611,10 +572,9 @@ export const M1: VocabularyWord[] = [
     meaningVi: "Ủy mị quá mức.",
     exampleEn: "The book's mawkish sentimentality was a turn-off.",
     exampleVi: "Sự sướt mướt ủy mị quá mức của cuốn sách thật khó chịu.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-870",
     word: "Maximum",
     slug: "maximum",
     phonetic: "/ˈmæk.sɪ.məm/",
@@ -626,7 +586,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-871",
     word: "May",
     slug: "may",
     phonetic: "/meɪ/",
@@ -638,7 +597,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-872",
     word: "Maybe",
     slug: "maybe",
     phonetic: "/ˈmeɪ.bi/",
@@ -650,7 +608,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-873",
     word: "Meal",
     slug: "meal",
     phonetic: "/miːl/",
@@ -662,7 +619,6 @@ export const M1: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
-    id: "gen-874",
     word: "Mean",
     slug: "mean",
     phonetic: "/miːn/",
@@ -674,7 +630,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-875",
     word: "Meaning",
     slug: "meaning",
     phonetic: "/ˈmiː.nɪŋ/",
@@ -686,7 +641,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-876",
     word: "Means",
     slug: "means",
     phonetic: "/miːnz/",
@@ -698,7 +652,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-877",
     word: "Meanwhile",
     slug: "meanwhile",
     phonetic: "/ˈmiːn.waɪl/",
@@ -710,19 +663,18 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b1-71",
     word: "Measure",
     slug: "measure",
     phonetic: "/ˈmeʒ.ər/",
     partOfSpeech: "noun/verb",
-    meaningEn: "Ascertain the size, amount, or degree of (something) by using an instrument or device marked in standard units.",
+    meaningEn:
+      "Ascertain the size, amount, or degree of (something) by using an instrument or device marked in standard units.",
     meaningVi: "Đo lường, biện pháp.",
     exampleEn: "We need to measure the distance.",
     exampleVi: "Chúng ta cần đo khoảng cách.",
     categories: ["Academic"],
   },
   {
-    id: "a1-63",
     word: "Meat",
     slug: "meat",
     phonetic: "/miːt/",
@@ -734,7 +686,6 @@ export const M1: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
-    id: "job-064",
     word: "Mechanic",
     slug: "mechanic",
     phonetic: "/məˈkæn.ɪk/",
@@ -743,22 +694,21 @@ export const M1: VocabularyWord[] = [
     meaningVi: "Thợ máy.",
     exampleEn: "The mechanic fixed my car.",
     exampleVi: "Thợ máy đã sửa xe của tôi.",
-    categories: ["Jobs","Transportation"],
+    categories: ["Jobs", "Transportation"],
   },
   {
-    id: "c1-200",
     word: "Mechatronics",
     slug: "mechatronics",
     phonetic: "/ˌmek.əˈtrɑː.nɪks/",
     partOfSpeech: "noun",
-    meaningEn: "The combination of mechanical engineering, computing, and electronics.",
+    meaningEn:
+      "The combination of mechanical engineering, computing, and electronics.",
     meaningVi: "Cơ điện tử.",
     exampleEn: "Mechatronics is essential in robotics.",
     exampleVi: "Cơ điện tử là thiết yếu trong ngành rô-bốt.",
-    categories: ["Engineering","Technology"],
+    categories: ["Engineering", "Technology"],
   },
   {
-    id: "a2-196",
     word: "Media",
     slug: "media",
     phonetic: "/ˈmiː.di.ə/",
@@ -767,10 +717,9 @@ export const M1: VocabularyWord[] = [
     meaningVi: "Phương tiện truyền thông.",
     exampleEn: "Social media.",
     exampleVi: "Truyền thông xã hội.",
-    categories: ["Technology","Social","Daily"],
+    categories: ["Technology", "Social", "Daily"],
   },
   {
-    id: "gen-881",
     word: "Medical",
     slug: "medical",
     phonetic: "/ˈmed.ɪ.kəl/",
@@ -782,19 +731,18 @@ export const M1: VocabularyWord[] = [
     categories: ["Medical"],
   },
   {
-    id: "a2-36",
     word: "Medicine",
     slug: "medicine",
     phonetic: "/ˈmed.sn̩/",
     partOfSpeech: "noun",
-    meaningEn: "A drug or other preparation used for the treatment or prevention of disease.",
+    meaningEn:
+      "A drug or other preparation used for the treatment or prevention of disease.",
     meaningVi: "Thuốc, y học.",
     exampleEn: "He is studying medicine.",
     exampleVi: "Anh ấy đang học y khoa.",
-    categories: ["Medical","Daily"],
+    categories: ["Medical", "Daily"],
   },
   {
-    id: "gen-883",
     word: "Medium",
     slug: "medium",
     phonetic: "/ˈmiː.di.əm/",
@@ -806,7 +754,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-884",
     word: "Meet",
     slug: "meet",
     phonetic: "/miːt/",
@@ -818,7 +765,6 @@ export const M1: VocabularyWord[] = [
     categories: ["Social"],
   },
   {
-    id: "gen-885",
     word: "Meeting",
     slug: "meeting",
     phonetic: "/ˈmiː.tɪŋ/",
@@ -830,7 +776,6 @@ export const M1: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "exp-b5b-m-11",
     word: "Mellifluous",
     slug: "mellifluous",
     phonetic: "/melˈɪf.lu.əs/",
@@ -839,10 +784,9 @@ export const M1: VocabularyWord[] = [
     meaningVi: "Ngọt ngào/Dịu dàng.",
     exampleEn: "The singer had a smooth, mellifluous voice.",
     exampleVi: "Nữ ca sĩ có một giọng hát mượt mà và ngọt ngào.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "a2-22",
     word: "Member",
     slug: "member",
     phonetic: "/ˈmem.bɚ/",
@@ -854,19 +798,52 @@ export const M1: VocabularyWord[] = [
     categories: ["Social"],
   },
   {
-    id: "b1-72",
+    word: "Membership",
+    slug: "membership",
+    phonetic: "/ˈmem.bɚ.ʃɪp/",
+    partOfSpeech: "noun",
+    meaningEn: "The state of being a member of a group.",
+    meaningVi: "Tư cách thành viên.",
+    exampleEn: "Membership in the organization has its benefits.",
+    exampleVi: "Tư cách thành viên trong tổ chức có những lợi ích riêng.",
+    categories: ["Social"],
+  },
+  {
+    word: "Memory loss",
+    slug: "memory-loss",
+    phonetic: "/ˈmem.ər.i lɒs/",
+    partOfSpeech: "noun",
+    meaningEn: "The partial or total inability to recall past experiences.",
+    meaningVi: "Mất trí nhớ.",
+    exampleEn: "Memory loss can be a symptom of various conditions.",
+    exampleVi:
+      "Mất trí nhớ có thể là triệu chứng của nhiều tình trạng khác nhau.",
+    categories: ["Medical", "Psychology"],
+  },
+  {
+    word: "Memorization",
+    slug: "memorization",
+    phonetic: "/ˌmem.ə.raɪˈzeɪ.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn: "The process of committing something to memory.",
+    meaningVi: "Sự ghi nhớ.",
+    exampleEn: "Memorization techniques can help students learn.",
+    exampleVi: "Các kỹ thuật ghi nhớ có thể giúp học sinh học tập.",
+    categories: ["Education", "Psychology"],
+  },
+  {
     word: "Memory",
     slug: "memory",
     phonetic: "/ˈmem.ər.i/",
     partOfSpeech: "noun",
-    meaningEn: "The faculty by which the mind stores and remembers information.",
+    meaningEn:
+      "The faculty by which the mind stores and remembers information.",
     meaningVi: "Trí nhớ, kỷ niệm.",
     exampleEn: "I have a good memory for faces.",
     exampleVi: "Tôi có trí nhớ tốt về khuôn mặt.",
-    categories: ["Daily","Psychology"],
+    categories: ["Daily", "Psychology"],
   },
   {
-    id: "exp-b5b-m-12",
     word: "Mendacious",
     slug: "mendacious",
     phonetic: "/menˈdeɪ.ʃəs/",
@@ -874,11 +851,11 @@ export const M1: VocabularyWord[] = [
     meaningEn: "Not telling the truth; lying.",
     meaningVi: "Sai sự thật/Lừa dối.",
     exampleEn: "The politician was accused of making mendacious statements.",
-    exampleVi: "Chính trị gia bị buộc tội đưa ra những tuyên bố sai sự thật (lừa dối).",
-    categories: ["General"]
+    exampleVi:
+      "Chính trị gia bị buộc tội đưa ra những tuyên bố sai sự thật (lừa dối).",
+    categories: ["General"],
   },
   {
-    id: "gen-888",
     word: "Mental",
     slug: "mental",
     phonetic: "/ˈmen.təl/",
@@ -887,10 +864,9 @@ export const M1: VocabularyWord[] = [
     meaningVi: "Tinh thần.",
     exampleEn: "Mental health.",
     exampleVi: "Sức khỏe tinh thần.",
-    categories: ["Psychology","Medical"],
+    categories: ["Psychology", "Medical"],
   },
   {
-    id: "b1-44",
     word: "Mention",
     slug: "mention",
     phonetic: "/ˈmen.ʃən/",
@@ -902,7 +878,6 @@ export const M1: VocabularyWord[] = [
     categories: ["Social"],
   },
   {
-    id: "a1-220",
     word: "Menu",
     slug: "menu",
     phonetic: "/ˈmen.juː/",
@@ -911,34 +886,34 @@ export const M1: VocabularyWord[] = [
     meaningVi: "Thực đơn; danh mục.",
     exampleEn: "The dinner menu.",
     exampleVi: "Thực đơn bữa tối.",
-    categories: ["Daily","Technology"],
+    categories: ["Daily", "Technology"],
   },
   {
-    id: "exp-b5b-m-13",
     word: "Mercurial",
     slug: "mercurial",
     phonetic: "/mɝːˈkjʊr.i.əl/",
     partOfSpeech: "noun",
-    meaningEn: "(of a person) subject to sudden or unpredictable changes of mood or mind.",
+    meaningEn:
+      "(of a person) subject to sudden or unpredictable changes of mood or mind.",
     meaningVi: "Hay thay đổi/Lanh lợi.",
     exampleEn: "His mercurial mood made it hard to work with him.",
-    exampleVi: "Tâm trạng hay thay đổi của anh ấy khiến việc làm việc cùng anh trở nên khó khăn.",
-    categories: ["General"]
+    exampleVi:
+      "Tâm trạng hay thay đổi của anh ấy khiến việc làm việc cùng anh trở nên khó khăn.",
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-m-14",
     word: "Meretricious",
     slug: "meretricious",
     phonetic: "/ˌmer.əˈtrɪʃ.əs/",
     partOfSpeech: "noun",
-    meaningEn: "Apparently attractive but having in reality no value or integrity.",
+    meaningEn:
+      "Apparently attractive but having in reality no value or integrity.",
     meaningVi: "Hào nhoáng nhưng vô giá trị.",
     exampleEn: "The jewelry was shiny but meretricious.",
     exampleVi: "Đồ trang sức tuy lấp lánh nhưng hào nhoáng vô giá trị.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "b2-199",
     word: "Merger",
     slug: "merger",
     phonetic: "/ˈmɜːr.dʒər/",
@@ -950,7 +925,6 @@ export const M1: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "a1-188",
     word: "Message",
     slug: "message",
     phonetic: "/ˈmesɪdʒ/",
@@ -959,34 +933,33 @@ export const M1: VocabularyWord[] = [
     meaningVi: "Tin nhắn.",
     exampleEn: "I received a message from him.",
     exampleVi: "Tôi đã nhận được một tin nhắn từ anh ấy.",
-    categories: ["Daily","Social"],
+    categories: ["Daily", "Social"],
   },
   {
-    id: "b2-217",
     word: "Metabolic",
     slug: "metabolic",
     phonetic: "/ˌmet̬.əˈbɑː.lɪk/",
     partOfSpeech: "adj",
-    meaningEn: "Relating to or deriving from the metabolism of a living organism.",
+    meaningEn:
+      "Relating to or deriving from the metabolism of a living organism.",
     meaningVi: "Thuộc về trao đổi chất.",
     exampleEn: "Metabolic rate.",
     exampleVi: "Tỷ lệ trao đổi chất.",
     categories: ["Medical"],
   },
   {
-    id: "c1-206",
     word: "Metadata",
     slug: "metadata",
     phonetic: "/ˈmet̬·əˌdeɪ·t̬ə/",
     partOfSpeech: "noun",
-    meaningEn: "A set of data that describes and gives information about other data.",
+    meaningEn:
+      "A set of data that describes and gives information about other data.",
     meaningVi: "Siêu dữ liệu.",
     exampleEn: "The photo includes metadata like location and time.",
     exampleVi: "Bức ảnh bao gồm siêu dữ liệu như vị trí và thời gian.",
-    categories: ["Technology","Academic"],
+    categories: ["Technology", "Academic"],
   },
   {
-    id: "gen-892",
     word: "Metal",
     slug: "metal",
     phonetic: "/ˈmet.əl/",
@@ -998,43 +971,43 @@ export const M1: VocabularyWord[] = [
     categories: ["Science"],
   },
   {
-    id: "c1-232",
     word: "Metaphor",
     slug: "metaphor",
     phonetic: "/ˈmet.ə.fɔːr/",
     partOfSpeech: "noun",
-    meaningEn: "A figure of speech in which a word or phrase is applied to an object or action.",
+    meaningEn:
+      "A figure of speech in which a word or phrase is applied to an object or action.",
     meaningVi: "Phép ẩn dụ.",
     exampleEn: "The world is a stage.",
     exampleVi: "Thế giới là một sân khấu.",
-    categories: ["Academic","Daily"],
+    categories: ["Academic", "Daily"],
   },
   {
-    id: "c2-157",
     word: "Metaphysics",
     slug: "metaphysics",
     phonetic: "/ˌmet.əˈfɪz.ɪks/",
     partOfSpeech: "noun",
-    meaningEn: "The branch of philosophy that deals with the first principles of things, including abstract concepts such as being, knowing, substance, cause, identity, time, and space.",
+    meaningEn:
+      "The branch of philosophy that deals with the first principles of things, including abstract concepts such as being, knowing, substance, cause, identity, time, and space.",
     meaningVi: "Siêu hình học.",
     exampleEn: "Metaphysics explore the nature of reality.",
     exampleVi: "Siêu hình học khám phá bản chất của thực tại.",
-    categories: ["Academic","Philosophy"],
+    categories: ["Academic", "Philosophy"],
   },
   {
-    id: "spec-m-001",
     word: "Metaverse",
     slug: "metaverse",
     phonetic: "/ˈmɛt.ə.vɜːrs/",
     partOfSpeech: "noun",
-    meaningEn: "A collective virtual shared space, created by the convergence of virtually enhanced physical reality and persistent virtual space.",
-    meaningVi: "Không gian ảo chung, nơi hội tụ giữa thực tế tăng cường và không gian ảo bền vững.",
+    meaningEn:
+      "A collective virtual shared space, created by the convergence of virtually enhanced physical reality and persistent virtual space.",
+    meaningVi:
+      "Không gian ảo chung, nơi hội tụ giữa thực tế tăng cường và không gian ảo bền vững.",
     exampleEn: "Users explore virtual worlds and socialise in the Metaverse.",
     exampleVi: "Người dùng khám phá thế giới ảo và giao lưu trong Metaverse.",
-    categories: ["Technology","Entertainment"],
+    categories: ["Technology", "Entertainment"],
   },
   {
-    id: "a2-163",
     word: "Method",
     slug: "method",
     phonetic: "/ˈmeθ.əd/",
@@ -1046,31 +1019,30 @@ export const M1: VocabularyWord[] = [
     categories: ["Academic"],
   },
   {
-    id: "c2-170",
     word: "Methodological",
     slug: "methodological",
     phonetic: "/ˌmeθ.ə.dəˈlɑː.dʒɪ.kəl/",
     partOfSpeech: "adj",
-    meaningEn: "Relating to the system of methods used in a particular area of study or activity.",
+    meaningEn:
+      "Relating to the system of methods used in a particular area of study or activity.",
     meaningVi: "Thuộc về phương pháp luận.",
     exampleEn: "Methodological flaws in the study.",
     exampleVi: "Những thiếu sót về mặt phương pháp luận trong nghiên cứu.",
     categories: ["Academic"],
   },
   {
-    id: "b1-197",
     word: "Methodology",
     slug: "methodology",
     phonetic: "/ˌmeθ.əˈdɑː.lə.dʒi/",
     partOfSpeech: "noun",
-    meaningEn: "A system of methods used in a particular area of study or activity.",
+    meaningEn:
+      "A system of methods used in a particular area of study or activity.",
     meaningVi: "Phương pháp luận.",
     exampleEn: "The research methodology is clearly defined.",
     exampleVi: "Phương pháp luận nghiên cứu được định nghĩa rõ ràng.",
     categories: ["Academic"],
   },
   {
-    id: "exp-b5b-m-15",
     word: "Meticulous",
     slug: "meticulous",
     phonetic: "/məˈtɪk.jə.ləs/",
@@ -1079,10 +1051,9 @@ export const M1: VocabularyWord[] = [
     meaningVi: "Tỉ mỉ/Kỹ lưỡng.",
     exampleEn: "She is meticulous about her house being clean.",
     exampleVi: "Cô ấy rất tỉ mỉ (kỹ lưỡng) trong việc giữ gìn nhà cửa sạch sẽ.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-m-16",
     word: "Mettle",
     slug: "mettle",
     phonetic: "/ˈmet̬.əl/",
@@ -1090,11 +1061,11 @@ export const M1: VocabularyWord[] = [
     meaningEn: "A person's ability to cope well with difficulties.",
     meaningVi: "Bản lĩnh/Nghị lực.",
     exampleEn: "The difficult challenge will test your mettle.",
-    exampleVi: "Thử thách khó khăn này sẽ kiểm tra bản lĩnh (nghị lực) của bạn.",
-    categories: ["General"]
+    exampleVi:
+      "Thử thách khó khăn này sẽ kiểm tra bản lĩnh (nghị lực) của bạn.",
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-m-17",
     word: "Miasma",
     slug: "miasma",
     phonetic: "/miˈæz.mə/",
@@ -1102,11 +1073,11 @@ export const M1: VocabularyWord[] = [
     meaningEn: "A highly unpleasant or unhealthy smell or vapor.",
     meaningVi: "Khí độc/Ánh hưởng xấu.",
     exampleEn: "A miasma of corruption hung over the city government.",
-    exampleVi: "Một bầu không khí (khí độc) tham nhũng bao trùm lên chính quyền thành phố.",
-    categories: ["General"]
+    exampleVi:
+      "Một bầu không khí (khí độc) tham nhũng bao trùm lên chính quyền thành phố.",
+    categories: ["General"],
   },
   {
-    id: "c2-231",
     word: "Microservices",
     slug: "microservices",
     phonetic: "/ˌmaɪ.kroʊˈsɜːr.vɪ.sɪz/",
@@ -1118,7 +1089,6 @@ export const M1: VocabularyWord[] = [
     categories: ["Technology"],
   },
   {
-    id: "gen-90004",
     word: "Microwave",
     slug: "microwave",
     phonetic: "/ˈmaɪ.krə.weɪv/",
@@ -1127,10 +1097,9 @@ export const M1: VocabularyWord[] = [
     meaningVi: "Lò vi sóng; thiết bị hâm/nấu thức ăn bằng sóng vi ba.",
     exampleEn: "Heat the leftovers in the microwave.",
     exampleVi: "Hâm thức ăn thừa trong lò vi sóng.",
-    categories: ["Home","Technology"],
+    categories: ["Home", "Technology"],
   },
   {
-    id: "gen-894",
     word: "Middle",
     slug: "middle",
     phonetic: "/ˈmɪd.əl/",
@@ -1142,19 +1111,18 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b2-188",
     word: "Middleware",
     slug: "middleware",
     phonetic: "/ˈmɪd.əl.wer/",
     partOfSpeech: "noun",
-    meaningEn: "Software that acts as a bridge between an operating system or database and applications.",
+    meaningEn:
+      "Software that acts as a bridge between an operating system or database and applications.",
     meaningVi: "Phần mềm trung gian.",
     exampleEn: "Express is a popular middleware framework.",
     exampleVi: "Express là một khung phần mềm trung gian phổ biến.",
     categories: ["Technology"],
   },
   {
-    id: "job-065",
     word: "Midwife",
     slug: "midwife",
     phonetic: "/ˈmɪd.waɪf/",
@@ -1163,10 +1131,9 @@ export const M1: VocabularyWord[] = [
     meaningVi: "Nữ hộ sinh.",
     exampleEn: "The midwife delivered the baby.",
     exampleVi: "Nữ hộ sinh đã đỡ đẻ.",
-    categories: ["Jobs","Medical"],
+    categories: ["Jobs", "Medical"],
   },
   {
-    id: "gen-895",
     word: "Might",
     slug: "might",
     phonetic: "/maɪt/",
@@ -1178,7 +1145,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-896",
     word: "Mile",
     slug: "mile",
     phonetic: "/maɪl/",
@@ -1190,7 +1156,6 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-897",
     word: "Military",
     slug: "military",
     phonetic: "/ˈmɪl.ɪ.ter.i/",
@@ -1200,5 +1165,5 @@ export const M1: VocabularyWord[] = [
     exampleEn: "Military service.",
     exampleVi: "Nghĩa vụ quân sự.",
     categories: ["Politics"],
-  }
+  },
 ];

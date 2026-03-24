@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const G2: VocabularyWord[] = [
   {
-    id: "a1-49",
     word: "Girl",
     slug: "girl",
     phonetic: "/ɡɜːrl/",
@@ -14,7 +13,6 @@ export const G2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "exp-gh-g-57",
     word: "Girlhood",
     slug: "girlhood",
     phonetic: "/ˈɡɝːl.hʊd/",
@@ -23,10 +21,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Thời con gái.",
     exampleEn: "She remembered her girlhood dreams of becoming a doctor.",
     exampleVi: "Cô nhớ lại những ước mơ thời con gái là trở thành bác sĩ.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-58",
     word: "Girth",
     slug: "girth",
     phonetic: "/ɡɝːθ/",
@@ -35,10 +32,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Chu vi/Vòng bụng.",
     exampleEn: "The ancient oak tree has a massive girth.",
     exampleVi: "Cây sồi cổ thụ có chu vi vô cùng lớn.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-59",
     word: "Gist",
     slug: "gist",
     phonetic: "/dʒɪst/",
@@ -46,11 +42,11 @@ export const G2: VocabularyWord[] = [
     meaningEn: "The substance or essence of a speech or text.",
     meaningVi: "Ý chính.",
     exampleEn: "I didn't catch every word, but I got the gist of the story.",
-    exampleVi: "Tôi không nghe được từng từ, nhưng tôi đã nắm được ý chính của câu chuyện.",
-    categories: ["General"]
+    exampleVi:
+      "Tôi không nghe được từng từ, nhưng tôi đã nắm được ý chính của câu chuyện.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-60",
     word: "Give",
     slug: "give",
     phonetic: "/ɡɪv/",
@@ -59,10 +55,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Cho/Tặng.",
     exampleEn: "Remember to give your old clothes to charity.",
     exampleVi: "Hãy nhớ tặng quần áo cũ của bạn cho tổ chức từ thiện.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "pv-90",
     word: "Give away",
     slug: "give-away",
     phonetic: "/ɡɪv əˈweɪ/",
@@ -74,7 +69,6 @@ export const G2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-34",
     word: "Give back",
     slug: "give-back",
     phonetic: "/ɡɪv bæk/",
@@ -86,7 +80,6 @@ export const G2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-14",
     word: "Give in",
     slug: "give-in",
     phonetic: "/ɡɪv ɪn/",
@@ -98,7 +91,6 @@ export const G2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-2",
     word: "Give up",
     slug: "give-up",
     phonetic: "/ɡɪv ʌp/",
@@ -110,7 +102,6 @@ export const G2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "exp-gh-g-61",
     word: "Giveaway",
     slug: "giveaway",
     phonetic: "/ˈɡɪv.ə.weɪ/",
@@ -118,11 +109,11 @@ export const G2: VocabularyWord[] = [
     meaningEn: "A thing that is given free for AD.",
     meaningVi: "Quà tặng miễn phí.",
     exampleEn: "Her nervous smile was a dead giveaway that she was lying.",
-    exampleVi: "Nụ cười lo lắng của cô ấy là một bằng chứng rõ ràng cho thấy cô đang nói dối.",
-    categories: ["General"]
+    exampleVi:
+      "Nụ cười lo lắng của cô ấy là một bằng chứng rõ ràng cho thấy cô đang nói dối.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-62",
     word: "Giver",
     slug: "giver",
     phonetic: "/ˈɡɪv.ɚ/",
@@ -131,10 +122,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Người cho/Người tặng.",
     exampleEn: "It is better to be a giver than a taker.",
     exampleVi: "Làm người trao đi tốt hơn là người chỉ biết nhận lại.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-63",
     word: "Giving",
     slug: "giving",
     phonetic: "/ˈɡɪv.ɪŋ/",
@@ -143,10 +133,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Sự cho đi.",
     exampleEn: "Thanksgiving is a time for gratitude and giving.",
     exampleVi: "Lễ Tạ ơn là thời gian dành cho lòng biết ơn và sự sẻ chia.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-64",
     word: "Glacier",
     slug: "glacier",
     phonetic: "/ˈɡleɪ.ʃɚ/",
@@ -155,10 +144,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Sông băng.",
     exampleEn: "Climate change is causing the glacier to melt rapidly.",
     exampleVi: "Biến đổi khí hậu đang khiến sông băng tan chảy nhanh chóng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-65",
     word: "Glad",
     slug: "glad",
     phonetic: "/ɡlæd/",
@@ -167,10 +155,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Vui mừng.",
     exampleEn: "I am so glad to hear that everything went well.",
     exampleVi: "Tôi rất mừng khi biết rằng mọi việc đều diễn ra tốt đẹp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-66",
     word: "Gladden",
     slug: "gladden",
     phonetic: "/ˈɡlæd.ən/",
@@ -179,10 +166,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Làm cho vui lòng.",
     exampleEn: "The news of her success will gladden her parents' hearts.",
     exampleVi: "Tin tức về sự thành công của cô ấy sẽ làm ấm lòng cha mẹ.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-67",
     word: "Gladly",
     slug: "gladly",
     phonetic: "/ˈɡlæd.li/",
@@ -191,10 +177,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Một cách vui vẻ.",
     exampleEn: "I would gladly help you with your project.",
     exampleVi: "Tôi rất sẵn lòng giúp bạn thực hiện dự án của mình.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-68",
     word: "Gladness",
     slug: "gladness",
     phonetic: "/ˈɡlæd.nəs/",
@@ -203,10 +188,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Sự vui mừng.",
     exampleEn: "The room was filled with laughter and gladness.",
     exampleVi: "Căn phòng tràn ngập tiếng cười và sự vui mừng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-69",
     word: "Glamorous",
     slug: "glamorous",
     phonetic: "/ˈɡlæm.ər.əs/",
@@ -214,11 +198,11 @@ export const G2: VocabularyWord[] = [
     meaningEn: "Having glamour; excitingly attractive out of the ordinary.",
     meaningVi: "Quyến rũ/Hào nhoáng.",
     exampleEn: "She led a glamorous life as a Hollywood actress.",
-    exampleVi: "Cô ấy đã sống một cuộc đời hào nhoáng như một nữ diễn viên Hollywood.",
-    categories: ["General"]
+    exampleVi:
+      "Cô ấy đã sống một cuộc đời hào nhoáng như một nữ diễn viên Hollywood.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-70",
     word: "Glamour",
     slug: "glamour",
     phonetic: "/ˈɡlæm.ɚ/",
@@ -227,10 +211,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Sự quyến rũ.",
     exampleEn: "The city light adds a certain glamour to the evening.",
     exampleVi: "Ánh đèn thành phố thêm vào một chút quyến rũ cho buổi tối.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-71",
     word: "Glance",
     slug: "glance",
     phonetic: "/ɡlæns/",
@@ -239,22 +222,21 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Liếc nhìn.",
     exampleEn: "He took a quick glance at his watch.",
     exampleVi: "Anh ấy liếc nhanh qua đồng hồ của mình.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-72",
     word: "Gland",
     slug: "gland",
     phonetic: "/ɡlænd/",
     partOfSpeech: "noun",
-    meaningEn: "An organ in the body which secretes particular chemical substances.",
+    meaningEn:
+      "An organ in the body which secretes particular chemical substances.",
     meaningVi: "Tuyến (trong cơ thể).",
     exampleEn: "The thyroid gland controls the body's metabolism.",
     exampleVi: "Tuyến giáp kiểm soát quá trình trao đổi chất của cơ thể.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-73",
     word: "Glare",
     slug: "glare",
     phonetic: "/ɡler/",
@@ -263,10 +245,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Nhìn trừng trừng.",
     exampleEn: "The intense glare of the sun made it hard to see.",
     exampleVi: "Ánh nắng chói chang khiến việc quan sát trở nên khó khăn.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-74",
     word: "Glaring",
     slug: "glaring",
     phonetic: "/ˈɡler.ɪŋ/",
@@ -275,10 +256,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Chói lòa/Rõ rành rành.",
     exampleEn: "There was a glaring error in the financial report.",
     exampleVi: "Có một lỗi rành rành trong báo cáo tài chính.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-75",
     word: "Glass",
     slug: "glass",
     phonetic: "/ɡlæs/",
@@ -287,10 +267,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Thủy tinh/Cái cốc.",
     exampleEn: "The windows are made of reinforced safety glass.",
     exampleVi: "Cửa sổ được làm bằng thủy tinh an toàn gia cường.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-76",
     word: "Glassware",
     slug: "glassware",
     phonetic: "/ˈɡlæs.wer/",
@@ -298,11 +277,11 @@ export const G2: VocabularyWord[] = [
     meaningEn: "Ornaments and other objects made of glass.",
     meaningVi: "Đồ dùng bằng thủy tinh.",
     exampleEn: "Handle the delicate glassware with extreme care.",
-    exampleVi: "Xử lý những món đồ thủy tinh mỏng manh một cách cực kỳ cẩn thận.",
-    categories: ["General"]
+    exampleVi:
+      "Xử lý những món đồ thủy tinh mỏng manh một cách cực kỳ cẩn thận.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-77",
     word: "Glassy",
     slug: "glassy",
     phonetic: "/ˈɡlæs.i/",
@@ -311,10 +290,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Như thủy tinh/Vô hồn.",
     exampleEn: "The lake had a glassy surface in the early morning.",
     exampleVi: "Hồ nước có bề mặt phẳng lặng như gương vào sáng sớm.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-78",
     word: "Glaze",
     slug: "glaze",
     phonetic: "/ɡleɪz/",
@@ -323,10 +301,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Tráng men/Lắp kính.",
     exampleEn: "Apply a sugar glaze to the donuts while they are hot.",
     exampleVi: "Phết một lớp men đường lên bánh rán khi chúng còn nóng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-79",
     word: "Gleam",
     slug: "gleam",
     phonetic: "/ɡliːm/",
@@ -335,10 +312,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Tia sáng/Ánh kim.",
     exampleEn: "A gleam of hope appeared in her eyes.",
     exampleVi: "Một tia hy vọng hiện lên trong mắt cô ấy.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-80",
     word: "Glean",
     slug: "glean",
     phonetic: "/ɡliːn/",
@@ -346,11 +322,11 @@ export const G2: VocabularyWord[] = [
     meaningEn: "Extract (information) from various sources.",
     meaningVi: "Lượm lặt (tin tức).",
     exampleEn: "We were able to glean some useful facts from the report.",
-    exampleVi: "Chúng tôi đã có thể lượm lặt được một số thông tin hữu ích từ bản báo cáo.",
-    categories: ["General"]
+    exampleVi:
+      "Chúng tôi đã có thể lượm lặt được một số thông tin hữu ích từ bản báo cáo.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-81",
     word: "Glee",
     slug: "glee",
     phonetic: "/ɡliː/",
@@ -359,10 +335,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Sự hân hoan/Niềm vui.",
     exampleEn: "The children shouted with glee when they saw the snow.",
     exampleVi: "Lũ trẻ hét lên vì hân hoan khi thấy tuyết.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-82",
     word: "Gleeful",
     slug: "gleeful",
     phonetic: "/ˈɡliː.fəl/",
@@ -371,22 +346,21 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Vui sướng.",
     exampleEn: "She gave a gleeful laugh after winning the game.",
     exampleVi: "Cô ấy nở một nụ cười vui sướng sau khi thắng trò chơi.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "c2-94",
     word: "Glib",
     slug: "glib",
     phonetic: "/ɡlɪb/",
     partOfSpeech: "adj",
-    meaningEn: "(of words or the person speaking them) fluent and voluble but insincere and shallow.",
+    meaningEn:
+      "(of words or the person speaking them) fluent and voluble but insincere and shallow.",
     meaningVi: "Lém lỉnh, liến thoắng (nhưng không thành thật).",
     exampleEn: "A glib tongue.",
     exampleVi: "Một cái lưỡi lém lỉnh.",
     categories: ["Social"],
   },
   {
-    id: "exp-gh-g-83",
     word: "Glimmer",
     slug: "glimmer",
     phonetic: "/ˈɡlɪm.ɚ/",
@@ -395,10 +369,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Ánh sáng le lói.",
     exampleEn: "There was a faint glimmer of light in the distance.",
     exampleVi: "Có một ánh sáng le lói yếu ớt ở phía xa.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-84",
     word: "Glimpse",
     slug: "glimpse",
     phonetic: "/ɡlɪmps/",
@@ -407,10 +380,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Cái nhìn thoáng qua.",
     exampleEn: "I caught a glimpse of the celebrity through the gate.",
     exampleVi: "Tôi đã thoáng thấy người nổi tiếng qua cánh cổng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-85",
     word: "Glint",
     slug: "glint",
     phonetic: "/ɡlɪnt/",
@@ -418,11 +390,11 @@ export const G2: VocabularyWord[] = [
     meaningEn: "Give out or reflect small flashes of light.",
     meaningVi: "Lóe sáng.",
     exampleEn: "The glint of a knife caught his eye in the dark.",
-    exampleVi: "Ánh sáng lóe lên của một con dao đã lọt vào mắt anh trong bóng tối.",
-    categories: ["General"]
+    exampleVi:
+      "Ánh sáng lóe lên của một con dao đã lọt vào mắt anh trong bóng tối.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-86",
     word: "Glistening",
     slug: "glistening",
     phonetic: "/ˈɡlɪs.ən.ɪŋ/",
@@ -431,10 +403,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Lóng lánh.",
     exampleEn: "The streets were glistening after the rain.",
     exampleVi: "Đường phố lóng lánh sau cơn mưa.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-87",
     word: "Glitter",
     slug: "glitter",
     phonetic: "/ˈɡlɪt.ɚ/",
@@ -443,10 +414,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Lấp lánh.",
     exampleEn: "Not all that glitters is gold.",
     exampleVi: "Không phải tất cả những gì lấp lánh đều là vàng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-88",
     word: "Gloam",
     slug: "gloam",
     phonetic: "/ɡloʊm/",
@@ -454,23 +424,23 @@ export const G2: VocabularyWord[] = [
     meaningEn: "Twilight or dusk.",
     meaningVi: "Lúc chập choạng tối.",
     exampleEn: "The fields looked mysterious in the evening gloam.",
-    exampleVi: "Những cánh đồng trông có vẻ huyền bí trong lúc chập choạng tối.",
-    categories: ["General"]
+    exampleVi:
+      "Những cánh đồng trông có vẻ huyền bí trong lúc chập choạng tối.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-89",
     word: "Gloat",
     slug: "gloat",
     phonetic: "/ɡloʊt/",
     partOfSpeech: "noun",
-    meaningEn: "Dwell on one's own success or another's misfortune with smugness.",
+    meaningEn:
+      "Dwell on one's own success or another's misfortune with smugness.",
     meaningVi: "Hả hê.",
     exampleEn: "It's not polite to gloat over your rivals' mistakes.",
     exampleVi: "Thật không lịch sự khi hả hê trước sai lầm của đối thủ.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-90",
     word: "Global",
     slug: "global",
     phonetic: "/ˈɡloʊ.bəl/",
@@ -479,22 +449,22 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Toàn cầu.",
     exampleEn: "Pollution is a global problem that requires cooperation.",
     exampleVi: "Ô nhiễm là một vấn đề toàn cầu đòi hỏi sự hợp tác.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-91",
     word: "Globalism",
     slug: "globalism",
     phonetic: "/ˈɡloʊ.bəl.ɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn: "The operation or planning of economic and foreign policy on a global basis.",
+    meaningEn:
+      "The operation or planning of economic and foreign policy on a global basis.",
     meaningVi: "Chủ nghĩa toàn cầu.",
     exampleEn: "The debate over globalism continues in international politics.",
-    exampleVi: "Cuộc tranh luận về chủ nghĩa toàn cầu vẫn tiếp diễn trong chính trị quốc tế.",
-    categories: ["General"]
+    exampleVi:
+      "Cuộc tranh luận về chủ nghĩa toàn cầu vẫn tiếp diễn trong chính trị quốc tế.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-92",
     word: "Globe",
     slug: "globe",
     phonetic: "/ɡloʊb/",
@@ -503,10 +473,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Địa cầu/Quả địa cầu.",
     exampleEn: "Computers have connected people all over the globe.",
     exampleVi: "Máy tính đã kết nối mọi người trên khắp địa cầu.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-93",
     word: "Gloom",
     slug: "gloom",
     phonetic: "/ɡluːm/",
@@ -515,10 +484,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Sự ảm đạm/U ám.",
     exampleEn: "The heavy fog cast a deep gloom over the valley.",
     exampleVi: "Sương mù dày đặc bao phủ một sự u ám sâu thẳm lên thung lũng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-94",
     word: "Gloominess",
     slug: "gloominess",
     phonetic: "/ˈɡluː.mi.nəs/",
@@ -527,10 +495,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Sự u sầu.",
     exampleEn: "The rain added to the overall gloominess of the day.",
     exampleVi: "Cơn mưa làm tăng thêm sự u ám chung của cả ngày.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-95",
     word: "Gloomy",
     slug: "gloomy",
     phonetic: "/ˈɡluː.mi/",
@@ -539,10 +506,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "U ám/Buồn rầu.",
     exampleEn: "The futuristic movie shows a gloomy vision of the world.",
     exampleVi: "Bộ phim tương lai này cho thấy một cái nhìn u ám về thế giới.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-96",
     word: "Glorify",
     slug: "glorify",
     phonetic: "/ˈɡlɔːr.ə.faɪ/",
@@ -550,11 +516,11 @@ export const G2: VocabularyWord[] = [
     meaningEn: "Describe or represent as admirable, especially unjustifiably.",
     meaningVi: "Ca tụng/Tôn vinh.",
     exampleEn: "The monument was built to glorify the fallen heroes.",
-    exampleVi: "Tượng đài được dựng lên để tôn vinh những anh hùng đã ngã xuống.",
-    categories: ["General"]
+    exampleVi:
+      "Tượng đài được dựng lên để tôn vinh những anh hùng đã ngã xuống.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-97",
     word: "Glorious",
     slug: "glorious",
     phonetic: "/ˈɡlɔːr.i.əs/",
@@ -563,10 +529,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Vinh quang/Rực rỡ.",
     exampleEn: "The sunset was a glorious display of orange and red.",
     exampleVi: "Hoàng hôn là một màn trình diễn rực rỡ của màu cam và đỏ.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-98",
     word: "Glory",
     slug: "glory",
     phonetic: "/ˈɡlɔːr.i/",
@@ -575,10 +540,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Vinh quang.",
     exampleEn: "The team fought for the glory of their country.",
     exampleVi: "Đội bóng đã chiến đấu vì vinh quang của đất nước họ.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-99",
     word: "Gloss",
     slug: "gloss",
     phonetic: "/ɡlɑːs/",
@@ -587,10 +551,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Độ bóng.",
     exampleEn: "The high-quality paint gave the wood a beautiful gloss.",
     exampleVi: "Sơn chất lượng cao tạo cho gỗ một độ bóng đẹp mắt.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-100",
     word: "Glossary",
     slug: "glossary",
     phonetic: "/ˈɡlɑː.sɚ.i/",
@@ -598,11 +561,11 @@ export const G2: VocabularyWord[] = [
     meaningEn: "An alphabetical list of terms in a particular domain.",
     meaningVi: "Bảng chú giải.",
     exampleEn: "Check the glossary for definitions of technical terms.",
-    exampleVi: "Kiểm tra bảng chú giải để biết định nghĩa của các thuật ngữ kỹ thuật.",
-    categories: ["General"]
+    exampleVi:
+      "Kiểm tra bảng chú giải để biết định nghĩa của các thuật ngữ kỹ thuật.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-101",
     word: "Glossy",
     slug: "glossy",
     phonetic: "/ˈɡlɑː.si/",
@@ -611,10 +574,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Bóng loáng.",
     exampleEn: "The magazine is printed on thick, glossy paper.",
     exampleVi: "Tạp chí được in trên giấy dày và bóng loáng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-102",
     word: "Glow",
     slug: "glow",
     phonetic: "/ɡloʊ/",
@@ -623,10 +585,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Rực sáng/Ánh hồng.",
     exampleEn: "The fire left a warm glow in the living room.",
     exampleVi: "Ngọn lửa để lại một ánh sáng ấm áp trong phòng khách.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-103",
     word: "Glower",
     slug: "glower",
     phonetic: "/ˈɡlaʊ.ɚ/",
@@ -634,11 +595,11 @@ export const G2: VocabularyWord[] = [
     meaningEn: "Have an angry or sullen look on one's face.",
     meaningVi: "Nhìn trừng mắt/Giận dữ.",
     exampleEn: "The teacher started to glower at the noisy students.",
-    exampleVi: "Giáo viên bắt đầu nhìn trừng mắt giận dữ vào những học sinh ồn ào.",
-    categories: ["General"]
+    exampleVi:
+      "Giáo viên bắt đầu nhìn trừng mắt giận dữ vào những học sinh ồn ào.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-g-104",
     word: "Glowing",
     slug: "glowing",
     phonetic: "/ˈɡloʊ.ɪŋ/",
@@ -646,11 +607,11 @@ export const G2: VocabularyWord[] = [
     meaningEn: "Expressing great praise; shining steadily.",
     meaningVi: "Sáng rực/Hào hứng.",
     exampleEn: "She received glowing praise for her performance.",
-    exampleVi: "Cô đã nhận được những lời khen ngợi hào hứng cho màn trình diễn của mình.",
-    categories: ["General"]
+    exampleVi:
+      "Cô đã nhận được những lời khen ngợi hào hứng cho màn trình diễn của mình.",
+    categories: ["General"],
   },
   {
-    id: "gen-553",
     word: "Go",
     slug: "go",
     phonetic: "/ɡoʊ/",
@@ -662,7 +623,6 @@ export const G2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "pv-65",
     word: "Go ahead",
     slug: "go-ahead",
     phonetic: "/ɡoʊ əˈhed/",
@@ -674,7 +634,6 @@ export const G2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-110",
     word: "Go off",
     slug: "go-off",
     phonetic: "/ɡoʊ ɒf/",
@@ -686,7 +645,6 @@ export const G2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-32",
     word: "Go on",
     slug: "go-on",
     phonetic: "/ɡoʊ ɑːn/",
@@ -698,7 +656,6 @@ export const G2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-111",
     word: "Go over",
     slug: "go-over",
     phonetic: "/ɡoʊ ˈoʊvər/",
@@ -710,7 +667,6 @@ export const G2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-50",
     word: "Go through",
     slug: "go-through",
     phonetic: "/ɡoʊ θruː/",
@@ -722,19 +678,18 @@ export const G2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "a2-24",
     word: "Goal",
     slug: "goal",
     phonetic: "/ɡoʊl/",
     partOfSpeech: "noun",
-    meaningEn: "The object of a person's ambition or effort; an aim or desired result.",
+    meaningEn:
+      "The object of a person's ambition or effort; an aim or desired result.",
     meaningVi: "Mục tiêu.",
     exampleEn: "Set clear goals for your career.",
     exampleVi: "Hãy đặt ra những mục tiêu rõ ràng cho sự nghiệp của bạn.",
     categories: ["Academic"],
   },
   {
-    id: "gen-554",
     word: "Gold",
     slug: "gold",
     phonetic: "/ɡoʊld/",
@@ -746,7 +701,6 @@ export const G2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a1-40",
     word: "Good",
     slug: "good",
     phonetic: "/ɡʊd/",
@@ -758,7 +712,6 @@ export const G2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-555",
     word: "Goodbye",
     slug: "goodbye",
     phonetic: "/ɡʊdˈbaɪ/",
@@ -770,7 +723,6 @@ export const G2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-556",
     word: "Goods",
     slug: "goods",
     phonetic: "/ɡʊdz/",
@@ -782,7 +734,6 @@ export const G2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b2-204",
     word: "Governance",
     slug: "governance",
     phonetic: "/ˈɡʌv.ər.nəns/",
@@ -791,10 +742,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Sự quản trị.",
     exampleEn: "Corporate governance.",
     exampleVi: "Quản trị doanh nghiệp.",
-    categories: ["Business","Social"],
+    categories: ["Business", "Social"],
   },
   {
-    id: "a2-136",
     word: "Government",
     slug: "government",
     phonetic: "/ˈɡʌv.ərn.mənt/",
@@ -806,7 +756,6 @@ export const G2: VocabularyWord[] = [
     categories: ["Social"],
   },
   {
-    id: "gen-557",
     word: "Grade",
     slug: "grade",
     phonetic: "/ɡreɪd/",
@@ -818,7 +767,6 @@ export const G2: VocabularyWord[] = [
     categories: ["Education"],
   },
   {
-    id: "gen-558",
     word: "Graduate",
     slug: "graduate",
     phonetic: "/ˈɡrædʒ.u.eɪt/",
@@ -830,7 +778,6 @@ export const G2: VocabularyWord[] = [
     categories: ["Education"],
   },
   {
-    id: "gen-559",
     word: "Grammar",
     slug: "grammar",
     phonetic: "/ˈɡræm.ɚ/",
@@ -839,10 +786,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Ngữ pháp.",
     exampleEn: "Study grammar.",
     exampleVi: "Học ngữ pháp.",
-    categories: ["Education","Academic"],
+    categories: ["Education", "Academic"],
   },
   {
-    id: "gen-560",
     word: "Grand",
     slug: "grand",
     phonetic: "/ɡrænd/",
@@ -854,7 +800,6 @@ export const G2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-561",
     word: "Grant",
     slug: "grant",
     phonetic: "/ɡrænt/",
@@ -866,7 +811,6 @@ export const G2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "job-046",
     word: "Graphic designer",
     slug: "graphic-designer",
     phonetic: "/ˈɡræf.ɪk dɪˌzaɪ.nər/",
@@ -875,10 +819,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Nhà thiết kế đồ họa.",
     exampleEn: "The graphic designer created the logo.",
     exampleVi: "Nhà thiết kế đồ họa đã tạo logo.",
-    categories: ["Jobs","Art"],
+    categories: ["Jobs", "Art"],
   },
   {
-    id: "gen-562",
     word: "Grass",
     slug: "grass",
     phonetic: "/ɡræs/",
@@ -890,7 +833,6 @@ export const G2: VocabularyWord[] = [
     categories: ["Environment"],
   },
   {
-    id: "gen-563",
     word: "Grateful",
     slug: "grateful",
     phonetic: "/ˈɡreɪt.fəl/",
@@ -902,7 +844,6 @@ export const G2: VocabularyWord[] = [
     categories: ["Emotions"],
   },
   {
-    id: "gen-564",
     word: "Great",
     slug: "great",
     phonetic: "/ɡreɪt/",
@@ -914,7 +855,6 @@ export const G2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a1-44",
     word: "Green",
     slug: "green",
     phonetic: "/ɡriːn/",
@@ -926,7 +866,6 @@ export const G2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-566",
     word: "Greet",
     slug: "greet",
     phonetic: "/ɡriːt/",
@@ -938,7 +877,6 @@ export const G2: VocabularyWord[] = [
     categories: ["Social"],
   },
   {
-    id: "c2-30",
     word: "Gregarious",
     slug: "gregarious",
     phonetic: "/ɡrɪˈɡer.i.əs/",
@@ -950,7 +888,6 @@ export const G2: VocabularyWord[] = [
     categories: ["Social"],
   },
   {
-    id: "gen-567",
     word: "Grocery",
     slug: "grocery",
     phonetic: "/ˈɡroʊ.sɚ.i/",
@@ -962,7 +899,6 @@ export const G2: VocabularyWord[] = [
     categories: ["Shopping"],
   },
   {
-    id: "gen-568",
     word: "Ground",
     slug: "ground",
     phonetic: "/ɡraʊnd/",
@@ -974,7 +910,6 @@ export const G2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a1-232",
     word: "Group",
     slug: "group",
     phonetic: "/ɡruːp/",
@@ -983,10 +918,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Nhóm.",
     exampleEn: "A group of friends.",
     exampleVi: "Một nhóm bạn.",
-    categories: ["Daily","Social"],
+    categories: ["Daily", "Social"],
   },
   {
-    id: "gen-570",
     word: "Grow",
     slug: "grow",
     phonetic: "/ɡroʊ/",
@@ -998,7 +932,6 @@ export const G2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "pv-30",
     word: "Grow up",
     slug: "grow-up",
     phonetic: "/ɡroʊ ʌp/",
@@ -1010,7 +943,6 @@ export const G2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "gen-571",
     word: "Growth",
     slug: "growth",
     phonetic: "/ɡroʊθ/",
@@ -1022,19 +954,18 @@ export const G2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "c1-33",
     word: "Guarantee",
     slug: "guarantee",
     phonetic: "/ˌɡer.ənˈtiː/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A formal promise or assurance (typically in writing) that certain conditions will be fulfilled.",
+    meaningEn:
+      "A formal promise or assurance (typically in writing) that certain conditions will be fulfilled.",
     meaningVi: "Đảm bảo, bảo hành.",
     exampleEn: "We guarantee a high level of service.",
     exampleVi: "Chúng tôi đảm bảo chất lượng phục vụ ở mức cao.",
     categories: ["Business"],
   },
   {
-    id: "gen-573",
     word: "Guard",
     slug: "guard",
     phonetic: "/ɡɑːrd/",
@@ -1046,7 +977,6 @@ export const G2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-574",
     word: "Guess",
     slug: "guess",
     phonetic: "/ɡes/",
@@ -1058,7 +988,6 @@ export const G2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-575",
     word: "Guest",
     slug: "guest",
     phonetic: "/ɡest/",
@@ -1070,7 +999,6 @@ export const G2: VocabularyWord[] = [
     categories: ["Social"],
   },
   {
-    id: "gen-576",
     word: "Guide",
     slug: "guide",
     phonetic: "/ɡaɪd/",
@@ -1079,10 +1007,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Hướng dẫn.",
     exampleEn: "A tour guide.",
     exampleVi: "Hướng dẫn viên du lịch.",
-    categories: ["Travel","General","Jobs"],
+    categories: ["Travel", "General", "Jobs"],
   },
   {
-    id: "gen-577",
     word: "Guilty",
     slug: "guilty",
     phonetic: "/ˈɡɪl.ti/",
@@ -1091,10 +1018,9 @@ export const G2: VocabularyWord[] = [
     meaningVi: "Có tội.",
     exampleEn: "Feel guilty.",
     exampleVi: "Cảm thấy có lỗi.",
-    categories: ["Law","Emotions"],
+    categories: ["Law", "Emotions"],
   },
   {
-    id: "gen-578",
     word: "Gun",
     slug: "gun",
     phonetic: "/ɡʌn/",
@@ -1106,7 +1032,6 @@ export const G2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-579",
     word: "Guy",
     slug: "guy",
     phonetic: "/ɡaɪ/",
@@ -1116,5 +1041,5 @@ export const G2: VocabularyWord[] = [
     exampleEn: "A nice guy.",
     exampleVi: "Một anh chàng tốt.",
     categories: ["People"],
-  }
+  },
 ];

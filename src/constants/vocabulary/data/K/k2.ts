@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const K2: VocabularyWord[] = [
   {
-    id: "exp-b4a-k-23",
     word: "Knell",
     slug: "knell",
     phonetic: "/nel/",
@@ -11,10 +10,9 @@ export const K2: VocabularyWord[] = [
     meaningVi: "Tiếng chuông báo tử.",
     exampleEn: "The closing of the factory was the death knell for the town.",
     exampleVi: "Việc đóng cửa nhà máy là tiếng chuông báo tử cho thị trấn.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-9030",
     word: "Knife",
     slug: "knife",
     phonetic: "/naɪf/",
@@ -23,22 +21,21 @@ export const K2: VocabularyWord[] = [
     meaningVi: "Con dao",
     exampleEn: "Use a sharp knife to slice the bread.",
     exampleVi: "Dùng dao sắc để thái bánh mì.",
-    categories: ["Kitchen","Tools"],
+    categories: ["Kitchen", "Tools"],
   },
   {
-    id: "gen-9031",
     word: "Knight",
     slug: "knight",
     phonetic: "/naɪt/",
     partOfSpeech: "noun",
-    meaningEn: "A medieval soldier of noble birth or a person granted an honorary title.",
+    meaningEn:
+      "A medieval soldier of noble birth or a person granted an honorary title.",
     meaningVi: "Hiệp sĩ",
     exampleEn: "The knight rode into the tournament.",
     exampleVi: "Hiệp sĩ cưỡi ngựa vào giải đấu.",
-    categories: ["History","Culture"],
+    categories: ["History", "Culture"],
   },
   {
-    id: "exp-b4a-k-24",
     word: "Knighthood",
     slug: "knighthood",
     phonetic: "/ˈnaɪt.hʊd/",
@@ -46,11 +43,11 @@ export const K2: VocabularyWord[] = [
     meaningEn: "The title, rank, or status of a knight.",
     meaningVi: "Tước hiệp sĩ.",
     exampleEn: "He was awarded a knighthood for his services to charity.",
-    exampleVi: "Ông đã được phong tặng tước hiệp sĩ vì những dịch vụ cho tổ chức từ thiện.",
-    categories: ["General"]
+    exampleVi:
+      "Ông đã được phong tặng tước hiệp sĩ vì những dịch vụ cho tổ chức từ thiện.",
+    categories: ["General"],
   },
   {
-    id: "gen-9032",
     word: "Knit",
     slug: "knit",
     phonetic: "/nɪt/",
@@ -59,10 +56,9 @@ export const K2: VocabularyWord[] = [
     meaningVi: "Đan",
     exampleEn: "She learned to knit a scarf last winter.",
     exampleVi: "Cô ấy học đan khăn vào mùa đông trước.",
-    categories: ["Clothing","Fashion","Home"],
+    categories: ["Clothing", "Fashion", "Home"],
   },
   {
-    id: "exp-b4a-k-25",
     word: "Knitting",
     slug: "knitting",
     phonetic: "/ˈnɪt.ɪŋ/",
@@ -71,23 +67,34 @@ export const K2: VocabularyWord[] = [
     meaningVi: "Việc đan len.",
     exampleEn: "Knitting is a relaxing hobby for many people.",
     exampleVi: "Đan len là một sở thích thư giãn cho nhiều người.",
-    categories: ["General"]
+    categories: ["General"],
   },
-  { id: "gen-k-055", word: "Knob", slug: "knob", phonetic: "/nɑːb/", partOfSpeech: "noun", meaningEn: "A rounded lump or ball, especially at the end or on the surface of something.", meaningVi: "Núm vặn/Tay nắm cửa.", exampleEn: "Door knob.", exampleVi: "Tay nắm cửa.", categories: ["Home", "General"] },
   {
-    id: "gen-9033",
+    id: "gen-k-055",
+    word: "Knob",
+    slug: "knob",
+    phonetic: "/nɑːb/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "A rounded lump or ball, especially at the end or on the surface of something.",
+    meaningVi: "Núm vặn/Tay nắm cửa.",
+    exampleEn: "Door knob.",
+    exampleVi: "Tay nắm cửa.",
+    categories: ["Home", "General"],
+  },
+  {
     word: "Knock",
     slug: "knock",
     phonetic: "/nɒk/",
     partOfSpeech: "verb/noun",
-    meaningEn: "To strike a surface noisily to attract attention; a sound made by striking.",
+    meaningEn:
+      "To strike a surface noisily to attract attention; a sound made by striking.",
     meaningVi: "Gõ; tiếng gõ",
     exampleEn: "Knock before you enter the room.",
     exampleVi: "Gõ cửa trước khi vào phòng.",
-    categories: ["Home","Conversation"],
+    categories: ["Home", "Conversation"],
   },
   {
-    id: "exp-b4a-k-26",
     word: "Knockout",
     slug: "knockout",
     phonetic: "/ˈnɑːk.aʊt/",
@@ -96,10 +103,9 @@ export const K2: VocabularyWord[] = [
     meaningVi: "Cú đo ván.",
     exampleEn: "The boxer won the match by a knockout in the third round.",
     exampleVi: "Võ sĩ đã thắng trận đấu bằng cú đo ván trong hiệp thứ ba.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-k-5",
     word: "Knoll",
     slug: "knoll",
     phonetic: "/noʊl/",
@@ -108,22 +114,21 @@ export const K2: VocabularyWord[] = [
     meaningVi: "Gò/Đồi thấp.",
     exampleEn: "The small house sits on a grassy knoll.",
     exampleVi: "Ngôi nhà nhỏ nằm trên một cái gò đầy cỏ.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-9034",
     word: "Knot",
     slug: "knot",
     phonetic: "/nɒt/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A fastening made by tying a piece of string, rope, or something similar.",
+    meaningEn:
+      "A fastening made by tying a piece of string, rope, or something similar.",
     meaningVi: "Nút (thắt)",
     exampleEn: "Tie a secure knot to hold the rope.",
     exampleVi: "Thắt một nút chắc để giữ dây.",
-    categories: ["Travel","Tools"],
+    categories: ["Travel", "Tools"],
   },
   {
-    id: "exp-b4a-k-28",
     word: "Knotty",
     slug: "knotty",
     phonetic: "/ˈnɑː.t̬i/",
@@ -132,10 +137,9 @@ export const K2: VocabularyWord[] = [
     meaningVi: "Nhiều mấu/Rắc rối.",
     exampleEn: "The committee discussed several knotty legal issues.",
     exampleVi: "Ủy ban đã thảo luận một số vấn đề pháp lý rắc rối.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-9035",
     word: "Know",
     slug: "know",
     phonetic: "/noʊ/",
@@ -144,10 +148,9 @@ export const K2: VocabularyWord[] = [
     meaningVi: "Biết",
     exampleEn: "Do you know the answer to the question?",
     exampleVi: "Bạn có biết câu trả lời cho câu hỏi không?",
-    categories: ["Education","Conversation"],
+    categories: ["Education", "Conversation"],
   },
   {
-    id: "exp-b4a-k-29",
     word: "Knowable",
     slug: "knowable",
     phonetic: "/ˈnoʊ.ə.bəl/",
@@ -155,11 +158,11 @@ export const K2: VocabularyWord[] = [
     meaningEn: "Able to be known.",
     meaningVi: "Có thể biết được.",
     exampleEn: "Not everything in the universe is humanly knowable.",
-    exampleVi: "Không phải mọi thứ trong vũ trụ đều là những gì con người có thể biết được.",
-    categories: ["General"]
+    exampleVi:
+      "Không phải mọi thứ trong vũ trụ đều là những gì con người có thể biết được.",
+    categories: ["General"],
   },
   {
-    id: "b2-234",
     word: "Knowledge",
     slug: "knowledge",
     phonetic: "/ˈnɑː.lɪdʒ/",
@@ -168,10 +171,9 @@ export const K2: VocabularyWord[] = [
     meaningVi: "Kiến thức.",
     exampleEn: "Sharing knowledge.",
     exampleVi: "Chia sẻ kiến thức.",
-    categories: ["Academic","Daily"],
+    categories: ["Academic", "Daily"],
   },
   {
-    id: "exp-b4a-k-30",
     word: "Knowledgeable",
     slug: "knowledgeable",
     phonetic: "/ˈnɑː.lɪ.dʒə.bəl/",
@@ -180,10 +182,9 @@ export const K2: VocabularyWord[] = [
     meaningVi: "Thông thạo/Có kiến thức.",
     exampleEn: "She is very knowledgeable about local history.",
     exampleVi: "Cô ấy am hiểu (có kiến thức) rất nhiều về lịch sử địa phương.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-9037",
     word: "Knuckle",
     slug: "knuckle",
     phonetic: "/ˈnʌk.əl/",
@@ -192,10 +193,9 @@ export const K2: VocabularyWord[] = [
     meaningVi: "Khớp đốt ngón tay",
     exampleEn: "He cracked his knuckles out of habit.",
     exampleVi: "Anh ấy hay bẻ khớp ngón tay theo thói quen.",
-    categories: ["Body","Daily"],
+    categories: ["Body", "Daily"],
   },
   {
-    id: "gen-9038",
     word: "Kudos",
     slug: "kudos",
     phonetic: "/ˈkjuː.dɒs/",
@@ -204,6 +204,6 @@ export const K2: VocabularyWord[] = [
     meaningVi: "Lời khen ngợi; danh tiếng",
     exampleEn: "Kudos to the team for finishing early.",
     exampleVi: "Khen ngợi đội vì hoàn thành sớm.",
-    categories: ["Business","Culture"],
-  }
+    categories: ["Business", "Culture"],
+  },
 ];

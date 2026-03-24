@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const W2: VocabularyWord[] = [
   {
-    id: "exp-b5c-w-6",
     word: "Wizen",
     slug: "wizen",
     phonetic: "/ˈwɪz.ən/",
@@ -10,11 +9,11 @@ export const W2: VocabularyWord[] = [
     meaningEn: "Shriveled or wrinkled with age.",
     meaningVi: "Nhăn nheo/Héo hon.",
     exampleEn: "The old man had a wizen face from years of outdoor work.",
-    exampleVi: "Ông lão có một khuôn mặt nhăn nheo (héo hon) vì nhiều năm làm việc ngoài trời.",
-    categories: ["General"]
+    exampleVi:
+      "Ông lão có một khuôn mặt nhăn nheo (héo hon) vì nhiều năm làm việc ngoài trời.",
+    categories: ["General"],
   },
   {
-    id: "a1-51",
     word: "Woman",
     slug: "woman",
     phonetic: "/ˈwʊm.ən/",
@@ -26,7 +25,6 @@ export const W2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "b1-33",
     word: "Wonder",
     slug: "wonder",
     phonetic: "/ˈwʌn.dər/",
@@ -38,7 +36,6 @@ export const W2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1842",
     word: "Wonderful",
     slug: "wonderful",
     phonetic: "/ˈwʌn.dɚ.fəl/",
@@ -50,7 +47,6 @@ export const W2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1843",
     word: "Wood",
     slug: "wood",
     phonetic: "/wʊd/",
@@ -59,10 +55,9 @@ export const W2: VocabularyWord[] = [
     meaningVi: "Gỗ.",
     exampleEn: "Wooden furniture.",
     exampleVi: "Đồ nội thất bằng gỗ.",
-    categories: ["General","Environment"],
+    categories: ["General", "Environment"],
   },
   {
-    id: "gen-1844",
     word: "Wooden",
     slug: "wooden",
     phonetic: "/ˈwʊd.ən/",
@@ -74,7 +69,6 @@ export const W2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1845",
     word: "Wool",
     slug: "wool",
     phonetic: "/wʊl/",
@@ -83,10 +77,9 @@ export const W2: VocabularyWord[] = [
     meaningVi: "Len.",
     exampleEn: "Wool sweater.",
     exampleVi: "Áo len.",
-    categories: ["Fashion","General"],
+    categories: ["Fashion", "General"],
   },
   {
-    id: "gen-1846",
     word: "Word",
     slug: "word",
     phonetic: "/wɜːrd/",
@@ -95,10 +88,9 @@ export const W2: VocabularyWord[] = [
     meaningVi: "Từ.",
     exampleEn: "Meaning of the word.",
     exampleVi: "Nghĩa của từ.",
-    categories: ["Education","General"],
+    categories: ["Education", "General"],
   },
   {
-    id: "pv-23",
     word: "Work out",
     slug: "work-out",
     phonetic: "/wɜːrk aʊt/",
@@ -110,19 +102,18 @@ export const W2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "gen-1848",
     word: "Worker",
     slug: "worker",
     phonetic: "/ˈwɜːr.kɚ/",
     partOfSpeech: "noun",
-    meaningEn: "A person who works, especially one who does a particular type of work.",
+    meaningEn:
+      "A person who works, especially one who does a particular type of work.",
     meaningVi: "Công nhân.",
     exampleEn: "Office worker.",
     exampleVi: "Nhân viên văn phòng.",
-    categories: ["Business","People"],
+    categories: ["Business", "People"],
   },
   {
-    id: "gen-1849",
     word: "Working",
     slug: "working",
     phonetic: "/ˈwɜːr.kɪŋ/",
@@ -134,19 +125,19 @@ export const W2: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "exp-b5c-w-7",
     word: "Workmanship",
     slug: "workmanship",
     phonetic: "/ˈwɝːk.mən.ʃɪp/",
     partOfSpeech: "noun",
-    meaningEn: "The degree of skill with which a product is made or a job done.",
+    meaningEn:
+      "The degree of skill with which a product is made or a job done.",
     meaningVi: "Tay nghề/Kỹ năng làm việc.",
     exampleEn: "The table is a fine example of traditional workmanship.",
-    exampleVi: "Chiếc bàn là một ví dụ điển hình về tay nghề (kỹ năng làm việc) truyền thống.",
-    categories: ["General"]
+    exampleVi:
+      "Chiếc bàn là một ví dụ điển hình về tay nghề (kỹ năng làm việc) truyền thống.",
+    categories: ["General"],
   },
   {
-    id: "gen-1850",
     word: "Workout",
     slug: "workout",
     phonetic: "/ˈwɜːr.kaʊt/",
@@ -155,34 +146,34 @@ export const W2: VocabularyWord[] = [
     meaningVi: "Luyện tập.",
     exampleEn: "Daily workout.",
     exampleVi: "Luyện tập hàng ngày.",
-    categories: ["Sports","Medical"],
+    categories: ["Sports", "Medical"],
   },
   {
-    id: "spec-w-005",
     word: "Workshop",
     slug: "workshop",
     phonetic: "/ˈwɜːk.ʃɒp/",
     partOfSpeech: "noun",
-    meaningEn: "A meeting at which a group of people engage in intensive discussion and activity on a particular subject or project.",
-    meaningVi: "Buổi hội thảo nơi một nhóm người thảo luận và làm việc chuyên sâu về một chủ đề hoặc dự án.",
+    meaningEn:
+      "A meeting at which a group of people engage in intensive discussion and activity on a particular subject or project.",
+    meaningVi:
+      "Buổi hội thảo nơi một nhóm người thảo luận và làm việc chuyên sâu về một chủ đề hoặc dự án.",
     exampleEn: "She attended a writing workshop last weekend.",
     exampleVi: "Cô ấy tham gia một buổi hội thảo viết vào cuối tuần trước.",
-    categories: ["Education","Business"],
+    categories: ["Education", "Business"],
   },
   {
-    id: "a1-152",
     word: "World",
     slug: "world",
     phonetic: "/wɜːrld/",
     partOfSpeech: "noun",
-    meaningEn: "The earth, together with all of its countries, peoples, and natural features.",
+    meaningEn:
+      "The earth, together with all of its countries, peoples, and natural features.",
     meaningVi: "Thế giới.",
     exampleEn: "Travel around the world.",
     exampleVi: "Du lịch quanh thế giới.",
     categories: ["Daily"],
   },
   {
-    id: "gen-1852",
     word: "Worldwide",
     slug: "worldwide",
     phonetic: "/ˌwɝːldˈwaɪd/",
@@ -194,7 +185,6 @@ export const W2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1853",
     word: "Worm",
     slug: "worm",
     phonetic: "/wɜːrm/",
@@ -206,7 +196,6 @@ export const W2: VocabularyWord[] = [
     categories: ["Biology"],
   },
   {
-    id: "gen-1854",
     word: "Worn",
     slug: "worn",
     phonetic: "/wɔːrn/",
@@ -218,19 +207,18 @@ export const W2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1855",
     word: "Worry",
     slug: "worry",
     phonetic: "/ˈwɝː.i/",
     partOfSpeech: "verb/noun",
-    meaningEn: "Feel or cause to feel anxious or troubled about actual or potential problems.",
+    meaningEn:
+      "Feel or cause to feel anxious or troubled about actual or potential problems.",
     meaningVi: "Lo lắng.",
     exampleEn: "Don't worry.",
     exampleVi: "Đừng lo lắng.",
     categories: ["Emotions"],
   },
   {
-    id: "gen-1856",
     word: "Worse",
     slug: "worse",
     phonetic: "/wɝːs/",
@@ -242,19 +230,18 @@ export const W2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1857",
     word: "Worship",
     slug: "worship",
     phonetic: "/ˈwɝː.ʃɪp/",
     partOfSpeech: "noun/verb",
-    meaningEn: "The feeling or expression of reverence and adoration for a deity.",
+    meaningEn:
+      "The feeling or expression of reverence and adoration for a deity.",
     meaningVi: "Thờ phụng.",
     exampleEn: "Place of worship.",
     exampleVi: "Nơi thờ tự.",
-    categories: ["Social","Daily"],
+    categories: ["Social", "Daily"],
   },
   {
-    id: "gen-1858",
     word: "Worst",
     slug: "worst",
     phonetic: "/wɝːst/",
@@ -266,7 +253,6 @@ export const W2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1859",
     word: "Worth",
     slug: "worth",
     phonetic: "/wɝːθ/",
@@ -275,10 +261,9 @@ export const W2: VocabularyWord[] = [
     meaningVi: "Đáng giá.",
     exampleEn: "Worth the price.",
     exampleVi: "Đáng đồng tiền bát gạo.",
-    categories: ["Finance","General"],
+    categories: ["Finance", "General"],
   },
   {
-    id: "gen-1860",
     word: "Worthwhile",
     slug: "worthwhile",
     phonetic: "/ˌwɝːθˈwaɪl/",
@@ -290,19 +275,18 @@ export const W2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1861",
     word: "Worthy",
     slug: "worthy",
     phonetic: "/ˈwɝː.ði/",
     partOfSpeech: "adjective/noun",
-    meaningEn: "Having or showing the qualities or abilities that merit recognition.",
+    meaningEn:
+      "Having or showing the qualities or abilities that merit recognition.",
     meaningVi: "Xứng đáng.",
     exampleEn: "Worthy cause.",
     exampleVi: "Sự nghiệp xứng đáng.",
     categories: ["General"],
   },
   {
-    id: "gen-1862",
     word: "Would",
     slug: "would",
     phonetic: "/wʊd/",
@@ -314,19 +298,18 @@ export const W2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1863",
     word: "Wound",
     slug: "wound",
     phonetic: "/wuːnd/",
     partOfSpeech: "noun/verb",
-    meaningEn: "An injury to living tissue caused by a cut, blow, or other impact.",
+    meaningEn:
+      "An injury to living tissue caused by a cut, blow, or other impact.",
     meaningVi: "Vết thương.",
     exampleEn: "Deep wound.",
     exampleVi: "Vết thương sâu.",
-    categories: ["Medical","Biology"],
+    categories: ["Medical", "Biology"],
   },
   {
-    id: "gen-1864",
     word: "Wrap",
     slug: "wrap",
     phonetic: "/ræp/",
@@ -338,7 +321,6 @@ export const W2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "exp-b5c-w-8",
     word: "Wrath",
     slug: "wrath",
     phonetic: "/ræθ/",
@@ -347,10 +329,9 @@ export const W2: VocabularyWord[] = [
     meaningVi: "Sự phẫn nộ/Cơn thịnh nộ.",
     exampleEn: "They feared the wrath of the ancient gods.",
     exampleVi: "Họ sợ hãi cơn thịnh nộ (sự phẫn nộ) của các vị thần cổ đại.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5c-w-10",
     word: "Wretched",
     slug: "wretched",
     phonetic: "/ˈretʃ.ɪd/",
@@ -359,10 +340,9 @@ export const W2: VocabularyWord[] = [
     meaningVi: "Khốn khổ/Tồi tệ.",
     exampleEn: "The prisoners lived in wretched conditions.",
     exampleVi: "Những tù nhân đã sống trong những điều kiện khốn khổ (tồi tệ).",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1865",
     word: "Wrist",
     slug: "wrist",
     phonetic: "/rɪst/",
@@ -374,19 +354,18 @@ export const W2: VocabularyWord[] = [
     categories: ["Biology"],
   },
   {
-    id: "a1-75",
     word: "Write",
     slug: "write",
     phonetic: "/raɪt/",
     partOfSpeech: "verb",
-    meaningEn: "Mark (letters, words, or other symbols) on a surface, typically paper, with a pen, pencil, or similar implement.",
+    meaningEn:
+      "Mark (letters, words, or other symbols) on a surface, typically paper, with a pen, pencil, or similar implement.",
     meaningVi: "Viết.",
     exampleEn: "Write your name here.",
     exampleVi: "Viết tên bạn vào đây.",
     categories: ["Daily"],
   },
   {
-    id: "gen-1867",
     word: "Writer",
     slug: "writer",
     phonetic: "/ˈraɪ.t̬ɚ/",
@@ -395,10 +374,9 @@ export const W2: VocabularyWord[] = [
     meaningVi: "Nhà văn.",
     exampleEn: "Famous writer.",
     exampleVi: "Nhà văn nổi tiếng.",
-    categories: ["People","Education","Jobs"],
+    categories: ["People", "Education", "Jobs"],
   },
   {
-    id: "gen-1868",
     word: "Writing",
     slug: "writing",
     phonetic: "/ˈraɪ.t̬ɪŋ/",
@@ -410,7 +388,6 @@ export const W2: VocabularyWord[] = [
     categories: ["Education"],
   },
   {
-    id: "a2-53",
     word: "Wrong",
     slug: "wrong",
     phonetic: "/rɑːŋ/",
@@ -422,7 +399,6 @@ export const W2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-lxuio12",
     word: "Wrongly",
     slug: "wrongly",
     phonetic: "/ˈrɔŋ.li/",
@@ -434,7 +410,6 @@ export const W2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5c-w-9",
     word: "Wry",
     slug: "wry",
     phonetic: "/raɪ/",
@@ -442,7 +417,8 @@ export const W2: VocabularyWord[] = [
     meaningEn: "Using or expressing dry, especially mocking, humor.",
     meaningVi: "Mỉa mai/Gượng gạo.",
     exampleEn: "He gave a wry smile when he realized his mistake.",
-    exampleVi: "Anh ta nở một nụ cười mỉa mai (gượng gạo) khi nhận ra sai lầm của mình.",
-    categories: ["General"]
-  }
+    exampleVi:
+      "Anh ta nở một nụ cười mỉa mai (gượng gạo) khi nhận ra sai lầm của mình.",
+    categories: ["General"],
+  },
 ];

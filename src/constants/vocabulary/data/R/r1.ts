@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const R1: VocabularyWord[] = [
   {
-    id: "gen-1203",
     word: "Race",
     slug: "race",
     phonetic: "/reɪs/",
@@ -14,7 +13,6 @@ export const R1: VocabularyWord[] = [
     categories: ["Sports"],
   },
   {
-    id: "gen-1204",
     word: "Radio",
     slug: "radio",
     phonetic: "/ˈreɪ.di.oʊ/",
@@ -23,22 +21,21 @@ export const R1: VocabularyWord[] = [
     meaningVi: "Đài.",
     exampleEn: "Listen to the radio.",
     exampleVi: "Nghe đài.",
-    categories: ["Technology","Media"],
+    categories: ["Technology", "Media"],
   },
   {
-    id: "a1-30",
     word: "Rain",
     slug: "rain",
     phonetic: "/reɪn/",
     partOfSpeech: "noun/verb",
-    meaningEn: "Moisture condensed from the atmosphere that falls visibly in utterances.",
+    meaningEn:
+      "Moisture condensed from the atmosphere that falls visibly in utterances.",
     meaningVi: "Mưa.",
     exampleEn: "I like walking in the rain.",
     exampleVi: "Tôi thích đi bộ dưới mưa.",
     categories: ["Daily"],
   },
   {
-    id: "gen-1206",
     word: "Raise",
     slug: "raise",
     phonetic: "/reɪz/",
@@ -50,19 +47,18 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5c-r-1",
     word: "Ramification",
     slug: "ramification",
     phonetic: "/ˌræm.ə.fəˈkeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn: "A consequence of an action or event, especially when complex or unwelcome.",
+    meaningEn:
+      "A consequence of an action or event, especially when complex or unwelcome.",
     meaningVi: "Sự phân nhánh/Hệ quả.",
     exampleEn: "The new law has many legal ramifications.",
     exampleVi: "Bộ luật mới có nhiều hệ quả (phân nhánh) về pháp lý.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5c-r-2",
     word: "Rancor",
     slug: "rancor",
     phonetic: "/ˈræŋ.kɚ/",
@@ -71,10 +67,9 @@ export const R1: VocabularyWord[] = [
     meaningVi: "Sự thù hằn/Ác cảm.",
     exampleEn: "The divorce was filled with bitterness and rancor.",
     exampleVi: "Vụ ly hôn tràn ngập sự cay đắng và thù hằn.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1207",
     word: "Range",
     slug: "range",
     phonetic: "/reɪndʒ/",
@@ -86,7 +81,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1208",
     word: "Rank",
     slug: "rank",
     phonetic: "/ræŋk/",
@@ -98,7 +92,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5c-r-3",
     word: "Rapacious",
     slug: "rapacious",
     phonetic: "/rəˈpeɪ.ʃəs/",
@@ -106,11 +99,11 @@ export const R1: VocabularyWord[] = [
     meaningEn: "Aggressively greedy or grasping.",
     meaningVi: "Tham lam/Tham tàn.",
     exampleEn: "The rapacious landlords raised the rent significantly.",
-    exampleVi: "Những người chủ đất tham lam (tham tàn) đã tăng tiền thuê nhà đáng kể.",
-    categories: ["General"]
+    exampleVi:
+      "Những người chủ đất tham lam (tham tàn) đã tăng tiền thuê nhà đáng kể.",
+    categories: ["General"],
   },
   {
-    id: "gen-1209",
     word: "Rapid",
     slug: "rapid",
     phonetic: "/ˈræp.ɪd/",
@@ -122,19 +115,19 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5c-r-4",
     word: "Rapprochement",
     slug: "rapprochement",
     phonetic: "/ˌræp.roʊʃˈmɑːn/",
     partOfSpeech: "noun",
     meaningEn: "An establishment or resumption of harmonious relations.",
     meaningVi: "Sự hòa giải/Sự lập lại quan hệ thân thiện.",
-    exampleEn: "The two countries are seeking a rapprochement after years of war.",
-    exampleVi: "Hai nước đang tìm kiếm một sự hòa giải (lập lại quan hệ) sau nhiều năm chiến tranh.",
-    categories: ["General"]
+    exampleEn:
+      "The two countries are seeking a rapprochement after years of war.",
+    exampleVi:
+      "Hai nước đang tìm kiếm một sự hòa giải (lập lại quan hệ) sau nhiều năm chiến tranh.",
+    categories: ["General"],
   },
   {
-    id: "a2-63",
     word: "Rare",
     slug: "rare",
     phonetic: "/rer/",
@@ -146,7 +139,6 @@ export const R1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1211",
     word: "Rate",
     slug: "rate",
     phonetic: "/reɪt/",
@@ -158,7 +150,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1212",
     word: "Rather",
     slug: "rather",
     phonetic: "/ˈræð.ɚ/",
@@ -170,31 +161,31 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "c2-156",
     word: "Rationalism",
     slug: "rationalism",
     phonetic: "/ˈræʃ.ən.əl.ɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn: "A belief or theory that opinions and actions should be based on reason and knowledge rather than on religious belief or emotional response.",
+    meaningEn:
+      "A belief or theory that opinions and actions should be based on reason and knowledge rather than on religious belief or emotional response.",
     meaningVi: "Chủ nghĩa duy lý.",
     exampleEn: "Continental rationalism.",
     exampleVi: "Chủ nghĩa duy lý lục địa.",
-    categories: ["Academic","Philosophy"],
+    categories: ["Academic", "Philosophy"],
   },
   {
-    id: "exp-b5c-r-5",
     word: "Raucous",
     slug: "raucous",
     phonetic: "/ˈrɑː.kəs/",
     partOfSpeech: "noun",
     meaningEn: "Making or constituting a disturbingly harsh and loud noise.",
     meaningVi: "Khàn khàn/Chói tai/Ồn ào.",
-    exampleEn: "The party was interrupted by raucous laughter from the next room.",
-    exampleVi: "Bữa tiệc bị gián đoạn bởi những tiếng cười ồn ào (chói tai) từ phòng bên cạnh.",
-    categories: ["General"]
+    exampleEn:
+      "The party was interrupted by raucous laughter from the next room.",
+    exampleVi:
+      "Bữa tiệc bị gián đoạn bởi những tiếng cười ồn ào (chói tai) từ phòng bên cạnh.",
+    categories: ["General"],
   },
   {
-    id: "gen-r1as",
     word: "Re-evaluate",
     slug: "re-evaluate",
     phonetic: "/ˌriː.ɪˈvæl.ju.eɪt/",
@@ -206,7 +197,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1213",
     word: "Reach",
     slug: "reach",
     phonetic: "/riːtʃ/",
@@ -218,7 +208,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1214",
     word: "React",
     slug: "react",
     phonetic: "/riˈækt/",
@@ -230,31 +219,41 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b1-113",
     word: "Reaction",
     slug: "reaction",
     phonetic: "/riˈæk.ʃən/",
     partOfSpeech: "noun",
-    meaningEn: "An action performed or a feeling experienced in response to a situation or event.",
+    meaningEn:
+      "An action performed or a feeling experienced in response to a situation or event.",
     meaningVi: "Sự phản ứng.",
     exampleEn: "What was his reaction to the news?",
     exampleVi: "Phản ứng của anh ấy trước tin tức đó là gì?",
     categories: ["Daily"],
   },
   {
-    id: "a1-74",
     word: "Read",
     slug: "read",
     phonetic: "/riːd/",
     partOfSpeech: "verb",
-    meaningEn: "Look at and comprehend the meaning of (written or printed matter).",
+    meaningEn:
+      "Look at and comprehend the meaning of (written or printed matter).",
     meaningVi: "Đọc.",
     exampleEn: "I like to read newspapers.",
     exampleVi: "Tôi thích đọc báo.",
     categories: ["Daily"],
   },
   {
-    id: "gen-1216",
+    word: "Reading",
+    slug: "reading",
+    phonetic: "/ˈriː.dɪŋ/",
+    partOfSpeech: "noun",
+    meaningEn: "The action of reading.",
+    meaningVi: "Kỹ năng đọc, đọc sách, việc đọc.",
+    exampleEn: "Reading is important.",
+    exampleVi: "Đọc sách là quan trọng.",
+    categories: ["Daily"],
+  },
+  {
     word: "Ready",
     slug: "ready",
     phonetic: "/ˈred.i/",
@@ -266,7 +265,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1217",
     word: "Real",
     slug: "real",
     phonetic: "/riːl/",
@@ -278,7 +276,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1218",
     word: "Reality",
     slug: "reality",
     phonetic: "/riˈæl.ə.ti/",
@@ -290,19 +287,18 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b1-83",
     word: "Realize",
     slug: "realize",
     phonetic: "/ˈriː.ə.laɪz/",
     partOfSpeech: "verb",
-    meaningEn: "Become fully aware of (something) as a fact; understand clearly.",
+    meaningEn:
+      "Become fully aware of (something) as a fact; understand clearly.",
     meaningVi: "Nhận ra.",
     exampleEn: "I realized that I was wrong.",
     exampleVi: "Tôi nhận ra rằng mình đã sai.",
     categories: ["Daily"],
   },
   {
-    id: "gen-1220",
     word: "Really",
     slug: "really",
     phonetic: "/ˈriː.əl.i/",
@@ -314,7 +310,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-129",
     word: "Reason",
     slug: "reason",
     phonetic: "/ˈriː.zən/",
@@ -326,19 +321,19 @@ export const R1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "exp-b5c-r-6",
     word: "Recalcitrant",
     slug: "recalcitrant",
     phonetic: "/rɪˈkæl.sɪ.trənt/",
     partOfSpeech: "noun",
-    meaningEn: "Having an obstinately uncooperative attitude toward authority or discipline.",
+    meaningEn:
+      "Having an obstinately uncooperative attitude toward authority or discipline.",
     meaningVi: "Hay cãi lại/Cứng đầu.",
     exampleEn: "The recalcitrant student refused to finish the task.",
-    exampleVi: "Học sinh cứng đầu (hay cãi lại) đã từ chối hoàn thành nhiệm vụ.",
-    categories: ["General"]
+    exampleVi:
+      "Học sinh cứng đầu (hay cãi lại) đã từ chối hoàn thành nhiệm vụ.",
+    categories: ["General"],
   },
   {
-    id: "exp-b5c-r-7",
     word: "Recapitulate",
     slug: "recapitulate",
     phonetic: "/ˌriː.kəˈpɪtʃ.ə.leɪt/",
@@ -347,22 +342,21 @@ export const R1: VocabularyWord[] = [
     meaningVi: "Tóm tắt lại.",
     exampleEn: "Let me recapitulate the main points of the lecture.",
     exampleVi: "Để tôi tóm tắt lại những điểm chính của bài giảng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "spec-r-003",
     word: "Receipt",
     slug: "receipt",
     phonetic: "/rɪˈsiːt/",
     partOfSpeech: "noun",
-    meaningEn: "A written or printed statement acknowledging that something has been paid for or received.",
+    meaningEn:
+      "A written or printed statement acknowledging that something has been paid for or received.",
     meaningVi: "Biên nhận/giấy tờ xác nhận đã thanh toán hoặc nhận hàng.",
     exampleEn: "Keep the receipt in case you want to return the item.",
     exampleVi: "Giữ biên nhận nếu bạn muốn trả lại hàng.",
-    categories: ["Shopping","Finance"],
+    categories: ["Shopping", "Finance"],
   },
   {
-    id: "a1-212",
     word: "Receive",
     slug: "receive",
     phonetic: "/rɪˈsiːv/",
@@ -371,10 +365,9 @@ export const R1: VocabularyWord[] = [
     meaningVi: "Nhận.",
     exampleEn: "Receive a message.",
     exampleVi: "Nhận một tin nhắn.",
-    categories: ["Daily","Technology"],
+    categories: ["Daily", "Technology"],
   },
   {
-    id: "gen-1223",
     word: "Recent",
     slug: "recent",
     phonetic: "/ˈriː.sənt/",
@@ -386,7 +379,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "job-0012",
     word: "Receptionist",
     slug: "receptionist",
     phonetic: "/rɪˈsep.ʃə.nɪst/",
@@ -395,10 +387,9 @@ export const R1: VocabularyWord[] = [
     meaningVi: "Lễ tân",
     exampleEn: "The receptionist answered the phone.",
     exampleVi: "Lễ tân nghe điện thoại.",
-    categories: ["Jobs","Office"],
+    categories: ["Jobs", "Office"],
   },
   {
-    id: "gen-1224",
     word: "Recipe",
     slug: "recipe",
     phonetic: "/ˈres.ə.pi/",
@@ -410,19 +401,18 @@ export const R1: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
-    id: "c2-59",
     word: "Reciprocity",
     slug: "reciprocity",
     phonetic: "/ˌres.ɪˈprɑː.sə.t̬i/",
     partOfSpeech: "noun",
-    meaningEn: "The practice of exchanging things with others for mutual benefit.",
+    meaningEn:
+      "The practice of exchanging things with others for mutual benefit.",
     meaningVi: "Sự có đi có lại.",
     exampleEn: "The treaty is based on reciprocity.",
     exampleVi: "Hiệp ước dựa trên sự có đi có lại.",
     categories: ["Business"],
   },
   {
-    id: "gen-1225",
     word: "Recognize",
     slug: "recognize",
     phonetic: "/ˈrek.əɡ.naɪz/",
@@ -434,19 +424,18 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b1-2",
     word: "Recommend",
     slug: "recommend",
     phonetic: "/ˌrek.əˈmend/",
     partOfSpeech: "verb",
-    meaningEn: "Put forward (someone or something) with approval as being suitable for a particular purpose or role.",
+    meaningEn:
+      "Put forward (someone or something) with approval as being suitable for a particular purpose or role.",
     meaningVi: "Giới thiệu, khuyên bảo.",
     exampleEn: "I recommend this restaurant.",
     exampleVi: "Tôi giới thiệu nhà hàng này.",
     categories: ["Social"],
   },
   {
-    id: "exp-b5c-r-8",
     word: "Recondite",
     slug: "recondite",
     phonetic: "/ˈrek.ən.daɪt/",
@@ -455,10 +444,9 @@ export const R1: VocabularyWord[] = [
     meaningVi: "Thâm thúy/Khó hiểu.",
     exampleEn: "The professor specializes in recondite ancient languages.",
     exampleVi: "Giáo sư chuyên về các ngôn ngữ cổ đại thâm thúy (khó hiểu).",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1227",
     word: "Record",
     slug: "record",
     phonetic: "/ˈrek.ɔːrd/",
@@ -470,7 +458,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-244",
     word: "Recovery",
     slug: "recovery",
     phonetic: "/rɪˈkʌv.ər.i/",
@@ -479,10 +466,9 @@ export const R1: VocabularyWord[] = [
     meaningVi: "Sự phục hồi.",
     exampleEn: "Rapid recovery.",
     exampleVi: "Phục hồi nhanh chóng.",
-    categories: ["Medical","Daily","Technology"],
+    categories: ["Medical", "Daily", "Technology"],
   },
   {
-    id: "exp-b5c-r-9",
     word: "Rectitude",
     slug: "rectitude",
     phonetic: "/ˈrek.tə.tuːd/",
@@ -490,35 +476,35 @@ export const R1: VocabularyWord[] = [
     meaningEn: "Morally correct behavior or thinking; righteousness.",
     meaningVi: "Sự ngay thẳng/Đức hạnh.",
     exampleEn: "He was respected for his moral rectitude and honesty.",
-    exampleVi: "Ông được kính trọng vì đức hạnh (sự ngay thẳng) và lòng trung thực.",
-    categories: ["General"]
+    exampleVi:
+      "Ông được kính trọng vì đức hạnh (sự ngay thẳng) và lòng trung thực.",
+    categories: ["General"],
   },
   {
-    id: "c1-207",
     word: "Recursion",
     slug: "recursion",
     phonetic: "/rɪˈkɜːr.ʒən/",
     partOfSpeech: "noun",
-    meaningEn: "The repeated application of a recursive procedure or definition.",
+    meaningEn:
+      "The repeated application of a recursive procedure or definition.",
     meaningVi: "Đệ quy.",
     exampleEn: "Solve the problem using recursion.",
     exampleVi: "Giải quyết vấn đề bằng cách sử dụng đệ quy.",
-    categories: ["Technology","Academic"],
+    categories: ["Technology", "Academic"],
   },
   {
-    id: "gen-90012",
     word: "Recycle",
     slug: "recycle",
     phonetic: "/riːˈsaɪ.kəl/",
     partOfSpeech: "verb/noun",
-    meaningEn: "Convert waste into reusable material; the process of recycling.",
+    meaningEn:
+      "Convert waste into reusable material; the process of recycling.",
     meaningVi: "Tái chế; quá trình tái sử dụng vật liệu.",
     exampleEn: "Please recycle plastic bottles.",
     exampleVi: "Vui lòng tái chế chai nhựa.",
-    categories: ["Environment","Daily"],
+    categories: ["Environment", "Daily"],
   },
   {
-    id: "a1-42",
     word: "Red",
     slug: "red",
     phonetic: "/red/",
@@ -530,7 +516,6 @@ export const R1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "exp-b5c-r-10",
     word: "Redoubtable",
     slug: "redoubtable",
     phonetic: "/rɪˈdaʊ.t̬ə.bəl/",
@@ -538,11 +523,11 @@ export const R1: VocabularyWord[] = [
     meaningEn: "(of a person) formidable, especially as an opponent.",
     meaningVi: "Đáng gờm/Đáng kính sợ.",
     exampleEn: "She is a redoubtable lawyer who never loses a case.",
-    exampleVi: "Cô ấy là một luật sư đáng gờm, người chưa bao giờ thua một vụ kiện nào.",
-    categories: ["General"]
+    exampleVi:
+      "Cô ấy là một luật sư đáng gờm, người chưa bao giờ thua một vụ kiện nào.",
+    categories: ["General"],
   },
   {
-    id: "gen-1229",
     word: "Reduce",
     slug: "reduce",
     phonetic: "/rɪˈduːs/",
@@ -554,7 +539,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "c1-244",
     word: "Redundancy",
     slug: "redundancy",
     phonetic: "/rɪˈdʌn.dən.si/",
@@ -563,10 +547,9 @@ export const R1: VocabularyWord[] = [
     meaningVi: "Sự dư thừa, dự phòng.",
     exampleEn: "Hardware redundancy.",
     exampleVi: "Dự phòng phần cứng.",
-    categories: ["Technology","Engineering","Business"],
+    categories: ["Technology", "Engineering", "Business"],
   },
   {
-    id: "gen-1230",
     word: "Refer",
     slug: "refer",
     phonetic: "/rɪˈfɜːr/",
@@ -578,7 +561,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1231",
     word: "Reflect",
     slug: "reflect",
     phonetic: "/rɪˈflekt/",
@@ -590,7 +572,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5c-r-11",
     word: "Refractory",
     slug: "refractory",
     phonetic: "/rɪˈfræk.tɚ.i/",
@@ -599,10 +580,9 @@ export const R1: VocabularyWord[] = [
     meaningVi: "Bướng bỉnh/Khó bảo/Ngoan cố.",
     exampleEn: "The refractory horse was difficult to control.",
     exampleVi: "Con ngựa bướng bỉnh (ngoan cố) thật khó để điều khiển.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5c-r-12",
     word: "Refulgent",
     slug: "refulgent",
     phonetic: "/rɪˈfʌl.dʒənt/",
@@ -611,10 +591,9 @@ export const R1: VocabularyWord[] = [
     meaningVi: "Rực rỡ/Chói lọi.",
     exampleEn: "The diamond ring was refulgent in the sunlight.",
     exampleVi: "Chiếc nhẫn kim cương rực rỡ (chói lọi) dưới ánh nắng mặt trời.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1232",
     word: "Refuse",
     slug: "refuse",
     phonetic: "/rɪˈfjuːz/",
@@ -626,7 +605,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1233",
     word: "Regard",
     slug: "regard",
     phonetic: "/rɪˈɡɑːrd/",
@@ -638,7 +616,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1234",
     word: "Region",
     slug: "region",
     phonetic: "/ˈriː.dʒən/",
@@ -650,7 +627,6 @@ export const R1: VocabularyWord[] = [
     categories: ["Geography"],
   },
   {
-    id: "gen-1235",
     word: "Register",
     slug: "register",
     phonetic: "/ˈredʒ.ɪ.stɚ/",
@@ -662,7 +638,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1236",
     word: "Regret",
     slug: "regret",
     phonetic: "/rɪˈɡret/",
@@ -674,7 +649,6 @@ export const R1: VocabularyWord[] = [
     categories: ["Emotions"],
   },
   {
-    id: "gen-1237",
     word: "Regular",
     slug: "regular",
     phonetic: "/ˈreɡ.jə.lɚ/",
@@ -686,7 +660,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b2-228",
     word: "Regulation",
     slug: "regulation",
     phonetic: "/ˌreɡ.jəˈleɪ.ʃən/",
@@ -695,34 +668,34 @@ export const R1: VocabularyWord[] = [
     meaningVi: "Quy định, quy tắc.",
     exampleEn: "Government regulations.",
     exampleVi: "Các quy định của chính phủ.",
-    categories: ["Business","Law","Social"],
+    categories: ["Business", "Law", "Social"],
   },
   {
-    id: "c1-139",
     word: "Rehabilitation",
     slug: "rehabilitation",
     phonetic: "/ˌriː.həˌbɪl.əˈteɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn: "The action of restoring someone to health or normal life through training and therapy.",
+    meaningEn:
+      "The action of restoring someone to health or normal life through training and therapy.",
     meaningVi: "Sự phục hồi chức năng.",
     exampleEn: "A rehabilitation center.",
     exampleVi: "Một trung tâm phục hồi chức năng.",
     categories: ["Medical"],
   },
   {
-    id: "exp-b5c-r-13",
     word: "Reiterate",
     slug: "reiterate",
     phonetic: "/riˈɪt̬.ə.reɪt/",
     partOfSpeech: "noun",
-    meaningEn: "Say something again or a number of times, typically for emphasis or clarity.",
+    meaningEn:
+      "Say something again or a number of times, typically for emphasis or clarity.",
     meaningVi: "Nhắc lại/Lặp lại.",
     exampleEn: "I must reiterate the importance of safety rules.",
-    exampleVi: "Tôi phải lặp lại (nhắc lại) tầm quan trọng của các quy tắc an toàn.",
-    categories: ["General"]
+    exampleVi:
+      "Tôi phải lặp lại (nhắc lại) tầm quan trọng của các quy tắc an toàn.",
+    categories: ["General"],
   },
   {
-    id: "gen-1238",
     word: "Reject",
     slug: "reject",
     phonetic: "/rɪˈdʒekt/",
@@ -734,7 +707,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1239",
     word: "Relate",
     slug: "relate",
     phonetic: "/rɪˈleɪt/",
@@ -746,7 +718,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1240",
     word: "Relation",
     slug: "relation",
     phonetic: "/rɪˈleɪ.ʃən/",
@@ -758,7 +729,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-155",
     word: "Relationship",
     slug: "relationship",
     phonetic: "/rɪˈleɪ.ʃən.ʃɪp/",
@@ -770,7 +740,6 @@ export const R1: VocabularyWord[] = [
     categories: ["Social"],
   },
   {
-    id: "gen-1242",
     word: "Relative",
     slug: "relative",
     phonetic: "/ˈrel.ə.tɪv/",
@@ -782,7 +751,6 @@ export const R1: VocabularyWord[] = [
     categories: ["Family"],
   },
   {
-    id: "gen-1243",
     word: "Relax",
     slug: "relax",
     phonetic: "/rɪˈlæks/",
@@ -794,7 +762,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1244",
     word: "Release",
     slug: "release",
     phonetic: "/rɪˈliːs/",
@@ -806,7 +773,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1245",
     word: "Relevant",
     slug: "relevant",
     phonetic: "/ˈrel.ə.vənt/",
@@ -818,19 +784,18 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b2-221",
     word: "Reliability",
     slug: "reliability",
     phonetic: "/rɪˌlaɪ.əˈbɪl.ə.ti/",
     partOfSpeech: "noun",
-    meaningEn: "The quality of being trustworthy or performing consistently well.",
+    meaningEn:
+      "The quality of being trustworthy or performing consistently well.",
     meaningVi: "Độ tin cậy.",
     exampleEn: "System reliability.",
     exampleVi: "Độ tin cậy của hệ thống.",
-    categories: ["Technology","Engineering","Business"],
+    categories: ["Technology", "Engineering", "Business"],
   },
   {
-    id: "gen-1246",
     word: "Reliable",
     slug: "reliable",
     phonetic: "/rɪˈlaɪ.ə.bəl/",
@@ -842,7 +807,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1247",
     word: "Relief",
     slug: "relief",
     phonetic: "/rɪˈliːf/",
@@ -854,7 +818,6 @@ export const R1: VocabularyWord[] = [
     categories: ["Emotions"],
   },
   {
-    id: "gen-1248",
     word: "Religion",
     slug: "religion",
     phonetic: "/rɪˈlɪdʒ.ən/",
@@ -866,7 +829,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1249",
     word: "Rely",
     slug: "rely",
     phonetic: "/rɪˈlaɪ/",
@@ -878,7 +840,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1250",
     word: "Remain",
     slug: "remain",
     phonetic: "/rɪˈmeɪn/",
@@ -890,7 +851,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-80",
     word: "Remember",
     slug: "remember",
     phonetic: "/rɪˈmem.bər/",
@@ -902,7 +862,6 @@ export const R1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1252",
     word: "Remind",
     slug: "remind",
     phonetic: "/rɪˈmaɪnd/",
@@ -914,7 +873,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1253",
     word: "Remote",
     slug: "remote",
     phonetic: "/rɪˈmoʊt/",
@@ -926,7 +884,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1254",
     word: "Remove",
     slug: "remove",
     phonetic: "/rɪˈmuːv/",
@@ -938,19 +895,18 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5c-r-14",
     word: "Renaissance",
     slug: "renaissance",
     phonetic: "/ˈren.ə.sɑːns/",
     partOfSpeech: "noun",
-    meaningEn: "The revival of art and literature under the influence of classical models in the 14th–16th centuries.",
+    meaningEn:
+      "The revival of art and literature under the influence of classical models in the 14th–16th centuries.",
     meaningVi: "Thời kỳ Phục hưng.",
     exampleEn: "The city has undergone a cultural renaissance.",
     exampleVi: "Thành phố đã trải qua một thời kỳ Phục hưng về văn hóa.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1255",
     word: "Rent",
     slug: "rent",
     phonetic: "/rent/",
@@ -959,10 +915,9 @@ export const R1: VocabularyWord[] = [
     meaningVi: "Thuê.",
     exampleEn: "Rent a house.",
     exampleVi: "Thuê nhà.",
-    categories: ["Home","Finance"],
+    categories: ["Home", "Finance"],
   },
   {
-    id: "gen-1256",
     word: "Repair",
     slug: "repair",
     phonetic: "/rɪˈper/",
@@ -974,7 +929,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1257",
     word: "Repeat",
     slug: "repeat",
     phonetic: "/rɪˈpiːt/",
@@ -986,7 +940,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1258",
     word: "Replace",
     slug: "replace",
     phonetic: "/rɪˈpleɪs/",
@@ -998,7 +951,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1259",
     word: "Reply",
     slug: "reply",
     phonetic: "/rɪˈplaɪ/",
@@ -1010,7 +962,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1260",
     word: "Report",
     slug: "report",
     phonetic: "/rɪˈpɔːrt/",
@@ -1022,7 +973,6 @@ export const R1: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "job-0013",
     word: "Reporter",
     slug: "reporter",
     phonetic: "/rɪˈpɔːr.tɚ/",
@@ -1031,10 +981,9 @@ export const R1: VocabularyWord[] = [
     meaningVi: "Phóng viên",
     exampleEn: "The reporter covered the event.",
     exampleVi: "Phóng viên đưa tin về sự kiện.",
-    categories: ["Jobs","Media"],
+    categories: ["Jobs", "Media"],
   },
   {
-    id: "gen-1261",
     word: "Represent",
     slug: "represent",
     phonetic: "/ˌre.prɪˈzent/",
@@ -1046,7 +995,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5c-r-15",
     word: "Reprobate",
     slug: "reprobate",
     phonetic: "/ˈrep.rə.beɪt/",
@@ -1054,11 +1002,11 @@ export const R1: VocabularyWord[] = [
     meaningEn: "An unprincipled person.",
     meaningVi: "Kẻ vô lại/Người không có nguyên tắc đạo đức.",
     exampleEn: "The old man was a charming but unreliable reprobate.",
-    exampleVi: "Ông lão là một kẻ vô lại đầy quyến rũ nhưng không đáng tin cậy.",
-    categories: ["General"]
+    exampleVi:
+      "Ông lão là một kẻ vô lại đầy quyến rũ nhưng không đáng tin cậy.",
+    categories: ["General"],
   },
   {
-    id: "exp-b5c-r-16",
     word: "Repudiate",
     slug: "repudiate",
     phonetic: "/rɪˈpjuː.di.eɪt/",
@@ -1067,10 +1015,9 @@ export const R1: VocabularyWord[] = [
     meaningVi: "Từ chối/Cự tuyệt.",
     exampleEn: "The company attempted to repudiate the contract.",
     exampleVi: "Công ty đã cố gắng cự tuyệt (từ chối) hợp đồng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1262",
     word: "Request",
     slug: "request",
     phonetic: "/rɪˈkwest/",
@@ -1082,7 +1029,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1263",
     word: "Require",
     slug: "require",
     phonetic: "/rɪˈkwaɪɚ/",
@@ -1094,7 +1040,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b2-27",
     word: "Required",
     slug: "required",
     phonetic: "/rɪˈkwaɪərd/",
@@ -1106,7 +1051,6 @@ export const R1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "exp-b5c-r-17",
     word: "Rescind",
     slug: "rescind",
     phonetic: "/rɪˈsɪnd/",
@@ -1114,11 +1058,11 @@ export const R1: VocabularyWord[] = [
     meaningEn: "Revoke, cancel, or repeal (a law, order, or agreement).",
     meaningVi: "Hủy bỏ/Bãi bỏ.",
     exampleEn: "The government decided to rescind the unpopular tax.",
-    exampleVi: "Chính phủ đã quyết định bãi bỏ (hủy bỏ) loại thuế không được lòng dân đó.",
-    categories: ["General"]
+    exampleVi:
+      "Chính phủ đã quyết định bãi bỏ (hủy bỏ) loại thuế không được lòng dân đó.",
+    categories: ["General"],
   },
   {
-    id: "a2-242",
     word: "Rescue",
     slug: "rescue",
     phonetic: "/ˈres.kjuː/",
@@ -1127,10 +1071,9 @@ export const R1: VocabularyWord[] = [
     meaningVi: "Cứu hộ, giải cứu.",
     exampleEn: "Rescue operation.",
     exampleVi: "Chiến dịch giải cứu.",
-    categories: ["Daily","Social"],
+    categories: ["Daily", "Social"],
   },
   {
-    id: "gen-1264",
     word: "Research",
     slug: "research",
     phonetic: "/rɪˈsɜːrtʃ/",
@@ -1139,10 +1082,9 @@ export const R1: VocabularyWord[] = [
     meaningVi: "Nghiên cứu.",
     exampleEn: "Do research.",
     exampleVi: "Làm nghiên cứu.",
-    categories: ["Academic","Science"],
+    categories: ["Academic", "Science"],
   },
   {
-    id: "job-0014",
     word: "Researcher",
     slug: "researcher",
     phonetic: "/rɪˈsɝː.tʃɚ/",
@@ -1151,10 +1093,9 @@ export const R1: VocabularyWord[] = [
     meaningVi: "Nhà nghiên cứu",
     exampleEn: "She is a medical researcher.",
     exampleVi: "Cô ấy là nhà nghiên cứu y học.",
-    categories: ["Jobs","Science"],
+    categories: ["Jobs", "Science"],
   },
   {
-    id: "gen-1265",
     word: "Resemble",
     slug: "resemble",
     phonetic: "/rɪˈzem.bəl/",
@@ -1166,7 +1107,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1266",
     word: "Reserve",
     slug: "reserve",
     phonetic: "/rɪˈzɜːrv/",
@@ -1178,7 +1118,6 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5c-r-18",
     word: "Resilience",
     slug: "resilience",
     phonetic: "/rɪˈzɪl.jəns/",
@@ -1186,11 +1125,11 @@ export const R1: VocabularyWord[] = [
     meaningEn: "The capacity to recover quickly from difficulties; toughness.",
     meaningVi: "Sự kiên cường/Tính đàn hồi.",
     exampleEn: "She showed great resilience in overcoming her injury.",
-    exampleVi: "Cô ấy đã thể hiện sự kiên cường tuyệt vời trong việc vượt qua chấn thương.",
-    categories: ["General"]
+    exampleVi:
+      "Cô ấy đã thể hiện sự kiên cường tuyệt vời trong việc vượt qua chấn thương.",
+    categories: ["General"],
   },
   {
-    id: "gen-1267",
     word: "Resist",
     slug: "resist",
     phonetic: "/rɪˈzɪst/",
@@ -1200,5 +1139,5 @@ export const R1: VocabularyWord[] = [
     exampleEn: "Resist temptation.",
     exampleVi: "Chống lại sự cám dỗ.",
     categories: ["General"],
-  }
+  },
 ];

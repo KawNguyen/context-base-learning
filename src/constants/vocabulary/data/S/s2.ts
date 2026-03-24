@@ -2,19 +2,18 @@ import { VocabularyWord } from "../../types";
 
 export const S2: VocabularyWord[] = [
   {
-    id: "a1-132",
     word: "Shop",
     slug: "shop",
     phonetic: "/ʃɑːp/",
     partOfSpeech: "noun",
-    meaningEn: "A building or part of a building where goods or services are sold.",
+    meaningEn:
+      "A building or part of a building where goods or services are sold.",
     meaningVi: "Cửa hàng.",
     exampleEn: "I'm going to the shop to buy some milk.",
     exampleVi: "Tôi đang đi đến cửa hàng để mua một ít sữa.",
     categories: ["Daily"],
   },
   {
-    id: "a1-83",
     word: "Short",
     slug: "short",
     phonetic: "/ʃɔːrt/",
@@ -26,7 +25,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1380",
     word: "Should",
     slug: "should",
     phonetic: "/ʃʊd/",
@@ -38,7 +36,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a1-240",
     word: "Shoulder",
     slug: "shoulder",
     phonetic: "/ˈʃoʊl.dər/",
@@ -47,10 +44,9 @@ export const S2: VocabularyWord[] = [
     meaningVi: "Cái vai.",
     exampleEn: "He carried the bag on his shoulder.",
     exampleVi: "Anh ấy đeo túi trên vai.",
-    categories: ["Medical","Daily"],
+    categories: ["Medical", "Daily"],
   },
   {
-    id: "gen-1382",
     word: "Shout",
     slug: "shout",
     phonetic: "/ʃaʊt/",
@@ -62,7 +58,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1383",
     word: "Show",
     slug: "show",
     phonetic: "/ʃoʊ/",
@@ -74,7 +69,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "pv-76",
     word: "Show off",
     slug: "show-off",
     phonetic: "/ʃoʊ ɒf/",
@@ -86,7 +80,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "gen-1384",
     word: "Shower",
     slug: "shower",
     phonetic: "/ˈʃaʊ.ɚ/",
@@ -98,7 +91,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Home"],
   },
   {
-    id: "gen-1385",
     word: "Shut",
     slug: "shut",
     phonetic: "/ʃʌt/",
@@ -110,7 +102,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "pv-120",
     word: "Shut down",
     slug: "shut-down",
     phonetic: "/ʃʌt daʊn/",
@@ -119,10 +110,9 @@ export const S2: VocabularyWord[] = [
     meaningVi: "Tắt máy, đóng cửa.",
     exampleEn: "Shut down the computer.",
     exampleVi: "Tắt máy tính.",
-    categories: ["Phrasal Verb","Technology"],
+    categories: ["Phrasal Verb", "Technology"],
   },
   {
-    id: "a1-177",
     word: "Sick",
     slug: "sick",
     phonetic: "/sɪk/",
@@ -131,10 +121,9 @@ export const S2: VocabularyWord[] = [
     meaningVi: "Ốm, bệnh.",
     exampleEn: "I feel sick today.",
     exampleVi: "Hôm nay tôi thấy mệt.",
-    categories: ["Daily","Medical"],
+    categories: ["Daily", "Medical"],
   },
   {
-    id: "gen-1387",
     word: "Side",
     slug: "side",
     phonetic: "/saɪd/",
@@ -146,7 +135,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1388",
     word: "Sign",
     slug: "sign",
     phonetic: "/saɪn/",
@@ -158,7 +146,51 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "pv-118",
+    word: "Significant",
+    slug: "significant",
+    phonetic: "/sɪɡˈnɪf.ə.kənt/",
+    partOfSpeech: "adj",
+    meaningEn:
+      "Sufficiently great or important to be worthy of attention; noteworthy.",
+    meaningVi: "Đáng kể, quan trọng.",
+    exampleEn: "There is a significant difference.",
+    exampleVi: "Có một sự khác biệt đáng kể.",
+    categories: ["Academic"],
+  },
+  {
+    word: "Significantly",
+    slug: "significantly",
+    phonetic: "/sɪɡˈnɪf.ə.kənt.li/",
+    partOfSpeech: "adverb",
+    meaningEn: "In a significant manner.",
+    meaningVi: "Một cách đáng kể.",
+    exampleEn: "The results improved significantly.",
+    exampleVi: "Kết quả đã cải thiện đáng kể.",
+    categories: ["Academic"],
+  },
+  {
+    word: "Significance",
+    slug: "significance",
+    phonetic: "/sɪɡˈnɪf.ə.kəns/",
+    partOfSpeech: "noun",
+    meaningEn: "The quality of being significant.",
+    meaningVi: "Tầm quan trọng, ý nghĩa.",
+    exampleEn: "The significance of this discovery is immense.",
+    exampleVi: "Tầm quan trọng của khám phá này là vô cùng lớn.",
+    categories: ["Academic"],
+  },
+  {
+    word: "Signify",
+    slug: "signify",
+    phonetic: "/ˈsɪɡ.nɪ.faɪ/",
+    partOfSpeech: "verb",
+    meaningEn: "Be an indication of.",
+    meaningVi: "Biểu thị, có nghĩa là.",
+    exampleEn: "What does this symbol signify?",
+    exampleVi: "Biểu tượng này có nghĩa là gì?",
+    categories: ["General"],
+  },
+  {
     word: "Sign in",
     slug: "sign-in",
     phonetic: "/saɪn ɪn/",
@@ -167,10 +199,9 @@ export const S2: VocabularyWord[] = [
     meaningVi: "Đăng nhập.",
     exampleEn: "Sign in to your account.",
     exampleVi: "Đăng nhập vào tài khoản của bạn.",
-    categories: ["Phrasal Verb","Technology"],
+    categories: ["Phrasal Verb", "Technology"],
   },
   {
-    id: "pv-119",
     word: "Sign out",
     slug: "sign-out",
     phonetic: "/saɪn aʊt/",
@@ -179,10 +210,9 @@ export const S2: VocabularyWord[] = [
     meaningVi: "Đăng xuất.",
     exampleEn: "Don't forget to sign out.",
     exampleVi: "Đừng quên đăng xuất.",
-    categories: ["Phrasal Verb","Technology"],
+    categories: ["Phrasal Verb", "Technology"],
   },
   {
-    id: "gen-1389",
     word: "Signal",
     slug: "signal",
     phonetic: "/ˈsɪɡ.nəl/",
@@ -194,19 +224,18 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b2-33",
     word: "Significant",
     slug: "significant",
     phonetic: "/sɪɡˈnɪf.ə.kənt/",
     partOfSpeech: "adj",
-    meaningEn: "Sufficiently great or important to be worthy of attention; noteworthy.",
+    meaningEn:
+      "Sufficiently great or important to be worthy of attention; noteworthy.",
     meaningVi: "Đáng kể, quan trọng.",
     exampleEn: "There is a significant difference.",
     exampleVi: "Có một sự khác biệt đáng kể.",
     categories: ["Academic"],
   },
   {
-    id: "gen-1391",
     word: "Silence",
     slug: "silence",
     phonetic: "/ˈsaɪ.ləns/",
@@ -218,7 +247,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1392",
     word: "Silent",
     slug: "silent",
     phonetic: "/ˈsaɪ.lənt/",
@@ -230,7 +258,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1393",
     word: "Silver",
     slug: "silver",
     phonetic: "/ˈsɪl.vɚ/",
@@ -242,7 +269,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1394",
     word: "Similar",
     slug: "similar",
     phonetic: "/ˈsɪm.ə.lɚ/",
@@ -254,7 +280,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-44",
     word: "Simple",
     slug: "simple",
     phonetic: "/ˈsɪm.pəl/",
@@ -266,7 +291,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1396",
     word: "Since",
     slug: "since",
     phonetic: "/sɪns/",
@@ -278,7 +302,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1397",
     word: "Sing",
     slug: "sing",
     phonetic: "/sɪŋ/",
@@ -290,7 +313,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Music"],
   },
   {
-    id: "gen-1398",
     word: "Singer",
     slug: "singer",
     phonetic: "/ˈsɪŋ.ɚ/",
@@ -299,10 +321,9 @@ export const S2: VocabularyWord[] = [
     meaningVi: "Ca sĩ.",
     exampleEn: "Famous singer.",
     exampleVi: "Ca sĩ nổi tiếng.",
-    categories: ["Music","Business","Jobs"],
+    categories: ["Music", "Business", "Jobs"],
   },
   {
-    id: "gen-1399",
     word: "Single",
     slug: "single",
     phonetic: "/ˈsɪŋ.ɡəl/",
@@ -314,7 +335,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "c2-56",
     word: "Singularity",
     slug: "singularity",
     phonetic: "/ˌsɪŋ.ɡjəˈler.ə.t̬i/",
@@ -326,7 +346,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Technology"],
   },
   {
-    id: "gen-90006",
     word: "Sink",
     slug: "sink",
     phonetic: "/sɪŋk/",
@@ -335,22 +354,21 @@ export const S2: VocabularyWord[] = [
     meaningVi: "Bồn rửa; chậu rửa với nước và ống thoát.",
     exampleEn: "Wash the dishes in the sink.",
     exampleVi: "Rửa bát trong bồn rửa.",
-    categories: ["Home","Daily"],
+    categories: ["Home", "Daily"],
   },
   {
-    id: "a1-57",
     word: "Sister",
     slug: "sister",
     phonetic: "/ˈsɪs.tər/",
     partOfSpeech: "noun",
-    meaningEn: "A woman or girl in relation to other daughters and sons of her parents.",
+    meaningEn:
+      "A woman or girl in relation to other daughters and sons of her parents.",
     meaningVi: "Chị, em gái.",
     exampleEn: "My sister is a student.",
     exampleVi: "Em gái tôi là học sinh.",
     categories: ["Family"],
   },
   {
-    id: "gen-1401",
     word: "Sit",
     slug: "sit",
     phonetic: "/sɪt/",
@@ -362,19 +380,18 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-204",
     word: "Site",
     slug: "site",
     phonetic: "/saɪt/",
     partOfSpeech: "noun",
-    meaningEn: "An area of ground on which a town, building, or monument is constructed.",
+    meaningEn:
+      "An area of ground on which a town, building, or monument is constructed.",
     meaningVi: "Trang web; địa điểm.",
     exampleEn: "Visit our site.",
     exampleVi: "Ghé thăm trang web/địa điểm của chúng tôi.",
-    categories: ["Technology","Daily"],
+    categories: ["Technology", "Daily"],
   },
   {
-    id: "a2-141",
     word: "Situation",
     slug: "situation",
     phonetic: "/ˌsɪtʃ.uˈeɪ.ʃən/",
@@ -386,7 +403,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1404",
     word: "Six",
     slug: "six",
     phonetic: "/sɪks/",
@@ -398,7 +414,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1405",
     word: "Size",
     slug: "size",
     phonetic: "/saɪz/",
@@ -410,7 +425,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-21321",
     word: "Sketchbook",
     slug: "sketchbook",
     phonetic: "/ˈskɛtʃ.ˌbʊk/",
@@ -422,7 +436,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Art"],
   },
   {
-    id: "a2-120",
     word: "Skill",
     slug: "skill",
     phonetic: "/skɪl/",
@@ -434,43 +447,42 @@ export const S2: VocabularyWord[] = [
     categories: ["Academic"],
   },
   {
-    id: "a1-244",
     word: "Skin",
     slug: "skin",
     phonetic: "/skɪn/",
     partOfSpeech: "noun",
-    meaningEn: "The thin layer of tissue forming the natural outer covering of the body.",
+    meaningEn:
+      "The thin layer of tissue forming the natural outer covering of the body.",
     meaningVi: "Da.",
     exampleEn: "Protect your skin from the sun.",
     exampleVi: "Bảo vệ da khỏi ánh nắng mặt trời.",
-    categories: ["Medical","Daily"],
+    categories: ["Medical", "Daily"],
   },
   {
-    id: "a1-29",
     word: "Sky",
     slug: "sky",
     phonetic: "/skaɪ/",
     partOfSpeech: "noun",
-    meaningEn: "The region of the atmosphere and outer space seen from the earth.",
+    meaningEn:
+      "The region of the atmosphere and outer space seen from the earth.",
     meaningVi: "Bầu trời.",
     exampleEn: "The sky is blue.",
     exampleVi: "Bầu trời màu xanh.",
     categories: ["Daily"],
   },
   {
-    id: "a1-67",
     word: "Sleep",
     slug: "sleep",
     phonetic: "/sliːp/",
     partOfSpeech: "verb",
-    meaningEn: "A condition of body and mind that typically recurs for several hours every night.",
+    meaningEn:
+      "A condition of body and mind that typically recurs for several hours every night.",
     meaningVi: "Ngủ.",
     exampleEn: "I sleep eight hours every night.",
     exampleVi: "Tôi ngủ 8 tiếng mỗi đêm.",
     categories: ["Daily"],
   },
   {
-    id: "a1-100",
     word: "Sleepy",
     slug: "sleepy",
     phonetic: "/ˈsliː.pi/",
@@ -482,7 +494,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1410",
     word: "Slice",
     slug: "slice",
     phonetic: "/slaɪs/",
@@ -494,7 +505,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
-    id: "gen-1411",
     word: "Slide",
     slug: "slide",
     phonetic: "/slaɪd/",
@@ -506,7 +516,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1412",
     word: "Slight",
     slug: "slight",
     phonetic: "/slaɪt/",
@@ -518,19 +527,18 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a1-94",
     word: "Slow",
     slug: "slow",
     phonetic: "/sloʊ/",
     partOfSpeech: "adj/adv",
-    meaningEn: "Moving or operating, or as if moving or operating, at a low speed.",
+    meaningEn:
+      "Moving or operating, or as if moving or operating, at a low speed.",
     meaningVi: "Chậm.",
     exampleEn: "A slow runner.",
     exampleVi: "Một người chạy chậm.",
     categories: ["Daily"],
   },
   {
-    id: "a1-37",
     word: "Small",
     slug: "small",
     phonetic: "/smɔːl/",
@@ -542,7 +550,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1415",
     word: "Smart",
     slug: "smart",
     phonetic: "/smɑːrt/",
@@ -554,43 +561,44 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "spec-s-001",
     word: "Smart contract",
     slug: "smart-contract",
     phonetic: "/smɑːrt ˈkɒn.trækt/",
     partOfSpeech: "noun",
-    meaningEn: "A self-executing contract with the terms of the agreement directly written into code.",
-    meaningVi: "Hợp đồng tự thực thi với các điều khoản được viết trực tiếp bằng mã.",
+    meaningEn:
+      "A self-executing contract with the terms of the agreement directly written into code.",
+    meaningVi:
+      "Hợp đồng tự thực thi với các điều khoản được viết trực tiếp bằng mã.",
     exampleEn: "Smart contracts automate transactions on the blockchain.",
     exampleVi: "Smart contract tự động hóa các giao dịch trên blockchain.",
-    categories: ["Technology","Law","Finance"],
+    categories: ["Technology", "Law", "Finance"],
   },
   {
-    id: "a2-99",
     word: "Smartphone",
     slug: "smartphone",
     phonetic: "/ˈsmɑːrt.foʊn/",
     partOfSpeech: "noun",
-    meaningEn: "A mobile phone that performs many of the functions of a computer.",
+    meaningEn:
+      "A mobile phone that performs many of the functions of a computer.",
     meaningVi: "Điện thoại thông minh.",
     exampleEn: "I have a new smartphone.",
     exampleVi: "Tôi có một chiếc điện thoại thông minh mới.",
     categories: ["Technology"],
   },
   {
-    id: "spec-s-002",
     word: "Smartphone app",
     slug: "smartphone-app",
     phonetic: "/ˈsmɑːrt.foʊn æp/",
     partOfSpeech: "noun",
-    meaningEn: "A software application designed to run on mobile devices such as smartphones and tablets.",
-    meaningVi: "Ứng dụng phần mềm chạy trên thiết bị di động như điện thoại thông minh và máy tính bảng.",
+    meaningEn:
+      "A software application designed to run on mobile devices such as smartphones and tablets.",
+    meaningVi:
+      "Ứng dụng phần mềm chạy trên thiết bị di động như điện thoại thông minh và máy tính bảng.",
     exampleEn: "Install the smartphone app to get notifications.",
     exampleVi: "Cài đặt ứng dụng điện thoại để nhận thông báo.",
-    categories: ["Technology","Daily"],
+    categories: ["Technology", "Daily"],
   },
   {
-    id: "gen-1416",
     word: "Smell",
     slug: "smell",
     phonetic: "/smel/",
@@ -602,7 +610,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1417",
     word: "Smile",
     slug: "smile",
     phonetic: "/smaɪl/",
@@ -614,7 +621,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1418",
     word: "Smoke",
     slug: "smoke",
     phonetic: "/smoʊk/",
@@ -626,7 +632,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1419",
     word: "Smooth",
     slug: "smooth",
     phonetic: "/smuːð/",
@@ -638,7 +643,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1420",
     word: "Snake",
     slug: "snake",
     phonetic: "/sneɪk/",
@@ -650,7 +654,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Biology"],
   },
   {
-    id: "a1-31",
     word: "Snow",
     slug: "snow",
     phonetic: "/snoʊ/",
@@ -662,7 +665,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1422",
     word: "So",
     slug: "so",
     phonetic: "/soʊ/",
@@ -674,31 +676,86 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-137",
-    word: "Social",
-    slug: "Social",
+    word: "Soap",
+    slug: "soap",
+    phonetic: "/soʊp/",
+    partOfSpeech: "noun",
+    meaningEn: "A substance used for washing.",
+    meaningVi: "Xà phòng.",
+    exampleEn: "Wash your hands with soap.",
+    exampleVi: "Rửa tay bằng xà phòng.",
+    categories: ["Home", "Daily"],
+  },
+  {
+    word: "Sociology",
+    slug: "sociology",
+    phonetic: "/ˌsoʊ.siˈɑː.lə.dʒi/",
+    partOfSpeech: "noun",
+    meaningEn: "The study of society.",
+    meaningVi: "Xã hội học.",
+    exampleEn: "She is studying sociology at university.",
+    exampleVi: "Cô ấy đang học xã hội học tại trường đại học.",
+    categories: ["Academic", "Social"],
+  },
+  {
+    word: "Society",
+    slug: "society",
     phonetic: "/səˈsaɪ.ə.ti/",
     partOfSpeech: "noun",
-    meaningEn: "The aggregate of people living together in a more or less ordered community.",
+    meaningEn:
+      "The aggregate of people living together in a more or less ordered community.",
     meaningVi: "Xã hội.",
     exampleEn: "Impact on society.",
     exampleVi: "Ảnh hưởng đến xã hội.",
     categories: ["Social"],
   },
   {
-    id: "a2-98",
+    word: "Sophisticated",
+    slug: "sophisticated",
+    phonetic: "/səˈfɪs.tɪ.keɪ.tɪd/",
+    partOfSpeech: "adjective",
+    meaningEn: "Having a refined knowledge of the world.",
+    meaningVi: "Tinh vi, phức tạp.",
+    exampleEn: "Sophisticated technology.",
+    exampleVi: "Công nghệ tinh vi.",
+    categories: ["Technology"],
+  },
+  {
+    word: "Sophyticated",
+    slug: "sophyticated",
+    phonetic: "/səˈfɪs.tɪ.keɪ.tɪd/",
+    partOfSpeech: "adjective",
+    meaningEn: "Having a refined knowledge of the world.",
+    meaningVi: "Tinh vi, phức tạp.",
+    exampleEn: "Sophisticated technology.",
+    exampleVi: "Công nghệ tinh vi.",
+    categories: ["Technology"],
+  },
+  {
+    word: "Social",
+    slug: "Social",
+    phonetic: "/səˈsaɪ.ə.ti/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The aggregate of people living together in a more or less ordered community.",
+    meaningVi: "Xã hội.",
+    exampleEn: "Impact on society.",
+    exampleVi: "Ảnh hưởng đến xã hội.",
+    categories: ["Social"],
+  },
+  {
     word: "Social media",
     slug: "social-media",
     phonetic: "/ˈsoʊ.ʃəl ˈmiː.di.ə/",
     partOfSpeech: "noun",
-    meaningEn: "Websites and applications that enable users to create and share content or to participate in social networking.",
+    meaningEn:
+      "Websites and applications that enable users to create and share content or to participate in social networking.",
     meaningVi: "Mạng xã hội.",
     exampleEn: "Many people use social media every day.",
     exampleVi: "Nhiều người sử dụng mạng xã hội mỗi ngày.",
     categories: ["Technology"],
   },
   {
-    id: "job-0021",
     word: "Social worker",
     slug: "social-worker",
     phonetic: "/ˈsoʊ.ʃəl ˌwɝː.kɚ/",
@@ -707,10 +764,9 @@ export const S2: VocabularyWord[] = [
     meaningVi: "Nhân viên công tác xã hội",
     exampleEn: "The social worker supports disadvantaged families.",
     exampleVi: "Nhân viên xã hội hỗ trợ các gia đình khó khăn.",
-    categories: ["Jobs","Social"],
+    categories: ["Jobs", "Social"],
   },
   {
-    id: "gen-90007",
     word: "Socket",
     slug: "socket",
     phonetic: "/ˈsɒk.ɪt/",
@@ -719,10 +775,9 @@ export const S2: VocabularyWord[] = [
     meaningVi: "ổ cắm điện.",
     exampleEn: "Plug the charger into the socket.",
     exampleVi: "Cắm sạc vào ổ cắm.",
-    categories: ["Technology","Daily"],
+    categories: ["Technology", "Daily"],
   },
   {
-    id: "gen-1425",
     word: "Soft",
     slug: "soft",
     phonetic: "/sɔːft/",
@@ -734,19 +789,18 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b1-94",
     word: "Software",
     slug: "software",
     phonetic: "/ˈsɒft.weər/",
     partOfSpeech: "noun",
-    meaningEn: "The programs and other operating information used by a computer.",
+    meaningEn:
+      "The programs and other operating information used by a computer.",
     meaningVi: "Phần mềm.",
     exampleEn: "He is a software developer.",
     exampleVi: "Anh ấy là một nhà phát triển phần mềm.",
     categories: ["Technology"],
   },
   {
-    id: "gen-1426",
     word: "Soil",
     slug: "soil",
     phonetic: "/sɔɪl/",
@@ -758,7 +812,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Environment"],
   },
   {
-    id: "gen-1427",
     word: "Soldier",
     slug: "soldier",
     phonetic: "/ˈsoʊl.dʒɚ/",
@@ -767,10 +820,9 @@ export const S2: VocabularyWord[] = [
     meaningVi: "Binh sĩ.",
     exampleEn: "Brave soldier.",
     exampleVi: "Binh sĩ dũng cảm.",
-    categories: ["Business","Politics","Jobs","Military"],
+    categories: ["Business", "Politics", "Jobs", "Military"],
   },
   {
-    id: "gen-1428",
     word: "Solid",
     slug: "solid",
     phonetic: "/ˈsɑː.lɪd/",
@@ -782,31 +834,31 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5c-s-7",
     word: "Solipsism",
     slug: "solipsism",
     phonetic: "/ˈsɑː.lɪp.sɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn: "The view or theory that the self is all that can be known to exist.",
+    meaningEn:
+      "The view or theory that the self is all that can be known to exist.",
     meaningVi: "Thuyết duy ngã.",
     exampleEn: "His extreme narcissism approached the point of solipsism.",
-    exampleVi: "Sự tự luyến cực đoan của anh ta đã chạm đến ngưỡng của thuyết duy ngã.",
-    categories: ["General"]
+    exampleVi:
+      "Sự tự luyến cực đoan của anh ta đã chạm đến ngưỡng của thuyết duy ngã.",
+    categories: ["General"],
   },
   {
-    id: "a2-76",
     word: "Solution",
     slug: "solution",
     phonetic: "/səˈluː.ʃən/",
     partOfSpeech: "noun",
-    meaningEn: "A means of solving a problem or dealing with a difficult situation.",
+    meaningEn:
+      "A means of solving a problem or dealing with a difficult situation.",
     meaningVi: "Giải pháp.",
     exampleEn: "We need to find a solution.",
     exampleVi: "Chúng ta cần tìm một giải pháp.",
     categories: ["Daily"],
   },
   {
-    id: "gen-1430",
     word: "Solve",
     slug: "solve",
     phonetic: "/sɑːlv/",
@@ -818,7 +870,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a1-58",
     word: "Somatic",
     slug: "somatic",
     phonetic: "/səˈmæt̬.ɪk/",
@@ -830,7 +881,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Medical"],
   },
   {
-    id: "gen-1431",
     word: "Some",
     slug: "some",
     phonetic: "/sʌm/",
@@ -842,7 +892,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1432",
     word: "Somebody",
     slug: "somebody",
     phonetic: "/ˈsʌm.bə.di/",
@@ -854,7 +903,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1433",
     word: "Someone",
     slug: "someone",
     phonetic: "/ˈsʌm.wʌn/",
@@ -866,7 +914,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1434",
     word: "Something",
     slug: "something",
     phonetic: "/ˈsʌm.θɪŋ/",
@@ -878,7 +925,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1435",
     word: "Sometimes",
     slug: "sometimes",
     phonetic: "/ˈsʌm.taɪmz/",
@@ -890,7 +936,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1436",
     word: "Somewhere",
     slug: "somewhere",
     phonetic: "/ˈsʌm.wer/",
@@ -902,7 +947,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1437",
     word: "Son",
     slug: "son",
     phonetic: "/sʌn/",
@@ -914,7 +958,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Family"],
   },
   {
-    id: "a1-143",
     word: "Song",
     slug: "song",
     phonetic: "/sɑːŋ/",
@@ -926,7 +969,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Social"],
   },
   {
-    id: "gen-1439",
     word: "Soon",
     slug: "soon",
     phonetic: "/suːn/",
@@ -938,7 +980,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1440",
     word: "Sorry",
     slug: "sorry",
     phonetic: "/ˈsɑːr.i/",
@@ -950,7 +991,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1441",
     word: "Sort",
     slug: "sort",
     phonetic: "/sɔːrt/",
@@ -962,7 +1002,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1442",
     word: "Sound",
     slug: "sound",
     phonetic: "/saʊnd/",
@@ -974,7 +1013,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1443",
     word: "Soup",
     slug: "soup",
     phonetic: "/suːp/",
@@ -986,19 +1024,18 @@ export const S2: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
-    id: "b1-114",
     word: "Source",
     slug: "source",
     phonetic: "/sɔːrs/",
     partOfSpeech: "noun",
-    meaningEn: "A place, person, or thing from which something comes or can be obtained.",
+    meaningEn:
+      "A place, person, or thing from which something comes or can be obtained.",
     meaningVi: "Nguồn.",
     exampleEn: "Energy source.",
     exampleVi: "Nguồn năng lượng.",
     categories: ["Academic"],
   },
   {
-    id: "gen-1445",
     word: "South",
     slug: "south",
     phonetic: "/saʊθ/",
@@ -1010,31 +1047,41 @@ export const S2: VocabularyWord[] = [
     categories: ["Geography"],
   },
   {
-    id: "a2-43",
     word: "Space",
     slug: "space",
     phonetic: "/speɪs/",
     partOfSpeech: "noun",
-    meaningEn: "A continuous area or expanse which is free, available, or unoccupied.",
+    meaningEn:
+      "A continuous area or expanse which is free, available, or unoccupied.",
     meaningVi: "Không gian.",
     exampleEn: "There is no space in the car.",
     exampleVi: "Không còn chỗ trống trong xe hơi.",
     categories: ["Daily"],
   },
   {
-    id: "a1-77",
+    word: "Span",
+    slug: "span",
+    phonetic: "/spæn/",
+    partOfSpeech: "noun/verb",
+    meaningEn: "The full extent of something.",
+    meaningVi: "Khoảng thời gian, khoảng cách giữa hai điểm.",
+    exampleEn: "The bridge spans the river.",
+    exampleVi: "Cây cầu bắc qua sông.",
+    categories: ["General"],
+  },
+  {
     word: "Speak",
     slug: "speak",
     phonetic: "/spiːk/",
     partOfSpeech: "verb",
-    meaningEn: "Say something in order to convey information, an opinion, or a feeling.",
+    meaningEn:
+      "Say something in order to convey information, an opinion, or a feeling.",
     meaningVi: "Nói.",
     exampleEn: "Can you speak English?",
     exampleVi: "Bạn có thể nói tiếng Anh không?",
     categories: ["Daily"],
   },
   {
-    id: "gen-90008",
     word: "Speaker",
     slug: "speaker",
     phonetic: "/ˈspiː.kər/",
@@ -1043,10 +1090,9 @@ export const S2: VocabularyWord[] = [
     meaningVi: "Loa; thiết bị phát âm thanh.",
     exampleEn: "Connect the phone to the speaker.",
     exampleVi: "Kết nối điện thoại với loa.",
-    categories: ["Technology","Music"],
+    categories: ["Technology", "Music"],
   },
   {
-    id: "a2-50",
     word: "Special",
     slug: "special",
     phonetic: "/ˈspeʃ.əl/",
@@ -1058,7 +1104,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "b1-89",
     word: "Specific",
     slug: "specific",
     phonetic: "/spəˈsɪf.ɪk/",
@@ -1070,7 +1115,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Academic"],
   },
   {
-    id: "gen-1450",
     word: "Speech",
     slug: "speech",
     phonetic: "/spiːtʃ/",
@@ -1082,7 +1126,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1451",
     word: "Speed",
     slug: "speed",
     phonetic: "/spiːd/",
@@ -1094,7 +1137,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1452",
     word: "Spell",
     slug: "spell",
     phonetic: "/spel/",
@@ -1106,7 +1148,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Education"],
   },
   {
-    id: "gen-1453",
     word: "Spend",
     slug: "spend",
     phonetic: "/spend/",
@@ -1118,7 +1159,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Finance"],
   },
   {
-    id: "a2-79bvcx0",
     word: "Spirit",
     slug: "spirit",
     phonetic: "/ˈspɪr.ɪt/",
@@ -1130,7 +1170,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1454",
     word: "Sports",
     slug: "Sports",
     phonetic: "/spɔːrt/",
@@ -1142,7 +1181,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Sports"],
   },
   {
-    id: "a2-8",
     word: "Spring",
     slug: "spring",
     phonetic: "/sprɪŋ/",
@@ -1154,7 +1192,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "exp-b5c-s-8",
     word: "Spurious",
     slug: "spurious",
     phonetic: "/ˈspjʊr.i.əs/",
@@ -1162,11 +1199,11 @@ export const S2: VocabularyWord[] = [
     meaningEn: "Not being what it purports to be; false or fake.",
     meaningVi: "Giả mạo/Sai lệch.",
     exampleEn: "The report was based on spurious data and was rejected.",
-    exampleVi: "Bản báo cáo dựa trên dữ liệu giả mạo (sai lệch) nên đã bị từ chối.",
-    categories: ["General"]
+    exampleVi:
+      "Bản báo cáo dựa trên dữ liệu giả mạo (sai lệch) nên đã bị từ chối.",
+    categories: ["General"],
   },
   {
-    id: "gen-1456",
     word: "Square",
     slug: "square",
     phonetic: "/skwer/",
@@ -1178,7 +1215,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1457",
     word: "Staff",
     slug: "staff",
     phonetic: "/stæf/",
@@ -1190,7 +1226,6 @@ export const S2: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "gen-1458",
     word: "Stage",
     slug: "stage",
     phonetic: "/steɪdʒ/",
@@ -1200,5 +1235,5 @@ export const S2: VocabularyWord[] = [
     exampleEn: "On stage.",
     exampleVi: "Trên sân khấu.",
     categories: ["Art"],
-  }
+  },
 ];

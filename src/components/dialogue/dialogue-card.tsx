@@ -94,7 +94,7 @@ function QuestionItem({
   // Shuffle options
   const { shuffledOptions, newCorrectIndex } = useShuffleOptions(
     question.options,
-    question.correct
+    question.correct,
   );
 
   const hasAnswer = selectedAnswer !== undefined;

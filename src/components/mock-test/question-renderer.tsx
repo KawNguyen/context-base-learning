@@ -47,7 +47,7 @@ export function QuestionRenderer({
         // Read all 4 options: A, B, C, D
         const text = item.options
           .map(
-            (opt, idx) => `${String.fromCharCode(65 + idx)} ... ${opt.option}`
+            (opt, idx) => `${String.fromCharCode(65 + idx)} ... ${opt.option}`,
           )
           .join(" ... ");
         speak(text);
@@ -114,7 +114,7 @@ export function QuestionRenderer({
                   showSuccess &&
                     "bg-green-500/20 border-green-500 hover:bg-green-500/30",
                   showError &&
-                    "bg-destructive/20 border-destructive hover:bg-destructive/30"
+                    "bg-destructive/20 border-destructive hover:bg-destructive/30",
                 )}
                 onClick={() => !reviewMode && onAnswer(idx)}
                 disabled={reviewMode}
@@ -138,7 +138,7 @@ export function QuestionRenderer({
                   "p-3 rounded-lg border",
                   opt.isCorrect
                     ? "bg-green-500/10 border-green-500/30"
-                    : "bg-muted/30"
+                    : "bg-muted/30",
                 )}
               >
                 <span className="font-bold mr-2">
@@ -214,7 +214,7 @@ export function QuestionRenderer({
                   showSuccess &&
                     "bg-green-500/20 border-green-500 hover:bg-green-500/30",
                   showError &&
-                    "bg-destructive/20 border-destructive hover:bg-destructive/30"
+                    "bg-destructive/20 border-destructive hover:bg-destructive/30",
                 )}
                 onClick={() => !reviewMode && onAnswer(idx)}
                 disabled={reviewMode}
@@ -243,7 +243,7 @@ export function QuestionRenderer({
                       "p-2 rounded",
                       resp.isCorrect
                         ? "bg-green-500/10 border border-green-500/30"
-                        : "bg-muted"
+                        : "bg-muted",
                     )}
                   >
                     <span className="font-bold mr-2">
@@ -309,15 +309,15 @@ export function QuestionRenderer({
                         isSelected
                           ? "default"
                           : showSuccess
-                          ? "secondary"
-                          : "outline"
+                            ? "secondary"
+                            : "outline"
                       }
                       className={cn(
                         "justify-start h-auto py-2 text-sm text-left",
                         showSuccess &&
                           "bg-green-500/20 border-green-500 hover:bg-green-500/30",
                         showError &&
-                          "bg-destructive/20 border-destructive hover:bg-destructive/30"
+                          "bg-destructive/20 border-destructive hover:bg-destructive/30",
                       )}
                       onClick={() => {
                         if (reviewMode) return;
@@ -385,7 +385,7 @@ export function QuestionRenderer({
                 showSuccess &&
                   "bg-green-500/20 border-green-500 hover:bg-green-500/30",
                 showError &&
-                  "bg-destructive/20 border-destructive hover:bg-destructive/30"
+                  "bg-destructive/20 border-destructive hover:bg-destructive/30",
               )}
               onClick={() => !reviewMode && onAnswer(idx)}
               disabled={reviewMode}
@@ -441,15 +441,15 @@ export function QuestionRenderer({
                       isSelected
                         ? "default"
                         : showSuccess
-                        ? "secondary"
-                        : "outline"
+                          ? "secondary"
+                          : "outline"
                     }
                     className={cn(
                       "justify-start h-auto py-2 text-sm text-left",
                       showSuccess &&
                         "bg-green-500/20 border-green-500 hover:bg-green-500/30",
                       showError &&
-                        "bg-destructive/20 border-destructive hover:bg-destructive/30"
+                        "bg-destructive/20 border-destructive hover:bg-destructive/30",
                     )}
                     onClick={() => {
                       if (reviewMode) return;
@@ -507,15 +507,15 @@ export function QuestionRenderer({
                       isSelected
                         ? "default"
                         : showSuccess
-                        ? "secondary"
-                        : "outline"
+                          ? "secondary"
+                          : "outline"
                     }
                     className={cn(
                       "justify-start h-auto py-3 text-sm text-left px-4",
                       showSuccess &&
                         "bg-green-500/20 border-green-500 hover:bg-green-500/30",
                       showError &&
-                        "bg-destructive/20 border-destructive hover:bg-destructive/30"
+                        "bg-destructive/20 border-destructive hover:bg-destructive/30",
                     )}
                     onClick={() => {
                       if (reviewMode) return;

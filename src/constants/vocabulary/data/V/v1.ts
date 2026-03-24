@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const V1: VocabularyWord[] = [
   {
-    id: "added-v-1",
     word: "Vacancy",
     slug: "vacancy",
     phonetic: "/ˈveɪ.kən.si/",
@@ -11,22 +10,21 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Vị trí trống.",
     exampleEn: "The hotel has no vacancies for tonight.",
     exampleVi: "Khách sạn không còn phòng trống cho tối nay.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "a2-5",
     word: "Vacation",
     slug: "vacation",
     phonetic: "/veɪˈkeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn: "An extended period of leisure and recreation, especially one spent away from home.",
+    meaningEn:
+      "An extended period of leisure and recreation, especially one spent away from home.",
     meaningVi: "Kỳ nghỉ.",
     exampleEn: "I am going on vacation next week.",
     exampleVi: "Tôi sẽ đi nghỉ vào tuần tới.",
     categories: ["Travel"],
   },
   {
-    id: "b1-237",
     word: "Vaccination",
     slug: "vaccination",
     phonetic: "/ˌvæk.səˈneɪ.ʃən/",
@@ -35,10 +33,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Sự tiêm chủng.",
     exampleEn: "Mandatory vaccination.",
     exampleVi: "Tiêm chủng bắt buộc.",
-    categories: ["Medical","Social"],
+    categories: ["Medical", "Social"],
   },
   {
-    id: "added-v-2",
     word: "Vaccine",
     slug: "vaccine",
     phonetic: "/vækˈsiːn/",
@@ -46,11 +43,11 @@ export const V1: VocabularyWord[] = [
     meaningEn: "A substance used to provide immunity.",
     meaningVi: "Vắc-xin.",
     exampleEn: "Scientists are working on a new vaccine for the virus.",
-    exampleVi: "Các nhà khoa học đang nghiên cứu một loại vắc-xin mới cho vi-rút.",
-    categories: ["General"]
+    exampleVi:
+      "Các nhà khoa học đang nghiên cứu một loại vắc-xin mới cho vi-rút.",
+    categories: ["General"],
   },
   {
-    id: "exp-final-v-1",
     word: "Vacillate",
     slug: "vacillate",
     phonetic: "/ˈvæs.ə.leɪt/",
@@ -59,10 +56,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Do dự/Lưỡng lự.",
     exampleEn: "I continue to vacillate between the two choices.",
     exampleVi: "Tôi tiếp tục do dự (lưỡng lự) giữa hai sự lựa chọn.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-final-v-2",
     word: "Vacuous",
     slug: "vacuous",
     phonetic: "/ˈvæk.ju.əs/",
@@ -70,11 +66,11 @@ export const V1: VocabularyWord[] = [
     meaningEn: "Having or showing a lack of thought or intelligence.",
     meaningVi: "Trống rỗng/Ngớ ngẩn.",
     exampleEn: "The movie had a vacuous plot and boring characters.",
-    exampleVi: "Bộ phim có một cốt truyện trống rỗng (ngớ ngẩn) và các nhân vật nhàm chán.",
-    categories: ["General"]
+    exampleVi:
+      "Bộ phim có một cốt truyện trống rỗng (ngớ ngẩn) và các nhân vật nhàm chán.",
+    categories: ["General"],
   },
   {
-    id: "gen-1714",
     word: "Vacuum",
     slug: "vacuum",
     phonetic: "/ˈvæk.juːm/",
@@ -83,10 +79,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Chân không.",
     exampleEn: "Vacuum cleaner.",
     exampleVi: "Máy hút bụi.",
-    categories: ["Home","Science"],
+    categories: ["Home", "Science"],
   },
   {
-    id: "added-v-4",
     word: "Vagabond",
     slug: "vagabond",
     phonetic: "/ˈvæɡ.ə.bɑːnd/",
@@ -95,10 +90,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Kẻ lang thang.",
     exampleEn: "The old vagabond wandered from town to town.",
     exampleVi: "Lão lang thang già đã đi từ thị trấn này sang thị trấn khác.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-v-5",
     word: "Valiant",
     slug: "valiant",
     phonetic: "/ˈvæl.i.ənt/",
@@ -107,10 +101,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Dũng cảm/Gan dạ.",
     exampleEn: "The team made a valiant effort but eventually lost.",
     exampleVi: "Đội bóng đã có một nỗ lực anh dũng nhưng cuối cùng vẫn thua.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1715",
     word: "Valid",
     slug: "valid",
     phonetic: "/ˈvæl.ɪd/",
@@ -119,10 +112,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Hợp lệ.",
     exampleEn: "Valid passport.",
     exampleVi: "Hộ chiếu hợp lệ.",
-    categories: ["General","Law"],
+    categories: ["General", "Law"],
   },
   {
-    id: "exp-b4b-v-1",
     word: "Validate",
     slug: "validate",
     phonetic: "/ˈvæl.ə.deɪt/",
@@ -131,22 +123,21 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Xác thực.",
     exampleEn: "Please validate your parking ticket at the reception desk.",
     exampleVi: "Vui lòng xác thực vé đỗ xe của bạn tại quầy lễ tân.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "c1-250",
     word: "Validation",
     slug: "validation",
     phonetic: "/ˌvæl.əˈdeɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn: "The action of checking or proving the validity or accuracy of something.",
+    meaningEn:
+      "The action of checking or proving the validity or accuracy of something.",
     meaningVi: "Sự xác thực, phê chuẩn.",
     exampleEn: "Input validation.",
     exampleVi: "Xác thực dữ liệu đầu vào.",
-    categories: ["Technology","Daily","Business"],
+    categories: ["Technology", "Daily", "Business"],
   },
   {
-    id: "exp-b4b-v-2",
     word: "Validity",
     slug: "validity",
     phonetic: "/vəˈlɪd.ə.t̬i/",
@@ -154,11 +145,11 @@ export const V1: VocabularyWord[] = [
     meaningEn: "The quality of being logically or factually sound.",
     meaningVi: "Tính hiệu lực.",
     exampleEn: "The lawyer questioned the validity of the contract.",
-    exampleVi: "Luật sư đã đặt câu hỏi về tính hiệu lực (giá trị pháp lý) của hợp đồng.",
-    categories: ["General"]
+    exampleVi:
+      "Luật sư đã đặt câu hỏi về tính hiệu lực (giá trị pháp lý) của hợp đồng.",
+    categories: ["General"],
   },
   {
-    id: "gen-1716",
     word: "Valley",
     slug: "valley",
     phonetic: "/ˈvæl.i/",
@@ -167,10 +158,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Thung lũng.",
     exampleEn: "Deep valley.",
     exampleVi: "Thung lũng sâu.",
-    categories: ["Geography","Environment"],
+    categories: ["Geography", "Environment"],
   },
   {
-    id: "added-v-4",
     word: "Valor",
     slug: "valor",
     phonetic: "/ˈvæl.ɚ/",
@@ -178,11 +168,11 @@ export const V1: VocabularyWord[] = [
     meaningEn: "Great courage in the face of danger, especially in battle.",
     meaningVi: "Sự dũng cảm/Lòng can đảm.",
     exampleEn: "He was awarded a medal for his unusual valor in battle.",
-    exampleVi: "Anh ấy đã được trao huân chương vì lòng dũng cảm bất thường trong trận chiến.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ấy đã được trao huân chương vì lòng dũng cảm bất thường trong trận chiến.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-v-3",
     word: "Valuable",
     slug: "valuable",
     phonetic: "/ˈvæl.ju.ə.bəl/",
@@ -191,10 +181,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Có giá trị.",
     exampleEn: "The museum contains many valuable artifacts.",
     exampleVi: "Bảo tàng chứa nhiều cổ vật có giá trị.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-v-6",
     word: "Valuation",
     slug: "valuation",
     phonetic: "/ˌvæl.juˈeɪ.ʃən/",
@@ -203,10 +192,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Sự định giá.",
     exampleEn: "The experts are working on a valuation of the property.",
     exampleVi: "Các chuyên gia đang tiến hành định giá bất động sản.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "a2-159",
     word: "Value",
     slug: "value",
     phonetic: "/ˈvæl.juː/",
@@ -218,31 +206,32 @@ export const V1: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "added-v-8",
     word: "Valve",
     slug: "valve",
     phonetic: "/vælv/",
     partOfSpeech: "noun",
-    meaningEn: "A device for controlling the passage of fluid through a pipe or duct.",
+    meaningEn:
+      "A device for controlling the passage of fluid through a pipe or duct.",
     meaningVi: "Van (đóng mở).",
     exampleEn: "The plumber replaced a broken valve in the heating system.",
-    exampleVi: "Thợ sửa ống nước đã thay thế một chiếc van bị hỏng trong hệ thống sưởi.",
-    categories: ["General"]
+    exampleVi:
+      "Thợ sửa ống nước đã thay thế một chiếc van bị hỏng trong hệ thống sưởi.",
+    categories: ["General"],
   },
   {
-    id: "added-v-9",
     word: "Vampire",
     slug: "vampire",
     phonetic: "/ˈvæm.paɪr/",
     partOfSpeech: "noun",
-    meaningEn: "A corpse supposed to leave its grave at night to drink the blood of the living.",
+    meaningEn:
+      "A corpse supposed to leave its grave at night to drink the blood of the living.",
     meaningVi: "Ma cà rồng.",
     exampleEn: "The novel tells the story of a centuries-old vampire.",
-    exampleVi: "Cuốn tiểu thuyết kể về câu chuyện của một con ma cà rồng hàng thế kỷ.",
-    categories: ["General"]
+    exampleVi:
+      "Cuốn tiểu thuyết kể về câu chuyện của một con ma cà rồng hàng thế kỷ.",
+    categories: ["General"],
   },
   {
-    id: "gen-1719",
     word: "Van",
     slug: "van",
     phonetic: "/væn/",
@@ -251,34 +240,33 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Xe tải nhỏ.",
     exampleEn: "Delivery van.",
     exampleVi: "Xe giao hàng.",
-    categories: ["Travel","General"],
+    categories: ["Travel", "General"],
   },
   {
-    id: "added-v-11",
     word: "Vandal",
     slug: "vandal",
     phonetic: "/ˈvæn.dəl/",
     partOfSpeech: "noun",
-    meaningEn: "A person who deliberately destroys or damages public or private property.",
+    meaningEn:
+      "A person who deliberately destroys or damages public or private property.",
     meaningVi: "Kẻ phá hoại của công.",
     exampleEn: "The vandals spray-painted graffiti on the town hall.",
     exampleVi: "Những kẻ phá hoại đã xịt sơn graffiti lên tòa thị chính.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-v-12",
     word: "Vandalism",
     slug: "vandalism",
     phonetic: "/ˈvæn.dəl.ɪ.zəm/",
     partOfSpeech: "noun",
-    meaningEn: "Action involving deliberate destruction of or damage to public or private property.",
+    meaningEn:
+      "Action involving deliberate destruction of or damage to public or private property.",
     meaningVi: "Hành động phá hoại của công.",
     exampleEn: "The park has been closed due to acts of vandalism.",
     exampleVi: "Công viên đã bị đóng cửa do những hành vi phá hoại.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-v-13",
     word: "Vandalize",
     slug: "vandalize",
     phonetic: "/ˈvæn.dəl.aɪz/",
@@ -287,10 +275,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Phá hoại.",
     exampleEn: "It's a crime to vandalize public property.",
     exampleVi: "Phá hoại tài sản công cộng là một tội ác.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-v-4",
     word: "Vanish",
     slug: "vanish",
     phonetic: "/ˈvæn.ɪʃ/",
@@ -299,10 +286,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Biến mất.",
     exampleEn: "The magician made the rabbit vanish into thin air.",
     exampleVi: "Nhà ảo thuật đã làm con thỏ biến mất vào không trung.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-v-5",
     word: "Vanity",
     slug: "vanity",
     phonetic: "/ˈvæn.ə.t̬i/",
@@ -311,10 +297,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Sự phù phiếm.",
     exampleEn: "The prince was criticized for his excessive vanity.",
     exampleVi: "Vị hoàng tử bị chỉ trích vì sự phù phiếm quá mức của mình.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-final-v-3",
     word: "Vanquish",
     slug: "vanquish",
     phonetic: "/ˈvæn.kwɪʃ/",
@@ -322,11 +307,11 @@ export const V1: VocabularyWord[] = [
     meaningEn: "Defeat thoroughly.",
     meaningVi: "Đánh bại hoàn toàn.",
     exampleEn: "The hero managed to vanquish the evil dragon.",
-    exampleVi: "Người anh hùng đã xoay xở để đánh bại hoàn toàn con rồng gian ác.",
-    categories: ["General"]
+    exampleVi:
+      "Người anh hùng đã xoay xở để đánh bại hoàn toàn con rồng gian ác.",
+    categories: ["General"],
   },
   {
-    id: "added-v-16",
     word: "Vantage",
     slug: "vantage",
     phonetic: "/ˈvæn.t̬ɪdʒ/",
@@ -334,11 +319,11 @@ export const V1: VocabularyWord[] = [
     meaningEn: "A place or position affording a good view of something.",
     meaningVi: "Vị trí thuận lợi.",
     exampleEn: "From our vantage point, we could see the entire valley.",
-    exampleVi: "Từ vị trí thuận lợi của mình, chúng tôi có thể nhìn thấy toàn bộ thung lũng.",
-    categories: ["General"]
+    exampleVi:
+      "Từ vị trí thuận lợi của mình, chúng tôi có thể nhìn thấy toàn bộ thung lũng.",
+    categories: ["General"],
   },
   {
-    id: "exp-final-v-4",
     word: "Vapid",
     slug: "vapid",
     phonetic: "/ˈvæp.ɪd/",
@@ -346,11 +331,11 @@ export const V1: VocabularyWord[] = [
     meaningEn: "Offering nothing that is stimulating or challenging.",
     meaningVi: "Nhạt nhẽo/Vô vị.",
     exampleEn: "I found the conversation to be quite vapid and uninteresting.",
-    exampleVi: "Tôi thấy cuộc trò chuyện khá nhạt nhẽo (vô vị) và thiếu thú vị.",
-    categories: ["General"]
+    exampleVi:
+      "Tôi thấy cuộc trò chuyện khá nhạt nhẽo (vô vị) và thiếu thú vị.",
+    categories: ["General"],
   },
   {
-    id: "added-v-18",
     word: "Vapor",
     slug: "vapor",
     phonetic: "/ˈveɪ.pɚ/",
@@ -359,10 +344,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Hơi nước/Hơi.",
     exampleEn: "The kettle released a thick cloud of water vapor.",
     exampleVi: "Chiếc ấm bốc ra một làn hơi nước dày đặc.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-v-19",
     word: "Vaporize",
     slug: "vaporize",
     phonetic: "/ˈveɪ.pə.raɪz/",
@@ -371,10 +355,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Bốc hơi/Biến thành hơi.",
     exampleEn: "The liquid will vaporize if you heat it enough.",
     exampleVi: "Chất lỏng sẽ bay hơi nếu bạn đun nóng đủ.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "b1-220",
     word: "Variable",
     slug: "variable",
     phonetic: "/ˈver.i.ə.bl̩/",
@@ -383,34 +366,34 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Biến số.",
     exampleEn: "Declare a variable.",
     exampleVi: "Khai báo một biến số.",
-    categories: ["Technology","Academic"],
+    categories: ["Technology", "Academic"],
   },
   {
-    id: "added-v-21",
     word: "Variance",
     slug: "variance",
     phonetic: "/ˈver.i.əns/",
     partOfSpeech: "noun",
-    meaningEn: "The fact or quality of being different, divergent, or inconsistent.",
+    meaningEn:
+      "The fact or quality of being different, divergent, or inconsistent.",
     meaningVi: "Sự khác nhau/Phương sai.",
     exampleEn: "There is some variance between the two versions of the story.",
-    exampleVi: "Có một số sự khác biệt (biến số) giữa hai phiên bản của câu chuyện.",
-    categories: ["General"]
+    exampleVi:
+      "Có một số sự khác biệt (biến số) giữa hai phiên bản của câu chuyện.",
+    categories: ["General"],
   },
   {
-    id: "added-v-22",
     word: "Variant",
     slug: "variant",
     phonetic: "/ˈver.i.ənt/",
     partOfSpeech: "noun",
-    meaningEn: "A form or version of something that differs in some respect from other forms of the same thing.",
+    meaningEn:
+      "A form or version of something that differs in some respect from other forms of the same thing.",
     meaningVi: "Biến thể.",
     exampleEn: "The new variant of the virus is spreading quickly.",
     exampleVi: "Biến thể mới của vi-rút đang lây lan nhanh chóng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-v-6",
     word: "Variation",
     slug: "variation",
     phonetic: "/ˌver.iˈeɪ.ʃən/",
@@ -418,11 +401,11 @@ export const V1: VocabularyWord[] = [
     meaningEn: "A change or difference in condition, amount, or level.",
     meaningVi: "Sự biến đổi.",
     exampleEn: "There is some variation in the dialect between regions.",
-    exampleVi: "Có một số sự biến đổi (khác biệt) trong phương ngôn giữa các vùng.",
-    categories: ["General"]
+    exampleVi:
+      "Có một số sự biến đổi (khác biệt) trong phương ngôn giữa các vùng.",
+    categories: ["General"],
   },
   {
-    id: "exp-final-v-5",
     word: "Variegated",
     slug: "variegated",
     phonetic: "/ˈver.i.ə.ɡeɪ.t̬ɪd/",
@@ -431,10 +414,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Có nhiều màu sắc/Đa dạng.",
     exampleEn: "The garden was filled with variegated flowers.",
     exampleVi: "Khu vườn tràn ngập những loài hoa có nhiều màu sắc (đa dạng).",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-v-7",
     word: "Variety",
     slug: "variety",
     phonetic: "/vəˈraɪ.ə.t̬i/",
@@ -443,10 +425,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Sự đa dạng.",
     exampleEn: "The shop sells a large variety of organic fruits.",
     exampleVi: "Cửa hàng bán rất nhiều sự đa dạng các loại trái cây hữu cơ.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "b1-31",
     word: "Various",
     slug: "various",
     phonetic: "/ˈver.i.əs/",
@@ -458,7 +439,6 @@ export const V1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "added-v-27",
     word: "Varnish",
     slug: "varnish",
     phonetic: "/ˈvɑːr.nɪʃ/",
@@ -467,10 +447,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Véc-ni/Sơn bóng.",
     exampleEn: "Apply a coat of varnish to protect the wood.",
     exampleVi: "Phết một lớp sơn bóng (véc-ni) để bảo vệ gỗ.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1723",
     word: "Vary",
     slug: "vary",
     phonetic: "/ˈver.i/",
@@ -482,7 +461,6 @@ export const V1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "added-v-29",
     word: "Vase",
     slug: "vase",
     phonetic: "/veɪs/",
@@ -491,10 +469,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Bình hoa/Lọ hoa.",
     exampleEn: "She placed the bunch of flowers in a tall blue vase.",
     exampleVi: "Cô ấy đặt bó hoa vào một chiếc bình hoa màu xanh cao.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-v-8",
     word: "Vast",
     slug: "vast",
     phonetic: "/væst/",
@@ -503,10 +480,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Bao la.",
     exampleEn: "The Sahara is a vast and sandy desert.",
     exampleVi: "Sahara là một sa mạc cát bao la (mênh mông).",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-v-31",
     word: "Vastly",
     slug: "vastly",
     phonetic: "/ˈvæst.li/",
@@ -515,22 +491,21 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Rất nhiều/Mênh mông.",
     exampleEn: "The situation has vastly improved since last year.",
     exampleVi: "Tình hình đã được cải thiện đáng kể (vô cùng) kể từ năm ngoái.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-v-32",
     word: "Vat",
     slug: "vat",
     phonetic: "/væt/",
     partOfSpeech: "noun",
-    meaningEn: "A large tank or tub used to hold liquid, especially in industry.",
+    meaningEn:
+      "A large tank or tub used to hold liquid, especially in industry.",
     meaningVi: "Thùng lớn/Tì.",
     exampleEn: "The factory uses huge vats for fermenting the wine.",
     exampleVi: "Nhà máy sử dụng những thùng lớn để lên men rượu.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-v-9",
     word: "Vault",
     slug: "vault",
     phonetic: "/vɑːlt/",
@@ -538,11 +513,11 @@ export const V1: VocabularyWord[] = [
     meaningEn: "A roof in the form of an arch or a series of arches.",
     meaningVi: "Hầm/Vòm.",
     exampleEn: "The bank's money is kept safely in a reinforced vault.",
-    exampleVi: "Tiền của ngân hàng được giữ an toàn trong một hầm (vòm) gia cố.",
-    categories: ["General"]
+    exampleVi:
+      "Tiền của ngân hàng được giữ an toàn trong một hầm (vòm) gia cố.",
+    categories: ["General"],
   },
   {
-    id: "added-v-34",
     word: "Vaunt",
     slug: "vaunt",
     phonetic: "/vɑːnt/",
@@ -551,10 +526,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Khoe khoang.",
     exampleEn: "The company liked to vaunt its technological achievements.",
     exampleVi: "Công ty thích khoe khoang những thành tựu công nghệ của mình.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-v-35",
     word: "Veal",
     slug: "veal",
     phonetic: "/viːl/",
@@ -563,10 +537,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Thịt bê.",
     exampleEn: "The restaurant is famous for its breaded veal cutlets.",
     exampleVi: "Nhà hàng nổi tiếng với các món thịt bê tẩm bột rán.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-v-36",
     word: "Vector",
     slug: "vector",
     phonetic: "/ˈvek.tɚ/",
@@ -574,11 +547,11 @@ export const V1: VocabularyWord[] = [
     meaningEn: "A quantity having direction as well as magnitude.",
     meaningVi: "Véc-tơ.",
     exampleEn: "Mosquitoes are a common vector for several diseases.",
-    exampleVi: "Muỗi là một vật trung gian (véc tơ) lây truyền phổ biến cho vài loại bệnh.",
-    categories: ["General"]
+    exampleVi:
+      "Muỗi là một vật trung gian (véc tơ) lây truyền phổ biến cho vài loại bệnh.",
+    categories: ["General"],
   },
   {
-    id: "added-v-37",
     word: "Veer",
     slug: "veer",
     phonetic: "/vɪər/",
@@ -587,10 +560,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Đổi hướng.",
     exampleEn: "The car began to veer off the road suddenly.",
     exampleVi: "Chiếc xe bắt đầu đột ngột đổi hướng (lệch đi) khỏi mặt đường.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-v-38",
     word: "Vegan",
     slug: "vegan",
     phonetic: "/ˈviː.ɡən/",
@@ -598,11 +570,11 @@ export const V1: VocabularyWord[] = [
     meaningEn: "A person who does not eat or use animal products.",
     meaningVi: "Người ăn chay trường.",
     exampleEn: "She decided to follow a strict vegan diet.",
-    exampleVi: "Cô ấy đã quyết định theo đuổi một chế độ ăn thuần chay nghiêm ngặt.",
-    categories: ["General"]
+    exampleVi:
+      "Cô ấy đã quyết định theo đuổi một chế độ ăn thuần chay nghiêm ngặt.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-v-10",
     word: "Vegetable",
     slug: "vegetable",
     phonetic: "/ˈvedʒ.tə.bəl/",
@@ -611,10 +583,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Rau củ.",
     exampleEn: "Eat plenty of green vegetables for good health.",
     exampleVi: "Hãy ăn nhiều rau củ xanh để có sức khỏe tốt.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-v-40",
     word: "Vegetarian",
     slug: "vegetarian",
     phonetic: "/ˌvedʒ.əˈter.i.ən/",
@@ -623,22 +594,21 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Người ăn chay.",
     exampleEn: "Many people choose a vegetarian lifestyle for health reasons.",
     exampleVi: "Nhiều người chọn một lối sống ăn chay vì lý do sức khỏe.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-v-41",
     word: "Vegetation",
     slug: "vegetation",
     phonetic: "/ˌvedʒ.əˈteɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn: "Plants considered collectively, especially those found in a particular area or habitat.",
+    meaningEn:
+      "Plants considered collectively, especially those found in a particular area or habitat.",
     meaningVi: "Thảm thực vật.",
     exampleEn: "The tropical island is covered in lush vegetation.",
     exampleVi: "Hòn đảo nhiệt đới được bao phủ bởi thảm thực vật mướt mát.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-v-42",
     word: "Vehemence",
     slug: "vehemence",
     phonetic: "/ˈviː.ə.məns/",
@@ -646,11 +616,11 @@ export const V1: VocabularyWord[] = [
     meaningEn: "The display of strong feeling; passion.",
     meaningVi: "Sự mãnh liệt/Sự say mê.",
     exampleEn: "His vehemence in defending his ideas surprised everyone.",
-    exampleVi: "Sự mãnh liệt (kịch liệt) của anh ấy khi bảo vệ ý tưởng của mình làm mọi người ngạc nhiên.",
-    categories: ["General"]
+    exampleVi:
+      "Sự mãnh liệt (kịch liệt) của anh ấy khi bảo vệ ý tưởng của mình làm mọi người ngạc nhiên.",
+    categories: ["General"],
   },
   {
-    id: "exp-final-v-6",
     word: "Vehement",
     slug: "vehement",
     phonetic: "/ˈviː.ə.mənt/",
@@ -658,11 +628,11 @@ export const V1: VocabularyWord[] = [
     meaningEn: "Showing strong feeling; forceful, passionate, or intense.",
     meaningVi: "Mãnh liệt/Kịch liệt.",
     exampleEn: "He issued a vehement denial of the accusations.",
-    exampleVi: "Anh ta đã đưa ra một sự phủ nhận mãnh liệt (kịch liệt) đối với các cáo buộc.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ta đã đưa ra một sự phủ nhận mãnh liệt (kịch liệt) đối với các cáo buộc.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-v-11",
     word: "Vehicle",
     slug: "vehicle",
     phonetic: "/ˈviː.ə.kəl/",
@@ -671,10 +641,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Xe cộ/Phương tiện.",
     exampleEn: "The ambulance is an emergency vehicle.",
     exampleVi: "Xe cứu thương là một phương tiện cấp cứu.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-v-12",
     word: "Veil",
     slug: "veil",
     phonetic: "/veɪl/",
@@ -683,22 +652,21 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Mạng che mặt.",
     exampleEn: "The bride wore a long white veil.",
     exampleVi: "Cô dâu đã đội một chiếc mạng che mặt màu trắng dài.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-final-v-2",
     word: "Vein",
     slug: "vein",
     phonetic: "/veɪn/",
     partOfSpeech: "noun",
-    meaningEn: "Any of the tubes forming part of the blood circulation system of the body.",
+    meaningEn:
+      "Any of the tubes forming part of the blood circulation system of the body.",
     meaningVi: "Tĩnh mạch.",
     exampleEn: "The nurses looked for a suitable vein to draw blood.",
     exampleVi: "Các y tá đã tìm một tĩnh mạch thích hợp để lấy máu.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-v-13",
     word: "Velocity",
     slug: "velocity",
     phonetic: "/vəˈlɑː.sə.t̬i/",
@@ -707,10 +675,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Vận tốc.",
     exampleEn: "Calculate the velocity of the falling object.",
     exampleVi: "Tính vận tốc của vật đang rơi.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-final-v-4",
     word: "Velvet",
     slug: "velvet",
     phonetic: "/ˈvel.vət/",
@@ -719,10 +686,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Nhung.",
     exampleEn: "The dress was made of a smooth, red velvet fabric.",
     exampleVi: "Chiếc váy được làm từ một loại vải nhung màu đỏ mềm mại.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-v-14",
     word: "Vendor",
     slug: "vendor",
     phonetic: "/ˈven.dɚ/",
@@ -731,22 +697,21 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Người bán hàng.",
     exampleEn: "The street vendor sold hot coffee and donuts.",
     exampleVi: "Người bán hàng trên phố đã bán cà phê nóng và bánh rán.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-final-v-7",
     word: "Venerable",
     slug: "venerable",
     phonetic: "/ˈven.ər.ə.bəl/",
     partOfSpeech: "noun",
-    meaningEn: "Accorded a great deal of respect, especially because of age, wisdom, or character.",
+    meaningEn:
+      "Accorded a great deal of respect, especially because of age, wisdom, or character.",
     meaningVi: "Đáng tôn kính.",
     exampleEn: "The venerable monk shared his wisdom with the crowd.",
     exampleVi: "Vị sư đáng tôn kính đã chia sẻ trí tuệ của mình với đám đông.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "c2-201",
     word: "Venerate",
     slug: "venerate",
     phonetic: "/ˈven.ə.reɪt/",
@@ -755,10 +720,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Tôn trọng, sùng bái.",
     exampleEn: "Venerate ancestors.",
     exampleVi: "Sùng bái tổ tiên.",
-    categories: ["Social","Daily"],
+    categories: ["Social", "Daily"],
   },
   {
-    id: "exp-b4b-v-15",
     word: "Vengeance",
     slug: "vengeance",
     phonetic: "/ˈven.dʒəns/",
@@ -767,10 +731,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Sự trả thù.",
     exampleEn: "He swore vengeance against his brother's killer.",
     exampleVi: "Anh ta đã thề sẽ trả thù (sự trả thù) kẻ giết em trai mình.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-final-v-7",
     word: "Venom",
     slug: "venom",
     phonetic: "/ˈven.əm/",
@@ -779,10 +742,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Nọc độc.",
     exampleEn: "The snake's venom is extremely dangerous to humans.",
     exampleVi: "Nọc độc của loài rắn này cực kỳ nguy hiểm đối với con người.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-final-v-8",
     word: "Ventilate",
     slug: "ventilate",
     phonetic: "/ˈven.t̬əl.eɪt/",
@@ -791,10 +753,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Thông gió.",
     exampleEn: "Open the windows to ventilate the room properly.",
     exampleVi: "Mở cửa sổ để thông gió cho căn phòng một cách hợp lý.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-v-16",
     word: "Venture",
     slug: "venture",
     phonetic: "/ˈven.tʃɚ/",
@@ -802,11 +763,11 @@ export const V1: VocabularyWord[] = [
     meaningEn: "A risky or daring journey or undertaking.",
     meaningVi: "Dự án mạo hiểm.",
     exampleEn: "They decided to venture into the unknown jungle.",
-    exampleVi: "Họ đã quyết định mạo hiểm (dự án mạo hiểm) đi vào khu rừng chưa được biết đến.",
-    categories: ["General"]
+    exampleVi:
+      "Họ đã quyết định mạo hiểm (dự án mạo hiểm) đi vào khu rừng chưa được biết đến.",
+    categories: ["General"],
   },
   {
-    id: "exp-final-v-8",
     word: "Veracious",
     slug: "veracious",
     phonetic: "/vəˈreɪ.ʃəs/",
@@ -814,11 +775,11 @@ export const V1: VocabularyWord[] = [
     meaningEn: "Speaking or representing the truth.",
     meaningVi: "Trung thực/Xác thực.",
     exampleEn: "She is a veracious witness who always tells the truth.",
-    exampleVi: "Cô ấy là một nhân chứng trung thực (xác thực) luôn nói sự thật.",
-    categories: ["General"]
+    exampleVi:
+      "Cô ấy là một nhân chứng trung thực (xác thực) luôn nói sự thật.",
+    categories: ["General"],
   },
   {
-    id: "added-final-v-10",
     word: "Veracity",
     slug: "veracity",
     phonetic: "/vəˈræs.ə.t̬i/",
@@ -826,11 +787,11 @@ export const V1: VocabularyWord[] = [
     meaningEn: "Conformity to facts; accuracy.",
     meaningVi: "Tính chân thực.",
     exampleEn: "The lawyer questioned the veracity of the witness's statement.",
-    exampleVi: "Luật sư đã đặt nghi vấn về tính trung thực (xác thực) của lời khai nhân chứng.",
-    categories: ["General"]
+    exampleVi:
+      "Luật sư đã đặt nghi vấn về tính trung thực (xác thực) của lời khai nhân chứng.",
+    categories: ["General"],
   },
   {
-    id: "added-final-v-11",
     word: "Verb",
     slug: "verb",
     phonetic: "/vɝːb/",
@@ -839,10 +800,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Động từ.",
     exampleEn: "In the sentence 'I run', 'run' is the main verb.",
     exampleVi: "Trong câu 'Tôi chạy', 'chạy' là động từ chính.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-final-v-12",
     word: "Verbatim",
     slug: "verbatim",
     phonetic: "/vɝːˈbeɪ.t̬əm/",
@@ -850,11 +810,11 @@ export const V1: VocabularyWord[] = [
     meaningEn: "In exactly the same words as were used originally.",
     meaningVi: "Nuyên văn.",
     exampleEn: "The witness repeated the conversation verbatim.",
-    exampleVi: "Nhân chứng đã lặp lại cuộc hội thoại một cách nguyên văn (từng chữ).",
-    categories: ["General"]
+    exampleVi:
+      "Nhân chứng đã lặp lại cuộc hội thoại một cách nguyên văn (từng chữ).",
+    categories: ["General"],
   },
   {
-    id: "exp-final-v-9",
     word: "Verbose",
     slug: "verbose",
     phonetic: "/vɝːˈboʊs/",
@@ -863,10 +823,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Dài dòng.",
     exampleEn: "The report was overly verbose and difficult to follow.",
     exampleVi: "Bản báo cáo quá dài dòng và khó theo dõi.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-final-v-10",
     word: "Verdant",
     slug: "verdant",
     phonetic: "/ˈvɝː.dənt/",
@@ -875,10 +834,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Xanh tươi.",
     exampleEn: "The valley was lush and verdant in the spring.",
     exampleVi: "Thung lũng xanh tươi và mướt mát vào mùa xuân.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-v-17",
     word: "Verdict",
     slug: "verdict",
     phonetic: "/ˈvɝː.dɪkt/",
@@ -887,10 +845,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Lời tuyên án.",
     exampleEn: "The jury reached a verdict of 'not guilty'.",
     exampleVi: "Bồi thẩm đoàn đã đưa ra một lời tuyên án 'không có tội'.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "b1-207",
     word: "Verify",
     slug: "verify",
     phonetic: "/ˈver.ɪ.faɪ/",
@@ -899,10 +856,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Xác minh.",
     exampleEn: "Please verify your email address.",
     exampleVi: "Vui lòng xác minh địa chỉ email của bạn.",
-    categories: ["Technology","Daily"],
+    categories: ["Technology", "Daily"],
   },
   {
-    id: "exp-final-v-11",
     word: "Verisimilitude",
     slug: "verisimilitude",
     phonetic: "/ˌver.ə.sɪˈmɪl.ə.tuːd/",
@@ -910,11 +866,11 @@ export const V1: VocabularyWord[] = [
     meaningEn: "The appearance of being true or real.",
     meaningVi: "Có vẻ thật/Tính xác thực.",
     exampleEn: "The movie was praised for its historical verisimilitude.",
-    exampleVi: "Bộ phim được khen ngợi vì tính xác thực (vẻ thật) lịch sử của nó.",
-    categories: ["General"]
+    exampleVi:
+      "Bộ phim được khen ngợi vì tính xác thực (vẻ thật) lịch sử của nó.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-v-18",
     word: "Versatile",
     slug: "versatile",
     phonetic: "/ˈvɝː.sə.t̬əl/",
@@ -922,11 +878,11 @@ export const V1: VocabularyWord[] = [
     meaningEn: "Able to adapt or be adapted to many different functions.",
     meaningVi: "Linh hoạt.",
     exampleEn: "She is a versatile actress who can play any role.",
-    exampleVi: "Cô ấy là một nữ diễn viên linh hoạt (đa năng) có thể đóng bất kỳ vai nào.",
-    categories: ["General"]
+    exampleVi:
+      "Cô ấy là một nữ diễn viên linh hoạt (đa năng) có thể đóng bất kỳ vai nào.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-v-19",
     word: "Version",
     slug: "version",
     phonetic: "/ˈvɝː.ʒən/",
@@ -935,10 +891,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Phiên bản.",
     exampleEn: "Please make sure you have the latest software version.",
     exampleVi: "Vui lòng đảm bảo rằng bạn đã có phiên bản phần mềm mới nhất.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1728",
     word: "Versus",
     slug: "versus",
     phonetic: "/ˈvɝː.səs/",
@@ -947,10 +902,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Đối với.",
     exampleEn: "Team A versus Team B.",
     exampleVi: "Đội A đấu với Đội B.",
-    categories: ["General","Sports"],
+    categories: ["General", "Sports"],
   },
   {
-    id: "exp-b4b-v-20",
     word: "Vertical",
     slug: "vertical",
     phonetic: "/ˈvɝː.t̬ɪ.kəl/",
@@ -959,10 +913,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Thẳng đứng.",
     exampleEn: "The horizontal lines intersect with the vertical ones.",
     exampleVi: "Các đường ngang cắt các đường thẳng đứng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1729",
     word: "Very",
     slug: "very",
     phonetic: "/ˈver.i/",
@@ -974,7 +927,6 @@ export const V1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1730",
     word: "Vessel",
     slug: "vessel",
     phonetic: "/ˈves.əl/",
@@ -983,10 +935,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Tàu.",
     exampleEn: "Sailing vessel.",
     exampleVi: "Tàu buồm.",
-    categories: ["Travel","General"],
+    categories: ["Travel", "General"],
   },
   {
-    id: "exp-final-v-13",
     word: "Vestige",
     slug: "vestige",
     phonetic: "/ˈves.tɪdʒ/",
@@ -994,11 +945,11 @@ export const V1: VocabularyWord[] = [
     meaningEn: "A trace of something that is disappearing or no longer exists.",
     meaningVi: "Vết tích/Dấu vết.",
     exampleEn: "The ruins are a vestige of a formerly great city.",
-    exampleVi: "Những tàn tích này là một vết tích của một thành phố từng vĩ đại.",
-    categories: ["General"]
+    exampleVi:
+      "Những tàn tích này là một vết tích của một thành phố từng vĩ đại.",
+    categories: ["General"],
   },
   {
-    id: "job-0031bvx",
     word: "Veteran",
     slug: "veteran",
     phonetic: "/ˈvet.ər.ən/",
@@ -1007,10 +958,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Cựu chiến binh; người kỳ cựu.",
     exampleEn: "He is a veteran of the tech industry.",
     exampleVi: "Anh ấy là một người kỳ cựu trong ngành công nghệ.",
-    categories: ["Jobs","Military"],
+    categories: ["Jobs", "Military"],
   },
   {
-    id: "job-0032",
     word: "Veterinarian",
     slug: "veterinarian",
     phonetic: "/ˌvet.ər.əˈner.i.ən/",
@@ -1019,10 +969,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Bác sĩ thú y",
     exampleEn: "The veterinarian treated the sick dog.",
     exampleVi: "Bác sĩ thú y chữa bệnh cho con chó.",
-    categories: ["Jobs","Medical","Animals"],
+    categories: ["Jobs", "Medical", "Animals"],
   },
   {
-    id: "exp-final-v-14",
     word: "Vexation",
     slug: "vexation",
     phonetic: "/vekˈseɪ.ʃən/",
@@ -1030,11 +979,11 @@ export const V1: VocabularyWord[] = [
     meaningEn: "The state of being annoyed, frustrated, or worried.",
     meaningVi: "Sự bực mình/Sự phiền phức.",
     exampleEn: "He sighed in vexation after missing the train.",
-    exampleVi: "Anh ấy thở dài trong sự bực mình (phiền phức) sau khi lỡ chuyến tàu.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ấy thở dài trong sự bực mình (phiền phức) sau khi lỡ chuyến tàu.",
+    categories: ["General"],
   },
   {
-    id: "gen-1731",
     word: "Via",
     slug: "via",
     phonetic: "/ˈvaɪ.ə/",
@@ -1043,10 +992,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Thông qua.",
     exampleEn: "Send via email.",
     exampleVi: "Gửi qua email.",
-    categories: ["General","Technology"],
+    categories: ["General", "Technology"],
   },
   {
-    id: "exp-final-v-15",
     word: "Viable",
     slug: "viable",
     phonetic: "/ˈvaɪ.ə.bəl/",
@@ -1054,35 +1002,37 @@ export const V1: VocabularyWord[] = [
     meaningEn: "Capable of working successfully; feasible.",
     meaningVi: "Có khả năng thành công/Khả thi.",
     exampleEn: "The plan is not economically viable for the long term.",
-    exampleVi: "Kế hoạch này không khả thi (có khả năng thành công) về mặt kinh tế trong dài hạn.",
-    categories: ["General"]
+    exampleVi:
+      "Kế hoạch này không khả thi (có khả năng thành công) về mặt kinh tế trong dài hạn.",
+    categories: ["General"],
   },
   {
-    id: "exp-final-v-16",
     word: "Vicarious",
     slug: "vicarious",
     phonetic: "/vaɪˈker.i.əs/",
     partOfSpeech: "noun",
-    meaningEn: "Experienced in the imagination through the feelings or actions of another person.",
+    meaningEn:
+      "Experienced in the imagination through the feelings or actions of another person.",
     meaningVi: "Trải nghiệm gián tiếp.",
     exampleEn: "She gets a vicarious thrill from watching travel shows.",
-    exampleVi: "Cô ấy có được một cảm giác hồi hộp gián tiếp từ việc xem các chương trình du lịch.",
-    categories: ["General"]
+    exampleVi:
+      "Cô ấy có được một cảm giác hồi hộp gián tiếp từ việc xem các chương trình du lịch.",
+    categories: ["General"],
   },
   {
-    id: "exp-final-v-17",
     word: "Vicissitude",
     slug: "vicissitude",
     phonetic: "/vɪˈsɪs.ə.tuːd/",
     partOfSpeech: "noun",
-    meaningEn: "A change of circumstances or fortune, typically one that is unwelcome or unpleasant.",
+    meaningEn:
+      "A change of circumstances or fortune, typically one that is unwelcome or unpleasant.",
     meaningVi: "Sự thăng trầm.",
     exampleEn: "He faced the vicissitudes of life with courage.",
-    exampleVi: "Anh đối mặt với những thăng trầm của cuộc đời bằng lòng dũng cảm.",
-    categories: ["General"]
+    exampleVi:
+      "Anh đối mặt với những thăng trầm của cuộc đời bằng lòng dũng cảm.",
+    categories: ["General"],
   },
   {
-    id: "gen-1732",
     word: "Victim",
     slug: "victim",
     phonetic: "/ˈvɪk.təm/",
@@ -1091,10 +1041,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Nạn nhân.",
     exampleEn: "Victim of crime.",
     exampleVi: "Nạn nhân của tội phạm.",
-    categories: ["Law","People"],
+    categories: ["Law", "People"],
   },
   {
-    id: "gen-1733",
     word: "Victory",
     slug: "victory",
     phonetic: "/ˈvɪk.tɚ.i/",
@@ -1103,10 +1052,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Chiến thắng.",
     exampleEn: "Celebrate victory.",
     exampleVi: "Ăn mừng chiến thắng.",
-    categories: ["General","Sports"],
+    categories: ["General", "Sports"],
   },
   {
-    id: "a1-190",
     word: "Video",
     slug: "video",
     phonetic: "/ˈvɪdioʊ/",
@@ -1115,10 +1063,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Video.",
     exampleEn: "I like watching music videos.",
     exampleVi: "Tôi thích xem video ca nhạc.",
-    categories: ["Daily","Social"],
+    categories: ["Daily", "Social"],
   },
   {
-    id: "gen-1735",
     word: "View",
     slug: "view",
     phonetic: "/vjuː/",
@@ -1130,7 +1077,6 @@ export const V1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1736",
     word: "Viewer",
     slug: "viewer",
     phonetic: "/ˈvjuː.ɚ/",
@@ -1139,10 +1085,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Người xem.",
     exampleEn: "TV viewer.",
     exampleVi: "Người xem truyền hình.",
-    categories: ["People","Media"],
+    categories: ["People", "Media"],
   },
   {
-    id: "exp-final-v-18",
     word: "Vigilant",
     slug: "vigilant",
     phonetic: "/ˈvɪdʒ.əl.ənt/",
@@ -1151,10 +1096,9 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Cảnh giác.",
     exampleEn: "The security guards must remain vigilant at all times.",
     exampleVi: "Các nhân viên bảo vệ phải luôn giữ cảnh giác mọi lúc.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-final-v-19",
     word: "Vilify",
     slug: "vilify",
     phonetic: "/ˈvɪl.ə.faɪ/",
@@ -1162,23 +1106,23 @@ export const V1: VocabularyWord[] = [
     meaningEn: "Speak or write about in an abusively disparaging manner.",
     meaningVi: "Gièm pha/Nói xấu.",
     exampleEn: "They tried to vilify their opponent in the media.",
-    exampleVi: "Họ đã cố gắng gièm pha (nói xấu) đối thủ của mình trên truyền thông.",
-    categories: ["General"]
+    exampleVi:
+      "Họ đã cố gắng gièm pha (nói xấu) đối thủ của mình trên truyền thông.",
+    categories: ["General"],
   },
   {
-    id: "a1-150",
     word: "Village",
     slug: "village",
     phonetic: "/ˈvɪl.ɪdʒ/",
     partOfSpeech: "noun",
-    meaningEn: "A group of houses and associated buildings, larger than a hamlet and smaller than a town.",
+    meaningEn:
+      "A group of houses and associated buildings, larger than a hamlet and smaller than a town.",
     meaningVi: "Ngôi làng.",
     exampleEn: "I was born in a village.",
     exampleVi: "Tôi sinh ra ở một ngôi làng.",
     categories: ["Daily"],
   },
   {
-    id: "exp-final-v-20",
     word: "Vindictive",
     slug: "vindictive",
     phonetic: "/vɪnˈdɪk.tɪv/",
@@ -1186,11 +1130,11 @@ export const V1: VocabularyWord[] = [
     meaningEn: "Having or showing a strong or unreasoning desire for revenge.",
     meaningVi: "Hận thù/Hay trả thù.",
     exampleEn: "The king was a vindictive ruler who never forgot a slight.",
-    exampleVi: "Vị vua là một nhà cai trị hận thù (hay trả thù), người không bao giờ quên một sự coi thường.",
-    categories: ["General"]
+    exampleVi:
+      "Vị vua là một nhà cai trị hận thù (hay trả thù), người không bao giờ quên một sự coi thường.",
+    categories: ["General"],
   },
   {
-    id: "gen-1738",
     word: "Violence",
     slug: "violence",
     phonetic: "/ˈvaɪə.ləns/",
@@ -1199,6 +1143,6 @@ export const V1: VocabularyWord[] = [
     meaningVi: "Bạo lực.",
     exampleEn: "Stop the violence.",
     exampleVi: "Chấm dứt bạo lực.",
-    categories: ["Social","Law"],
-  }
+    categories: ["Social", "Law"],
+  },
 ];

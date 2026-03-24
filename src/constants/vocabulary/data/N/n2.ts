@@ -2,31 +2,32 @@ import { VocabularyWord } from "../../types";
 
 export const N2: VocabularyWord[] = [
   {
-    id: "exp-b5b-n-9",
     word: "Nexus",
     slug: "nexus",
     phonetic: "/ˈnek.səs/",
     partOfSpeech: "noun",
-    meaningEn: "A connection or series of connections linking two or more things.",
+    meaningEn:
+      "A connection or series of connections linking two or more things.",
     meaningVi: "Mối liên hệ/Trung tâm.",
     exampleEn: "The city is a nexus for international trade.",
-    exampleVi: "Thành phố là một trung tâm (mối liên hệ) của thương mại quốc tế.",
-    categories: ["General"]
+    exampleVi:
+      "Thành phố là một trung tâm (mối liên hệ) của thương mại quốc tế.",
+    categories: ["General"],
   },
   {
-    id: "spec-n-001",
     word: "NFT",
     slug: "nft",
     phonetic: "/ɛn ef tiː/",
     partOfSpeech: "noun",
-    meaningEn: "Non-fungible token: a unique digital token representing ownership of a specific item or piece of content.",
-    meaningVi: "Token không thể thay thế: token kỹ thuật số độc nhất đại diện cho quyền sở hữu một mục hoặc nội dung cụ thể.",
+    meaningEn:
+      "Non-fungible token: a unique digital token representing ownership of a specific item or piece of content.",
+    meaningVi:
+      "Token không thể thay thế: token kỹ thuật số độc nhất đại diện cho quyền sở hữu một mục hoặc nội dung cụ thể.",
     exampleEn: "Artists sell digital art as NFTs.",
     exampleVi: "Nghệ sĩ bán tác phẩm kỹ thuật số dưới dạng NFT.",
-    categories: ["Technology","Art","Finance"],
+    categories: ["Technology", "Art", "Finance"],
   },
   {
-    id: "exp-b4a-n-36",
     word: "Nibble",
     slug: "nibble",
     phonetic: "/ˈnɪb.əl/",
@@ -35,10 +36,9 @@ export const N2: VocabularyWord[] = [
     meaningVi: "Gặm nhấm.",
     exampleEn: "She explained the concept of nibble to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm nibble cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-968",
     word: "Nice",
     slug: "nice",
     phonetic: "/naɪs/",
@@ -50,7 +50,6 @@ export const N2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b4a-n-37",
     word: "Nicely",
     slug: "nicely",
     phonetic: "/ˈnaɪ.sli/",
@@ -59,10 +58,9 @@ export const N2: VocabularyWord[] = [
     meaningVi: "Một cách tốt đẹp/Chu đáo.",
     exampleEn: "She explained the concept of nicely to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm nicely cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-n-38",
     word: "Niche",
     slug: "niche",
     phonetic: "/nɪtʃ/",
@@ -71,10 +69,9 @@ export const N2: VocabularyWord[] = [
     meaningVi: "Chỗ thích hợp/Hốc tường.",
     exampleEn: "She explained the concept of niche to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm niche cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-n-39",
     word: "Nickname",
     slug: "nickname",
     phonetic: "/ˈnɪk.neɪm/",
@@ -83,10 +80,9 @@ export const N2: VocabularyWord[] = [
     meaningVi: "Biệt danh.",
     exampleEn: "She explained the concept of nickname to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm nickname cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-n-40",
     word: "Niece",
     slug: "niece",
     phonetic: "/niːs/",
@@ -95,10 +91,9 @@ export const N2: VocabularyWord[] = [
     meaningVi: "Cháu gái.",
     exampleEn: "She explained the concept of niece to the class.",
     exampleVi: "Cô ấy đã giải thích khái niệm niece cho cả lớp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-n-10",
     word: "Niggardly",
     slug: "niggardly",
     phonetic: "/ˈnɪɡ.ɚd.li/",
@@ -106,11 +101,11 @@ export const N2: VocabularyWord[] = [
     meaningEn: "Not generous; stingy.",
     meaningVi: "Hà tiện/Bủn xỉn.",
     exampleEn: "The company was niggardly with its annual bonuses.",
-    exampleVi: "Công ty đã rất hà tiện (bủn xỉn) với các khoản tiền thưởng hàng năm.",
-    categories: ["General"]
+    exampleVi:
+      "Công ty đã rất hà tiện (bủn xỉn) với các khoản tiền thưởng hàng năm.",
+    categories: ["General"],
   },
   {
-    id: "a1-164",
     word: "Night",
     slug: "night",
     phonetic: "/naɪt/",
@@ -122,7 +117,6 @@ export const N2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "exp-b5b-n-11",
     word: "Nihilism",
     slug: "nihilism",
     phonetic: "/ˈnaɪ.ə.lɪ.zəm/",
@@ -131,10 +125,9 @@ export const N2: VocabularyWord[] = [
     meaningVi: "Chủ nghĩa hư vô.",
     exampleEn: "Extreme suffering can sometimes lead to nihilism.",
     exampleVi: "Sự đau khổ tột cùng đôi khi có thể dẫn đến chủ nghĩa hư vô.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-971",
     word: "Nine",
     slug: "nine",
     phonetic: "/naɪn/",
@@ -146,7 +139,6 @@ export const N2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-972",
     word: "Nobody",
     slug: "nobody",
     phonetic: "/ˈnoʊ.bə.di/",
@@ -158,7 +150,6 @@ export const N2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-973",
     word: "Noise",
     slug: "noise",
     phonetic: "/nɔɪz/",
@@ -170,7 +161,6 @@ export const N2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5b-n-12",
     word: "Noisome",
     slug: "noisome",
     phonetic: "/ˈnɔɪ.səm/",
@@ -179,10 +169,9 @@ export const N2: VocabularyWord[] = [
     meaningVi: "Hôi thối/Độc hại.",
     exampleEn: "A noisome stench rose from the garbage dump.",
     exampleVi: "Một mùi hôi thối độc hại bốc lên từ bãi rác.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-n-13",
     word: "Nomadic",
     slug: "nomadic",
     phonetic: "/noʊˈmæd.ɪk/",
@@ -191,34 +180,34 @@ export const N2: VocabularyWord[] = [
     meaningVi: "Du mục/Lang thang.",
     exampleEn: "The tribe leads a nomadic life across the desert.",
     exampleVi: "Bộ lạc sống một cuộc đời du mục (lang thang) trên sa mạc.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-n-14",
     word: "Nonchalant",
     slug: "nonchalant",
     phonetic: "/ˌnɑːn.ʃəˈlɑːnt/",
     partOfSpeech: "noun",
-    meaningEn: "(of a person or manner) feeling or appearing casually calm and relaxed.",
+    meaningEn:
+      "(of a person or manner) feeling or appearing casually calm and relaxed.",
     meaningVi: "Thờ ơ/Lãnh đạm.",
     exampleEn: "She gave a nonchalant shrug and walked away.",
     exampleVi: "Cô ấy thờ ơ (lãnh đạm) nhún vai và bước đi.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-n-15",
     word: "Nondescript",
     slug: "nondescript",
     phonetic: "/ˌnɑːn.dəˈskrɪpt/",
     partOfSpeech: "noun",
-    meaningEn: "Lacking distinctive or interesting features or characteristics.",
+    meaningEn:
+      "Lacking distinctive or interesting features or characteristics.",
     meaningVi: "Khó tả/Không có gì đặc biệt.",
     exampleEn: "The thief escaped in a nondescript white car.",
-    exampleVi: "Tên trộm đã tẩu thoát trên một chiếc xe hơi màu trắng không có gì đặc biệt (khó tả).",
-    categories: ["General"]
+    exampleVi:
+      "Tên trộm đã tẩu thoát trên một chiếc xe hơi màu trắng không có gì đặc biệt (khó tả).",
+    categories: ["General"],
   },
   {
-    id: "gen-974",
     word: "None",
     slug: "none",
     phonetic: "/nʌn/",
@@ -230,7 +219,6 @@ export const N2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5b-n-16",
     word: "Nonpareil",
     slug: "nonpareil",
     phonetic: "/ˌnɑːn.pəˈrel/",
@@ -239,22 +227,21 @@ export const N2: VocabularyWord[] = [
     meaningVi: "Không ai sánh kịp.",
     exampleEn: "Her beauty was nonpareil in the entire kingdom.",
     exampleVi: "Vẻ đẹp của cô ấy là không ai sánh kịp trong toàn vương quốc.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-n-17",
     word: "Nonplus",
     slug: "nonplus",
     phonetic: "/nɑːnˈplʌs/",
     partOfSpeech: "noun",
-    meaningEn: "Surprise and confuse (someone) so much that they are unsure how to react.",
+    meaningEn:
+      "Surprise and confuse (someone) so much that they are unsure how to react.",
     meaningVi: "Làm bối rối.",
     exampleEn: "The unexpected question seemed to nonplus the speaker.",
     exampleVi: "Câu hỏi bất ngờ dường như đã làm bối rối diễn giả.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-975",
     word: "Noon",
     slug: "noon",
     phonetic: "/nuːn/",
@@ -266,7 +253,6 @@ export const N2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-976",
     word: "Nor",
     slug: "nor",
     phonetic: "/nɔːr/",
@@ -278,7 +264,6 @@ export const N2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-977",
     word: "Normal",
     slug: "normal",
     phonetic: "/ˈnɔːr.məl/",
@@ -290,19 +275,18 @@ export const N2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "c1-222",
     word: "Normative",
     slug: "normative",
     phonetic: "/ˈnɔːr.mə.t̬ɪv/",
     partOfSpeech: "adj",
-    meaningEn: "Establishing, relating to, or deriving from a standard or norm, especially of behavior.",
+    meaningEn:
+      "Establishing, relating to, or deriving from a standard or norm, especially of behavior.",
     meaningVi: "Thiết lập quy tắc, tiêu chuẩn.",
     exampleEn: "Normative ethics.",
     exampleVi: "Đạo đức học chuẩn tắc.",
-    categories: ["Academic","Philosophy","Social"],
+    categories: ["Academic", "Philosophy", "Social"],
   },
   {
-    id: "gen-978",
     word: "North",
     slug: "north",
     phonetic: "/nɔːrθ/",
@@ -314,7 +298,6 @@ export const N2: VocabularyWord[] = [
     categories: ["Geography"],
   },
   {
-    id: "a1-118",
     word: "Nose",
     slug: "nose",
     phonetic: "/noʊz/",
@@ -323,10 +306,9 @@ export const N2: VocabularyWord[] = [
     meaningVi: "Mũi.",
     exampleEn: "He has a small nose.",
     exampleVi: "Anh ấy có một cái mũi nhỏ.",
-    categories: ["Daily","Medical","Biology"],
+    categories: ["Daily", "Medical", "Biology"],
   },
   {
-    id: "exp-b5b-n-18",
     word: "Nostrum",
     slug: "nostrum",
     phonetic: "/ˈnɑː.strəm/",
@@ -334,11 +316,11 @@ export const N2: VocabularyWord[] = [
     meaningEn: "A medicine, especially one that is not considered effective.",
     meaningVi: "Thuốc vớ vẩn/Mẹo vặt.",
     exampleEn: "The scheme was just another political nostrum for the poor.",
-    exampleVi: "Kế hoạch này chỉ là một mẹo vặt (giải pháp vớ vẩn) chính trị khác dành cho người nghèo.",
-    categories: ["General"]
+    exampleVi:
+      "Kế hoạch này chỉ là một mẹo vặt (giải pháp vớ vẩn) chính trị khác dành cho người nghèo.",
+    categories: ["General"],
   },
   {
-    id: "gen-980",
     word: "Note",
     slug: "note",
     phonetic: "/noʊt/",
@@ -350,7 +332,6 @@ export const N2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-2516",
     word: "Notebook",
     slug: "notebook",
     phonetic: "/ˈnoʊt.bʊk/",
@@ -359,10 +340,9 @@ export const N2: VocabularyWord[] = [
     meaningVi: "Sổ tay.",
     exampleEn: "Spiral notebook.",
     exampleVi: "Sổ lò xo.",
-    categories: ["Education","General"],
+    categories: ["Education", "General"],
   },
   {
-    id: "gen-981",
     word: "Nothing",
     slug: "nothing",
     phonetic: "/ˈnʌθ.ɪŋ/",
@@ -374,7 +354,6 @@ export const N2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b1-45",
     word: "Notice",
     slug: "notice",
     phonetic: "/ˈnoʊ.t̬ɪs/",
@@ -386,7 +365,6 @@ export const N2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "a2-228",
     word: "Notification",
     slug: "notification",
     phonetic: "/ˌnoʊ.t̬ə.fəˈkeɪ.ʃən/",
@@ -395,10 +373,9 @@ export const N2: VocabularyWord[] = [
     meaningVi: "Thông báo.",
     exampleEn: "Disable notifications.",
     exampleVi: "Tắt các thông báo.",
-    categories: ["Technology","Daily"],
+    categories: ["Technology", "Daily"],
   },
   {
-    id: "gen-nst1",
     word: "Notion",
     slug: "notion",
     phonetic: "/ˈnoʊ.ʃən/",
@@ -410,7 +387,6 @@ export const N2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-982",
     word: "Notorious",
     slug: "notorious",
     phonetic: "/noʊˈtɔːr.i.əs/",
@@ -422,7 +398,6 @@ export const N2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-983",
     word: "Novel",
     slug: "novel",
     phonetic: "/ˈnɑː.vəl/",
@@ -434,7 +409,6 @@ export const N2: VocabularyWord[] = [
     categories: ["Literature"],
   },
   {
-    id: "gen-984",
     word: "November",
     slug: "november",
     phonetic: "/noʊˈvem.bɚ/",
@@ -446,7 +420,6 @@ export const N2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-985",
     word: "Now",
     slug: "now",
     phonetic: "/naʊ/",
@@ -458,7 +431,6 @@ export const N2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5b-n-19",
     word: "Noxious",
     slug: "noxious",
     phonetic: "/ˈnɑːk.ʃəs/",
@@ -467,22 +439,21 @@ export const N2: VocabularyWord[] = [
     meaningVi: "Độc hại.",
     exampleEn: "The factory released noxious fumes into the air.",
     exampleVi: "Nhà máy đã thải khói độc hại vào không khí.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-n-20",
     word: "Nuance",
     slug: "nuance",
     phonetic: "/ˈnuː.ɑːns/",
     partOfSpeech: "noun",
-    meaningEn: "A subtle difference in or shade of meaning, expression, or sound.",
+    meaningEn:
+      "A subtle difference in or shade of meaning, expression, or sound.",
     meaningVi: "Sắc thái.",
     exampleEn: "The actor captured every nuance of the character.",
     exampleVi: "Nam diễn viên đã nắm bắt được mọi sắc thái của nhân vật.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-988",
     word: "Nuanced",
     slug: "nuanced",
     phonetic: "/ˈnuː.ɑːnst/",
@@ -491,10 +462,9 @@ export const N2: VocabularyWord[] = [
     meaningVi: "Đặc trưng bởi những sắc thái tinh tế về ý nghĩa hoặc biểu đạt.",
     exampleEn: "A nuanced performance.",
     exampleVi: "Một màn trình diễn tinh tế.",
-    categories: ["Daily","Academic","Social"],
+    categories: ["Daily", "Academic", "Social"],
   },
   {
-    id: "gen-986",
     word: "Nuclear",
     slug: "nuclear",
     phonetic: "/ˈnuː.kli.ɚ/",
@@ -503,10 +473,9 @@ export const N2: VocabularyWord[] = [
     meaningVi: "Hạt nhân.",
     exampleEn: "Nuclear energy.",
     exampleVi: "Năng lượng hạt nhân.",
-    categories: ["Science","Physics"],
+    categories: ["Science", "Physics"],
   },
   {
-    id: "gen-987",
     word: "Number",
     slug: "number",
     phonetic: "/ˈnʌm.bɚ/",
@@ -518,7 +487,6 @@ export const N2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a1-174",
     word: "Nurse",
     slug: "nurse",
     phonetic: "/nɜːrs/",
@@ -527,10 +495,9 @@ export const N2: VocabularyWord[] = [
     meaningVi: "Y tá.",
     exampleEn: "The nurse is checking my blood pressure.",
     exampleVi: "Y tá đang kiểm tra huyết áp cho tôi.",
-    categories: ["Daily","Medical","Jobs"],
+    categories: ["Daily", "Medical", "Jobs"],
   },
   {
-    id: "job-071",
     word: "Nutritionist",
     slug: "nutritionist",
     phonetic: "/njuːˈtrɪʃ.ən.ɪst/",
@@ -539,6 +506,6 @@ export const N2: VocabularyWord[] = [
     meaningVi: "Chuyên gia dinh dưỡng.",
     exampleEn: "The nutritionist recommended a healthy diet.",
     exampleVi: "Chuyên gia dinh dưỡng đã đề xuất chế độ ăn lành mạnh.",
-    categories: ["Jobs","Medical"],
-  }
+    categories: ["Jobs", "Medical"],
+  },
 ];

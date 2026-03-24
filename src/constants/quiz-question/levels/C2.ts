@@ -44,7 +44,8 @@ export const questions: Question[] = [
   {
     id: "C2-0004",
     questionEn: "Rarely _____ visited by such a dignitary.",
-    questionVi: "Hiếm khi _____ chúng ta được một vị chức sắc như vậy đến thăm.",
+    questionVi:
+      "Hiếm khi _____ chúng ta được một vị chức sắc như vậy đến thăm.",
     options: [
       { option: "have we been", isCorrect: true },
       { option: "we have been", isCorrect: false },
@@ -334,7 +335,8 @@ export const questions: Question[] = [
   {
     id: "C2-0026",
     questionEn: "Buying a house involves _____ a mortgage.",
-    questionVi: "Mua nhà _____ bao gồm cả việc phải gánh một khoản nợ thế chấp.",
+    questionVi:
+      "Mua nhà _____ bao gồm cả việc phải gánh một khoản nợ thế chấp.",
     options: [
       { option: "getting", isCorrect: true },
       { option: "to get", isCorrect: false },
@@ -491,7 +493,8 @@ export const questions: Question[] = [
   {
     id: "C2-0038",
     questionEn: "Strictly _____, spiders are not insects.",
-    questionVi: "Nói _____ một cách chính xác thì nhện không phải là côn trùng.",
+    questionVi:
+      "Nói _____ một cách chính xác thì nhện không phải là côn trùng.",
     options: [
       { option: "speaking", isCorrect: true },
       { option: "speak", isCorrect: false },

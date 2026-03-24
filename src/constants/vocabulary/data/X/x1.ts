@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const X1: VocabularyWord[] = [
   {
-    id: "added-x-7",
     word: "X-axis",
     slug: "x-axis",
     phonetic: "/ˈeks ˌæk.sɪs/",
@@ -11,10 +10,9 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Trục hoành.",
     exampleEn: "Plot the independent variable on the X-axis.",
     exampleVi: "Vẽ biến độc lập trên trục hoành.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-1",
     word: "X-chromosome",
     slug: "x-chromosome",
     phonetic: "/ˈeks ˌkroʊ.mə.soʊm/",
@@ -23,10 +21,9 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Nhiễm sắc thể X.",
     exampleEn: "The child inherits one X-chromosome from each parent.",
     exampleVi: "Đứa trẻ thừa hưởng một nhiễm sắc thể X từ mỗi phụ huynh.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-2",
     word: "X-factor",
     slug: "x-factor",
     phonetic: "/ˈeks ˌfæk.tɚ/",
@@ -34,35 +31,35 @@ export const X1: VocabularyWord[] = [
     meaningEn: "A variable that could have a significant impact.",
     meaningVi: "Nhân tố X.",
     exampleEn: "Team chemistry was the X-factor in their championship win.",
-    exampleVi: "Sự ăn ý của đội bóng là nhân tố X dẫn đến chiến thắng chức vô địch.",
-    categories: ["General"]
+    exampleVi:
+      "Sự ăn ý của đội bóng là nhân tố X dẫn đến chiến thắng chức vô địch.",
+    categories: ["General"],
   },
   {
-    id: "a2-173",
     word: "X-ray",
     slug: "x-ray",
     phonetic: "/ˈeks.reɪ/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A photographic or digital image of the internal composition of something, especially parts of the body.",
+    meaningEn:
+      "A photographic or digital image of the internal composition of something, especially parts of the body.",
     meaningVi: "Phim X-quang; chụp X-quang.",
     exampleEn: "The doctor took an X-ray of my arm.",
     exampleVi: "Bác sĩ đã chụp X-quang cánh tay của tôi.",
     categories: ["Medical"],
   },
   {
-    id: "added-final-x-1",
     word: "X-ray-diffraction",
     slug: "x-ray-diffraction",
     phonetic: "/ˈeks ˌreɪ dɪˈfræk.ʃən/",
     partOfSpeech: "noun",
     meaningEn: "The scattering of X-rays by the atoms of a crystal.",
     meaningVi: "Nhiễu xạ tia X.",
-    exampleEn: "X-ray-diffraction is used to determine the structure of crystals.",
+    exampleEn:
+      "X-ray-diffraction is used to determine the structure of crystals.",
     exampleVi: "Nhiễu xạ tia X được sử dụng để xác định cấu trúc của tinh thể.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-57",
     word: "X-ray-source",
     slug: "x-ray-source",
     phonetic: "/ˈeks ˌreɪ sɔːrs/",
@@ -70,11 +67,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "Something that emits X-rays.",
     meaningVi: "Nguồn phát tia X.",
     exampleEn: "The lab uses a high-powered X-ray-source for experiments.",
-    exampleVi: "Phòng thí nghiệm sử dụng một nguồn phát tia X công suất cao cho các thí nghiệm.",
-    categories: ["General"]
+    exampleVi:
+      "Phòng thí nghiệm sử dụng một nguồn phát tia X công suất cao cho các thí nghiệm.",
+    categories: ["General"],
   },
   {
-    id: "added-final-x-9",
     word: "X-ray-technician",
     slug: "x-ray-technician",
     phonetic: "/ˈeks ˌreɪ tekˈnɪʃ.ən/",
@@ -82,11 +79,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "A person trained to take X-rays.",
     meaningVi: "Kỹ thuật viên X-quang.",
     exampleEn: "The X-ray-technician prepared the patient for the scan.",
-    exampleVi: "Kỹ thuật viên X-quang đã chuẩn bị cho bệnh nhân trước khi chụp.",
-    categories: ["General"]
+    exampleVi:
+      "Kỹ thuật viên X-quang đã chuẩn bị cho bệnh nhân trước khi chụp.",
+    categories: ["General"],
   },
   {
-    id: "added-x-58",
     word: "X-ray-tube",
     slug: "x-ray-tube",
     phonetic: "/ˈeks ˌreɪ tuːb/",
@@ -95,10 +92,9 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Ống tia X.",
     exampleEn: "The X-ray-tube is the heart of the diagnostic machine.",
     exampleVi: "Ống tia X là bộ phận cốt lõi của máy chẩn đoán.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-59",
     word: "Xanadu",
     slug: "xanadu",
     phonetic: "/ˈzæn.ə.duː/",
@@ -106,11 +102,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "An idealized place of great magnificence.",
     meaningVi: "Nơi thiên đường tráng lệ.",
     exampleEn: "He built a remote villa as his personal Xanadu.",
-    exampleVi: "Anh ấy đã xây dựng một biệt thự hẻo lánh làm nơi thiên đường tráng lệ của riêng mình.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ấy đã xây dựng một biệt thự hẻo lánh làm nơi thiên đường tráng lệ của riêng mình.",
+    categories: ["General"],
   },
   {
-    id: "added-x-60",
     word: "Xanthate",
     slug: "xanthate",
     phonetic: "/ˈzæn.θeɪt/",
@@ -118,23 +114,24 @@ export const X1: VocabularyWord[] = [
     meaningEn: "A salt of xanthic acid.",
     meaningVi: "Muối xanthate.",
     exampleEn: "Xanthate compounds are commonly used in the mining industry.",
-    exampleVi: "Các hợp chất xanthate thường được sử dụng trong ngành công nghiệp khai thác mỏ.",
-    categories: ["General"]
+    exampleVi:
+      "Các hợp chất xanthate thường được sử dụng trong ngành công nghiệp khai thác mỏ.",
+    categories: ["General"],
   },
   {
-    id: "added-x-61",
     word: "Xanthein",
     slug: "xanthein",
     phonetic: "/ˈzæn.θi.ɪn/",
     partOfSpeech: "noun",
     meaningEn: "The soluble yellow pigment of flowers.",
     meaningVi: "Sắc tố vàng tan trong nước của hoa.",
-    exampleEn: "The xanthein pigment gives these petals their bright yellow color.",
-    exampleVi: "Sắc tố xanthein tạo cho những cánh hoa này màu vàng tươi rực rỡ.",
-    categories: ["General"]
+    exampleEn:
+      "The xanthein pigment gives these petals their bright yellow color.",
+    exampleVi:
+      "Sắc tố xanthein tạo cho những cánh hoa này màu vàng tươi rực rỡ.",
+    categories: ["General"],
   },
   {
-    id: "added-x-62",
     word: "Xanthene",
     slug: "xanthene",
     phonetic: "/ˈzæn.θiːn/",
@@ -142,23 +139,23 @@ export const X1: VocabularyWord[] = [
     meaningEn: "A tricyclic compound.",
     meaningVi: "Xanthene.",
     exampleEn: "Xanthene dyes are widely used in biological research.",
-    exampleVi: "Thuốc nhuộm xanthene được sử dụng rộng rãi trong nghiên cứu sinh học.",
-    categories: ["General"]
+    exampleVi:
+      "Thuốc nhuộm xanthene được sử dụng rộng rãi trong nghiên cứu sinh học.",
+    categories: ["General"],
   },
   {
-        id: "gen-x-001",
-        word: "Xanthic",
-        slug: "xanthic",
-        phonetic: "/ˈzæn.θɪk/",
-        partOfSpeech: "adjective",
-        meaningEn: "Relating to or denoting a yellow color.",
-        meaningVi: "Có màu vàng.",
-        exampleEn: "Xanthic flowers.",
-        exampleVi: "Những bông hoa có màu vàng.",
-        categories: ["General", "Nature"]
-    },
+    id: "gen-x-001",
+    word: "Xanthic",
+    slug: "xanthic",
+    phonetic: "/ˈzæn.θɪk/",
+    partOfSpeech: "adjective",
+    meaningEn: "Relating to or denoting a yellow color.",
+    meaningVi: "Có màu vàng.",
+    exampleEn: "Xanthic flowers.",
+    exampleVi: "Những bông hoa có màu vàng.",
+    categories: ["General", "Nature"],
+  },
   {
-    id: "added-x-63",
     word: "Xanthic-acid",
     slug: "xanthic-acid",
     phonetic: "/ˈzæn.θɪk ˈæs.ɪd/",
@@ -166,11 +163,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "A chemical acid.",
     meaningVi: "Axit xanthic.",
     exampleEn: "Xanthic-acid is an unstable sulfur-containing organic acid.",
-    exampleVi: "Axit xanthic là một loại axit hữu cơ chứa lưu huỳnh không ổn định.",
-    categories: ["General"]
+    exampleVi:
+      "Axit xanthic là một loại axit hữu cơ chứa lưu huỳnh không ổn định.",
+    categories: ["General"],
   },
   {
-    id: "added-x-71",
     word: "Xanthic-compound",
     slug: "xanthic-compound",
     phonetic: "/ˈzæn.θɪk ˈkɑːm.paʊnd/",
@@ -178,11 +175,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "A chemical containing xanthic acid.",
     meaningVi: "Hợp chất xanthic.",
     exampleEn: "The chemist synthesized a new xanthic-compound in the lab.",
-    exampleVi: "Nhà hóa học đã tổng hợp một hợp chất xanthic mới trong phòng thí nghiệm.",
-    categories: ["General"]
+    exampleVi:
+      "Nhà hóa học đã tổng hợp một hợp chất xanthic mới trong phòng thí nghiệm.",
+    categories: ["General"],
   },
   {
-    id: "added-x-64",
     word: "Xanthine",
     slug: "xanthine",
     phonetic: "/ˈzæn.θiːn/",
@@ -191,70 +188,74 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Xanthine.",
     exampleEn: "Caffeine is a well-known derivative of xanthine.",
     exampleVi: "Caffeine là một dẫn xuất nổi tiếng của xanthine.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-65",
     word: "Xanthippe",
     slug: "xanthippe",
     phonetic: "/zænˈθɪp.i/",
     partOfSpeech: "noun",
     meaningEn: "A scolding or ill-tempered wife.",
     meaningVi: "Người vợ hay quát tháo/Người vợ gắt gỏng.",
-    exampleEn: "In literature, a difficult wife is sometimes called a Xanthippe.",
-    exampleVi: "Trong văn học, một người vợ gắt gỏng đôi khi được gọi là Xanthippe.",
-    categories: ["General"]
+    exampleEn:
+      "In literature, a difficult wife is sometimes called a Xanthippe.",
+    exampleVi:
+      "Trong văn học, một người vợ gắt gỏng đôi khi được gọi là Xanthippe.",
+    categories: ["General"],
   },
   {
-    id: "added-x-66",
     word: "Xanthocarpous",
     slug: "xanthocarpous",
     phonetic: "/ˌzæn.θəˈkɑːr.pəs/",
     partOfSpeech: "noun",
     meaningEn: "Having yellow fruit.",
     meaningVi: "Có quả vàng.",
-    exampleEn: "The botanist identified several xanthocarpous species in the forest.",
-    exampleVi: "Nhà thực vật học đã xác định được một số loài có quả vàng trong rừng.",
-    categories: ["General"]
+    exampleEn:
+      "The botanist identified several xanthocarpous species in the forest.",
+    exampleVi:
+      "Nhà thực vật học đã xác định được một số loài có quả vàng trong rừng.",
+    categories: ["General"],
   },
   {
-    id: "added-x-67",
     word: "Xanthochroic",
     slug: "xanthochroic",
     phonetic: "/ˌzæn.θəˈkroʊ.ɪk/",
     partOfSpeech: "noun",
     meaningEn: "Having yellow skin and light hair.",
     meaningVi: "Có da vàng và tóc sáng màu.",
-    exampleEn: "The researchers studied the distribution of xanthochroic features.",
-    exampleVi: "Các nhà nghiên cứu đã nghiên cứu sự phân bố của các đặc điểm da vàng và tóc sáng màu.",
-    categories: ["General"]
+    exampleEn:
+      "The researchers studied the distribution of xanthochroic features.",
+    exampleVi:
+      "Các nhà nghiên cứu đã nghiên cứu sự phân bố của các đặc điểm da vàng và tóc sáng màu.",
+    categories: ["General"],
   },
   {
-    id: "added-final-x-4",
     word: "Xanthochromia",
     slug: "xanthochromia",
     phonetic: "/ˌzæn.θəˈkroʊ.mi.ə/",
     partOfSpeech: "noun",
     meaningEn: "Yellowish discoloration of cerebrospinal fluid.",
     meaningVi: "Chứng dịch não tủy vàng.",
-    exampleEn: "Xanthochromia in the spinal fluid can indicate an old hemorrhage.",
-    exampleVi: "Chứng dịch não tủy vàng có thể là dấu hiệu của một vụ xuất huyết cũ.",
-    categories: ["General"]
+    exampleEn:
+      "Xanthochromia in the spinal fluid can indicate an old hemorrhage.",
+    exampleVi:
+      "Chứng dịch não tủy vàng có thể là dấu hiệu của một vụ xuất huyết cũ.",
+    categories: ["General"],
   },
   {
-    id: "added-x-68",
     word: "Xanthodont",
     slug: "xanthodont",
     phonetic: "/ˈzæn.θə.dɑːnt/",
     partOfSpeech: "noun",
     meaningEn: "Having yellow teeth.",
     meaningVi: "Có răng vàng.",
-    exampleEn: "The condition of being xanthodont can result from various factors.",
-    exampleVi: "Tình trạng có răng vàng có thể bắt nguồn từ nhiều yếu tố khác nhau.",
-    categories: ["General"]
+    exampleEn:
+      "The condition of being xanthodont can result from various factors.",
+    exampleVi:
+      "Tình trạng có răng vàng có thể bắt nguồn từ nhiều yếu tố khác nhau.",
+    categories: ["General"],
   },
   {
-    id: "added-x-3",
     word: "Xanthoma",
     slug: "xanthoma",
     phonetic: "/zænˈθoʊ.mə/",
@@ -263,10 +264,9 @@ export const X1: VocabularyWord[] = [
     meaningVi: "U vàng.",
     exampleEn: "A xanthoma is a localized collection of lipid-filled cells.",
     exampleVi: "U vàng là một sự tích tụ cục bộ của các tế bào chứa đầy lipid.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-69",
     word: "Xanthomelanoi",
     slug: "xanthomelanoi",
     phonetic: "/ˌzæn.θə.məˈlæn.ɔɪ/",
@@ -274,11 +274,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "Relating to yellow and black peoples.",
     meaningVi: "Chủng tộc da vàng đen.",
     exampleEn: "Xanthomelanoi populations have diverse cultural heritages.",
-    exampleVi: "Các quần thể chủng tộc da vàng đen có những di sản văn hóa đa dạng.",
-    categories: ["General"]
+    exampleVi:
+      "Các quần thể chủng tộc da vàng đen có những di sản văn hóa đa dạng.",
+    categories: ["General"],
   },
   {
-    id: "added-x-70",
     word: "Xanthophyll",
     slug: "xanthophyll",
     phonetic: "/ˈzæn.θə.fɪl/",
@@ -287,10 +287,9 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Diệp hoàng tố.",
     exampleEn: "Xanthophyll is responsible for the autumn colors of leaves.",
     exampleVi: "Diệp hoàng tố chịu trách nhiệm cho màu sắc mùa thu của lá cây.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-4",
     word: "Xanthous",
     slug: "xanthous",
     phonetic: "/ˈzæn.θəs/",
@@ -299,22 +298,22 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Màu vàng.",
     exampleEn: "The xanthous variety of the plant is rare in this region.",
     exampleVi: "Giống cây màu vàng này rất hiếm gặp ở khu vực này.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-5",
     word: "Xebec",
     slug: "xebec",
     phonetic: "/ˈziː.bek/",
     partOfSpeech: "noun",
     meaningEn: "A small three-masted Mediterranean sailing ship.",
     meaningVi: "Thuyền buồm Xebec.",
-    exampleEn: "The xebec was a common sight in the Mediterranean during the 18th century.",
-    exampleVi: "Thuyền buồm Xebec là một hình ảnh thường thấy ở Địa Trung Hải vào thế kỷ 18.",
-    categories: ["General"]
+    exampleEn:
+      "The xebec was a common sight in the Mediterranean during the 18th century.",
+    exampleVi:
+      "Thuyền buồm Xebec là một hình ảnh thường thấy ở Địa Trung Hải vào thế kỷ 18.",
+    categories: ["General"],
   },
   {
-    id: "added-x-1",
     word: "Xenial",
     slug: "xenial",
     phonetic: "/ˈziː.ni.əl/",
@@ -322,11 +321,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "Relating to hospitality.",
     meaningVi: "Thuộc về lòng hiếu khách.",
     exampleEn: "The culture is known for its xenial approach to travelers.",
-    exampleVi: "Nền văn hóa này nổi tiếng với lòng hiếu khách đối với du khách.",
-    categories: ["General"]
+    exampleVi:
+      "Nền văn hóa này nổi tiếng với lòng hiếu khách đối với du khách.",
+    categories: ["General"],
   },
   {
-    id: "added-x-20",
     word: "Xenic",
     slug: "xenic",
     phonetic: "/ˈzen.ɪk/",
@@ -334,11 +333,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "Relation to a stranger.",
     meaningVi: "Xa lạ.",
     exampleEn: "The culture was studied in its xenic state before integration.",
-    exampleVi: "Nền văn hóa này đã được nghiên cứu trong trạng thái xa lạ (tách biệt) trước khi hội nhập.",
-    categories: ["General"]
+    exampleVi:
+      "Nền văn hóa này đã được nghiên cứu trong trạng thái xa lạ (tách biệt) trước khi hội nhập.",
+    categories: ["General"],
   },
   {
-    id: "added-x-21",
     word: "Xenocryst",
     slug: "xenocryst",
     phonetic: "/ˈzen.ə.krɪst/",
@@ -347,10 +346,9 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Tinh thể ngoại lai.",
     exampleEn: "The xenocryst was trapped within the volcanic rock.",
     exampleVi: "Tinh thể ngoại lai đã bị mắc kẹt bên trong khối đá núi lửa.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-x-2",
     word: "Xenogenetic",
     slug: "xenogenetic",
     phonetic: "/ˌzen.ə.dʒəˈnet.ɪk/",
@@ -358,11 +356,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "Originating outside of the organism.",
     meaningVi: "Có nguồn gốc bên ngoài.",
     exampleEn: "The xenogenetic material was carefully studied in the lab.",
-    exampleVi: "Vật liệu có nguồn gốc bên ngoài (ngoại di truyền) đã được nghiên cứu kỹ lưỡng trong phòng thí nghiệm.",
-    categories: ["General"]
+    exampleVi:
+      "Vật liệu có nguồn gốc bên ngoài (ngoại di truyền) đã được nghiên cứu kỹ lưỡng trong phòng thí nghiệm.",
+    categories: ["General"],
   },
   {
-    id: "added-x-72",
     word: "Xenogeny",
     slug: "xenogeny",
     phonetic: "/zəˈnɑː.dʒə.ni/",
@@ -370,11 +368,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "Production of offspring unlike either parent.",
     meaningVi: "Sự sinh ra giống khác bố mẹ.",
     exampleEn: "Scientific theories once proposed xenogeny as a possibility.",
-    exampleVi: "Các lý thuyết khoa học từng đề xuất sự sinh ra giống khác bố mẹ là một khả năng.",
-    categories: ["General"]
+    exampleVi:
+      "Các lý thuyết khoa học từng đề xuất sự sinh ra giống khác bố mẹ là một khả năng.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-x-3",
     word: "Xenolith",
     slug: "xenolith",
     phonetic: "/ˈzen.ə.lɪθ/",
@@ -382,11 +380,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "A piece of rock of different origin from the igneous rock.",
     meaningVi: "Dị thể đá.",
     exampleEn: "The geologist found a rare xenolith within the basalt.",
-    exampleVi: "Nhà địa chất đã tìm thấy một dị thể đá hiếm bên trong khối đá bazan.",
-    categories: ["General"]
+    exampleVi:
+      "Nhà địa chất đã tìm thấy một dị thể đá hiếm bên trong khối đá bazan.",
+    categories: ["General"],
   },
   {
-    id: "added-x-7",
     word: "Xenomorphic",
     slug: "xenomorphic",
     phonetic: "/ˌzen.əˈmɔːr.fɪk/",
@@ -394,11 +392,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "Having a form not its own.",
     meaningVi: "Biến hình.",
     exampleEn: "The mineral crystals appeared in a xenomorphic form.",
-    exampleVi: "Các tinh thể khoáng chất xuất hiện trong một hình thái biến hình (không tự hình).",
-    categories: ["General"]
+    exampleVi:
+      "Các tinh thể khoáng chất xuất hiện trong một hình thái biến hình (không tự hình).",
+    categories: ["General"],
   },
   {
-    id: "exp-final-x-3",
     word: "Xenon",
     slug: "xenon",
     phonetic: "/ˈziː.nɑːn/",
@@ -407,10 +405,9 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Khí Xenon.",
     exampleEn: "Xenon is used in certain types of high-intensity lamps.",
     exampleVi: "Khí Xenon được sử dụng trong một số loại đèn cường độ cao.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-73",
     word: "Xenon-flash",
     slug: "xenon-flash",
     phonetic: "/ˈziː.nɑːn flæʃ/",
@@ -419,10 +416,9 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Đèn flash xenon.",
     exampleEn: "The camera is equipped with a high-speed xenon-flash.",
     exampleVi: "Chiếc máy ảnh được trang bị một đèn flash xenon tốc độ cao.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-8",
     word: "Xenon-lamp",
     slug: "xenon-lamp",
     phonetic: "/ˈziː.nɑːn læmp/",
@@ -431,22 +427,22 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Đèn xenon.",
     exampleEn: "Xenon-lamps provide intensely bright light for lighthouses.",
     exampleVi: "Đèn xenon cung cấp ánh sáng cực kỳ mạnh cho các ngọn hải đăng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-22",
     word: "Xenophile",
     slug: "xenophile",
     phonetic: "/ˈzen.ə.faɪl/",
     partOfSpeech: "noun",
     meaningEn: "A person who is attracted to foreign peoples.",
     meaningVi: "Người sính ngoại.",
-    exampleEn: "As a xenophile, he spends most of his time exploring foreign cultures.",
-    exampleVi: "Là một người sính ngoại, anh ấy dành phần lớn thời gian để khám phá các nền văn hóa nước ngoài.",
-    categories: ["General"]
+    exampleEn:
+      "As a xenophile, he spends most of his time exploring foreign cultures.",
+    exampleVi:
+      "Là một người sính ngoại, anh ấy dành phần lớn thời gian để khám phá các nền văn hóa nước ngoài.",
+    categories: ["General"],
   },
   {
-    id: "added-x-9",
     word: "Xenophobe",
     slug: "xenophobe",
     phonetic: "/ˈzen.ə.foʊb/",
@@ -454,11 +450,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "A person with a fear of foreigners.",
     meaningVi: "Người bài ngoại.",
     exampleEn: "The xenophobe was uncomfortable when surrounded by foreigners.",
-    exampleVi: "Người bài ngoại cảm thấy không thoải mái khi xung quanh là người nước ngoài.",
-    categories: ["General"]
+    exampleVi:
+      "Người bài ngoại cảm thấy không thoải mái khi xung quanh là người nước ngoài.",
+    categories: ["General"],
   },
   {
-    id: "exp-final-x-1",
     word: "Xenophobia",
     slug: "xenophobia",
     phonetic: "/ˌzen.əˈfoʊ.bi.ə/",
@@ -466,11 +462,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "Dislike of or prejudice against people from other countries.",
     meaningVi: "Sự bài ngoại.",
     exampleEn: "Xenophobia can lead to serious social conflicts.",
-    exampleVi: "Sự bài ngoại có thể dẫn đến những xung đột xã hội nghiêm trọng.",
-    categories: ["General"]
+    exampleVi:
+      "Sự bài ngoại có thể dẫn đến những xung đột xã hội nghiêm trọng.",
+    categories: ["General"],
   },
   {
-    id: "added-x-10",
     word: "Xenophobic",
     slug: "xenophobic",
     phonetic: "/ˌzen.əˈfoʊ.bɪk/",
@@ -478,11 +474,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "Having or showing a fear of people from other countries.",
     meaningVi: "Có tính bài ngoại.",
     exampleEn: "The politician was criticized for his xenophobic remarks.",
-    exampleVi: "Chính trị gia bị chỉ trích vì những lời nhận xét có tính bài ngoại.",
-    categories: ["General"]
+    exampleVi:
+      "Chính trị gia bị chỉ trích vì những lời nhận xét có tính bài ngoại.",
+    categories: ["General"],
   },
   {
-    id: "added-final-x-8",
     word: "Xenophobic-behavior",
     slug: "xenophobic-behavior",
     phonetic: "/ˌzen.əˈfoʊ.bɪk bɪˈheɪ.vjɚ/",
@@ -491,46 +487,49 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Hành vi bài ngoại.",
     exampleEn: "The law serves to protect citizens from xenophobic-behavior.",
     exampleVi: "Luật pháp giúp bảo vệ công dân khỏi các hành vi bài ngoại.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-33",
     word: "Xenophthalmia",
     slug: "xenophthalmia",
     phonetic: "/ˌzen.əfˈθæl.mi.ə/",
     partOfSpeech: "noun",
     meaningEn: "Inflammation of the eye caused by a foreign body.",
     meaningVi: "Viêm mắt do dị vật.",
-    exampleEn: "The worker suffered from xenophthalmia after sand blew into his eyes.",
-    exampleVi: "Người công nhân đã bị viêm mắt do dị vật sau khi bị cát thổi vào mắt.",
-    categories: ["General"]
+    exampleEn:
+      "The worker suffered from xenophthalmia after sand blew into his eyes.",
+    exampleVi:
+      "Người công nhân đã bị viêm mắt do dị vật sau khi bị cát thổi vào mắt.",
+    categories: ["General"],
   },
   {
-    id: "added-x-34",
     word: "Xenotransplant",
     slug: "xenotransplant",
     phonetic: "/ˌzen.oʊˈtræns.plænt/",
     partOfSpeech: "noun",
     meaningEn: "A graft of tissue from one species to another.",
     meaningVi: "Cấy ghép dị chủng.",
-    exampleEn: "The patient received a xenotransplant to replace the failing organ.",
-    exampleVi: "Bệnh nhân đã được cấy ghép dị chủng để thay thế cơ quan đang bị suy yếu.",
-    categories: ["General"]
+    exampleEn:
+      "The patient received a xenotransplant to replace the failing organ.",
+    exampleVi:
+      "Bệnh nhân đã được cấy ghép dị chủng để thay thế cơ quan đang bị suy yếu.",
+    categories: ["General"],
   },
   {
-    id: "added-final-x-5",
     word: "Xenotransplantation",
     slug: "xenotransplantation",
     phonetic: "/ˌzen.oʊ.træns.plænˈteɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn: "The process of grafting or transplanting organs from one species to another.",
+    meaningEn:
+      "The process of grafting or transplanting organs from one species to another.",
     meaningVi: "Việc cấy ghép dị chủng.",
-    exampleEn: "Xenotransplantation offers hope for patients waiting for organ donors.",
-    exampleVi: "Việc cấy ghép dị chủng mang lại hy vọng cho những bệnh nhân đang chờ người hiến tạng.",
-    categories: ["General"]
+    exampleEn:
+      "Xenotransplantation offers hope for patients waiting for organ donors.",
+    exampleVi:
+      "Việc cấy ghép dị chủng mang lại hy vọng cho những bệnh nhân đang chờ người hiến tạng.",
+    categories: ["General"],
   },
   {
-    id: "added-x-35",
     word: "Xeranthemum",
     slug: "xeranthemum",
     phonetic: "/ˌzɪərˈæn.θə.məm/",
@@ -539,10 +538,9 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Hoa bất tử.",
     exampleEn: "The xeranthemum flowers retain their color even when dried.",
     exampleVi: "Hoa bất tử vẫn giữ được màu sắc ngay cả khi đã khô.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-23",
     word: "Xerarch",
     slug: "xerarch",
     phonetic: "/ˈzɪr.ɑːrk/",
@@ -550,11 +548,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "Developing in dry places.",
     meaningVi: "Phát triển ở nơi khô ráo.",
     exampleEn: "The xerarch succession begins on dry, exposed rock.",
-    exampleVi: "Sự kế thừa phát triển ở nơi khô ráo bắt đầu trên những tảng đá khô và lộ thiên.",
-    categories: ["General"]
+    exampleVi:
+      "Sự kế thừa phát triển ở nơi khô ráo bắt đầu trên những tảng đá khô và lộ thiên.",
+    categories: ["General"],
   },
   {
-    id: "added-x-36",
     word: "Xeres",
     slug: "xeres",
     phonetic: "/ˈhɛərɛsk/",
@@ -562,11 +560,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "A type of sherry wine.",
     meaningVi: "Rượu Sherry.",
     exampleEn: "We enjoyed a glass of fine Xeres after dinner.",
-    exampleVi: "Chúng tôi đã thưởng thức một ly rượu Sherry hảo hạng sau bữa tối.",
-    categories: ["General"]
+    exampleVi:
+      "Chúng tôi đã thưởng thức một ly rượu Sherry hảo hạng sau bữa tối.",
+    categories: ["General"],
   },
   {
-    id: "added-x-11",
     word: "Xeric",
     slug: "xeric",
     phonetic: "/ˈzɪr.ɪk/",
@@ -575,34 +573,35 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Khô hạn.",
     exampleEn: "Cacti are perfectly adapted to xeric conditions.",
     exampleVi: "Cây xương rồng thích nghi hoàn hảo với các điều kiện khô hạn.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-37",
     word: "Xeric-environment",
     slug: "xeric-environment",
     phonetic: "/ˈzɪr.ɪk ɪnˈvaɪ.rən.mənt/",
     partOfSpeech: "noun",
     meaningEn: "A very dry environment.",
     meaningVi: "Môi trường khô hạn.",
-    exampleEn: "Survival in a xeric-environment requires specific biological adaptations.",
-    exampleVi: "Sống sót trong môi trường khô hạn đòi hỏi những sự thích nghi sinh học đặc thù.",
-    categories: ["General"]
+    exampleEn:
+      "Survival in a xeric-environment requires specific biological adaptations.",
+    exampleVi:
+      "Sống sót trong môi trường khô hạn đòi hỏi những sự thích nghi sinh học đặc thù.",
+    categories: ["General"],
   },
   {
-    id: "added-x-38",
     word: "Xeroderma",
     slug: "xeroderma",
     phonetic: "/ˌzɪr.oʊˈdɝː.mə/",
     partOfSpeech: "noun",
     meaningEn: "A disease of the skin.",
     meaningVi: "Bệnh khô da.",
-    exampleEn: "Patients with xeroderma must avoid exposure to ultraviolet light.",
-    exampleVi: "Những bệnh nhân bị bệnh khô da phải tránh tiếp xúc với ánh sáng tia cực tím.",
-    categories: ["General"]
+    exampleEn:
+      "Patients with xeroderma must avoid exposure to ultraviolet light.",
+    exampleVi:
+      "Những bệnh nhân bị bệnh khô da phải tránh tiếp xúc với ánh sáng tia cực tím.",
+    categories: ["General"],
   },
   {
-    id: "added-final-x-6",
     word: "Xerographically",
     slug: "xerographically",
     phonetic: "/ˌzɪr.əˈɡræf.ɪ.kəl.i/",
@@ -611,10 +610,9 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Bằng phương pháp photocopy khô.",
     exampleEn: "The documents were reproduced xerographically.",
     exampleVi: "Các tài liệu đã được sao chép bằng phương pháp photocopy khô.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-final-x-2",
     word: "Xerography",
     slug: "xerography",
     phonetic: "/zɪˈrɑː.ɡrə.fi/",
@@ -622,11 +620,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "A dry photocopying process.",
     meaningVi: "Phương pháp photocopy khô.",
     exampleEn: "Xerography revolutionized the way documents are copied.",
-    exampleVi: "Phương pháp photocopy (xô lô-gráp) đã cách mạng hóa cách sao chép tài liệu.",
-    categories: ["General"]
+    exampleVi:
+      "Phương pháp photocopy (xô lô-gráp) đã cách mạng hóa cách sao chép tài liệu.",
+    categories: ["General"],
   },
   {
-    id: "added-x-24",
     word: "Xeroma",
     slug: "xeroma",
     phonetic: "/zɪˈroʊ.mə/",
@@ -634,23 +632,24 @@ export const X1: VocabularyWord[] = [
     meaningEn: "Abnormal dryness of the skin.",
     meaningVi: "Chứng khô da.",
     exampleEn: "Xeroma can lead to severe discomfort and skin irritation.",
-    exampleVi: "Chứng khô da có thể dẫn đến sự khó chịu trầm trọng và kích ứng da.",
-    categories: ["General"]
+    exampleVi:
+      "Chứng khô da có thể dẫn đến sự khó chịu trầm trọng và kích ứng da.",
+    categories: ["General"],
   },
   {
-    id: "added-x-39",
     word: "Xeromorph",
     slug: "xeromorph",
     phonetic: "/ˈzɪr.ə.mɔːrf/",
     partOfSpeech: "noun",
     meaningEn: "A plant with drought-resistant features.",
     meaningVi: "Thực vật chịu hạn cao.",
-    exampleEn: "A xeromorph is a plant adapted to survive with very little water.",
-    exampleVi: "Thực vật chịu hạn cao là loài cây được thích nghi để sống sót với rất ít nước.",
-    categories: ["General"]
+    exampleEn:
+      "A xeromorph is a plant adapted to survive with very little water.",
+    exampleVi:
+      "Thực vật chịu hạn cao là loài cây được thích nghi để sống sót với rất ít nước.",
+    categories: ["General"],
   },
   {
-    id: "added-x-40",
     word: "Xerophilous",
     slug: "xerophilous",
     phonetic: "/zɪˈrɑː.fə.ləs/",
@@ -658,11 +657,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "Thriving in dry conditions.",
     meaningVi: "Ưa khô.",
     exampleEn: "Deserts are home to many specialized xerophilous species.",
-    exampleVi: "Sa mạc là nơi cư trú của nhiều loài sinh vật ưa khô chuyên biệt.",
-    categories: ["General"]
+    exampleVi:
+      "Sa mạc là nơi cư trú của nhiều loài sinh vật ưa khô chuyên biệt.",
+    categories: ["General"],
   },
   {
-    id: "added-x-41",
     word: "Xerophthalmic",
     slug: "xerophthalmic",
     phonetic: "/ˌzɪr.ɑːfˈθæl.mɪk/",
@@ -671,10 +670,9 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Thuộc chứng khô mắt.",
     exampleEn: "Vitamin A deficiency can lead to xerophthalmic conditions.",
     exampleVi: "Thiếu vitamin A có thể dẫn đến các bệnh thuộc chứng khô mắt.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-2",
     word: "Xerophyte",
     slug: "xerophyte",
     phonetic: "/ˈzɪr.ə.faɪt/",
@@ -682,35 +680,37 @@ export const X1: VocabularyWord[] = [
     meaningEn: "A plant adapted to dry conditions.",
     meaningVi: "Thực vật chịu hạn.",
     exampleEn: "Aloe vera is a popular xerophyte kept as a houseplant.",
-    exampleVi: "Nha đam là một loài thực vật chịu hạn phổ biến được trồng làm cây cảnh.",
-    categories: ["General"]
+    exampleVi:
+      "Nha đam là một loài thực vật chịu hạn phổ biến được trồng làm cây cảnh.",
+    categories: ["General"],
   },
   {
-    id: "added-x-42",
     word: "Xeroradiography",
     slug: "xeroradiography",
     phonetic: "/ˌzɪr.oʊ.reɪ.diˈɑː.ɡrə.fi/",
     partOfSpeech: "noun",
     meaningEn: "A method of taking X-ray images.",
     meaningVi: "Kỹ thuật chụp X-quang khô.",
-    exampleEn: "Xeroradiography provides higher contrast images for certain medical scans.",
-    exampleVi: "Kỹ thuật chụp X-quang khô cung cấp hình ảnh có độ tương phản cao hơn cho một số cuộc chụp y tế.",
-    categories: ["General"]
+    exampleEn:
+      "Xeroradiography provides higher contrast images for certain medical scans.",
+    exampleVi:
+      "Kỹ thuật chụp X-quang khô cung cấp hình ảnh có độ tương phản cao hơn cho một số cuộc chụp y tế.",
+    categories: ["General"],
   },
   {
-    id: "added-x-25",
     word: "Xerosis",
     slug: "xerosis",
     phonetic: "/zɪˈroʊ.sɪs/",
     partOfSpeech: "noun",
     meaningEn: "Abnormal dryness of a part of the body.",
     meaningVi: "Chứng khô da túi mật.",
-    exampleEn: "Winter cold often causes xerosis in people with sensitive skin.",
-    exampleVi: "Cái lạnh mùa đông thường gây ra chứng khô da ở những người có làn da nhạy cảm.",
-    categories: ["General"]
+    exampleEn:
+      "Winter cold often causes xerosis in people with sensitive skin.",
+    exampleVi:
+      "Cái lạnh mùa đông thường gây ra chứng khô da ở những người có làn da nhạy cảm.",
+    categories: ["General"],
   },
   {
-    id: "added-x-43",
     word: "Xerothermic",
     slug: "xerothermic",
     phonetic: "/ˌzɪr.oʊˈθɝː.mɪk/",
@@ -718,11 +718,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "Relating to dry heat.",
     meaningVi: "Nhiệt khô.",
     exampleEn: "Some insects thrive in xerothermic habitats.",
-    exampleVi: "Một số loài côn trùng phát triển mạnh trong các môi trường nhiệt khô.",
-    categories: ["General"]
+    exampleVi:
+      "Một số loài côn trùng phát triển mạnh trong các môi trường nhiệt khô.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-x-1",
     word: "Xerox",
     slug: "xerox",
     phonetic: "/ˈzɪr.ɑːks/",
@@ -731,10 +731,9 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Sự photocopy.",
     exampleEn: "He made a Xerox copy of the contract.",
     exampleVi: "Anh ấy đã làm một bản photocopy (Xerox) của hợp đồng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-14",
     word: "Xerox-machine",
     slug: "xerox-machine",
     phonetic: "/ˈzɪr.ɑːks məˈʃiːn/",
@@ -743,10 +742,9 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Máy photocopy.",
     exampleEn: "The Xerox-machine in the office is broken again.",
     exampleVi: "Chiếc máy photocopy ở văn phòng lại bị hỏng rồi.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-12",
     word: "Xeroxed",
     slug: "xeroxed",
     phonetic: "/ˈzɪr.ɑːkst/",
@@ -755,10 +753,9 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Đã photocopy.",
     exampleEn: "She handed out the xeroxed copies of the meeting minutes.",
     exampleVi: "Cô ấy đã phát các bản đã photocopy của biên bản cuộc họp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-13",
     word: "Xeroxing",
     slug: "xeroxing",
     phonetic: "/ˈzɪr.ɑːk.sɪŋ/",
@@ -766,71 +763,75 @@ export const X1: VocabularyWord[] = [
     meaningEn: "Copying with a Xerox machine.",
     meaningVi: "Đang photocopy.",
     exampleEn: "The assistant spent the morning xeroxing the large manuals.",
-    exampleVi: "Trợ lý đã dành cả buổi sáng để đang photocopy những cuốn sổ tay hướng dẫn lớn.",
-    categories: ["General"]
+    exampleVi:
+      "Trợ lý đã dành cả buổi sáng để đang photocopy những cuốn sổ tay hướng dẫn lớn.",
+    categories: ["General"],
   },
   {
-    id: "added-x-15",
     word: "Xi",
     slug: "xi",
     phonetic: "/zaɪ/",
     partOfSpeech: "noun",
     meaningEn: "The 14th letter of the Greek alphabet.",
     meaningVi: "Chữ cái Xi (Hy Lạp).",
-    exampleEn: "The symbol for the letter xi looks distinct from other Greek characters.",
-    exampleVi: "Biểu tượng của chữ cái Xi trông khác biệt so với các ký tự Hy Lạp khác.",
-    categories: ["General"]
+    exampleEn:
+      "The symbol for the letter xi looks distinct from other Greek characters.",
+    exampleVi:
+      "Biểu tượng của chữ cái Xi trông khác biệt so với các ký tự Hy Lạp khác.",
+    categories: ["General"],
   },
   {
-    id: "added-x-9",
     word: "Xiphoid",
     slug: "xiphoid",
     phonetic: "/ˈzɪf.ɔɪd/",
     partOfSpeech: "noun",
     meaningEn: "Sword-shaped.",
     meaningVi: "Hình kiếm (như xương mỏm kiếm).",
-    exampleEn: "The xiphoid anatomy is important for medical students to understand.",
-    exampleVi: "Giải phẫu hình kiếm (như xương mỏm kiếm) là kiến thức quan trọng mà sinh viên y khoa cần hiểu.",
-    categories: ["General"]
+    exampleEn:
+      "The xiphoid anatomy is important for medical students to understand.",
+    exampleVi:
+      "Giải phẫu hình kiếm (như xương mỏm kiếm) là kiến thức quan trọng mà sinh viên y khoa cần hiểu.",
+    categories: ["General"],
   },
   {
-    id: "added-x-44",
     word: "Xiphoid-process",
     slug: "xiphoid-process",
     phonetic: "/ˈzɪf.ɔɪd ˈprɑː.ses/",
     partOfSpeech: "noun",
     meaningEn: "Lower part of the sternum.",
     meaningVi: "Mỏm kiếm xương ức.",
-    exampleEn: "Be careful not to apply too much pressure to the xiphoid-process during CPR.",
-    exampleVi: "Hãy cẩn thận đừng ấn quá mạnh lên mỏm kiếm xương ức trong khi thực hiện CPR.",
-    categories: ["General"]
+    exampleEn:
+      "Be careful not to apply too much pressure to the xiphoid-process during CPR.",
+    exampleVi:
+      "Hãy cẩn thận đừng ấn quá mạnh lên mỏm kiếm xương ức trong khi thực hiện CPR.",
+    categories: ["General"],
   },
   {
-    id: "added-x-26",
     word: "Xiphosura",
     slug: "xiphosura",
     phonetic: "/ˌzɪf.əˈsjʊr.ə/",
     partOfSpeech: "noun",
     meaningEn: "An order of marine arthropods.",
     meaningVi: "Bộ Sam.",
-    exampleEn: "The xiphosura order includes ancient species like the horseshoe crab.",
+    exampleEn:
+      "The xiphosura order includes ancient species like the horseshoe crab.",
     exampleVi: "Bộ Sam bao gồm các loài cổ xưa như con sam biển.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-        id: "gen-x-004",
-        word: "Xylem",
-        slug: "xylem",
-        phonetic: "/ˈzaɪ.ləm/",
-        partOfSpeech: "noun",
-        meaningEn: "The vascular tissue in plants that conducts water and dissolved nutrients upward from the root.",
-        meaningVi: "Mạch gỗ (trong cây).",
-        exampleEn: "Water travels through the xylem.",
-        exampleVi: "Nước di chuyển qua mạch gỗ.",
-        categories: ["Biology", "Science", "Nature"]
-    },
+    id: "gen-x-004",
+    word: "Xylem",
+    slug: "xylem",
+    phonetic: "/ˈzaɪ.ləm/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The vascular tissue in plants that conducts water and dissolved nutrients upward from the root.",
+    meaningVi: "Mạch gỗ (trong cây).",
+    exampleEn: "Water travels through the xylem.",
+    exampleVi: "Nước di chuyển qua mạch gỗ.",
+    categories: ["Biology", "Science", "Nature"],
+  },
   {
-    id: "added-x-45",
     word: "Xylem-vessel",
     slug: "xylem-vessel",
     phonetic: "/ˈzaɪ.ləm ˈves.əl/",
@@ -839,10 +840,9 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Mạch gỗ trong thực vật.",
     exampleEn: "The xylem-vessel conducts water from the roots to the leaves.",
     exampleVi: "Mạch gỗ trong thực vật dẫn nước từ rễ lên lá.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-final-x-7",
     word: "Xylenediamines",
     slug: "xylenediamines",
     phonetic: "/ˌzaɪ.liːnˈdaɪ.ə.miːnz/",
@@ -850,11 +850,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "Chemical compounds.",
     meaningVi: "Các hợp chất xylenediamine.",
     exampleEn: "Xylenediamines are used as precursors in the polymer industry.",
-    exampleVi: "Các hợp chất xylenediamine được sử dụng làm tiền chất trong ngành công nghiệp polyme.",
-    categories: ["General"]
+    exampleVi:
+      "Các hợp chất xylenediamine được sử dụng làm tiền chất trong ngành công nghiệp polyme.",
+    categories: ["General"],
   },
   {
-    id: "added-x-27",
     word: "Xylidine",
     slug: "xylidine",
     phonetic: "/ˈzaɪ.lɪ.diːn/",
@@ -862,11 +862,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "An amino derivative of xylene.",
     meaningVi: "Xylidine.",
     exampleEn: "Xylidine is a toxic chemical used in fuel production.",
-    exampleVi: "Xylidine là một hóa chất độc hại được sử dụng trong sản xuất nhiên liệu.",
-    categories: ["General"]
+    exampleVi:
+      "Xylidine là một hóa chất độc hại được sử dụng trong sản xuất nhiên liệu.",
+    categories: ["General"],
   },
   {
-    id: "added-x-46",
     word: "Xylidine-dye",
     slug: "xylidine-dye",
     phonetic: "/ˈzaɪ.lɪ.diːn daɪ/",
@@ -875,46 +875,48 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Thuốc nhuộm xylidine.",
     exampleEn: "The xylidine-dye provided a deep red color to the fabric.",
     exampleVi: "Thuốc nhuộm xylidine tạo ra màu đỏ sẫm cho thớ vải.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-47",
     word: "Xylite",
     slug: "xylite",
     phonetic: "/ˈzaɪ.laɪt/",
     partOfSpeech: "noun",
     meaningEn: "A substance found in wood.",
     meaningVi: "Chất trong gỗ.",
-    exampleEn: "The concentration of xylite in the sample was measured accurately.",
-    exampleVi: "Nồng độ chất trong gỗ trong mẫu đã được đo lường một cách chính xác.",
-    categories: ["General"]
+    exampleEn:
+      "The concentration of xylite in the sample was measured accurately.",
+    exampleVi:
+      "Nồng độ chất trong gỗ trong mẫu đã được đo lường một cách chính xác.",
+    categories: ["General"],
   },
   {
-        id: "gen-x-005",
-        word: "Xylitol",
-        slug: "xylitol",
-        phonetic: "/ˈzaɪ.lə.tɑːl/",
-        partOfSpeech: "noun",
-        meaningEn: "A sweet-tasting crystalline alcohol used as a sugar substitute.",
-        meaningVi: "Chất tạo ngọt Xylitol.",
-        exampleEn: "Chewing gum with xylitol.",
-        exampleVi: "Kẹo cao su có chứa xylitol.",
-        categories: ["Science", "Food & Drink", "Medical"]
-    },
+    id: "gen-x-005",
+    word: "Xylitol",
+    slug: "xylitol",
+    phonetic: "/ˈzaɪ.lə.tɑːl/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "A sweet-tasting crystalline alcohol used as a sugar substitute.",
+    meaningVi: "Chất tạo ngọt Xylitol.",
+    exampleEn: "Chewing gum with xylitol.",
+    exampleVi: "Kẹo cao su có chứa xylitol.",
+    categories: ["Science", "Food & Drink", "Medical"],
+  },
   {
-    id: "added-x-28",
     word: "Xylitol-sweetener",
     slug: "xylitol-sweetener",
     phonetic: "/ˈzaɪ.lə.tɑːl ˈswiːt.nɚ/",
     partOfSpeech: "noun",
     meaningEn: "A sugar substitute.",
     meaningVi: "Chất làm ngọt xylitol.",
-    exampleEn: "Many dentists recommend using xylitol-sweetener to prevent cavities.",
-    exampleVi: "Nhiều nha sĩ khuyên dùng chất làm ngọt xylitol để ngăn ngừa sâu răng.",
-    categories: ["General"]
+    exampleEn:
+      "Many dentists recommend using xylitol-sweetener to prevent cavities.",
+    exampleVi:
+      "Nhiều nha sĩ khuyên dùng chất làm ngọt xylitol để ngăn ngừa sâu răng.",
+    categories: ["General"],
   },
   {
-    id: "added-x-29",
     word: "Xylocarp",
     slug: "xylocarp",
     phonetic: "/ˈzaɪ.loʊ.kɑːrp/",
@@ -923,10 +925,9 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Quả gỗ.",
     exampleEn: "Coconuts are a type of large xylocarp with a hard shell.",
     exampleVi: "Dừa là một loại quả gỗ lớn với lớp vỏ cứng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-30",
     word: "Xylograph",
     slug: "xylograph",
     phonetic: "/ˈzaɪ.lə.ɡræf/",
@@ -935,10 +936,9 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Bản khắc gỗ.",
     exampleEn: "The museum displays a beautiful 15th-century xylograph.",
     exampleVi: "Bảo tàng trưng bày một bản khắc gỗ tuyệt đẹp từ thế kỷ 15.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-48",
     word: "Xylographic-art",
     slug: "xylographic-art",
     phonetic: "/ˌzaɪ.ləˈɡræf.ɪk ɑːrt/",
@@ -947,10 +947,9 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Nghệ thuật khắc gỗ.",
     exampleEn: "She specialized in the traditional Japanese xylographic-art.",
     exampleVi: "Cô ấy chuyên về nghệ thuật khắc gỗ truyền thống của Nhật Bản.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-final-x-2",
     word: "Xylographical",
     slug: "xylographical",
     phonetic: "/ˌzaɪ.ləˈɡræf.ɪ.kəl/",
@@ -959,34 +958,33 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Thuộc về khắc gỗ.",
     exampleEn: "The book contains several rare xylographical illustrations.",
     exampleVi: "Cuốn sách chứa một số hình minh họa thuộc về khắc gỗ quý hiếm.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-final-x-10",
     word: "Xylographing",
     slug: "xylographing",
     phonetic: "/ˈzaɪ.lə.ɡræf.ɪ.ŋ/",
     partOfSpeech: "noun",
     meaningEn: "Engraving on wood.",
     meaningVi: "Việc đang khắc gỗ.",
-    exampleEn: "The process of xylographing requires great patience and precision.",
+    exampleEn:
+      "The process of xylographing requires great patience and precision.",
     exampleVi: "Việc đang khắc gỗ đòi hỏi sự kiên nhẫn và độ chính xác cao.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-        id: "gen-x-006",
-        word: "Xylography",
-        slug: "xylography",
-        phonetic: "/zaɪˈlɑː.ɡrə.fi/",
-        partOfSpeech: "noun",
-        meaningEn: "The art of engraving on wood.",
-        meaningVi: "Nghệ thuật khắc gỗ.",
-        exampleEn: "Ancient xylography techniques.",
-        exampleVi: "Các kỹ thuật khắc gỗ cổ đại.",
-        categories: ["Art", "History"]
-    },
+    id: "gen-x-006",
+    word: "Xylography",
+    slug: "xylography",
+    phonetic: "/zaɪˈlɑː.ɡrə.fi/",
+    partOfSpeech: "noun",
+    meaningEn: "The art of engraving on wood.",
+    meaningVi: "Nghệ thuật khắc gỗ.",
+    exampleEn: "Ancient xylography techniques.",
+    exampleVi: "Các kỹ thuật khắc gỗ cổ đại.",
+    categories: ["Art", "History"],
+  },
   {
-    id: "added-x-5",
     word: "Xyloid",
     slug: "xyloid",
     phonetic: "/ˈzaɪ.lɔɪd/",
@@ -995,10 +993,9 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Dạng gỗ/Giống gỗ.",
     exampleEn: "The fossilized plant had a distinct xyloid texture.",
     exampleVi: "Loài thực vật hóa thạch có một cấu trúc dạng gỗ rõ rệt.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-49",
     word: "Xylol",
     slug: "xylol",
     phonetic: "/ˈzaɪ.lɑːl/",
@@ -1006,11 +1003,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "A liquid hydrocarbon found in coal tar.",
     meaningVi: "Xylol (Xylen).",
     exampleEn: "Xylol is often used as a solvent in painting products.",
-    exampleVi: "Xylol thường được sử dụng làm dung môi trong các sản phẩm hội họa.",
-    categories: ["General"]
+    exampleVi:
+      "Xylol thường được sử dụng làm dung môi trong các sản phẩm hội họa.",
+    categories: ["General"],
   },
   {
-    id: "added-x-50",
     word: "Xylometer",
     slug: "xylometer",
     phonetic: "/zaɪˈlɑː.mə.t̬ɚ/",
@@ -1018,11 +1015,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "An instrument for calculating the volume of wood.",
     meaningVi: "Dụng cụ đo khối lượng gỗ.",
     exampleEn: "The forester used a xylometer to estimate timber yields.",
-    exampleVi: "Người trồng rừng đã sử dụng dụng cụ đo khối lượng gỗ để ước tính sản lượng gỗ.",
-    categories: ["General"]
+    exampleVi:
+      "Người trồng rừng đã sử dụng dụng cụ đo khối lượng gỗ để ước tính sản lượng gỗ.",
+    categories: ["General"],
   },
   {
-    id: "added-x-31",
     word: "Xylophagous",
     slug: "xylophagous",
     phonetic: "/zaɪˈlɑː.fə.ɡəs/",
@@ -1031,22 +1028,21 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Ăn gỗ.",
     exampleEn: "Termites are well-known examples of xylophagous insects.",
     exampleVi: "Mối là một ví dụ nổi tiếng về các loài côn trùng ăn gỗ.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1888",
     word: "Xylophone",
     slug: "xylophone",
     phonetic: "/ˈzaɪ.lə.foʊn/",
     partOfSpeech: "noun",
-    meaningEn: "A musical instrument with wooden bars that you hit with small hammers.",
+    meaningEn:
+      "A musical instrument with wooden bars that you hit with small hammers.",
     meaningVi: "Mộc cầm (nhạc cụ).",
     exampleEn: "Play the xylophone.",
     exampleVi: "Chơi đàn mộc cầm.",
-    categories: ["Music","Art"],
+    categories: ["Music", "Art"],
   },
   {
-    id: "added-x-32",
     word: "Xylophone-player",
     slug: "xylophone-player",
     phonetic: "/ˈzaɪ.lə.foʊn ˈpleɪ.ɚ/",
@@ -1054,11 +1050,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "A person playing music on a xylophone.",
     meaningVi: "Người chơi mộc cầm.",
     exampleEn: "The xylophone-player hit the bars with incredible speed.",
-    exampleVi: "Người chơi mộc cầm gõ vào các thanh gỗ với tốc độ đáng kinh ngạc.",
-    categories: ["General"]
+    exampleVi:
+      "Người chơi mộc cầm gõ vào các thanh gỗ với tốc độ đáng kinh ngạc.",
+    categories: ["General"],
   },
   {
-    id: "added-x-16",
     word: "Xylophonist",
     slug: "xylophonist",
     phonetic: "/ˈzaɪ.lə.foʊ.nɪst/",
@@ -1066,35 +1062,37 @@ export const X1: VocabularyWord[] = [
     meaningEn: "A person who plays the xylophone.",
     meaningVi: "Người chơi đàn mộc cầm.",
     exampleEn: "The professional xylophonist joined the orchestra this year.",
-    exampleVi: "Người chơi đàn mộc cầm chuyên nghiệp đã gia nhập dàn nhạc vào năm nay.",
-    categories: ["General"]
+    exampleVi:
+      "Người chơi đàn mộc cầm chuyên nghiệp đã gia nhập dàn nhạc vào năm nay.",
+    categories: ["General"],
   },
   {
-    id: "added-final-x-3",
     word: "Xylophonists",
     slug: "xylophonists",
     phonetic: "/ˈzaɪ.lə.foʊ.nɪsts/",
     partOfSpeech: "noun",
     meaningEn: "Plural of xylophonist.",
     meaningVi: "Những người chơi mộc cầm.",
-    exampleEn: "The gathering featured several talented xylophonists from around the world.",
-    exampleVi: "Buổi họp mặt có sự góp mặt của nhiều người chơi mộc cầm tài năng từ khắp nơi trên thế giới.",
-    categories: ["General"]
+    exampleEn:
+      "The gathering featured several talented xylophonists from around the world.",
+    exampleVi:
+      "Buổi họp mặt có sự góp mặt của nhiều người chơi mộc cầm tài năng từ khắp nơi trên thế giới.",
+    categories: ["General"],
   },
   {
-    id: "added-x-51",
     word: "Xyloplastic",
     slug: "xyloplastic",
     phonetic: "/ˌzaɪ.loʊˈplæs.tɪk/",
     partOfSpeech: "noun",
     meaningEn: "Relating to wood carving.",
     meaningVi: "Nghệ thuật khắc gỗ nhựa.",
-    exampleEn: "Ancient artisans were skilled in the delicate xyloplastic process.",
-    exampleVi: "Các nghệ nhân cổ đại rất thành thạo trong nghệ thuật khắc gỗ nhựa tinh xảo.",
-    categories: ["General"]
+    exampleEn:
+      "Ancient artisans were skilled in the delicate xyloplastic process.",
+    exampleVi:
+      "Các nghệ nhân cổ đại rất thành thạo trong nghệ thuật khắc gỗ nhựa tinh xảo.",
+    categories: ["General"],
   },
   {
-    id: "added-x-52",
     word: "Xylopyranose",
     slug: "xylopyranose",
     phonetic: "/ˌzaɪ.loʊˈpaɪ.rə.noʊs/",
@@ -1102,11 +1100,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "A pyranose form of xylose.",
     meaningVi: "Dạng pyranose của xylose.",
     exampleEn: "The structure of xylopyranose was analyzed using spectroscopy.",
-    exampleVi: "Cấu trúc của dạng pyranose của xylose đã được phân tích bằng phương pháp phổ học.",
-    categories: ["General"]
+    exampleVi:
+      "Cấu trúc của dạng pyranose của xylose đã được phân tích bằng phương pháp phổ học.",
+    categories: ["General"],
   },
   {
-    id: "added-x-53",
     word: "Xylorimba",
     slug: "xylorimba",
     phonetic: "/ˌzaɪ.ləˈrɪm.bə/",
@@ -1115,10 +1113,9 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Đàn Xylorimba.",
     exampleEn: "The musician played a complex melody on the xylorimba.",
     exampleVi: "Nhạc sĩ đã chơi một giai điệu phức tạp trên đàn Xylorimba.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-19",
     word: "Xylose",
     slug: "xylose",
     phonetic: "/ˈzaɪ.loʊs/",
@@ -1127,46 +1124,47 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Đường xylose.",
     exampleEn: "Xylose is commonly known as wood sugar.",
     exampleVi: "Đường xylose thường được gọi là đường gỗ.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-54",
     word: "Xylostroma",
     slug: "xylostroma",
     phonetic: "/ˌzaɪ.ləˈstroʊ.mə/",
     partOfSpeech: "noun",
     meaningEn: "A type of fungus found in wood.",
     meaningVi: "Nấm gỗ.",
-    exampleEn: "The xylostroma fungus can damage the structural integrity of timber.",
+    exampleEn:
+      "The xylostroma fungus can damage the structural integrity of timber.",
     exampleVi: "Nấm gỗ có thể làm hỏng tính nguyên vẹn về cấu trúc của gỗ xẻ.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-10",
     word: "Xylotomous",
     slug: "xylotomous",
     phonetic: "/zaɪˈlɑː.t̬ə.məs/",
     partOfSpeech: "noun",
     meaningEn: "Capable of boring into or cutting wood.",
     meaningVi: "Có khả năng đục gỗ/Cắt gỗ.",
-    exampleEn: "Xylotomous beetles can cause significant damage to wooden structures.",
-    exampleVi: "Những loài bọ có khả năng đục gỗ có thể gây ra thiệt hại đáng kể cho các cấu trúc bằng gỗ.",
-    categories: ["General"]
+    exampleEn:
+      "Xylotomous beetles can cause significant damage to wooden structures.",
+    exampleVi:
+      "Những loài bọ có khả năng đục gỗ có thể gây ra thiệt hại đáng kể cho các cấu trúc bằng gỗ.",
+    categories: ["General"],
   },
   {
-    id: "added-x-55",
     word: "Xylotomy",
     slug: "xylotomy",
     phonetic: "/zaɪˈlɑː.t̬ə.mi/",
     partOfSpeech: "noun",
     meaningEn: "The microscopic study of wood.",
     meaningVi: "Phép giải cấu gỗ.",
-    exampleEn: "Xylotomy allows researchers to identify different types of ancient wood.",
-    exampleVi: "Phép giải cấu gỗ cho phép các nhà nghiên cứu xác định các loại gỗ cổ đại khác nhau.",
-    categories: ["General"]
+    exampleEn:
+      "Xylotomy allows researchers to identify different types of ancient wood.",
+    exampleVi:
+      "Phép giải cấu gỗ cho phép các nhà nghiên cứu xác định các loại gỗ cổ đại khác nhau.",
+    categories: ["General"],
   },
   {
-    id: "added-x-17",
     word: "Xylyl",
     slug: "xylyl",
     phonetic: "/ˈzaɪ.lɪl/",
@@ -1175,10 +1173,9 @@ export const X1: VocabularyWord[] = [
     meaningVi: "Gốc Xylyl.",
     exampleEn: "The xylyl group is found in several industrial chemicals.",
     exampleVi: "Gốc Xylyl được tìm thấy trong một số hóa chất công nghiệp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-x-56",
     word: "Xyrid",
     slug: "xyrid",
     phonetic: "/ˈzaɪ.rɪd/",
@@ -1186,11 +1183,11 @@ export const X1: VocabularyWord[] = [
     meaningEn: "A plant of the genus Xyris.",
     meaningVi: "Cây thuộc chi Xyris.",
     exampleEn: "The wetland was covered in bright yellow xyrid flowers.",
-    exampleVi: "Vùng đất ngập nước được bao phủ bởi những bông hoa thuộc chi Xyris màu vàng tươi.",
-    categories: ["General"]
+    exampleVi:
+      "Vùng đất ngập nước được bao phủ bởi những bông hoa thuộc chi Xyris màu vàng tươi.",
+    categories: ["General"],
   },
   {
-    id: "added-x-18",
     word: "Xystus",
     slug: "xystus",
     phonetic: "/ˈzɪs.təs/",
@@ -1198,7 +1195,8 @@ export const X1: VocabularyWord[] = [
     meaningEn: "A covered portico or garden walk.",
     meaningVi: "Hàng hiên/Đường đi có mái che.",
     exampleEn: "The ancient villa featured a long, marble-lined xystus.",
-    exampleVi: "Căn biệt thự cổ có một hàng hiên (đường đi có mái che) dài lót bằng đá cẩm thạch.",
-    categories: ["General"]
-  }
+    exampleVi:
+      "Căn biệt thự cổ có một hàng hiên (đường đi có mái che) dài lót bằng đá cẩm thạch.",
+    categories: ["General"],
+  },
 ];

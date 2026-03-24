@@ -2,19 +2,20 @@ import { VocabularyWord } from "../../types";
 
 export const H1: VocabularyWord[] = [
   {
-    id: "added-h-1",
     word: "Habeas corpus",
     slug: "habeas-corpus",
     phonetic: "/ˌheɪ.bi.əs ˈkɔːr.pəs/",
     partOfSpeech: "noun",
-    meaningEn: "A writ requiring a person under arrest to be brought before a judge or into court.",
+    meaningEn:
+      "A writ requiring a person under arrest to be brought before a judge or into court.",
     meaningVi: "Lệnh đình chỉ giam giữ trái phép.",
-    exampleEn: "The right of habeas corpus protects citizens against unlawful imprisonment.",
-    exampleVi: "Quyền bảo thân bảo vệ công dân chống lại việc giam giữ trái pháp luật.",
-    categories: ["General"]
+    exampleEn:
+      "The right of habeas corpus protects citizens against unlawful imprisonment.",
+    exampleVi:
+      "Quyền bảo thân bảo vệ công dân chống lại việc giam giữ trái pháp luật.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-1",
     word: "Habit",
     slug: "habit",
     phonetic: "/ˈhæb.ɪt/",
@@ -23,10 +24,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Thói quen.",
     exampleEn: "Breaking a bad habit takes time and discipline.",
     exampleVi: "Phá bỏ một thói quen xấu cần có thời gian và kỷ luật.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-3",
     word: "Habitable",
     slug: "habitable",
     phonetic: "/ˈhæb.ə.t̬ə.bəl/",
@@ -35,10 +35,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Có thể ở được.",
     exampleEn: "The apartment needs repairs before it is habitable.",
     exampleVi: "Căn hộ cần sửa chữa trước khi có thể ở được.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-2",
     word: "Habitat",
     slug: "habitat",
     phonetic: "/ˈhæb.ə.tæt/",
@@ -46,11 +45,11 @@ export const H1: VocabularyWord[] = [
     meaningEn: "The natural home or environment of an organism.",
     meaningVi: "Môi trường sống.",
     exampleEn: "The rainforest is the natural habitat of many animals.",
-    exampleVi: "Rừng nhiệt đới là môi trường sống tự nhiên của nhiều loài động vật.",
-    categories: ["General"]
+    exampleVi:
+      "Rừng nhiệt đới là môi trường sống tự nhiên của nhiều loài động vật.",
+    categories: ["General"],
   },
   {
-    id: "added-h-3",
     word: "Habitation",
     slug: "habitation",
     phonetic: "/ˌhæb.əˈteɪ.ʃən/",
@@ -59,10 +58,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Sự cư trú.",
     exampleEn: "The island has no permanent human habitation.",
     exampleVi: "Hòn đảo này không có sự cư trú lâu dài của con người.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-4",
     word: "Habitual",
     slug: "habitual",
     phonetic: "/həˈbɪtʃ.u.əl/",
@@ -70,11 +68,11 @@ export const H1: VocabularyWord[] = [
     meaningEn: "Done or doing constantly or as a habit.",
     meaningVi: "Quen thuộc/Thường xuyên.",
     exampleEn: "He is a habitual liar who cannot be trusted.",
-    exampleVi: "Anh ta là một kẻ nói dối thường xuyên, không thể tin tưởng được.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ta là một kẻ nói dối thường xuyên, không thể tin tưởng được.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-5",
     word: "Hack",
     slug: "hack",
     phonetic: "/hæk/",
@@ -83,34 +81,34 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Chặt/Chém/Truy cập trái phép.",
     exampleEn: "It is illegal to hack into private computer networks.",
     exampleVi: "Truy cập trái phép vào mạng máy tính cá nhân là phạm pháp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-6",
     word: "Hacker",
     slug: "hacker",
     phonetic: "/ˈhæk.ɚ/",
     partOfSpeech: "noun",
-    meaningEn: "A person who uses computers to gain unauthorized access to data.",
+    meaningEn:
+      "A person who uses computers to gain unauthorized access to data.",
     meaningVi: "Tin tặc.",
     exampleEn: "The hacker stole passwords from the database.",
     exampleVi: "Tin tặc đã lấy cắp mật khẩu từ cơ sở dữ liệu.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-h-7",
     word: "Hackneyed",
     slug: "hackneyed",
     phonetic: "/ˈhæk.nid/",
     partOfSpeech: "noun",
-    meaningEn: "(of a phrase or idea) lacking significance through having been overused; unoriginal and trite.",
+    meaningEn:
+      "(of a phrase or idea) lacking significance through having been overused; unoriginal and trite.",
     meaningVi: "Nhàm chán/Cũ rích.",
     exampleEn: "The plot of the movie was filled with hackneyed clichés.",
-    exampleVi: "Cốt truyện của bộ phim tràn ngập những lời lẽ sáo rỗng (nhàm chán).",
-    categories: ["General"]
+    exampleVi:
+      "Cốt truyện của bộ phim tràn ngập những lời lẽ sáo rỗng (nhàm chán).",
+    categories: ["General"],
   },
   {
-    id: "added-h-8",
     word: "Haddock",
     slug: "haddock",
     phonetic: "/ˈhæd.ək/",
@@ -119,10 +117,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Cá tuyết chấm đen.",
     exampleEn: "We had fresh haddock and chips for dinner.",
     exampleVi: "Chúng tôi đã ăn cá tuyết chấm đen chiên khoai tây cho bữa tối.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-h-9",
     word: "Haemorrhage",
     slug: "haemorrhage",
     phonetic: "/ˈhem.ər.ɪdʒ/",
@@ -131,10 +128,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Sự xuất huyết.",
     exampleEn: "The patient suffered a severe cerebral haemorrhage.",
     exampleVi: "Bệnh nhân đã bị xuất huyết não nghiêm trọng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-h-10",
     word: "Haft",
     slug: "haft",
     phonetic: "/hæft/",
@@ -143,34 +139,34 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Cán (dao/rìu).",
     exampleEn: "The axe has a sturdy wooden haft.",
     exampleVi: "Cái rìu có một cái cán bằng gỗ chắc chắn.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-h-11",
     word: "Haggard",
     slug: "haggard",
     phonetic: "/ˈhæɡ.ɚd/",
     partOfSpeech: "noun",
-    meaningEn: "Looking exhausted and unwell, especially from fatigue, worry, or suffering.",
+    meaningEn:
+      "Looking exhausted and unwell, especially from fatigue, worry, or suffering.",
     meaningVi: "Hốc hác/Tiều tụy.",
     exampleEn: "He looked haggard and tired after the long journey.",
     exampleVi: "Anh ấy trông hốc hác và mệt mỏi sau cuộc hành trình dài.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-h-12",
     word: "Haggle",
     slug: "haggle",
     phonetic: "/ˈhæɡ.əl/",
     partOfSpeech: "noun",
-    meaningEn: "Dispute or bargain persistently, especially over the cost of something.",
+    meaningEn:
+      "Dispute or bargain persistently, especially over the cost of something.",
     meaningVi: "Mặc cả.",
     exampleEn: "It's common to haggle over prices in traditional markets.",
-    exampleVi: "Việc mặc cả giá cả ở các khu chợ truyền thống là điều phổ biến.",
-    categories: ["General"]
+    exampleVi:
+      "Việc mặc cả giá cả ở các khu chợ truyền thống là điều phổ biến.",
+    categories: ["General"],
   },
   {
-    id: "added-h-13",
     word: "Hagiography",
     slug: "hagiography",
     phonetic: "/ˌhæɡ.pˈɑː.ɡrə.fi/",
@@ -178,23 +174,24 @@ export const H1: VocabularyWord[] = [
     meaningEn: "The writing of the lives of saints.",
     meaningVi: "Tiểu sử các thánh.",
     exampleEn: "The book was more of a hagiography than a critical biography.",
-    exampleVi: "Cuốn sách mang tính chất ca tụng các thánh hơn là một cuốn tiểu sử phê bình.",
-    categories: ["General"]
+    exampleVi:
+      "Cuốn sách mang tính chất ca tụng các thánh hơn là một cuốn tiểu sử phê bình.",
+    categories: ["General"],
   },
   {
-    id: "added-h-14",
     word: "Hail",
     slug: "hail",
     phonetic: "/heɪl/",
     partOfSpeech: "noun",
-    meaningEn: "Pellets of frozen rain; call out to someone to attract attention.",
+    meaningEn:
+      "Pellets of frozen rain; call out to someone to attract attention.",
     meaningVi: "Mưa đá; hoan hô/gọi.",
     exampleEn: "Hailstones the size of golf balls damaged the cars.",
-    exampleVi: "Những viên mưa đá to bằng quả bóng golf đã làm hỏng những chiếc xe hơi.",
-    categories: ["General"]
+    exampleVi:
+      "Những viên mưa đá to bằng quả bóng golf đã làm hỏng những chiếc xe hơi.",
+    categories: ["General"],
   },
   {
-    id: "added-h-15",
     word: "Hairbrush",
     slug: "hairbrush",
     phonetic: "/ˈher.brʌʃ/",
@@ -203,10 +200,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Bàn chải tóc.",
     exampleEn: "She used a hairbrush to smooth out the tangles.",
     exampleVi: "Cô ấy đã dùng bàn chải tóc để gỡ những chỗ tóc rối.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-h-16",
     word: "Haircut",
     slug: "haircut",
     phonetic: "/ˈher.kʌt/",
@@ -215,10 +211,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Cắt tóc.",
     exampleEn: "He went to the barber to get a stylish haircut.",
     exampleVi: "Anh ấy đã đến tiệm cắt tóc để có một kiểu tóc thời thượng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "job-048",
     word: "Hairdresser",
     slug: "hairdresser",
     phonetic: "/ˈheərˌdres.ər/",
@@ -227,10 +222,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Thợ làm tóc.",
     exampleEn: "The hairdresser gave me a new style.",
     exampleVi: "Thợ làm tóc đã tạo cho tôi kiểu mới.",
-    categories: ["Jobs","Beauty"],
+    categories: ["Jobs", "Beauty"],
   },
   {
-    id: "added-h-18",
     word: "Hairless",
     slug: "hairless",
     phonetic: "/ˈher.ləs/",
@@ -239,10 +233,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Không có tóc/Không có lông.",
     exampleEn: "Some breeds of dogs are naturally hairless.",
     exampleVi: "Một số giống chó vốn dĩ không có lông.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-h-19",
     word: "Hairline",
     slug: "hairline",
     phonetic: "/ˈher.laɪn/",
@@ -250,11 +243,11 @@ export const H1: VocabularyWord[] = [
     meaningEn: "The edge of a person's hair.",
     meaningVi: "Đường chân tóc.",
     exampleEn: "He noticed that his hairline was beginning to recede.",
-    exampleVi: "Anh ấy nhận thấy rằng đường chân tóc của mình đang bắt đầu lùi xa.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ấy nhận thấy rằng đường chân tóc của mình đang bắt đầu lùi xa.",
+    categories: ["General"],
   },
   {
-    id: "added-h-20",
     word: "Hairpin",
     slug: "hairpin",
     phonetic: "/ˈher.pɪn/",
@@ -262,23 +255,23 @@ export const H1: VocabularyWord[] = [
     meaningEn: "A pin used to fasten a person's hair.",
     meaningVi: "Ghim cài tóc.",
     exampleEn: "The road followed a series of dangerous hairpin turns.",
-    exampleVi: "Con đường đi theo một loạt các khúc cua hình cái ghim tóc nguy hiểm.",
-    categories: ["General"]
+    exampleVi:
+      "Con đường đi theo một loạt các khúc cua hình cái ghim tóc nguy hiểm.",
+    categories: ["General"],
   },
   {
-    id: "added-h-21",
     word: "Hairraising",
     slug: "hairraising",
     phonetic: "/ˈherˌreɪ.zɪŋ/",
     partOfSpeech: "noun",
     meaningEn: "Extremely alarming.",
     meaningVi: "Dựng tóc gáy.",
-    exampleEn: "It was a hair-raising experience to drive along the cliff edge.",
+    exampleEn:
+      "It was a hair-raising experience to drive along the cliff edge.",
     exampleVi: "Đó là một trải nghiệm rùng rợn khi lái xe dọc theo mép vực.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-h-22",
     word: "Hairsplit",
     slug: "hairsplit",
     phonetic: "/ˈher.splɪt/",
@@ -286,11 +279,11 @@ export const H1: VocabularyWord[] = [
     meaningEn: "Make small or trivial distinctions.",
     meaningVi: "Chẻ sợi tóc làm tư (bắt bẻ nhỏ mọn).",
     exampleEn: "Don't hairsplt over minor details that don't matter.",
-    exampleVi: "Đừng chẻ sợi tóc (bới lông tìm vết) về những chi tiết nhỏ không quan trọng.",
-    categories: ["General"]
+    exampleVi:
+      "Đừng chẻ sợi tóc (bới lông tìm vết) về những chi tiết nhỏ không quan trọng.",
+    categories: ["General"],
   },
   {
-    id: "added-h-23",
     word: "Hairspray",
     slug: "hairspray",
     phonetic: "/ˈher.spreɪ/",
@@ -299,10 +292,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Keo xịt tóc.",
     exampleEn: "She used hairspray to keep her hairstyle in place.",
     exampleVi: "Cô ấy đã dùng keo xịt tóc để giữ nếp tóc.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-h-24",
     word: "Hairstylist",
     slug: "hairstylist",
     phonetic: "/ˈherˌstaɪ.lɪst/",
@@ -310,11 +302,11 @@ export const H1: VocabularyWord[] = [
     meaningEn: "A person who styles hair Professionally.",
     meaningVi: "Nhà tạo mẫu tóc.",
     exampleEn: "A talented hairstylist can transform your appearance.",
-    exampleVi: "Một nhà tạo mẫu tóc tài năng có thể làm thay đổi diện mạo của bạn.",
-    categories: ["General"]
+    exampleVi:
+      "Một nhà tạo mẫu tóc tài năng có thể làm thay đổi diện mạo của bạn.",
+    categories: ["General"],
   },
   {
-    id: "added-h-25",
     word: "Hairy",
     slug: "hairy",
     phonetic: "/ˈher.i/",
@@ -323,34 +315,34 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Nhiều lông/Nhiều tóc.",
     exampleEn: "The mountain trail was a bit hairy in the dark.",
     exampleVi: "Con đường mòn trên núi hơi đáng sợ (nguy hiểm) trong bóng tối.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-h-26",
     word: "Halal",
     slug: "halal",
     phonetic: "/həˈlɑːl/",
     partOfSpeech: "noun",
-    meaningEn: "Denoting or relating to meat prepared as prescribed by Muslim law.",
+    meaningEn:
+      "Denoting or relating to meat prepared as prescribed by Muslim law.",
     meaningVi: "Thịt theo luật Hồi giáo (Halal).",
     exampleEn: "The restaurant serves only halal meat.",
     exampleVi: "Nhà hàng chỉ phục vụ thịt halal (theo luật Hồi giáo).",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-h-27",
     word: "Halcyon",
     slug: "halcyon",
     phonetic: "/ˈhæl.si.ən/",
     partOfSpeech: "noun",
-    meaningEn: "Denoting a period of time in the past that was idyllically happy and peaceful.",
+    meaningEn:
+      "Denoting a period of time in the past that was idyllically happy and peaceful.",
     meaningVi: "Thanh bình/Êm đềm.",
     exampleEn: "She recalled the halcyon days of her youth.",
-    exampleVi: "Cô ấy nhớ lại những ngày tháng êm đềm (hạnh phúc) thời tuổi trẻ.",
-    categories: ["General"]
+    exampleVi:
+      "Cô ấy nhớ lại những ngày tháng êm đềm (hạnh phúc) thời tuổi trẻ.",
+    categories: ["General"],
   },
   {
-    id: "added-h-28",
     word: "Hale",
     slug: "hale",
     phonetic: "/heɪl/",
@@ -359,10 +351,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Khỏe mạnh/Tráng kiện.",
     exampleEn: "The eighty-year-old man was still hale and hearty.",
     exampleVi: "Ông cụ tám mươi tuổi vẫn còn khỏe mạnh và vui vẻ.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-h-29",
     word: "Half-and-half",
     slug: "half-and-half",
     phonetic: "/ˌhæf.əndˈhæf/",
@@ -370,11 +361,11 @@ export const H1: VocabularyWord[] = [
     meaningEn: "In equal parts.",
     meaningVi: "Nửa nọ nửa kia.",
     exampleEn: "He prefers to use half-and-half in his coffee.",
-    exampleVi: "Anh ấy thích dùng hỗn hợp sữa và kem (half-and-half) trong cà phê của mình.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ấy thích dùng hỗn hợp sữa và kem (half-and-half) trong cà phê của mình.",
+    categories: ["General"],
   },
   {
-    id: "added-h-30",
     word: "Half-back",
     slug: "half-back",
     phonetic: "/ˈhæf.bæk/",
@@ -382,11 +373,11 @@ export const H1: VocabularyWord[] = [
     meaningEn: "A player position in some sports.",
     meaningVi: "Hậu vệ.",
     exampleEn: "The half-back made a crucial pass during the game.",
-    exampleVi: "Cầu thủ hậu vệ cánh đã có một đường chuyền quyết định trong trận đấu.",
-    categories: ["General"]
+    exampleVi:
+      "Cầu thủ hậu vệ cánh đã có một đường chuyền quyết định trong trận đấu.",
+    categories: ["General"],
   },
   {
-    id: "added-h-31",
     word: "Half-baked",
     slug: "half-baked",
     phonetic: "/ˌhæfˈbeɪkt/",
@@ -394,23 +385,24 @@ export const H1: VocabularyWord[] = [
     meaningEn: "Not fully thought through.",
     meaningVi: "Non nớt/Chưa chín chắn.",
     exampleEn: "The company rejected his half-baked business proposal.",
-    exampleVi: "Công ty đã bác bỏ đề xuất kinh doanh chưa được tính toán kỹ (nửa vời) của anh ta.",
-    categories: ["General"]
+    exampleVi:
+      "Công ty đã bác bỏ đề xuất kinh doanh chưa được tính toán kỹ (nửa vời) của anh ta.",
+    categories: ["General"],
   },
   {
-    id: "added-h-32",
     word: "Half-brother",
     slug: "half-brother",
     phonetic: "/ˈhæfˌbrʌð.ɚ/",
     partOfSpeech: "noun",
     meaningEn: "A brother with whom one has only one parent in common.",
     meaningVi: "Anh em cùng cha khác mẹ/Cùng mẹ khác cha.",
-    exampleEn: "They share the same father but have different mothers, so he is his half-brother.",
-    exampleVi: "Họ có chung cha nhưng khác mẹ, vì vậy anh ấy là anh em cùng cha khác mẹ của cậu.",
-    categories: ["General"]
+    exampleEn:
+      "They share the same father but have different mothers, so he is his half-brother.",
+    exampleVi:
+      "Họ có chung cha nhưng khác mẹ, vì vậy anh ấy là anh em cùng cha khác mẹ của cậu.",
+    categories: ["General"],
   },
   {
-    id: "added-h-33",
     word: "Half-caste",
     slug: "half-caste",
     phonetic: "/ˈhæf.kæst/",
@@ -418,11 +410,11 @@ export const H1: VocabularyWord[] = [
     meaningEn: "A person of mixed race.",
     meaningVi: "Người lai.",
     exampleEn: "The term half-caste is now considered offensive.",
-    exampleVi: "Thuật ngữ người lai (half-caste) hiện nay được coi là một từ xúc phạm.",
-    categories: ["General"]
+    exampleVi:
+      "Thuật ngữ người lai (half-caste) hiện nay được coi là một từ xúc phạm.",
+    categories: ["General"],
   },
   {
-    id: "added-h-34",
     word: "Half-hearted",
     slug: "half-hearted",
     phonetic: "/ˌhæfˈhɑːr.t̬ɪd/",
@@ -430,23 +422,23 @@ export const H1: VocabularyWord[] = [
     meaningEn: "Without enthusiasm or energy.",
     meaningVi: "Nửa vời/Không nhiệt tình.",
     exampleEn: "He made a half-hearted attempt to clear the mess.",
-    exampleVi: "Anh ấy đã có một nỗ lực nửa vời (không nhiệt tình) để dọn dẹp đống lộn xộn.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ấy đã có một nỗ lực nửa vời (không nhiệt tình) để dọn dẹp đống lộn xộn.",
+    categories: ["General"],
   },
   {
-    id: "added-h-35",
     word: "Half-life",
     slug: "half-life",
     phonetic: "/ˈhæf.laɪf/",
     partOfSpeech: "noun",
-    meaningEn: "The time taken for the radioactivity of a specified isotope to fall to half its original value.",
+    meaningEn:
+      "The time taken for the radioactivity of a specified isotope to fall to half its original value.",
     meaningVi: "Chu kỳ bán rã.",
     exampleEn: "The radioisotope has a half-life of several days.",
     exampleVi: "Đồng vị phóng xạ có chu kỳ bán rã vài ngày.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-h-36",
     word: "Half-mast",
     slug: "half-mast",
     phonetic: "/ˌhæfˈmæst/",
@@ -454,23 +446,23 @@ export const H1: VocabularyWord[] = [
     meaningEn: "The position of a flag halfway down its staff.",
     meaningVi: "Treo cờ rủ.",
     exampleEn: "Flags were flown at half-mast to honor the late leader.",
-    exampleVi: "Lá cờ được treo rủ (treo nửa cột cờ) để vinh danh nhà lãnh đạo quá cố.",
-    categories: ["General"]
+    exampleVi:
+      "Lá cờ được treo rủ (treo nửa cột cờ) để vinh danh nhà lãnh đạo quá cố.",
+    categories: ["General"],
   },
   {
-    id: "added-h-37",
     word: "Half-moon",
     slug: "half-moon",
     phonetic: "/ˌhæfˈmuːn/",
     partOfSpeech: "noun",
-    meaningEn: "The moon at any time when less than half its face is illuminated.",
+    meaningEn:
+      "The moon at any time when less than half its face is illuminated.",
     meaningVi: "Nửa vầng trăng.",
     exampleEn: "The beach follows a perfect half-moon curve.",
     exampleVi: "Bãi biển uốn theo một đường cong hình trăng khuyết hoàn hảo.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-h-38",
     word: "Half-sister",
     slug: "half-sister",
     phonetic: "/ˈhæfˌsɪs.tɚ/",
@@ -478,11 +470,11 @@ export const H1: VocabularyWord[] = [
     meaningEn: "A sister with whom one has only one parent in common.",
     meaningVi: "Chị em cùng cha khác mẹ.",
     exampleEn: "She is my half-sister from my mother's second marriage.",
-    exampleVi: "Cô ấy là chị em cùng mẹ khác cha từ cuộc hôn nhân thứ hai của mẹ tôi.",
-    categories: ["General"]
+    exampleVi:
+      "Cô ấy là chị em cùng mẹ khác cha từ cuộc hôn nhân thứ hai của mẹ tôi.",
+    categories: ["General"],
   },
   {
-    id: "added-h-39",
     word: "Half-truth",
     slug: "half-truth",
     phonetic: "/ˈhæf.truːθ/",
@@ -490,11 +482,11 @@ export const H1: VocabularyWord[] = [
     meaningEn: "A statement that conveys only part of the truth.",
     meaningVi: "Lời nói dối một nửa.",
     exampleEn: "A half-truth can be more dangerous than a direct lie.",
-    exampleVi: "Một sự thật nửa vời có thể nguy hiểm hơn một lời nói dối trực tiếp.",
-    categories: ["General"]
+    exampleVi:
+      "Một sự thật nửa vời có thể nguy hiểm hơn một lời nói dối trực tiếp.",
+    categories: ["General"],
   },
   {
-    id: "added-h-41",
     word: "Half-wit",
     slug: "half-wit",
     phonetic: "/ˈhæf.wɪt/",
@@ -503,10 +495,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Kẻ đần độn.",
     exampleEn: "Don't be such a half-wit; use your brain.",
     exampleVi: "Đừng có khờ khạo (ngốc nghếch) thế chứ; hãy dùng não đi.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-h-40",
     word: "Halfway",
     slug: "halfway",
     phonetic: "/ˌhæfˈweɪ/",
@@ -515,10 +506,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Nửa đường.",
     exampleEn: "We are halfway through the project.",
     exampleVi: "Chúng tôi đã đi được nửa chặng đường của dự án.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-h-42",
     word: "Hall",
     slug: "hall",
     phonetic: "/hɑːl/",
@@ -527,10 +517,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Hành lang/Hội trường.",
     exampleEn: "The town hall is the center of local government.",
     exampleVi: "Tòa thị chính là trung tâm của chính quyền địa phương.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-h-43",
     word: "Hallelujah",
     slug: "hallelujah",
     phonetic: "/ˌhæl.əˈluː.jə/",
@@ -539,10 +528,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Alêluia (ca ngợi Chúa).",
     exampleEn: "The choir sang a powerful hallelujah chorus.",
     exampleVi: "Dàn đồng ca đã hát một bản đồng ca hallelujah đầy nội lực.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-7",
     word: "Hallmark",
     slug: "hallmark",
     phonetic: "/ˈhɑːl.mɑːrk/",
@@ -550,11 +538,11 @@ export const H1: VocabularyWord[] = [
     meaningEn: "A distinctive feature.",
     meaningVi: "Dấu hiệu nhận biết.",
     exampleEn: "Attention to detail is the hallmark of a great artist.",
-    exampleVi: "Sự chú ý đến chi tiết là dấu hiệu nhận biết của một nghệ sĩ lớn.",
-    categories: ["General"]
+    exampleVi:
+      "Sự chú ý đến chi tiết là dấu hiệu nhận biết của một nghệ sĩ lớn.",
+    categories: ["General"],
   },
   {
-    id: "added-h-1",
     word: "Hallow",
     slug: "hallow",
     phonetic: "/ˈhæl.oʊ/",
@@ -562,23 +550,23 @@ export const H1: VocabularyWord[] = [
     meaningEn: "Honor as holy.",
     meaningVi: "Tôn kính/Thánh hóa.",
     exampleEn: "The site was built to hallow the memory of the fallen.",
-    exampleVi: "Địa điểm này được xây dựng để tôn nghiêm hóa ký ức về những người đã ngã xuống.",
-    categories: ["General"]
+    exampleVi:
+      "Địa điểm này được xây dựng để tôn nghiêm hóa ký ức về những người đã ngã xuống.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-8",
     word: "Hallucination",
     slug: "hallucination",
     phonetic: "/həˌluː.səˈneɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn: "An experience involving the perception of something not present.",
+    meaningEn:
+      "An experience involving the perception of something not present.",
     meaningVi: "Ảo giác.",
     exampleEn: "High fever can lead to vivid hallucinations.",
     exampleVi: "Sốt cao có thể dẫn đến những ảo giác sống động.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-9",
     word: "Halt",
     slug: "halt",
     phonetic: "/hɑːlt/",
@@ -587,10 +575,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Tạm dừng.",
     exampleEn: "Construction was forced to halt due to the rain.",
     exampleVi: "Việc xây dựng đã buộc phải tạm dừng do mưa.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-10",
     word: "Halve",
     slug: "halve",
     phonetic: "/hæv/",
@@ -598,11 +585,11 @@ export const H1: VocabularyWord[] = [
     meaningEn: "Divide into two equal parts.",
     meaningVi: "Chia đôi.",
     exampleEn: "We had to halve the recipe because there were only two of us.",
-    exampleVi: "Chúng tôi đã phải chia đôi công thức vì chỉ có hai người chúng tôi.",
-    categories: ["General"]
+    exampleVi:
+      "Chúng tôi đã phải chia đôi công thức vì chỉ có hai người chúng tôi.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-11",
     word: "Hammer",
     slug: "hammer",
     phonetic: "/ˈhæm.ɚ/",
@@ -611,10 +598,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Cái búa.",
     exampleEn: "He used a hammer to drive the nail into the wood.",
     exampleVi: "Anh ấy đã dùng một chiếc búa để đóng đinh vào gỗ.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-12",
     word: "Hamper",
     slug: "hamper",
     phonetic: "/ˈhæm.pɚ/",
@@ -623,10 +609,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Cản trở.",
     exampleEn: "The bad weather will hamper our rescue efforts.",
     exampleVi: "Thời tiết xấu sẽ cản trở những nỗ lực cứu hộ của chúng tôi.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-13",
     word: "Hand",
     slug: "hand",
     phonetic: "/hænd/",
@@ -635,10 +620,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Bàn tay.",
     exampleEn: "She held the bird gently in her hand.",
     exampleVi: "Cô giữ con chim một cách nhẹ nhàng trong bàn tay mình.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "pv-66",
     word: "Hand in",
     slug: "hand-in",
     phonetic: "/hænd ɪn/",
@@ -650,7 +634,6 @@ export const H1: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "exp-gh-h-14",
     word: "Handbag",
     slug: "handbag",
     phonetic: "/ˈhænd.bæɡ/",
@@ -659,22 +642,21 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Túi xách.",
     exampleEn: "She realized she had left her handbag on the bus.",
     exampleVi: "Cô nhận ra mình đã để quên túi xách trên xe buýt.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-15",
     word: "Handbook",
     slug: "handbook",
     phonetic: "/ˈhænd.bʊk/",
     partOfSpeech: "noun",
-    meaningEn: "A book giving information such as facts on a particular subject.",
+    meaningEn:
+      "A book giving information such as facts on a particular subject.",
     meaningVi: "Sổ tay hướng dẫn.",
     exampleEn: "Read the employee handbook before your first day.",
     exampleVi: "Hãy đọc sổ tay nhân viên trước ngày làm việc đầu tiên.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-16",
     word: "Handcart",
     slug: "handcart",
     phonetic: "/ˈhænd.kɑːrt/",
@@ -683,10 +665,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Xe đẩy tay.",
     exampleEn: "The vendor pushed a handcart full of fresh vegetables.",
     exampleVi: "Người bán hàng đẩy một chiếc xe đẩy tay đầy rau tươi.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-17",
     word: "Handcuff",
     slug: "handcuff",
     phonetic: "/ˈhænd.kʌf/",
@@ -695,10 +676,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Còng tay.",
     exampleEn: "The police had to handcuff the suspect.",
     exampleVi: "Cảnh sát đã phải còng tay kẻ tình nghi.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-18",
     word: "Handful",
     slug: "handful",
     phonetic: "/ˈhænd.fʊl/",
@@ -707,10 +687,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Một nhúm/Một ít.",
     exampleEn: "He grabbed a handful of nuts from the bowl.",
     exampleVi: "Anh ấy bốc một nhúm hạt từ cái bát.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-19",
     word: "Handicap",
     slug: "handicap",
     phonetic: "/ˈhæn.di.kæp/",
@@ -718,23 +697,23 @@ export const H1: VocabularyWord[] = [
     meaningEn: "A circumstance that makes progress or success difficult.",
     meaningVi: "Sự tàn tật/Khuyết điểm.",
     exampleEn: "Lack of funding is a serious handicap for the company.",
-    exampleVi: "Thiếu kinh phí là một khuyết điểm nghiêm trọng đối với công ty.",
-    categories: ["General"]
+    exampleVi:
+      "Thiếu kinh phí là một khuyết điểm nghiêm trọng đối với công ty.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-20",
     word: "Handicapped",
     slug: "handicapped",
     phonetic: "/ˈhæn.di.kæpt/",
     partOfSpeech: "noun",
-    meaningEn: "Having a condition that markedly restricts one's ability to function.",
+    meaningEn:
+      "Having a condition that markedly restricts one's ability to function.",
     meaningVi: "Bị khuyết tật.",
     exampleEn: "Buildings should be accessible to handicapped people.",
     exampleVi: "Các tòa nhà nên có lối đi dành cho người khuyết tật.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-21",
     word: "Handicraft",
     slug: "handicraft",
     phonetic: "/ˈhæn.di.kræft/",
@@ -743,10 +722,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Đồ thủ công.",
     exampleEn: "The local market sells traditional pottery and handicraft.",
     exampleVi: "Chợ địa phương bán đồ gốm truyền thống và đồ thủ công.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-22",
     word: "Handily",
     slug: "handily",
     phonetic: "/ˈhæn.də.li/",
@@ -754,11 +732,11 @@ export const H1: VocabularyWord[] = [
     meaningEn: "In a useful or convenient manner.",
     meaningVi: "Một cách tiện lợi.",
     exampleEn: "The team won the championship quite handily.",
-    exampleVi: "Đội bóng đã giành chức vô địch một cách khá dễ dàng (tiện lợi).",
-    categories: ["General"]
+    exampleVi:
+      "Đội bóng đã giành chức vô địch một cách khá dễ dàng (tiện lợi).",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-23",
     word: "Handiwork",
     slug: "handiwork",
     phonetic: "/ˈhæn.di.wɝːk/",
@@ -767,10 +745,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Công việc thủ công.",
     exampleEn: "The beautiful garden was his own handiwork.",
     exampleVi: "Khu vườn xinh đẹp chính là tác phẩm thủ công của riêng ông.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-24",
     word: "Handkerchief",
     slug: "handkerchief",
     phonetic: "/ˈhæŋ.kɚ.tʃiːf/",
@@ -779,10 +756,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Khăn tay.",
     exampleEn: "He took a clean handkerchief from his pocket.",
     exampleVi: "Anh ấy lấy một chiếc khăn tay sạch từ túi của mình.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-25",
     word: "Handle",
     slug: "handle",
     phonetic: "/ˈhæn.dəl/",
@@ -791,10 +767,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Tay cầm/Xử lý.",
     exampleEn: "The ceramic cup has a small, delicate handle.",
     exampleVi: "Chiếc cốc gốm có một tay cầm nhỏ và tinh tế.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-26",
     word: "Handler",
     slug: "handler",
     phonetic: "/ˈhæn.dlɚ/",
@@ -802,11 +777,11 @@ export const H1: VocabularyWord[] = [
     meaningEn: "A person who handles or manages something.",
     meaningVi: "Người quản lý/Người huấn luyện.",
     exampleEn: "The dog handler trained the animal for search and rescue.",
-    exampleVi: "Người huấn luyện chó đã huấn luyện con vật để tìm kiếm và cứu nạn.",
-    categories: ["General"]
+    exampleVi:
+      "Người huấn luyện chó đã huấn luyện con vật để tìm kiếm và cứu nạn.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-27",
     word: "Handling",
     slug: "handling",
     phonetic: "/ˈhænd.lɪŋ/",
@@ -815,10 +790,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Sự bốc xếp/Xử lý.",
     exampleEn: "The handling of fragile goods requires special care.",
     exampleVi: "Việc xử lý hàng hóa dễ vỡ đòi hỏi sự cẩn thận đặc biệt.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-28",
     word: "Handmaid",
     slug: "handmaid",
     phonetic: "/ˈhænd.meɪd/",
@@ -826,11 +800,11 @@ export const H1: VocabularyWord[] = [
     meaningEn: "A female servant.",
     meaningVi: "Hầu gái.",
     exampleEn: "In ancient times, queens were often served by handmaids.",
-    exampleVi: "Thời cổ đại, các hoàng hậu thường được phục vụ bởi những hầu gái.",
-    categories: ["General"]
+    exampleVi:
+      "Thời cổ đại, các hoàng hậu thường được phục vụ bởi những hầu gái.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-29",
     word: "Handout",
     slug: "handout",
     phonetic: "/ˈhænd.aʊt/",
@@ -839,10 +813,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Tài liệu phát tay/Đồ cứu trợ.",
     exampleEn: "The professor gave a printed handout before the lecture.",
     exampleVi: "Giáo sư đã phát một tài liệu phát tay trước bài giảng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-30",
     word: "Handshake",
     slug: "handshake",
     phonetic: "/ˈhænd.ʃeɪk/",
@@ -851,10 +824,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Cái bắt tay.",
     exampleEn: "A firm handshake suggests confidence and honesty.",
     exampleVi: "Một cái bắt tay chặt thể hiện sự tự tin và trung thực.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-31",
     word: "Handsome",
     slug: "handsome",
     phonetic: "/ˈhæn.səm/",
@@ -863,10 +835,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Đẹp trai/Hào phóng.",
     exampleEn: "He was a handsome man with a kind smile.",
     exampleVi: "Anh ấy là một người đàn ông đẹp trai với nụ cười nhân hậu.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-32",
     word: "Handwriting",
     slug: "handwriting",
     phonetic: "/ˈhændˌraɪ.tɪŋ/",
@@ -875,10 +846,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Chữ viết tay.",
     exampleEn: "His handwriting is very messy and hard to read.",
     exampleVi: "Chữ viết tay của anh ấy rất lộn xộn và khó đọc.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-33",
     word: "Handy",
     slug: "handy",
     phonetic: "/ˈhæn.di/",
@@ -887,10 +857,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Tiện lợi.",
     exampleEn: "Keep a flashlight handy in case of a power outage.",
     exampleVi: "Hãy để đèn pin ở nơi tiện lợi phòng khi mất điện.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-34",
     word: "Hang",
     slug: "hang",
     phonetic: "/hæŋ/",
@@ -899,10 +868,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Treo.",
     exampleEn: "Hang your coat on the hook by the door.",
     exampleVi: "Treo áo khoác lên móc ở cạnh cửa.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "pv-67",
     word: "Hang out",
     slug: "hang-out",
     phonetic: "/hæŋ aʊt/",
@@ -914,7 +882,6 @@ export const H1: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-41",
     word: "Hang up",
     slug: "hang-up",
     phonetic: "/hæŋ ʌp/",
@@ -926,7 +893,6 @@ export const H1: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "exp-gh-h-35",
     word: "Hanger",
     slug: "hanger",
     phonetic: "/ˈhæŋ.ɚ/",
@@ -935,10 +901,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Móc áo.",
     exampleEn: "Use a plastic hanger to keep your clothes from wrinkling.",
     exampleVi: "Dùng móc áo nhựa để tránh quần áo bị nhăn.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-36",
     word: "Haphazard",
     slug: "haphazard",
     phonetic: "/ˌhæpˈhæz.ɚd/",
@@ -947,10 +912,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Bừa bãi/Ngẫu nhiên.",
     exampleEn: "The books were arranged in a haphazard way on the shelf.",
     exampleVi: "Những cuốn sách được sắp xếp một cách bừa bãi trên kệ.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "c2-31",
     word: "Hapless",
     slug: "hapless",
     phonetic: "/ˈhæp.ləs/",
@@ -962,7 +926,6 @@ export const H1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "exp-gh-h-37",
     word: "Happen",
     slug: "happen",
     phonetic: "/ˈhæp.ən/",
@@ -971,10 +934,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Xảy ra.",
     exampleEn: "Accidents can happen even when you are careful.",
     exampleVi: "Tai nạn có thể xảy ra ngay cả khi bạn cẩn thận.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-38",
     word: "Happening",
     slug: "happening",
     phonetic: "/ˈhæp.ən.ɪŋ/",
@@ -983,10 +945,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Sự kiện.",
     exampleEn: "There's a lot of things happening in the city tonight.",
     exampleVi: "Có rất nhiều sự kiện đang diễn ra trong thành phố tối nay.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-39",
     word: "Happily",
     slug: "happily",
     phonetic: "/ˈhæp.ə.li/",
@@ -994,11 +955,11 @@ export const H1: VocabularyWord[] = [
     meaningEn: "In a happy way.",
     meaningVi: "Một cách hạnh phúc.",
     exampleEn: "The couple lived happily ever after in the fairy tale.",
-    exampleVi: "Cặp đôi sống hạnh phúc mãi mãi về sau trong câu chuyện cổ tích.",
-    categories: ["General"]
+    exampleVi:
+      "Cặp đôi sống hạnh phúc mãi mãi về sau trong câu chuyện cổ tích.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-40",
     word: "Happiness",
     slug: "happiness",
     phonetic: "/ˈhæp.i.nəs/",
@@ -1006,11 +967,11 @@ export const H1: VocabularyWord[] = [
     meaningEn: "The state of being happy.",
     meaningVi: "Hạnh phúc.",
     exampleEn: "Health and family are the keys to true happiness.",
-    exampleVi: "Sức khỏe và gia đình là những chìa khóa dẫn đến hạnh phúc thực sự.",
-    categories: ["General"]
+    exampleVi:
+      "Sức khỏe và gia đình là những chìa khóa dẫn đến hạnh phúc thực sự.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-41",
     word: "Happy",
     slug: "happy",
     phonetic: "/ˈhæp.i/",
@@ -1018,11 +979,11 @@ export const H1: VocabularyWord[] = [
     meaningEn: "Feeling or showing pleasure or contentment.",
     meaningVi: "Hạnh phúc.",
     exampleEn: "Wishing you a very happy birthday and a great year.",
-    exampleVi: "Chúc bạn một ngày sinh nhật thật hạnh phúc và một năm tuyệt vời.",
-    categories: ["General"]
+    exampleVi:
+      "Chúc bạn một ngày sinh nhật thật hạnh phúc và một năm tuyệt vời.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-42",
     word: "Harangue",
     slug: "harangue",
     phonetic: "/həˈræŋ/",
@@ -1030,11 +991,11 @@ export const H1: VocabularyWord[] = [
     meaningEn: "A lengthy and aggressive speech.",
     meaningVi: "Bài diễn thuyết hùng hồn.",
     exampleEn: "He delivered a long harangue against the new policy.",
-    exampleVi: "Anh ấy đã trình bày một bài diễn thuyết dài (và hùng hồn) chống lại chính sách mới.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ấy đã trình bày một bài diễn thuyết dài (và hùng hồn) chống lại chính sách mới.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-43",
     word: "Harass",
     slug: "harass",
     phonetic: "/həˈræs/",
@@ -1043,34 +1004,34 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Quấy rối.",
     exampleEn: "Employees should not harass their coworkers.",
     exampleVi: "Nhân viên không được quấy rối đồng nghiệp của mình.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-44",
     word: "Harassment",
     slug: "harassment",
     phonetic: "/həˈræs.mənt/",
     partOfSpeech: "noun",
     meaningEn: "Aggressive pressure or intimidation.",
     meaningVi: "Sự quấy rối.",
-    exampleEn: "The company has a zero-tolerance policy against sexual harassment.",
-    exampleVi: "Công ty có chính sách không khoan nhượng đối với hành vi quấy rối tình dục.",
-    categories: ["General"]
+    exampleEn:
+      "The company has a zero-tolerance policy against sexual harassment.",
+    exampleVi:
+      "Công ty có chính sách không khoan nhượng đối với hành vi quấy rối tình dục.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-45",
     word: "Harbinger",
     slug: "harbinger",
     phonetic: "/ˈhɑːr.bɪn.dʒɚ/",
     partOfSpeech: "noun",
-    meaningEn: "A person or thing that announces or signals the approach of another.",
+    meaningEn:
+      "A person or thing that announces or signals the approach of another.",
     meaningVi: "Điềm báo/Người báo hiệu.",
     exampleEn: "Dark clouds are often a harbinger of a coming storm.",
     exampleVi: "Mây đen thường là điềm báo của một cơn bão sắp tới.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-46",
     word: "Harbor",
     slug: "harbor",
     phonetic: "/ˈhɑːr.bɚ/",
@@ -1079,10 +1040,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Bến cảng/Nuôi dưỡng (ý nghĩ).",
     exampleEn: "Ships sailed safely into the deep-water harbor.",
     exampleVi: "Những con tàu cập bến an toàn vào bến cảng nước sâu.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-47",
     word: "Hard",
     slug: "hard",
     phonetic: "/hɑːrd/",
@@ -1091,10 +1051,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Cứng/Khó khăn.",
     exampleEn: "The concrete floor was very cold and hard.",
     exampleVi: "Sàn bê tông rất lạnh và cứng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-48",
     word: "Harden",
     slug: "harden",
     phonetic: "/ˈhɑːr.dən/",
@@ -1103,10 +1062,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Làm cứng lại.",
     exampleEn: "Concrete takes several hours to harden completely.",
     exampleVi: "Bê tông mất vài giờ để cứng lại hoàn toàn.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-49",
     word: "Hardheaded",
     slug: "hardheaded",
     phonetic: "/ˌhɑːrdˈhed.ɪd/",
@@ -1115,10 +1073,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Thực tế/Cứng đầu.",
     exampleEn: "He is a hardheaded businessman who knows what he wants.",
     exampleVi: "Anh ấy là một doanh nhân thực tế, biết rõ mình muốn gì.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-50",
     word: "Hardhearted",
     slug: "hardhearted",
     phonetic: "/ˌhɑːrdˈhɑːr.t̬ɪd/",
@@ -1127,10 +1084,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Nhẫn tâm.",
     exampleEn: "The hardhearted king ignored the pleas of his people.",
     exampleVi: "Vị vua nhẫn tâm đã phớt lờ những lời cầu xin của nhân dân.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-51",
     word: "Hardihood",
     slug: "hardihood",
     phonetic: "/ˈhɑːr.di.hʊd/",
@@ -1138,11 +1094,11 @@ export const H1: VocabularyWord[] = [
     meaningEn: "Boldness; daring.",
     meaningVi: "Sự gan dạ.",
     exampleEn: "The explorers showed great hardihood in the arctic cold.",
-    exampleVi: "Những nhà thám hiểm đã thể hiện sự gan dạ tuyệt vời trong cái lạnh vùng cực.",
-    categories: ["General"]
+    exampleVi:
+      "Những nhà thám hiểm đã thể hiện sự gan dạ tuyệt vời trong cái lạnh vùng cực.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-52",
     word: "Hardly",
     slug: "hardly",
     phonetic: "/ˈhɑːrd.li/",
@@ -1151,10 +1107,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Hầu như không.",
     exampleEn: "I can hardly see anything through this thick fog.",
     exampleVi: "Tôi hầu như không thể thấy gì qua làn sương mù dày đặc này.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-53",
     word: "Hardship",
     slug: "hardship",
     phonetic: "/ˈhɑːrd.ʃɪp/",
@@ -1162,23 +1117,23 @@ export const H1: VocabularyWord[] = [
     meaningEn: "Severe suffering or privation.",
     meaningVi: "Sự gian khổ.",
     exampleEn: "Many families faced severe economic hardship during the war.",
-    exampleVi: "Nhiều gia đình đã đối mặt với sự gian khổ về kinh tế trầm trọng trong chiến tranh.",
-    categories: ["General"]
+    exampleVi:
+      "Nhiều gia đình đã đối mặt với sự gian khổ về kinh tế trầm trọng trong chiến tranh.",
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-54",
     word: "Hardware",
     slug: "hardware",
     phonetic: "/ˈhɑːrd.wer/",
     partOfSpeech: "noun",
     meaningEn: "The physical parts of a computer; tools.",
     meaningVi: "Phần cứng/Phần kim loại.",
-    exampleEn: "The computer hardware needs to be upgraded for the new software.",
+    exampleEn:
+      "The computer hardware needs to be upgraded for the new software.",
     exampleVi: "Phần cứng máy tính cần được nâng cấp cho phần mềm mới.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-55",
     word: "Hardworking",
     slug: "hardworking",
     phonetic: "/ˌhɑːrdˈwɝː.kɪŋ/",
@@ -1187,10 +1142,9 @@ export const H1: VocabularyWord[] = [
     meaningVi: "Chăm chỉ.",
     exampleEn: "She is a hardworking student who always gets top grades.",
     exampleVi: "Cô ấy là một học sinh chăm chỉ luôn đạt điểm cao nhất.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-gh-h-56",
     word: "Hardy",
     slug: "hardy",
     phonetic: "/ˈhɑːr.di/",
@@ -1198,7 +1152,8 @@ export const H1: VocabularyWord[] = [
     meaningEn: "Robust; capable of enduring difficult conditions.",
     meaningVi: "Chịu đựng được khó khăn/Gian khổ.",
     exampleEn: "These hardy plants can survive a long winter.",
-    exampleVi: "Những loài cây chịu đựng tốt này có thể sống sót qua mùa đông dài.",
-    categories: ["General"]
-  }
+    exampleVi:
+      "Những loài cây chịu đựng tốt này có thể sống sót qua mùa đông dài.",
+    categories: ["General"],
+  },
 ];

@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const P3: VocabularyWord[] = [
   {
-    id: "gen-1164",
     word: "Production",
     slug: "production",
     phonetic: "/prəˈdʌk.ʃən/",
@@ -14,7 +13,6 @@ export const P3: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "b1-194",
     word: "Productivity",
     slug: "productivity",
     phonetic: "/ˌproʊ.dʌkˈtɪv.ə.ti/",
@@ -23,10 +21,9 @@ export const P3: VocabularyWord[] = [
     meaningVi: "Năng suất.",
     exampleEn: "Increase productivity at work.",
     exampleVi: "Tăng năng suất tại nơi làm việc.",
-    categories: ["Business","Business"],
+    categories: ["Business", "Business"],
   },
   {
-    id: "gen-1165",
     word: "Professional",
     slug: "professional",
     phonetic: "/prəˈfeʃ.ən.əl/",
@@ -38,7 +35,6 @@ export const P3: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "gen-1166",
     word: "Professor",
     slug: "professor",
     phonetic: "/prəˈfes.ɚ/",
@@ -47,34 +43,33 @@ export const P3: VocabularyWord[] = [
     meaningVi: "Giáo sư.",
     exampleEn: "The professor teaches.",
     exampleVi: "Giáo sư giảng dạy.",
-    categories: ["Education","Business"],
+    categories: ["Education", "Business"],
   },
   {
-    id: "a2-201",
     word: "Profile",
     slug: "profile",
     phonetic: "/ˈproʊ.faɪl/",
     partOfSpeech: "noun",
-    meaningEn: "An outline of something, especially a person's face, as seen from one side.",
+    meaningEn:
+      "An outline of something, especially a person's face, as seen from one side.",
     meaningVi: "Hồ sơ, trang cá nhân.",
     exampleEn: "Update your profile.",
     exampleVi: "Cập nhật trang cá nhân của bạn.",
-    categories: ["Technology","Social"],
+    categories: ["Technology", "Social"],
   },
   {
-    id: "b1-100",
     word: "Profit",
     slug: "profit",
     phonetic: "/ˈprɒf.ɪt/",
     partOfSpeech: "noun",
-    meaningEn: "A financial gain, especially the difference between the amount earned and the amount spent in buying, operating, or producing something.",
+    meaningEn:
+      "A financial gain, especially the difference between the amount earned and the amount spent in buying, operating, or producing something.",
     meaningVi: "Lợi nhuận.",
     exampleEn: "The company made a huge profit last year.",
     exampleVi: "Công ty đã thu được lợi nhuận khổng lồ vào năm ngoái.",
     categories: ["Business"],
   },
   {
-    id: "c2-144",
     word: "Profligate",
     slug: "profligate",
     phonetic: "/ˈprɑː.flə.ɡət/",
@@ -86,7 +81,6 @@ export const P3: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-kl2954",
     word: "Profound",
     slug: "profound",
     phonetic: "/prəˈfaʊnd/",
@@ -98,7 +92,6 @@ export const P3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b2-191",
     word: "Prognosis",
     slug: "prognosis",
     phonetic: "/prɑːɡˈnoʊ.sɪs/",
@@ -110,7 +103,6 @@ export const P3: VocabularyWord[] = [
     categories: ["Medical"],
   },
   {
-    id: "a2-102",
     word: "Program",
     slug: "program",
     phonetic: "/ˈproʊ.ɡræm/",
@@ -122,7 +114,6 @@ export const P3: VocabularyWord[] = [
     categories: ["Academic"],
   },
   {
-    id: "job-0010",
     word: "Programmer",
     slug: "programmer",
     phonetic: "/ˈproʊ.ɡræm.ɚ/",
@@ -131,10 +122,9 @@ export const P3: VocabularyWord[] = [
     meaningVi: "Lập trình viên",
     exampleEn: "She works as a software programmer.",
     exampleVi: "Cô ấy làm lập trình viên phần mềm.",
-    categories: ["Jobs","Technology"],
+    categories: ["Jobs", "Technology"],
   },
   {
-    id: "gen-1169",
     word: "Progress",
     slug: "progress",
     phonetic: "/ˈprɑː.ɡres/",
@@ -146,19 +136,18 @@ export const P3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b1-82",
     word: "Project",
     slug: "project",
     phonetic: "/ˈprɑː.dʒekt/",
     partOfSpeech: "noun/verb",
-    meaningEn: "An individual or collaborative enterprise that is carefully planned and designed to achieve a particular aim.",
+    meaningEn:
+      "An individual or collaborative enterprise that is carefully planned and designed to achieve a particular aim.",
     meaningVi: "Dự án.",
     exampleEn: "We are working on a new project.",
     exampleVi: "Chúng tôi đang thực hiện một dự án mới.",
     categories: ["Business"],
   },
   {
-    id: "gen-1171",
     word: "Promise",
     slug: "promise",
     phonetic: "/ˈprɑː.mɪs/",
@@ -170,7 +159,6 @@ export const P3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1172",
     word: "Promote",
     slug: "promote",
     phonetic: "/prəˈmoʊt/",
@@ -179,10 +167,9 @@ export const P3: VocabularyWord[] = [
     meaningVi: "Thăng chức.",
     exampleEn: "Promote health.",
     exampleVi: "Thúc đẩy sức khỏe.",
-    categories: ["Business","Business"],
+    categories: ["Business", "Business"],
   },
   {
-    id: "gen-1173",
     word: "Pronounce",
     slug: "pronounce",
     phonetic: "/prəˈnaʊns/",
@@ -194,7 +181,6 @@ export const P3: VocabularyWord[] = [
     categories: ["Education"],
   },
   {
-    id: "gen-1174",
     word: "Proof",
     slug: "proof",
     phonetic: "/pruːf/",
@@ -206,7 +192,6 @@ export const P3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1175",
     word: "Property",
     slug: "property",
     phonetic: "/ˈprɑː.pɚ.ti/",
@@ -218,19 +203,18 @@ export const P3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "c2-145",
     word: "Propitiate",
     slug: "propitiate",
     phonetic: "/proʊˈpɪʃ.i.eɪt/",
     partOfSpeech: "verb",
-    meaningEn: "Win or regain the favor of (a god, spirit, or person) by doing something that pleases them.",
+    meaningEn:
+      "Win or regain the favor of (a god, spirit, or person) by doing something that pleases them.",
     meaningVi: "Làm lành, xoa dịu.",
     exampleEn: "Propitiate the gods.",
     exampleVi: "Làm lành với các vị thần.",
     categories: ["Social"],
   },
   {
-    id: "gen-p12sa",
     word: "Propose",
     slug: "propose",
     phonetic: "/prəˈpoʊz/",
@@ -242,19 +226,18 @@ export const P3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "c2-146",
     word: "Propriety",
     slug: "propriety",
     phonetic: "/prəˈpraɪ.ə.t̬i/",
     partOfSpeech: "noun",
-    meaningEn: "The state or quality of conforming to conventionally accepted standards of behavior or morals.",
+    meaningEn:
+      "The state or quality of conforming to conventionally accepted standards of behavior or morals.",
     meaningVi: "Sự đúng mực, sự lễ độ.",
     exampleEn: "Question the propriety of the decision.",
     exampleVi: "Nghi ngờ tính đúng mực của quyết định đó.",
     categories: ["Social"],
   },
   {
-    id: "c2-147",
     word: "Proscribe",
     slug: "proscribe",
     phonetic: "/proʊˈskraɪb/",
@@ -266,7 +249,6 @@ export const P3: VocabularyWord[] = [
     categories: ["Academic"],
   },
   {
-    id: "gen-1176",
     word: "Protect",
     slug: "protect",
     phonetic: "/prəˈtekt/",
@@ -278,7 +260,6 @@ export const P3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1177",
     word: "Protection",
     slug: "protection",
     phonetic: "/prəˈtek.ʃən/",
@@ -290,7 +271,6 @@ export const P3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "c1-241",
     word: "Protocol",
     slug: "protocol",
     phonetic: "/ˈproʊ.tə.kɑːl/",
@@ -299,10 +279,9 @@ export const P3: VocabularyWord[] = [
     meaningVi: "Giao thức.",
     exampleEn: "Transfer protocol.",
     exampleVi: "Giao thức truyền tải.",
-    categories: ["Technology","Academic","Business"],
+    categories: ["Technology", "Academic", "Business"],
   },
   {
-    id: "gen-1178",
     word: "Proud",
     slug: "proud",
     phonetic: "/praʊd/",
@@ -314,7 +293,6 @@ export const P3: VocabularyWord[] = [
     categories: ["Emotions"],
   },
   {
-    id: "gen-1179",
     word: "Prove",
     slug: "prove",
     phonetic: "/pruːv/",
@@ -326,7 +304,6 @@ export const P3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1180",
     word: "Provide",
     slug: "provide",
     phonetic: "/prəˈvaɪd/",
@@ -338,7 +315,6 @@ export const P3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "c2-229",
     word: "Provisioning",
     slug: "provisioning",
     phonetic: "/prəˈvɪʒ.ən.ɪŋ/",
@@ -347,10 +323,9 @@ export const P3: VocabularyWord[] = [
     meaningVi: "Sự cung cấp, dự phòng.",
     exampleEn: "Resource provisioning.",
     exampleVi: "Cung cấp tài nguyên.",
-    categories: ["Technology","Business"],
+    categories: ["Technology", "Business"],
   },
   {
-    id: "job-0011",
     word: "Psychologist",
     slug: "psychologist",
     phonetic: "/saɪˈkɑː.lə.dʒɪst/",
@@ -359,10 +334,9 @@ export const P3: VocabularyWord[] = [
     meaningVi: "Nhà tâm lý học",
     exampleEn: "The psychologist helps patients manage stress.",
     exampleVi: "Nhà tâm lý giúp bệnh nhân kiểm soát căng thẳng.",
-    categories: ["Jobs","Psychology"],
+    categories: ["Jobs", "Psychology"],
   },
   {
-    id: "gen-psg1",
     word: "Psychology",
     slug: "psychology",
     phonetic: "/saɪˈkɑː.lə.dʒi/",
@@ -371,10 +345,9 @@ export const P3: VocabularyWord[] = [
     meaningVi: "Tâm lý học.",
     exampleEn: "She is studying psychology at university.",
     exampleVi: "Cô ấy đang học tâm lý học ở trường đại học.",
-    categories: ["Academic","Psychology"],
+    categories: ["Academic", "Psychology"],
   },
   {
-    id: "a2-56",
     word: "Public",
     slug: "public",
     phonetic: "/ˈpʌb.lɪk/",
@@ -386,7 +359,6 @@ export const P3: VocabularyWord[] = [
     categories: ["Social"],
   },
   {
-    id: "gen-1182",
     word: "Publish",
     slug: "publish",
     phonetic: "/ˈpʌb.lɪʃ/",
@@ -398,7 +370,6 @@ export const P3: VocabularyWord[] = [
     categories: ["Media"],
   },
   {
-    id: "gen-1183",
     word: "Pull",
     slug: "pull",
     phonetic: "/pʊl/",
@@ -410,7 +381,6 @@ export const P3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "c2-148",
     word: "Pungent",
     slug: "pungent",
     phonetic: "/ˈpʌn.dʒənt/",
@@ -422,7 +392,6 @@ export const P3: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
-    id: "gen-1184",
     word: "Punish",
     slug: "punish",
     phonetic: "/ˈpʌn.ɪʃ/",
@@ -434,7 +403,6 @@ export const P3: VocabularyWord[] = [
     categories: ["Law"],
   },
   {
-    id: "gen-1185",
     word: "Pupil",
     slug: "pupil",
     phonetic: "/ˈpjuː.pəl/",
@@ -446,7 +414,6 @@ export const P3: VocabularyWord[] = [
     categories: ["Education"],
   },
   {
-    id: "gen-1186",
     word: "Purchase",
     slug: "purchase",
     phonetic: "/ˈpɜːr.tʃəs/",
@@ -455,10 +422,9 @@ export const P3: VocabularyWord[] = [
     meaningVi: "Mua.",
     exampleEn: "Make a purchase.",
     exampleVi: "Mua hàng.",
-    categories: ["Shopping","Finance"],
+    categories: ["Shopping", "Finance"],
   },
   {
-    id: "gen-1187",
     word: "Pure",
     slug: "pure",
     phonetic: "/pjʊr/",
@@ -470,7 +436,6 @@ export const P3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1188",
     word: "Purple",
     slug: "purple",
     phonetic: "/ˈpɜːr.pəl/",
@@ -482,7 +447,6 @@ export const P3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "a2-131",
     word: "Purpose",
     slug: "purpose",
     phonetic: "/ˈpɜːr.pəs/",
@@ -494,7 +458,6 @@ export const P3: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1190",
     word: "Push",
     slug: "push",
     phonetic: "/pʊʃ/",
@@ -506,7 +469,6 @@ export const P3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "pv-74",
     word: "Put off",
     slug: "put-off",
     phonetic: "/pʊt ɒf/",
@@ -514,11 +476,11 @@ export const P3: VocabularyWord[] = [
     meaningEn: "Postpone something.",
     meaningVi: "Hoãn lại.",
     exampleEn: "Never put off until tomorrow what you can do today.",
-    exampleVi: "Đừng bao giờ để đến ngày mai những việc bạn có thể làm hôm nay.",
+    exampleVi:
+      "Đừng bao giờ để đến ngày mai những việc bạn có thể làm hôm nay.",
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-45",
     word: "Put on",
     slug: "put-on",
     phonetic: "/pʊt ɑːn/",
@@ -530,7 +492,6 @@ export const P3: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "pv-4",
     word: "Put up with",
     slug: "put-up-with",
     phonetic: "/pʊt ʌp wɪð/",
@@ -540,5 +501,5 @@ export const P3: VocabularyWord[] = [
     exampleEn: "I can't put up with his behavior anymore.",
     exampleVi: "Tôi không thể chịu đựng được hành vi của anh ta thêm nữa.",
     categories: ["Phrasal Verb"],
-  }
+  },
 ];

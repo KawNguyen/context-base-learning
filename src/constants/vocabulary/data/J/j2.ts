@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const J2: VocabularyWord[] = [
   {
-    id: "gen-8546",
     word: "Jug",
     slug: "jug",
     phonetic: "/dʒʌɡ/",
@@ -11,10 +10,9 @@ export const J2: VocabularyWord[] = [
     meaningVi: "Bình (chứa nước)",
     exampleEn: "Fill the jug with water.",
     exampleVi: "Đổ đầy bình nước.",
-    categories: ["Home","Daily"],
+    categories: ["Home", "Daily"],
   },
   {
-    id: "exp-b4a-j-27",
     word: "Jugular",
     slug: "jugular",
     phonetic: "/ˈdʒʌɡ.jə.lɚ/",
@@ -23,10 +21,9 @@ export const J2: VocabularyWord[] = [
     meaningVi: "Thuộc về cổ/Tĩnh mạch cổ.",
     exampleEn: "The wolf went for the jugular vein of the deer.",
     exampleVi: "Con sói đã nhắm vào tĩnh mạch cổ của con hươu.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8547",
     word: "Juice",
     slug: "juice",
     phonetic: "/dʒuːs/",
@@ -35,10 +32,9 @@ export const J2: VocabularyWord[] = [
     meaningVi: "Nước ép",
     exampleEn: "He drank a glass of apple juice.",
     exampleVi: "Anh ấy uống một ly nước ép táo.",
-    categories: ["Food & Drink","Daily"],
+    categories: ["Food & Drink", "Daily"],
   },
   {
-    id: "exp-b4a-j-28",
     word: "Juiciness",
     slug: "juiciness",
     phonetic: "/ˈdʒuː.si.nəs/",
@@ -47,10 +43,9 @@ export const J2: VocabularyWord[] = [
     meaningVi: "Sự mọng nước.",
     exampleEn: "The peach was famous for its sweet juiciness.",
     exampleVi: "Quả đào nổi tiếng với sự ngọt ngào mọng nước của nó.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-j-29",
     word: "Juicy",
     slug: "juicy",
     phonetic: "/ˈdʒuː.si/",
@@ -59,10 +54,9 @@ export const J2: VocabularyWord[] = [
     meaningVi: "Mọng nước.",
     exampleEn: "I had a big, juicy hamburger for lunch.",
     exampleVi: "Tôi đã ăn một chiếc hamburger lớn và mọng nước cho bữa trưa.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-j-30",
     word: "Jumble",
     slug: "jumble",
     phonetic: "/ˈdʒʌm.bəl/",
@@ -71,10 +65,9 @@ export const J2: VocabularyWord[] = [
     meaningVi: "Mớ bòng bong.",
     exampleEn: "The clothes were in a jumble on the floor.",
     exampleVi: "Quần áo nằm thành một mớ bòng bong trên sàn nhà.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-final-j-5",
     word: "Jumbo",
     slug: "jumbo",
     phonetic: "/ˈdʒʌm.boʊ/",
@@ -82,23 +75,23 @@ export const J2: VocabularyWord[] = [
     meaningEn: "Very large of its kind.",
     meaningVi: "Khổng lồ.",
     exampleEn: "The airline operates a fleet of jumbo jets.",
-    exampleVi: "Hãng hàng không vận hành một đội máy bay phản lực khổng lồ (jumbo jet).",
-    categories: ["General"]
+    exampleVi:
+      "Hãng hàng không vận hành một đội máy bay phản lực khổng lồ (jumbo jet).",
+    categories: ["General"],
   },
   {
-    id: "gen-8549",
     word: "Jump",
     slug: "jump",
     phonetic: "/dʒʌmp/",
     partOfSpeech: "verb/noun",
-    meaningEn: "Push oneself off a surface and into the air by using the muscles in one's legs and feet.",
+    meaningEn:
+      "Push oneself off a surface and into the air by using the muscles in one's legs and feet.",
     meaningVi: "Nhảy; sự nhảy",
     exampleEn: "She can jump very high.",
     exampleVi: "Cô ấy có thể nhảy rất cao.",
-    categories: ["Sports","General"],
+    categories: ["Sports", "General"],
   },
   {
-    id: "pv-68",
     word: "Jump in",
     slug: "jump-in",
     phonetic: "/dʒʌmp ɪn/",
@@ -110,7 +103,6 @@ export const J2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "gen-8550",
     word: "Jumper",
     slug: "jumper",
     phonetic: "/ˈdʒʌm.pər/",
@@ -119,10 +111,9 @@ export const J2: VocabularyWord[] = [
     meaningVi: "Áo len/Người nhảy",
     exampleEn: "He put on a warm jumper.",
     exampleVi: "Anh ấy mặc một chiếc áo len ấm.",
-    categories: ["Clothing","Daily"],
+    categories: ["Clothing", "Daily"],
   },
   {
-    id: "added-final-j-8",
     word: "Jumping",
     slug: "jumping",
     phonetic: "/ˈdʒʌm.pɪŋ/",
@@ -130,11 +121,11 @@ export const J2: VocabularyWord[] = [
     meaningEn: "The action of jumping.",
     meaningVi: "Sự nhảy.",
     exampleEn: "The kids were jumping with joy when they saw the puppies.",
-    exampleVi: "Lũ trẻ đang nhảy cẫng lên vì vui sướng khi thấy những chú chó con.",
-    categories: ["General"]
+    exampleVi:
+      "Lũ trẻ đang nhảy cẫng lên vì vui sướng khi thấy những chú chó con.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-j-31",
     word: "Junction",
     slug: "junction",
     phonetic: "/ˈdʒʌŋk.ʃən/",
@@ -143,10 +134,9 @@ export const J2: VocabularyWord[] = [
     meaningVi: "Giao lộ/Mối nối.",
     exampleEn: "The accident happened at the busy junction.",
     exampleVi: "Vụ tai nạn đã xảy ra tại giao lộ đông đúc.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-j-32",
     word: "Juncture",
     slug: "juncture",
     phonetic: "/ˈdʒʌŋk.tʃɚ/",
@@ -154,11 +144,11 @@ export const J2: VocabularyWord[] = [
     meaningEn: "A particular point in events or time.",
     meaningVi: "Thời điểm quan trọng.",
     exampleEn: "At this critical juncture, we must act quickly.",
-    exampleVi: "Tại thời điểm quan trọng này, chúng ta phải hành động nhanh chóng.",
-    categories: ["General"]
+    exampleVi:
+      "Tại thời điểm quan trọng này, chúng ta phải hành động nhanh chóng.",
+    categories: ["General"],
   },
   {
-    id: "added-final-j-10",
     word: "June",
     slug: "june",
     phonetic: "/dʒuːn/",
@@ -167,22 +157,21 @@ export const J2: VocabularyWord[] = [
     meaningVi: "Tháng Sáu.",
     exampleEn: "The school year typically ends in late June.",
     exampleVi: "Năm học thường kết thúc vào cuối tháng Sáu.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8552",
     word: "Jungle",
     slug: "jungle",
     phonetic: "/ˈdʒʌŋ.ɡəl/",
     partOfSpeech: "noun",
-    meaningEn: "An area of land overgrown with dense forest and tangled vegetation.",
+    meaningEn:
+      "An area of land overgrown with dense forest and tangled vegetation.",
     meaningVi: "Rừng rậm",
     exampleEn: "They trekked through the jungle.",
     exampleVi: "Họ đi bộ xuyên rừng rậm.",
-    categories: ["Nature","Geography"],
+    categories: ["Nature", "Geography"],
   },
   {
-    id: "exp-b4a-j-33",
     word: "Jungular",
     slug: "jungular",
     phonetic: "/ˈdʒʌŋ.ɡə.lɚ/",
@@ -190,11 +179,11 @@ export const J2: VocabularyWord[] = [
     meaningEn: "Mistake for jugular or relating to jungle.",
     meaningVi: "Lỗi viết (bỏ qua).",
     exampleEn: "The jungular region needs careful examination.",
-    exampleVi: "Vùng cổ cần được kiểm tra cẩn thận. (Correction for Jugular if misspelling exists in data)",
-    categories: ["General"]
+    exampleVi:
+      "Vùng cổ cần được kiểm tra cẩn thận. (Correction for Jugular if misspelling exists in data)",
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-j-34",
     word: "Junior",
     slug: "junior",
     phonetic: "/ˈdʒuː.njɚ/",
@@ -203,10 +192,9 @@ export const J2: VocabularyWord[] = [
     meaningVi: "Cấp dưới/Trẻ tuổi hơn.",
     exampleEn: "He is a junior executive at the law firm.",
     exampleVi: "Anh ấy là một giám đốc cấp dưới tại công ty luật.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8554",
     word: "Junk",
     slug: "junk",
     phonetic: "/dʒʌŋk/",
@@ -215,10 +203,9 @@ export const J2: VocabularyWord[] = [
     meaningVi: "Đồ bỏ; vứt bỏ",
     exampleEn: "Clear out the junk in the attic.",
     exampleVi: "Dọn dẹp đồ phế thải trên gác mái.",
-    categories: ["Home","General"],
+    categories: ["Home", "General"],
   },
   {
-    id: "exp-b4a-j-35",
     word: "Jurisprudence",
     slug: "jurisprudence",
     phonetic: "/ˌdʒʊr.ɪsˈpruː.dəns/",
@@ -227,10 +214,9 @@ export const J2: VocabularyWord[] = [
     meaningVi: "Luật học.",
     exampleEn: "He has a deep interest in international jurisprudence.",
     exampleVi: "Anh ấy có mối quan tâm sâu sắc đến luật học quốc tế.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-j-36",
     word: "Jurist",
     slug: "jurist",
     phonetic: "/ˈdʒʊr.ɪst/",
@@ -239,10 +225,9 @@ export const J2: VocabularyWord[] = [
     meaningVi: "Nhà luật học.",
     exampleEn: "The famous jurist wrote a book on civil rights.",
     exampleVi: "Nhà luật học nổi tiếng đã viết một cuốn sách về quyền dân sự.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8555",
     word: "Jury",
     slug: "jury",
     phonetic: "/ˈdʒʊəri/",
@@ -251,10 +236,9 @@ export const J2: VocabularyWord[] = [
     meaningVi: "Bồi thẩm đoàn",
     exampleEn: "The jury found the defendant guilty.",
     exampleVi: "Bồi thẩm đoàn tuyên bị cáo có tội.",
-    categories: ["Law","Government"],
+    categories: ["Law", "Government"],
   },
   {
-    id: "gen-8556",
     word: "Just",
     slug: "just",
     phonetic: "/dʒʌst/",
@@ -263,10 +247,9 @@ export const J2: VocabularyWord[] = [
     meaningVi: "Chỉ; công bằng",
     exampleEn: "That's just what I needed.",
     exampleVi: "Đó chính xác là thứ tôi cần.",
-    categories: ["Conversation","Ethics"],
+    categories: ["Conversation", "Ethics"],
   },
   {
-    id: "gen-8557",
     word: "Justice",
     slug: "justice",
     phonetic: "/ˈdʒʌs.tɪs/",
@@ -275,10 +258,9 @@ export const J2: VocabularyWord[] = [
     meaningVi: "Công lý; công bằng",
     exampleEn: "They fought for justice.",
     exampleVi: "Họ đấu tranh cho công lý.",
-    categories: ["Law","Social"],
+    categories: ["Law", "Social"],
   },
   {
-    id: "exp-b4a-j-37",
     word: "Justifiable",
     slug: "justifiable",
     phonetic: "/ˌdʒʌs.təˈfaɪ.ə.bəl/",
@@ -287,10 +269,9 @@ export const J2: VocabularyWord[] = [
     meaningVi: "Chính đáng.",
     exampleEn: "Self-defense is usually considered a justifiable reason.",
     exampleVi: "Tự vệ thường được coi là một lý do chính đáng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-j-38",
     word: "Justification",
     slug: "justification",
     phonetic: "/ˌdʒʌs.tə.fəˈkeɪ.ʃən/",
@@ -299,10 +280,9 @@ export const J2: VocabularyWord[] = [
     meaningVi: "Sự biện minh.",
     exampleEn: "There is no justification for such violent behavior.",
     exampleVi: "Không có sự biện minh nào cho hành vi hung ác như vậy.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-8558",
     word: "Justify",
     slug: "justify",
     phonetic: "/ˈdʒʌs.tɪ.faɪ/",
@@ -311,10 +291,9 @@ export const J2: VocabularyWord[] = [
     meaningVi: "Biện minh; chứng minh đúng",
     exampleEn: "Can you justify your decision?",
     exampleVi: "Bạn có thể biện minh cho quyết định của mình không?",
-    categories: ["Business","Education"],
+    categories: ["Business", "Education"],
   },
   {
-    id: "gen-8560",
     word: "Justly",
     slug: "justly",
     phonetic: "/ˈdʒʌst.li/",
@@ -323,10 +302,9 @@ export const J2: VocabularyWord[] = [
     meaningVi: "Một cách công bằng",
     exampleEn: "He was justly praised for his efforts.",
     exampleVi: "Anh ấy được khen ngợi một cách xứng đáng cho những nỗ lực.",
-    categories: ["Ethics","General"],
+    categories: ["Ethics", "General"],
   },
   {
-    id: "exp-b4a-j-39",
     word: "Juvenile",
     slug: "juvenile",
     phonetic: "/ˈdʒuː.və.nəl/",
@@ -334,11 +312,11 @@ export const J2: VocabularyWord[] = [
     meaningEn: "Relating to young people.",
     meaningVi: "Vị thành niên.",
     exampleEn: "He works with juvenile offenders in the community.",
-    exampleVi: "Anh ấy làm việc với những người phạm tội vị thành niên trong cộng đồng.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ấy làm việc với những người phạm tội vị thành niên trong cộng đồng.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4a-j-40",
     word: "Juxtapose",
     slug: "juxtapose",
     phonetic: "/ˌdʒʌk.stəˈpoʊz/",
@@ -347,6 +325,6 @@ export const J2: VocabularyWord[] = [
     meaningVi: "Đặt cạnh nhau để so sánh.",
     exampleEn: "The artist likes to juxtapose light and dark colors.",
     exampleVi: "Nghệ sĩ thích đặt cạnh nhau các màu sáng và tối.",
-    categories: ["General"]
-  }
+    categories: ["General"],
+  },
 ];

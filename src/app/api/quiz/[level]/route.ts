@@ -5,7 +5,7 @@ import { CEFRLevel } from "@/types";
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: Promise<{ level: string }> }
+  { params }: { params: Promise<{ level: string }> },
 ) {
   try {
     const { level } = await params;
@@ -19,7 +19,7 @@ export async function GET(
           error: `No questions found for level: ${upperLevel}`,
           availableLevels: Object.keys(allQuestions),
         },
-        { status: 404 }
+        { status: 404 },
       );
     }
 
@@ -38,7 +38,7 @@ export async function GET(
 
       // Find new correct index after shuffle
       const newCorrectIndex = shuffled.findIndex(
-        (item) => item.originalIndex === correctIndex
+        (item) => item.originalIndex === correctIndex,
       );
 
       const shuffledOptions = shuffled.map((item) => item.option);
@@ -66,7 +66,7 @@ export async function GET(
     console.error("Quiz API error:", error);
     return NextResponse.json(
       { error: "Failed to fetch questions" },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }

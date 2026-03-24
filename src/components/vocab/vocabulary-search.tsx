@@ -24,12 +24,12 @@ export default function VocabularySearch() {
   }, [searchTerm]);
 
   return (
-    <div className="w-full max-w-4xl mx-auto space-y-6">
-      <Card>
+    <div className="w-full space-y-6">
+      <Card className="gap-2">
         <CardHeader>
           <CardTitle className="text-2xl flex items-center gap-2">
             <Search className="h-6 w-6" />
-            Tìm kiếm từ vựng
+            Search Vocabulary
           </CardTitle>
         </CardHeader>
         <CardContent className="space-y-4">
@@ -45,14 +45,15 @@ export default function VocabularySearch() {
 
           {searchTerm && filteredWords.length === 0 && (
             <p className="text-muted-foreground text-center py-4">
-              Không tìm thấy từ nào
+              No results found for &quot;{searchTerm}&quot;
             </p>
           )}
 
           {filteredWords.length > 0 && (
             <div className="space-y-2">
               <p className="text-sm text-muted-foreground">
-                Tìm thấy {filteredWords.length} kết quả
+                Found {filteredWords.length} results for &quot;{searchTerm}
+                &quot;
               </p>
               <div className="grid gap-2">
                 {filteredWords.map((vocab) => (

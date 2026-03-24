@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const O2: VocabularyWord[] = [
   {
-    id: "gen-1018",
     word: "Organ",
     slug: "organ",
     phonetic: "/ˈɔːr.ɡən/",
@@ -11,10 +10,9 @@ export const O2: VocabularyWord[] = [
     meaningVi: "Cơ quan.",
     exampleEn: "Internal organs.",
     exampleVi: "Nội tạng.",
-    categories: ["Biology","Medical"],
+    categories: ["Biology", "Medical"],
   },
   {
-    id: "gen-1019",
     word: "Organization",
     slug: "organization",
     phonetic: "/ˌɔːr.ɡə.nəˈzeɪ.ʃən/",
@@ -26,7 +24,6 @@ export const O2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b1-75",
     word: "Organize",
     slug: "organize",
     phonetic: "/ˈɔːr.ɡən.aɪz/",
@@ -38,7 +35,6 @@ export const O2: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
-    id: "gen-1021",
     word: "Original",
     slug: "original",
     phonetic: "/əˈrɪdʒ.ə.nəl/",
@@ -50,7 +46,6 @@ export const O2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b5b-o-25",
     word: "Ornate",
     slug: "ornate",
     phonetic: "/ɔːrˈneɪt/",
@@ -59,22 +54,21 @@ export const O2: VocabularyWord[] = [
     meaningVi: "Hoa mỹ/Trang sức lộng lẫy.",
     exampleEn: "The theater has a beautifully ornate interior.",
     exampleVi: "Nhà hát có nội thất trang sức lộng lẫy (hoa mỹ) tuyệt đẹp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-o-26",
     word: "Orthodox",
     slug: "orthodox",
     phonetic: "/ˈɔːr.θə.dɑːks/",
     partOfSpeech: "noun",
-    meaningEn: "(of a person or their views, especially religious or political ones, or other beliefs or practices) conforming to what is generally or traditionally accepted as right or true; established and approved.",
+    meaningEn:
+      "(of a person or their views, especially religious or political ones, or other beliefs or practices) conforming to what is generally or traditionally accepted as right or true; established and approved.",
     meaningVi: "Chính thống.",
     exampleEn: "He has very orthodox views on economics.",
     exampleVi: "Ông ấy có những quan điểm rất chính thống về kinh tế.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-o-27",
     word: "Oscillate",
     slug: "oscillate",
     phonetic: "/ˈɑː.sə.leɪt/",
@@ -83,10 +77,9 @@ export const O2: VocabularyWord[] = [
     meaningVi: "Dao động.",
     exampleEn: "The fan oscillates to cool the whole room.",
     exampleVi: "Chiếc quạt dao động (quay qua lại) để làm mát cả căn phòng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-o-28",
     word: "Ossify",
     slug: "ossify",
     phonetic: "/ˈɑː.sə.faɪ/",
@@ -94,11 +87,11 @@ export const O2: VocabularyWord[] = [
     meaningEn: "Turn into bone or bony tissue.",
     meaningVi: "Xương hóa/Trở nên cứng nhắc.",
     exampleEn: "Ideas tend to ossify if they are not challenged.",
-    exampleVi: "Các ý tưởng có xu hướng trở nên cứng nhắc nếu không được thử thách.",
-    categories: ["General"]
+    exampleVi:
+      "Các ý tưởng có xu hướng trở nên cứng nhắc nếu không được thử thách.",
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-o-29",
     word: "Ostensible",
     slug: "ostensible",
     phonetic: "/ɑːˈsten.sə.bəl/",
@@ -106,11 +99,11 @@ export const O2: VocabularyWord[] = [
     meaningEn: "Stated or appearing to be true, but not necessarily so.",
     meaningVi: "Có vẻ là/Bề ngoài.",
     exampleEn: "Their ostensible reason for visit was a business trip.",
-    exampleVi: "Lý do có vẻ là (bề ngoài) cho chuyến thăm của họ là một chuyến công tác.",
-    categories: ["General"]
+    exampleVi:
+      "Lý do có vẻ là (bề ngoài) cho chuyến thăm của họ là một chuyến công tác.",
+    categories: ["General"],
   },
   {
-    id: "exp-b5b-o-30",
     word: "Ostentatious",
     slug: "ostentatious",
     phonetic: "/ˌɑː.stenˈteɪ.ʃəs/",
@@ -119,10 +112,9 @@ export const O2: VocabularyWord[] = [
     meaningVi: "Phô trương.",
     exampleEn: "He lives in an ostentatious house with ten bedrooms.",
     exampleVi: "Anh ta sống trong một ngôi nhà phô trương với mười phòng ngủ.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1022",
     word: "Other",
     slug: "other",
     phonetic: "/ˈʌð.ɚ/",
@@ -134,7 +126,6 @@ export const O2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "b1-46",
     word: "Otherwise",
     slug: "otherwise",
     phonetic: "/ˈʌð.ər.waɪz/",
@@ -146,7 +137,6 @@ export const O2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-1024",
     word: "Ought",
     slug: "ought",
     phonetic: "/ɔːt/",
@@ -158,7 +148,6 @@ export const O2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1025",
     word: "Outcome",
     slug: "outcome",
     phonetic: "/ˈaʊt.kʌm/",
@@ -170,7 +159,6 @@ export const O2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1026",
     word: "Outdoor",
     slug: "outdoor",
     phonetic: "/ˌaʊtˈdɔːr/",
@@ -182,7 +170,6 @@ export const O2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1027",
     word: "Outer",
     slug: "outer",
     phonetic: "/ˈaʊ.tɚ/",
@@ -194,7 +181,6 @@ export const O2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1028",
     word: "Output",
     slug: "output",
     phonetic: "/ˈaʊt.pʊt/",
@@ -206,7 +192,6 @@ export const O2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1029",
     word: "Outside",
     slug: "outside",
     phonetic: "/ˌaʊtˈsaɪd/",
@@ -218,7 +203,6 @@ export const O2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-90003",
     word: "Oven",
     slug: "oven",
     phonetic: "/ˈʌv.ən/",
@@ -227,10 +211,9 @@ export const O2: VocabularyWord[] = [
     meaningVi: "Lò nướng; thiết bị nhà bếp để nướng/chín thực phẩm.",
     exampleEn: "Preheat the oven to 180°C.",
     exampleVi: "Làm nóng lò đến 180°C.",
-    categories: ["Home","Food & Drink"],
+    categories: ["Home", "Food & Drink"],
   },
   {
-    id: "gen-1030",
     word: "Over",
     slug: "over",
     phonetic: "/ˈoʊ.vɚ/",
@@ -242,7 +225,6 @@ export const O2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1031",
     word: "Overall",
     slug: "overall",
     phonetic: "/ˌoʊ.vɚˈɔːl/",
@@ -254,7 +236,6 @@ export const O2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1032",
     word: "Overcome",
     slug: "overcome",
     phonetic: "/ˌoʊ.vɚˈkʌm/",
@@ -266,7 +247,6 @@ export const O2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1033",
     word: "Overuse",
     slug: "overuse",
     phonetic: "/ˌoʊ.vɚˈjuːs/",
@@ -278,7 +258,6 @@ export const O2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1034",
     word: "Overwhelm",
     slug: "overwhelm",
     phonetic: "/ˌoʊ.vɚˈwɛlm/",
@@ -290,7 +269,6 @@ export const O2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-ewqzs1",
     word: "Overwhelmed",
     slug: "overwhelmed",
     phonetic: "/ˌoʊ.vɚˈwɛlmd/",
@@ -302,7 +280,6 @@ export const O2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1034",
     word: "Overwhelming",
     slug: "overwhelming",
     phonetic: "/ˌoʊ.vɚˈwɛl.mɪŋ/",
@@ -314,7 +291,6 @@ export const O2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1035",
     word: "Own",
     slug: "own",
     phonetic: "/oʊn/",
@@ -326,7 +302,6 @@ export const O2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "pv-95",
     word: "Own up",
     slug: "own-up",
     phonetic: "/oʊn ʌp/",
@@ -338,7 +313,6 @@ export const O2: VocabularyWord[] = [
     categories: ["Phrasal Verb"],
   },
   {
-    id: "gen-1034",
     word: "Owner",
     slug: "owner",
     phonetic: "/ˈoʊ.nɚ/",
@@ -348,5 +322,5 @@ export const O2: VocabularyWord[] = [
     exampleEn: "The owner of the shop.",
     exampleVi: "Chủ cửa hàng.",
     categories: ["General"],
-  }
+  },
 ];

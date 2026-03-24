@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const U1: VocabularyWord[] = [
   {
-    id: "exp-final-u-1",
     word: "Ubiquitous",
     slug: "ubiquitous",
     phonetic: "/juːˈbɪk.wə.t̬əs/",
@@ -11,10 +10,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Có mặt ở khắp mọi nơi.",
     exampleEn: "Coffee shops are ubiquitous in this city.",
     exampleVi: "Các quán cà phê có mặt ở khắp mọi nơi trong thành phố này.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-u-1",
     word: "Ubiquity",
     slug: "ubiquity",
     phonetic: "/juːˈbɪk.wə.t̬i/",
@@ -22,11 +20,11 @@ export const U1: VocabularyWord[] = [
     meaningEn: "The state of being everywhere at once.",
     meaningVi: "Sự có mặt khắp nơi.",
     exampleEn: "The ubiquity of smartphones has changed how we communicate.",
-    exampleVi: "Sự hiện diện khắp nơi của điện thoại thông minh đã thay đổi cách chúng ta giao tiếp.",
-    categories: ["General"]
+    exampleVi:
+      "Sự hiện diện khắp nơi của điện thoại thông minh đã thay đổi cách chúng ta giao tiếp.",
+    categories: ["General"],
   },
   {
-    id: "a1-86",
     word: "Ugly",
     slug: "ugly",
     phonetic: "/ˈʌɡ.li/",
@@ -38,19 +36,19 @@ export const U1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "exp-final-u-2",
     word: "Ulterior",
     slug: "ulterior",
     phonetic: "/ʌlˈtɪr.i.ɚ/",
     partOfSpeech: "noun",
-    meaningEn: "Existing beyond what is obvious or admitted; intentionally hidden.",
+    meaningEn:
+      "Existing beyond what is obvious or admitted; intentionally hidden.",
     meaningVi: "Kín đáo/Gia tâm.",
     exampleEn: "I suspect he has an ulterior motive for helping us.",
-    exampleVi: "Tôi nghi ngờ anh ta có một động cơ kín đáo (gia tâm) khi giúp đỡ chúng tôi.",
-    categories: ["General"]
+    exampleVi:
+      "Tôi nghi ngờ anh ta có một động cơ kín đáo (gia tâm) khi giúp đỡ chúng tôi.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-u-1",
     word: "Ultimate",
     slug: "ultimate",
     phonetic: "/ˈʌl.tə.mət/",
@@ -58,11 +56,11 @@ export const U1: VocabularyWord[] = [
     meaningEn: "Being or happening at the end of a process.",
     meaningVi: "Cuối cùng/Tối thượng.",
     exampleEn: "His ultimate goal is to become a world-class chef.",
-    exampleVi: "Mục tiêu cuối cùng của anh ấy là trở thành một đầu bếp đẳng cấp thế giới.",
-    categories: ["General"]
+    exampleVi:
+      "Mục tiêu cuối cùng của anh ấy là trở thành một đầu bếp đẳng cấp thế giới.",
+    categories: ["General"],
   },
   {
-    id: "exp-final-u-3",
     word: "Ultimately",
     slug: "ultimately",
     phonetic: "/ˈʌl.tə.mət.li/",
@@ -71,10 +69,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Cuối cùng.",
     exampleEn: "Ultimately, the decision rests with the manager.",
     exampleVi: "Cuối cùng, quyết định thuộc về người quản lý.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-u-2",
     word: "Ultimatum",
     slug: "ultimatum",
     phonetic: "/ˌʌl.təˈmeɪ.t̬əm/",
@@ -83,22 +80,22 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Tối hậu thư.",
     exampleEn: "They issued an ultimatum demanding the release of hostages.",
     exampleVi: "Họ đã đưa ra một tối hậu thư yêu cầu thả con tin.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-u-3",
     word: "Ultrasound",
     slug: "ultrasound",
     phonetic: "/ˈʌl.trə.saʊnd/",
     partOfSpeech: "noun",
-    meaningEn: "Sound waves with frequencies higher than the upper audible limit.",
+    meaningEn:
+      "Sound waves with frequencies higher than the upper audible limit.",
     meaningVi: "Siêu âm.",
-    exampleEn: "The doctor recommended an ultrasound to check the internal organs.",
+    exampleEn:
+      "The doctor recommended an ultrasound to check the internal organs.",
     exampleVi: "Bác sĩ khuyên nên siêu âm để kiểm tra các cơ quan nội tạng.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-final-u-4",
     word: "Umbrage",
     slug: "umbrage",
     phonetic: "/ˈʌm.brɪdʒ/",
@@ -106,11 +103,11 @@ export const U1: VocabularyWord[] = [
     meaningEn: "Offense or annoyance.",
     meaningVi: "Sự xúc phạm/Phật lòng.",
     exampleEn: "She took umbrage at his rude remarks.",
-    exampleVi: "Cô ấy đã cảm thấy bị xúc phạm (phật lòng) trước những nhận xét thô lỗ của anh ta.",
-    categories: ["General"]
+    exampleVi:
+      "Cô ấy đã cảm thấy bị xúc phạm (phật lòng) trước những nhận xét thô lỗ của anh ta.",
+    categories: ["General"],
   },
   {
-    id: "a1-204",
     word: "Umbrella",
     slug: "umbrella",
     phonetic: "/ʌmˈbrelə/",
@@ -122,7 +119,6 @@ export const U1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "job-0031",
     word: "Umpire",
     slug: "umpire",
     phonetic: "/ˈʌm.paɪr/",
@@ -131,10 +127,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Trọng tài",
     exampleEn: "The umpire made a fair decision.",
     exampleVi: "Trọng tài đưa ra quyết định công bằng.",
-    categories: ["Jobs","Sports"],
+    categories: ["Jobs", "Sports"],
   },
   {
-    id: "exp-b4b-u-4",
     word: "Unabashed",
     slug: "unabashed",
     phonetic: "/ˌʌn.əˈbæʃt/",
@@ -143,10 +138,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Không bối rối/Trơ tráo.",
     exampleEn: "He was unabashed by the criticism from his peers.",
     exampleVi: "Anh ấy không hề bối rối trước những lời chỉ trích từ bạn bè.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-final-u-5",
     word: "Unabated",
     slug: "unabated",
     phonetic: "/ˌʌn.əˈbeɪ.t̬ɪd/",
@@ -155,10 +149,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Không giảm sút.",
     exampleEn: "The storm continued unabated throughout the night.",
     exampleVi: "Cơn bão vẫn tiếp tục không giảm sút trong suốt đêm.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1663",
     word: "Unable",
     slug: "unable",
     phonetic: "/ʌnˈeɪ.bəl/",
@@ -170,7 +163,6 @@ export const U1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-b4b-u-5",
     word: "Unanimous",
     slug: "unanimous",
     phonetic: "/juːˈnæn.ə.məs/",
@@ -179,10 +171,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Nhất trí.",
     exampleEn: "The committee reached a unanimous decision on the matter.",
     exampleVi: "Ủy ban đã đạt được một quyết định nhất trí về vấn đề này.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-final-u-6",
     word: "Unassailable",
     slug: "unassailable",
     phonetic: "/ˌʌn.əˈseɪ.lə.bəl/",
@@ -191,10 +182,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Không thể tấn công/Không thể chối cãi.",
     exampleEn: "The scientist's logic was unassailable.",
     exampleVi: "Logic của nhà khoa học là không thể chối cãi (tấn công).",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-u-7",
     word: "Unassuming",
     slug: "unassuming",
     phonetic: "/ˌʌn.əˈsuː.mɪŋ/",
@@ -202,11 +192,11 @@ export const U1: VocabularyWord[] = [
     meaningEn: "Not pretentious or arrogant; modest.",
     meaningVi: "Khiêm tốn.",
     exampleEn: "He is a famous actor but leads an unassuming life.",
-    exampleVi: "Anh ấy là một diễn viên nổi tiếng nhưng sống một cuộc đời khiêm tốn.",
-    categories: ["General"]
+    exampleVi:
+      "Anh ấy là một diễn viên nổi tiếng nhưng sống một cuộc đời khiêm tốn.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-u-6",
     word: "Unavoidable",
     slug: "unavoidable",
     phonetic: "/ˌʌn.əˈvɔɪ.də.bəl/",
@@ -214,11 +204,11 @@ export const U1: VocabularyWord[] = [
     meaningEn: "Not able to be avoided or prevented.",
     meaningVi: "Không thể tránh khỏi.",
     exampleEn: "Changes in the schedule are sometimes unavoidable.",
-    exampleVi: "Những thay đổi trong lịch trình đôi khi là không thể tránh khỏi.",
-    categories: ["General"]
+    exampleVi:
+      "Những thay đổi trong lịch trình đôi khi là không thể tránh khỏi.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-u-8",
     word: "Unbearable",
     slug: "unbearable",
     phonetic: "/ʌnˈber.ə.bəl/",
@@ -226,11 +216,11 @@ export const U1: VocabularyWord[] = [
     meaningEn: "Not able to be endured or tolerated.",
     meaningVi: "Không thể chịu đựng được.",
     exampleEn: "The heat in the desert can be unbearable at noon.",
-    exampleVi: "Cái nóng trong sa mạc có thể không thể chịu đựng được vào giữa trưa.",
-    categories: ["General"]
+    exampleVi:
+      "Cái nóng trong sa mạc có thể không thể chịu đựng được vào giữa trưa.",
+    categories: ["General"],
   },
   {
-    id: "added-u-2",
     word: "Unbelievable",
     slug: "unbelievable",
     phonetic: "/ˌʌn.bɪˈliː.və.bəl/",
@@ -239,10 +229,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Không thể tin được.",
     exampleEn: "The sunset over the ocean was absolutely unbelievable.",
     exampleVi: "Cảnh hoàng hôn trên biển tuyệt đối không thể tin được.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-u-3",
     word: "Unbiased",
     slug: "unbiased",
     phonetic: "/ʌnˈbaɪ.əst/",
@@ -250,11 +239,11 @@ export const U1: VocabularyWord[] = [
     meaningEn: "Showing no prejudice for or against something; impartial.",
     meaningVi: "Không thiên vị/Khách quan.",
     exampleEn: "We need an unbiased opinion from someone outside the company.",
-    exampleVi: "Chúng tôi cần một ý kiến không thiên vị từ một người ngoài công ty.",
-    categories: ["General"]
+    exampleVi:
+      "Chúng tôi cần một ý kiến không thiên vị từ một người ngoài công ty.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-u-9",
     word: "Unbridled",
     slug: "unbridled",
     phonetic: "/ʌnˈbraɪ.dəld/",
@@ -262,11 +251,11 @@ export const U1: VocabularyWord[] = [
     meaningEn: "Uncontrolled; unconstrained.",
     meaningVi: "Không kìm chế/Buông thả.",
     exampleEn: "The fans showed unbridled enthusiasm after the win.",
-    exampleVi: "Người hâm mộ đã thể hiện sự nhiệt tình không kìm chế (buông thả) sau chiến thắng.",
-    categories: ["General"]
+    exampleVi:
+      "Người hâm mộ đã thể hiện sự nhiệt tình không kìm chế (buông thả) sau chiến thắng.",
+    categories: ["General"],
   },
   {
-    id: "exp-final-u-7",
     word: "Uncanny",
     slug: "uncanny",
     phonetic: "/ʌnˈkæn.i/",
@@ -275,22 +264,22 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Kỳ lạ/Huyền bí.",
     exampleEn: "He has an uncanny ability to predict the future.",
     exampleVi: "Anh ấy có một khả năng kỳ lạ trong việc dự đoán tương lai.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-u-4",
     word: "Uncertain",
     slug: "uncertain",
     phonetic: "/ʌnˈsɝː.tən/",
     partOfSpeech: "noun",
     meaningEn: "Not able to be relied on; not known or definite.",
     meaningVi: "Không chắc chắn.",
-    exampleEn: "The future of the project remains uncertain due to funding cuts.",
-    exampleVi: "Tương lai của dự án vẫn không chắc chắn do bị cắt giảm kinh phí.",
-    categories: ["General"]
+    exampleEn:
+      "The future of the project remains uncertain due to funding cuts.",
+    exampleVi:
+      "Tương lai của dự án vẫn không chắc chắn do bị cắt giảm kinh phí.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-u-10",
     word: "Uncertainty",
     slug: "uncertainty",
     phonetic: "/ʌnˈsɝː.tən.ti/",
@@ -298,11 +287,11 @@ export const U1: VocabularyWord[] = [
     meaningEn: "The state of being uncertain.",
     meaningVi: "Sự bất định.",
     exampleEn: "The ongoing uncertainty is affecting the stock market.",
-    exampleVi: "Sự bất định đang diễn ra đang ảnh hưởng đến thị trường chứng khoán.",
-    categories: ["General"]
+    exampleVi:
+      "Sự bất định đang diễn ra đang ảnh hưởng đến thị trường chứng khoán.",
+    categories: ["General"],
   },
   {
-    id: "gen-1664",
     word: "Uncle",
     slug: "uncle",
     phonetic: "/ˈʌŋ.kəl/",
@@ -314,7 +303,6 @@ export const U1: VocabularyWord[] = [
     categories: ["Family"],
   },
   {
-    id: "added-u-5",
     word: "Uncomfortable",
     slug: "uncomfortable",
     phonetic: "/ʌnˈkʌm.fɚ.t̬ə.bəl/",
@@ -323,10 +311,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Khó chịu/Không thoải mái.",
     exampleEn: "The wooden chairs were very hard and uncomfortable.",
     exampleVi: "Những chiếc ghế gỗ rất cứng và không thoải mái.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-final-u-8",
     word: "Unconscionable",
     slug: "unconscionable",
     phonetic: "/ʌnˈkɑːn.ʃən.ə.bəl/",
@@ -334,11 +321,11 @@ export const U1: VocabularyWord[] = [
     meaningEn: "Not right or reasonable.",
     meaningVi: "Vô lương tâm/Quá mức.",
     exampleEn: "The delay in providing aid was unconscionable.",
-    exampleVi: "Sự chậm trễ trong việc cung cấp viện trợ là không thể chấp nhận được (vô lương tâm).",
-    categories: ["General"]
+    exampleVi:
+      "Sự chậm trễ trong việc cung cấp viện trợ là không thể chấp nhận được (vô lương tâm).",
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-u-11",
     word: "Unconscious",
     slug: "unconscious",
     phonetic: "/ʌnˈkɑːn.ʃəs/",
@@ -347,10 +334,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Bất tỉnh/Vô thức.",
     exampleEn: "The victim was found unconscious on the floor.",
     exampleVi: "Nạn nhân được tìm thấy trong tình trạng bất tỉnh trên sàn nhà.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-u-7",
     word: "Unconstitutional",
     slug: "unconstitutional",
     phonetic: "/ˌʌn.kɑːn.stəˈtuː.ʃən.əl/",
@@ -359,22 +345,22 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Trái hiến pháp.",
     exampleEn: "The supreme court declared the new law unconstitutional.",
     exampleVi: "Tòa án tối cao đã tuyên bố bộ luật mới là vi hiến.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-u-12",
     word: "Unconventional",
     slug: "unconventional",
     phonetic: "/ˌʌn.kənˈven.ʃən.əl/",
     partOfSpeech: "noun",
-    meaningEn: "Not based on or conforming to what is generally done or believed.",
+    meaningEn:
+      "Not based on or conforming to what is generally done or believed.",
     meaningVi: "Khác thường.",
     exampleEn: "She has an unconventional approach to teaching science.",
-    exampleVi: "Cô ấy có một cách tiếp cận khác thường đối với việc dạy khoa học.",
-    categories: ["General"]
+    exampleVi:
+      "Cô ấy có một cách tiếp cận khác thường đối với việc dạy khoa học.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-u-13",
     word: "Uncover",
     slug: "uncover",
     phonetic: "/ʌnˈkʌv.ɚ/",
@@ -382,11 +368,11 @@ export const U1: VocabularyWord[] = [
     meaningEn: "Remove a cover or covering from.",
     meaningVi: "Khám phá/Tiết lộ.",
     exampleEn: "The archaeologists hope to uncover ancient ruins.",
-    exampleVi: "Các nhà khảo cổ hy vọng sẽ khám phá (tiết lộ) những tàn tích cổ đại.",
-    categories: ["General"]
+    exampleVi:
+      "Các nhà khảo cổ hy vọng sẽ khám phá (tiết lộ) những tàn tích cổ đại.",
+    categories: ["General"],
   },
   {
-    id: "gen-1665",
     word: "Under",
     slug: "under",
     phonetic: "/ˈʌn.dɚ/",
@@ -398,7 +384,6 @@ export const U1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-final-u-9",
     word: "Undercurrent",
     slug: "undercurrent",
     phonetic: "/ˈʌn.dɚˌkɝː.ənt/",
@@ -407,22 +392,22 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Dòng chảy ngầm/Nghĩa ngầm.",
     exampleEn: "There was an undercurrent of tension in the meeting.",
     exampleVi: "Đã có một dòng chảy ngầm của sự căng thẳng trong cuộc họp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-u-10",
     word: "Underestimate",
     slug: "underestimate",
     phonetic: "/ˌʌn.dɚˈes.tə.meɪt/",
     partOfSpeech: "noun",
-    meaningEn: "Estimate (something) to be smaller or less important than it really is.",
+    meaningEn:
+      "Estimate (something) to be smaller or less important than it really is.",
     meaningVi: "Đánh giá thấp.",
     exampleEn: "Never underestimate the importance of a good education.",
-    exampleVi: "Đừng bao giờ đánh giá thấp tầm quan trọng của một nền giáo dục tốt.",
-    categories: ["General"]
+    exampleVi:
+      "Đừng bao giờ đánh giá thấp tầm quan trọng của một nền giáo dục tốt.",
+    categories: ["General"],
   },
   {
-    id: "gen-1666",
     word: "Undergo",
     slug: "undergo",
     phonetic: "/ˌʌn.dɚˈɡoʊ/",
@@ -431,10 +416,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Trải qua.",
     exampleEn: "Undergo surgery.",
     exampleVi: "Trải qua phẫu thuật.",
-    categories: ["General","Medical"],
+    categories: ["General", "Medical"],
   },
   {
-    id: "added-u-12",
     word: "Undergraduate",
     slug: "undergraduate",
     phonetic: "/ˌʌn.dɚˈɡrædʒ.u.ət/",
@@ -442,11 +426,11 @@ export const U1: VocabularyWord[] = [
     meaningEn: "A university student who has not yet taken a first degree.",
     meaningVi: "Sinh viên chưa tốt nghiệp.",
     exampleEn: "She is an undergraduate student studying computer science.",
-    exampleVi: "Cô ấy là một sinh viên đại học (chưa tốt nghiệp) đang học ngành khoa học máy tính.",
-    categories: ["General"]
+    exampleVi:
+      "Cô ấy là một sinh viên đại học (chưa tốt nghiệp) đang học ngành khoa học máy tính.",
+    categories: ["General"],
   },
   {
-    id: "gen-1667",
     word: "Underground",
     slug: "underground",
     phonetic: "/ˌʌn.dɚˈɡraʊnd/",
@@ -455,10 +439,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Dưới lòng đất.",
     exampleEn: "Underground station.",
     exampleVi: "Ga tàu điện ngầm.",
-    categories: ["General","Geography"],
+    categories: ["General", "Geography"],
   },
   {
-    id: "gen-1668",
     word: "Underline",
     slug: "underline",
     phonetic: "/ˌʌn.dɚˈlaɪn/",
@@ -470,7 +453,6 @@ export const U1: VocabularyWord[] = [
     categories: ["Education"],
   },
   {
-    id: "exp-final-u-10",
     word: "Undermine",
     slug: "undermine",
     phonetic: "/ˌʌn.dɚˈmaɪn/",
@@ -478,11 +460,11 @@ export const U1: VocabularyWord[] = [
     meaningEn: "Damage or weaken (someone or something).",
     meaningVi: "Làm suy yếu/Phá hoại ngầm.",
     exampleEn: "Such rumors can undermine the company's reputation.",
-    exampleVi: "Những lời đồn như vậy có thể làm suy yếu (phá hoại ngầm) danh tiếng của công ty.",
-    categories: ["General"]
+    exampleVi:
+      "Những lời đồn như vậy có thể làm suy yếu (phá hoại ngầm) danh tiếng của công ty.",
+    categories: ["General"],
   },
   {
-    id: "added-u-16",
     word: "Underneath",
     slug: "underneath",
     phonetic: "/ˌʌn.dɚˈniːθ/",
@@ -491,10 +473,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Ở bên dưới.",
     exampleEn: "The cat was hiding underneath the kitchen table.",
     exampleVi: "Con mèo đang trốn dưới gầm bàn bếp.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "a2-79",
     word: "Understand",
     slug: "understand",
     phonetic: "/ˌʌn.dərˈstænd/",
@@ -506,7 +487,6 @@ export const U1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "added-u-18",
     word: "Understandable",
     slug: "understandable",
     phonetic: "/ˌʌn.dɚˈstæn.də.bəl/",
@@ -515,10 +495,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Có thể hiểu được.",
     exampleEn: "His anger was understandable given the circumstances.",
     exampleVi: "Sự tức giận của anh ấy là có thể hiểu được trong hoàn cảnh đó.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1670",
     word: "Understanding",
     slug: "understanding",
     phonetic: "/ˌʌn.dɚˈstæn.dɪŋ/",
@@ -530,19 +509,19 @@ export const U1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "added-u-20",
     word: "Understate",
     slug: "understate",
     phonetic: "/ˌʌn.dɚˈsteɪt/",
     partOfSpeech: "noun",
-    meaningEn: "Describe or represent (something) as being smaller, worse, or less important than it actually is.",
+    meaningEn:
+      "Describe or represent (something) as being smaller, worse, or less important than it actually is.",
     meaningVi: "Nói giảm nhẹ.",
     exampleEn: "It would be an error to understate the risks involved.",
-    exampleVi: "Sẽ là một sai lầm nếu nói giảm (đánh giá thấp) những rủi ro liên quan.",
-    categories: ["General"]
+    exampleVi:
+      "Sẽ là một sai lầm nếu nói giảm (đánh giá thấp) những rủi ro liên quan.",
+    categories: ["General"],
   },
   {
-    id: "gen-1671",
     word: "Undertake",
     slug: "undertake",
     phonetic: "/ˌʌn.dɚˈteɪk/",
@@ -551,10 +530,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Đảm nhận.",
     exampleEn: "Undertake a task.",
     exampleVi: "Thực hiện một nhiệm vụ.",
-    categories: ["General","Business"],
+    categories: ["General", "Business"],
   },
   {
-    id: "added-u-22",
     word: "Undertaking",
     slug: "undertaking",
     phonetic: "/ˌʌn.dɚˈteɪ.kɪŋ/",
@@ -562,11 +540,11 @@ export const U1: VocabularyWord[] = [
     meaningEn: "A formal pledge or promise to do something.",
     meaningVi: "Sự đảm nhận/Công việc.",
     exampleEn: "Building a new house is a massive undertaking.",
-    exampleVi: "Xây dựng một ngôi nhà mới là một công việc kinh doanh (nhiệm vụ) to lớn.",
-    categories: ["General"]
+    exampleVi:
+      "Xây dựng một ngôi nhà mới là một công việc kinh doanh (nhiệm vụ) to lớn.",
+    categories: ["General"],
   },
   {
-    id: "added-u-23",
     word: "Underwater",
     slug: "underwater",
     phonetic: "/ˌʌn.dɚˈwɑː.t̬ɚ/",
@@ -575,10 +553,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Dưới nước.",
     exampleEn: "The divers explored the ancient ruins underwater.",
     exampleVi: "Các thợ lặn đã khám phá những tàn tích cổ đại dưới nước.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1672",
     word: "Underwear",
     slug: "underwear",
     phonetic: "/ˈʌn.dɚ.wer/",
@@ -590,7 +567,6 @@ export const U1: VocabularyWord[] = [
     categories: ["Fashion"],
   },
   {
-    id: "added-u-25",
     word: "Underworld",
     slug: "underworld",
     phonetic: "/ˈʌn.dɚ.wɝːld/",
@@ -599,10 +575,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Thế giới ngầm/Địa ngục.",
     exampleEn: "The police are cracking down on the criminal underworld.",
     exampleVi: "Cảnh sát đang trấn áp thế giới ngầm tội phạm.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-u-26",
     word: "Underwrite",
     slug: "underwrite",
     phonetic: "/ˈʌn.dɚ.raɪt/",
@@ -610,23 +585,23 @@ export const U1: VocabularyWord[] = [
     meaningEn: "Sign and accept liability under (an insurance policy).",
     meaningVi: "Bảo hiểm/Bảo lãnh.",
     exampleEn: "The insurance company will underwrite the project.",
-    exampleVi: "Công ty bảo hiểm sẽ bảo hiểm (cam kết chịu trách nhiệm) cho dự án.",
-    categories: ["General"]
+    exampleVi:
+      "Công ty bảo hiểm sẽ bảo hiểm (cam kết chịu trách nhiệm) cho dự án.",
+    categories: ["General"],
   },
   {
-    id: "added-u-27",
     word: "Undesirable",
     slug: "undesirable",
     phonetic: "/ˌʌn.dɪˈzaɪr.ə.bəl/",
     partOfSpeech: "noun",
     meaningEn: "Not wanted or desirable.",
     meaningVi: "Không mong muốn.",
-    exampleEn: "The factory has several undesirable effects on the environment.",
+    exampleEn:
+      "The factory has several undesirable effects on the environment.",
     exampleVi: "Nhà máy có một số tác động không mong muốn đối với môi trường.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-u-28",
     word: "Undivided",
     slug: "undivided",
     phonetic: "/ˌʌn.dɪˈvaɪ.dɪd/",
@@ -634,11 +609,11 @@ export const U1: VocabularyWord[] = [
     meaningEn: "Not divided.",
     meaningVi: "Không bị chia cắt/Toàn tâm toàn ý.",
     exampleEn: "She gave the speaker her undivided attention.",
-    exampleVi: "Cô ấy đã dành cho diễn giả sự chú ý không bị phân tán (hoàn toàn).",
-    categories: ["General"]
+    exampleVi:
+      "Cô ấy đã dành cho diễn giả sự chú ý không bị phân tán (hoàn toàn).",
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-u-14",
     word: "Undo",
     slug: "undo",
     phonetic: "/ʌnˈduː/",
@@ -646,11 +621,11 @@ export const U1: VocabularyWord[] = [
     meaningEn: "Unfasten, untie, or loosen (a knot or fastener).",
     meaningVi: "Hoàn tác/Hủy bỏ.",
     exampleEn: "It is difficult to undo the damage caused by the storm.",
-    exampleVi: "Thật khó để hoàn tác (hủy bỏ) những thiệt hại do cơn bão gây ra.",
-    categories: ["General"]
+    exampleVi:
+      "Thật khó để hoàn tác (hủy bỏ) những thiệt hại do cơn bão gây ra.",
+    categories: ["General"],
   },
   {
-    id: "added-u-30",
     word: "Undoubtedly",
     slug: "undoubtedly",
     phonetic: "/ʌnˈdaʊ.t̬ɪd.li/",
@@ -659,10 +634,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Chắc chắn/Không nghi ngờ gì.",
     exampleEn: "He is undoubtedly the best candidate for the job.",
     exampleVi: "Anh ấy chắc chắn là ứng cử viên tốt nhất cho công việc này.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-u-31",
     word: "Undress",
     slug: "undress",
     phonetic: "/ʌnˈdres/",
@@ -671,22 +645,21 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Cởi quần áo.",
     exampleEn: "The nurse helped the patient to undress for the exam.",
     exampleVi: "Y tá đã giúp bệnh nhân cởi quần áo để kiểm tra.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-u-32",
     word: "Undue",
     slug: "undue",
     phonetic: "/ʌnˈduː/",
     partOfSpeech: "noun",
-    meaningEn: "Warranted or appropriate because excessive or disproportionate.",
+    meaningEn:
+      "Warranted or appropriate because excessive or disproportionate.",
     meaningVi: "Quá đáng/Không chính đáng.",
     exampleEn: "Don't put undue pressure on yourself to succeed.",
     exampleVi: "Đừng tạo áp lực quá mức lên bản thân để thành công.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-u-33",
     word: "Undulate",
     slug: "undulate",
     phonetic: "/ˈʌn.dʒə.leɪt/",
@@ -695,10 +668,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Gợn sóng/Nhấp nhô.",
     exampleEn: "The fields of wheat undulate in the summer breeze.",
     exampleVi: "Cánh đồng lúa mì nhấp nhô (lượn sóng) trong làn gió hè.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-u-15",
     word: "Unduly",
     slug: "unduly",
     phonetic: "/ʌnˈduː.li/",
@@ -707,10 +679,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Quá đáng.",
     exampleEn: "The students were unduly worried about the exam.",
     exampleVi: "Các học sinh đã lo lắng quá mức (quá đáng) về kỳ thi.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-u-16",
     word: "Uneasy",
     slug: "uneasy",
     phonetic: "/ʌnˈiː.zi/",
@@ -719,10 +690,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Lo lắng/Bất an.",
     exampleEn: "I felt uneasy about leaving the children alone.",
     exampleVi: "Tôi cảm thấy bất an (lo lắng) khi để bọn trẻ ở nhà một mình.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1674",
     word: "Unemployment",
     slug: "unemployment",
     phonetic: "/ˌʌn.ɪmˈplɔɪ.mənt/",
@@ -731,10 +701,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Thất nghiệp.",
     exampleEn: "High unemployment.",
     exampleVi: "Tỷ lệ thất nghiệp cao.",
-    categories: ["Business","Social"],
+    categories: ["Business", "Social"],
   },
   {
-    id: "exp-final-u-11",
     word: "Unequivocal",
     slug: "unequivocal",
     phonetic: "/ˌʌn.ɪˈkwɪv.ə.kəl/",
@@ -743,10 +712,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Rõ rệt/Dứt khoát.",
     exampleEn: "The answer was an unequivocal 'no'.",
     exampleVi: "Câu trả lời là một sự từ chối rõ rệt (dứt khoát).",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-u-17",
     word: "Unexpected",
     slug: "unexpected",
     phonetic: "/ˌʌn.ɪkˈspek.tɪd/",
@@ -755,22 +723,21 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Bất ngờ.",
     exampleEn: "An unexpected visitor arrived at the door late at night.",
     exampleVi: "Một vị khách bất ngờ đã đến cửa vào lúc đêm muộn.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1676",
     word: "Unfair",
     slug: "unfair",
     phonetic: "/ʌnˈfer/",
     partOfSpeech: "adjective",
-    meaningEn: "Not based on or behaving according to the principles of equality.",
+    meaningEn:
+      "Not based on or behaving according to the principles of equality.",
     meaningVi: "Bất công.",
     exampleEn: "Unfair treatment.",
     exampleVi: "Đối xử bất công.",
-    categories: ["General","Social"],
+    categories: ["General", "Social"],
   },
   {
-    id: "exp-final-u-12",
     word: "Unfathomable",
     slug: "unfathomable",
     phonetic: "/ʌnˈfæð.ə.mə.bəl/",
@@ -778,11 +745,11 @@ export const U1: VocabularyWord[] = [
     meaningEn: "Incapable of being fully explored or understood.",
     meaningVi: "Không thể hiểu nổi/Khôn lường.",
     exampleEn: "His reasons for leaving were unfathomable to his friends.",
-    exampleVi: "Lý do anh ấy ra đi là không thể hiểu nổi (khôn lường) đối với bạn bè.",
-    categories: ["General"]
+    exampleVi:
+      "Lý do anh ấy ra đi là không thể hiểu nổi (khôn lường) đối với bạn bè.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-u-18",
     word: "Unforgettable",
     slug: "unforgettable",
     phonetic: "/ˌʌn.fɚˈɡet.ə.bəl/",
@@ -791,10 +758,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Không thể nào quên.",
     exampleEn: "The concert was an unforgettable experience.",
     exampleVi: "Buổi hòa nhạc là một trải nghiệm không thể nào quên.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-u-19",
     word: "Unfortunate",
     slug: "unfortunate",
     phonetic: "/ʌnˈfɔːr.tʃə.nət/",
@@ -803,10 +769,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Không may.",
     exampleEn: "It was an unfortunate accident that could have been avoided.",
     exampleVi: "Đó là một tai nạn không may mà nhẽ ra có thể tránh được.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1678",
     word: "Unfortunately",
     slug: "unfortunately",
     phonetic: "/ʌnˈfɔːr.tʃən.ət.li/",
@@ -818,7 +783,6 @@ export const U1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-final-u-13",
     word: "Ungainly",
     slug: "ungainly",
     phonetic: "/ʌnˈɡeɪn.li/",
@@ -826,11 +790,11 @@ export const U1: VocabularyWord[] = [
     meaningEn: "(of a person or movement) awkward; clumsy.",
     meaningVi: "Vụng về/Lóng ngóng.",
     exampleEn: "The albatross is an ungainly bird on land.",
-    exampleVi: "Chim hải âu là một loài chim vụng về (lóng ngóng) khi ở trên cạn.",
-    categories: ["General"]
+    exampleVi:
+      "Chim hải âu là một loài chim vụng về (lóng ngóng) khi ở trên cạn.",
+    categories: ["General"],
   },
   {
-    id: "exp-b4b-u-20",
     word: "Uniform",
     slug: "uniform",
     phonetic: "/ˈjuː.nə.fɔːrm/",
@@ -838,23 +802,23 @@ export const U1: VocabularyWord[] = [
     meaningEn: "The same all over.",
     meaningVi: "Tính đồng dạng/Đồng phục.",
     exampleEn: "The soldiers were all wearing their dress uniform.",
-    exampleVi: "Tất cả những người lính đều đang mặc bộ đồng phục lễ phục của họ.",
-    categories: ["General"]
+    exampleVi:
+      "Tất cả những người lính đều đang mặc bộ đồng phục lễ phục của họ.",
+    categories: ["General"],
   },
   {
-    id: "exp-final-u-14",
     word: "Unilateral",
     slug: "unilateral",
     phonetic: "/ˌjuː.nəˈlæt̬.ɚ.əl/",
     partOfSpeech: "noun",
-    meaningEn: "(of an action or decision) performed by or affecting only one person, group, or country.",
+    meaningEn:
+      "(of an action or decision) performed by or affecting only one person, group, or country.",
     meaningVi: "Đơn phương.",
     exampleEn: "The country took a unilateral decision to withdraw.",
     exampleVi: "Quốc gia đó đã đưa ra một quyết định đơn phương rút lui.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-final-u-15",
     word: "Unimpeachable",
     slug: "unimpeachable",
     phonetic: "/ˌʌn.ɪmˈpiː.tʃə.bəl/",
@@ -862,11 +826,11 @@ export const U1: VocabularyWord[] = [
     meaningEn: "Entirely trustworthy and beyond doubt or reproach.",
     meaningVi: "Không thể chê trách/Đáng tin cậy hoàn toàn.",
     exampleEn: "Her reputation as a judge is unimpeachable.",
-    exampleVi: "Danh tiếng của bà với tư cách là một thẩm phán là không thể chê trách (đáng tin cậy hoàn toàn).",
-    categories: ["General"]
+    exampleVi:
+      "Danh tiếng của bà với tư cách là một thẩm phán là không thể chê trách (đáng tin cậy hoàn toàn).",
+    categories: ["General"],
   },
   {
-    id: "gen-1680",
     word: "Union",
     slug: "union",
     phonetic: "/ˈjuː.njən/",
@@ -875,10 +839,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Liên minh.",
     exampleEn: "European Union.",
     exampleVi: "Liên minh châu Âu.",
-    categories: ["Politics","Social"],
+    categories: ["Politics", "Social"],
   },
   {
-    id: "gen-1681",
     word: "Unique",
     slug: "unique",
     phonetic: "/juːˈniːk/",
@@ -890,7 +853,6 @@ export const U1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1682",
     word: "Unit",
     slug: "unit",
     phonetic: "/ˈjuː.nɪt/",
@@ -899,10 +861,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Đơn vị.",
     exampleEn: "Imperial unit.",
     exampleVi: "Đơn vị đo lường Anh.",
-    categories: ["General","Science"],
+    categories: ["General", "Science"],
   },
   {
-    id: "gen-1683",
     word: "Unite",
     slug: "unite",
     phonetic: "/juːˈnaɪt/",
@@ -911,10 +872,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Đoàn kết.",
     exampleEn: "Unite nations.",
     exampleVi: "Đoàn kết các quốc gia.",
-    categories: ["General","Social"],
+    categories: ["General", "Social"],
   },
   {
-    id: "gen-1684",
     word: "United",
     slug: "united",
     phonetic: "/juːˈnaɪ.tɪd/",
@@ -923,10 +883,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Thống nhất.",
     exampleEn: "United we stand.",
     exampleVi: "Đoàn kết chúng ta đứng vững.",
-    categories: ["Politics","General"],
+    categories: ["Politics", "General"],
   },
   {
-    id: "gen-1685",
     word: "Unity",
     slug: "unity",
     phonetic: "/ˈjuː.nə.t̬i/",
@@ -935,10 +894,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Sự thống nhất.",
     exampleEn: "National unity.",
     exampleVi: "Sự đoàn kết dân tộc.",
-    categories: ["General","Social"],
+    categories: ["General", "Social"],
   },
   {
-    id: "gen-1686",
     word: "Universal",
     slug: "universal",
     phonetic: "/ˌjuː.nəˈvɜːr.səl/",
@@ -947,10 +905,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Phổ quát.",
     exampleEn: "Universal truth.",
     exampleVi: "Sự thật phổ quát.",
-    categories: ["General","Science"],
+    categories: ["General", "Science"],
   },
   {
-    id: "gen-1687",
     word: "Universe",
     slug: "universe",
     phonetic: "/ˈjuː.nə.vɜːrs/",
@@ -962,7 +919,6 @@ export const U1: VocabularyWord[] = [
     categories: ["Science"],
   },
   {
-    id: "gen-1688",
     word: "University",
     slug: "university",
     phonetic: "/ˌjuː.nəˈvɜːr.sə.t̬i/",
@@ -974,7 +930,6 @@ export const U1: VocabularyWord[] = [
     categories: ["Education"],
   },
   {
-    id: "gen-1689",
     word: "Unknown",
     slug: "unknown",
     phonetic: "/ʌnˈnoʊn/",
@@ -986,7 +941,6 @@ export const U1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1690",
     word: "Unless",
     slug: "unless",
     phonetic: "/ʌnˈles/",
@@ -998,7 +952,6 @@ export const U1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1691",
     word: "Unlike",
     slug: "unlike",
     phonetic: "/ʌnˈlaɪk/",
@@ -1010,7 +963,6 @@ export const U1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1692",
     word: "Unlikely",
     slug: "unlikely",
     phonetic: "/ʌnˈlaɪ.kli/",
@@ -1022,7 +974,6 @@ export const U1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-final-u-16",
     word: "Unmitigated",
     slug: "unmitigated",
     phonetic: "/ʌnˈmɪt̬.ə.ɡeɪ.t̬ɪd/",
@@ -1031,10 +982,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Hoàn toàn/Tuyệt đối.",
     exampleEn: "The party was an unmitigated disaster.",
     exampleVi: "Bữa tiệc là một thảm họa hoàn toàn (tuyệt đối).",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "exp-final-u-17",
     word: "Unscathed",
     slug: "unscathed",
     phonetic: "/ʌnˈskeɪðd/",
@@ -1042,11 +992,11 @@ export const U1: VocabularyWord[] = [
     meaningEn: "Without suffering any injury, damage, or harm.",
     meaningVi: "Không bị tổn thương/Bình an vô sự.",
     exampleEn: "The driver emerged unscathed from the accident.",
-    exampleVi: "Người lái xe đã bình an vô sự (không bị tổn thương) sau vụ tai nạn.",
-    categories: ["General"]
+    exampleVi:
+      "Người lái xe đã bình an vô sự (không bị tổn thương) sau vụ tai nạn.",
+    categories: ["General"],
   },
   {
-    id: "exp-final-u-18",
     word: "Unscrupulous",
     slug: "unscrupulous",
     phonetic: "/ʌnˈskruː.pjə.ləs/",
@@ -1054,11 +1004,11 @@ export const U1: VocabularyWord[] = [
     meaningEn: "Having or showing no moral principles.",
     meaningVi: "Vô liêm sỉ/Không có đạo đức.",
     exampleEn: "The investors were tricked by an unscrupulous broker.",
-    exampleVi: "Các nhà đầu tư đã bị lừa bởi một môi giới vô liêm sỉ (không có đạo đức).",
-    categories: ["General"]
+    exampleVi:
+      "Các nhà đầu tư đã bị lừa bởi một môi giới vô liêm sỉ (không có đạo đức).",
+    categories: ["General"],
   },
   {
-    id: "gen-1693",
     word: "Until",
     slug: "until",
     phonetic: "/ʌnˈtɪl/",
@@ -1070,7 +1020,6 @@ export const U1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-1694",
     word: "Unusual",
     slug: "unusual",
     phonetic: "/ʌnˈjuː.ʒu.əl/",
@@ -1082,19 +1031,18 @@ export const U1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-final-u-19",
     word: "Unwieldy",
     slug: "unwieldy",
     phonetic: "/ʌnˈwiːl.di/",
     partOfSpeech: "noun",
-    meaningEn: "Difficult to carry or move because of its size, shape, or weight.",
+    meaningEn:
+      "Difficult to carry or move because of its size, shape, or weight.",
     meaningVi: "Cồng kềnh/Khó điều khiển.",
     exampleEn: "The large package was very unwieldy to carry.",
     exampleVi: "Gói hàng lớn thật cồng kềnh (khó điều khiển) để mang theo.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "gen-1695",
     word: "Up",
     slug: "up",
     phonetic: "/ʌp/",
@@ -1106,7 +1054,6 @@ export const U1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "exp-final-u-20",
     word: "Upbraid",
     slug: "upbraid",
     phonetic: "/ʌpˈbreɪd/",
@@ -1114,11 +1061,11 @@ export const U1: VocabularyWord[] = [
     meaningEn: "Find fault with (someone); scold.",
     meaningVi: "Quở trách/Chỉ trích.",
     exampleEn: "The officer began to upbraid the soldier for his mistake.",
-    exampleVi: "Viên sĩ quan bắt đầu quở trách (chỉ trích) người lính vì sai lầm của anh ta.",
-    categories: ["General"]
+    exampleVi:
+      "Viên sĩ quan bắt đầu quở trách (chỉ trích) người lính vì sai lầm của anh ta.",
+    categories: ["General"],
   },
   {
-    id: "a2-229",
     word: "Update",
     slug: "update",
     phonetic: "/ʌpˈdeɪt/",
@@ -1127,22 +1074,21 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Cập nhật.",
     exampleEn: "Update your system.",
     exampleVi: "Cập nhật hệ thống của bạn.",
-    categories: ["Technology","Daily"],
+    categories: ["Technology", "Daily"],
   },
   {
-    id: "b1-187",
     word: "Upgrade",
     slug: "upgrade",
     phonetic: "/ʌpˈɡreɪd/",
     partOfSpeech: "verb/noun",
-    meaningEn: "Raise (something) to a higher standard, in particular improve (equipment or machinery) by adding or replacing components.",
+    meaningEn:
+      "Raise (something) to a higher standard, in particular improve (equipment or machinery) by adding or replacing components.",
     meaningVi: "Nâng cấp.",
     exampleEn: "Time to upgrade your phone.",
     exampleVi: "Đã đến lúc nâng cấp điện thoại của bạn.",
-    categories: ["Technology","Daily","Business"],
+    categories: ["Technology", "Daily", "Business"],
   },
   {
-    id: "added-final-u-4",
     word: "Uphold",
     slug: "uphold",
     phonetic: "/ʌpˈhoʊld/",
@@ -1151,10 +1097,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Duy trì/Ủng hộ.",
     exampleEn: "The court's duty is to uphold the law.",
     exampleVi: "Nhiệm vụ của tòa án là duy trì (ủng hộ) pháp luật.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-final-u-5",
     word: "Upland",
     slug: "upland",
     phonetic: "/ˈʌp.lənd/",
@@ -1163,10 +1108,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Vùng cao.",
     exampleEn: "The group spent the weekend hiking in the upland region.",
     exampleVi: "Nhóm đã dành cuối tuần để leo núi ở vùng cao.",
-    categories: ["General"]
+    categories: ["General"],
   },
   {
-    id: "added-final-u-6",
     word: "Uplift",
     slug: "uplift",
     phonetic: "/ˌʌpˈlɪft/",
@@ -1174,11 +1118,11 @@ export const U1: VocabularyWord[] = [
     meaningEn: "Lift up; improve.",
     meaningVi: "Nâng lên/Cải thiện.",
     exampleEn: "The new community center will uplift the neighborhood.",
-    exampleVi: "Trung tâm cộng đồng mới sẽ nâng cao đời sống (cải thiện) khu dân cư.",
-    categories: ["General"]
+    exampleVi:
+      "Trung tâm cộng đồng mới sẽ nâng cao đời sống (cải thiện) khu dân cư.",
+    categories: ["General"],
   },
   {
-    id: "a2-220",
     word: "Upload",
     slug: "upload",
     phonetic: "/ˌʌp.ˈloʊd/",
@@ -1187,10 +1131,9 @@ export const U1: VocabularyWord[] = [
     meaningVi: "Tải lên.",
     exampleEn: "Upload your photo.",
     exampleVi: "Tải ảnh của bạn lên.",
-    categories: ["Technology","Daily"],
+    categories: ["Technology", "Daily"],
   },
   {
-    id: "gen-1697",
     word: "Upon",
     slug: "upon",
     phonetic: "/əˈpɑːn/",
@@ -1200,5 +1143,5 @@ export const U1: VocabularyWord[] = [
     exampleEn: "Once upon a time.",
     exampleVi: "Ngày xửa ngày xưa.",
     categories: ["General"],
-  }
+  },
 ];

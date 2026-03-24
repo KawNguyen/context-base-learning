@@ -198,7 +198,6 @@ export const VOCABULARY_CATEGORIES: VocabularyCategory[] = [
 // export type VocabularyCategory = typeof VOCABULARY_CATEGORIES[number];
 
 export interface VocabularyWord {
-  id: string;
   word: string;
   slug: string;
   phonetic: string;

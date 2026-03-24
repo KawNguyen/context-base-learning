@@ -19,7 +19,7 @@ interface PassageExerciseCardProps {
   isAnswerCorrect: (
     passageId: string,
     gapIndex: number,
-    optionIndex: number
+    optionIndex: number,
   ) => boolean;
 }
 
@@ -87,8 +87,8 @@ export function PassageExerciseCard({
                       isAnswerCorrect(
                         passage.id,
                         q.placeholderIndex,
-                        userAnswers[q.placeholderIndex]
-                      )
+                        userAnswers[q.placeholderIndex],
+                      ),
                     )
                       ? "default"
                       : "destructive"
@@ -99,8 +99,8 @@ export function PassageExerciseCard({
                       isAnswerCorrect(
                         passage.id,
                         q.placeholderIndex,
-                        userAnswers[q.placeholderIndex]
-                      )
+                        userAnswers[q.placeholderIndex],
+                      ),
                     ).length
                   }
                   /{totalQuestions}
@@ -125,7 +125,7 @@ export function PassageExerciseCard({
                 const gapIndex = segment.index!;
                 const userAnswer = userAnswers[gapIndex];
                 const question = passage.questions.find(
-                  (q) => q.placeholderIndex === gapIndex
+                  (q) => q.placeholderIndex === gapIndex,
                 );
                 const isCorrect =
                   showResult &&
@@ -143,8 +143,8 @@ export function PassageExerciseCard({
                       isCorrect
                         ? "bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400"
                         : isWrong
-                        ? "bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400"
-                        : "bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400"
+                          ? "bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400"
+                          : "bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400"
                     }`}
                   >
                     {userAnswer !== undefined
@@ -177,7 +177,7 @@ export function PassageExerciseCard({
                         isAnswerCorrect(
                           passage.id,
                           question.placeholderIndex,
-                          userAnswers[question.placeholderIndex]
+                          userAnswers[question.placeholderIndex],
                         )
                           ? "default"
                           : "destructive"
@@ -186,7 +186,7 @@ export function PassageExerciseCard({
                       {isAnswerCorrect(
                         passage.id,
                         question.placeholderIndex,
-                        userAnswers[question.placeholderIndex]
+                        userAnswers[question.placeholderIndex],
                       )
                         ? "Correct"
                         : "Wrong"}
@@ -222,7 +222,7 @@ export function PassageExerciseCard({
                   isCorrect={isAnswerCorrect(
                     passage.id,
                     question.placeholderIndex,
-                    userAnswers[question.placeholderIndex]
+                    userAnswers[question.placeholderIndex],
                   )}
                 >
                   {question.explanationVi}
