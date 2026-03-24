@@ -58,7 +58,7 @@ export default function VocabularySearch() {
               <div className="grid gap-2">
                 {filteredWords.map((vocab) => (
                   <Card
-                    key={vocab.id}
+                    key={vocab.slug}
                     className="cursor-pointer hover:bg-accent transition-colors"
                     onClick={() => setSelectedWord(vocab)}
                   >

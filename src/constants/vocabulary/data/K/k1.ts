@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const K1: VocabularyWord[] = [
   {
-    id: "gen-k-001",
     word: "Kafkaesque",
     slug: "kafkaesque",
     phonetic: "/ˌkɑːf.kəˈesk/",
@@ -37,7 +36,6 @@ export const K1: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
-    id: "gen-k-003",
     word: "Kaleidoscope",
     slug: "kaleidoscope",
     phonetic: "/kəˈlaɪ.də.skoʊp/",
@@ -122,7 +120,6 @@ export const K1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-k-008",
     word: "Keel",
     slug: "keel",
     phonetic: "/kiːl/",
@@ -135,7 +132,6 @@ export const K1: VocabularyWord[] = [
     categories: ["Travel", "Engineering"],
   },
   {
-    id: "gen-k-009",
     word: "Keen",
     slug: "keen",
     phonetic: "/kiːn/",
@@ -239,7 +235,6 @@ export const K1: VocabularyWord[] = [
     categories: ["Business", "Animals"],
   },
   {
-    id: "gen-k-010",
     word: "Keeping",
     slug: "keeping",
     phonetic: "/ˈkiː.pɪŋ/",
@@ -251,7 +246,6 @@ export const K1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    id: "gen-k-011",
     word: "Keepsake",
     slug: "keepsake",
     phonetic: "/ˈkiːp.seɪk/",
@@ -263,7 +257,6 @@ export const K1: VocabularyWord[] = [
     categories: ["General", "Emotions"],
   },
   {
-    id: "gen-k-012",
     word: "Keg",
     slug: "keg",
     phonetic: "/keɡ/",
@@ -299,7 +292,6 @@ export const K1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-k-013",
     word: "Kernel",
     slug: "kernel",
     phonetic: "/ˈkɝː.nəl/",
@@ -402,7 +394,6 @@ export const K1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-k-017",
     word: "Keyhole",
     slug: "keyhole",
     phonetic: "/ˈkiː.hoʊl/",
@@ -459,7 +450,6 @@ export const K1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-k-020",
     word: "Keystone",
     slug: "keystone",
     phonetic: "/ˈkiː.stoʊn/",
@@ -493,7 +483,6 @@ export const K1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-k-021",
     word: "Khan",
     slug: "khan",
     phonetic: "/kɑːn/",
@@ -528,7 +517,6 @@ export const K1: VocabularyWord[] = [
     categories: ["Sports", "Daily"],
   },
   {
-    id: "gen-k-022",
     word: "Kickback",
     slug: "kickback",
     phonetic: "/ˈkɪk.bæk/",
@@ -564,7 +552,6 @@ export const K1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-k-023",
     word: "Kickoff",
     slug: "kickoff",
     phonetic: "/ˈkɪk.ɑːf/",
@@ -576,7 +563,6 @@ export const K1: VocabularyWord[] = [
     categories: ["General", "Sports", "Business"],
   },
   {
-    id: "gen-k-024",
     word: "Kickstand",
     slug: "kickstand",
     phonetic: "/ˈkɪk.stænd/",
@@ -611,7 +597,6 @@ export const K1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-k-026",
     word: "Kidnapper",
     slug: "kidnapper",
     phonetic: "/ˈkɪd.næp.ɚ/",
@@ -668,7 +653,6 @@ export const K1: VocabularyWord[] = [
     categories: ["Safety", "Biology"],
   },
   {
-    id: "gen-k-029",
     word: "Killer",
     slug: "killer",
     phonetic: "/ˈkɪl.ɚ/",
@@ -680,7 +664,6 @@ export const K1: VocabularyWord[] = [
     categories: ["People", "Law"],
   },
   {
-    id: "gen-k-030",
     word: "Kiln",
     slug: "kiln",
     phonetic: "/kɪln/",
@@ -692,7 +675,6 @@ export const K1: VocabularyWord[] = [
     categories: ["Art", "Technology", "Construction"],
   },
   {
-    id: "gen-k-031",
     word: "Kilobyte",
     slug: "kilobyte",
     phonetic: "/ˈkɪl.ə.baɪt/",
@@ -715,7 +697,6 @@ export const K1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-k-032",
     word: "Kilowatt",
     slug: "kilowatt",
     phonetic: "/ˈkɪl.ə.wɑːt/",
@@ -727,7 +708,6 @@ export const K1: VocabularyWord[] = [
     categories: ["Technology", "Science"],
   },
   {
-    id: "gen-k-033",
     word: "Kin",
     slug: "kin",
     phonetic: "/kɪn/",
@@ -773,7 +753,6 @@ export const K1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-k-036",
     word: "Kindle",
     slug: "kindle",
     phonetic: "/ˈkɪn.dəl/",
@@ -842,7 +821,6 @@ export const K1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-k-039",
     word: "Kinematic",
     slug: "kinematic",
     phonetic: "/ˌkɪn.əˈmæt̬.ɪk/",
@@ -887,7 +865,6 @@ export const K1: VocabularyWord[] = [
     categories: ["History", "Geography"],
   },
   {
-    id: "gen-k-042",
     word: "Kingfisher",
     slug: "kingfisher",
     phonetic: "/ˈkɪŋˌfɪʃ.ɚ/",
@@ -899,7 +876,6 @@ export const K1: VocabularyWord[] = [
     categories: ["Animals", "Nature"],
   },
   {
-    id: "gen-k-043",
     word: "Kingpin",
     slug: "kingpin",
     phonetic: "/ˈkɪŋ.pɪn/",
@@ -1061,7 +1037,6 @@ export const K1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-k-050",
     word: "Knack",
     slug: "knack",
     phonetic: "/næk/",
@@ -1073,7 +1048,6 @@ export const K1: VocabularyWord[] = [
     categories: ["Psychology", "General"],
   },
   {
-    id: "gen-k-051",
     word: "Knapsack",
     slug: "knapsack",
     phonetic: "/ˈnæp.sæk/",
@@ -1108,7 +1082,6 @@ export const K1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-k-052",
     word: "Knead",
     slug: "knead",
     phonetic: "/niːd/",

@@ -70,7 +70,6 @@ export const K2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-k-055",
     word: "Knob",
     slug: "knob",
     phonetic: "/nɑːb/",

@@ -2,7 +2,6 @@ import { VocabularyWord } from "../../types";
 
 export const Q1: VocabularyWord[] = [
   {
-    id: "gen-q-001",
     word: "Quack",
     slug: "quack",
     phonetic: "/kwæk/",
@@ -26,7 +25,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-q-002",
     word: "Quad",
     slug: "quad",
     phonetic: "/kwɑːd/",
@@ -38,7 +36,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["Education", "Architecture"],
   },
   {
-    id: "gen-q-003",
     word: "Quadrangle",
     slug: "quadrangle",
     phonetic: "/ˈkwɑː.dræŋ.ɡəl/",
@@ -61,7 +58,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-q-005",
     word: "Quadratic",
     slug: "quadratic",
     phonetic: "/kwɑːˈdræt̬.ɪk/",
@@ -74,7 +70,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["Mathematics"],
   },
   {
-    id: "gen-q-006",
     word: "Quadrillion",
     slug: "quadrillion",
     phonetic: "/kwɑːˈdrɪl.jən/",
@@ -86,7 +81,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["Mathematics"],
   },
   {
-    id: "gen-q-007",
     word: "Quadruped",
     slug: "quadruped",
     phonetic: "/ˈkwɑː.drə.ped/",
@@ -98,7 +92,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["Animals", "Biology"],
   },
   {
-    id: "gen-q-008",
     word: "Quadruple",
     slug: "quadruple",
     phonetic: "/kwɑːˈdruː.pəl/",
@@ -110,7 +103,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["Mathematics", "Business"],
   },
   {
-    id: "gen-q-009",
     word: "Quadruplet",
     slug: "quadruplet",
     phonetic: "/kwɑːˈdruː.plət/",
@@ -167,7 +159,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-q-013",
     word: "Quaint",
     slug: "quaint",
     phonetic: "/kweɪnt/",
@@ -330,7 +321,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-q-023",
     word: "Quantifier",
     slug: "quantifier",
     phonetic: "/ˈkwɑːn.t̬ə.faɪ.ɚ/",
@@ -343,7 +333,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["Grammar", "Language"],
   },
   {
-    id: "gen-q-024",
     word: "Quantify",
     slug: "quantify",
     phonetic: "/ˈkwɑːn.t̬ə.faɪ/",
@@ -436,7 +425,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-q-031",
     word: "Quarry",
     slug: "quarry",
     phonetic: "/ˈkwɔːr.i/",
@@ -449,7 +437,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["Animals", "Geology", "Construction"],
   },
   {
-    id: "gen-q-032",
     word: "Quart",
     slug: "quart",
     phonetic: "/kwɔːrt/",
@@ -473,7 +460,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-q-034",
     word: "Quarterback",
     slug: "quarterback",
     phonetic: "/ˈkwɔːr.t̬ɚ.bæk/",
@@ -485,7 +471,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["Sports"],
   },
   {
-    id: "gen-q-035",
     word: "Quarterly",
     slug: "quarterly",
     phonetic: "/ˈkwɔːr.t̬ɚ.li/",
@@ -497,7 +482,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["Business", "Time"],
   },
   {
-    id: "gen-q-036",
     word: "Quartet",
     slug: "quartet",
     phonetic: "/kwɔːrˈtet/",
@@ -509,7 +493,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["Music", "Art", "Social"],
   },
   {
-    id: "gen-q-037",
     word: "Quartile",
     slug: "quartile",
     phonetic: "/ˈkwɔːr.taɪl/",
@@ -566,7 +549,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-q-042",
     word: "Quaver",
     slug: "quaver",
     phonetic: "/ˈkweɪ.vɚ/",
@@ -613,7 +595,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["Politics"],
   },
   {
-    id: "gen-q-046",
     word: "Queer",
     slug: "queer",
     phonetic: "/kwɪr/",
@@ -659,7 +640,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-q-050",
     word: "Query",
     slug: "query",
     phonetic: "/ˈkwɪr.i/",
@@ -672,7 +652,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["Technology", "Business"],
   },
   {
-    id: "gen-q-051",
     word: "Quest",
     slug: "quest",
     phonetic: "/kwest/",
@@ -695,7 +674,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-q-053",
     word: "Questionable",
     slug: "questionable",
     phonetic: "/ˈkwes.tʃə.nə.bəl/",
@@ -707,7 +685,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["Psychology", "Social"],
   },
   {
-    id: "gen-q-054",
     word: "Questionnaire",
     slug: "questionnaire",
     phonetic: "/ˌkwes.tʃəˈner/",
@@ -720,7 +697,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["Business", "Academic"],
   },
   {
-    id: "gen-q-055",
     word: "Queue",
     slug: "queue",
     phonetic: "/kjuː/",
@@ -754,7 +730,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-q-058",
     word: "Quicken",
     slug: "quicken",
     phonetic: "/ˈkwɪk.ən/",
@@ -766,7 +741,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-q-059",
     word: "Quickie",
     slug: "quickie",
     phonetic: "/ˈkwɪk.i/",
@@ -801,7 +775,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-q-061",
     word: "Quicksand",
     slug: "quicksand",
     phonetic: "/ˈkwɪk.sænd/",
@@ -814,7 +787,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["Nature", "Geology"],
   },
   {
-    id: "gen-q-062",
     word: "Quicksilver",
     slug: "quicksilver",
     phonetic: "/ˈkwɪkˌsɪl.vɚ/",
@@ -826,7 +798,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["Science", "Chemistry"],
   },
   {
-    id: "gen-q-063",
     word: "Quid",
     slug: "quid",
     phonetic: "/kwɪd/",
@@ -872,7 +843,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-q-067",
     word: "Quietly",
     slug: "quietly",
     phonetic: "/ˈkwaɪ.ət.li/",
@@ -884,7 +854,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-q-068",
     word: "Quietness",
     slug: "quietness",
     phonetic: "/ˈkwaɪ.ət.nəs/",
@@ -896,7 +865,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-q-069",
     word: "Quietude",
     slug: "quietude",
     phonetic: "/ˈkwaɪ.ə.tuːd/",
@@ -909,7 +877,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["General", "Psychology"],
   },
   {
-    id: "gen-q-070",
     word: "Quill",
     slug: "quill",
     phonetic: "/kwɪl/",
@@ -921,7 +888,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["History", "Art", "Animals"],
   },
   {
-    id: "gen-q-071",
     word: "Quilt",
     slug: "quilt",
     phonetic: "/kwɪlt/",
@@ -934,7 +900,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["Home", "Daily"],
   },
   {
-    id: "gen-q-072",
     word: "Quinine",
     slug: "quinine",
     phonetic: "/ˈkwaɪ.naɪn/",
@@ -947,7 +912,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["Medical", "Science"],
   },
   {
-    id: "gen-q-073",
     word: "Quintessence",
     slug: "quintessence",
     phonetic: "/kwɪnˈtes.əns/",
@@ -970,7 +934,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-q-075",
     word: "Quintet",
     slug: "quintet",
     phonetic: "/kwɪnˈtet/",
@@ -982,7 +945,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["Music", "Art", "Social"],
   },
   {
-    id: "gen-q-076",
     word: "Quintillion",
     slug: "quintillion",
     phonetic: "/kwɪnˈtɪl.jən/",
@@ -994,7 +956,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["Mathematics"],
   },
   {
-    id: "gen-q-077",
     word: "Quintuple",
     slug: "quintuple",
     phonetic: "/kwɪnˈtuː.pəl/",
@@ -1006,7 +967,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["Mathematics"],
   },
   {
-    id: "gen-q-078",
     word: "Quintuplet",
     slug: "quintuplet",
     phonetic: "/kwɪnˈtuː.plət/",
@@ -1018,7 +978,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["Family", "Medical"],
   },
   {
-    id: "gen-q-079",
     word: "Quip",
     slug: "quip",
     phonetic: "/kwɪp/",
@@ -1030,7 +989,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["General", "Literature"],
   },
   {
-    id: "gen-q-080",
     word: "Quirk",
     slug: "quirk",
     phonetic: "/kwɝːk/",
@@ -1042,7 +1000,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["Psychology", "General"],
   },
   {
-    id: "gen-q-081",
     word: "Quirky",
     slug: "quirky",
     phonetic: "/ˈkwɝː.ki/",
@@ -1076,7 +1033,6 @@ export const Q1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-q-084",
     word: "Quiver",
     slug: "quiver",
     phonetic: "/ˈkwɪv.ɚ/",

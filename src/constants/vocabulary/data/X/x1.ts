@@ -144,7 +144,6 @@ export const X1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-x-001",
     word: "Xanthic",
     slug: "xanthic",
     phonetic: "/ˈzæn.θɪk/",
@@ -819,7 +818,6 @@ export const X1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-x-004",
     word: "Xylem",
     slug: "xylem",
     phonetic: "/ˈzaɪ.ləm/",
@@ -891,7 +889,6 @@ export const X1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-x-005",
     word: "Xylitol",
     slug: "xylitol",
     phonetic: "/ˈzaɪ.lə.tɑːl/",
@@ -973,7 +970,6 @@ export const X1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    id: "gen-x-006",
     word: "Xylography",
     slug: "xylography",
     phonetic: "/zaɪˈlɑː.ɡrə.fi/",
