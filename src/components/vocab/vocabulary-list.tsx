@@ -21,7 +21,7 @@ import {
 import { Volume1, Volume2 } from "lucide-react";
 import { pronounceWord, pronounceWordSlow } from "@/lib/speech";
 import { Input } from "../ui/input";
-import { WordDetailDialog } from "./word-detail-dialog";
+import { WordDetailDialog } from "../word-detail-dialog";
 
 export function VocabularyList({ categorySlug }: { categorySlug?: string }) {
   const { getCachedState, saveCache } = useVocabCache();

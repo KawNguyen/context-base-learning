@@ -146,18 +146,6 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    word: "Significant",
-    slug: "significant",
-    phonetic: "/sɪɡˈnɪf.ə.kənt/",
-    partOfSpeech: "adj",
-    meaningEn:
-      "Sufficiently great or important to be worthy of attention; noteworthy.",
-    meaningVi: "Đáng kể, quan trọng.",
-    exampleEn: "There is a significant difference.",
-    exampleVi: "Có một sự khác biệt đáng kể.",
-    categories: ["Academic"],
-  },
-  {
     word: "Significantly",
     slug: "significantly",
     phonetic: "/sɪɡˈnɪf.ə.kənt.li/",

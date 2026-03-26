@@ -1,4 +1,4 @@
-import VocabularySearch from "@/components/vocab/vocabulary-search";
+import VocabularySearch from "@/components/vocabulary-search/vocabulary-search";
 
 export default function Page() {
   return <VocabularySearch />;

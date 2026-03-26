@@ -7,7 +7,9 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import { Badge } from "@/components/ui/badge";
-import { X } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { X, Volume1, Volume2 } from "lucide-react";
+import { speakWithRate } from "@/lib/speech";
 import { VocabularyWord } from "@/constants/vocabulary";
 
 interface WordDetailDialogProps {
@@ -23,6 +25,14 @@ export function WordDetailDialog({
 }: WordDetailDialogProps) {
   if (!word) return null;
 
+  const handleSpeakNormal = () => {
+    speakWithRate(word.word, 0.5, "en-US");
+  };
+
+  const handleSpeakFast = () => {
+    speakWithRate(word.word, 1.2, "en-US");
+  };
+
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto p-0 gap-0 border-0 rounded-lg shadow-xl">
@@ -36,13 +46,31 @@ export function WordDetailDialog({
               {word.phonetic}
             </p>
           </div>
-          <button
-            onClick={() => onOpenChange(false)}
-            className="inline-flex items-center justify-center w-8 h-8 rounded-md hover:bg-muted transition-colors text-foreground"
-          >
-            <X className="w-5 h-5" />
-            <span className="sr-only">Close</span>
-          </button>
+          <div className="flex items-center gap-2">
+            <Button
+              variant="outline"
+              size="icon"
+              onClick={handleSpeakNormal}
+              title="Speak normally"
+            >
+              <Volume1 className="h-4 w-4" />
+            </Button>
+            <Button
+              variant="outline"
+              size="icon"
+              onClick={handleSpeakFast}
+              title="Speak fast"
+            >
+              <Volume2 className="h-4 w-4" />
+            </Button>
+            <button
+              onClick={() => onOpenChange(false)}
+              className="inline-flex items-center justify-center w-8 h-8 rounded-md hover:bg-muted transition-colors text-foreground"
+            >
+              <X className="w-5 h-5" />
+              <span className="sr-only">Close</span>
+            </button>
+          </div>
         </div>
 
         <div className="px-6 py-6 space-y-6">
