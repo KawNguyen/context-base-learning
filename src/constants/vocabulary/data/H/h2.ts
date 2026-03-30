@@ -830,6 +830,19 @@ export const H2: VocabularyWord[] = [
     categories: ["Jobs", "Education"],
   },
   {
+    word: "Historical",
+    slug: "historical",
+    phonetic: "/hɪˈstɔːr.ɪ.kəl/",
+    partOfSpeech: "adjective",
+    meaningEn: "Of or concerning history.",
+    meaningVi: "Thuộc về lịch sử.",
+    exampleEn:
+      "The historical events of the 20th century shaped the modern world.",
+    exampleVi:
+      "Các sự kiện lịch sử của thế kỷ 20 đã định hình thế giới hiện đại.",
+    categories: ["General", "History"],
+  },
+  {
     word: "History",
     slug: "history",
     phonetic: "/ˈhɪs.tər.i/",

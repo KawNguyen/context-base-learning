@@ -25,6 +25,7 @@ import { W } from "./data/W";
 import { X } from "./data/X";
 import { Y } from "./data/Y";
 import { Z } from "./data/Z";
+import { CONTRACTIONS } from "./data/contractions";
 import { VocabularyWord } from "./types";
 
 export const AllVocabData: VocabularyWord[] = [
@@ -55,4 +56,5 @@ export const AllVocabData: VocabularyWord[] = [
   ...Y,
   ...Z,
   ...SPECIAL_VOCABULARY,
+  ...CONTRACTIONS,
 ];

@@ -739,6 +739,17 @@ export const E6: VocabularyWord[] = [
     categories: ["General", "Psychology"],
   },
   {
+    word: "Enthuse",
+    slug: "enthuse",
+    phonetic: "/ɪnˈθuːz/",
+    partOfSpeech: "verb",
+    meaningEn: "Express enthusiasm about something.",
+    meaningVi: "Thể hiện sự nhiệt tình về điều gì đó.",
+    exampleEn: "Enthuse about a new project.",
+    exampleVi: "Thể hiện sự nhiệt tình về một dự án mới.",
+    categories: ["General"],
+  },
+  {
     word: "Enthusiasm",
     slug: "enthusiasm",
     phonetic: "/ɪnˈθuː.zi.æz.əm/",

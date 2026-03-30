@@ -378,6 +378,17 @@ export const I1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Immerse",
+    slug: "immerse",
+    phonetic: "/ɪˈmɝːs/",
+    partOfSpeech: "verb",
+    meaningEn: "Submerge in liquid.",
+    meaningVi: "Nhúng vào nước/Ngâm mình/Đắm mình.",
+    exampleEn: "Immerse the vegetables in boiling water.",
+    exampleVi: "Nhúng rau củ vào nước sôi.",
+    categories: ["General"],
+  },
+  {
     word: "Immigrant",
     slug: "immigrant",
     phonetic: "/ˈɪm.ɪ.ɡrənt/",

@@ -927,6 +927,18 @@ export const C2: VocabularyWord[] = [
     categories: ["Social"],
   },
   {
+    word: "Celebratory",
+    slug: "celebratory",
+    phonetic: "/ˈsel.ə.brə.tɔːr.i/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Expressing happiness and pride, especially at an important event or occasion.",
+    meaningVi: "Để ăn mừng.",
+    exampleEn: "Celebratory speech.",
+    exampleVi: "Bài phát biểu để ăn mừng.",
+    categories: ["Social"],
+  },
+  {
     word: "Celebrity",
     slug: "celebrity",
     phonetic: "/səˈleb.rə.t̬i/",

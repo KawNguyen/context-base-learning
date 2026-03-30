@@ -184,6 +184,17 @@ export const V1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Valuably",
+    slug: "valuably",
+    phonetic: "/ˈvæl.ju.ə.bəl.i/",
+    partOfSpeech: "adverb",
+    meaningEn: "In a valuable manner.",
+    meaningVi: "Một cách có giá trị.",
+    exampleEn: "The painting is valuably preserved.",
+    exampleVi: "Bức tranh được bảo quản một cách có giá trị.",
+    categories: ["General"],
+  },
+  {
     word: "Valuation",
     slug: "valuation",
     phonetic: "/ˌvæl.juˈeɪ.ʃən/",

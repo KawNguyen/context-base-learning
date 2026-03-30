@@ -1,4 +1,4 @@
-export const STOP_WORDS = new Set([
+export const BASE_STOP_WORDS = [
   "i",
   "me",
   "my",
@@ -34,6 +34,8 @@ export const STOP_WORDS = new Set([
   "do",
   "does",
   "did",
+  "not",
+  "/",
 
   "name",
 
@@ -50,4 +52,6 @@ export const STOP_WORDS = new Set([
   "for",
   "with",
   "at",
-]);
+];
+
+export const STOP_WORDS = new Set([...BASE_STOP_WORDS]);

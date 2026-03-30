@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, XCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { InteractiveText } from "@/components/interactive-text";
 
 export type AnswerButtonVariant = "standard" | "compact";
 
@@ -78,26 +79,34 @@ export function AnswerButton({
 
   return (
     <Button
-      onClick={onClick}
-      disabled={disabled || isSubmitted}
+      onClick={() => {
+        if (isSubmitted) return;
+        onClick();
+      }}
+      disabled={disabled}
+      aria-disabled={isSubmitted || disabled}
       variant={getButtonVariant()}
       className={cn(
         "cursor-pointer",
         variantClasses[variant],
         getCustomClasses(),
-        isSubmitted && "cursor-not-allowed",
+        isSubmitted && "cursor-default opacity-90 hover:opacity-100",
         className,
       )}
     >
       <div className="flex items-center justify-between w-full gap-2">
-        <span className="flex items-center gap-2 flex-1">
+        <span className="flex items-center gap-2 flex-1 text-left">
           {label && <span className="font-semibold">{label}</span>}
           <span
             className={cn(
               variant === "standard" ? "font-normal" : "font-medium",
             )}
           >
-            {children}
+            {isSubmitted && typeof children === "string" ? (
+              <InteractiveText text={children} className="inline" as="span" />
+            ) : (
+              children
+            )}
           </span>
         </span>
         {showIcon && showAsCorrect && (

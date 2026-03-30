@@ -2,17 +2,12 @@
 
 import { Button } from "@/components/ui/button";
 import { ReadingPassage } from "@/constants/reading";
-import { useInteractiveText } from "@/hooks/use-interactive-text";
-import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
-import { Separator } from "../ui/separator";
-import { Badge } from "../ui/badge";
 import { Progress } from "../ui/progress";
 import CEFRBadge from "../cefr-badge";
 import { CEFRLevel } from "@/types";
 import { AnswerButton } from "@/components/answer-button";
 import { ExplanationAlert } from "@/components/explanation-alert";
-import { pronounceWord } from "@/lib/speech";
-import { Volume2 } from "lucide-react";
+import { InteractiveText } from "@/components/interactive-text";
 
 interface ReadingQuizProps {
   passage: ReadingPassage;
@@ -41,8 +36,6 @@ export function ReadingQuiz({
   onNextQuestion,
   onPreviousQuestion,
 }: ReadingQuizProps) {
-  const { words } = useInteractiveText(passage.passage);
-
   return (
     <div className="h-full">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -54,55 +47,7 @@ export function ReadingQuiz({
               <CEFRBadge level={level} />
             </div>
             <div className="flex-1 overflow-y-auto pr-2">
-              <p className="text-base leading-relaxed whitespace-pre-line">
-                {words.map((word, index) => {
-                  if (!word.isTranslatable) {
-                    return <span key={index}>{word.raw}</span>;
-                  }
-
-                  return (
-                    <Popover key={index}>
-                      <PopoverTrigger asChild>
-                        <span className="cursor-pointer hover:text-primary transition-colors underline">
-                          {word.raw}
-                        </span>
-                      </PopoverTrigger>
-
-                      <PopoverContent className="w-60 text-sm">
-                        <div className="flex items-center justify-between mb-1">
-                          <h4 className="text-base font-semibold">
-                            {word.normalized}
-                          </h4>
-                          <Badge variant={"outline"} className="text-xs">
-                            {word.word?.partOfSpeech || "Unknown"}
-                          </Badge>
-                        </div>
-                        <div className="flex items-center justify-between">
-                          <div className="text-sm text-muted-foreground">
-                            {word.word?.phonetic}
-                          </div>
-                          <Button
-                            variant="ghost"
-                            size="icon"
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              pronounceWord(word.normalized);
-                            }}
-                          >
-                            <Volume2 className="h-4 w-4" />
-                          </Button>
-                        </div>
-                        <Separator className="my-2" />
-                        <div className="text-sm text-muted-foreground">
-                          {word.word
-                            ? word.word.meaningVi
-                            : "No definition found."}
-                        </div>
-                      </PopoverContent>
-                    </Popover>
-                  );
-                })}
-              </p>
+              <InteractiveText text={passage.passage} />
             </div>
           </div>
         </div>
