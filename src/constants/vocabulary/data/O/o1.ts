@@ -712,6 +712,17 @@ export const O1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Offering",
+    slug: "offering",
+    phonetic: "/ˈɔː.fɚ.ɪŋ/",
+    partOfSpeech: "noun/verb",
+    meaningEn: "A thing offered, especially as a gift or contribution/Giving or providing something.",
+    meaningVi: "Lễ vật/Mang lại/Đem lại.",
+    exampleEn: "The church held a special offering for the charity.",
+    exampleVi: "Nhà thờ đã tổ chức một lễ vật đặc biệt cho tổ chức từ thiện.",
+    categories: ["General"],
+  },
+  {
     word: "Office",
     slug: "office",
     phonetic: "/ˈɑː.fɪs/",
