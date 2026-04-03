@@ -342,11 +342,13 @@ export const S3: VocabularyWord[] = [
     phonetic: "/ˈstræt.ə.dʒi/",
     partOfSpeech: "noun",
     meaningEn:
-      "A plan of action or policy designed to achieve a major or overall aim.",
-    meaningVi: "Chiến lược.",
-    exampleEn: "The company needs a new marketing strategy.",
-    exampleVi: "Công ty cần một chiến lược tiếp thị mới.",
-    categories: ["Business"],
+      "A long-term plan to achieve a goal; the skill of planning; a method of dealing with a situation.",
+    meaningVi: "Chiến lược; sự mưu lược; phương pháp hành động.",
+    exampleEn:
+      "A long-term business strategy / A survival strategy / Effective learning strategies.",
+    exampleVi:
+      "Một chiến lược kinh doanh dài hạn / Một chiến thuật sinh tồn / Các phương pháp học tập hiệu quả.",
+    categories: ["Business", "Education", "Military", "General"],
   },
   {
     word: "Streaming",
@@ -454,11 +456,13 @@ export const S3: VocabularyWord[] = [
     slug: "strive",
     phonetic: "/straɪv/",
     partOfSpeech: "verb",
-    meaningEn: "Make great efforts to achieve something.",
-    meaningVi: "Cố gắng hết sức để đạt được điều gì đó.",
-    exampleEn: "Strive for excellence.",
-    exampleVi: "Phấn đấu vì sự xuất sắc.",
-    categories: ["General"],
+    meaningEn: "To make great efforts; to struggle or fight to achieve a goal.",
+    meaningVi: "Phấn đấu; nỗ lực hết mình; đấu tranh (cho mục tiêu).",
+    exampleEn:
+      "Strive for success / Strive to improve / Strive against injustice.",
+    exampleVi:
+      "Phấn đấu để thành công / Nỗ lực để cải thiện / Đấu tranh chống lại sự bất công.",
+    categories: ["General", "Social", "Business"],
   },
   {
     word: "Stroke",

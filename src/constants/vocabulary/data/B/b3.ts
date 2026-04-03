@@ -337,6 +337,32 @@ export const B3: VocabularyWord[] = [
     categories: ["Medical"],
   },
   {
+    word: "Blood sugar levels",
+    slug: "blood-sugar-levels",
+    phonetic: "/blʌd ˈʃʊɡ.ɚ ˈlev.əlz/",
+    partOfSpeech: "noun (plural)",
+    meaningEn:
+      "The concentration of glucose in the blood; a key indicator of metabolic health.",
+    meaningVi: "Mức đường huyết; nồng độ đường trong máu.",
+    exampleEn:
+      "Maintaining stable blood sugar levels / A sudden drop in blood sugar levels.",
+    exampleVi:
+      "Duy trì mức đường huyết ổn định / Sự sụt giảm đột ngột nồng độ đường trong máu.",
+    categories: ["Medical", "Health", "Biology"],
+  },
+  {
+    word: "Blood type",
+    slug: "blood-type",
+    phonetic: "/ˈblʌd taɪp/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "A classification of blood based on the presence or absence of certain antigens.",
+    meaningVi: "Nhóm máu.",
+    exampleEn: "What is your blood type?",
+    exampleVi: "Nhóm máu của bạn là gì?",
+    categories: ["Medical"],
+  },
+  {
     word: "Blood pressure",
     slug: "blood-pressure",
     phonetic: "/blʌd ˈpreʃ.ər/",

@@ -940,10 +940,11 @@ export const M1: VocabularyWord[] = [
     slug: "merely",
     phonetic: "/ˈmɪr.li/",
     partOfSpeech: "adverb",
-    meaningEn: "Just; only.",
-    meaningVi: "Chỉ đơn thuần.",
-    exampleEn: "I was merely trying to help.",
-    exampleVi: "Tôi chỉ đơn thuần đang cố gắng giúp đỡ.",
+    meaningEn: "Just; only; nothing more than.",
+    meaningVi: "Chỉ đơn thuần; chẳng qua chỉ là; vẻn vẹn.",
+    exampleEn: "I was merely trying to help / He is merely a child.",
+    exampleVi:
+      "Tôi chỉ đơn thuần đang cố gắng giúp đỡ / Nó chẳng qua cũng chỉ là một đứa trẻ.",
     categories: ["General"],
   },
   {
@@ -990,6 +991,18 @@ export const M1: VocabularyWord[] = [
     meaningVi: "Thuộc về trao đổi chất.",
     exampleEn: "Metabolic rate.",
     exampleVi: "Tỷ lệ trao đổi chất.",
+    categories: ["Medical"],
+  },
+  {
+    word: "Metabolism",
+    slug: "metabolism",
+    phonetic: "/məˈtæb.ə.lɪ.zəm/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The chemical processes that occur within a living organism in order to maintain life.",
+    meaningVi: "Trao đổi chất.",
+    exampleEn: "Exercise can boost your metabolism.",
+    exampleVi: "Tập thể dục có thể tăng cường trao đổi chất của bạn.",
     categories: ["Medical"],
   },
   {

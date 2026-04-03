@@ -716,11 +716,12 @@ export const I2: VocabularyWord[] = [
     slug: "intense",
     phonetic: "/ɪnˈtens/",
     partOfSpeech: "adjective",
-    meaningEn: "Of extreme force or degree.",
-    meaningVi: "Mãnh liệt.",
-    exampleEn: "Intense heat.",
-    exampleVi: "Nhiệt độ cao.",
-    categories: ["General"],
+    meaningEn:
+      "Extreme in degree; involving great effort; having very strong feelings.",
+    meaningVi: "Dữ dội (mãnh liệt); cao độ; sâu sắc (quyết liệt).",
+    exampleEn: "Intense heat / Intense pressure / Intense focus.",
+    exampleVi: "Nắng nóng gay gắt / Áp lực nặng nề / Sự tập trung cao độ.",
+    categories: ["General", "Psychology", "Sports"],
   },
   {
     word: "Intention",

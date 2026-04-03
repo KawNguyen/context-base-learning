@@ -748,23 +748,29 @@ export const A1: VocabularyWord[] = [
     word: "Adequate",
     slug: "adequate",
     phonetic: "/ˈæd.ɪ.kwət/",
-    partOfSpeech: "adj",
-    meaningEn: "Satisfactory or acceptable in quality or quantity.",
-    meaningVi: "Đầy đủ, thỏa đáng.",
-    exampleEn: "Adequate resources.",
-    exampleVi: "Đầy đủ nguồn lực.",
-    categories: ["Daily"],
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Sufficient for a specific requirement; good enough but not excellent.",
+    meaningVi: "Đầy đủ; thỏa đáng; tương xứng.",
+    exampleEn:
+      "Adequate water supply / An adequate income / Adequate protection.",
+    exampleVi:
+      "Nguồn cung cấp nước đầy đủ / Mức thu nhập thỏa đáng / Sự bảo vệ tương xứng.",
+    categories: ["Daily", "Business"],
   },
   {
     word: "Adequately",
     slug: "adequately",
     phonetic: "/ˈæd.ə.kwət.li/",
     partOfSpeech: "adverb",
-    meaningEn: "To a satisfactory or acceptable extent.",
-    meaningVi: "Một cách đầy đủ.",
-    exampleEn: "Be adequately prepared.",
-    exampleVi: "Được chuẩn bị đầy đủ.",
-    categories: ["General"],
+    meaningEn:
+      "In a way that is enough or satisfactory for a particular purpose.",
+    meaningVi: "Một cách thỏa đáng; đầy đủ; thích đáng.",
+    exampleEn:
+      "To be adequately compensated / Are we adequately staffed? / Explained adequately.",
+    exampleVi:
+      "Được bồi thường thỏa đáng / Chúng ta có đủ nhân viên không? / Được giải thích đầy đủ.",
+    categories: ["General", "Business"],
   },
   {
     word: "Adhere",

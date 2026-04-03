@@ -85,11 +85,14 @@ export const L1: VocabularyWord[] = [
     slug: "laden",
     phonetic: "/ˈleɪ.dən/",
     partOfSpeech: "adjective",
-    meaningEn: "Heavily loaded or weighed down.",
-    meaningVi: "Chất đầy/Đầy ắp.",
-    exampleEn: "The truck was laden with goods.",
-    exampleVi: "Chiếc xe tải chất đầy hàng hóa.",
-    categories: ["General"],
+    meaningEn:
+      "Heavily loaded; weighed down by something; filled with something (often negative).",
+    meaningVi: "Chất đầy; trĩu nặng; chứa đầy (thứ không tốt).",
+    exampleEn:
+      "A table laden with food / A mind laden with worries / Guilt-laden conscience.",
+    exampleVi:
+      "Bàn tiệc đầy ắp thức ăn / Tâm trí nặng trĩu lo âu / Lương tâm đầy tội lỗi.",
+    categories: ["General", "Literature", "Food & Drink"],
   },
   {
     word: "Lady",

@@ -844,10 +844,13 @@ export const R1: VocabularyWord[] = [
     slug: "remain",
     phonetic: "/rɪˈmeɪn/",
     partOfSpeech: "verb",
-    meaningEn: "Continue to exist.",
-    meaningVi: "Còn lại.",
-    exampleEn: "Remain calm.",
-    exampleVi: "Giữ bình tĩnh.",
+    meaningEn:
+      "To stay in a specific state; to be left over; to stay in a place.",
+    meaningVi: "Duy trì (trạng thái); còn lại; ở lại.",
+    exampleEn:
+      "Remain calm / Very little remains of the old castle / Please remain in your seats.",
+    exampleVi:
+      "Giữ bình tĩnh / Những gì còn sót lại của tòa lâu đài cũ rất ít / Vui lòng ngồi yên tại chỗ.",
     categories: ["General"],
   },
   {

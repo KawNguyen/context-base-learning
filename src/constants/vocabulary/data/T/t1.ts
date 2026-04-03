@@ -391,11 +391,13 @@ export const T1: VocabularyWord[] = [
     slug: "temporary",
     phonetic: "/ˈtem.pə.rer.i/",
     partOfSpeech: "adjective",
-    meaningEn: "Lasting for a limited time.",
-    meaningVi: "Tạm thời.",
-    exampleEn: "A temporary solution.",
-    exampleVi: "Một giải pháp tạm thời.",
-    categories: ["General"],
+    meaningEn:
+      "Lasting for a limited period; not permanent; intended for short-term use.",
+    meaningVi: "Tạm thời; nhất thời; lâm thời.",
+    exampleEn:
+      "Temporary relief / A temporary bridge / Temporary loss of memory.",
+    exampleVi: "Sự nhẹ nhõm nhất thời / Cây cầu tạm / Mất trí nhớ tạm thời.",
+    categories: ["General", "Business", "Medical"],
   },
   {
     word: "Ten",

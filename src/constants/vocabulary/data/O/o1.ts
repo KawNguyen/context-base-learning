@@ -1068,11 +1068,14 @@ export const O1: VocabularyWord[] = [
     slug: "optimize",
     phonetic: "/ˈɑːp.tɪ.maɪz/",
     partOfSpeech: "verb",
-    meaningEn: "Make the best or most effective use of.",
-    meaningVi: "Tối ưu hóa.",
-    exampleEn: "Optimize your workflow.",
-    exampleVi: "Tối ưu hóa quy trình làm việc của bạn.",
-    categories: ["General", "Business"],
+    meaningEn:
+      "To make the best use of something; to improve efficiency to the highest level.",
+    meaningVi: "Tối ưu hóa; tận dụng tối đa; cải thiện hiệu suất.",
+    exampleEn:
+      "Optimize a website for SEO / Optimize your health through diet / To optimize production.",
+    exampleVi:
+      "Tối ưu hóa website cho SEO / Tối ưu hóa sức khỏe thông qua chế độ ăn / Tối ưu hóa sản xuất.",
+    categories: ["Business", "Technology", "Health"],
   },
   {
     word: "Optionality",

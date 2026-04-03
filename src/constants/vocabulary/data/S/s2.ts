@@ -826,11 +826,13 @@ export const S2: VocabularyWord[] = [
     slug: "solely",
     phonetic: "/ˈsoʊl.li/",
     partOfSpeech: "adverb",
-    meaningEn: "Only and exclusively.",
-    meaningVi: "Chỉ và duy nhất.",
-    exampleEn: "She is solely responsible for the project.",
-    exampleVi: "Cô ấy hoàn toàn chịu trách nhiệm về dự án.",
-    categories: ["General"],
+    meaningEn: "Only and exclusively; completely; without others.",
+    meaningVi: "Duy nhất; hoàn toàn; độc nhất.",
+    exampleEn:
+      "She is solely responsible / Based solely on facts / Solely because of you.",
+    exampleVi:
+      "Cô ấy chịu trách nhiệm duy nhất / Chỉ dựa hoàn toàn trên sự thật / Chỉ duy nhất vì bạn.",
+    categories: ["General", "Business"],
   },
   {
     word: "Solid",

@@ -65,11 +65,13 @@ export const C1: VocabularyWord[] = [
     phonetic: "/ˌkɑːr.bəˈhaɪdreɪt/",
     partOfSpeech: "noun",
     meaningEn:
-      "A type of organic compound that serves as a primary source of energy for living organisms.",
-    meaningVi: "Carbohydrate.",
-    exampleEn: "Fruits are a good source of carbohydrates.",
-    exampleVi: "Trái cây là nguồn cung cấp carbohydrate tốt.",
-    categories: ["Science", "Food & Drink"],
+      "Organic compounds (sugars, starches, fibers) that provide energy.",
+    meaningVi: "Tinh bột (nhóm bột đường); Carbohydrate.",
+    exampleEn:
+      "Complex carbohydrates provide long-lasting energy / Cut down on refined carbohydrates.",
+    exampleVi:
+      "Tinh bột phức hợp cung cấp năng lượng bền bỉ / Cắt giảm lượng tinh bột tinh luyện.",
+    categories: ["Science", "Health", "Food & Drink"],
   },
   {
     word: "Cache",

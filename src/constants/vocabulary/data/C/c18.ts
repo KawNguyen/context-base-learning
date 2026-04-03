@@ -1081,11 +1081,13 @@ export const C18: VocabularyWord[] = [
     slug: "critical",
     phonetic: "/ˈkrɪt.ɪ.kəl/",
     partOfSpeech: "adjective",
-    meaningEn: "Expressing adverse or disapproving comments.",
-    meaningVi: "Phê bình, quan trọng.",
-    exampleEn: "This is a critical moment.",
-    exampleVi: "Đây là thời điểm quan trọng.",
-    categories: ["General"],
+    meaningEn:
+      "Disapproving; extremely important; related to objective analysis.",
+    meaningVi: "Chỉ trích; then chốt, quan trọng (nguy kịch); phản biện.",
+    exampleEn: "A critical report / A critical decision / Critical thinking.",
+    exampleVi:
+      "Một bản báo cáo đầy chỉ trích / Một quyết định then chốt / Tư duy phản biện.",
+    categories: ["General", "Health", "Education"],
   },
   {
     word: "Critically",

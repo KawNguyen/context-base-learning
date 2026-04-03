@@ -432,11 +432,14 @@ export const V1: VocabularyWord[] = [
     slug: "variety",
     phonetic: "/vəˈraɪ.ə.t̬i/",
     partOfSpeech: "noun",
-    meaningEn: "The quality or state of being different or diverse.",
-    meaningVi: "Sự đa dạng.",
-    exampleEn: "The shop sells a large variety of organic fruits.",
-    exampleVi: "Cửa hàng bán rất nhiều sự đa dạng các loại trái cây hữu cơ.",
-    categories: ["General"],
+    meaningEn:
+      "The quality of being diverse; a particular type or sort; a type of entertainment.",
+    meaningVi: "Sự đa dạng; loại (giống); tạp kỹ.",
+    exampleEn:
+      "A huge variety of dishes / Different varieties of apples / A variety show.",
+    exampleVi:
+      "Rất nhiều món ăn đa dạng / Các giống táo khác nhau / Một chương trình tạp kỹ.",
+    categories: ["General", "Nature", "Entertainment"],
   },
   {
     word: "Various",

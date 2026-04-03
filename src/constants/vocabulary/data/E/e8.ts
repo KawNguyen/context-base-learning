@@ -6,11 +6,13 @@ export const E8: VocabularyWord[] = [
     slug: "essential",
     phonetic: "/ɪˈsen.ʃəl/",
     partOfSpeech: "adjective",
-    meaningEn: "Absolutely necessary; extremely important.",
-    meaningVi: "Thiết yếu.",
-    exampleEn: "Water is essential.",
-    exampleVi: "Nước là thiết yếu.",
-    categories: ["General"],
+    meaningEn:
+      "Absolutely necessary; fundamental; (biologically) not produced by the body.",
+    meaningVi: "Thiết yếu; cốt yếu; thuộc về bản chất.",
+    exampleEn: "Fresh air is essential / Essential oils / Essential nutrients.",
+    exampleVi:
+      "Không khí trong lành là thiết yếu / Tinh dầu / Các dưỡng chất thiết yếu.",
+    categories: ["General", "Health", "Science"],
   },
   {
     word: "Essentially",

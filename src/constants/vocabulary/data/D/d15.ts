@@ -373,11 +373,14 @@ export const D15: VocabularyWord[] = [
     slug: "diverse",
     phonetic: "/daɪˈvɜːrs/",
     partOfSpeech: "adjective",
-    meaningEn: "Showing a great deal of variety; very different.",
-    meaningVi: "Đa dạng.",
-    exampleEn: "New York is a very diverse city.",
-    exampleVi: "New York là một thành phố rất đa dạng.",
-    categories: ["Social"],
+    meaningEn:
+      "Including many different types; very different from each other.",
+    meaningVi: "Đa dạng; phong phú; khác biệt rõ rệt.",
+    exampleEn:
+      "A diverse workforce / Diverse interests / People from diverse backgrounds.",
+    exampleVi:
+      "Lực lượng lao động đa dạng / Những sở thích phong phú / Những người từ các tầng lớp khác nhau.",
+    categories: ["Social", "Business", "Nature"],
   },
   {
     word: "Diversely",

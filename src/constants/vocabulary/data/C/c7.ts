@@ -205,11 +205,13 @@ export const C7: VocabularyWord[] = [
     phonetic: "/ˈkɑːɡ.nə.tɪv/",
     partOfSpeech: "adjective",
     meaningEn:
-      "Relating to cognition (the mental action or process of acquiring knowledge).",
-    meaningVi: "Liên quan đến nhận thức.",
-    exampleEn: "Cognitive development is important in childhood.",
-    exampleVi: "Phát triển nhận thức rất quan trọng trong thời thơ ấu.",
-    categories: ["Medical"],
+      "Related to mental processes like thinking, learning, and memory.",
+    meaningVi: "Thuộc về nhận thức; liên quan đến tư duy/trí nhớ.",
+    exampleEn:
+      "Cognitive therapy / Cognitive overload / A child's cognitive growth.",
+    exampleVi:
+      "Liệu pháp nhận thức / Quá tải nhận thức / Sự phát triển trí tuệ của trẻ em.",
+    categories: ["Medical", "Psychology", "Education"],
   },
   {
     word: "Cognizant",

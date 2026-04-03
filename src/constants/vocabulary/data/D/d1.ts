@@ -1062,11 +1062,13 @@ export const D1: VocabularyWord[] = [
     slug: "daunt",
     phonetic: "/dɔːnt/",
     partOfSpeech: "verb",
-    meaningEn: "Make (someone) feel intimidated or apprehensive.",
-    meaningVi: "Làm nản lòng/Làm nao núng.",
-    exampleEn: "Nothing could daunt him.",
-    exampleVi: "Không gì có thể làm anh ta nao núng.",
-    categories: ["Psychology", "General"],
+    meaningEn:
+      "To make someone feel intimidated or less confident about a task.",
+    meaningVi: "Làm nản lòng; làm nao núng; dọa sợ.",
+    exampleEn: "She was not daunted by the challenge / A daunting prospect.",
+    exampleVi:
+      "Cô ấy không hề nao núng trước thử thách / Một viễn cảnh gây nản lòng.",
+    categories: ["Psychology", "General", "Academic"],
   },
   {
     word: "Daunting",

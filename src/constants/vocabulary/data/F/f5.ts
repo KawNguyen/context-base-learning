@@ -1024,7 +1024,7 @@ export const F5: VocabularyWord[] = [
     phonetic: "/ˈfjuː.əl/",
     partOfSpeech: "noun/verb",
     meaningEn: "Material used to produce heat or power; to supply with fuel.",
-    meaningVi: "Nhiên liệu/Cung cấp nhiên liệu.",
+    meaningVi: "Nhiên liệu/Cung cấp nhiên liệu/Năng lượng.",
     exampleEn: "The car runs on fuel.",
     exampleVi: "Chiếc xe chạy bằng nhiên liệu.",
     categories: ["Energy", "Transportation"],

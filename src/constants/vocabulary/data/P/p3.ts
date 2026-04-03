@@ -28,11 +28,13 @@ export const P3: VocabularyWord[] = [
     slug: "productive",
     phonetic: "/ˈprɑː.dʌk.tɪv/",
     partOfSpeech: "adjective",
-    meaningEn: "Producing or capable of producing a large amount of something.",
-    meaningVi: "Hiệu quả, sinh lợi.",
-    exampleEn: "A productive day.",
-    exampleVi: "Một ngày làm việc hiệu quả.",
-    categories: ["Business"],
+    meaningEn: "Achieving a lot; producing high yields; useful or positive.",
+    meaningVi: "Năng suất (hiệu quả); màu mỡ; có tính xây dựng.",
+    exampleEn:
+      "A productive day / Productive farmland / A productive dialogue.",
+    exampleVi:
+      "Một ngày làm việc năng suất / Đất canh tác màu mỡ / Một cuộc đối thoại có tính xây dựng.",
+    categories: ["Business", "Agriculture"],
   },
   {
     word: "Profession",
@@ -370,6 +372,18 @@ export const P3: VocabularyWord[] = [
     exampleEn: "Need protection.",
     exampleVi: "Cần sự bảo vệ.",
     categories: ["General"],
+  },
+  {
+    word: "Protein",
+    slug: "protein",
+    phonetic: "/ˈproʊ.ti.n/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "A substance essential for the growth and repair of body tissues.",
+    meaningVi: "Chất đạm.",
+    exampleEn: "Eggs are a good source of protein.",
+    exampleVi: "Trứng là nguồn cung cấp chất đạm tốt.",
+    categories: ["Food & Drink"],
   },
   {
     word: "Protocol",

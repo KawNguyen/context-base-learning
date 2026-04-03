@@ -575,6 +575,17 @@ export const K1: VocabularyWord[] = [
     categories: ["Travel"],
   },
   {
+    word: "Kickstart",
+    slug: "kickstart",
+    phonetic: "/ˈkɪk.stɑːrt/",
+    partOfSpeech: "verb",
+    meaningEn: "To initiate or stimulate the beginning of something.",
+    meaningVi: "Khởi động; thúc đẩy.",
+    exampleEn: "The new policy will kickstart the economic recovery.",
+    exampleVi: "Chính sách mới sẽ khởi động quá trình phục hồi kinh tế.",
+    categories: ["General"],
+  },
+  {
     word: "Kid",
     slug: "kid",
     phonetic: "/kɪd/",
