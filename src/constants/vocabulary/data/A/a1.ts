@@ -259,6 +259,17 @@ export const A1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Accomplishment",
+    slug: "accomplishment",
+    phonetic: "/əˈkɑːm.plɪʃ.mənt/",
+    partOfSpeech: "noun",
+    meaningEn: "An act of accomplishing something.",
+    meaningVi: "Sự hoàn thành.",
+    exampleEn: "His greatest accomplishment was graduating from college.",
+    exampleVi: "Thành tựu lớn nhất của anh ấy là tốt nghiệp đại học.",
+    categories: ["General"],
+  },
+  {
     word: "According",
     slug: "according",
     phonetic: "/əˈkɔːr.dɪŋ/",
@@ -708,6 +719,18 @@ export const A1: VocabularyWord[] = [
     exampleEn: "Additionally, inform them.",
     exampleVi: "Thêm vào đó, hãy thông báo cho họ.",
     categories: ["General"],
+  },
+  {
+    word: "Additive",
+    slug: "additive",
+    phonetic: "/ˈæd.ɪ.tɪv/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "A substance added to something in small quantities, typically to improve or preserve it.",
+    meaningVi: "Chất phụ gia.",
+    exampleEn: "Food additives.",
+    exampleVi: "Chất phụ gia thực phẩm.",
+    categories: ["Food & Drink", "Science"],
   },
   {
     word: "Address",

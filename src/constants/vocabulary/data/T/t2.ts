@@ -414,6 +414,17 @@ export const T2: VocabularyWord[] = [
     categories: ["Travel", "General"],
   },
   {
+    word: "Trail",
+    slug: "trail",
+    phonetic: "/treɪl/",
+    partOfSpeech: "noun",
+    meaningEn: "A path through a forest or mountainous region.",
+    meaningVi: "Đường mòn.",
+    exampleEn: "Hiking trail.",
+    exampleVi: "Đường mòn đi bộ.",
+    categories: ["Travel", "General"],
+  },
+  {
     word: "Trainer",
     slug: "trainer",
     phonetic: "/ˈtreɪ.nɚ/",
@@ -572,7 +583,7 @@ export const T2: VocabularyWord[] = [
   },
   {
     word: "Transportation",
-    slug: "Transportation",
+    slug: "transportation",
     phonetic: "/ˈtræn.spɔːrt/",
     partOfSpeech: "noun/verb",
     meaningEn: "The action of carrying goods or people.",
@@ -1070,6 +1081,18 @@ export const T2: VocabularyWord[] = [
     meaningVi: "Điển hình.",
     exampleEn: "A typical day.",
     exampleVi: "Một ngày điển hình.",
+    categories: ["Daily"],
+  },
+  {
+    word: "Typically",
+    slug: "typically",
+    phonetic: "/ˈtɪp.ɪ.kli/",
+    partOfSpeech: "adverb",
+    meaningEn:
+      "In a way that is characteristic of a particular person or thing.",
+    meaningVi: "Thông thường.",
+    exampleEn: "Typically, I have breakfast at 7 am.",
+    exampleVi: "Thông thường, tôi ăn sáng lúc 7 giờ sáng.",
     categories: ["Daily"],
   },
 ];

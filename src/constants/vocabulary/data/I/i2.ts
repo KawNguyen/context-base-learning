@@ -162,6 +162,17 @@ export const I2: VocabularyWord[] = [
     categories: ["Academic"],
   },
   {
+    word: "Inherently",
+    slug: "inherently",
+    phonetic: "/ɪnˈhɪr.ənt.li/",
+    partOfSpeech: "adverb",
+    meaningEn: "In a way that is permanent, essential, or characteristic.",
+    meaningVi: "Một cách vốn có, cố hữu.",
+    exampleEn: "Inherently dangerous activities.",
+    exampleVi: "Các hoạt động vốn dĩ nguy hiểm.",
+    categories: ["Academic"],
+  },
+  {
     word: "Inherit",
     slug: "inherit",
     phonetic: "/ɪnˈher.ɪt/",
@@ -553,6 +564,19 @@ export const I2: VocabularyWord[] = [
     categories: ["Music", "Science"],
   },
   {
+    word: "Instrumental",
+    slug: "instrumental",
+    phonetic: "/ˌɪn.strəˈmen.təl/",
+    partOfSpeech: "adj",
+    meaningEn: "Serving as a means of pursuing an aim or policy.",
+    meaningVi:
+      "Có tính công cụ; có tính chất hỗ trợ, đóng vai trò quan trọng, then chốt",
+    exampleEn: "The policy was instrumental in reducing crime.",
+    exampleVi:
+      "Chính sách đã đóng vai trò quan trọng trong việc giảm tội phạm.",
+    categories: ["Politics", "Business"],
+  },
+  {
     word: "Insurance",
     slug: "insurance",
     phonetic: "/ɪnˈʃʊr.əns/",
@@ -563,6 +587,29 @@ export const I2: VocabularyWord[] = [
     exampleEn: "Health insurance.",
     exampleVi: "Bảo hiểm y tế.",
     categories: ["Business", "Finance"],
+  },
+  {
+    word: "Intake",
+    slug: "intake",
+    phonetic: "/ˈɪn.teɪk/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The amount of food, air, or another substance taken into the body.",
+    meaningVi: "Lượng tiêu thụ.",
+    exampleEn: "Daily calorie intake.",
+    exampleVi: "Lượng calo tiêu thụ hàng ngày.",
+    categories: ["Body", "Science", "Health"],
+  },
+  {
+    word: "Intangible",
+    slug: "intangible",
+    phonetic: "/ɪnˈtæn.dʒə.bəl/",
+    partOfSpeech: "adj",
+    meaningEn: "Unable to be touched or grasped; not having physical presence.",
+    meaningVi: "Vô hình; không thể sờ thấy.",
+    exampleEn: "Intangible assets like brand reputation.",
+    exampleVi: "Tài sản vô hình như uy tín thương hiệu.",
+    categories: ["Business", "Technology"],
   },
   {
     word: "Integer",

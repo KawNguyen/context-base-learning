@@ -50,20 +50,29 @@ export function useInteractiveText(text: string) {
       chunks[i + 1].trim() === "" &&
       chunks[i + 3].trim() === ""
     ) {
-      const threeWords = [chunks[i], chunks[i + 2], chunks[i + 4]].map((w) => {
-        const clean = w.replace(/[.,!?;:'"()\[\]{}]/g, "").toLowerCase();
-        const singular = singularize(clean);
-        return lemmatize(singular);
-      });
-      const threeWordSlug = threeWords.join("-");
-      const threeWordMatch = AllVocabData.find(
-        (vocab) => vocab.slug === threeWordSlug,
+      const w1 = chunks[i].replace(/[.,!?;:'"()\[\]{}]/g, "").toLowerCase();
+      const w2 = chunks[i + 2].replace(/[.,!?;:'"()\[\]{}]/g, "").toLowerCase();
+      const w3 = chunks[i + 4].replace(/[.,!?;:'"()\[\]{}]/g, "").toLowerCase();
+
+      const l1 = lemmatize(singularize(w1));
+      const l2 = lemmatize(singularize(w2));
+      const l3 = lemmatize(singularize(w3));
+
+      // Common cases: Exact match, completely lemmatized, or only the last word lemmatized (for plurals like "sparkling waters" -> "sparkling water")
+      const candidateSlugs = [
+        `${w1}-${w2}-${w3}`,
+        `${l1}-${l2}-${l3}`,
+        `${w1}-${w2}-${l3}`, // Only last word lemmatized
+      ];
+
+      const threeWordMatch = AllVocabData.find((vocab) =>
+        candidateSlugs.includes(vocab.slug),
       );
 
       if (threeWordMatch) {
         words.push({
           raw: chunks.slice(i, i + 5).join(""),
-          normalized: threeWordSlug,
+          normalized: threeWordMatch.slug,
           isTranslatable: true,
           isSpace: false,
           isProperNoun: false,
@@ -76,20 +85,26 @@ export function useInteractiveText(text: string) {
 
     // Try 2-word phrase if 3-word didn't match
     if (!matched && i + 2 < chunks.length && chunks[i + 1].trim() === "") {
-      const twoWords = [chunks[i], chunks[i + 2]].map((w) => {
-        const clean = w.replace(/[.,!?;:'"()\[\]{}]/g, "").toLowerCase();
-        const singular = singularize(clean);
-        return lemmatize(singular);
-      });
-      const twoWordSlug = twoWords.join("-");
-      const twoWordMatch = AllVocabData.find(
-        (vocab) => vocab.slug === twoWordSlug,
+      const w1 = chunks[i].replace(/[.,!?;:'"()\[\]{}]/g, "").toLowerCase();
+      const w2 = chunks[i + 2].replace(/[.,!?;:'"()\[\]{}]/g, "").toLowerCase();
+
+      const l1 = lemmatize(singularize(w1));
+      const l2 = lemmatize(singularize(w2));
+
+      const candidateSlugs = [
+        `${w1}-${w2}`,
+        `${l1}-${l2}`,
+        `${w1}-${l2}`, // Only last word lemmatized
+      ];
+
+      const twoWordMatch = AllVocabData.find((vocab) =>
+        candidateSlugs.includes(vocab.slug),
       );
 
       if (twoWordMatch) {
         words.push({
           raw: chunks.slice(i, i + 3).join(""),
-          normalized: twoWordSlug,
+          normalized: twoWordMatch.slug,
           isTranslatable: true,
           isSpace: false,
           isProperNoun: false,

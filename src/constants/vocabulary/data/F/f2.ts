@@ -62,7 +62,7 @@ export const F2: VocabularyWord[] = [
     phonetic: "/fæt/",
     partOfSpeech: "adjective/noun",
     meaningEn: "Having a large amount of excess flesh.",
-    meaningVi: "Mập.",
+    meaningVi: "Mập/Chất béo.",
     exampleEn: "He is fat.",
     exampleVi: "Anh ấy mập.",
     categories: ["General"],

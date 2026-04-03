@@ -644,6 +644,17 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Themselves",
+    slug: "themselves",
+    phonetic: "/ðemˈselvz/",
+    partOfSpeech: "pronoun",
+    meaningEn: "Used to refer to people.",
+    meaningVi: "Họ tự họ.",
+    exampleEn: "They did it themselves.",
+    exampleVi: "Họ đã làm điều đó tự họ.",
+    categories: ["General"],
+  },
+  {
     word: "Theme",
     slug: "theme",
     phonetic: "/θiːm/",

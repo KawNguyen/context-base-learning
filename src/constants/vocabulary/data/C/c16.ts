@@ -411,6 +411,17 @@ export const C16: VocabularyWord[] = [
     categories: ["Daily", "General", "Business"],
   },
   {
+    word: "Counterproductive",
+    slug: "counterproductive",
+    phonetic: "/ˌkaʊn.t̬ɚprəˈdʌk.tɪv/",
+    partOfSpeech: "adjective",
+    meaningEn: "Having the opposite of the desired effect.",
+    meaningVi: "Ngược lại với mong muốn.",
+    exampleEn: "Counterproductive policies.",
+    exampleVi: "Chính sách ngược chiều mong muốn.",
+    categories: ["General", "Business"],
+  },
+  {
     word: "Counter-attack",
     slug: "counter-attack",
     phonetic: "/ˈkaʊn.t̬ɚ.ə.tæk/",

@@ -81,6 +81,17 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Laden",
+    slug: "laden",
+    phonetic: "/ˈleɪ.dən/",
+    partOfSpeech: "adjective",
+    meaningEn: "Heavily loaded or weighed down.",
+    meaningVi: "Chất đầy/Đầy ắp.",
+    exampleEn: "The truck was laden with goods.",
+    exampleVi: "Chiếc xe tải chất đầy hàng hóa.",
+    categories: ["General"],
+  },
+  {
     word: "Lady",
     slug: "lady",
     phonetic: "/ˈleɪ.di/",

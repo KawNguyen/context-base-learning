@@ -1069,6 +1069,17 @@ export const D1: VocabularyWord[] = [
     categories: ["Psychology", "General"],
   },
   {
+    word: "Daunting",
+    slug: "daunting",
+    phonetic: "/ˈdɔːntɪŋ/",
+    partOfSpeech: "adjective",
+    meaningEn: "Intimidating; causing fear or apprehension.",
+    meaningVi: "Gây sợ hãi/Gây nản lòng.",
+    exampleEn: "A daunting task.",
+    exampleVi: "Một nhiệm vụ đáng sợ.",
+    categories: ["Psychology", "General"],
+  },
+  {
     word: "Dauntless",
     slug: "dauntless",
     phonetic: "/ˈdɔːnt.ləs/",

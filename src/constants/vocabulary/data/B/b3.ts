@@ -551,6 +551,17 @@ export const B3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Bodily",
+    slug: "bodily",
+    phonetic: "/ˈbɑː.dɪ.li/",
+    partOfSpeech: "adjective",
+    meaningEn: "Relating to the body.",
+    meaningVi: "Thuộc về cơ thể.",
+    exampleEn: "Bodily functions.",
+    exampleVi: "Các chức năng của cơ thể.",
+    categories: ["Medical"],
+  },
+  {
     word: "Boil",
     slug: "boil",
     phonetic: "/bɔɪl/",

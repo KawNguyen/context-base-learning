@@ -176,7 +176,7 @@ export const V1: VocabularyWord[] = [
     word: "Valuable",
     slug: "valuable",
     phonetic: "/ˈvæl.ju.ə.bəl/",
-    partOfSpeech: "noun",
+    partOfSpeech: "adjective",
     meaningEn: "Worth a great deal of money.",
     meaningVi: "Có giá trị.",
     exampleEn: "The museum contains many valuable artifacts.",
@@ -1016,6 +1016,17 @@ export const V1: VocabularyWord[] = [
     exampleVi:
       "Kế hoạch này không khả thi (có khả năng thành công) về mặt kinh tế trong dài hạn.",
     categories: ["General"],
+  },
+  {
+    word: "Vibrant",
+    slug: "vibrant",
+    phonetic: "/ˈvaɪ.brənt/",
+    partOfSpeech: "adj",
+    meaningEn: "Full of energy and enthusiasm.",
+    meaningVi: "Sôi động/Năng động.",
+    exampleEn: "The city has a vibrant nightlife.",
+    exampleVi: "Thành phố có một cuộc sống về đêm sôi động.",
+    categories: ["General", "Social"],
   },
   {
     word: "Vicarious",

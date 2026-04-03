@@ -726,6 +726,17 @@ export const U1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Unfamiliar",
+    slug: "unfamiliar",
+    phonetic: "/ʌnˈfæm.ə.lɪər/",
+    partOfSpeech: "adj",
+    meaningEn: "Not familiar; unknown.",
+    meaningVi: "Không quen thuộc.",
+    exampleEn: "An unfamiliar face.",
+    exampleVi: "Một khuôn mặt không quen thuộc.",
+    categories: ["General"],
+  },
+  {
     word: "Unfair",
     slug: "unfair",
     phonetic: "/ʌnˈfer/",

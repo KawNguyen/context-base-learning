@@ -552,6 +552,17 @@ export const E1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
+    word: "Easier",
+    slug: "easier",
+    phonetic: "/ˈiː.zi.ɚ/",
+    partOfSpeech: "adj",
+    meaningEn: "Comparative of easy; less difficult.",
+    meaningVi: "Dễ hơn.",
+    exampleEn: "Easier said than done.",
+    exampleVi: "Nói dễ hơn làm.",
+    categories: ["General"],
+  },
+  {
     word: "Easygoing",
     slug: "easygoing",
     phonetic: "/ˌiː.ziˈɡoʊ.ɪŋ/",

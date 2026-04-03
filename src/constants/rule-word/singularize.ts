@@ -63,4 +63,7 @@ export const ALWAYS_PLURAL = new Set([
   "obstetrics",
   "orthopedics",
   "geriatrics",
+  "sometimes",
+  "always",
+  "news",
 ]);

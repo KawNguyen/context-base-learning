@@ -161,6 +161,17 @@ export const C18: VocabularyWord[] = [
     categories: ["Art", "General"],
   },
   {
+    word: "Creatively",
+    slug: "creatively",
+    phonetic: "/kriˈeɪ.t̬ɪv.li/",
+    partOfSpeech: "adverb",
+    meaningEn: "In a creative manner.",
+    meaningVi: "Một cách sáng tạo.",
+    exampleEn: "Think creatively.",
+    exampleVi: "Suy nghĩ một cách sáng tạo.",
+    categories: ["Art", "General"],
+  },
+  {
     word: "Creativity",
     slug: "creativity",
     phonetic: "/ˌkriː.eɪˈtɪv.ə.ti/",

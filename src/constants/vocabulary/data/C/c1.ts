@@ -60,6 +60,18 @@ export const C1: VocabularyWord[] = [
     categories: ["Technology", "Technology", "Engineering"],
   },
   {
+    word: "Carbohydrate",
+    slug: "carbohydrate",
+    phonetic: "/ˌkɑːr.bəˈhaɪdreɪt/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "A type of organic compound that serves as a primary source of energy for living organisms.",
+    meaningVi: "Carbohydrate.",
+    exampleEn: "Fruits are a good source of carbohydrates.",
+    exampleVi: "Trái cây là nguồn cung cấp carbohydrate tốt.",
+    categories: ["Science", "Food & Drink"],
+  },
+  {
     word: "Cache",
     slug: "cache",
     phonetic: "/kæʃ/",

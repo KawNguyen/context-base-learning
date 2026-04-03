@@ -501,7 +501,7 @@ export const E4: VocabularyWord[] = [
     partOfSpeech: "noun",
     meaningEn:
       "A serious, unexpected, and often dangerous situation requiring immediate action.",
-    meaningVi: "Trường hợp khẩn cấp.",
+    meaningVi: "Tình huống khẩn cấp.",
     exampleEn: "In case of emergency, call 911.",
     exampleVi: "Trong trường hợp khẩn cấp, hãy gọi 911.",
     categories: ["Daily", "Medical"],
