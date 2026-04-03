@@ -2,6 +2,17 @@ import { VocabularyWord } from "../../types";
 
 export const S1: VocabularyWord[] = [
   {
+    word: "Sacrifice",
+    slug: "sacrifice",
+    phonetic: "/ˈsæk.rɪ.faɪs/",
+    partOfSpeech: "noun/verb",
+    meaningEn: "Giving up something valuable for something else.",
+    meaningVi: "Sự hy sinh.",
+    exampleEn: "Make a sacrifice for the greater good.",
+    exampleVi: "Hy sinh vì lợi ích chung.",
+    categories: ["General"],
+  },
+  {
     word: "Sad",
     slug: "sad",
     phonetic: "/sæd/",
