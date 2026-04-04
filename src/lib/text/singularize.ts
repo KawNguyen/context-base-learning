@@ -111,7 +111,7 @@ export function singularize(word: string): string {
     // Exceptions where the base word ends in "oe"
     if (
       ["shoes", "toes", "canoes", "hoes", "foes", "aloes", "woes"].includes(
-        lower
+        lower,
       )
     ) {
       result = lower.slice(0, -1);
