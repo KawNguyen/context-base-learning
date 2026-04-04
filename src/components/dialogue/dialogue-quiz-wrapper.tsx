@@ -291,10 +291,7 @@ export function DialogueQuizWrapper({
                 ← Previous
               </Button>
               {currentQuestion < dialogue.questions.length - 1 ? (
-                <Button
-                  onClick={handleNextQuestion}
-                  className="flex-1"
-                >
+                <Button onClick={handleNextQuestion} className="flex-1">
                   Next →
                 </Button>
               ) : (

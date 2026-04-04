@@ -72,12 +72,15 @@ export function ListeningInterface({
   // We should calculate total questions precisely:
   const totalItems = useMemo(() => {
     if (type === "dictation") return exercises.length;
-    return exercises.reduce((acc, ex) => acc + (ex as ComprehensionExercise).questions.length, 0);
+    return exercises.reduce(
+      (acc, ex) => acc + (ex as ComprehensionExercise).questions.length,
+      0,
+    );
   }, [exercises, type]);
 
   // userAnswers mapped linearly
   const [userAnswers, setUserAnswers] = useState<(string | number)[]>(() =>
-    new Array(totalItems).fill(type === "dictation" ? "" : -1)
+    new Array(totalItems).fill(type === "dictation" ? "" : -1),
   );
 
   const currentLinearIndex = useMemo(() => {
@@ -181,7 +184,9 @@ export function ListeningInterface({
   const score = useMemo(() => {
     return userAnswers.reduce((acc: number, ans, idx) => {
       if (type === "dictation") {
-        const isCorrect = normalizeText(ans as string) === normalizeText((exercises[idx] as DictationExercise).answer);
+        const isCorrect =
+          normalizeText(ans as string) ===
+          normalizeText((exercises[idx] as DictationExercise).answer);
         return isCorrect ? acc + 1 : acc;
       } else {
         // find Exercise and Question
@@ -195,7 +200,9 @@ export function ListeningInterface({
           }
           temp -= qLen;
         }
-        const rightOption = (exercises[exIdx] as ComprehensionExercise).questions[temp].options.findIndex((o) => o.isCorrect);
+        const rightOption = (
+          exercises[exIdx] as ComprehensionExercise
+        ).questions[temp].options.findIndex((o) => o.isCorrect);
         return ans === rightOption ? acc + 1 : acc;
       }
     }, 0);
@@ -267,15 +274,22 @@ export function ListeningInterface({
               {userAnswers.map((ans, idx) => {
                 if (type === "dictation") {
                   const ex = exercises[idx] as DictationExercise;
-                  const isCorrect = normalizeText(ans as string) === normalizeText(ex.answer);
+                  const isCorrect =
+                    normalizeText(ans as string) === normalizeText(ex.answer);
                   return (
                     <div key={idx} className="p-4 border rounded">
-                      <p className="font-semibold text-primary mb-2">Dictation {idx + 1}</p>
+                      <p className="font-semibold text-primary mb-2">
+                        Dictation {idx + 1}
+                      </p>
                       <div className="space-y-1">
                         <p>
                           <strong>Your Answer:</strong>{" "}
-                          <span className={isCorrect ? "text-green-700" : "text-red-700"}>
-                            {ans as string || "-"}
+                          <span
+                            className={
+                              isCorrect ? "text-green-700" : "text-red-700"
+                            }
+                          >
+                            {(ans as string) || "-"}
                           </span>
                         </p>
                         <p>
@@ -290,7 +304,8 @@ export function ListeningInterface({
                   let temp = idx;
                   let exIdx = 0;
                   for (let i = 0; i < exercises.length; i++) {
-                    const qLen = (exercises[i] as ComprehensionExercise).questions.length;
+                    const qLen = (exercises[i] as ComprehensionExercise)
+                      .questions.length;
                     if (temp < qLen) {
                       exIdx = i;
                       break;
@@ -314,8 +329,15 @@ export function ListeningInterface({
                         <p>
                           <strong>Your Answer:</strong>{" "}
                           {userAns >= 0 ? (
-                            <span className={userAns === correctIdx ? "text-green-700" : "text-red-700"}>
-                              {String.fromCharCode(65 + userAns)}. {q.options[userAns].option}
+                            <span
+                              className={
+                                userAns === correctIdx
+                                  ? "text-green-700"
+                                  : "text-red-700"
+                              }
+                            >
+                              {String.fromCharCode(65 + userAns)}.{" "}
+                              {q.options[userAns].option}
                             </span>
                           ) : (
                             <span className="text-muted-foreground">-</span>
@@ -324,7 +346,8 @@ export function ListeningInterface({
                         <p>
                           <strong>Correct Answer:</strong>{" "}
                           <span className="text-green-700">
-                            {String.fromCharCode(65 + correctIdx)}. {q.options[correctIdx].option}
+                            {String.fromCharCode(65 + correctIdx)}.{" "}
+                            {q.options[correctIdx].option}
                           </span>
                         </p>
                         <div className="mt-2 text-sm">
@@ -530,10 +553,7 @@ export function ListeningInterface({
                 ← Previous
               </Button>
               {currentLinearIndex < totalItems - 1 ? (
-                <Button
-                  onClick={handleNext}
-                  className="flex-1"
-                >
+                <Button onClick={handleNext} className="flex-1">
                   Next →
                 </Button>
               ) : (
