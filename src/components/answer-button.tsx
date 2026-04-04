@@ -87,7 +87,7 @@ export function AnswerButton({
       aria-disabled={isSubmitted || disabled}
       variant={getButtonVariant()}
       className={cn(
-        "cursor-pointer",
+        "cursor-pointer h-max",
         variantClasses[variant],
         getCustomClasses(),
         isSubmitted && "cursor-default opacity-90 hover:opacity-100",
@@ -95,7 +95,7 @@ export function AnswerButton({
       )}
     >
       <div className="flex items-center justify-between w-full gap-2">
-        <span className="flex items-center gap-2 flex-1 text-left">
+        <span className="flex items-center gap-2 text-left text-wrap">
           {label && <span className="font-semibold">{label}</span>}
           <span
             className={cn(

@@ -54,7 +54,7 @@ export function ReadingQuiz({
 
         {/* Questions Section */}
         <div className="flex flex-col">
-          <div className="bg-card border rounded-lg p-8 flex flex-col h-[calc(100vh-8rem)]">
+          <div className="bg-card border rounded-lg p-8 flex flex-col h-max md:h-[calc(100vh-8rem)]">
             <div className="mb-6">
               <div className="flex justify-between items-center mb-3">
                 <span className="text-sm font-medium uppercase tracking-wide text-muted-foreground">
@@ -81,12 +81,12 @@ export function ReadingQuiz({
               />
             </div>
 
-            <div className="flex-1 flex flex-col">
-              <p className="text-base font-medium mb-6">
+            <div className="flex-1 flex flex-col gap-6 mb-6">
+              <p className="text-base font-medium">
                 {passage.questions[currentQuestion].question}
               </p>
 
-              <div className="space-y-3 mb-6">
+              <div className="space-y-3">
                 {shuffledOptions.map(
                   (
                     opt: { isCorrect: boolean; option: string },
@@ -126,21 +126,17 @@ export function ReadingQuiz({
               >
                 ← Previous
               </Button>
-              {!showExplanation ? (
-                <Button
-                  onClick={onCheckAnswer}
-                  disabled={selectedAnswer === null}
-                  className="flex-1"
-                >
-                  Check Answer
+              {currentQuestion < passage.questions.length - 1 ? (
+                <Button onClick={onNextQuestion} className="flex-1">
+                  Next →
                 </Button>
               ) : (
                 <Button
-                  onClick={onNextQuestion}
+                  onClick={onCheckAnswer} // NOTE: Actually we pass submitQuiz into onCheckAnswer
+                  disabled={selectedAnswer === null}
                   className="flex-1"
-                  disabled={currentQuestion === passage.questions.length - 1}
                 >
-                  Next →
+                  Submit
                 </Button>
               )}
             </div>

@@ -404,11 +404,13 @@ export const F5: VocabularyWord[] = [
     slug: "force",
     phonetic: "/fɔːrs/",
     partOfSpeech: "noun/verb",
-    meaningEn: "Strength or energy as an attribute of action.",
-    meaningVi: "Lực.",
-    exampleEn: "Use force.",
-    exampleVi: "Dùng lực.",
-    categories: ["General", "Physics"],
+    meaningEn:
+      "Strength or energy as an attribute of physical action or movement; to make someone do something against their will.",
+    meaningVi: "Lực (vật lý); sự ép buộc, cưỡng ép (hành động).",
+    exampleEn: "Solo travel forces you to step out of your comfort zone.",
+    exampleVi:
+      "Du lịch một mình buộc bạn phải bước ra khỏi vùng an toàn của bản thân.",
+    categories: ["General", "Physics", "Social"],
   },
   {
     word: "Forecast",
@@ -1009,7 +1011,8 @@ export const F5: VocabularyWord[] = [
     exampleVi: "Sự trì hoãn làm mọi người bực bội.",
     categories: ["Emotions"],
   },
-  {word: "Frustration",
+  {
+    word: "Frustration",
     slug: "frustration",
     phonetic: "/frʌsˈtreɪ.ʃən/",
     partOfSpeech: "noun",
@@ -1019,7 +1022,8 @@ export const F5: VocabularyWord[] = [
     exampleVi: "Anh ấy bày tỏ sự thất vọng về tình huống này.",
     categories: ["Emotions"],
   },
-  {word: "Fuel",
+  {
+    word: "Fuel",
     slug: "fuel",
     phonetic: "/ˈfjuː.əl/",
     partOfSpeech: "noun/verb",
@@ -1028,7 +1032,7 @@ export const F5: VocabularyWord[] = [
     exampleEn: "The car runs on fuel.",
     exampleVi: "Chiếc xe chạy bằng nhiên liệu.",
     categories: ["Energy", "Transportation"],
-  },  
+  },
   {
     word: "Fumble",
     slug: "fumble",

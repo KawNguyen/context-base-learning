@@ -28,50 +28,87 @@ export function DialogueQuizWrapper({
 
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
-  const [showExplanation, setShowExplanation] = useState(false);
-  const [score, setScore] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
+  const [userAnswers, setUserAnswers] = useState<number[]>(
+    new Array(dialogue.questions.length).fill(-1),
+  );
 
-  // Shuffle options cho câu hỏi hiện tại
+  const [shuffledQuestions] = useState(() => {
+    return dialogue.questions.map((q) => {
+      const correctIndex = q.correct;
+      const indexedOptions = q.options.map((option, index) => ({
+        option,
+        originalIndex: index,
+      }));
+
+      // Create a stable random shuffle for this session
+      const shuffled = [...indexedOptions].sort(() => Math.random() - 0.5);
+
+      const newCorrectIndex = shuffled.findIndex(
+        (item) => item.originalIndex === correctIndex,
+      );
+
+      return {
+        shuffledOptions: shuffled.map((item) => item.option),
+        shuffledToOriginal: shuffled.map((item) => item.originalIndex),
+        newCorrectIndex,
+      };
+    });
+  });
+
   const { shuffledOptions, newCorrectIndex, shuffledToOriginal } =
-    useShuffleOptions(
-      dialogue.questions[currentQuestion]?.options ?? [],
-      dialogue.questions[currentQuestion]?.correct,
-    );
+    shuffledQuestions[currentQuestion];
 
   const handleAnswerSelect = (answerIndex: number) => {
-    if (showExplanation) return;
     setSelectedAnswer(answerIndex);
-  };
-
-  const handleCheckAnswer = () => {
-    if (selectedAnswer === null) return;
-
-    setShowExplanation(true);
-
-    // Kiểm tra đúng sai dựa trên shuffled index
-    if (selectedAnswer === newCorrectIndex) {
-      setScore(score + 1);
-    }
+    setUserAnswers((prev) => {
+      const copy = [...prev];
+      copy[currentQuestion] = shuffledToOriginal[answerIndex];
+      return copy;
+    });
   };
 
   const handleNextQuestion = () => {
     if (currentQuestion < dialogue.questions.length - 1) {
-      setCurrentQuestion(currentQuestion + 1);
-      setSelectedAnswer(null);
-      setShowExplanation(false);
-    } else {
-      setQuizCompleted(true);
+      const nextQ = currentQuestion + 1;
+      setCurrentQuestion(nextQ);
+      const origAnswer = userAnswers[nextQ];
+      const nextShuffledToOriginal =
+        shuffledQuestions[nextQ].shuffledToOriginal;
+      setSelectedAnswer(
+        origAnswer !== -1 ? nextShuffledToOriginal.indexOf(origAnswer) : null,
+      );
     }
+  };
+
+  const handlePreviousQuestion = () => {
+    if (currentQuestion > 0) {
+      const prevQ = currentQuestion - 1;
+      setCurrentQuestion(prevQ);
+      const origAnswer = userAnswers[prevQ];
+      const prevShuffledToOriginal =
+        shuffledQuestions[prevQ].shuffledToOriginal;
+      setSelectedAnswer(
+        origAnswer !== -1 ? prevShuffledToOriginal.indexOf(origAnswer) : null,
+      );
+    }
+  };
+
+  const submitQuiz = () => {
+    setQuizCompleted(true);
   };
 
   const handleRestart = () => {
     setCurrentQuestion(0);
     setSelectedAnswer(null);
-    setShowExplanation(false);
-    setScore(0);
     setQuizCompleted(false);
+    setUserAnswers(new Array(dialogue.questions.length).fill(-1));
   };
+
+  const score = userAnswers.reduce((acc, ans, idx) => {
+    const correctIdx = dialogue.questions[idx].correct;
+    return ans === correctIdx ? acc + 1 : acc;
+  }, 0);
 
   const handleBackToDialogues = () => {
     router.push(`/dialogue/${levelSlug}`);
@@ -108,6 +145,58 @@ export function DialogueQuizWrapper({
               >
                 Back to Dialogues
               </Button>
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card className="max-w-4xl mx-auto mt-6">
+          <CardHeader>
+            <CardTitle className="text-xl">Review</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="space-y-4">
+              {dialogue.questions.map((q, idx) => {
+                const userAns = userAnswers[idx];
+                const correctIdx = q.correct;
+                return (
+                  <div key={idx} className="p-4 border rounded">
+                    <p className="font-semibold">
+                      {idx + 1}. {q.question}
+                    </p>
+                    <div className="mt-2">
+                      <p>
+                        <strong>Your Answer:</strong>{" "}
+                        {userAns >= 0 ? (
+                          <span
+                            className={
+                              userAns === correctIdx
+                                ? "text-green-700"
+                                : "text-red-700"
+                            }
+                          >
+                            {String.fromCharCode(65 + userAns)}.{" "}
+                            {q.options[userAns]}
+                          </span>
+                        ) : (
+                          <span className="text-muted-foreground">-</span>
+                        )}
+                      </p>
+                      <p>
+                        <strong>Correct Answer:</strong>{" "}
+                        <span className="text-green-700">
+                          {String.fromCharCode(65 + correctIdx)}.{" "}
+                          {q.options[correctIdx]}
+                        </span>
+                      </p>
+                      <div className="mt-2">
+                        <p className="mt-1">
+                          <strong>Explanation:</strong> {q.explanation}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           </CardContent>
         </Card>
@@ -181,7 +270,7 @@ export function DialogueQuizWrapper({
                     label={`${optionLabels[index]}.`}
                     isSelected={isSelected}
                     isCorrect={isCorrect}
-                    isSubmitted={showExplanation}
+                    isSubmitted={false} // Don't show correct/incorrect state here
                     onClick={() => handleAnswerSelect(index)}
                     variant="standard"
                     className="p-3"
@@ -192,34 +281,32 @@ export function DialogueQuizWrapper({
               })}
             </div>
 
-            {!showExplanation && (
-              <div className="flex justify-end">
+            <div className="flex justify-between gap-3 mt-4">
+              <Button
+                onClick={handlePreviousQuestion}
+                disabled={currentQuestion === 0}
+                variant="outline"
+                className="flex-1"
+              >
+                ← Previous
+              </Button>
+              {currentQuestion < dialogue.questions.length - 1 ? (
                 <Button
-                  onClick={handleCheckAnswer}
-                  disabled={selectedAnswer === null}
+                  onClick={handleNextQuestion}
+                  className="flex-1"
                 >
-                  Check Answer
+                  Next →
                 </Button>
-              </div>
-            )}
-
-            {showExplanation && (
-              <>
-                <ExplanationAlert
-                  isCorrect={selectedAnswer === newCorrectIndex}
+              ) : (
+                <Button
+                  onClick={submitQuiz}
+                  disabled={selectedAnswer === null}
+                  className="flex-1"
                 >
-                  {dialogue.questions[currentQuestion].explanation}
-                </ExplanationAlert>
-
-                <div className="flex justify-end">
-                  <Button onClick={handleNextQuestion}>
-                    {currentQuestion < dialogue.questions.length - 1
-                      ? "Next Question"
-                      : "View Results"}
-                  </Button>
-                </div>
-              </>
-            )}
+                  Submit
+                </Button>
+              )}
+            </div>
           </CardContent>
         </Card>
       </div>

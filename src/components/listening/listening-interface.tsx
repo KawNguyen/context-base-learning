@@ -63,21 +63,33 @@ export function ListeningInterface({
 
   const [userInput, setUserInput] = useState("");
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
-  const [showResult, setShowResult] = useState(false);
-  const [score, setScore] = useState(0);
   const [completed, setCompleted] = useState(false);
   const [speed, setSpeed] = useState(1);
   const [showTranscript, setShowTranscript] = useState(false);
 
   const currentExercise = exercises[currentExerciseIndex];
 
-  const totalItems =
-    type === "dictation" ? exercises.length : exercises.length * 6;
+  // We should calculate total questions precisely:
+  const totalItems = useMemo(() => {
+    if (type === "dictation") return exercises.length;
+    return exercises.reduce((acc, ex) => acc + (ex as ComprehensionExercise).questions.length, 0);
+  }, [exercises, type]);
 
-  const currentProgress =
-    type === "dictation"
-      ? currentExerciseIndex
-      : currentExerciseIndex * 6 + currentQuestionIndex;
+  // userAnswers mapped linearly
+  const [userAnswers, setUserAnswers] = useState<(string | number)[]>(() =>
+    new Array(totalItems).fill(type === "dictation" ? "" : -1)
+  );
+
+  const currentLinearIndex = useMemo(() => {
+    if (type === "dictation") return currentExerciseIndex;
+    let idx = 0;
+    for (let i = 0; i < currentExerciseIndex; i++) {
+      idx += (exercises[i] as ComprehensionExercise).questions.length;
+    }
+    return idx + currentQuestionIndex;
+  }, [currentExerciseIndex, currentQuestionIndex, exercises, type]);
+
+  const currentProgress = currentLinearIndex;
 
   const normalizeText = (text: string) => {
     return text
@@ -96,65 +108,107 @@ export function ListeningInterface({
     }
   };
 
-  const handleCheck = () => {
-    if (type === "dictation") {
-      const exercise = currentExercise as DictationExercise;
-      const isCorrect =
-        normalizeText(userInput) === normalizeText(exercise.answer);
-      if (isCorrect) setScore(score + 1);
-      setShowResult(true);
-    } else {
-      const exercise = currentExercise as ComprehensionExercise;
-      const currentQuestion = exercise.questions[currentQuestionIndex];
-      if (selectedOption === null) return;
+  const saveCurrentAnswer = (val: string | number | null) => {
+    if (val === null) return;
+    setUserAnswers((prev) => {
+      const copy = [...prev];
+      copy[currentLinearIndex] = val;
+      return copy;
+    });
+  };
 
-      const isCorrect =
-        selectedOption ===
-        currentQuestion.options.findIndex((o) => o.isCorrect);
-      if (isCorrect) setScore(score + 1);
-      setShowResult(true);
+  // Called whenever userInput or selectedOption changes
+  const handleUserInput = (val: string) => {
+    setUserInput(val);
+    saveCurrentAnswer(val);
+  };
+
+  const handleOptionSelect = (index: number) => {
+    setSelectedOption(index);
+    saveCurrentAnswer(index);
+  };
+
+  const moveToIndex = (newLinearIdx: number) => {
+    let targetEx = 0;
+    let targetQ = 0;
+
+    if (type === "dictation") {
+      targetEx = newLinearIdx;
+    } else {
+      let temp = newLinearIdx;
+      for (let i = 0; i < exercises.length; i++) {
+        const qLen = (exercises[i] as ComprehensionExercise).questions.length;
+        if (temp < qLen) {
+          targetEx = i;
+          targetQ = temp;
+          break;
+        }
+        temp -= qLen;
+      }
     }
-    stop();
+
+    setCurrentExerciseIndex(targetEx);
+    setCurrentQuestionIndex(targetQ);
+
+    const prevAnswer = userAnswers[newLinearIdx];
+    if (type === "dictation") {
+      setUserInput((prevAnswer as string) || "");
+    } else {
+      setSelectedOption(prevAnswer !== -1 ? (prevAnswer as number) : null);
+    }
+    setShowTranscript(false);
   };
 
   const handleNext = () => {
-    if (type === "dictation") {
-      if (currentExerciseIndex < exercises.length - 1) {
-        setCurrentExerciseIndex(currentExerciseIndex + 1);
-        setUserInput("");
-        setShowResult(false);
-      } else {
-        setCompleted(true);
-      }
-    } else {
-      const exercise = currentExercise as ComprehensionExercise;
-      if (currentQuestionIndex < exercise.questions.length - 1) {
-        setCurrentQuestionIndex(currentQuestionIndex + 1);
-        setSelectedOption(null);
-        setShowResult(false);
-      } else if (currentExerciseIndex < exercises.length - 1) {
-        setCurrentExerciseIndex(currentExerciseIndex + 1);
-        setCurrentQuestionIndex(0);
-        setSelectedOption(null);
-        setShowResult(false);
-        setShowTranscript(false);
-      } else {
-        setCompleted(true);
-      }
+    if (currentLinearIndex < totalItems - 1) {
+      moveToIndex(currentLinearIndex + 1);
     }
     stop();
   };
 
+  const handlePrev = () => {
+    if (currentLinearIndex > 0) {
+      moveToIndex(currentLinearIndex - 1);
+    }
+    stop();
+  };
+
+  const handleSubmit = () => {
+    setCompleted(true);
+    stop();
+  };
+
+  const score = useMemo(() => {
+    return userAnswers.reduce((acc: number, ans, idx) => {
+      if (type === "dictation") {
+        const isCorrect = normalizeText(ans as string) === normalizeText((exercises[idx] as DictationExercise).answer);
+        return isCorrect ? acc + 1 : acc;
+      } else {
+        // find Exercise and Question
+        let temp = idx;
+        let exIdx = 0;
+        for (let i = 0; i < exercises.length; i++) {
+          const qLen = (exercises[i] as ComprehensionExercise).questions.length;
+          if (temp < qLen) {
+            exIdx = i;
+            break;
+          }
+          temp -= qLen;
+        }
+        const rightOption = (exercises[exIdx] as ComprehensionExercise).questions[temp].options.findIndex((o) => o.isCorrect);
+        return ans === rightOption ? acc + 1 : acc;
+      }
+    }, 0);
+  }, [userAnswers, exercises, type]);
+
   const handleRestart = () => {
-    // Trigger re-shuffle by updating seed
     setShuffleSeed((prev) => prev + 1);
     setCurrentExerciseIndex(0);
     setCurrentQuestionIndex(0);
     setUserInput("");
     setSelectedOption(null);
-    setShowResult(false);
-    setScore(0);
     setCompleted(false);
+    setUserAnswers(new Array(totalItems).fill(type === "dictation" ? "" : -1));
     setShowTranscript(false);
     stop();
   };
@@ -200,6 +254,89 @@ export function ListeningInterface({
                   ? "Back to Mode Selection"
                   : "Select Another Passage"}
               </Button>
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card className="max-w-4xl mx-auto mt-6">
+          <CardHeader>
+            <CardTitle className="text-xl">Review</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="space-y-4">
+              {userAnswers.map((ans, idx) => {
+                if (type === "dictation") {
+                  const ex = exercises[idx] as DictationExercise;
+                  const isCorrect = normalizeText(ans as string) === normalizeText(ex.answer);
+                  return (
+                    <div key={idx} className="p-4 border rounded">
+                      <p className="font-semibold text-primary mb-2">Dictation {idx + 1}</p>
+                      <div className="space-y-1">
+                        <p>
+                          <strong>Your Answer:</strong>{" "}
+                          <span className={isCorrect ? "text-green-700" : "text-red-700"}>
+                            {ans as string || "-"}
+                          </span>
+                        </p>
+                        <p>
+                          <strong>Correct Answer:</strong>{" "}
+                          <span className="text-green-700">{ex.answer}</span>
+                        </p>
+                      </div>
+                    </div>
+                  );
+                } else {
+                  // Comprehension
+                  let temp = idx;
+                  let exIdx = 0;
+                  for (let i = 0; i < exercises.length; i++) {
+                    const qLen = (exercises[i] as ComprehensionExercise).questions.length;
+                    if (temp < qLen) {
+                      exIdx = i;
+                      break;
+                    }
+                    temp -= qLen;
+                  }
+                  const ex = exercises[exIdx] as ComprehensionExercise;
+                  const q = ex.questions[temp];
+                  const correctIdx = q.options.findIndex((o) => o.isCorrect);
+                  const userAns = ans as number;
+
+                  return (
+                    <div key={idx} className="p-4 border rounded">
+                      <p className="text-xs font-semibold text-muted-foreground uppercase mb-1">
+                        {ex.title} (Question {temp + 1})
+                      </p>
+                      <p className="font-semibold mb-2">
+                        {idx + 1}. {q.question}
+                      </p>
+                      <div className="mt-2">
+                        <p>
+                          <strong>Your Answer:</strong>{" "}
+                          {userAns >= 0 ? (
+                            <span className={userAns === correctIdx ? "text-green-700" : "text-red-700"}>
+                              {String.fromCharCode(65 + userAns)}. {q.options[userAns].option}
+                            </span>
+                          ) : (
+                            <span className="text-muted-foreground">-</span>
+                          )}
+                        </p>
+                        <p>
+                          <strong>Correct Answer:</strong>{" "}
+                          <span className="text-green-700">
+                            {String.fromCharCode(65 + correctIdx)}. {q.options[correctIdx].option}
+                          </span>
+                        </p>
+                        <div className="mt-2 text-sm">
+                          <p>
+                            <strong>Explanation:</strong> {q.explanation}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                }
+              })}
             </div>
           </CardContent>
         </Card>
@@ -333,12 +470,8 @@ export function ListeningInterface({
                 <Input
                   placeholder="Type here..."
                   value={userInput}
-                  onChange={(e) => setUserInput(e.target.value)}
-                  disabled={showResult}
+                  onChange={(e) => handleUserInput(e.target.value)}
                   className="text-lg py-10 bg-background/50 border-primary/20 focus-visible:ring-primary/30 text-center"
-                  onKeyDown={(e) =>
-                    e.key === "Enter" && !showResult && handleCheck()
-                  }
                   autoFocus
                 />
               </div>
@@ -366,8 +499,7 @@ export function ListeningInterface({
                             ? "shadow-md bg-primary text-primary-foreground scale-[1.02]"
                             : "bg-card/30"
                         }`}
-                        onClick={() => setSelectedOption(index)}
-                        disabled={showResult}
+                        onClick={() => handleOptionSelect(index)}
                       >
                         <span
                           className={`mr-4 h-7 w-7 rounded-full border flex items-center justify-center text-xs font-bold transition-colors ${
@@ -388,116 +520,36 @@ export function ListeningInterface({
               </div>
             )}
 
-            {!showResult ? (
-              <div className="flex justify-end pt-4">
+            <div className="flex justify-between gap-3 mt-4">
+              <Button
+                onClick={handlePrev}
+                disabled={currentLinearIndex === 0}
+                variant="outline"
+                className="flex-1"
+              >
+                ← Previous
+              </Button>
+              {currentLinearIndex < totalItems - 1 ? (
                 <Button
-                  size="lg"
-                  onClick={handleCheck}
+                  onClick={handleNext}
+                  className="flex-1"
+                >
+                  Next →
+                </Button>
+              ) : (
+                <Button
+                  onClick={handleSubmit}
                   disabled={
                     type === "dictation"
                       ? !userInput.trim()
                       : selectedOption === null
                   }
-                  className="px-12 font-bold shadow-lg shadow-primary/20"
+                  className="flex-1 px-12 font-bold shadow-lg shadow-primary/20"
                 >
-                  Verify My Answer
+                  Submit
                 </Button>
-              </div>
-            ) : (
-              <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500 pt-4">
-                <Alert
-                  variant={
-                    type === "dictation"
-                      ? normalizeText(userInput) ===
-                        normalizeText(
-                          (currentExercise as DictationExercise).answer,
-                        )
-                        ? "success"
-                        : "destructive"
-                      : selectedOption ===
-                          (currentExercise as ComprehensionExercise).questions[
-                            currentQuestionIndex
-                          ].options.findIndex((o) => o.isCorrect)
-                        ? "success"
-                        : "destructive"
-                  }
-                  className="bg-background/80 backdrop-blur-sm shadow-xl border-2"
-                >
-                  {(
-                    type === "dictation"
-                      ? normalizeText(userInput) ===
-                        normalizeText(
-                          (currentExercise as DictationExercise).answer,
-                        )
-                      : selectedOption ===
-                        (currentExercise as ComprehensionExercise).questions[
-                          currentQuestionIndex
-                        ].options.findIndex((o) => o.isCorrect)
-                  ) ? (
-                    <CheckCircle2Icon className="h-5 w-5" />
-                  ) : (
-                    <XCircleIcon className="h-5 w-5" />
-                  )}
-                  <AlertTitle className="text-lg font-black uppercase tracking-tight">
-                    {type === "dictation"
-                      ? normalizeText(userInput) ===
-                        normalizeText(
-                          (currentExercise as DictationExercise).answer,
-                        )
-                        ? "Spot On!"
-                        : "Oops! Not Quite"
-                      : selectedOption ===
-                          (currentExercise as ComprehensionExercise).questions[
-                            currentQuestionIndex
-                          ].options.findIndex((o) => o.isCorrect)
-                        ? "Perfect!"
-                        : "Try Again!"}
-                  </AlertTitle>
-                  <AlertDescription className="mt-3">
-                    <div className="space-y-4">
-                      {type === "dictation" && (
-                        <div>
-                          <p className="text-[10px] font-black uppercase text-muted-foreground/60 mb-1 tracking-widest">
-                            Correct Transcript:
-                          </p>
-                          <p className="p-4 bg-muted/30 rounded-xl italic text-foreground font-semibold border border-border/50 text-center text-lg">
-                            &quot;
-                            {(currentExercise as DictationExercise).answer}
-                            &quot;
-                          </p>
-                        </div>
-                      )}
-                      {type === "comprehension" && (
-                        <div className="bg-muted/20 p-4 rounded-xl border border-border/50">
-                          <p className="text-[10px] font-black uppercase text-muted-foreground/60 mb-2 tracking-widest">
-                            Reflect & Learn:
-                          </p>
-                          <p className="text-foreground leading-relaxed font-medium">
-                            {
-                              (currentExercise as ComprehensionExercise)
-                                .questions[currentQuestionIndex].explanation
-                            }
-                          </p>
-                        </div>
-                      )}
-                    </div>
-                  </AlertDescription>
-                </Alert>
-                <div className="flex justify-end">
-                  <Button
-                    size="lg"
-                    onClick={handleNext}
-                    className="px-14 font-bold group shadow-lg shadow-primary/20"
-                  >
-                    {currentExerciseIndex === exercises.length - 1 &&
-                    (type === "dictation" || currentQuestionIndex === 5)
-                      ? "Finish Session"
-                      : "Continue"}
-                    <ArrowLeft className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform rotate-180" />
-                  </Button>
-                </div>
-              </div>
-            )}
+              )}
+            </div>
           </div>
         </CardContent>
       </Card>

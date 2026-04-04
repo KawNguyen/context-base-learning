@@ -5,7 +5,6 @@ import { ReadingPassage } from "@/constants/reading";
 import { ReadingQuiz } from "./reading-quiz";
 import { QuizCompleted } from "./quiz-completed";
 import { CEFRLevel } from "@/types";
-import { useShuffleOptions } from "@/hooks/use-shuffle-options";
 
 interface ReadingQuizWrapperProps {
   passage: ReadingPassage;
@@ -18,71 +17,91 @@ export function ReadingQuizWrapper({
 }: ReadingQuizWrapperProps) {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
-  const [showExplanation, setShowExplanation] = useState(false);
-  const [score, setScore] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [userAnswers, setUserAnswers] = useState<number[]>(
     new Array(passage.questions.length).fill(-1),
   );
 
-  // Shuffle options cho câu hỏi hiện tại
-  const { shuffledOptions, newCorrectIndex } = useShuffleOptions(
-    passage.questions[currentQuestion].options,
-    passage.questions[currentQuestion].options.findIndex((o) => o.isCorrect),
-  );
+  const [shuffledQuestions] = useState(() => {
+    return passage.questions.map((q) => {
+      const correctIndex = q.options.findIndex((o) => o.isCorrect);
+      const indexedOptions = q.options.map((option, index) => ({
+        option,
+        originalIndex: index,
+      }));
+
+      // Create a stable random shuffle for this session
+      const shuffled = [...indexedOptions].sort(() => Math.random() - 0.5);
+
+      const newCorrectIndex =
+        correctIndex !== -1
+          ? shuffled.findIndex((item) => item.originalIndex === correctIndex)
+          : undefined;
+
+      return {
+        shuffledOptions: shuffled.map((item) => item.option),
+        shuffledToOriginal: shuffled.map((item) => item.originalIndex),
+        newCorrectIndex,
+      };
+    });
+  });
+
+  const { shuffledOptions, newCorrectIndex, shuffledToOriginal } =
+    shuffledQuestions[currentQuestion];
 
   const handleAnswerSelect = (answerIndex: number) => {
     setSelectedAnswer(answerIndex);
-  };
-
-  const handleCheckAnswer = () => {
-    if (selectedAnswer === null) return;
-
-    setShowExplanation(true);
     setUserAnswers((prev) => {
       const copy = [...prev];
-      copy[currentQuestion] = selectedAnswer;
+      copy[currentQuestion] = shuffledToOriginal[answerIndex];
       return copy;
     });
-    if (selectedAnswer === newCorrectIndex) {
-      setScore(score + 1);
-    }
   };
 
   const handleNextQuestion = () => {
     if (currentQuestion < passage.questions.length - 1) {
-      setCurrentQuestion(currentQuestion + 1);
+      const nextQ = currentQuestion + 1;
+      setCurrentQuestion(nextQ);
+      // Map original index back to shuffled index for UI
+      const origAnswer = userAnswers[nextQ];
+      const nextShuffledToOriginal =
+        shuffledQuestions[nextQ].shuffledToOriginal;
       setSelectedAnswer(
-        userAnswers[currentQuestion + 1] !== -1
-          ? userAnswers[currentQuestion + 1]
-          : null,
+        origAnswer !== -1 ? nextShuffledToOriginal.indexOf(origAnswer) : null,
       );
-      setShowExplanation(userAnswers[currentQuestion + 1] !== -1);
-    } else {
-      setQuizCompleted(true);
     }
   };
 
   const handlePreviousQuestion = () => {
     if (currentQuestion > 0) {
-      setCurrentQuestion(currentQuestion - 1);
+      const prevQ = currentQuestion - 1;
+      setCurrentQuestion(prevQ);
+      const origAnswer = userAnswers[prevQ];
+      const prevShuffledToOriginal =
+        shuffledQuestions[prevQ].shuffledToOriginal;
       setSelectedAnswer(
-        userAnswers[currentQuestion - 1] !== -1
-          ? userAnswers[currentQuestion - 1]
-          : null,
+        origAnswer !== -1 ? prevShuffledToOriginal.indexOf(origAnswer) : null,
       );
-      setShowExplanation(userAnswers[currentQuestion - 1] !== -1);
     }
   };
 
   const handleRestart = () => {
     setCurrentQuestion(0);
     setSelectedAnswer(null);
-    setShowExplanation(false);
-    setScore(0);
     setQuizCompleted(false);
     setUserAnswers(new Array(passage.questions.length).fill(-1));
   };
+
+  const submitQuiz = () => {
+    setQuizCompleted(true);
+  };
+
+  const score = userAnswers.reduce((acc, ans, idx) => {
+    const correctIdx = passage.questions[idx].options.findIndex(
+      (o) => o.isCorrect,
+    );
+    return ans === correctIdx ? acc + 1 : acc;
+  }, 0);
 
   if (quizCompleted) {
     return (
@@ -102,11 +121,11 @@ export function ReadingQuizWrapper({
       level={level}
       currentQuestion={currentQuestion}
       selectedAnswer={selectedAnswer}
-      showExplanation={showExplanation}
+      showExplanation={false}
       shuffledOptions={shuffledOptions}
       newCorrectIndex={newCorrectIndex}
       onAnswerSelect={handleAnswerSelect}
-      onCheckAnswer={handleCheckAnswer}
+      onCheckAnswer={submitQuiz}
       onNextQuestion={handleNextQuestion}
       onPreviousQuestion={handlePreviousQuestion}
     />
