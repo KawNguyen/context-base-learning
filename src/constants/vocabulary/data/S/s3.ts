@@ -84,11 +84,12 @@ export const S3: VocabularyWord[] = [
     slug: "state",
     phonetic: "/steɪt/",
     partOfSpeech: "noun/verb",
-    meaningEn: "A condition or nation.",
-    meaningVi: "Tiểu bang.",
-    exampleEn: "United States.",
-    exampleVi: "Hoa Kỳ.",
-    categories: ["Politics", "Geography"],
+    meaningEn:
+      "A particular condition that someone or something is in at a specific time.",
+    meaningVi: "Trạng thái, tình trạng, tiểu bang.",
+    exampleEn: "Sleep is far from being a state of inactivity.",
+    exampleVi: "Giấc ngủ không hề là một trạng thái bất động.",
+    categories: ["Biology", "General", "Politics"],
   },
   {
     word: "Statement",

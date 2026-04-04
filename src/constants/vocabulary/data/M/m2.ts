@@ -36,6 +36,31 @@ export const M2: VocabularyWord[] = [
     categories: ["Psychology"],
   },
   {
+    word: "Mindful",
+    slug: "mindful",
+    phonetic: "/ˈmaɪnd.fəl/",
+    partOfSpeech: "adjective",
+    meaningEn: "Conscious or aware of something.",
+    meaningVi: "Chánh niệm/Ý thức.",
+    exampleEn: "Be mindful of your surroundings.",
+    exampleVi: "Hãy chú ý đến môi trường xung quanh bạn.",
+    categories: ["Psychology"],
+  },
+  {
+    word: "Mindfulness",
+    slug: "mindfulness",
+    phonetic: "/ˈmaɪnd.fəl.nəs/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The practice of being fully present and engaged in the current moment.",
+    meaningVi: "Chánh niệm, sự tỉnh thức.",
+    exampleEn:
+      "Practicing mindfulness can help your body transition into a restful state.",
+    exampleVi:
+      "Thực hành chánh niệm có thể giúp cơ thể bạn chuyển sang trạng thái nghỉ ngơi.",
+    categories: ["Psychology", "Health"],
+  },
+  {
     word: "Mine",
     slug: "mine",
     phonetic: "/maɪn/",

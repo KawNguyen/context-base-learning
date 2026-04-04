@@ -107,6 +107,20 @@ export function singularize(word: string): string {
     }
   }
 
+  if (lower.endsWith("oes")) {
+    // Exceptions where the base word ends in "oe"
+    if (
+      ["shoes", "toes", "canoes", "hoes", "foes", "aloes", "woes"].includes(
+        lower
+      )
+    ) {
+      result = lower.slice(0, -1);
+    } else {
+      result = lower.slice(0, -2);
+    }
+    return matchCase(word, result);
+  }
+
   if (lower.endsWith("s") && !lower.endsWith("ss")) {
     if (
       lower.endsWith("ous") ||

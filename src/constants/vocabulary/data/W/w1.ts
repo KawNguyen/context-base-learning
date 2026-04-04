@@ -355,6 +355,28 @@ export const W1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
+    word: "Weaken",
+    slug: "weaken",
+    phonetic: "/ˈwiː.kən/",
+    partOfSpeech: "verb",
+    meaningEn: "Make or become weaker in power, resolve, or physical strength.",
+    meaningVi: "Làm yếu đi.",
+    exampleEn: "The illness weakened him.",
+    exampleVi: "Căn bệnh đã làm anh ấy yếu đi.",
+    categories: ["General", "Medical"],
+  },
+  {
+    word: "Weakness",
+    slug: "weakness",
+    phonetic: "/ˈwiːk.nəs/",
+    partOfSpeech: "noun",
+    meaningEn: "The state or condition of lacking strength.",
+    meaningVi: "Sự yếu đuối.",
+    exampleEn: "Physical weakness.",
+    exampleVi: "Sự yếu đuối về thể chất.",
+    categories: ["General", "Medical"],
+  },
+  {
     word: "Wealth",
     slug: "wealth",
     phonetic: "/welθ/",
@@ -1140,7 +1162,8 @@ export const W1: VocabularyWord[] = [
     exampleVi: "Rút tiền từ ngân hàng.",
     categories: ["Finance", "General"],
   },
-  { word: "Withhold",
+  {
+    word: "Withhold",
     slug: "withhold",
     phonetic: "/wɪðˈhoʊld/",
     partOfSpeech: "verb",
@@ -1149,7 +1172,7 @@ export const W1: VocabularyWord[] = [
     exampleEn: "Withhold information.",
     exampleVi: "Giữ lại thông tin.",
     categories: ["General"],
-  },  
+  },
   {
     word: "Within",
     slug: "within",
@@ -1194,5 +1217,5 @@ export const W1: VocabularyWord[] = [
     exampleEn: "I witnessed the accident.",
     exampleVi: "Tôi đã làm nhân chứng cho vụ tai nạn đó.",
     categories: ["Law", "People"],
-  }
+  },
 ];
