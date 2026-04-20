@@ -516,7 +516,7 @@ export const B1: VocabularyWord[] = [
     word: "Banal",
     slug: "banal",
     phonetic: "/bəˈnɑːl/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn: "So lacking in originality as to be obvious and boring.",
     meaningVi: "Tầm thường, sáo rỗng.",
     exampleEn: "Banal conversation.",

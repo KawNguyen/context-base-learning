@@ -415,7 +415,7 @@ export const B5: VocabularyWord[] = [
     word: "Buoyant",
     slug: "buoyant",
     phonetic: "/ˈbɔɪ.ənt/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn:
       "Able or apt to stay afloat or rise to the top of a liquid or gas.",
     meaningVi: "Nổi; lạc quan.",

@@ -609,7 +609,7 @@ export const F5: VocabularyWord[] = [
     word: "Fortuitous",
     slug: "fortuitous",
     phonetic: "/fɔːrˈtuː.ə.t̬əs/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn: "Happening by accident or chance rather than design.",
     meaningVi: "Tình cờ, ngẫu nhiên.",
     exampleEn: "A fortuitous meeting.",

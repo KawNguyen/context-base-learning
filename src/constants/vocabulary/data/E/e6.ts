@@ -369,7 +369,7 @@ export const E6: VocabularyWord[] = [
     word: "Enormous",
     slug: "enormous",
     phonetic: "/əˈnɔːr.məs/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn: "Very large in size, quantity, or extent.",
     meaningVi: "Khổng lồ.",
     exampleEn: "An enormous mountain.",

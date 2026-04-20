@@ -850,7 +850,7 @@ export const Y1: VocabularyWord[] = [
     word: "Young",
     slug: "young",
     phonetic: "/jʌŋ/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn: "Having lived or existed for only a short time.",
     meaningVi: "Trẻ.",
     exampleEn: "A young girl.",

@@ -553,7 +553,7 @@ export const D12: VocabularyWord[] = [
     word: "Discrete",
     slug: "discrete",
     phonetic: "/dɪˈskriːt/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn: "Individually separate and distinct.",
     meaningVi: "Rời rạc, riêng biệt.",
     exampleEn: "The data is collected in discrete units.",

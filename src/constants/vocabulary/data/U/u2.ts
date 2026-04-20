@@ -172,7 +172,7 @@ export const U2: VocabularyWord[] = [
     word: "Useful",
     slug: "useful",
     phonetic: "/ˈjuːs.fəl/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn: "Able to be used for a practical purpose or in several ways.",
     meaningVi: "Hữu ích.",
     exampleEn: "This tool is very useful.",

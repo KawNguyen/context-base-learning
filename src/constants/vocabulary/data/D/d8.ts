@@ -752,7 +752,7 @@ export const D8: VocabularyWord[] = [
     word: "Deterministic",
     slug: "deterministic",
     phonetic: "/dɪˌtɜːr.mɪˈnɪs.tɪk/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn:
       "Relating to the philosophical doctrine that all events, including human action, are ultimately determined by causes external to the will.",
     meaningVi: "Có tính tất định.",

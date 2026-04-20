@@ -140,7 +140,7 @@ export const O2: VocabularyWord[] = [
     word: "Otherwise",
     slug: "otherwise",
     phonetic: "/ˈʌð.ər.waɪz/",
-    partOfSpeech: "adv",
+    partOfSpeech: "adverb",
     meaningEn: "In other circumstances.",
     meaningVi: "Nếu không thì.",
     exampleEn: "Hurry up, otherwise we'll be late.",

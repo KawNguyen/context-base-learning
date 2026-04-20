@@ -918,7 +918,7 @@ export const H1: VocabularyWord[] = [
     word: "Hapless",
     slug: "hapless",
     phonetic: "/ˈhæp.ləs/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn: "Unfortunate.",
     meaningVi: "Không may, rủi ro.",
     exampleEn: "A hapless victim.",

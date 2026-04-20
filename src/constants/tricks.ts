@@ -195,12 +195,12 @@ export const tricks: Trick[] = [
     title: "Vị trí của Trạng từ",
     explanationVi:
       "Trạng từ có vị trí linh hoạt hơn tính từ, thường bổ nghĩa cho động từ, tính từ hoặc trạng từ khác. Đây là phần cực kỳ quan trọng trong TOEIC Part 5.",
-    structure: "S + Adv + V | Adv + Adj | Adv + Adv | Be + Adv + V3/V-ing",
+    structure: "S + Adv + V | Adv + Adj | Adv + Adv | Be + Adv + V3/V-ing | V + Adv | V + O + Adv | Adv, S + V",
     rules: [
       {
         title: "Bổ nghĩa cho Động từ",
         contentVi:
-          "+ Đứng trước động từ thường: Adv + V\n+ Giữa trợ động từ và V chính: Be/Have + Adv + V3/V-ing\n+ Đứng sau V nội hoặc Tân ngữ: V + Adv / V + O + Adv",
+          "+ Đứng trước động từ thường: Adv + V\n+ Giữa trợ động từ và V chính: Be/Have + Adv + V3/V-ing\n+ Đứng sau động từ hoặc sau tân ngữ: V + Adv / V + O + Adv",
       },
       {
         title: "Bổ nghĩa cho Tính từ/Trạng từ",
@@ -221,7 +221,15 @@ export const tricks: Trick[] = [
       },
       {
         en: "She carefully reviewed the contract.",
-        vi: "Cô ấy đã xem xét hợp đồng một cách cênt thận. (S + Adv + V)",
+        vi: "Cô ấy đã xem xét hợp đồng một cách cẩn thận. (S + Adv + V)",
+      },
+      {
+        en: "Please review the document carefully.",
+        vi: "Vui lòng xem xét tài liệu một cách cẩn thận. (V + O + Adv)",
+      },
+      {
+        en: "He runs quickly.",
+        vi: "Anh ấy chạy nhanh. (V + Adv)",
       },
       {
         en: "The manager speaks English extremely well.",
@@ -316,7 +324,10 @@ export const tricks: Trick[] = [
         sign: "-ee",
         explanationVi: "employee, interviewee (Người nhận hành động)",
       },
-      { sign: "-ship / -hood", explanationVi: "friendship, childhood" },
+      {
+        sign: "-hood",
+        explanationVi: "childhood, brotherhood, sisterhood, neighborhood",
+      },
       { sign: "-cy / -ry", explanationVi: "privacy, bravery, delivery" },
     ],
     examples: [

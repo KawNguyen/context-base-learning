@@ -264,7 +264,7 @@ export const M2: VocabularyWord[] = [
     word: "Modern",
     slug: "modern",
     phonetic: "/ˈmɑː.dɚn/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn: "Relating to the present or recent times.",
     meaningVi: "Hiện đại.",
     exampleEn: "Modern technology.",

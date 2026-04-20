@@ -985,7 +985,7 @@ export const M1: VocabularyWord[] = [
     word: "Metabolic",
     slug: "metabolic",
     phonetic: "/ˌmet̬.əˈbɑː.lɪk/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn:
       "Relating to or deriving from the metabolism of a living organism.",
     meaningVi: "Thuộc về trao đổi chất.",
@@ -1080,7 +1080,7 @@ export const M1: VocabularyWord[] = [
     word: "Methodological",
     slug: "methodological",
     phonetic: "/ˌmeθ.ə.dəˈlɑː.dʒɪ.kəl/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn:
       "Relating to the system of methods used in a particular area of study or activity.",
     meaningVi: "Thuộc về phương pháp luận.",

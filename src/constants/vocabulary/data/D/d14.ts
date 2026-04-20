@@ -986,7 +986,7 @@ export const D14: VocabularyWord[] = [
     word: "Distinct",
     slug: "distinct",
     phonetic: "/dɪˈstɪŋkt/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn: "Readily distinguishable by the senses.",
     meaningVi: "Khác biệt rõ rệt.",
     exampleEn: "There is a distinct difference.",

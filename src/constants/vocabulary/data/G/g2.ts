@@ -352,7 +352,7 @@ export const G2: VocabularyWord[] = [
     word: "Glib",
     slug: "glib",
     phonetic: "/ɡlɪb/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn:
       "(of words or the person speaking them) fluent and voluble but insincere and shallow.",
     meaningVi: "Lém lỉnh, liến thoắng (nhưng không thành thật).",
@@ -880,7 +880,7 @@ export const G2: VocabularyWord[] = [
     word: "Gregarious",
     slug: "gregarious",
     phonetic: "/ɡrɪˈɡer.i.əs/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn: "Fond of company; sociable.",
     meaningVi: "Thích giao du, sống theo bầy đàn.",
     exampleEn: "He is a gregarious person.",

@@ -142,7 +142,7 @@ export const C15: VocabularyWord[] = [
     word: "Corporate",
     slug: "corporate",
     phonetic: "/ˈkɔː.pər.ət/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn: "Relating to a large company or group.",
     meaningVi: "Thuộc về doanh nghiệp.",
     exampleEn: "Corporate world.",

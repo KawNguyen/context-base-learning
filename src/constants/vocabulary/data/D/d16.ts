@@ -716,7 +716,7 @@ export const D16: VocabularyWord[] = [
     word: "Dominant",
     slug: "dominant",
     phonetic: "/ˈdɑː.mə.nənt/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn: "Most important, powerful, or influential.",
     meaningVi: "Thống trị, có ưu thế.",
     exampleEn: "A dominant position in the market.",

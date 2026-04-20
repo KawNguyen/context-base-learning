@@ -189,7 +189,7 @@ export const C9: VocabularyWord[] = [
     word: "Complaisant",
     slug: "complaisant",
     phonetic: "/kəmˈpleɪ.zənt/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn: "Willing to please others; obliging; agreeable.",
     meaningVi: "Hay chìu ý người khác, dễ dãi.",
     exampleEn: "A complaisant attitude.",
@@ -587,7 +587,7 @@ export const C9: VocabularyWord[] = [
     word: "Comprehensive",
     slug: "comprehensive",
     phonetic: "/ˌkɑːm.prəˈhen.sɪv/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn:
       "Complete; including all or nearly all elements or aspects of something.",
     meaningVi: "Toàn diện.",

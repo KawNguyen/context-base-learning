@@ -171,7 +171,7 @@ export const A2: VocabularyWord[] = [
     word: "Aggressive",
     slug: "aggressive",
     phonetic: "/əˈɡres.ɪv/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn:
       "Ready or likely to attack or confront; characterized by or resulting from aggression.",
     meaningVi: "Hung hăng, quyết đoán.",
@@ -183,7 +183,7 @@ export const A2: VocabularyWord[] = [
     word: "Agile",
     slug: "agile",
     phonetic: "/ˈædʒ.aɪl/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn: "Relating to a method of project management.",
     meaningVi: "Nhanh nhẹn, phương pháp Agile.",
     exampleEn: "Agile development.",
@@ -983,7 +983,7 @@ export const A2: VocabularyWord[] = [
     word: "Ambiguous",
     slug: "ambiguous",
     phonetic: "/æmˈbɪɡ.ju.əs/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn:
       "Open to more than one interpretation; not having one obvious meaning.",
     meaningVi: "Mơ hồ, nhập nhằng.",
@@ -1018,7 +1018,7 @@ export const A2: VocabularyWord[] = [
     word: "Ambivalent",
     slug: "ambivalent",
     phonetic: "/æmˈbɪv.ə.lənt/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn:
       "Having mixed feelings or contradictory ideas about something or someone.",
     meaningVi: "Mâu thuẫn, vừa yêu vừa ghét.",

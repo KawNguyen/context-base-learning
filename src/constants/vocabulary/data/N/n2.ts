@@ -314,7 +314,7 @@ export const N2: VocabularyWord[] = [
     word: "Normative",
     slug: "normative",
     phonetic: "/ˈnɔːr.mə.t̬ɪv/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn:
       "Establishing, relating to, or deriving from a standard or norm, especially of behavior.",
     meaningVi: "Thiết lập quy tắc, tiêu chuẩn.",

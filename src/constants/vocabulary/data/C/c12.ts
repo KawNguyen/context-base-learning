@@ -483,7 +483,7 @@ export const C12: VocabularyWord[] = [
     word: "Contagious",
     slug: "contagious",
     phonetic: "/kənˈteɪ.dʒəs/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn:
       "Spread from one person to another by direct or indirect contact.",
     meaningVi: "Truyền nhiễm, hay lây.",

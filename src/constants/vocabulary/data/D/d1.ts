@@ -608,7 +608,7 @@ export const D1: VocabularyWord[] = [
     word: "Dangerous",
     slug: "dangerous",
     phonetic: "/ˈdeɪn.dʒər.əs/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn: "Able or likely to cause harm or injury.",
     meaningVi: "Nguy hiểm.",
     exampleEn: "A dangerous animal.",

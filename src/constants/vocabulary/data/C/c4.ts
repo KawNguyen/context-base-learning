@@ -708,7 +708,7 @@ export const C4: VocabularyWord[] = [
     word: "Chivalrous",
     slug: "chivalrous",
     phonetic: "/ˈʃɪv.əl.rəs/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn:
       "(of a man or his behavior) courteous and gallant, especially toward women.",
     meaningVi: "Hào hiệp, ga lăng.",

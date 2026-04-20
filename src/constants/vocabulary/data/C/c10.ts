@@ -141,7 +141,7 @@ export const C10: VocabularyWord[] = [
     word: "Concurrent",
     slug: "concurrent",
     phonetic: "/kənˈkɝː.ənt/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn: "Existing, happening, or done at the same time.",
     meaningVi: "Đồng thời.",
     exampleEn: "Concurrent processes.",

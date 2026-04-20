@@ -643,7 +643,7 @@ export const N1: VocabularyWord[] = [
     word: "Nebulous",
     slug: "nebulous",
     phonetic: "/ˈneb.jə.ləs/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn: "Hazy, vague, or indistinct.",
     meaningVi: "Mơ hồ, mờ mịt.",
     exampleEn: "Nebulous ideas.",
@@ -810,7 +810,7 @@ export const N1: VocabularyWord[] = [
     word: "Negligible",
     slug: "negligible",
     phonetic: "/ˈneɡ.lɪ.dʒə.bl̩/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn:
       "So small or unimportant as to be not worth considering; insignificant.",
     meaningVi: "Không đáng kể.",
@@ -1014,7 +1014,7 @@ export const N1: VocabularyWord[] = [
     word: "Neurological",
     slug: "neurological",
     phonetic: "/ˌnʊr.əˈlɑː.dʒɪ.kəl/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn:
       "Relating to the anatomy, functions, and organic disorders of nerves and the nervous system.",
     meaningVi: "Thuộc về thần kinh.",

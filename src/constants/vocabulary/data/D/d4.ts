@@ -733,7 +733,7 @@ export const D4: VocabularyWord[] = [
     word: "Definitively",
     slug: "definitively",
     phonetic: "/dɪˈfɪn.ə.t̬ɪv.li/",
-    partOfSpeech: "adv",
+    partOfSpeech: "adverb",
     meaningEn: "Decisively and with authority; conclusively.",
     meaningVi: "Một cách dứt khoát, chắc chắn.",
     exampleEn: "The matter was definitively settled.",

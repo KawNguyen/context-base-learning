@@ -732,7 +732,7 @@ export const C16: VocabularyWord[] = [
     word: "Countless",
     slug: "countless",
     phonetic: "/ˈkaʊnt.ləs/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn: "Too many to be counted; very many.",
     meaningVi: "Vô số.",
     exampleEn: "Countless stars.",

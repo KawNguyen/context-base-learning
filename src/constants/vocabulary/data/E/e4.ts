@@ -889,7 +889,7 @@ export const E4: VocabularyWord[] = [
     word: "Empirical",
     slug: "empirical",
     phonetic: "/emˈpɪr.ɪ.kəl/",
-    partOfSpeech: "adj",
+    partOfSpeech: "adjective",
     meaningEn:
       "Based on, concerned with, or verifiable by observation or experience rather than theory or pure logic.",
     meaningVi: "Dựa trên kinh nghiệm/thực tế.",
