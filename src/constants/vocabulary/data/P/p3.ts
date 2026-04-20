@@ -261,6 +261,17 @@ export const P3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Propane",
+    slug: "propane",
+    phonetic: "/ˈproʊ.peɪn/",
+    partOfSpeech: "noun",
+    meaningEn: "A flammable gas used as fuel.",
+    meaningVi: "Khí propan.",
+    exampleEn: "Use propane for grilling.",
+    exampleVi: "Sử dụng khí propan để nướng.",
+    categories: ["Technology", "General"],
+  },
+  {
     word: "Propaganda",
     slug: "propaganda",
     phonetic: "/ˌprɑː.pəˈɡæn.də/",

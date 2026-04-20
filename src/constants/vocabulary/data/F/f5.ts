@@ -218,6 +218,18 @@ export const F5: VocabularyWord[] = [
     categories: ["Emotions"],
   },
   {
+    word: "Food",
+    slug: "food",
+    phonetic: "/fuːd/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "Any nutritious substance that people or animals eat or drink or that plants absorb in order to maintain life and growth.",
+    meaningVi: "Thức ăn/Lương thực.",
+    exampleEn: "Fast food.",
+    exampleVi: "Đồ ăn nhanh.",
+    categories: ["Food & Drink", "Medical"],
+  },
+  {
     word: "Food & Drink",
     slug: "Food & Drink",
     phonetic: "/fuːd/",

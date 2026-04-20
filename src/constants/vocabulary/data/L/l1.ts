@@ -448,7 +448,7 @@ export const L1: VocabularyWord[] = [
     phonetic: "/liːd/",
     partOfSpeech: "verb/noun",
     meaningEn: "Cause a person or animal to go with one.",
-    meaningVi: "Dẫn dắt.",
+    meaningVi: "Dẫn dắt/Kim loại chì.",
     exampleEn: "Lead the team.",
     exampleVi: "Dẫn dắt đội.",
     categories: ["General"],

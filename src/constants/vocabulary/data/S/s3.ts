@@ -911,6 +911,17 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Survey",
+    slug: "survey",
+    phonetic: "/ˈsɜːr.veɪ/",
+    partOfSpeech: "noun/verb",
+    meaningEn: "A method of gathering information.",
+    meaningVi: "Khảo sát.",
+    exampleEn: "Conduct a survey.",
+    exampleVi: "Thực hiện một cuộc khảo sát.",
+    categories: ["Business", "Academic"],
+  },
+  {
     word: "Survive",
     slug: "survive",
     phonetic: "/səˈvaɪv/",

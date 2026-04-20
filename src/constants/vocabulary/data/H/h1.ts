@@ -951,7 +951,7 @@ export const H1: VocabularyWord[] = [
     word: "Happily",
     slug: "happily",
     phonetic: "/ˈhæp.ə.li/",
-    partOfSpeech: "noun",
+    partOfSpeech: "adverb",
     meaningEn: "In a happy way.",
     meaningVi: "Một cách hạnh phúc.",
     exampleEn: "The couple lived happily ever after in the fairy tale.",

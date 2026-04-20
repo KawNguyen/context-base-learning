@@ -916,6 +916,17 @@ export const W1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Wider",
+    slug: "wider",
+    phonetic: "/ˈwaɪdər/",
+    partOfSpeech: "adjective",
+    meaningEn: "Having a greater width.",
+    meaningVi: "Rộng hơn.",
+    exampleEn: "A wider road.",
+    exampleVi: "Con đường rộng hơn.",
+    categories: ["General"],
+  },
+  {
     word: "Wife",
     slug: "wife",
     phonetic: "/waɪf/",

@@ -904,14 +904,27 @@ export const C2: VocabularyWord[] = [
     categories: ["Social"],
   },
   {
+    word: "Celebratory",
+    slug: "celebratory",
+    phonetic: "/ˈsel.ə.brə.tɔːr.i/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Expressing happiness and pride, especially at an important event or occasion.",
+    meaningVi: "Để ăn mừng, mang tính chất kỷ niệm, chung vui.",
+    exampleEn: "The team had a celebratory dinner after their big win.",
+    exampleVi: "Cả đội đã có một bữa tối ăn mừng sau chiến thắng lớn.",
+    categories: ["Social", "General"],
+  },
+  {
     word: "Celebrated",
     slug: "celebrated",
     phonetic: "/ˈsel.ə.breɪ.t̬ɪd/",
     partOfSpeech: "adjective",
-    meaningEn: "Greatly admired; renowned.",
-    meaningVi: "Nổi tiếng/Lừng danh.",
-    exampleEn: "Celebrated actor.",
-    exampleVi: "Diễn viên lừng danh.",
+    meaningEn:
+      "Famous for some quality or achievement; greatly admired; renowned.",
+    meaningVi: "Nổi tiếng, lừng danh, được ngưỡng mộ.",
+    exampleEn: "The city is celebrated for its beautiful architecture.",
+    exampleVi: "Thành phố này nổi tiếng vì kiến trúc tuyệt đẹp.",
     categories: ["People", "Art", "General"],
   },
   {
@@ -926,18 +939,7 @@ export const C2: VocabularyWord[] = [
     exampleVi: "Lễ kỷ niệm kéo dài suốt đêm.",
     categories: ["Social"],
   },
-  {
-    word: "Celebratory",
-    slug: "celebratory",
-    phonetic: "/ˈsel.ə.brə.tɔːr.i/",
-    partOfSpeech: "adjective",
-    meaningEn:
-      "Expressing happiness and pride, especially at an important event or occasion.",
-    meaningVi: "Để ăn mừng.",
-    exampleEn: "Celebratory speech.",
-    exampleVi: "Bài phát biểu để ăn mừng.",
-    categories: ["Social"],
-  },
+
   {
     word: "Celebrity",
     slug: "celebrity",

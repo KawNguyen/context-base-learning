@@ -138,6 +138,17 @@ export const E9: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Execute",
+    slug: "execute",
+    phonetic: "/ˈek.sɪ.kjuːt/",
+    partOfSpeech: "verb",
+    meaningEn: "Carry out or put into effect.",
+    meaningVi: "Thực hiện.",
+    exampleEn: "Execute the plan.",
+    exampleVi: "Thực hiện kế hoạch.",
+    categories: ["General"],
+  },
+  {
     word: "Execution",
     slug: "execution",
     phonetic: "/ˌek.səˈkjuː.ʃən/",

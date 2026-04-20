@@ -242,7 +242,7 @@ export const U2: VocabularyWord[] = [
     phonetic: "/juːˈtɪl.ə.ti/",
     partOfSpeech: "noun",
     meaningEn: "The state of being useful, profitable, or beneficial.",
-    meaningVi: "Tiện ích.",
+    meaningVi: "Đa dụng/Tiện ích.",
     exampleEn: "Public utilities.",
     exampleVi: "Dịch vụ công cộng.",
     categories: ["General", "Technology"],
