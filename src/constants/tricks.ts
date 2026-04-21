@@ -51,6 +51,31 @@ export const tricks: Trick[] = [
         explanationVi: "different, important, independent",
       },
       { sign: "-ary / -ory", explanationVi: "voluntary, temporary, advisory" },
+
+      {
+        sign: "-ed",
+        explanationVi: "interested, bored, tired, excited",
+      },
+      {
+        sign: "-ing",
+        explanationVi: "interesting, boring, exciting, amazing",
+      },
+      {
+        sign: "-en",
+        explanationVi: "golden, wooden",
+      },
+      {
+        sign: "-ish",
+        explanationVi: "childish, foolish, selfish",
+      },
+      {
+        sign: "-like",
+        explanationVi: "childlike, lifelike",
+      },
+      {
+        sign: "-some",
+        explanationVi: "handsome, troublesome, awesome",
+      },
     ],
     examples: [
       { en: "She is a beautiful girl.", vi: "Cô ấy là một cô gái xinh đẹp." },
@@ -195,7 +220,8 @@ export const tricks: Trick[] = [
     title: "Vị trí của Trạng từ",
     explanationVi:
       "Trạng từ có vị trí linh hoạt hơn tính từ, thường bổ nghĩa cho động từ, tính từ hoặc trạng từ khác. Đây là phần cực kỳ quan trọng trong TOEIC Part 5.",
-    structure: "S + Adv + V | Adv + Adj | Adv + Adv | Be + Adv + V3/V-ing | V + Adv | V + O + Adv | Adv, S + V",
+    structure:
+      "S + Adv + V | Adv + Adj | Adv + Adv | Be + Adv + V3/V-ing | V + Adv | V + O + Adv | Adv, S + V",
     rules: [
       {
         title: "Bổ nghĩa cho Động từ",
