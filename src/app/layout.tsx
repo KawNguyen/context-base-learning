@@ -14,6 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "/logo.svg",
+  },
   title: "Context-Based English Learning",
   description:
     "Learn English through context with dictionary, quizzes, grammar, and reading comprehension.",

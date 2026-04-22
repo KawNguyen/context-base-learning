@@ -13,7 +13,7 @@ interface WordDetailCardProps {
 export function WordDetailCard({ word }: WordDetailCardProps) {
   if (!word) {
     return (
-      <Card className="border-blue-200 h-full flex items-center justify-center">
+      <Card className="h-full flex items-center justify-center">
         <p className="text-muted-foreground">Word details will appear here</p>
       </Card>
     );
