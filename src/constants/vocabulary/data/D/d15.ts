@@ -46,6 +46,18 @@ export const D15: VocabularyWord[] = [
     categories: ["Business", "Economics", "Technology"],
   },
   {
+    word: "Distribution",
+    slug: "distribution",
+    phonetic: "/ˌdɪs.trɪˈbjuː.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The action of sharing something out among a number of recipients.",
+    meaningVi: "Sự phân phối/Sự phân phát.",
+    exampleEn: "Distribution of wealth.",
+    exampleVi: "Sự phân phối của cải.",
+    categories: ["Economics", "General"],
+  },
+  {
     word: "District",
     slug: "district",
     phonetic: "/ˈdɪs.trɪkt/",

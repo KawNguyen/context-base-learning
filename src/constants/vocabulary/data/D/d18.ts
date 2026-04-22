@@ -854,18 +854,6 @@ export const D18: VocabularyWord[] = [
     categories: ["Science", "Nature", "Daily"],
   },
   {
-    word: "Dropout",
-    slug: "dropout",
-    phonetic: "/ˈdrɑːp.aʊt/",
-    partOfSpeech: "noun",
-    meaningEn:
-      "A person who has abandoned a course of study or who has rejected conventional society.",
-    meaningVi: "Người bỏ học/Người sống ngoài lề xã hội.",
-    exampleEn: "High school dropout.",
-    exampleVi: "Người bỏ học trung học.",
-    categories: ["People", "Education", "Social"],
-  },
-  {
     word: "Dropper",
     slug: "dropper",
     phonetic: "/ˈdrɑːp.ɚ/",

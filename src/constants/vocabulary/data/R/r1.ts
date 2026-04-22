@@ -248,7 +248,7 @@ export const R1: VocabularyWord[] = [
     phonetic: "/ˈriː.dɪŋ/",
     partOfSpeech: "noun",
     meaningEn: "The action of reading.",
-    meaningVi: "Kỹ năng đọc, đọc sách, việc đọc.",
+    meaningVi: "Kỹ năng đọc/đọc sách/ việc đọc.",
     exampleEn: "Reading is important.",
     exampleVi: "Đọc sách là quan trọng.",
     categories: ["Daily"],

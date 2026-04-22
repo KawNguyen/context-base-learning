@@ -456,8 +456,10 @@ export const D4: VocabularyWord[] = [
     slug: "deferent",
     phonetic: "/ˈdef.ər.ənt/",
     partOfSpeech: "adjective",
-    meaningEn: "Showing deference; respectful.",
-    meaningVi: "Tôn kính/Hay chiều theo.",
+    meaningEn:
+      "Showing deference; respectful. Submission to the judgment, opinion, or wishes of another.",
+    meaningVi:
+      "Tôn kính/Hay chiều theo. Thể hiện sự tôn trọng hoặc nhượng bộ trước ý kiến của người khác.",
     exampleEn: "Deferent manner.",
     exampleVi: "Thái độ tôn kính.",
     categories: ["Psychology", "Social"],

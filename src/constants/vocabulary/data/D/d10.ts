@@ -924,11 +924,12 @@ export const D10: VocabularyWord[] = [
     slug: "dimensionless",
     phonetic: "/ˌdaɪˈmen.ʃən.ləs/",
     partOfSpeech: "adjective",
-    meaningEn: "Having no physical dimensions.",
-    meaningVi: "Không có kích thước/Vô thứ nguyên.",
+    meaningEn:
+      "Having no physical dimension; (of a quantity) expressed as a pure number.",
+    meaningVi: "Không có thứ nguyên/Vô thứ nguyên/Không có kích thước.",
     exampleEn: "Dimensionless quantity.",
-    exampleVi: "Đại lượng vô thứ nguyên (trong vật lý).",
-    categories: ["Science", "Education"],
+    exampleVi: "Đại lượng vô thứ nguyên.",
+    categories: ["Physics", "Mathematics", "Science"],
   },
   {
     word: "Dimensions",

@@ -627,7 +627,7 @@ export const F2: VocabularyWord[] = [
     partOfSpeech: "noun",
     meaningEn:
       "Friendly association, especially with people who share one's interests.",
-    meaningVi: "Tình bằng hữu/Học bổng.",
+    meaningVi: "học bổng nghiên cứu/chương trình nghiên cứu sinh",
     exampleEn: "Research fellowship.",
     exampleVi: "Học bổng nghiên cứu.",
     categories: ["Education", "Social"],

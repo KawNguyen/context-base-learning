@@ -822,11 +822,10 @@ export const X1: VocabularyWord[] = [
     slug: "xylem",
     phonetic: "/ˈzaɪ.ləm/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The vascular tissue in plants that conducts water and dissolved nutrients upward from the root.",
-    meaningVi: "Mạch gỗ (trong cây).",
-    exampleEn: "Water travels through the xylem.",
-    exampleVi: "Nước di chuyển qua mạch gỗ.",
+    meaningEn: "The vascular tissue in plants that conducts water and dissolved nutrients upward from the root.",
+    meaningVi: "Mô gỗ/Mạch gỗ.",
+    exampleEn: "Xylem and phloem.",
+    exampleVi: "Mạch gỗ và mạch rây.",
     categories: ["Biology", "Science", "Nature"],
   },
   {

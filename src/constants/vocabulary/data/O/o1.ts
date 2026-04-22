@@ -737,13 +737,14 @@ export const O1: VocabularyWord[] = [
   {
     word: "Officer",
     slug: "officer",
-    phonetic: "/ˈɔː.fɪ.sɚ/",
+    phonetic: "/ˈɑː.fɪ.sɚ/",
     partOfSpeech: "noun",
-    meaningEn: "A person holding a position of authority.",
-    meaningVi: "Sĩ quan.",
+    meaningEn:
+      "A person holding a position of authority in an organization, government, or the armed forces.",
+    meaningVi: "Sĩ quan/Viên chức/Cán bộ.",
     exampleEn: "Police officer.",
-    exampleVi: "Cảnh sát.",
-    categories: ["Business", "Law"],
+    exampleVi: "Viên chức cảnh sát.",
+    categories: ["Law", "Government", "Military"],
   },
   {
     word: "Official",

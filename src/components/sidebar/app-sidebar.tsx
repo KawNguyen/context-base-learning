@@ -17,6 +17,7 @@ import {
   AudioLines,
   TestTube2,
   Lightbulb,
+  LineSquiggle,
 } from "lucide-react";
 
 import {
@@ -42,6 +43,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   const data = {
     navMain: [
       { title: "Vocabulary", url: "/vocabulary", icon: BookA },
+      { title: "Guess Word", url: "/guess-word", icon: LineSquiggle },
       { title: "Grammar", url: "/grammar", icon: BookOpen },
       { title: "Tricks", url: "/tricks", icon: Lightbulb },
       { title: "Irregular Verbs", url: "/irregular-verbs", icon: WholeWord },

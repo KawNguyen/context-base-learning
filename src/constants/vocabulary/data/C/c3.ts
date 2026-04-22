@@ -141,7 +141,7 @@ export const C3: VocabularyWord[] = [
     phonetic: "/ˈser.ə.brəl/",
     partOfSpeech: "adjective",
     meaningEn: "Of or relating to the brain or the intellect.",
-    meaningVi: "Thuộc về trí não.",
+    meaningVi: "Thuộc về não/Trí tuệ.",
     exampleEn: "Cerebral palsy.",
     exampleVi: "Bệnh bại não.",
     categories: ["Medical"],

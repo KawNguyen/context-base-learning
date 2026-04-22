@@ -28,8 +28,8 @@ export const P3: VocabularyWord[] = [
     slug: "productive",
     phonetic: "/ˈprɑː.dʌk.tɪv/",
     partOfSpeech: "adjective",
-    meaningEn: "Achieving a lot; producing high yields; useful or positive.",
-    meaningVi: "Năng suất (hiệu quả); màu mỡ; có tính xây dựng.",
+    meaningEn: "Achieving a lot or producing good results.",
+    meaningVi: "Năng suất; hiệu quả",
     exampleEn:
       "A productive day / Productive farmland / A productive dialogue.",
     exampleVi:

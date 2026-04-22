@@ -336,8 +336,9 @@ export const C9: VocabularyWord[] = [
     phonetic: "/kəmˈplaɪ.ənt/",
     partOfSpeech: "adjective",
     meaningEn:
-      "Inclined to agree with others or obey rules, especially to an excessive degree; acquiescent.",
-    meaningVi: "Hay chiều theo/Tuân thủ (quy chuẩn).",
+      "Inclined to agree with others or obey rules, especially to an excessive degree; acquiescent. Also, meeting or in accordance with relevant standards or regulations.",
+    meaningVi:
+      "Hay chiều theo/Tuân thủ (quy chuẩn). Đáp ứng các tiêu chuẩn kỹ thuật hoặc pháp lý.",
     exampleEn: "Regulatory compliant.",
     exampleVi: "Tuân thủ các quy định.",
     categories: ["Psychology", "Law", "Business"],

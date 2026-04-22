@@ -959,13 +959,15 @@ export const F4: VocabularyWord[] = [
   {
     word: "Flourish",
     slug: "flourish",
-    phonetic: "/ˈflɝː.ɪʃ/",
-    partOfSpeech: "verb/noun",
-    meaningEn: "Grow or develop in a healthy or vigorous way.",
-    meaningVi: "Phát triển mạnh/Hưng thịnh/Vung (vũ khí).",
-    exampleEn: "Business is flourishing.",
-    exampleVi: "Việc kinh doanh đang phát đạt.",
-    categories: ["Business", "Nature"],
+    phonetic: "/ˈflɜːr.ɪʃ/",
+    partOfSpeech: "verb, noun",
+    meaningEn:
+      "To grow or develop successfully; to wave something around to attract attention.",
+    meaningVi:
+      "Hưng thịnh, phát triển mạnh mẽ / Múa may, huơ (vũ khí, vật dụng).",
+    exampleEn: "The economy is beginning to flourish.",
+    exampleVi: "Nền kinh tế đang bắt đầu phát triển hưng thịnh.",
+    categories: ["General", "Business"],
   },
   {
     word: "Flow",

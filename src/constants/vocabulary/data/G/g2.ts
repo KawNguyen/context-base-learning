@@ -512,13 +512,14 @@ export const G2: VocabularyWord[] = [
     word: "Glorify",
     slug: "glorify",
     phonetic: "/ˈɡlɔːr.ə.faɪ/",
-    partOfSpeech: "noun",
-    meaningEn: "Describe or represent as admirable, especially unjustifiably.",
-    meaningVi: "Ca tụng/Tôn vinh.",
-    exampleEn: "The monument was built to glorify the fallen heroes.",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To praise or honor something or someone highly; to make something seem better than it is.",
+    meaningVi: "Tuyên dương, tôn vinh / Ca ngợi, làm cho vẻ vang.",
+    exampleEn: "The statues were built to glorify the heroes of the war.",
     exampleVi:
-      "Tượng đài được dựng lên để tôn vinh những anh hùng đã ngã xuống.",
-    categories: ["General"],
+      "Những bức tượng được xây dựng để tôn vinh các anh hùng chiến tranh.",
+    categories: ["General", "Religion", "Art"],
   },
   {
     word: "Glorious",

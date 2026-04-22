@@ -72,7 +72,7 @@ export const C14: VocabularyWord[] = [
     word: "Coordinating",
     slug: "coordinating",
     phonetic: "/koʊˈɔːr.də.neɪ.tɪŋ/",
-    partOfSpeech: "adjective",
+    partOfSpeech: "verb/adjective",
     meaningEn: "Relating to the act of coordinating.",
     meaningVi: "Liên quan đến việc phối hợp.",
     exampleEn: "Coordinating role.",
@@ -439,7 +439,7 @@ export const C14: VocabularyWord[] = [
     partOfSpeech: "noun",
     meaningEn:
       "A tenant by copyhold; a device to hold a paper on which a copy is written.",
-    meaningVi: "Người thuê đất copyhold/Kẹp giữ giấy bản thảo.",
+    meaningVi: "Người thuê đất/Kẹp giữ giấy bản thảo.",
     exampleEn: "Desk copyholder.",
     exampleVi: "Kẹp giữ giấy trên bàn làm việc.",
     categories: ["Law", "Technology"],

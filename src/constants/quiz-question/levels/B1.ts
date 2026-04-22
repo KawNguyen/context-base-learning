@@ -1202,26 +1202,6 @@ export const questions: Question[] = [
     category: "Modals",
   },
   {
-    id: "B1-0098",
-    topicId: "relative-clauses",
-    questionType: "grammar",
-    contextEn: "Identifying a coworker with a specific expertise.",
-    contextVi: "Xác định một đồng nghiệp có chuyên môn cụ thể.",
-    questionEn:
-      "She is the designer _____ portfolio impressed the creative director during the interview.",
-    questionVi:
-      "Cô ấy là nhà thiết kế _____ có bộ hồ sơ năng lực đã gây ấn tượng với giám đốc sáng tạo trong buổi phỏng vấn.",
-    options: [
-      { option: "whose", isCorrect: true },
-      { option: "who", isCorrect: false },
-      { option: "which", isCorrect: false },
-      { option: "whom", isCorrect: false },
-    ],
-    explanationVi:
-      "Đại từ quan hệ 'whose' chỉ sự sở hữu cho vật/người đứng trước nó (the designer's portfolio).",
-    category: "Relative Clauses",
-  },
-  {
     id: "B1-0099",
     topicId: "comparison",
     questionType: "grammar",
@@ -1610,7 +1590,7 @@ export const questions: Question[] = [
       { option: "updated", isCorrect: false },
     ],
     explanationVi:
-      "Cấu trúc giả định (subjunctive) dùng sau động từ 'advise that...'.",
+      "Cấu trúc giả định (subjunctive) sau các động từ khuyên bảo như 'advise that... (should) + V nguyên mẫu'.",
     category: "Reported Speech",
   },
   {

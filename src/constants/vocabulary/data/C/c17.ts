@@ -291,14 +291,15 @@ export const C17: VocabularyWord[] = [
   {
     word: "Cow-puncher",
     slug: "cow-puncher",
-    phonetic: "/ˈkaʊˌpʌn.tʃɚ/",
+    phonetic: "/ˈkaʊ.pʌn.tʃɚ/",
     partOfSpeech: "noun",
-    meaningEn: "A cowboy.",
-    meaningVi: "Người chăn bò (từ lóng Mỹ).",
-    exampleEn: "Experienced cow-puncher.",
-    exampleVi: "Người chăn bò giàu kinh nghiệm.",
-    categories: ["People", "Business"],
+    meaningEn: "A cowboy; a person who tends or drives cattle on a ranch.",
+    meaningVi: "Anh chàng chăn bò/Cao bồi.",
+    exampleEn: "A veteran cow-puncher.",
+    exampleVi: "Một tay chăn bò kỳ cựu.",
+    categories: ["History", "Culture", "Daily"],
   },
+
   {
     word: "Coward",
     slug: "coward",

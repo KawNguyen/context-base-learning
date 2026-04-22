@@ -167,7 +167,7 @@ export const B1: VocabularyWord[] = [
     phonetic: "/ˈbæk.pæk/",
     partOfSpeech: "noun",
     meaningEn: "A bag carried on one's back, typically with shoulder straps.",
-    meaningVi: "Ba lô.",
+    meaningVi: "Cái ba lô.",
     exampleEn: "I carry my books in a backpack.",
     exampleVi: "Tôi mang sách trong ba lô.",
     categories: ["Daily", "Travel"],

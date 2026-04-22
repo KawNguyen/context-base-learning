@@ -975,7 +975,7 @@ export const H1: VocabularyWord[] = [
     word: "Happy",
     slug: "happy",
     phonetic: "/ˈhæp.i/",
-    partOfSpeech: "noun",
+    partOfSpeech: "adjective",
     meaningEn: "Feeling or showing pleasure or contentment.",
     meaningVi: "Hạnh phúc.",
     exampleEn: "Wishing you a very happy birthday and a great year.",
