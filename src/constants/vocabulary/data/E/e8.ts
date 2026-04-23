@@ -414,11 +414,13 @@ export const E8: VocabularyWord[] = [
     phonetic: "/ˈjuː.θə.naɪz/",
     partOfSpeech: "verb",
     meaningEn:
-      "Put (a living being, especially a dog or cat) to death humanely.",
-    meaningVi: "Làm chết không đau đớn (thường dùng cho động vật).",
-    exampleEn: "Euthanize a pet.",
-    exampleVi: "Làm chết nhân đạo thú cưng.",
-    categories: ["Social", "Medical"],
+      "To deliberately put a living being to death humanely, especially to end suffering from an incurable disease.",
+    meaningVi:
+      "Cho cái chết nhân đạo, thực hiện trợ tử (thường dùng cho động vật).",
+    exampleEn: "The vet had to euthanize the dog to end its suffering.",
+    exampleVi:
+      "Bác sĩ thú y đã phải cho chú chó cái chết nhân đạo để kết thúc sự đau đớn của nó.",
+    categories: ["Medical", "Science", "General"],
   },
   {
     word: "Evacuate",
@@ -662,12 +664,14 @@ export const E8: VocabularyWord[] = [
   {
     word: "Eventually",
     slug: "eventually",
-    phonetic: "/ɪˈven.tʃu.əl.i/",
+    phonetic: "/ɪˈven.tʃu.ə.li/",
     partOfSpeech: "adverb",
-    meaningEn: "In the end, especially after a long time.",
-    meaningVi: "Cuối cùng.",
-    exampleEn: "He eventually agreed.",
-    exampleVi: "Cuối cùng anh ấy đồng ý.",
+    meaningEn:
+      "In the end, especially after a long time or a lot of effort, problems, or delays.",
+    meaningVi: "Cuối cùng thì, rốt cuộc thì.",
+    exampleEn: "Keep trying and you will find a job eventually.",
+    exampleVi:
+      "Hãy cứ tiếp tục cố gắng và cuối cùng bạn sẽ tìm được việc làm thôi.",
     categories: ["General"],
   },
   {

@@ -917,6 +917,46 @@ export const I1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Improper",
+    slug: "improper",
+    phonetic: "/ɪmˈprɑː.pɚ/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Not in accordance with accepted standards of behavior; not suited to circumstances; (Math) a fraction where the numerator is greater than the denominator.",
+    meaningVi:
+      "Không đúng mực, không phù hợp; Sai quy cách; (Toán học) phân số ảo/phân số không thực sự (tử > mẫu).",
+    exampleEn:
+      "It is improper to wear casual clothes to a funeral. / The machine failed due to improper maintenance.",
+    exampleVi:
+      "Mặc đồ bình thường đi dự tang lễ là không đúng mực. / Máy bị hỏng do bảo trì không đúng quy cách.",
+    categories: ["General", "Law", "Mathematics", "Engineering"],
+  },
+  {
+    word: "Improperly",
+    slug: "improperly",
+    phonetic: "/ɪmˈprɑː.pɚ.li/",
+    partOfSpeech: "adverb",
+    meaningEn: "In a way that is not correct, suitable, or honest.",
+    meaningVi: "Một cách không đúng đắn, không đúng cách, sai trái.",
+    exampleEn: "The data was improperly stored, leading to a security breach.",
+    exampleVi:
+      "Dữ liệu được lưu trữ không đúng cách, dẫn đến việc vi phạm bảo mật.",
+    categories: ["General", "Technology"],
+  },
+  {
+    word: "Improperness",
+    slug: "improperness",
+    phonetic: "/ɪmˈprɑː.pɚ.nəs/",
+    partOfSpeech: "noun",
+    meaningEn: "The quality of being improper or unsuitable.",
+    meaningVi: "Sự không hợp lý, sự không đúng mực, tính chất sai trái.",
+    exampleEn:
+      "The improperness of his behavior at the meeting was noted by everyone.",
+    exampleVi:
+      "Sự không đúng mực trong hành vi của anh ta tại cuộc họp đã bị mọi người chú ý.",
+    categories: ["General", "Psychology"],
+  },
+  {
     word: "Impropriety",
     slug: "impropriety",
     phonetic: "/ˌɪm.prəˈpraɪ.ə.t̬i/",

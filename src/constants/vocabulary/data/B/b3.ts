@@ -100,11 +100,14 @@ export const B3: VocabularyWord[] = [
     slug: "blank",
     phonetic: "/blæŋk/",
     partOfSpeech: "adjective/noun/verb",
-    meaningEn: "Bare or empty.",
-    meaningVi: "Trống rỗng.",
-    exampleEn: "Fill in the blanks.",
-    exampleVi: "Điền vào chỗ trống.",
-    categories: ["General", "Education"],
+    meaningEn:
+      "Empty, with no marks or writing; a space left to be filled in a document; to suddenly forget something.",
+    meaningVi: "Trống, để trống; Chỗ trống; Đầu óc trống rỗng.",
+    exampleEn:
+      "Please leave this section blank. / My mind went blank during the exam.",
+    exampleVi:
+      "Vui lòng để trống phần này. / Đầu óc tôi bỗng trống rỗng trong suốt kỳ thi.",
+    categories: ["General", "Technology", "Psychology"],
   },
   {
     word: "Blanket",

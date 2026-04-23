@@ -2263,7 +2263,7 @@ export const questionsB2_2: Question[] = [
     contextEn: "Expressing a mandatory instruction from the CEO.",
     contextVi: "Diễn đạt một chỉ thị bắt buộc từ CEO.",
     questionEn:
-      "The CEO insisted that the audit _____ be conducted by an independent third party next month.",
+      "The CEO insisted that the audit _____ conducted by an independent third party next month.",
     questionVi:
       "CEO khăng khăng yêu cầu cuộc kiểm toán _____ phải được thực hiện bởi một bên thứ ba độc lập vào tháng tới.",
     options: [

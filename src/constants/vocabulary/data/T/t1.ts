@@ -935,6 +935,33 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Thoroughly",
+    slug: "thoroughly",
+    phonetic: "/ˈθɝː.oʊ.li/",
+    partOfSpeech: "adverb",
+    meaningEn: "In a detailed and complete way; very much; to a great degree.",
+    meaningVi: "Kỹ lưỡng, thấu đáo, triệt để; Hoàn toàn.",
+    exampleEn:
+      "The documents were thoroughly examined. / I thoroughly enjoyed the performance.",
+    exampleVi:
+      "Các tài liệu đã được kiểm tra kỹ lưỡng. / Tôi hoàn toàn tận hưởng buổi biểu diễn đó.",
+    categories: ["General", "Science", "Business"],
+  },
+  {
+    word: "Thoroughness",
+    slug: "thoroughness",
+    phonetic: "/ˈθɝː.oʊ.nəs/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The quality of doing something very carefully and with great attention to detail.",
+    meaningVi: "Sự kỹ lưỡng, sự thấu đáo, tính triệt để.",
+    exampleEn:
+      "The success of the project was due to the thoroughness of the research. / I was impressed by the thoroughness of the inspection.",
+    exampleVi:
+      "Sự thành công của dự án là nhờ vào sự kỹ lưỡng của quá trình nghiên cứu. / Tôi đã bị ấn tượng bởi sự thấu đáo của cuộc kiểm tra.",
+    categories: ["General", "Business", "Academic"],
+  },
+  {
     word: "Those",
     slug: "those",
     phonetic: "/ðoʊz/",
@@ -1017,11 +1044,13 @@ export const T1: VocabularyWord[] = [
     slug: "throughout",
     phonetic: "/θruːˈaʊt/",
     partOfSpeech: "preposition/adverb",
-    meaningEn: "In every part of.",
-    meaningVi: "Khắp.",
-    exampleEn: "Throughout the year.",
-    exampleVi: "Suốt năm.",
-    categories: ["General"],
+    meaningEn:
+      "In every part of a place or object; during the whole period of time of an event or sub-period.",
+    meaningVi: "Xuyên suốt, khắp, từ đầu đến cuối.",
+    exampleEn:
+      "The house was painted white throughout. / It rained throughout the day.",
+    exampleVi: "Ngôi nhà được sơn trắng toàn bộ. / Trời đã mưa suốt cả ngày.",
+    categories: ["General", "Time"],
   },
   {
     word: "Throughput",

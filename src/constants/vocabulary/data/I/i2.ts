@@ -441,6 +441,34 @@ export const I2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Inspiration",
+    slug: "inspiration",
+    phonetic: "/ˌɪn.spəˈreɪ.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The process of being mentally stimulated to do or feel something, especially to do something creative; a sudden brilliant idea.",
+    meaningVi: "Cảm hứng, nguồn cảm hứng; Ý tưởng hay đột xuất.",
+    exampleEn:
+      "The golden autumn leaves were the inspiration for her painting. / He is an inspiration to young athletes.",
+    exampleVi:
+      "Những chiếc lá thu vàng là nguồn cảm hứng cho bức tranh của cô ấy. / Anh ấy là nguồn cảm hứng cho các vận động viên trẻ.",
+    categories: ["General", "Art", "Psychology"],
+  },
+  {
+    word: "Inspiring",
+    slug: "inspiring",
+    phonetic: "/ɪnˈspaɪə.rɪŋ/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Having the effect of animating or exalting the mind; providing inspiration.",
+    meaningVi: "Truyền cảm hứng, đầy cảm hứng.",
+    exampleEn:
+      "She gave an inspiring speech that moved everyone to tears. / The scenery was truly inspiring.",
+    exampleVi:
+      "Cô ấy đã có một bài phát biểu đầy cảm hứng khiến mọi người đều rơi lệ. / Phong cảnh thật sự truyền cảm hứng.",
+    categories: ["General", "Education", "Psychology"],
+  },
+  {
     word: "Install",
     slug: "install",
     phonetic: "/ɪnˈstɔːl/",

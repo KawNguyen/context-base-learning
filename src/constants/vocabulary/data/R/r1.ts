@@ -469,6 +469,19 @@ export const R1: VocabularyWord[] = [
     categories: ["Medical", "Daily", "Technology"],
   },
   {
+    word: "Rectify",
+    slug: "rectify",
+    phonetic: "/ˈrek.tə.faɪ/",
+    partOfSpeech: "verb",
+    meaningEn: "To correct something that is wrong; to put a situation right.",
+    meaningVi: "Chỉnh sửa cho đúng, khắc phục, sửa sai.",
+    exampleEn:
+      "The technical team is working to rectify the server issue. / It is important to rectify any errors before the report is published.",
+    exampleVi:
+      "Đội ngũ kỹ thuật đang làm việc để khắc phục sự cố máy chủ. / Việc sửa bất kỳ lỗi nào trước khi báo cáo được xuất bản là rất quan trọng.",
+    categories: ["General", "Technology", "Business"],
+  },
+  {
     word: "Rectitude",
     slug: "rectitude",
     phonetic: "/ˈrek.tə.tuːd/",

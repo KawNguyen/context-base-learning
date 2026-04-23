@@ -686,12 +686,16 @@ export const H2: VocabularyWord[] = [
     word: "Heavy",
     slug: "heavy",
     phonetic: "/ˈhev.i/",
-    partOfSpeech: "adjective",
-    meaningEn: "Of great weight or intensity.",
-    meaningVi: "Nặng; dữ dội",
-    exampleEn: "It was a heavy rain.",
-    exampleVi: "Trời mưa rất to.",
-    categories: ["General", "Weather"],
+    partOfSpeech: "adjective/noun",
+    meaningEn:
+      "Of great weight; difficult to lift or move; (of an activity) done with a lot of force or effort; (Computing) consuming many resources.",
+    meaningVi:
+      "Nặng, nặng nề; (Hoạt động) dữ dội, cường độ cao; (Máy tính) tốn tài nguyên.",
+    exampleEn:
+      "The box is too heavy to lift. / Heavy traffic delayed our arrival.",
+    exampleVi:
+      "Cái thùng này quá nặng để nhấc lên. / Giao thông dày đặc đã làm chúng tôi đến muộn.",
+    categories: ["General", "Science", "Technology"],
   },
   {
     word: "Hegemony",

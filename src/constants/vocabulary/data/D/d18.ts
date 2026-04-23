@@ -156,12 +156,15 @@ export const D18: VocabularyWord[] = [
     word: "Dread",
     slug: "dread",
     phonetic: "/dred/",
-    partOfSpeech: "verb/noun",
-    meaningEn: "Anticipate with great apprehension or fear.",
-    meaningVi: "Kinh sợ/Khiếp đảm/Nỗi sợ hãi.",
-    exampleEn: "Dread the consequences.",
-    exampleVi: "Lo sợ những hậu quả.",
-    categories: ["Psychology", "General"],
+    partOfSpeech: "verb/noun/adjective",
+    meaningEn:
+      "To anticipate with great apprehension or fear; a deep-seated fear of something expected to happen.",
+    meaningVi: "Sự kinh hãi, nỗi khiếp sợ; Kinh sợ, lo sợ.",
+    exampleEn:
+      "I dread to think what would happen if he was left alone. / The prospect of the exam filled him with dread.",
+    exampleVi:
+      "Tôi phát khiếp khi nghĩ đến chuyện gì sẽ xảy ra nếu để anh ta một mình. / Viễn cảnh về kỳ thi khiến anh ấy tràn ngập sự lo sợ.",
+    categories: ["General", "Psychology", "Emotions", "Social"],
   },
   {
     word: "Dreadful",

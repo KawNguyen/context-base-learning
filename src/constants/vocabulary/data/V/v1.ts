@@ -247,11 +247,15 @@ export const V1: VocabularyWord[] = [
     slug: "van",
     phonetic: "/væn/",
     partOfSpeech: "noun",
-    meaningEn: "A medium-sized motor vehicle.",
-    meaningVi: "Xe tải nhỏ.",
-    exampleEn: "Delivery van.",
-    exampleVi: "Xe giao hàng.",
-    categories: ["Travel", "General"],
+    meaningEn:
+      "A medium-sized motor vehicle used for transporting goods or people; (short for) vanguard.",
+    meaningVi:
+      "Xe tải nhỏ, xe bán tải, xe hành khách cỡ trung; Tiền phong/đội quân tiên phong.",
+    exampleEn:
+      "We hired a van to move our furniture. / He was in the van of the new art movement.",
+    exampleVi:
+      "Chúng tôi đã thuê một chiếc xe tải nhỏ để chuyển đồ đạc. / Ông ấy nằm trong nhóm tiên phong của phong trào nghệ thuật mới.",
+    categories: ["General", "Transportation", "History"],
   },
   {
     word: "Vandal",
@@ -768,6 +772,20 @@ export const V1: VocabularyWord[] = [
     exampleEn: "Open the windows to ventilate the room properly.",
     exampleVi: "Mở cửa sổ để thông gió cho căn phòng một cách hợp lý.",
     categories: ["General"],
+  },
+  {
+    word: "Ventilation",
+    slug: "ventilation",
+    phonetic: "/ˌven.tɪˈleɪ.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The provision of fresh air to a room, building, or confined space; (Medicine) the replacement of air in the lungs.",
+    meaningVi: "Sự thông gió, hệ thống thông hơi; (Y học) sự thông khí (phổi).",
+    exampleEn:
+      "The office has a very good ventilation system. / The patient was placed on mechanical ventilation.",
+    exampleVi:
+      "Văn phòng có hệ thống thông gió rất tốt. / Bệnh nhân đã được đặt máy trợ thở (thông khí cơ học).",
+    categories: ["General", "Architecture", "Medical", "Engineering"],
   },
   {
     word: "Venture",

@@ -487,11 +487,14 @@ export const A1: VocabularyWord[] = [
     slug: "act",
     phonetic: "/ækt/",
     partOfSpeech: "verb/noun",
-    meaningEn: "Take action; do something.",
-    meaningVi: "Hành động.",
-    exampleEn: "Act fast.",
-    exampleVi: "Hành động nhanh chóng.",
-    categories: ["General"],
+    meaningEn:
+      "To do something for a particular purpose; a law passed by a legislative body; a main division of a play or opera.",
+    meaningVi: "Hành động (v); Đạo luật (n); Hồi/Chương (n) (trong kịch/phim).",
+    exampleEn:
+      "The police must act now. / The Clean Air Act was passed in 1970. / The hero dies at the end of Act 2.",
+    exampleVi:
+      "Cảnh sát phải hành động ngay bây giờ. / Đạo luật Không khí Sạch được thông qua năm 1970. / Người anh hùng hy sinh vào cuối hồi 2.",
+    categories: ["General", "Law", "Art"],
   },
   {
     word: "Action",

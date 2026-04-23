@@ -245,12 +245,15 @@ export const L1: VocabularyWord[] = [
     word: "Last",
     slug: "last",
     phonetic: "/læst/",
-    partOfSpeech: "adjective/verb",
-    meaningEn: "Coming after all others in time or order.",
-    meaningVi: "Cuối cùng.",
-    exampleEn: "The last one.",
-    exampleVi: "Cái cuối cùng.",
-    categories: ["General"],
+    partOfSpeech: "verb/noun/adjective/adverb",
+    meaningEn:
+      "Coming after all others in time or order; to continue for a specified period of time.",
+    meaningVi: "Cuối cùng; Kéo dài.",
+    exampleEn:
+      "This is the last piece of cake. / The meeting will last for two hours.",
+    exampleVi:
+      "Đây là miếng bánh cuối cùng. / Cuộc họp sẽ kéo dài trong hai tiếng.",
+    categories: ["General", "Time"],
   },
   {
     word: "Lasting",
@@ -301,12 +304,15 @@ export const L1: VocabularyWord[] = [
     word: "Latest",
     slug: "latest",
     phonetic: "/ˈleɪ.tɪst/",
-    partOfSpeech: "adjective",
-    meaningEn: "Most recent.",
-    meaningVi: "Mới nhất.",
-    exampleEn: "The latest news.",
-    exampleVi: "Tin tức mới nhất.",
-    categories: ["General"],
+    partOfSpeech: "adjective/noun",
+    meaningEn:
+      "The most recent or newest thing of its kind; (noun) the most recent news or fashion.",
+    meaningVi: "Mới nhất, gần đây nhất; (danh từ) tin mới nhất, mốt mới nhất.",
+    exampleEn:
+      "Have you heard the latest news? / This smartphone is the latest model.",
+    exampleVi:
+      "Bạn đã nghe tin gì mới nhất chưa? / Chiếc điện thoại này là mẫu mới nhất.",
+    categories: ["General", "Technology", "Fashion"],
   },
   {
     word: "laud",
@@ -804,6 +810,20 @@ export const L1: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
+    word: "Liberation",
+    slug: "liberation",
+    phonetic: "/ˌlɪb.əˈreɪ.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The act of setting someone free from imprisonment, slavery, or oppression; release.",
+    meaningVi: "Sự giải phóng, sự phóng thích.",
+    exampleEn:
+      "The liberation of the city was celebrated by everyone. / Women's liberation movement.",
+    exampleVi:
+      "Sự giải phóng thành phố đã được mọi người ăn mừng. / Phong trào giải phóng phụ nữ.",
+    categories: ["History", "Politics", "Social", "Science"],
+  },
+  {
     word: "Libertine",
     slug: "libertine",
     phonetic: "/ˈlɪb.ɚ.tiːn/",
@@ -983,6 +1003,20 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Limitation",
+    slug: "limitation",
+    phonetic: "/ˌlɪm.ɪˈteɪ.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "A boundary or point at which something must stop; a condition that keeps someone or something from being perfect or more successful.",
+    meaningVi: "Sự hạn chế, giới hạn, nhược điểm.",
+    exampleEn:
+      "Everyone has their own limitations. / The statute of limitations for this crime has expired.",
+    exampleVi:
+      "Ai cũng có những giới hạn riêng. / Thời hạn khởi kiện cho tội danh này đã hết.",
+    categories: ["General", "Law", "Psychology"],
+  },
+  {
     word: "Limpid",
     slug: "limpid",
     phonetic: "/ˈlɪm.pɪd/",
@@ -1052,6 +1086,31 @@ export const L1: VocabularyWord[] = [
     categories: ["Biology"],
   },
   {
+    word: "Liquid",
+    slug: "liquid",
+    phonetic: "/ˈlɪk.wɪd/",
+    partOfSpeech: "noun/adjective",
+    meaningEn: "A substance that flows freely but is of constant volume.",
+    meaningVi: "Chất lỏng.",
+    exampleEn: "Water is a liquid.",
+    exampleVi: "Nước là một chất lỏng.",
+    categories: ["Science"],
+  },
+  {
+    word: "Liquidation",
+    slug: "liquidation",
+    phonetic: "/ˌlɪk.wɪˈdeɪ.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The process of closing a business and selling its assets to pay off debts.",
+    meaningVi: "Sự thanh lý (tài sản/công ty), sự giải thể.",
+    exampleEn:
+      "The company went into liquidation after failing to pay its creditors.",
+    exampleVi:
+      "Công ty đã tiến hành thanh lý sau khi không thể trả nợ cho các chủ nợ.",
+    categories: ["Finance", "Business", "Law"],
+  },
+  {
     word: "Liquidity",
     slug: "liquidity",
     phonetic: "/lɪˈkwɪd.ə.ti/",
@@ -1094,6 +1153,18 @@ export const L1: VocabularyWord[] = [
     exampleEn: "Study literature.",
     exampleVi: "Học văn học.",
     categories: ["Literature", "Education"],
+  },
+  {
+    word: "Litigation",
+    slug: "litigation",
+    phonetic: "/ˌlɪt̬.əˈɡeɪ.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn: "The process of taking legal action; a lawsuit.",
+    meaningVi: "Sự kiện tụng, quá trình tranh chấp pháp lý.",
+    exampleEn: "The matter is currently in litigation and cannot be discussed.",
+    exampleVi:
+      "Vấn đề này hiện đang trong quá trình kiện tụng và không thể thảo luận.",
+    categories: ["Law", "Business"],
   },
   {
     word: "Litigious",

@@ -542,11 +542,15 @@ export const B5: VocabularyWord[] = [
     slug: "burning",
     phonetic: "/ˈbɝː.nɪŋ/",
     partOfSpeech: "adjective/noun",
-    meaningEn: "On fire.",
-    meaningVi: "Rực cháy/Nóng bỏng.",
-    exampleEn: "Burning question.",
-    exampleVi: "Câu hỏi nóng bỏng.",
-    categories: ["General", "Emotions"],
+    meaningEn:
+      "On fire; very hot or bright; (of a desire or need) very strong or urgent.",
+    meaningVi:
+      "Đang cháy, nóng rực; (Nghĩa bóng) thiết tha, rực cháy, cấp bách.",
+    exampleEn:
+      "A burning building. / He has a burning ambition to become a pilot.",
+    exampleVi:
+      "Một tòa nhà đang cháy. / Anh ấy có một tham vọng cháy bỏng là trở thành phi công.",
+    categories: ["General", "Science", "Psychology"],
   },
   {
     word: "Burnish",

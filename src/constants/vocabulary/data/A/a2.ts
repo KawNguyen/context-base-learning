@@ -1097,6 +1097,17 @@ export const A2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
+    word: "Amplify",
+    slug: "amplify",
+    phonetic: "/ˈæm.plə.faɪ/",
+    partOfSpeech: "verb",
+    meaningEn: "To make something louder, stronger, or more effective.",
+    meaningVi: "Khuếch đại, làm tăng cường, làm lớn lên.",
+    exampleEn: "We need to amplify the guitar signal for the concert.",
+    exampleVi: "Chúng ta cần khuếch đại tín hiệu ghi-ta cho buổi hòa nhạc.",
+    categories: ["Energy", "Technology"],
+  },
+  {
     word: "Amusing",
     slug: "amusing",
     phonetic: "/əˈmjuː.zɪŋ/",

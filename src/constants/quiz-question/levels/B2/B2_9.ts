@@ -1580,7 +1580,7 @@ export const questionsB2_9: Question[] = [
     questionEn:
       "Had the board known about the risks earlier, they _____ differently regarding the acquisition of the subsidiary.",
     questionVi:
-      "Nếu hội đồng quản trị biết về những rủi ro sớm hơn, họ đã _____ khác đi liên quan đến việc mua lại công ty con.",
+      "Nếu hội đồng quản trị biết về những rủi ro sớm hơn, họ đã _____ khác đối với việc mua lại công ty con.",
     options: [
       {
         option: "would have acted",

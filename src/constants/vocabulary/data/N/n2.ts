@@ -183,6 +183,21 @@ export const N2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Nominal",
+    slug: "nominal",
+    phonetic: "/ˈnɑː.mə.nəl/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "(Of a role or status) existing in name only; (of a price or amount) very small; (in economics) not adjusted for inflation.",
+    meaningVi:
+      "Trên danh nghĩa; (Chi phí) rất nhỏ, không đáng kể; (Kinh tế) giá trị danh nghĩa (chưa điều chỉnh lạm phát).",
+    exampleEn:
+      "He is the nominal head of the company. / We charge a nominal fee for the service.",
+    exampleVi:
+      "Ông ấy là người đứng đầu công ty trên danh nghĩa. / Chúng tôi thu một khoản phí nhỏ không đáng kể cho dịch vụ này.",
+    categories: ["General", "Finance", "Economics", "Engineering"],
+  },
+  {
     word: "Nominate",
     slug: "nominate",
     phonetic: "/ˈnɑː.mə.neɪt/",
@@ -209,26 +224,28 @@ export const N2: VocabularyWord[] = [
     word: "Nonchalant",
     slug: "nonchalant",
     phonetic: "/ˌnɑːn.ʃəˈlɑːnt/",
-    partOfSpeech: "noun",
+    partOfSpeech: "adjective",
     meaningEn:
-      "(of a person or manner) feeling or appearing casually calm and relaxed.",
-    meaningVi: "Thờ ơ/Lãnh đạm.",
-    exampleEn: "She gave a nonchalant shrug and walked away.",
-    exampleVi: "Cô ấy thờ ơ (lãnh đạm) nhún vai và bước đi.",
-    categories: ["General"],
+      "Feeling or appearing casually calm and relaxed; not displaying anxiety, interest, or enthusiasm.",
+    meaningVi:
+      "Thờ ơ, hờ hững, bình thản (theo kiểu không quan tâm hoặc không bị ảnh hưởng).",
+    exampleEn:
+      "He gave a nonchalant shrug when I asked him about the accident.",
+    exampleVi: "Anh ta nhún vai một cách thờ ơ khi tôi hỏi về vụ tai nạn.",
+    categories: ["General", "Psychology"],
   },
   {
     word: "Nondescript",
     slug: "nondescript",
-    phonetic: "/ˌnɑːn.dəˈskrɪpt/",
-    partOfSpeech: "noun",
+    phonetic: "/ˌnɑːn.dɪˈskrɪpt/",
+    partOfSpeech: "adjective",
     meaningEn:
       "Lacking distinctive or interesting features or characteristics.",
-    meaningVi: "Khó tả/Không có gì đặc biệt.",
-    exampleEn: "The thief escaped in a nondescript white car.",
-    exampleVi:
-      "Tên trộm đã tẩu thoát trên một chiếc xe hơi màu trắng không có gì đặc biệt (khó tả).",
-    categories: ["General"],
+    meaningVi:
+      "Không có gì đặc sắc, khó nhận dạng, mờ nhạt, bình thường đến mức khó tả.",
+    exampleEn: "The building was a nondescript grey block.",
+    exampleVi: "Tòa nhà là một khối hộp màu xám mờ nhạt, không có gì đặc sắc.",
+    categories: ["General", "Literature"],
   },
   {
     word: "Non-fiction",
@@ -410,6 +427,42 @@ export const N2: VocabularyWord[] = [
     exampleEn: "Disable notifications.",
     exampleVi: "Tắt các thông báo.",
     categories: ["Technology", "Daily"],
+  },
+  {
+    word: "Notify",
+    slug: "notify",
+    phonetic: "/ˈnoʊ.t̬ə.faɪ/",
+    partOfSpeech: "verb",
+    meaningEn: "To inform someone officially about something.",
+    meaningVi: "Thông báo, báo cho biết (một cách chính thức).",
+    exampleEn:
+      "The school will notify the parents if the classes are canceled.",
+    exampleVi: "Nhà trường sẽ thông báo cho phụ huynh nếu các lớp học bị hủy.",
+    categories: ["General", "Business", "Technology"],
+  },
+  {
+    word: "Notified",
+    slug: "notified",
+    phonetic: "/ˈnoʊ.t̬ə.faɪd/",
+    partOfSpeech: "verb/adjective",
+    meaningEn: "Having been informed or told about something.",
+    meaningVi: "Đã được thông báo.",
+    exampleEn: "We have already notified the winners of the competition.",
+    exampleVi:
+      "Chúng tôi đã thông báo cho những người thắng cuộc của cuộc thi.",
+    categories: ["General", "Business", "Technology"],
+  },
+  {
+    word: "Notifying",
+    slug: "notifying",
+    phonetic: "/ˈnoʊ.t̬ə.faɪ.ɪŋ/",
+    partOfSpeech: "verb/noun",
+    meaningEn: "The act of giving official notice.",
+    meaningVi: "Việc thông báo, hành động thông báo.",
+    exampleEn: "Notifying the authorities is the first step in an emergency.",
+    exampleVi:
+      "Thông báo cho các cơ quan chức năng là bước đầu tiên trong tình huống khẩn cấp.",
+    categories: ["General", "Law", "Security"],
   },
   {
     word: "Notion",

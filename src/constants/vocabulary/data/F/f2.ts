@@ -320,11 +320,14 @@ export const F2: VocabularyWord[] = [
     slug: "fear",
     phonetic: "/fɪr/",
     partOfSpeech: "noun/verb",
-    meaningEn: "An unpleasant emotion caused by threat of danger.",
-    meaningVi: "Sợ hãi.",
-    exampleEn: "No fear.",
-    exampleVi: "Không sợ.",
-    categories: ["Emotions"],
+    meaningEn:
+      "An unpleasant emotion caused by the belief that someone or something is dangerous, likely to cause pain, or a threat.",
+    meaningVi: "Nỗi sợ, sự sợ hãi; Sợ, lo ngại.",
+    exampleEn:
+      "He overcame his fear of heights. / I fear that we are too late.",
+    exampleVi:
+      "Anh ấy đã vượt qua nỗi sợ độ cao của mình. / Tôi lo ngại rằng chúng ta đã quá muộn.",
+    categories: ["General", "Psychology", "Emotions", "Social"],
   },
   {
     word: "Fearful",

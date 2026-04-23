@@ -158,6 +158,34 @@ export const T2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Topmost",
+    slug: "topmost",
+    phonetic: "/ˈtoʊp.moʊst/",
+    partOfSpeech: "adjective",
+    meaningEn: "Highest in physical position; most important or prominent.",
+    meaningVi: "Cao nhất (vị trí); Quan trọng nhất, đứng đầu.",
+    exampleEn:
+      "The bird perched on the topmost branch. / Customer satisfaction is our topmost priority.",
+    exampleVi:
+      "Con chim đậu trên cành cây cao nhất. / Sự hài lòng của khách hàng là ưu tiên hàng đầu của chúng tôi.",
+    categories: ["General", "Technology", "Management"],
+  },
+  {
+    word: "Topping",
+    slug: "topping",
+    phonetic: "/ˈtɑː.pɪŋ/",
+    partOfSpeech: "noun/adjective",
+    meaningEn:
+      "A layer of food poured or spread over another food to add flavor or decoration; (Construction) a layer of material applied to a surface.",
+    meaningVi:
+      "Phần thức ăn phủ lên trên (topping); Lớp bề mặt (trong xây dựng/công nghiệp).",
+    exampleEn:
+      "What toppings would you like on your pizza? / The cake has a thick chocolate topping.",
+    exampleVi:
+      "Bạn muốn thêm những loại topping nào lên bánh pizza? / Chiếc bánh có một lớp phủ socola dày.",
+    categories: ["General", "Food & Drink", "Construction"],
+  },
+  {
     word: "Topic",
     slug: "topic",
     phonetic: "/ˈtɑː.pɪk/",

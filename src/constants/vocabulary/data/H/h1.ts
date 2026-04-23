@@ -99,14 +99,13 @@ export const H1: VocabularyWord[] = [
     word: "Hackneyed",
     slug: "hackneyed",
     phonetic: "/ˈhæk.nid/",
-    partOfSpeech: "noun",
+    partOfSpeech: "adjective",
     meaningEn:
-      "(of a phrase or idea) lacking significance through having been overused; unoriginal and trite.",
-    meaningVi: "Nhàm chán/Cũ rích.",
-    exampleEn: "The plot of the movie was filled with hackneyed clichés.",
-    exampleVi:
-      "Cốt truyện của bộ phim tràn ngập những lời lẽ sáo rỗng (nhàm chán).",
-    categories: ["General"],
+      "(Of a phrase or idea) lacking significance through having been overused; unoriginal and trite.",
+    meaningVi: "Cũ rích, nhàm chán, lập đi lập lại (vì bị dùng quá nhiều).",
+    exampleEn: "The plot of the movie is a bit hackneyed.",
+    exampleVi: "Cốt truyện của bộ phim này hơi cũ rích và nhàm chán.",
+    categories: ["General", "Literature", "Art"],
   },
   {
     word: "Haddock",

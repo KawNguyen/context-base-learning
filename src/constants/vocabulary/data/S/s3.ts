@@ -680,6 +680,20 @@ export const S3: VocabularyWord[] = [
     categories: ["Medical", "Emotions"],
   },
   {
+    word: "Sufficient",
+    slug: "sufficient",
+    phonetic: "/səˈfɪʃ.ənt/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Enough; adequate; meeting the requirements for a particular purpose.",
+    meaningVi: "Đủ, đầy đủ (về lượng hoặc điều kiện).",
+    exampleEn:
+      "The company has sufficient funds to complete the project. / This evidence is not sufficient to prove his guilt.",
+    exampleVi:
+      "Công ty có đủ nguồn vốn để hoàn thành dự án. / Bằng chứng này không đủ để chứng minh tội lỗi của anh ta.",
+    categories: ["General", "Science", "Mathematics", "Law"],
+  },  
+  {
     word: "Sugar",
     slug: "sugar",
     phonetic: "/ˈʃʊɡ.ɚ/",
@@ -992,12 +1006,15 @@ export const S3: VocabularyWord[] = [
     word: "Swap",
     slug: "swap",
     phonetic: "/swɑːp/",
-    partOfSpeech: "verb",
-    meaningEn: "Exchange one thing for another.",
-    meaningVi: "Trao đổi.",
-    exampleEn: "Swap ideas.",
-    exampleVi: "Trao đổi ý tưởng.",
-    categories: ["General"],
+    partOfSpeech: "verb/noun",
+    meaningEn:
+      "To give something to someone and get something in return; to replace one thing with another.",
+    meaningVi: "Trao đổi, hoán đổi, thay thế.",
+    exampleEn:
+      "I swapped my red pen for her blue one. / We need to swap the two variables in the code.",
+    exampleVi:
+      "Tôi đã đổi cây bút đỏ của mình lấy cây bút xanh của cô ấy. / Chúng ta cần hoán đổi hai biến trong mã nguồn.",
+    categories: ["General", "Finance", "Technology"],
   },
   {
     word: "Swapping",

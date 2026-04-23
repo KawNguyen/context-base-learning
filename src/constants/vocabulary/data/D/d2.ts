@@ -921,11 +921,14 @@ export const D2: VocabularyWord[] = [
     phonetic: "/ˈdeb.ju.tɑːnt/",
     partOfSpeech: "noun",
     meaningEn:
-      "An upper-class young woman making her first appearance in fashionable society.",
-    meaningVi: "Thiếu nữ quý tộc mới ra mắt xã hội.",
-    exampleEn: "Debutante ball.",
-    exampleVi: "Dạ hội ra mắt của các thiếu nữ.",
-    categories: ["People", "Social", "History"],
+      "An upper-class young woman making her first formal appearance in fashionable society.",
+    meaningVi:
+      "Thiếu nữ thượng lưu mới gia nhập giới xã hội; cô gái vừa mới ra mắt giới thượng lưu.",
+    exampleEn:
+      "She made her first appearance as a debutante at the grand ball.",
+    exampleVi:
+      "Cô ấy đã ra mắt lần đầu tiên với tư cách là một thiếu nữ thượng lưu tại buổi dạ hội lớn.",
+    categories: ["General", "History", "Social"],
   },
   {
     word: "Decade",

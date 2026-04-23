@@ -304,6 +304,20 @@ export const P1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Partial",
+    slug: "partial",
+    phonetic: "/ˈpɑːr.ʃəl/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Existing only in part; incomplete; favoring one side in a dispute above the other.",
+    meaningVi: "Một phần, không hoàn chỉnh; Thiên vị.",
+    exampleEn:
+      "The project was only a partial success. / A judge should not be partial.",
+    exampleVi:
+      "Dự án chỉ thành công một phần. / Một thẩm phán thì không nên thiên vị.",
+    categories: ["General", "Science", "Law"],
+  },
+  {
     word: "Participate",
     slug: "participate",
     phonetic: "/pɑːrˈtɪs.ə.peɪt/",
@@ -871,6 +885,56 @@ export const P1: VocabularyWord[] = [
     exampleEn: "Strong personality.",
     exampleVi: "Tính cách mạnh mẽ.",
     categories: ["Psychology"],
+  },
+  {
+    word: "Persuade",
+    slug: "persuade",
+    phonetic: "/pɚˈsweɪd/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To convince someone to do or believe something through reasoning or argument.",
+    meaningVi: "Thuyết phục.",
+    exampleEn: "She managed to persuade her boss to give her a raise.",
+    exampleVi:
+      "Cô ấy đã thành công trong việc thuyết phục sếp tăng lương cho mình.",
+    categories: ["General", "Business"],
+  },
+  {
+    word: "Persuasion",
+    slug: "persuasion",
+    phonetic: "/pɚˈsweɪ.ʒən/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The action or fact of persuading someone or of being persuaded to do or believe something.",
+    meaningVi: "Sự thuyết phục, sức thuyết phục.",
+    exampleEn: "It took a lot of persuasion to get him to agree.",
+    exampleVi:
+      "Phải tốn rất nhiều công sức thuyết phục mới khiến anh ấy đồng ý.",
+    categories: ["General", "Psychology", "Politics"],
+  },
+  {
+    word: "Persuasive",
+    slug: "persuasive",
+    phonetic: "/pɚˈsweɪ.sɪv/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Good at persuading someone to do or believe something through reasoning or the use of temptation.",
+    meaningVi: "Có tính thuyết phục, có sức thuyết phục.",
+    exampleEn: "He made a very persuasive argument for the new project.",
+    exampleVi: "Anh ấy đã đưa ra một lập luận rất thuyết phục cho dự án mới.",
+    categories: ["General", "Marketing", "Law"],
+  },
+  {
+    word: "Persuasively",
+    slug: "persuasively",
+    phonetic: "/pɚˈsweɪ.sɪv.li/",
+    partOfSpeech: "adverb",
+    meaningEn:
+      "In a way that is able to persuade someone to believe or do something.",
+    meaningVi: "Một cách đầy thuyết phục.",
+    exampleEn: "She spoke persuasively about the need for reform.",
+    exampleVi: "Cô ấy đã nói một cách đầy thuyết phục về nhu cầu cải cách.",
+    categories: ["General", "Politics"],
   },
   {
     word: "Perspective",

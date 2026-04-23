@@ -283,6 +283,20 @@ export const M2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Modify",
+    slug: "modify",
+    phonetic: "/ˈmɑː.də.faɪ/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To change something slightly, especially to improve it or to make it less extreme.",
+    meaningVi: "Sửa đổi, điều chỉnh (thường là thay đổi nhẹ để phù hợp hơn).",
+    exampleEn:
+      "The software allows you to modify the layout of your dashboard. / You may need to modify your diet for better health.",
+    exampleVi:
+      "Phần mềm cho phép bạn điều chỉnh bố cục của bảng điều khiển. / Bạn có thể cần sửa đổi chế độ ăn uống của mình để có sức khỏe tốt hơn.",
+    categories: ["Technology", "General", "Grammar"],
+  },
+  {
     word: "Module",
     slug: "module",
     phonetic: "/ˈmɑː.dʒuːl/",
@@ -728,16 +742,32 @@ export const M2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Mutual",
+    slug: "mutual",
+    phonetic: "/ˈmjuː.tʃu.əl/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Held in common by two or more parties; experienced or done by each of two or more parties toward the other.",
+    meaningVi: "Lẫn nhau, chung (cho hai hoặc nhiều bên).",
+    exampleEn:
+      "We have a mutual friend. / Mutual respect is necessary for any partnership.",
+    exampleVi:
+      "Chúng tôi có một người bạn chung. / Sự tôn trọng lẫn nhau là cần thiết cho bất kỳ mối quan hệ đối tác nào.",
+    categories: ["General", "Finance", "Technology"],
+  },
+  {
     word: "Myopic",
     slug: "myopic",
     phonetic: "/maɪˈɑː.pɪk/",
-    partOfSpeech: "noun",
-    meaningEn: "Nearsighted; lacking imagination or foresight.",
-    meaningVi: "Cận thị/Thiển cận.",
-    exampleEn: "The government's myopic policy ignores long-term goals.",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Nearsighted; lacking imagination, foresight, or intellectual insight.",
+    meaningVi: "Cận thị; Thiển cận, tầm nhìn hạn hẹp.",
+    exampleEn:
+      "The government has a myopic attitude towards environmental issues. / Myopic voters only think about immediate tax cuts.",
     exampleVi:
-      "Chính sách thiển cận của chính phủ đã lờ đi các mục tiêu dài hạn.",
-    categories: ["General"],
+      "Chính phủ có thái độ thiển cận đối với các vấn đề môi trường. / Những cử tri thiển cận chỉ nghĩ đến việc cắt giảm thuế tức thì.",
+    categories: ["Medical", "Business", "Psychology"],
   },
   {
     word: "Myriad",

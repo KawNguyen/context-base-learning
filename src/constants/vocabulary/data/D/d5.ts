@@ -484,13 +484,15 @@ export const D5: VocabularyWord[] = [
   {
     word: "Delimitation",
     slug: "delimitation",
-    phonetic: "/diːˌlɪm.ɪˈteɪ.ʃən/",
+    phonetic: "/dɪˌlɪm.ɪˈteɪ.ʃən/",
     partOfSpeech: "noun",
     meaningEn: "The action of fixing the boundary or limits of something.",
-    meaningVi: "Sự định ranh giới/Sự phân định giới hạn.",
-    exampleEn: "Boundary delimitation.",
-    exampleVi: "Sự phân định biên giới.",
-    categories: ["General", "Politics", "Geography"],
+    meaningVi: "Sự phân định ranh giới, sự xác định giới hạn.",
+    exampleEn:
+      "The delimitation of the border between the two countries took years to negotiate.",
+    exampleVi:
+      "Việc phân định biên giới giữa hai quốc gia đã mất nhiều năm thương lượng.",
+    categories: ["General", "Politics", "Science"],
   },
   {
     word: "Delineate",
