@@ -6,5 +6,5 @@ import { questionsC1_3 } from "./C1_3";
 export const C1: Question[] = [
   ...questionsC1_1,
   ...questionsC1_2,
-  ...questionsC1_3
+  ...questionsC1_3,
 ];

@@ -20,5 +20,5 @@ export const B2: Question[] = [
   ...questionsB2_7,
   ...questionsB2_8,
   ...questionsB2_9,
-  ...questionsB2_10
+  ...questionsB2_10,
 ];

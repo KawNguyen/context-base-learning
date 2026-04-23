@@ -822,7 +822,8 @@ export const X1: VocabularyWord[] = [
     slug: "xylem",
     phonetic: "/ˈzaɪ.ləm/",
     partOfSpeech: "noun",
-    meaningEn: "The vascular tissue in plants that conducts water and dissolved nutrients upward from the root.",
+    meaningEn:
+      "The vascular tissue in plants that conducts water and dissolved nutrients upward from the root.",
     meaningVi: "Mô gỗ/Mạch gỗ.",
     exampleEn: "Xylem and phloem.",
     exampleVi: "Mạch gỗ và mạch rây.",

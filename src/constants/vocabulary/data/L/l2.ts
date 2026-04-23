@@ -232,7 +232,8 @@ export const L2: VocabularyWord[] = [
     exampleVi: "Con đường dài.",
     categories: ["General"],
   },
-  { word: "Long-term",
+  {
+    word: "Long-term",
     slug: "long-term",
     phonetic: "/lɔːŋ tɜːrm/",
     partOfSpeech: "adjective",
