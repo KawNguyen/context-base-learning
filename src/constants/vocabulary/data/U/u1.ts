@@ -373,6 +373,18 @@ export const U1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Undeniable",
+    slug: "undeniable",
+    phonetic: "/ˌʌn.dɪˈnaɪ.ə.bəl/",
+    partOfSpeech: "adjective",
+    meaningEn: "Unable to be denied or disputed; clearly true.",
+    meaningVi: "Không thể phủ nhận, rõ ràng là đúng.",
+    exampleEn: "The impact of sleep deprivation on driving is undeniable.",
+    exampleVi:
+      "Tác động của việc thiếu ngủ đối với việc lái xe là không thể phủ nhận.",
+    categories: ["General", "Academic"],
+  },
+  {
     word: "Under",
     slug: "under",
     phonetic: "/ˈʌn.dɚ/",
@@ -890,11 +902,13 @@ export const U1: VocabularyWord[] = [
     slug: "unique",
     phonetic: "/juːˈniːk/",
     partOfSpeech: "adjective",
-    meaningEn: "Being the only one of its kind.",
-    meaningVi: "Độc nhất.",
-    exampleEn: "Unique opportunity.",
-    exampleVi: "Cơ hội duy nhất.",
-    categories: ["General"],
+    meaningEn: "Being the only one of its kind; unlike anything else.",
+    meaningVi: "Độc nhất, duy nhất; riêng biệt, đặc sắc.",
+    exampleEn:
+      "Each user in the database is assigned a unique ID. / The RAG system provides a unique way to interact with static PDF files.",
+    exampleVi:
+      "Mỗi người dùng trong cơ sở dữ liệu được gán một mã ID duy nhất. / Hệ thống RAG cung cấp một cách thức độc đáo để tương tác với các tệp PDF tĩnh.",
+    categories: ["General", "Technology", "Design"],
   },
   {
     word: "Unit",

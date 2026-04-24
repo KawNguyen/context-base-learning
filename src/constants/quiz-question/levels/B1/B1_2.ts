@@ -1720,7 +1720,7 @@ export const questionsB1_2: Question[] = [
       { option: "distractions", isCorrect: false },
     ],
     explanationVi:
-      "Dịch đáp án:\nA. premises (n): giả thuyết\nB. defects (n): sai sót\nC. impacts (n): tác động\nD. distractions (n): sự phiền nhiễu\nPhân tích: Đây là câu về từ vựng nên bạn cần dựa vào nghĩa để đưa ra đáp án chính xác.\nA. giả thuyết\nB. lỗi\nC. ảnh hưởng\nD. thứ làm xao nhãng\n=> Đáp án đúng là B “defects”.\nDịch câu: Nếu thấy bất kỳ lỗi sản xuất nào trên chiếc tivi độ nét cao của mình, bạn hãy liên hệ với nơi mua hàng sớm nhất có thể.",
+      "Phân tích: Đây là câu về từ vựng nên bạn cần dựa vào nghĩa để đưa ra đáp án chính xác.\nA. giả thuyết\nB. lỗi\nC. ảnh hưởng\nD. thứ làm xao nhãng\n=> Đáp án đúng là B “defects”.\nDịch câu: Nếu thấy bất kỳ lỗi sản xuất nào trên chiếc tivi độ nét cao của mình, bạn hãy liên hệ với nơi mua hàng sớm nhất có thể.",
     category: "Grammar",
   },
 ];

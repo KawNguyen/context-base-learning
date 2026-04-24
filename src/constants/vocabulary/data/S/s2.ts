@@ -301,6 +301,20 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Simulation",
+    slug: "simulation",
+    phonetic: "/ˌsɪm.jəˈleɪ.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The imitation of the operation of a real-world process or system over time.",
+    meaningVi: "Sự mô phỏng.",
+    exampleEn:
+      "The driver drowsiness system was tested in a flight simulation.",
+    exampleVi:
+      "Hệ thống phát hiện buồn ngủ của tài xế đã được thử nghiệm trong một môi trường mô phỏng bay.",
+    categories: ["Technology", "Science", "Education"],
+  },
+  {
     word: "Simple",
     slug: "simple",
     phonetic: "/ˈsɪm.pəl/",
@@ -435,6 +449,18 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Sizably",
+    slug: "sizably",
+    phonetic: "/ˈsaɪ.zə.bli/",
+    partOfSpeech: "adverb",
+    meaningEn: "To a considerable or great degree in size or amount.",
+    meaningVi: "Một cách đáng kể, khá lớn (về kích thước hoặc số lượng).",
+    exampleEn: "The company's profits have grown sizably this year.",
+    exampleVi:
+      "Lợi nhuận của công ty đã tăng trưởng một cách đáng kể trong năm nay.",
+    categories: ["Business", "Finance", "General"],
+  },
+  {
     word: "Size",
     slug: "size",
     phonetic: "/saɪz/",
@@ -502,6 +528,21 @@ export const S2: VocabularyWord[] = [
     exampleEn: "I sleep eight hours every night.",
     exampleVi: "Tôi ngủ 8 tiếng mỗi đêm.",
     categories: ["Daily"],
+  },
+  {
+    word: "Sleep-cycle",
+    slug: "sleep-cycle",
+    phonetic: "/ˈsliːp ˌsaɪ.kəl/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "An oscillation between the shallow and deep stages of sleep; the natural pattern of sleep.",
+    meaningVi:
+      "Chu kỳ giấc ngủ (sự luân chuyển giữa các giai đoạn ngủ nông và ngủ sâu).",
+    exampleEn:
+      "A typical sleep-cycle lasts about 90 minutes. / Disrupting your sleep-cycle can lead to chronic fatigue.",
+    exampleVi:
+      "Một chu kỳ giấc ngủ điển hình kéo dài khoảng 90 phút. / Việc làm gián đoạn chu kỳ giấc ngủ có thể dẫn đến mệt mỏi mãn tính.",
+    categories: ["Biology", "Health", "Science"],
   },
   {
     word: "Sleepy",
@@ -721,14 +762,16 @@ export const S2: VocabularyWord[] = [
   {
     word: "Society",
     slug: "society",
-    phonetic: "/səˈsaɪ.ə.ti/",
+    phonetic: "/səˈsaɪ.ə.t̬i/",
     partOfSpeech: "noun",
     meaningEn:
-      "The aggregate of people living together in a more or less ordered community.",
-    meaningVi: "Xã hội.",
-    exampleEn: "Impact on society.",
-    exampleVi: "Ảnh hưởng đến xã hội.",
-    categories: ["Social"],
+      "A large group of people who live together in an organized way; an organization formed for a particular purpose.",
+    meaningVi: "Xã hội; Một hiệp hội, đoàn thể hoặc tổ chức.",
+    exampleEn:
+      "We live in a multicultural society. / She is a member of the Royal Geographical Society.",
+    exampleVi:
+      "Chúng ta sống trong một xã hội đa văn hóa. / Cô ấy là thành viên của Hiệp hội Địa lý Hoàng gia.",
+    categories: ["Social", "General", "History"],
   },
   {
     word: "Sophisticated",
@@ -754,15 +797,18 @@ export const S2: VocabularyWord[] = [
   },
   {
     word: "Social",
-    slug: "Social",
-    phonetic: "/səˈsaɪ.ə.ti/",
-    partOfSpeech: "noun",
+    slug: "social",
+    phonetic: "/ˈsoʊ.ʃəl/",
+    partOfSpeech: "adjective",
     meaningEn:
-      "The aggregate of people living together in a more or less ordered community.",
-    meaningVi: "Xã hội.",
-    exampleEn: "Impact on society.",
-    exampleVi: "Ảnh hưởng đến xã hội.",
-    categories: ["Social"],
+      "Relating to society or its organization; needing companionship and best suited to living in communities.",
+    meaningVi:
+      "Thuộc về xã hội; Có tính bầy đàn/tập thể; Dễ gần, thích giao du.",
+    exampleEn:
+      "Social media has changed how we communicate. / Humans are social animals.",
+    exampleVi:
+      "Mạng xã hội đã thay đổi cách chúng ta giao tiếp. / Con người là loài động vật có tính xã hội.",
+    categories: ["Social", "General"],
   },
   {
     word: "Social media",
@@ -1305,6 +1351,21 @@ export const S2: VocabularyWord[] = [
     exampleEn: "Split the bill.",
     exampleVi: "Chia hóa đơn.",
     categories: ["General"],
+  },
+  {
+    word: "Spontaneous",
+    slug: "spontaneous",
+    phonetic: "/spɑːnˈteɪ.ni.əs/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Happening or done in a natural, often sudden way, without any planning or without being forced.",
+    meaningVi:
+      "Tự phát, tự ý, ngẫu hứng; (Y học/Sinh học) Tự nhiên xảy ra không có tác động bên ngoài.",
+    exampleEn:
+      "The audience broke into spontaneous applause. / Sometimes the best classroom discussions are spontaneous.",
+    exampleVi:
+      "Khán giả vỗ tay một cách tự phát. / Đôi khi những cuộc thảo luận lớp học hay nhất lại là những cuộc thảo luận ngẫu hứng.",
+    categories: ["General", "Psychology", "Science"],
   },
   {
     word: "Sports",

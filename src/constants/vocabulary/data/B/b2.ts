@@ -1128,6 +1128,20 @@ export const B2: VocabularyWord[] = [
     categories: ["Politics"],
   },
   {
+    word: "Bitterly",
+    slug: "bitterly",
+    phonetic: "/ˈbɪt̬.ɚ.li/",
+    partOfSpeech: "adverb",
+    meaningEn:
+      "In a way that shows strong negative emotion such as anger or disappointment; (Weather) extremely cold.",
+    meaningVi: "Một cách cay đắng, đau đớn; (Thời tiết) cực kỳ giá rét.",
+    exampleEn:
+      "He was bitterly disappointed by the results. / It is bitterly cold outside today.",
+    exampleVi:
+      "Anh ấy đã thất vọng một cách cay đắng về kết quả. / Hôm nay ngoài trời lạnh buốt giá.",
+    categories: ["General", "Psychology", "Environment"],
+  },
+  {
     word: "Bird",
     slug: "bird",
     phonetic: "/bɜrd/",

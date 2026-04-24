@@ -1060,12 +1060,14 @@ export const Q1: VocabularyWord[] = [
     word: "Quiz",
     slug: "quiz",
     phonetic: "/kwɪz/",
-    partOfSpeech: "noun",
-    meaningEn: "A test of knowledge.",
-    meaningVi: "Bài kiểm tra.",
-    exampleEn: "Take a quiz.",
-    exampleVi: "Làm bài kiểm tra.",
-    categories: ["Education"],
+    partOfSpeech: "noun, verb",
+    meaningEn:
+      "A test of knowledge, especially as a competition or short assessment.",
+    meaningVi: "Bài kiểm tra ngắn, câu đố.",
+    exampleEn: "The quiz interface allows for multiple-choice answers.",
+    exampleVi:
+      "Giao diện bài kiểm tra cho phép chọn các câu trả lời trắc nghiệm.",
+    categories: ["Education", "General"],
   },
   {
     word: "Quizzical",

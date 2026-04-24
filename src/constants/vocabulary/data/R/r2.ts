@@ -114,6 +114,21 @@ export const R2: VocabularyWord[] = [
     categories: ["Daily", "Medical"],
   },
   {
+    word: "Restful",
+    slug: "restful",
+    phonetic: "/ˈrest.fəl/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "(General) Producing a feeling of being calm and relaxed; (Tech) Relating to REST (Representational State Transfer) architecture for web services.",
+    meaningVi:
+      "(Thông thường) Mang lại cảm giác thư thái, yên tĩnh; (Kỹ thuật) Thuộc về kiến trúc REST trong thiết kế web API.",
+    exampleEn:
+      "The sound of the ocean is very restful. / We are building a RESTful API for our chatbot.",
+    exampleVi:
+      "Tiếng sóng biển mang lại cảm giác rất thư thái. / Chúng tôi đang xây dựng một RESTful API cho chatbot của mình.",
+    categories: ["General", "Technology", "Health"],
+  },
+  {
     word: "Restaurant",
     slug: "restaurant",
     phonetic: "/ˈrestrɑːnt/",

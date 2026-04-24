@@ -937,6 +937,20 @@ export const C7: VocabularyWord[] = [
     categories: ["General", "Art"],
   },
   {
+    word: "Colorfully",
+    slug: "colorfully",
+    phonetic: "/ˈkʌl.ɚ.fəl.i/",
+    partOfSpeech: "adverb",
+    meaningEn:
+      "In a way that has many bright colors; in an interesting or exciting way.",
+    meaningVi: "Một cách rực rỡ, nhiều màu sắc; Một cách sinh động, thú vị.",
+    exampleEn:
+      "The room was colorfully decorated for the party. / He described his travels colorfully.",
+    exampleVi:
+      "Căn phòng được trang trí đầy màu sắc cho bữa tiệc. / Anh ấy đã mô tả những chuyến đi của mình một cách rất sinh động.",
+    categories: ["Art", "General", "Literature"],
+  },
+  {
     word: "Coloring",
     slug: "coloring",
     phonetic: "/ˈkʌl.ɚ.ɪŋ/",

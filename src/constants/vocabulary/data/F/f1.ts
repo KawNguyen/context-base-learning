@@ -933,6 +933,21 @@ export const F1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Far from",
+    slug: "far-from",
+    phonetic: "/fɑːr frʌm/",
+    partOfSpeech: "idiom / prepositional phrase",
+    meaningEn:
+      "Very different from; not at all; a long distance away (physically or metaphorically).",
+    meaningVi:
+      "Còn lâu mới...; Khác xa với...; Hoàn toàn không; Cách xa (về khoảng cách).",
+    exampleEn:
+      "The project is far from finished. / The reality was far from what we had imagined.",
+    exampleVi:
+      "Dự án vẫn còn lâu mới hoàn thành. / Thực tế khác xa với những gì chúng tôi đã tưởng tượng.",
+    categories: ["General", "Academic", "Business"],
+  },
+  {
     word: "Farce",
     slug: "farce",
     phonetic: "/fɑːrs/",

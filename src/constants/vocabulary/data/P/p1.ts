@@ -779,11 +779,13 @@ export const P1: VocabularyWord[] = [
     slug: "perhaps",
     phonetic: "/pɚˈhæps/",
     partOfSpeech: "adverb",
-    meaningEn: "Maybe.",
-    meaningVi: "Có lẽ.",
-    exampleEn: "Perhaps tomorrow.",
-    exampleVi: "Có lẽ ngày mai.",
-    categories: ["General"],
+    meaningEn: "Used to express uncertainty or possibility; maybe.",
+    meaningVi: "Có lẽ, có thể.",
+    exampleEn:
+      "Perhaps it will rain this afternoon. / This is perhaps the most important discovery of the century.",
+    exampleVi:
+      "Có lẽ chiều nay trời sẽ mưa. / Đây có lẽ là phát hiện quan trọng nhất của thế kỷ.",
+    categories: ["General", "Academic"],
   },
   {
     word: "Period",

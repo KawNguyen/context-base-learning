@@ -570,7 +570,7 @@ export const B3: VocabularyWord[] = [
   },
   {
     word: "Body",
-    slug: "Body",
+    slug: "body",
     phonetic: "/əˈpɪr.əns/",
     partOfSpeech: "noun",
     meaningEn: "The way that someone or something looks.",

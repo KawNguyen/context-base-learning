@@ -84,9 +84,7 @@ export function QuizCard({
                       isSubmitted ? "underline" : "underline-dotted"
                     }`}
                   >
-                    {isSubmitted
-                      ? answerParts[i] || correctAnswer
-                      : "_ _ _ _ _ _"}
+                    {isSubmitted ? answerParts[i] || correctAnswer : "______"}
                   </span>
                 )}
               </span>

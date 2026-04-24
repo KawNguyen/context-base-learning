@@ -420,6 +420,20 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Strictly",
+    slug: "strictly",
+    phonetic: "/ˈstrɪkt.li/",
+    partOfSpeech: "adverb",
+    meaningEn:
+      "In a way that involves rigid enforcement of rules or belief; completely and only.",
+    meaningVi: "Một cách nghiêm khắc, nghiêm ngặt; Hoàn toàn, chỉ duy nhất.",
+    exampleEn:
+      "The rules must be strictly followed. / This information is strictly confidential.",
+    exampleVi:
+      "Các quy tắc phải được tuân thủ một cách nghiêm ngặt. / Thông tin này là hoàn toàn bảo mật.",
+    categories: ["Law", "General", "Management"],
+  },
+  {
     word: "Strike",
     slug: "strike",
     phonetic: "/straɪk/",
@@ -692,7 +706,7 @@ export const S3: VocabularyWord[] = [
     exampleVi:
       "Công ty có đủ nguồn vốn để hoàn thành dự án. / Bằng chứng này không đủ để chứng minh tội lỗi của anh ta.",
     categories: ["General", "Science", "Mathematics", "Law"],
-  },  
+  },
   {
     word: "Sugar",
     slug: "sugar",
@@ -835,6 +849,21 @@ export const S3: VocabularyWord[] = [
     exampleEn: "Technical support.",
     exampleVi: "Hỗ trợ kỹ thuật.",
     categories: ["Business"],
+  },
+  {
+    word: "Suppress",
+    slug: "suppress",
+    phonetic: "/səˈpres/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To prevent something from being seen or expressed; to stop by force; (Tech) to eliminate unwanted signals or data.",
+    meaningVi:
+      "Kìm nén, ngăn chặn; Đàn áp; (Kỹ thuật) Triệt tiêu, loại bỏ (nhiễu/tín hiệu thừa).",
+    exampleEn:
+      "She struggled to suppress a smile. / The system uses filters to suppress background noise.",
+    exampleVi:
+      "Cô ấy đã cố gắng kìm nén một nụ cười. / Hệ thống sử dụng các bộ lọc để triệt tiêu tiếng ồn nền.",
+    categories: ["General", "Technology", "Psychology", "Politics"],
   },
   {
     word: "Sure",

@@ -373,5 +373,7 @@ export const DO_NOT_STEM = new Set([
   "being",
   "sometimes",
   "always",
+  "perhaps",
+  "spontaneous",
   "news",
 ]);

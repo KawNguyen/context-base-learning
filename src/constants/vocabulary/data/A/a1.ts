@@ -241,11 +241,28 @@ export const A1: VocabularyWord[] = [
     slug: "accompany",
     phonetic: "/əˈkʌm.pə.ni/",
     partOfSpeech: "verb",
-    meaningEn: "Go somewhere with someone as a companion.",
-    meaningVi: "Đi cùng.",
-    exampleEn: "Accompany a friend.",
-    exampleVi: "Đi cùng một người bạn.",
-    categories: ["General", "Social"],
+    meaningEn:
+      "To go somewhere with someone as a companion or escort; to happen or exist at the same time as something else.",
+    meaningVi: "Đi cùng, hộ tống, đồng hành; Xảy ra cùng lúc với.",
+    exampleEn:
+      "The driver's drowsiness is often accompanied by slow reaction times. / Each component should be accompanied by a technical manual.",
+    exampleVi:
+      "Sự buồn ngủ của tài xế thường đi kèm với thời gian phản ứng chậm. / Mỗi linh kiện nên đi kèm với một bản hướng dẫn kỹ thuật.",
+    categories: ["General", "Social", "Technology", "Science"],
+  },
+  {
+    word: "Accompanied by",
+    slug: "accompanied-by",
+    phonetic: "/əˈkʌm.pə.nid baɪ/",
+    partOfSpeech: "phrase / collocation",
+    meaningEn:
+      "Go together with; happening at the same time as something else; provided with something extra.",
+    meaningVi: "Được hộ tống bởi; đi kèm với; xảy ra đồng thời với cái gì.",
+    exampleEn:
+      "The severe headache was accompanied by dizziness. / The application must be accompanied by a valid ID.",
+    exampleVi:
+      "Cơn đau đầu dữ dội đi kèm với chóng mặt. / Đơn đăng ký phải đi kèm với thẻ căn cước hợp lệ.",
+    categories: ["General", "Academic", "Medical", "Technology"],
   },
   {
     word: "Accomplish",

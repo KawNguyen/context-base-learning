@@ -763,6 +763,19 @@ export const I2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Interactive",
+    slug: "interactive",
+    phonetic: "/ˌɪn.t̬ɚˈæk.tɪv/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Allowing influence or communication between a person and a computer or between people.",
+    meaningVi: "Có tính tương tác.",
+    exampleEn: "We are designing an interactive quiz system for students.",
+    exampleVi:
+      "Chúng tôi đang thiết kế một hệ thống câu đố tương tác cho sinh viên.",
+    categories: ["Technology", "Education"],
+  },
+  {
     word: "Interdisciplinary",
     slug: "interdisciplinary",
     phonetic: "/ˌɪn.t̬ərˈdɪs.ə.plɪ.ner.i/",
@@ -1135,6 +1148,21 @@ export const I2: VocabularyWord[] = [
     categories: ["Academic"],
   },
   {
+    word: "Irritability",
+    slug: "irritability",
+    phonetic: "/ˌɪr.ə.təˈbɪl.ə.t̬i/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The quality of becoming excited or annoyed easily; (Biology) the ability of an organism to respond to a stimulus.",
+    meaningVi:
+      "Sự dễ cáu kỉnh, tính dễ bị kích thích; (Sinh học) tính cảm ứng (khả năng phản ứng với kích thích).",
+    exampleEn:
+      "Lack of sleep can lead to increased irritability. / Irritability is a fundamental characteristic of living cells.",
+    exampleVi:
+      "Thiếu ngủ có thể dẫn đến sự cáu kỉnh gia tăng. / Tính cảm ứng là một đặc tính cơ bản của các tế bào sống.",
+    categories: ["Psychology", "Medical", "Biology"],
+  },
+  {
     word: "Island",
     slug: "island",
     phonetic: "/ˈaɪ.lənd/",
@@ -1155,6 +1183,21 @@ export const I2: VocabularyWord[] = [
     exampleEn: "Patients were isolated to prevent spread of the disease.",
     exampleVi: "Bệnh nhân được cô lập để ngăn chặn sự lây lan của bệnh.",
     categories: ["Medical", "Safety"],
+  },
+  {
+    word: "Isolation",
+    slug: "isolation",
+    phonetic: "/ˌaɪ.səˈleɪ.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The state of being separate from others; (Tech) the process of separating a system or component to prevent interference or error propagation.",
+    meaningVi:
+      "Sự cô lập, sự cách ly; (Kỹ thuật) Sự tách biệt hệ thống/linh kiện để tránh nhiễu hoặc lan truyền lỗi.",
+    exampleEn:
+      "Long-term social isolation can affect mental health. / The system ensures the isolation of the database from the public network.",
+    exampleVi:
+      "Sự cô lập xã hội kéo dài có thể ảnh hưởng đến sức khỏe tâm thần. / Hệ thống đảm bảo sự tách biệt của cơ sở dữ liệu khỏi mạng công cộng.",
+    categories: ["Social", "Psychology", "Technology", "Medical"],
   },
   {
     word: "Issue",

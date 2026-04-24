@@ -8,6 +8,8 @@ export const IRREGULAR_PLURALS: Record<string, string> = {
   teeth: "tooth",
   feet: "foot",
   oxen: "ox",
+  undergone: "undergo",
+  quizzes: "quiz",
 };
 
 // Words that are always plural (pluralia tantum)
@@ -65,5 +67,6 @@ export const ALWAYS_PLURAL = new Set([
   "geriatrics",
   "sometimes",
   "always",
+  "perhaps",
   "news",
 ]);

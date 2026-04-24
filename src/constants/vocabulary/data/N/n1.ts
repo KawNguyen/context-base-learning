@@ -439,6 +439,17 @@ export const N1: VocabularyWord[] = [
     categories: ["Environment"],
   },
   {
+    word: "Naturally",
+    slug: "naturally",
+    phonetic: "/ˈnætʃ.ər.əl.i/",
+    partOfSpeech: "adverb",
+    meaningEn: "In a natural manner.",
+    meaningVi: "Một cách tự nhiên.",
+    exampleEn: "She naturally excels at sports.",
+    exampleVi: "Cô ấy tự nhiên xuất sắc trong thể thao.",
+    categories: ["General"],
+  },
+  {
     word: "Nature",
     slug: "nature",
     phonetic: "/ˈneɪ.tʃər/",
@@ -1009,6 +1020,21 @@ export const N1: VocabularyWord[] = [
     exampleEn: "Computer network.",
     exampleVi: "Mạng máy tính.",
     categories: ["Technology", "Daily"],
+  },
+  {
+    word: "Networking",
+    slug: "networking",
+    phonetic: "/ˈnet.wɝː.kɪŋ/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "(Tech) The process of linking computers to share resources; (Social) The action of interacting with others to exchange information and develop professional contacts.",
+    meaningVi:
+      "(Kỹ thuật) Kết nối mạng; (Xã hội) Thiết lập mạng lưới quan hệ xã hội/nghề nghiệp.",
+    exampleEn:
+      "The lab is working on advanced sensor networking for driver safety. / Networking is essential for finding career opportunities in AI.",
+    exampleVi:
+      "Phòng thí nghiệm đang nghiên cứu kết nối mạng cảm biến tiên tiến cho sự an toàn của tài xế. / Thiết lập mạng lưới quan hệ là điều cần thiết để tìm kiếm cơ hội nghề nghiệp trong ngành AI.",
+    categories: ["Technology", "Business", "Social"],
   },
   {
     word: "Neurological",

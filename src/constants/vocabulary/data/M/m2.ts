@@ -280,7 +280,7 @@ export const M2: VocabularyWord[] = [
     meaningVi: "Một chút/Số lượng nhỏ.",
     exampleEn: "They managed to live with only a modicum of comfort.",
     exampleVi: "Họ đã cố gắng sống chỉ với một chút (số lượng nhỏ) tiện nghi.",
-    categories: ["General"],
+    categories: ["General", "Finance", "Business", "Technology"],
   },
   {
     word: "Modify",

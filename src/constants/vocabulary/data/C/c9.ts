@@ -645,13 +645,27 @@ export const C9: VocabularyWord[] = [
     word: "Compromise",
     slug: "compromise",
     phonetic: "/ˈkɑːm.prə.maɪz/",
-    partOfSpeech: "noun/verb",
+    partOfSpeech: "noun, verb",
     meaningEn:
-      "An agreement or a settlement of a dispute that is reached by each side making concessions.",
-    meaningVi: "Sự thỏa hiệp.",
-    exampleEn: "Reach a compromise.",
-    exampleVi: "Đạt được một sự thỏa hiệp.",
-    categories: ["Social"],
+      "(n) An agreement reached by each side making concessions; (v) To settle a dispute by mutual concession; To weaken or bring into danger.",
+    meaningVi:
+      "(n) Sự thỏa hiệp; (v) Thỏa hiệp; Làm tổn hại, gây nguy hiểm (đặc biệt là về bảo mật hoặc uy tín).",
+    exampleEn:
+      "We need to find a compromise between speed and accuracy. / The hacker tried to compromise the system's database.",
+    exampleVi:
+      "Chúng ta cần tìm một sự thỏa hiệp giữa tốc độ và độ chính xác. / Kẻ tấn công đã cố gắng xâm nhập/làm tổn hại cơ sở dữ liệu của hệ thống.",
+    categories: ["General", "Business", "Technology", "Security"],
+  },
+  {
+    word: "Compromised",
+    slug: "compromised",
+    phonetic: "/ˈkɑːm.prə.maɪzd/",
+    partOfSpeech: "adjective",
+    meaningEn: "Having been exposed to risk or danger; weakened.",
+    meaningVi: "Bị tổn hại/Bị xâm nhập (đặc biệt là về bảo mật hoặc uy tín)/Bị ảnh hưởng.",
+    exampleEn: "The compromised security system.",
+    exampleVi: "Hệ thống bảo mật bị xâm nhập.",
+    categories: ["Technology", "Security"],
   },
   {
     word: "Compulsion",

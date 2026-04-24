@@ -262,6 +262,20 @@ export const T1: VocabularyWord[] = [
     categories: ["Social"],
   },
   {
+    word: "Technical",
+    slug: "technical",
+    phonetic: "/ˈtek.nɪ.kəl/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Relating to a particular subject, art, or craft, or its techniques; involving involving specialized knowledge.",
+    meaningVi: "Thuộc về kỹ thuật; có tính chuyên môn, chuyên sâu.",
+    exampleEn:
+      "The developer provided a detailed technical report on the RAG architecture. / There was a minor technical problem with the quiz server.",
+    exampleVi:
+      "Nhà phát triển đã cung cấp một báo cáo kỹ thuật chi tiết về kiến trúc RAG. / Đã có một vấn đề kỹ thuật nhỏ xảy ra với máy chủ của hệ thống câu đố.",
+    categories: ["Technology", "Engineering", "Academic"],
+  },
+  {
     word: "Technician",
     slug: "technician",
     phonetic: "/tekˈnɪʃ.ən/",
@@ -736,6 +750,19 @@ export const T1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Thereby",
+    slug: "thereby",
+    phonetic: "/ˌðerˈbaɪ/",
+    partOfSpeech: "adverb",
+    meaningEn: "As a result of this action or document; by that means.",
+    meaningVi: "Bằng cách đó, nhờ đó, do đó.",
+    exampleEn:
+      "He signed the contract, thereby agreeing to the terms. / The new software automates the process, thereby reducing errors.",
+    exampleVi:
+      "Anh ấy đã ký hợp đồng, bằng cách đó đồng ý với các điều khoản. / Phần mềm mới tự động hóa quy trình, nhờ đó giảm thiểu sai sót.",
+    categories: ["General", "Academic", "Business", "Technology"],
+  },
+  {
     word: "Therefore",
     slug: "therefore",
     phonetic: "/ˈðer.fɔːr/",
@@ -1142,16 +1169,30 @@ export const T1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
+    word: "Time-management",
+    slug: "time-management",
+    phonetic: "/ˈtaɪm ˌmæn.ɪdʒ.mənt/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The process of organizing and planning how to divide your time.",
+    meaningVi: "Quản lý thời gian.",
+    exampleEn: "Effective time-management is crucial for project success.",
+    exampleVi:
+      "Quản lý thời gian hiệu quả là yếu tố then chốt cho sự thành công của dự án.",
+    categories: ["Business", "Education", "General"],
+  },
+  {
     word: "Timorous",
     slug: "timorous",
     phonetic: "/ˈtɪm.ər.əs/",
-    partOfSpeech: "noun",
+    partOfSpeech: "adjective",
     meaningEn:
       "Showing or suffering from nervousness, fear, or a lack of confidence.",
-    meaningVi: "Nhút nhát/Sợ sệt.",
-    exampleEn: "The timorous kitten hid under the sofa.",
-    exampleVi: "Chú mèo con nhút nhát (sợ sệt) đã trốn dưới ghế sofa.",
-    categories: ["General"],
+    meaningVi: "Nhút nhát, e dè, dễ sợ hãi.",
+    exampleEn:
+      "The timorous child hid behind his mother when the stranger approached.",
+    exampleVi: "Đứa trẻ nhút nhát nấp sau lưng mẹ khi người lạ tiến lại gần.",
+    categories: ["Psychology", "General", "Literature"],
   },
   {
     word: "Tin",

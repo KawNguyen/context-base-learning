@@ -1035,11 +1035,14 @@ export const C11: VocabularyWord[] = [
     slug: "consolidate",
     phonetic: "/kənˈsɑː.lə.deɪt/",
     partOfSpeech: "verb",
-    meaningEn: "Make (something) physically stronger or more solid.",
-    meaningVi: "Củng cố/Hợp nhất.",
-    exampleEn: "Consolidate power.",
-    exampleVi: "Củng cố quyền lực.",
-    categories: ["General", "Politics", "Business"],
+    meaningEn:
+      "To combine several things into a single more effective or coherent whole; to make a position of power or success stronger.",
+    meaningVi: "Hợp nhất, củng cố, làm cho vững chắc.",
+    exampleEn:
+      "We need to consolidate our resources to be more efficient. / The company is consolidating its position in the market.",
+    exampleVi:
+      "Chúng ta cần hợp nhất các nguồn lực để hiệu quả hơn. / Công ty đang củng cố vị thế của mình trên thị trường.",
+    categories: ["Business", "Finance", "Technology", "General"],
   },
   {
     word: "Consolidation",

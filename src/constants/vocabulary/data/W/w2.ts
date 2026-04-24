@@ -91,6 +91,21 @@ export const W2: VocabularyWord[] = [
     categories: ["Education", "General"],
   },
   {
+    word: "Work",
+    slug: "work",
+    phonetic: "/wɝːk/",
+    partOfSpeech: "verb, noun",
+    meaningEn:
+      "(v) To do a job or task; to function correctly; (n) An activity involving mental or physical effort; a place of employment.",
+    meaningVi:
+      "(v) Làm việc; Hoạt động (máy móc); (n) Công việc; Tác phẩm; Nơi làm việc.",
+    exampleEn:
+      "The developer is working on a new AI agent. / Does this sensor work correctly?",
+    exampleVi:
+      "Nhà phát triển đang làm việc trên một agent AI mới. / Cảm biến này có hoạt động chính xác không?",
+    categories: ["General", "Technology", "Physics", "Art"],
+  },
+  {
     word: "Work out",
     slug: "work-out",
     phonetic: "/wɜːrk aʊt/",

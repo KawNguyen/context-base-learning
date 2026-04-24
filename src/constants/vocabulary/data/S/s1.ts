@@ -679,6 +679,17 @@ export const S1: VocabularyWord[] = [
     categories: ["Psychology", "General"],
   },
   {
+    word: "Self-discipline",
+    slug: "self-discipline",
+    phonetic: "/ˌselfˈdɪs.ə.plɪn/",
+    partOfSpeech: "noun",
+    meaningEn: "The ability to control one's feelings and overcome weaknesses.",
+    meaningVi: "Tính tự giác, kỷ luật bản thân.",
+    exampleEn: "Learning online requires a high level of self-discipline.",
+    exampleVi: "Học trực tuyến đòi hỏi tinh thần tự giác rất cao.",
+    categories: ["Psychology", "Education", "General"],
+  },
+  {
     word: "Self-discovery ",
     slug: "self-discovery",
     phonetic: "/self ˌdɪsˈkʌv.ər/",

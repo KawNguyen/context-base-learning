@@ -760,6 +760,21 @@ export const P2: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
+    word: "Premise",
+    slug: "premise",
+    phonetic: "/ˈprem.ɪs/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "An idea or theory on which a statement or action is based; (Plural: premises) a house or other building and the land on which it is built.",
+    meaningVi:
+      "Tiền đề, giả thuyết; (Số nhiều: premises) Cơ ngơi, địa điểm, mặt bằng kinh doanh.",
+    exampleEn:
+      "The conclusions were based on an incorrect premise. / Smoking is not allowed on the premises.",
+    exampleVi:
+      "Các kết luận dựa trên một tiền đề sai lầm. / Không được phép hút thuốc trong khuôn viên tòa nhà.",
+    categories: ["Philosophy", "Business", "Law"],
+  },
+  {
     word: "Preposition",
     slug: "preposition",
     phonetic: "/ˌprep.əˈzɪʃ.ən/",
@@ -925,6 +940,20 @@ export const P2: VocabularyWord[] = [
     exampleEn: "Previous experience.",
     exampleVi: "Kinh nghiệm trước đó.",
     categories: ["General"],
+  },
+  {
+    word: "Previously",
+    slug: "previously",
+    phonetic: "/ˈpriː.vi.əs.li/",
+    partOfSpeech: "adverb",
+    meaningEn:
+      "At a time or occasion before the one being referred to; before now.",
+    meaningVi: "Trước đây, trước đó.",
+    exampleEn:
+      "This feature was previously unavailable in the older version of the quiz system. / The driver had previously shown signs of fatigue before the alarm triggered.",
+    exampleVi:
+      "Tính năng này trước đây không có sẵn trong phiên bản cũ của hệ thống câu đố. / Tài xế trước đó đã có các dấu hiệu mệt mỏi trước khi chuông báo động kích hoạt.",
+    categories: ["General", "Academic", "Technology"],
   },
   {
     word: "Price",
@@ -1165,12 +1194,16 @@ export const P2: VocabularyWord[] = [
     word: "Process",
     slug: "process",
     phonetic: "/ˈprɑː.ses/",
-    partOfSpeech: "noun/verb",
-    meaningEn: "A series of actions or steps.",
-    meaningVi: "Quá trình.",
-    exampleEn: "Slow process.",
-    exampleVi: "Quá trình chậm chạp.",
-    categories: ["Daily"],
+    partOfSpeech: "noun, verb",
+    meaningEn:
+      "(n) A series of actions or steps taken to achieve an end; (v) To perform a series of operations on data or material.",
+    meaningVi:
+      "(n) Quy trình, quá trình; (v) Xử lý (dữ liệu, thông tin, nguyên liệu).",
+    exampleEn:
+      "The recruitment process takes two weeks. / The CPU is responsible for processing data.",
+    exampleVi:
+      "Quy trình tuyển dụng mất hai tuần. / CPU chịu trách nhiệm xử lý dữ liệu.",
+    categories: ["Technology", "Business", "Science", "General"],
   },
   {
     word: "Processed",

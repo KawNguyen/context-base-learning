@@ -10,9 +10,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Hầu hết khách hàng chỉ ra rằng các hướng dẫn lắp ráp sản phẩm của chúng tôi quá phức tạp.",
     questionEn:
-      "Most of the customers indicated ——- the instructions for assembling our products are excessively complicated.",
+      "Most of the customers indicated ______ the instructions for assembling our products are excessively complicated.",
     questionVi:
-      "Hầu hết các khách hàng chỉ ra ——- các hướng dẫn để lắp ráp các sản phẩm của chúng tôi là quá phức tạp.",
+      "Hầu hết các khách hàng chỉ ra ______ các hướng dẫn để lắp ráp các sản phẩm của chúng tôi là quá phức tạp.",
     options: [
       { option: "these", isCorrect: false },
       { option: "whose", isCorrect: false },
@@ -32,9 +32,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Những vấn đề nhỏ trong thiết kế máy nghe nhạc mới đã không thể được giải quyết nếu không có sự đóng góp của tân phó chủ tịch, Dong Chan Lim.",
     questionEn:
-      "Minor problems in the design of our new music player could not have been solved without the ——- of our new vice president, Dong Chan Lim.",
+      "Minor problems in the design of our new music player could not have been solved without the ______ of our new vice president, Dong Chan Lim.",
     questionVi:
-      "Những vấn đề nhỏ trong thiết kế máy nghe nhạc mới của chúng ta không thể được giải quyết nếu không có ——- của tân phó chủ tịch mới của chúng ta, Dong Chan Lim.",
+      "Những vấn đề nhỏ trong thiết kế máy nghe nhạc mới của chúng ta không thể được giải quyết nếu không có ______ của tân phó chủ tịch mới của chúng ta, Dong Chan Lim.",
     options: [
       { option: "contribute", isCorrect: false },
       { option: "contributed", isCorrect: false },
@@ -54,9 +54,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Mặc dù chúng tôi đã chi hàng triệu đô la cho tiếp thị và quảng cáo, doanh số của sản phẩm mới vẫn gây thất vọng.",
     questionEn:
-      "Even though we spent millions of dollars on marketing and advertising, sales of our new product have been ——-.",
+      "Even though we spent millions of dollars on marketing and advertising, sales of our new product have been ______.",
     questionVi:
-      "Mặc dù chúng tôi đã chi hàng triệu đô la vào quảng cáo và tiếp thị nhưng doanh số bán hàng của sản phẩm mới đã ——-.",
+      "Mặc dù chúng tôi đã chi hàng triệu đô la vào quảng cáo và tiếp thị nhưng doanh số bán hàng của sản phẩm mới đã ______.",
     options: [
       { option: "disappoint", isCorrect: false },
       { option: "disappointed", isCorrect: false },
@@ -76,9 +76,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Giám đốc bán hàng khu vực đã yêu cầu ông Johnson gửi cho cô ấy báo cáo cuối cùng về số liệu bán hàng quý vào cuối tuần.",
     questionEn:
-      "The regional sales manager has asked Mr. Johnson to send ——- the final report of the quarterly sales figures by the end of the week.",
+      "The regional sales manager has asked Mr. Johnson to send ______ the final report of the quarterly sales figures by the end of the week.",
     questionVi:
-      "Giám đốc bán hàng miền đã yêu cầu ông Johnson gửi cho ——- báo cáo cuối cùng của các số liệu bán hàng theo quý vào cuối tuần.",
+      "Giám đốc bán hàng miền đã yêu cầu ông Johnson gửi cho ______ báo cáo cuối cùng của các số liệu bán hàng theo quý vào cuối tuần.",
     options: [
       { option: "she", isCorrect: false },
       { option: "her", isCorrect: true },
@@ -98,9 +98,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Quản lý đã yêu cầu ông Lim nộp báo cáo cuối cùng của ông ấy về doanh số máy giặt mới trước ngày 30 tháng 4.",
     questionEn:
-      "The manager has asked Mr. Lim to submit ——- final report on the sales of the new washing machine by April 30.",
+      "The manager has asked Mr. Lim to submit ______ final report on the sales of the new washing machine by April 30.",
     questionVi:
-      "Người quản lý đã yêu cầu ông Lim nộp ——- báo cáo cuối cùng của ông về doanh số của máy giặt mới vào khoảng ngày 30 tháng 4.",
+      "Người quản lý đã yêu cầu ông Lim nộp ______ báo cáo cuối cùng của ông về doanh số của máy giặt mới vào khoảng ngày 30 tháng 4.",
     options: [
       { option: "him", isCorrect: false },
       { option: "himself", isCorrect: false },
@@ -120,9 +120,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "XTO Energy Inc. đã phát triển từ khi thành lập năm 1986 thành một trong những nhà sản xuất dầu khí độc lập lớn nhất quốc gia.",
     questionEn:
-      "XTO Energy Inc. has grown from its ——- in 1986 to one of the nation’s largest independent oil and gas producers.",
+      "XTO Energy Inc. has grown from its ______ in 1986 to one of the nation’s largest independent oil and gas producers.",
     questionVi:
-      "Công ty năng lượng XTO đã phát triển từ ——- vào năm 1986 thành một trong những nhà cung cấp độc lập các sản phẩm dầu khí lớn nhất quốc gia.",
+      "Công ty năng lượng XTO đã phát triển từ ______ vào năm 1986 thành một trong những nhà cung cấp độc lập các sản phẩm dầu khí lớn nhất quốc gia.",
     options: [
       { option: "inception", isCorrect: true },
       { option: "cause", isCorrect: false },
@@ -142,9 +142,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Trong tháng 11, tỷ lệ thất nghiệp đã giảm xuống mức 2,3%, mức thấp nhất trong 5 năm.",
     questionEn:
-      "In November, the unemployment rate fell ——- 2.3 percent, its lowest level in five years.",
+      "In November, the unemployment rate fell ______ 2.3 percent, its lowest level in five years.",
     questionVi:
-      "Trong tháng mười một, tỷ lệ thất nghiệp giảm xuống ——- 2,3 phần trăm, mức thấp nhất trong năm năm.",
+      "Trong tháng mười một, tỷ lệ thất nghiệp giảm xuống ______ 2,3 phần trăm, mức thấp nhất trong năm năm.",
     options: [
       { option: "to", isCorrect: true },
       { option: "in", isCorrect: false },
@@ -164,9 +164,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Để có được giấy phép đậu xe cho người khuyết tật, bạn phải điền vào đơn đăng ký và gửi cho bác sĩ của bạn để hoàn tất.",
     questionEn:
-      "To ——- a disabled-parking permit, you must fill in an application form and send it to your medical practitioner to be completed.",
+      "To ______ a disabled-parking permit, you must fill in an application form and send it to your medical practitioner to be completed.",
     questionVi:
-      "Để ——- một giấy phép đậu xe dành cho người tàn tật, bạn phải hoàn thành mẫu đơn và gửi nó đến bác sĩ để hoàn tất.",
+      "Để ______ một giấy phép đậu xe dành cho người tàn tật, bạn phải hoàn thành mẫu đơn và gửi nó đến bác sĩ để hoàn tất.",
     options: [
       { option: "obtain", isCorrect: true },
       { option: "achieve", isCorrect: false },
@@ -186,9 +186,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Hãng tin AP đã phỏng vấn 6 người tự mình khôi phục điện cho gia đình, 2 người trong số đó đã hướng dẫn cách thực hiện.",
     questionEn:
-      "The Associated Press interviewed six people who restored power to their homes on ——-, two of whom showed the AP how it is done.",
+      "The Associated Press interviewed six people who restored power to their homes on ______, two of whom showed the AP how it is done.",
     questionVi:
-      "Liên đoàn báo chí đã phỏng vấn sáu người đã khôi phục điện trong nhà họ ——-, 2 trong số 6 người đã chỉ cho AP cách thực hiện.",
+      "Liên đoàn báo chí đã phỏng vấn sáu người đã khôi phục điện trong nhà họ ______, 2 trong số 6 người đã chỉ cho AP cách thực hiện.",
     options: [
       { option: "themselves", isCorrect: false },
       { option: "they", isCorrect: false },
@@ -208,9 +208,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Tim Casey sẽ chịu trách nhiệm tổ chức các sự kiện của chúng ta năm nay với sự hỗ trợ của các thành viên trong nhóm.",
     questionEn:
-      "Tim Casey will be ——- of organizing our events this year with the assistance of his team members.",
+      "Tim Casey will be ______ of organizing our events this year with the assistance of his team members.",
     questionVi:
-      "Tim Casey sẽ ——- tổ chức các sự kiện của chúng tôi trong năm nay với sự hỗ trợ của các thành viên trong nhóm của anh ấy.",
+      "Tim Casey sẽ ______ tổ chức các sự kiện của chúng tôi trong năm nay với sự hỗ trợ của các thành viên trong nhóm của anh ấy.",
     options: [
       { option: "in charge", isCorrect: true },
       { option: "in place", isCorrect: false },
@@ -230,9 +230,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Hai hình thức nhận dạng hợp lệ hiện tại, bao gồm bằng lái xe hoặc hộ chiếu, phải được trình ra.",
     questionEn:
-      "Two forms of currently valid identification including ——- a driver’s license or a passport, must be presented.",
+      "Two forms of currently valid identification including ______ a driver’s license or a passport, must be presented.",
     questionVi:
-      "Hai hình thức xác minh có hiệu lực hiện tại, bao gồm ——- bằng lái xe hoặc hộ chiếu, phải được trình ra.",
+      "Hai hình thức xác minh có hiệu lực hiện tại, bao gồm ______ bằng lái xe hoặc hộ chiếu, phải được trình ra.",
     options: [
       { option: "both", isCorrect: false },
       { option: "whether", isCorrect: false },
@@ -252,9 +252,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Tất cả các bước chuẩn bị đang ở giai đoạn cuối và ngay khi có phép từ CDA, việc xây dựng tòa nhà mới sẽ bắt đầu.",
     questionEn:
-      "All preparations are in the final phase and as soon as we get permission from CDA, the construction of the new ——- will begin.",
+      "All preparations are in the final phase and as soon as we get permission from CDA, the construction of the new ______ will begin.",
     questionVi:
-      "Tất cả các khâu chuẩn bị đang ở giai đoạn cuối và ngay khi chúng tôi nhận được sự cho phép của CDA, việc xây dựng ——- mới sẽ bắt đầu.",
+      "Tất cả các khâu chuẩn bị đang ở giai đoạn cuối và ngay khi chúng tôi nhận được sự cho phép của CDA, việc xây dựng ______ mới sẽ bắt đầu.",
     options: [
       { option: "build", isCorrect: false },
       { option: "builder", isCorrect: false },
@@ -274,9 +274,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Một số lượng phòng hạn chế đã được đặt trước cho người tham dự trên nguyên tắc ai đến trước được phục vụ trước.",
     questionEn:
-      "Henry Stewart Conference Studies has arranged a special room rate with MEC Hotel and a limited number of rooms have been ——- for attendees on a first-come, first-served basis.",
+      "Henry Stewart Conference Studies has arranged a special room rate with MEC Hotel and a limited number of rooms have been ______ for attendees on a first-come, first-served basis.",
     questionVi:
-      "Henry Stewart Conference Studies đã sắp xếp giá phòng đặc biệt với Khách sạn MEC và một số lượng phòng hạn chế đã được ——- cho người tham dự.",
+      "Henry Stewart Conference Studies đã sắp xếp giá phòng đặc biệt với Khách sạn MEC và một số lượng phòng hạn chế đã được ______ cho người tham dự.",
     options: [
       { option: "remained", isCorrect: false },
       { option: "reserved", isCorrect: true },
@@ -296,9 +296,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Tại thư viện công cộng Calgary, bạn nên nói khẽ để tránh làm phiền những người xung quanh.",
     questionEn:
-      "At the Calgary Public Library, you should speak quietly ——- avoid disturbing other people near you.",
+      "At the Calgary Public Library, you should speak quietly ______ avoid disturbing other people near you.",
     questionVi:
-      "Tại thư viện công cộng Calgary, bạn nên nói chuyện nhẹ nhàng ——- tránh làm phiền người khác gần bạn.",
+      "Tại thư viện công cộng Calgary, bạn nên nói chuyện nhẹ nhàng ______ tránh làm phiền người khác gần bạn.",
     options: [
       { option: "otherwise", isCorrect: false },
       { option: "even as", isCorrect: false },
@@ -317,9 +317,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Tất cả người tham gia sẽ được yêu cầu hoàn thành một bản khảo sát ngắn trước các buổi hội thảo.",
     questionEn:
-      "All participants will be asked to complete a brief survey ——- the workshops as part of the registration process.",
+      "All participants will be asked to complete a brief survey ______ the workshops as part of the registration process.",
     questionVi:
-      "Tất cả người tham gia sẽ được yêu cầu hoàn thành một bản khảo sát ngắn ——- các buổi hội thảo như một phần của quá trình đăng ký.",
+      "Tất cả người tham gia sẽ được yêu cầu hoàn thành một bản khảo sát ngắn ______ các buổi hội thảo như một phần của quá trình đăng ký.",
     options: [
       { option: "advanced", isCorrect: false },
       { option: "in addition to", isCorrect: false },
@@ -339,9 +339,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "CEO đã yêu cầu hội đồng quản trị xem xét đề xuất ngân sách cho năm tới một cách tỉ mỉ hơn.",
     questionEn:
-      "The CEO has requested that the board of directors review the budget proposal for the next year ——-.",
+      "The CEO has requested that the board of directors review the budget proposal for the next year ______.",
     questionVi:
-      "CEO đã yêu cầu hội đồng quản trị xem lại đề xuất ngân sách cho năm tới ——-.",
+      "CEO đã yêu cầu hội đồng quản trị xem lại đề xuất ngân sách cho năm tới ______.",
     options: [
       { option: "attentions", isCorrect: false },
       { option: "more attentively", isCorrect: true },
@@ -361,9 +361,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Thời lượng của bài thuyết trình nên nằm trong khoảng 10-15 phút.",
     questionEn:
-      "The ——- of the presentation should be between 10-15 minutes, and you will also turn in a one-page summary of your presentation.",
+      "The ______ of the presentation should be between 10-15 minutes, and you will also turn in a one-page summary of your presentation.",
     questionVi:
-      "——- của buổi thuyết trình nên nằm trong khoảng 10-15 phút, và bạn cũng sẽ nộp bản tóm tắt một trang.",
+      "______ của buổi thuyết trình nên nằm trong khoảng 10-15 phút, và bạn cũng sẽ nộp bản tóm tắt một trang.",
     options: [
       { option: "instant", isCorrect: false },
       { option: "length", isCorrect: true },
@@ -383,9 +383,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Một nhóm sáu thành viên đã được cử đến để tái cơ cấu công ty đang gặp khó khăn và họ đã làm rất tốt trong bốn năm.",
     questionEn:
-      "A six-member team was sent to restructure the ailing company and they did it remarkably ——- in four years.",
+      "A six-member team was sent to restructure the ailing company and they did it remarkably ______ in four years.",
     questionVi:
-      "Một nhóm sáu thành viên đã được cử đến để tái cơ cấu công ty đang gặp khó khăn và họ đã làm việc đó một cách ——- trong bốn năm.",
+      "Một nhóm sáu thành viên đã được cử đến để tái cơ cấu công ty đang gặp khó khăn và họ đã làm việc đó một cách ______ trong bốn năm.",
     options: [
       { option: "well", isCorrect: true },
       { option: "even", isCorrect: false },
@@ -405,9 +405,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Quy trình bảo trì của Samsung Motors được giám sát chặt chẽ bởi các quản lý và khách hàng.",
     questionEn:
-      "The maintenance process of Samsung Motors is ——- monitored by our managers and customers.",
+      "The maintenance process of Samsung Motors is ______ monitored by our managers and customers.",
     questionVi:
-      "Quy trình bảo trì của Samsung Motors được giám sát ——- bởi các quản lý và khách hàng của chúng tôi.",
+      "Quy trình bảo trì của Samsung Motors được giám sát ______ bởi các quản lý và khách hàng của chúng tôi.",
     options: [
       { option: "closely", isCorrect: true },
       { option: "closest", isCorrect: false },
@@ -427,9 +427,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Dong Chan Lim đã điều hành buổi định hướng cho tất cả nhân viên mới từ năm ngoái.",
     questionEn:
-      "Dong Chan Lim has directed the ——- for all new employees at the Goldendew Jewelry Company since last year.",
+      "Dong Chan Lim has directed the ______ for all new employees at the Goldendew Jewelry Company since last year.",
     questionVi:
-      "Dong Chan Lim đã chỉ đạo ——- cho tất cả nhân viên mới tại công ty trang sức Goldendew kể từ năm ngoái.",
+      "Dong Chan Lim đã chỉ đạo ______ cho tất cả nhân viên mới tại công ty trang sức Goldendew kể từ năm ngoái.",
     options: [
       { option: "occupation", isCorrect: false },
       { option: "position", isCorrect: false },
@@ -449,9 +449,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Chúng tôi cung cấp sự hỗ trợ vượt trội và các cơ hội đào tạo tuyệt vời cho nhân viên.",
     questionEn:
-      "We provide outstanding support and ———- training opportunities for our employees.",
+      "We provide outstanding support and —______ training opportunities for our employees.",
     questionVi:
-      "Chúng tôi cung cấp hỗ trợ vượt trội và các cơ hội đào tạo ——- cho nhân viên của mình.",
+      "Chúng tôi cung cấp hỗ trợ vượt trội và các cơ hội đào tạo ______ cho nhân viên của mình.",
     options: [
       { option: "excellent", isCorrect: true },
       { option: "excelled", isCorrect: false },
@@ -471,9 +471,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Mặc dù các ngôi nhà hiện nay tiết kiệm năng lượng hơn trước, nhưng mức sử dụng năng lượng dân dụng tổng thể vẫn đang tăng.",
     questionEn:
-      "——- houses are now more energy efficient than before, overall residential energy use is rising due to the increase in population.",
+      "______ houses are now more energy efficient than before, overall residential energy use is rising due to the increase in population.",
     questionVi:
-      "——- các ngôi nhà hiện nay tiết kiệm năng lượng hơn trước, mức sử dụng năng lượng dân dụng tổng thể đang tăng do gia tăng dân số.",
+      "______ các ngôi nhà hiện nay tiết kiệm năng lượng hơn trước, mức sử dụng năng lượng dân dụng tổng thể đang tăng do gia tăng dân số.",
     options: [
       { option: "Thus", isCorrect: false },
       { option: "Although", isCorrect: true },
@@ -492,9 +492,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Hội đồng quản trị đã quyết định tăng giá các sản phẩm phần mềm của chúng tôi.",
     questionEn:
-      "The board of directors decided to ——- the prices of our software products because of unexpectedly high distribution costs.",
+      "The board of directors decided to ______ the prices of our software products because of unexpectedly high distribution costs.",
     questionVi:
-      "Hội đồng quản trị quyết định ——- giá các sản phẩm phần mềm của chúng tôi vì chi phí phân phối cao bất ngờ.",
+      "Hội đồng quản trị quyết định ______ giá các sản phẩm phần mềm của chúng tôi vì chi phí phân phối cao bất ngờ.",
     options: [
       { option: "comment", isCorrect: false },
       { option: "increase", isCorrect: true },
@@ -514,9 +514,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Vì thiết bị văn phòng trở nên lỗi thời rất nhanh, nhiều công ty buộc phải chi rất nhiều tiền.",
     questionEn:
-      "Since office equipment ——- outdated so quickly, many companies are forced to spend a lot of money purchasing new ones.",
+      "Since office equipment ______ outdated so quickly, many companies are forced to spend a lot of money purchasing new ones.",
     questionVi:
-      "Vì thiết bị văn phòng ——- lỗi thời quá nhanh, nhiều công ty buộc phải chi nhiều tiền để mua cái mới.",
+      "Vì thiết bị văn phòng ______ lỗi thời quá nhanh, nhiều công ty buộc phải chi nhiều tiền để mua cái mới.",
     options: [
       { option: "becomes", isCorrect: true },
       { option: "is becoming", isCorrect: false },
@@ -536,9 +536,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Bộ phận hỗ trợ kỹ thuật của chúng tôi sẽ luôn sẵn sàng liên tục để giúp đỡ khách hàng.",
     questionEn:
-      "Our technical support will be ——- available to aid our customers in using the SchoolWeb software.",
+      "Our technical support will be ______ available to aid our customers in using the SchoolWeb software.",
     questionVi:
-      "Hỗ trợ kỹ thuật của chúng tôi sẽ sẵn sàng ——- để hỗ trợ khách hàng sử dụng phần mềm SchoolWeb.",
+      "Hỗ trợ kỹ thuật của chúng tôi sẽ sẵn sàng ______ để hỗ trợ khách hàng sử dụng phần mềm SchoolWeb.",
     options: [
       { option: "continuous", isCorrect: false },
       { option: "continuity", isCorrect: false },
@@ -558,9 +558,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "iSoft đã chứng kiến giá cổ phiếu sụt giảm do các vấn đề đang diễn ra.",
     questionEn:
-      "iSoft has seen its share price fall in recent months as a result of ——- problems with its $6-billion contract.",
+      "iSoft has seen its share price fall in recent months as a result of ______ problems with its $6-billion contract.",
     questionVi:
-      "iSoft đã thấy giá cổ phiếu giảm trong những tháng gần đây do các vấn đề ——- với hợp đồng 6 tỷ đô của nó.",
+      "iSoft đã thấy giá cổ phiếu giảm trong những tháng gần đây do các vấn đề ______ với hợp đồng 6 tỷ đô của nó.",
     options: [
       { option: "considerate", isCorrect: false },
       { option: "ongoing", isCorrect: true },
@@ -580,9 +580,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Bộ phận An toàn Công cộng sẽ chuyển đến một cơ sở mới được tân trang vào tháng tới.",
     questionEn:
-      "The Department of Public Safety ——- to a newly renovated facility at 200 Elm Drive at the end of next month.",
+      "The Department of Public Safety ______ to a newly renovated facility at 200 Elm Drive at the end of next month.",
     questionVi:
-      "Bộ phận An toàn Công cộng ——- đến một cơ sở mới tại 200 Elm Drive vào cuối tháng tới.",
+      "Bộ phận An toàn Công cộng ______ đến một cơ sở mới tại 200 Elm Drive vào cuối tháng tới.",
     options: [
       { option: "relocated", isCorrect: false },
       { option: "to relocate", isCorrect: false },
@@ -602,9 +602,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Một báo cáo liên bang được công bố hôm qua cho biết nền kinh tế đang tăng trưởng chậm.",
     questionEn:
-      "A federal report ——- yesterday stated that the nation’s overall economy was growing at the slowest pace.",
+      "A federal report ______ yesterday stated that the nation’s overall economy was growing at the slowest pace.",
     questionVi:
-      "Một báo cáo liên bang được ——- hôm qua cho biết nền kinh tế quốc gia đang tăng trưởng ở mức chậm nhất.",
+      "Một báo cáo liên bang được ______ hôm qua cho biết nền kinh tế quốc gia đang tăng trưởng ở mức chậm nhất.",
     options: [
       { option: "achieved", isCorrect: false },
       { option: "released", isCorrect: true },
@@ -624,9 +624,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Hãy xem xét các yếu tố này để hiểu rõ hơn về tình trạng tài chính của công ty.",
     questionEn:
-      "Following are some specific factors that should be considered for a better understanding of the company’s financial ——-.",
+      "Following are some specific factors that should be considered for a better understanding of the company’s financial ______.",
     questionVi:
-      "Sau đây là một số yếu tố cụ thể cần được xem xét để hiểu rõ hơn về ——- tài chính của công ty.",
+      "Sau đây là một số yếu tố cụ thể cần được xem xét để hiểu rõ hơn về ______ tài chính của công ty.",
     options: [
       { option: "condition", isCorrect: true },
       { option: "conditionally", isCorrect: false },
@@ -646,9 +646,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Để theo kịp chi phí vận hành đang tăng, giá vé sẽ tăng vào ngày 1 tháng 5.",
     questionEn:
-      "To keep up with ——- operating costs, Miami-Dade Transit will increase Metrobus and Metrorail fares on May 1 .",
+      "To keep up with ______ operating costs, Miami-Dade Transit will increase Metrobus and Metrorail fares on May 1 .",
     questionVi:
-      "Để theo kịp với chi phí vận hành ——-, Miami-Dade Transit sẽ tăng giá vé xe buýt và tàu điện vào ngày 1 tháng 5.",
+      "Để theo kịp với chi phí vận hành ______, Miami-Dade Transit sẽ tăng giá vé xe buýt và tàu điện vào ngày 1 tháng 5.",
     options: [
       { option: "uprising", isCorrect: false },
       { option: "uplifting", isCorrect: false },
@@ -668,9 +668,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Các tư vấn viên có trình độ của chúng tôi nỗ lực để thấu hiểu doanh nghiệp của bạn.",
     questionEn:
-      "Our ——- consultants make the effort to understand your business completely before recommending a solution.",
+      "Our ______ consultants make the effort to understand your business completely before recommending a solution.",
     questionVi:
-      "Các tư vấn viên ——- của chúng tôi nỗ lực thấu hiểu doanh nghiệp của bạn trước khi đề xuất giải pháp.",
+      "Các tư vấn viên ______ của chúng tôi nỗ lực thấu hiểu doanh nghiệp của bạn trước khi đề xuất giải pháp.",
     options: [
       { option: "qualified", isCorrect: true },
       { option: "secured", isCorrect: false },
@@ -688,9 +688,9 @@ export const questionsB1_3: Question[] = [
     contextEn: "Please read the manual before you install your machine.",
     contextVi: "Vui lòng đọc hướng dẫn trước khi bạn lắp đặt máy.",
     questionEn:
-      "Please read and understand the operation manual enclosed ——- you install your machine.",
+      "Please read and understand the operation manual enclosed ______ you install your machine.",
     questionVi:
-      "Vui lòng đọc và hiểu sách hướng dẫn vận hành đi kèm ——- bạn lắp đặt máy.",
+      "Vui lòng đọc và hiểu sách hướng dẫn vận hành đi kèm ______ bạn lắp đặt máy.",
     options: [
       { option: "past", isCorrect: false },
       { option: "prior", isCorrect: false },
@@ -708,9 +708,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Ông Graves đã được thuê làm việc tại cùng một công ty từ năm 1988.",
     questionEn:
-      "Mr. Graves ——- employed by the same company in various capacities since 1988.",
+      "Mr. Graves ______ employed by the same company in various capacities since 1988.",
     questionVi:
-      "Ông Graves ——- làm việc bởi cùng một công ty ở nhiều vị trí khác nhau từ năm 1988.",
+      "Ông Graves ______ làm việc bởi cùng một công ty ở nhiều vị trí khác nhau từ năm 1988.",
     options: [
       { option: "has been", isCorrect: true },
       { option: "could be", isCorrect: false },
@@ -730,9 +730,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Theo tờ Asian Times, mỗi năm hàng ngàn người làm giàu nhờ đầu tư bất động sản.",
     questionEn:
-      "——- the Asian Times, each year thousands of people get rich by investing in real estate.",
+      "______ the Asian Times, each year thousands of people get rich by investing in real estate.",
     questionVi:
-      "——- tờ Asian Times, hàng năm hàng ngàn người trở nên giàu có nhờ đầu tư bất động sản.",
+      "______ tờ Asian Times, hàng năm hàng ngàn người trở nên giàu có nhờ đầu tư bất động sản.",
     options: [
       { option: "Now that", isCorrect: false },
       { option: "As though", isCorrect: false },
@@ -751,9 +751,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Ông Sato được vinh danh là Nhân vật của năm vì sự lãnh đạo trong các cuộc đàm phán khó khăn.",
     questionEn:
-      "Automotive News named Mr. Sato its Person of the Year for his leadership during ——- contract negotiations.",
+      "Automotive News named Mr. Sato its Person of the Year for his leadership during ______ contract negotiations.",
     questionVi:
-      "Automotive News đã vinh danh ông Sato vì sự lãnh đạo trong suốt các cuộc đàm phán hợp đồng ——-.",
+      "Automotive News đã vinh danh ông Sato vì sự lãnh đạo trong suốt các cuộc đàm phán hợp đồng ______.",
     options: [
       { option: "talented", isCorrect: false },
       { option: "noted", isCorrect: false },
@@ -773,9 +773,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Tàu thuyền nên được neo giữ đúng cách vào bến trong các tháng mùa đông.",
     questionEn:
-      "During winter months, boats should be ——- secured to the dock.",
+      "During winter months, boats should be ______ secured to the dock.",
     questionVi:
-      "Trong những tháng mùa đông, tàu thuyền nên được neo giữ ——- vào bến cảng.",
+      "Trong những tháng mùa đông, tàu thuyền nên được neo giữ ______ vào bến cảng.",
     options: [
       { option: "originally", isCorrect: false },
       { option: "properly", isCorrect: true },
@@ -795,9 +795,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Chúng tôi nổi tiếng vì sự cam kết vượt trội đối với dịch vụ khách hàng.",
     questionEn:
-      "We are known for our outstanding ——- to customer service and the quality of our products.",
+      "We are known for our outstanding ______ to customer service and the quality of our products.",
     questionVi:
-      "Chúng tôi nổi tiếng vì ——- vượt trội đối với dịch vụ khách hàng và chất lượng sản phẩm.",
+      "Chúng tôi nổi tiếng vì ______ vượt trội đối với dịch vụ khách hàng và chất lượng sản phẩm.",
     options: [
       { option: "commitment", isCorrect: true },
       { option: "committed", isCorrect: false },
@@ -817,9 +817,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "CEO hài lòng với kết quả liên quan đến sự hài lòng của khách hàng.",
     questionEn:
-      "The CEO said he is pleased with the results of the recent survey ——- customer satisfaction.",
+      "The CEO said he is pleased with the results of the recent survey ______ customer satisfaction.",
     questionVi:
-      "CEO cho biết ông hài lòng với kết quả của cuộc khảo sát gần đây ——- sự hài lòng của khách hàng.",
+      "CEO cho biết ông hài lòng với kết quả của cuộc khảo sát gần đây ______ sự hài lòng của khách hàng.",
     options: [
       { option: "regarding", isCorrect: true },
       { option: "regarded", isCorrect: false },
@@ -837,8 +837,8 @@ export const questionsB1_3: Question[] = [
     contextEn: "Installation of the floor is nearly complete.",
     contextVi: "Việc lắp đặt sàn nhà gần như đã hoàn tất.",
     questionEn:
-      "Installation of the maple floor is ——- complete for the Central Hall.",
-    questionVi: "Việc lắp đặt sàn gỗ ——- hoàn thành cho sảnh chính.",
+      "Installation of the maple floor is ______ complete for the Central Hall.",
+    questionVi: "Việc lắp đặt sàn gỗ ______ hoàn thành cho sảnh chính.",
     options: [
       { option: "busily", isCorrect: false },
       { option: "nearly", isCorrect: true },
@@ -857,9 +857,9 @@ export const questionsB1_3: Question[] = [
     contextVi:
       "Hội chợ việc làm mang lại lợi ích chung cho cả người tìm việc và nhà tuyển dụng.",
     questionEn:
-      "The CSU Career Fair is mutually ——- to both those seeking careers and those recruiting.",
+      "The CSU Career Fair is mutually ______ to both those seeking careers and those recruiting.",
     questionVi:
-      "Hội chợ việc làm CSU mang lại ——- cho cả người tìm việc và nhà tuyển dụng.",
+      "Hội chợ việc làm CSU mang lại ______ cho cả người tìm việc và nhà tuyển dụng.",
     options: [
       { option: "benefit", isCorrect: false },
       { option: "beneficence", isCorrect: false },

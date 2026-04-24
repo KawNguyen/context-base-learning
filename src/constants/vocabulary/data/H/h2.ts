@@ -1131,6 +1131,21 @@ export const H2: VocabularyWord[] = [
     categories: ["General", "Science"],
   },
   {
+    word: "Hormone",
+    slug: "hormone",
+    phonetic: "/ˈhɔːr.moʊn/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "A chemical substance produced in the body that controls and regulates the activity of certain cells or organs.",
+    meaningVi:
+      "Nội tiết tố, hóc-môn (chất hóa học điều tiết hoạt động của các tế bào hoặc cơ quan).",
+    exampleEn:
+      "Insulin is a hormone that helps the body use sugar. / Hormones can affect your mood and energy levels.",
+    exampleVi:
+      "Insulin là một loại hóc-môn giúp cơ thể sử dụng đường. / Nội tiết tố có thể ảnh hưởng đến tâm trạng và mức năng lượng của bạn.",
+    categories: ["Biology", "Medical", "Science"],
+  },
+  {
     word: "Hospital",
     slug: "hospital",
     phonetic: "/ˈhɑːspɪtl/",
@@ -1161,6 +1176,17 @@ export const H2: VocabularyWord[] = [
     meaningVi: "Khách sạn.",
     exampleEn: "I stayed in a hotel.",
     exampleVi: "Tôi đã ở trong một khách sạn.",
+    categories: ["Daily"],
+  },
+  {
+    word: "Hour",
+    slug: "hour",
+    phonetic: "/aʊr/",
+    partOfSpeech: "noun",
+    meaningEn: "A period of time equal to 60 minutes.",
+    meaningVi: "Giờ.",
+    exampleEn: "I will meet you in an hour.",
+    exampleVi: "Tôi sẽ gặp bạn trong một giờ.",
     categories: ["Daily"],
   },
   {

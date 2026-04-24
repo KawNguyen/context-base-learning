@@ -314,11 +314,13 @@ export const D7: VocabularyWord[] = [
     slug: "deprivation",
     phonetic: "/ˌdep.rəˈveɪ.ʃən/",
     partOfSpeech: "noun",
-    meaningEn: "The damaging lack of material and social resources.",
-    meaningVi: "Sự thiếu thốn/Sự tước đoạt.",
-    exampleEn: "Sleep deprivation.",
-    exampleVi: "Sự thiếu ngủ.",
-    categories: ["General", "Social", "Medical", "Psychology"],
+    meaningEn:
+      "The state of lacking or doing without something; the lack or denial of something considered to be a necessity.",
+    meaningVi: "Sự thiếu hụt, sự tước đoạt (thường là những thứ thiết yếu).",
+    exampleEn: "Sleep deprivation can lead to serious accidents on the road.",
+    exampleVi:
+      "Sự thiếu ngủ có thể dẫn đến các tai nạn nghiêm trọng trên đường.",
+    categories: ["Medical", "Social", "Psychology"],
   },
   {
     word: "Deprive",

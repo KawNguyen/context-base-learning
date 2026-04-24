@@ -332,13 +332,16 @@ export const M1: VocabularyWord[] = [
     word: "Manifest",
     slug: "manifest",
     phonetic: "/ˈmæn.ə.fest/",
-    partOfSpeech: "noun",
-    meaningEn: "Clear or obvious to the eye or mind.",
-    meaningVi: "Rõ ràng/Biểu lộ.",
+    partOfSpeech: "verb, adjective, noun",
+    meaningEn:
+      "(v) To show something clearly; (adj) Easily noticed or obvious; (n) A list of passengers or cargo; (Tech) A file containing metadata for a group of files.",
+    meaningVi:
+      "(v) Biểu lộ, thể hiện rõ; (adj) Rõ ràng, hiển nhiên; (n) Bản kê khai (hàng hóa/hành khách); (Tech) File cấu hình/danh mục hệ thống.",
     exampleEn:
-      "The symptoms of the disease began to manifest themselves clearly.",
-    exampleVi: "Các triệu chứng của căn bệnh bắt đầu biểu lộ rõ ràng.",
-    categories: ["General"],
+      "The symptoms of the disease manifest as a high fever. / Check the app's manifest file for permissions.",
+    exampleVi:
+      "Các triệu chứng của bệnh biểu hiện rõ bằng việc sốt cao. / Kiểm tra file manifest của ứng dụng để xem các quyền truy cập.",
+    categories: ["General", "Technology", "Psychology"],
   },
   {
     word: "Manipulate",
@@ -362,6 +365,40 @@ export const M1: VocabularyWord[] = [
     exampleEn: "In a polite manner.",
     exampleVi: "Một cách lịch sự.",
     categories: ["General"],
+  },
+  {
+    word: "Manufacture",
+    slug: "manufacture",
+    phonetic: "/ˌmæn.jəˈfæk.tʃɚ/",
+    partOfSpeech: "verb, noun",
+    meaningEn:
+      "(v) To produce goods in factories; (n) The process of making goods.",
+    meaningVi: "Sản xuất; Sự chế tạo.",
+    exampleEn: "The company manufactures automotive parts.",
+    exampleVi: "Công ty sản xuất các bộ phận ô tô.",
+    categories: ["Business"],
+  },
+  {
+    word: "Manufacturer",
+    slug: "manufacturer",
+    phonetic: "/ˌmæn.jəˈfæk.tʃɚ.ɚ/",
+    partOfSpeech: "noun",
+    meaningEn: "A company or country that produces goods in large numbers.",
+    meaningVi: "Nhà sản xuất, hãng chế tạo.",
+    exampleEn: "Contact the manufacturer for the technical manual.",
+    exampleVi: "Liên hệ với nhà sản xuất để lấy sổ tay kỹ thuật.",
+    categories: ["Business"],
+  },
+  {
+    word: "Manufacturing",
+    slug: "manufacturing",
+    phonetic: "/ˌmæn.jəˈfæk.tʃɚ.ɪŋ/",
+    partOfSpeech: "noun",
+    meaningEn: "The business of producing goods in factories.",
+    meaningVi: "Ngành sản xuất công nghiệp.",
+    exampleEn: "Automation is key in modern manufacturing.",
+    exampleVi: "Tự động hóa là yếu tố then chốt trong sản xuất hiện đại.",
+    categories: ["Business", "Technology"],
   },
   {
     word: "Many",
@@ -785,6 +822,21 @@ export const M1: VocabularyWord[] = [
     exampleEn: "Attend a meeting.",
     exampleVi: "Tham dự cuộc họp.",
     categories: ["Business"],
+  },
+  {
+    word: "Melatonin",
+    slug: "melatonin",
+    phonetic: "/ˌmel.əˈtoʊ.nɪn/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "A hormone produced by the pineal gland in the brain that helps regulate the sleep-wake cycle (circadian rhythm).",
+    meaningVi:
+      "Một loại hormone do tuyến tùng trong não tiết ra giúp điều chỉnh chu kỳ ngủ-thức (nhịp sinh học).",
+    exampleEn:
+      "The brain produces more melatonin when it is dark to help you sleep. / Melatonin supplements are often used to treat jet lag.",
+    exampleVi:
+      "Não tiết ra nhiều melatonin hơn khi trời tối để giúp bạn ngủ. / Thực phẩm chức năng bổ sung melatonin thường được dùng để điều trị tình trạng mệt mỏi sau chuyến bay dài (jet lag).",
+    categories: ["Biology", "Medical", "Health"],
   },
   {
     word: "Mellifluous",

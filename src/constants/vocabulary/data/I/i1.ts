@@ -1148,6 +1148,21 @@ export const I1: VocabularyWord[] = [
     categories: ["Health"],
   },
   {
+    word: "Inactivity",
+    slug: "inactivity",
+    phonetic: "/ˌɪn.ækˈtɪv.ə.t̬i/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The state of not doing anything, especially when you ought to be active; lack of physical exercise; (Tech) the state of a system not performing any functions.",
+    meaningVi:
+      "Sự không hoạt động, trạng thái tĩnh, sự thụ động; Sự thiếu vận động thể chất.",
+    exampleEn:
+      "Physical inactivity can lead to various health problems. / The session expired due to 15 minutes of inactivity.",
+    exampleVi:
+      "Sự thiếu vận động thể chất có thể dẫn đến nhiều vấn đề sức khỏe. / Phiên làm việc đã hết hạn do không có hoạt động trong 15 phút.",
+    categories: ["Medical", "Technology", "General"],
+  },
+  {
     word: "Incentive",
     slug: "incentive",
     phonetic: "/ɪnˈsen.t̬ɪv/",
@@ -1157,6 +1172,20 @@ export const I1: VocabularyWord[] = [
     exampleEn: "Financial incentives.",
     exampleVi: "Các ưu đãi về tài chính.",
     categories: ["Business"],
+  },
+  {
+    word: "Inception",
+    slug: "inception",
+    phonetic: "/ɪnˈsep.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The establishment or starting point of an institution or activity.",
+    meaningVi: "Sự khởi đầu, sự bắt đầu, sự thành lập.",
+    exampleEn:
+      "The project has been successful since its inception in 2024. / We have faced many challenges from the inception of the company.",
+    exampleVi:
+      "Dự án đã thành công kể từ khi bắt đầu vào năm 2024. / Chúng tôi đã đối mặt với nhiều thách thức từ khi thành lập công ty.",
+    categories: ["General", "Business", "Academic"],
   },
   {
     word: "Inchoate",
@@ -1329,12 +1358,15 @@ export const I1: VocabularyWord[] = [
     word: "Individual",
     slug: "individual",
     phonetic: "/ˌɪn.dəˈvɪdʒ.u.əl/",
-    partOfSpeech: "noun/adj",
-    meaningEn: "Single; separate.",
-    meaningVi: "Cá nhân.",
-    exampleEn: "Each individual has different needs.",
-    exampleVi: "Mỗi cá nhân có những nhu cầu khác nhau.",
-    categories: ["Social"],
+    partOfSpeech: "noun, adjective",
+    meaningEn:
+      "(n) A single person or thing, distinct from a group; (adj) Relating to a single person or thing; unique.",
+    meaningVi: "(n) Cá nhân, cá thể; (adj) Riêng lẻ, độc lập, có tính cá nhân.",
+    exampleEn:
+      "Each individual has a different learning style. / The system tracks individual eye movements.",
+    exampleVi:
+      "Mỗi cá nhân có một phong cách học tập khác nhau. / Hệ thống theo dõi các chuyển động mắt riêng lẻ.",
+    categories: ["General", "Social", "Biology", "Technology"],
   },
   {
     word: "Indolent",

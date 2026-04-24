@@ -406,6 +406,20 @@ export const G2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Glitch",
+    slug: "glitch",
+    phonetic: "/ɡlɪtʃ/",
+    partOfSpeech: "noun, verb",
+    meaningEn:
+      "A sudden, temporary malfunction or fault in equipment or software.",
+    meaningVi: "Sự cố nhỏ, lỗi kỹ thuật tạm thời (thường xảy ra chớp nhoáng).",
+    exampleEn:
+      "A minor software glitch caused the quiz timer to reset unexpectedly. / The screen glitched for a second before returning to normal.",
+    exampleVi:
+      "Một lỗi phần mềm nhỏ đã khiến bộ đếm giờ của bài kiểm tra tự đặt lại bất ngờ. / Màn hình bị giật lag một giây trước khi trở lại bình thường.",
+    categories: ["Technology", "General"],
+  },
+  {
     word: "Glitter",
     slug: "glitter",
     phonetic: "/ˈɡlɪt.ɚ/",
@@ -770,13 +784,17 @@ export const G2: VocabularyWord[] = [
   {
     word: "Graduate",
     slug: "graduate",
-    phonetic: "/ˈɡrædʒ.u.eɪt/",
-    partOfSpeech: "verb/noun",
-    meaningEn: "Successfully complete an academic degree.",
-    meaningVi: "Tốt nghiệp.",
-    exampleEn: "Graduate from university.",
-    exampleVi: "Tốt nghiệp đại học.",
-    categories: ["Education"],
+    phonetic: "/ˈɡrædʒ.u.eɪt/ (v) - /ˈɡrædʒ.u.ət/ (n/adj)",
+    partOfSpeech: "verb, noun, adjective",
+    meaningEn:
+      "(v) To complete a degree or course; (n) A person who has finished a course of study; (adj) Relating to study after a first degree.",
+    meaningVi:
+      "(v) Tốt nghiệp; (n) Người đã tốt nghiệp (sinh viên tốt nghiệp); (adj) Sau đại học.",
+    exampleEn:
+      "She will graduate from university next year. / He is a Harvard graduate.",
+    exampleVi:
+      "Cô ấy sẽ tốt nghiệp đại học vào năm tới. / Anh ấy là một người tốt nghiệp từ Harvard.",
+    categories: ["Education", "General"],
   },
   {
     word: "Grammar",

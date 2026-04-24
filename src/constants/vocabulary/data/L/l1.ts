@@ -162,6 +162,20 @@ export const L1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
+    word: "Landscape",
+    slug: "landscape",
+    phonetic: "/ˈlænd.skeɪp/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The visible features of an area; (Metaphor) the current situation or state of a particular field.",
+    meaningVi:
+      "Phong cảnh; (Nghĩa bóng) Toàn cảnh, bối cảnh của một lĩnh vực nào đó.",
+    exampleEn: "The digital landscape is shifting towards automated agents.",
+    exampleVi:
+      "Bối cảnh kỹ thuật số đang chuyển dịch sang các tác nhân tự động.",
+    categories: ["General", "Technology", "Business"],
+  },
+  {
     word: "Language",
     slug: "language",
     phonetic: "/ˈlæŋ.ɡwɪdʒ/",
@@ -526,6 +540,18 @@ export const L1: VocabularyWord[] = [
     exampleEn: "I want to learn English.",
     exampleVi: "Tôi muốn học tiếng Anh.",
     categories: ["Daily"],
+  },
+  {
+    word: "Learning",
+    slug: "learning",
+    phonetic: "/ˈlɜːr.nɪŋ/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The acquisition of knowledge or skills through experience, study, or being taught.",
+    meaningVi: "Sự học tập/Việc học.",
+    exampleEn: "Lifelong learning is important.",
+    exampleVi: "Học tập suốt đời là quan trọng.",
+    categories: ["Education"],
   },
   {
     word: "Lease",

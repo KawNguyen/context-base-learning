@@ -355,11 +355,14 @@ export const G1: VocabularyWord[] = [
     slug: "gather",
     phonetic: "/ˈɡæð.ɚ/",
     partOfSpeech: "verb",
-    meaningEn: "Come together; assemble.",
-    meaningVi: "Tập hợp.",
-    exampleEn: "Gather information.",
-    exampleVi: "Thu thập thông tin.",
-    categories: ["General"],
+    meaningEn:
+      "To collect several things, often from different places or people; to come together in a group.",
+    meaningVi: "Thu thập, tập hợp; Tụ họp, tập trung lại.",
+    exampleEn:
+      "I need to gather more data before making a decision. / We gathered in the meeting room.",
+    exampleVi:
+      "Tôi cần thu thập thêm dữ liệu trước khi đưa ra quyết định. / Chúng tôi đã tập hợp lại trong phòng họp.",
+    categories: ["General", "Technology", "Social"],
   },
   {
     word: "Gauze",

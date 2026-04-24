@@ -115,6 +115,19 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Rapidly",
+    slug: "rapidly",
+    phonetic: "/ˈræp.ɪd.li/",
+    partOfSpeech: "adverb",
+    meaningEn: "In a fast or sudden way; at a great speed.",
+    meaningVi: "Một cách nhanh chóng, mau lẹ.",
+    exampleEn:
+      "The technology is evolving rapidly. / The patient's condition deteriorated rapidly.",
+    exampleVi:
+      "Công nghệ đang phát triển một cách nhanh chóng. / Tình trạng của bệnh nhân đã xấu đi mau lẹ.",
+    categories: ["General", "Technology", "Business", "Medical"],
+  },
+  {
     word: "Rapprochement",
     slug: "rapprochement",
     phonetic: "/ˌræp.roʊʃˈmɑːn/",
@@ -274,6 +287,19 @@ export const R1: VocabularyWord[] = [
     exampleEn: "Real life.",
     exampleVi: "Cuộc sống thật.",
     categories: ["General"],
+  },
+  {
+    word: "Real-time",
+    slug: "real-time",
+    phonetic: "/ˈrɪəl.taɪm/",
+    partOfSpeech: "adjective, noun",
+    meaningEn:
+      "The actual time during which a process or event occurs; processed immediately.",
+    meaningVi: "Thời gian thực (xử lý ngay lập tức khi sự việc xảy ra).",
+    exampleEn: "The AI agent provides real-time feedback during the quiz.",
+    exampleVi:
+      "Tác nhân AI cung cấp phản hồi theo thời gian thực trong suốt bài kiểm tra.",
+    categories: ["Technology", "Education"],
   },
   {
     word: "Reality",
@@ -673,6 +699,21 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Regulate",
+    slug: "regulate",
+    phonetic: "/ˈreɡ.jə.leɪt/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To control something by means of rules or a particular method; to adjust a mechanism for accurate operation.",
+    meaningVi:
+      "Điều tiết, điều chỉnh, quy định (bằng luật lệ hoặc phương pháp cụ thể).",
+    exampleEn:
+      "The government needs to regulate the AI industry. / Your body regulates its temperature automatically.",
+    exampleVi:
+      "Chính phủ cần điều tiết ngành công nghiệp AI. / Cơ thể bạn tự động điều chỉnh nhiệt độ của nó.",
+    categories: ["Technology", "Biology", "Law", "Management"],
+  },
+  {
     word: "Regulation",
     slug: "regulation",
     phonetic: "/ˌreɡ.jəˈleɪ.ʃən/",
@@ -820,6 +861,19 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Reliance",
+    slug: "reliance",
+    phonetic: "/rɪˈlaɪ.əns/",
+    partOfSpeech: "noun",
+    meaningEn: "The state of depending on or trusting in something or someone.",
+    meaningVi: "Sự phụ thuộc, sự tin cậy, sự nhờ cậy.",
+    exampleEn:
+      "The company's reliance on a single supplier is a major risk. / Our reliance on technology has increased significantly.",
+    exampleVi:
+      "Sự phụ thuộc của công ty vào một nhà cung cấp duy nhất là một rủi ro lớn. / Sự phụ thuộc của chúng ta vào công nghệ đã tăng lên đáng kể.",
+    categories: ["General", "Business", "Technology", "Psychology"],
+  },
+  {
     word: "Relief",
     slug: "relief",
     phonetic: "/rɪˈliːf/",
@@ -865,6 +919,36 @@ export const R1: VocabularyWord[] = [
     exampleVi:
       "Giữ bình tĩnh / Những gì còn sót lại của tòa lâu đài cũ rất ít / Vui lòng ngồi yên tại chỗ.",
     categories: ["General"],
+  },
+  {
+    word: "Remark",
+    slug: "remark",
+    phonetic: "/rɪˈmɑːrk/",
+    partOfSpeech: "noun, verb",
+    meaningEn:
+      "(n) A short statement to give an opinion or thought; (v) To say or write something as a comment; to notice something.",
+    meaningVi:
+      "(n) Lời nhận xét, bình luận; (v) Nhận xét, chú ý đến, để ý thấy.",
+    exampleEn:
+      "The teacher made a positive remark about his self-discipline. / Critics remarked that the AI's interface was very intuitive.",
+    exampleVi:
+      "Giáo viên đã đưa ra lời nhận xét tích cực về tính kỷ luật của anh ấy. / Các nhà phê bình nhận xét rằng giao diện của AI rất trực quan.",
+    categories: ["General", "Social", "Academic"],
+  },
+  {
+    word: "Remarkably",
+    slug: "remarkably",
+    phonetic: "/rɪˈmɑːr.kə.bli/",
+    partOfSpeech: "adverb",
+    meaningEn:
+      "In a way that is worthy of attention; strikingly; to a very great degree.",
+    meaningVi:
+      "Một cách đáng chú ý, khác thường, xuất sắc; rất (nhấn mạnh sự ngạc nhiên).",
+    exampleEn:
+      "The new AI model is remarkably accurate at detecting early symptoms of fatigue.",
+    exampleVi:
+      "Mô hình AI mới chính xác một cách đáng kinh ngạc trong việc phát hiện các triệu chứng sớm của sự mệt mỏi.",
+    categories: ["General", "Academic", "Technology"],
   },
   {
     word: "Remember",
