@@ -94,6 +94,18 @@ export const I2: VocabularyWord[] = [
     categories: ["Social"],
   },
   {
+    word: "Influencer",
+    slug: "influencer",
+    phonetic: "/ˈɪn.flu.ən.sɚ/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "A person who has the power to influence many people, especially through social media.",
+    meaningVi: "Người có ảnh hưởng (thường qua mạng xã hội).",
+    exampleEn: "She is a popular influencer on Instagram.",
+    exampleVi: "Cô ấy là một người có ảnh hưởng nổi tiếng trên Instagram.",
+    categories: ["Social", "Business"],
+  },
+  {
     word: "Inform",
     slug: "inform",
     phonetic: "/ɪnˈfɔːrm/",
