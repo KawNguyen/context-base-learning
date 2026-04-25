@@ -1203,13 +1203,16 @@ export const I2: VocabularyWord[] = [
     word: "Issue",
     slug: "issue",
     phonetic: "/ˈɪʃ.uː/",
-    partOfSpeech: "noun/verb",
+    partOfSpeech: "noun, verb",
     meaningEn:
-      "An important topic or problem for debate; to supply or distribute.",
-    meaningVi: "Vấn đề; phát hành",
-    exampleEn: "The magazine will issue a special edition.",
-    exampleVi: "Tạp chí sẽ phát hành một ấn bản đặc biệt.",
-    categories: ["Media", "Politics"],
+      "(n) An important topic or problem for debate or resolution; a specific edition of a publication; (v) To supply or distribute something officially.",
+    meaningVi:
+      "(n) Vấn đề, sự cố; ấn phẩm, số báo; (v) Phát hành, đưa ra, cấp (giấy tờ).",
+    exampleEn:
+      "The team is working to resolve a technical issue with the RAG pipeline. / The latest issue of the tech magazine covers AI trends.",
+    exampleVi:
+      "Nhóm đang làm việc để giải quyết một vấn đề kỹ thuật với quy trình RAG. / Số mới nhất của tạp chí công nghệ đưa tin về các xu hướng AI.",
+    categories: ["General", "Technology", "Business"],
   },
   {
     word: "Item",

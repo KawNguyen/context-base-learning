@@ -2,6 +2,19 @@ import { VocabularyWord } from "../../types";
 
 export const A1: VocabularyWord[] = [
   {
+    word: "A niche alternative to",
+    slug: "a-niche-alternative-to",
+    phonetic: "/ə niːʃ ɔːlˈtɜː.nə.tɪv tuː/",
+    partOfSpeech: "phrase / collocation",
+    meaningEn:
+      "A specialized option that serves as a substitute for something else.",
+    meaningVi: "Một lựa chọn chuyên biệt thay thế cho cái gì đó khác.",
+    exampleEn: "This product is a niche alternative to traditional solutions.",
+    exampleVi:
+      "Sản phẩm này là một lựa chọn thay thế chuyên biệt cho các giải pháp truyền thống.",
+    categories: ["Business", "Technology"],
+  },
+  {
     word: "Abandon",
     slug: "abandon",
     phonetic: "/əˈbæn.dən/",

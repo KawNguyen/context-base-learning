@@ -791,6 +791,18 @@ export const M1: VocabularyWord[] = [
     categories: ["Medical", "Daily"],
   },
   {
+    word: "Meditation",
+    slug: "meditation",
+    phonetic: "/ˌmed.ɪˈteɪ.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The practice of focusing the mind for relaxation or spiritual purposes.",
+    meaningVi: "Thiền định.",
+    exampleEn: "Meditation can help reduce stress.",
+    exampleVi: "Thiền định có thể giúp giảm căng thẳng.",
+    categories: ["Health", "Psychology"],
+  },
+  {
     word: "Medium",
     slug: "medium",
     phonetic: "/ˈmiː.di.əm/",

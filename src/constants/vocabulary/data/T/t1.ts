@@ -461,13 +461,16 @@ export const T1: VocabularyWord[] = [
   {
     word: "Term",
     slug: "term",
-    phonetic: "/tɜːrm/",
-    partOfSpeech: "noun",
-    meaningEn: "A word or expression.",
-    meaningVi: "Thuật ngữ.",
-    exampleEn: "Technical term.",
-    exampleVi: "Thuật ngữ kỹ thuật.",
-    categories: ["General"],
+    phonetic: "/tɝːm/",
+    partOfSpeech: "noun, verb",
+    meaningEn:
+      "A fixed or limited period for which something lasts; a word or phrase used to describe a thing or to express a concept.",
+    meaningVi: "Thuật ngữ; kỳ hạn, học kỳ, thời hạn.",
+    exampleEn:
+      "Each technical term in the PDF is indexed by the RAG system. / The president's term of office is four years.",
+    exampleVi:
+      "Mỗi thuật ngữ kỹ thuật trong bản PDF đều được hệ thống RAG lập chỉ mục. / Nhiệm kỳ của tổng thống là bốn năm.",
+    categories: ["General", "Education", "Technology", "Law"],
   },
   {
     word: "Terminally ill",

@@ -1100,6 +1100,32 @@ export const S1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Shelter",
+    slug: "shelter",
+    phonetic: "/ˈʃel.tər/",
+    partOfSpeech: "noun/verb",
+    meaningEn: "A place giving protection.",
+    meaningVi: "Nơi trú ẩn.",
+    exampleEn: "Seek shelter from the storm.",
+    exampleVi: "Tìm nơi trú ẩn khỏi cơn bão.",
+    categories: ["General"],
+  },
+  {
+    word: "Shift",
+    slug: "shift",
+    phonetic: "/ʃɪft/",
+    partOfSpeech: "noun, verb",
+    meaningEn:
+      "(n) A slight change in position, direction, or tendency; a period of time worked by a group of workers. (v) To move or change from one position to another.",
+    meaningVi:
+      "(n) Sự thay đổi, sự dịch chuyển; ca làm việc. (v) Thay đổi, dịch chuyển, luân phiên.",
+    exampleEn:
+      "There has been a significant shift towards using RAG for AI chatbots. / The driver was exhausted after a double shift.",
+    exampleVi:
+      "Đã có một sự dịch chuyển đáng kể sang việc sử dụng RAG cho chatbot AI. / Tài xế đã kiệt sức sau một ca làm việc kép.",
+    categories: ["General", "Technology", "Business"],
+  },
+  {
     word: "Shine",
     slug: "shine",
     phonetic: "/ʃaɪn/",

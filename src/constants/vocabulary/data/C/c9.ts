@@ -662,7 +662,8 @@ export const C9: VocabularyWord[] = [
     phonetic: "/ˈkɑːm.prə.maɪzd/",
     partOfSpeech: "adjective",
     meaningEn: "Having been exposed to risk or danger; weakened.",
-    meaningVi: "Bị tổn hại/Bị xâm nhập (đặc biệt là về bảo mật hoặc uy tín)/Bị ảnh hưởng.",
+    meaningVi:
+      "Bị tổn hại/Bị xâm nhập (đặc biệt là về bảo mật hoặc uy tín)/Bị ảnh hưởng.",
     exampleEn: "The compromised security system.",
     exampleVi: "Hệ thống bảo mật bị xâm nhập.",
     categories: ["Technology", "Security"],
@@ -988,13 +989,17 @@ export const C9: VocabularyWord[] = [
   {
     word: "Concern",
     slug: "concern",
-    phonetic: "/kənˈsɜːn/",
-    partOfSpeech: "noun/verb",
-    meaningEn: "Anxiety; worry.",
-    meaningVi: "Sự lo lắng.",
-    exampleEn: "There is growing concern about the environment.",
-    exampleVi: "Ngày càng có nhiều sự lo lắng về môi trường.",
-    categories: ["Daily"],
+    phonetic: "/kənˈsɝːn/",
+    partOfSpeech: "noun, verb",
+    meaningEn:
+      "(n) A feeling of worry; a matter of interest or importance. (v) To relate to; to be about; to make someone anxious.",
+    meaningVi:
+      "(n) Sự lo ngại, mối quan tâm, vấn đề đáng quan tâm. (v) Liên quan đến; làm ai đó lo lắng.",
+    exampleEn:
+      "Data privacy is a major concern when building RAG systems. / The document concerns the new safety protocols for drivers.",
+    exampleVi:
+      "Quyền riêng tư dữ liệu là một mối quan tâm lớn khi xây dựng các hệ thống RAG. / Tài liệu này liên quan đến các giao thức an toàn mới cho tài xế.",
+    categories: ["General", "Business", "Technology", "Psychology"],
   },
   {
     word: "Concerned",
