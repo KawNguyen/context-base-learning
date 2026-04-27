@@ -577,11 +577,27 @@ export const F5: VocabularyWord[] = [
     slug: "former",
     phonetic: "/ˈfɔːr.mɚ/",
     partOfSpeech: "adjective",
-    meaningEn: "Having previously been a particular thing.",
-    meaningVi: "Trước đây.",
-    exampleEn: "Former president.",
-    exampleVi: "Cựu tổng thống.",
-    categories: ["General"],
+    meaningEn:
+      "Having a particular position in the past; of or in an earlier time.",
+    meaningVi: "Trước đây, cũ, cựu.",
+    exampleEn:
+      "The former version of our chatbot used a simple keyword search. / He is a former software engineer.",
+    exampleVi:
+      "Phiên bản trước đây của chatbot của chúng tôi sử dụng tìm kiếm từ khóa đơn giản. / Anh ấy là một cựu kỹ sư phần mềm.",
+    categories: ["General", "Time"],
+  },
+  {
+    word: "Formerly",
+    slug: "formerly",
+    phonetic: "/ˈfɔːr.mɚ.li/",
+    partOfSpeech: "adverb",
+    meaningEn: "In the past; at an earlier time.",
+    meaningVi: "Trước đây, thuở xưa.",
+    exampleEn:
+      "This building was formerly a library. / The library we use was formerly known as 'VectorSearch'.",
+    exampleVi:
+      "Tòa nhà này trước đây là một thư viện. / Thư viện mà chúng ta sử dụng trước đây được biết đến với tên gọi là 'VectorSearch'.",
+    categories: ["General", "Time"],
   },
   {
     word: "Formula",

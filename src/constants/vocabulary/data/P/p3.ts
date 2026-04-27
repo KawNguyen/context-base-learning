@@ -82,6 +82,19 @@ export const P3: VocabularyWord[] = [
     categories: ["Education"],
   },
   {
+    word: "Proficiently",
+    slug: "proficiently",
+    phonetic: "/prəˈfɪʃ.ənt.li/",
+    partOfSpeech: "adverb",
+    meaningEn: "In a way that shows a high level of skill or knowledge.",
+    meaningVi: "Một cách thành thạo, điêu luyện.",
+    exampleEn:
+      "After months of practice, he can now code in Python proficiently. / She speaks English proficiently in business meetings.",
+    exampleVi:
+      "Sau nhiều tháng luyện tập, hiện tại anh ấy có thể lập trình Python một cách thành thạo. / Cô ấy nói tiếng Anh thành thạo trong các cuộc họp kinh doanh.",
+    categories: ["General", "Education", "Business"],
+  },
+  {
     word: "Proficiency",
     slug: "proficiency",
     phonetic: "/prəˈfɪʃ.ən.si/",

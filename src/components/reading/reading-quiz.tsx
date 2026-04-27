@@ -42,7 +42,7 @@ export function ReadingQuiz({
         {/* Reading Passage Section */}
         <div className="flex flex-col">
           <div className="bg-card border rounded-lg p-8 flex flex-col h-[calc(100vh-8rem)]">
-            <div className="mb-6 flex items-center gap-4">
+            <div className="mb-6 flex justify-between items-center gap-4">
               <h2 className="text-2xl font-bold">{passage.title}</h2>
               <CEFRBadge level={level} />
             </div>

@@ -434,6 +434,20 @@ export const M2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Moreover",
+    slug: "moreover",
+    phonetic: "/ˌmɔːr.ˈoʊ.vɚ/",
+    partOfSpeech: "adverb",
+    meaningEn:
+      "Used to add information that supports or increases the importance of what has just been said.",
+    meaningVi: "Hơn thế nữa, ngoài ra, vả lại.",
+    exampleEn:
+      "The new RAG system is faster; moreover, it is much more accurate than the previous version. / Moreover, the driver drowsiness detection system can work in low-light conditions.",
+    exampleVi:
+      "Hệ thống RAG mới nhanh hơn; hơn thế nữa, nó chính xác hơn nhiều so với phiên bản trước. / Ngoài ra, hệ thống phát hiện tài xế buồn ngủ có thể hoạt động trong điều kiện ánh sáng yếu.",
+    categories: ["General", "Academic", "Business", "Technology"],
+  },
+  {
     word: "Moribund",
     slug: "moribund",
     phonetic: "/ˈmɔːr.ɪ.bʌnd/",

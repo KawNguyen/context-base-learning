@@ -1002,12 +1002,16 @@ export const D7: VocabularyWord[] = [
     word: "Design",
     slug: "design",
     phonetic: "/dɪˈzaɪn/",
-    partOfSpeech: "verb/noun",
-    meaningEn: "Decide upon the look and functioning of.",
-    meaningVi: "Thiết kế.",
-    exampleEn: "Design a website.",
-    exampleVi: "Thiết kế trang web.",
-    categories: ["Art", "Technology"],
+    partOfSpeech: "noun, verb",
+    meaningEn:
+      "(v) To make or draw plans for something; to intend for a specific purpose. (n) A plan or drawing showing how something is to be made; the way in which something is arranged.",
+    meaningVi:
+      "(v) Thiết kế, phác thảo; dành cho một mục đích cụ thể. (n) Bản thiết kế, kiểu dáng, sự sắp đặt.",
+    exampleEn:
+      "We need to design a robust architecture for the RAG system. / The user interface design should focus on reducing anxiety.",
+    exampleVi:
+      "Chúng ta cần thiết kế một kiến trúc vững chắc cho hệ thống RAG. / Thiết kế giao diện người dùng nên tập trung vào việc giảm bớt sự lo lắng.",
+    categories: ["Technology", "Art", "General"],
   },
   {
     word: "Designate",

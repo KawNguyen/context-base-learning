@@ -22,7 +22,7 @@ export function SearchInput({ searchTerm, onSearchChange }: SearchInputProps) {
         <div className="flex gap-2">
           <Input
             type="text"
-            placeholder="Nhập từ tiếng Anh hoặc tiếng Việt..."
+            placeholder="Type a word to search (English)..."
             value={searchTerm}
             onChange={(e) => onSearchChange(e.target.value)}
             className="text-lg"

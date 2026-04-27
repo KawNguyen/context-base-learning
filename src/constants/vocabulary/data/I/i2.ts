@@ -763,6 +763,31 @@ export const I2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Intentional",
+    slug: "intentional",
+    phonetic: "/ɪnˈten.ʃən.əl/",
+    partOfSpeech: "adjective",
+    meaningEn: "Done on purpose; deliberate.",
+    meaningVi: "Có chủ đích, cố ý.",
+    exampleEn:
+      "The delay in the response was intentional to simulate human thinking.",
+    exampleVi:
+      "Sự chậm trễ trong phản hồi là có chủ đích để mô phỏng suy nghĩ của con người.",
+    categories: ["General", "Psychology"],
+  },
+  {
+    word: "Intentionally",
+    slug: "intentionally",
+    phonetic: "/ɪnˈten.ʃən.əl.i/",
+    partOfSpeech: "adverb",
+    meaningEn: "In a way that is planned or intended.",
+    meaningVi: "Một cách cố ý, có chủ tâm.",
+    exampleEn: "We intentionally simplified the UI to reduce user anxiety.",
+    exampleVi:
+      "Chúng tôi đã cố ý đơn giản hóa giao diện để giảm bớt sự lo lắng cho người dùng.",
+    categories: ["General", "Psychology"],
+  },
+  {
     word: "Interactive",
     slug: "interactive",
     phonetic: "/ˌɪn.t̬ɚˈæk.tɪv/",
