@@ -381,11 +381,14 @@ export const W1: VocabularyWord[] = [
     slug: "wealth",
     phonetic: "/welθ/",
     partOfSpeech: "noun",
-    meaningEn: "An abundance of valuable possessions or money.",
-    meaningVi: "Sự giàu có.",
-    exampleEn: "Accumulate wealth.",
-    exampleVi: "Tích lũy của cải.",
-    categories: ["Finance", "Social"],
+    meaningEn:
+      "An abundance of valuable possessions or money; a large amount of something desirable.",
+    meaningVi: "Sự giàu có, sự phong phú, sự dồi dào.",
+    exampleEn:
+      "The internet provides a wealth of information for self-taught developers. / Investing in AI technology can create significant wealth for the company.",
+    exampleVi:
+      "Internet cung cấp một kho tàng thông tin phong phú cho các lập trình viên tự học. / Đầu tư vào công nghệ AI có thể tạo ra khối tài sản đáng kể cho công ty.",
+    categories: ["Economics", "General", "Academic"],
   },
   {
     word: "Weapon",
@@ -763,11 +766,14 @@ export const W1: VocabularyWord[] = [
     slug: "whether",
     phonetic: "/ˈweð.ɚ/",
     partOfSpeech: "conjunction",
-    meaningEn: "Expressing a doubt or choice between alternatives.",
-    meaningVi: "Liệu.",
-    exampleEn: "I don't know whether to go.",
-    exampleVi: "Tôi không biết liệu có nên đi không.",
-    categories: ["General"],
+    meaningEn:
+      "Used to introduce two or more possibilities; used to indicate that something is true in either of two cases.",
+    meaningVi: "Liệu rằng, dù là... hay là...",
+    exampleEn:
+      "I’m not sure whether the API supports PDF/A formats. / Whether it rains or shines, the system must remain operational.",
+    exampleVi:
+      "Tôi không chắc liệu API có hỗ trợ định dạng PDF/A hay không. / Dù trời mưa hay nắng, hệ thống vẫn phải duy trì hoạt động.",
+    categories: ["General", "Technology", "Academic"],
   },
   {
     word: "Which",
@@ -853,12 +859,15 @@ export const W1: VocabularyWord[] = [
     word: "Whole",
     slug: "whole",
     phonetic: "/hoʊl/",
-    partOfSpeech: "adjective/noun",
-    meaningEn: "All of; entire.",
-    meaningVi: "Toàn bộ.",
-    exampleEn: "The whole day.",
-    exampleVi: "Cả ngày.",
-    categories: ["General"],
+    partOfSpeech: "adjective, noun",
+    meaningEn:
+      "All of something; complete; including all the parts or aspects.",
+    meaningVi: "Toàn bộ, đầy đủ, nguyên vẹn.",
+    exampleEn:
+      "The RAG system needs to analyze the whole document to provide an accurate answer. / I spent the whole night debugging the drowsiness detection script.",
+    exampleVi:
+      "Hệ thống RAG cần phân tích toàn bộ tài liệu để đưa ra câu trả lời chính xác. / Tôi đã dành cả đêm để sửa lỗi kịch bản phát hiện buồn ngủ.",
+    categories: ["General", "Technology", "Academic"],
   },
   {
     word: "Whom",

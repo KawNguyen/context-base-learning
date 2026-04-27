@@ -534,14 +534,16 @@ export const A3: VocabularyWord[] = [
   {
     word: "Anxiety",
     slug: "anxiety",
-    phonetic: "/æŋˈzaɪ.ə.ti/",
+    phonetic: "/æŋˈzaɪ.ə.t̬i/",
     partOfSpeech: "noun",
     meaningEn:
-      "A feeling of worry, nervousness, or unease, typically about an imminent event or something with an uncertain outcome.",
-    meaningVi: "Sự lo lắng.",
-    exampleEn: "Extreme anxiety.",
-    exampleVi: "Sự lo lắng tột độ.",
-    categories: ["Daily"],
+      "A feeling of worry, nervousness, or unease, typically about an upcoming event or something with an uncertain outcome.",
+    meaningVi: "Sự lo lắng, mối lo âu, cảm giác bồn chồn.",
+    exampleEn:
+      "Learning a new terminology in a fast-paced world can sometimes cause anxiety for junior developers. / There is growing anxiety about the impact of AI on job security.",
+    exampleVi:
+      "Học một hệ thống thuật ngữ mới trong một thế giới nhịp độ nhanh đôi khi có thể gây ra sự lo lắng cho các lập trình viên mới. / Ngày càng có nhiều lo ngại về tác động của AI đối với an ninh việc làm.",
+    categories: ["Psychology", "General", "Health"],
   },
   {
     word: "Anxious",

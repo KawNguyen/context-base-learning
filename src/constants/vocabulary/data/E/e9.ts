@@ -36,6 +36,20 @@ export const E9: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Exceptionally effective",
+    slug: "exceptionally-effective",
+    phonetic: "/ɪkˈsep.ʃən.əl.i ɪˈfek.tɪv/",
+    partOfSpeech: "adjective phrase",
+    meaningEn:
+      "Producing a desired or intended result to an unusually high degree.",
+    meaningVi: "Hiệu quả một cách ngoại lệ, cực kỳ hiệu quả.",
+    exampleEn:
+      "The new vector indexing strategy proved to be exceptionally effective for the RAG system. / Visual aids are exceptionally effective in preventing rote memorization.",
+    exampleVi:
+      "Chiến lược lập chỉ mục vector mới đã chứng minh là cực kỳ hiệu quả cho hệ thống RAG. / Các công cụ hỗ trợ trực quan cực kỳ hiệu quả trong việc ngăn chặn tình trạng học vẹt.",
+    categories: ["General", "Technology", "Business"],
+  },
+  {
     word: "Excerpt",
     slug: "excerpt",
     phonetic: "/ˈek.sɝːpt/",
@@ -140,13 +154,17 @@ export const E9: VocabularyWord[] = [
   {
     word: "Execute",
     slug: "execute",
-    phonetic: "/ˈek.sɪ.kjuːt/",
+    phonetic: "/ˈek.sə.kjuːt/",
     partOfSpeech: "verb",
-    meaningEn: "Carry out or put into effect.",
-    meaningVi: "Thực hiện.",
-    exampleEn: "Execute the plan.",
-    exampleVi: "Thực hiện kế hoạch.",
-    categories: ["General"],
+    meaningEn:
+      "To put a plan, order, or course of action into effect; (Computing) to carry out an instruction or program.",
+    meaningVi:
+      "Thực thi, thi hành (kế hoạch, mệnh lệnh); chạy (chương trình, mã code).",
+    exampleEn:
+      "The computer takes only a few milliseconds to execute the command. / We need to execute the marketing plan by next Monday.",
+    exampleVi:
+      "Máy tính chỉ mất vài mili giây để thực thi câu lệnh. / Chúng ta cần triển khai kế hoạch marketing trước thứ Hai tới.",
+    categories: ["Technology", "Business", "General"],
   },
   {
     word: "Execution",
@@ -1106,11 +1124,14 @@ export const E9: VocabularyWord[] = [
     slug: "exposure",
     phonetic: "/ɪkˈspoʊ.ʒɚ/",
     partOfSpeech: "noun",
-    meaningEn: "The state of being exposed to contact with something.",
-    meaningVi: "Sự tiếp xúc/Sự phơi bày.",
-    exampleEn: "Sun exposure.",
-    exampleVi: "Tiếp xúc với ánh nắng mặt trời.",
-    categories: ["General", "Medical"],
+    meaningEn:
+      "The state of having no protection from something harmful; the fact of experiencing something or being affected by it.",
+    meaningVi: "Sự tiếp xúc, sự trải nghiệm; sự phơi nhiễm.",
+    exampleEn:
+      "Early exposure to Python makes it significantly easier to learn AI later. / The job provides great exposure to international business terminology.",
+    exampleVi:
+      "Việc tiếp xúc sớm với Python giúp việc học AI sau này trở nên dễ dàng hơn đáng kể. / Công việc này mang lại trải nghiệm tuyệt vời với hệ thống thuật ngữ kinh doanh quốc tế.",
+    categories: ["General", "Technology", "Science"],
   },
   {
     word: "Expound",

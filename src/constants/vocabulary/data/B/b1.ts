@@ -720,10 +720,12 @@ export const B1: VocabularyWord[] = [
     phonetic: "/ˈber.li/",
     partOfSpeech: "adverb",
     meaningEn: "Only just; almost not.",
-    meaningVi: "Vừa đủ/Gần như không.",
-    exampleEn: "Barely enough.",
-    exampleVi: "Vừa đủ.",
-    categories: ["General"],
+    meaningVi: "Vừa đủ, suýt soát; hầu như không.",
+    exampleEn:
+      "The system could barely process the large PDF due to low memory. / He barely passed the English test.",
+    exampleVi:
+      "Hệ thống suýt chút nữa là không thể xử lý tệp PDF lớn vì bộ nhớ thấp. / Anh ấy vừa đủ điểm đỗ bài kiểm tra tiếng Anh.",
+    categories: ["General", "Technology"],
   },
   {
     word: "Bargain",

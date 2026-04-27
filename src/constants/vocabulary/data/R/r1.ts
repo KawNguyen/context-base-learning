@@ -13,6 +13,21 @@ export const R1: VocabularyWord[] = [
     categories: ["Sports"],
   },
   {
+    word: "Radical",
+    slug: "radical",
+    phonetic: "/ˈræd.ɪ.kəl/",
+    partOfSpeech: "adjective, noun",
+    meaningEn:
+      "Relating to or affecting the fundamental nature of something; far-reaching or thorough; (Mathematics) relating to the root of a number.",
+    meaningVi:
+      "Gốc rễ, cơ bản; (thay đổi) triệt để, quyết liệt; (toán học) dấu căn, biểu thức căn.",
+    exampleEn:
+      "The company needs a radical change in its software architecture to stay competitive. / In mathematics, the square root symbol is a type of radical.",
+    exampleVi:
+      "Công ty cần một sự thay đổi triệt để trong kiến trúc phần mềm để giữ vững khả năng cạnh tranh. / Trong toán học, biểu thức căn bậc hai là một loại dấu căn.",
+    categories: ["General", "Technology", "Mathematics", "Politics"],
+  },
+  {
     word: "Radio",
     slug: "radio",
     phonetic: "/ˈreɪ.di.oʊ/",
@@ -475,13 +490,17 @@ export const R1: VocabularyWord[] = [
   {
     word: "Record",
     slug: "record",
-    phonetic: "/ˈrek.ɔːrd/",
-    partOfSpeech: "noun/verb",
-    meaningEn: "A permanent account.",
-    meaningVi: "Ghi lại.",
-    exampleEn: "Keep a record.",
-    exampleVi: "Ghi chép.",
-    categories: ["General"],
+    phonetic: "/ˈrek.ɚd/ (n) or /rɪˈkɔːrd/ (v)",
+    partOfSpeech: "noun, verb",
+    meaningEn:
+      "(n) A piece of evidence about the past; a collection of related data items. (v) To set down in writing or some other permanent form for later reference.",
+    meaningVi:
+      "(n) Bản ghi, hồ sơ, kỷ lục. (v) Ghi lại, thu âm, lưu trữ dữ liệu.",
+    exampleEn:
+      "The database contains a record for every student's quiz score. / The system will record the driver's eye movements in real-time.",
+    exampleVi:
+      "Cơ sở dữ liệu chứa một bản ghi cho điểm kiểm tra của mỗi học sinh. / Hệ thống sẽ ghi lại chuyển động mắt của tài xế trong thời gian thực.",
+    categories: ["Technology", "General", "Music", "Sports"],
   },
   {
     word: "Recovery",
@@ -737,6 +756,32 @@ export const R1: VocabularyWord[] = [
     categories: ["Medical"],
   },
   {
+    word: "Reimburse",
+    slug: "reimburse",
+    partOfSpeech: "verb",
+    phonetic: "/ˌriː.ɪmˈbɝːs/",
+    meaningEn:
+      "To pay back money to someone who has spent it for a particular purpose.",
+    meaningVi: "Hoàn tiền, bồi hoàn, trả lại số tiền đã chi.",
+    exampleEn:
+      "The company will reimburse you for any travel expenses related to the project.",
+    exampleVi:
+      "Công ty sẽ hoàn lại cho bạn bất kỳ chi phí đi lại nào liên quan đến dự án.",
+    categories: ["Finance", "Business"],
+  },
+  {
+    word: "Reimbursement",
+    slug: "reimbursement",
+    partOfSpeech: "noun",
+    phonetic: "/ˌriː.ɪmˈbɝːs.mənt/",
+    meaningEn:
+      "The act of paying back money to someone; the amount of money that is paid back.",
+    meaningVi: "Khoản tiền hoàn lại; sự bồi hoàn.",
+    exampleEn: "Please submit your receipts to process the reimbursement.",
+    exampleVi: "Vui lòng nộp hóa đơn của bạn để thực hiện thủ tục hoàn tiền.",
+    categories: ["Finance", "Business"],
+  },
+  {
     word: "Reiterate",
     slug: "reiterate",
     phonetic: "/riˈɪt̬.ə.reɪt/",
@@ -859,6 +904,20 @@ export const R1: VocabularyWord[] = [
     exampleEn: "Reliable source.",
     exampleVi: "Nguồn đáng tin cậy.",
     categories: ["General"],
+  },
+  {
+    word: "Reliably",
+    slug: "reliably",
+    phonetic: "/rɪˈlaɪ.ə.bli/",
+    partOfSpeech: "adverb",
+    meaningEn:
+      "In a way that can be trusted or believed; consistently good in quality or performance.",
+    meaningVi: "Một cách đáng tin cậy, chắc chắn, ổn định.",
+    exampleEn:
+      "The system must be able to reliably detect drowsiness even in low-light conditions. / The RAG agent reliably retrieves information from complex PDF tables.",
+    exampleVi:
+      "Hệ thống phải có khả năng phát hiện buồn ngủ một cách đáng tin cậy ngay cả trong điều kiện ánh sáng yếu. / Đại lý RAG truy xuất thông tin từ các bảng PDF phức tạp một cách đáng tin cậy.",
+    categories: ["Technology", "General", "Engineering"],
   },
   {
     word: "Reliance",

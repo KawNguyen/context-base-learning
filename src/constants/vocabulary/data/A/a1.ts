@@ -314,12 +314,16 @@ export const A1: VocabularyWord[] = [
     word: "Account",
     slug: "account",
     phonetic: "/əˈkaʊnt/",
-    partOfSpeech: "noun",
-    meaningEn: "A profile or record of financial transactions.",
-    meaningVi: "Tài khoản.",
-    exampleEn: "Create a new account.",
-    exampleVi: "Tạo một tài khoản mới.",
-    categories: ["Technology", "Daily", "Business"],
+    partOfSpeech: "noun, verb",
+    meaningEn:
+      "(n) A report or description of an event; an arrangement with a firm to use their services. (v) To consider or regard in a specified way; (phrasal verb 'account for') to explain the reason for something.",
+    meaningVi:
+      "(n) Tài khoản, bản báo cáo, sự tường thuật. (v) Coi như, cho là; (cụm động từ 'account for') giải thích cho, chiếm tỉ lệ.",
+    exampleEn:
+      "Please log in to your account to save the quiz progress. / How do you account for the sudden increase in system latency?",
+    exampleVi:
+      "Vui lòng đăng nhập vào tài khoản của bạn để lưu tiến trình làm bài kiểm tra. / Bạn giải thích thế nào về việc độ trễ của hệ thống tăng đột ngột?",
+    categories: ["Technology", "Finance", "General"],
   },
   {
     word: "Accountability",
@@ -505,12 +509,15 @@ export const A1: VocabularyWord[] = [
     word: "Across",
     slug: "across",
     phonetic: "/əˈkrɑːs/",
-    partOfSpeech: "preposition/adverb",
-    meaningEn: "From one side to the other of something.",
-    meaningVi: "Băng qua.",
-    exampleEn: "Walk across the street.",
-    exampleVi: "Đi bộ băng qua đường.",
-    categories: ["General"],
+    partOfSpeech: "preposition, adverb",
+    meaningEn:
+      "From one side to the other of something; in every part of a particular place or group.",
+    meaningVi: "Băng qua, ngang qua; trên khắp, trải dài khắp.",
+    exampleEn:
+      "The data is synchronized across all servers in the cluster. / We need to implement this security policy across the entire organization.",
+    exampleVi:
+      "Dữ liệu được đồng bộ hóa trên tất cả các máy chủ trong cụm. / Chúng ta cần triển khai chính sách bảo mật này trên toàn bộ tổ chức.",
+    categories: ["General", "Technology", "Mathematics"],
   },
   {
     word: "Act",

@@ -247,6 +247,21 @@ export const O2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Outline",
+    slug: "outline",
+    phonetic: "/ˈaʊt.laɪn/",
+    partOfSpeech: "noun, verb",
+    meaningEn:
+      "(n) A general description or plan giving those essential features of something but not the detail; (v) To give a summary of the main points.",
+    meaningVi:
+      "(n) Dàn ý, đề cương, bản phác thảo; (v) Phác thảo, tóm tắt những ý chính.",
+    exampleEn:
+      "Before writing the code, he created an outline of the software architecture. / The teacher outlined the main topics for the final exam.",
+    exampleVi:
+      "Trước khi viết mã, anh ấy đã tạo một bản phác thảo về kiến trúc phần mềm. / Giáo viên đã phác thảo các chủ đề chính cho bài kiểm tra cuối kỳ.",
+    categories: ["General", "Academic", "Technology", "Design"],
+  },
+  {
     word: "Output",
     slug: "output",
     phonetic: "/ˈaʊt.pʊt/",

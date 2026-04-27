@@ -320,6 +320,20 @@ export const F1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Factual accounts",
+    slug: "factual-accounts",
+    phonetic: "/ˈfæk.tʃu.əl əˈkaʊnts/",
+    partOfSpeech: "noun phrase",
+    meaningEn:
+      "Reports or descriptions that are based on or restricted to facts rather than interpretation or fiction.",
+    meaningVi: "Những bản tường thuật dựa trên sự thật, thông tin xác thực.",
+    exampleEn:
+      "The AI was trained to provide factual accounts of historical events using verified PDF sources. / Witnesses gave factual accounts of what happened during the accident.",
+    exampleVi:
+      "AI được huấn luyện để cung cấp các bản tường thuật xác thực về các sự kiện lịch sử bằng cách sử dụng các nguồn PDF đã được xác minh. / Các nhân chứng đã đưa ra những lời kể xác thực về những gì đã xảy ra trong vụ tai nạn.",
+    categories: ["Academic", "Law", "Technology"],
+  },
+  {
     word: "Faculty",
     slug: "faculty",
     phonetic: "/ˈfæk.əl.t̬i/",

@@ -52,6 +52,7 @@ export const BASE_STOP_WORDS = [
   "for",
   "with",
   "at",
+  "one",
 ];
 
 export const STOP_WORDS = new Set([...BASE_STOP_WORDS]);

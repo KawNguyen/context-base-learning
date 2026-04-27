@@ -526,13 +526,17 @@ export const M2: VocabularyWord[] = [
   {
     word: "Motive",
     slug: "motive",
-    phonetic: "/ˈmoʊ.tɪv/",
+    phonetic: "/ˈmoʊ.t̬ɪv/",
     partOfSpeech: "noun",
-    meaningEn: "A reason for doing something.",
-    meaningVi: "Động cơ.",
-    exampleEn: "The motive behind the crime was robbery.",
-    exampleVi: "Động cơ đằng sau vụ án là cướp của.",
-    categories: ["General"],
+    meaningEn:
+      "A reason for doing something, especially one that is hidden or not obvious.",
+    meaningVi:
+      "Động cơ, lý do (thường là lý do ẩn giấu đằng sau một hành động).",
+    exampleEn:
+      "The police are still trying to establish a motive for the cyberattack. / My primary motive for building this quiz app is to help people learn English more effectively.",
+    exampleVi:
+      "Cảnh sát vẫn đang cố gắng xác định động cơ của cuộc tấn công mạng. / Động cơ chính của tôi khi xây dựng ứng dụng trắc nghiệm này là giúp mọi người học tiếng Anh hiệu quả hơn.",
+    categories: ["Psychology"],
   },
   {
     word: "Motley",

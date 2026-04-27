@@ -353,6 +353,35 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Rigid",
+    slug: "rigid",
+    phonetic: "/ˈrɪdʒ.ɪd/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Unable to bend or be forced out of shape; not able to be changed or adapted.",
+    meaningVi:
+      "Cứng nhắc, khắt khe, không linh hoạt; (vật lý) cứng, không biến dạng.",
+    exampleEn:
+      "The old database schema was too rigid to support the new RAG features. / A rigid schedule can sometimes hinder creativity in software development.",
+    exampleVi:
+      "Cấu trúc cơ sở dữ liệu cũ quá cứng nhắc để hỗ trợ các tính năng RAG mới. / Một lịch trình khắt khe đôi khi có thể cản trở sự sáng tạo trong phát triển phần mềm.",
+    categories: ["Technology", "Engineering", "General"],
+  },
+  {
+    word: "Rigidly",
+    slug: "rigidly",
+    phonetic: "/ˈrɪdʒ.ɪd.li/",
+    partOfSpeech: "adverb",
+    meaningEn:
+      "In a stiff or inflexible way; in a strict or severe manner that does not allow for change.",
+    meaningVi: "Một cách cứng nhắc, khắt khe, nghiêm ngặt.",
+    exampleEn:
+      "The data must be rigidly formatted to be accepted by the legacy system. / The rules were rigidly enforced throughout the competition.",
+    exampleVi:
+      "Dữ liệu phải được định dạng một cách nghiêm ngặt để được hệ thống cũ chấp nhận. / Các quy tắc đã được thực thi một cách khắt khe trong suốt cuộc thi.",
+    categories: ["General", "Technology", "Social"],
+  },
+  {
     word: "Ring",
     slug: "ring",
     phonetic: "/rɪŋ/",
@@ -551,6 +580,20 @@ export const R2: VocabularyWord[] = [
     exampleEn: "Learn by rote.",
     exampleVi: "Học thuộc lòng.",
     categories: ["Education"],
+  },
+  {
+    word: "Rote memorization",
+    slug: "rote-memorization",
+    phonetic: "/roʊt ˌmem.ə.rəˈzeɪ.ʃən/",
+    partOfSpeech: "noun phrase",
+    meaningEn:
+      "The process of learning something by repeating it until it is remembered, rather than by understanding its meaning.",
+    meaningVi: "Học vẹt, học thuộc lòng một cách máy móc.",
+    exampleEn:
+      "The app aims to help students understand the concepts instead of relying on rote memorization. / Rote memorization might help you pass the test, but it won't help you solve real-world coding problems.",
+    exampleVi:
+      "Ứng dụng nhằm giúp học sinh hiểu các khái niệm thay vì dựa vào việc học vẹt. / Học thuộc lòng máy móc có thể giúp bạn vượt qua bài kiểm tra, nhưng nó sẽ không giúp bạn giải quyết các vấn đề lập trình thực tế.",
+    categories: ["Education", "Psychology", "General"],
   },
   {
     word: "Row",

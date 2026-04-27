@@ -985,11 +985,27 @@ export const A2: VocabularyWord[] = [
     phonetic: "/æmˈbɪɡ.ju.əs/",
     partOfSpeech: "adjective",
     meaningEn:
-      "Open to more than one interpretation; not having one obvious meaning.",
-    meaningVi: "Mơ hồ, nhập nhằng.",
-    exampleEn: "The rules are somewhat ambiguous.",
-    exampleVi: "Các quy tắc có phần mơ hồ.",
-    categories: ["Academic"],
+      "Open to more than one interpretation; having a double meaning; unclear or inexact.",
+    meaningVi: "Mơ hồ, nhập nhằng, có nhiều hơn một cách hiểu.",
+    exampleEn:
+      "The user's query was too ambiguous for the AI to provide a specific answer. / We should avoid ambiguous variable names like 'data1' or 'temp'.",
+    exampleVi:
+      "Truy vấn của người dùng quá mơ hồ để AI có thể đưa ra câu trả lời cụ thể. / Chúng ta nên tránh các tên biến mơ hồ như 'data1' hay 'temp'.",
+    categories: ["Technology", "Linguistics", "General"],
+  },
+  {
+    word: "Ambiguously",
+    slug: "ambiguously",
+    phonetic: "/æmˈbɪɡ.ju.əs.li/",
+    partOfSpeech: "adverb",
+    meaningEn:
+      "In a way that is unclear or decided in more than one way; in a way that has more than one possible meaning.",
+    meaningVi: "Một cách mơ hồ, nhập nhằng, không rõ ràng.",
+    exampleEn:
+      "The error message was worded ambiguously, making it hard to debug the RAG pipeline. / The law was written ambiguously, leading to many different interpretations.",
+    exampleVi:
+      "Thông báo lỗi được soạn thảo một cách mơ hồ, khiến việc sửa lỗi quy trình RAG trở nên khó khăn. / Luật được viết một cách nhập nhằng, dẫn đến nhiều cách hiểu khác nhau.",
+    categories: ["Linguistics", "Technology", "Law"],
   },
   {
     word: "Ambition",
@@ -1008,11 +1024,14 @@ export const A2: VocabularyWord[] = [
     phonetic: "/æmˈbɪʃ.əs/",
     partOfSpeech: "adjective",
     meaningEn:
-      "Having or showing a strong desire and determination to succeed.",
-    meaningVi: "Tham vọng.",
-    exampleEn: "She is an ambitious student.",
-    exampleVi: "Cô ấy là một học sinh đầy tham vọng.",
-    categories: ["General"],
+      "Having or showing a strong desire and determination to succeed; (of a plan or project) intended to satisfy high aspirations and therefore difficult to achieve.",
+    meaningVi:
+      "Có tham vọng, có hoài bão lớn; (dự án) quy mô lớn, đầy thách thức.",
+    exampleEn:
+      "Building a real-time RAG system for thousands of PDFs is an ambitious project. / She is an ambitious developer who wants to master both AI and software architecture.",
+    exampleVi:
+      "Xây dựng một hệ thống RAG thời gian thực cho hàng ngàn tệp PDF là một dự án đầy tham vọng. / Cô ấy là một lập trình viên có hoài bão, người muốn làm chủ cả AI và kiến trúc phần mềm.",
+    categories: ["General", "Business", "People"],
   },
   {
     word: "Ambivalent",

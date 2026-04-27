@@ -591,7 +591,7 @@ export const C9: VocabularyWord[] = [
     partOfSpeech: "adjective",
     meaningEn:
       "Complete; including all or nearly all elements or aspects of something.",
-    meaningVi: "Toàn diện.",
+    meaningVi: "Toàn diện/Bao quát.",
     exampleEn: "A comprehensive study.",
     exampleVi: "Một nghiên cứu toàn diện.",
     categories: ["Academic"],

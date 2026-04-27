@@ -41,77 +41,64 @@ export function useInteractiveText(text: string) {
       continue;
     }
 
-    // Try to match multi-word phrases (3 words, 2 words)
+    // Try to match multi-word phrases (from 10 words down to 2 words)
     let matched = false;
+    const MAX_WORDS = 10; // Supports phrases up to 10 words
 
-    // Try 3-word phrase
-    if (
-      i + 4 < chunks.length &&
-      chunks[i + 1].trim() === "" &&
-      chunks[i + 3].trim() === ""
-    ) {
-      const w1 = chunks[i].replace(/[.,!?;:'"()\[\]{}]/g, "").toLowerCase();
-      const w2 = chunks[i + 2].replace(/[.,!?;:'"()\[\]{}]/g, "").toLowerCase();
-      const w3 = chunks[i + 4].replace(/[.,!?;:'"()\[\]{}]/g, "").toLowerCase();
+    for (let wordCount = MAX_WORDS; wordCount >= 2; wordCount--) {
+      const chunksNeeded = wordCount * 2 - 1;
 
-      const l1 = lemmatize(singularize(w1));
-      const l2 = lemmatize(singularize(w2));
-      const l3 = lemmatize(singularize(w3));
+      // Check if we have enough chunks remaining
+      if (i + chunksNeeded <= chunks.length) {
+        // Validate that intermediate chunks are spaces
+        let allSpaces = true;
+        for (let j = 1; j < chunksNeeded; j += 2) {
+          if (chunks[i + j].trim() !== "") {
+            allSpaces = false;
+            break;
+          }
+        }
 
-      // Common cases: Exact match, completely lemmatized, or only the last word lemmatized (for plurals like "sparkling waters" -> "sparkling water")
-      const candidateSlugs = [
-        `${w1}-${w2}-${w3}`,
-        `${l1}-${l2}-${l3}`,
-        `${w1}-${w2}-${l3}`, // Only last word lemmatized
-      ];
+        if (allSpaces) {
+          const phraseWords: string[] = [];
+          for (let j = 0; j < chunksNeeded; j += 2) {
+            phraseWords.push(
+              chunks[i + j].replace(/[.,!?;:'"()\[\]{}]/g, "").toLowerCase(),
+            );
+          }
 
-      const threeWordMatch = AllVocabData.find((vocab) =>
-        candidateSlugs.includes(vocab.slug),
-      );
+          const candidate1 = phraseWords.join("-");
 
-      if (threeWordMatch) {
-        words.push({
-          raw: chunks.slice(i, i + 5).join(""),
-          normalized: threeWordMatch.slug,
-          isTranslatable: true,
-          isSpace: false,
-          isProperNoun: false,
-          word: threeWordMatch,
-        });
-        i += 5;
-        matched = true;
-      }
-    }
+          const lemmatizedWords = phraseWords.map((w) =>
+            lemmatize(singularize(w)),
+          );
+          const candidate2 = lemmatizedWords.join("-");
 
-    // Try 2-word phrase if 3-word didn't match
-    if (!matched && i + 2 < chunks.length && chunks[i + 1].trim() === "") {
-      const w1 = chunks[i].replace(/[.,!?;:'"()\[\]{}]/g, "").toLowerCase();
-      const w2 = chunks[i + 2].replace(/[.,!?;:'"()\[\]{}]/g, "").toLowerCase();
+          const lastLemmatized = [...phraseWords];
+          lastLemmatized[lastLemmatized.length - 1] =
+            lemmatizedWords[lemmatizedWords.length - 1];
+          const candidate3 = lastLemmatized.join("-");
 
-      const l1 = lemmatize(singularize(w1));
-      const l2 = lemmatize(singularize(w2));
+          const candidateSlugs = [candidate1, candidate2, candidate3];
 
-      const candidateSlugs = [
-        `${w1}-${w2}`,
-        `${l1}-${l2}`,
-        `${w1}-${l2}`, // Only last word lemmatized
-      ];
+          const match = AllVocabData.find((vocab) =>
+            candidateSlugs.includes(vocab.slug),
+          );
 
-      const twoWordMatch = AllVocabData.find((vocab) =>
-        candidateSlugs.includes(vocab.slug),
-      );
-
-      if (twoWordMatch) {
-        words.push({
-          raw: chunks.slice(i, i + 3).join(""),
-          normalized: twoWordMatch.slug,
-          isTranslatable: true,
-          isSpace: false,
-          isProperNoun: false,
-          word: twoWordMatch,
-        });
-        i += 3;
-        matched = true;
+          if (match) {
+            words.push({
+              raw: chunks.slice(i, i + chunksNeeded).join(""),
+              normalized: match.slug,
+              isTranslatable: true,
+              isSpace: false,
+              isProperNoun: false,
+              word: match,
+            });
+            i += chunksNeeded;
+            matched = true;
+            break;
+          }
+        }
       }
     }
 

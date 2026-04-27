@@ -159,6 +159,20 @@ export const M1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Makes it significantly easier to",
+    slug: "makes-it-significantly-easier-to",
+    phonetic: "/meɪks ɪt sɪɡˈnɪf.ɪ.kənt.li ˈiː.ziər tuː/",
+    partOfSpeech: "verb phrase",
+    meaningEn:
+      "To simplify a task or process to a great and noticeable degree.",
+    meaningVi: "Giúp cho (việc gì đó) trở nên dễ dàng hơn đáng kể.",
+    exampleEn:
+      "Using a pre-trained model makes it significantly easier to implement drowsiness detection. / The RAG framework makes it significantly easier for AI to access private documents.",
+    exampleVi:
+      "Sử dụng một mô hình đã được huấn luyện trước giúp việc triển khai phát hiện buồn ngủ trở nên dễ dàng hơn đáng kể. / Khung làm việc RAG giúp AI truy cập các tài liệu nội bộ dễ dàng hơn rất nhiều.",
+    categories: ["Technology", "General", "Academic"],
+  },
+  {
     word: "Make out",
     slug: "make-out",
     phonetic: "/meɪk aʊt/",
@@ -935,11 +949,28 @@ export const M1: VocabularyWord[] = [
     slug: "mental",
     phonetic: "/ˈmen.təl/",
     partOfSpeech: "adjective",
-    meaningEn: "Relating to the mind.",
-    meaningVi: "Tinh thần.",
-    exampleEn: "Mental health.",
-    exampleVi: "Sức khỏe tinh thần.",
-    categories: ["Psychology", "Medical"],
+    meaningEn: "Relating to the mind, or involving the process of thinking.",
+    meaningVi: "(Thuộc về) Tâm trí, tinh thần, trí tuệ.",
+    exampleEn:
+      "Programming requires a lot of mental effort and focus. / Mental health is just as important as physical health.",
+    exampleVi:
+      "Lập trình đòi hỏi rất nhiều nỗ lực trí tuệ và sự tập trung. / Sức khỏe tâm thần cũng quan trọng như sức khỏe thể chất vậy.",
+    categories: ["Psychology", "General", "Health"],
+  },
+  {
+    word: "Mental escape",
+    slug: "mental-escape",
+    phonetic: "/ˈmen.təl ɪˈskeɪp/",
+    partOfSpeech: "noun phrase",
+    meaningEn:
+      "An activity or creative thought process used to avoid or get relief from reality, stress, or boredom.",
+    meaningVi:
+      "Sự giải thoát về mặt tâm trí; phương thức giải tỏa căng thẳng bằng cách tạm quên đi thực tại.",
+    exampleEn:
+      "For many developers, working on a side project is a healthy mental escape from their daily corporate tasks. / Reading a novel provides a perfect mental escape from the fast-paced world.",
+    exampleVi:
+      "Với nhiều lập trình viên, làm một dự án cá nhân là một cách giải thoát tâm trí lành mạnh khỏi các tác vụ công sở hàng ngày. / Đọc một cuốn tiểu thuyết mang lại sự giải tỏa tâm trí hoàn hảo khỏi thế giới nhịp độ nhanh.",
+    categories: ["Psychology", "General"],
   },
   {
     word: "Mention",
@@ -1265,6 +1296,35 @@ export const M1: VocabularyWord[] = [
     exampleEn: "It might work.",
     exampleVi: "Nó có thể hoạt động.",
     categories: ["General"],
+  },
+  {
+    word: "Migrate",
+    slug: "migrate",
+    phonetic: "/maɪˈɡreɪt/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To move from one region or habitat to another; (Computing) to move from one operating environment or database to another.",
+    meaningVi:
+      "Di cư, di trú; (Công nghệ) chuyển đổi dữ liệu, di trú hệ thống/cơ sở dữ liệu.",
+    exampleEn:
+      "We plan to migrate our local vector database to a cloud-based service for better scalability. / Thousands of birds migrate south for the winter.",
+    exampleVi:
+      "Chúng tôi dự định chuyển đổi cơ sở dữ liệu vector cục bộ sang dịch vụ đám mây để mở rộng tốt hơn. / Hàng ngàn con chim di cư về phương nam để tránh đông.",
+    categories: ["Technology", "Science", "Business"],
+  },
+  {
+    word: "Migration",
+    slug: "migration",
+    phonetic: "/maɪˈɡreɪ.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The process of moving from one place to another; the process of moving data or software from one system or platform to another.",
+    meaningVi: "Sự di trú, sự chuyển đổi hệ thống/dữ liệu.",
+    exampleEn:
+      "The database migration took longer than expected due to the large volume of PDF data. / The migration of birds is a fascinating natural phenomenon.",
+    exampleVi:
+      "Quá trình chuyển đổi cơ sở dữ liệu mất nhiều thời gian hơn dự kiến do khối lượng dữ liệu PDF lớn. / Sự di cư của loài chim là một hiện tượng tự nhiên kỳ thú.",
+    categories: ["Technology", "Science", "Business"],
   },
   {
     word: "Mile",

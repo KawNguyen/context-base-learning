@@ -158,6 +158,20 @@ export const D12: VocabularyWord[] = [
     categories: ["General", "Technology", "Social"],
   },
   {
+    word: "Disconnect from",
+    slug: "disconnect-from",
+    phonetic: "/ˌdɪs.kəˈnekt frɒm/",
+    partOfSpeech: "verb phrase",
+    meaningEn:
+      "To break a connection between two things; to stop being involved with or interested in something.",
+    meaningVi: "Ngắt kết nối khỏi; tách rời khỏi; ngừng liên quan đến.",
+    exampleEn:
+      "Remember to disconnect from the database before closing the application. / In this fast-paced world, people often need to disconnect from social media to recharge.",
+    exampleVi:
+      "Hãy nhớ ngắt kết nối khỏi cơ sở dữ liệu trước khi đóng ứng dụng. / Trong thế giới nhịp độ nhanh này, mọi người thường cần tạm rời xa mạng xã hội để nạp lại năng lượng.",
+    categories: ["Technology", "Psychology", "General"],
+  },
+  {
     word: "Disconnected",
     slug: "disconnected",
     phonetic: "/ˌdɪs.kəˈnek.tɪd/",

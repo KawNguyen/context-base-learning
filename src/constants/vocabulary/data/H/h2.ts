@@ -1234,6 +1234,20 @@ export const H2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Humor",
+    slug: "humor",
+    phonetic: "/ˈhjuː.mɚ/",
+    partOfSpeech: "noun, verb",
+    meaningEn:
+      "The quality of being amusing or comic; the ability to express or perceive things that are funny.",
+    meaningVi: "Sự hài hước, tính hài hước; khả năng gây cười.",
+    exampleEn:
+      "The teacher uses humor to make the technical lessons more engaging. / You need a good sense of humor to handle stressful deadlines.",
+    exampleVi:
+      "Giáo viên sử dụng sự hài hước để làm cho các bài học kỹ thuật trở nên hấp dẫn hơn. / Bạn cần có khiếu hài hước tốt để đối phó với những thời hạn (deadline) căng thẳng.",
+    categories: ["General", "Psychology", "Entertainment"],
+  },
+  {
     word: "Humanity",
     slug: "humanity",
     phonetic: "/hjuːˈmæn.ə.ti/",

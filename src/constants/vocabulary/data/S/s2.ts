@@ -326,6 +326,48 @@ export const S2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
+    word: "Simplicity",
+    slug: "simplicity",
+    phonetic: "/sɪmˈplɪs.ə.t̬i/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The quality or condition of being easy to understand or do; the quality of being plain and unfussy.",
+    meaningVi: "Sự đơn giản, tính đơn giản, sự thuần khiết (không rắc rối).",
+    exampleEn:
+      "The beauty of this RAG architecture lies in its simplicity. / We aim for simplicity in the quiz interface to help students focus on learning.",
+    exampleVi:
+      "Vẻ đẹp của kiến trúc RAG này nằm ở sự đơn giản của nó. / Chúng tôi hướng tới sự đơn giản trong giao diện bài kiểm tra để giúp học sinh tập trung vào việc học.",
+    categories: ["Design", "Technology", "General", "Philosophy"],
+  },
+  {
+    word: "Simpler",
+    slug: "simpler",
+    phonetic: "/ˈsɪm.plɚ/",
+    partOfSpeech: "adjective (comparative)",
+    meaningEn:
+      "Easier to understand, do, or use; less complicated than something else.",
+    meaningVi: "Đơn giản hơn, dễ dàng hơn.",
+    exampleEn:
+      "We modified the code to make it simpler and faster to execute. / Using a JSON format is much simpler than parsing raw text with complex Regex.",
+    exampleVi:
+      "Chúng tôi đã sửa đổi mã nguồn để làm cho nó đơn giản hơn và thực thi nhanh hơn. / Sử dụng định dạng JSON đơn giản hơn nhiều so với việc phân tích văn bản thô bằng Regex phức tạp.",
+    categories: ["General", "Technology", "Education"],
+  },
+  {
+    word: "Simply",
+    slug: "simply",
+    phonetic: "/ˈsɪm.pli/",
+    partOfSpeech: "adverb",
+    meaningEn:
+      "In a straightforward or easily understandable way; merely; just.",
+    meaningVi: "Một cách đơn giản, dễ dàng; chỉ đơn thuần là.",
+    exampleEn:
+      "The AI can simply summarize long PDFs into a few bullet points. / You can simply restart the app to fix the minor glitch.",
+    exampleVi:
+      "AI có thể tóm tắt các tệp PDF dài thành một vài gạch đầu dòng một cách đơn giản. / Bạn chỉ cần khởi động lại ứng dụng để khắc phục sự cố nhỏ.",
+    categories: ["General", "Education", "Technology"],
+  },
+  {
     word: "Since",
     slug: "since",
     phonetic: "/sɪns/",
@@ -1269,11 +1311,14 @@ export const S2: VocabularyWord[] = [
     slug: "specific",
     phonetic: "/spəˈsɪf.ɪk/",
     partOfSpeech: "adjective",
-    meaningEn: "Clearly defined or identified.",
-    meaningVi: "Cụ thể.",
-    exampleEn: "A specific example.",
-    exampleVi: "Một ví dụ cụ thể.",
-    categories: ["Academic"],
+    meaningEn:
+      "Clearly defined or identified; precise and clear in making statements.",
+    meaningVi: "Cụ thể, rõ ràng, rành mạch; đặc trưng.",
+    exampleEn:
+      "The user provided a specific query about the PDF's second chapter. / You need to specify a specific path for the database file.",
+    exampleVi:
+      "Người dùng đã cung cấp một truy vấn cụ thể về chương thứ hai của tệp PDF. / Bạn cần chỉ định một đường dẫn cụ thể cho tệp cơ sở dữ liệu.",
+    categories: ["General", "Technology", "Science"],
   },
   {
     word: "Speech",

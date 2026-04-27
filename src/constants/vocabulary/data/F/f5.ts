@@ -877,6 +877,19 @@ export const F5: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Frequently",
+    slug: "frequently",
+    phonetic: "/ˈfriː.kwənt.li/",
+    partOfSpeech: "adverb",
+    meaningEn: "Often; many times; at short intervals.",
+    meaningVi: "Thường xuyên, một cách thường xuyên.",
+    exampleEn:
+      "Users frequently ask the chatbot to summarize technical reports. / The drowsiness detection system checks the driver's eye state frequently.",
+    exampleVi:
+      "Người dùng thường xuyên yêu cầu chatbot tóm tắt các báo cáo kỹ thuật. / Hệ thống phát hiện buồn ngủ kiểm tra trạng thái mắt của tài xế một cách thường xuyên.",
+    categories: ["General", "Technology", "Education"],
+  },
+  {
     word: "Fresh",
     slug: "fresh",
     phonetic: "/freʃ/",

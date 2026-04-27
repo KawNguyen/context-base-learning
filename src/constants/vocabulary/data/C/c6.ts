@@ -580,11 +580,14 @@ export const C6: VocabularyWord[] = [
     slug: "closely",
     phonetic: "/ˈkloʊs.li/",
     partOfSpeech: "adverb",
-    meaningEn: "To a great extent; very near.",
-    meaningVi: "Một cách chặt chẽ/Ở gần.",
-    exampleEn: "Watch closely.",
-    exampleVi: "Theo dõi kỹ.",
-    categories: ["General"],
+    meaningEn:
+      "In a way that involves a lot of attention to detail; near in space or time.",
+    meaningVi: "Một cách chặt chẽ, kỹ lưỡng, sát sao.",
+    exampleEn:
+      "The algorithm monitors the driver's eyes closely. / We worked closely with the design team to build the quiz page.",
+    exampleVi:
+      "Thuật toán giám sát đôi mắt của tài xế một cách sát sao. / Chúng tôi đã làm việc chặt chẽ với đội ngũ thiết kế để xây dựng trang trắc nghiệm.",
+    categories: ["General", "Technology", "Business"],
   },
   {
     word: "Closeness",

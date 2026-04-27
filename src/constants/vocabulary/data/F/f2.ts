@@ -24,6 +24,21 @@ export const F2: VocabularyWord[] = [
     categories: ["Entertainment"],
   },
   {
+    word: "Fast-paced world",
+    slug: "fast-paced-world",
+    phonetic: "/ˌfæstˈpeɪst wɝːld/",
+    partOfSpeech: "noun phrase",
+    meaningEn:
+      "A world or environment characterized by rapid change, constant activity, and high pressure to keep up.",
+    meaningVi:
+      "Thế giới với nhịp độ nhanh, môi trường sống đầy hối hả và biến động.",
+    exampleEn:
+      "In today's fast-paced world, developers must constantly update their skills to stay relevant. / Keeping up with AI advancements in this fast-paced world is a major challenge.",
+    exampleVi:
+      "Trong thế giới nhịp độ nhanh ngày nay, các lập trình viên phải liên tục cập nhật kỹ năng để không bị tụt hậu. / Theo kịp những tiến bộ của AI trong thế giới hối hả này là một thách thức lớn.",
+    categories: ["General", "Business", "Technology"],
+  },
+  {
     word: "Fasten",
     slug: "fasten",
     phonetic: "/ˈfæs.ən/",

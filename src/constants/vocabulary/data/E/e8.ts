@@ -610,11 +610,13 @@ export const E8: VocabularyWord[] = [
     slug: "evenly",
     phonetic: "/ˈiː.vən.li/",
     partOfSpeech: "adverb",
-    meaningEn: "In equal numbers, amounts, or values.",
-    meaningVi: "Đều nhau/Bằng nhau.",
-    exampleEn: "Distribute evenly.",
-    exampleVi: "Phân chia đều.",
-    categories: ["General"],
+    meaningEn: "In a continuous or regular way; in equal amounts.",
+    meaningVi: "Một cách đồng đều, bằng phẳng, cân bằng.",
+    exampleEn:
+      "The questions should be evenly distributed among different difficulty levels. / Spread the butter evenly on the bread.",
+    exampleVi:
+      "Các câu hỏi nên được phân bổ đồng đều giữa các mức độ khó khác nhau. / Phết bơ đều lên bánh mì.",
+    categories: ["General", "Mathematics", "Education"],
   },
   {
     word: "Event",

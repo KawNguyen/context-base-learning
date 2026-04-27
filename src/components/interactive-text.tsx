@@ -40,21 +40,19 @@ export function InteractiveText({
               </span>
             </PopoverTrigger>
 
-            <PopoverContent className="w-60 text-sm" side="top">
-              <div className="flex items-center justify-between mb-1">
-                <h4 className="text-base font-semibold">{word.normalized}</h4>
+            <PopoverContent className="w-80 text-sm" side="top">
+              <h4 className="text-base font-semibold">{word.normalized}</h4>
+              <div className="text-sm text-muted-foreground">
+                {word.word?.phonetic}
+              </div>
+              <div className="flex items-center justify-between">
                 <Badge variant={"outline"} className="text-xs">
                   {word.word?.partOfSpeech || "Unknown"}
                 </Badge>
-              </div>
-              <div className="flex items-center justify-between">
-                <div className="text-sm text-muted-foreground">
-                  {word.word?.phonetic}
-                </div>
                 <Button
                   variant="ghost"
                   size="icon"
-                  className="h-8 w-8"
+                  className="h-8 w-8 border-none"
                   onClick={(e) => {
                     e.stopPropagation();
                     pronounceWord(word.normalized);

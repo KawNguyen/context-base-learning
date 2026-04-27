@@ -748,12 +748,16 @@ export const S1: VocabularyWord[] = [
     word: "Sense",
     slug: "sense",
     phonetic: "/sens/",
-    partOfSpeech: "noun",
-    meaningEn: "A faculty of perception.",
-    meaningVi: "Giác quan.",
-    exampleEn: "Common sense.",
-    exampleVi: "Lương thức.",
-    categories: ["General"],
+    partOfSpeech: "noun, verb",
+    meaningEn:
+      "(n) A faculty by which the body perceives external stimuli; a feeling that something is the case; (v) To perceive by a sense or senses; to be vaguely aware of.",
+    meaningVi:
+      "(n) Giác quan; khả năng phán đoán (common sense); ý nghĩa (của từ); (v) Cảm nhận, nhận thấy.",
+    exampleEn:
+      "The system can sense when a driver's eyes are closing. / It makes sense to use a vector database for this RAG project.",
+    exampleVi:
+      "Hệ thống có thể nhận thấy khi mắt tài xế đang nhắm lại. / Việc sử dụng cơ sở dữ liệu vector cho dự án RAG này là điều hợp lý.",
+    categories: ["Technology", "Biology", "Linguistics", "General"],
   },
   {
     word: "Sentence",

@@ -254,4 +254,33 @@ export const CONTRACTIONS: VocabularyWord[] = [
     exampleVi: "Có một con mèo trên mái nhà.",
     categories: ["Grammar", "General"],
   },
+  {
+    word: "Water under the bridge",
+    slug: "water-under-the-bridge",
+    phonetic: "/ˈwɑː.t̬ɚ ˈʌn.dɚ ðə brɪdʒ/",
+    partOfSpeech: "idiom",
+    meaningEn:
+      "Used to refer to past events that are no longer important or cannot be changed, so it is best to forget about them.",
+    meaningVi:
+      "Chuyện cũ đã qua; chuyện đã vào dĩ vãng (không nên lo nghĩ hay tranh cãi về nó nữa).",
+    exampleEn:
+      "We had some serious disagreements last year, but that's all water under the bridge now. / Don't worry about the bug in the previous version; it's water under the bridge.",
+    exampleVi:
+      "Năm ngoái chúng tôi đã có những bất đồng nghiêm trọng, nhưng giờ tất cả đã là quá khứ rồi. / Đừng lo lắng về lỗi trong phiên bản trước; chuyện đó qua rồi.",
+    categories: ["General"],
+  },
+  {
+    word: "Sense of tranquility",
+    slug: "sense-of-tranquility",
+    phonetic: "/sens əv træŋˈkwɪl.ə.t̬i/",
+    partOfSpeech: "noun phrase",
+    meaningEn:
+      "A feeling of calm, peace, and quiet, free from disturbance or anxiety.",
+    meaningVi: "Cảm giác bình yên, sự tĩnh lặng trong tâm hồn.",
+    exampleEn:
+      "The minimalist design of the quiz app gives users a sense of tranquility while studying. / Listening to Lo-fi music while coding creates a sense of tranquility.",
+    exampleVi:
+      "Thiết kế tối giản của ứng dụng trắc nghiệm mang lại cho người dùng cảm giác bình yên khi học. / Nghe nhạc Lo-fi khi lập trình tạo ra một sự tĩnh lặng dễ chịu.",
+    categories: ["General", "Psychology", "Design"],
+  },
 ];

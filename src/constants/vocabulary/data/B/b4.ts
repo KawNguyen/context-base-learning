@@ -844,11 +844,14 @@ export const B4: VocabularyWord[] = [
     slug: "broaden",
     phonetic: "/ˈbrɑː.dən/",
     partOfSpeech: "verb",
-    meaningEn: "Become larger in distance from side to side; widen.",
-    meaningVi: "Mở rộng.",
-    exampleEn: "Broaden your horizons.",
-    exampleVi: "Mở rộng tầm mắt.",
-    categories: ["General", "Education"],
+    meaningEn:
+      "To become wider or to make something wider; to include more parts or people.",
+    meaningVi: "Mở rộng, làm cho rộng ra.",
+    exampleEn:
+      "Traveling broadens the mind and reduces anxiety about the unknown. / This RAG project broadens my understanding of vector databases.",
+    exampleVi:
+      "Đi du lịch giúp mở mang đầu óc và giảm bớt lo âu về những điều chưa biết. / Dự án RAG này mở rộng hiểu biết của tôi về cơ sở dữ liệu vector.",
+    categories: ["General", "Academic"],
   },
   {
     word: "Broadly",

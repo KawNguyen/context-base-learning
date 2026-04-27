@@ -239,6 +239,35 @@ export const P3: VocabularyWord[] = [
     categories: ["Business", "Business"],
   },
   {
+    word: "Prompt",
+    slug: "prompt",
+    phonetic: "/prɑːmpt/",
+    partOfSpeech: "noun, verb, adjective",
+    meaningEn:
+      "(n) A word or symbol on a screen to show that the system is waiting for input; (v) To cause someone to take a course of action; (adj) Done without delay.",
+    meaningVi:
+      "(n) Lời nhắc, câu lệnh (trong AI/Terminal); (v) Thúc đẩy, gợi ý; (adj) Nhanh chóng, tức thời.",
+    exampleEn:
+      "The quality of the AI's response depends heavily on the system prompt. / Your prompt reply to the client's email was appreciated.",
+    exampleVi:
+      "Chất lượng phản hồi của AI phụ thuộc rất nhiều vào câu lệnh hệ thống. / Việc bạn phản hồi nhanh chóng email của khách hàng đã được đánh giá cao.",
+    categories: ["Technology", "Social", "General"],
+  },
+  {
+    word: "Promptly",
+    slug: "promptly",
+    phonetic: "/ˈprɑːmpt.li/",
+    partOfSpeech: "adverb",
+    meaningEn:
+      "With little or no delay; immediately; at the exact time decided.",
+    meaningVi: "Một cách nhanh chóng, ngay tức thì; đúng giờ.",
+    exampleEn:
+      "The chatbot responded promptly to the user's query. / Please arrive promptly at 8 AM for the meeting.",
+    exampleVi:
+      "Chatbot đã phản hồi ngay lập tức câu hỏi của người dùng. / Vui lòng đến đúng 8 giờ sáng để họp.",
+    categories: ["General", "Technology", "Business"],
+  },
+  {
     word: "Pronounce",
     slug: "pronounce",
     phonetic: "/prəˈnaʊns/",

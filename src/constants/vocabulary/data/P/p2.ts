@@ -898,6 +898,21 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Prevalence",
+    slug: "prevalence",
+    phonetic: "/ˈprev.əl.əns/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The fact that something is very common of happens often; the percentage of a population that is affected with a particular condition at a given time.",
+    meaningVi:
+      "Sự phổ biến, sự thịnh hành; tỷ lệ mắc bệnh (trong y học/thống kê).",
+    exampleEn:
+      "The prevalence of AI tools in education has increased rapidly. / Researchers are studying the prevalence of driver fatigue in long-distance trucking.",
+    exampleVi:
+      "Sự phổ biến của các công cụ AI trong giáo dục đã tăng lên nhanh chóng. / Các nhà nghiên cứu đang nghiên cứu tỷ lệ phổ biến của tình trạng mệt mỏi ở tài xế xe tải đường dài.",
+    categories: ["Science", "Business", "Medical", "Technology"],
+  },
+  {
     word: "Prevaricate",
     slug: "prevaricate",
     phonetic: "/prɪˈver.ə.keɪt/",
