@@ -1021,11 +1021,13 @@ export const S2: VocabularyWord[] = [
     slug: "solve",
     phonetic: "/sɑːlv/",
     partOfSpeech: "verb",
-    meaningEn: "Find an answer to.",
-    meaningVi: "Giải quyết.",
-    exampleEn: "Solve the problem.",
-    exampleVi: "Giải quyết vấn đề.",
-    categories: ["General"],
+    meaningEn: "To find an answer to a problem, mystery, or puzzle.",
+    meaningVi: "Giải quyết, tìm lời giải, tháo gỡ.",
+    exampleEn:
+      "The primary motive of this RAG system is to solve the problem of information overload. / Our team is working hard to solve the bugs in the drowsiness detection model.",
+    exampleVi:
+      "Động cơ chính của hệ thống RAG này là để giải quyết vấn đề quá tải thông tin. / Nhóm chúng tôi đang làm việc tích cực để khắc phục các lỗi trong mô hình phát hiện buồn ngủ.",
+    categories: ["Mathematics", "General", "Technology"],
   },
   {
     word: "Somatic",

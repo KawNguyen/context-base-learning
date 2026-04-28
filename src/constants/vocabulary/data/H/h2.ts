@@ -1283,13 +1283,16 @@ export const H2: VocabularyWord[] = [
   {
     word: "Hurdle",
     slug: "hurdle",
-    phonetic: "/ˈhɜːr.dl/",
+    phonetic: "/ˈhɝː.dəl/",
     partOfSpeech: "noun",
-    meaningEn: "A barrier or obstacle to be overcome.",
-    meaningVi: "Rào cản hoặc vật cản cần vượt qua.",
-    exampleEn: "The athlete cleared the hurdle.",
-    exampleVi: "Vận động viên đã vượt qua rào cản.",
-    categories: ["Sports"],
+    meaningEn:
+      "A problem or difficulty that must be overcome; a frame or barrier to be jumped over in a race.",
+    meaningVi: "Rào cản, trở ngại (cần phải vượt qua).",
+    exampleEn:
+      "The final hurdle for our RAG project is optimizing the vector search speed. / Every technical hurdle you cross makes you a better developer.",
+    exampleVi:
+      "Rào cản cuối cùng cho dự án RAG của chúng tôi là tối ưu hóa tốc độ tìm kiếm vector. / Mỗi rào cản kỹ thuật mà bạn vượt qua sẽ giúp bạn trở thành một lập trình viên giỏi hơn.",
+    categories: ["General", "Business", "Sports"],
   },
   {
     word: "Hurry up",

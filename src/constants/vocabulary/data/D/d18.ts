@@ -88,11 +88,13 @@ export const D18: VocabularyWord[] = [
     phonetic: "/ˈdrɑː.bæk/",
     partOfSpeech: "noun",
     meaningEn:
-      "A feature that renders something less acceptable; a disadvantage or problem.",
-    meaningVi: "Trở ngại/Hạn chế/Điểm yếu.",
-    exampleEn: "Main drawback.",
-    exampleVi: "Trở ngại chính.",
-    categories: ["General", "Economics", "Management"],
+      "A disadvantage or the negative part of a situation, plan, or product.",
+    meaningVi: "Mặt hạn chế, khuyết điểm, sự bất lợi.",
+    exampleEn:
+      "One major drawback of the current model is its high memory consumption. / Every technology has its own benefits and drawbacks.",
+    exampleVi:
+      "Một mặt hạn chế lớn của mô hình hiện tại là mức tiêu thụ bộ nhớ cao. / Mỗi công nghệ đều có những lợi ích và khuyết điểm riêng.",
+    categories: ["General", "Technology", "Business"],
   },
   {
     word: "Drawbridge",

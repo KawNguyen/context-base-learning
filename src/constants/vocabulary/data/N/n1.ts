@@ -529,14 +529,16 @@ export const N1: VocabularyWord[] = [
   {
     word: "Navigate",
     slug: "navigate",
-    phonetic: "/ˈnæv.ɪ.ɡeɪt/",
+    phonetic: "/ˈnæv.ə.ɡeɪt/",
     partOfSpeech: "verb",
     meaningEn:
-      "Plan and direct the course of a ship, aircraft, or other form of transportation.",
-    meaningVi: "Định hướng, điều hướng.",
-    exampleEn: "Navigate the ship through the storm.",
-    exampleVi: "Định hướng con tàu qua cơn bão.",
-    categories: ["General"],
+      "To direct the way that a ship, aircraft, etc. will travel; to deal with a difficult situation.",
+    meaningVi: "Điều hướng; xử lý, xoay xở (tình huống khó).",
+    exampleEn:
+      "It takes time to navigate the challenges of building a RAG chatbot.",
+    exampleVi:
+      "Cần thời gian để xoay xở với những thách thức khi xây dựng chatbot RAG.",
+    categories: ["General", "Technology"],
   },
   {
     word: "Navigation",

@@ -293,11 +293,14 @@ export const A1: VocabularyWord[] = [
     slug: "accomplishment",
     phonetic: "/əˈkɑːm.plɪʃ.mənt/",
     partOfSpeech: "noun",
-    meaningEn: "An act of accomplishing something.",
-    meaningVi: "Sự hoàn thành.",
-    exampleEn: "His greatest accomplishment was graduating from college.",
-    exampleVi: "Thành tựu lớn nhất của anh ấy là tốt nghiệp đại học.",
-    categories: ["General"],
+    meaningEn:
+      "Something that is successful, or that is achieved after a lot of work or effort; a skill or special ability.",
+    meaningVi: "Thành tựu, sự hoàn thành, kết quả đạt được.",
+    exampleEn:
+      "Finishing the driver drowsiness detection project was a major accomplishment. / Listing your technical accomplishments on a CV is essential for developers.",
+    exampleVi:
+      "Hoàn thành dự án phát hiện tài xế buồn ngủ là một thành tựu lớn. / Việc liệt kê các thành tựu kỹ thuật vào CV là điều thiết yếu đối với các lập trình viên.",
+    categories: ["General", "Business", "Education"],
   },
   {
     word: "According",

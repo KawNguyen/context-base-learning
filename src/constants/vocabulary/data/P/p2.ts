@@ -413,6 +413,20 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Popularity",
+    slug: "popularity",
+    phonetic: "/ˌpɑː.pjəˈler.ə.t̬i/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The state or condition of being liked, admired, or supported by many people.",
+    meaningVi: "Sự phổ biến, sự nổi tiếng, sự ưa chuộng của công chúng.",
+    exampleEn:
+      "The popularity of Python is due to its simple syntax and versatility. / The app's popularity grew rapidly thanks to its engaging interface.",
+    exampleVi:
+      "Sự phổ biến của Python là do cú pháp đơn giản và tính linh hoạt của nó. / Sự ưa chuộng của ứng dụng đã tăng trưởng nhanh chóng nhờ giao diện lôi cuốn.",
+    categories: ["General", "Social", "Marketing"],
+  },
+  {
     word: "Population",
     slug: "population",
     phonetic: "/ˌpɑː.pjəˈleɪ.ʃən/",
@@ -719,11 +733,14 @@ export const P2: VocabularyWord[] = [
     slug: "preference",
     phonetic: "/ˈpref.ər.əns/",
     partOfSpeech: "noun",
-    meaningEn: "A greater liking for one alternative over another.",
-    meaningVi: "Sở thích.",
-    exampleEn: "Personal preference.",
-    exampleVi: "Sở thích cá nhân.",
-    categories: ["General"],
+    meaningEn:
+      "The fact that you like something or someone more than another thing or person.",
+    meaningVi: "Sự ưu tiên, sự ưa thích hơn, sở thích.",
+    exampleEn:
+      "Do you have a preference for using Pinecone or Milvus for your vector database? / The user can set their preference for the alert sound.",
+    exampleVi:
+      "Bạn có ưu tiên sử dụng Pinecone hay Milvus cho cơ sở dữ liệu vector của mình không? / Người dùng có thể thiết lập sở thích của họ cho âm thanh cảnh báo.",
+    categories: ["General", "Social", "Technology"],
   },
   {
     word: "Pregnant",
@@ -1166,11 +1183,13 @@ export const P2: VocabularyWord[] = [
     phonetic: "/ˈprɑː.bləm/",
     partOfSpeech: "noun",
     meaningEn:
-      "A matter or situation regarded as unwelcome or harmful and needing to be dealt with.",
-    meaningVi: "Vấn đề.",
-    exampleEn: "I have a problem with my car.",
-    exampleVi: "Tôi có vấn đề với chiếc xe của mình.",
-    categories: ["Daily"],
+      "A situation, person, or thing that needs attention and needs to be dealt with or solved; a question in mathematics or logic.",
+    meaningVi: "Vấn đề, bài toán, trở ngại cần giải quyết.",
+    exampleEn:
+      "The main problem was the incorrect regular expression in the JSON cleaner. / Every technical problem is an opportunity to learn.",
+    exampleVi:
+      "Vấn đề chính là biểu thức chính quy không chính xác trong bộ làm sạch JSON. / Mỗi vấn đề kỹ thuật là một cơ hội để học hỏi.",
+    categories: ["General", "Technology", "Mathematics"],
   },
   {
     word: "Problem-solving",

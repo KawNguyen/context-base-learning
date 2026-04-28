@@ -185,13 +185,16 @@ export const D10: VocabularyWord[] = [
   {
     word: "Difficulty",
     slug: "difficulty",
-    phonetic: "/ˈdɪf.ɪ.kʌl.ti/",
+    phonetic: "/ˈdɪf.ə.kəl.ti/",
     partOfSpeech: "noun",
-    meaningEn: "The state or condition of being difficult.",
-    meaningVi: "Khó khăn.",
-    exampleEn: "I have difficulty understanding.",
-    exampleVi: "Tôi gặp khó khăn trong việc hiểu.",
-    categories: ["General"],
+    meaningEn:
+      "The fact of not being easy to do or understand; a problem or something that causes trouble.",
+    meaningVi: "Sự khó khăn, nỗi khó khăn, trở ngại.",
+    exampleEn:
+      "We encountered some difficulty while parsing complex PDF layouts. / She overcame every difficulty with incredible resilience.",
+    exampleVi:
+      "Chúng tôi đã gặp một số khó khăn khi phân tích các bố cục PDF phức tạp. / Cô ấy đã vượt qua mọi khó khăn với một sự kiên cường đáng kinh ngạc.",
+    categories: ["General", "Education", "Technology"],
   },
   {
     word: "Diffidence",

@@ -1231,11 +1231,15 @@ export const W1: VocabularyWord[] = [
     word: "Witnessing",
     slug: "witnessing",
     phonetic: "/ˈwɪt.nəs.ɪŋ/",
-    partOfSpeech: "verb",
-    meaningEn: "To see something happen, especially a crime or accident.",
-    meaningVi: "Làm nhân chứng cho điều gì đó.",
-    exampleEn: "I witnessed the accident.",
-    exampleVi: "Tôi đã làm nhân chứng cho vụ tai nạn đó.",
-    categories: ["Law", "People"],
+    partOfSpeech: "verb (present participle), noun",
+    meaningEn:
+      "The act of seeing an event, typically a crime or accident, happen; experiencing a significant change or development.",
+    meaningVi:
+      "Sự chứng kiến, việc trực tiếp nhìn thấy (một sự kiện, sự thay đổi hoặc quá trình).",
+    exampleEn:
+      "Witnessing the rapid growth of AI has inspired me to build this RAG system. / We are witnessing a major shift in how students learn English.",
+    exampleVi:
+      "Chứng kiến sự phát triển nhanh chóng của AI đã truyền cảm hứng cho tôi xây dựng hệ thống RAG này. / Chúng ta đang chứng kiến một sự thay đổi lớn trong cách học sinh học tiếng Anh.",
+    categories: ["General", "Academic", "Technology"],
   },
 ];

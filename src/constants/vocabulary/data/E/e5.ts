@@ -1064,11 +1064,15 @@ export const E5: VocabularyWord[] = [
     slug: "engage",
     phonetic: "/ɪnˈɡeɪdʒ/",
     partOfSpeech: "verb",
-    meaningEn: "Occupy or attract someone's interest.",
-    meaningVi: "Thu hút.",
-    exampleEn: "Engage the audience.",
-    exampleVi: "Thu hút khán giả.",
-    categories: ["General"],
+    meaningEn:
+      "To participate or become involved in something; to attract or keep someone's interest; to employ someone.",
+    meaningVi:
+      "Tham gia; thu hút (sự chú ý); thuê (nhân viên); đính hôn; khởi động (máy móc).",
+    exampleEn:
+      "The chatbot is designed to engage users in natural conversations. / You need to engage the parking brake before leaving the car.",
+    exampleVi:
+      "Chatbot được thiết kế để lôi cuốn người dùng vào các cuộc hội thoại tự nhiên. / Bạn cần cài phanh tay trước khi rời khỏi xe.",
+    categories: ["General", "Business", "Technology"],
   },
   {
     word: "Engaged",
@@ -1096,13 +1100,17 @@ export const E5: VocabularyWord[] = [
   {
     word: "Engaging",
     slug: "engaging",
-    phonetic: "/ɪnˈɡeɪ.dʒɪŋ/",
     partOfSpeech: "adjective",
-    meaningEn: "Charming and attractive.",
-    meaningVi: "Lôi cuốn/Hấp dẫn.",
-    exampleEn: "An engaging smile.",
-    exampleVi: "Nụ cười lôi cuốn.",
-    categories: ["General", "Psychology"],
+    phonetic: "/ɪnˈɡeɪ.dʒɪŋ/",
+    meaningEn:
+      "Pleasant, attractive, and charming; causing people to become involved in something.",
+    meaningVi:
+      "Lôi cuốn, hấp dẫn, thú vị (khiến người khác muốn tham gia vào).",
+    exampleEn:
+      "The interactive quiz design is very engaging for young learners. / We need to create engaging content to increase user retention.",
+    exampleVi:
+      "Thiết kế bài trắc nghiệm tương tác rất lôi cuốn đối với người học trẻ tuổi. / Chúng ta cần tạo ra nội dung hấp dẫn để tăng tỷ lệ giữ chân người dùng.",
+    categories: ["General", "Education", "Marketing"],
   },
   {
     word: "Engagingly",
@@ -1115,6 +1123,22 @@ export const E5: VocabularyWord[] = [
     exampleVi: "Nói chuyện một cách lôi cuốn.",
     categories: ["General"],
   },
+  {
+    word: "Engage with",
+    slug: "engage-with",
+    phonetic: "/ɪnˈɡeɪdʒ wɪð/",
+    partOfSpeech: "phrasal verb",
+    meaningEn:
+      "To communicate with someone; to interest someone and keep them thinking about something; to interact with a system or an idea.",
+    meaningVi:
+      "Tương tác với, kết nối với, tiếp cận với (một đối tượng hoặc ý tưởng).",
+    exampleEn:
+      "The new interface makes it easier for users to engage with the data. / It's important to engage with different perspectives to broaden your mind.",
+    exampleVi:
+      "Giao diện mới giúp người dùng dễ dàng tương tác với dữ liệu hơn. / Việc tiếp cận với các quan điểm khác nhau là rất quan trọng để mở mang đầu óc.",
+    categories: ["Technology", "Social"],
+  },
+
   {
     word: "Engender",
     slug: "engender",

@@ -1073,13 +1073,16 @@ export const D1: VocabularyWord[] = [
   {
     word: "Daunting",
     slug: "daunting",
-    phonetic: "/ˈdɔːntɪŋ/",
+    phonetic: "/ˈdɑːn.t̬ɪŋ/",
     partOfSpeech: "adjective",
-    meaningEn: "Intimidating; causing fear or apprehension.",
-    meaningVi: "Gây sợ hãi/Gây nản lòng.",
-    exampleEn: "A daunting task.",
-    exampleVi: "Một nhiệm vụ đáng sợ.",
-    categories: ["Psychology", "General"],
+    meaningEn:
+      "Making you feel slightly frightened or worried about your ability to achieve something.",
+    meaningVi: "Thách thức, gây nản chí, làm cho lo sợ (vì quá khó).",
+    exampleEn:
+      "Building a driver drowsiness detection system from scratch can be daunting. / Learning thousands of new words might seem daunting at first.",
+    exampleVi:
+      "Xây dựng một hệ thống phát hiện tài xế buồn ngủ từ con số không có thể gây nản chí. / Việc học hàng ngàn từ mới ban đầu có vẻ rất thách thức.",
+    categories: ["General", "Business"],
   },
   {
     word: "Dauntless",

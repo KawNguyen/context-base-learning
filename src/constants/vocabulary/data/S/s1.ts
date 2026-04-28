@@ -37,14 +37,29 @@ export const S1: VocabularyWord[] = [
   {
     word: "Safety",
     slug: "safety",
-    phonetic: "/ˈseɪf.ti/",
+    phonetic: "/ˈseɪf.t̬i/",
     partOfSpeech: "noun",
-    meaningEn:
-      "The condition of being protected from or unlikely to cause danger, risk, or injury.",
+    meaningEn: "The state of being safe and not in danger or at risk.",
     meaningVi: "Sự an toàn.",
-    exampleEn: "Safety first.",
-    exampleVi: "An toàn là trên hết.",
-    categories: ["Daily"],
+    exampleEn:
+      "Safety is the top priority in our driver drowsiness detection project.",
+    exampleVi:
+      "Sự an toàn là ưu tiên hàng đầu trong dự án phát hiện buồn ngủ của chúng tôi.",
+    categories: ["Safety", "General"],
+  },
+  {
+    word: "Safety net",
+    slug: "safety-net",
+    phonetic: "/ˈseɪf.t̬i ˌnet/",
+    partOfSpeech: "noun phrase",
+    meaningEn:
+      "A plan or system that is designed to help if something goes wrong.",
+    meaningVi:
+      "Lưới an toàn, kế hoạch dự phòng; chỗ dựa, sự bảo vệ (từ một hoặc nhiều người).",
+    exampleEn: "Unit tests act as a safety net when refactoring complex code.",
+    exampleVi:
+      "Unit test hoạt động như một lưới an toàn khi tái cấu trúc code phức tạp.",
+    categories: ["Business", "Technology", "General"],
   },
   {
     word: "Sagacious",
@@ -668,14 +683,16 @@ export const S1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    word: "Self-confident",
-    slug: "self-confident",
-    phonetic: "/self ˈkɒnfɪdənt/",
-    partOfSpeech: "adjective",
-    meaningEn: "Having confidence in oneself.",
-    meaningVi: "Tự tin.",
-    exampleEn: "She is self-confident.",
-    exampleVi: "Cô ấy tự tin.",
+    word: "Self-confidence",
+    slug: "self-confidence",
+    phonetic: "/ˌselfˈkɑːn.fə.dəns/",
+    partOfSpeech: "noun",
+    meaningEn: "The belief in one's own ability or value.",
+    meaningVi: "Sự tự tin (tin tưởng) vào bản thân.",
+    exampleEn:
+      "Success in small projects builds self-confidence for larger challenges.",
+    exampleVi:
+      "Thành công trong các dự án nhỏ xây dựng sự tự tin cho những thử thách lớn hơn.",
     categories: ["Psychology", "General"],
   },
   {

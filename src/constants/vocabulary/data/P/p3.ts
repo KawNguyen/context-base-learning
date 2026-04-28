@@ -145,11 +145,14 @@ export const P3: VocabularyWord[] = [
     slug: "profound",
     phonetic: "/prəˈfaʊnd/",
     partOfSpeech: "adjective",
-    meaningEn: "Very great or intense.",
-    meaningVi: "Sâu sắc, uyên thâm.",
-    exampleEn: "Profound impact.",
-    exampleVi: "Tác động sâu sắc.",
-    categories: ["General"],
+    meaningEn:
+      "Felt or experienced very strongly; showing a clear and deep understanding of serious matters.",
+    meaningVi: "Sâu sắc, uyên thâm, có ảnh hưởng sâu rộng.",
+    exampleEn:
+      "The impact of AI on the transportation industry is profound. / He has a profound knowledge of vector databases.",
+    exampleVi:
+      "Tác động của AI đối với ngành vận tải là rất sâu sắc. / Anh ấy có một kiến thức uyên thâm về cơ sở dữ liệu vector.",
+    categories: ["Academic", "Technology"],
   },
   {
     word: "Prognosis",

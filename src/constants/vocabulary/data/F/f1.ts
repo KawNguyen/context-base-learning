@@ -928,12 +928,14 @@ export const F1: VocabularyWord[] = [
     word: "Far",
     slug: "far",
     phonetic: "/fɑːr/",
-    partOfSpeech: "adverb/adjective",
-    meaningEn: "At, to, or by a great distance.",
-    meaningVi: "Xa.",
-    exampleEn: "How far is it?",
-    exampleVi: "Nó cách bao xa?",
-    categories: ["General"],
+    partOfSpeech: "adverb, adjective",
+    meaningEn: "To a great degree; very much (when used for emphasis).",
+    meaningVi: "Xa, vượt xa, rất nhiều (dùng để nhấn mạnh).",
+    exampleEn:
+      "This version is far more engaging than the previous one. / The potential of AI is far reaching.",
+    exampleVi:
+      "Phiên bản này lôi cuốn hơn rất nhiều so với phiên bản trước. / Tiềm năng của AI là cực kỳ sâu rộng.",
+    categories: ["General", "Technology"],
   },
   {
     word: "Far-fetched",

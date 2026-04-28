@@ -612,13 +612,16 @@ export const T2: VocabularyWord[] = [
   {
     word: "Transportation",
     slug: "transportation",
-    phonetic: "/ˈtræn.spɔːrt/",
-    partOfSpeech: "noun/verb",
-    meaningEn: "The action of carrying goods or people.",
-    meaningVi: "Vận tải.",
-    exampleEn: "Public transport.",
-    exampleVi: "Giao thông công cộng.",
-    categories: ["General", "Travel"],
+    phonetic: "/ˌtræn.spɚˈteɪ.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The movement of people or goods from one place to another; a system of vehicles, such as buses, trains, etc.",
+    meaningVi: "Giao thông vận tải, sự vận chuyển, hệ thống vận tải.",
+    exampleEn:
+      "Public transportation is essential for reducing city traffic. / Our driver drowsiness detection system aims to improve safety in the transportation industry.",
+    exampleVi:
+      "Giao thông công cộng là thiết yếu để giảm thiểu tắc đường trong thành phố. / Hệ thống phát hiện tài xế buồn ngủ của chúng tôi nhằm mục đích cải thiện sự an toàn trong ngành vận tải.",
+    categories: ["Transportation", "General"],
   },
   {
     word: "Trap",

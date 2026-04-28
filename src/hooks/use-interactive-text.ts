@@ -81,6 +81,13 @@ export function useInteractiveText(text: string) {
 
           const candidateSlugs = [candidate1, candidate2, candidate3];
 
+          // Add candidate where the first word might have dropped 'e' (e.g. engaging -> engag -> engage)
+          if (!lemmatizedWords[0]?.endsWith("e")) {
+            candidateSlugs.push(
+              [lemmatizedWords[0] + "e", ...lemmatizedWords.slice(1)].join("-"),
+            );
+          }
+
           const match = AllVocabData.find((vocab) =>
             candidateSlugs.includes(vocab.slug),
           );

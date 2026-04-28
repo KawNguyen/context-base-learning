@@ -557,23 +557,28 @@ export const O1: VocabularyWord[] = [
     word: "Occasional",
     slug: "occasional",
     phonetic: "/əˈkeɪ.ʒən.əl/",
-    partOfSpeech: "noun",
-    meaningEn: "Occurring, appearing, or done infrequently and irregularly.",
-    meaningVi: "Thỉnh thoảng.",
-    exampleEn: "She explained the concept of occasional to the class.",
-    exampleVi: "Cô ấy đã giải thích khái niệm occasional cho cả lớp.",
-    categories: ["General"],
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Happening or done sometimes but not often; not regular or frequent.",
+    meaningVi: "Thỉnh thoảng, không thường xuyên, đôi khi.",
+    exampleEn:
+      "The system might experience occasional delays during peak hours. / I enjoy an occasional trip to the beach to relax my mind.",
+    exampleVi:
+      "Hệ thống có thể gặp phải những sự chậm trễ thỉnh thoảng trong giờ cao điểm. / Tôi thích thỉnh thoảng đi biển để thư giãn đầu óc.",
+    categories: ["General", "Time", "Technology"],
   },
   {
     word: "Occasionally",
     slug: "occasionally",
     phonetic: "/əˈkeɪ.ʒən.əl.i/",
-    partOfSpeech: "noun",
-    meaningEn: "At infrequent or irregular intervals; now and then.",
-    meaningVi: "Thỉnh thoảng.",
-    exampleEn: "She explained the concept of occasionally to the class.",
-    exampleVi: "Cô ấy đã giải thích khái niệm occasionally cho cả lớp.",
-    categories: ["General"],
+    partOfSpeech: "adverb",
+    meaningEn: "Sometimes but not often; at infrequent intervals.",
+    meaningVi: "Thỉnh thoảng, đôi khi, dăm ba khi.",
+    exampleEn:
+      "Occasionally, the PDF parser fails to recognize complex tables. / I occasionally check the database logs to ensure everything is running smoothly.",
+    exampleVi:
+      "Thỉnh thoảng, bộ phân tích cú pháp PDF không nhận diện được các bảng phức tạp. / Tôi thỉnh thoảng kiểm tra nhật ký cơ sở dữ liệu để đảm bảo mọi thứ đang vận hành trôi chảy.",
+    categories: ["General", "Time", "Technology"],
   },
   {
     word: "Occlude",

@@ -164,13 +164,15 @@ export const I2: VocabularyWord[] = [
   {
     word: "Inherently",
     slug: "inherently",
-    phonetic: "/ɪnˈhɪr.ənt.li/",
+    phonetic: "/ɪnˈher.ənt.li/",
     partOfSpeech: "adverb",
-    meaningEn: "In a way that is permanent, essential, or characteristic.",
-    meaningVi: "Một cách vốn có, cố hữu.",
-    exampleEn: "Inherently dangerous activities.",
-    exampleVi: "Các hoạt động vốn dĩ nguy hiểm.",
-    categories: ["Academic"],
+    meaningEn: "In a way that exists as a natural or basic part of something.",
+    meaningVi: "Vốn dĩ, về bản chất, tự thân nó đã là.",
+    exampleEn:
+      "AI systems are inherently dependent on the quality of the training data. / Developing software is inherently complex.",
+    exampleVi:
+      "Các hệ thống AI vốn dĩ phụ thuộc vào chất lượng của dữ liệu huấn luyện. / Phát triển phần mềm vốn dĩ đã phức tạp.",
+    categories: ["General", "Technology"],
   },
   {
     word: "Inherit",

@@ -696,11 +696,14 @@ export const M1: VocabularyWord[] = [
     slug: "meaningful",
     phonetic: "/ˈmiː.nɪŋ.fəl/",
     partOfSpeech: "adjective",
-    meaningEn: "Having meaning or significance.",
-    meaningVi: "Có ý nghĩa.",
-    exampleEn: "A meaningful conversation.",
-    exampleVi: "Một cuộc trò chuyện có ý nghĩa.",
-    categories: ["General"],
+    meaningEn:
+      "Useful, serious, or important; intended to communicate something without using words.",
+    meaningVi: "Có ý nghĩa, đầy ý nghĩa, quan trọng.",
+    exampleEn:
+      "The chatbot provides meaningful insights from complex PDF data. / We want to build a meaningful connection with our users through better design.",
+    exampleVi:
+      "Chatbot cung cấp những hiểu biết có ý nghĩa từ dữ liệu PDF phức tạp. / Chúng tôi muốn xây dựng một kết nối đầy ý nghĩa với người dùng thông qua thiết kế tốt hơn.",
+    categories: ["General", "Academic", "Psychology"],
   },
   {
     word: "Means",

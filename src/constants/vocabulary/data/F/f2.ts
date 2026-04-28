@@ -631,12 +631,16 @@ export const F2: VocabularyWord[] = [
     word: "Fellow",
     slug: "fellow",
     phonetic: "/ˈfel.oʊ/",
-    partOfSpeech: "noun/adjective",
-    meaningEn: "A man or boy.",
-    meaningVi: "Anh chàng/Đồng nghiệp.",
-    exampleEn: "Nice fellow.",
-    exampleVi: "Anh chàng tốt bụng.",
-    categories: ["General"],
+    partOfSpeech: "noun, adjective",
+    meaningEn:
+      "Used to describe people who belong to the same group or class or who share a situation or experience; a person that you work with or that is like you.",
+    meaningVi:
+      "Bạn đồng hành, đồng nghiệp, người cùng cảnh ngộ; (adj) cùng hội cùng thuyền.",
+    exampleEn:
+      "I discussed the PDF chatbot architecture with my fellow developers. / We should support our fellow students during the exam season.",
+    exampleVi:
+      "Tôi đã thảo luận về kiến trúc chatbot PDF với các bạn đồng nghiệp lập trình viên của mình. / Chúng ta nên hỗ trợ những người bạn học của mình trong mùa thi cử.",
+    categories: ["Social", "Business", "Academic"],
   },
   {
     word: "Fellowship",

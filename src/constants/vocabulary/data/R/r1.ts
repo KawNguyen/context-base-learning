@@ -612,11 +612,14 @@ export const R1: VocabularyWord[] = [
     slug: "refer",
     phonetic: "/rɪˈfɜːr/",
     partOfSpeech: "verb",
-    meaningEn: "Mention or allude to.",
-    meaningVi: "Tham khảo.",
-    exampleEn: "Refer to the manual.",
-    exampleVi: "Tham khảo hướng dẫn.",
-    categories: ["General"],
+    meaningEn:
+      "To mention or speak about someone or something; to look at a source of information for help.",
+    meaningVi: "Tham chiếu, ám chỉ, nhắc đến, xem tài liệu tham khảo.",
+    exampleEn:
+      "Please refer to the documentation for the database schema. / The term 'LLM' refers to Large Language Models.",
+    exampleVi:
+      "Vui lòng tham khảo tài liệu để biết sơ đồ cơ sở dữ liệu. / Thuật ngữ 'LLM' dùng để chỉ các Mô hình Ngôn ngữ Lớn.",
+    categories: ["General", "Academic", "Technology"],
   },
   {
     word: "Reflect",
@@ -1281,12 +1284,15 @@ export const R1: VocabularyWord[] = [
     slug: "resilience",
     phonetic: "/rɪˈzɪl.jəns/",
     partOfSpeech: "noun",
-    meaningEn: "The capacity to recover quickly from difficulties; toughness.",
-    meaningVi: "Sự kiên cường/Tính đàn hồi.",
-    exampleEn: "She showed great resilience in overcoming her injury.",
+    meaningEn:
+      "The capacity to recover quickly from difficulties; toughness; the ability of a substance or object to spring back into shape.",
+    meaningVi:
+      "Khả năng phục hồi, sự kiên cường, tính đàn hồi, khả năng thích nghi.",
+    exampleEn:
+      "The resilience of the local economy after the crisis was impressive. / Building a startup requires a lot of mental resilience.",
     exampleVi:
-      "Cô ấy đã thể hiện sự kiên cường tuyệt vời trong việc vượt qua chấn thương.",
-    categories: ["General"],
+      "Khả năng phục hồi của nền kinh tế địa phương sau cuộc khủng hoảng rất ấn tượng. / Xây dựng một khởi nghiệp đòi hỏi rất nhiều sự kiên cường về mặt tinh thần.",
+    categories: ["Psychology", "General", "Engineering"],
   },
   {
     word: "Resist",

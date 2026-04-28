@@ -791,10 +791,12 @@ export const A2: VocabularyWord[] = [
     slug: "also",
     phonetic: "/ˈɑːl.soʊ/",
     partOfSpeech: "adverb",
-    meaningEn: "In addition; too.",
-    meaningVi: "Cũng vậy.",
-    exampleEn: "Me also.",
-    exampleVi: "Tôi cũng vậy.",
+    meaningEn: "In addition; too; used to add a new fact or a new reason.",
+    meaningVi: "Cũng, ngoài ra, cũng như vậy.",
+    exampleEn:
+      "The system detects eye closure; it also monitors head position. / He is a skilled developer and also a talented designer.",
+    exampleVi:
+      "Hệ thống phát hiện việc nhắm mắt; nó cũng giám sát cả vị trí của đầu. / Anh ấy là một lập trình viên giỏi và cũng là một nhà thiết kế tài năng.",
     categories: ["General"],
   },
   {

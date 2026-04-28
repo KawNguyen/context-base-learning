@@ -763,12 +763,14 @@ export const U1: VocabularyWord[] = [
     word: "Unexpected",
     slug: "unexpected",
     phonetic: "/ˌʌn.ɪkˈspek.tɪd/",
-    partOfSpeech: "noun",
-    meaningEn: "Not expected or anticipated.",
-    meaningVi: "Bất ngờ.",
-    exampleEn: "An unexpected visitor arrived at the door late at night.",
-    exampleVi: "Một vị khách bất ngờ đã đến cửa vào lúc đêm muộn.",
-    categories: ["General"],
+    partOfSpeech: "adjective",
+    meaningEn: "Not expected; happening without warning.",
+    meaningVi: "Bất ngờ, đột ngột, ngoài dự kiến.",
+    exampleEn:
+      "The system crashed due to an unexpected input format in the PDF. / Sometimes, an unexpected mental escape can lead to a great design idea.",
+    exampleVi:
+      "Hệ thống bị treo do một định dạng đầu vào bất ngờ trong tệp PDF. / Đôi khi, một sự giải thoát tâm trí bất ngờ có thể dẫn đến một ý tưởng thiết kế tuyệt vời.",
+    categories: ["General", "Technology"],
   },
   {
     word: "Unfamiliar",

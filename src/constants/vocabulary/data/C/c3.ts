@@ -414,12 +414,15 @@ export const C3: VocabularyWord[] = [
     word: "Challenge",
     slug: "challenge",
     phonetic: "/ˈtʃæl.ɪndʒ/",
-    partOfSpeech: "noun/verb",
-    meaningEn: "A task or situation that tests someone's abilities.",
-    meaningVi: "Thử thách.",
-    exampleEn: "Life is full of challenges.",
-    exampleVi: "Cuộc sống đầy rẫy những thử thách.",
-    categories: ["Daily"],
+    partOfSpeech: "noun, verb",
+    meaningEn:
+      "Something that needs great mental or physical effort in order to be done successfully and therefore tests a person's ability.",
+    meaningVi: "Thử thách, lời thách thức; (v) thách thức.",
+    exampleEn:
+      "Optimizing the AI model for low-end hardware was a huge challenge. / I love to challenge myself with new programming languages.",
+    exampleVi:
+      "Tối ưu hóa mô hình AI cho phần cứng cấu hình thấp là một thử thách lớn. / Tôi thích tự thách thức bản thân với những ngôn ngữ lập trình mới.",
+    categories: ["General", "Business", "Sports"],
   },
   {
     word: "Challenger",

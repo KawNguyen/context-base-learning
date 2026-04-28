@@ -341,13 +341,15 @@ export const O2: VocabularyWord[] = [
   {
     word: "Outweigh",
     slug: "outweigh",
-    phonetic: "/aʊtˈweɪ/",
+    phonetic: "/ˌaʊtˈweɪ/",
     partOfSpeech: "verb",
-    meaningEn: "Be heavier than.",
-    meaningVi: "Nặng hơn.",
-    exampleEn: "The benefits outweigh the risks.",
-    exampleVi: "Lợi ích nặng hơn rủi ro.",
-    categories: ["General"],
+    meaningEn: "To be greater or more important than something else.",
+    meaningVi: "Lớn hơn, có nhiều tác dụng/ảnh hưởng hơn, giá trị hơn.",
+    exampleEn:
+      "The benefits of this RAG system far outweigh the initial development costs. / The advantages of using AI in transportation outweigh the technical challenges.",
+    exampleVi:
+      "Lợi ích của hệ thống RAG này vượt xa chi phí phát triển ban đầu. / Những lợi thế của việc sử dụng AI trong vận tải lớn hơn các thách thức kỹ thuật.",
+    categories: ["General", "Business", "Academic"],
   },
   {
     word: "Oven",

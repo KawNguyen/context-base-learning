@@ -1281,11 +1281,14 @@ export const I1: VocabularyWord[] = [
     slug: "incredible",
     phonetic: "/ɪnˈkred.ə.bəl/",
     partOfSpeech: "adjective",
-    meaningEn: "Impossible to believe; extraordinary.",
-    meaningVi: "Không thể tin được.",
-    exampleEn: "An incredible story.",
-    exampleVi: "Một câu chuyện không thể tin được.",
-    categories: ["General"],
+    meaningEn:
+      "Impossible, or very difficult, to believe; extremely good, large, or great.",
+    meaningVi: "Đáng kinh ngạc, tuyệt vời, không thể tin được.",
+    exampleEn:
+      "The speed of the RAG system in retrieving data is incredible. / It's incredible how much your self-confidence grows after solving a complex bug.",
+    exampleVi:
+      "Tốc độ truy xuất dữ liệu của hệ thống RAG thật đáng kinh ngạc. / Thật không thể tin được sự tự tin của bạn tăng lên bao nhiêu sau khi giải quyết được một lỗi phức tạp.",
+    categories: ["General", "Technology"],
   },
   {
     word: "Indeed",
@@ -1325,11 +1328,14 @@ export const I1: VocabularyWord[] = [
     slug: "independently",
     phonetic: "/ˌɪn.dɪˈpen.dənt.li/",
     partOfSpeech: "adverb",
-    meaningEn: "Without outside control; on one's own.",
-    meaningVi: "Một cách độc lập.",
-    exampleEn: "She lives independently.",
-    exampleVi: "Cô ấy sống một cách độc lập.",
-    categories: ["General"],
+    meaningEn:
+      "Without being influenced or helped by any other person or thing.",
+    meaningVi: "Một cách độc lập, tự chủ.",
+    exampleEn:
+      "The AI agent can perform tasks independently without human intervention. / He developed the entire PDF chatbot independently.",
+    exampleVi:
+      "AI agent có thể thực hiện các nhiệm vụ một cách độc lập mà không cần sự can thiệp của con người. / Anh ấy đã phát triển toàn bộ chatbot PDF một cách độc lập.",
+    categories: ["General", "Technology", "Business"],
   },
   {
     word: "Indicate",
