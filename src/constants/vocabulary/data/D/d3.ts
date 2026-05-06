@@ -1091,12 +1091,15 @@ export const D3: VocabularyWord[] = [
     word: "Deep",
     slug: "deep",
     phonetic: "/diːp/",
-    partOfSpeech: "adjective",
-    meaningEn: "Extending far down from the top or surface.",
-    meaningVi: "Sâu.",
-    exampleEn: "The water is deep.",
-    exampleVi: "Nước rất sâu.",
-    categories: ["General"],
+    partOfSpeech: "adjective, adverb",
+    meaningEn:
+      "Extending far down from the top or surface; intense or extreme; requiring much thought to understand.",
+    meaningVi: "Sâu, sâu sắc, cực kỳ, khó hiểu (đòi hỏi tư duy nhiều).",
+    exampleEn:
+      "Deep Learning models are essential for driver drowsiness detection. / He has a deep understanding of RAG-based systems.",
+    exampleVi:
+      "Các mô hình Học sâu là thiết yếu cho việc phát hiện tài xế buồn ngủ. / Anh ấy có một sự hiểu biết sâu sắc về các hệ thống dựa trên RAG.",
+    categories: ["General", "Technology", "Psychology", "Science"],
   },
   {
     word: "Deepen",

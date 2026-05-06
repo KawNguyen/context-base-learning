@@ -561,6 +561,20 @@ export const F5: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Formality",
+    slug: "formality",
+    phonetic: "/fɔːrˈmæl.ə.t̬i/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "Something that has to be done because it is part of an official system; strict adherence to established rules.",
+    meaningVi: "Sự trang trọng, nghi thức, thủ tục (mang tính hình thức).",
+    exampleEn:
+      "The legal review is just a formality before we launch the app. / The chatbot needs to adjust its level of formality based on the user's tone.",
+    exampleVi:
+      "Việc xem xét pháp lý chỉ là một thủ tục hình thức trước khi chúng tôi ra mắt ứng dụng. / Chatbot cần điều chỉnh mức độ trang trọng dựa trên tông giọng của người dùng.",
+    categories: ["General", "Business", "Technology"],
+  },
+  {
     word: "Format",
     slug: "format",
     phonetic: "/ˈfɔːr.mæt/",
@@ -571,6 +585,21 @@ export const F5: VocabularyWord[] = [
     exampleEn: "Change the file format.",
     exampleVi: "Thay đổi định dạng tệp.",
     categories: ["Technology"],
+  },
+  {
+    word: "Formative",
+    slug: "formative",
+    phonetic: "/ˈfɔːr.mə.t̬ɪv/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Relating to the time when someone or something is starting to develop and being strongly influenced.",
+    meaningVi:
+      "Đang hình thành, mang tính tạo hình, có tính định hướng phát triển.",
+    exampleEn:
+      "The early feedback was formative in shaping the final version of the quiz app. / These are the formative years of AI technology.",
+    exampleVi:
+      "Những phản hồi sớm có tính định hướng trong việc tạo nên phiên bản cuối cùng của ứng dụng trắc nghiệm. / Đây là những năm tháng định hình của công nghệ AI.",
+    categories: ["Academic", "General", "Development"],
   },
   {
     word: "Former",

@@ -780,6 +780,20 @@ export const C10: VocabularyWord[] = [
     categories: ["Psychology", "Social"],
   },
   {
+    word: "Confidingly",
+    slug: "confidingly",
+    phonetic: "/kənˈfaɪ.dɪŋ.li/",
+    partOfSpeech: "adverb",
+    meaningEn:
+      "In a way that shows you trust someone and are willing to tell them secrets or private matters.",
+    meaningVi: "Một cách tin cậy, tâm tình, thổ lộ.",
+    exampleEn:
+      "She leaned in and spoke confidingly about her fears of the upcoming project deadline. / The user interacted with the AI confidingly, sharing personal stories.",
+    exampleVi:
+      "Cô ấy cúi sát lại và nói một cách đầy tin cậy về nỗi sợ hãi đối với hạn chót của dự án sắp tới. / Người dùng tương tác với AI một cách đầy tin tưởng, chia sẻ những câu chuyện cá nhân.",
+    categories: ["Emotional", "Social"],
+  },
+  {
     word: "Configuration",
     slug: "configuration",
     phonetic: "/kənˌfɪɡ.jəˈreɪ.ʃən/",

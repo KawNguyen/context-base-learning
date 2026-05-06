@@ -2,6 +2,20 @@ import { VocabularyWord } from "../../types";
 
 export const S3: VocabularyWord[] = [
   {
+    word: "Stagnant",
+    slug: "stagnant",
+    phonetic: "/ˈstæɡ.nənt/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Not growing or developing; not flowing or moving (for water/air).",
+    meaningVi: "Trì trệ, đình trệ, ứ đọng.",
+    exampleEn:
+      "The project became stagnant because we had to shelve the main features. / A stagnant workflow can markedly reduce the team's productivity.",
+    exampleVi:
+      "Dự án trở nên trì trệ vì chúng tôi phải tạm gác lại các tính năng chính. / Một quy trình làm việc trì trệ có thể làm giảm rõ rệt năng suất của nhóm.",
+    categories: ["Economics", "General", "Business"],
+  },
+  {
     word: "Stairs",
     slug: "stairs",
     phonetic: "/sterz/",
@@ -78,6 +92,19 @@ export const S3: VocabularyWord[] = [
     exampleEn: "Start now.",
     exampleVi: "Bắt đầu ngay.",
     categories: ["General"],
+  },
+  {
+    word: "Startling",
+    slug: "startling",
+    phonetic: "/ˈstɑːrt.lɪŋ/",
+    partOfSpeech: "adjective",
+    meaningEn: "Surprising, sometimes worrying; very unusual.",
+    meaningVi: "Gây giật mình, đáng kinh ngạc, gây bất ngờ lớn.",
+    exampleEn:
+      "The RAG model showed a startling improvement in accuracy after the modification. / There was a startling surge in memory usage during the test.",
+    exampleVi:
+      "Mô hình RAG đã cho thấy một sự cải thiện đáng kinh ngạc về độ chính xác sau khi sửa đổi. / Đã có một sự gia tăng đáng kinh ngạc về việc sử dụng bộ nhớ trong quá trình thử nghiệm.",
+    categories: ["General", "Statistics"],
   },
   {
     word: "State",
@@ -454,6 +481,19 @@ export const S3: VocabularyWord[] = [
     exampleEn: "Empty string.",
     exampleVi: "Chuỗi rỗng.",
     categories: ["Daily", "Technology"],
+  },
+  {
+    word: "Stringent",
+    slug: "stringent",
+    phonetic: "/ˈstrɪn.dʒənt/",
+    partOfSpeech: "adjective",
+    meaningEn: "Very strict and that must be obeyed; severe.",
+    meaningVi: "Nghiêm ngặt, khắt khe, chặt chẽ.",
+    exampleEn:
+      "The system must comply with stringent safety regulations. / We applied stringent testing criteria before we launched the product.",
+    exampleVi:
+      "Hệ thống phải tuân thủ các quy định an toàn nghiêm ngặt. / Chúng tôi đã áp dụng các tiêu chí kiểm thử khắt khe trước khi ra mắt sản phẩm.",
+    categories: ["Legal", "Technology", "Business"],
   },
   {
     word: "Strip",
@@ -877,6 +917,20 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Surely",
+    slug: "surely",
+    phonetic: "/ˈʃʊr.li/",
+    partOfSpeech: "adverb",
+    meaningEn:
+      "Used to express that you are certain about something, or to express surprise that something hasn't happened.",
+    meaningVi: "Chắc chắn, hiển nhiên, không nghi ngờ gì.",
+    exampleEn:
+      "Surely, the model will perform better with more training data. / If we follow the documentation, surely we can resolve the bug.",
+    exampleVi:
+      "Chắc chắn là mô hình sẽ hoạt động tốt hơn với nhiều dữ liệu huấn luyện hơn. / Nếu chúng ta làm theo tài liệu hướng dẫn, hiển nhiên là chúng ta có thể giải quyết lỗi này.",
+    categories: ["General", "Logic"],
+  },
+  {
     word: "Surface",
     slug: "surface",
     phonetic: "/ˈsɜːr.fɪs/",
@@ -901,13 +955,16 @@ export const S3: VocabularyWord[] = [
   {
     word: "Surge",
     slug: "surge",
-    phonetic: "/sɜːrdʒ/",
-    partOfSpeech: "verb/noun",
-    meaningEn: "A sudden powerful forward or upward movement.",
-    meaningVi: "Sự tăng mạnh đột ngột.",
-    exampleEn: "A surge of electricity.",
-    exampleVi: "Một sự tăng mạnh của điện.",
-    categories: ["General"],
+    phonetic: "/sɝːdʒ/",
+    partOfSpeech: "noun, verb",
+    meaningEn:
+      "A sudden and great increase; a sudden strong feeling; a sudden increase of an electric current.",
+    meaningVi: "Sự gia tăng đột ngột, sự dâng trào (cảm xúc hoặc dòng điện).",
+    exampleEn:
+      "There has been a surge in interest in RAG technology lately. / An electrical surge can damage the hardware if not protected.",
+    exampleVi:
+      "Gần đây đã có một sự gia tăng đột ngột về sự quan tâm đối với công nghệ RAG. / Một sự tăng vọt điện áp có thể làm hỏng phần cứng nếu không được bảo vệ.",
+    categories: ["General", "Technology", "Economics"],
   },
   {
     word: "Surgery",

@@ -106,57 +106,71 @@ export const C8: VocabularyWord[] = [
   {
     word: "Comfort",
     slug: "comfort",
-    phonetic: "/ˈkʌm.fət/",
-    partOfSpeech: "noun/verb",
-    meaningEn: "A state of physical ease and freedom from pain or constraint.",
-    meaningVi: "Sự thoải mái.",
-    exampleEn: "They live in great comfort.",
-    exampleVi: "Họ sống trong sự thoải mái tuyệt vời.",
-    categories: ["Daily"],
+    phonetic: "/ˈkʌm.fɚt/",
+    partOfSpeech: "noun, verb",
+    meaningEn:
+      "A state of physical ease and freedom from pain or constraint; to make someone feel better when they are sad.",
+    meaningVi: "Sự thoải mái, sự an ủi; (v) an ủi, dỗ dành.",
+    exampleEn:
+      "The car is designed for maximum comfort during long trips. / I tried to comfort my friend after his project failed.",
+    exampleVi:
+      "Chiếc xe được thiết kế để mang lại sự thoải mái tối đa trong những chuyến đi dài. / Tôi đã cố gắng an ủi bạn mình sau khi dự án của anh ấy thất bại.",
+    categories: ["General", "Emotions", "Daily"],
   },
   {
     word: "Comfortable",
     slug: "comfortable",
-    phonetic: "/ˈkʌm.fər.tə.bl̩/",
+    phonetic: "/ˈkʌm.fɚ.t̬ə.bəl/",
     partOfSpeech: "adjective",
-    meaningEn: "Providing physical ease and relaxation.",
-    meaningVi: "Thoải mái.",
-    exampleEn: "This sofa is very comfortable.",
-    exampleVi: "Gia đình chiếc sofa này rất thoải mái.",
-    categories: ["Daily"],
+    meaningEn:
+      "Providing physical ease and relaxation; relaxed and free from constraint.",
+    meaningVi: "Thoải mái, dễ chịu, tiện nghi.",
+    exampleEn:
+      "Make sure you are in a comfortable position before starting the driving test. / This IDE is very comfortable to use.",
+    exampleVi:
+      "Hãy đảm bảo bạn đang ở trong một tư thế thoải mái trước khi bắt đầu bài kiểm tra lái xe. / Trình soạn thảo mã nguồn (IDE) này rất thoải mái khi sử dụng.",
+    categories: ["General", "Daily", "Technology"],
   },
   {
     word: "Comfortably",
     slug: "comfortably",
     phonetic: "/ˈkʌm.fɚ.t̬ə.bli/",
     partOfSpeech: "adverb",
-    meaningEn: "In a comfortable way.",
-    meaningVi: "Một cách thoải mái/Dễ dàng.",
-    exampleEn: "Live comfortably.",
-    exampleVi: "Sống một cách thoải mái.",
-    categories: ["General", "Daily"],
+    meaningEn:
+      "In a way that provides physical ease; easily or without stress.",
+    meaningVi: "Một cách thoải mái, dễ dàng, không gò bó.",
+    exampleEn:
+      "You can comfortably run this AI model on a laptop with 16GB of RAM. / He settled comfortably into his new occupation.",
+    exampleVi:
+      "Bạn có thể chạy mô hình AI này một cách thoải mái trên máy tính xách tay có 16GB RAM. / Anh ấy đã ổn định một cách thoải mái với nghề nghiệp mới của mình.",
+    categories: ["General", "Technology"],
   },
   {
     word: "Comforter",
     slug: "comforter",
     phonetic: "/ˈkʌm.fɚ.t̬ɚ/",
     partOfSpeech: "noun",
-    meaningEn: "A person or thing that provides consolation; a warm quilt.",
-    meaningVi: "Người an ủi/Cái chăn bông.",
-    exampleEn: "Down comforter.",
-    exampleVi: "Chăn bông lông vũ.",
-    categories: ["Daily", "Home", "People"],
+    meaningEn:
+      "A person who comforts someone; a large, soft, warm quilt or blanket.",
+    meaningVi: "Người an ủi; cái chăn bông (mền).",
+    exampleEn:
+      "She wrapped herself in a warm comforter to study during the cold night. / He was a great comforter to his colleagues during the crisis.",
+    exampleVi:
+      "Cô ấy quấn mình trong một chiếc chăn bông ấm áp để học bài trong đêm lạnh. / Anh ấy là một người an ủi tuyệt vời cho các đồng nghiệp trong suốt cuộc khủng hoảng.",
+    categories: ["General", "Daily", "Social"],
   },
   {
     word: "Comforting",
     slug: "comforting",
     phonetic: "/ˈkʌm.fɚ.t̬ɪŋ/",
     partOfSpeech: "adjective",
-    meaningEn: "Serving to alleviate a person's feelings of grief or distress.",
-    meaningVi: "Có tính an ủi.",
-    exampleEn: "Comforting words.",
-    exampleVi: "Những lời an ủi.",
-    categories: ["Psychology", "Social"],
+    meaningEn: "Making you feel less worried, unhappy, or upset.",
+    meaningVi: "Có tính an ủi, giúp thoải mái tinh thần, làm dịu lòng.",
+    exampleEn:
+      "It’s comforting to know that the safety system is always monitoring the driver. / Hearing a friendly voice can be very comforting.",
+    exampleVi:
+      "Thật an lòng khi biết rằng hệ thống an toàn luôn giám sát tài xế. / Nghe thấy một giọng nói thân thiện có thể rất an ủi.",
+    categories: ["General", "Emotions"],
   },
   {
     word: "Comic",
@@ -398,12 +412,15 @@ export const C8: VocabularyWord[] = [
     word: "Comment",
     slug: "comment",
     phonetic: "/ˈkɑː.ment/",
-    partOfSpeech: "noun/verb",
-    meaningEn: "A verbal or written remark.",
-    meaningVi: "Bình luận.",
-    exampleEn: "Leave a comment.",
-    exampleVi: "Để lại một bình luận.",
-    categories: ["Social", "Technology"],
+    partOfSpeech: "noun, verb",
+    meaningEn:
+      "Something that you say or write that expresses your opinion; text in a computer program that is for the human reader and is ignored by the computer.",
+    meaningVi: "Lời bình luận, nhận xét; (lập trình) đoạn chú thích.",
+    exampleEn:
+      "Don't forget to add comments to your functions for better maintenance. / The CEO declined to comment on the project's delay.",
+    exampleVi:
+      "Đừng quên thêm các đoạn chú thích vào hàm của bạn để bảo trì tốt hơn. / CEO đã từ chối bình luận về sự chậm trễ của dự án.",
+    categories: ["Technology", "Communication", "General"],
   },
   {
     word: "Commentary",

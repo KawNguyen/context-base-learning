@@ -628,6 +628,48 @@ export const O1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Occupied",
+    slug: "occupied",
+    phonetic: "/ˈɑː.kjə.paɪd/",
+    partOfSpeech: "adjective",
+    meaningEn: "Being used by someone; busy or involved in something.",
+    meaningVi: "Đang bận, đang bị chiếm chỗ, đang có người sử dụng.",
+    exampleEn:
+      "The CPU is currently occupied with a complex image processing task. / I was so occupied with the RAG project that I forgot the time.",
+    exampleVi:
+      "CPU hiện đang bận xử lý một tác vụ hình ảnh phức tạp. / Tôi đã quá bận rộn với dự án RAG đến mức quên cả thời gian.",
+    categories: ["General", "Business", "Technology"],
+  },
+  {
+    word: "Occupation",
+    slug: "occupation",
+    phonetic: "/ˌɑː.kjəˈpeɪ.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "A person's job or profession; a regular activity or hobby; the act of moving into and taking control of a place.",
+    meaningVi:
+      "Nghề nghiệp, công việc, hoạt động chiếm thời gian, sự chiếm đóng.",
+    exampleEn:
+      "In the user profile, 'Software Developer' is listed as his primary occupation. / Programming has become my main occupation during the weekends.",
+    exampleVi:
+      "Trong hồ sơ người dùng, 'Lập trình viên phần mềm' được liệt kê là nghề nghiệp chính của anh ấy. / Lập trình đã trở thành hoạt động chính của tôi trong suốt những ngày cuối tuần.",
+    categories: ["Business", "General", "Technology"],
+  },
+  {
+    word: "Occupy",
+    slug: "occupy",
+    phonetic: "/ˈɑː.kjə.paɪ/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To fill, exist in, or use a place or period of time; to keep someone busy or interested.",
+    meaningVi: "Chiếm giữ, chiếm dụng (không gian/thời gian), làm cho bận rộn.",
+    exampleEn:
+      "The vector database can occupy a significant amount of RAM. / Coding the driver drowsiness system occupies most of my free time.",
+    exampleVi:
+      "Cơ sở dữ liệu vector có thể chiếm một lượng RAM đáng kể. / Việc lập trình hệ thống phát hiện buồn ngủ chiếm hầu hết thời gian rảnh của tôi.",
+    categories: ["General", "Business", "Technology"],
+  },
+  {
     word: "Occur",
     slug: "occur",
     phonetic: "/əˈkɜːr/",

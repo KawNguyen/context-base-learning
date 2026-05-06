@@ -96,7 +96,15 @@ export type VocabularyCategory =
   | "War"
   | "Weather"
   | "Energy"
-  | "Health";
+  | "Health"
+  | "Legal"
+  | "Emotional"
+  | "Logic"
+  | "Productivity"
+  | "Development"
+  | "Formal"
+  | "Statistics"
+  | "Communication";
 
 export const VOCABULARY_CATEGORIES: VocabularyCategory[] = [
   "Academic",
@@ -197,6 +205,14 @@ export const VOCABULARY_CATEGORIES: VocabularyCategory[] = [
   "War",
   "Weather",
   "Health",
+  "Legal",
+  "Emotional",
+  "Logic",
+  "Productivity",
+  "Development",
+  "Formal",
+  "Statistics",
+  "Communication",
 ];
 
 // export type VocabularyCategory = typeof VOCABULARY_CATEGORIES[number];

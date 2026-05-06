@@ -845,6 +845,20 @@ export const E5: VocabularyWord[] = [
     categories: ["Business", "Marketing", "Social"],
   },
   {
+    word: "Endorse",
+    slug: "endorse",
+    phonetic: "/ɪnˈdɔːrs/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To make a public statement of your approval or support for something or someone; to appear in an advertisement, saying that you use and like a particular product.",
+    meaningVi: "Xác nhận, tán thành, ủng hộ; quảng cáo cho một sản phẩm.",
+    exampleEn:
+      "The famous AI researcher decided to endorse our RAG framework. / The board of directors is expected to endorse the new safety regulations.",
+    exampleVi:
+      "Nhà nghiên cứu AI nổi tiếng đã quyết định ủng hộ khung làm việc RAG của chúng tôi. / Hội đồng quản trị dự kiến sẽ thông qua các quy định an toàn mới.",
+    categories: ["Business", "General", "Legal"],
+  },
+  {
     word: "Endorser",
     slug: "endorser",
     phonetic: "/ɪnˈdɔːr.sɚ/",

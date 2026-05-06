@@ -322,13 +322,15 @@ export const C9: VocabularyWord[] = [
   {
     word: "Compliance",
     slug: "compliance",
-    phonetic: "/kənˈplaɪ.əns/",
+    phonetic: "/kəmˈplaɪ.əns/",
     partOfSpeech: "noun",
-    meaningEn: "Meeting requirements.",
-    meaningVi: "Sự tuân thủ.",
-    exampleEn: "Regulatory compliance.",
-    exampleVi: "Sự tuân thủ quy định.",
-    categories: ["Technology", "Business", "Law"],
+    meaningEn: "The act of obeying an order, rule, or request.",
+    meaningVi: "Sự tuân thủ, sự làm đúng theo quy định.",
+    exampleEn:
+      "The company hired an expert to ensure regulatory compliance. / In compliance with the law, we do not store user passwords in plain text.",
+    exampleVi:
+      "Công ty đã thuê một chuyên gia để đảm bảo sự tuân thủ các quy định. / Để tuân thủ luật pháp, chúng tôi không lưu trữ mật khẩu người dùng dưới dạng văn bản thô.",
+    categories: ["Business", "Legal", "Technology"],
   },
   {
     word: "Compliant",
@@ -336,12 +338,13 @@ export const C9: VocabularyWord[] = [
     phonetic: "/kəmˈplaɪ.ənt/",
     partOfSpeech: "adjective",
     meaningEn:
-      "Inclined to agree with others or obey rules, especially to an excessive degree; acquiescent. Also, meeting or in accordance with relevant standards or regulations.",
-    meaningVi:
-      "Hay chiều theo/Tuân thủ (quy chuẩn). Đáp ứng các tiêu chuẩn kỹ thuật hoặc pháp lý.",
-    exampleEn: "Regulatory compliant.",
-    exampleVi: "Tuân thủ các quy định.",
-    categories: ["Psychology", "Law", "Business"],
+      "Used to describe something that obeys a particular rule or law.",
+    meaningVi: "Tuân thủ đúng, đạt chuẩn, phù hợp với quy định.",
+    exampleEn:
+      "We need to ensure the PDF Chatbot is GDPR compliant. / The system is fully compliant with industry regulations.",
+    exampleVi:
+      "Chúng ta cần đảm bảo Chatbot PDF tuân thủ GDPR. / Hệ thống hoàn toàn đạt chuẩn với các quy định của ngành.",
+    categories: ["Technology", "Legal"],
   },
   {
     word: "Complicate",
@@ -417,14 +420,15 @@ export const C9: VocabularyWord[] = [
   {
     word: "Comply",
     slug: "comply",
-    phonetic: "/kəˈmplaɪ/",
+    phonetic: "/kəmˈplaɪ/",
     partOfSpeech: "verb",
-    meaningEn:
-      "(of a person or group) act in accordance with a wish or command.",
-    meaningVi: "Tuân theo/Đáp ứng.",
-    exampleEn: "Comply with regulations.",
-    exampleVi: "Tuân thủ các quy định.",
-    categories: ["Law", "Business", "General"],
+    meaningEn: "To act according to an order, set of rules, or request.",
+    meaningVi: "Tuân thủ, làm theo (đúng quy định, tiêu chuẩn).",
+    exampleEn:
+      "The software must comply with the latest security standards. / You should comply with the coding conventions of the team.",
+    exampleVi:
+      "Phần mềm phải tuân thủ các tiêu chuẩn bảo mật mới nhất. / Bạn nên tuân thủ các quy ước viết mã của nhóm.",
+    categories: ["Business", "Legal", "Technology"],
   },
   {
     word: "Component",

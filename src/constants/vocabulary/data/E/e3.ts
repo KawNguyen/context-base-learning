@@ -125,6 +125,20 @@ export const E3: VocabularyWord[] = [
     categories: ["Politics"],
   },
   {
+    word: "Electable",
+    slug: "electable",
+    phonetic: "/iˈlek.tə.bəl/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Having the right qualities to be elected; capable of being chosen.",
+    meaningVi: "Có khả năng trúng cử, đủ tư cách để được lựa chọn.",
+    exampleEn:
+      "The committee is looking for an electable candidate to lead the project. / In this system, only high-performance nodes are electable as primary servers.",
+    exampleVi:
+      "Ủy ban đang tìm kiếm một ứng viên có khả năng trúng cử để dẫn dắt dự án. / Trong hệ thống này, chỉ các nút hiệu suất cao mới đủ điều kiện được chọn làm máy chủ chính.",
+    categories: ["Politics", "Logic", "Management"],
+  },
+  {
     word: "Election",
     slug: "election",
     phonetic: "/ɪˈlek.ʃən/",

@@ -619,6 +619,19 @@ export const I2: VocabularyWord[] = [
     categories: ["Business", "Finance"],
   },
   {
+    word: "Insured",
+    slug: "insured",
+    phonetic: "/ɪnˈʃʊrd/",
+    partOfSpeech: "adjective, noun",
+    meaningEn: "Protected by insurance; covered by an insurance policy.",
+    meaningVi: "Được bảo hiểm, được đảm bảo an toàn.",
+    exampleEn:
+      "All the equipment in the laboratory is fully insured. / The company ensures that all workers are properly insured.",
+    exampleVi:
+      "Tất cả các thiết bị trong phòng thí nghiệm đều được bảo hiểm đầy đủ. / Công ty đảm bảo rằng tất cả công nhân đều được đóng bảo hiểm đúng quy định.",
+    categories: ["Business", "Finance", "Legal"],
+  },
+  {
     word: "Intake",
     slug: "intake",
     phonetic: "/ˈɪn.teɪk/",
@@ -1104,6 +1117,20 @@ export const I2: VocabularyWord[] = [
     exampleEn: "Buying a house is a good investment.",
     exampleVi: "Mua nhà là một khoản đầu tư tốt.",
     categories: ["Business"],
+  },
+  {
+    word: "Investor",
+    slug: "investor",
+    phonetic: "/ɪnˈves.tɚ/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "A person or organization that puts money into financial schemes, property, or companies with the expectation of achieving a profit.",
+    meaningVi: "Nhà đầu tư.",
+    exampleEn:
+      "The startup attracted several high-profile investors to fund its AI research. / As an investor, you must evaluate the drawbacks and potential of each project.",
+    exampleVi:
+      "Công ty khởi nghiệp đã thu hút được một số nhà đầu tư lớn để tài trợ cho nghiên cứu AI của mình. / Là một nhà đầu tư, bạn phải đánh giá các mặt hạn chế và tiềm năng của mỗi dự án.",
+    categories: ["Finance", "Business", "General"],
   },
   {
     word: "Invite",

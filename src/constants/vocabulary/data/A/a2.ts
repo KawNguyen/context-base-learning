@@ -1072,6 +1072,20 @@ export const A2: VocabularyWord[] = [
     categories: ["Academic"],
   },
   {
+    word: "Amendable",
+    slug: "amendable",
+    phonetic: "/əˈmen.də.bəl/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Able to be changed or improved; often used for laws, rules, or documents.",
+    meaningVi: "Có thể sửa đổi, có thể cải thiện, có thể hiệu chỉnh.",
+    exampleEn:
+      "The project requirements are still amendable if we find a better solution. / This code is easily amendable thanks to its modular structure.",
+    exampleVi:
+      "Các yêu cầu của dự án vẫn có thể sửa đổi nếu chúng ta tìm thấy một giải pháp tốt hơn. / Mã nguồn này dễ dàng sửa đổi nhờ vào cấu trúc mô-đun của nó.",
+    categories: ["Legal", "Technology", "Productivity"],
+  },
+  {
     word: "Amendment",
     slug: "amendment",
     phonetic: "/əˈmend.mənt/",

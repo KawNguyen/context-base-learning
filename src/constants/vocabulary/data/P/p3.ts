@@ -248,11 +248,14 @@ export const P3: VocabularyWord[] = [
     slug: "promote",
     phonetic: "/prəˈmoʊt/",
     partOfSpeech: "verb",
-    meaningEn: "Support or encourage.",
-    meaningVi: "Thăng chức.",
-    exampleEn: "Promote health.",
-    exampleVi: "Thúc đẩy sức khỏe.",
-    categories: ["Business", "Business"],
+    meaningEn:
+      "To encourage something to happen or develop; to help something happen, develop, or increase.",
+    meaningVi: "Thúc đẩy, khuyến khích, quảng bá, thăng chức.",
+    exampleEn:
+      "The new quiz system is designed to promote active learning. / Using AI in transportation helps promote public safety.",
+    exampleVi:
+      "Hệ thống trắc nghiệm mới được thiết kế để thúc đẩy việc học tập chủ động. / Sử dụng AI trong vận tải giúp thúc đẩy an toàn công cộng.",
+    categories: ["General", "Business", "Education"],
   },
   {
     word: "Prompt",

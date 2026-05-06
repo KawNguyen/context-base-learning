@@ -163,6 +163,61 @@ export const R2: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
+    word: "Retain",
+    slug: "retain",
+    phonetic: "/rɪˈteɪn/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To keep or continue to have something; to store something for use later.",
+    meaningVi: "Giữ lại, bảo lưu, duy trì.",
+    exampleEn:
+      "The system needs to retain user preferences for the next session. / A good manager knows how to retain top talent.",
+    exampleVi:
+      "Hệ thống cần giữ lại các tùy chọn của người dùng cho phiên làm việc tiếp theo. / Một nhà quản lý giỏi biết cách giữ chân những tài năng hàng đầu.",
+    categories: ["General", "Business", "Technology"],
+  },
+  {
+    word: "Retained",
+    slug: "retained",
+    phonetic: "/rɪˈteɪnd/",
+    partOfSpeech: "verb (past participle), adjective",
+    meaningEn: "Kept or continued to be used; not lost or thrown away.",
+    meaningVi: "Được giữ lại, được bảo lưu, không bị mất đi.",
+    exampleEn:
+      "The model's accuracy was retained even after the data reduction process. / Only the most relevant information is retained in the system's short-term memory.",
+    exampleVi:
+      "Độ chính xác của mô hình vẫn được duy trì ngay cả sau quá trình giảm lược dữ liệu. / Chỉ những thông tin liên quan nhất mới được giữ lại trong bộ nhớ ngắn hạn của hệ thống.",
+    categories: ["General", "Science", "Technology"],
+  },
+  {
+    word: "Retaining",
+    slug: "retaining",
+    phonetic: "/rɪˈteɪ.nɪŋ/",
+    partOfSpeech: "verb (present participle), adjective",
+    meaningEn:
+      "The act of keeping something; used to describe something that holds back or keeps something in place.",
+    meaningVi: "Việc giữ lại, duy trì; (adj) mang tính ngăn chặn/giữ lại.",
+    exampleEn:
+      "Retaining the user's focus is the main challenge of interactive learning. / The script is responsible for retaining the metadata during PDF conversion.",
+    exampleVi:
+      "Duy trì sự tập trung của người dùng là thử thách chính của việc học tương tác. / Tập lệnh chịu trách nhiệm giữ lại các siêu dữ liệu trong quá trình chuyển đổi PDF.",
+    categories: ["Technology", "Education", "Engineering"],
+  },
+  {
+    word: "Retention",
+    slug: "retention",
+    phonetic: "/rɪˈten.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The continued use, existence, or possession of something or someone; the ability to remember information.",
+    meaningVi: "Sự giữ lại, sự duy trì, khả năng ghi nhớ.",
+    exampleEn:
+      "The 'Explain Component' in our quiz helps improve student knowledge retention. / We need to analyze the app's user retention rate.",
+    exampleVi:
+      "'Thành phần Giải thích' trong bài trắc nghiệm của chúng tôi giúp cải thiện khả năng ghi nhớ kiến thức của học sinh. / Chúng ta cần phân tích tỷ lệ giữ chân người dùng của ứng dụng.",
+    categories: ["Business", "Education", "Science"],
+  },
+  {
     word: "Reticent",
     slug: "reticent",
     phonetic: "/ˈret̬.ə.sənt/",

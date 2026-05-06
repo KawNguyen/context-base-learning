@@ -190,6 +190,19 @@ export const A5: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Attributable",
+    slug: "attributable",
+    phonetic: "/əˈtrɪb.jə.t̬ə.bəl/",
+    partOfSpeech: "adjective",
+    meaningEn: "Probably caused by the thing mentioned.",
+    meaningVi: "Có thể quy cho, có thể giải thích là do.",
+    exampleEn:
+      "The increase in model accuracy is directly attributable to the new noise reduction filter. / Most of the delays were attributable to the surge in user traffic.",
+    exampleVi:
+      "Sự gia tăng độ chính xác của mô hình có thể quy trực tiếp cho bộ lọc khử nhiễu mới. / Hầu hết sự chậm trễ là do sự gia tăng đột ngột lưu lượng người dùng.",
+    categories: ["Academic", "Technology", "Logic"],
+  },
+  {
     word: "Attribute",
     slug: "attribute",
     phonetic: "/ˈæt.rɪ.bjuːt/",

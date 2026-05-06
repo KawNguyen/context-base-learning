@@ -365,13 +365,16 @@ export const L1: VocabularyWord[] = [
   {
     word: "Launch",
     slug: "launch",
-    phonetic: "/lɔːntʃ/",
-    partOfSpeech: "verb/noun",
-    meaningEn: "Set a boat in motion.",
-    meaningVi: "Khởi động.",
-    exampleEn: "Launch a product.",
-    exampleVi: "Ra mắt sản phẩm.",
-    categories: ["Business", "General"],
+    phonetic: "/lɑːntʃ/",
+    partOfSpeech: "verb, noun",
+    meaningEn:
+      "An event to celebrate or introduce something new; to begin something such as a plan or introduce something new such as a product.",
+    meaningVi: "Ra mắt, khởi chạy, khai trương.",
+    exampleEn:
+      "The team is preparing to launch the Driver Drowsiness Detection app next month. / The official launch of the PDF Chatbot attracted many potential users.",
+    exampleVi:
+      "Nhóm đang chuẩn bị ra mắt ứng dụng Phát hiện buồn ngủ vào tháng tới. / Buổi ra mắt chính thức của PDF Chatbot đã thu hút nhiều người dùng tiềm năng.",
+    categories: ["General", "Technology", "Business"],
   },
   {
     word: "Laundry",

@@ -205,6 +205,19 @@ export const A1: VocabularyWord[] = [
     categories: ["Technology", "Daily"],
   },
   {
+    word: "Accessible",
+    slug: "accessible",
+    phonetic: "/əkˈses.ə.bəl/",
+    partOfSpeech: "adjective",
+    meaningEn: "Able to be reached or entered; easy to understand or use.",
+    meaningVi: "Có thể truy cập, có thể tiếp cận, dễ hiểu.",
+    exampleEn:
+      "We must make the PDF Chatbot accessible to users with visual impairments. / Ensure that the database is only accessible via an encrypted connection.",
+    exampleVi:
+      "Chúng ta phải làm cho Chatbot PDF có thể tiếp cận được với những người khiếm thị. / Đảm bảo rằng cơ sở dữ liệu chỉ có thể truy cập được thông qua một kết nối được mã hóa.",
+    categories: ["Technology", "General", "Productivity"],
+  },
+  {
     word: "Accident",
     slug: "accident",
     phonetic: "/ˈæk.sə.dənt/",

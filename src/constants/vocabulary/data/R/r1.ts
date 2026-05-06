@@ -442,6 +442,20 @@ export const R1: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
+    word: "Reciprocate",
+    slug: "reciprocate",
+    phonetic: "/rɪˈsɪp.rə.keɪt/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To share the same feelings as someone else, or to behave in the same way as someone else has behaved towards you.",
+    meaningVi: "Đáp lại, đền đáp (tình cảm, hành động).",
+    exampleEn:
+      "I would like to reciprocate your kindness by helping you with the RAG project. / Sadly, his feelings were not reciprocated.",
+    exampleVi:
+      "Tôi muốn đáp lại lòng tốt của bạn bằng cách giúp bạn thực hiện dự án RAG. / Đáng tiếc là tình cảm của anh ấy đã không được đáp lại.",
+    categories: ["General", "Social", "Business"],
+  },
+  {
     word: "Reciprocity",
     slug: "reciprocity",
     phonetic: "/ˌres.ɪˈprɑː.sə.t̬i/",
@@ -475,6 +489,20 @@ export const R1: VocabularyWord[] = [
     exampleEn: "I recommend this restaurant.",
     exampleVi: "Tôi giới thiệu nhà hàng này.",
     categories: ["Social"],
+  },
+  {
+    word: "Reconcile",
+    slug: "reconcile",
+    phonetic: "/ˈrek.ən.saɪl/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To find a way in which two situations or beliefs that are opposed to each other can agree and exist together; to compare two sets of data to ensure they are the same.",
+    meaningVi: "Hòa giải, điều hòa; đối chiếu (dữ liệu).",
+    exampleEn:
+      "It’s hard to reconcile the results of the two AI models. / After the argument, they finally managed to reconcile.",
+    exampleVi:
+      "Thật khó để đối chiếu kết quả của hai mô hình AI này. / Sau cuộc tranh luận, cuối cùng họ đã xoay xở để hòa giải với nhau.",
+    categories: ["General", "Technology", "Finance"],
   },
   {
     word: "Recondite",
@@ -597,6 +625,34 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Reducer",
+    slug: "reducer",
+    phonetic: "/rɪˈduː.sɚ/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "A function or device that reduces something; in programming, a function that takes an accumulator and a value and returns a new accumulator.",
+    meaningVi: "Bộ giảm tốc, hàm gộp dữ liệu (trong lập trình).",
+    exampleEn:
+      "In Redux, a reducer specifies how the application's state changes in response to actions. / Use a reducer to calculate the total score from the quiz results array.",
+    exampleVi:
+      "Trong Redux, một hàm reducer chỉ định cách trạng thái của ứng dụng thay đổi để phản hồi lại các hành động. / Sử dụng một hàm gộp để tính tổng điểm từ mảng kết quả trắc nghiệm.",
+    categories: ["Technology", "Engineering"],
+  },
+  {
+    word: "Reduction",
+    slug: "reduction",
+    phonetic: "/rɪˈdʌk.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The act of making something, or of something becoming, smaller in size, amount, degree, or importance.",
+    meaningVi: "Sự giảm bớt, sự thu nhỏ, sự cắt giảm.",
+    exampleEn:
+      "Dimensionality reduction helps speed up the training process of the AI model. / There has been a marked reduction in fatal accidents thanks to drowsiness detection systems.",
+    exampleVi:
+      "Giảm chiều dữ liệu giúp tăng tốc quá trình huấn luyện mô hình AI. / Đã có một sự sụt giảm rõ rệt trong các vụ tai nạn tử vong nhờ vào hệ thống phát hiện buồn ngủ.",
+    categories: ["General", "Technology", "Mathematics"],
+  },
+  {
     word: "Redundancy",
     slug: "redundancy",
     phonetic: "/rɪˈdʌn.dən.si/",
@@ -675,6 +731,33 @@ export const R1: VocabularyWord[] = [
     exampleEn: "Regard as important.",
     exampleVi: "Coi là quan trọng.",
     categories: ["General"],
+  },
+  {
+    word: "Regardful",
+    slug: "regardful",
+    phonetic: "/rɪˈɡɑːrd.fəl/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Paying attention to something; mindful of rules or people's feelings.",
+    meaningVi: "Biết chú ý, lưu tâm, quan tâm (thường đi với giới từ 'of').",
+    exampleEn:
+      "A good AI assistant should be regardful of user privacy. / Developers must be regardful of the coding standards to ensure long-term maintenance.",
+    exampleVi:
+      "Một trợ lý AI tốt nên lưu tâm đến quyền riêng tư của người dùng. / Các lập trình viên phải chú ý đến các tiêu chuẩn mã nguồn để đảm bảo việc bảo trì lâu dài.",
+    categories: ["General", "Formal", "Social"],
+  },
+  {
+    word: "Regardless",
+    slug: "regardless",
+    phonetic: "/rɪˈɡɑːrd.ləs/",
+    partOfSpeech: "adverb, adjective",
+    meaningEn: "Despite; not being affected by something.",
+    meaningVi: "Bất kể, bất chấp, không quan tâm đến (trở ngại/điều kiện).",
+    exampleEn:
+      "The system will trigger the alarm regardless of the driver's excuses. / Regardless of the file size, the RAG model must process it efficiently.",
+    exampleVi:
+      "Hệ thống sẽ kích hoạt báo động bất chấp những lời bào chữa của tài xế. / Bất kể kích thước tệp lớn hay nhỏ, mô hình RAG phải xử lý nó một cách hiệu quả.",
+    categories: ["General", "Logic", "Technology"],
   },
   {
     word: "Region",
@@ -958,6 +1041,20 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Relinquish",
+    slug: "relinquish",
+    phonetic: "/rɪˈlɪŋ.kwɪʃ/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To give up something such as a responsibility or claim; to stop having something, especially when this happens unwillingly.",
+    meaningVi: "Từ bỏ, buông bỏ (quyền lợi, quyền kiểm soát).",
+    exampleEn:
+      "He had to relinquish his position as lead developer due to health issues. / The system will relinquish memory resources once the task is finished.",
+    exampleVi:
+      "Anh ấy đã phải từ bỏ vị trí lập trình viên chính do vấn đề sức khỏe. / Hệ thống sẽ giải phóng (buông bỏ) tài nguyên bộ nhớ sau khi tác vụ hoàn thành.",
+    categories: ["Technology", "Legal"],
+  },
+  {
     word: "Rely",
     slug: "rely",
     phonetic: "/rɪˈlaɪ/",
@@ -1057,6 +1154,19 @@ export const R1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Remunerate",
+    slug: "remunerate",
+    phonetic: "/rɪˈmjuː.nə.reɪt/",
+    partOfSpeech: "verb",
+    meaningEn: "To pay someone of the work they have done.",
+    meaningVi: "Trả công, thù lao, bồi hoàn.",
+    exampleEn:
+      "Investors expect to be fairly remunerated for the risks they take. / Our company ensures all developers are remunerated based on their accomplishments.",
+    exampleVi:
+      "Các nhà đầu tư mong đợi được trả công xứng đáng cho những rủi ro mà họ gánh chịu. / Công ty chúng tôi đảm bảo tất cả lập trình viên được trả thù lao dựa trên thành tựu của họ.",
+    categories: ["Business", "Business", "Finance"],
+  },
+  {
     word: "Renaissance",
     slug: "renaissance",
     phonetic: "/ˈren.ə.sɑːns/",
@@ -1067,6 +1177,47 @@ export const R1: VocabularyWord[] = [
     exampleEn: "The city has undergone a cultural renaissance.",
     exampleVi: "Thành phố đã trải qua một thời kỳ Phục hưng về văn hóa.",
     categories: ["General"],
+  },
+  {
+    word: "Renovate",
+    slug: "renovate",
+    phonetic: "/ˈren.ə.veɪt/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To repair and improve something, especially a building, so that it is in good condition again.",
+    meaningVi: "Cải tạo, tu sửa, làm mới lại.",
+    exampleEn:
+      "The company decided to renovate its headquarters to create a more modern workspace. / We need to renovate the legacy code to comply with new standards.",
+    exampleVi:
+      "Công ty quyết định cải tạo trụ sở chính để tạo ra một không gian làm việc hiện đại hơn. / Chúng ta cần đại tu lại mã nguồn cũ để tuân thủ các tiêu chuẩn mới.",
+    categories: ["General", "Architecture", "Technology"],
+  },
+  {
+    word: "Renovated",
+    slug: "renovated",
+    phonetic: "/ˈren.ə.veɪ.t̬ɪd/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Repaired, cleaned, or made to look new again; often used for buildings, systems, or interfaces.",
+    meaningVi: "Đã được cải tạo, đã được làm mới, đã được tân trang.",
+    exampleEn:
+      "The renovated office provides a much more comfortable environment for the AI team. / Our renovated algorithm now processes PDF data 30% faster.",
+    exampleVi:
+      "Văn phòng đã được cải tạo mang lại một môi trường thoải mái hơn nhiều cho đội ngũ AI. / Thuật toán đã được làm mới của chúng tôi hiện xử lý dữ liệu PDF nhanh hơn 30%.",
+    categories: ["General", "Architecture", "Technology"],
+  },
+  {
+    word: "Renovation",
+    slug: "renovation",
+    phonetic: "/ˌren.əˈveɪ.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn: "The act or process of repairing and improving something.",
+    meaningVi: "Sự cải tạo, quá trình tu sửa.",
+    exampleEn:
+      "The museum is closed for renovation until next year. / After the renovation, the app's performance increased markedly.",
+    exampleVi:
+      "Bảo tàng đóng cửa để đại tu cho đến năm sau. / Sau đợt cải tạo, hiệu suất của ứng dụng đã tăng lên rõ rệt.",
+    categories: ["General", "Business", "Technology"],
   },
   {
     word: "Rent",

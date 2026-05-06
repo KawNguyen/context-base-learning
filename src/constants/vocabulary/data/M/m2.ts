@@ -83,6 +83,20 @@ export const M2: VocabularyWord[] = [
     categories: ["Jobs", "Industry"],
   },
   {
+    word: "Minimal",
+    slug: "minimal",
+    phonetic: "/ˈmɪn.ɪ.məl/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Very small in amount; of a minimum amount, quantity, or degree.",
+    meaningVi: "Tối thiểu, rất nhỏ, tối giản.",
+    exampleEn:
+      "The new update requires minimal memory to run. / We aim for a minimal design to keep the user interface clean.",
+    exampleVi:
+      "Bản cập nhật mới yêu cầu bộ nhớ tối thiểu để chạy. / Chúng tôi hướng tới một thiết kế tối giản để giữ cho giao diện người dùng sạch sẽ.",
+    categories: ["General", "Technology", "Design"],
+  },
+  {
     word: "Minimum",
     slug: "minimum",
     phonetic: "/ˈmɪn.ɪ.məm/",
@@ -281,6 +295,20 @@ export const M2: VocabularyWord[] = [
     exampleEn: "They managed to live with only a modicum of comfort.",
     exampleVi: "Họ đã cố gắng sống chỉ với một chút (số lượng nhỏ) tiện nghi.",
     categories: ["General", "Finance", "Business", "Technology"],
+  },
+  {
+    word: "Modification",
+    slug: "modification",
+    phonetic: "/ˌmɑː.də.fəˈkeɪ.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "A change to something, usually to improve it or make it more acceptable.",
+    meaningVi: "Sự sửa đổi, sự điều chỉnh, sự biến đổi.",
+    exampleEn:
+      "A minor modification to the prompt markedly improved the RAG system's output. / The system requires a hardware modification to support the new camera.",
+    exampleVi:
+      "Một điều chỉnh nhỏ đối với câu lệnh (prompt) đã cải thiện rõ rệt kết quả của hệ thống RAG. / Hệ thống yêu cầu sửa đổi phần cứng để hỗ trợ camera mới.",
+    categories: ["Technology", "General", "Engineering"],
   },
   {
     word: "Modify",

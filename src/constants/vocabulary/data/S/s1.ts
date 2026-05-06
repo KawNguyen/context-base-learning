@@ -321,6 +321,30 @@ export const S1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Scan",
+    slug: "scan",
+    phonetic: "/skæn/",
+    partOfSpeech: "verb",
+    meaningEn: "Look at something carefully.",
+    meaningVi: "Quan sát kỹ.",
+    exampleEn: "Scan the document.",
+    exampleVi: "Quan sát tài liệu.",
+    categories: ["Technology", "General"],
+  },
+  {
+    word: "Scanty",
+    slug: "scanty",
+    phonetic: "/ˈskæn.ti/",
+    partOfSpeech: "adjective",
+    meaningEn: "Small in amount; less than is needed.",
+    meaningVi: "Ít ỏi, thiếu hụt, không đủ.",
+    exampleEn:
+      "Evidence of the bug was scanty, making it hard to reconcile the logs. / Our data for training the model is still scanty.",
+    exampleVi:
+      "Bằng chứng về lỗi này rất ít ỏi, khiến việc đối chiếu các nhật ký trở nên khó khăn. / Dữ liệu của chúng ta để huấn luyện mô hình vẫn còn thiếu hụt.",
+    categories: ["General", "Academic", "Technology"],
+  },
+  {
     word: "Scared",
     slug: "scared",
     phonetic: "/skerd/",
@@ -988,6 +1012,20 @@ export const S1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Shade",
+    slug: "shade",
+    phonetic: "/ʃeɪd/",
+    partOfSpeech: "noun, verb",
+    meaningEn:
+      "An area of slight darkness that is produced when something blocks the light of the sun; a slight variation in color, meaning, or opinion.",
+    meaningVi: "Bóng râm, sắc thái (màu sắc, ý nghĩa), bóng tối nhẹ.",
+    exampleEn:
+      "The system must distinguish between a real eye blink and a shadow or shade on the face. / This word has many shades of meaning depending on the context.",
+    exampleVi:
+      "Hệ thống phải phân biệt giữa một cái nháy mắt thật và một cái bóng hay sắc tối trên khuôn mặt. / Từ này có nhiều sắc thái ý nghĩa tùy thuộc vào ngữ cảnh.",
+    categories: ["General", "Art", "Technology"],
+  },
+  {
     word: "Shake",
     slug: "shake",
     phonetic: "/ʃeɪk/",
@@ -1130,6 +1168,20 @@ export const S1: VocabularyWord[] = [
     exampleEn: "Seek shelter from the storm.",
     exampleVi: "Tìm nơi trú ẩn khỏi cơn bão.",
     categories: ["General"],
+  },
+  {
+    word: "Shelve",
+    slug: "shelve",
+    phonetic: "/ʃelv/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To decide not to proceed with a plan or project, either permanently or for a long time.",
+    meaningVi: "Tạm gác lại, xếp xó, không thực hiện (một kế hoạch).",
+    exampleEn:
+      "Due to a lack of funding, the investors decided to shelve the expansion project. / We had to shelve the new feature because it didn't comply with security standards.",
+    exampleVi:
+      "Do thiếu vốn, các nhà đầu tư đã quyết định tạm gác lại dự án mở rộng. / Chúng tôi đã phải tạm dừng tính năng mới vì nó không tuân thủ các tiêu chuẩn bảo mật.",
+    categories: ["Business", "Business", "Management"],
   },
   {
     word: "Shift",

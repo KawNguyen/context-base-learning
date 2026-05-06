@@ -50,12 +50,27 @@ export const G2: VocabularyWord[] = [
     word: "Give",
     slug: "give",
     phonetic: "/ɡɪv/",
-    partOfSpeech: "noun",
+    partOfSpeech: "verb",
     meaningEn: "Freely transfer the possession of (something) to (someone).",
     meaningVi: "Cho/Tặng.",
     exampleEn: "Remember to give your old clothes to charity.",
     exampleVi: "Hãy nhớ tặng quần áo cũ của bạn cho tổ chức từ thiện.",
     categories: ["General"],
+  },
+  {
+    word: "Given",
+    slug: "given",
+    phonetic: "/ˈɡɪv.ən/",
+    partOfSpeech: "preposition, adjective, noun",
+    meaningEn:
+      "Knowing about or considering a particular fact; specified or stated.",
+    meaningVi:
+      "Dựa trên, căn cứ vào, nếu xét đến; (n) một điều hiển nhiên/đã biết.",
+    exampleEn:
+      "Given the complexity of the RAG architecture, we need more time for testing. / At any given time, the system can monitor multiple facial landmarks.",
+    exampleVi:
+      "Nếu xét đến độ phức tạp của kiến trúc RAG, chúng ta cần thêm thời gian để kiểm thử. / Tại bất kỳ thời điểm cụ thể nào, hệ thống cũng có thể giám sát nhiều điểm mốc trên khuôn mặt.",
+    categories: ["Academic", "Technology"],
   },
   {
     word: "Give away",
@@ -112,6 +127,21 @@ export const G2: VocabularyWord[] = [
     exampleVi:
       "Nụ cười lo lắng của cô ấy là một bằng chứng rõ ràng cho thấy cô đang nói dối.",
     categories: ["General"],
+  },
+  {
+    word: "Given",
+    slug: "given",
+    phonetic: "/ˈɡɪv.ən/",
+    partOfSpeech: "preposition, adjective, noun",
+    meaningEn:
+      "Knowing about or considering a particular fact; specified or stated.",
+    meaningVi:
+      "Dựa trên, căn cứ vào, nếu xét đến; (n) một điều hiển nhiên/đã biết.",
+    exampleEn:
+      "Given the complexity of the RAG architecture, we need more time for testing. / At any given time, the system can monitor multiple facial landmarks.",
+    exampleVi:
+      "Nếu xét đến độ phức tạp của kiến trúc RAG, chúng ta cần thêm thời gian để kiểm thử. / Tại bất kỳ thời điểm cụ thể nào, hệ thống cũng có thể giám sát nhiều điểm mốc trên khuôn mặt.",
+    categories: ["Academic", "Technology"],
   },
   {
     word: "Giver",

@@ -801,12 +801,15 @@ export const E9: VocabularyWord[] = [
     word: "Experience",
     slug: "experience",
     phonetic: "/ɪkˈspɪr.i.əns/",
-    partOfSpeech: "noun/verb",
-    meaningEn: "Practical contact with and observation of facts or events.",
-    meaningVi: "Kinh nghiệm.",
-    exampleEn: "I have some experience in teaching.",
-    exampleVi: "Tôi có một ít kinh nghiệm giảng dạy.",
-    categories: ["Daily"],
+    partOfSpeech: "noun, verb",
+    meaningEn:
+      "Knowledge or skill that is gained from doing, seeing, or feeling things; the way that something affects you.",
+    meaningVi: "Kinh nghiệm, trải nghiệm; (v) trải qua, nếm trải.",
+    exampleEn:
+      "The user experience (UX) of the chatbot is very smooth. / He has extensive experience in Python development.",
+    exampleVi:
+      "Trải nghiệm người dùng (UX) của chatbot rất mượt mà. / Anh ấy có kinh nghiệm dày dặn trong việc phát triển Python.",
+    categories: ["General", "Business", "Psychology"],
   },
   {
     word: "Experienced",

@@ -451,12 +451,55 @@ export const M1: VocabularyWord[] = [
     word: "Mark",
     slug: "mark",
     phonetic: "/mɑːrk/",
-    partOfSpeech: "noun/verb",
-    meaningEn: "A small area on a surface having a different color.",
-    meaningVi: "Đánh dấu.",
-    exampleEn: "Mark the answer.",
-    exampleVi: "Đánh dấu câu trả lời.",
-    categories: ["General"],
+    partOfSpeech: "noun, verb",
+    meaningEn:
+      "A sign, symbol, or line; a level or stage that was reached; to correct and give a score to someone's work.",
+    meaningVi: "Dấu vết, ký hiệu, điểm số; (v) đánh dấu, chấm điểm.",
+    exampleEn:
+      "The system uses a green box to mark the detected eyes. / I need to mark the students' quizzes by tonight.",
+    exampleVi:
+      "Hệ thống sử dụng một khung xanh để đánh dấu đôi mắt được phát hiện. / Tôi cần chấm điểm bài trắc nghiệm của học sinh trước tối nay.",
+    categories: ["General", "Education", "Technology"],
+  },
+  {
+    word: "Marked",
+    slug: "marked",
+    phonetic: "/mɑːrkt/",
+    partOfSpeech: "adjective",
+    meaningEn: "Very easily noticed; obvious.",
+    meaningVi: "Rõ rệt, đáng chú ý, rõ ràng.",
+    exampleEn:
+      "There is a marked difference between the two versions of the AI model. / He showed a marked improvement in his coding skills.",
+    exampleVi:
+      "Có một sự khác biệt rõ rệt giữa hai phiên bản của mô hình AI. / Anh ấy đã cho thấy một sự tiến bộ rõ rệt trong kỹ năng lập trình.",
+    categories: ["General", "Academic"],
+  },
+  {
+    word: "Marker",
+    slug: "marker",
+    phonetic: "/ˈmɑːr.kɚ/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "A sign that shows where something is; a tool for writing or drawing; a characteristic that helps identify something.",
+    meaningVi: "Bút lông, vật đánh dấu, mốc tọa độ.",
+    exampleEn:
+      "We use 68 facial markers to track the driver's movements. / Use a red marker to highlight the important parts of the document.",
+    exampleVi:
+      "Chúng tôi sử dụng 68 điểm đánh dấu khuôn mặt để theo dõi chuyển động của tài xế. / Hãy dùng bút lông đỏ để làm nổi bật các phần quan trọng của tài liệu.",
+    categories: ["Technology", "Education"],
+  },
+  {
+    word: "Markedly",
+    slug: "markedly",
+    phonetic: "/ˈmɑːr.kɪd.li/",
+    partOfSpeech: "adverb",
+    meaningEn: "In a very obvious or noticeable way.",
+    meaningVi: "Một cách rõ rệt, đáng kể.",
+    exampleEn:
+      "The search speed increased markedly after we optimized the vector database. / User engagement has risen markedly since the update.",
+    exampleVi:
+      "Tốc độ tìm kiếm đã tăng lên rõ rệt sau khi chúng tôi tối ưu hóa cơ sở dữ liệu vector. / Sự tương tác của người dùng đã tăng lên đáng kể kể từ bản cập nhật.",
+    categories: ["Academic", "Business", "Technology"],
   },
   {
     word: "Market",
