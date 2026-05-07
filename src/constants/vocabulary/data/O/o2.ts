@@ -451,6 +451,19 @@ export const O2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Overlook",
+    slug: "overlook",
+    phonetic: "/ˌoʊ.vɚˈlʊk/",
+    partOfSpeech: "verb",
+    meaningEn: "To fail to notice or consider something.",
+    meaningVi: "Bỏ sót, lờ đi, không chú ý tới.",
+    exampleEn:
+      "It is easy to overlook a small bug during the formative stage of development. / We cannot overlook the importance of hardware stability.",
+    exampleVi:
+      "Rất dễ bỏ sót một lỗi nhỏ trong giai đoạn hình thành của quá trình phát triển. / Chúng ta không thể lờ đi tầm quan trọng của sự ổn định phần cứng.",
+    categories: ["General", "Technology"],
+  },
+  {
     word: "Overuse",
     slug: "overuse",
     phonetic: "/ˌoʊ.vɚˈjuːs/",

@@ -301,6 +301,20 @@ export const S2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Simulate",
+    slug: "simulate",
+    phonetic: "/ˈsɪm.jə.leɪt/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To create a model or situation that has the appearance or properties of another.",
+    meaningVi: "Mô phỏng, giả lập.",
+    exampleEn:
+      "We used a software tool to simulate various driving conditions for the drowsiness app. / The training data aims to simulate real-world user queries.",
+    exampleVi:
+      "Chúng tôi đã sử dụng một công cụ phần mềm để mô phỏng các điều kiện lái xe khác nhau cho ứng dụng buồn ngủ. / Dữ liệu huấn luyện nhằm mục đích mô phỏng các truy vấn của người dùng trong thế giới thực.",
+    categories: ["Technology", "Science"],
+  },
+  {
     word: "Simulation",
     slug: "simulation",
     phonetic: "/ˌsɪm.jəˈleɪ.ʃən/",
@@ -351,6 +365,20 @@ export const S2: VocabularyWord[] = [
       "We modified the code to make it simpler and faster to execute. / Using a JSON format is much simpler than parsing raw text with complex Regex.",
     exampleVi:
       "Chúng tôi đã sửa đổi mã nguồn để làm cho nó đơn giản hơn và thực thi nhanh hơn. / Sử dụng định dạng JSON đơn giản hơn nhiều so với việc phân tích văn bản thô bằng Regex phức tạp.",
+    categories: ["General", "Technology", "Education"],
+  },
+  {
+    word: "Simplify",
+    slug: "simplify",
+    phonetic: "/ˈsɪm.plə.faɪ/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To make something less complicated and therefore easier to do or understand.",
+    meaningVi: "Đơn giản hóa, làm cho dễ hiểu hơn.",
+    exampleEn:
+      "The PDF Chatbot helps simplify complex research papers for students. / We need to simplify the allocator's logic to improve speed.",
+    exampleVi:
+      "Chatbot PDF giúp đơn giản hóa các bài báo nghiên cứu phức tạp cho sinh viên. / Chúng ta cần đơn giản hóa logic của bộ cấp phát để cải thiện tốc độ.",
     categories: ["General", "Technology", "Education"],
   },
   {
@@ -641,6 +669,19 @@ export const S2: VocabularyWord[] = [
     exampleEn: "A slow runner.",
     exampleVi: "Một người chạy chậm.",
     categories: ["Daily"],
+  },
+  {
+    word: "Slowly",
+    slug: "slowly",
+    phonetic: "/ˈsloʊ.li/",
+    partOfSpeech: "adverb",
+    meaningEn: "At a low speed; not quickly.",
+    meaningVi: "Một cách chậm rãi, thong thả.",
+    exampleEn:
+      "The system performance started to improve slowly after the update. / Move the camera slowly to allow the model to calibrate correctly.",
+    exampleVi:
+      "Hiệu suất hệ thống bắt đầu cải thiện chậm rãi sau bản cập nhật. / Di chuyển camera chậm rãi để mô hình có thể hiệu chuẩn chính xác.",
+    categories: ["General", "Logic"],
   },
   {
     word: "Small",
@@ -1323,6 +1364,20 @@ export const S2: VocabularyWord[] = [
     categories: ["General", "Technology", "Science"],
   },
   {
+    word: "Speculate",
+    slug: "speculate",
+    phonetic: "/ˈspek.jə.leɪt/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To guess possible answers to a question when you do not have enough facts to be certain.",
+    meaningVi: "Suy đoán, phỏng đoán, đưa ra giả thuyết.",
+    exampleEn:
+      "Researchers speculate that the new RAG architecture will reduce hallucinations. / It is too early to speculate on the final performance of the model.",
+    exampleVi:
+      "Các nhà nghiên cứu suy đoán rằng kiến trúc RAG mới sẽ giảm thiểu sự ảo giác. / Còn quá sớm để phỏng đoán về hiệu suất cuối cùng của mô hình.",
+    categories: ["Research", "Logic", "Finance"],
+  },
+  {
     word: "Speech",
     slug: "speech",
     phonetic: "/spiːtʃ/",
@@ -1458,6 +1513,61 @@ export const S2: VocabularyWord[] = [
     exampleEn: "Square shape.",
     exampleVi: "Hình vuông.",
     categories: ["General"],
+  },
+  {
+    word: "Stable",
+    slug: "stable",
+    phonetic: "/ˈsteɪ.bəl/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Firmly fixed or not likely to move or change; (of a system) not crashing.",
+    meaningVi: "Ổn định, vững chãi, không dễ bị biến động.",
+    exampleEn:
+      "After several patches, the PDF Chatbot is finally stable enough for production. / We need a stable internet connection for the real-time detection.",
+    exampleVi:
+      "Sau vài bản vá, PDF Chatbot cuối cùng đã đủ ổn định để đưa vào sử dụng thực tế. / Chúng ta cần một kết nối internet ổn định để thực hiện việc phát hiện trong thời gian thực.",
+    categories: ["Technology", "General", "Engineering"],
+  },
+  {
+    word: "Stabilize",
+    slug: "stabilize",
+    phonetic: "/ˈsteɪ.bə.laɪz/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To cause something to become fixed, stop changing, or stop being in a state of flux.",
+    meaningVi: "Làm cho ổn định, làm cho thăng bằng, củng cố.",
+    exampleEn:
+      "The new patch helped stabilize the system after the startling memory leak. / We need to stabilize the camera feed to improve the accuracy of the drowsiness detection.",
+    exampleVi:
+      "Bản vá mới đã giúp làm ổn định hệ thống sau sự cố rò rỉ bộ nhớ đáng kinh ngạc. / Chúng ta cần làm ổn định nguồn cấp dữ liệu camera để cải thiện độ chính xác của việc phát hiện buồn ngủ.",
+    categories: ["Technology", "Economics", "Engineering"],
+  },
+  {
+    word: "Stability",
+    slug: "stability",
+    phonetic: "/stəˈbɪl.ə.ti/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The state of being stable; the quality of not changing or being easily upset.",
+    meaningVi: "Sự ổn định, tính ổn định.",
+    exampleEn:
+      "System stability is our top priority prior to the public launch. / The lack of stability in the frame rate hindered the driver monitoring process.",
+    exampleVi:
+      "Sự ổn định của hệ thống là ưu tiên hàng đầu của chúng tôi trước khi ra mắt công chúng. / Việc thiếu sự ổn định trong tốc độ khung hình đã cản trở quá trình giám sát tài xế.",
+    categories: ["General", "Technology", "Science"],
+  },
+  {
+    word: "Stably",
+    slug: "stably",
+    phonetic: "/ˈsteɪ.bli/",
+    partOfSpeech: "adverb",
+    meaningEn: "In a way that is stable and not likely to change or fail.",
+    meaningVi: "Một cách ổn định, bền vững.",
+    exampleEn:
+      "The algorithm now runs stably even on low-end hardware. / The bridge was built to stand stably against high winds.",
+    exampleVi:
+      "Thuật toán hiện đã chạy một cách ổn định ngay cả trên phần cứng cấu hình thấp. / Cây cầu được xây dựng để đứng vững một cách ổn định trước gió lớn.",
+    categories: ["General", "Engineering"],
   },
   {
     word: "Staff",

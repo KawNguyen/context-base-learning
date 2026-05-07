@@ -310,6 +310,19 @@ export const I2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
+    word: "Innovate",
+    slug: "innovate",
+    phonetic: "/ˈɪn.ə.veɪt/",
+    partOfSpeech: "verb",
+    meaningEn: "To introduce changes and new ideas.",
+    meaningVi: "Đổi mới, cách tân, đưa ra những sáng kiến mới.",
+    exampleEn:
+      "To survive in the AI market, companies must innovate constantly. / We need to innovate our RAG pipeline to handle multi-modal data.",
+    exampleVi:
+      "Để tồn tại trên thị trường AI, các công ty phải đổi mới liên tục. / Chúng ta cần đổi mới quy trình RAG để xử lý dữ liệu đa phương thức.",
+    categories: ["Business", "Technology"],
+  },
+  {
     word: "Innovation",
     slug: "innovation",
     phonetic: "/ˌɪn.əˈveɪ.ʃən/",
@@ -319,6 +332,32 @@ export const I2: VocabularyWord[] = [
     exampleEn: "Product innovation is key to success.",
     exampleVi: "Đổi mới sản phẩm là chìa khóa của thành công.",
     categories: ["Daily"],
+  },
+  {
+    word: "Innovative",
+    slug: "innovative",
+    phonetic: "/ˈɪn.ə.veɪ.t̬ɪv/",
+    partOfSpeech: "adjective",
+    meaningEn: "Using new methods or ideas; advanced and original.",
+    meaningVi: "Có tính đổi mới, mang tính sáng tạo, tiên tiến.",
+    exampleEn:
+      "The team proposed an innovative solution to allay memory usage concerns. / Her innovative approach to driver monitoring improved accuracy greatly.",
+    exampleVi:
+      "Nhóm đã đề xuất một giải pháp sáng tạo để làm dịu các lo ngại về việc sử dụng bộ nhớ. / Cách tiếp cận đổi mới của cô ấy cho việc giám sát tài xế đã cải thiện độ chính xác đáng kể.",
+    categories: ["Technology", "General"],
+  },
+  {
+    word: "Innovatively",
+    slug: "innovatively",
+    phonetic: "/ˈɪn.ə.veɪ.t̬ɪv.li/",
+    partOfSpeech: "adverb",
+    meaningEn: "In a way that uses new methods or ideas.",
+    meaningVi: "Một cách đổi mới, sáng tạo, tiên tiến.",
+    exampleEn:
+      "The team innovatively solved the camera calibration issue. / We must think innovatively to downsize the model without losing accuracy.",
+    exampleVi:
+      "Nhóm đã giải quyết vấn đề hiệu chuẩn camera một cách sáng tạo. / Chúng ta phải tư duy đổi mới để thu nhỏ quy mô mô hình mà không làm mất đi độ chính xác.",
+    categories: ["Business", "Technology", "General"],
   },
   {
     word: "Input",
@@ -860,6 +899,19 @@ export const I2: VocabularyWord[] = [
     exampleEn: "The user interface is very friendly.",
     exampleVi: "Giao diện người dùng rất thân thiện.",
     categories: ["Technology"],
+  },
+  {
+    word: "Integrative",
+    slug: "integrative",
+    phonetic: "/ˈɪn.t̬ə.ɡreɪ.t̬ɪv/",
+    partOfSpeech: "adjective",
+    meaningEn: "Combining two or more things to form a whole.",
+    meaningVi: "Có tính tích hợp, có khả năng gắn kết.",
+    exampleEn:
+      "The project uses an integrative approach, combining RAG with traditional search. / We need an integrative framework to stabilize all subsystems.",
+    exampleVi:
+      "Dự án sử dụng một cách tiếp cận tích hợp, kết hợp RAG với tìm kiếm truyền thống. / Chúng ta cần một khung làm việc có tính tích hợp để làm ổn định tất cả các hệ thống con.",
+    categories: ["Science", "Technology", "Education"],
   },
   {
     word: "Interior",

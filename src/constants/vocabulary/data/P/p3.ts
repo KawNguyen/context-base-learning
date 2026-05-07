@@ -60,6 +60,34 @@ export const P3: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
+    word: "Professionalism",
+    slug: "professionalism",
+    phonetic: "/prəˈfeʃ.ən.əl.ɪ.zəm/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The combination of all the qualities that are connected with trained and skilled people.",
+    meaningVi: "Sự chuyên nghiệp, tác phong làm việc chuyên nghiệp.",
+    exampleEn:
+      "We pride ourselves on the professionalism of our RAG development team. / The project was completed with a high level of professionalism.",
+    exampleVi:
+      "Chúng tôi tự hào về sự chuyên nghiệp của đội ngũ phát triển RAG của mình. / Dự án đã được hoàn thành với mức độ chuyên nghiệp cao.",
+    categories: ["Business", "Work"],
+  },
+  {
+    word: "Professionally",
+    slug: "professionally",
+    phonetic: "/prəˈfeʃ.ən.əl.i/",
+    partOfSpeech: "adverb",
+    meaningEn:
+      "In a way that relates to a person's work, or that shows great skill and high standards.",
+    meaningVi: "Một cách chuyên nghiệp, có kỹ năng và tiêu chuẩn cao.",
+    exampleEn:
+      "The UI for the Driver Drowsiness Detection app was professionally designed. / You handled that system crash very professionally.",
+    exampleVi:
+      "Giao diện của ứng dụng Phát hiện buồn ngủ được thiết kế một cách chuyên nghiệp. / Bạn đã xử lý sự cố sập hệ thống đó rất chuyên nghiệp.",
+    categories: ["Work", "Business", "General"],
+  },
+  {
     word: "Professor",
     slug: "professor",
     phonetic: "/prəˈfes.ɚ/",
@@ -199,6 +227,19 @@ export const P3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Prohibit",
+    slug: "prohibit",
+    phonetic: "/prəˈhɪb.ɪt/",
+    partOfSpeech: "verb",
+    meaningEn: "To officially refuse to allow something.",
+    meaningVi: "Cấm, ngăn cấm (bằng luật pháp hoặc quy định).",
+    exampleEn:
+      "The system will prohibit unauthorized access to the server. / Stringent laws prohibit the use of mobile phones while driving.",
+    exampleVi:
+      "Hệ thống sẽ cấm các truy cập trái phép vào máy chủ. / Luật pháp nghiêm ngặt cấm sử dụng điện thoại di động khi đang lái xe.",
+    categories: ["Legal", "Technology", "General"],
+  },
+  {
     word: "Project",
     slug: "project",
     phonetic: "/ˈprɑː.dʒekt/",
@@ -222,6 +263,19 @@ export const P3: VocabularyWord[] = [
     categories: ["Business"],
   },
   {
+    word: "Prominence",
+    slug: "prominence",
+    phonetic: "/ˈprɑː.mə.nəns/",
+    partOfSpeech: "noun",
+    meaningEn: "The state of being easily seen or important.",
+    meaningVi: "Sự nổi bật, sự quan trọng, địa vị đáng chú ý.",
+    exampleEn:
+      "The issue of AI ethics has come to prominence in recent years. / We need to give more prominence to the 'Emergency Alert' button in the app.",
+    exampleVi:
+      "Vấn đề đạo đức AI đã trở nên nổi bật trong những năm gần đây. / Chúng ta cần tăng sự nổi bật cho nút 'Cảnh báo khẩn cấp' trong ứng dụng.",
+    categories: ["General", "Social", "Design"],
+  },
+  {
     word: "Prominent",
     slug: "prominent",
     phonetic: "/ˈprɑː.mə.nənt/",
@@ -231,6 +285,19 @@ export const P3: VocabularyWord[] = [
     exampleEn: "A prominent figure in the community.",
     exampleVi: "Một nhân vật nổi bật trong cộng đồng.",
     categories: ["Social"],
+  },
+  {
+    word: "Prominently",
+    slug: "prominently",
+    phonetic: "/ˈprɑː.mə.nənt.li/",
+    partOfSpeech: "adverb",
+    meaningEn: "In a way that can easily be seen or noticed.",
+    meaningVi: "Một cách nổi bật, đáng chú ý, ở vị trí dễ thấy.",
+    exampleEn:
+      "The student's score is prominently displayed at the top of the dashboard. / These keywords are prominently featured in the research publication.",
+    exampleVi:
+      "Điểm của học sinh được hiển thị nổi bật ở đầu bảng điều khiển. / Những từ khóa này được xuất hiện nổi bật trong ấn phẩm nghiên cứu.",
+    categories: ["General", "Design", "Marketing"],
   },
   {
     word: "Promise",
@@ -285,6 +352,20 @@ export const P3: VocabularyWord[] = [
     exampleVi:
       "Chatbot đã phản hồi ngay lập tức câu hỏi của người dùng. / Vui lòng đến đúng 8 giờ sáng để họp.",
     categories: ["General", "Technology", "Business"],
+  },
+  {
+    word: "Promptness",
+    slug: "promptness",
+    phonetic: "/ˈprɑːmpt.nəs/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The quality of doing something quickly and without delay, or at the right time.",
+    meaningVi: "Sự mau lẹ, sự nhanh chóng, sự đúng giờ.",
+    exampleEn:
+      "The promptness of the AI's response surprised the students. / We value the promptness of your feedback during the testing phase.",
+    exampleVi:
+      "Sự mau lẹ trong phản hồi của AI đã làm các sinh viên ngạc nhiên. / Chúng tôi coi trọng sự nhanh chóng trong phản hồi của bạn trong giai đoạn thử nghiệm.",
+    categories: ["General", "Business", "Communication"],
   },
   {
     word: "Pronounce",
@@ -533,6 +614,34 @@ export const P3: VocabularyWord[] = [
     categories: ["Social"],
   },
   {
+    word: "Publication",
+    slug: "publication",
+    phonetic: "/ˌpʌb.lɪˈkeɪ.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The act of making information or writing available to the public; a book, magazine, or report that is published.",
+    meaningVi: "Sự công bố, sự xuất bản; ấn phẩm, bài báo khoa học.",
+    exampleEn:
+      "The publication of the research paper led to a startling interest from investors. / This technical publication explains how our RAG system handles PDF data.",
+    exampleVi:
+      "Việc công bố bài báo nghiên cứu đã dẫn đến một sự quan tâm đáng kinh ngạc từ các nhà đầu tư. / Ấn phẩm kỹ thuật này giải thích cách hệ thống RAG của chúng tôi xử lý dữ liệu PDF.",
+    categories: ["Academic", "Business", "Communication"],
+  },
+  {
+    word: "Publicly",
+    slug: "publicly",
+    phonetic: "/ˈpʌb.lɪk.li/",
+    partOfSpeech: "adverb",
+    meaningEn:
+      "In a way that can be seen by anyone; by the government rather than a private company.",
+    meaningVi: "Một cách công khai, trước công chúng.",
+    exampleEn:
+      "The company publicly announced the launch of its new AI model yesterday. / Our source code is now publicly available on GitHub.",
+    exampleVi:
+      "Công ty đã thông báo công khai việc ra mắt mô hình AI mới của mình vào ngày hôm qua. / Mã nguồn của chúng tôi hiện đã có sẵn công khai trên GitHub.",
+    categories: ["General", "Business", "Technology"],
+  },
+  {
     word: "Publish",
     slug: "publish",
     phonetic: "/ˈpʌb.lɪʃ/",
@@ -575,6 +684,20 @@ export const P3: VocabularyWord[] = [
     exampleEn: "Punish criminals.",
     exampleVi: "Trừng phạt tội phạm.",
     categories: ["Law"],
+  },
+  {
+    word: "Punitive",
+    slug: "punitive",
+    phonetic: "/ˈpjuː.nə.t̬ɪv/",
+    partOfSpeech: "adjective",
+    meaningEn: "Intended as a punishment; (of taxes or prices) extremely high.",
+    meaningVi:
+      "Có tính trừng phạt, nhằm trừng phạt; (thuế/giá cả) cao đến mức khắc nghiệt.",
+    exampleEn:
+      "The government imposed punitive taxes on companies that violate environmental laws. / Stringent security policies are meant to be preventive, not punitive.",
+    exampleVi:
+      "Chính phủ đã áp đặt các mức thuế trừng phạt đối với các công ty vi phạm luật môi trường. / Các chính sách bảo mật khắt khe được tạo ra để phòng ngừa chứ không phải để trừng phạt.",
+    categories: ["Legal", "Business", "General"],
   },
   {
     word: "Pupil",

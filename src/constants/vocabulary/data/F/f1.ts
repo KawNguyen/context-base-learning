@@ -426,9 +426,10 @@ export const F1: VocabularyWord[] = [
     word: "Fair",
     slug: "fair",
     phonetic: "/fer/",
-    partOfSpeech: "adjective",
-    meaningEn: "Treating people equally without favoritism.",
-    meaningVi: "Công bằng.",
+    partOfSpeech: "adjective/noun",
+    meaningEn: "Treating people equally without favoritism/discrimination/.",
+    meaningVi:
+      "Công bằng, hợp lý, không thiên vị/Khá, mức độ trung bình; (Thời tiết) đẹp, tạnh ráo/Hội chợ, triễn lãm, ngày hội.",
     exampleEn: "That's not fair.",
     exampleVi: "Điều đó không công bằng.",
     categories: ["General"],

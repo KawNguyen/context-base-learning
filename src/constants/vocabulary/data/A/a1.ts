@@ -696,6 +696,20 @@ export const A1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
+    word: "Adaptation",
+    slug: "adaptation",
+    phonetic: "/ˌæd.əpˈteɪ.ʃən/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The process of changing to suit different conditions; a movie or book that is based on another work.",
+    meaningVi: "Sự thích nghi, sự điều chỉnh; tác phẩm chuyển thể.",
+    exampleEn:
+      "The adaptation of the AI model for mobile devices was successful. / This software is an adaptation of an older research tool.",
+    exampleVi:
+      "Việc điều chỉnh mô hình AI cho các thiết bị di động đã thành công. / Phần mềm này là một sự biến đổi từ một công cụ nghiên cứu cũ hơn.",
+    categories: ["Biology", "Technology", "Art"],
+  },
+  {
     word: "Adapter",
     slug: "adapter",
     phonetic: "/əˈdæp.tər/",
@@ -799,6 +813,19 @@ export const A1: VocabularyWord[] = [
     exampleEn: "Please write down your address.",
     exampleVi: "Làm ơn hãy viết địa chỉ của bạn lại.",
     categories: ["Daily"],
+  },
+  {
+    word: "Addressee",
+    slug: "addressee",
+    phonetic: "/ˌæd.resˈiː/",
+    partOfSpeech: "noun",
+    meaningEn: "The person to whom a letter, package, or message is addressed.",
+    meaningVi: "Người nhận (thư, bưu phẩm, thông điệp).",
+    exampleEn:
+      "The system failed to deliver the notification because the addressee's email was invalid. / Ensure the addressee is clearly identified in the metadata.",
+    exampleVi:
+      "Hệ thống không gửi được thông báo vì email của người nhận không hợp lệ. / Đảm bảo người nhận được xác định rõ ràng trong siêu dữ liệu.",
+    categories: ["Communication", "General"],
   },
   {
     word: "Adequate",
@@ -1077,6 +1104,19 @@ export const A1: VocabularyWord[] = [
     exampleEn: "Adverse weather conditions.",
     exampleVi: "Điều kiện thời tiết bất lợi.",
     categories: ["Daily"],
+  },
+  {
+    word: "Adversely",
+    slug: "adversely",
+    phonetic: "/ædˈvɝːs.li/",
+    partOfSpeech: "adverb",
+    meaningEn: "In a way that has a negative or harmful effect on something.",
+    meaningVi: "Một cách bất lợi, tiêu cực, gây hại.",
+    exampleEn:
+      "The high latency adversely affected the real-time detection of the driver's gaze. / Poor lighting conditions can adversely impact the model's accuracy.",
+    exampleVi:
+      "Độ trễ cao đã ảnh hưởng tiêu cực đến việc phát hiện ánh nhìn của tài xế trong thời gian thực. / Điều kiện ánh sáng kém có thể tác động bất lợi đến độ chính xác của mô hình.",
+    categories: ["Technology", "General", "Business"],
   },
   {
     word: "Advertise",

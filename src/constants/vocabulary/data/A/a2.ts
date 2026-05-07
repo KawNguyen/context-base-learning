@@ -146,6 +146,19 @@ export const A2: VocabularyWord[] = [
     categories: ["Business", "People"],
   },
   {
+    word: "Aggravate",
+    slug: "aggravate",
+    phonetic: "/ˈæɡ.rə.veɪt/",
+    partOfSpeech: "verb",
+    meaningEn: "To make a bad situation or condition worse.",
+    meaningVi: "Làm trầm trọng thêm, làm xấu đi tình hình.",
+    exampleEn:
+      "Ignoring the memory leak will only aggravate the system's performance issues. / High temperatures can aggravate the hardware failure rate.",
+    exampleVi:
+      "Việc lờ đi lỗi rò rỉ bộ nhớ sẽ chỉ làm trầm trọng thêm các vấn đề hiệu suất của hệ thống. / Nhiệt độ cao có thể làm trầm trọng thêm tỉ lệ hỏng hóc phần cứng.",
+    categories: ["General", "Medical", "Technology"],
+  },
+  {
     word: "Aggregate",
     slug: "aggregate",
     phonetic: "/ˈæɡ.rə.ɡət/",
@@ -550,6 +563,20 @@ export const A2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Allay",
+    slug: "allay",
+    phonetic: "/əˈleɪ/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To make a negative emotion less strong or to relieve fear, doubt, or suspicion.",
+    meaningVi: "Làm dịu đi, trấn an, làm giảm bớt (lo lắng, nghi ngờ).",
+    exampleEn:
+      "The team's professionalism helped allay the client's fears about data security. / We released a patch to allay concerns regarding system stability.",
+    exampleVi:
+      "Sự chuyên nghiệp của đội ngũ đã giúp làm dịu đi nỗi sợ của khách hàng về bảo mật dữ liệu. / Chúng tôi đã phát hành một bản vá để làm giảm bớt những lo ngại về sự ổn định của hệ thống.",
+    categories: ["General", "Psychology", "Business"],
+  },
+  {
     word: "Allegation",
     slug: "allegation",
     phonetic: "/ˌæl.əˈɡeɪ.ʃən/",
@@ -640,6 +667,20 @@ export const A2: VocabularyWord[] = [
     exampleEn: "Allocate funds.",
     exampleVi: "Phân bổ kinh phí.",
     categories: ["Business"],
+  },
+  {
+    word: "Allocator",
+    slug: "allocator",
+    phonetic: "/ˈæl.ə.keɪ.t̬ɚ/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "A person or thing that assigns resources or duties to particular people or for particular purposes.",
+    meaningVi: "Bộ cấp phát, người phân bổ (tài nguyên, bộ nhớ).",
+    exampleEn:
+      "The custom memory allocator helped stabilize the system's performance. / The task allocator ensures every team member has a balanced workload.",
+    exampleVi:
+      "Bộ cấp phát bộ nhớ tùy chỉnh đã giúp làm ổn định hiệu suất của hệ thống. / Bộ phân bổ nhiệm vụ đảm bảo mọi thành viên trong nhóm đều có khối lượng công việc cân bằng.",
+    categories: ["Technology", "Management"],
   },
   {
     word: "Allocation",

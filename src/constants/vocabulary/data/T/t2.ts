@@ -781,6 +781,19 @@ export const T2: VocabularyWord[] = [
     categories: ["Travel"],
   },
   {
+    word: "Trivial",
+    slug: "trivial",
+    phonetic: "/ˈtrɪv.i.əl/",
+    partOfSpeech: "adjective",
+    meaningEn: "Having little value or importance; easy to solve.",
+    meaningVi: "Tầm thường, không đáng kể, ít quan trọng.",
+    exampleEn:
+      "Don't waste time on trivial bugs when the core allocator is broken. / The difference in speed was so trivial that users didn't notice it.",
+    exampleVi:
+      "Đừng lãng phí thời gian vào những lỗi không đáng kể khi mà bộ cấp phát cốt lõi đang bị hỏng. / Sự khác biệt về tốc độ là rất nhỏ đến mức người dùng không nhận ra.",
+    categories: ["General", "Logic", "Mathematics"],
+  },
+  {
     word: "Trouble",
     slug: "trouble",
     phonetic: "/ˈtrʌb.əl/",

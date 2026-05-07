@@ -792,6 +792,20 @@ export const L1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Lethargically",
+    slug: "lethargically",
+    phonetic: "/ləˈθɑːr.dʒɪ.kəl.i/",
+    partOfSpeech: "adverb",
+    meaningEn:
+      "In a way that lacks energy or enthusiasm; reacting very slowly.",
+    meaningVi: "Một cách lờ đờ, uể oải, chậm chạp (thiếu sức sống).",
+    exampleEn:
+      "The driver moved his eyes lethargically, indicating severe fatigue. / After the update, the UI seems to respond lethargically.",
+    exampleVi:
+      "Tài xế đảo mắt một cách lờ đờ, cho thấy sự mệt mỏi nghiêm trọng. / Sau bản cập nhật, giao diện người dùng có vẻ phản hồi một cách chậm chạp.",
+    categories: ["Biology", "Psychology", "Technology"],
+  },
+  {
     word: "Letter",
     slug: "letter",
     phonetic: "/ˈlet.ɚ/",

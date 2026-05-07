@@ -820,6 +820,19 @@ export const E7: VocabularyWord[] = [
     categories: ["General", "Psychology"],
   },
   {
+    word: "Erratically",
+    slug: "erratically",
+    phonetic: "/ɪˈræt̬.ɪ.kəl.i/",
+    partOfSpeech: "adverb",
+    meaningEn: "In a way that is not regular, certain, or expected.",
+    meaningVi: "Một cách thất thường, không đều, không ổn định.",
+    exampleEn:
+      "The sensor behaved erratically under low light, leading to false alarms. / The system's memory usage is fluctuating erratically.",
+    exampleVi:
+      "Cảm biến hoạt động một cách thất thường trong điều kiện ánh sáng yếu, dẫn đến báo động giả. / Việc sử dụng bộ nhớ của hệ thống đang biến động một cách thất thường.",
+    categories: ["Technology", "Science", "General"],
+  },
+  {
     word: "Erroneous",
     slug: "erroneous",
     phonetic: "/əˈroʊ.ni.əs/",

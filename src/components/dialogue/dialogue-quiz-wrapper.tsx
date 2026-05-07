@@ -10,8 +10,6 @@ import CEFRBadge from "../cefr-badge";
 import { CEFRLevel } from "@/types";
 import { Progress } from "../ui/progress";
 import { AnswerButton } from "@/components/answer-button";
-import { ExplanationAlert } from "@/components/explanation-alert";
-import { useShuffleOptions } from "@/hooks/use-shuffle-options";
 
 interface DialogueQuizWrapperProps {
   dialogue: Dialogue;

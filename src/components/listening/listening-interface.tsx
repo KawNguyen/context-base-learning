@@ -10,14 +10,12 @@ import {
 } from "@/constants/listening/types";
 import { useRouter, useParams } from "next/navigation";
 import {
-  CheckCircle2Icon,
   Play,
   Pause,
   RotateCcw,
   AudioLines,
   Trophy,
   History,
-  XCircleIcon,
   ArrowLeft,
 } from "lucide-react";
 import CEFRBadge from "../cefr-badge";
@@ -26,7 +24,6 @@ import { Progress } from "../ui/progress";
 import { Input } from "../ui/input";
 import { useSpeech } from "@/hooks/use-speech";
 import { Slider } from "../ui/slider";
-import { Alert, AlertDescription, AlertTitle } from "../ui/alert";
 import { shuffleArray } from "@/lib/utils";
 
 interface ListeningInterfaceProps {

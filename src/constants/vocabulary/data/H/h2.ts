@@ -710,6 +710,32 @@ export const H2: VocabularyWord[] = [
     categories: ["Social", "Academic"],
   },
   {
+    word: "Height",
+    slug: "height",
+    phonetic: "/haɪt/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The measurement of someone or something from head to foot or from base to top.",
+    meaningVi: "Chiều cao.",
+    exampleEn: "The height of the building is 100 meters.",
+    exampleVi: "Chiều cao của tòa nhà là 100 mét.",
+    categories: ["General", "Science"],
+  },
+  {
+    word: "Heighten",
+    slug: "heighten",
+    phonetic: "/ˈhaɪ.t̬ən/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To increase or make something increase, especially an emotion or effect.",
+    meaningVi: "Tăng cường, nâng cao, làm mạnh thêm.",
+    exampleEn:
+      "The new sound effects heighten the sense of urgency in the drowsiness alert. / Stringent security measures heighten user trust in the platform.",
+    exampleVi:
+      "Các hiệu ứng âm thanh mới làm tăng cường cảm giác khẩn cấp trong cảnh báo buồn ngủ. / Các biện pháp bảo mật nghiêm ngặt nâng cao sự tin tưởng của người dùng vào nền tảng.",
+    categories: ["General", "Psychology", "Technology"],
+  },
+  {
     word: "Heirarchy",
     slug: "heirarchy",
     phonetic: "/ˈhaɪ.rɑːr.ki/",
@@ -992,6 +1018,20 @@ export const H2: VocabularyWord[] = [
     exampleEn: "We went for a hike in the mountains.",
     exampleVi: "Chúng tôi đã đi bộ đường dài trong núi.",
     categories: ["General", "Travel"],
+  },
+  {
+    word: "Hinder",
+    slug: "hinder",
+    phonetic: "/ˈhɪn.dɚ/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To limit the ability of someone to do something, or to limit the development of something.",
+    meaningVi: "Cản trở, gây trở ngại, làm chậm trễ.",
+    exampleEn:
+      "The lack of high-quality data will hinder the progress of the RAG project. / High latency can markedly hinder the user experience.",
+    exampleVi:
+      "Việc thiếu dữ liệu chất lượng cao sẽ cản trở tiến độ của dự án RAG. / Độ trễ cao có thể gây trở ngại rõ rệt cho trải nghiệm người dùng.",
+    categories: ["General", "Business", "Technology"],
   },
   {
     word: "Historian",

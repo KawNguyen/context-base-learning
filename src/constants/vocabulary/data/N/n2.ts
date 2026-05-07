@@ -487,6 +487,19 @@ export const N2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Notwithstanding",
+    slug: "notwithstanding",
+    phonetic: "/ˌnɑːt.wɪθˈstæn.dɪŋ/",
+    partOfSpeech: "preposition / adverb",
+    meaningEn: "Despite the fact or thing mentioned; nevertheless.",
+    meaningVi: "Mặc dù, bất kể, tuy nhiên, ấy thế mà.",
+    exampleEn:
+      "Notwithstanding the preliminary stage of the project, the system stability is impressive. / The data was scarce; notwithstanding, the team managed to train a fair model.",
+    exampleVi:
+      "Bất kể dự án đang ở giai đoạn sơ bộ, sự ổn định của hệ thống vẫn rất ấn tượng. / Dữ liệu rất khan hiếm; tuy nhiên, nhóm vẫn xoay sở để huấn luyện được một mô hình khá.",
+    categories: ["Formal", "Legal", "Academic"],
+  },
+  {
     word: "Novel",
     slug: "novel",
     phonetic: "/ˈnɑː.vəl/",

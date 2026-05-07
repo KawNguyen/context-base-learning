@@ -471,6 +471,20 @@ export const P2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
+    word: "Positively",
+    slug: "positively",
+    phonetic: "/ˈpɑː.zə.t̬ɪv.li/",
+    partOfSpeech: "adverb",
+    meaningEn:
+      "In a good or constructive way; used to emphasize that something is true.",
+    meaningVi: "Một cách tích cực; (nhấn mạnh) chắc chắn, quả quyết.",
+    exampleEn:
+      "The formative feedback was positively received by the students. / We can positively identify the cause of the system crash now.",
+    exampleVi:
+      "Phản hồi định hướng đã được các học sinh đón nhận một cách tích cực. / Hiện tại chúng ta có thể xác định chắc chắn nguyên nhân gây sập hệ thống.",
+    categories: ["General", "Psychology", "Logic"],
+  },
+  {
     word: "Possess",
     slug: "possess",
     phonetic: "/pəˈzes/",
@@ -502,6 +516,34 @@ export const P2: VocabularyWord[] = [
     exampleEn: "Post a photo.",
     exampleVi: "Đăng một bức ảnh.",
     categories: ["Technology", "Social", "Daily"],
+  },
+  {
+    word: "Postpone",
+    slug: "postpone",
+    phonetic: "/poʊstˈpoʊn/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To delay an event and plan or decide that it should happen at a later time than originally planned.",
+    meaningVi: "Trì hoãn, dời lịch lại (sang một thời điểm muộn hơn).",
+    exampleEn:
+      "We had to postpone the launch of the PDF Chatbot due to a minor bug. / They decided to postpone the meeting until next Monday.",
+    exampleVi:
+      "Chúng tôi đã phải dời lịch ra mắt PDF Chatbot do một lỗi nhỏ. / Họ đã quyết định hoãn cuộc họp cho đến thứ Hai tuần tới.",
+    categories: ["Business", "General"],
+  },
+  {
+    word: "Postponement",
+    slug: "postponement",
+    phonetic: "/poʊstˈpoʊn.mənt/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "A delay in an event or a plan so that it happens at a later time.",
+    meaningVi: "Sự trì hoãn, sự dời lịch.",
+    exampleEn:
+      "The postponement of the project caused a startling reaction from the investors. / Can we request a postponement of the deadline?",
+    exampleVi:
+      "Việc dời dự án lại đã gây ra một phản ứng đáng kinh ngạc từ các nhà đầu tư. / Chúng ta có thể yêu cầu dời hạn chót lại được không?",
+    categories: ["Business", "Formal"],
   },
   {
     word: "Potato",
@@ -684,6 +726,20 @@ export const P2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Preceded",
+    slug: "preceded",
+    phonetic: "/priːˈsiː.dɪd/",
+    partOfSpeech: "verb (past participle)",
+    meaningEn:
+      "Happened, came, or went before something else in time, order, or place.",
+    meaningVi: "Đã xảy ra trước, đứng trước.",
+    exampleEn:
+      "The launch was preceded by months of stringent testing. / A brief introduction preceded the main explanation in the quiz.",
+    exampleVi:
+      "Buổi ra mắt đã được tiến hành sau (được tiền đề bởi) nhiều tháng kiểm thử nghiêm ngặt. / Một phần giới thiệu ngắn gọn đã đứng trước phần giải thích chính trong bài trắc nghiệm.",
+    categories: ["General", "Logic", "History"],
+  },
+  {
     word: "Precedent",
     slug: "precedent",
     phonetic: "/ˈpres.ɪ.dənt/",
@@ -777,6 +833,20 @@ export const P2: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
+    word: "Preliminary",
+    slug: "preliminary",
+    phonetic: "/prɪˈlɪm.ə.ner.i/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Coming before a more important action or event, forming an introduction or preparatory stage.",
+    meaningVi: "Sơ bộ, mở đầu, mang tính chuẩn bị.",
+    exampleEn:
+      "The preliminary results of the RAG system show great potential. / We conducted a preliminary study before launching the project officially.",
+    exampleVi:
+      "Các kết quả sơ bộ của hệ thống RAG cho thấy tiềm năng rất lớn. / Chúng tôi đã thực hiện một nghiên cứu sơ bộ trước khi chính thức ra mắt dự án.",
+    categories: ["Research", "General", "Business"],
+  },
+  {
     word: "Premise",
     slug: "premise",
     phonetic: "/ˈprem.ɪs/",
@@ -835,6 +905,20 @@ export const P2: VocabularyWord[] = [
     exampleEn: "Possess great prescience.",
     exampleVi: "Có khả năng tiên tri tuyệt vời.",
     categories: ["Academic"],
+  },
+  {
+    word: "Prescribed",
+    slug: "prescribed",
+    phonetic: "/prɪˈskraɪbd/",
+    partOfSpeech: "adjective / verb (past participle)",
+    meaningEn:
+      "Set down as a rule or guide; (of a medicine) recommended by a doctor.",
+    meaningVi: "Được quy định, đã định sẵn; được kê đơn.",
+    exampleEn:
+      "The system must operate within the prescribed safety limits. / The algorithm follows a prescribed set of steps to process the PDF.",
+    exampleVi:
+      "Hệ thống phải hoạt động trong các giới hạn an toàn đã được quy định. / Thuật toán tuân theo một tập hợp các bước đã định sẵn để xử lý tệp PDF.",
+    categories: ["Legal", "Technology", "Medical"],
   },
   {
     word: "Prescription",
@@ -1075,6 +1159,20 @@ export const P2: VocabularyWord[] = [
     exampleEn: "Print a document.",
     exampleVi: "In tài liệu.",
     categories: ["Technology"],
+  },
+  {
+    word: "Prior",
+    slug: "prior",
+    phonetic: "/ˈpraɪ.ɚ/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Existing or happening before something else, or before a particular time.",
+    meaningVi: "Trước, diễn ra trước, có trước.",
+    exampleEn:
+      "Prior to the update, the app had several memory leak issues. / No prior experience is required to use this interactive quiz.",
+    exampleVi:
+      "Trước bản cập nhật, ứng dụng đã gặp một số vấn đề về rò rỉ bộ nhớ. / Không yêu cầu kinh nghiệm trước đó để sử dụng bài trắc nghiệm tương tác này.",
+    categories: ["General", "Formal", "Time"],
   },
   {
     word: "Priority",

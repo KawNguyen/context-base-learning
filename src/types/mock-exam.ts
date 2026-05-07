@@ -38,7 +38,7 @@ export interface MockExam {
     readingScore: number;
     correctCount: number;
     totalCount: number;
-    answers: Record<string, any>; // key is question id, value is selected option index or array of indices
+    answers: Record<string, number | number[]>; // key is question id, value is selected option index or array of indices
   };
 }
 

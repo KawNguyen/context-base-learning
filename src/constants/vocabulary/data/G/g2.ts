@@ -904,6 +904,19 @@ export const G2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Greatly",
+    slug: "greatly",
+    phonetic: "/ˈɡreɪt.li/",
+    partOfSpeech: "adverb",
+    meaningEn: "Very much; to a large degree.",
+    meaningVi: "Rất nhiều, đáng kể, cực kỳ.",
+    exampleEn:
+      "The new memory allocator greatly improved the stability of the PDF Chatbot. / Your contribution has greatly helped the team meet the deadline.",
+    exampleVi:
+      "Bộ cấp phát bộ nhớ mới đã cải thiện đáng kể sự ổn định của PDF Chatbot. / Sự đóng góp của bạn đã giúp ích rất nhiều cho nhóm trong việc kịp hạn chót.",
+    categories: ["General", "Statistics"],
+  },
+  {
     word: "Green",
     slug: "green",
     phonetic: "/ɡriːn/",

@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { QUESTION_RESPONSE_DATA } from "@/constants/question-response/data";
 import { shuffleArray } from "@/lib/utils";
-import { CEFRLevel } from "@/types";
 
 export async function GET(
   request: NextRequest,

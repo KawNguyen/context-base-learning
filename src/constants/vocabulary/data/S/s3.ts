@@ -16,6 +16,19 @@ export const S3: VocabularyWord[] = [
     categories: ["Economics", "General", "Business"],
   },
   {
+    word: "Stagnate",
+    slug: "stagnate",
+    phonetic: "/ˈstæɡ.neɪt/",
+    partOfSpeech: "verb",
+    meaningEn: "To stay the same and not grow or develop; to stop flowing.",
+    meaningVi: "Trì trệ, đình trệ, ngừng phát triển.",
+    exampleEn:
+      "Without innovation, the project will quickly stagnate. / The water in the cooling system began to stagnate.",
+    exampleVi:
+      "Nếu không có sự đổi mới, dự án sẽ nhanh chóng bị trì trệ. / Nước trong hệ thống làm mát bắt đầu bị ứ đọng.",
+    categories: ["Economics", "General", "Science"],
+  },
+  {
     word: "Stairs",
     slug: "stairs",
     phonetic: "/sterz/",
@@ -207,6 +220,20 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    word: "Stifle",
+    slug: "stifle",
+    phonetic: "/ˈstaɪ.fəl/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To prevent something from happening, being expressed, or continuing; to make someone unable to breathe properly.",
+    meaningVi: "Kìm hãm, dập tắt, ngăn chặn (sự phát triển/ý tưởng).",
+    exampleEn:
+      "Too many stringent regulations can stifle innovation within the startup. / He tried to stifle a yawn during the stagnant meeting.",
+    exampleVi:
+      "Quá nhiều quy định khắt khe có thể kìm hãm sự đổi mới trong công ty khởi nghiệp. / Anh ấy đã cố gắng kìm nén một cái ngáp trong suốt cuộc họp trì trệ.",
+    categories: ["Business", "General", "Psychology"],
+  },
+  {
     word: "Still",
     slug: "still",
     phonetic: "/stɪl/",
@@ -216,6 +243,34 @@ export const S3: VocabularyWord[] = [
     exampleEn: "Still waiting.",
     exampleVi: "Vẫn đang chờ.",
     categories: ["General"],
+  },
+  {
+    word: "Stipulate",
+    slug: "stipulate",
+    phonetic: "/ˈstɪp.jə.leɪt/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To state exactly what must be done or how something must be done.",
+    meaningVi: "Quy định, đặt điều kiện, ghi rõ trong điều khoản.",
+    exampleEn:
+      "The project guidelines stipulate that all user data must be handled confidentially. / The contract stipulates a delivery date for the final publication.",
+    exampleVi:
+      "Hướng dẫn dự án quy định rằng tất cả dữ liệu người dùng phải được xử lý một cách cẩn mật. / Hợp đồng ghi rõ ngày bàn giao cho ấn phẩm cuối cùng.",
+    categories: ["Legal", "Formal", "Business"],
+  },
+  {
+    word: "Stimulate",
+    slug: "stimulate",
+    phonetic: "/ˈstɪm.jə.leɪt/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To encourage something to grow, develop, or become more active.",
+    meaningVi: "Kích thích, thúc đẩy, khuyến khích.",
+    exampleEn:
+      "The goal of the interactive quiz is to stimulate student interest in AI. / Lower interest rates can stimulate the economy.",
+    exampleVi:
+      "Mục tiêu của bài trắc nghiệm tương tác là kích thích sự hứng thú của học sinh đối với AI. / Lãi suất thấp hơn có thể thúc đẩy nền kinh tế.",
+    categories: ["General", "Economics", "Biology"],
   },
   {
     word: "Stoic",
@@ -1065,6 +1120,20 @@ export const S3: VocabularyWord[] = [
     exampleEn: "Sustainable development goals.",
     exampleVi: "Các mục tiêu phát triển bền vững.",
     categories: ["Business", "Daily", "Environment"],
+  },
+  {
+    word: "Sustainably",
+    slug: "sustainably",
+    phonetic: "/səˈsteɪ.nə.bli/",
+    partOfSpeech: "adverb",
+    meaningEn:
+      "In a way that can be continued over a long period of time; in a way that causes little or no damage to the environment.",
+    meaningVi: "Một cách bền vững, có thể duy trì lâu dài.",
+    exampleEn:
+      "We need to optimize the RAG model so it can run sustainably on local servers without high costs. / The project was developed sustainably, ensuring easy maintenance for future developers.",
+    exampleVi:
+      "Chúng ta cần tối ưu hóa mô hình RAG để nó có thể chạy một cách bền vững trên máy chủ cục bộ mà không tốn kém chi phí cao. / Dự án được phát triển một cách bền vững, đảm bảo việc bảo trì dễ dàng cho các lập trình viên tương lai.",
+    categories: ["Environment", "Business", "Technology"],
   },
   {
     word: "Swallow",

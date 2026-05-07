@@ -640,6 +640,20 @@ export const D17: VocabularyWord[] = [
     categories: ["Technology", "Daily"],
   },
   {
+    word: "Downplay",
+    slug: "downplay",
+    phonetic: "/ˌdaʊnˈpleɪ/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To make something seem less important or less bad than it really is.",
+    meaningVi: "Hạ thấp tầm quan trọng, nói giảm nói tránh, làm nhẹ đi.",
+    exampleEn:
+      "The developer tried to downplay the severity of the memory leak. / You shouldn't downplay your achievements in the RAG project.",
+    exampleVi:
+      "Lập trình viên đã cố gắng hạ thấp mức độ nghiêm trọng của lỗi rò rỉ bộ nhớ. / Bạn không nên hạ thấp những thành tựu của mình trong dự án RAG.",
+    categories: ["General", "Communication", "Psychology"],
+  },
+  {
     word: "Downpour",
     slug: "downpour",
     phonetic: "/ˈdaʊn.pɔːr/",
@@ -662,15 +676,32 @@ export const D17: VocabularyWord[] = [
     categories: ["General", "Psychology"],
   },
   {
+    word: "Downsize",
+    slug: "downsize",
+    phonetic: "/ˈdaʊn.saɪz/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To make a company or organization smaller by reducing the number of people working for it.",
+    meaningVi: "Cắt giảm nhân sự, thu nhỏ quy mô (công ty/tổ chức).",
+    exampleEn:
+      "The tech giant decided to downsize its AI department to focus on core products. / After the project stagnated, the team had to downsize.",
+    exampleVi:
+      "Gã khổng lồ công nghệ đã quyết định cắt giảm nhân sự bộ phận AI để tập trung vào các sản phẩm cốt lõi. / Sau khi dự án bị trì trệ, đội ngũ đã phải thu nhỏ quy mô.",
+    categories: ["Business", "Economics", "General"],
+  },
+  {
     word: "Downstairs",
     slug: "downstairs",
     phonetic: "/ˌdaʊnˈsterz/",
-    partOfSpeech: "adverb/adjective/noun",
-    meaningEn: "On or to a lower floor of a building.",
-    meaningVi: "Dưới lầu/Dưới nhà/Tầng dưới.",
-    exampleEn: "Go downstairs.",
-    exampleVi: "Đi xuống lầu.",
-    categories: ["Home", "General", "Daily"],
+    partOfSpeech: "adverb/adjective",
+    meaningEn:
+      "On or to a lower floor of a building, especially the ground floor.",
+    meaningVi: "Ở dưới lầu, tầng dưới.",
+    exampleEn:
+      "The server room is located downstairs, next to the laboratory. / I heard a noise coming from the downstairs office.",
+    exampleVi:
+      "Phòng máy chủ nằm ở dưới lầu, cạnh phòng thí nghiệm. / Tôi nghe thấy tiếng động phát ra từ văn phòng ở tầng dưới.",
+    categories: ["General", "Architecture"],
   },
   {
     word: "Downstream",

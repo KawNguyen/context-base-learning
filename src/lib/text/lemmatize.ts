@@ -34,9 +34,19 @@ export function lemmatize(word: string): string {
     if (
       base.length >= 2 &&
       base[base.length - 1] === base[base.length - 2] &&
-      !"aeiou".includes(base[base.length - 1])
+      !"aeiou".includes(base[base.length - 1]) &&
+      !["s", "l", "f", "z"].includes(base[base.length - 1]) // don't reduce pass, fill, sniff, buzz
     ) {
       result = base.slice(0, -1);
+    }
+    // Words ending in ss, etc.
+    else if (
+      base.endsWith("ss") ||
+      base.endsWith("ll") ||
+      base.endsWith("ff") ||
+      base.endsWith("zz")
+    ) {
+      result = base;
     }
     // Words ending in consonant clusters (ch, tch, sh, etc.) don't add 'e'
     // watching -> watch, catching -> catch, finishing -> finish
@@ -109,9 +119,19 @@ export function lemmatize(word: string): string {
     if (
       base.length >= 2 &&
       base[base.length - 1] === base[base.length - 2] &&
-      !"aeiou".includes(base[base.length - 1])
+      !"aeiou".includes(base[base.length - 1]) &&
+      !["s", "l", "f", "z"].includes(base[base.length - 1]) // don't reduce pass, fill, sniff, buzz
     ) {
       result = base.slice(0, -1);
+    }
+    // Words ending in ss, etc.
+    else if (
+      base.endsWith("ss") ||
+      base.endsWith("ll") ||
+      base.endsWith("ff") ||
+      base.endsWith("zz")
+    ) {
+      result = base;
     }
     // -ied -> -y (studied -> study)
     else if (lower.endsWith("ied") && lower.length > 3) {

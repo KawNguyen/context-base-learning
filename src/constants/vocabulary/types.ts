@@ -104,7 +104,10 @@ export type VocabularyCategory =
   | "Development"
   | "Formal"
   | "Statistics"
-  | "Communication";
+  | "Communication"
+  | "Research"
+  | "Work"
+  | "Quality Control";
 
 export const VOCABULARY_CATEGORIES: VocabularyCategory[] = [
   "Academic",
@@ -213,6 +216,9 @@ export const VOCABULARY_CATEGORIES: VocabularyCategory[] = [
   "Formal",
   "Statistics",
   "Communication",
+  "Research",
+  "Work",
+  "Quality Control",
 ];
 
 // export type VocabularyCategory = typeof VOCABULARY_CATEGORIES[number];

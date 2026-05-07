@@ -662,6 +662,20 @@ export const P1: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
+    word: "Pensive",
+    slug: "pensive",
+    phonetic: "/ˈpen.sɪv/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Thinking in a quiet way, often with a serious or slightly sad expression.",
+    meaningVi: "Trầm ngâm, sâu lắng, đang mải mê suy nghĩ.",
+    exampleEn:
+      "He looked pensive as he stared at the complex system architecture. / The quiet atmosphere of the library put her in a pensive mood.",
+    exampleVi:
+      "Anh ấy trông có vẻ trầm ngâm khi nhìn chằm chằm vào cấu trúc hệ thống phức tạp. / Không khí yên tĩnh của thư viện khiến cô ấy rơi vào tâm trạng suy tư.",
+    categories: ["General", "Literature", "Psychology"],
+  },
+  {
     word: "People",
     slug: "people",
     phonetic: "/ˈpiː.pəl/",

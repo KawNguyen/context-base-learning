@@ -345,6 +345,20 @@ export const S1: VocabularyWord[] = [
     categories: ["General", "Academic", "Technology"],
   },
   {
+    word: "Scarcely",
+    slug: "scarcely",
+    phonetic: "/ˈsker.sli/",
+    partOfSpeech: "adverb",
+    meaningEn:
+      "Almost not; only just; used to say that something happened immediately after something else.",
+    meaningVi: "Hầu như không, hiếm khi, vừa mới (thì đã).",
+    exampleEn:
+      "There is scarcely enough data to train the model for extreme edge cases. / I had scarcely finished the code when the server went down.",
+    exampleVi:
+      "Hầu như không có đủ dữ liệu để huấn luyện mô hình cho các trường hợp biên cực đoan. / Tôi vừa mới viết xong code thì máy chủ bị sập.",
+    categories: ["General", "Statistics", "Logic"],
+  },
+  {
     word: "Scared",
     slug: "scared",
     phonetic: "/skerd/",
@@ -479,10 +493,24 @@ export const S1: VocabularyWord[] = [
     categories: ["Phrasal Verb", "Technology"],
   },
   {
+    word: "Scrutinize",
+    slug: "scrutinize",
+    phonetic: "/ˈskruː.t̬ən.aɪz/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To examine something very carefully in order to discover information.",
+    meaningVi: "Xem xét kỹ lưỡng, kiểm soát gắt gao, soi xét.",
+    exampleEn:
+      "The security team will scrutinize every line of code prior to the release. / We need to scrutinize the allocator's logs to find the memory leak.",
+    exampleVi:
+      "Đội ngũ bảo mật sẽ xem xét kỹ lưỡng từng dòng code trước khi phát hành. / Chúng ta cần soi xét các bản ghi của bộ cấp phát để tìm lỗi rò rỉ bộ nhớ.",
+    categories: ["General", "Quality Control", "Security"],
+  },
+  {
     word: "Scurrilous",
     slug: "scurrilous",
     phonetic: "/ˈskɝː.ə.ləs/",
-    partOfSpeech: "noun",
+    partOfSpeech: "adjective",
     meaningEn:
       "Making or spreading scandalous claims about someone with the intention of damaging their reputation.",
     meaningVi: "Thô lỗ/Lăng mạ.",
@@ -1046,6 +1074,19 @@ export const S1: VocabularyWord[] = [
     exampleEn: "Shall we go?",
     exampleVi: "Chúng ta đi nhé?",
     categories: ["General"],
+  },
+  {
+    word: "Shallow",
+    slug: "shallow",
+    phonetic: "/ˈʃæl.oʊ/",
+    partOfSpeech: "adjective",
+    meaningEn: "Not deep; lacking intellectual depth or serious thought.",
+    meaningVi: "Nông, cạn; (nghĩa bóng) hời hợt, thiếu chiều sâu.",
+    exampleEn:
+      "A shallow analysis of the logs might miss the underlying cause of the crash. / The chatbot's responses were too shallow for complex technical queries.",
+    exampleVi:
+      "Một phân tích hời hợt về các bản ghi có thể bỏ lỡ nguyên nhân thực sự của vụ sập hệ thống. / Các phản hồi của chatbot quá thiếu chiều sâu đối với các truy vấn kỹ thuật phức tạp.",
+    categories: ["General", "Philosophy", "Technology"],
   },
   {
     word: "Shame",

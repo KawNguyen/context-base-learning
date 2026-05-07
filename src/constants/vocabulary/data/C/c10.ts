@@ -758,6 +758,19 @@ export const C10: VocabularyWord[] = [
     categories: ["Politics", "Business", "General"],
   },
   {
+    word: "Confidentially",
+    slug: "confidentially",
+    phonetic: "/ˌkɑːn.fəˈden.ʃəl.i/",
+    partOfSpeech: "adverb",
+    meaningEn: "In a way that is intended to be kept secret.",
+    meaningVi: "Một cách cẩn mật, bí mật, riêng tư.",
+    exampleEn:
+      "User data from the PDF Chatbot is processed confidentially to ensure privacy. / He spoke confidentially about the upcoming merger.",
+    exampleVi:
+      "Dữ liệu người dùng từ PDF Chatbot được xử lý một cách cẩn mật để đảm bảo quyền riêng tư. / Ông ấy đã nói một cách bí mật về cuộc sáp nhập sắp tới.",
+    categories: ["Security", "Business", "General"],
+  },
+  {
     word: "Confidentiality",
     slug: "confidentiality",
     phonetic: "/ˌkɑːn.fə.den.ʃiˈæl.ə.t̬i/",

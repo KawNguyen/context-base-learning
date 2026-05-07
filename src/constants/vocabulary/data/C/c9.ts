@@ -578,6 +578,20 @@ export const C9: VocabularyWord[] = [
     categories: ["Education", "General"],
   },
   {
+    word: "Comprehensify",
+    slug: "comprehensify",
+    phonetic: "/ˌkɑːm.prəˈhen.sɪ.faɪ/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To make something easier to understand or to organize information into a comprehensible format.",
+    meaningVi: "Làm cho dễ hiểu, hệ thống hóa thông tin để dễ nắm bắt.",
+    exampleEn:
+      "The new AI tool helps to comprehensify complex legal jargon for regular users. / We need to comprehensify the training manual.",
+    exampleVi:
+      "Công cụ AI mới giúp đơn giản hóa các thuật ngữ pháp lý phức tạp cho người dùng bình thường. / Chúng ta cần làm cho cuốn hướng dẫn đào tạo trở nên dễ hiểu hơn.",
+    categories: ["Linguistics", "Education"],
+  },
+  {
     word: "Comprehension",
     slug: "comprehension",
     phonetic: "/ˌkɑːm.prəˈhen.ʃən/",
@@ -599,6 +613,20 @@ export const C9: VocabularyWord[] = [
     exampleEn: "A comprehensive study.",
     exampleVi: "Một nghiên cứu toàn diện.",
     categories: ["Academic"],
+  },
+  {
+    word: "Comprehensiveness",
+    slug: "comprehensiveness",
+    phonetic: "/ˌkɑːm.prəˈhen.sɪv.nəs/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The quality of including everything that is necessary; the state of being complete.",
+    meaningVi: "Tính toàn diện, sự bao quát đầy đủ.",
+    exampleEn:
+      "The comprehensiveness of the RAG database ensures accurate answers. / We evaluated the report for its comprehensiveness and technical depth.",
+    exampleVi:
+      "Tính toàn diện của cơ sở dữ liệu RAG đảm bảo các câu trả lời chính xác. / Chúng tôi đã đánh giá bản báo cáo về tính bao quát và độ sâu kỹ thuật của nó.",
+    categories: ["General", "Academic", "Technology"],
   },
   {
     word: "Compress",
