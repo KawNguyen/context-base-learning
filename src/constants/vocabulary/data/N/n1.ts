@@ -820,18 +820,15 @@ export const N1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    word: "Negligently",
-    slug: "negligently",
-    phonetic: "/ˈneɡ.lɪ.dʒənt.li/",
-    partOfSpeech: "adverb",
-    meaningEn:
-      "In a way that fails to take enough care over something, often causing a mistake or risk.",
-    meaningVi: "Một cách cẩu thả, lơ là, thiếu trách nhiệm.",
-    exampleEn:
-      "The developer negligently left the API keys in the public repository. / The accident happened because the driver was acting negligently.",
-    exampleVi:
-      "Lập trình viên đã để lộ khóa API trong kho lưu trữ công khai một cách cẩu thả. / Vụ tai nạn xảy ra vì tài xế đã hành động một cách lơ là.",
-    categories: ["General", "Legal", "Technology"],
+    "word": "Negligently",
+    "slug": "negligently",
+    "phonetic": "/ˈneɡ.lɪ.dʒənt.li/",
+    "partOfSpeech": "adverb",
+    "meaningEn": "In a way that fails to take enough care over something, often causing a mistake or risk.",
+    "meaningVi": "Một cách cẩu thả, lơ là, thiếu trách nhiệm.",
+    "exampleEn": "The developer negligently left the API keys in the public repository. / The accident happened because the driver was acting negligently.",
+    "exampleVi": "Lập trình viên đã để lộ khóa API trong kho lưu trữ công khai một cách cẩu thả. / Vụ tai nạn xảy ra vì tài xế đã hành động một cách lơ là.",
+    "categories": ["General", "Legal", "Professional"]
   },
   {
     word: "Negligible",
