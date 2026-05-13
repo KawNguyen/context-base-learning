@@ -1361,6 +1361,50 @@ export const P2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
+    "word": "Procrastinating",
+    "slug": "procrastinating",
+    "phonetic": "/proʊˈkræs.tə.neɪ.tɪŋ/",
+    "partOfSpeech": "verb (present participle)",
+    "meaningEn": "Delaying or postponing something that must be done, often because it is unpleasant or boring.",
+    "meaningVi": "Đang trì hoãn, chần chừ.",
+    "exampleEn": "Stop procrastinating and start addressing the memory leak in the allocator. / Procrastinating on documentation will aggravate the project's complexity later.",
+    "exampleVi": "Đừng trì hoãn nữa và hãy bắt đầu giải quyết lỗi rò rỉ bộ nhớ trong bộ cấp phát đi. / Việc trì hoãn viết tài liệu sẽ làm trầm trọng thêm sự phức tạp của dự án sau này.",
+    "categories": ["General", "Psychology"]
+  },
+  {
+    "word": "Procure",
+    "slug": "procure",
+    "phonetic": "/prəˈkjʊr/",
+    "partOfSpeech": "verb",
+    "meaningEn": "To obtain something, especially with difficulty or through special effort.",
+    "meaningVi": "Thu mua, đạt được, kiếm được (thường qua nỗ lực hoặc thủ tục).",
+    "exampleEn": "The team managed to procure the necessary high-end sensors for the drowsiness detection project. / It's difficult to procure high-quality training data for RAG models.",
+    "exampleVi": "Nhóm đã xoay sở để thu mua được các cảm biến cao cấp cần thiết cho dự án phát hiện buồn ngủ. / Rất khó để đạt được dữ liệu huấn luyện chất lượng cao cho các mô hình RAG.",
+    "categories": ["Business", "Management", "General"]
+  },
+  {
+    "word": "Procured",
+    "slug": "procured",
+    "phonetic": "/prəˈkjʊrd/",
+    "partOfSpeech": "verb (past tense/participle) / adjective",
+    "meaningEn": "Obtained or acquired through effort or special means.",
+    "meaningVi": "Đã thu mua được, đã đạt được.",
+    "exampleEn": "All procured components for the hardware prototype must be scrutinized for defects. / The data procured from the PDF files was meticulously indexed.",
+    "exampleVi": "Tất cả các linh kiện đã thu mua cho nguyên mẫu phần cứng phải được soi xét kỹ lỗi. / Dữ liệu đạt được từ các tệp PDF đã được lập chỉ mục một cách tỉ mỉ.",
+    "categories": ["General", "Logistics"]
+  },
+  {
+    "word": "Procurement",
+    "slug": "procurement",
+    "phonetic": "/prəˈkjʊr.mənt/",
+    "partOfSpeech": "noun",
+    "meaningEn": "The process of getting supplies or services, especially for a government or organization.",
+    "meaningVi": "Sự thu mua, công tác quản lý cung ứng vật tư.",
+    "exampleEn": "The procurement of cloud computing resources was delayed due to budget issues. / Efficiency in procurement can significantly downsize operational costs.",
+    "exampleVi": "Việc thu mua các tài nguyên điện toán đám mây đã bị trì hoãn do vấn đề ngân sách. / Hiệu quả trong công tác thu mua có thể cắt giảm đáng kể chi phí vận hành.",
+    "categories": ["Business", "Economics", "Government"]
+  },
+  {
     word: "Prodigal",
     slug: "prodigal",
     phonetic: "/ˈprɑː.dɪ.ɡəl/",

@@ -925,6 +925,17 @@ export const I2: VocabularyWord[] = [
     categories: ["Home", "Design"],
   },
   {
+    "word": "Intermittent",
+    "slug": "intermittent",
+    "phonetic": "/ˌɪn.t̬ɚˈmɪt.ənt/",
+    "partOfSpeech": "adjective",
+    "meaningEn": "Not happening regularly or continuously; stopping and starting repeatedly.",
+    "meaningVi": "Chập chờn, lúc có lúc không, gián đoạn.",
+    "exampleEn": "The system suffered from intermittent connection issues during the simulation. / Intermittent errors are often harder to scrutinize than constant ones.",
+    "exampleVi": "Hệ thống đã gặp phải các vấn đề kết nối chập chờn trong quá trình mô phỏng. / Các lỗi chập chờn thường khó soi xét hơn là các lỗi xuất hiện liên tục.",
+    "categories": ["Technology", "Science", "Medical"]
+  },
+  {
     word: "Internal",
     slug: "internal",
     phonetic: "/ɪnˈtɜːr.nəl/",

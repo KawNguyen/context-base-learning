@@ -705,6 +705,17 @@ export const A2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    "word": "Allot",
+    "slug": "allot",
+    "phonetic": "/əˈlɑːt/",
+    "partOfSpeech": "verb",
+    "meaningEn": "To give something, especially a share of something available, for a particular purpose.",
+    "meaningVi": "Phân bổ, chia phần, dành riêng (tài nguyên, thời gian) cho một mục đích cụ thể.",
+    "exampleEn": "The manager decided to allot more CPU cores to the RAG indexing process. / We should allot at least three weeks for the testing phase of the driver detection system.",
+    "exampleVi": "Quản lý quyết định phân bổ nhiều nhân CPU hơn cho quá trình lập chỉ mục RAG. / Chúng ta nên dành riêng ít nhất ba tuần cho giai đoạn kiểm thử hệ thống phát hiện buồn ngủ.",
+    "categories": ["Technology", "Management", "Business"]
+  },
+  {
     word: "Allowance",
     slug: "allowance",
     phonetic: "/əˈlaʊ.əns/",

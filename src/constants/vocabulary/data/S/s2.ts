@@ -564,6 +564,17 @@ export const S2: VocabularyWord[] = [
     categories: ["Academic"],
   },
   {
+    "word": "Skim",
+    "slug": "skim",
+    "phonetic": "/skɪm/",
+    "partOfSpeech": "verb",
+    "meaningEn": "To read something quickly in order to find a particular point or the main idea.",
+    "meaningVi": "Đọc lướt, xem nhanh qua, (nghĩa đen) hớt lớp bề mặt.",
+    "exampleEn": "Before feeding the PDF to the RAG model, I usually skim the document to find key notes. / Don't just skim the code; you need to scrutinize it for intermittent bugs.",
+    "exampleVi": "Trước khi đưa tệp PDF vào mô hình RAG, tôi thường đọc lướt tài liệu để tìm các ghi chú chính. / Đừng chỉ xem lướt qua mã nguồn; bạn cần soi xét kỹ để tìm các lỗi chập chờn.",
+    "categories": ["General", "Education", "Technology"]
+  },
+  {
     word: "Skin",
     slug: "skin",
     phonetic: "/skɪn/",

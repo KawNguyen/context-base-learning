@@ -410,6 +410,17 @@ export const L1: VocabularyWord[] = [
     categories: ["Law", "Business", "Jobs"],
   },
   {
+    "word": "Lax",
+    "slug": "lax",
+    "phonetic": "/læks/",
+    "partOfSpeech": "adjective",
+    "meaningEn": "Without much care, attention, or control; not severe or strong enough.",
+    "meaningVi": "Lỏng lẻo, không chặt chẽ, thiếu kỷ luật.",
+    "exampleEn": "The security protocols were too lax, allowing unauthorized access to the database. / We cannot afford lax testing when developing a driver safety system.",
+    "exampleVi": "Các giao thức bảo mật quá lỏng lẻo, cho phép truy cập trái phép vào cơ sở dữ liệu. / Chúng ta không thể chấp nhận việc kiểm thử lỏng lẻo khi phát triển một hệ thống an toàn cho tài xế.",
+    "categories": ["General", "Security", "Management"]
+  },
+  {
     word: "Laxity",
     slug: "laxity",
     phonetic: "/ˈlæk.sə.t̬i/",
@@ -746,6 +757,17 @@ export const L1: VocabularyWord[] = [
     exampleEn: "The length of the road.",
     exampleVi: "Chiều dài con đường.",
     categories: ["General"],
+  },
+  {
+    "word": "Lenient",
+    "slug": "lenient",
+    "phonetic": "/ˈliː.ni.ənt/",
+    "partOfSpeech": "adjective",
+    "meaningEn": "Not as severe or strong in punishment or judgment as would be expected.",
+    "meaningVi": "Vị tha, nhân hậu, dễ dãi, không nghiêm khắc.",
+    "exampleEn": "The professor was lenient with the deadline notwithstanding the student's procrastinating. / A lenient grading system might boost user satisfaction but lower professionalism.",
+    "exampleVi": "Giáo sư đã rất dễ dãi với thời hạn nộp bài bất chấp sự trì hoãn của sinh viên. / Một hệ thống chấm điểm dễ dãi có thể làm tăng sự hài lòng của người dùng nhưng lại làm giảm tính chuyên nghiệp.",
+    "categories": ["General", "Education", "Legal"]
   },
   {
     word: "Less",

@@ -675,6 +675,17 @@ export const P3: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
+    "word": "Punctual",
+    "slug": "punctual",
+    "phonetic": "/ˈpʌŋk.tʃu.əl/",
+    "partOfSpeech": "adjective",
+    "meaningEn": "Arriving, doing something, or happening at the expected or correct time.",
+    "meaningVi": "Đúng giờ, không chậm trễ.",
+    "exampleEn": "The delivery of the weekly PDF reports was always punctual. / A professional developer is expected to be punctual for team meetings.",
+    "exampleVi": "Việc gửi các báo cáo PDF hàng tuần luôn đúng giờ. / Một lập trình viên chuyên nghiệp được kỳ vọng sẽ đi họp đúng giờ.",
+    "categories": ["General", "Business"]
+  },
+  {
     word: "Punish",
     slug: "punish",
     phonetic: "/ˈpʌn.ɪʃ/",
