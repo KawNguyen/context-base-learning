@@ -681,7 +681,7 @@ export const A2: VocabularyWord[] = [
     exampleVi:
       "Bộ cấp phát bộ nhớ tùy chỉnh đã giúp làm ổn định hiệu suất của hệ thống. / Bộ phân bổ nhiệm vụ đảm bảo mọi thành viên trong nhóm đều có khối lượng công việc cân bằng.",
     categories: ["Technology", "Management"],
-  },
+  },  
   {
     word: "Allocation",
     slug: "allocation",

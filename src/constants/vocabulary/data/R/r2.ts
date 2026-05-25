@@ -397,6 +397,17 @@ export const R2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    "word": "Ride-sharing",
+    "slug": "ride-sharing",
+    "phonetic": "/ˈraɪdˌʃer.ɪŋ/",
+    "partOfSpeech": "noun",
+    "meaningEn": "An arrangement in which a passenger travels in a private vehicle driven by its owner, typically arranged by means of a website or an app.",
+    "meaningVi": "Dịch vụ đi chung xe, chia sẻ chuyến xe (mô hình gọi xe công nghệ).",
+    "exampleEn": "The ride-sharing company is investing in tech to keep drivers awake. / Tech innovations have substantially altered the ride-sharing industry.",
+    "exampleVi": "Công ty gọi xe công nghệ đang đầu tư vào công nghệ để giữ cho các tài xế tỉnh táo. / Những đổi mới công nghệ đã làm thay đổi đáng kể ngành công nghiệp chia sẻ chuyến xe.",
+    "categories": ["Business", "Technology", "Transportation"]
+  },  
+  {
     word: "Right",
     slug: "right",
     phonetic: "/raɪt/",

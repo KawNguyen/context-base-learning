@@ -60,6 +60,17 @@ export const A1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    "word": "Absence",
+    "slug": "absence",
+    "phonetic": "/ˈæb.səns/",
+    "partOfSpeech": "noun",
+    "meaningEn": "The fact of not being where you are usually expected to be, or the fact of not existing.",
+    "meaningVi": "Sự vắng mặt, sự nghỉ làm, sự thiếu vắng (một tính năng/thành phần).",
+    "exampleEn": "The system must keep a strict log of each employee's absence. / The total absence of errors during the stress test surprised the development team.",
+    "exampleVi": "Hệ thống phải lưu lại nhật ký nghiêm ngặt về sự vắng mặt của từng nhân viên. / Sự thiếu vắng hoàn toàn các lỗi trong buổi kiểm tra áp lực đã làm cả nhóm phát triển ngạc nhiên.",
+    "categories": ["General", "Technology"]
+  },
+  {
     word: "Absolute",
     slug: "absolute",
     phonetic: "/ˈæb.sə.luːt/",

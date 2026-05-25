@@ -58,6 +58,17 @@ export const S2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
+    "word": "Short-term",
+    "slug": "short-term",
+    "phonetic": "/ˌʃɔːrtˈtɜːrm/",
+    "partOfSpeech": "adjective",
+    "meaningEn": "Involving or relating to a short period of time in the future.",
+    "meaningVi": "Ngắn hạn, có tính chất tạm thời, trước mắt.",
+    "exampleEn": "We need a short-term fix for this intermittent bug before restructuring the code. / The system stores the session tokens in a short-term cache.",
+    "exampleVi": "Chúng ta cần một giải pháp sửa lỗi ngắn hạn cho cái lỗi chập chờn này trước khi cấu trúc lại mã nguồn. / Hệ thống lưu trữ các token phiên làm việc trong một bộ nhớ đệm ngắn hạn.",
+    "categories": ["General", "Business", "Technology"]
+  },
+  {
     word: "Should",
     slug: "should",
     phonetic: "/ʃʊd/",
@@ -327,6 +338,17 @@ export const S2: VocabularyWord[] = [
     exampleVi:
       "Hệ thống phát hiện buồn ngủ của tài xế đã được thử nghiệm trong một môi trường mô phỏng bay.",
     categories: ["Technology", "Science", "Education"],
+  },
+  {
+    "word": "Simultaneously",
+    "slug": "simultaneously",
+    "phonetic": "/ˌsaɪ.məlˈteɪ.ni.əs.li/",
+    "partOfSpeech": "adverb",
+    "meaningEn": "Happening or being done at exactly the same time.",
+    "meaningVi": "Đồng thời, cùng một lúc, song song.",
+    "exampleEn": "The system must process camera frames and detect driver drowsiness simultaneously. / The RAG pipeline can handle multiple user queries simultaneously using asynchronous requests.",
+    "exampleVi": "Hệ thống phải xử lý các khung hình từ camera và phát hiện tài xế buồn ngủ cùng một lúc. / Đường ống RAG có thể xử lý đồng thời nhiều truy vấn của người dùng bằng cách sử dụng các yêu cầu bất đồng bộ.",
+    "categories": ["Technology", "Science", "General"]
   },
   {
     word: "Simple",

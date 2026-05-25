@@ -389,6 +389,39 @@ export const I1: VocabularyWord[] = [
     categories: ["General"],
   },
   {
+    "word": "Immense",
+    "slug": "immense",
+    "phonetic": "/ɪˈmens/",
+    "partOfSpeech": "adjective",
+    "meaningEn": "Extremely large in size, amount, or degree.",
+    "meaningVi": "Mênh mông, bao la, cực kỳ lớn, khổng lồ.",
+    "exampleEn": "Processing a massive PDF library requires an immense amount of computational power. / The dataset for driver drowsiness detection provides an immense variety of facial angles.",
+    "exampleVi": "Xử lý một thư viện PDF đồ sộ đòi hỏi một lượng sức mạnh tính toán cực kỳ lớn. / Tập dữ liệu cho việc phát hiện buồn ngủ của tài xế cung cấp một sự đa dạng khổng lồ về các góc mặt.",
+    "categories": ["General", "Technology", "Science"]
+  },
+  {
+    "word": "Immensely",
+    "slug": "immensely",
+    "phonetic": "/ɪˈmens.li/",
+    "partOfSpeech": "adverb",
+    "meaningEn": "To a very great extent; extremely or enormously.",
+    "meaningVi": "Một cách cực kỳ, hết sức, vô cùng.",
+    "exampleEn": "The optimized vector index improved the chatbot's response speed immensely. / Refactoring the memory allocator helped immensely in stabilizing the application.",
+    "exampleVi": "Chỉ mục vector được tối ưu hóa đã cải thiện tốc độ phản hồi của chatbot một cách cực kỳ nhiều. / Việc cấu trúc lại bộ cấp phát bộ nhớ đã giúp ích hết sức nhiều trong việc làm ổn định ứng dụng.",
+    "categories": ["General", "Professional"]
+  },
+  {
+    "word": "Immensity",
+    "slug": "immensity",
+    "phonetic": "/ɪˈmen.sə.t̬i/",
+    "partOfSpeech": "noun",
+    "meaningEn": "The quality of being extremely large in size or scale.",
+    "meaningVi": "Sự bao la, sự rộng lớn, tính khổng lồ.",
+    "exampleEn": "The immensity of the vector database space can make strict keyword searching inefficient. / Developers are often overwhelmed by the immensity of legacy codebases.",
+    "exampleVi": "Sự bao la của không gian cơ sở dữ liệu vector có thể khiến việc tìm kiếm từ khóa chính xác trở nên kém hiệu quả. / Các lập trình viên thường bị choáng ngợp bởi tính khổng lồ của các kho mã nguồn cũ.",
+    "categories": ["General", "Science", "Philosophy"]
+  },
+  {
     word: "Immigrant",
     slug: "immigrant",
     phonetic: "/ˈɪm.ɪ.ɡrənt/",
