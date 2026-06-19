@@ -18,6 +18,7 @@ import {
   TestTube2,
   Lightbulb,
   LineSquiggle,
+  PenLine,
 } from "lucide-react";
 
 import {
@@ -59,6 +60,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         url: "/question-response",
         icon: AudioLines,
       },
+      { title: "700 Toeic", url: "/700-toeic", icon: PenLine },
     ],
   };
 

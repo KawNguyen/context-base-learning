@@ -458,15 +458,19 @@ export const P3: VocabularyWord[] = [
     categories: ["Social"],
   },
   {
-    "word": "Proponent",
-    "slug": "proponent",
-    "phonetic": "/prəˈpoʊ.nənt/",
-    "partOfSpeech": "noun",
-    "meaningEn": "A person who speaks publicly in support of a particular idea, plan, or proposal.",
-    "meaningVi": "Người ủng hộ, người đề xuất, người cổ vũ (cho một phương pháp, ý tưởng hoặc giải pháp).",
-    "exampleEn": "He is a strong proponent of using lightweight Python frameworks for real-time edge computing. / As a proponent of RAG architectures, she believes raw LLMs are insufficient for custom PDF analysis.",
-    "exampleVi": "Anh ấy là một người ủng hộ mạnh mẽ việc sử dụng các khung làm việc Python gọn nhẹ cho tính toán biên theo thời gian thực. / Là một người đề xuất kiến trúc RAG, cô ấy tin rằng các LLM thô không đủ khả năng để phân tích tệp PDF tùy chỉnh.",
-    "categories": ["General", "Technology", "Professional"]
+    word: "Proponent",
+    slug: "proponent",
+    phonetic: "/prəˈpoʊ.nənt/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "A person who speaks publicly in support of a particular idea, plan, or proposal.",
+    meaningVi:
+      "Người ủng hộ, người đề xuất, người cổ vũ (cho một phương pháp, ý tưởng hoặc giải pháp).",
+    exampleEn:
+      "He is a strong proponent of using lightweight Python frameworks for real-time edge computing. / As a proponent of RAG architectures, she believes raw LLMs are insufficient for custom PDF analysis.",
+    exampleVi:
+      "Anh ấy là một người ủng hộ mạnh mẽ việc sử dụng các khung làm việc Python gọn nhẹ cho tính toán biên theo thời gian thực. / Là một người đề xuất kiến trúc RAG, cô ấy tin rằng các LLM thô không đủ khả năng để phân tích tệp PDF tùy chỉnh.",
+    categories: ["General", "Technology", "Professional"],
   },
   {
     word: "Propose",
@@ -686,15 +690,18 @@ export const P3: VocabularyWord[] = [
     categories: ["Food & Drink"],
   },
   {
-    "word": "Punctual",
-    "slug": "punctual",
-    "phonetic": "/ˈpʌŋk.tʃu.əl/",
-    "partOfSpeech": "adjective",
-    "meaningEn": "Arriving, doing something, or happening at the expected or correct time.",
-    "meaningVi": "Đúng giờ, không chậm trễ.",
-    "exampleEn": "The delivery of the weekly PDF reports was always punctual. / A professional developer is expected to be punctual for team meetings.",
-    "exampleVi": "Việc gửi các báo cáo PDF hàng tuần luôn đúng giờ. / Một lập trình viên chuyên nghiệp được kỳ vọng sẽ đi họp đúng giờ.",
-    "categories": ["General", "Business"]
+    word: "Punctual",
+    slug: "punctual",
+    phonetic: "/ˈpʌŋk.tʃu.əl/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Arriving, doing something, or happening at the expected or correct time.",
+    meaningVi: "Đúng giờ, không chậm trễ.",
+    exampleEn:
+      "The delivery of the weekly PDF reports was always punctual. / A professional developer is expected to be punctual for team meetings.",
+    exampleVi:
+      "Việc gửi các báo cáo PDF hàng tuần luôn đúng giờ. / Một lập trình viên chuyên nghiệp được kỳ vọng sẽ đi họp đúng giờ.",
+    categories: ["General", "Business"],
   },
   {
     word: "Punish",

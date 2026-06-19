@@ -35,15 +35,18 @@ export const P1: VocabularyWord[] = [
     categories: ["Technology", "Daily"],
   },
   {
-    "word": "Paid leave",
-    "slug": "paid-leave",
-    "phonetic": "/ˌpeɪd ˈliːv/",
-    "partOfSpeech": "noun phrase",
-    "meaningEn": "Time allowed away from work for holiday, illness, etc., during which you receive your normal pay.",
-    "meaningVi": "Nghỉ phép có lương (ngày nghỉ được hưởng nguyên lương).",
-    "exampleEn": "The company provides 12 days of annual paid leave for all gig workers transitioning to full-time roles. / You must request your paid leave at least two weeks in advance through the HR portal.",
-    "exampleVi": "Công ty cung cấp 12 ngày nghỉ phép có lương hàng năm cho tất cả những người làm việc tự do chuyển sang vai trò chính thức. / Bạn phải yêu cầu nghỉ phép có lương trước ít nhất hai tuần thông qua cổng thông tin nhân sự.",
-    "categories": ["Business", "Legal"]
+    word: "Paid leave",
+    slug: "paid-leave",
+    phonetic: "/ˌpeɪd ˈliːv/",
+    partOfSpeech: "noun phrase",
+    meaningEn:
+      "Time allowed away from work for holiday, illness, etc., during which you receive your normal pay.",
+    meaningVi: "Nghỉ phép có lương (ngày nghỉ được hưởng nguyên lương).",
+    exampleEn:
+      "The company provides 12 days of annual paid leave for all gig workers transitioning to full-time roles. / You must request your paid leave at least two weeks in advance through the HR portal.",
+    exampleVi:
+      "Công ty cung cấp 12 ngày nghỉ phép có lương hàng năm cho tất cả những người làm việc tự do chuyển sang vai trò chính thức. / Bạn phải yêu cầu nghỉ phép có lương trước ít nhất hai tuần thông qua cổng thông tin nhân sự.",
+    categories: ["Business", "Legal"],
   },
   {
     word: "Pain",

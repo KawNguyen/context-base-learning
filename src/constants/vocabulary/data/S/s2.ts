@@ -58,15 +58,17 @@ export const S2: VocabularyWord[] = [
     categories: ["Daily"],
   },
   {
-    "word": "Short-term",
-    "slug": "short-term",
-    "phonetic": "/ˌʃɔːrtˈtɜːrm/",
-    "partOfSpeech": "adjective",
-    "meaningEn": "Involving or relating to a short period of time in the future.",
-    "meaningVi": "Ngắn hạn, có tính chất tạm thời, trước mắt.",
-    "exampleEn": "We need a short-term fix for this intermittent bug before restructuring the code. / The system stores the session tokens in a short-term cache.",
-    "exampleVi": "Chúng ta cần một giải pháp sửa lỗi ngắn hạn cho cái lỗi chập chờn này trước khi cấu trúc lại mã nguồn. / Hệ thống lưu trữ các token phiên làm việc trong một bộ nhớ đệm ngắn hạn.",
-    "categories": ["General", "Business", "Technology"]
+    word: "Short-term",
+    slug: "short-term",
+    phonetic: "/ˌʃɔːrtˈtɜːrm/",
+    partOfSpeech: "adjective",
+    meaningEn: "Involving or relating to a short period of time in the future.",
+    meaningVi: "Ngắn hạn, có tính chất tạm thời, trước mắt.",
+    exampleEn:
+      "We need a short-term fix for this intermittent bug before restructuring the code. / The system stores the session tokens in a short-term cache.",
+    exampleVi:
+      "Chúng ta cần một giải pháp sửa lỗi ngắn hạn cho cái lỗi chập chờn này trước khi cấu trúc lại mã nguồn. / Hệ thống lưu trữ các token phiên làm việc trong một bộ nhớ đệm ngắn hạn.",
+    categories: ["General", "Business", "Technology"],
   },
   {
     word: "Should",
@@ -340,15 +342,17 @@ export const S2: VocabularyWord[] = [
     categories: ["Technology", "Science", "Education"],
   },
   {
-    "word": "Simultaneously",
-    "slug": "simultaneously",
-    "phonetic": "/ˌsaɪ.məlˈteɪ.ni.əs.li/",
-    "partOfSpeech": "adverb",
-    "meaningEn": "Happening or being done at exactly the same time.",
-    "meaningVi": "Đồng thời, cùng một lúc, song song.",
-    "exampleEn": "The system must process camera frames and detect driver drowsiness simultaneously. / The RAG pipeline can handle multiple user queries simultaneously using asynchronous requests.",
-    "exampleVi": "Hệ thống phải xử lý các khung hình từ camera và phát hiện tài xế buồn ngủ cùng một lúc. / Đường ống RAG có thể xử lý đồng thời nhiều truy vấn của người dùng bằng cách sử dụng các yêu cầu bất đồng bộ.",
-    "categories": ["Technology", "Science", "General"]
+    word: "Simultaneously",
+    slug: "simultaneously",
+    phonetic: "/ˌsaɪ.məlˈteɪ.ni.əs.li/",
+    partOfSpeech: "adverb",
+    meaningEn: "Happening or being done at exactly the same time.",
+    meaningVi: "Đồng thời, cùng một lúc, song song.",
+    exampleEn:
+      "The system must process camera frames and detect driver drowsiness simultaneously. / The RAG pipeline can handle multiple user queries simultaneously using asynchronous requests.",
+    exampleVi:
+      "Hệ thống phải xử lý các khung hình từ camera và phát hiện tài xế buồn ngủ cùng một lúc. / Đường ống RAG có thể xử lý đồng thời nhiều truy vấn của người dùng bằng cách sử dụng các yêu cầu bất đồng bộ.",
+    categories: ["Technology", "Science", "General"],
   },
   {
     word: "Simple",
@@ -586,15 +590,18 @@ export const S2: VocabularyWord[] = [
     categories: ["Academic"],
   },
   {
-    "word": "Skim",
-    "slug": "skim",
-    "phonetic": "/skɪm/",
-    "partOfSpeech": "verb",
-    "meaningEn": "To read something quickly in order to find a particular point or the main idea.",
-    "meaningVi": "Đọc lướt, xem nhanh qua, (nghĩa đen) hớt lớp bề mặt.",
-    "exampleEn": "Before feeding the PDF to the RAG model, I usually skim the document to find key notes. / Don't just skim the code; you need to scrutinize it for intermittent bugs.",
-    "exampleVi": "Trước khi đưa tệp PDF vào mô hình RAG, tôi thường đọc lướt tài liệu để tìm các ghi chú chính. / Đừng chỉ xem lướt qua mã nguồn; bạn cần soi xét kỹ để tìm các lỗi chập chờn.",
-    "categories": ["General", "Education", "Technology"]
+    word: "Skim",
+    slug: "skim",
+    phonetic: "/skɪm/",
+    partOfSpeech: "verb",
+    meaningEn:
+      "To read something quickly in order to find a particular point or the main idea.",
+    meaningVi: "Đọc lướt, xem nhanh qua, (nghĩa đen) hớt lớp bề mặt.",
+    exampleEn:
+      "Before feeding the PDF to the RAG model, I usually skim the document to find key notes. / Don't just skim the code; you need to scrutinize it for intermittent bugs.",
+    exampleVi:
+      "Trước khi đưa tệp PDF vào mô hình RAG, tôi thường đọc lướt tài liệu để tìm các ghi chú chính. / Đừng chỉ xem lướt qua mã nguồn; bạn cần soi xét kỹ để tìm các lỗi chập chờn.",
+    categories: ["General", "Education", "Technology"],
   },
   {
     word: "Skin",

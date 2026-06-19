@@ -712,28 +712,32 @@ export const S3: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    "word": "Substantial",
-    "slug": "substantial",
-    "phonetic": "/səbˈstæn.ʃəl/",
-    "partOfSpeech": "adjective",
-    "meaningEn": "Large in size, value, or importance; significant.",
-    "meaningVi": "Đáng kể, lớn, trọng yếu, có giá trị lớn.",
-    "exampleEn": "The new caching layer brought a substantial reduction in query latency. / Developing a robust drowsiness detection system requires a substantial amount of training data.",
-    "exampleVi": "Lớp đệm mới đã mang lại một sự giảm thiểu đáng kể về độ trễ truy vấn. / Việc phát triển một hệ thống phát hiện buồn ngủ mạnh mẽ đòi hỏi một lượng dữ liệu huấn luyện lớn.",
-    "categories": ["General", "Technology", "Business"]
+    word: "Substantial",
+    slug: "substantial",
+    phonetic: "/səbˈstæn.ʃəl/",
+    partOfSpeech: "adjective",
+    meaningEn: "Large in size, value, or importance; significant.",
+    meaningVi: "Đáng kể, lớn, trọng yếu, có giá trị lớn.",
+    exampleEn:
+      "The new caching layer brought a substantial reduction in query latency. / Developing a robust drowsiness detection system requires a substantial amount of training data.",
+    exampleVi:
+      "Lớp đệm mới đã mang lại một sự giảm thiểu đáng kể về độ trễ truy vấn. / Việc phát triển một hệ thống phát hiện buồn ngủ mạnh mẽ đòi hỏi một lượng dữ liệu huấn luyện lớn.",
+    categories: ["General", "Technology", "Business"],
   },
   {
-    "word": "Substantially",
-    "slug": "substantially",
-    "phonetic": "/səbˈstæn.ʃəl.i/",
-    "partOfSpeech": "adverb",
-    "meaningEn": "To a large degree; significantly or or mainly.",
-    "meaningVi": "Một cách đáng kể, rất nhiều, về mặt bản chất.",
-    "exampleEn": "The optimized RAG pipeline performs substantially better than the baseline model. / By addressing the memory leak, we substantially improved system stability.",
-    "exampleVi": "Quy trình RAG được tối ưu hóa hoạt động tốt hơn một cách đáng kể so với mô hình cơ sở. / Bằng cách giải quyết lỗi rò rỉ bộ nhớ, chúng tôi đã cải thiện đáng kể độ ổn định của hệ thống.",
-    "categories": ["General", "Science", "Professional"]
+    word: "Substantially",
+    slug: "substantially",
+    phonetic: "/səbˈstæn.ʃəl.i/",
+    partOfSpeech: "adverb",
+    meaningEn: "To a large degree; significantly or or mainly.",
+    meaningVi: "Một cách đáng kể, rất nhiều, về mặt bản chất.",
+    exampleEn:
+      "The optimized RAG pipeline performs substantially better than the baseline model. / By addressing the memory leak, we substantially improved system stability.",
+    exampleVi:
+      "Quy trình RAG được tối ưu hóa hoạt động tốt hơn một cách đáng kể so với mô hình cơ sở. / Bằng cách giải quyết lỗi rò rỉ bộ nhớ, chúng tôi đã cải thiện đáng kể độ ổn định của hệ thống.",
+    categories: ["General", "Science", "Professional"],
   },
-  {   
+  {
     word: "Subway",
     slug: "subway",
     phonetic: "/ˈsʌb.weɪ/",

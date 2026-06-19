@@ -222,7 +222,7 @@ export const VOCABULARY_CATEGORIES: VocabularyCategory[] = [
   "Work",
   "Quality Control",
   "Professional",
-  "Logistics"
+  "Logistics",
 ];
 
 // export type VocabularyCategory = typeof VOCABULARY_CATEGORIES[number];

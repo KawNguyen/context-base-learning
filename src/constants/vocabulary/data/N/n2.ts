@@ -374,15 +374,19 @@ export const N2: VocabularyWord[] = [
     categories: ["General"],
   },
   {
-    "word": "Notably",
-    "slug": "notably",
-    "phonetic": "/ˈnoʊ.t̬ə.bli/",
-    "partOfSpeech": "adverb",
-    "meaningEn": "In a way that is easy to see or notice; especially or particularly.",
-    "meaningVi": "Đáng chú ý là, đặc biệt là (dùng để nhấn mạnh một sự kiện/dữ liệu nổi bật).",
-    "exampleEn": "Several key features were added to the system, notably an automated alert for driver fatigue. / The algorithm performs well in most conditions, notably during daylight hours.",
-    "exampleVi": "Nhiều tính năng chính đã được thêm vào hệ thống, đáng chú ý là cảnh báo tự động khi tài xế mệt mỏi. / Thuật toán hoạt động tốt trong hầu hết các điều kiện, đặc biệt là vào ban ngày.",
-    "categories": ["General", "Academic", "Professional"]
+    word: "Notably",
+    slug: "notably",
+    phonetic: "/ˈnoʊ.t̬ə.bli/",
+    partOfSpeech: "adverb",
+    meaningEn:
+      "In a way that is easy to see or notice; especially or particularly.",
+    meaningVi:
+      "Đáng chú ý là, đặc biệt là (dùng để nhấn mạnh một sự kiện/dữ liệu nổi bật).",
+    exampleEn:
+      "Several key features were added to the system, notably an automated alert for driver fatigue. / The algorithm performs well in most conditions, notably during daylight hours.",
+    exampleVi:
+      "Nhiều tính năng chính đã được thêm vào hệ thống, đáng chú ý là cảnh báo tự động khi tài xế mệt mỏi. / Thuật toán hoạt động tốt trong hầu hết các điều kiện, đặc biệt là vào ban ngày.",
+    categories: ["General", "Academic", "Professional"],
   },
   {
     word: "Note",

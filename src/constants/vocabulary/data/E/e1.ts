@@ -1007,48 +1007,62 @@ export const E1: VocabularyWord[] = [
     categories: ["Economics", "Daily", "General"],
   },
   {
-    "word": "Economy",
-    "slug": "economy",
-    "phonetic": "/ɪˈkɑː.nə.mi/",
-    "partOfSpeech": "noun",
-    "meaningEn": "The system of trade and industry; or the careful use of money, time, or resources to avoid waste.",
-    "meaningVi": "Nền kinh tế; hoặc sự tiết kiệm, sự tối ưu hóa (tiền bạc, thời gian, tài nguyên).",
-    "exampleEn": "The country's digital economy is growing substantially. / We chose this light model for the sake of memory economy in the drowsiness detection project.",
-    "exampleVi": "Nền kinh tế số của đất nước đang tăng trưởng một cách đáng kể. / Chúng tôi chọn mô hình gọn nhẹ này vì mục đích tiết kiệm bộ nhớ trong dự án phát hiện buồn ngủ.",
-    "categories": ["Business", "Economics", "Technology"]
+    word: "Economy",
+    slug: "economy",
+    phonetic: "/ɪˈkɑː.nə.mi/",
+    partOfSpeech: "noun",
+    meaningEn:
+      "The system of trade and industry; or the careful use of money, time, or resources to avoid waste.",
+    meaningVi:
+      "Nền kinh tế; hoặc sự tiết kiệm, sự tối ưu hóa (tiền bạc, thời gian, tài nguyên).",
+    exampleEn:
+      "The country's digital economy is growing substantially. / We chose this light model for the sake of memory economy in the drowsiness detection project.",
+    exampleVi:
+      "Nền kinh tế số của đất nước đang tăng trưởng một cách đáng kể. / Chúng tôi chọn mô hình gọn nhẹ này vì mục đích tiết kiệm bộ nhớ trong dự án phát hiện buồn ngủ.",
+    categories: ["Business", "Economics", "Technology"],
   },
   {
-    "word": "Economic",
-    "slug": "economic",
-    "phonetic": "/ˌiː.kəˈnɑː.mɪk/",
-    "partOfSpeech": "adjective",
-    "meaningEn": "Relating to trade, industry, and money, or to the economy of a country or region.",
-    "meaningVi": "Thuộc về kinh tế, thuộc về tài chính (mang tính vĩ mô).",
-    "exampleEn": "The government aims to stimulate economic growth through digital transformation. / The project was canceled due to sudden economic downturns.",
-    "exampleVi": "Chính phủ đặt mục tiêu kích thích tăng trưởng kinh tế thông qua chuyển đổi số. / Dự án đã bị hủy bỏ do suy thoái kinh tế đột ngột.",
-    "categories": ["Business", "Economics", "Politics"]
+    word: "Economic",
+    slug: "economic",
+    phonetic: "/ˌiː.kəˈnɑː.mɪk/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Relating to trade, industry, and money, or to the economy of a country or region.",
+    meaningVi: "Thuộc về kinh tế, thuộc về tài chính (mang tính vĩ mô).",
+    exampleEn:
+      "The government aims to stimulate economic growth through digital transformation. / The project was canceled due to sudden economic downturns.",
+    exampleVi:
+      "Chính phủ đặt mục tiêu kích thích tăng trưởng kinh tế thông qua chuyển đổi số. / Dự án đã bị hủy bỏ do suy thoái kinh tế đột ngột.",
+    categories: ["Business", "Economics", "Politics"],
   },
   {
-    "word": "Economical",
-    "slug": "economical",
-    "phonetic": "/ˌiː.kəˈnɑː.mɪ.kəl/",
-    "partOfSpeech": "adjective",
-    "meaningEn": "Not costing a lot of money, or using money, time, goods, or energy carefully without wasting any.",
-    "meaningVi": "Tiết kiệm, ít tốn kém, tối ưu (tránh lãng phí tài nguyên).",
-    "exampleEn": "This lightweight Python model is highly economical with hardware resources. / Hybrid cars are more economical to run than traditional gasoline vehicles.",
-    "exampleVi": "Mô hình Python gọn nhẹ này rất tiết kiệm tài nguyên phần cứng. / Xe lai (hybrid) vận hành tiết kiệm hơn so với xe chạy xăng truyền thống.",
-    "categories": ["Technology", "General", "Management"]
+    word: "Economical",
+    slug: "economical",
+    phonetic: "/ˌiː.kəˈnɑː.mɪ.kəl/",
+    partOfSpeech: "adjective",
+    meaningEn:
+      "Not costing a lot of money, or using money, time, goods, or energy carefully without wasting any.",
+    meaningVi: "Tiết kiệm, ít tốn kém, tối ưu (tránh lãng phí tài nguyên).",
+    exampleEn:
+      "This lightweight Python model is highly economical with hardware resources. / Hybrid cars are more economical to run than traditional gasoline vehicles.",
+    exampleVi:
+      "Mô hình Python gọn nhẹ này rất tiết kiệm tài nguyên phần cứng. / Xe lai (hybrid) vận hành tiết kiệm hơn so với xe chạy xăng truyền thống.",
+    categories: ["Technology", "General", "Management"],
   },
   {
-    "word": "Economically",
-    "slug": "economically",
-    "phonetic": "/ˌiː.kəˈnɑː.mɪ.kəl.i/",
-    "partOfSpeech": "adverb",
-    "meaningEn": "In a way that relates to the economy, or in a way that uses money or resources carefully.",
-    "meaningVi": "Về mặt kinh tế; hoặc một cách tiết kiệm, một cách tối ưu chi phí.",
-    "exampleEn": "The new cloud architecture is economically viable for our startup. / We must run the simulation economically within our allotted server budget.",
-    "exampleVi": "Kiến trúc đám mây mới khả thi về mặt kinh tế đối với công ty khởi nghiệp của chúng tôi. / Chúng tôi phải chạy mô phỏng một cách tiết kiệm trong phạm vi ngân sách máy chủ được phân bổ.",
-    "categories": ["Business", "Technology", "Economics"]
+    word: "Economically",
+    slug: "economically",
+    phonetic: "/ˌiː.kəˈnɑː.mɪ.kəl.i/",
+    partOfSpeech: "adverb",
+    meaningEn:
+      "In a way that relates to the economy, or in a way that uses money or resources carefully.",
+    meaningVi:
+      "Về mặt kinh tế; hoặc một cách tiết kiệm, một cách tối ưu chi phí.",
+    exampleEn:
+      "The new cloud architecture is economically viable for our startup. / We must run the simulation economically within our allotted server budget.",
+    exampleVi:
+      "Kiến trúc đám mây mới khả thi về mặt kinh tế đối với công ty khởi nghiệp của chúng tôi. / Chúng tôi phải chạy mô phỏng một cách tiết kiệm trong phạm vi ngân sách máy chủ được phân bổ.",
+    categories: ["Business", "Technology", "Economics"],
   },
   {
     word: "Ecru",

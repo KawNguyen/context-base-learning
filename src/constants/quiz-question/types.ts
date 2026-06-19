@@ -14,6 +14,6 @@ export interface Question {
   questionEn: string;
   questionVi: string;
   options: Option[];
-  explanationVi: string;
+  explanationVi?: string;
   category: string;
 }
