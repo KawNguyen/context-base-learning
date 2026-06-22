@@ -1,3 +1,9 @@
+export enum Part7TypesEnum {
+  Single = "single",
+  Double = "double",
+  Triple = "triple",
+}
+
 export type Option = {
   label: string;
   text: string;
@@ -10,9 +16,9 @@ export type Question = {
   options: Option[];
 };
 
-export type ReadingPassage = {
-  title?: string;
-  type: string;
-  content: string;
+export type Part7Types = {
+  testSlug: string;
+  type: Part7TypesEnum;
+  image: string[] | string;
   questions: Question[];
 };

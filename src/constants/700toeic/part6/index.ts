@@ -1,13 +1,12 @@
-import { passagesTest1 } from "./test1";
-import { passagesTest2 } from "./test2";
-import { passagesTest3 } from "./test3";
-import { passagesTest4 } from "./test4";
+import { PassagesTest1 } from "./test1";
+import { PassagesTest2 } from "./test2";
+import { PassagesTest3 } from "./test3";
+import { PassagesTest4 } from "./test4";
 
-export interface TextCompletionPassage {
+export interface Part6Types {
   testSlug: string;
   id: string;
-  title: string;
-  content: string; // Use {{1}}, {{2}} for gaps
+  image: string; // Use {{1}}, {{2}} for gaps
   questions: {
     id: string;
     placeholderIndex: number;
@@ -15,13 +14,12 @@ export interface TextCompletionPassage {
       option: string;
       isCorrect: boolean;
     }[];
-    explanationVi?: string;
   }[];
 }
 
-export const part6 = [
-  ...passagesTest1,
-  ...passagesTest2,
-  ...passagesTest3,
-  ...passagesTest4,
+export const Part6 = [
+  ...PassagesTest1,
+  ...PassagesTest2,
+  ...PassagesTest3,
+  ...PassagesTest4,
 ];

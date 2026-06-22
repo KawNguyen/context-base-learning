@@ -1,11 +1,10 @@
-import { TextCompletionPassage } from ".";
+import { Part6Types } from ".";
 
-export const passagesTest4: TextCompletionPassage[] = [
+export const PassagesTest4: Part6Types[] = [
   {
     testSlug: "test-4",
     id: "office-changes-131",
-    title: "Memo regarding Office Changes",
-    content:
+    image:
       "To: Samantha Wallace, Edward Kershaw\nFrom: Ted Winters\nSubject: Changes\nDate: June 10\n\nI've been giving some thought to an idea, and I'd like to find out what {{1}} of you think about it. Since the Sales and Marketing departments collaborate so much, I'm considering putting the two offices in the same room. So Sales would no longer be on the first floor, {{2}} would Marketing be on the third floor. Instead, they'll be on the second floor in a large, open area. There will be no individual offices except for those of the director and assistant director of each department.\n\nI believe this would foster a sense of teamwork between the members of both departments. By {{3}} what the salespeople are doing, the marketing people could create better advertisements and devise more ways to induce shoppers to buy our products. And by learning how the marketers think, the sales staff could come up with more effective ways to pitch our products. What do you two think of this proposal? {{4}}",
     questions: [
       {
@@ -68,8 +67,7 @@ export const passagesTest4: TextCompletionPassage[] = [
   {
     testSlug: "test-4",
     id: "electricity-blackout-135",
-    title: "Electricity to Be Disconnected",
-    content:
+    image:
       "{{1}} The area that is going to be covered by the blackout will be on Carter Street between Eastern Avenue and Kenmore Road. Work crews from Alameda Power are going to be working on some high-powered lines on Carter Street, so electricity there must be turned off to let them do their jobs {{2}}. Electricity will be disconnected at 9 A.M. and should be turned back on around 11:30 A.M. Residents who will be {{3}} ought to take precautions so that they will be prepared during this time. If the work is not complete by 11:30, the electricity will remain off. City employees will make {{4}} by loudspeaker in the area so that residents can be updated on the work crews' progress. Please visit the Alameda Power website at www.alamedapower.com/carterstreet to learn more about which areas will be covered by the blackout. Questions or complaints can be e-mailed to info@alamedapower.com and will be responded to within 4 hours of being received.",
     questions: [
       {
@@ -133,8 +131,7 @@ export const passagesTest4: TextCompletionPassage[] = [
   {
     testSlug: "test-4",
     id: "meeting-cancel-139",
-    title: "Email regarding Meeting Rescheduling",
-    content:
+    image:
       "To: Mary Lewis\nFrom: Eloise Purcell\nSubject: Meeting\nDate: October 3\n\nMary,\n\nI know we are supposed to meet today right after lunch, but I'm afraid I'm not going to be able to get together with you then. Mr. Colter, my supervisor, requested that I give a presentation for the delegation from Spain {{1}} arrived last night. I need to discuss the benefits of our latest line of software with them at 2:30 this afternoon. {{2}} I therefore need to spend every minute until then working on what I intend to say.\n\nHow does your schedule look tomorrow morning? I've got {{3}} time between 9 and noon, so I can meet you then. If that doesn't work for you, I'm also available between the hours of 4 and 6. Why don't you let me know what the best time for you to meet is? I apologize for canceling our meeting on such {{4}} notice, but this is a matter that is out of my control. I hope you understand.\n\nRegards,\n\nEloise",
     questions: [
       {
@@ -196,8 +193,7 @@ export const passagesTest4: TextCompletionPassage[] = [
   {
     testSlug: "test-4",
     id: "bank-opening-143",
-    title: "Bixby Bank to Open New Branch Downtown",
-    content:
+    image:
       "Hampton City (January 17) – Yesterday, a spokeswoman for Bixby Bank announced that the bank {{1}} a new branch in the downtown part of Hampton City. The office will be located on the second floor of the Silverwood Shopping Center. {{2}} Headquartered in Montgomery, the bank has been opening branch offices at a swift pace during the past two years. This year, it plans to open more than 30 branch offices across the entire state. The office in the mall will be Hampton City's fourth Bixby Bank. The bank has been growing so much thanks to its {{3}} on customer relations and quality service. In a recent survey, Bixby Bank ranked much higher than all of its competitors regarding how well it {{4}} its customers and which services it provides for them. Bixby Bank recorded more than $25 million in profits last year, and analysts believe it will more than double that number this year.",
     questions: [
       {

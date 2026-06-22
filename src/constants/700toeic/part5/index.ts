@@ -1,23 +1,23 @@
-import { part5Test1 } from "./test1";
-import { part5Test2 } from "./test2";
-import { part5Test3 } from "./test3";
-import { part5Test4 } from "./test4";
+import { Part5Test1 } from "./test1";
+import { Part5Test2 } from "./test2";
+import { Part5Test3 } from "./test3";
+import { Part5Test4 } from "./test4";
 
-export interface optionsType {
+export interface OptionsType {
   option: string;
   isCorrect: boolean;
 }
 
-export interface part5Type {
+export interface Part5Type {
   testSlug: string;
   id: number;
   question: string;
-  options: optionsType[];
+  options: OptionsType[];
 }
 
-export const part5 = [
-  ...part5Test1,
-  ...part5Test2,
-  ...part5Test3,
-  ...part5Test4,
+export const Part5 = [
+  ...Part5Test1,
+  ...Part5Test2,
+  ...Part5Test3,
+  ...Part5Test4,
 ];

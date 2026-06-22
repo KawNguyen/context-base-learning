@@ -1,12 +1,10 @@
-import { TextCompletionPassage } from ".";
+import { Part6Types } from ".";
 
-export const passagesTest3: TextCompletionPassage[] = [
+export const PassagesTest3: Part6Types[] = [
   {
     testSlug: "test-3",
     id: "airport-terminal-131",
-    title: "New Terminal to Open at Airport",
-    content:
-      "Springfield International Airport is proud to announce that its newest terminal is going to open soon. After thirty months of construction, Terminal 2 is ready to start sending passengers to destinations {{1}} the world. The new terminal has twenty-five gates that will be used by nine different airlines. Local budget airline Ace Airways will be the {{2}} occupant of the terminal as it will have control over ten of the gates. Terminal 2 will be able to process several thousand passengers each day. It will also have all kinds of facilities, including duty-free shops and a number of franchise restaurants. {{3}} Its gates will be able to handle the largest passenger airliners in the world, too. The terminal is set to open on Thursday, April 10. There will be a small ceremony at 7 A.M., and then passengers will be {{4}} so that they can start going to their gates to catch their flights.",
+    image: "/images/700toeic/test3/131-134.jpg",
     questions: [
       {
         id: "q131",
@@ -69,9 +67,7 @@ export const passagesTest3: TextCompletionPassage[] = [
   {
     id: "rent-increase-135",
     testSlug: "test-3",
-    title: "Rent Increase Memo",
-    content:
-      "To: All Tenants, Bluebird Tower\nFrom: Cliff Samuels, Building Manager\nRe: Rent Increase\nDate: August 2\n\nPlease be aware that as of September 1, all rents in the building will increase by 10%. This increase applies both to individuals renting apartments {{1}} those people who are renting office or commercial spaces. {{2}} I will be sending new contracts to all tenants within the next five business days. You need to sign them and return them to me at my office on the first floor no later than August 15. Those of you who do not wish to pay the higher rent must {{3}} the premises by August 31. Your security deposit {{4}} as soon as we in the management office confirm that your space has not suffered any damage. You may feel free to speak with me about the rent increase or anything else that is on your mind. Just call me at 856-4584 during regular business hours.",
+    image: "/images/700toeic/test3/135-138.jpg",
     questions: [
       {
         id: "q135",
@@ -134,9 +130,7 @@ export const passagesTest3: TextCompletionPassage[] = [
   {
     testSlug: "test-3",
     id: "auto-mechanics-139",
-    title: "Association of Auto Mechanics Conference",
-    content:
-      "March 15\n\nDear Member of the Association of Auto Mechanics,\n\nThe Association of Auto Mechanics (AAM) is going to hold its annual conference on September 14 and 15. The event is going to be held in Memphis, Tennessee. This is the same location as last year's event. Due to the tremendous {{1}} of the conference last year, it was unanimously decided by the members of the executive staff at the AAM to have it in Memphis once again.\n\nThis year's conference will have a large number of events, including talks, workshops, and a sales fair. The keynote speaker will be {{2}} mechanic Robert McGuffin, an expert in the art of repairing antique vehicles. As a member of the AAM, you are {{3}} to pay the discounted registration rate of $75. That will get you access to every event that is being held at the conference. Some airlines and hotels are offering discounts to our members. Please call (405) 326-8695 for more information regarding that. {{4}}\n\nSincerely,\n\nTim Matterhorn\nPresident, Association of Auto Mechanics",
+    image: "/images/700toeic/test3/139-142.jpg",
     questions: [
       {
         id: "q139",
@@ -186,9 +180,7 @@ export const passagesTest3: TextCompletionPassage[] = [
   {
     testSlug: "test-3",
     id: "resident-year-143",
-    title: "Pearl Resident of the Year Named",
-    content:
-      "Pearl (December 28) – In a ceremony held at city hall last night, Jason O'Brien was {{1}} the Resident of the Year by Mayor Anna Harper. Mr. O'Brien, who has lived in Pearl for more than forty years since moving to the city as a child, has been in the news a lot this year. First, when a tornado swept through the city in the spring, Mr. O'Brien helped organize groups of residents to rescue those needing assistance. {{2}} He also {{3}} a large amount of money to relief efforts in the city. He came to the rescue once again when the Red River flooded its banks in summer and left half the city under two feet of water. Finally, Mr. O'Brien provided $2 million for the building of a local community center, where residents will be able to go for various leisure activities once construction on it is complete 14 months from now. According to Mayor Harper, {{4}} else was even considered for the award.",
+    image: "/images/700toeic/test3/143-146.jpg",
     questions: [
       {
         id: "q143",

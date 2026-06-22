@@ -1,18 +1,29 @@
 import { Part5 } from "@/components/700-toeic/part-5";
 import { Part6 } from "@/components/700-toeic/part-6";
-import { Part7 } from "@/components/700-toeic/part-7";
+import { Part7Selection } from "@/components/700-toeic/part-7/part-7-selection";
+import { notFound } from "next/navigation";
 
-export default async function ComponentName({
+const PART_COMPONENTS = {
+  "part-5": Part5,
+  "part-6": Part6,
+  "part-7": Part7Selection,
+} as const;
+
+export default async function Page({
   params,
 }: {
-  params: { test: string; part: string };
+  params: {
+    test: string;
+    part: string;
+  };
 }) {
-  const { part, test } = await params;
-  return part === "part-5" ? (
-    <Part5 testSlug={test} />
-  ) : part === "part-6" ? (
-    <Part6 testSlug={test} />
-  ) : part === "part-7" ? (
-    <Part7 testSlug={test} />
-  ) : null;
+  const { test, part } = await params;
+
+  const Component = PART_COMPONENTS[part as keyof typeof PART_COMPONENTS];
+
+  if (!Component) {
+    notFound();
+  }
+
+  return <Component testSlug={test} />;
 }

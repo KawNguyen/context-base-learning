@@ -1,12 +1,10 @@
-import { TextCompletionPassage } from ".";
+import { Part6Types } from ".";
 
-export const passagesTest1: TextCompletionPassage[] = [
+export const PassagesTest1: Part6Types[] = [
   {
     testSlug: "test-1",
     id: "delmont-paper-mill-001",
-    title: "The Delmont Paper Mill Announcement",
-    content:
-      "The Delmont Paper Mill has been in business since 1878. During that time, we have made all kinds of paper products that have been sold around the country. We are in the process of {{1}} our facilities so that we can increase our production of paper approximately 25% by the end of the year. When the process is complete, we will require more raw materials, especially wood pulp, for our mill. We are now accepting bids from suppliers. For a list of the materials that we need as well as the required amounts, please visit our website at www.delmontpaper.com/supplies. {{2}} Those interested in bidding to become a supplier can then contact Mr. Peter Hopkins at 850-3043. All bids must be submitted no later than October 1. {{3}} parties will be contacted on or around October 10. Those companies selected to become new suppliers {{4}} providing shipments of supplies by the middle of December.",
+    image: "/images/700toeic/test1/131_134.jpg",
     questions: [
       {
         id: "q131",
@@ -69,9 +67,7 @@ export const passagesTest1: TextCompletionPassage[] = [
   {
     testSlug: "test-1",
     id: "savers-bank-letter-135",
-    title: "Savers' Bank Welcome Letter",
-    content:
-      "December 10\n\nDear Mr. Thompson,\n\nThank you for opening a checking account at Savers' Bank. We have been providing our customers with high-quality services for more than 35 years, and we {{1}} to do the same thing for you.\n\nWe are currently printing your checks. You should receive them no later {{2}} December 15. Please note that most places in the city require you to present a form of picture ID when paying for goods or services with a check. {{3}} In addition, we charge a $40 fee if you write a check on an overdrawn account.\n\nYou may feel free to contact one of our customer service representatives at 808-4243 at any time should you have any questions or comments regarding your account. We look forward to having a long and mutually {{4}} relationship with you.\n\nSincerely,\n\nCarla Hampton\nVice President\nSavers' Bank",
+    image: "/images/700toeic/test1/135_138.jpg",
     questions: [
       {
         id: "q135",
@@ -134,9 +130,7 @@ export const passagesTest1: TextCompletionPassage[] = [
   {
     testSlug: "test-1",
     id: "greenbrier-volunteers-139",
-    title: "Volunteers Needed",
-    content:
-      "The Greenbrier Community Center is looking for volunteers to work during the summer months. We require people to teach some of the classes we hope to offer, and we could also use people to work at the information desk. {{1}} with the time and ability to teach classes on painting, arts and crafts, needlepoint, and sewing are highly desired. {{2}} Please call Mary Ashford at 382-8594 for more information.\n\nWhile volunteers at the Greenbrier Community Center will not receive any {{3}} compensation for their time, they will be rewarded in other ways. Anyone volunteering up to ten hours a week will receive 50% off the price of a yearly membership. And anyone who volunteers 20 hours or more each week will receive a free annual membership.\n\nBecome a volunteer at the Greenbrier Community Center. Help the residents of our community {{4}} their lives by giving a bit of time from yours.",
+    image: "/images/700toeic/test1/139_142.jpg",
     questions: [
       {
         id: "q139",
@@ -199,9 +193,7 @@ export const passagesTest1: TextCompletionPassage[] = [
   {
     testSlug: "test-1",
     id: "accounting-restructuring-143",
-    title: "Restructuring Memo",
-    content:
-      "To: All Staff Members, Accounting Department\nFrom: Darren Smith, Director, Accounting Department\nSubject: Restructuring\nDate: November 4\n\nIn the past two weeks, three of the employees in the Accounting Department have {{1}} their positions to work at other companies. Unfortunately, HR has decided that only one of those positions {{2}} with a new worker. As a result, all of us are going to take on additional duties to do the work that Jeb Marconi and Jenna Wilkins used to do.\n\nWe're going to have a staff meeting to discuss this matter on Friday, November 6. It's going to start at 9 in the morning and will end when we cover everything. {{3}} Attendance at the meeting is mandatory, so please cancel all other plans or appointments you may have scheduled for that time. If you have any suggestions regarding this matter, please feel free to mention them at the meeting. I am interested in hearing everyone's ideas on how we can assume extra duties without making our {{4}} too heavy.",
+    image: "/images/700toeic/test1/143_146.jpg",
     questions: [
       {
         id: "q143",

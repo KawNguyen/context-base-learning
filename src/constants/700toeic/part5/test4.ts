@@ -1,6 +1,6 @@
-import { part5Type } from ".";
+import { Part5Type } from ".";
 
-export const part5Test4: part5Type[] = [
+export const Part5Test4: Part5Type[] = [
   {
     testSlug: "test-4",
     id: 101,

@@ -1,10 +1,10 @@
-import { ReadingPassage } from "./type";
+import { Part7Types, Part7TypesEnum } from "../type";
 
-export const toeicData: ReadingPassage[] = [
+export const SinglePassageTest1: Part7Types[] = [
   {
-    title: "Aloha from Hawaii!",
-    type: "Advertisement",
-    content: "images/700toeic/test1/147_148.jpg",
+    testSlug: "test-1",
+    type: Part7TypesEnum.Single,
+    image: "images/700toeic/test1/147_148.jpg",
     questions: [
       {
         id: 147,
@@ -46,9 +46,9 @@ export const toeicData: ReadingPassage[] = [
     ],
   },
   {
-    type: "Online message chain",
-    content:
-      "Cooper, Bruce [4:15 P.M.]\nThe bidding process is complete. They're going to make a decision in the next couple of minutes.\nIrwin, Catherine [4:17 P.M.]\nI hope we land the job.\nCooper, Bruce [4:25 P.M.]\nI can't believe it. They chose our bid for the Tyler project over everyone else's.\nIrwin, Catherine [4:26 P.M.]\nCongratulations. I knew you could do it.\nCooper, Bruce [4:28 P.M.]\nThis is the kind of contract we've been trying to get for the past three years.\nIrwin, Catherine [4:30 P.M.]\nIt looks like we're going to be really busy soon. What time will you be back in the office? Should I assemble the team so that we can go over what to do next?\nCooper, Bruce [4:34 P.M.]\nGood thinking. I'll be back by 5:30. We can go over the specifics of the contract and talk in brief about what needs to be done.",
+    testSlug: "test-1",
+    type: Part7TypesEnum.Single,
+    image: "images/700toeic/test1/149_150.jpg",
     questions: [
       {
         id: 149,
@@ -90,10 +90,9 @@ export const toeicData: ReadingPassage[] = [
     ],
   },
   {
-    title: "MEMO",
-    type: "Memorandum",
-    content:
-      "To: All Employees\nFrom: Melissa Jenkins\nDate: April 10\nRe: Restructuring\n\nPlease be aware that the company is going to undergo a major restructuring involving the Sales, Marketing, and Accounting Departments. -[1]- The Sales and Marketing Departments will be combined into a single department to be called the Commerce Department. George Jenkins, who is currently the manager of the Sales Department, will take over as the head of this department. -[2]- In addition, the Accounting Department will be downsized by 25%. Employees in all three of these departments will be notified of their future status here this Friday morning. -[3]- All changes will go into effect on May 1. We are implementing these changes to streamline company operations and to ensure future profitability. We hope that everyone will pull together during this difficult time so that we can emerge from the current recession as a leaner, but more profitable, firm. -[4]-",
+    testSlug: "test-1",
+    type: Part7TypesEnum.Single,
+    image: "images/700toeic/test1/151_152.jpg",
     questions: [
       {
         id: 151,
@@ -135,10 +134,9 @@ export const toeicData: ReadingPassage[] = [
     ],
   },
   {
-    title: "Falcon Air Itinerary",
-    type: "Itinerary",
-    content:
-      "Passenger Name: Ms. Naomi Strauss\nReservation Code: ERE6095\n\nZurich to Barcelona | Flight FA394 | Cabin: Economy | Departure Time: 2:15 P.M. | Arrival Time: 4:05 P.M.\nBarcelona to Paris | Flight FA211 | Cabin: Economy | Departure Time: 10:30 A.M. | Arrival Time: 12:25 P.M.\nParis to Copenhagen | Flight FA95 | Cabin: Business | Departure Time: 4:20 P.M. | Arrival Time: 6:10 P.M.\nCopenhagen to Zurich | Flight FA575 | Cabin: Economy | Departure Time: 7:10 P.M. | Arrival Time: 8:50 P.M.\n\nPlease print this document and present it at the check-in counter. You may check in 2 bags weighing up to a total of 20 kilograms. For each additional bag you check in, you will be charged 50 euros. If you exceed the weight allowance, you must pay an additional 7 euros per kilogram.\n\nThis ticket may only be used by the passenger whose name is on it. It may not be transferred. This is a nonrefundable ticket, but it may be changed 1 time with no financial penalty.",
+    testSlug: "test-1",
+    type: Part7TypesEnum.Single,
+    image: "images/700toeic/test1/153_155.jpg",
     questions: [
       {
         id: 153,
@@ -190,9 +188,9 @@ export const toeicData: ReadingPassage[] = [
     ],
   },
   {
-    type: "Instructions",
-    content:
-      "Thank you for purchasing a Safety Pro Car Seat from the Whitman Corporation. Car seats can only protect your children when they are installed properly, so please carefully read and then follow the instructions below.\n\n✓ Do not install this car seat in the front seat of your vehicle. It is meant only to be installed in the back seat.\n✓ If your child weighs fewer than 10 kilograms or is 18 months of age or younger, the car seat should be positioned facing the rear. Children who are both 18 months of age or older and who weigh 10 kilograms or more may sit in seats facing forward.\n✓ Pull the seatbelt through the belt path while ensuring that there are no twists. Then, lock the seatbelt in place.\n✓ Pull the seatbelt tightly so that the car seat fits securely. Side-to-side movement decreases the effectiveness of the car seat.\n✓ Place your child in the car seat and then adjust the straps to guarantee that the child fits snugly within the seat. Your child should not wear a jacket while riding in the car seat.\n\nFor more information, including a video with step-by-step instructions, please visit our website at www.safetyprocarseat.com. You may also call us toll-free at 1-888-555-4938 if you have any questions regarding the Safety Pro Car Seat.",
+    testSlug: "test-1",
+    type: Part7TypesEnum.Single,
+    image: "images/700toeic/test1/156_158.jpg",
     questions: [
       {
         id: 156,
@@ -244,10 +242,9 @@ export const toeicData: ReadingPassage[] = [
     ],
   },
   {
-    title: "Repair Work",
-    type: "Email",
-    content:
-      "TO: James Walker <jwalker@ssuncorp.com>\nFROM: Helen Trent <htrent@westing.com>\nSUBJECT: Repair Work\nDATE: July 16\n\nDear Mr. Walker,\n\nI am writing to you with regard to the repair work that a team from your firm did on the main office's air conditioning system last week. Since the work was completed on Thursday, I have received several complaints from employees with regard to the excessive noise that the air conditioning system is making. The problem only arose after your repairmen departed, so I assume that the noise has something to do with the work that they did on the system. As I am sure that you can understand, the high level of noise is making it hard for everyone to concentrate on their work, so we have had to turn the system off. Naturally, we are all very hot due to the ongoing heatwave, so we are in need of a functioning air conditioning system. As per our contract, your company guarantees all the work it does, so I request that your repairmen return to my firm as soon as possible. Would you please be kind enough to inform me when this will be possible? I look forward to hearing from you soon.\n\nSincerely,\n\nHelen Trent\nWesting Corporation",
+    testSlug: "test-1",
+    type: Part7TypesEnum.Single,
+    image: "images/700toeic/test1/159_161.jpg",
     questions: [
       {
         id: 159,
@@ -316,10 +313,9 @@ export const toeicData: ReadingPassage[] = [
   },
 
   {
-    title: "Escape to the Bendburg Ski Resort",
-    type: "Advertisement",
-    content:
-      "The snow has started falling, which means that it's time to go skiing. The Bendburg Ski Resort has just opened for the winter and is taking reservations. Don't miss out on the excellent new facilities at the finest ski resort in the state. During the summer, a slope called the Green Mountain Run was added. The Green Mountain Run is our longest and most challenging slope. You can also take advantage of our newly renovated ski lifts to maximize your time on the mountains. And don't forget to stop by Ricardo's, our new café, for some hot chocolate, an espresso, or a snack and for the best view of the surrounding area once you're done skiing. New to skiing? Bendburg has four instructors able to help novices and veteran skiers alike. Get the lowest prices for lessons when you book in advance. Located 30 minutes south of Milton on Highway 152, the Bendburg Ski Resort offers a daily shuttle service to downtown Milton. Call 953-8201 for more information or to make a booking.",
+    testSlug: "test-1",
+    type: Part7TypesEnum.Single,
+    image: "images/700toeic/test1/162_164.jpg",
     questions: [
       {
         id: 162,
@@ -395,9 +391,9 @@ export const toeicData: ReadingPassage[] = [
   },
 
   {
-    type: "Letter",
-    content:
-      "Dear Kristin,\n\nI opened my most recent copy of Business Today this morning, and imagine my surprise when I saw a picture of you. Congratulations on being featured in an article in the magazine. And well done on being promoted to vice president at Pinewood, Inc. I remember back when we were colleagues at Ceti Heavy Industries, everyone there knew that you were destined for great things. And it appears as though you are reaching your potential.\n\nAccording to the article, you're going to be transferred to Omaha soon. As luck would have it, that is where I happen to work now. It would be great to have a chance to get together with you and to get caught up with each other. Why don't you e-mail me at daveb@tristan.com whenever you get a chance, and we can set up a mutually convenient time to meet? In addition, if you need to know anything about the city or need help finding a place to live, feel free to use me as a reference. I've been here for the past 6 years, so I'm quite familiar with the area.\n\nTalk to you soon.\n\nYours,\nDave Babson",
+    testSlug: "test-1",
+    type: Part7TypesEnum.Single,
+    image: "images/700toeic/test1/165_167.jpg",
     questions: [
       {
         id: 165,
@@ -461,9 +457,9 @@ export const toeicData: ReadingPassage[] = [
   },
 
   {
-    type: "Online message chain",
-    content:
-      "Cash, Leona [1:30 P.M.]: The group from Toronto is landing at the airport in a couple of hours. Is everything ready for the inspection of the facility they're going on tomorrow?\nBergeron, Neil [1:33 P.M.]: I've done everything you asked of me.\nAlderson, John [1:35 P.M.]: Same here. I'll also be ready to show them around the factory tomorrow morning.\nCash, Leona [1:38 P.M.]: That's good news. Which one of you two is planning to pick them up at the airport and take them to their hotel?\nAlderson, John [1:39 P.M.]: I wasn't aware you wanted us to do that.\nBergeron, Neil [1:40 P.M.]: Me neither. I thought you told us last week that you and Harold were going to do that.\nCash, Leona [1:42 P.M.]: Oh... I guess I forgot to tell you about the change in plans. I've got to meet with the VP of sales this afternoon, and Harold left for Costa Rica this morning. Are either of you available?\nBergeron, Neil [1:45 P.M.]: I'm scheduled to meet Irene Chang at 4:00. But I suppose I could ask her to come here another day.\nAlderson, John [1:48 P.M.]: Don't do that, Neil. I can go there and meet them. I've spoken with Claude Messier several times, so it will be nice to get a chance to see him in person. Can you send me their flight info, Leona?\nCash, Leona [1:50 P.M.]: Check your e-mail in two minutes. Thanks, John. I owe you one.",
+    testSlug: "test-1",
+    type: Part7TypesEnum.Single,
+    image: "images/700toeic/test1/168_171.jpg",
     questions: [
       {
         id: 168,
@@ -558,10 +554,9 @@ export const toeicData: ReadingPassage[] = [
   },
 
   {
-    title: "Literacy Awareness Month to Conclude Soon",
-    type: "Article",
-    content:
-      "Literacy Awareness Month is about to come to a close. Before it reaches its end, we would like to salute all of the members of the community who are making a difference to our children. We at the Reading Club of Kent (RCK) have been battling illiteracy among impoverished children by hosting daily events that encourage both children and their parents to read every day. This year's program has been a big success thanks to the hard work of our volunteers. — [1] —\n\nKnowing that reading is the key to education and that education is fundamental to staying out of poverty, the RCK has been hosting reading sessions at the Kent Public Library. — [2] — Elementary schoolchildren throughout the city have been coming to read and to listen to local athletes, singers, actors, and other celebrities read their favorite stories aloud. A combined total of more than 2,500 children have attended these events. — [3] —\n\nThe RCK was established by Joseph Stack and his family. The Stack family resettled in Kent in 1892 and was disturbed by the number of children who were unable to read. They therefore vowed to fight illiteracy in Kent and the surrounding area. — [4] — Since then, the RCK has donated more than 20,000 books to children living in poverty and has held special events such as this one on an annual basis.",
+    testSlug: "test-1",
+    type: Part7TypesEnum.Single,
+    image: "images/700toeic/test1/172_175.jpg",
     questions: [
       {
         id: 172,
