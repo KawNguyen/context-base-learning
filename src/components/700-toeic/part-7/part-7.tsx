@@ -7,6 +7,11 @@ import { QuizBottomBar } from "@/components/ui/quiz-header";
 import { CEFRLevel } from "@/types";
 import Image from "next/image";
 import { Part7Types } from "@/constants/700toeic/part7/type";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from "@/components/ui/carousel";
 
 export function Part7({
   testSlug,
@@ -94,66 +99,76 @@ export function Part7({
   return (
     <div className="space-y-6">
       <div className="grid gap-6">
-        {passages.map((passage, index) => (
-          <Card key={index} className={`p-6 border-2 bg-primary-foreground`}>
+        {passages.map((passage) => (
+          <Card
+            key={passage.id}
+            className={`p-2 border-2 bg-primary-foreground`}
+          >
             <div className="grid lg:grid-cols-2 gap-6 items-start">
-              <div className="flex flex-col justify-center items-center gap-4">
-                {(Array.isArray(passage.image)
-                  ? passage.image
-                  : [passage.image]
-                ).map((img, imgIndex) => (
-                  <Image
-                    key={imgIndex}
-                    src={img.startsWith("/") ? img : `/${img}`}
-                    alt={`Passage Image ${imgIndex + 1}`}
-                    width={600}
-                    height={400}
-                    className="max-w-full h-auto object-contain"
-                    priority
-                  />
-                ))}
-              </div>
-
-              <div className="grid grid-cols-1 gap-4 h-fit sticky top-6">
-                {passage.questions.map((q) => {
-                  const selectedLabel = selectedAnswers[q.id];
-                  const isAnswered = selectedLabel !== undefined;
-
-                  return (
-                    <div
-                      key={q.id}
-                      className={`p-4 border rounded-lg ${isAnswered ? "bg-muted" : "bg-primary-foreground"}`}
+              <Carousel className="w-full">
+                <CarouselContent className="w-full">
+                  {(Array.isArray(passage.image)
+                    ? passage.image
+                    : [passage.image]
+                  ).map((img, imgIndex) => (
+                    <CarouselItem
+                      key={imgIndex}
+                      className="w-full flex items-center justify-center"
                     >
-                      <div className="mb-3 flex flex-col gap-2">
-                        <span className="font-semibold text-lg">
-                          Question {q.id}
-                        </span>
-                        <p className="text-md font-medium">{q.questionText}</p>
-                      </div>
+                      <Image
+                        key={imgIndex}
+                        src={img.startsWith("/") ? img : `/${img}`}
+                        alt={`Passage Image ${imgIndex + 1}`}
+                        width={600}
+                        height={400}
+                        className="w-full h-auto object-contain"
+                        priority
+                      />
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+              </Carousel>
+              <div className="grid grid-cols-1 gap-4 h-fit sticky top-6">
+                <Carousel className="w-full">
+                  <CarouselContent className="w-full">
+                    {passage.questions.map((q) => {
+                      const selectedLabel = selectedAnswers[q.id];
+                      const isAnswered = selectedLabel !== undefined;
 
-                      <div className="grid gap-2">
-                        {q.options.map((opt) => {
-                          const isSelected = selectedLabel === opt.label;
-                          const isCorrectOption = opt.isCorrect;
+                      return (
+                        <CarouselItem
+                          key={q.id}
+                          className={`flex flex-col p-4 rounded-lg ${isAnswered ? "bg-muted" : "bg-primary-foreground"}`}
+                        >
+                          <span className="font-semibold text-lg">
+                            {q.id}. {q.questionText}
+                          </span>
 
-                          return (
-                            <AnswerButton
-                              key={`${q.id}-${opt.label}`}
-                              label={opt.label}
-                              isSelected={isSelected}
-                              isCorrect={isCorrectOption}
-                              isSubmitted={isSubmitted}
-                              onClick={() => handleSelect(q.id, opt.label)}
-                              variant="standard"
-                            >
-                              {opt.text}
-                            </AnswerButton>
-                          );
-                        })}
-                      </div>
-                    </div>
-                  );
-                })}
+                          <div className="grid gap-2">
+                            {q.options.map((opt) => {
+                              const isSelected = selectedLabel === opt.label;
+                              const isCorrectOption = opt.isCorrect;
+
+                              return (
+                                <AnswerButton
+                                  key={`${q.id}-${opt.label}`}
+                                  label={opt.label}
+                                  isSelected={isSelected}
+                                  isCorrect={isCorrectOption}
+                                  isSubmitted={isSubmitted}
+                                  onClick={() => handleSelect(q.id, opt.label)}
+                                  variant="standard"
+                                >
+                                  {opt.text}
+                                </AnswerButton>
+                              );
+                            })}
+                          </div>
+                        </CarouselItem>
+                      );
+                    })}
+                  </CarouselContent>
+                </Carousel>
               </div>
             </div>
           </Card>

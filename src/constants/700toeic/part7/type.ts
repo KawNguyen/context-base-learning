@@ -17,6 +17,7 @@ export type Question = {
 };
 
 export type Part7Types = {
+  id: string;
   testSlug: string;
   type: Part7TypesEnum;
   image: string[] | string;

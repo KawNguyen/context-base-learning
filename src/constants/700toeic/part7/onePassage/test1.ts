@@ -2,6 +2,7 @@ import { Part7Types, Part7TypesEnum } from "../type";
 
 export const SinglePassageTest1: Part7Types[] = [
   {
+    id: "images/700toeic/test1/147_148.jpg",
     testSlug: "test-1",
     type: Part7TypesEnum.Single,
     image: "images/700toeic/test1/147_148.jpg",
@@ -46,6 +47,7 @@ export const SinglePassageTest1: Part7Types[] = [
     ],
   },
   {
+    id: "images/700toeic/test1/149_150.jpg",
     testSlug: "test-1",
     type: Part7TypesEnum.Single,
     image: "images/700toeic/test1/149_150.jpg",
@@ -90,6 +92,7 @@ export const SinglePassageTest1: Part7Types[] = [
     ],
   },
   {
+    id: "images/700toeic/test1/151_152.jpg",
     testSlug: "test-1",
     type: Part7TypesEnum.Single,
     image: "images/700toeic/test1/151_152.jpg",
@@ -134,6 +137,7 @@ export const SinglePassageTest1: Part7Types[] = [
     ],
   },
   {
+    id: "images/700toeic/test1/153_155.jpg",
     testSlug: "test-1",
     type: Part7TypesEnum.Single,
     image: "images/700toeic/test1/153_155.jpg",
@@ -188,6 +192,7 @@ export const SinglePassageTest1: Part7Types[] = [
     ],
   },
   {
+    id: "images/700toeic/test1/156_158.jpg",
     testSlug: "test-1",
     type: Part7TypesEnum.Single,
     image: "images/700toeic/test1/156_158.jpg",
@@ -242,6 +247,7 @@ export const SinglePassageTest1: Part7Types[] = [
     ],
   },
   {
+    id: "images/700toeic/test1/159_161.jpg",
     testSlug: "test-1",
     type: Part7TypesEnum.Single,
     image: "images/700toeic/test1/159_161.jpg",
@@ -313,6 +319,7 @@ export const SinglePassageTest1: Part7Types[] = [
   },
 
   {
+    id: "images/700toeic/test1/162_164.jpg",
     testSlug: "test-1",
     type: Part7TypesEnum.Single,
     image: "images/700toeic/test1/162_164.jpg",
@@ -391,6 +398,7 @@ export const SinglePassageTest1: Part7Types[] = [
   },
 
   {
+    id: "images/700toeic/test1/165_167.jpg",
     testSlug: "test-1",
     type: Part7TypesEnum.Single,
     image: "images/700toeic/test1/165_167.jpg",
@@ -457,6 +465,7 @@ export const SinglePassageTest1: Part7Types[] = [
   },
 
   {
+    id: "images/700toeic/test1/168_171.jpg",
     testSlug: "test-1",
     type: Part7TypesEnum.Single,
     image: "images/700toeic/test1/168_171.jpg",
@@ -554,6 +563,7 @@ export const SinglePassageTest1: Part7Types[] = [
   },
 
   {
+    id: "images/700toeic/test1/172_175.jpg",
     testSlug: "test-1",
     type: Part7TypesEnum.Single,
     image: "images/700toeic/test1/172_175.jpg",

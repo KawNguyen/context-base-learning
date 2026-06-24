@@ -4,7 +4,10 @@ export const DoublePassagesTest2: Part7Types[] = [
   {
     testSlug: "test-2",
     type: Part7TypesEnum.Double,
+    id: "images/700toeic/test2/176_180/1.jpg",
+
     image: [
+
       "images/700toeic/test2/176_180/1.jpg",
       "images/700toeic/test2/176_180/2.jpg",
     ],
@@ -146,7 +149,10 @@ export const DoublePassagesTest2: Part7Types[] = [
   {
     testSlug: "test-2",
     type: Part7TypesEnum.Double,
+    id: "images/700toeic/test2/181_185/1.jpg",
+
     image: [
+
       "images/700toeic/test2/181_185/1.jpg",
       "images/700toeic/test2/181_185/2.jpg",
     ],

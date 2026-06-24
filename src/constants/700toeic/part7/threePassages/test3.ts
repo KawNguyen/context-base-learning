@@ -4,7 +4,10 @@ export const TriplePassagesTest3: Part7Types[] = [
   {
     testSlug: "test-3",
     type: Part7TypesEnum.Triple,
+    id: "images/700toeic/test3/186_190/1.jpg",
+
     image: [
+
       "images/700toeic/test3/186_190/1.jpg",
       "images/700toeic/test3/186_190/2.jpg",
       "images/700toeic/test3/186_190/3.jpg",
@@ -99,7 +102,10 @@ export const TriplePassagesTest3: Part7Types[] = [
   {
     testSlug: "test-3",
     type: Part7TypesEnum.Triple,
+    id: "images/700toeic/test3/191_195/1.jpg",
+
     image: [
+
       "images/700toeic/test3/191_195/1.jpg",
       "images/700toeic/test3/191_195/2.jpg",
       "images/700toeic/test3/191_195/3.jpg",
@@ -226,7 +232,10 @@ export const TriplePassagesTest3: Part7Types[] = [
   {
     testSlug: "test-3",
     type: Part7TypesEnum.Triple,
+    id: "images/700toeic/test3/196_200/1.jpg",
+
     image: [
+
       "images/700toeic/test3/196_200/1.jpg",
       "images/700toeic/test3/196_200/2.jpg",
       "images/700toeic/test3/196_200/3.jpg",
