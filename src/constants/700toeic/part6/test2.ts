@@ -64,7 +64,7 @@ export const PassagesTest2: Part6Types[] = [
   {
     testSlug: "test-2",
     id: "odessa-festival-135",
-    image: "/images/700toeic/test2/135-138.jpg",
+    image: "/images/700toeic/test2/135_138.jpg",
     questions: [
       {
         id: "q135",
@@ -127,7 +127,7 @@ export const PassagesTest2: Part6Types[] = [
   {
     testSlug: "test-2",
     id: "orientation-email-139",
-    image: "/images/700toeic/test2/139-142.jpg",
+    image: "/images/700toeic/test2/139_142.jpg",
     questions: [
       {
         id: "q139",
@@ -186,7 +186,7 @@ export const PassagesTest2: Part6Types[] = [
   {
     testSlug: "test-2",
     id: "internal-transfers-143",
-    image: "/images/700toeic/test2/143-146.jpg",
+    image: "/images/700toeic/test2/143_146.jpg",
     questions: [
       {
         id: "q143",

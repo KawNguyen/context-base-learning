@@ -4,7 +4,7 @@ export const PassagesTest3: Part6Types[] = [
   {
     testSlug: "test-3",
     id: "airport-terminal-131",
-    image: "/images/700toeic/test3/131-134.jpg",
+    image: "/images/700toeic/test3/131_134.jpg",
     questions: [
       {
         id: "q131",
@@ -67,7 +67,7 @@ export const PassagesTest3: Part6Types[] = [
   {
     id: "rent-increase-135",
     testSlug: "test-3",
-    image: "/images/700toeic/test3/135-138.jpg",
+    image: "/images/700toeic/test3/135_138.jpg",
     questions: [
       {
         id: "q135",
@@ -130,7 +130,7 @@ export const PassagesTest3: Part6Types[] = [
   {
     testSlug: "test-3",
     id: "auto-mechanics-139",
-    image: "/images/700toeic/test3/139-142.jpg",
+    image: "/images/700toeic/test3/139_142.jpg",
     questions: [
       {
         id: "q139",
@@ -180,7 +180,7 @@ export const PassagesTest3: Part6Types[] = [
   {
     testSlug: "test-3",
     id: "resident-year-143",
-    image: "/images/700toeic/test3/143-146.jpg",
+    image: "/images/700toeic/test3/143_146.jpg",
     questions: [
       {
         id: "q143",
